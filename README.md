@@ -3,7 +3,7 @@ Code to reproduce the models and analysis in the paper "Leveraging the Alignment
 
 ## Data
 
-The data folder contains a copy of the collection ("First Person Narratives of the American South")[https://docsouth.unc.edu/fpn/] and ("North American Slave Narratives")[https://docsouth.unc.edu/neh/], from the library (*Documenting the American South*)[https://docsouth.unc.edu/index.html], housed at Duke University. 
+The data folder contains a copy of the collection ["First Person Narratives of the American South"](https://docsouth.unc.edu/fpn/) and ["North American Slave Narratives"](https://docsouth.unc.edu/neh/), from the library [*Documenting the American South*](https://docsouth.unc.edu/index.html), housed at Duke University. 
 
 It also contains word embedding model produced on this collection (`word2vec_all_clean.txt`) and 40 constructed word embedding models (`word2vec_robust`) created via a radom sample (with replacement) of the sentences in the corpus, for use in producing confidence intervals.
 
