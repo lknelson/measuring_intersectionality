@@ -1,0 +1,1083 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY peter15 SYSTEM "peter15.jpg" NDATA jpeg>
+<!ENTITY peter21 SYSTEM "peter21.jpg" NDATA jpeg>
+<!ENTITY peter27 SYSTEM "peter27.jpg" NDATA jpeg>
+<!ENTITY peter37 SYSTEM "peter37.jpg" NDATA jpeg>
+<!ENTITY peter105 SYSTEM "peter105.jpg" NDATA jpeg>
+<!ENTITY peter67 SYSTEM "peter67.jpg" NDATA jpeg>
+<!ENTITY peter79 SYSTEM "peter79.jpg" NDATA jpeg>
+<!ENTITY petertp SYSTEM "petertp.jpg" NDATA jpeg>
+<!ENTITY petervs SYSTEM "petervs.jpg" NDATA jpeg>
+<!ENTITY peterbk SYSTEM "peterbk.jpg" NDATA jpeg>
+<!ENTITY petercv SYSTEM "petercv.jpg" NDATA jpeg>
+<!ENTITY peterfp SYSTEM "peterfp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>The Looking-Glass: Being a True Report and Narrative of the Life, Travels, and Labors of the Rev. Daniel H. Peterson, a Colored Clergyman; Embracing a Period of Time from the Year 1812 to 1854, and Including His Visit to Western Africa:</emph>
+Electronic Edition.</title>
+        <author>Peterson,  Daniel H.</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Andrew Smith and Natalia Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.     190K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> The Looking-Glass: Being a True Report and Narrative of the Life, Travels, and Labors of the Rev. Daniel H. Peterson, a Colored Clergyman; Embracing a Period of Time from the Year 1812 to 1854, and Including His Visit to Western Africa</title>
+            <title type="cover"> A Land of Rest Peace and Unity A Government of Wisdom 
+and Equality</title>
+            <author>Rev. Daniel H. Peterson</author>
+          </titleStmt>
+          <extent>x, 13-150, [1] p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>NEW - YORK:</pubPlace>
+            <publisher>WRIGHT, PRINTER, 146 FULTON STREET.</publisher>
+            <date>1854.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  BX8449.P4 A3  (Rare Book Collection, University of North Carolina at Chapel Hill)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- Biography.</item>
+            <item>African American clergy -- Biography.</item>
+            <item>African Methodist Episcopal Church -- Clergy -- Biography.</item>
+            <item>Free African Americans -- Biography.</item>
+            <item>Free African Americans -- Colonization -- Liberia.</item>
+            <item>Liberia -- Description and travel.</item>
+            <item>Peterson, Daniel H.</item>
+            <item>African American clergy -- Liberia.</item>
+            <item>African American clergy -- Africa, West.</item>
+            <item>Liberia -- Social conditions.</item>
+            <item>Africa, West -- Description and travel.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2003-10-27, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-03-08, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-02-13, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-01-31, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="petercv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="peterfp">
+            <p>A Lady teaching her little brother and the Author, prior to the latter redeeming his mother, who remains with the lady. The author goes to his new home, carrying with him obedience, truth, honesty, willing at all times to receive good instruction, by which means he was treated as one of the family, and wanted for nothing.<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="petertp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page verso image">
+        <p>
+          <figure id="verso" entity="petervs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">THE <lb/> LOOKING-GLASS: 
+<lb/>BEING <lb/> A TRUE REPORT AND NARRATIVE OF THE LIFE, <lb/> TRAVELS, AND LABORS <lb/> OF THE <lb/> REV. DANIEL H. PETERSON, <lb/> A COLORED CLERGYMAN; 
+<lb/>Embracing a period of time from the year 1812 to 1854, <lb/> AND INCLUDING <lb/> HIS VISIT TO WESTERN AFRICA.</titlePart>
+        </docTitle>
+        <docEdition>WITH ENGRAVINGS</docEdition>
+        <docImprint><pubPlace>NEW - YORK:</pubPlace>
+<publisher>WRIGHT, PRINTER, 146 FULTON STREET.</publisher>
+<docDate>1854.</docDate></docImprint>
+        <pb id="pii" n="verso"/>
+        <docImprint>
+          <docDate>Entered according to Act of Congress, in the year 1854, <lb/> BY REV. DANIEL H. PETERSON, <lb/> In the Clerk's Office of the District Court of the United States for the <lb/> Southern District of New-York.</docDate>
+        </docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="pv" n="v"/>
+        <head>PREFACE</head>
+        <p>The author of this work has for a long time, been greatly concerned for this land and nation, and for the human family in general; but, more particularly, for the unfortunate African, both in this and every other part of the world which he has seen or read of. The Author desires, and his prayer is, that tranquillity, peace, and happiness may cover the earth, as the waters cover the great deep.</p>
+        <p>Forasmuch as there has been a great deal of confusion in relation to my afflicted nation, and different parties holding opposite opinions have come forward with a design to alleviate their condition, which good intentions have 
+<pb id="pvi" n="vi"/>
+all failed, therefore I have made it a matter of prayer, if peradventure I might be enlightened with respect to the best plan for the relief of the colored people. I now feel that I am able to answer this great question in full.</p>
+        <p>First, It is necessary to become Christians, to love and fear God, and keep his commandments, to have patience, and faith in our Lord and Saviour Jesus Christ: then we shall be delivered in due time. Secondly, the reader is referred to the pages of this work Please read it impartially and carefully. You will see plainly that the Author's sole aim is to promote the happiness of the human family here and hereafter. Therefore, I pray that those who will read this book may be forever blessed in this world, and receive endless happiness in the world to come.</p>
+        <closer><signed>D. H. PETERSON.</signed>
+<dateline>New - York, May, 1854.</dateline></closer>
+      </div1>
+      <div1 type="contents">
+        <pb id="pvii" n="vii"/>
+        <head>CONTENTS.</head>
+        <list type="simple">
+          <item>CHAPTER I.
+<lb/>
+The Author purchases his Mother's freedom. An excellent young lady. He goes to Baltimore. Early religious impressions. He goes to Philadelphia and becomes united to the Church. Is Steward on the Delaware. Remarkable vision. His ministry <ref target="p13" targOrder="U">p. 13</ref></item>
+          <item>CHAPTER II.
+<lb/>The Cholera in Philadelphia. The Author is concerned for the poor and afflicted; he visits them. Good fruits of Gospel labor. Pride and vanity in the Bethel Church. Desecration of the old Church. Pulling down the old building. Fatal accident. Misconduct of the Church authorities. An Epistle from D. H. Peterson, warning the Church to take heed of their ways, and admonishing all men to lead a just and holy life on the earth, that they may partake of a heavenly reward hereafter. The Author enters the great Gospel field; leaves Philadelphia, and travels in the Ministry <ref target="p30" targOrder="U">p. 30</ref></item>
+          <pb id="pviii" n="viii"/>
+          <item>CHAPTER III.
+<lb/>
+The Author addresses his brethren in bondage. A door is open for the relief of the people of color. Bethel Church of Philadelphia is reproved for her folly and pride. A great blunder at the Conference in Buffalo. Oppression and persecution. Church in Sixth street, Philadelphia, and her minister. No facilities in the United States for educated colored men. Slavery of the Africans was permitted on account of their rebellion and idolatry. Brilliant prospects for the colored man in Liberia. The Author exhorts his colored brethren to reflect seriously, and choose that good part which will not be taken from them <ref target="p49" targOrder="U">p. 49</ref></item>
+          <item>CHAPTER IV.
+<lb/>
+Good treatment on board the Isla de Cuba. Departure for Liberia. Worship on board every Sabbath. Much sea-sickness. Kind attentions of Capt. Miller. Warm weather on the Coast of Africa. Unsuccessful attempts to take a turtle. Serious accident to the mate, Mr. Hatch. They catch a shark, and cook him for dinner. Description of Cape Mount. A beautiful fish. Visit from a little bird. Visits from the natives on the Coast. Arrival at Monrovia. Mr. Cauldwell goes on shore <ref target="p76" targOrder="U">p. 76</ref></item>
+          <item>CHAPTER V.
+<lb/>
+The Author goes on shore. Kind reception. Visits the President, Judge, and other distinguished persons. Beauty of the country. Description of the town, the soil, and the inhabitants. Good opportunities in Liberia for emigrants. Mechanics, farmers and schoolmasters wanted in Liberia. Those
+<pb id="pix" n="ix"/>
+who lay the foundations of this great nation should be moral, industrious, economical, and religious persons. With the aid of friends in the United States, the cause of colored emigration to Liberia cannot fail to prosper. <ref target="p94" targOrder="U">p. 94</ref></item>
+          <item>CHAPTER VI.
+<lb/>
+The Author visits several places in the vicinity of Monrovia. He speaks a number of times in the Churches. He sails for Sierra Leone. On the passage Mr. Caldwell is very sick, and the Steward tries to get possession of his property. The Author opposes this nefarious attempt. They arrive in Sierra Leone. The Author finishes his business and sails for Gambia. Arrival in Gambia. Mahometans; Idolators; treatment of criminals under the British rule. The Author prefers the United States Government. He sails in the Isla de Cuba for the United States. Storms at sea. The Author trusts in the Lord. Two men concealed on board. The Gulf Stream. Arrival at New-York. <ref target="p102" targOrder="U">p. 102</ref></item>
+          <item>CHAPTER VII.
+<lb/>
+The Author relates part of a conversation with an English officer. Some description of Gambia and its inhabitants. Necessity of cultivation. The minds of the natives must be cultivated as well as the land. Fine opportunities in Africa for steamboats, and enterprising men generally. Cape Mount. No newspaper in Liberia. An excellent opening for Frederick Douglass. Address to the rulers of Liberia. The necessity of treating the natives well and respecting their rights. Duties of parents and teachers. The young should be instructed Mr. Horne in Monrovia. Mrs. Ann Wilkins
+<pb id="px" n="x"/>
+Mr. Phillips, a colored teacher. The Rev. Samuel Williams and family, formerly of Pennsylvania. <ref target="p117" targOrder="U">p. 117</ref></item>
+          <item>CONCLUDING REMARKS. Certificates, including one by His Excellency J. J. Roberts, President of Liberia, Western Africa. Notice of the Return of the barque Isla de Cuba. Resolutions adopted by the Passengers highly complimentary to Capt. Miller, on approaching the Coast of Africa. <ref target="p133" targOrder="U">p. 133</ref></item>
+          <item>Church Collections—On the mode of making them <ref target="p150" targOrder="U">p. 150</ref></item>
+        </list>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p13" n="13"/>
+        <head>THE LOOKING-GLASS.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <argument>
+            <p>The Author purchases his Mother's freedom. An excellent young lady. He goes to Baltimore. Early religious impressions. He goes to Philadelphia and becomes united to the Church. Is Steward on the Delaware. Remarkable vision. His ministry.</p>
+          </argument>
+          <p>MY parents were slaves. The place of my nativity was in the State of Maryland, near Baltimore, in the respectable family of a Mr. Tyler, near connexion of the Hon. John Tyler, late President of the United States.</p>
+          <p>In the year of our Lord 1812, my mother was too aged to be emancipated, and was left in slavery. She, however, desired her liberty, but knew not how to obtain it. The Author, although but a small boy, readily agreed to enter an apprenticeship for the redemption of his mother. Children can never remunerate faithful parents for the care that has been extended to them in their tender years, and for the trouble and anxiety of which they have been the 
+<pb id="p14" n="14"/>
+cause. Therefore it is in obedience to the dictates of wisdom, that children and youth obey and honor their parents. If they do this, they will be blessed for ever. I realized this blessing from that time forth: and my dear aged mother died a free woman in the year 1844.</p>
+          <p>I fulfilled my obligations faithfully in all things, and was treated as one of the family. Among those with whom I lived, was a young lady, Miss S. T., highly accomplished and benevolent, with fine Christian feelings, and very kind to the poor. Through the blessing of the Lord, she took the oversight of me, and from that source I received instruction and other great benefits. I parted from this family at length, not without regret and sorrow on both sides, for I esteemed them for their kind treatment of me, while they respected me for my obedience and the faithful service which I had rendered them. But I desired to acquire attainments by which I might become useful to my fellow-men. I remembered the impressions that had been made upon me, when a child, at the prayer meetings that had been held in the house of my parents. Those religious impressions were the first that I had experienced, and they never left me. They preserved me from vice, and influenced my conduct in all times and places. They
+<pb id="pxxx3" n="15"/>
+<figure id="ill1" entity="peter15"><p>The Author attending in a gentleman's family.</p></figure>
+<pb id="p17" n="17"/>
+were like grain that is sown, and continues to grow until it has arrived at full perfection. Therefore, prayer is always good, and to be recommended to all persons under all circumstances. The aforesaid family is certainly a great and noble family, and have done much for me, in the way both of example and of instruction, but the time came for us to part, as I had a greater work to do.</p>
+          <p>I then took up my residence in Baltimore, with respectable and eminent families. I  was treated well and allowed money, and excellent privileges, which I endeavored to improve both by moral and religious exercises. I avoided all bad company, and was full of zeal for the Church, and of love for all mankind. I continued to look ahead, and pressed forward to the mark of a higher calling, which I believed it was possible for me to obtain. I lived a considerable time with Mr. Hopkinson, by whom I was well treated: also, with Messrs. Cook, Gilmore, Hollins, McBlair, and Commodore Ridgely, who were good men: also, with William Hollins, Jr. Esq., and Col. P. Workman. These were all gentlemen of the highest standing, merchants, &amp;c. I also lived with many others, among whom were Messrs. Oliver and Thompson, all of whom moved in the highest circles of that city; they supplied me with whatever was necessary 
+<pb id="p18" n="18"/>
+to my comfort and convenience. When I wanted clothing, I had only to call upon the tailor and get a supply, these gentlemen freely paying all my bills.</p>
+          <p>Many colored persons entertain the opinion that all white people are their enemies. That is not true, for I declare that, from a child unto this day, I have found all my best friends among the white people. Therefore, the prejudice which I have mentioned is the child of ignorance, resulting from the want of a clear conception of facts, and sometimes from impropriety of conduct. A great many men bring trouble upon themselves, by their own mismanagement.</p>
+          <p>While living with the gentlemen whom I have named, I applied myself to the study of the Word of the Lord, with prayer and meditation. I found it good so to do. I perceived that the spirit of the Lord was with me, and felt an impression that I must labor in the vineyard of the Most High.</p>
+          <p>In the year 1815, I left Baltimore and went to Philadelphia, in the State of Pennsylvania. There I united with the Church and became a member, under the influence of the gospel preached by Rev. Mr. Fox, an old minister from Frenchtown. His text was Matthew xiii. v. 48. “They gathered the good into vessels, but cast the  bad away.” It was under 
+<pb id="p19" n="19"/>
+the power of these words, that the spirit came home to me. I rejoiced in the blessed Lord and his great mercies, for he redeemed me from sin and death. I was still impressed with the idea that there was a greater work for me to do than to remain an ordinary member of the Church. I made it the subject of prayer, and besought the Lord to instruct me in regard to his will. In that condition I remained for a season, awaiting an answer. During this time I was engaged in domestic life, having good employment in the best families. I was sent for, to come to Burlington, N. J., and act as steward in the house of John Griffith, Esq., at Green Bank, the building occupied by the British Governor while the country was subject to the English crown. I went to Green Bank and lived with the family awhile. I was much pleased with them, and they were well satisfied with me. They wished me to remain with them, but I was sent for by those honorable gentlemen, the Captains of the steamboats on the Delaware river, in connection with the establishment of Robert L. Stevens, Esq. and Brothers of New-York, the first engineers in the country. I engaged in the employment of those favorite Captains A. and M. Jenkins, and remained with them a number of years as chief steward, having full charge of the Bar and Table,
+<pb id="p20" n="20"/>
+and control over all the cabins, &amp;c. Those excellent men will never be blotted from my remembrance.</p>
+          <p>Notwithstanding my good situation, ample wages, and kind treatment, I found it my duty to leave all. I was impressed with the conviction that the Lord had other work for me to do. I said to the Captain—“Sir, I shall be obliged to leave you. I have no fault to find with my place, but I am impressed with a belief that I am called elsewhere by the Spirit.” Our accounts were then settled in an honorable manner, and having put another man in my place, I took my departure. I then travelled with James McClanaghan, Esq., to New-York, who went from Baltimore to the former city with his family, soon after losing his wife. He was connected with the great house of John B. Murray and Son. I remained awhile with Mr. McClanaghan, and was treated well by him.</p>
+          <p>At the time appointed, I left him and went to Philadelphia. There I settled and began to look out for a bosom friend, one to whom I could confide my secret thoughts, and whose advice would always be of service to me. After a time I became acquainted with one of the most respectable colored families in the city of Philadelphia, that of Mr. Jonathan Trusty, residing in Locust street. I married
+<pb id="p21" n="21"/>
+<figure id="ill2" entity="peter21"><p>The Author as a Steward on the Delaware.</p><p>The cabins were always clean and in good order; due respect paid to <lb/> the owners and officers; and every attention to all passengers.</p></figure>
+<pb id="p23" n="23"/>
+his eldest daughter, Mary Trusty. At that time Mr. Trusty was a man of property and a trustee of the Church, over which he exercised much influence. I then settled down and went into business for myself for a few years. During that time I applied for a license to preach. I had difficulty in obtaining it, but <sic corr="succeeded">succceded</sic> after a while. I labored in the city and county extensively for several years. The Lord blessed my labors, I had a good wife, very kind on all occasions, and I continued awhile in Philadelphia with my agreeable family. But the blessed Lord showed me that this could not always be. “Not so,” said He—“thou art a chosen vessel, and I will send thee far away. Thou shalt bear testimony for my name's sake in distant lands, even among those who know me not, and have not heard the glad tidings of the gospel.”</p>
+          <p>The Lord showed me in the visions of the night, upon my bed, the dreadful state of mankind throughout the world, living in sin and wickedness. “Oh! wretched man!” said I—“who shall deliver me from this body of sin and death!” There is none can do this but out Lord and Saviour Jesus Christ, and He only, for Christ has become a sacrifice for us. Therefore let us keep the feast with love and unity, which is well pleasing in the sight of the<pb id="p24" n="24"/>
+Lord.” In the vision of the night, I saw come to the door of my dwelling, a coach and four white horses, with a good driver. I was taken into the carriage, and it was driven off. We travelled far away in a South-Western direction, until we arrived at a large village. There I alighted from the coach and saw it no more. But the people of the town were in a state of intense excitement, and for some cause unknown to me, they were filled with fear and horror. I then saw a garden in which there was no grass, but a number of young vegetables had sprung up and were in a flourishing condition. I passed through the garden with a saw in my hand. I looked, and beheld a number of people gazing from their windows, both above and below; and then I saw a cloud rising in the West. There was thunder and lightning, and the people were much alarmed. I passed out of the garden with the saw in my hand, and was fearful that it would attract the lightning. As I left the garden, the cloud became more dark and terrific. I saw ships tossed to and fro upon the cloud; and after that, I saw two persons of very solemn appearance ascend from behind, and stand upon the top of the cloud. Above these two beings, the sky was perfectly clear, and their feet rested on the very summit of the cloud. One of these men held
+<pb id="p25" n="25"/>
+in his hand a sword, and the other was armed with a spear.</p>
+          <p>These two men appeared to be very angry with the world of mankind. They turned swiftly around and brandished their weapons in a threatening manner, and soon afterwards they disappeared again behind the cloud, the one following the other in his descent. As soon as the two men were gone, fire came from the cloud. The earth itself was ignited by this fire, and the flames ascended to the skies. The conflagration extended so swiftly along the earth, that neither beast nor bird could escape its fury.</p>
+          <p>After witnessing this vision, I came to the determination to leave all and enter fully into the vineyard of the Lord. “Every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name's sake, shall receive an hundred fold, and shall inherit everlasting life.”—Matt. xix. 29 v.</p>
+          <p>The reader will please observe, that the family with which I was connected was that of Mr. Jonathan Trusty and his wife Esther, a religious family, in which there were only three children—Mary, the eldest, whom I married, Hannah, who became the wife of Mr. Wm. Tucker, of Lexington, Ky., and Esther, who remains single and resides in my family 
+<pb id="p26" n="26"/>
+at the present time. The worthy gentleman referred to on another page, M. Jenkins, Esq., has retired from business, and now resides in Trenton, N. J., surrounded by his worthy family—a perfect gentleman and sincere Christian.</p>
+          <p>It must be borne in mind, that in my vision I beheld the great evil of slavery in this gigantic Republic, as well as the magnitude of other sins. I prayed that the iniquities of the nations might all be removed, so that this great earth might become a perfect Paradise, a place of happiness and joy, instead of sickness,  sorrow, pain, and death.</p>
+          <p>I consulted my wife in regard to the new views that had been opened to my mind, to which she replied, “If you must leave us, the will of the blessed Son be done. I will, with the help of the Lord, do the best that I can in all things; but you will remember me and all others in your prayers, at all times and places, and we will remember you in our weak way.” I next waited upon several of the clergymen in the city. I told them that my intention was to embark upon the great Gospel ocean, and endeavor to turn men from darkness to light. They gave me the right hand of fellowship, and said, “Brother, go on, and may the Blessed One be with
+<pb id="p27" n="27"/>
+<figure id="ill3" entity="peter27"><p>Connection of the Author with the Church.</p><p>“One thing I desire, that I may dwell in the house of the Lord <lb/> for ever.”</p></figure>
+<pb id="p29" n="29"/>
+you for ever.” They then presented me with letters of recommendation to all people among whom my lot might be cast. So I entered fully into this work, in the year of our Lord 1848.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p30" n="30"/>
+          <head>CHAPTER II.</head>
+          <argument>
+            <p>The Cholera in Philadelphia. The Author is concerned for the poor and afflicted; he visits them. Good fruits of Gospel labor. Pride and vanity in the Bethel Church. Desecration of the old Church. Pulling down the old building. Fatal accident. Misconduct of the Church authorities. An Epistle from D. H. Peterson, warning the Church to take heed of their ways, and admonishing all men to lead a just and holy life on the earth, that they may partake of a heavenly reward hereafter. The Author enters the great Gospel field; leaves Philadelphia, and travels in the ministry.</p>
+          </argument>
+          <p>IT is now necessary for me to go back a little, and give some account of the condition of the Church in Philadelphia, at the time that I officiated there.</p>
+          <p>At the time of the Cholera in Philadelphia, I was there. The disease was very violent and contagious, but I was in the midst of it I went into the sick house which was provided by the Corporation for the poor and friendless sufferers. This place was vocal with the groans of the sick and dying. I prayed and sang with these afflicted persons, and 
+<pb id="p31" n="31"/>
+administered to their several wants. I also went out upon the Commons, where the poor were encamped to prevent the spread of the disorder, and received no harm from my attentions to the sick. I was not afraid of the Cholera, for I knew that the Lord was all-sufficient everywhere, and under all circumstances.</p>
+          <p>The good effect of laboring with these people at such a time was soon apparent; for by this means a Church sprang up for the gathering in of the lost sheep of the house of Israel. As a result of those labors, there still remain many members in good standing. Some of them became preachers. But the time came when I must leave them all. Before I left Philadelphia, I warned the Churches, particularly Bethel Church. The members of this Church first commenced their worship in a blacksmith's shop. At that time, they were humble and pious. After a while, they built a good, plain, brick church; but afterwards they began to grow proud, and wanted a more fine and showy edifice in which to worship the Most High. A public meeting was called to consult upon the subject. I attended this meeting, and as they had not the money for building, and the church they had would last yet a long time, I recommended to them that they should postpone 
+<pb id="p32" n="32"/>
+the work for the present, and not commence it until they were better prepared. They would not listen to me, but went on in their own way.</p>
+          <p>They finally declared their intention of holding a Fair in the old church, and then pulling it down to make way for the new one, which they would build on the same site with the money that had been raised by the Fair. So they went on with the Fair in the church for many days, during which time there was much strife and contention among them. As soon as the Fair was over, they commenced pulling down the old church. With sorrow, I add, that a part of it gave way and fell upon several innocent persons, who were killed. One misfortune after another followed. Among other things, the gas pipes burst; and then came a great law-suit, which cost more money and time, and occasioned more idleness, than ten Fairs were worth. Finally, it ended in the division of the Church. Many of the old members, who had toiled many years and spent all their living to build up the society, were cast out, and in this way divided from their parents, children, and friends. Something more may be said of this hereafter, but I will here observe, that sinful acts like those will be decided upon in the great day of final account.</p>
+          <p>I left them all, and took the Lord for my portion, 
+<pb id="p33" n="33"/>
+and him only. Before I departed from Philadelphia, I addressed the following circular to the Church.</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="section">
+                  <head>CIRCULAR.</head>
+                  <p>“To the true Ministers of the Gospel of Christ, to the Clergymen of every denomination, and to all those who undertake to govern and rule the Church of God: to all Itinerant Ministers, and more particularly such as belong to the Bethel connection: knowing that these last are not so mature as some others, and for that cause are more liable to be led astray, and taken captive by the gods of this world, becoming worshippers of idols. By such means, the Church grows barren and unfruitful, and the members become lukewarm and contentious, causing the true members to mourn, while the Church, instead of being a blessing and a comfort, brings forth wrath and malice, and the fruits of bitterness.</p>
+                  <p>But if the members of the Church would keep the commandments, and live according to the Gospel, the world would not be in such a dark and wretched state as it is at this time; for the blessed Saviour said, ‘Ye are the light of the world; ye are a city set upon a hill.’ Therefore, you ought to attend only to spiritual things, and not to suffer anything to approach the holy place of worship like sin, or 
+<pb id="p34" n="34"/>
+anything that would cause contention amongst the members, except the board and body fully consent to their introduction among you. But to force such things upon the members, whether or not, is unlawful, and cannot be approved either by saint or by sinner.</p>
+                  <p>About eighteen months since, the ministers, trustees, and members proposed to take down and rebuild Bethel Church, at which period the society was free from debt, and owned property worth from $25,000 to $50,000; they having begun from nothing between forty and fifty years since, under the direction of Rev. Richard Allen. At that time, they trusted in the promises of a merciful God, and the good feelings of the humane citizens who aided them with means, and granted them a charter and a discipline that we might do justice to each other and all mankind, at the same time that we honored and worshipped the God of glory in spirit and in truth, under our own vine and fig-tree, with none to make us afraid: for the wholesome law of the land would protect us while we acted the part of Christians. Now, we must have a new church, which is very right; but let us have it in peace and harmony, and let us not leave the good old way. But I am sorry to say that we have left that path, and have gone 
+<pb id="p35" n="35"/>
+rather astray. It is a shame that, in this day of light, we should have given occasion for any to say that we are going after the gods of this world. In so doing, we have even trampled upon the wholesome laws of the land granted by the honorable Legislature of the State of Pennsylvania.</p>
+                  <p>Herein, you will understand that a charge is made against all those among us who are entrusted with authority, whether temporal or spiritual, because they have neither considered nor cared for the feelings of their brethren and sisters, fellow-members of the Church; and have been scarcely careful enough of their own word, for they promised one thing and did another. For their unlawful acts, there was a charge entered against these men who hold authority over the Church; and it was placed in the hands of Bishop Brown, by E. Mann and J. W. Stokes. After the Bishop had held the charge a few days, he reported to the Board that he would call in three itinerant ministers and try the case. Instead of doing as he had reported, he called the Board together and exonerated them from the charge, without examining witnesses on the strength of the Church. So they voted themselves innocent of the charge, and went on as before, judging and condemning others. Therefore, I ask you, God-fearing men, and those belonging 
+<pb id="p36" n="36"/>
+to the Itinerancy, whether these things are right—whether they are according to discipline and to the charter which is granted unto us. I think <hi rend="italics">not.</hi> Therefore, according to discipline, I entered a charge against several persons, which remains still untried, and those persons are continued in their several stations as before. It was published in the Church that Quarterly Conference would take place on July 6th, 1841. Accordingly the members met, and instead of doing the business of the Conference, they spent the whole evening in striving to exonerate the Elders, Rev. Richard Williams, and the Trustees. This they did by mob and gag law; and so they proceeded till the time for adjournment. The above meeting was entirely illegal, and contrary to good order: because the same men who committed the offences which caused disorder, sat as judges to try the case.</p>
+                  <p>I ask you if this can be right. If this is according to rule, there is a great deal wanted to put the Church in order—a new Church, a new government, new hearts, and new rules. Therefore, let old things be done away, and all things become new.</p>
+                  <p>The principal cause of this trouble in the Church is, that the Trustees and Elders suffered a fair to be held on that consecrated and sacred ground, in a
+<pb id="p37" n="37"/>
+<figure id="ill4" entity="peter37"><p>Marriage and Settlement of the Rev. D. H. Peterson.</p><p>“The first noble gift unto man. So let us ever remember the vow, and keep the covenant forever in view.”</p></figure>
+<pb id="p39" n="39"/>
+place where the first bud and branch of spiritual liberty sprang forth and produced fruit that was healthy and sweet to the taste of the poor, despised race, and to all the human family—a place of <sic corr="deposit">deposite</sic> for the dust of our ancestors. On that holy spot are the remains of the Right. Rev. RICHARD ALLEN,  the founder and promoter of that sacred institution, and the father of her faithful members.</p>
+                  <p>Many of the members of the Church were very much opposed to the scheme of holding a fair upon that spot, and the Trustees and Elders promised that it should not be held there. But, a few days afterward, Rev. Walter Proctor announced from the pulpit that a fair would be held in Bethel; and it was again proclaimed by D. Ware, shortly after its first promulgation. Notwithstanding these proceedings, a great number of the members were still opposed to holding the fair in the church: but it was held, after Sabbath evening preaching, between 5 and 12 o'clock. The Bishop, the Elders, and Trustees, all state that they knew nothing about it, and lay the whole blame upon the carpenter, while he says that they asked him to let those women have the church for a fair.</p>
+                  <p>As the first evening meeting on Sixth street was a breach in every point of view, and as one had existed 
+<pb id="p40" n="40"/>
+for many months, a legal charge was made by D. H. Peterson at that time, against the following persons, and others since deceased, and placed at the tabernacle in Wagner's Alley:</p>
+                  <list type="simple">
+                    <item>Rev. W. Proctor,</item>
+                    <item>V. Neal,</item>
+                    <item>T. Gibbs,</item>
+                    <item>J. Lesby,</item>
+                    <item>B. Johnson,</item>
+                    <item>A. Brown,</item>
+                    <item>A. Crippen,</item>
+                    <item>A. Till,</item>
+                    <item>J. Eddey,</item>
+                    <item>H. Dickenson,</item>
+                    <item>M. Young.</item>
+                  </list>
+                  <p>We trust that all persons who say they love and fear the Lord, and endeavor to keep his commandments, will not suffer anything like this fair to be carried into their holy places of worship, though they may gain ten thousand dollars by it; for what is the whole world to them, if they lose their own souls? The great evil of the thing is, that we show more love for this world than we have for the Lord, and thus we lose the power which the Lord confers upon us to rule his people, remaining in ignorance and darkness, by reason of our disobedience.</p>
+                  <p>While they were endeavoring to settle the aforementioned cases, the Rev. Bishop stated that he had a charge in his pocket, handed him by a respectable member named Benjamin Wilson, against the Trustees, 
+<pb id="p41" n="41"/>
+for misdemeanor and violation of the Constitution.</p>
+                  <p>If matters cannot be conducted better than they are at present, we had better call a General Convention, and see if there cannot be some improvements made in the spiritual government of the Church: for, while three or four thousand souls are looking for instruction, there is only confusion and strife among us by reason of bad management. The old and sorrowing members must not be forgotten. They should be aided and preferred in all things, because they have borne the heat and burthen of the day; and let the man of God attend to godly things and have no fellowship with the unfruitful works of darkness.</p>
+                  <p>Therefore, I do sincerely trust and hope that those matters will be taken up in a proper time, either before or at the General Conference, and sifted to the bottom, so that holy things shall be no more trampled under unhallowed feet, and that the blessing of God may flow through the whole world, and his grace may be received by all men.</p>
+                  <p>In the year of our Lord 1842, a circumstance somewhat similar to that which has been mentioned occurred in New-Jersey, in which Butler and the 
+<pb id="p42" n="42"/>
+Author were involved. The case was given to the Bishop, who called three official men to his side and settled it without trouble. Liberty of conscience was granted, and worship was allowed to be performed at any convenient time and place. It was signed as follows:</p>
+                  <list type="simple">
+                    <item>Rev. W. Proctor,</item>
+                    <item>Rev. D. Ware,</item>
+                    <item>Rev. Jeremiah Durham,</item>
+                    <item>Right Rev. MORRIS BROWN.</item>
+                  </list>
+                  <p>This is the third GENERAL EPISTLE OF PETERSON, in defence of the Church of God, written with good feeling towards his brethren, without respect of persons, in his official capacity, in full standing, and in the performance of all his duties, (as is well known,) both spiritual and temporal.</p>
+                  <closer><salute>I am truly, your friend and brother in the Lord,</salute>
+<signed>D. H. PETERSON.</signed>
+<dateline>In the year of our Lord 1841, August 28th.</dateline></closer>
+                </div1>
+                <div1 type="section">
+                  <p>P. S.—A reformation in our spiritual government is very loudly called for, and must be effected ere long. At the time of our ignorance God winked. At the commencement of this religious establishment, there was but little learning, poor judgment, and few people. It was nearly half a century ago, when money had to be obtained, though there was 
+<pb id="p43" n="43"/>
+much darkness in the land, and enemies were numerous: though, even then, the Church had some friends. They concluded to elect nine trustees, and to unite them with the Bishop or Elders in charge, the trustees to be subject to the Bishop or Elders, particularly in spiritual matters. That was well enough at that time: but now see how different things are. We want fine churches, and have them we must, at all hazards; also large congregations and a plenty of learning.</p>
+                  <p>Now, I ask you, if those nine trustees are elected for nine years to do justice to the people in all things, and they often do wrong, and if, when a charge is entered, he that is placed at their head will not proceed against them, but the discipline, the constitution, itinerant principles, and the resolutions of the Conference are all forgotten, and those nine men and their head will do as they please with the means, and manage the affairs of two thousand people without regard to justice or right, and there is no remedy for all this—if, I say, such be the condition of things among us, must  there not be something done in order to insure the prosperity of the Church?</p>
+                  <p>Again, the Scriptures say, “Wherever the Spirit of the Lord is, there is liberty:” but there is no liberty here; for, if a man expresses his opinion 
+<pb id="p44" n="44"/>
+freely, they take away his liberty, whether he speaks rightly or wrongly. The ministers are not permitted to preach at times and places, according to their own sense of duty and propriety. If their liberties must be taken away in this manner, I pray that the Lord will, in his mercy, use some means to enlighten the human family so that they may be able to discern good from bad, and may be led to choose that good part which cannot be taken from them.</p>
+                  <p>To one of the nine Trustees the opportunity has been afforded of becoming a joint-heir with the Church, the greater part of an estate having been willed to him, and but a small part of it to the Church. It is said that the testator was insane at the time he disposed of his property in that manner. It will be but right and honorable in the Church to disclaim all right or title to the property, as the owner of it left a widow and several helpless children without any support. It is the duty of the Church to make known, through the medium of the public press, that they have neither part nor lot in this unreasonable matter.</p>
+                  <p>Again—the man who is appointed to stand at the head of the Church government should possess a strong mind, a sound judgment, a good knowledge and understanding of the Scriptures of Truth, and 
+<pb id="p45" n="45"/>
+the Gospel of Christ: he should also love and adhere to the discipline, and the Lord would then direct his way and preserve him in the right path through life: and if we walk by the rule of the Gospel, he will save us in the eternal world.</p>
+                  <p>Old age is honorable, and should be respected at all times and upon all occasions: but there is a fitness to be observed in the administration of public affairs; and when a man is far advanced in life, he is generally incompetent to govern a great body of men. Therefore, there is a change required in this respect. Then it will be made known to us all, that nothing of a temporal nature should be suffered to be introduced among the followers of the blessed Lord and Saviour, Jesus Christ, without first consulting the oracles of God, and getting the consent of the Board and body. Even after obtaining their consent, there may be sin in doing such things. It is, therefore, good for us all to confess our faults, for we have been unguarded in this matter, and repent and pray that the Lord will pardon and forgive us our folly, and repair the breach that this evil has made in the wall, and bring us all into the bonds of love, and keep us forever, through Jesus Christ our Lord and Saviour.—Amen. I may write again, God willing. I will endeavor to show those who have turned their 
+<pb id="p46" n="46"/>
+coats in this matter, and how unstable some men are in all their ways. There are many other important points which I shall endeavor to lay before you for the good of the rising generation and mankind at large.</p>
+                  <closer>
+                    <signed>D. H. P.”</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>Being now clear of the Church in Philadelphia, I prepared to go forth into the great vineyard, and labor in the bonds of the everlasting Gospel. The following certificates were given me by my clerical brethren, that I might be known to those whom I visited:</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>“Philadelphia, Jan. 2, 1849.</dateline>
+                  </opener>
+                  <p>“This certifies that the bearer, Rev. Daniel H. Peterson, is an acceptable member of the A. F. M. E. Church, a member of Conference, and a preacher of the Gospel.</p>
+                  <closer>
+                    <signed>JOHN CORNISH,
+<lb/>Pastor, &amp;c., Bethel Church.”</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>“Philadelphia, Jan. 24, 1849.</dateline>
+                  </opener>
+                  <p>“This will certify that we have known Rev. D. H. Peterson a number of years. We have ever found him to be an honest man, whose word is to be depended upon. He is a full member of the Christian Church, of good standing, &amp;c. He is an official man;
+<pb id="p47" n="47"/>
+therefore, we recommend him to all, and sincerely trust that the Christian community and good citizens will receive him, and give him the right hand of fellowship, and in his mission, aid him with such things as he may stand in need of. Such is the duty of Christians in all cases. Therefore he has our sincere prayers and good wishes, that he may be useful in all sects and denominations. Such is his desire: to promote the Kingdom of the Most High God, and to benefit the world of mankind.</p>
+                  <closer><salute>“We subscribe our names most respectfully:</salute>
+<signed>Rev. JOHN CORNISH,
+<lb/>Pastor of Bethel Church.</signed><signed>Rev. STEPHEN GLOUCESTER,
+<lb/>Pastor Presbyterian Church.</signed><signed>Rev. GEORGE GALBRAITH,
+<lb/>Pastor Wesleyan Church.</signed><signed>Rev. DANIEL SCOTT,
+<lb/>Baptist Church.”</signed></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>With these certificates I went forth, and since that time I have endeavored to proclaim liberty and free salvation in the Gospel of our Lord and Saviour Jesus Christ, to a dying people throughout a great part of the United States of America, this great Republic, the garden-spot of the world, which is lighted 
+<pb id="p48" n="48"/>
+up with the Gospel of our Lord and Saviour Jesus Christ. I, therefore, do trust and pray that through this great light, all the evil, and sins and oppressions, may be plainly seen and purged away, that she and her inhabitants may be blessed for evermore.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p49" n="49"/>
+          <head>CHAPTER III.</head>
+          <argument>
+            <p>The Author addresses his brethren in bondage. A door is open for the relief of the people of color. Bethel Church of Philadelphia is reproved for her folly and pride. A great blunder at the Conference in Buffalo. Oppression and persecution. Church in Sixth street, Philadelphia, and her minister. No facilities in the United States for educated colored men. Slavery of the Africans was permitted on account of their rebellion and idolatry. Brilliant prospects for the colored man in Liberia. The Author exhorts his colored brethren to reflect seriously, and choose that good part which will not be taken from them.</p>
+          </argument>
+          <p>I WOULD commence this chapter with some remarks about my colored brethren who are under the yoke of bondage. Let me address you one word of consolation. At the time that your ancestors were brought from Africa, the rights of man were but little understood; while Africa itself was a land of darkness, where the people made merchandise of each other, and entirely neglected the true worship of the Almighty God. You were brought hither 
+<pb id="p50" n="50"/>
+by a nation who are now said to be your best friends, but they left you here in bondage. The land from whence you came is still in darkness, while here you are daily gaining light and religion; and although you may have suffered, and may suffer still more, yet it will all redound to the glory and honor of the Lord; and, in the fulness of time, we may be the instruments in the hand of the Lord for redeeming that very land from the darkness of ignorance and superstition, and planting the banner of the Cross in that wilderness of thorns from which our forefathers were taken.</p>
+          <p>The great evils which we have suffered came upon us, our forefathers, and our nation, on account of our disobedience, rebellion, and neglect of God. Dear brethren, the remedy for these evils is righteousness and truth. Be willing and obedient, and you shall eat the fat of the land. Wait patiently upon the Lord, and he will bring about all things in the fulness of time; and when we are qualified, we shall return to that country out of which our fathers came, and light it up with the pure flame of the Gospel, so that all our afflicted people may be restored to their <sic corr="liberty,">iiberty,</sic> land, and nation, and the Lord's name be praised and glorified for ever.</p>
+          <p>It is said that the number of colored people who 
+<pb id="p51" n="51"/>
+are bound is three millions, while the free are about one-third of that amount. In this you can plainly discern the wonderful agency of the Lord, for at one time they were all bound. Since then, many have been released from bondage, and are now nominally free: but there is not an actually free colored person in the United States, for they are not citizens. Every intelligent person knows this to be a fact. It is for this cause that there are now so many wise and good men, wealthy men also, together with a great number of honorable and benevolent ladies, standing up in our behalf and pleading our humble cause. They have even opened for us a door of deliverance, so that we may enjoy all the rights and privileges of men, both religious and civil—so that we may serve and worship the Lord under our own vine and fig-tree, where none can make us afraid. It is wonderful to see what pains and care those kind people have taken for our comfort and happiness. Observe the great provision that is made for us both on land and sea. No steamer or vessel of any kind could have treated their passengers better than those were treated who sailed in the barque Isla de Cuba, A. Miller, master, and Mr. Hatch, chief mate. There was every attention paid to all the passengers, and nothing which could be necessary to their comfort
+<pb id="p52" n="52"/>
+and convenience was denied them, that I can assure you.</p>
+          <p>I will now address a few words to that portion of the colored population which is called free, to the colored Churches at large, &amp;c.</p>
+          <p>My dear brethren, I have zeal and love for all mankind, but particularly for you, my afflicted brethren, bone of my bone, and flesh of my flesh. I am sorry to say, that I know many of us are misled by wrong instruction, by not taking the counsel which the Saviour gave his disciples—that is, to come and see for yourselves. But, brethren, you see what your condition is in the United States of America: you know that you cannot obtain your citizenship. You are greatly in the minority: the best of you are deprived of their rights and privileges, and so you must continue to be, as long as slavery continues; for we are all bound, in part, by the same cord, the laws and customs of the country recognizing us as an inferior people.</p>
+          <p>It becomes us, then, as rational beings, to examine these things. I feel myself bound, and I trust that every intelligent man and woman is bound, to leave no stone unturned for the bettering of the condition of the colored population at large, in a peaceable, quiet, and religious manner, to the glory and honor 
+<pb id="p53" n="53"/>
+of the Lord, and the peace of all mankind. Remember, that the people of God suffered four hundred years in Egypt, and in the fulness of time the Lord sent them Moses as a deliverer: but that work was not accomplished in one day. It required a long time and much labor to accomplish it. The sufferings of the Israelites in Egypt, were much greater than ours in this country. Their children were put to death by oppression, and they lost the covenant of their forefathers which they made with the Lord. But Moses was an instrument in the hands of the Lord, in leading the people out of bondage. Those people were among the heathens, but we are in the midst of Christians: their taskmasters made no provision for improving the condition of the sufferers, but there is good provision made for us by the true friends of the colored race, comprising many comforts and conveniences. You are now invited to come and embrace the offer, lest the time may arrive when this great door shall be shut, so that you cannot enter in and enjoy the blessings which are now held out for your acceptance. Therefore, come, now or never.</p>
+          <p>There is another advantage which you have over the Hebrews. The rulers of Egypt did not aid them in their religious worship by providing churches or 
+<pb id="p54" n="54"/>
+any other conveniences: but the Christian community of these United States has ever been, and still is, very kind and benevolent towards us in all cases. They have ever aided us very kindly in obtaining places of worship for the religious instruction of our unfortunate people. New-York, New-Jersey, and Pennsylvania, have ever been willing and ready to aid us in obtaining places of worship and all other good institutions. So you see that we are greatly blessed in those important particulars. We have now Churches and Free Schools in every county and city, village and neighborhood.</p>
+          <p>It is therefore manifest, that there is no lack on the part of the religious community, though there is no inconsiderable neglect upon ours. We are greatly indebted to all the States East of New-York for their kind treatment, and for the aid which they have so cheerfully extended to us in all our humble enterprises. They have done much for us in a great variety of ways.</p>
+          <p>But what is the state of those Churches of ours that have been so much favored? How do they prosper <hi rend="italics">now?</hi> They are all fast asleep. They are sheep scattered in the wilderness without a shepherd, or like men upon a raft drifting about on the sea without captain, pilot, chart, or compass. They are <pb id="p55" n="55"/>
+carried every way but the right way. They have suffered shipwreck by reason of sin and self-interest on the part of their spiritual rulers. Ministers of my colored brethren, it is needful that all of you should wake up: otherwise, your captains and shepherds, crews, cargoes, and passengers, will all be swallowed up in the great maelstrom of perdition.</p>
+          <p>Therefore we call your serious attention to a great work. Thou that sleepest, awake, for the night is far spent, and the day is at hand. Watch and be sober, as we have never yet been free men and women in this country. Now the time has come when we all have an opportunity to embrace our freedom, both moral and religious, military and civil—houses and lands all free! What more can we ask, or what more can be done for us at this time? It is now high time for us to go to work in the right way and help ourselves, and then we shall find help in the time of need. Now let us make this contract—if you awake first, please wake me to a sense of my duties, and I will arise and go to work; but if I awake first, I will wake you up, and you must go to work for yourself, and for your Church and people—in fact, for all the human family. This is the duty of all ministers of the Gospel. Brethren, what have we been doing, and where are the fruits of our labor? 
+<pb id="p56" n="56"/>
+I fear they are but very few. What is the cause of this? We have departed from the first principles of the Gospel. Then, let us stop short, retrace our steps, and do our first works, and the Lord will bless us: he will bless you and yours for ever.</p>
+          <p>I am now speaking more particularly to my Presbyterian and Baptist brethren. With both denominations I am well acquainted, with you and your Churches, both white and colored. You are all kind and friendly, and do give all Christians the right hand of fellowship. I have ever found Christian fellowship with you; indeed, more so than with many others who make much louder professions. Therefore, I say unto you, be faithful, and consider the good of all mankind. I have found the ministers and members of the Protestant Episcopal Church kind and benevolent in almost all cases: also, the Universalist ministers and societies are kind and benevolent people: also, the Friends—their kindness is seasoned with humanity and friendliness.</p>
+          <p>But, I am now about to speak to my colored brethren of the Methodist order. I want you to hear me. Wake up, Zion, from your slumbers, shake the dust from your souls, put on the beautiful garment of salvation, and shine in the brightness of renewed hope, for the light is come and the glory of 
+<pb id="p57" n="57"/>
+the Lord is risen. Let all darkness flee away like the shades of night at the rising of the sun. We have been too long in obscurity already; we have stumbled one over another; we have stood in our own light. We are carelessly drifting down with the tide of prejudice which has set against our best friends: we have wrongly and ignorantly advised our people to continue in the same course; and what is the result of all these things? Bad—bad—bad enough! In the first place, it has introduced enmity into your Churches, and old members have been disregarded and cast out, until at length the Church is divided. “A house divided against itself, it cannot stand.” It must fall, and become desolate.</p>
+          <p>Had we been deeply engaged in sending the Gospel to the heathen and to our afflicted brethren in Africa and elsewhere, you would not have had all those confusions and troubles which now disgrace your Churches. While these evils remain in your Churches, religion and the Son of God are gone out of them, and all your labors and offerings are vanity and vexation of spirit. Therefore, look well to those things, and consider your own salvation and that of all those under your charge.</p>
+          <p>Let us not rest in idly persuading people to that course which we know nothing about; but let us 
+<pb id="p58" n="58"/>
+instruct them to love and serve the Lord. But let them be their own judges in other matters, for they know what is best for themselves. As ministers, let as faithfully do that which is appointed for us to do in the Gospel, and it will go well with us in time as well as in eternity.</p>
+          <p>I now speak to your backsliding sister and her ministers, namely, Bethel and all her branches. Her acts have been like those of Zion, but rather worse in many cases, which I shall endeavor to show hereafter, with the blessing of the Lord. I thought once that you were true-hearted and faithful followers of the meek and lowly Lamb, and good Christians. I therefore joined in faith with you: I travelled a long time with you: I was well pleased with the Church government at the time. They were poor and humble: I believe that the blessing of the Lord was with them: I held prayer-meeting with them: I led their classes and exhorted them: I preached for them, and remained with them a number of years, until the second administration ended. After that they grew fat, like the heifer at grass, kicked up their heels and bellowed, waxed proud and self-willed. I therefore left them. With credit, I was there a long time. But I thank the Lord that there was never a charge brought against me. Yet I was envied 
+<pb id="p59" n="59"/>
+and deprived of my legal rights. I saw their backsliding and ignominy, and fully I told them thereof to their faces.</p>
+          <p>What I foretold them came to pass. I, therefore, cleared my skirts of their blood. I now speak more  plainly to them than before. Dear brethren and sisters of the Bethel M. E. Church in Philadelphia, the mother of all the branches, your Church commenced under the superintendence of Rev. RICHARD ALLEN. Since 1816, it had increased very considerably, and they did well until after the election of Rev. Paul Quin of New-York, but formerly of Pennsylvania.</p>
+          <p>After his installation, there was great dissatisfaction with respect to the neglect of the discipline and other rules of the Church. It ended in a heavy lawsuit and a split in the Church—a malicious division. The Church has never since been settled, and yet they wanted to extend their borders and their power. They petitioned for two more Bishops, and the petition was granted. Therefore they appointed a Mr. Willis Nazua, formerly from Virginia, and Daniel A. Payne, from Charleston, S. C. Thus they have three bishops: the two last were elected in 1853. Now they have their desire; but there is a great deal to do. Those three bishops must be supported, their 
+<pb id="p60" n="60"/>
+board, lodging, and travelling expenses paid by their poor societies and classes.</p>
+          <p>The question may arise, Why do they want three bishops? I answer, Why does the ape attempt to imitate the human family? It is because he lacks understanding, and does not perceive that Nature has never bestowed upon him the proper faculties for doing the works or performing the part of a human being. They aspire to stand on a level with the white brethren of the Methodist Episcopal Church, and will have three bishops because the white Methodists are ruled by three bishops. If they had reflected a moment, they would have seen the absurdity of the proceeding. There is as much difference between the two societies, as there is between the Hudson River and the great Atlantic Ocean. The wealth of the other Church and her members, the intelligence and literary talent of her ministers, their extensive fields of labor among all nations, and the mighty influence which they wield, have opened a passage to all the benefits and blessings of the world, while the power of the Gospel which they preach has opened Heaven and all its glories to thousands whom they have persuaded to live righteously and godly in this present world. But our backsliding and rebellious sister, Bethel Church of Philadelphia, the 
+<pb id="p61" n="61"/>
+mother of all the branches, has revolted twice already; then was guilty of oppression, and violated the discipline of the Church and rules of government from motives of malice and revenge; and even, with three bishops at her head, made a most stupid mistake and blunder in Conference at Buffalo, N. Y., in the year 1853, of which I may speak hereafter.</p>
+          <p>I thank the Lord that I left you, with my own skirts untarnished by your blood. Nothing could induce me to be a bishop among you. I thank the Lord that I am a free man in our Lord and Saviour Jesus Christ, and I am an humble Elder in the Church of God, on board of the barque Isla de Cuba, with a two-fold mission for Monrovia, Liberia, Western Africa; firstly, to bear the Gospel to my brethren and see how they do, and secondly, to see and hold an interview with the head of that Government, touching the condition of those who are there, and the prospect for those who are about to go to that quarter of the globe. I go also to see what good results from cultivating the minds, as well as the lands, of the heathen. I believe that great treasures are embedded in those lands, and that only understanding and enterprise are wanting to bring them to light. It remains for us to go forth, sons and daughters of Ethiopia, embrace our privileges, obtain 
+<pb id="p62" n="62"/>
+the lands, dwell thereon, and become a great nation. Then the heathen will be turned from their idols, and join the true worship: then Ethiopia will stretch her hands unto God, and the islands shall be filled with his glory. Thus shall we be a blessing to all people, and all people will be a blessing to us, and the Lord will prosper us in all things.</p>
+          <p>To return to our backsliding sister and her rulers: Dear brethren, I hope that you will examine yourselves well in the Gospel glass, and see if you are what you ought to be, if you are doing what you ought to do, that is, to preach the Gospel faithfully to all, walk humbly, do unto others as you would have them do unto you, not spending your time in giving unwholesome advice to the people and to the members of your Church, but suffering the people to judge for themselves in temporal matters. I have said that those three bishops of yours must be supported. It is true that they should be, if they were the right kind of men. But they spend too much of their time in giving bad advice to the people, and raising evil reports against a humane, benevolent, and Christian institution, making them believe that good is evil, and that light is darkness. Such teachings are abominable. Look in the glass and see yourselves, all in the dark as you are. It is better 
+<pb id="p63" n="63"/>
+for you to retract—to cease to do evil, and learn to do well. The question comes up—why do you give the people such advice? It is easy to give the answer—it is because you must keep them together that they may maintain you and the ordinary ministers. You would keep them up like sheep, that you may catch them easily, and shear off their fleece for your own benefit. You will not let them go to Africa, or anywhere else, lest you lose the support which you derive from them while they remain with you. What is the condition, and what are the circumstances of those from whom these Bishops receive their support? They are, generally, very poor people, with little employment, and paying heavy rents, with large families to maintain, which is enough to sink them to the earth, without the super-added weight of three bishops, two of whom are of no more necessity to that little society than a pair of double spectacles to a blind man.</p>
+          <p>How do the old and sickly members fare? Badly enough! After having served the Church, aided in paying the ministers for some fifteen or twenty years, and having labored thus for the support of the Gospel all through their best days, they have found no help in their old age from either ministers or lay members. It is a shame to tell these infirm and 
+<pb id="p64" n="64"/>
+faithful brethren that they must go to the Poor-House, at the very time that they ought to be taken care of by the Church. But they are cast off when they should be provided for, and are permitted to pine away and die among those who are called “sinners” and “the ungodly.” It is a shame that this should be the case in any Christian Church; and therefore it would be well for those gentlemen who have charge of institutions for the poor, to look well to the matter when they are applied to for the purpose of giving admission to an individual, and discover whether he belongs to a Church or not.</p>
+          <p>Dear brethren, and rulers of the backsliding sister and her branches, let us pray for this Church; for the Lord will hear prayer. Oh! backsliding  sister! why will you die? Return, repent, and do thy first works, and the Lord will have mercy and abundantly pardon you and receive you, “and you shall be my sons and daughters, and I will be a father unto you,” saith the Lord of Hosts. Dear brethren, we will go back to Buffalo for a few moments, for in wise counsel there is safety, but in ignorance, there is great danger.</p>
+          <p>You remember that in Conference, in New-York, a year since, there was 
+an application made for an 
+<pb id="p65" n="65"/>
+individual to receive orders and join the travelling connection; but Messrs. R. R., J. P., L. E. C. and others, rose and said “we don't know you,” &amp;c. At that time Bishop Cuin was in the chair, and was weak enough to give way to those unreasonable men. He was silent upon that important occasion, and thus the matter ended. So the applicant went about his business, and thought no more of the affair; but, at their Conference in Buffalo, they wickedly called this man in question, although he had no seat there, nor voice, nor business. Neither was there any charge against him, nor any notice given him. He knew nothing of the matter; yet they took up the case and acted upon it. After that, they published him to the world, through their minutes, as an offender. The innocent man knew nothing of the case for some time, until passing through Bordentown, N. J., he met with one of their ministers, (a Mr. Catto,) who informed him that he had been tried at the Buffalo Conference, and that he could not admit him to his pulpit, because Bishop Nazua had charged him not to allow the man any privilege in his Church, as he was an offender. But Mr. Catto advised the man to see to the matter, and if his persecutors had acted as related above, to bring them
+<pb id="p66" n="66"/>
+to an account for their unlawful dealings; for they were contrary to the Church discipline, and the laws of this country.</p>
+          <p>I next call your attention to the Sabbath schools. At the Conference, they came to a resolve that no white person should teach in the schools: they would have none but colored teachers. The other proceeding which I have related, shows how well qualified <hi rend="italics">they</hi> are to teach their pupils. Mr. Robertson stated that the great blunder in the Buffalo Conference was caused by the advice given by the Bishop, the Rev. Wm. P. Quin: but I think him a man of better judgment than to advise such proceedings.</p>
+          <p>There were several ladies and gentlemen—very kind friends of the colored people—who had been laboring a number of years to impart instruction to colored children. They had become much attached to the children, and the children had also become much attached to them. When it was told them that Conference had decided to reject white teachers, they withdrew from the schools. The consequence was, that both parents and children became very much dissatisfied, and left the Church; for nothing reigned there but tumult and confusion, instead of peace and harmony.</p>
+          <p>These calamities arise from putting men at the
+<pb id="p67" n="67"/>
+<figure id="ill5" entity="peter67"><p>Rev. D. H. Peterson in the Pulpit.</p><p>“All power is given unto me in heaven and in earth; go ye, therefore, and teach all nations.”</p><p>“And, lo! I am with you alway, even unto the end of the world.”</p></figure>
+<pb id="p69" n="69"/>
+head of the Church who are no more fitted for the <gap reason="damaged text"/> than is a child three years old to act as captain of a ship in a storm upon a lee shore.</p>
+          <p>Among others who assisted the colored people, were Dr. R. F. Hibbard and ladies, Dr. Worrel and ladies, and that benevolent lady, Mrs. Few, of Ninth street. She came in person, and aided the Church, and gave good advice in relation to the management of the school in Sixth street. It is by ignorance and oppression, that the Church in Second street became divided. It is a branch of Bethel, the backsliding sister.</p>
+          <p>The Church in Sixth street bids fair to become a very useful and beneficial institution. It contributes greatly towards the moral and religious improvement of the colored population. Their minister, Rev. L. Telmon, the founder and pastor of that Church, is an active, capable man. That Church is established on better principles than any colored Church in the States—on free, republican principles. Her pastor has done, and is doing, all that he can for the improvement of the rising generation; and if he continues to be faithful, he will be a blessing to the people, and a blessing to himself. If he fail, it will be otherwise. I therefore recommend humiliation, faith, and fervent prayer to himself and congregation, 
+<pb id="p70" n="70"/>
+and to all others, that it may be well with them in time and in eternity.</p>
+          <p>I believe that the Rev. L. Telmon is a man of too much sound judgment to teach the people folly, and to prejudice them against their best friends. He will permit the people to act for themselves in temporal matters, and to go where they please. If any of them wish to go to Canada, let them go; if any want to go to Hayti, let them go. They should be at liberty to go where they please; but there is no <hi rend="italics">better</hi> place than Liberia for the sons and daughters of Ethiopia. Therefore, I say, let us embrace the opportunity while we can, and pray that the blessing of the Lord may go with us and keep us for ever.</p>
+          <p>What I have done and am still doing, is, and has been, without fee or reward, and solely for the welfare of my afflicted nation: for I have now seen for myself, and am bound to make a true report in all things. I say, let no men speak evil of things that they know nothing about. If they do, it is the blind leading the blind.</p>
+          <p>The person that was so badly treated by the Conference at Buffalo without having committed any offence, was the man whom they knew to be engaged in looking into these matters. He was concerned for the welfare of his brethren in Africa, in America, 
+<pb id="p71" n="71"/>
+and elsewhere. Therefore they conspired together to kill and destroy his influence. They are wicked men: they are such men as those who opposed Moses in Egypt; they shall proceed so far and no farther, for the Lord is over all, blessed for evermore.</p>
+          <p>Dear brethren, I now propose to consider a moment the school instruction of our people in the United States—their Infant Schools, Sabbath-Schools, Free and Pay Schools, Seminaries, Academies, and Colleges. Some of our afflicted people have been assisted in all those places, and have been admitted to all the advantages thereof. Now, what have they gained by all these advantages? Very little, indeed. But why is this? It is because the laws, customs, and usages are such as to impede their improvement. The United States are a wise, wealthy, and proud nation, and will not be coerced into anything which does not suit their pleasure. Notwithstanding this, if we take them right, there are no better people in the world. They are kind, humane, and <sic corr="benevolent">benovolent</sic> to all those whom they deem worthy of their attention. But, dear brethren, I want you to consider at this time, that this nation was not the cause of our forefathers being plunged into bondage. It was the British nation, who, in an age of darkness, made slaves of the colored people; and although we are 
+<pb id="p72" n="72"/>
+multiplied to millions and have grown up under the laws and customs of this country, yet three-fourths of us are in bondage; and are we so very weak as to imagine that a wise nation like this will take those who are free and place them upon an equality with themselves, while so great a majority of our afflicted people are in bondage under them?</p>
+          <p>Dear brethren, know ye not that every colored person, of whatever shade, so that he have African blood in his veins, is ruled and governed under the same law and viewed in the same light? Therefore we need not look to the right or to the left—neither to brother John, uncle Tom, nor to sister Nancy, for our deliverance; but let us look to the blessed Lord, and be faithful in all things, take the good advice of our best friends, be willing and obedient, and we shall enjoy the good of the land.</p>
+          <p>Dear brethren, I want you to examine yourselves well in the glass, and consider all things well, and thus you will discover what is good for you in time and in eternity. Let us think of Africa for a few moments. Know you not that, in the beginning, the blessed Lord gave this great quarter of the earth to our nation, and bade us keep the Law and live? But our progenitors were rebellious and disobedient, and refused to serve the true and living God. They 
+<pb id="p73" n="73"/>
+worshipped other gods, and wasted their substance upon idols. Therefore they were left to follow the desire of their own wicked hearts; and finally, they were suffered to be carried away captive, like the rebellious Israelites, barefoot, naked, and in fetters. They were borne to a strange land, and left among a people whom they knew not. But what is the result? Solomon says, “There is a time to all things.” In the fulness of time, the Lord will bring everything to bear in its right place. It is of no use for man to hurry and push things of this weighty nature. We can do nothing without help from the Lord.</p>
+          <p>The reason that our brethren who have had the advantages of the high schools do not arrive at eminence, has already been given. Although they may have received all the knowledge required for preferment, they have no facilities for bringing their accomplishments into exercise in real life. They go forth looking for employment; they wander through many places seeking for business and finding none. They knock at many doors for admittance—the porter looks out, sees the complexion of the applicant, and bids him go farther and fare worse. He wanders away dejected and forlorn, and perhaps plunges into vice, and, lamenting the time which he has squandered in procuring an education which seems to be 
+<pb id="p74" n="74"/>
+so useless to him for all practical purposes, he joins with the ignorant and profane in some low pursuit which his superior education has rendered unsuitable for him.</p>
+          <p>But he hears a white citizen knock at those doors. They fly open as of themselves, and a cheerful voice says, “Walk in, brother, and view the beauties of the place, the wealth, honor, peace, and happiness that bloom perennially in the field before you. Partake with us of those blessings, from which the colored applicant is shut out.”</p>
+          <p>You know that these are facts. Also, many of the hotels will not admit you. The street conveyances close the door against you. We labor under many disadvantages: and do you not, dear brethren, see plainly, that the hand of the Lord is in this great matter? In by-gone times, we were carried away naked from the father-land, but are now going back with the arts and sciences, with the Bible in our hands, to plant religion and civilization.</p>
+          <p>The blessed Lord has raised up great and good men who have opened this door, more effectually than any other door which can be opened in this country, or in any other part of the world. For there is no part of the known world to which you can go, in which you will not be subjected to disadvantages, 
+<pb id="p75" n="75"/>
+with the sole exception of Liberia, in Africa. There the laws are liberal, and all men fare alike under the flag of that young republic, and encouraged by that great nation, the United States of America. This greatest republic in the known world is bound to protect and raise up that young nation to a level with herself, if we, as a people, will take counsel and seek the right way. By obedience to the truth, we shall then eat the good of the land. In that country is a field large enough for the employment of all your talents in every way and shape, either moral, religious, civil or military. There no doors will be shut against you, but all is as free as the air of heaven.</p>
+          <p>Therefore, go forth without delay, and claim your rights as freemen and freewomen, and you will have great cause to rejoice. But nothing like vice should be carried into that country. Violins and other trifling kinds of music should be left behind,—they only gender idleness and folly: but let us keep the fear of the Lord before us, and in a few years we shall be a great nation, respected by the rest of mankind. The fruits and productions of Africa will be carried throughout the world; her ships will visit all nations, and her flag will wave in every sea.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p76" n="76"/>
+          <head>CHAPTER IV.</head>
+          <argument>
+            <p>Good treatment on board the Isla de Cuba. Departure for Liberia. Worship on board every Sabbath. Much sea-sickness. Kind attentions of Capt. Miller. Warm weather on the Coast of Africa. Unsuccessful attempts to take a turtle. Serious accident to the mate, Mr. Hatch. They catch a shark, and cook him for dinner. Description of Cape Mount. A beautiful fish. Visit from a little bird. Visits from the natives on the Coast. Arrival at Monrovia. Mr. Cauldwell goes on shore.</p>
+          </argument>
+          <p>ON board of the Isla de Cuba we had passengers of all ages, from infancy to the most advanced stages of life. Some were eighty and even ninety years of age. They were all well treated by Capt. Miller, Mr. Hatch, the mate, and the crew. You can see that all things are made easy and convenient for us. It is only for us to be ready and willing.</p>
+          <p>By aid and good counsel of ministers of the Gospel, and all good men who possess sound minds, and desire the welfare of the colored people, more good can be done in one year than has ever been done by them before, in pointing out the right way 
+<pb id="p77" n="77"/>
+for our relief. There is great power vested in the administration of the Gospel; and if the ministers were all of one mind, they could carry every thing before them. They have been too much divided, but I pray that the time may arrive when they will all see eye to eye.</p>
+          <p>I will now observe that I was very agreeably disappointed with regard to the treatment of the emigrants on board the Isla de Cuba. When I went on board of the barque, I saw the passengers coming from all quarters, from the North, the South, the East, and the West. Some came without any clothing except what they had on, and also without bedding. The ship was about to sail, when the Rev. J. B. Penny came on board to see the state of the passengers. He found some in a very uncomfortable condition, owing to the fact that they had neglected to bring their goods with them. There was a Mr. Jacklin, from Franklin County, N. Y., with his wife and two sons, who were destitute of any comforts at all. The ship lay a mile in the stream, but Mr. Penny returned to the city, and although the wind was very high and the water rough, he came off to the barque again, and brought with him new beds and clothing for the destitute emigrants, amounting in price to nearly one hundred dollars. 
+<pb id="p78" n="78"/>
+He came off to us in a small boat, at the risk of his life. He made sure that every one was comfortable, then gave them the right hand of friendship, and bade them adieu.</p>
+          <p>We sailed the next day with prosperous gales, Nov. 10th, 1853. Capt. Miller, Mr. Hatch, and all the crew, were very kind to us. We wanted nothing, and we all fared alike. It was the beginning of better days. The steerage passengers had more than an abundance of everything. I am fully persuaded that there was no deception about the matter. The truth has come out at last, and if the truth shall make you free, then will you be free indeed.</p>
+          <p>Capt. Miller is a first rate officer on board ship, a perfect gentleman, and a Christian. He spares no pains to insure the safety of the ship and the comfort of his passengers and crew, attending faithfully to the cleanliness of his vessel, above and below. Mr. Hatch is also a first rate man, and both of them from the State of Maine. I never heard the Captain speak a harsh word from the time that we left the dock at New-York till we arrived at our port of destination. All things were conducted as peacefully as they could have been managed in any family. Therefore, I feel very thankful for the blessing of the
+<pb id="p79" n="79"/>
+<figure id="ill6" entity="peter79"><p>Rev. D. H. Peterson embarking for Western Africa on board the <lb/> barque Isla de Cuba, Capt. Miller.</p></figure>
+<pb id="p81" n="81"/>
+Lord, which has preserved me from childhood up to the present time.</p>
+          <p>I will say in this place, that those who go to Liberia should be careful to take with them such medicines as are calculated to keep the bowels free. That will add much to their health when they reach port, and as going to sea produces costiveness, this caution should be remembered. Some were quite sea-sick, and I aided Capt. Miller in his attendance upon them. They all recovered and became fully restored to health, and we went on our way rejoicing.</p>
+          <p>I thank the Lord that I was able to fulfil all my duties while on board the barque, that is, to preach once on the Sabbath, hold prayers every morning and evening, and say grace at every meal.</p>
+          <p>I kept the following account of the passage:—</p>
+          <p>Nov. 7th, 1853. I went on board the barque Isla de Cuba, Capt. Miller, bound to Monrovia, Liberia, Africa, and lying at New-York.</p>
+          <p>8th. A steamboat came alongside, and towed us down the river, where we came to an anchor. The Captain went ashore for the ship's papers.</p>
+          <p>9th. The Captain returned to the ship at 10 o'clock A. M. Rev. Mr. Penny, the agent, soon after came on board with bedding and clothing for the poor strangers who had come from afar, and were 
+<pb id="p82" n="82"/>
+bound to Liberia. Mr. Penny paid great respect to all the passengers, both male and female, and bade us all good-bye in a very friendly manner. He then went ashore. Capt. Miller weighed anchor at 4 P. M. and we went down the Bay. We had on board fifty-six passengers—first mate, Mr. Hatch, second mate, Mr. James Magill, with steward, cook, and ship's company. For all, there were good accommodations. We came to an anchor on the same evening at 6 o'clock, near the light-house which stands on the Highlands, Sandy Hook. Some of the steerage passengers were quite sea-sick.</p>
+          <p>10th. In the morning, we left the anchorage and went to sea, with a fair wind and bright sunshine. All in good spirits upon leaving the High lands of New-Jersey upon the starboard, and that of New-York on the larboard quarter. Same morning we met a pilot boat, No. 1, going to New-York.</p>
+          <p>11th. At 10 o'clock, we made the Gulf Stream. Rough sea, and passengers very sick. Ship is getting on very well.</p>
+          <p>12th. Very rough. All sick. Some glass broken by the motion of the vessel.</p>
+          <p>13th. Sabbath. Strong gales from the South-East. All sick.</p>
+          <p>14th. The same. Steward sick, with a pain in 
+<pb id="p83" n="83"/>
+his side and head. Ship driven by contrary winds in the Gulf Stream for three days. Capt. Miller and chief mate are quiet and skilful men. They do all they can for the good of the ship's crew and passengers. The Captain stated that he had not experienced worse weather for fifteen years.</p>
+          <p>15th. We caught a fair breeze and steady. Made good headway. The passengers are getting better, but the steward continues sick with a pain in his side and head. The captain paid every medical attention to him, and to all others.</p>
+          <p>16th. Steward a little better, but still very sick. A pleasant day. In the evening the wind rose. Heavy sea. Weather over-cast. We sprung a leak, but pumped out dry. Mr. Cauldwell was sitting near me conversing, when there came a heavy sea which threw him against the vessel's side and hurt his head very much. Rough sea, and all sick. I have eaten no meat for nine days.</p>
+          <p>17th. Very rough. They have removed a sick woman up in the cabin with Mrs. Gibbons. There were some spars carried away during the night. I thank the Lord that I was comfortable and without fear. I endeavored to put my trust in the Lord.</p>
+          <p>18th. Very stormy. Many sick. Cook very sick. We passed three vessels—a ship, a brig, and 
+<pb id="p84" n="84"/>
+a barque. I thank the Lord that we have had singing, and praying, and grace before meat, all the passage, the same as we have on shore.</p>
+          <p>19th. A ship passed us in the morning early, probably bound to New-York. We passed a large school of porpoises and flying-fish. It has been blowing a gale all day. The steward is better.</p>
+          <p>20th. Sabbath. A beautiful day. Prayer morning and evening. I preached in the afternoon from Jonah, chap. ii., verse 11. We were then about one thousand miles from New-York. We saw a ship bound to America. I have seen on board what I have prayed for, the worship of the blessed Lord at sea as well as on dry land.</p>
+          <p>21st. A fine morning. A perfect calm, and the sea as smooth as the river Delaware. All well.</p>
+          <p>22nd. A fine day. Very pleasant; neither too warm nor too cold. Light breezes, favorable. The blessings and glory of the Lord seemed to be with the ship, officers, crew, and passengers. Behold the rising sun, the clear sky, the flying clouds over our heads, and we riding on the bosom of the great ocean. There behold the wisdom and the wonderful works of Almighty God. Passengers young and old came on deck to get the fresh air, and to dry their clothing and bedding, all in high spirits. With 
+<pb id="p85" n="85"/>
+respect to the fare on board the Isla de Cuba, we had at all three meals, the best beef and pork, fatted fowls, desserts, cheese, butter, pickles, hard biscuits, fresh baker's bread, and hot rolls, with other good and palatable food. There was no respect of persons, the captain and his mate treating all persons according to their behaviour without regard to wealth or station. Captain Miller is a noble officer, and so is his mate, Mr. Hatch. The cabin passengers are Mrs. Gibbons, from Camden, N. J., Mr. Caldwell, of New-York, Mr. Augustus Washington, wife, and two small children, from Hartford, Mr. Truman, from Western Pennsylvania, and myself. Rev. Mr. Williams, with his wife, family, and his company of 30 or 40, occupied the steerage, and performed their religious duties in the most orderly manner. Six o'clock P. M., fair wind and all well.</p>
+          <p>23d. A very fine day; clear and calm; wind at South-East, not fair; but, thank the Lord, we are all tolerably well at this time.</p>
+          <p>24th. We have been at sea 16 days. Fine weather. Thank the Lord, we are all well. A flying-fish was found on board this morning. The Captain requested that good order should be preserved in the cabin, that the men might get their regular rest; for there were some that wanted to play the 
+<pb id="p86" n="86"/>
+fiddle, with other vain amusements. I am very glad that the captain spoke against such proceedings. There were two fiddles. Augustus Washington from Hartford had one, and a man named Kelly, from the West, had the other. It was not well to take them on board.</p>
+          <p>25th. A fair wind and very stormy. Many were sea-sick. We saw a ship ahead early this morning. Some of our forward rigging was carried away during the night. Very rough.</p>
+          <p>26th. Stormy and rough. Thank the Lord we are all well. It is very singular that among all our passengers there are not more than four or five dark persons.</p>
+          <p>27th. Sabbath. The blessed Lord has thus far preserved us all in safety, and I pray that he will keep us all forever. The colored people in general seek too much after the world for their own good. If they had as much zeal for the Gospel as they have for the world, they would become a great people in Africa, but if they carry vice and a love of trifling amusements with them, it will be a curse both to themselves and the natives. I trust that all will take heed to these things, for I saw the evil effect of such folly on board the ship, as well as in that country. We held meeting to-day in the cabin, with the 
+<pb id="p87" n="87"/>
+full consent of Capt. Miller. Rev. Samuel Williams preached, and I closed with a few remarks. A brisk, fair wind all day: 6 o'clock, P. M. I thank the Lord we are well. John, chap. iii., v. 2.</p>
+          <p>28th. We have been 20 days at sea. The steward has fully recovered his health. The captain paid great attention to him, and had him bled. Thank the Lord we are now all well. We are more than two thousand miles from New-York, getting on very well. We are more than half way to Africa. The Lord has helped us. This is a fine morning, and the wind is fair. We have seen two rainbows at sea. We saw a school of porpoises this afternoon. I said that we might look out for a squall. In 48 hours it came, and lasted two hours. Then all was calm again. Thank the Lord.</p>
+          <p>29th. Fair wind. We saw a ship under way. Thank the Lord we are all well.</p>
+          <p>30th. All well, the Lord be praised forever. Since seven, A. M., the wind has been fresh through the day and evening.</p>
+          <p>December 1st. The wind is very high, but it is fair. A fine day. The sea is rough. Mr. Augustus Washington, from Hartford, broke his looking-glass in his state-room last night.</p>
+          <p>2d. We are 24 days at sea. Fine weather and 
+<pb id="p88" n="88"/>
+wind fair. Thank the Lord, we are all very well at this time, and going forward at a good rate. We have been much favored on this voyage. We saw the new moon at sea, this evening, for the first time. It appeared to be about three nights old, and it showed three moons distinctly, as though you looked through a silk handkerchief. We rejoiced to see it.</p>
+          <p>3d. Fine weather and fair wind. We saw a ship in the forenoon. I thank the Lord, we are all well at this time.</p>
+          <p>4th. Sabbath. Fine weather and a fair wind. I preached on board at 2 o'clock P. M., on the after-deck, the captain, crew, and all the officers present. I spoke from Paul's Epistle to the Hebrews, chap. xi., v. 24. “By faith, Moses, when he was come to years, refused to be called the son of Pharaoh's daughter.” We had a good time; all was peace and unity, and everything was done in order like a family singing and praising the Lord all through the Sabbath.</p>
+          <p>5th. Fair wind, but light. Fine summer weather. Thank the Lord we are all well and peaceable.</p>
+          <p>6th. Fine weather, all well. Very light wind and slow sailing. It was reported that the land was seen this afternoon, the Cape de Verd Islands.</p>
+          <p>7th. We are 29 days out. Fine weather and fair 
+<pb id="p89" n="89"/>
+wind, but very light. I thank the Lord we are all well. The mate was very angry with one of the crew this evening.</p>
+          <p>8th. Fine weather and fair wind. We are within a few days' sail of the coast of Africa.</p>
+          <p>9th. Fine weather. The wind is fair, but light.</p>
+          <p>10th. Fair wind, but light. We are getting along very well. We are on the coast of Africa. The sea is very calm.</p>
+          <p>11th. Sabbath. Very warm weather. The sea is perfectly calm. Porpoises and other fish are playing around us and showing themselves like the flocks and herds of the field, or the cattle upon a thousand hills, as though they knew this day was the Sabbath. We saw a very beautiful fish indeed. I never saw anything greener in my life. Its fins and tail appeared to be tipped with gold. The whole ship's company ran to see it. It continued with the ship some time, and then vanished from our sight. As we arrive on the coast of Africa, more than a thousand miles from Liberia, the sea is as smooth and calm as the Delaware or the Hudson River, very suitable for steamboats and light craft of every description. We had preaching this afternoon Rev. Samuel Williams spoke from John We had 
+<pb id="p90" n="90"/>
+a prayer-meeting in the evening, singing altogether on deck. It was a good time.</p>
+          <p>12th. At four in the morning, we were visited by a violent storm, and the ship was in great danger. Both captain and mate were on the look-out. The ship was under full sail when the gale came suddenly upon her. All hands were called, steward, cooks, and all, and it was as much as they could do to stow the light sails and get the top-sails under reef before the worst came. Some of the sails were torn from the yards and carried away, the captain, mate, and crew doing all they could to save the ship. Knowing that the Lord possesses all power, and that we are in his hand, we made it a matter of prayer, and implored the Divine Throne of Grace that He would save us from the stormy winds and raging seas, and from all other dangers, and save us forever both in time and in eternity. This storm was attended with thunder and lightning, and many of the passengers were much alarmed. I thank the Lord I was perfectly calm and without fear. The Lord is all in all. The storm continued till noon. The wind changed, and we had it fair all the afternoon. A little bird came on board and alighted on the rigging. They caught it. Thank the Lord we are all here, and are doing well.</p>
+          <pb id="p91" n="91"/>
+          <p>13th. We are 35 days at sea. It is a fine morning and very warm and calm. We let the little bird go at liberty this morning. We saw some sharks, and also a sea-turtle. We lowered a boat and went after the turtle, but could not find it. Afterwards we saw a shark. The captain harpooned him in the head, and we took him on board. He was skinned and dressed, and we had him for dinner. He made dry meat.</p>
+          <p>14th. Fine weather. A perfect calm and very warm. We are near Liberia, but we have no wind. We threw the lead, and found that we had sixty fathoms water. We caught two or three small fish; but they were of a kind that I never saw before. The little bird that we caught and set at liberty, continues with the ship. It has come on board and died. Before it died, a drab-colored bird came and sat on the rigging, and after awhile it went away. Mr. Augustus Washington kept the little one in his basket at night, and let it out in the morning.</p>
+          <p>15th. The weather is very warm. A perfect calm in the African sea. This morning an accident happened: Mr. Hatch fell from the quarter deck, a distance of nearly fourteen feet. He was very much hurt. It aroused all the passengers. The second mate thought that his leg was broken; but the Captain 
+<pb id="p92" n="92"/>
+found upon examination that such was not the case. He was taken into the Captain's apartment and made as comfortable as possible. He was bled, rubbed, &amp;c.</p>
+          <p>16th. Very warm and calm. Scarcely any wind. Thank the Lord, the mate is much better. We saw another sea-turtle. The Captain went after it in a boat, but it sank beneath the water on his approach. The Captain went a third time to take a turtle, but it escaped him. One day's fair wind would bring us to land. We caught some small fish that they call the sea eel.</p>
+          <p>17th. We are thirty-nine days out. Very warm and calm. We are in sight of land at this time. We called a public meeting this afternoon to return thanks to the Captain and Crew for their kind treatment of us during the passage, and also to express our gratitude towards our friends in America. We had a good time together, the Captain being present.</p>
+          <p>18th. Sabbath. We arrived off Cape Mount, forty miles from Liberia. A beautiful scene indeed, A small boat came off to the ship from the shore, containing two natives who were perfectly naked. We spoke with them as they came alongside. One of them spoke the French language. Both of them were fine-looking men. They were the first human 
+<pb id="p93" n="93"/>
+beings that we had seen or spoken with, except those on board, for the space of forty days. Cape Mount stands right on the sea-board, is covered with trees and abounding with fruit, grass, and other vegetation. Belno is a beautiful sandy beach. It was a lovely Sabbath morning indeed, and long to be remembered. The chief mate, Mr. Hatch, who has been unwell, came to the breakfast table this morning for the first time. A boat load of natives came off to us. They were all naked, but quite a sensible people. I thank the Lord that we came to an anchor at half past nine o'clock P. M. after forty days passage, all safe and sound. Mr. Caldwell went on shore the same evening.</p>
+          <p>19th. On board of the Isla de Cuba, Capt. Miller, mates Messrs. Hatch and Magill, now lying in the harbor of Monrovia, Liberia, Africa. I thank the Lord that we are all well. This morning I intend going on shore early in the day.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p94" n="94"/>
+          <head>CHAPTER V.</head>
+          <argument>
+            <p>The Author goes on shore. Kind reception. Visits the President, Judge, and other distinguished persons. Beauty of the country. Description of the town, the soil, and the inhabitants. Good opportunities in Liberia for emigrants. Mechanics, farmers and schoolmasters wanted in Liberia. Those who lay the foundations of this great nation should be moral, industrious, economical, and religious persons. With the aid of friends in the United States, the cause of colored emigration to Liberia cannot fail to prosper.</p>
+          </argument>
+          <p>DURING the morning we went on shore at the port, and were received with much joy, and in a very friendly manner, by all the people.</p>
+          <p>I called upon his excellency the President, both at his office and at his dwelling. I found him very competent and much of a gentleman. He has a good library. I was offered a home at many respectable houses, but I preferred a more private residence, as I had much writing to do. I put up at the house of Rev. Henry Teague, an aid to the President. He has a very fine family. I called upon the Judge and 
+<pb id="p95" n="95"/>
+Dr. Roberts; also upon Mr. James Magill, and a number of merchants and others.</p>
+          <p>The President's lady is a very fine looking woman, and so is Mrs. Dr. Roberts. There is no better society to be found in any part of the world. I am very much pleased with it, and with the appearance of things here. The President and his lady are strict members of the Church.</p>
+          <p>The whole view from this spot is beautiful; and upon summing up, and taking into consideration the country, sea-board, rivers, mountains, vales and plains, I must say that I never saw a more attractive place. Monrovia is perfectly healthy, and contains, at this time, three large stone Churches, an Academy, and High School, and all other conveniences required by a large town. There are four ministers.</p>
+          <p>The people all look well, and have fine cattle, pigs, and goats. In fact, this place looks more like the Garden of Eden, than any place that I have ever seen or read about.</p>
+          <p>There are a number of vessels in the harbor, American, English and Spanish, both war vessels and merchantmen, with captains and officers of all kinds. I am now writing in a very pleasant room with six windows, airy, cool, and well carpeted, with a handsome mirror, and other furniture of the best description. 
+<pb id="p96" n="96"/>
+The people are all very kind and respect able.</p>
+          <p>The port is on elevated ground, commanding a full view of the sea, the three rivers, Montserrado, Junk, and St. Paul's.</p>
+          <p>I am very sorry to say that many false things have been said about this place, and the people who inhabit it: and even in the colored Churches of the United States, currency has been given to slanderous falsehoods of the most glaring description. Thus they talk of things about which they know nothing, instead of preaching the pure Gospel of Christ. I can assure the reader, that the people in Liberia look as respectable as the best of the colored people in the United States, while they enjoy five times as much liberty, as ladies and gentlemen in the possession of all the comforts of life, and this in a nation of their own.</p>
+          <p>The Legislative body is now in session. Respectable citizens from every county are doing the business of Government; and it is delightful to behold. Ladies and gentlemen from the United States men-of-war came to see those colored men making laws for their young republic, and it is truly wonderful to see how well they get on.</p>
+          <p>There are several wealthy merchants here. Messrs. 
+<pb id="p97" n="97"/>
+Payne and Yeats, J. B. and Uriah Magill, D. B. Warren, and Mr. A. Johns, J. M. Roberts, and Mr. Roy.</p>
+          <p>If a number of our enterprising citizens of the United States were to turn their attention to this country for a few years, with their modern arts and sciences, and means, they would make a fortune in a few years from minerals and the natural productions of the earth. Not only that, but they would, also, so improve the country that it would be the beauty and desire of the whole world. We want silversmiths and mechanics of all kinds. They would find a great deal to do here. The people  of the Eastern and Western States are known to be a peaceful and thriving people, of great enterprise and intelligence. Those are the people that we want here to light up this great quarter of the world with religion, the arts and sciences. Agriculture would also thrive well here, and is much needed. The water, both in the wells and springs, is good. It is very pure and sweet. I find the weather no warmer here than in the United States during the summer.</p>
+          <p>Money seems to be plenty, but provisions are scarce. We want more men on the land, so that the earth may bring forth of its abundance.</p>
+          <p>Judge Benedick, who is a very worthy man, is 
+<pb id="p98" n="98"/>
+quite wealthy, and has a beautiful coffee plantation, with numerous flocks and herds. There is here room for plenty of blacksmiths, shoemakers, tailors, carpenters, cabinet-makers and bakers, who could make a noble living in this country. A butcher would do well, as he could get his cattle of the natives extremely low, and supply the shipping. That business would pay well.</p>
+          <p>A man came out from Indiana, in the last ship, to get land for the free colored people of that State. He is a minister, Rev. Mr. McKay. He preached on Sabbath morning, Christmas day. A great many are coming out at this time, and the most of them are well pleased with the country. The most of those who came out some three or four years since have become wealthy. Among these is Rev. Dr. John Moore, from Baltimore, a worthy man, who is not only useful in the Church, but also as a physician. He has two stores, and is also a farmer. A man named Murray, who came here a short time since with $16, is now worth $1,600. He trades with the natives.</p>
+          <p>Two men went from Charleston, S. C., with the intention of going to Liberia, but the people of the Northern States advised them not to go. That was a great error. If Mr. Payne and Mr. Catto had gone 
+<pb id="p99" n="99"/>
+forth according to their covenant, they would have been doubly useful in the Church, and would, by this time, have been men of wealth and eminence. But they are just as they were, and no better, like many others who would rather remain half free and half slave, in a country that they cannot travel without being stopped and examined as though they were thieves and robbers.</p>
+          <p>I have visited Liberia without fee or reward, or any salary, or any promise of remuneration, trusting only in the promises of my blessed Lord, for the benefit of my beloved and afflicted brethren, and the promotion of the Gospel. I thank the Lord that I was obedient unto the heavenly calling, for it is of great value to me, and a blessing to my fellow-men. I have seen the wonderful works of the Lord both by land and sea, and I can say of a truth unto all mankind, serve the Lord, and it will go well with you forever. If half the time and money that has been spent to oppose this noble enterprise, had been expended to favor and to aid it, one half of Africa might have been civilized by this time, the Gospel preached in the midst thereof, and missions and Sabbath-schools dotting its hills and valleys. The great amount of time spent in contention on the floor of Congress and elsewhere, in relation to this 
+<pb id="p100" n="100"/>
+subject, is a clear loss. There is no other way than this by which the colored people can obtain their deliverance and return to their own land—no other way by which they can arrive at self-government.</p>
+          <p>Since I have visited Africa, I can say of a truth that that noble institution is the most important and beneficial philanthropic movement in the United States of America. It has done, and is still doing, more for the benefit of the colored people than anything else which has been attempted for that object.</p>
+          <p>It does not appear to me to be anything like wisdom for men to condemn matters they know nothing about. Let them first see and examine, and they may then be able to judge in part; but the judgment of ignorant men is worse than nothing. But it is too late now to oppose this good and noble work. It is going forward. I believe that the Lord is in it, and it will go on, and I trust that the blessed Son will prosper it in all cases. Monrovia stands upon a hill—upon rocks, and a vast bed of iron ore.</p>
+          <p>There is another thing which would be of great benefit to this settlement. Let men of science, both white and colored, go out to Liberia to instruct the youths of both sexes—to make them acquainted with all useful knowledge, which has been denied to us in by-gone days, by reason of prejudice and slavery. 
+<pb id="p101" n="101"/>
+But, thanks be to the Lord, these evils exist not in this country.</p>
+          <p>We want no drunkards in our land, nor fiddlers, nor dancers, nor gamblers, nor idlers of any kind. But we want good men and good women; upright, honest, sober, industrious, moral and religious persons, economical in their habits and setting good examples to those who come after. These are the kind of people that we want for laying the foundation of a great nation, like unto that which is now about to be laid in Western Africa. By the blessing of the Lord, and the aid of our good friends in the United States of America, we bid fair to become one of the greatest nations upon the earth.</p>
+          <p>I say that we want farmers, which are the bone and sinew of a country, and mark out the only path which leads to prosperity, wealth and plenty. The earth is pregnant with all kinds of mineral and vegetable productions. All we need is the ways and means, and proper instruction, to enable us to come at them. We are looking to our good friends in America to aid and assist us in all those important enterprises.  If they aid us, we shall do well.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p102" n="102"/>
+          <head>CHAPTER VI.</head>
+          <argument>
+            <p>The Author visits several places in the  vicinity of Monrovia. He speaks a number of times in the Churches. He sails for Sierra Leone. On the passage Mr. Caldwell is very sick, and the Steward tries to get possession of his property. The Author opposes this nefarious attempt. They arrive in  Sierra Leone. The Author finishes his business and sails for Gambia. Arrival in Gambia. Mahometans; Idolators; treatment of criminals under the British rule. The Author prefers the United States Government. He sails  in the Isla de Cuba for the United States. Storms at sea. The Author trusts in the Lord. Two men concealed on board. The Gulf Stream. Arrival at New-York.</p>
+          </argument>
+          <p>ON Thursday evening, Dec. 22, 1853, I preached in Monrovia, from the 133d Psalm, “Behold, how good and how pleasant it is for brethren to dwell together in unity.” The meeting was well attended. The President is a member of the Methodist Church; and all the distinguished men are members of some Church. I have an appointment again on Sabbath evening, the Lord be pleased.</p>
+          <pb id="p103" n="103"/>
+          <p>Liberia would never have been the home of the immigrants, had it not been for a woman.  When the first settlers were preparing themselves resting places, the natives came upon them with hostile intent. One woman only remained in her house, the other inhabitants having fled. She fired upon the natives until she had succeeded in killing quite a number of them. The survivors fled. The name of the woman was Mrs. Newport; and she secured a <hi rend="italics">new port</hi> for the colored people. The natives never returned.</p>
+          <p>On Sabbath, Christmas-day, a man from Indiana spoke in the Church, from Isaiah, 53d chapter. I spoke in the afternoon to a very full house. All the first families were present, the President and his family, the Vice-President, Secretaries, Merchants, &amp;c. I spoke from Matt., chap. ii., v. 10.</p>
+          <p>On Thursday, 29th, I spoke at Millsburg. I went from Monrovia with a number of men to examine the land. We went up St. Paul's river. We travelled through the woods, thickets, and brambles. We spent the most of the day in this great wood. We did not see so much as a frog or any other animal. In the evening, we returned to Caldwell, and spent a very agreeable evening with Mr. Richardson. We finished our business, and on Saturday came 
+<pb id="p104" n="104"/>
+back to Monrovia. I stopped with Squire Moore, as Mrs. Teague was sick and her house shut up.</p>
+          <p>Rev. Mr. McKay spoke on Sabbath afternoon, and I spoke in the evening. Rev. Mr. Burns spoke in the morning.</p>
+          <p>On January 2d, 1854, President Roberts and Vice-President Benson were both installed in office. The utmost decorum was observed. The hall was crowded; all the first people of the place were present, officers of the Navy, ladies, &amp;c.</p>
+          <p>On the 6th, Mr. Caldwell and myself took a walk to the Government Farm, a very thriving spot, and extremely pleasant.</p>
+          <p>I closed the meeting on Sabbath forenoon, and spent the day very agreeably with brethren and sisters. But I do not say that everybody is good in Liberia, for there are some disorderly persons here as well as in other countries.</p>
+          <p>President Roberts and family attend meeting every Sabbath, and sit directly in front of the altar. Both himself and lady are very mild and pleasant people, hospitable and attentive to strangers.</p>
+          <p>On Friday, 10th January, we all dined with Judge Benson, now Vice-President. On the 13th, all the ministers went to Conference, down to Sino, and the Senators all went home. On the 14th, we had a
+<pb id="pxxx4" n="105"/>
+<figure id="ill7" entity="peter105"><p>View of the Natives and Scenery in Western Africa.</p></figure>
+<pb id="p107" n="107"/>
+severe thunder storm, and another on the 16th of the month. On Sabbath, I spoke at the Baptist Church at 3 P. M. There was a full house, and we had a very good time. I closed meeting in the evening, at the Mission M. E. Church.</p>
+          <p>David Moore, Esq., at whose house I put up, is a judge, and stands high in the community. He is also quite wealthy. He owns much land, which is well cultivated, also flocks and herds, such as cattle, sheep, goats, and hogs. They come every evening and lie down before his door in a grove of orange and coffee trees, which are breaking down under their burden of ripe fruit. This man was once a slave, but is now a government officer in this young and growing Republic. Mr. Moore is a tanner, a shoemaker, a soap-maker, a farmer, and a justice of the peace. He is quite dark in his complexion.</p>
+          <p>On the 18th of January, I went on board the English steamer Hope, from Plymouth, bound to Sierra Leone. She is a mail boat. The company have four boats on the line. One is called Faith, another Hope, and another Charity. When I first went on board, I did not know that the time of sailing would be delayed till nine o'clock at night. After enjoying a good supper, with the company and a number of passengers, all very respectable persons, 
+<pb id="p108" n="108"/>
+we set sail for Sierra Leone. It is about 240 miles from Monrovia. From Sierra Leone to Gambia is about 412 miles.</p>
+          <p>We had a very pleasant passage. The sea was as smooth as the Hudson River. The fare on board was excellent. I never found a better table on board of any boat; all fared alike, without distinction. During the passage Mr. Caldwell was very sick, and Dr. Paterson placed him under the charge of the steward of the forward cabin. A spoonful of brandy was ordered to be given him every quarter of an hour, which was done for twenty-four hours or more, so that the poor man was permitted to rest in quiet but a little while at a time; I spoke against such proceedings, and they were very angry with me, and said that I had no business to interfere, as the doctor gave the patient up to the steward's charge. The steward's aim was to get the man's effects into his possession. He had a good watch and clothing; and therefore, the steward made the sick man believe that he was his best friend. He would not leave him for a moment; he hugged him and kissed him, and declared that although he was a white man and Mr. Caldwell was a colored man, yet he would never leave him or forsake him. He drew up writings for Mr. Caldwell to sign, in which all the effects of the 
+<pb id="p109" n="109"/>
+patient were made over him. He urged Mr. Caldwell to sign these writings, while in his weak and dying state.</p>
+          <p>I opposed all this strongly, but I had no power, for it was a British vessel and British officers, bound to one of their own ports. As I was only one, and they were many, I left the whole matter in the hands of the blessed Lord. He pleaded my cause, and fought my battles, and overthrew all their wicked designs. He kept the man alive until we got into port.</p>
+          <p>While we were at sea, I told them that if they took any improper steps, I would report them to the American Consul. They did not care much for that; but the blessed Lord is high over all, and blessed for evermore. Therefore, I recommend to all mankind that they serve Him in spirit and in truth.</p>
+          <p>After I had settled my affairs in Sierra Leone, I went on board the steamer Hope, bound to Gambia, on the coast of Africa. We had a pleasant passage, no distinction was made in the treatment of passengers.</p>
+          <p>When we arrived at Gambia, I visited the Churches, schools, markets, and public buildings, and took note 
+<pb id="p110" n="110"/>
+of the manners and habits of the people. Many of the inhabitants are Mahometans. Others wore charms about their persons  and are loaded with idols. They may be seen sitting or lying in the sand, in large gangs, worshipping their false gods. They wear long robes and sandals, but are half naked. There are more than a hundred tongues or languages among them, so that the one part do not understand the rest.</p>
+          <p>Criminals are put in prison, and formed into chain gangs. These are chained two together, and on the back of their jackets is the word CONVICT. They wear red caps. They are made to work in the streets, and every three months they are flogged on the back. Such is the rule under the English Government: but in Liberia there is no such barbarity practised.</p>
+          <p>Jan'y. 31st. The United States ship-of-war Constellation, Com. Mayo, arrived at this port and fired a salute, which was answered by the fort at Gambia.</p>
+          <p>The barque Isla de Cuba, now lying in this port, will sail in a few days for New-York, United States. Capt. Forsyth is going passenger in the Isla de Cuba, Capt. Miller.</p>
+          <p>I remained in the town of Gambia nine days, and spent three days on board the ship.</p>
+          <pb id="p111" n="111"/>
+          <p>3d. All hands on board. Mr. Forsyth and lady came on board at 12 o'clock. On the evening of Thursday, Mr. Forsyth spent the time very agreeably with some of his friends over <sic corr="champagne.">champaigne.</sic> They then bade adieu and parted. The pilot came on board at half past three on Friday morning. His name is Pompey Gay. He makes about £260 a year, and out of that he receives £60 for his own use. He is a colored man. The colored people do all the out-of-door work here, but the <hi rend="italics">sixty pounds for himself!</hi> Such is the boast of English freedom. Give me the Government of the United States forever, in preference to such liberty. Take away slavery, and nothing like the U. S. Government was ever known. I have learned that by travelling abroad, and making use of my eyes and ears.</p>
+          <p>The author conceives that, at this rate, those who are called <hi rend="italics">free</hi> in England give to their employers a much larger portion of the proceeds of their toil, than the American planter receives from those colored men in his service who are called <hi rend="italics">slaves.</hi> And the gains of this colored pilot are in about the same ratio as those of other “free” colored men who are subjects of the Crown.</p>
+          <p>Feb. 4th. At sea. All well. We left the Capes on the forenoon of 3d inst. In a short time, we 
+<pb id="p112" n="112"/>
+caught a favorable breeze, stiff and strong, and we made good headway.</p>
+          <p>5th. Sabbath. We have been at sea three days. Fine weather and fair wind. All well.</p>
+          <p>6th. Thank the Lord we are well. The wind is fair, with occasional calm.</p>
+          <p>7th. Thank the Lord we are tolerable. Good weather; light wind, but fair.</p>
+          <p>8th. Fine weather and fair wind. Thank the Lord, we are all tolerably well.</p>
+          <p>9th. Fine weather and fair wind. All well.</p>
+          <p>10th. All well. Fine weather and fair wind.</p>
+          <p>11th. Fair wind and weather. All well at this time.</p>
+          <p>12th. Ten days out. This day is the Sabbath. Fine weather. Thank the Lord, we are all well.</p>
+          <p>13th. Fine weather; all well. We saw a ship to-day, to leeward. The seamen are all busily engaged in cleaning and painting the ship. Capt. Miller is a very particular man.</p>
+          <p>14th. All well. A little breeze.</p>
+          <p>15th. All well. Light breeze. In the afternoon a good breeze sprung up and we got on finely.</p>
+          <p>16th. All well. We had a fine rain shower this morning. In the afternoon we had quite a gale; but we are in the hands of the Lord. He is our 
+<pb id="p113" n="113"/>
+only help in the time of trouble. When we left Gambia, Africa, there were two Frenchmen stowed away in the hold of the ship, and after we got to sea, they came up and showed themselves to the captain. When the captain heard their story, he put them in charge of the mate, to work their passage to the United States.</p>
+          <p>17th. All well. A fair breeze. We are getting on very well, thank the Lord.</p>
+          <p>18th. Fine weather and a good breeze. The mate found a live scorpion on board. They killed it. We saw several whales; they were quite large ones.</p>
+          <p>19th. Sabbath. It is a little stormy, but we are getting on very well.</p>
+          <p>20th. Light, fair breeze; getting on very well.</p>
+          <p>21st. Fair wind, but light; getting on very well. We are thankful that we are all well.</p>
+          <p>22d. Fair wind, but light. All well.</p>
+          <p>23d. Fair, but light breeze.</p>
+          <p>24th. We have a fair wind from the East, with rain. In the afternoon it blew a perfect gale, and rained very hard. All hands were called, cook and steward. At about 4 P. M. the storm ceased. The clouds broke away, and the sun shone again, thanks be to the Lord. Before the gale came on, we were 
+<pb id="p114" n="114"/>
+in that part of the sea where the winds are variable, between the coast of Africa and the West Indies. There was a calm for some days; the wind shifting all around the compass in a few hours. The gale carried us swiftly over that part of the ocean; until we caught the American breeze, which is sweet and cool. There is a great deal of grass afloat in the sea for thousands of miles. It looks pretty, and is called the gulf weed. It grows in or near the Gulf Stream. We see many birds flying on this coast, of different kinds.</p>
+          <p>25th. A severe gale from the East for more than 24 hours. We are thankful that the wind is favorable. We have seen three ships since we left Gambia.</p>
+          <p>26th. Sabbath. We are 24 days out. The wind is high and the sea rough. We are near the Bahama Islands, getting on very well.</p>
+          <p>27th. We have a good fair wind, and are getting on very well. We are near the Gulf Stream.</p>
+          <p>28th. The wind is high and not fair. The sea is rough, and the weather getting cold. We saw one schooner to-day, the fourth vessel we have seen since we left Gambia, Africa.</p>
+          <p>March 1st. We are in the Gulf Stream. It is 
+<pb id="p115" n="115"/>
+quiet and calm. We saw two ships to-day going out. This evening, we saw the new moon.</p>
+          <p>2d. We are getting on slowly. Quite calm. Saw this morning a fore-top-sail schooner, supposed to be bound to New-York. She kept company with us all day. We came to the Gulf in the night. It was very rough indeed.</p>
+          <p>3d. The sea is very rough. Wind high: we are thankful it is favorable. We have shipped several very heavy seas this morning. It is said that we are about 400 miles from New-York. The blessed Lord has ever been, and still is, our only defence and help in the time of need; therefore, we will do the best we can, and trust Him in all cases. I thank the Lord, we have got through the Gulf. This afternoon it is four weeks since we left Africa. We are now on the coast of America.</p>
+          <p>4th. It is said that the Gulf Stream is 70 miles in width. It is very boisterous and rough indeed. We had to take in and reef sails. We crossed near Norfolk, Va., and are now steering up the coasts of Maryland, Delaware and Jersey. The wind is not fair. A steamer going South, passed us last evening.</p>
+          <p>5th Sabbath. Very windy, stormy and cold. We saw the Jersey shore. All well.</p>
+          <pb id="p116" n="116"/>
+          <p>6th. We came inside the Hook, and entered the waters of New-York with the wind ahead. Arrived at the Quarantine ground during the night.</p>
+          <p>7th. This morning, we were visited by the Quarantine officers, and after that, we all came up to the city of New-York. Thus ends our passage.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p117" n="117"/>
+          <head>CHAPTER VII.</head>
+          <argument>
+            <p>The Author relates part of a conversation with an English officer. Some description of Gambia and its inhabitants. Necessity of cultivation. The minds of the natives must be cultivated as well as the land. Fine opportunities in Africa for steamboats, and enterprising men generally. Cape Mount. No newspaper in Liberia. An excellent opening for Frederick Douglass. Address to the rulers of Liberia. The necessity of treating the natives well and respecting their rights. Duties of parents and teachers. The young should be instructed. Mr. Horne in Monrovia. Mrs. Ann Wilkins. Mr. Phillips, a colored teacher.</p>
+          </argument>
+          <p>IN the last chapter, I gave an account of my passage from Gambia to New-York. I thought myself fortunate in finding the barque Isla de Cuba, Capt. Miller, at Gambia, and also in securing the same state-room and berth that I had occupied in the outward passage.</p>
+          <p>While on my passage in the British Mail Steamer Hope, I conversed freely with one of the chief officers, who informed me that their company were fitting out a strong line of steamers in England, for the 
+<pb id="p118" n="118"/>
+coasts of Africa and America, and also to explore the river Niger. They intend to leave no stone unturned in their African researches. He said that Africa would be the land of a great nation. He spoke in favor of Liberia. I told him that her Government was better than any that I had seen, except that of the United States.</p>
+          <p>The town of Gambia looks well as you approach it in front from the sea, but the most of the people seem to be wild and uncultivated. The greater part are the blackest persons that I ever saw. Among them are some Portuguese, but they are all under the English Government. But all are free in the Republic of Liberia. That seems to be the most desirable part of Africa. It was very cold in Gambia in the morning; I walked through the markets and saw the people lying about in the sand like pigs, half naked, both heathen and Mahometans, loaded down with charms and idols, going about shaving each other's heads, and cutting up a hundred pranks which you never saw nor heard of. We see many new things in this country, but the power of the Lord is here as well as elsewhere.</p>
+          <p>It is very interesting, and also very solemnizing, to visit the Protestant Episcopal Church in Gambia; to see the various nations, with their varied manners, 
+<pb id="p119" n="119"/>
+dress, features, and complexion. This last is of every shade, from the white to the most intensely black. Some of the congregation are dressed in the most fashionable style of the day—many of them with turbans as high as a sugar-loaf, and of the same form, composed of handkerchiefs of different colors; while the greater part are barefooted and half-naked. But they are all seeking the same thing, and in this they understand each other. They seem to be all in unity; they all come to Church to hear the Gospel preached, and to hear of the wonderful works of the Lord.</p>
+          <p>I visited the Wesleyan Methodist Church in Gambia, Rev. Mr. Meddows, pastor. He preached from the 33d Psalm. I saw a great many natives there, dressed in all forms and fashions, nearly all of them barefooted. There were six or eight very respectable looking white persons present. There were more than three hundred school children present, who performed the singing. They practise every day under their worthy teacher, Mr. Boaza, a colored gentleman of high standing in that community. The organ and the player are just behind the children, who are instructed in all the arts of civilization. They are put to all kinds of trades, learning of ship-carpenters, smiths, tailors, &amp;c.</p>
+          <pb id="p120" n="120"/>
+          <p>I attended a meeting in which I heard a colored man preach and pray in the native tongue. He is one of the natives, and having experienced religion, and learned to read the Bible, was considered capable of explaining it to the natives in their own language.</p>
+          <p>I trust that all good people of all nations will be roused up to the great work of civilizing the human family, and spreading the Gospel throughout the whole world, so that peace and tranquillity may prevail in every part of the earth, and the triumphant songs of redeemed spirits be heard in every green valley and upon every hill-top. Then will the nations learn war no more, and all tears will be wiped from the eyes of the mourners in Zion.</p>
+          <p>The only way to redeem Africa is to settle it as soon as possible. Take hold of the land, cultivate it, and in employing the natives, cultivate their minds at the same time that the land is rendered fruitful. Set good examples before them, and treat them well. In that way, we should soon gain both themselves and the land, and should all become one people in manners, habits, and religion. Then we should all become full citizens, and enjoy all the privileges of other nations.</p>
+          <p>The minds of the natives and the land are just 
+<pb id="p121" n="121"/>
+alike while uncultivated. The lands want ploughing up and sowing down with grain, and the different kinds of herd grass, and it is necessary to cross the breed of their flocks and herds.</p>
+          <p>The minds of the natives must be broken up with the ploughshare of the Gospel, and the seeds of grace, love, and unity must be planted in their minds, and they will bring forth much fruit to the glory of God, and be a blessing to the human family. I see that the Law and Gospel must work together in unity for the improvement of this country; and when brought to bear upon it, they will carry everything before them. Darkness and heathen principles will flee away, and wisdom and light must follow. Therefore, we have nothing to fear if we live according to the Gospel of our Lord and Saviour Jesus Christ; for it will then go well with us in time and in eternity. If the Lord is for us, he is more than all that are against us: therefore will I ever trust Him in all things.</p>
+          <p>I saw that a number of the natives had joined the Church in Monrovia, and had become good members; and still more of them are coming in. They are very much pleased with our people, and always ready to serve them. Therefore we ought to treat them well in all things, for the lands were in their 
+<pb id="p122" n="122"/>
+possession until those days when a more enlightened people came among them. They want more ministers in Liberia, for the harvest is great and the laborers are few. Therefore pray that more laborers may be sent forth into the vineyard.</p>
+          <p>I am about to join the mission, myself, if the Lord be pleased, and permit me so to do; for I always endeavor to obey the dictates of the Good Spirit, knowing that in doing so, I am sure to do right.</p>
+          <p>When I went up Saint Paul's River, I spent about eight days at the Mission House, with Mrs. Wilkins, a white lady, in the town of Millsburgh. I preached there in the evening. Saint Paul's is a fine river for steamboating; and if some of the New-York go-ahead citizens were to put a steamboat upon its waters, they would soon become rich men. If a steamboat ran between New-York and Africa, there would be an immense trade carried on of great value to the two nations. Besides, there are about two thousand miles of distance on the African coast where the sea is as calm as the Hudson or Delaware river, so that a good steamer could run along the coast without the least danger.</p>
+          <p>The flag of this young republic is <hi rend="italics">one star and eleven stripes.</hi> We trust that many stars will be added, until all this quarter of the globe will be 
+<pb id="p123" n="123"/>
+brought fully under the Law and the Gospel. If so, this will be the garden spot of the world. In Liberia, three parts of the day are very pleasant, a fresh breeze blowing in from the sea. The nights and days are always equal, twelve hours each. The fruit and coffee trees are bending with their luscious burdens, which, with many other valuable articles ready for market, are held at disadvantage for want of more speedy means of conveyance.</p>
+          <p>There are a great many very respectable colored people in Liberia. If I must speak the truth, they seem to be better informed than those who are in the United States. The Church and the Sabbath-School are conducted as orderly as among us, and I think are doing more good, in every respect, than ours.</p>
+          <p>I hope that the good citizens of the United States will put steamboats between New-York and Africa very soon, and upon the waters along the coast, wherever emigrants may be settled from any part of the world. The boats would all pay well: therefore, gentlemen, you have nothing to fear. Go a-head, and you will be successful, and will do much towards building up this young Republic.</p>
+          <p>I say of a truth, that if the colored people neglect to embrace or refuse this noble opportunity now offered to them, and let it fall and come to nothing,
+<pb id="p124" n="124"/>
+they will never rise above their present condition. They will be doomed to slavery forever. But I have a better opinion of my colored brethren in the United States. I trust that all of them will see and know that it is upon this noble enterprise of settling Liberia, that the salvation of the whole colored population depends. It depends upon our own actions and efforts to do our duty, and to secure our rights and liberties in Monrovia, Liberia—a land that has been kept and preserved for us for thousands of years: and now the time is fulfilled, and the friends of the colored race have opened a door for us that we might enter in and enjoy our rights and privileges without money and without price. In a few years, the independence of Liberia will be acknowledged by all nations.</p>
+          <p>I think that Cape Mount is a rich and beautiful part of Africa, and when cultivated and the inhabitants civilized, will be a very desirable place of residence. A great deal of wealth is yet to be obtained from that elevated portion of Africa. In fact, it is a pleasant country throughout; all things are plenty, the leaves are all green, the sufferings of slavery are nowhere to be seen, all men enjoying their rights and liberties under their own vine and fig-tree, with none to make them afraid.</p>
+          <pb id="p125" n="125"/>
+          <p>All those who are not friends to the settlement of Liberia, are no friends to the African race, nor to themselves or their country. A great many people are prejudiced by stupid reports founded upon ignorance and idle conjecture. But the colored man who is wise, will do like the Queen of Sheba; he will go and judge for himself, and then he will say that this work is of the Lord. He has prospered our labors thus far, and with his help, we are bound to go on in this noble enterprise, for the benefit of the African nation, who are as precious in the eyes of the Lord as any other nation upon the face of the earth. What a blessing it is that the people of the United States have laid a foundation for us sure and steadfast! We trust, therefore, that every wise man will see eye to eye on this subject, and lay aside all opposition. Let every one join in this noble work, and all the sons of Africa will soon be free, and religion and civilization will spread over that great quarter of the earth, to the glory and honor of the blessed Son, and the happiness of the human family, and to the praise and prosperity of the United States, which the Lord has made the instrument for bringing about this great deliverance for the sons and daughters of Africa. It may be the means of civilizing the whole world of mankind, and also fulfilling 
+<pb id="p126" n="126"/>
+the Scriptures of Truth, which say that the Gospel of the Kingdom shall be preached unto all the world for a witness, and then shall the end come. Oh! that this great republic may be the agent in fully accomplishing this great and glorious work, so that an everlasting blessing of peace and happiness may rest upon this land and nation!</p>
+          <p>There is no newspaper published in any of the places which I visited on the coast of Africa. I think that if such men as Mr. Frederick Douglass would give their time, attention, and talent to Liberia, they would do more good in one year, than they can in a whole life-time in the United States. They would make five times as much money, and impart instruction and civilization to our heathen brethren. There we may do a great deal of good without opposition or confusion; for many things which we are endeavoring to do in the United States, are like pouring water upon a goose's back; it has but little or no effect. Therefore such labors are of no value at all. We hope that all persons who wish the colored man well, will give their aid and attention to this noble work, so that light and the Gospel may soon spread over that dark and benighted land of our forefathers in Africa.</p>
+          <p>I must confess, that at one time I was blinded, 
+<pb id="p127" n="127"/>
+like many of you, to these important matters which regard the welfare of the colored population: but I now see plainly what must and will be done, for their general good and elevation; and I thank the Lord that the work is commenced, and, with his blessing, will go on.</p>
+          <p>Now let me make a few remarks to the humane rulers of this new Republic: Gentlemen, I have had the pleasure and honor of visiting your well-founded government, with which I am very much pleased indeed, and I am under a thousand obligations both to the chief officers of State and Church, for their Christian fellowship, and kind, gentlemanly treatment while I was among you. I had never before seen freedom and liberty existing among our people, until I saw it in Monrovia, Liberia, Africa, under the administration of his excellency President J. J. Roberts, and his wise counsel, in the year of our Lord 1854. There is nothing to be compared with this on the face of the earth for the colored nation, nor ever has been since the days of Noah. If we neglect this great opportunity, we shall be undone forever, in a temporal point of view. Now, to the rulers of this republic: forasmuch as the Lord has blessed you, and has lifted you up above your fellowmen, and has set you up on high—whether in Church 
+<pb id="p128" n="128"/>
+or State—it is for you to take heed to yourselves. In all your doings, remember the commandments of the Lord. Do not oppress the poor, the fatherless, the widow, nor the stranger. Do unto all men as you would like to have them do unto you. Consider well the natives of that great quarter of the earth. It has been theirs for nearly four thousand years. They, truly, were the sole proprietors: but we see that sin and idolatry have brought them to their present, low, degraded position. Now, all they want is good government, good rulers, good instructions, and good treatment. If they have these, they will all be brought in, and we will become a great nation, for the good of all mankind, and to the glory and honor of our blessed Lord and Saviour Jesus Christ.</p>
+          <p>Therefore, let us be very careful how we deal with those natives, lest we bring upon ourselves a reproach and incur the displeasure of the blessed Lord, and be finally driven out of that land in a more degraded condition than the present natives are at this time. And now, as the Lord has placed wise and good men at the head of the government in Liberia, we pray that there may be always good men to fill the important offices of State. If not, let the same remain in office who have been faithful in the <sic corr="fulfillment">fulfilment</sic> 
+<pb id="p129" n="129"/>
+of their duties from the commencement of the Republic up to the present time. Bad men make bad governments: good men make good governments.</p>
+          <p>In conclusion, I must say that it is the duty of all persons to seek the peace and happiness of their families, neighbors, Churches, States and nations. The way to obtain these blessings is to commence early: the heads of every family to give early instruction to their children; teach them to love and fear the Lord; teach them to love and obey their parents; teach them to love themselves and respect their neighbors; teach them to conduct kindly towards all mankind; teach them to love the ministers of the Gospel and the Church of Christ; teach them to respect and obey magistrates, principal men, and those who are in power; teach them to love their books, and the use and benefit of learning.</p>
+          <p>If you, as fathers and mothers, will carry out these duties, I can assure you that you will have happy families, good neighbors, Christian Churches, peaceable nations; and the blessing of the Lord will rest upon you and yours forever.</p>
+          <p>If you desire that your children should be respectable, give them trades, and all the learning that you possibly can. Let them understand reading and 
+<pb id="p130" n="130"/>
+writing well. Give them a full knowledge of arithmetic, grammar, geography, navigation, and mensuration; and let them learn every other useful science and art that they possibly can. it will do them good, and be a blessing to themselves and others.</p>
+          <p>I pray that the rulers of nations, ministers of Churches, heads of families, and all those who have charge of the rising generation, will please consider these important matters well; and if they are fully carried out, in a few years you will have a heaven upon the earth; and what a noble blessing it will be to that young and flourishing Republic, Liberia, in Western Africa, and to the colored population throughout the world!</p>
+          <p>There is the Rev. Mr. Horne, in Monrovia, a real Christian and gentleman, who has done, and is doing all the good he can, by preaching to colored people in Liberia. He is chief teacher in the academy also. He is a white brother, faithful and worthy. I hope that the good people of the States will not let him suffer. There is Mrs. Ann Wilkins also, who, as well as Mr. Horne, has been there a long time, and both have done a great deal of good. They must be cared for. Mrs. Wilkins intends shortly to return home; and Mr. C. A. Pitman and Miss Sarah M. 
+<pb id="p131" n="131"/>
+Reynolds, both colored persons, will remain as teachers. Mr. Phillips, a colored brother, teaches on the lower floor, and is  a worthy man also.</p>
+          <lg type="poem">
+            <l>Let every soul in every station</l>
+            <l>Join their assistance, who can tell</l>
+            <l>But God may turn and bless this nation,—</l>
+            <l>Let no contention among them dwell.</l>
+          </lg>
+          <p>May the blessed Lord ever bless the labors of his faithful servants in all places.</p>
+          <p>Before concluding, the Author would draw the attention of the reader to the case of the Rev. Samuel Williams, of whom mention is made at page 85, as being one worthy of notice.</p>
+          <p>The Rev. Samuel Williams, an Elder, and one of the most respectable inhabitants of Johnstown, in Western Pennsylvania, some time since, visited Liberia with his son, 16 years of age, who was very sick; and after remaining there a year, returned to the United States with his son, entirely recovered, in good health, and greatly improved in growth and appearance. His mother was so rejoiced on seeing her child fully restored to health, he having been sickly from infancy, that she determined at once to remove to Liberia, Western Africa, and there to 
+<pb id="p132" n="132"/>
+dwell, with the blessing of the Lord. The Rev. Mr. Williams took all his family with him, young and old, including his respectable and venerable mother, nearly ninety years of age, and was accompanied by more than thirty of the most respectable colored persons in the State of Pennsylvania. They embarked in the good bark Isla de Cuba, at the same time as the Author of this work, and arrived there  safe, and in good health. The Author visited them previous to his departure, and found them very comfortable and pleasantly situated, and well pleased with the country—the old lady sitting on the porch apparently as happy as the Queen of <sic corr="Sheba.">Shebah.</sic> They testified to their preference for that young and flourishing Republic of the Single Star and eleven stripes. May the Lord prosper it forever!</p>
+          <p>The Hon. J. J. ROBERTS, at present President of the Republic of Liberia, Africa, stands higher, in a national point of view, than any colored person in the United States, or in any other portion of the known civilized world.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p133" n="133"/>
+          <head>CONCLUDING REMARKS.</head>
+          <p>I THANK  the Lord that he has raised up many kind friends to the colored people, who are willing to aid them in obtaining a resting place, so that they shall no more be driven about the earth, without a home and without a country, mere hewers of wood and drawers of water for those who are more favored by the laws and customs of those countries in which they live.</p>
+          <p>There are many such good friends to us in the United States, and particularly in New-York and New-Jersey, ladies and gentlemen of high standing, of wealth and intelligence, and of most exemplary lives and the most exalted piety, who have devoted their time and their talents to our benefit, in order that they may provide a home and a country for my afflicted nation. Among these are the following names, which I give in this place, in order that my 
+<pb id="p134" n="134"/>
+colored brethren and sisters may know upon whom they may depend:</p>
+          <list type="simple">
+            <item>Hon. Anson G. Phelps, the distinguished Christian and Philanthropist.</item>
+            <item>A. G. Phelps, Jr. Esq., the Rising Star of the Empire City.</item>
+            <item>Hon. J. A. Westervelt, Mayor of New-York.</item>
+            <item>E. Canning, Esq.</item>
+            <item>Robert Lewis, Esq., No. 209 Fulton street.</item>
+            <item>O. B. Porter, Esq.</item>
+            <item>E. Harrison, Esq., who promises to aid the Author</item>
+            <item>R. Bowler, Esq.</item>
+            <item>Rev. J. B. Wakely, Forsyth street.</item>
+            <item>Rev. J. B. Pinney, Bible House.</item>
+            <item>Rev. Mr. Jessop, Second street.</item>
+            <item>Robert P. Cune, Esq.</item>
+            <item>P. S. Peet, Esq.</item>
+            <item>Mr. Kelso.</item>
+            <item>Mrs. Few.</item>
+            <item>Rev. Dr. Cox, Brooklyn.</item>
+            <item>Rev. E. Johnson.</item>
+            <item>Rev. Mr. Whitaker, M. E. Church.</item>
+            <item>W. C. Barker, Esq.</item>
+            <item>David S. Holmes, Esq.</item>
+            <item>Mrs. Pierrepont.</item>
+            <item>T. Price, Esq.</item>
+            <pb id="p135" n="135"/>
+            <item>J. Beebe, Esq.</item>
+            <item>H. L. Williams.</item>
+            <item>D. Galliway, Esq., Grand street.</item>
+            <item>Messrs Phillips &amp; Hadley.</item>
+            <item>Mrs. Eliza Doughty.</item>
+            <item>Mr. Marven, Water street.</item>
+            <item>Joseph Hegerman, Esq.</item>
+            <item>S. Knowlton, Esq.</item>
+            <item>Mr. Ward, Greene street.</item>
+            <item>Rev. Dr. Bond, Greenwich street.</item>
+            <item>Dr. W. W. Hall, Ewen Place.</item>
+            <item>Rev. Mr. Benning, East Twenty-Eighth street.</item>
+            <item>Rev. M. Bell, Brooklyn.</item>
+            <item>E. Spencer, Esq.</item>
+            <item>John B. Wilson, Esq.</item>
+            <item>Hon. D. S. Manners, Mayor of Jersey City.</item>
+            <item>B. B. Grinnell, Esq.</item>
+            <item>G. W. Cassidy, Esq.</item>
+            <item>J. J. H. Beck, Esq.</item>
+            <item>A. G. Mason, Esq.</item>
+            <item>Joseph Kissam, Esq.</item>
+            <item>Henry Demarest, Esq.</item>
+            <item>John D. Jones, Esq.</item>
+            <item>S. Davidson, Esq.</item>
+            <item>M. Daniels, Esq.</item>
+            <item>David Taylor, Esq.</item>
+            <pb id="p136" n="136"/>
+            <item>A. A. Dean, Esq.</item>
+            <item>George Peters, Esq.</item>
+            <item>W. E. Whiting, Esq.</item>
+            <item>Dr. S. P. Townsend.</item>
+            <item>Stephen Willets.</item>
+            <item>J. W. Knapp, Esq.</item>
+            <item>Dr. N. A. G—</item>
+            <item>Dr. D. E. C—</item>
+            <item>Wm. Janeway, Esq.</item>
+            <item>R. Minturn, Esq.</item>
+            <item>J. Chandler, Esq.</item>
+            <item>R. H. Hopkins, Esq.</item>
+            <item>H. M. Schieffelin, Esq.</item>
+            <item>Mrs. A. G. Phelps.</item>
+          </list>
+          <list type="simple">
+            <head>AT ROME AND UTICA.</head>
+            <item>Hon. Seth Roberts, Judge.</item>
+            <item>Hon. E. Huntington and Brother.</item>
+            <item>C. Comstock, Esq., Editor.</item>
+            <item>Messrs. A. S. Sanford &amp; Co., Editors.</item>
+            <item>P. Ainsworth, Esq.</item>
+            <item>Hon. Judge P. Gridley.</item>
+            <item>N. H. Dering, Esq.</item>
+            <item>O. B. Mattison, Esq.</item>
+            <item>H. Green, Esq.</item>
+            <item>Dr. G. W. Pope.</item>
+            <item>S. W. Moody.</item>
+            <item>H. Rogers.</item>
+            <pb id="p137" n="137"/>
+            <item>Mrs. Blanchard, 61 State street, Brooklyn.</item>
+            <item>Mrs. Jacobs, 77 Henry street,</item>
+            <item>Dr. Jackson, Albany.</item>
+            <item>Mrs. Delavan.</item>
+            <item>Mrs. Bosely.</item>
+            <item>Mrs. Bradford, (of the Boudinot Family,) Burlington, N. J.</item>
+          </list>
+          <p>With many other kind, liberal, and humane friends whom we shall mention in a second edition.</p>
+          <p>The Author is fully satisfied that nothing can elevate the colored population to an equality with the rest of mankind, but the full and free enjoyment, in a national point of view, of civil and religious rights, in addition to a system of universal education.</p>
+          <p>The benevolent ladies of the United States are the main-spring, movers, and sustainers of the Christian Churches, and all humane and benevolent institutions.</p>
+          <p>Although I am happy to see there are many kind, noble-hearted and liberal citizens in the city of New York, both gentlemen and ladies, there is a large number said to be our best friends, who are somewhat left-handed and very close, only aiding one way, let the distress of others be as it will. This is not according to the Gospel of our Lord and Saviour Jesus Christ.</p>
+          <pb id="p138" n="138"/>
+          <p>I do truly and sincerely thank those benevolent ladies and gentlemen of New-York and New-Jersey, to whom we are so much indebted, and pray that all the blessings of this life and that which is to come, may forever surround them—in this world, health, prosperity and happiness, and in the next, life everlasting.</p>
+          <p>Owing to the want of time, and the desire of the people to see this report of my visit to Liberia, the Author has made but little mention of his labors in this country, subsequently to leaving Bethel Church of Philadelphia. In a second edition, he will endeavor to be more full on that point. It may not be amiss, however, to append a few certificates delivered me by friends in Rome, State of New-York:</p>
+        </div2>
+        <div2 type="chapter">
+          <head>(CERTIFICATES.)</head>
+          <p>“REV. D. H. PETERSON has faithfully finished his services in behalf of the colored Church at Rome, Oneida County, New-York, which Church is now free from all embarrassments. He has for a long time been laboring to instruct and improve his brethren spiritually and temporally, but he is led fully to believe that their prospects here are not very encouraging. Therefore, many of his best friends, 
+<pb id="p139" n="139"/>
+both white and colored, have advised him to go to Liberia in Africa, and see if the prospects are not better in that young Republic, where his brethren can become full citizens at once, and freeholders, and enjoy all the comforts and privileges of the country both in Church and State,—where all may become a happy and religious people, and, if faithful among themselves, may eventually be the instruments in the hands of the Lord to restore that dark and great quarter of the Earth to civilization, together with the light of the Gospel and its pure teachings, that will bring an everlasting blessing upon all who are now, and have been, instrumental in carrying out this great and noble work. He is now  ready to comply with the advice of his friends and brethren, as soon as practicable. We, therefore, cheerfully recommend him, and sincerely hope he will meet with favor and aid from all, more especially the Christian community at large.”</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <salute>“TO ALL WHOM THIS MAY CONCERN:</salute>
+                  </opener>
+                  <p>We, colored citizens of Rome, State of New-York, do hereby certify, that the Rev. D. H. PETERSON has, for the last three years, been employed in erecting a Church at Rome, which he has fully
+<pb id="p140" n="140"/>
+accomplished. We now have a comfortable, neat house of worship, all paid for, and balance over. We found him faithful, and perfectly honest in his undertaking. We, therefore, cheerfully recommend him to all.</p>
+                  <closer>
+                    <signed>THOMAS JOHNSON,</signed>
+                    <signed>SAMUEL DEBOIS,</signed>
+                    <signed>WM. JOHNSON,</signed>
+                    <signed>STEPHEN THOMPSON,</signed>
+                    <signed>GEORGE GILBERT,</signed>
+                    <signed>HIRAM GILBERT,</signed>
+                    <signed>MARGARET GILBERT.</signed>
+                    <dateline>Rome, Nov. 30th, 1852.”</dateline>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <p>“The bearer, Rev. DANIEL H. PETERSON, has been an agent in the ministry for the colored people, in Western New-York, two or three years past, in collecting funds to build Churches. He has been a faithful agent, and I believe him to be a worthy man and a Christian. Anything you can do for him will be thankfully received, and bestowed upon a deserving person.</p>
+                  <closer>
+                    <signed>JAMES ERWIN,
+<lb/>Pastor M. E. Church, Fulton, Oswego Co., N. Y.”</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <p>“I am acquainted with the Rev. DANIEL H. PETERSON, and fully concur with the above recommendation
+<pb id="p141" n="141"/>
+and statement of the Rev. James Erwin, in relation to the bearer.</p>
+                  <closer>
+                    <signed>SETH B. ROBERTS,
+<lb/>Justice of the Peace.</signed>
+                    <dateline>Rome, Nov. 22, 1852.”</dateline>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>The following is a true copy of a letter received by the Rev. D. H. PETERSON, from His Excellency J. J. ROBERTS, President of the Republic of Liberia, in Western Africa, written in Monrovia, the Capital of Liberia. The author has preserved the original.</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>“Government House,
+<lb/>Monrovia, Jan'y 14th, 1854.</dateline>
+                  </opener>
+                  <p><hi rend="italics">This is to certify that the Rev. D. H. Peterson, from the city of New-York, United States of North America, has visited Liberia for the purpose of making observations respecting the condition, &amp;c. of this country, for the information of his colored friends in the United States. During his visit, though short, the Rev. Gentleman, I believe, has been indefatigable in his efforts to obtain correct information on all</hi>
+<pb id="p142" n="142"/><hi rend="italics">subjects of interest connected with this Government. And I am happy to find that he is well pleased, and expressed himself highly gratified with the country, and the prospects of the people.</hi></p>
+                  <closer>
+                    <signed>
+                      <hi rend="italics">J. J. ROBERTS.”</hi>
+                    </signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>“January 17th, 1854.</dateline>
+                  </opener>
+                  <p>I have had the pleasure of an introduction to the Rev. D. H. Peterson, from New-York, in the U. S. of North America. He is now on a visit to this country. I have met him in company, at different times and places. I have had the pleasure of hearing him speak in the Churches in public, and on private occasions. He came to this country on a mission to the Government and Churches. I am happy to say, that he appears to be highly pleased with the country, Government and Church, and whatever came under his observation in Liberia and the adjacent settlements, and will, no doubt, give a correct and satisfactory report upon his return to the United States of America. Our prayers are for his protection on land and by sea, and his safe return to his family, and the people, and the nation from whom he came, and that the blessings of the Almighty may
+<pb id="p143" n="143"/>
+attend his mission and all those who are interested in the welfare of those people.</p>
+                  <closer>
+                    <signed>Rev. JAMES W. HORNE,
+<lb/>Principal of the Academy, Monrovia, Capital of the
+<lb/>Republic of Liberia.”</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+        </div2>
+        <div2 type="section">
+          <pb id="p144" n="144"/>
+          <head>
+            <hi rend="italics">Extract from the Jersey City Sentinel and  
+<lb/>Advertiser, of March 11, 1854.</hi>
+          </head>
+          <p>MISSIONARY INTELLIGENCE FROM AFRICA.—The barque Isla de Cuba, Capt. A. Miller, 29 days from Gambia, West Coast of Africa, has just arrived at New-York. Among the passengers we notice the following: Rev. Mr. and Mrs. Lacy, missionaries at Lagos; Mr. and Mrs. A. Forsyth, of Gambia; and Rev. D. H. Peterson, a very intelligent and useful colored clergyman.</p>
+          <p>It will be recollected that Mr. Peterson, (who publishes a card in another column,) visited this city last fall, to solicit aid in a very laudable undertaking. He left New-York in November last, for Liberia, aided by gentlemen and ladies here, and in other parts of the country, interested in the welfare of the African population in the United States, to examine and report upon the condition and prospects of the new Republic. Mr. Peterson arrived at Monrovia the last of November, and spent upwards of two 
+<pb id="p145" n="145"/>
+months in the country. The Legislature of the Republic was in session at the time, and Mr. Peterson was consequently enabled to gather from Representatives of the more remote districts, ample information pertaining to the condition of their constituents. In Monrovia he was treated with great hospitality, having been entertained by the chief functionaries of the Government, and by the principal citizens. He enjoyed uninterrupted health, and reported that to have been common to the inhabitants generally at the period of his visit.</p>
+          <p>The capital and country presented every indication of prosperity. A general sentiment of contentment pervaded the population. Industry was everywhere pursued, and thrift and comfort followed in its train. Mr. Peterson preferred the aspect of the Republic, in those respects, to that of the British settlements. Liberty, equality, and self-government, exhibit in Liberia their benignant influence.</p>
+          <p>Mr. Peterson went from Monrovia in the English mail steamer Hope, to Gambia, touching at Sierra Leone. Among his fellow-passengers was Mr. Abm. Caldwell, of New-York, who visited Liberia as an agent of a New-York Agricultural Association, part of whom have already emigrated to the Republic. Mr. C. was unwell on leaving Monrovia, and in the 
+<pb id="p146" n="146"/>
+progress of the voyage his illness increased so as to endanger his life. An attempt on the part of one of the stewards of the ship to induce the dying man to bequeath to him his effects was foiled by the interference of Mr. Peterson, who rebuked the mercenary spirit of the interloper, and succeeded in preserving for the wife and children of the emigrant, his watch and clothing. Mr. Caldwell survived till the steamer reached Sierra Leone; he was landed about 3 P. M. and died at about eight the same evening, while under the care of a competent physician and nurse. His remains were interred the next afternoon in the Queen's burying-yard, with every appropriate demonstration of respect. Mr. Jones, the Episcopal clergyman of the place, reading the funeral service.</p>
+          <p>Mr. P. having expended all the money contributed to pay the cost of his tour, solicits contributions for his support, while engaged in completing the object of his mission.</p>
+        </div2>
+        <div2 type="section">
+          <pb id="p147" n="147"/>
+          <head>
+            <hi rend="italics">Testimonial of the Passengers on board the <lb/> Isla de Cuba.</hi>
+          </head>
+          <opener>
+            <dateline>BARQUE ISLA DE CUBA, <lb/> Approaching the Port of Monrovia, W. A. <lb/> December 17, 1853.</dateline>
+          </opener>
+          <p>At a meeting of the passengers held to express their feelings in regard to the excellent qualities and conveniences of the barque, and their high appreciation of her officers, the Rev. D. H. Peterson was called to the chair, and A. Washington and William Nesbitt appointed Secretaries. After prayer, by Rev. Samuel Williams, and thanksgiving to God for his mercy and kind protection in guiding us safely over the boisterous seas and through violent storms, and permitting us to gaze over the sunny hills and verdant vales of our long-desired and adopted land, a brief, eloquent, and appropriate address was delivered by Mr. Alfred Truman. After this, the Committee reported the following resolutions, which were unanimously adopted:</p>
+          <pb id="p148" n="148"/>
+          <p><hi rend="italics">Resolved,</hi> That we hereby return our thanks to Capt. Austin Miller, master of the barque Isla de Cuba, and Messrs. H. K. Hatch and McGill, first and second mates, whose kind attention and gentlemanly conduct towards us during our passage, both in sickness and in health, have secured for them a grateful place in our memory, and whose prompt attention and skill in guiding their barque safely through perilous storms, have convinced us that they are able and efficient officers.</p>
+          <p><hi rend="italics">Resolved,</hi> That duty and justice to ourselves and our friends in America, compel us to express our thanks to the American philanthropists, and record the fact that, so far as we have yet seen, they have freely done all for us that they have promised, and that we see nothing that tends to deprive us, in the least, of our free agency, and they, in this, as well as in former cases, have spared no pains in assisting the emigrants in their preparation, and in fitting out this expedition with an abundance of the best provisions that the markets afford, and in many acts of kindness, at their own expense and labor.</p>
+          <p><hi rend="italics">Resolved,</hi> That we recommend to our friends in the North who may wish at any time to emigrate to Africa, to secure their passage from the port of New-York, both for convenience and comfort and the 
+<pb id="p149" n="149"/>
+greater facilities for obtaining everything necessary for the passage and for trade.</p>
+          <p><hi rend="italics">Resolved,</hi> That the Committee present copies of these resolutions to the Captain of the Isla de Cuba, and to the Editors of those papers which are friendly to the emancipation of the colored population.</p>
+          <closer><signed>REV. D. H. PETERSON, <lb/> Chairman.</signed>
+<signed>A. WASHINGTON, </signed><signed>WM. NESBITT,
+<lb/>Secretaries. </signed>
+<signed>ABRAM CALDWELL. </signed><signed>JNO. H. M. HARRIS. </signed><signed>JOSEPH P. BROOKS. </signed><signed>THOMAS LILLASON. </signed><signed>EDMUND BROWN. </signed><signed>A. JOHN. </signed><signed>DARIUS JACKLIN. </signed><signed>SYLVANUS JACKLIN. </signed><signed>REV. SAMUEL WILLIAMS.</signed></closer>
+        </div2>
+        <div2 type="section">
+          <pb id="p150" n="150"/>
+          <head>CHURCH COLLECTIONS.</head>
+          <p>On Sabbath-days the Collections made in many of the Churches in the United States are very badly managed. Much better plans might be adopted than are now in use in many of the Churches, both in cities and villages. Preaching three times a day, a call is made at the end of each sermon for money, &amp;c., which destroys the good effect of the instruction just received by the congregation. Arrangements should be made with the members, and others who favor Church governments, to appoint one day in the week or month, and then pay in whatever amount they may be able for the support of the Church, &amp;c., and thereby let the Sabbath be wholly set apart for Spiritual services.</p>
+          <p>The Author, in making the suggestion, earnestly prays that the above principles may be adopted in all Christian Churches.</p>
+        </div2>
+        <div2 type="section">
+          <pb id="pxxx5" n="151"/>
+          <p>Any communications for the Author may be left with Dr. R. F. Hibbard, No. 93 John street; or with Mrs. Hardy, at No. 35 Wall street, (Mr. Furniss' office, No. 27, in the rear.)</p>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="back cover">
+        <p>
+          <figure id="back" entity="peterbk">
+            <p>[Back Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

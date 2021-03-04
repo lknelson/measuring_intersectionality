@@ -1,0 +1,537 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY greenwtp SYSTEM "greenwtp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Narrative of Events in the Life of William Green, 
+(Formerly a Slave.) Written by Himself:</emph>
+Electronic Edition.</title>
+        <author>Green, William, former slave</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Image scanned by</resp>
+          <name id="ip">Ingrid Pohl</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Bethany Ronnberg and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca. 50KB</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and 
+personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page">Narrative of Events in the Life of William Green, 
+(Formerly a Slave.) Written by Himself.</title>
+          </titleStmt>
+          <extent> 23 p.</extent>
+          <publicationStmt>
+            <pubPlace>Springfield</pubPlace>
+            <publisher>L. M. Guernsey, Book, Job, &amp; Card Printer</publisher>
+            <date>1853</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number E444 .G79 (Library of Congress)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>This electronic edition has been transcribed from a photocopy supplied by the Library of Congress.</p>
+        <p>Any hyphens occurring in line breaks have been
+removed, and the trailing part of a word has been joined to the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Green, William, former slave.</item>
+            <item>African Americans -- Maryland -- Biography.</item>
+            <item>Slaves -- Maryland -- Biography.</item>
+            <item>Fugitive slaves -- Maryland -- Biography.</item>
+            <item>Slaves -- Maryland -- Social conditions -- 19th
+century.</item>
+            <item>Slavery -- Maryland -- History -- 19th century.</item>
+            <item>Slaves' writings, American -- Maryland.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-07-21, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-03-22, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-03-22, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-03-09, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="greenwtp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">NARRATIVE OF EVENTS
+<lb/>
+IN THE LIFE OF
+<lb/>
+WILLIAM GREEN, <lb/>(FORMERLY A SLAVE.)</titlePart>
+        </docTitle>
+        <byline>WRITTEN BY HIMSELF.</byline>
+        <docImprint><pubPlace>SPRINGFIELD:</pubPlace>
+<publisher>L. M. GUERNSEY, BOOK, JOB, &amp; CARD PRINTER,</publisher>
+<pubPlace>Main Street, east side, 4th door north of State.</pubPlace>
+<docDate>1853.</docDate></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="green3" n="3"/>
+        <head>LIFE OF WILLIAM GREEN.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <p>I was born in Oxford Neck, on the Eastern Shore of Maryland. My ancestors for 
+many generations back were held in slavery, and it was my unhappy lot to be born about
+ three months before my mother was set free. My mother's name was Matilda Jackson, who 
+with her two sisters and one brother, belonged (as she said) to Miss Molly Goldsbury, who at her death set all her people free, and their children as they came of age. I was consequently entitled to my freedom at twenty-five, which they call becoming of age, but I was handsomely cheated out of it. At the death of my old mistress I fell into the hands of Mr. Nicholas Singleton, a distant relative of Miss Goldsbury. At the death of Mr. Singleton I fell into the hands of his son, who was a young man—I was quite young at this time, so I remember but a little of this period. However young Singleton took it into his head to go to New Orleans, and to take me with him. My mother did not believe if I went to the far South that she would ever see me again; she went with a bursting heart to my young master, and begged him not to take her poor child away from her no more to return. Singleton's object undoubtedly was to sell me and put me in his pocket, but seeing the distress of my mother he relented a little, having some little regard for her, she having nursed him when a child. He told her-if she would find any person who would buy me, in one week, he would sell me and not take me away. My mother overjoyed to hear this, spared no pains to
+<pb id="green4" n="4"/>
+find a purchaser. She found a man by the name of Edward Hamilton, who said he would purchase me to 
+save me from going to the South. Accordingly I was exchanged for a fine trotting horse. When I passed 
+from Singleton's hands to Hamilton's there was nothing said about my being free at twenty-five years of age, 
+therefore I came into his possession a slave for life.</p>
+          <p>Mr. Hamilton was one of those quiet, peaceable kind of people, who mind their own business, and 
+let other people's alone. He was a widower with six children, and a better set of children for slave-holder's 
+children, I seldom or never knew; they were kind and not abusive to the servants; I never knew one of them to 
+strike a servant in anger in my life. Mr. H. was a rich man, and had eight or nine plantations, each of which 
+covered from four to five hundred acres, and every one of these was well stocked with slaves. But I must admit 
+that Mr. Hamilton was a humane man to be a slave-holder; he was strict, but generally kind to his servants; yes, 
+I must say very kind to them in the way of feeding and clothing them. But that was not a fair remuneration for labor; 
+we wanted our liberty, (or at least I did, and what is more I made a move and got it.)</p>
+          <p>At the age of eight or nine years I was taken from my mother, who had until this time been permitted to
+ retain me, and brought to the great house as the servants call the residence of the master, to wait upon master; 
+and from that time I entered upon a new scene of my life. However I got along very well. My master being a very easy
+ man to please and his demands being quite reasonable, I found but little difficulty in pleasing him. I remained with
+ him from nine years old until I was about twenty, in the situation of body-servant. He then took me to be a race rider.
+ He kept a great number of fine noble horses, with a number of race horses; and being of the right size for a rider, he took me to ride races. I remained in this employment until the Lord, as I humbly trust, was pleased to pardon my sins for Christ's sake, and riding races being now repugnant to my
+feelings, and my master being quite a conscientious man in some things, though not enough so in others, would not
+make me continue that business. I now became a waiter in the house, and I remained in that situation until 
+Miss Henrietta Hamilton was married, when I was given to her as a
+<pb id="green5" n="5"/>
+part of her wedding dowry, she having always taken a great liking to me, and said that I belonged to her. The gentleman
+ to whom Miss Henny was married, was Dr. Solomon Jenkings, a sour, morose kind of man, whom I never liked, but Miss 
+Henny loved him, and had married him, and I was given to her; therefore I was obliged to go with her.</p>
+          <p>I will digress here a little to inform my readers that about this time my dear mother died. She had been sick 
+for some time and as she drew near her end she felt a desire to see her poor slave boy once more. I was sent for, 
+but here came in the blighting effects of Slavery; I could not go without asking master, to see my poor mother die,
+ and he not feeling in the right humor said I could not go, and by the time I arrived there she was gone. But I have
+ this consolation, to know that my departed mother was prepared for her last great change, and if I prove faithful I shall one day meet her on the fair banks of Deliverance. When I went to Dr. Jenkings's my work was to wait and take care of things in and about the house, and go of errands, and ride with the doctor when he went to see his patients. It was not a hard service, but it was slavery, and I was not satisfied with being a slave. Having a great many relations who were almost all free, and I being a slave, made me very unhappy, and every day I became more and more determined to be free or die in the attempt. The Doctor was a very disagreeable man, and I being dissatisfied with the life I was leading, made my case a hard one. Mrs. Jenkings was a fine woman, and she was good to me; I was quite a favorite of hers from childhood, we having lived together ever since we were children. I often told her I had almost as soon go to Georgia as to stay with her husband;—she would seem to feel very bad, and say she would talk to him.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="green6" n="6"/>
+          <head>CHAPTER II.</head>
+          <p>I will now tell you something of what I have seen and known on good authority. Many of the incidents I saw myself. 
+I have not perhaps seen as much as many, and my lot was not as hard as some, but being a slave was enough
+for me.</p>
+          <p>When I was about nineteen years old I was compelled to see my elder brother taken up and put in the chain gang with 
+about one hundred and sixty more, to be driven off to the far South to toil and die upon a sugar or cotton plantation. 
+Think dear reader for one moment, how you would feel if a brother or sister were taken from before your eyes and 
+chained
+with a heavy iron chain, and driven off where you would never hear from them again. What would be your feelings? 
+Would 
+not your blood boil within you, and would not you
+visit with sudden vengeance the perpetrator of such a deed? Wonder not then that I was almost persuaded to take 
+the retribution into my own hands. I hastened to bid my brother good-bye, but was scarcely permitted to say even that 
+to him, and I have never heard a word from him from that day to this. Oh the cruelty of such a system! My father while he was a slave belonged to a man by the name of Nace Rhodes. He was considered one of the meanest men any where about in those parts. He kept his servants always half starved and naked. He was never known to give his people enough to eat, and he worked them late and early. Daylight never found them in bed. Bed, indeed did I say,
+poor creatures they hardly knew what a bed was; all the bed they knew anything about was a bunch of straw on the
+ cold damp earth. Two hours before daylight they were called
+<pb id="green7" n="7"/>
+by the overseer, by the blowing of the horn, to feed the stock and to do all other necessary things and to get their own
+ little grub, which was very small, and would not take
+much time to eat it; and by the second blowing of the horn, which was by the first dawn of day, every one had to be 
+ready to march to the field, women as well as men;—if you were not ready no matter what your excuse was, his 
+law was supreme. He was a cruel as well as <sic>as</sic> a hard master. I knew one who belonged to him whom he struck 
+upon the head and split his skull open. The master has all the power
+over the poor panting slave, and let him treat him as he will, the slave has no power to lay his grievances before 
+any human being; the master stands there the supreme being, who seems to the slave many times, to have more power
+than the Almighty himself. But thanks be to his Great Name, he is able to help the poor and needy and the distressed,
+ when they cry unto him. This man was my father's owner; for some reason or other he took quite a fancy to my
+father; and consequently he got along much better than most of the slaves. He made father foreman on his plantation, 
+and appeared to think a great deal of him; but the reason was father was an extra hand to work, and always
+kept his end up, as we used to say down there, and he never could find any good or palpable reason why he should not 
+treat him with some sort of decency. He set father free at a certain age; what that age was I forget, but I believe it
+was the only good deed he ever did in his life.</p>
+          <p>There was another man by the name of Harry Holliday, who called himself the Great Labor Saving Man. This man's plan 
+was to make one man do the the work of two. He half clothed and fed his people. He gave to each man
+two shirts, two pair of pantaloons made of coarse sacking, such as grocers keep salt in. For the women the same in the
+ same in shape of jacket and petticoat. This was for summer; for winter they had one bare suit of raw kersey
+apiece. This kersey is made of black and white wool, carded together and wove with cotton warp, which makes a kind of 
+black and white, which we call nits and lice. This
+kersey was for winter, and the sacking for summer. He said any better was too good for niggers. Their food was of the 
+meanest and coarsest kind. He gave to each man and
+woman for their week's allowance one hog's face, not a head,
+<pb id="greem8" n="8"/>
+only the face, and about a dozen ears of corn, and that to be ground in a hand mill at night, after they came from work, 
+and hardly stopped work at all. When all others were done
+and gone to rest for a long while Holliday's people could be heard hard at work. Poor creatures, all the corn they pulled 
+to day they had to husk out to night, if not they
+were tied up and whipped. He always over-worked his people. His young men of eighteen and twenty years looked to be thirty
+ and thirty-five years old. He would get
+in from fifteen to twenty hundred barrels of corn in one season, and their corn barrels are a great deal larger than the 
+barrels we have here. Well, his slaves had all that to husk and put away at night, after they had done their day's task.
+He would not let a husking-match be on his place for anything in the world. A husking-match is where a farmer
+gets say eight or ten hundred bushels of corn; he sends round to his neighbors to have their servants come such a night to
+help his servants husk corn, and they generally have something of a supper, and plenty of cider, and sometimes something
+else after supper. They commence to husk corn, and not unfrequently they keep it up till long after midnight, singing 
+songs and telling stories; and I have often known
+from five to six hundred bushels to be husked in one night. Well this tyrant would not have anything of this kind on his 
+place; he was a cruel miserly man. He had an old woman
+who was almost past work, but for all that she had to try to do all she could. It was her work to tend the sheep and cows. 
+One very cold day in winter this wretch sent this poor woman out to look for the sheep. She went and looked
+for a long time and could not find them, so she came back and told him that she could not find them. He swore and cursed
+ her and told her she should find them. She told him she was almost frozen with the cold; he told her to be gone
+or he would make her;—she went, and the next morning she was found frozen to death under the fence. I will now give 
+some account of our quarters. It is a large low building,
+built in the open field, with a large chimney in the center, with no partition, without lath or plaster, and nothing but 
+the naked beams and rafters, with a few loose boards laid
+down overhead, where you might lay away any small articles for safe-keeping. The women sleep in the beds if they are so 
+fortunate as to have any, for they are not included in
+<pb id="green9" n="9"/>
+your portion; and the men get a box or bench and lay it near the fire, and then get one or two boards and lay them down 
+with one end on this box or bench and the other on the floor, and with his jacket for a pillow, or perhaps a sheepskin, 
+(for they give each slave a sheep-skin once a year to sleep upon,) he lays down to rest, while one keeps watch to
+keep a good fire in the cold winter nights; for in Maryland, where I came from, they have some pretty cold weather. In 
+this manner twenty-five or thirty men women and children sleep.
+If by chance you may be able to get a few boards and get a little time to do it, you may partition off a little room 
+for your wife and children; and the man who does this is a
+great man amongst them. Sometimes they get old blankets and such like things to hang up to make little rooms for their 
+families. All the children and old people that are past
+labor, are kept in the quarters. The old people are to mind the children and to keep them out of the fire, and to get 
+their food. All field hands also are to be found at the quarters. The
+big house stands a few rods from the quarters in plain sight, and those females who work about the house and have children, must leave them down to the quarters. The
+mother can go once or twice a day to nurse them, and the little ones of three and four years of age dare not come up to the great house, if they do they are sure to be whipped. I
+have seen the mistress take her cowhide and lay it well upon the poor little innocents for coming up to the house even 
+to get a crust of bread. My friends, my soul is roused within
+me when I reflect what wrongs and sufferings my people have endured and are still enduring because of this iniquitous system. The infamous fugitive slave bill has caused a
+great deal of misery, and I truly believe done a great deal of good. In the first place it has given the first sound of freedom to many a poor slave, and been the unintentional means of their getting away to a land of freedom. It has
+also made us many friends; and some who would never have given the subject a thought, have been led by the working of this instrument, to look into this great subject, and to see the great enormity of the system, and have lifted up their voices against it. Of the misery it has caused I can tell from painful experience. The bloody Soul-Hunters going
+about like roaring lions seeking whom they may devour, and every officer of the law who will stoop so low as to do this
+<pb id="green10" n="10"/>
+dirty work for the slaveholder, he despises him in his heart; for he knows that he does it for the sake of the loaves and fishes which he expects to get. Oh, this boasted land of Liberty! 
+<hi rend="italics">Liberty</hi>, the sound is like sounding brass and tinkling 
+cymbals to all the descendants of Africa, or any one that bears any affinity to them. The land of our birth and of our fathers, we cannot repose under the 
+spreading wing of the eagle;—but we turn to <sic>to</sic> the king of the forest and under his shaggy mane we can repose in safety! Native-born
+freemen flying from a land of republicanism to a
+monarchial one, in order to enjoy freedom! What an idea! But, as strange as it may seem, it is nevertheless true. I sometimes think that the white Americans think that the colored people ought not to have and do not deserve any better
+treatment from them as a people than they receive. They seem to act as if God made us to be their servants, and that it is just and right for them to keep us in slavery. This may seem a far-stretched idea to some in this enlightened
+age, but do not their actions say so? They have ever restricted us from engaging in any laudable business that would be the means of our improvement or elevation as a people.
+Their high schools, seminaries, and colleges, and almost all the doors of learning, are barred against us; although for the last few years it has been a very little better in some parts
+of the country. But I know it is the blighting effect of slavery. I have felt and worn the galling yoke of slavery, and I feel that I can adopt the scathing, 
+burning description of slavery which Hon. Horace Mann gave in his speech
+delivered just before the rising of the last Congress. He says, “As the complex and infinite meaning of the word God cannot
+be adequately understood until you analyze, and divide, and subdivide it, and give to it the thousand names of omnipotence and omniscience, of infinite justice and holiness
+and benevolence, of all sanities and verities, and benignities of all energies and beauties, of all wisdom and all law, so when you penetrate and lay open the infinite meaning of
+the word Slavery, it resolves itself into all crimes, all cruel ties, all debasements, and all horrors. The telescope of the astronomer resolves the star-dust of the universe into
+refulgent systems that glorify their Maker;—the telescope of the moralist resolves the tartarean acme of slavery
+into all the impieties and wickedness that deform humanity.”
+<pb id="green11" n="11"/>
+That is what I call a true definition of American Slavery. I often wonder within myself if this awful curse will ever come to an end. In the anguish of my soul I cry out, O, Lord, how long! O, Lord, how long! but there seems to be
+far off in the distance a small gleaming of light. O, that I had more faith to believe that the day of deliverance was near at hand. I suppose I might enumerate many incidents of the unjust treatment of slaves if I thought it worth while.
+I have known servants to be sorry to have the time come for company to leave the house, for they well knew that after they were gone then comes the reckoning day, if you had
+made a slight mistake in waiting upon company, or happened to let a little water spill upon a person when handing to
+them to drink, for which they will tie you up and whip you. Such are some of the evils of slavery. <sic corr="Woe">Wo</sic> to him who would maintain such a system. God is no <sic corr="respecter">respeeter</sic> of persons,
+and beware that he does not let fall upon your head some of the vengeance which shall be executed upon the oppressors of his children.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="green12" n="12"/>
+          <head>CHAPTER III.</head>
+          <p>I must now return to my history. About a year before I left the Doctor we had a quarrel. He had ordered me not to leave the premises when he was gone; but, feeling that when my work was done, I might take a little leisure to
+myself, I did not particularly regard his commands, and in the present instance I had a sick brother at a friend's house, and after the Doctor had gone to see his patients I thought I
+would go to see my brother a little while, expecting to get back before he returned; but when I approached the house I perceived him standing holding his horse waiting for me. I
+at once saw that he was in a passion, and I was cut and dried for him. He in a very peremptory manner asked me where I had been. I told him I had been away. He asked me if he had not ordered me not to leave the house when he
+was gone. I told him I was not a going to stay there night and day too, and he might sell me, for I did not want to stay with him no how. He says “Mind how you talk,” and cracks
+away at me with his whip. I jumps at him and snatches the whip from him; he aims another blow at me I caught him by the collar and threw him upon the ground; and down upon the ground we had it; he and I, blow for blow, kick
+for kick, there we fought until almost out of breath. He cried out, “let me be, let go of me.” I says when you will promise to let me alone I will do so. When I had wallowed him in the dirt to my heart's content I let him go. He had
+said previous to this fight “by the Eternal Gods, you or I shall conquer;” and I had long before made up my mind that he nor no other one man should whip me; and I boldly
+told him so. I told him often that day that if he whipped
+<pb id="green13" n="13"/>
+me, or had me whipped, I would never do another day's work for him or any other man in the place; and when I would tell him that, he would make use of the expression
+used above. Well, as I was saying I let him go. He went immediately to the house and gets his pistols and bowie knife, and comes down to the barn where I was attending to the horses; and he began, “I do everything I can to make you
+comfortable and happy, and this is the way you go on.” I replied, “you must let me alone; hands off!” “What's that
+you say,” says he, “remember I am well armed.” I replied, “I care not for your arms, fire away as soon as you please.”
+I felt then that I had as lief die as live. Oh, the horrors of being a slave! no one can tell but those who have drunk of the bitter cup. I was full, my heart was almost ready to burst
+with contending emotions, anger, grief, and sorrow. I had not a person to whom I could unbosom my mind. I felt that anger was getting uppermost in my breast, and I dared him
+to come inside of the yard; and with the feelings I then had it would have been dangerous for him to have done so. However he thought prudence was the better part of valor,
+and after a few menaces he withdrew, and left me sole possessor of the field. After this we made up and got along very well for almost a year, when his wife died, and then he
+thought he had me sure; for he used to often tell her she was ruining me in letting me have my own way so much; but she would always take my part, let it be as it would. After
+she died he says to me in some little spat I had with him, “You hav'nt got your Miss Henny to beg for you now, and it will not be a great while before I get hold of you.” Well,
+one night there was a husking match down at my father's, about seven miles in the country, and I wished to go. The Doctor had told me not to go, but I had made up my mind to go, and I went. I got Esau, my fellow servant, to promise
+to stay at home until I came back, but instead of his doing as he agreed to do he goes off to a husking match another way, almost as soon as I had left. Soon after we were both gone some one comes for the doctor. He goes to look for
+me; I was gone; he looks for Esau, he was gone; he next goes to the stable to look for his horse, when lo, Esau had carried the keys off in his pocket. “The idea of having two
+servants and three horses, and cannot find either of the servants, or get my horses out of the stable, it is too bad,
+<pb id="green14" n="14"/>
+and I will not stand it.” He goes to the kitchen and tells the cook to tell us to go down to the farm and bring up some cattle for cattle show, and if we did not get up from the farm by nine
+ o'clock he would whip us both when he came home. 
+The cook informed me of the message when I came home<sic>.</sic>
+which was not very early, and she appeared to feel quite alarmed. She had got a good breakfast ready for us, but I did not feel much like eating. I waited some little time and
+then I took my fellow servant and went down to the farm to get the cattle. I knew it was impossible for me to get back by the time he said, therefore I did not hurry myself. When
+I got back the doctor had got home. He came down to the barn and asked me where I had been. He says, “have I not given orders for you not to leave the premises when I am
+gone?” I replied that I was not going to stay there night and day too. He said nothing to this, but leaned upon the fence with his head upon his hand, and seemed to be in a great
+study. All at once he addressed me in quite a different manner from what he had before; says he, “Doctor,” this was the name I was commonly called by, “when you have
+done what you are about, get my horse Don, and saddle him, and bring him up to the door.” Well, thought I, what does this mean? I was certain it did not mean any thing good,
+however I did as he requested me to do. In a few minutes he came out looking quite pleasant, and he says to me, “I
+have a large box up to the <hi rend="italics">jail</hi>, which I wish you to go and get; take the wheelbarrow, and Esau with you; it is so large it will take both of you to bring it down.” So saying, he got upon his horse
+ and rode away. Sure enough those twenty stripes were too much for me and Esau to lift for him.</p>
+          <p>After he was gone I stopped awhile to consider what was best to do; for I very well knew what was in that note, and I had long ago made up my mind not to let any one man whip me. I started up the street, after telling Esau that I
+should not go after any box, for he only wanted to get us whipped. I had gone but a short distance when I saw a young friend of mine with whom I had often talked about
+this freedom, which we heard so much about, and which we had made up our minds to go and seek. He lived about nine miles down in the country, and had to come to town to do
+some errands for his people. I hailed him. and he soon came
+<pb id="green15" n="15"/>
+to me, when I told him all about the affair, and we there concluded to make steps for Canada. We went up as far as the jail, sat down on the stone steps, and there we laid our plans and made our
+ arrangements for our anticipated journey; and I can tell you that it requires
+ all the nerve and energy that a poor slave can bring to his support to enable him to make up his mind to leave in this precarious manner.</p>
+          <p>We concluded that I should conceal myself for a day or two, until he could get ready. He was to go down home and bring his master up to cattle show, which was holding in the place at the time. He was to bring up his clothes in the
+boot of the carriage, and the same night we were to start. I now went round to two or three of my confidential friends and told them how matters stood with me. They were much
+surprised to hear of my determination, but I was valiant hearted, and I was determined to be free or die in the attempt. I felt that I had spent as much time in slavery as I was willing to, and I could not see why I had not as much
+right to myself as Doctor Jenkings had to himself; at any rate I intended, with the help of the Lord, to make the attempt to become a freeman. I very soon made arrangements
+with my friends to get together as much of the material aid as they could against Wednesday night, which was the night appointed for us to start, and I soon after concealed myself
+in the house of one of the worst slaveholders we had in the town; one of his slaves being one of the two or three tried friends that I had informed of my situation; and to him I
+owed my being in this man's house. I was pretty certain that they would not come there to look for me, for it was a fixed fact that if he were aware of my whereabouts he would
+very soon inform my owners. But they little thought that I was peeping out of Theodore Lockoman's garret window while they were looking for me far and near; for I was of so
+much consequence that the town was in quite a stir about me. They even went down to my father's to see if I had been there. They believed he knew of my whereabouts, but the old gentleman knew nothing about it. However I
+was quite safe from danger of being found.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="green16" n="16"/>
+          <head>CHAPTER IV.</head>
+          <p>On Wednesday morning my friend Joseph came up to town with his master—we were to start that night. Two cousins of mine started ahead to make preparations for our
+crossing the river, while my friends and myself came on with some others who wished to see us start. We were disappointed in not finding a conveyance to cross; the person upon whom we depended was afraid to venture. There had
+been quite a number of escapes a short time before, which had created quite an excitement among the slaveholders, and they had been on the look out for fugitives for some time.
+For these reasons the friends of the refugees had to be on their guard, or they might get themselves into trouble, and not benefit the poor slave either; on this account our friend
+could not take us across the river. We hardly knew what plan to follow to cross, however we betook ourselves to going up and down the margin of the river looking for a boat. At
+last when we had almost given up the hope of finding one, we espied one up in the bushes. My friends, cousins, and myself took this boat up and carried it down to the water. We put it in the creek and tried it, to see if it leaked, and
+found that it did not leak very bad, so we concluded to venture over in it. We had no paddle, only an oar to paddle across with, and a piece of a king crab's shell for a cup to
+bail out the water. We put our small bundles in and bidding our friends a long farewell we started upon our perilous journey. The next day a man came into my cousin's shop
+and said some one had stolen his boat the night before. My cousin was much surprised apparently, and wondered who could have taken it.</p>
+          <pb id="green17" n="17"/>
+          <p>Before we found the boat we made up our minds if there were no other way that we would climb the bridge. We were well aware of the danger of such a scheme, but it seemed to be our only resource, as we never intended to
+return. However, we were Providentially provided for in another way. We went straight across and our friends staid on the bank until we were over, and then they went back
+and we were left alone. After we got over the river we had to walk for almost half a mile on the causeway. A causeway is a road built above the marsh; it is built of poles, dirt and sand; when the water is high it covers this road. Well,
+we walked in this water for about half a mile, and when we got through this we came to a very sandy road, which, after walking in the water, I felt was the beginning of sorrow.
+We continued our journey until we came to a friend's house by the name of — —. I first thought I would give the name of this friend, but taking a second thought it occurred to me that he might still be following his holy calling
+of getting away poor souls out of the prison-house of bondage. If so, I say God bless him and his, in all his undertakings. He had been quite successful in helping away
+fugitives. He was not at home when we arrived there, and we concluded that we would not wait for him. We started on and walked for a long time; at last, fearing we had lost our way, we went back to our friend's house. We had been
+looking for my uncle, and when we turned back we were almost there but did not know it. He very kindly went with us to my uncle's and then left us, and I have never seen him since. My uncle was like the other friends afraid to venture
+to take us in his wagon, but he said he would walk with us, and show us the way, and he did so, for which we were thankful. So we continued our journey, with my uncle to
+guide us, until we came to a quaker friend's house, about five miles from my uncle's. He was sick and could not help us, but he sent us to another friend, hoping he would do
+something for us, but he said it was more than his life was worth to venture. He was then under heavy bonds to keep the peace. When we came to his house he came out to
+meet us, calling us his sons with such a gracious air that we could hardly believe our own eyes. To be addressed in this
+manner by a white man was something unusual for us. He took us into the house and gave us a good supper, which was
+<pb id="green18" n="18"/>
+the first good meal we had eaten for forty-eight hours. We arrived at his house in the afternoon of the day after we left home; we were now about forty miles from home. We had
+been charged to lay by in the day time, but on account of our not making as much head way the night before, we concluded
+that we would not stop. On, on, we went, and we as yet had met with no opposition from any one. So far we had not taken any rest since we left home.</p>
+          <p>Our quaker friend, after we had taken our supper, gave us all the directions in his power respecting the way we should go, and after bidding him good bye, and thanking him for his
+kindness, we continued our journey. About one o'clock at night we entered a small village. The inhabitants seemed to be all quietly reposing in sleep. We 
+hastened forward; when we had got about half through, out jumps a great dog
+and makes after us, barking and howling at a great rate. We looked back and saw a light in a chamber in a house not far from us, and soon the window opened. We told the dog to go back, but as he did not seem inclined to do so, I
+made no better or worse, but took out my revolver and let him have it; in an instant he gave such a terrific yell that it made us shudder. The light now moved from the window
+and we expected that some one would be after us certain. We hastened on our way as fast as we could. We heard the howl of the dog for some time, but it died away in the
+distance, and that is the last we heard of him. After we had gone on at as rapid a rate as we could for one or two hours we rather slackened our pace and concluded they would not
+pursue us. A little before day we turned into a skirt of woods and made a bed of leaves, with our bundles for pillows. We lay down to take a little rest, and when we awoke we found
+to our consternation that we were right behind a fodder house, and the men were then out feeding. We crept away as slyly as we could, and got into the main road without any
+one seeing us. It was very foggy when we went into the woods, and that is the reason we did not know we were so near any house; however, we got out of this difficulty.</p>
+          <p>We were gone a short distance when there comes along a great big man on horseback. He looked at us, and by his appearance he seemed much like an overseer. He reined up
+his horse and says, “boys, bow far are you going.” We told him we were going to see our aunt. He told us that was
+<pb id="green19" n="19"/>
+not the best way to go, or something to that effect;—he said he could tell us of a better way and a much shorter way. He continued to ride alongside of us; as we did not like his
+appearance much we asked him to ride over on the other side of the road. He did so. “Boys,” says he, “I know your errand, and also aunt Sarah as you call her; you take that
+lane and go across there and you will find it a much better way and much nearer; there is a grog-shop a little ahead of here, and there is always plenty of loafers hanging around
+ready to take up runaways.” So saying he bid us good-bye, and rode away. We hardly dared to trust him, his appearance
+was so much against him, however we thought we would venture to go as he directed us. After we had got into the lane and gone a little way we saw two men seeding wheat, a white man and a colored man. There were thickets
+that made out into the field, and when the white man was coming towards us the colored man was going from us, and so reversed. When the white man would be coming we
+would get behind the thicket and he could not see us, when the colored man came near enough to speak to we asked him
+if we were in the right way, and he told us that we were, and also told us about the grog-shop. We now made haste, and by two o'clock we arrived at a friend's house, where we
+rested for a few hours. The poor woman dared not let us stay in the house for they had been suspected of helping away fugitives. She took us out in the woods and secreted
+us until her husband came home. When he came home he brought us in and gave us a good supper, and then we greased our feet and prepared ourselves to continue our journey.
+This friend was the person who was to take us to Aunt Sarah's. He with his wife went out to look for his horse, but it was very foggy and they could not find her. They came back and we started afoot, but our feet had got so sore that
+we could hardly put them to the ground. Our friend's sympathy was so strong that he said he could not stand it;—he says, “Come back to the house and I will try again to find
+my horse, for to have you go on in this situation is next to impossible.” After he and his wife had been out for some time looking for their horse they found her, and he harnessed
+her and his wife made a bed of blades and put a quilt in the bottom of the wagon, and we laid down and they covered us over with blades and he started, and we were so comfortable
+<pb id="green20" n="20"/>
+in our quarters that we fell asleep and had quite a refreshing nap. About day we arrived at Aunt Sarah's as we called her; her husband was the person who got people on to the boat up to Philadelphia. We soon started for the boat, but
+when we got to the landing she was gone, and then our spirits sank within us. We felt that we had all our labor for nought, but the old man said that probably we might head them off about five miles down the river, so we started, but our disappointment did not help us in getting along; however when I saw the masts of the vessel my spirits revived again. We succeeded in reaching her, and our friend would not give us any satisfaction in respect to getting on board of the boat, however he told us he would see to that for us, so
+when we went on board we were his nephews, come down from Philadelphia to make him a visit. He says to us, “Boys, when shall you be down again?” We told him we could
+not tell him then, but to give our love to Aunt Sarah and tell her she must be sure to come and see us.</p>
+          <p>On board of the boat we fared very well; the Captain seemed to understand all. He and the old gentleman that brought us down to the boat seemed to be very well acquainted
+with each other. The hands seemed to be a little inquisitive, but he told them to attend to their own business and ask no questions. We were about two days going up to Philadelphia.
+We arrived there in safety, and remained in the
+city over night; in the morning we took the boat for New York. When we arrived there we felt that we were comparatively safe; at least that we might with caution remain for a short 
+time in the city and recruit our small means. Accordingly we procured a boarding-place and each got a
+service-place and went to work. At the end of two weeks our funds became so reduced that we hardly knew what scheme to fall upon in order to make our ends meet and pay
+our board. After consulting for awhile we concluded to throw ourselves upon the mercy of our landlady, and tell her our condition, and see if she would be lenient with us for a
+short time, until we could look round us and see what we were to do. Thank God it was a blessed thing that we made up our minds to tell her our situation, for if we had not we might have been in bondage to-day. The lady with
+whom we boarded proved to be a true friend to us. The very next day there came to her house two constables
+<pb id="green21" n="21"/>
+inquiring for two persons answering our description. We were on the bed up stairs, and while our landlady was parleying with them at the door, there came a friend up the back way
+and hastened us up and took us by the back way through several streets and alleys, until we came to his room where he slept and put us in his own bed, and the next morning he
+informed some of the friends of our situation and we received many tokens of the sympathy of the friends of the slave. One, whose memory I shall always revere, was the late lamented Dr. David Ruggles. He was very active in procuring
+material aid for and in giving us good advice. Truly he was the slave's active, laborious and indefatigable friend. In him might the poor bondsman trust all. He was a fearless
+advocate for liberty, and an unshrinking opponent to slavery. Much does the cause miss him.</p>
+          <p>There were others of like spirit with him, who were ready and willing to help in this trying time. I shall always hold them in kind remembrance, hoping and trusting that as they
+were kind to strangers in a strange land, that the same blessings may attend them wherever their lot may be cast. In Hartford we were forwarded on to Springfield by some more
+of the friends in that place; we were directed to Dr. Osgood, who appeared to be pleased to see us. We remained with him for a few days, when we got us a place and went to work;
+and here I will end my narrative for the present, only adding that since I have been here, which is about thirteen years, I have taken me a helpmate, and am now blessed with four
+fine children; and I must say I have cause to be thankful for all the blessings and comforts we are permitted to enjoy. I have been trying to gain a respectable and honest livelihood.
+My friend has long since gone to that bourne from which no traveller returns.</p>
+        </div2>
+        <div2 type="poem">
+          <pb id="green22" n="22"/>
+          <lg type="poem">
+            <head>ANTI-SLAVERY SONG.</head>
+            <lg type="verse">
+              <l>Free Americans how long</l>
+              <l>Calmly will ye suffer wrong,</l>
+              <l>See the feeble by the strong</l>
+              <l>Held in chains and Slavery?</l>
+            </lg>
+            <lg type="verse">
+              <l>Ye to whom a freeman's lot</l>
+              <l>Is so dear, have ye forgot</l>
+              <l>How your sable brother fought</l>
+              <l>By your side for Liberty?</l>
+            </lg>
+            <lg type="verse">
+              <l>Every moment he remains</l>
+              <l>Held by you in servile chains,</l>
+              <l>Deeper, darker, makes the stains</l>
+              <l>Of your guilt and knavery.</l>
+            </lg>
+            <lg type="verse">
+              <l>Rise, and with a giant's might</l>
+              <l>Freedom's moral battles fight.</l>
+              <l>Lest the sword of Justice smite</l>
+              <l>Down your eagle, suddenly.</l>
+            </lg>
+            <lg type="verse">
+              <l>Sable cheeks are wet with tears,</l>
+              <l>And a wailing fills our ears,</l>
+              <l>Who in mercy ever hears</l>
+              <l>The faintest cry of misery?</l>
+            </lg>
+            <lg type="verse">
+              <l>Heavy burdens haste undo,</l>
+              <l>Lest in wrath he visit you,</l>
+              <l>And the vengeance justly due</l>
+              <l>Be requited fearfully.</l>
+            </lg>
+            <pb id="green23" n="23"/>
+            <lg type="verse">
+              <l>Helpless infancy invokes,</l>
+              <l>Hoary age with snowy looks;</l>
+              <l>Woman too for justice knocks,</l>
+              <l>At your door beseechingly.</l>
+            </lg>
+            <lg type="verse">
+              <l>Shall their tears to pity move,</l>
+              <l>Tears observed by God above,</l>
+              <l>God, whose Justice, truth, and love</l>
+              <l>Never sides with tyranny.</l>
+            </lg>
+            <lg type="verse">
+              <l>Blush Americans for shame,</l>
+              <l>There's a blot upon your fame:</l>
+              <l>Wipe it out, and get a name</l>
+              <l>For justice, truth, and equity.</l>
+            </lg>
+            <lg type="verse">
+              <l>Then the Union all around</l>
+              <l>Songs of jubilee will sound,</l>
+              <l>And a State no more be found</l>
+              <l>Stained with Human Slavery.</l>
+            </lg>
+          </lg>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

@@ -1,0 +1,857 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY ferebee SYSTEM "ferebee.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>A Brief History of the Slave Life of Rev. L.R. 
+Ferebee, and the Battles of Life, and Four Years of His Ministerial Life:
+Electronic Edition.</title>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name>Rebecca Jones</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by</resp>
+          <name id="ns">Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1996.</date></edition>
+      </editionStmt>
+      <extent>ca. 50K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH.</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1996.</date>
+        <availability status="unknown">
+          <p>This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number Cp326.92 F34f  (North 
+Carolina Collection, UNC-CH)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl><title>A Brief History of the Slave Life of Rev. L.R. Ferebee, 
+and the Battles of Life, and Four Years of His Ministerial Life.</title>
+<author>Rev. L.R. Ferebee, 1849-?</author>
+<imprint><pubPlace>Raleigh: </pubPlace><publisher>Edwards, Broughton &amp; Co., Steam Printers, Publishers and Binders. </publisher><date>1882.</date></imprint></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South, or the Southern Experience in 
+19th-century America</hi>.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been removed.</p>
+        <p>All quotation marks, ampersand and dollar signs have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st
+edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="lat">Latin</language>
+        <language id="fr">French</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Ferebee, L. R. (London R.), b. 1849.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+            <item>Slavery -- North Carolina.</item>
+            <item>Slaves' writings, American -- North Carolina.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1996-09-18, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project editor,</resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1996-09-10, </date>
+        <respStmt>
+          <name>Rebecca Jones </name>
+          <resp/>
+        </respStmt>
+        <item>finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="Image of Title Page">
+        <p>
+          <figure id="title" entity="ferebee">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <titlePart type="main">A BRIEF HISTORY OF THE SLAVE LIFE OF REV. L.R. FEREBEE, 
+AND THE BATTLES OF LIFE, AND FOUR YEARS OF HIS MINISTERIAL LIFE.</titlePart>
+        <titlePart type="main">Written from Memory, to 1882.</titlePart>
+        <docImprint>
+          <pubPlace>RALEIGH:</pubPlace>
+          <publisher>Edwards, Broughton &amp; Co., Steam Printers, Publishers and Binders.</publisher>
+          <date>1882.</date>
+        </docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <head>
+          <emph rend="bold">PREFACE.</emph>
+        </head>
+        <p>     The many readers of this little book will doubtless find many imperfect sentences. While the writer has not been blessed with a scholarship that many of the readers have, and in the thirty-third year of his life, after having passed through many c
+onflicts, of which the public have been slightly informed, and many slanderous remarks have been made in relation to him. He therefore presents himself to the public in fair colors, without any regret of the past life, relative to his own action.</p>
+        <p>     Hope the many readers will carefully read and ponder well the facts in the whole matter herein contained.</p>
+        <closer><dateline>RALEIGH, </dateline>
+<date><hi rend="italics">January </hi>19<hi rend="italics">th, </hi>1882.</date></closer>
+      </div1>
+    </front>
+    <body>
+      <div1>
+        <pb id="ferebee5" n="5"/>
+        <head>
+          <emph rend="bold">HISTORY OF REV. L. R. FEREBEE.</emph>
+        </head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <p>     This chapter will relate to the birth place and parentage 
+of LONDON R. FEREBEE. He is a son of the late Elder Abel 
+M. Ferebee, of the Virginia Conference of the A. M. E. Zion 
+Church in America. He was the son of the Rev. Robert 
+Simmons, of Currituck county, North Carolina. During the 
+time of slavery, while a slave, he was granted license under 
+the M. E. Church, South, to preach, and was associated by 
+the Rev. Gabriel Whitehurst. The Rev. Robert Simmons 
+died in the year 1857. The Rev. Gabriel Whitehurst died 
+about the year 1871 or '72, after being an ordained Elder in 
+the A. M. E. Zion Church, and presided over the Rev. Abel M.
+Ferebee for several years. The Rev. Abel M. Ferebee was 
+one of the first men in the organization of the North Carolina 
+Annual Conference, with Bishop J. W. Hood, then an 
+Elder of the New England Conference, and Bishop J.J.
+Clinton, Elder Hill, W. J. Moore, and others, in New Bern, 
+North Carolina; and sometime in the summer of 1865, was 
+ordained an Elder on Roanoke Island, North Carolina, and 
+put in charge of the church, under Elder John Williams. 
+And then W. J. Moore took charge as Presiding Elder 
+sometime in 1868. The Rev. A. M. Ferebee was an active 
+Elder until within nine days of his death, and at the time 
+of his death was in charge of three churches, to-wit: Moses' 
+Temple and Mary Holly Grove, in Pasquotank county, and 
+one in Perquimans county, viz: Fork Bridge. In the 
+time of life he always desired that one of his boys should 
+be a preacher. He was a blacksmith by trade. Married 
+about the age of twenty-three or twenty-four, to a woman
+<pb id="ferebee6" n="6"/>owned by Mrs. Oley Whitehurst, of Currituck county, by the 
+name of Chloe. They lived together as man and wife for 
+twenty-two years. The number of their children was ten -  
+seven boys and three girls. In time of the life of his wife, a
+cross word by either of them to each other has never been 
+known by any one. She died in May, 1859, and he remained 
+a widower for seven years, and then married a second
+time, and in that selection got a quiet, Christian wife, 
+and lived till his death in peace and quietness. He left his 
+widow with a homestead, on which she now lives, without 
+fear of molestation by any one, and is held in as high regard 
+as a step-mother can be by his children, and will never 
+be allowed to suffer while any of his children survive their
+father. The widow's residence is ill Elizabeth City, Pasquotank 
+county, North Carolina. The connection, as well as 
+State, county and community, say: <hi rend="italics">“Peace to his ashes!”</hi> </p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER II.</head>
+          <p>     This chapter begins to treat upon the life of London R.
+Ferebee, now known as Rev. L. R. Ferebee, an Elder of the 
+A. M. E. Zion church, in America, who was a slave as all 
+of his ancestors were.</p>
+          <p>   At an early age my mother was sold. I scarcely can 
+remember the occurrence which took place on the morning 
+she was sold. It was said that all of my people are mixed with
+Indian blood, and she was a spirited woman and would not 
+suffer to be imposed upon by her master nor mistress. A 
+dispute arose between my mother and her mistress, and 
+her mistress attempted to strike her, at which  mother said 
+“If you strike me, it will be the dearest lick ever you struck,”
+and at the arrival of the master her mistress of course 
+reported the conduct of my mother. He, knowing the 
+spirit of my mother, took his gun and cowhide in hand 
+<pb id="ferebee7" n="7"/>and coming to the kitchen, said with an oath, “Chloe, if 
+you don't let me whip you for saucing your mistress, I'll 
+shoot you.” she (my mother) said, opening her bosom, 
+“Shoot; that's the only way you can whip me.” Having at 
+this time come in reach of her, he struck at her with the 
+cowhide. She seized it and cut it in two with a butcher knife 
+which she had been cleaning fish with: they then gathered 
+each other and my mother threw him, and as he fell the
+gun discharged but injured no one. She put one knee in 
+his breast, the other, as well as I can now remember, on one 
+arm, wrested the gun from his hand and struck him over 
+the head with the breech, wounding him badly, so that 
+he called for help. She was taken off by some of his 
+men. That morning he sold her to a speculator, Halstead, 
+of Camden county, he, (Halstead) not knowing at the 
+time it was my father's wife until after he had bought her. 
+He then left her and rode thirty-one miles to see my father 
+who was then working at Col. W. F. Martin's ship yard, 
+Elizabeth City, N. C., and was hiring his time from his 
+master, Dr. E. D. Ferebee, to see what arrangement he could 
+make about buying her or getting his master to do so.</p>
+          <p>    The plan was fixed between himself and master, so he 
+bought her from the speculator by paying ($1,100.00,) eleven
+hundred dollars. The next day, as near as I can remember, 
+moved her and myself and two more of the children with 
+her, where I remained until I was large enough to render 
+service. I was then taken from her, and saw her twice from 
+that time unto her death. According to my age the readers 
+will see that I was quite young. I was born at a place 
+called the Big Ditch, on Coin Jock shore, near the Sound, 
+Currituck county, N. C., the 18th day of August, 1849. 
+After leaving my mother, I had a rough life. Many hardships 
+I had to undergo, as all young slave children had to 
+suffer. I went by water with my master a good deal until 
+I learned to man the vessel pretty well; even at night 
+I could steer by the compass, or by any star. My master 
+<pb id="ferebee8" n="8"/>
+would point out to me, before he went to his bunk, 
+and I've heard him tell gentlemen in my presence he could 
+lie down as well satisfied with me at the helm as any one 
+of the crew. </p>
+          <p>     My aptness gained his affections, and I received favors 
+of him, and he would not allow me to be cruelly treated, 
+and at last I felt satisfied when with him. His name was 
+Edwin T. Cowles, his assigned initials was Capt. E. T. 
+Cowles. My mistress was named Sarah. He had three 
+children, Elizabeth, Oliviour, the eldest, Lydia, the next, 
+and Willie, the youngest. I was given to the oldest, Elizabeth. 
+Up to this day they are kind to me, and when I am 
+with them they give me the best their table affords, and I 
+am accommodated to all the hospitalities of the house. My 
+mistress was always cruel to me. It appeared she always 
+had spite to me by reason of my mother. I suppose it was 
+because I allowed no one to whip me but my master. She 
+always would say you are some of the old blue hen's chickens. 
+At (7) seven years old she, with the assistance of her 
+house girl, attempted to whip me and I was the conqueror, 
+and my master, after having learned the circumstances connected 
+with the case, refused to whip me, but teased her for 
+letting me whip out the house. This always apparently 
+gave her a distaste to me. </p>
+          <p>     I suffered under the yoke of oppression until the 9th day 
+of August, 1861, the Northern forces having taken Roanoke 
+Island, and proceeded immediately to Elizabeth City in the 
+winter preceding the date just mentioned. We were living 
+then at a little place called Still Town, (1 1/2) one mile and a 
+half from Shiloh, a little country village in Camden county, 
+about (12 or 13) twelve or thirteen miles through the country 
+and nine miles down the river called Pasquotank from 
+Elizabeth City.. The Northern army stationed a portion of 
+their men at that place, and on the day mentioned, the 9th 
+of August, I ran away and went to the Yankees, so called. 
+I reached the Yankee lines about (30) minutes before my 
+<pb id="ferebee9" n="9"/>
+master overtook me on the road. I remained with them 
+until the 1st day of January, 1863. The Yankees then 
+evacuated Shiloh and removed to Elizabeth City, and there 
+they delivered me to my father, where I remained, until 
+they evacuated Elizabeth City and went to the city of Newbern, 
+N. C., carrying as many colored people with them as 
+wanted to go. The war having not ended, my father and 
+others not knowing what would be the consequences of those 
+that remained, concluded it best to go with the Yankees 
+where freedom was assured, embarked on board of a large 
+vessel, to wit: the Edwards, having (4) four cannons on it, 
+it being used. as a gun boat, and she was accompanied by 
+another large vessel named Benjamin Butler, both sail vessels. 
+We left Elizabeth City the 19th of April, 1860, and. 
+arrived at Newbern, N. C, on the 21st. Then my father 
+occupied a house for the time being on Pollock Street. At 
+this time I knew not any alphabet and had become quite
+unhealthy and suffered with <hi rend="italics">Rheumatics</hi>. I entered a private 
+school at the Christian Church, taught by a colored
+ man, a minister of that church, and an ex-slave, viz: Isaac 
+Bishop, (<hi rend="italics">alias</hi>) Isaac Peel.</p>
+          <p>     I learned my alphabet that day, the 1st day of June of 
+the date above mentioned. Then I remained in that school 
+until September, at which time my father was ordered, as 
+chief magistrate, to Roanoke Island, N. C., by Colonel Foster, 
+and being advised by Chaplain James, as the small pox 
+was raging then in Newbern, he moved his family to 
+Roanoke Island also.</p>
+          <p>     After he arrived, he was taken sick, and remained so until 
+the next spring, to-with, 1864. He, through the assistance 
+of Chaplain W. A. Green, now pastor of the 1st Baptist 
+church in Raleigh, N. C., succeeded in getting a nice school 
+house and industrial building erected, and had 12 or 14
+Northern teachers to come down, among them was a lady
+of the finest deportment and a finished <hi rend="italics">alumni</hi>, and she was
+from Boston, Mass., by the name of Ella Roper, and another 
+<pb id="ferebee10" n="10"/>by the name of Mary Burnepp, of Vermont, in all there 
+were sixteen. I fell, fortunately, the department taught 
+by Miss Ella Roper, and Miss Mary Burnepp, and Kate
+Freeman, and many other too tedious to mention now.</p>
+          <p>      Early in the spring of 1864, April, I entered the school, 
+with Miss Roper as my teacher, where my progress was so 
+rapid, I ascended to the head of the first class in school, 
+and no scholar in school or on the Island could compete 
+with me, in consequence of which I was made assistant 
+teacher. When I began to write, I learned to make my 
+alphabet in one night. The first copy book I ever had I 
+wrote it up the first night - every page. My teacher set me 
+no more alphabet, and the first copy of writing was this -  
+<hi rend="italics">“Improve each shining hour.”</hi></p>
+          <p> By reason of study, my health grew bad, and my eyesight 
+failed me. I made a profession of religion in September, 
+1864. Before I repented of my sins, I was elected superintendent 
+of the Sabbath School. Some time in May, the same 
+year, Rev. Andrew Cartwright lectured the Sabbath school 
+on the subject of Repentance. I was then honored to the 
+position in the Sabbath school as Superintendent, but had 
+not made any profession of faith in Christ, and the language 
+falling from the mouth of God's servant, touched my heart. 
+He was followed by my father, and all that each said seemed 
+to rest on me. By their words used relative to teachers 
+teaching what they really knew nothing of; then in strong 
+terms showed that all my instruction given as Superintendent, 
+would prove to me, without repentance, my eternal 
+destruction. Then I was convicted, and from that time, 
+until I manifested a hope, I could not, nor did not, open 
+school any more. And at a revival in September, 4th Sunday, 
+about eight o'clock, P. M., I received the Pearl of Great 
+Price. Soon after, I was nominated and elected Secretary 
+of church and Board of Trustees.</p>
+          <p> All the teachers and scholars and members of the church 
+apparently appreciated me for my usefulness in church,
+<pb id="ferebee11" n="11"/>school, &amp;c.  There was a young man by the naive of Miles 
+Bartlette, who, at a tine previous to that, was a member of 
+the same school, and in my class, but was dull in his studies, 
+and the teacher said, one morning, Mr. Bartlette, I'll have 
+to send you over to the primary school. She then, unfortunately, 
+asked me if I didn't think best? I deliberately 
+answered yes. At <hi rend="italics">my</hi> sanction to her idea, he was sent down 
+to Miss Kate Freeman, who taught that branch.</p>
+          <p>    He then, with envy, sought to slay me, and at his first 
+opportunity stabbed me on the 5th day of July, 1865. In 
+the night, about 9 o'clock, he came up behind me and committed 
+the vicious deed. The instrument used was a dirk. 
+He was strong enough to throw it through my left shoulder 
+blade, and came very near touching my heart, so that I was 
+compelled to lie at home during the months of July, August 
+and September. In October I was able to enter school 
+again. The schools all flourished until the latter part of 
+1866. When, after it was understood by both races, learned 
+and unlearned, that freedom was established, the people then 
+began to scatter to the different parts of North Carolina 
+and many of the teachers went back North. My father 
+moved back to Elizabeth City, N. C., on the 20th day of 
+April,. 1867.</p>
+          <p>    Schools there were somewhat dull then to what they had 
+been on the Island. I entered there with a younger brother 
+and sister - the baby. In the summer I was called to 
+Nixonton, Pasquotank county, to take charge of a private 
+school. Having taught a session before leaving Roanoke, 
+it had become very familiar to me to teach, so I opened the 
+first school of any note ever held in Nixonton, where I 
+taught for three years in succession. In 1869, I entered a 
+normal school, under the management of T. W. Cardozo, of 
+New York city, and his wife, and his wife's cousin, Miss 
+Sarah Williams, of New York. Thirty-five boys of the 
+school were prepared for Howard University, but there were 
+only three that could get any assistance from Northern
+<pb id="ferebee12" n="12"/>friends, as Prof. Cardozo, only appeared to look out for those 
+of a light hue, or mulatto - none of the dark ones could get 
+any assistance. We then had to go to Hampton, Va., and 
+wherever we could acquire an English education. We all 
+resolved, though the other boys were blessed above us, we 
+would not envy them, but strive to compete. I managed 
+to keep in the normal schools until I could master an English 
+education partially, and demanded a first grade certificate 
+front any county examiner, but having an eye and 
+heart on the study of law, I contracted, by the consent of 
+my father, with Judge C. C. Pool, of the First Judicial District, 
+to live with him, for the purpose of taking lessons in 
+Latin, law, &amp;c.  I had free access to all the books of his 
+library and also in his law office. It was from him I got 
+the most of my business training.   It was rich, good, and 
+came so freely from him I never felt like I wearied him 
+in all classes of law he taught me.</p>
+          <p>      He then went to work and got a free school for me, the 
+first I ever taught drawing pay from the State; he also 
+managed that I got first-class pay. This was in the latter 
+part of 1869, I think, as my memory is not as good as we 
+wish on the date at this juncture. I had a good reputation 
+as a teacher, at that early age, so I was always in employment 
+in that direction, all over Camden, Pasquotank and 
+Perquimans, and at last became to be a swift politician and 
+canvassed the Judicial and Congressional Districts over in 
+favor of Republican candidates, and in my course was never 
+known to change or waver from Republican principles. In 
+all campaigns my attention was always called, by those concerned, 
+and solicited, and eagerly importuned to take part 
+and was always successful. I married in March, 1872, at 
+South Stills, Camden county, where I was then teaching, to 
+a young lady of Gates county, N. C., by the name of Lucinda 
+Smith, her residence being near Sunsbury.</p>
+          <p>        I was yet engaged in politics. I had, in my own county, 
+many enemies that I was unconscious of, both colored and
+<pb id="ferebee13" n="13"/>white of my own party, for the fact that the colored voters, 
+which is the strength of the Republican party in Pasquotank 
+county, had severally expressed a desire of my coming 
+before them as a candidate, and as my aspiration was the 
+Legislature or the Senate, and, at that time, could have 
+received any office within the gift of the people.</p>
+          <p>       In 1872 a conspiracy was gotten up against me by some 
+office lobbies of Pasquotank of both races, for the fear they 
+had of my prominence, or popularity, as it would, warrant 
+my nomination in the county convention. Thomas P. 
+Wilcox, then County Treasurer, and his brother, James 
+Wilcox, and another man, of New Land Township, (two 
+first mentioned are white men, the third was colored.)</p>
+          <p>   I was teaching at Nixonton, and had said, when I canvassed 
+the county for W. J. Munden, the Republican candidate 
+for the Legislature, that if the people would support 
+him, I would assure them they would have a colored man 
+the next time, for I intended to ask for the position myself. 
+Munden was elected. These parties were also aspirants and 
+opposed me in the convention, and when Munden was 
+nominated sought an opportunity to break down my reputation.</p>
+          <p>     While teaching at Nixonton I had occasion to go to T. 
+P. Wilcox, County Treasurer, with my school vouchers, four 
+in all, drawing $30 each. He lived eighteen miles from 
+Elizabeth City.</p>
+          <p>  I had been to his residences and finding him not at home, 
+was on my return when I met him and his wife on their 
+return home. Just before this I had overtaken a young 
+man by the name of Benjamin Dozier, (colored,) and had 
+taken him up in my buggy. I stopped Mr. Wilcox, told 
+him my business. He said he had been to town but the 
+sheriff had not made settlement, but would take my vouchers 
+and give me a duplicate, and when the sheriff settled I 
+should receive the first monies. I gave him one $30 order 
+and took a written duplicate; he at the time was half drunk.
+<pb id="ferebee14" n="14"/>I, with my friend, Mr. Dozier, went on for home. On 
+the next day, as I always had been doing and as it was a 
+general customs passed the duplicate off to Mr. Emanuel 
+Davis as a deposit until I received some money. I left the 
+next day following for Edenton, N. C., where the A. M. E 
+Zion Annual Conference had assembled, and returned a few 
+days after. I waited on the Treasurer some time, as I had 
+been accustomed to do. </p>
+          <p>     And one day Mr. Davis approached me, saying, “I presented 
+that duplicate to the Treasurer, and he would not 
+settle it.” “Why?” said I. “Because he says he has not 
+given you any,” said he. “He don't deny having a voucher 
+of mine?” said I, “does he?”  Mr. Davis said, “No.” 
+“Well,” said I, “why not pay you then on the order and 
+not consider the duplicate, for it is of no use if he settles the 
+voucher, as both are numbered.”</p>
+          <p>    I then paid all the money I received from Davis on it 
+but $2.00, and told Mr. Davis to let me have the duplicate. He 
+then said he did not have it with him, so I made myself 
+easy, waiting to see Mr. Wilcox, but for some time I could 
+not see him; but in the meantime they had concocted the 
+plan to destroy me for when Mr. Davis was talking to me 
+he had then given the duplicate to the parties and had 
+agreed to the prosecution. He at this time, remember, was 
+an aspirant for the Legislature also, and would not tell me 
+it was in the hands of an officer for my arrest, upon the oath 
+of T. P. Wilcox, swearing he had never given me any, and 
+that it was forged, and his brother James Wilcox, the brother
+of the plaintiff, was an aspirant for the Sheriffs office. He 
+had his brother to kill the matter, and the matter between
+him and myself was settled, no more to be heard of, according 
+to promise. At the June term of the Superior Court 
+the case, however, was called. I appeared as defendant. 
+The plaintiff was called and failed. I was recognized by 
+the Court, Judge J. W. Albertson. He inquired into the 
+case somewhat, and finding it frivolous, passed it by.  But
+<pb id="ferebee15" n="15"/>Col. D. M. D. Lindsey, of Hertford, Perquimans county, had 
+told Wilcox and brother, if they undertook to prosecute me in 
+that case, neither of them should be elected, and if elected,
+should not give bond.  This was not known to me until after 
+the election, which came on in August, after court. My 
+friends, white and black, made frequent inquiry as to what 
+disposition had been made in the case, and the only answer 
+that could be given, “Oh, it's all nothing; no case could be 
+made out of it.” And, in fact, the State had failed to make 
+a case out of it.</p>
+          <p>        The next court the case came up again before Hon. J. W. 
+Albertson, and the State had yet not been able to make out 
+a case. I was put under no bond, and was no more interested, 
+and the important witness, Mr. Benjamin Dozier, had 
+to leave for New York, and the case was supposed to be 
+over.</p>
+          <p>    All things now were apparently good and pleasant. The 
+judicial nomination for Judge in the First District took 
+place in the summer of 1873.  Judge Albertson was nominated 
+as the candidate of the Republican party for Judge, 
+and Mills L. Eure was nominated as the candidate of the 
+Democratic party.</p>
+          <p>        My brother and Col. D. M. D. Lindsey, both of Hertford, 
+had had a previous difficulty in some of the municipal elections. 
+Some of the men the Judge would not support; therefore, 
+they determined to defeat the Judge, though he was 
+the Republican candidate, and to satisfy their devilish design, 
+they proposed to work for the Democratic nominee, 
+Mills L. Eure, of Gates county. He promised my brother, W. 
+E. Ferebee, a lot in Hertford for his support; also to furnish 
+all the money he wanted for the support of his family, and 
+to pay all traveling expenses. The same offer was made 
+to me, but I refused to accept. I determined to support the
+regular nominee of our party. In May or June there was 
+a mass meeting held at Gatesville for the purpose of consolidating 
+the Republicans with the Democrats. I attended that
+<pb id="ferebee16" n="16"/>meeting. I drove Judge Albertson's horse. I opposed the 
+measure, in the Court House, and  defeated it. Next morning, 
+before I left the hotel, I was waited on by a committee 
+for the purpose of  wiping out my Radicalism relative to 
+Judge Albertson. I became disgusted at the entreaties
+made,  so uncalled for, and the only plea made was upon 
+what my brother had said about what he and the Judge 
+differed on in the municipal election. I argued that personal 
+differences should never make a political disorganization. 
+I remarked that no true loyal citizen - loyal to his 
+country - would make any difference in that case, but would 
+support the choice of his people. At this my brother apparently 
+got very angry, so much so I called for my horse and 
+buggy and left the hotel.  Gatesville was stirred up from 
+centre to circumference. The true Republicans were with 
+me. I was the only man there, as a public man, defending 
+Judge Albertson, and urging his claims. A remark was 
+made by my brother, that if he could get Mills L. Eure 
+elected, he would never be troubled with me again, but I 
+thought nothing of it. At a meeting held in New Land  
+township, Pasquotank county, quite a hot discussion arose. 
+Myself and all the citizens of Pasquotank were Judge Albertson's 
+men, or men for the party. The scheme they tried 
+was to wipe out all party issues in electing a Judge, for the 
+purpose of tangling the vote, so that M.L. Eure would be 
+elected. I defeated it that day. My brother, with quite 
+rough language, said all he wanted was Eure elected, and I 
+would soon be out of his way.</p>
+          <p>    They succeeded in electing Eure by a small majority - I 
+think 180, or thereabout.</p>
+          <p>        We lost Albertson. The winter term of the Superior 
+Court Eure presided, and had that case resurrected. At this 
+time my witness was in New York and could not be gotten. 
+They forced me into trial without a witness for my defence 
+and the State never proved any forgery, and failed to procure 
+any evidence as to its being my handwriting. They introduced 
+<pb id="ferebee17" n="17"/> a Mr. Smith - a Yankee that I had been keeping 
+books for - to recognize the handwriting, but he would not. 
+Mr. John F. Pool, a school-mate, wanted to be sworn to 
+testify to the handwriting, but the Judge was so prejudiced 
+he would not allow any evidence whatever in my favor.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER III.</head>
+          <p>     In the last chapter in its conclusion you had the beginning 
+of my troubles. I shall endeavor to finish in this chapter. 
+My character was <sic>unattacked</sic> and proven good. My counsels, 
+Hon. C. W. Grandy, J. P. Whidbee and W. F. Pool urged 
+that further time be given, so that I might get my witness 
+from New York. The court would not allow any further 
+indulgence. I was therefore rushed into trial unprepared 
+in every respect. The Solicitor, J. P. Whidbee, was employed 
+by me before, so he let Henry Gilliam, of Edenton, 
+appear for the State, one of the worst enemies I had on 
+God's green earth; took the advantage of me by removing 
+or setting at least every colored man of the jury except two, 
+one of whom was a known enemy of mine, his name was 
+Henry  ----- , the other was Isaac Martin. He claimed he 
+did not or could not hold the rest, for when my counsel 
+were asking leniency in the ease, the Judge said he ought 
+not to allow any chance for anything, for I was a mean, 
+mean, disrespectful wretch, and he “Isaac” said he saw 
+the rest of the jury were so bitter, relying on what the judge 
+had said, they returned a verdict of guilty.</p>
+          <p>     At this juncture, my counsel asked that he allow an appeal, 
+so as to have a fair showing in the case. He, the 
+Judge, said he would grant nothing, so it was said by every 
+body, especially those in court, and saw his manoeuvres on 
+the bench, came to me and said, Ferebee, all the favor you'll 
+get now will be from the Governor, and we will help in 
+<pb id="ferebee18" n="18"/>every thing we can. Just rest easy, it don't make any difference 
+that his sentence may be. The Hon. Hugh Cale 
+and others came up to go my bail for a new trial, but he 
+would not allow it. During the night my white friends 
+went to see him, and he required them to give a justified 
+bond of one thousand dollars, which was too heavy. I was 
+kept 27 days in jail. My friends failed to get me a new trial.
+The Hon. Hugh Cale succeeded, with the assistance of Hon. 
+W. J. Munden and other citizens, in getting the Governor
+to grant a pardon from under the sentence of a four years
+in the penitentiary.</p>
+          <p>     The County Treasurer, T. P. Wilcox, afterwards said he 
+did give the duplicate, but he was drunk at the time he  
+gave it. He afterwards was charged of stealing fifteen hundred 
+dollars of the county money, and his sureties had to 
+do all they could to save him, and the commissioners had 
+to appoint another to fill the vacancy, and his brother, 
+who was sheriff, had to run away from the town; and in 
+fact every one that was in it have come to disgrace finally, 
+both white and colored.</p>
+          <p>     The citizens desired I should not be moved in daylight, 
+so, early on the 28th day of March, 1874, Monday, I left 
+my home for prison, but was reconciled and had unshaken 
+confidence in God that an iron bar could not hold me if I 
+trusted Him, the all powerful God. I went with joy, and 
+the second day after getting there, Dr. Mullen, of Camden, 
+and Hon. W. J. Munden and several of the friends came to 
+see me, and asked the Warden and Captain to favor me 
+until they could have time to work for me; from that time 
+the Captain, W. H. Thompson, done all in his power apparently 
+to render me comfortable, and I was licensed to 
+preach in the prison, and could go all over the stockade, 
+and all the guards, white and colored, fell in love with me, 
+and all would try to get on the beat next to me, and I held 
+Sunday School. When the order came to send men to the 
+mountains to the Railroad, Capt. Baldy Davis was allowed 
+<pb id="ferebee19" n="19"/>to pick his men of the best there were in prison. I was the
+first man sent for to come up to the office. I went, and the 
+Captain told me if I did not wish to go he would not send 
+me against my will; he also stated it would be better for 
+my health and better about writing home and if there was 
+any reprieve for me I should certainly have one if any 
+man did. I then, at the office, told the Captain who I would 
+like to go with us, so he and myself selected the crowd. He 
+promised me I should do nothing more than cook and wait 
+on the officers.</p>
+          <p>     He kept his word and while in the mountains I was 
+made a steward and trustee and when I wanted to, and 
+had hours Sundays for preaching. I had a large crowd 
+of whites every Sunday as my audience, together with my 
+captains and guards.</p>
+          <p>     The day my reprieve came I was in the cook-house preparing 
+pastry for Capt. Moore's dinner. He did not allow 
+me to finish his dinner at once came in the kitchen, 
+and said “Ferebee, your prayers are answered. You can put 
+the business you are about down, and tell all the boys good 
+bye and bid them follow your examples and they'll never 
+get punished.”  I bid my fellow-prisoners farewell, and the 
+Captain allowed me to pray with them. I then came out 
+and went to Henry Station, McDowell county N. C., where 
+Major H. M. Miller was acting superintendent on the Western 
+North Carolina Railroad, and his wife was a Christian-
+hearted woman and gave me the best her table afforded, 
+and from her appearance she always felt for a prisoner, and 
+when it was said some must go to headquarters to do any 
+work, all wanted to go because she was kind; and the Major 
+also; there never could be a better man over a parcel of men 
+than he was. He was not heard ordering a man to be 
+whipped. Though I've seen them in the mountains struck 
+nine and thirty twice in one morning, out of doors and the 
+snow falling on them at the same time. But it was not the 
+Majors fault - he never gave such sentences. But Captain 
+<pb id="ferebee20" n="20"/>Baldy Davis was a blood-thirsty man, also Captain Moore 
+was so inclined. Thus, they would take the men and whip 
+them until the blood would run from their shoulders to 
+their heels. They did not stop for snow nor rain except 
+when they thought the Major would be up, and except it 
+snowed so they could not get to their work. But, thank 
+God, I was blessed with a favor from all. It was thought 
+by the doctor that I was ruptured, or becoming so, and the 
+Captain furnished me with a truss hoop. So it was God 
+protecting me that I might be able to preach His word.</p>
+          <p>     I had so often prayed this prayer, “Lord, thou knowest 
+the charges made against me were false, and Thou hast 
+<sic>foreinstructed</sic> me of this prosecution, now give me patience 
+to stand and wait until Thou art satisfied with my faith 
+and patience, and then deliver me,” and at that time, according 
+to my prayer, he done, and I have none of that life 
+to regret. I am to-day satisfied with my lot among men in 
+the past, and can risk the future in God's care.</p>
+          <p>     Since I've been reprieved men of the aristocratic order 
+have labored to bury me, but they have found it a difficult 
+matter to do so. I received license to preach in 1877, and 
+in 1878 I made application to join the Annual Conference 
+of the A. M. E. Zion Church, at Goldsboro, N. C. I met an 
+objection by Elder T. F. H. Blackman, J. A. Tyler and 
+others, who bitterly opposed me, and had me sent before a 
+committee and examined after undergoing an examination 
+as a candidate to join the Conference, and had passed a first 
+grade. The committee was composed of Blackman, Hill, 
+Tyler, Mattocks, Simmons and Reeves. Committee reported 
+favorable, and Blackman, who made the open objections, 
+made this plea, the only thing he was after was to know 
+whether I was married or not, as he “understood I was 
+courting for a single gentleman.” The Bishop, who knew 
+all the facts in the case, satisfied the Conference in reference 
+to my standing at home, my wife, &amp;c., and vouched himself 
+for my competency, &amp;c.</p>
+          <p>       I was received into Conference and assigned to Winston, 
+<pb id="ferebee21" n="21"/>N. C., where I had held the charge one year and a-half before, 
+and such strong petitions went to the Conference for
+me, provided I was permitted to join. The judgment of
+the Conference was to send me to them, where I spent a
+pleasant year.</p>
+          <p>     In the Conference at Lincolnton, N. C., a motion was
+made that I go before the committee on Deacons' orders;
+and after passing an examination, No. 1, on motion to receive, 
+Elder J. A. Tyler opposed, on the grounds of the time
+according to law, and urged his objection by saying it made
+no difference how well equipped a young man may be, it
+was just giving them license to be in the way of the old
+Elders. The Bishop stated there was a necessity for my
+being ordained, and if I was not ordained he should not
+send me where he wanted me, and should let me go to
+teaching, as it was my occupation. The Conference voted
+in favor of ordination. I was ordained and sent to Granville 
+county, on the Oxford Circuit, where I held charge two
+years - 1880-'81.</p>
+          <p>     During the year 1880, I had an uphill way, but went
+through; the Circuit was poor and could pay no salary.
+For that year I only received eighty ($80) dollars. I had
+to attend the Conference at Tarboro, N. C., and had collected 
+five ($5.10) dollars and ten cents of the general fund,
+and my churches had not paid me enough to carry me, but
+the chairman of the Trustee Board had some money in
+hand for me, and he said I could go and he would send it
+to Conference time enough for me to replace it and make a
+settlement with the Conference Steward. And the money
+did not arrive in time - and on the passage of my character, 
+the Steward asked for settlement of general fund. I
+related the matter, and as the Conference was about to pass
+my character, an objection was raised by Elder R. H. Simmons, 
+because I had spent the money in <foreign lang="fr">lieu</foreign> of my own, and
+he held I had committed a crime punishable in law, and
+held it a prison offence, and my character ought not to pass.
+<pb id="ferebee22" n="22"/>The Conference differed and could not see any crime, for I 
+had told the Bishop about it and also several of the Elders, 
+and the Steward also, and I could have said nothing of what 
+I collected, as others did, and it would not have been known. 
+The Bishop stated that Bro. Simmons' language was too 
+strong and that there was no crime in the case; it was only 
+misapplying the money from the purpose it was collected 
+without any intent to do wrong - showing a letter that had 
+been sent relative to the money, assuring me the money 
+would reach me before the Conference closed. The Conference 
+passed my character, and the Bishop opened his pocket
+book and paid the $5.00 for me, due the Conference. Elder
+Simmons urged still his course against me until the Conference 
+ruled him out of order. I have been hated all the 
+way through by brothers in church and State, by men who 
+aspire and think my ability will demand any thing creditable; 
+but I've kept my course all the time, and have not 
+put on a flinching jacket.</p>
+          <p>     In the year 1881 I had quite a pleasant time in the ministry. 
+My presiding Elder, W.J. Moore was the most 
+feeling Elder I ever had with one exception, to wit: Elder 
+W.H. Thurbee cannot be forgotten.</p>
+          <p>     In June I lost a new church, by an incendiary, located near 
+Wilton Granville county, in two hundred yards of Bank's 
+Chapel the white Methodist church.</p>
+          <p>     On the 13th of May 1881 I was elected as delegate from 
+Granville county to the convention which assembled in 
+Raleigh on the 17th May. E. W. Turner, an aspirant, 
+wanted me to insert his name in the place of Mr. G. W. 
+Rogers'. I refused upon the grounds that it would be 
+unlawful. He took an exception at this action on my part 
+and introduced into the convention unknown to me, a paper 
+that had been circulated by the Democratic party relative 
+to my imprisonment, &amp;c., which they used to defeat the 
+Republican party of Granville, because I was said to he the 
+champion canvasser of the county and was successful in 
+<pb id="ferebee23" n="23"/>electing  the whole ticket - County, State and National. He
+handed this paper to the committee appointed by the chairman 
+of the convention, <foreign lang="lat"><hi rend="italics">pro tempore</hi></foreign>, as a committee on credentials. 
+The committee were as follows, as near as I can 
+remember Rev. J. C. Price, Hon.  J. H. Harris, W. V. 
+Turner, and when they reported they left my name as a 
+delegate out, and had inserted E. W. Turner. I had not 
+learned the concocted plan of theirs, brought about by John 
+H. Lane and Turner. The former, Lane, has a reputation at 
+home; as a schoolmate of mine I know all about his standing, 
+a man that can't teach a school in Pasquotank. W. V. 
+Turner, a notorious drunkard and had been sold right in 
+Raleigh for stealing, and having a telegram sent from 
+another State for his arrest, and Col. I. J. Young saved him 
+from being in prison. Doubtless these were the men that 
+objected to me, and were the big men in that convention.</p>
+          <p>     Hon. J. C. Price, who was elected chairman, a brother of 
+mine in the gospel, never opened his mouth in my behalf, 
+and he and I both members of the same Conference. I saw 
+then that for the sake of honor and promotion, he would 
+suffer his brother minister to be crushed into the dust, and 
+my vote helped to put him there. I felt then that all 
+preachers do not practice what they sing and preach, to wit: 
+“And each the other's burden bear,” &amp;c. He failed to put me 
+on his beast, and the only way he would allow me to say a 
+word was when Elder W. J. Moore and others, white and 
+colored, came to my rescue, with the Hon. Hugh Cale, of 
+Pasquotank county, to the front, then it was that I rose to a 
+question of personal privilege and obtained the floor, through 
+the assistance of Hon. J. H. Williamson and Col. G. T. 
+Wassom. I had the big men of the day against me: Lawyer 
+Leary, of Fayetteville, J. E. O'Hara, of Halifax, George 
+W. Price, of Wilmington, James H. Harris, of Raleigh, and 
+many others, while Col. George T. Wassom, of Goldsboro, 
+and Hon. J. H. Williamson, of Franklin county, all the way 
+through, were in my defense. After I made my speech the 
+<pb id="ferebee24" n="24"/>fever was quieted, and then it was that I ordered my name 
+to be stricken from the roll and withdrew. So when men 
+want to ascend above their brothers, if prompted by self, 
+they will allow a brother to be killed so they climb. It's a 
+good thing Jesus was not so, isn't it?</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER  IV.</head>
+          <p>     In conclusion, I will say something about what causes 
+many a young man to be finally lost.</p>
+          <p>     In the early days of my conversion I was called to preach, 
+but for six years I refused, and  when I made up my  mind 
+to try, I applied to my Quarterly Conference, and the old 
+brethren denied me upon the ground of age. I went another 
+year and they refused, on the ground that I had not paid 
+an assessment laid upon the members. I was at this time 
+teaching seventeen miles from  home, and had not been 
+home. So right then I paid the assessments, but they still 
+refused. I waited another six months, and applied again. 
+They refused because I had not attended class. I proved 
+to them I had been home three times during the six months 
+and visited class every time. They still refused, and if it 
+had not been for them I should never have got into politics 
+as I did. So often the dog is in the manger and can't eat 
+the hay, and won't let the ox eat it, either.</p>
+          <p>     Since I have been in the ministry I have had always 
+spiritual success. I have closely kept the number of all the 
+converts, which I claim will add some stars to my crown if I 
+continue faithful. My church ledger shows six hundred 
+and fifty (650) converts, besides a number claiming Christ 
+and not in any church, and from other denominations that 
+have chosen to come to Zion, one hundred and thirty-seven (137.)</p>
+          <p>     My congregations have always manifested a pleasure in 
+listening to my imperfect preaching, and so act towards me 
+that I always feel pleasant in their midst, at church or at 
+their firesides.</p>
+        </div2>
+        <closer><salute> All this is respectfully submitted, by your servant,</salute><salute> With refined <sic>obdience</sic>,</salute><signed>L. R. FEREBEE. </signed>
+<hi rend="italics">Stationed at Raleigh, North Carolina.</hi>
+<date>JANUARY 19th, A. D. 1882. </date></closer>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

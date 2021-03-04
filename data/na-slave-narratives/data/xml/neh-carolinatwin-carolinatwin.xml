@@ -1,0 +1,1253 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY milli23 SYSTEM "milli23.jpg" NDATA jpeg>
+<!ENTITY millitp SYSTEM "millitp.jpg" NDATA jpeg>
+<!ENTITY millibk SYSTEM "millibk.jpg" NDATA jpeg>
+<!ENTITY millicv SYSTEM "millicv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph rend="bold">Biographical Sketch of Millie Christine, the Carolina Twin. Surnamed the Two-Headed Nightingale and the Eighth Wonder of the World:</emph>
+Electronic Edition.</title>
+        <funder>Funding from the University of North Carolina at Chapel Hill Libraries supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Risa Mulligan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Sarah Ficke and Elizabeth S. Wright</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2004</date></edition>
+      </editionStmt>
+      <extent>ca.    102K</extent>
+      <publicationStmt>
+        <publisher>University Library, UNC-Chapel Hill</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2004.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Biographical Sketch of Millie Christine, the Carolina Twin, Surnamed the Two-Headed Nightingale, and the Eighth Wonder of the World. </title>
+            <title type="cover"> Millie Christina, the Carolina Twin, Born in Columbus Co., North Carolina, July 11, 1851. </title>
+          </titleStmt>
+          <extent> 32 p. [2]</extent>
+          <publicationStmt>
+            <pubPlace>Cincinnati, Ohio</pubPlace>
+            <publisher>Hennegan&amp; Co. Print</publisher>
+            <date>[between 1902 and 1912]</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number VCpB S653 (North Carolina Collection, University of North Carolina at Chapel Hill)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-Chapel Hill digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. </p>
+        <p>The text has been encoded using the recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been removed, and the trailing part of a word has been joined to the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings </title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- North Carolina -- Biography.</item>
+            <item>Conjoined twins -- North Carolina -- Biography.</item>
+            <item>Millie-Christine, 1851-1912.</item>
+            <item>Millie-Christine, 1851-1912.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2006-06-29, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2004-12-20, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2004-12-20, </date>
+        <respStmt>
+          <name>Sarah Ficke</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2004-10-29, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="millicv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="millitp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="prefatory letters">
+        <div2 type="letter">
+          <opener>SOUTHERN CALIFORNIA RAILWAY COMPANY. PASSENGER DEPARTMENT.<lb/> H. G. THOMPSON, Gen'l Pass. Agt.<lb/>H. K. GREGORY, Ass't Gen'l Pass. Agt.<dateline><name type="place">Los Angeles, Cal.,</name><date> Jan. 30, 1895.</date></dateline></opener>
+          <p>TO CONDUCTORS, Los Angeles to Santa Ana, San Bernardino via Orange, San Bernardino to Redlands, and Redlands to Los Angeles:</p>
+          <p>It is customary for Millie Christine, the dual woman, to require but one ticket. Please be governed accordingly when Millie Christine is making a trip over any of our lines as above indicated.</p>
+          <closer><salute>Yours truly,</salute>
+<signed>H. G. THOMPSON, G. P. A.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>THE PENNSYLVANIA RAILROAD CO.<lb/>PHILA., WILMINGTON &amp; BALT. R. R. CO.<lb/>ALEXANDRIA &amp; FREDERICKSBURG RAILWAY. CO.<lb/>CAMDEN &amp; ATLANTIC RAILROAD CO.<lb/>NORTHERN CENTRAL RAILWAY CO.<lb/>BALTIMORE &amp; POTOMAC R. R. CO.<lb/>WEST JERSEY RAILROAD CO.<lb/>OFFICE, 233 SOUTH FOURTH STREET.<lb/>PASSENGER DEPARTMENT.<lb/>J. R. WOOD, Gen'l Pass. Agent.<lb/>GEO. W. BOYD, Asst. Gen'l Pass.Agent.<dateline><name type="place">Philadelphia,</name><date> June 10, 1894.</date></dateline>Subject: Refunding extra fare.<lb/>J. P. SMITH, Esq., Grand Central Hotel, New York City.<salute>DEAR SIR:</salute></opener>
+          <p>Referring to your call at this office a few days since I enclose herewith order No. 25286 on our Treasurer for $4.71, covering refund of extra fare paid from Washington, D. C. to Philadelphia, June 4th, by Millie Christine, the dual woman, in connection with one first-class ticket between same points, which the conductor lifted on the ground that two fares were necessary to cover passage.</p>
+          <p>Please sign and return enclosed form of receipt, and oblige,</p>
+          <closer><salute>Very truly,</salute>
+<signed>GEO. W. BOYD, A. G. P. A., Wash.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>BALTIMORE &amp; OHIO SOUTHWESTERN RAILROAD.<lb/>PASSENGER DEPARTMENT.<lb/>CITY OFFICE, SOUTHEAST CORNER FOURTH AND VINE STREETS.<lb/>O. P. McCarthy, General Passenger Agent.<lb/>CHAS. H. KOENIG, District Passenger Agent.<dateline><name type="place">Cincinnati, O., </name><date>April 13, 1892.</date></dateline></opener>
+          <p>CONDUCTORS B. &amp; O. S W. and connecting lines:</p>
+          <p>This is to certify that Manager Smith has purchased three (3) tickets, Cincinnati to New York, in connection with Millie Christine, the dual woman, this person being included. It is customary to require but one ticket for her passage. Kindly be governed accordingly.</p>
+          <closer>
+            <signed>CHAS, H. KOENIG, D. P. A., B. &amp; O. S W.</signed>
+          </closer>
+        </div2>
+        <div2 type="letter">
+          <opener>TREASURER'S OFFICE, T. H. GIBBS, Treasurer.<lb/>COLUMBIA, NEWBURG &amp; LAURENS RAILROAD COMPANY.<dateline><name type="place">Columbia, S. C.,</name><date> Sept. 8, 1893.</date></dateline></opener>
+          <p>CONDUCTORS S. A. Line and connecting lines:</p>
+          <p>This is to certify that J. P. Smith, Esq., has purchased three (3) tickets from Columbia, S. C. to Lincoln, Nebraska. in connection with Millie Christine, the dual woman, this person being included. It is customary to require one ticket for her passage.</p>
+          <closer>
+            <signed>B. F. F. LEAPHART, Ticket Agent. C. N. &amp; L. R. R.</signed>
+          </closer>
+        </div2>
+        <div2 type="letter">
+          <opener>BURLINGTON, CEDAR RAPIDS AND NORTHERN RAILWAY.<lb/>LOCAL FREIGHT AND TICKET OFFICE.<lb/>A. F. PILCHES, Agent.<dateline><name type="place">Sioux Falls, So. Dak.,</name><date> Oct. 5 1895.</date></dateline></opener>
+          <p>TO CONDUCTORS:</p>
+          <p>It is customary to carry Millie Christine on one ticket.</p>
+          <closer><salute>Respectfully,</salute>
+<signed>A. F. PILCHER, Agt.</signed></closer>
+        </div2>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">BIOGRAPHICAL SKETCH <lb/> OF <lb/> MILLIE CHRISTINE, <lb/> THE CAROLINA TWIN, <lb/> SURNAMED <lb/> THE TWO-HEADED NIGHTINGALE, <lb/> AND THE <lb/> EIGHTH WONDER OF THE WORLD.</titlePart>
+        </docTitle>
+        <epigraph>
+          <lg type="poem">
+            <l>None like me since the days of Eve—</l>
+            <l>None such perhaps will ever live”—Except Christine Millie.</l>
+          </lg>
+        </epigraph>
+        <docImprint>At each Levee MILLIE CHRISTINE will sing some of the Songs <lb/> and Duets which will be found at the end of this book.
+<publisher>HENNEGAN &amp; CO. PRINT,</publisher>
+<pubPlace>CINCINNATI, OHIO</pubPlace></docImprint>
+      </titlePage>
+      <div1 type="section">
+        <pb id="p2" n="2"/>
+        <div2 type="letter">
+          <opener>SOUTHERN RAILWAY CO., Office of Division Passenger Agt.<lb/>R. W. Hunt, D. P. A.<lb/>S. H. Hardwick, G.P.A., Washington, D. C.<lb/>W. H. Taylor, A.G.P.A., Atlanta, Ga.<dateline><name type="place">CHARLESTON, S. C.,</name><date> December 13, 1902</date></dateline></opener>
+          <p>To Conductors—It is customary for Millie Christine, the dual woman, to travel on one ticket. Please be governed accordingly when she is traveling over the Southern Railway.</p>
+          <closer><salute>Yours very truly,</salute>
+<signed>R. W. HUNT, D. P. A.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>ATLANTIC COAST LINE, Traffic Department.<lb/>T. H. Emerson, Traffic Mgr.<lb/>H. M. Emerson, G. F. &amp; P. A.<dateline><name type="place">WILMINGTON, N. C., </name><date>December 10, 1897.</date></dateline></opener>
+          <p>To Conductors—Millie Christine, the dual woman, is transported over these lines for one ticket, notwithstanding the fact that she has two heads.</p>
+          <closer><salute>Yours truly,</salute>
+<signed>H. M. EMERSON, G. P. A.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>BALTIMORE &amp; OHIO RAILROAD, Passenger Department, J. H. Cowen &amp; O. C. Murray, Receivers.<lb/>S. D. Hege, D. P. A<lb/>H. R. Hoser, Ticket Agent., 619 Pennsylvania Ave.<dateline><name type="place">WASHINGTON, D. C., </name><date>June 9, 1898.</date></dateline></opener>
+          <p>Conductors B. &amp; O R R.—This is to certify that Manager Smith has purchased four tickets, Washington, D. C., to Zanesville, Ohio, in connection with Millie Christine, the dual woman, this person being included You will accept one ticket for the passage of Millie Christine.</p>
+          <closer><salute>Yours truly,</salute>
+<signed>J. N. SCHRYVER, G. P. A.</signed>
+<signed>Per S. B. H., D. P. A.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>PLANT SYSTEM OF RAILWAYS.<lb/>B. W. Wrenn, P T. M.<dateline><name type="place">SAVANNAH, GA.,</name><date> November 22, 1900.</date></dateline></opener>
+          <p>To Conductors—It is customary for Millie Christine, the two-headed woman, to travel on one ticket. You will please govern yourself accordingly</p>
+          <closer><salute>Yours truly,</salute>
+<signed>B. W. WRENN, P. T. M.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>SEABOARD AIR LINE RAILWAY.</opener>
+          <p>To Conductors—It is customary for Millie Christine, the two-headed woman, to travel on one ticket. You will please govern yourself accordingly,</p>
+          <closer><salute>Yours truly,</salute>
+<signed>A. O. MACDONALD, A. G. P. A.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>ATLANTIC, VALDOSTA &amp; WESTERN RY. Traffic Department.<lb/>Smith D. Pickett, G. F. &amp; P. A.<lb/><dateline><name type="place">JACKSONVILLE, FLA, </name><date>November 30, 1900.</date></dateline></opener>
+          <p>To the Conductors, A. V. &amp; W. Ry.—It will only be necessary for Millie Christine, known as the dual woman, to present one ticket for her passage over our line.</p>
+          <closer>
+            <signed>S. D. PICKETT, G. P. A.</signed>
+          </closer>
+        </div2>
+        <div2 type="letter">
+          <opener>SOUTHERN RY. CO. Office of Trav. Pass. Agent.<lb/>W. A. Turk, G. P. A., Washington, D. C.<lb/>C. A. Benscotter, A. G. P. A., Chattanooga, Tenn.<lb/>J. C. Lusk, T. P. A.<dateline><name type="place">SELMA, ALA., </name><date>January 11, 1901.</date></dateline></opener>
+          <p>To Southern Railway Conductors—It is the custom for Millie Christine, the dual woman, to travel on one ticket. Please be governed accordingly.</p>
+          <closer><salute>Yours very truly,</salute>
+<signed>J. C. LUSK, T. P. A.</signed></closer>
+        </div2>
+      </div1>
+    </front>
+    <body>
+      <div1 type="biographical sketch">
+        <pb id="p3" n="3"/>
+        <head>SKETCH OF THE LIFE <lb/> OF <lb/> Millie Christine; or Christine Millie, <lb/> THE CAROLINA TWIN.</head>
+        <head>The Two-Headed Lady, the Double-Tongued Nightingale, the Eighth Wonder of the World, the Puzzle of Science, the Despair of Doctors, the Dual Unity.</head>
+        <head>All of these names has she earned at various times, with the final title which we claim for her in defiance of any other or others:</head>
+        <head>The Most Wonderful Being Alive.</head>
+        <p>There are giants and giants, dwarfs and dwarfs, fat men and women, living skeletons of both sexes, hirsute monsters and baldheads by the century; there are marvels of nature, science and art, of all which the world knows; but there can only be one NONPAREIL, one UNEQUALLED, and that is the subject of our brief sketch, for only one living creature is like Millie Christine, and her name is Christine Millie.</p>
+        <p>But, says the curious reader, was there ever such another heard of before?</p>
+        <p>Only one is on record, attested as a fact, and leaving out of the question fabulous monsters. The first year of the eighteenth century witnessed the birth of a similar phenomenon in Hungary, the sisters Helen and Judith, born in the year 1701. These girls were united at the lower part of the body only, and were perfectly distinct beings in every way. Helen was larger, stronger, and better-looking than Judith, besides being much more active and <sic corr="intelligent">inteiligent</sic>. These girls lived to their twenty second year, when Judith fell sick and died, Helen following her within a few minutes of her demise. And all this, you remember,
+<pb id="p4" n="4"/>
+happened more than a century since, so that it takes Nature a hundred years at least to produce such a marvel again. Helen and Judith died at twenty-two years of age, while Millie Christine still lives, healthy and happy, at thirty-eight, and bids fair to attain a ripe old age as easily as less wonderful beings. The following pages, confined to a simple record of the facts in her career, will therefore prove of interest and value.</p>
+        <p>Miss Millie Christine, or Christine Millie, was born of slave parents, on the plantation of Mr. Alexander McCoy, near the town of Whiteville, Columbus County, North Carolina, on July 11, 1851. At her birth her mother was in her thirty-second year. She was a handsome woman, finely formed and in excellent health. Millie Christine's father, of Moorish descent, slender and sinewy, with the powerful activity characteristic of his race. Prior to the birth of Millie Christine, her mother had borne seven other children, five boys and two girls, all of ordinary size, with no peculiarities of conformation, and some of them are still alive.</p>
+        <p>The wonder of the family, Millie Christine, weighed seventeen pounds when she entered the world, and, although her mother was only attended by a colored midwife, no serious consequences attended such a remarkable birth.</p>
+        <p>But, when the child was once fairly in the world, how rumor flew about the township of Whiteville, and spread from thence over the whole country! “Have you seen the girl?” was the first question asked of every one by every one, and pilgrimages to visit her became all the rage in the country side.</p>
+        <p>The old nurse who had superintended her introduction into this world was doubtless awestruck at the anomalous and wonderful addition she had made to her master's property, and not unnaturally prided herself on having assisted Nature to produce a phenomenon; but the master himself, and his amiable lady, without stopping to question the designs of Providence, immediately surrounded the extraordinary infant with such care and attention as enabled it to thrive and grow. The dual-headed child was taken from the cabin to the mansion, and Mr. McCoy's family commenced then a course of care and attention to her health and welfare.</p>
+        <p>During the first eighteen months of her life nothing of importance occurred to Millie Christine worthy of note. She grew as other girls grow, learned to walk at twelve months old, was of a lively and agreeable disposition, and at fifteen months began to talk with both her mouths. She was cheerful and active as any girl of her age, with every appearance of robust health. Her vivacity and goodness, together, no doubt, with her peculiar formation, rendered her the almost idolized
+<pb id="p5" n="5"/>
+child of the mother and a general favorite of both old and young, and every attention and kindness was bestowed upon her.</p>
+        <p>At this time Mr. McCoy, being a man in very moderate circumstances, a plain farmer, thinking the girl would become a burden to him, and annoyed with the frequent visits of strangers to see her, determined to dispose of her. He was not long in finding for her a purchaser, a person of the name of Brower, who offered $10,000 for her, seeing the possibilities of the child in the way of an exhibition. But inasmuch as this Brower was not possessed of the requisite cash to back his faith, and only offered to give a note of hand for the purchase money, Mr. McCoy naturally desired some responsible person to whom to look for the money in case of the non-payment of the note when due. This person was ultimately found by Brower in Joseph P. Smith, of Wadesboro, North Carolina, and Mr. McCoy finally parted with Millie Christine, in consideration of Brower's note for $10,000 endorsed by Mr. Smith.</p>
+        <p>The happy Brower, in full possession of his prize, at once departed for New Orleans, in obedience to a request from the medical faculty of that city asking that she be brought there for a scientific examination.</p>
+        <p>Rooms were taken and every preparation made for the contemplated examination, after which she was to be placed on public exhibition. It had been arranged, prior to their leaving home, that their presence in the city should be kept as quiet as possible, as the desire to see her would undoubtedly be very great and might interfere with the examination. This precaution was not strictly regarded, and soon the rooms and the passages leading thereto were literally besieged with anxious crowds of people eager to get a sight of her.</p>
+        <p>The examination, however, at length took place and proved most satisfactory, every physician in attendance concurring in pronouncing her Nature's greatest wonder. Being endorsed by the medical faculty, she was now put on public exhibition, but from want of proper management she succeeded but indifferently.</p>
+        <p>Mr. Brower, being quite ignorant of the business he had undertaken, despaired of success after a few more efforts. About this time he became acquainted with a certain adventurer who hailed from Texas and boasted of his immense tracts of land in that State. This swindler proposed to purchase the girl by giving for her lands, at a fair market valuation, to the amount of forty-five thousand dollars, and Brower, having full confidence in the would be millionaire, concluded the bargain by giving possession of the girl, and was on the following day to receive the deeds in due form. The day arrived, but neither the Texan nor the deeds were forthcoming, and then for the
+<pb id="p6" n="6"/>
+first time the unpleasant fact broke upon him that he had been completely duped. To gain some knowledge of her whereabouts was now his first effort; but so adroitly was everything pertaining to her abduction managed that no clue to her, or even the direction she had been carried, could be gained, and every effort for a time to learn anything of her proved futile.</p>
+        <p>Mr. Brower, after weeks of useless search, becoming convinced that, for the present, further efforts to regain her would only prove useless, determined to return to North Carolina and impart to Mr. Smith his loss, and to the mother the sad intelligence of the abduction of her daughter. Words are inadequate to describe the anguish of the parent on learning the fate of her child. For a time she was perfectly frantic, during six days refusing food and for the same number of nights her eyes did not close in sleep. Her excellent character, uniform kindness and amiable disposition had made her a general favorite, so that everything that could be was cheerfully done to comfort and soothe her mind. She was promised that no amount of money should be spared, no effort left untried to procure her much-cherished child. How truly this promise was kept the sequel will prove. Brower and partner were bankrupt, and Mr. Smith expected no assistance from them. But before anything could be done to recover the child it was necessary that her original owner should be compensated for his loss in the transaction. Christine Millie had been spirited away to parts unknown, and all that Mr. McCoy had to show for her was Brower's note for $10,000; and as Brower could not pay this money his endorser, Mr. Smith, became the responsible party and accepted the responsibility. He at once paid the purchase money in full to Mr. McCoy, and took from him a deed which made him the exclusive owner, under then existing laws, of the person of Millie Christine. The proviso, “wherever he could find her,” was of course understood, and in order to quiet the mind of her mother and convince her that, whenever found, the child would be restored to her care, Mr. Smith at the same time purchased the father, mother and seven children, a transaction of course involving a large sum of money, all of which was dependent for its recovery on the recovery of Millie Christine herself.</p>
+        <p>The question then arose, where was she, and if found, how was she to be recovered, if at all?</p>
+        <p>Mr. Smith found in the person of Mr. T. A. Vestal of Selma, Alabama, one of the shrewdest detectives in the country, and Vestal at once commenced operations, with the assistance of two other detectives, and ultimately gained intelligence of her in the city of Philadelphia, though not before the lapse of some fifteen or eighteen months.</p>
+        <pb id="p7" n="7"/>
+        <p>Vestal heard from a negro barber, whose confidence he had obtained, that about a year ago a child answering her description had been in the city, and for a time had been secreted in a celler on Pine Street. The cellar was found, and, through the influence of bribes, it was ascertained from an old woman still living in a portion of the house to which the cellar belonged that the child had been carried to New York. The next day Mr. Vestal started for that city to prosecute his search, and remained there five weeks. Every effort was made, but no further intelligence of her could be learned. If any one knew of her or had seen her there, their mouths were sealed to the influence of money or persuasion. Mr. Vestal began almost to despair, yet determined not to yield his cherished object. He had every reason to believe she was alive, for when taken from New Orleans she was in excellent health. The papers had been watched closely by him, and no account of the death of any one answering her description had been noticed, which certainly would have been the case had she died. From New York he proceeded to Boston; from thence to Philadelphia, and ultimately to Newark, New Jersey. There, for the first time, he got definite information of her. He learned from a man then keeping a drinking house that at one time, when engaged as a cabman in the city of New York, he had been hired to convey a girl answering her description to a sailing vessel, the name of which he did not remember, bound for and ready to sail for Liverpool; that he had seen the vessel depart, and knew the child was aboard of her when she sailed. Acting on this valuable information, Mr. Vestal immediately returned to North Carolina and urged on Mr. Smith the necessity of following her. Mr. Smith determined to make the attempt, and accordingly prepared for the journey. Accompanied by the mother of Christine Millie, he reached New York, took the steamship Atlantic, and after a pleasant voyage reached Liverpool. There they learned that the child had been on exhibition in that city; also in London, Leeds and other places.</p>
+        <p>Seated in a promiscuous crowd of traders and traveling clerks one evening, in front of his hotel, her name was introduced, and he learned that a short time before she had been on exhibition in Glasgow, Scotland. Immediately they started for that city, but on arrival found that a short time before she had been taken back to England, and was then in Birmingham. So to that city they posted, and on their arrival, to their joy, found she was then on exhibition. It now became necessary that extreme caution should be used, lest their long-cherished object would be frustrated on the very eve of consummation. The impatience of the mother knew no bounds: scarcely could she be restrained from rushing to the exhibition room and defiantly claiming her child, <sic corr="supposing">suposing</sic>
+<pb id="p8" n="8"/>
+the party who then had possession of it would recognize her claim. She was, however, at length convinced of the imprudence of such a course, and submitted until the case had been placed in the hands of the proper officers. Accordingly the Chief of Police and a select body of assistants were called and a true statement of the affairs given. The American Consul was also waited upon and consulted. He immediately took a lively interest in the matter, and advised that the arrival of the American party be kept unknown to the exhibitor until they, in company with a protective force of police, should enter the hall that evening; and should the child recognize the mother among the audience, it would be <hi rend="italics">prima facie</hi> evidence of the facts attempted to be established by them, and used as such in case of litigation. Accordingly, the impatience of the mother was restrained until the hour of the gathering of the visitors, when a portion of the police (selected for the purpose and disguised) Mr. Smith and the mother procured tickets of admission and entered the hall, as casual visitors impelled only by the general curiosity. No sooner, however had the keen eye of the mother caught a glimpse of her long-lost child than she uttered a scream of such heart-rending pathos that the audience simultaneously rose to their feet, wondering and astonished. The mother, overpowered, fell fainting to the floor. When resuscitated she wildly threw her arms about, crying in most piteous tones. “My own child! O! give her to me! Do not take her away again; she needs my care! Where is she?<sic corr="[no punctuation]">”</sic> Where is she?” While this scene of <gap reason="illegible" extent="2 characters"/>citement was going on, the exhibitor attempted to secrete the girl in <gap reason="illegible" extent="2 characters"/> adjoining room; but an honest Scotchman, divining his intentions, <gap reason="illegible" extent="2 characters"/>aced his back against the door, and bringing himself into a position <gap reason="illegible" extent="2 characters"/>at would have delighted a pugilist, cried out: “Ye'll nae tak' the bairn ayant the door, maun ye wallop me first, and I'm nae thinkin' ye'll soon do that.”</p>
+        <p>Such a scene of excitement as this denouement created has seldom been witnessed. The women fainted, and the men, learning the true state of affairs from the Chief of Police, who mounted the stage for the purpose, threatened with immediate and summary punishment the sordid villain who had stolen, for the purpose of gain, a helpless child. He managed, however, to escape by jumping from the second story window, which hazardous feat alone, for the time, saved him from certain and well-merited punishment.</p>
+        <p>The mother, recovering, took the child, and they were conveyed to the hotel, where, for the first time in three years, she slept with it in her arms, forgetting, in the possession of the fondly-loved and long-lost one, the days and nights of anguish she had spent during its absence, and dreamed of naught save happiness and pleasure to come.
+<pb id="p9" n="9"/>
+But her troubles were not to end here. The prize was too rich to be thus easily given up by interested ones. So, on the following morning, a writ of <hi rend="italics">habeas corpus</hi> was served upon them, requiring the appearance of mother and child before the Court of Admiralty, to show cause why she was taken from the custody of the exhibitor. Here the Consul again proved a friend and true American by demanding the child as an American citizen, and requiring it, as a minor, to be placed in charge of the mother, and that protection be given her to maintain her maternal rights.</p>
+        <p>Voluminous proofs, giving an accurate description of mother and child, together with all necessary facts bearing upon the case, had been carefully procured and carried there, in case of necessity. Upon these the Consul spoke a short time, when the judge, arising, declared it useless to occupy more time, for from the opening of the court the case had been decided by the Bench. “The child should be given into the custody of its lawful mother. If it was not the child of the defendants, then mother never bore a child. Every lineament, every feature, every look betokened it; every spectator in his inmost heart felt, yes, knew it to be her child, almost as certainly as though they had seen it every hour since its birth.” A long and hearty shout of approbation at this decision ascended to the dome of the stately old building.</p>
+        <p>As soon as order was restored, the plaintiff determined to make one more effort; so, calling the attention of the Court to the fact of his ability to perform all he promised, he said he was ready then and there to settle upon the mother the sum of ten thousand pounds s<gap reason="illegible" extent="1 character"/>erling, and deed to her an elegant house, in which she could spend the rest of her days in luxury and comfort if she would remain in England and give him possession of the child until she was eighteen, to all of which flattering offers she only turned a deaf ear, preferring, as she said, “to return and live, as she had done, in the land of her birth, with those she had known from infancy, and among her kindred and her friends.”</p>
+        <p>It should have been remarked before that the Texan, although shrewd enough to dupe Brower, was in turn made a dupe himself. Arriving in Philadelphia, on their way from New Orleans, he fell in with two showmen, Thompson and Miller, who soon succeeded in getting possession of the girl, and it was they who had carried her to, and in whose possession she was found, in England. As Thompson and Miller had been most successful in their exhibitions of her (in the course of three years arising from poverty to comparative affluence), it was not to be presumed they would willingly abandon the hope of again possessing her, be the means of possessing what they would.</p>
+        <pb id="p10" n="10"/>
+        <p>Mr. Smith, the mother and the subject of our sketch, being now free to depart, made their preparations openly to return. The Atlantic had made a return trip and was then at the Liverpool docks. The now happy party again took passage upon her, and after a prosperous voyage reached New York. There they took the cars and were soon landed safely in the good old State of North Carolina.</p>
+        <p>Astonishing as it may appear, scarcely had the party reached home when those who had caused so many <sic corr="sleepless">sleepleess</sic> nights and days of anguish and trouble made their appearance in Charlotte, distant from the girl's home fifty-five miles, evidently intent upon another attempt to regain the rich prize they so fraudulently had possession of for a time, but now wrested from their avaricious grasp. The citizens of Charlotte, learning of their presence and intentions, concluded to give them an admirably fitting suit, composed of good <hi rend="italics">tar</hi> and excellent <hi rend="italics">feathers,</hi> and the freedom of the streets for promenading, with the company of a lusty negro to keep time to <hi rend="italics">quickstep</hi> on the end of a large tin kettle.</p>
+        <p>Thompson and Miller, by accident, learning the intentions of the Charlottins, concluded “discretion was the better part of valor” and decamped by night, and since then nothing has been heard of either in North Carolina, and the only thing to remind you of their visit to that section is the chorus of a negro song heard at the corn shuckings: <q direct="unspecified"><lg type="song"><l>Massa Tomsin run a race;</l><l>Oh! oh! o-o-o yah!</l><l>He beat de fastest hoss in de place;</l><l>Yah, oh yah! O ha!</l></lg></q></p>
+        <p>Millie Christine grew and flourished, when Mr. Smith, yielding to the earnest solicitation of friends who knew him to be possessed of the world's greatest marvel, allowed her to be taken upon a tour through the States of South Carolina, Florida, Georgia and Louisiana. At the close of that tour, in the City of New Orleans, an incident occurred which, for a short time, made shipwreck of the happiness of Millie Christine, and which, but for the affection of Mr. and Mrs. Smith, and the persistence which that affection inspired, would probably have altered the whole life of the child for the worse. She was again kidnapped and for months was hurried over the country, from place to place, and deprived of the fostering care of her natural guardians. Ultimately, however, Mr. Smith's anxiety and determination were rewarded, and the child was restored to the arms and heart of Mrs. Smith, whom it soon came to regard and denominate its “white mamma.” Under her care the girl was reared to regard with reverence and love the Supreme Father of all mankind, and speedily grew up into
+<pb id="p11" n="11"/>
+an intelligent Christian child. She not only became proficient in elementary education, but, showing a high appreciation and taste for music, soon became an object of great interest to all visitors at Mr. Smith's home by the rapid progress she made in that accomplishment.</p>
+        <p>The year 1860, the dreadful year which brought so much pain and suffering to the United States of America, brought its own individual sorrow to the home of Millie Christine. Mr. Smith, after a few weeks of suffering, passed quietly away to a better world, mourned by all who knew him, and by none more than those who called him master. Indeed, it is only due to Mr. Smith and his wife to state, and Christine Millie desires particularly that it be inserted in this sketch of her life, that she experienced at his death rather the affliction of one who had lost a beloved father rather than a master. Not only this, but other families on estate of the Smiths, while calling the owner and his wife master and mistress, always regarded them in the light of protecting parents.</p>
+        <p>But the war came on, and with it came those heavy losses which prostrated the fortunes of the Smith family, making of the once prosperous plantation an untilled waste, over which the restless hand of the armed spoiler worked its will. It was then that the kindness of the past found its fruit in the devotion displayed by Millie Christine towards her only living protector, Mrs. Smith, whom she regards with filial affection, and from whom she was fully determined never to separate herself. To retrieve the fallen fortunes of the family she, now free, consented to place herself on exhibition, and afford the world the opportunity of seeing the most marvelous physical development which has ever existed in the human family.</p>
+        <p>It may be mentioned here as an interesting fact, showing the strange mutability of human fortunes, that Jacob, the father of this wonderful being, once the slave of the planter McCoy, now owns, with his wife Monemia, the very plantation on which he was once a bondman, and on which Millie Christine first saw the light of day, the same having been purchased by her with the proceeds of her exhibitions as a present to her father and mother.</p>
+        <p>It will be necessary to append to this sketch a few of the medical and surgical reports on Millie Christine's physical organization; but it may not be uninteresting to give a brief description of her as she strikes the mind and eye of a familiar friend. Millie Christine, physically, has but one existence; mentally, she has two, perfectly developed. From the middle of the single spine grow two perfectly developed busts, each of which has a pair of fine arms, and terminates in an interesting head. Both heads are adorned with curling black hair; each has a pair of sparkling black eyes, constantly lit up by intelligence,
+<pb id="p12" n="12"/>
+which, at any outburst of fun and humor, seem literally to dance with glee; while each mouth is adorned with a set of brilliant teeth. The two faces are bright and interesting, but differ materially in features, one resembling Jacob, the father, the other Monemia, the mother. There is very little distinction to be made in the two developments. The two sets of brains always agree in forming the same conclusions; equally amiable, and equally agreeable in character, they never form different ideas on the same subjects, and the thoughts of each are characterized by that independence which is usually exhibited by natives of America. The tastes and habits of the two are alike; both are fond of music and dancing, both take interest in the same amusements; <gap reason="illegible" extent="1 character"/>ndeed, this marvelous organization shows its wonder in nothing more evidently than its perfect happiness. The two minds can converse each through its own lips. The being is never at a loss for society or for company, for each has, attached to itself, another existence; and yet in no single instance has a particle of disagreement ever occurred to conflict with the happiness or comfort of either. If the one mind formed the fancy to be in London, and the other desired its body to proceed to Paris, a conflict might ensue; providentially, this seems impossible, and has never occurred. Christine has a soprano voice. Millie a contralto; and they sing duets together with exquisite taste and sweetness. Their natural taste for music has been con <gap reason="illegible" extent="1 character"/>cientiously and carefully cultivated by their kind protectress, and the public will not be slow to discover that they have as much power to plea<gap reason="illegible" extent="1 character"/>e and <gap reason="illegible" extent="1 character"/>muse  as a very large number of artistes of established reputation. It <gap reason="illegible" extent="1 character"/>hould now be stated that Millie Christine has four legs, on which she walks with grace and ease; but she can use the outer ones only for purposes of locomotion. She is a very graceful dancer, and executes the schottische, polka or waltz with equal ease. Her manners in the presence of strangers are most engaging. She does not obj<gap reason="illegible" extent="1 character"/>ct to speak of herself or her own peculiarities, and her two minds are always as one on these points. The two minds composed some verses descriptive of herself, which the two voices repeated in unison, and, although of no great literary merit, they are simple and expressive. The verses are as follows: <q direct="unspecified"><lg type="poem"><lg type="stanza"><l>'Tis not modest of one's self to speak;</l><l>But, daily scanned from head to feet,</l><l>I freely talk of everything,</l><l>Sometimes to persons wondering.</l></lg><lg type="stanza"><l>Some persons say I must be two,</l><l>The doctors say this is not true;</l><l>Some cry out humbug till they see,</l><l>When they say—great mystery!</l></lg><pb id="p13" n="13"/><lg type="stanza"><l>Two heads, four arms, four feet,</l><l>All in one perfect body meet;</l><l>I am most wonderfully made</l><l>All scientific men have said.</l></lg><lg type="stanza"><l>None like me since the days of Eve—</l><l>None such, perhaps, will ever live—</l><l>If marvel to myself am I,</l><l>Why not to all who pass me by?</l></lg><lg type="stanza"><l>I'm happy, quite, because content,</l><l>For some wise purpose I was sent;</l><l>My maker knows what he has done,</l><l>Whether I'm created <hi rend="italics">two</hi> or one.</l></lg></lg></q></p>
+        <p>The medical reports on the anatomical construction of this extraordinary phenomenon are published separately for the benefit of the scientific and the gratification of the curious, but sufficient may be here stated to satisfy the ordinary interest of the public. A number of gentlemen connected with Jefferson Medical College, in the city of Philadelphia, examined Christine Millie. Among them were Drs Pancoast, Meigs, Bidde, Wallace and Dickson, all well known in the medico-scientific world. <hi rend="italics">Forney's Press</hi> contains the following report of the clinic:</p>
+        <q direct="unspecified">
+          <p>At a special clinic recently held at the Jefferson Medical College, “Christine Millie” was submitted to a scientific anatomical examination.</p>
+          <p>Assembled at the clinic we found Professors Pancoast, Ormsby, Rand and Gross and Drs. Meigs, W. H. Pancoast, Gardette, Ray, Turnbull, Atkin on, Barson, Bache, Dickson, Cohen, Altee, Andrews and others, well known to surgical fame.</p>
+          <p>The double-headed girl was introduced by Dr. William H. Pancoast, the demonstrator of anatomy at the College, and a general feeling of astonishment was felt when it was discovered that, instead of a monstrosity there was exhibited to the professional talent assembled a well-educated, intelligent, quick witted girl, with nothing about her that was repulsive or calculated to offend the most fastidious, but which at once stamped her as a wonder and a source of scientific information to these learned in anatomy.</p>
+          <p>Dr. Pancoast stated that the body had been placed under his professional care, and, owing to the important questions involved, a private examination had been made by Professors Pancoast and Gross, and Drs. Sevie and Andrew, which had verified all the opinions expressed as to her duality.</p>
+          <p>It was then stated that this remarkable freak of nature was united at the lateral posterior portion of the pelvis, while above that point they were separated—had separate chests, two pairs of fully developed arms, but only one trunk.</p>
+          <p>The double-headed possessed separate intellectual faculties as entirely distinct as was the brain power of two different individuals, while their faces ind<gap reason="illegible" extent="1 character"/>cate, to a remarkable degree, intelligence of a high order and amiability. The lower portion of the body had inclined outwards from each side, and the lower <gap reason="illegible" extent="5 characters"/> were inferior, and not so fully developed as the arms</p>
+          <pb id="p14" n="14"/>
+          <p>A series of experiments was then made under the direction of Professors Pancoast, Atlee, Maury, and others, calculated to demonstrate the construction of the nervous system, which showed that while above the junction the sense of feeling was separate and distinct in each, below the union it was in common. A touch upon the foot of one would be instantly detected by the other, while a hand placed upon either shoulder was only noticed by the one touched.</p>
+          <p>The pulse of Millie was found to be about four beats slower than that of Christine, while the beat of the two hearts was nearly the same.</p>
+          <p>An impromptu performance was given at the clinic in order to show the agility of the girl, and, to the astonishment of the audience, dances were executed, conversations carried on between the two heads, and conversations with two different persons at one and the same time. They stood upon their outer limbs, walked about with a pleasing undulating motion, and Christine lifted the other by the ligature at the pelvis merely by inclining her body to one side. To cap the climax, a duet was executed by the girl, displaying musical knowledge, culture, perfect time and tune, one head taking the soprano and the other the alto; and then, in order to show the sympathetic nature of their voices, “Sweet Spirit, Hear my Prayer,” was given in admirable style.</p>
+        </q>
+        <p>Some of the leading statesmen in Washington manifested great interest in the case, and two of the most eminent physicians in the city were afforded an opportunity to make an examination. Respecting it, the <hi rend="italics">Washington Republican</hi> says: “The examination by Dr. Bliss and Dr. Borland was most satisfactory, and revealed the fact that the representations made by the young lady's guardians are entirely correct, the girl being but of one body, with two heads, four arms, four feet, two sets of lungs, two hearts, but only one physical organization. The doctors express themselves as entirely satisfied that the young lady is the most wonderful human being on the face of the earth.”</p>
+        <p>The <hi rend="italics">Baltimore Sun,</hi> a paper of very high standing in Maryland, says: “There is, at the juncture of the trunk, but one spiral column. The nervous system seems to be identical, but each possesses individual consciousness, and each head does its own thinking. On the other hand, the appetite is the same; when one is hungry the other is the same. The digestive organs are independent. As she moves about she looks like two bright young copper-colored girls tied together in the middle, in the same dress, which is cut short so as to display the movements of four feet. The busts of each are very nearly symmetrical; the heads and necks, shoulders and arms, are perfect. The faces are round, bright and intelligent; eyes large and clear; hair black and glossy.”</p>
+        <p>The press of all the large cities in America bore similar testimony.</p>
+        <p>During the past few months Millie Christine has received an enormous number of visitors. Christine Millie's receptions have always been attended by great numbers of people. In the city of Washington, during a fortnight's stay, thirty thousand persons attended her
+<pb id="p15" n="15"/>
+receptions; in Philadelphia, during eight weeks, a hundred and fifty thousand visited her; in Boston, seventy thousand in three weeks; and in New York, in a single day, ten thousand persons flocked to see her. Christine Millie has made an extensive tour of Europe, and remained there several years. The <hi rend="italics">Liverpool Mercury</hi> has the following regarding her.</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="quoted article">
+                <head>EXTRAORDINARY PHYSICAL PHENOMENON.</head>
+                <p>Since the days when the Siamese twins arrived in this country and occasioned so much excitement in medical circles, no illustration of the freaks of nature has been found at all approaching in its remarkable character to that given in the person of Christine Millie, a native of North Carolina, who arrived at this port on Tuesday, per City of Brussels, from New York. The young person who is about to proceed to London for exhibition, is the child of parents formerly slaves in North Carolina, still living, and having several other children, and was herself born a slave. It is scarcely possible by a written description to convey anything like an adequate idea of the marvelous physical organization of this extraordinary being. In figure, Christine Millie, who is 19 years of age, is rather short, and possesses two heads upon one body, with two well-developed chests and four arms. This portion of the frame is as perfectly distinct in each figure as if the upper part were the heads of two persons; but at the lateral posterior portion of the pelvis there is but one body, with one spine, the lower parts of which gradually incline outwards from each side, and terminate with four legs. The faces are of the African type, with thick lips and large mouth, denoting the race from which the girl has descended; but in conversation the countenances brighten with intelligence, and those who have had the opportunity of seeing the girl could not fail to be pleased with the geniality of her manner and with the store of information which she has at her command. The question which naturally arises, and which it seems difficult to solve, is, whether this is one being, or whether, in some extraordinary manner, two persons have thus marvelously joined together. A very careful anatomical examination, made by the professors at Jefferson Medical College, America, has led to the discovery that the lungs, heart, and functions of digestion are those of two persons, apparently perfect and healthy in each, but that the whole of the lower organization of the body is that of one female, with the exception of the four legs. Each head is said to possess separate intellectual faculties, as entirely distinct as the brain power of two different individuals, and the volitions of the will are independent, but very much in harmony with each other. In proof of this the two months will at the same time converse with different persons upon topics of a widely different character, and will join in singing a duet, one taking the soprano and the other the contralto part. Experiments have been tried with a view to demonstrate the nervous system, which showed that whilst above the junction the sense of feeling was separate and distinct in each, below the point of union it was common. Thus, a hand placed upon the shoulder of either was noticed only by the one touched, but a pressure of the foot was instantly felt by each.</p>
+                <p>Yesterday a private party of ladies and gentlemen had an interview with this extraordinary person at the Washington Hotel, and were both astonished and pleased. She seems remarkably cheerful, suffers no inconvenience or pain from peculiar physical organization, dances with freedom, and, for one of her race, sings with considerable taste and expression. * * * * *</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p16" n="16"/>
+        <p>The editor of the <hi rend="italics">Liverpool Daily Post</hi> says:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="quoted article">
+                <head>THE NEW PHENOMENA.</head>
+                <p>A numerous party assembled yesterday at the Washington Hotel to “interview” a most extraordinary natural Phenomena who is about to be exhibited in London as the “Two-Headed Nightingale.” * * * *</p>
+                <p>Christine Millie is a phenomenon of the Siamese twin order, but far more wonderful, for instead of two bodies connected with a ligature, there is only one <hi rend="italics">torso,</hi> the body separating a little above the waist. There are two distinct busts and pairs of shoulders, two heads, four arms, and four legs. Anatomical examination has proved that the young lady—she is nineteen years of age—has two sets of lungs, and two digestions. It is certain there are mentally two perfect individualities, for conversations may be carried on with each of the two persons so mysteriously blended in one; and, each having a very pretty gift of singing, they perform duets in parts. Christine Millie also dances very gracefully, and appears to have no difficulty in moving about, and in no way differs in appearance from two animated and engaging young negresses, who for sport have agreed to pass an hour tied together nearly back to back. The exceedingly amiable and merry disposition of the mysterious pair deprives the exhibition altogether of that painful element which was present even in the case of those practical philosophers, the Siamese Twins. Christine Millie “first saw the light” as a slave in North Carolina, and the lady on whose estate she was born, and by whom she has been most affectionately and successfully educated, accompanied her to England. All who met <sic corr="Christine">Chrirtine</sic> Millie yesterday must have felt interested in her fortunes, and well disposed to meet her again.</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>From the <hi rend="italics">Liverpool Daily Courier</hi>:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="quoted article">
+                <head>ARRIVAL OF CURIOSITIES OF NATURE.</head>
+                <p>Amongst the visitors who arrived at Liverpool from New York on Tuesday in the Inma<gap reason="illegible" extent="1 character"/> steamer City of Brussels, was a party of ladies and gentlemen, whom the indefatigable Mr. Barnum, of showman notoriety, has nothing to do with, though here for the edification of the curious.</p>
+                <p>The most singular and physiologically interesting member of the party is a young lady, between eighteen and nineteen years of age, or rather, two young ladies rolled into one, who is certainly a rival to the famous Siamese T<gap reason="illegible" extent="1 character"/>ins, and  very much more attractive in appearance than Messrs. Chang and Eng. Those who saw the Siamese Twins during their presence in England will have a vivid recollection of the painful look that their featurs bore, and the constrained movements of their bodies while walking in any direction. There is a total absence of this in the young lady who bears the name of Miss Christine Millie, whose four bright black eyes and dazzling rows of pearly-white teeth light up a fair Creole complexion with an animation that is really attractive. This singular <hi rend="italics">lusus naturœ</hi> is the offspring of parents who were slaves in North Carolina previous to the American civil war, and has several brothers and sisters who are like ordinary humanity. During the strugle the family suffered considerable privations; but as a curious illustration of the changes which have taken place in Southern society, through the war and the declaration of freedom from slavery, it may be mentioned that the father of Christine Millie is now the owner of the plantation on which he was once a slave. As to the young lady herself—for we have surgical authority for describing her—she has bodily only one person, though possessed
+<pb id="p17" n="17"/>
+of two heads, two pairs of shoulders, four arms, and two pairs of legs, amalgamated curiously with one trunk. We can only say that an hour's audience with her yesterday afternoon proved her to be a cultured, self-possessed and accomplished person, who had a most singular attribute of being able to hold two totally distinct conversations at the same time with different persons, or the same person, can sing a duet very tastefully and tunefully in two voices, soprano and contralto, and can dance a mazourka with singular grace and facility. There was no difficulty made in exhibiting the upper portion of the dorsal connection, and it was done without any infringement of modesty.</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>From the <hi rend="italics">Liverpool Leader</hi></p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="quoted article">
+                <head>“MOST EXTRAORDINARY.”</head>
+                <p>In the steamship City of Brussels, from New York, on the 2d of May, 1871, arrived a cargo which, in the words of Mr. Toole, may be termed “most extraordinary.” Of all the curiosities ever unearthed by the immortal Barnum, none can compare in the most minute degree with Millie Christine, a daughter or daughters - whichever the fastidious please—of the State of North Carolina. They first saw the light nineteen years ago, and the mother is presumably the founder of that gigantic Woman's Rights Association in America, which has lately made formidable inroads upon English society. Here we have a young lady with one body, but two distinct minds, borne by two separate heads. All the intelligent men who saw her at the Washington Hotel the other day, can bear witness to the marvellous intelligence which predominates in both brains; the conversational powers of the two heads at once in communication with two different persons, upon different topics, would sufficiently testify it. But the marvel did not stop here; some of the sweetest duets in the language of music were sung by a high soprano and a pure contralto. The notes issued from two heads, and yet but one trunk supplied the <hi rend="italics">verve.</hi> It may now be added that this extraordinary trunk has two pai<gap reason="illegible" extent="1 character"/>s of perfect legs, terminating in symmetrical and very pretty feet, and that, moving upon their pedal extremities, the trunk exhibits the very poetry of motion. The polka, the mazourka, the schottische, are delineated by these two pairs of pretty feet, in perfect time and harmony, and the spectator is rewarded not by one smile, as in the case of ordinary young ladies, but by two distinct smiles, winked at you by two pairs of sparkling and roguish eyes, and thrown at you by two different sets of the purest ivory that ever adorned the mouth of an Indian Sultana. There are a lot of people here, or elsewhere, always ready to strai<gap reason="illegible" extent="1 character"/> at the smallest gnat and swallow the biggest camel, who will doubtless put this young lady down as outside the pale of ordinary humanity. If this prejudice should carry one so far as to avoid her, they alone will be the losers. We can testify that no person of ordinary intelligence can be in her company for half an hour without yielding to the charm of her manner and the fascination of her double smiles. She has you on both sides. If you remove your head from one position you are immediately the victim of another pair of eyes, which fix you and, in fact, transfix you. We candidly admit that we were fascinated, and that we immediately lost sight of the phenomenon and became overpowered by the influence of this dual brain. The young lady will shortly hold <hi rend="italics">levees</hi> in London, and the public of Liverpool may hope to see her by-and-by. The eminent medical men of the United States testify that this remarkable freak of nature is united at the lateral posterior portion of the pelvis, while above that portion they are separated, have separate chests, two pair of fully developed
+<pb id="p18" n="18"/>
+arms, but only one trunk. With the double head they possess separate intellectual faculties as entirely distinct as in the brain power of two different individuals, while their faces indicate to a remarkable degree intelligence of a high order and great amiability.</p>
+              </div1>
+              <div1 type="quoted article">
+                <head>VISIT OF EMINENT MEN IN LIVERPOOL TO MILLIE CHRISTINE.</head>
+                <p>On the 4th of May a reception for medical men was held at the Washington Hotel, Liverpool, and was attended by the following eminent members of that faculty: Dr. Nevins, Dr. Bickersbeth, Dr. McGregor, Dr. Greegan, Dr. Slack, Dr. Gorst, Dr. Steele, Mr. T. Dickerton, F R.C.S., etc.; Mr. Edgar Browne, M.R.C.S.; Mr. Jas. Pen Harris, Mr. W. H. Manifold, etc. Having had an opportunity of explaining the bond of union, these eminent men were unanimously of the opinion that Millie Christine is the most extraordinary phenomenon the world has ever seen.</p>
+              </div1>
+              <div1 type="quoted article">
+                <head>THE TWO-HEADED GIRL.</head>
+                <head>LAUGHABLE ACCOUNT OF THE TWO-HEADED GIRL BY A WESTERN EDITOR.</head>
+                <p>“Girls in this city are divided into two classes—single-headed girls and double-headed ditto. The single-headed ones are certainly the most numerous, but the double-headed ones appear to be the most attractive. This is evident from the fact, that while we can see a single-headed girl almost any time, we have to pay in order to be introduced to the maid with the duplex cranium. We say ‘maid’ because the last double-headed girl we saw was not married. There was one man who courted her successfully, as he thought, for a time, but before popping the question he kissed one face first, and could never get the consent of the other head. She is new waiting till a two-headed man comes along, and is gay with hope.</p>
+                <p>“This duplex girl, however, must be in every way a desirable match. Though the assurance given that she eats with both heads may tell against her with parsimonious wooers, yet the fact that she buys dresses for one only must be an immense advantage. The same with her talking. The two-headed girl must be extremely circumspect, not only in her walk, but in her conversation. As she can never have a secret, she can have no opportunity to go around telling it. Neither will any one ever tell a secret to one head for fear that the other would split upon it.</p>
+                <p>“The fact of having two tongues should not militate against her, as, if she had only one, she would probably keep it going all the time, while, if she uses two, the one deadens the sound of the other. Whichever way we look at the two-headed girl we see her to advantage, though we don't mean to say the least that should be understood to disparage a girl because she happens to be born with only one head.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>After an absence of eight years Christine Millie returned to her native land on October 1st, 1878. Her tour abroad was a continued ovation of success. She visited the principal cities and towns in England, France, Germany, Belgium, Italy, Hungary, Austria, Holland and Russia. At every point the young lady was commanded to appear before the nobility and rulers of these great countries. Kingly presents and valuable jewels were given as tokens of appreciation not only of her as a remarkable curiosity,' but of her graceful bearing, her
+<pb id="p19" n="19"/>
+contented disposition and of her artistic musical abilities. Before she had landed, upon her arrival, a representative of the <hi rend="italics">New York Herald</hi> greeted her, and the next morning that journal gave forth to the whole United States the return of one of its children, who had fully established herself to be the greatest curiosity of the greatest country in the world. Since her return she has exhibited to thousands in the cities of Boston, Philadelphia and New York. While in Philadelphia she again appeared before the professors and students of the Jefferson Medical College. Professor Pancoast for the second time examined her. A portion of his lecture is extracted from the <hi rend="italics">Philadelphia Evening Telegraph.</hi></p>
+        <q direct="unspecified">
+          <p>This afternoon, at 1 o'clock, Millie and Christine were given a scientific examination by Professor W. H. Pancoast, at his clinic, at the Jefferson Medical College Hospital. The well-like room was crowded, and Professor Pancoast busy removing a cancer from a patient when the reporter arrived. During the operation Baron Littlefinger and Count Rosebud, two most intelligent dwarfs—perfect little men in figure—were present, and appeared interested spectators of the operation. In introducing Millie and Christine, the Professor said that he considered them the most interesting personages that have ever come under the notice of scientific men, far more interesting than the Siamese Twins. In the midst of his discourse the young ladies entered, clad in green silk on their two bodies, pretty little bronze boots on the four feet, white kids on their four hands. They moved forward like an expanded V, with a crab-like movement that was not ungraceful. Born back-to-back, the Professor explained that the natural desire of each to walk face forward had twisted them in their present position. Separate entities, separate individualities, each can pursue separate lines of thought and conversation independent of the other. From habit their appetites call for food and drink at the same time. All the ills of flesh are not, however, necessarily theirs in common. One may have the toothache and the other be free from any ache. But in the examination conducted to-day the Professor discovered a remarkable development of sensibility since his previous examination eight years ago. Touching them on any extreme of the body, on any foot for example, both in common were conscious of the touch. Christine has been and is now the larger and stronger of the two. As children they used to have little struggles and quarrels for supremacy, but, as they could not get away from each other, they early concluded that the best way to get along in their novel path through life was to yield to each other. Their present happiness and affection for each other is an example for couples who are yoked together in marital bonds. Sometimes Christine rolls over Millie in bed without awakening her. Both can sleep separately. They can stand and walk on their outside legs, but they prefer to walk on all fours. Millie cannot lift up Christine's legs, or Christine Millie's legs. Since the Hungarian sisters, there has been no similar case reported reaching adult life for 170 years. The bond of union between these, which is just above the bones of the spine, is chiefly cartilaginous, but the spines are so closely approximated that there is an osseous union between them. To the question by Professor Pancoast, whether either was engaged to be married, each denied the soft impeachment with decision, though the Professor explained that physically there are no serious objections to the marriage of Her or Them; but morally there was a most decided
+<pb id="p20" n="20"/>
+one. During the Professor's lecture the Misses Christine Millie and Millie Christine appeared very much interested in the diagnosis of their singular condition, and evidenced their superior intelligence by their apt and ready answers.</p>
+        </q>
+        <p>While abroad Millie Christine made herself mistress of the French, German, Italian and Spanish languages. Always industrious, she makes her entire wardrobe, even to her dresses, for exhibition purposes. She dresses herself without trouble. Having lived thus long together, they express no desire to be parted and hope to leave this world as they came into it—together.</p>
+        <div2 type="letter">
+          <opener>THE MISSOURI PACIFIC RY. CO., St. Louis, Iron Mountain and Southern Ry. Co. and Leased, Operated and Independent Lines.<lb/>August Sundholm, P. &amp; T. A.<lb/>G. E. Richie,<lb/>Guy E. Thompson, Ass'ts, S. W. Cor. Markham &amp; Louisiana Sts. and Union Depot.<dateline><name type="place">LITTLE ROCK, ARK., </name><date>February 19, 1899.</date></dateline></opener>
+          <p>Conductors S. L., I. M. &amp; S. Ry. and Connecting Lines — It is customary to carry Millie Christine on one ticket.</p>
+          <closer><salute>Respectfully,</salute>
+<signed>AUGUST SUNDHOLM, P. &amp; T. A.</signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>NORFOLK &amp; WESTERN RY. CO. Norfolk &amp; Richmond Vestibuled Limited, Fastest Train in the South, Virginia and Ohio Line, West and Northwest.<lb/>C. H. Bosley, D. P. A.<lb/>John E. Wagner, C. P. &amp; T. A. <name type="place">838 Main St., Richmond, Va.</name><lb/>W. E. Hazelwood, P. A., <name type="place">95 Granby St., under Monticello Hotel, Norfolk, Va.</name><salute>To Conducters Norfolk &amp; Western Railway Company:</salute></opener>
+          <p>Gentlemen — For your information, I beg to advise that the manager of Millie Christine, a dual woman, is in the habit of only purchasing one ticket for her. This custom has been adhered to and recognized by all lines.</p>
+          <closer><salute>Yours truly,</salute>
+<signed>W. E. HAZELWOOD, P. A.</signed></closer>
+        </div2>
+      </div1>
+      <div1 type="medical certificates">
+        <pb id="p21" n="21"/>
+        <head>Certificates of Eminent Medical Men</head>
+        <p>Hundreds of certificates might be given, but the following are sufficient:</p>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">1,100 WALNUT STREET, PHILADELPHIA, PA.,</name>
+              <date> Jan., 1871.</date>
+            </dateline>
+          </opener>
+          <p>I have examined Millie Christine and consider her a more interesting  anatomical curiosity than the Siamese Twins, on whose bodies I made (assisted by a colleague) a post-mortem examination. I consider the union of the Carolina Twin more curious even than the famous Hungarian Sisters, who were born October 26th, 1701. Millie Christine is joined by the sacrum and coccyx. The lower part of the spinal cords are united together. There are separate bladders, but one common vagina, one uterus to be recognized, and one perfect anus. The bond of the union at this date measures 26 inches in circumference</p>
+          <closer>
+            <signed>WM. H. PANCOAST, M.D., etc.</signed>
+          </closer>
+        </div2>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">1,117 SPRUCE STREET, PHILADELPHIA, PA.,</name>
+              <date> Jan. 20th, 1872.</date>
+            </dateline>
+          </opener>
+          <p>I have had the opportunity (in conjunction with Professors Gross and Pancoast) of examining very carefully the celebrated Carolina Twin. She and they are simply wonderful in their anatomical construction—far more so than the Hungarian Sisters or the Siamese Twins. Intellectually they are separate and distinct, sexually but one. Rectum and vagina in common and possessing but one uterus.</p>
+          <closer>
+            <signed>T. H. ANDREWS, M.D.</signed>
+          </closer>
+        </div2>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">NEW YORK CITY,</name>
+              <date> August 5th, 1871.</date>
+            </dateline>
+          </opener>
+          <p>The undersigned were among those who were invited to visit Millie Christine to-day, heartily concurring in all former medical reports relative to she and they being both two and yet but one person, stamping her as the world's greatest and most interesting personage:</p>
+          <closer>
+            <signed>Dr. ANDERSON,</signed>
+            <signed>Dr. DAVIDSON,</signed>
+            <signed>Dr. BEUCE,</signed>
+            <signed>Dr. CROMPTON,</signed>
+            <signed>Dr. CHADSEY,</signed>
+            <signed>Dr. BARKER,</signed>
+            <signed>Dr. COOPER, University Medical College.</signed>
+            <signed>Prof. CARMICHAEL,</signed>
+            <signed>Dr. E. B. BELDEN,</signed>
+            <signed>Dr. WOOSTER,</signed>
+            <signed>Dr. BEACH,</signed>
+            <signed>Dr. C. H. BROWN,</signed>
+            <signed>Dr. J. C. BOULLE,</signed>
+            <signed>Dr. I. C. MCCOY,</signed>
+            <signed>Dr. S. W. DAVID,</signed>
+            <signed>Dr. DEMAREST.</signed>
+          </closer>
+        </div2>
+        <div2 type="certificate">
+          <opener><hi rend="italics">Lancet,</hi> Medical Journal of England.</opener>
+          <p>The following prominent scientific men of Great Britain are among the few who vouch for the genuineness of the marvelous Two-Headed Nightingale:</p>
+          <closer>
+            <signed>SIR JAMES PAGET, Bart, Pres. R.C.S., F.R.S., &amp;c.</signed>
+            <signed>SIR W. W. GULL, Bart, M.D., F.R.C., &amp;c.</signed>
+            <signed>SIR W. FERGUSON, Bart, M.D., F.R.C.S., &amp;c.</signed>
+            <signed>SIR HENRY THOMPSON, F.R.C.S., M.D.</signed>
+            <signed>HENRY FEE. F.R.C.S., &amp;c.</signed>
+          </closer>
+          <pb id="p22" n="22"/>
+          <trailer>And leading surgeons and medical men of Russia, Austria, Switzerland, Germany, Spain, France, Italy and Belgium fully concur and endorse the statements <gap reason="illegible" extent="1 character"/>ove given.</trailer>
+        </div2>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">15 SOUTH CHARLOOT ST.,</name>
+              <date> 11th Jan., 1856.</date>
+            </dateline>
+          </opener>
+          <p>I have this day examined Millie Christine, and find that the band of union is between 15 and 17 inches in circumference, involving at least the bones of the sacrum and coccyx immovable, uniting the sacral nerves and spinal cord, so as to constitute one individual, or two girls in one nervous system. I also find both heads sprightly and intelligent, and deem her a much greater curiosity than the Siamese Twins. </p>
+          <closer>
+            <signed>(Signed.) JOHN LEZARS. Professor of Surgery to the Royal College of Surgery, and Senior Operating Surgeon in the Royal Infirmary of Edinburgh.</signed>
+          </closer>
+        </div2>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">NEW ORLEANS, </name>
+              <date>10th Feb., 1858.</date>
+            </dateline>
+          </opener>
+          <p>I have this day examined the “Two-Headed Girl,” and find her to be a very remarkable anatomical curiosity. The spines are united, having rectum and vagina in common.</p>
+          <p>I fully concur in the above opinion.</p>
+          <closer><signed>J. C. NOTT, M.D.</signed>
+<signed>THOS. HUNT, M.D.</signed></closer>
+        </div2>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">ST. LOUIS, MO., </name>
+              <date>May 28th, 1858.</date>
+            </dateline>
+          </opener>
+          <p>We, the undersigned, having made a critical examination of the <hi rend="italics">lusus naturœ.</hi> known as the “Two-Headed Girl,” now being exhibited in our city by Mr. Vestal, would beg leave to state that this wonder, as regards the pelvic arrangements is in our opinion, one; in all other particulars double.</p>
+          <closer><signed>JOHN B. MCDOWELL, M.D.,</signed>
+<signed>B. F. EDWARDS, M.D.,</signed>
+<signed>WM. CARR LANE, M.D.</signed>
+<signed>J. M. SCOTT, M.D.</signed></closer>
+        </div2>
+        <div2 type="certificate">
+          <opener>
+            <dateline>
+              <name type="place">ST. JOSEPH, MO., </name>
+              <date>July 13th, 1858.</date>
+            </dateline>
+          </opener>
+          <p>The undersigned, physicians of St. Joseph, having been invited to see the <hi rend="italics">lusus naturœ</hi> now on exhibition in the city, fully concur in the statement that it is the greatest wonder of the age, having two heads, four legs, four arms and but one body, and one consolidated pelvis, and perfect sympathy of desire.</p>
+          <closer><signed>W. I. HEDDEW, M.D.,</signed>
+<signed>J. H. CRA<gap reason="illegible" extent="2 characters"/> M.D.,</signed>
+<signed>J. A. CHAMBERS, M.D.,</signed>
+<signed>Q. B. KNODE, M.D.,</signed>
+<signed>C. CATLETT, M.D.</signed></closer>
+        </div2>
+      </div1>
+      <div1 type="section">
+        <pb id="p23" n="23"/>
+        <head>ROYAL GUEST.</head>
+        <head>THE FAMOUS </head>
+        <head>Two-Headed Nightingale.</head>
+        <p><hi rend="italics">Four Times by Command before the Royal Family.</hi>
+<lb/><hi rend="italics">Thrice before the Prince and Princess of Wales and also before</hi><lb/><hi rend="italics">all the Crowned Heads of Europe.</hi></p>
+        <p>A ROYAL GUEST.—By Royal Command, Mlle. Millie Christine, the marvelous “Two-headed Nightingale,” visited her Majesty the Queen at Buckingham Palace.—<hi rend="italics">London Times.</hi></p>
+        <p>Mile, Millie Christine, the famous “Two-headed Nightingale,” had the honor of appearing (by command) before H. R. H. the Princess of Wales, at Marlborough House.—<hi rend="italics">Pall Mall Gazette.</hi></p>
+        <p>H. R. H. the Prince of Wales, accompanied by Prince John of Glucksburg and Mr. Paget, attended by Col. Keppel and H. I. H. the Grand Duke Wladimar of Russia and Suite, attended by Col. Ellis, paid a visit to the exhibition of the “Two-headed Nightingale” at Willis's Rooms.-<hi rend="italics">Morning Post.</hi></p>
+        <p>So much pleased was Her Royal Highness the Princess of Wales with the “Two-headed Nightingale,” on her departure for the continent, she left orders that a couple of brooches should be presented to the two-in-one young ladies.—<hi rend="italics">The Standard.</hi></p>
+        <p>They have been well educated, and appear happy, lively, and good tempered.—<hi rend="italics">London Times.</hi></p>
+        <p>The “Two-headed Nightingale” sings popular duets very sweetly and cleverly.—<hi rend="italics">Daily Telegraph.</hi></p>
+        <p>Her care will no doubt be regarded with great interest.—<hi rend="italics">London Daily News.</hi></p>
+        <p>The Carolina Twin, Christine Millie, is the owner of a most valuable brooch, presented to her by H. M. G. Queen Victoria.</p>
+        <p>MILLIE CHRISTINE A ROYAL FAVORITE.—Piccadilly Hall was closed last night, for Millie and Chrissie were commanded to appear at Marlborough House—her third time there.—<hi rend="italics">London Times.</hi></p>
+        <p>
+          <figure id="ill1" entity="milli23">
+            <p>[Announcements of Millie Christine's Popularity]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="musical selections">
+        <pb id="p24" n="24"/>
+        <head>MUSICAL ENTERTAINMENT <lb/> BY <lb/> MILLIE CHRISTINE, <lb/> THE <lb/> TWO-HEADED NIGHTINGALE.</head>
+        <head>
+          <hi rend="italics">Selections from the following, and many other songs, will be sung as Duets <lb/> by Millie Christine, at each reception.</hi>
+        </head>
+        <div2 type="song">
+          <head>O'ER THE WAVES WE FLOAT.</head>
+          <p>
+            <hi rend="italics">Words by J. E. Carpenter.</hi>
+          </p>
+          <p>
+            <hi rend="italics">Music by Stephen Glover</hi>
+          </p>
+          <lg type="song">
+            <lg type="verse">
+              <l>O'er the waves we float, we float,</l>
+              <l>Fairies two, in our fairy boat,</l>
+              <l>Fanned by the breezes, rocked by the tide,</l>
+              <l>In our nautilus barque we glide, we glide.</l>
+              <l>When the strong cordage snaps in the gale,</l>
+              <l>Safe o'er the surges we sail, we sail;</l>
+              <l>In the bright calm we rest on the deep,</l>
+              <l>And, lulled by the zyphyrs, we sleep, we sleep.</l>
+            </lg>
+            <lg type="verse">
+              <l>Cast by the winds from shore to shore,</l>
+              <l>A moment you view us, and then no more.</l>
+              <l>The nautilus shell, by human eyes,</l>
+              <l>Is seen on the waters, that sink and rise,</l>
+              <l>Over the billows away and away;</l>
+              <l>Ours is the freedom that knows no decay.</l>
+              <l>Braving the tempest, and stemming the tide,</l>
+              <l>In safety forever, we glide, we glide.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotations">
+          <q direct="unspecified">
+            <p>“As for Millie Chrissy, the two-headed girl, she is a perfect little gem or gems, or a gem and a half, we don't know which. She sings with one or two voices very sweetly, and in dancing we never saw any one more graceful. We expected to see a monstrosity, but were agreeably disappointed; on the contrary, we found her pleasing in appearance, agreeable in her manners, and endowed with good conversational powers. Great care and attention must have been bestowed upon her education.”—<hi rend="italics">New York Times.</hi></p>
+          </q>
+          <pb id="p25" n="25"/>
+          <q direct="unspecified">
+            <p>“Take the children and go to Odd Fellow's Hall, and see the wonderful two-headed girl combination while you have an opportunity, and you will thank us for the advice.”—<hi rend="italics">Washington Republican.</hi></p>
+          </q>
+        </div2>
+        <div2 type="song">
+          <head>WHIP-POOR-WILL'S SONG.</head>
+          <head>A BALLAD.</head>
+          <p>
+            <hi rend="italics">Composed by H. Millard.</hi>
+          </p>
+          <lg type="song">
+            <lg type="verse">
+              <l>Oh, meet me when daylight is fading,</l>
+              <l>And is darkening into the night,</l>
+              <l>When song-birds are singing their vespers,</l>
+              <l>And the day has far vanished from sight;</l>
+              <l>And then I will tell you, darling,</l>
+              <l>All the love I have cherished so long,</l>
+              <l>If you will but meet me at evening,</l>
+              <l>When you hear the first whip-poor-will's song.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>Oh meet me, oh meet me,</l>
+              <l>When you hear the first whip-poor-will's song.</l>
+            </lg>
+            <lg type="verse">
+              <l>`Tis said that, whatever sweet feelings</l>
+              <l>May be throbbing within a fond heart,</l>
+              <l>When listening to whip-poor-will's singing,</l>
+              <l>For a twelvemonth will never depart;</l>
+              <l>So then we will meet in the woodland,</l>
+              <l>Far away from the hurrying throng,</l>
+              <l>And whisper our love to each other,</l>
+              <l>When we hear the first whip-poor-will's song.</l>
+              <lg type="chorus">
+                <l>
+                  <hi rend="italics">Whip-poor-will, &amp;c.</hi>
+                </l>
+              </lg>
+            </lg>
+            <lg type="verse">
+              <l>And in the long years of the future,</l>
+              <l>Though our duties may part us awhile,</l>
+              <l>And on the return of this evening,</l>
+              <l>We be severed by many a mile;</l>
+              <l>Yet deep in our bosoms we'll cherish</l>
+              <l>The affection, so fervent and strong,</l>
+              <l>We pledge to each other this evening,</l>
+              <l>When we heard the first whip-poor-will's song.</l>
+              <l>
+                <hi rend="italics">Whip-poor-will, &amp;c.</hi>
+              </l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotations">
+          <q direct="unspecified">
+            <p>“There are a lot of people in England, as elsewhere, always ready to strain at the smallest gnat and swallow the biggest camel, who will doubtless put this young lady down as outside the pale of ordinary humanity; if this prejudice should carry any so far as to lead them to avoid her, they alone will be the losers”—<hi rend="italics">Liverpool Leader.</hi></p>
+          </q>
+          <pb id="p26" n="26"/>
+          <q direct="unspecified">
+            <p>“This wonderful exhibition is of the most chaste character, and we can safely recommend it to fathers, mothers, sons and daughters.”—<hi rend="italics">Boston Transcript.</hi></p>
+          </q>
+        </div2>
+        <div2 type="song">
+          <head>PUT ME IN MY LITTLE BED.</head>
+          <p>
+            <hi rend="italics">Words by Dexter Smith.</hi>
+          </p>
+          <p>
+            <hi rend="italics">Music by C. A. White.</hi>
+          </p>
+          <lg type="song">
+            <lg type="verse">
+              <l>Oh, birdie, I am tired now;</l>
+              <l>I do not care to hear you sing;</l>
+              <l>You've sung your happy songs all day,</l>
+              <l>Now put your head beneath your wing.</l>
+              <l>I'm sleepy, too, as I can be;</l>
+              <l>And, sister, when my prayer is said</l>
+              <l>I want to lay me down to root,</l>
+              <l>So put me in my little bed.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>Come, sister, come,</l>
+              <l>Kiss me good-night,</l>
+              <l>For I my evening prayer have said,</l>
+              <l>I'm tired now, and sleepy too,</l>
+              <l>Come put me in my little bed.</l>
+            </lg>
+            <lg type="verse">
+              <l>Oh, sister, what did mother say</l>
+              <l>When she was called to heaven away?</l>
+              <l>She told me always to be good,</l>
+              <l>And never, never, go astray;</l>
+              <l>I can't forget the day she died,</l>
+              <l>She placed her hand upon my head,</l>
+              <l>She whispered softly, “Keep my child,”</l>
+              <l>And then they told me she was dead.</l>
+              <l>Come, sister, come, &amp;c.</l>
+            </lg>
+            <lg type="verse">
+              <l>Dear sister, come and hear my prayer,</l>
+              <l>Now, ere I lay me down to sleep</l>
+              <l>Within my Heavenly Father's care,</l>
+              <l>While angels bright their vigils keep.</l>
+              <l>And let me ask of Him above</l>
+              <l>To keep my soul in paths of right,</l>
+              <l>Oh! let me thank Him for His love,</l>
+              <l>Ere I shall say my last “good-night.”</l>
+              <l>Come, sister, come, &amp;c.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotations">
+          <q direct="unspecified">
+            <p>“Millie Christine dances very gracefully, and appears to have no difficulty in moving about, and in no way differs in appearance from two animated and engaging young mulatto ladies, who, for sport, have agreed to pass an hour tied together nearly back to back”—<hi rend="italics">Liverpool Daily Post.</hi></p>
+          </q>
+          <pb id="p27" n="27"/>
+          <q direct="unspecified">
+            <p>“Each head a said to possess separate intellectual faculties, as entirely different as the brain power of two individuals, and the volitions of the will are independent, but very much in harmony with each other.”—<hi rend="italics">Liverpool Daily Mercury</hi></p>
+          </q>
+        </div2>
+        <div2 type="song">
+          <head>LITTLE FOOTSTEPS.</head>
+          <p>SONG AND CHORUS BY J. A. BARNEY.</p>
+          <lg type="song">
+            <lg type="verse">
+              <l>Little footsteps, soft and gentle,</l>
+              <l>Gliding by our cottage door,</l>
+              <l>How I love to hear their trample,</l>
+              <l>As I heard in days of yore.</l>
+              <l>Tiny feet that traveled lightly</l>
+              <l>In this weary world of woe,</l>
+              <l>Now silent in yonder churchyard,</l>
+              <l>Neath the dismal grave below.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>Little footsteps, soft and gentle,</l>
+              <l>Gliding by our cottage door.</l>
+            </lg>
+            <lg type="verse">
+              <l>She sleeps the sleep that knows no waking,</l>
+              <l>By the golden river's shore;</l>
+              <l>And my heart it yearns with sadness,</l>
+              <l>When I pass that cottage door.</l>
+              <l>Sweetly, now, the angels carol</l>
+              <l>Tidings from our loved one, far,</l>
+              <l>That she still does hover o'er us,</l>
+              <l>And will be our guiding star.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>She sleeps the sleep that knows no waking, etc.</l>
+            </lg>
+            <lg type="verse">
+              <l>Little footsteps now will journey</l>
+              <l>In the world of sin no more;</l>
+              <l>Ne'er they'll press the sandbanks lightly,</l>
+              <l>By the golden river's shore.</l>
+              <l>Mother, weep not; father, grieve not,</l>
+              <l>Try to smooth your trouble o'er.</l>
+              <l>For I'll think of her as sleeping,</l>
+              <l>Not as dead, but gone before.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>Little footsteps now will journey, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotations">
+          <q direct="unspecified">
+            <p>“All the intelligent men who saw her at the Washington Hotel, the other day, can bear witness to the marvelous intelligence which predominates in both brains.”—<hi rend="italics">Liverpool Leader.</hi></p>
+          </q>
+          <q direct="unspecified">
+            <p>“The exceedingly merry and amiable disposition of the mysterious pair deprives the exhibition altogether of that painful element which was present even in the case of those practical philosophers, the Siamese twins.”—<hi rend="italics">Liverpool Daily Post.</hi></p>
+          </q>
+          <pb id="p28" n="28"/>
+          <q direct="unspecified">
+            <p>“As to the young lady herself—for we have surgical authority for saying so—she has bodily only one person, though possessed of two hands, two pairs of shoulders, four arms, and two pairs of legs, amalgamated curiously with one trunk,”—<hi rend="italics">Liverpool Daily Courier.</hi></p>
+          </q>
+        </div2>
+        <div2 type="song">
+          <head>UNDER THE DAISES.</head>
+          <p>A BALLAD, BY H. MILLARD.</p>
+          <lg type="song">
+            <lg type="verse">
+              <l>I've just been learning the lesson of life,</l>
+              <l>The sad, sad lesson of loving,</l>
+              <l>And all of its powers, of pleasure or pain,</l>
+              <l>Been slowly and sadly proving;</l>
+              <l>And all that's left of the bright, bright dream,</l>
+              <l>With its thousand brilliant phases,</l>
+              <l>Is a handful of dust, in a coffin hid,</l>
+              <l>A coffin under the daisies.</l>
+              <l>The beautiful, beautiful daisies,</l>
+              <l>The snowy, snowy daisies.</l>
+            </lg>
+            <lg type="verse">
+              <l>And thus, forever, throughout the wide world</l>
+              <l>Is love a sorrow proving;</l>
+              <l>There are still many sorrowful things in life,</l>
+              <l>But the saddest of all is loving.</l>
+              <l>The life of some is worse than death,</l>
+              <l>For fate a high wall oft raises,</l>
+              <l>And far better with two hearts estranged,</l>
+              <l>Is a low grave starred with daisies.</l>
+              <l>The beautiful, beautiful daisies,</l>
+              <l>The snowy, snowy daisies.</l>
+            </lg>
+            <lg type="verse">
+              <l>And so 'tis better we lived as we did,</l>
+              <l>The summer of love together,</l>
+              <l>And that one of us tired, and laid down to rest,</l>
+              <l>Ere the coming of wintry weather.</l>
+              <l>For the saddest of love is love grown cold,</l>
+              <l>And 'tis one of its surest phases,</l>
+              <l>So I bless my let, though with breaking heart,</l>
+              <l>For that grave enstarred with daisies.</l>
+              <l>The beautiful, beautiful daisies.</l>
+              <l>The snowy, snowy daisies.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotations">
+          <q direct="unspecified">
+            <p>“There was no difficulty made in exhibiting the upper portion of the dorsal connection, and it was done without any infringement of modesty.”—<hi rend="italics">Liverpool Mercury.</hi></p>
+          </q>
+          <q direct="unspecified">
+            <p>“All who met Millie Christine yesterday must have felt interested in her fortune, and well disposed to meet her again.”—<hi rend="italics">Liverpool Daily Post.</hi></p>
+          </q>
+          <pb id="p29" n="29"/>
+          <q direct="unspecified">
+            <p>“The two-headed girl would be a good jurer—she could look at both sides of the case at the same time,”—<hi rend="italics">Cincinnati Enquirer .</hi></p>
+          </q>
+          <q direct="unspecified">
+            <p>“Their reception at the Masonic Temple has been attended by thousands of our best citizens.”—<hi rend="italics">Baltimore American.</hi></p>
+          </q>
+        </div2>
+        <div2 type="song">
+          <head>MOTHER WOULD COMFORT ME.</head>
+          <p>
+            <hi rend="italics">Words and Music by C. C. Sawyer.</hi>
+          </p>
+          <lg type="song">
+            <lg type="verse">
+              <l>Wounded and sorrowful, far from my home,</l>
+              <l>Sick among strangers, uncared for, unknown,</l>
+              <l>Even the birds, that used sweetly to sing,</l>
+              <l>Are silent, and swiftly have taken the wing.</l>
+              <l>No one but mother can cheer me to-day,</l>
+              <l>No one for me could so fervently pray.</l>
+              <l>None to console me, no kind friend is near;</l>
+              <l>Mother would comfort me if she were here.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>Gently her hand o'er my forehead she'd press,</l>
+              <l>Trying to free me from pain and distress;</l>
+              <l>Kindly she'd say to me, “Be of good cheer,</l>
+              <l>Mother will comfort you; mother is here.”</l>
+            </lg>
+            <lg type="verse">
+              <l>If she were with me, I soon would forget</l>
+              <l>My pain and my sorrow; no more would I fret;</l>
+              <l>One kiss from her lips, or one look from her eye,</l>
+              <l>Would make me contented, and willing to die!</l>
+              <l>Gently her hand o'er my forehead she'd press,</l>
+              <l>Trying to free me from pain and distress;</l>
+              <l>Kindly she'd say to me, “Be of good cheer;</l>
+              <l>Mother will comfort you, mother is here!”</l>
+              <lg type="chorus">
+                <l>CHORUS.—Gently her hand, &amp;c.</l>
+              </lg>
+            </lg>
+            <lg type="verse">
+              <l>Cheerfully, faithfully, mother would stay.</l>
+              <l>Always beside me, by night and by day;</l>
+              <l>If I should murmur, or wish to complain,</l>
+              <l>Her gentle voice would soon calm me again.</l>
+              <l>Sweetly a mother's love shines like a star,</l>
+              <l>Brightest in darkness, when daylight's afar;</l>
+              <l>In clouds or in sunshine, pleasure or pain,</l>
+              <l>Mother's affection is ever the same.</l>
+              <l>CHORUS.—Gently her hand, &amp;c.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotation">
+          <q direct="unspecified">
+            <p>“She has you on both sides; if you remove your head from one position, you are immediately the victim of another pair of eyes, which fix you; in fact, transfix you.”—<hi rend="italics">Liverpool Leader.</hi></p>
+          </q>
+        </div2>
+        <div2 type="song">
+          <pb id="p30" n="30"/>
+          <head>WATCHING THE DAYLIGHT FADE.</head>
+          <sp>
+            <speaker>
+              <hi rend="italics">Christine.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> Where shall we wander at evening,</l>
+              <l>Seeking retirement's shade,</l>
+              <l>On its seclusion reposing,</l>
+              <l>Watching the daylight fade?</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Millie.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> Down by the brook we'll wander alone,</l>
+              <l>Naught but the sky above,</l>
+              <l>There, while we hear the breezes moan,</l>
+              <l>We'll sing the songs we love.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Both.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> There will we wander together,</l>
+              <l>Chasing our cares away,</l>
+              <l>Down by the banks of the river,</l>
+              <l>Cheerfully singing our lay.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Millie.</hi>
+            </speaker>
+            <l> Come we alone to seek delight,</l>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Both.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> La, la, la; la, la, la; la, la, la; la, la, la, la;</l>
+              <l>Cheerfully watch the coming of night,</l>
+              <l>La, la, la; la, la, la; la, la, la; la, la, la, la;</l>
+              <l>Come we alone to seek delight, &amp;c.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Both.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> See, the sun is slowly retiring,</l>
+              <l>Evening's dark veil is spreading so fast;</l>
+              <l>See, the stars are faintly peeping,</l>
+              <l>Now the time of day is past.</l>
+            </lg>
+          </sp>
+          <lg type="verse">
+            <l>See, the sun is slowly retiring, &amp;c.</l>
+          </lg>
+          <sp>
+            <speaker>
+              <hi rend="italics">Christine.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> Here will we wander together,</l>
+              <l>Seeking retirement's shade,</l>
+              <l>On its seclusion reposing,</l>
+              <l>Watching the daylight fade.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Millie.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> Here, by the brook, we'll wander alone,</l>
+              <l>Naught but the sky above,</l>
+              <l>Here, while we hear the breezes moan,</l>
+              <l>We'll sing the songs we love.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>
+              <hi rend="italics">Both.</hi>
+            </speaker>
+            <lg type="verse">
+              <l> Here will we wander together,</l>
+              <l>Chasing our cares away,</l>
+              <l>Down by the side of the river,</l>
+              <l>Joyfully singing our lay.</l>
+            </lg>
+          </sp>
+        </div2>
+        <div2 type="song">
+          <head>FROM OUR MERRY SWISS HOME.</head>
+          <lg type="song">
+            <lg type="chorus">
+              <head>DUET.</head>
+              <l>From our merry Swiss home we come, we come;</l>
+              <l>Our hearts are light and free;</l>
+              <l>With a smile we greet every eye we meet,</l>
+              <l>Two merry hearts are we.</l>
+            </lg>
+            <lg type="verse">
+              <l>The live-long day we chant our lay,</l>
+              <l>La, la, la, la, la, la, la, la, la, la, la, la, la;</l>
+              <l>Two merry hearts, two merry hearts,</l>
+              <l>Two merry hearts are we, are we,</l>
+              <l>Two merry hearts are we, are we.</l>
+              <l>Two merry hearts are we.</l>
+            </lg>
+            <pb id="p31" n="31"/>
+            <lg type="verse">
+              <head>SOLO.</head>
+              <l>When the advent of morning appears in the sky,</l>
+              <l>We rise from one peaceful repose,</l>
+              <l>To the valley, the meadow, the mountain we hie,</l>
+              <l>To call each fair flow'ret that grows.</l>
+            </lg>
+            <lg type="chorus">
+              <l>CHORUS.—From our merry, &amp;c.</l>
+            </lg>
+            <lg type="verse">
+              <head>SOLO, SECOND VOICE.</head>
+              <l>Though humble our cot on the mountain may be,</l>
+              <l>A life of contentment we live;</l>
+              <l>We sigh not for wealth, from its cares we are free,</l>
+              <l>For wealth cannot happiness give.</l>
+            </lg>
+            <lg type="chorus">
+              <l>CHORUS.—From our merry, &amp;c.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="song">
+          <head>THE DEAR, DEAR FRIENDS AT HOME.</head>
+          <p>Written and Composed by Professor W. Wilson, expressly for Miss  Millie Christine.</p>
+          <lg type="song">
+            <lg type="verse">
+              <l>What cheers us when we are far away</l>
+              <l>From home and all we love;</l>
+              <l>When storm and danger hedge us round,</l>
+              <l>And all is dark above?</l>
+              <l>When lightnings flash and thunders roar</l>
+              <l>O'er ocean's seething foam?</l>
+              <l>It is the thought that heaven hears</l>
+              <l>The prayers of friends at home.</l>
+            </lg>
+            <lg type="chorus">
+              <head>CHORUS.</head>
+              <l>The dear, dear friends at home,</l>
+              <l>The dear, dear friends at home,</l>
+              <l>Kind heaven will surely hear the prayers</l>
+              <l>Of our dear friends at home.</l>
+              <l>Our father, with his silvery hair,</l>
+              <l>Our mother, kind and fond,</l>
+              <l>Our sisters, and our brothers dear,</l>
+              <l>The same kind thoughts respond.</l>
+              <l>The wind blows fair, our vessel sails</l>
+              <l>Right gaily o'er the foam,</l>
+              <l>And soon again we hope to greet,</l>
+              <l>The dear old friends at home.</l>
+            </lg>
+            <lg type="chorus">
+              <l>CHORUS.—The dear, dear, &amp;c.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="song">
+          <head>WARBLING WATERS.</head>
+          <lg type="song">
+            <lg type="verse">
+              <l>Where the warbling waters flow,</l>
+              <l>And the zephyrs gently blew;</l>
+              <l>Where the warbling waters flow,</l>
+              <l>And the zephyrs gently blow.</l>
+              <l>The fairies dwell; the fairies dwell</l>
+              <l>In grassy dell, in grassy dell,</l>
+              <l>Where the forest flowers grow,</l>
+              <l>And the zephyrs gently blow,</l>
+              <l>Where the forest flowers grow,</l>
+              <l>And the zephyrs gently blow.</l>
+            </lg>
+            <lg type="verse">
+              <l>SOLO, 1st VOICE—And a joyous home is theirs,</l>
+              <l>For it knows not mortal care,</l>
+            </lg>
+            <lg type="verse">
+              <l>SOLO, 2d VOICE—And its only tear</l>
+              <l>Is the dewdrop clear</l>
+              <l>That the bending lily bears.</l>
+            </lg>
+            <pb id="p32" n="32"/>
+            <lg type="verse">
+              <l>DUET—And its only tear is the dewdrop clear</l>
+              <l>That the bending lily bears;</l>
+              <l>And its only tear is the dewdrop clear</l>
+              <l>That the bending lily bears,</l>
+              <l>That the bending lily bears,</l>
+              <l>That the bending lily bears.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <head>STRANGERS YET.</head>
+          <lg type="song">
+            <lg type="verse">
+              <l>Strangers yet, after years of life together,</l>
+              <l>After fair and stormy weather;</l>
+              <l>After travels in far lands; after touch of wedded hands,</l>
+              <l>Why thus joined, why ever met, if they must be strangers yet.</l>
+              <l>Strangers yet, strangers yet.</l>
+            </lg>
+            <lg type="verse">
+              <l>After childhood winning way; after care and blame and praise;</l>
+              <l>Counsel asked and wisdom given—after mutual prayers to heaven;</l>
+              <l>Child and parent scarce regret, when they part are strangers yet.</l>
+              <l>Strangers yet, strangers yet.</l>
+            </lg>
+            <lg type="verse">
+              <l>Will it evermore be thus, spirits still impervious?</l>
+              <l>Shall we never fairly stand, soul to soul, as hand to hand?</l>
+              <l>Are the bounds eternal set, to retain us strangers yet?</l>
+              <l>Strangers yet, strangers yet.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <head>WANDERING IN THE MAY-TIME.</head>
+          <lg type="song">
+            <lg type="verse">
+              <l>Wandering in the May-time, sweet it is to rove,</l>
+              <l>Jus before the hay-time, through the leafy grove;</l>
+              <l>When the grass is bending, wave-like in the breeze,</l>
+              <l>And the white-thorns sending perfumes from the trees,</l>
+              <l>And the white-thorns sending perfumes from the trees.</l>
+            </lg>
+            <lg type="verse">
+              <head>SOLO.—First Voice.</head>
+              <l>Spring she is a maiden, waiting to be wooed,</l>
+              <l>Hiding blossoms laden in her solitude;</l>
+              <l>Coy she is, and meeker than the summer fair,</l>
+              <l>But for those who seek her, gifts she has more rare,</l>
+              <l>But for those who seek her, gifts she has more rare.</l>
+              <l>(Repeat 1st verse.)</l>
+            </lg>
+            <lg type="verse">
+              <head>SOLO.—Second Voice.</head>
+              <l>Yes, her sweets will rifle all her brightest flowers—</l>
+              <l>Of her wealth a trifle, they shall soon be ours;</l>
+              <l>When the birds are singing welcome to the May,</l>
+              <l>When the flowers are springing, we'll be there to-day.</l>
+            </lg>
+            <lg type="verse">
+              <head>DUET.</head>
+              <l>Just, just before the hay-time, birds begin to sing,</l>
+              <l>Wandering in the May-time, welcome to the Spring;</l>
+              <l>Just before the hay-time, sweet it is to rove,</l>
+              <l>Wandering in the May-time, through the leafy grove,</l>
+              <l>Wandering in the May-time, through the leafy grove.</l>
+            </lg>
+            <lg type="verse">
+              <l>Just before the hay-time, sweet it is to rove,</l>
+              <l>Wandering in the May-time, through the leafy grove;</l>
+              <l>Wandering in the May-time, wandering in the May-time,</l>
+              <l>Through, through, through the leafy grove.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="quotation">
+          <q direct="unspecified">
+            <p>Among the millions of human beings inhabiting the globe there is but one two-header. Every one should see her, talk to her, hear her sing and see her dance.</p>
+          </q>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="letter">
+        <pb id="p33" n="33"/>
+        <opener>NASHVILLE, CHATTANOOGA &amp; ST. LOUIS RAILWAY.<lb/>W. L. DANLEY, Gen'l Pass. and Ticket Agent.<dateline><name type="place">Nashville, Tenn., </name><date>Oct. 20, 1892.</date></dateline><salute>CONDUCTORS N., C. &amp; ST. L. RY.:</salute></opener>
+        <p>This is to certify that Manager Smith is authorized to purchase <hi rend="italics">one</hi> ticket good for ten seats Nashville to Atlanta, in connection Millie Christine, the dual woman, this person being included. It is customary to require but one ticket for her passage. Kindly be governed accordingly.</p>
+        <closer>
+          <signed>W. L. DANLEY, G. P. &amp; T. A.</signed>
+        </closer>
+      </div1>
+      <div1 type="letter">
+        <opener>CHICAGO, MILWAUKEE &amp; ST. PAUL RAILWAY CO.<lb/>OFFICE OF DIVISION FREIGHT AND PASSENGER AGENT.<dateline><name type="place">425 PIERCE ST., IOWA SAVINGS BANK BUILDING.<lb/>Sioux City, Iowa, </name><date>Sept. 30, 1895.</date></dateline><salute>TO CONDUCTORS:</salute></opener>
+        <p>It is customary for Millie Christine, the two headed woman, to travel on one ticket. You will please govern yourself accordingly.</p>
+        <closer><salute>Yours truly,</salute>
+<signed>E. W. JORDON, D. P. A.</signed></closer>
+      </div1>
+      <div1 type="letter">
+        <opener>THE PHILADA. &amp; READING RAILROAD CO.<dateline><name type="place">WILKESBARRE, B. STATION, </name><date>Jan. 22, 1893.</date></dateline><salute>TO CONDUCTORS:</salute></opener>
+        <p>It is customary for Millie Christine, the dual woman, to require but one ticket. Please be governed accordingly.</p>
+        <closer>
+          <signed>S. S. CHASE, C. T. A.</signed>
+        </closer>
+      </div1>
+      <div1 type="letter">
+        <opener>OLD DOMINION STEAMSHIP CO.<dateline>S. S. “JAMESTOWN,”<date> Oct. 4, 1897.</date></dateline></opener>
+        <p>The dual woman, Millie Christine, travels on this steamer on one ticket as one person.</p>
+        <closer>
+          <signed>FORD KUISKENE, Purser.</signed>
+        </closer>
+      </div1>
+      <div1 type="letter">
+        <opener>LOUISVILLE &amp; NASHVILLE RAILROAD CO.<lb/>PASSENGER DEPARTMENT,<dateline><name type="place">114 NORTH FOURTH STREET,<lb/>St. Louis, Mo.,</name><date> Feb. 4, 1889.</date></dateline><salute>CONDUCTORS of L. &amp; N. R. R. and connecting lines:</salute></opener>
+        <p>This is to certify that J. P. Smith, Esq., has purchased three (3) tickets St. Louis to Columbia, S. C., in connection with Millie Christine, the dual woman, this person being included. It is customary to require but one ticket for her passage. Kindly be governed accordingly.</p>
+        <closer><salute>Very truly yours,</salute>
+<signed>JOHN W. MASS, D. P. A.</signed></closer>
+      </div1>
+      <div1 type="letter">
+        <opener>CENTRAL RAILROAD AND BANKING COMPANY OF GEORGIA.<lb/>H. M. COMER, Receiver.<dateline><name type="place">Macon, Ga., </name><date>Nov. 3, 1892.</date></dateline><salute>CONDUCTOR NO. 1:</salute></opener>
+        <p>It is customary for Millie Christine, the dual woman, to require but one ticket. Please be governed accordingly.</p>
+        <closer>
+          <signed>J. C. HAILL, G. P. A.</signed>
+        </closer>
+      </div1>
+      <div1 type="letter">
+        <opener>NORTHERN PACIFIC RAILROAD COMPANY.<lb/>THOMAS F. OAKES, HENRY C. PAYNE. HENRY C. ROUSE, Receivers.<lb/>TRAFFIC DEPARTMENT.<lb/>I. A. NADEAU, General Agent.<dateline><name type="place">Seattle, Wash., </name><date>July 28, 1895.</date></dateline><salute>CONDUCTORS:</salute></opener>
+        <p>It is customary for Millie Christine, the dual woman, to require but one ticket. Please govern yourself accordingly.</p>
+        <closer>
+          <signed>I. A. NADEAU. Gen'l Agent.</signed>
+        </closer>
+      </div1>
+      <div1 type="back cover">
+        <pb id="p34" n="34"/>
+        <head>THE WONDERS OF THE WORLD.</head>
+        <lg type="poem">
+          <l>The Pyramids first, which in Egypt are reared;</l>
+          <l>Then Babylon's Gardens and Ramparts appeared:</l>
+          <l>Next Mausola's Tomb of affection and gilt,</l>
+          <l>With the famed Diana in Ephesus built,</l>
+          <l>The Colossus of Rhodes made in brass for the sun,</l>
+          <l>And Jupiter's Statue, by Phidias done.</l>
+          <l>Some the Tower of Pharos place next, we are told,</l>
+          <l>Some the Palace of Cyrus, cemented with gold.</l>
+          <l>Last—but not least—is MILLIE CHRISTINE.</l>
+          <l>The Two-headed Nightingale, alive to be seen.</l>
+          <l>Who will sing, who will dance, who will walk on two feet</l>
+          <l>And delight all beholders whoe'er she may meet.</l>
+        </lg>
+        <p>MISS MILLIE CHRISTINE, <hi rend="italics">the eighth,</hi> has spent nearly eight years in Europe, during which time she visited all the principal towns and cities of England, Russia, Germany, Austria, Hungary, Italy, Belgium, Holland and France, and in all those countries was honored by command from the Royalty to visit them. MISS MILLIE CHRISTINE speaks English, French and German.</p>
+        <p>
+          <figure id="back" entity="millibk">
+            <p>[Back Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

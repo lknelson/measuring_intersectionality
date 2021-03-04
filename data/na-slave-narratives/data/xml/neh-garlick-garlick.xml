@@ -1,0 +1,383 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY garlicv SYSTEM "garlicv.jpg" NDATA jpeg>
+<!ENTITY garlifp SYSTEM "garlifp.jpg" NDATA jpeg>
+<!ENTITY garli4 SYSTEM "garli4.jpg" NDATA jpeg>
+<!ENTITY garlitp SYSTEM "garlitp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Life, Including His Escape and Struggle for Liberty of Charles A. Garlick, Born a Slave in Old Virginia, Who Secured His Freedom by Running Away from His Master's Farm in 1843:</emph>
+Electronic Edition.</title>
+        <author>Garlick, Charles A., b. 1827 </author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Ingrid Pohl</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Elizabeth S. Wright, and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.   50K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Life, Including His Escape and Struggle for Liberty of Charles A. Garlick, Born a Slave in Old Virginia, Who Secured His Freedom by Running Away from His Master's Farm in 1843</title>
+          </titleStmt>
+          <extent>23 p.</extent>
+          <publicationStmt>
+            <pubPlace>[Jefferson, Ohio ]</pubPlace>
+            <publisher>[J.A. Howells  &amp; Co., printers]</publisher>
+            <date>1902.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number   E444.G255 1902   (Northern Illinois University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. 
+The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>This electronic edition has been transcribed from a photocopy supplied by Northern Illinois University Libraries.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- Biography.</item>
+            <item>Fugitive slaves -- Biography.</item>
+            <item>Garlick, Charles A., b. 1827.</item>
+            <item>Slaves -- Virginia -- Biography.</item>
+            <item>Slaves' writings, American.</item>
+            <item>Underground railroad.</item>
+            <item>United States. Fugitive slave law (1850)</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-09-28, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-07-19, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-07-10, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-06-21, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="garlicv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="garlifp">
+            <p>[Frontispiece Image]<lb/>COURT HOUSE</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="garlitp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">LIFE <lb/> INCLUDING HIS ESCAPE AND STRUGGLE <lb/> FOR LIBERTY <lb/>—OF— <lb/> CHARLES A. GARLICK, <lb/> BORN A SLAVE IN <lb/> OLD VIRGINIA, <lb/> WHO SECURED HIS FREEDOM BY RUNNING <lb/> AWAY FROM HIS MASTER'S <lb/> FARM IN 1843.</titlePart>
+        </docTitle>
+        <docImprint>
+          <docDate>1902.</docDate>
+        </docImprint>
+      </titlePage>
+      <pb id="p4" n="4"/>
+      <div1 type="illustration">
+        <p>
+          <figure id="ill1" entity="garli4">
+            <p>[Portrait]</p>
+          </figure>
+        </p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="p5" n="5"/>
+        <head>LIFE OF CHARLES A. GARLICK.</head>
+        <p>I, ABEL BOGGUESS, now CHARLES A. GARLICK, was born near Shinnston, West Virginia, about the middle of February, 1827, on the plantation of Richard Bogguess. My parents were slave laborers on the farm, my mother having charge of the household. Mr. Bogguess was à bachelor owning some three hundred acres of land in Harrison County, and his brother owned five hundred acres adjoining. I had eleven brothers and sisters, nine of whom were living in 1843, when I left the old home for the North and that freedom I so often dreamed of.</p>
+        <p>As will be seen I was then sixteen years old and it was fully forty years after I threw off the yoke of bondage and became a freeman, before I again saw any members of my immediate family, except an elder brother, Rawley Bogguess Johnson, who took his departure from our Virginia home a day or two before I did, and subsequently found a home in Uniontown, Fayette Co., Pa. Rawley married prior to his leaving Virginia, and took his wife and children with him, and later located in Youngstown where his children still live.</p>
+        <p>Richard Bogguess died some four months prior to my leaving home, leaving a will which, it was understood, made his colored people free. The administrator, one George Harter, left the same day I did to visit Fair mount, the county seat, ten miles away, to probate the will. I had little confidence that I would secure the freedom I sought through the provisions of the will, and found subsequently that I was right, for the will was contested.</p>
+        <pb id="p6" n="6"/>
+        <p>It was Saturday when mother, five of the smaller children and myself left the old plantation which had been our home, and traveled northward a distance of fifteen miles, reaching William Heffin, an old neighbor's hospitable home not far from midnight. He took us in and after we had eaten he gave us a loaf of bread. We then left at once for more secure quarters in a dense wood where we found refuge on the summit of a huge rock, which we reached by climbing a moss-covered log or tree trunk leaning against it. There we remained until the following Monday morning, I keeping watch and seeing those who were in pursuit of us return footsore and weary to the plantation. Uncle Elijah Bogguess and Tom McIntyre found our retreat, Sunday night, and coming to us, advised mother to return with the children as the will would probably stand. I was advised to continue my search for freedom, and before dawn I bade my mother and the children goodbye, and started on the long and dangerous trip for that haven where slavery was unknown.</p>
+        <p>The underground railroad was brought into use wherever practicable, there being occasional stations where I was assisted to elude my pursuers and sent ahead when safety was assured. Just one week's time was consumed in reaching Uniontown, where agents of the underground railroad at the ferry in Greensburg instructed me to go. There I lay concealed in the haymow of a zealous friend of my race, who provided me with food until an opportunity offered three days later for me to continue my journey. Just after dark, I mounted a fleet horse, which my host had provided, and under a strong escort I reached the National road. Accompanied by a faithful mounted guard I rode rapidly towards Pittsburg, which I reached the following night. Leaving my friend to return with the horses, I hastened forward on foot some seven miles to the smoky city.</p>
+        <p>J. B. Vashong and Thomas McKeever, father of the late Mrs. Thos. Guy, then kept a regular station on the underground and here I found refuge for three days.
+<pb id="p7" n="7"/>
+He as a gentleman of wealth, and hundreds of my race have cause to bless his memory for the generous aid accorded them in their efforts to find freedom. Samuel Marshall, Butler Co., some fifteen miles away, kept another station and I next journeyed there under his guidance and remained for a week at his house resting. Then I was sent to a relative of his, John Rainbow, at New Castle, where I found refuge at Rev. Bushnell's, who had a brother in Cherry Valley. Next I tramped to Amos Chews. in Brookfield, and the following morning left for Hartford, Trumbull Co., where I found kind friends in the persons of Ralph Plumb and Seth Hayes, merchants, in whose cheese warehouse I worked for two weeks. Learning that some southerners, presumably in search of runaway slaves, were in the vicinity, I left hastily, bringing up at Stod Stevens' store in Gustavus, remained there over night and the following morning left in company with Joseph B. Barber, cattle dealer of Wayne, who turned me over to George Quick, who brought me in a buggy to Alba Coleman, agent underground railroad, at West Andover. Arrived there Saturday night and remained until Monday afternoon. I then left on foot, reaching Anson Kirby Garlick's hospitable home an hour later.</p>
+        <p>After a night with him, I was proposing to continue my journey to Canada when he advised me to remain with him and go to school. In the South I had not attended school two days when the master found it out and forbade my further efforts to secure an education.</p>
+        <p>I remained with Mr. Garlick from 1843 to 1846 attending district school a portion of the time during the winter, working on the place the rest of the time.</p>
+        <p>The first winter I attended school. I was awarded the second prize for the greatest improvement in writing. Miss Sophia Houghton, an elder sister of the late Mrs. Judge Betts, of Jefferson, taking the first prize.</p>
+        <p>On accepting Mr. Garlick's hospitality and home, he addressed me as “Charley” and becoming known as Charley Garlick, I, at my benefactor's suggestion,
+<pb id="p8" n="8"/>
+adopted this the name I have ever since borne. About my first work at my new home was grading the lawn, and here I learned the northern method of driving oxen by the “Haw and Gee” method. In the South cattle are guided with a rope hitched to one horn, and I presume no one ever made a more awakward spectacle than I did during my first efforts with that lively team of young steers. I, however, conquered, and a creditable job was the result. I did so well that I was next put to clearing up several acres of land on the farm now owned by Dwight Carpenter.</p>
+        <p>In '46 Mr. Garlick and myself went East in search of my brother, whom we thought was in Butler County. At Gurdy's Run near Pittsburg we encountered a camp meeting, and here we soon found ourselves in hot water. The impression obtained that Mr. Garlick was a slave holder and was using me as a decoy to obtain possession of my brothers, who were living in the vicinity of Mr. Marshall's. We were both made prisoners, but on Mr. Garlick's producing a paper upon which was the name of Deacon Hubbard, of Ashtabula, a lake terminus of the underground railroad, he was allowed to depart, they escorting him from the camp ground to assure his going. I escaped the same night and made my way to Squire Marshall's where I was delighted to find my brothers. I remained there one year before returning to Ohio.</p>
+        <p>At the close of my year's labor an episode occurred which created great excitement in the vicinity. There was at that time a dozen or more colored men about there who had taken “French leave' of their old masters and were at work for the farmers. One day as I was hitching up the horses after dinner to resume my work, I suddenly discovered a group of horsemen (13) in number, whom I recognized as slaveholders by the broad-brim hats they wore</p>
+        <p>I at once apprised Mr. Marshall, and turning over the team to him started on a run to notify the colored boys of their danger. The cavalcade spurred after me with cries of “stop him,” “stop him,” but I turned into a
+<pb id="p9" n="9"/>
+ravine and eluded them, and gave the alarm which soon brought together a squad of eight persons, two of whom were white. Some had shotguns and others clubs, while the slaveholders were armed with Colts revolvers. When they came  up a parley occurred during which some hot talk ensued, our party ordering the others to leave or take the contents of the guns, as such as they were not wanted in Pennsylvania, nor anywhere else for that matter. They finally left, and as they rode away one of our party fired his gun into the air which greatly hastened the speed of the retiring party, who were not heard of again.</p>
+        <p>Squire Marshall inserted a notice in the papers warning them that, if they came again, they would meet with a warm reception and hospitable graves. This ended the last raid of the slave holding, slave-catching cohorts to that station of the underground railroad.</p>
+        <p>On coming back in 1847 I found that Mr. Garlick had moved to Dorset, where he owned some seven hundred acres of land not far from the center, southwest. I again became a member of his household and engaged in work in the dairy and about the farm. I attempted to attend school but Squire Laribee and F. S. Hollister objected and I returned to the old school at West Andover, working for my board at Jothan Bailey's.</p>
+        <p>In the fall of 1847 I went to Oberlin to attend school on the recommendation of Reverend N. T. Chamberlain, of the West Andover Congregational church which proved of great help to me. I became one of a class of sixty or seventy colored boys in “Liberty Hall” as it was then called. Was prevented from attending a portion of the time by sickness—returned to Mr. Garlick's the following spring by stage via Elyria Cleveland, Painesville. Ashtabula and Jefferson from which point I “footed it” home.</p>
+        <p>The year previous to this I made a visit to my brothers in Pa., who were then living at Squire Marshall's in Allegheny County. I also found ten of my race who had run away from their masters in Hardy Co., West Va., in answer to a letter I had written them.
+<pb id="p10" n="10"/>
+They were all comfortably situated, having obtained work and homes among the free soil farmers in the vicinity of Mr. Marshall's. Many incidents of hardships and danger which they encountered during their journey northward are remembered, among which are the following:</p>
+        <p>On my return from Oberlin, I had for a stage companion, a rabid slaveholder from Texas, who claimed to own three plantations stocked with “niggers” and said he wanted more. We left him at Rocky River where the stage changed horses, and we breathed easier for his absence William Hunt an ex-slave, who was a porter on a river steamer, but who gave his master the slip, was also a passenger on the stage with me from Oberlin.</p>
+        <p>He bought a few acres of land of Mr. Garlick, but not being a success at farming, and fearing the results of the Fugitive slave law, he sold his land back to Garlick and went to Canada. I never heard from him, but this same law caused me to dispose of some land I had purchased.</p>
+        <p>After the death of my benefactor, Mr. Garlick, in 1852, the old home was sold, and I, fearing the Fugitive Slave Law, emigrated to Canada. During the winter I chopped steamboat wood, and in the spring I determined, to return to the states and take my chances.</p>
+        <p>April 5, 1853, I embarked at Amherstburg, then called Fort Malden, on the steamer Cleveland, bound for the city of the same name, then a moderate sized town, but now (1902) the largest city in Ohio. The latter portion of the voyage, which occupied two days, was tempestuous in the extreme. This season the steamer Mayflower made the run from Buffalo to Detroit in eighteen hours, the fastest time on record.</p>
+        <p>Racing on the lakes was great sport in those days. We were unable to make the harbor at Cleveland, and ran ahead to Buffalo returning the next day with a big increase to our passenger list. Among the new passengers were a number of Irish emigrants on their way to the West. On the boat was a property owner
+<pb id="p11" n="11"/>
+of Cleveland, who I now believe to have been the late Leonard Case. In Cleveland I took a train on the Cleveland, Painesville and Ashtabula railroad, then just completed. The year before I rode on the same road which was my first experience with steam or any other kind of cars.</p>
+        <p>On reaching Ashtabula on my return voyage I took the stage with Al Phelps as driver and no man could beat him; and after a short ride we disembarked at Jefferson. I walked down to my old home which I found had been sold to Messrs. Barton and Jenkins, and Mrs. Garlick had become the wife of Aseph Carter, then living on the place on South Chestnut St., now owned by the estate of Judge Woodbury.</p>
+        <p>I found work with T. S. Edwards, a half brother of Mrs. Garlick-Carter. Remained with him much of the time until 1870. Six years before this date I enlisted in Co. G 3rd. U. S. Heavy Artillery, and was on duty at Fort Pickering, at Memphis, Tenn. Remained there until May 27, 1865 when I was discharged and came home at once. Found many things changed during my year's absence at the “front”. Mr. Edwards had disposed of the old farm in Dorset and was engaged in the grocery business on Main St. in Ashtabula, not far from the Fisk House. He gave me a place at his fireside and I remained with him until 1870. He then moved to Austinburg and I came to live with Judge J. A. Giddings, who then occupied the old Giddings house at the corner of Chestnut and Walnut Sts. in Jefferson.</p>
+        <p>Six years later the old family mansion was entirely destroyed by fire, and with it all of my earthly possessions. Since then I have made my headquarters with the Giddings family, and these lines are written in the little office so long occupied by that staunch friend of the colored man, Hon Joshua R. Giddings.</p>
+        <p>Of my immediate family I can only say that since they left the South, they have become widely sep arated. My mother, however, died in 1893 at my sister's Mrs. Leathe Lewis, at Smithfield, Fayette Co., Pa. Mother was then 103 years old. One brother and
+<pb id="p12" n="12"/>
+one sister I never saw again after we parted in Virginia and have no idea where the former disappeared to. I have now living, one sister Leathe (Mrs. Lewis) and two brothers, Oscar D. Bogguess and Richard Bcgguess, who it will be seen still retain the name given them by their Virginia master. They both live in Youngstown, Ohio.</p>
+        <p>Of myself, I can only express gratitude that I have been allowed to live to see the downfall of the accursed institution of human slavery in our glorious country and to see the countrymen of my race, many of them taking such advanced positions in national affairs, to see them given the advantages of schools and colleges and become thus fitted for greater usefulness to them selves and their race.</p>
+        <p>In 1847 I returned to A. K. Garick's in Millsford, now called Dorset, and I was there most of the time until 1852 the year that he died. I then went to live with his brother-in-law, Mr. T. S. Edwards, who lived in the old log house on the plank road in Dorset. He kept the gate awhile and took toll from passengers who went through. Mr. Edwards lived in Dorset until about the year '74 and he then moved to Ashtabula and went into the grocery business with E. R. Williams. After running this business a few years he sold out and bought a farm in Austinburg, which he later sold and went to Michigan when he made himself rich in the lumber business. He has since died and left his three sons all well off.</p>
+        <div2 type="letter">
+          <opener><dateline>WINDSOR, CANADA. <date>APRIL 5, 18<gap reason="illegible" extent="one character"/>3.</date></dateline>
+<salute>MR. HORACE LINDSLEY,</salute></opener>
+          <p>SIR: I take this opportunity afforded me to let you know the success of our journey to this land of liberty for the slave. Our journey from Ashtabula to Cleveland was everything that could be desired, but from there on to Detroit was worse than bad, but not withstanding all this hardship arrayed against us we reach ed Detroit wharf safe and then our next move was to
+<pb id="p13" n="13"/>
+go up to the ferry and cross over to Canada. And we were not very long about it, I assure you.</p>
+          <p>We carried our trunks up to the ferry, and when we got there the ferry was gone to the Canadian side and we stood on the deck until the boat returned, and at that epoch, whom should we behold, but H. Bidds, a friend standing and looking, at our side, ready if necessary to render us any aid that the occasion might require, but fortunately we were well fortified, for the good old Canadian ferry boat was in her place at the proper time without fail, and besides this we looked so much like men of business that we were not suspected of being runaway slaves, and another thing which was favorable to us was, that we arrived there on Sunday and the most expert men-hunters were at church and could not serve God and Mammon both at the same time.</p>
+          <p>George and I have got into business the same day that we arrived here. We are to work for a man who owns a steam mill, for $10 per month now and $12 after a while.</p>
+          <p>The mill is a quarter of a mile from Lake St. Claire, situated on a low spot of ground at the edge of a river. He has about twenty men to work for him at present, and expects to have more soon.</p>
+          <p>I want to know how you are getting along in Ohio, and what has happened since I left that place and all about everybody.</p>
+          <p>I am cooking and I can't get time to write or I should have written before Now I have many thoughts which I wish to express paper, but time will not permit me to do so at present. We have not seen Allen Saunders since we left Ashtabula. If he has come over to Canada he has not got where we are at work yet.</p>
+          <p>I find land very good here and I think dairying would be good business Raising colts would also be profitable. A man can make big money at that business for it would not cost anything but to salt them occasionally during the summer.</p>
+          <closer>
+            <signed>In haste, CHAS A. GARLICK.</signed>
+          </closer>
+        </div2>
+      </div1>
+      <div1 type="text">
+        <pb id="p14" n="14"/>
+        <head>A FORMER SLAVE WRITES OF HIS VISIT TO PIERPONT.</head>
+        <opener>
+          <dateline>JEFFERSON, O., <date>FEBRUARY 11, 1894.</date></dateline>
+        </opener>
+        <p>Having lived in the county of Ashtabula 50 years, I thought it would be a good plan to look over the county, and while out on one of my looking trips a few days since my good luck brought me to the hospitality of the good folks in the township of Pierpont, a town in which I never rested my weary bones before.</p>
+        <p>It is said that a man is never too old to learn, and I believe it, for if I had not taken the trip to Pierpont I surely would not have learned what I know now about the folks that I met during my stay in that town. Meetings were going on in the different churches during my stay which gave it the appearance of a town of good habits. On the night of my arrival, I staid with a gentleman, Mr. Volney Wilson whom I have known from his boyhood days. He looks the picture of health and acts as young as a man of twenty five years. He has a nice young wife who does her part to make life pass off pleasantly during the dull time that we are having in this once prosperous country.</p>
+        <p>Mr. Wilson has a good farm and has some nice boys and girls to help him cultivate the land and grow rich thereon. He is a millman and a good one.</p>
+        <p>For forty years I have been acquainted with H. Morduff, who resides east of the center of Pierpont on a nice small farm, well watered and very productive. He has one of the finest orchard of apple trees on the place that I ever saw. In order to fully satisfy any good man or woman who has former acquaintance with the Morduff family, they want to visit them after a number of years' absence and then they will appreciate seeing them more and can talk over more haps and mishaps than they ever talked before, for they never forget anything in the world.</p>
+        <p>We talked about Mr. A. K. Garlick, who wore the first long whiskers in the county and said that he would not cut them until all of the slaves were freed. I also called at another place during my tour of inspection,
+<pb id="p15" n="15"/>
+which highly gratified me while I was among almost entire strangers.</p>
+        <p>I know that my time is not very much longer among you and I bid you all God speed in all good work.</p>
+        <closer>
+          <signed>
+            <name>C. A. GARLICK.</name>
+          </signed>
+        </closer>
+      </div1>
+      <div1 type="text">
+        <head>FRIENDLY LETTERS.</head>
+        <div2 type="letter">
+          <opener><dateline>STREATOR, ILL., <date>May 23, 1899.</date></dateline>
+<salute>MR. CHAS. A. GARLICK,</salute></opener>
+          <p>DEAR SIR: Upon returning from an absence of ten days from home, I found yours of the 5th, inst., and in reply would say that your letter was a reminder of the days when colored men had to flee from the United States in order to get their freedom.</p>
+          <p>I remember you well and am glad to know that you are working to supply your own wants. It is a great blessing to be able to labor for oneself and not be obliged to hand one's honest earnings to somebody else. With freedom and good health, men both black and white, can in this country snap their fingers at want and defy poverty. Misfortunes that are unavoidable will sometimes come in spite of every effort, but in such cases neighbors acquainted with all the facts, will help the truly unfortunate.</p>
+          <p>Thanking you for remembering me as one who has done something to destroy negro slavery.</p>
+          <closer><salute>I am very truly yours,</salute>
+<signed><name>RALPH PLUMB.</name></signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener><dateline>BUTLER, PENN., <date>Nov. 23, 1900.</date></dateline>
+<salute>CHAS. GARLICK, ESQ.,</salute></opener>
+          <p>MY DEAR SIR: Your letter of the 19th, inst. came to hand on time. To say I was delighted to hear from you wouid be to put it too mildly. I never expected to hear from you again, although I have often thought of and spoken about you.</p>
+          <p>I never will forget the 10th of September, 1847, when you made the great run for brother James down past
+<pb id="p16" n="16"/>
+Mr. Gilliland's to our house and gave the notice that the slaveholders were coming.</p>
+          <p>Joshua Marshall, James son, who was but a few days old then, is an old man now, married and lives on the south end of the old farm. They have no children. James' first wife died, he married a second time, a girl from Crawford Co. She died in 1872 and left four children who lives at Mars and are doing well.</p>
+          <p>James died Jan. 1st. 1873; my sister, Esther, just older than me, died in 1875; she was married and lived in Illinois. My mother died in May, 1876; my oldest sister, Nancy, married to Andrew Barr, died in 1878. She left two boys and girl. The boys are doctors and are doing well. My sisters, Jane and Sarah, are living; the first, a widow, lives in Zelienople; she has two sons, one a minister, the other in the oil business. My brothers David and Thomas live at Mars (Mars is at Parks Mills). Thomas is rich and David is in comfortable circumstances. His wife is dead and a daughter keeps house for him. My youngest brother, Samuel, born in 1848, I suppose you don't remember, died five years ago, well off and left no children. I went to school, studied law and was married in 1859. We had but one child, a daughter who is still at home.</p>
+          <p>I do not practice, the grippe destroyed my eyes so that I cannot see to work at the law. I have a farm about one mile from the court house, of 70 acres, on which we live and are comfortable.</p>
+          <p>My uncle, Mr. G<gap reason="illegible" extent="one character"/>lliland died in 1864, and his wife died about four years ago. Some of the children live on the old place.</p>
+          <p>The Stoolfires and Gillespies are all dead except Mrs. Gillespie, who lives on the old place. There are none of the people you know living now in that section. What year did you leave that section and where did you go? I recollect Sanders; but I had forgotten the name. Thomas Bogguess died within six o seven years.</p>
+          <p>Were you the one that broke jail with him when you escaped from Virginia? I wish you could write me the particulars of your escape with that of the rest of your
+<pb id="p17" n="17"/>
+family. Also, all you can remember about that famous raid of the slaveholders or kidnappers on that September 1847. My friends want me to write a history of the underground railway; and as that was one of the important events, I desire to get all the information I can.</p>
+          <p>Do you recollect John Rohner, a German boy, who lived with us at that time? He died four years ago, a rich banker. But 53 years is a long time and many changes can take place. That country around Mars has been a great oil field and has changed the appearance of everything.</p>
+          <p>I have written about all my eyes will permit to do at once, so I will close. Hoping to hear from you further and soon. I am</p>
+          <closer><salute>Very truly your friend,</salute>
+<signed><name>KENNEDY MARSHALL.</name></signed></closer>
+          <trailer>P. S. How do you get to Jefferson? On what railroad is it and about how far from Warren, Ohio. I may go out next spring. My father died Nov. 1, 1880, aged 81 years K. M.</trailer>
+        </div2>
+        <div2 type="letter">
+          <opener><dateline>123 SOUTH ST., PAINESVILLE, OHIO, <date>July 15, 1899.</date></dateline>
+<salute>MR. C. A. GARLICK,</salute></opener>
+          <p>DEAR FRIEND: Your welcome letter and picture we received with pleasure I think it was very thoughtful of you to remember us with a picture of the “Old House,” and more than that to favor us with your presence with hat in hand standing by the “Old doorway,” but no one to welcome you in, as in days of yore as you well knew you were always welcome. I missed the shrubbery and trees that were once there, and the climbing roses nearly covering the house. But they have all passed away as well as most of the family. But Charley it will not be many years before we shall join them in a higher and better life.</p>
+          <p>How much you must think of the house that was formerly occupied by Mr Coleman. I am so glad you have the photograph. I hope I may see it sometime.
+<pb id="p18" n="18"/>
+I have just finished a letter to Lucia Case. I suppose you saw them when in Andover.</p>
+          <p>Whenever you can make us a visit we shall all be glad to see you. Remember me to all the friends.</p>
+          <closer><salute>Your friends,</salute>
+<signed><name>MR. AND MRS. E. S. KING.</name></signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener>
+            <dateline>MORGANTOWN, MONONGALIA CO., VIRGINIA, <lb/> <date>Oct. 18, 1849.</date></dateline>
+          </opener>
+          <p>DEAR SIR: Yours arrived a few days since. I take this opportunity of making a reply. I have made inquiry of persons who I suppose would be able to give the information you desire. I understand your mother lived with Mr Raymond of Fairmount. Marion Co., Virginia, 18 miles above Morgantown.</p>
+          <p>I am not able to go out now and make inquiry about the rest of your friends as it is very rainy, and as I suppose you are anxious to hear immediately I will forward this at once.</p>
+          <closer><salute>Yours respectfully,</salute>
+<signed><name>SILAS BILLINGS.</name></signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener><dateline><date>AUGUST 27, 1899.</date></dateline>
+<salute>MR. CHAS. GARLICK,</salute></opener>
+          <p>My dear old friend: I have really been very slow in answering your good letters, and too after your sending pictures of the old farm house and yourself, where you and I did such good work. You know I staid home from school two summers and made such fine cheese 12 tons one year, wasn't it, Charley, with your help I made?</p>
+          <p>Our family is nearly all gone, Joseph, Mary. Sherman, Laurence, Smith, Martha and now Eliza is very sick. We know she can't live long. She was pleased with your letter. Now for two weeks she has eaten but little and is getting very weak. Two bad, we shall miss her so much. You must tell the good friends, Jane, Mary, Addison and the Dean girls about dear Eliza. They will be sorry to know.</p>
+          <pb id="p19" n="19"/>
+          <p>My love to them and very kind remembrance to you from both,</p>
+          <closer>
+            <signed>LIB AND ELIZA EDWARDS.</signed>
+          </closer>
+          <trailer>P. S. I am thinking I have not written you since Mr. Loomis died, May 5th last. He was a sufferer for years. At last said he was so tired he was glad the time was near, became weaker and weaker until he died with no demonstration.</trailer>
+        </div2>
+        <div2 type="letter">
+          <opener><dateline>PITTSBURG, PA., <date>Nov. 8, 1900.</date></dateline>
+<salute>MR. CHARLES A. GARLICK,</salute></opener>
+          <p>DEAR SIR: Your letter of November 5th, which was evidently intended for my mother, has been received by me. My father, Thomas M. Marshall, and my mother are both dead but I shall probably be able to put you in communication with the family to whom you wish to write.</p>
+          <p>My uncle, Samuel Marshall, is the person to whom no doubt you refer in your letter. He died many years ago, but his son, Thomas M. Marshall, of Mars Post Office, Butler County, Pa., is still living and may be aple to give you the information you require. Another son of Judge Samuel Marshall, who has a remarkable memory and may be able to recall the matters in which you are interested, is Kennedy Marshall, Esq., attorney-at-law, Butler, Pa.</p>
+          <p>I do not know the James G. Marshall to whom you refer, but if it is the James Marshall who was a son of Judge Samuel Marshall, he died many years ago, but he has some sons living in the neighborhood of Mars Post Office.</p>
+          <p>Hoping you will be able to secure the information you desire, believe me to be,</p>
+          <closer><salute>Very truly yours,</salute>
+<signed><name>THOS. M. MARSHALL, JR.</name></signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener><dateline>HUDSON, O., <date>Dec. 19, 1896.</date></dateline>
+<salute>MR. CHARLES GARLICK,</salute></opener>
+          <p>MY DEAR SIR: From an extensive and interesting account of your life in the Sunday Leader, I see that
+<pb id="p20" n="20"/>
+you are now living in Jefferson, and feel that in memory of old times I must write to you, hoping to also hear from you direct. While in the office of my brother, Dr. A. N. Read, in West Andover, I often saw you there and you will probably remember that I repaired and put in order a revolver for you that some one had given to you for use if you were called for under that infamous fugitive slave law.</p>
+          <p>What a change in the country since that time. Now there can be no fugitive slave laws because there can be no fugitive slaves; because there can be no slaves under our flag. The people of your race are still deeply wronged in some parts of the country and although the conditions change slowly they will continue to change until the wrongs of your people are all righted and every man will be esteemed according to his merits as a man without regard to his race or color.</p>
+          <p>I shall be very glad to have a letter from you and after these long years, nearly 50 of them, to renew our old acquaintance.</p>
+          <closer><salute>Yours very truly,</salute>
+<signed><name>M. C. READ.</name></signed></closer>
+        </div2>
+        <div2 type="letter">
+          <opener><dateline>HARBOR SPRINGS, MICH., <date>Feb. 18, 1902</date></dateline>
+<salute>MR. CHAS. A. GARLICK.</salute>
+<dateline>Jefferson, Ohio.</dateline></opener>
+          <p>MY DEAR FRIEND: Your letter of recent date came to hand this morning and I see by the postmark at Jefferson, and the one here, it was twenty-five hours on the road. It was a great surprise to me to be thus remembered. It takes me back fifty years and brings to my mind's eye many things of the long ago. Of the building of that new house. I well remember how you carried the bricks to the top of the porch and how Joe and I carried them up that steep roof to where Theodore Mills made them into a chimney, and O! how hot it was on that side of the house.</p>
+          <p>It seems now as though it was only yesterday, but it is almost fifty years. How quickly the time flies, as one looks back to youth from the standpoint of age.
+<pb id="p21" n="21"/>
+Things have changed since. You don't have to let down the trap door to shut out slaveholders now as you did then in the old cheese house on the farm. You can go to sleep now with no fear of manhunters in your mind. Blessed changes. Yes, we were younger then, and we are getting old now. I will be fifty-nine, Oct. next and feels myself to be one hundred. I have many aches and pains now that were unknown to me in the long ago, and I presume you have.</p>
+          <p>We have lots of sun here. Have had sleighing since early in December, and expect it to last until April 1st. When sleighing begins here it is sleighing all winter, no change to wheels every little while as in Jefferson. We have not had as cold weather as you have. Only a very few days of zero weather and about five or six below for the coldest so far this winter. One winter it went down to forty-two below for one night but that was very unusual.</p>
+          <p>That nice wagon of mine is only a memory now. It was what I have enjoyed best in a business way, and I have been sorry many times that I gave it up. Our lives are one long line of mistakes and my quitting business was one of mine as I look back.</p>
+          <p>Now I will tell you about our farming. When we bought our farm of 15 acres, it was all woods. We have cleared it, planted one orchard of 200 trees, and an acre of red raspberries, and have some in meadow and pasture and the rest in gardening. We raise onions, beets, carrots, parsnips, vegetables, oysters, lettuce, cucumbers, melons, sage, parsley, asparagus and rhubarb or pie plant. Last year we had 100 bushels of apples, some pears and cherries. We sell our products to the consumer from our wagon, but no such grand affair as I used to sell notions from. I do the selling. Our town had 1643 inhabitants according to the last census, and but few families have gardens. So you see the town affords us a good market.</p>
+          <p>It is not much like the farming we used to do in C V. in our younger days, and it is not as I would like to do, but we have to do as we can. When we came to
+<pb id="p22" n="22"/>
+Michigan our finances were pretty low and have remained about that way ever since. We manage to get a good living for ourselves, wife and I, George and Louise. One son aged 18 and daughter 16 years.</p>
+          <p>Our children are attending school and are in the 8th and 9th grades. Have come up to these grades from the beginning. We have a good graded school, the graduates of which are eligible to an entrance to any college without examinations. Our son graduates next year and our daughter two years later. We intend they shall finish here aud we hope to send them to college. Our boy has not missed a day this school year so far, and our girl only a few on account of illness. When the weather is bad I drive to and from town with them. We are about one and one-fourth miles from the school building, but only one-half mile outside the city limits. Can see the school building from our house, Petosky, a city of four or five thousand, and six miles from us across the bay, Bay View, a summer resort about the same distance also across the bay. The large steamers Northland and Northwest and many other craft, as they go to and from our harbor away on to Lake Michigan, many miles, in fact we have a glorious view from our place now. When we first came here, the only way we could see out was up towards the sky, on account of the thick woods that surrounded us.</p>
+          <p>We have lots of Indians here now, but not so many as when we first came. They are peaceable and quiet as white folks, except when they get filled up with firewater.</p>
+          <p>The first white man came here in 1864, almost 35 years ago and started a mission, but it is only about 30 years since the land was opened up for settlement. Until that time it was an Indian Reservation. Uncle Sam gave every Indian 40 acres of land at that time, but few of whom have any now. Most of them mortgaged their land and spent the money with the saloonkeepers. They mostly work as common laborers now when they are sober. The picture on our letter head is a birds-eye view of Harbor Springs as it appeared
+<pb id="p23" n="23"/>
+ten years ago. It is taken from the bluff north of town and you are looking to the southeast as you see it on this paper.</p>
+          <p>Now then dear friend I would like to have you tell me all you can tell of your birthplace, your early life, prior to your living with us. What chance you had for an education, the year of your birth and all that you think would interest me. Hearing from you has awakened an interest in you, and the old home, that I have not experienced for a long time.</p>
+          <p>Just received a letter from brother Joe. All well with him. Also one from Vi. Bushnell. Please remember us to the Giddings family and others who may be interested, and believe me</p>
+          <closer>
+            <signed>Your friend, <name>J. Q. LINDSLEY.</name></signed>
+          </closer>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

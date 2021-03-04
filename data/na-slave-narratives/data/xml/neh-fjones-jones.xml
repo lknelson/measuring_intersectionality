@@ -1,0 +1,1047 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY jonescv SYSTEM "jonescv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Days of Bondage. Autobiography of Friday Jones. Being a
+ Brief Narrative of His Trials and Tribulations in Slavery: </emph>
+Electronic Edition.</title>
+        <author>Jones, Friday, 1810-1887</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Chris Hill and Katherine Anderson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Image scanned by</resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Bethany Ronnberg  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent> 70K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and 
+personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="cover "> Days of Bondage. Autobiography of Friday Jones. Being a 
+Brief Narrative of His Trials and Tribulations in Slavery.</title>
+            <author>Friday Jones</author>
+          </titleStmt>
+          <extent>18 p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Washington, D. C.</pubPlace>
+            <publisher>Commercial Pub. Co.</publisher>
+            <date>1883</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number     E444 J66 1883 (North Carolina Collection, J. Y. Joyner Library,
+ East Carolina University)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) 
+and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Jones, Friday, 1810-1887.</item>
+            <item>African Americans -- North Carolina -- Biography.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+            <item>African Americans -- Religion.</item>
+            <item>Slavery -- North Carolina -- History -- 19th century.</item>
+            <item>Slaves' writings, American -- North Carolina.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-04-12, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-12-08, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-12-03,</date>
+        <respStmt>
+          <name> Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-11-28, </date>
+        <respStmt>
+          <name>Chris Hill and Katherine Anderson</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cv" entity="jonescv"/>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">DAYS OF BONDAGE.</titlePart>
+          <titlePart type="subtitle">AUTOBIOGRAPHY OF<lb/>
+FRIDAY JONES. 
+<lb/>BEING A BRIEF NARRATIVE OF HIS<lb/>
+TRIALS AND TRIBULATIONS<lb/>
+IN SLAVERY.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>WASHINGTON D. C.</pubPlace>
+<publisher>COMMERCIAL PUB. CO.</publisher>
+<docDate>1883.</docDate></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="chapter">
+        <pb id="jones1" n="1"/>
+        <head>LIFE OF<lb/>
+FRIDAY JONES.</head>
+        <p>
+My first remembrance of my life begins when I was from
+8 to 10 years of age. I was born in North Carolina in 1810, the
+property of Olser Hye, within 15 miles of the capital of the State—
+Raleigh. My mother's name was Cherry and my father's, Barney.
+I was taken away from them when I was small and hired out to Sim
+Alfred, who lived about two miles from where I was born. My
+mother was traded for a tract of land and sent to Alabama. My
+father died about this time. Just at this time I was brought to
+know right from wrong. I was afraid to plough in the corn-field by
+myself—always used to working with a large force of hands before
+that. I promised then and there that if I lived to be a man I would
+get religion. It occurred to me that if I had religion I would not
+be afraid of dying. When I was a boy, whichever way I turned it
+looked as though something was going to catch me. Though I was
+but a small boy I promised that I would not live the life my father
+had lived. I knew my father was a desperate wicked man, would
+get drunk. His associates were all wicked. My poor dear mother, I
+could not say anything about her religion but she taught me how to
+pray before she left me. The morning she left I could not bear to
+shake her hand and bid her good bye. I heard from her. She was the
+mother of eleven [11] children. She left four little ones of us. I was
+the oldest one of the four, being only about 10 years of age myself,
+father dead, and mother gone to the State of Alabama. It has 
+been over 60 years since she left us, and I have never forgotten my 
+mother; have no remembrance of ever having heard from her since.
+I promised God I would seek my soul's salvation when I got to be a
+man, and often refreshed my memory that I had promised Him never to
+live the life of my father. My conscience spoke to me and said I 
+thought you promised never to live the life of your father. You are 
+living the very same life he lived. It startled me and I looked up
+and cast my eyes towards the Heaven. I had to go out and fall on
+my face, and prayed to Almighty God. He held me to my promises
+and pledge until I was a man. You see at once reader how awful it
+is to sin against God. I was a poor ignorant boy. God had <sic corr="enlightened">enlitghtened</sic>
+me at that day and supported me down to this day.
+Young man, young woman, if you have a wicked mother or a wicked
+father do not pursue the course that they do. Better young men
+to let your father go down to destruction than for you both to go.
+<pb id="jones2" n="2"/>
+Better young woman to let your mother go down to destruction than
+to let you both go. Young man if the Lord plants the seed of grace in
+your heart save your father through prayer if possible. Better young
+woman if the Lord plants the seed of grace in your heart to try and save
+your mother through the power of your prayers. The Lord made
+impression on my heart and has since completed the confession
+in my soul. During the dark times of slavery, ignorant as I
+was, He called me, and I have believed on Him ever since. No young
+man or woman has any excuse for sinning against God. If God
+enlightened me at that day and time what ought you to do with
+all the advantages you have now. God requires all at your hands.</p>
+        <p>He requires you to seek Him early while He may be found.
+That was His language to me sixty years ago. Every young man
+and boy, God has His eye fixed on you and is warning you every day.
+Every young woman and girl, God has his eye fixed on you warning
+you every day. Little boys and girls, God has His eye on you.
+He is bringing warning to your ears. He intends that none of you shall
+die with any excuse for not seeking Him. The first text I ever remember
+in my life was about the rich man and Lazarus. When I was a boy I
+didn't know a text. God put it in my heart to believe that text. The
+first minister I ever knew belonged to the Baptist denomination,
+(colored) his name was Stephen Southerlin. The next was
+a white minister belonging to the Methodist denomination
+by the name of David Fowler. Over 60 years since I heard them preach, and
+they were the first I ever heard. God put it in my heart to believe the
+Gospel. His spirit has forever found me. Second text was : “It
+shall be well with the righteous, for they shall receive the works of
+their hands.” The next text was: “They that have pity on the poor
+lendeth to the Lord.” In my fancy God had me to believe in this.
+I say to you young men and young women He is speaking to you
+as He spoke to me. God lets no man live or die with any excuse.
+Not knowing his will, he teaches us, through our forefathers' sins,
+that we are guilty rebels in His sight. I was taught that John said
+prepare Ye, for the kingdom of God is at hand. If God taught us
+in that day and time, how much more does he teach you now, that I
+did not know.</p>
+        <p>If He held me responsible then, <sic corr="does">dose</sic> He not hold you so to-day?
+He is a just God, He deals with all his people alike. He that will
+come shall come. He has made rich promises for us all. Taught me
+from a small boy. He is teaching me to day. I ask you young people
+to remember one thing, do not follow your wicked parents;
+<hi rend="italics">act, act</hi> wise. Go to the Lord while you are young; while you may,
+as when I came to be a man grown, I was not ready then. I made
+many attempts to bow and pray to God, but failed to be in earnest.
+His spirit followed so long I had to give up my work and bow and
+pray. On one occasion I went out and tried to pray to God and raised
+up and felt worse than I did before. I bowed down, the Lord spoke to
+me and said, never can you obtain religion while you continue
+drinking whiskey. This was in 1851. I then ceased to drink, the
+devil got with me, told me it was all imagination and that I
+could take whiskey moderately two or three times a day and
+seek my salvation too. I did not know it was He at that time, but I yielded to
+<pb id="jones3" n="3"/>
+Him. I turned to and drank again as usual. In 1853 I was living in
+the little town of Lamberton, Robertson Co., N.C., near the line of
+South Carolina, when the greatest revival broke out that I had ever
+seen, at a Methodist quarterly meeting, during the months of June
+and July. The people were going up and confessing their religion
+by scores<corr>[.]</corr> God's spirit had been following me until that meeting.
+I thought at that revival I would seek my soul's salvation. At the
+revival, Peter Doubt, from Raleigh, preached a sermon. So
+Martin, of Franklin, preached a sermon. He had formerly been
+a circuit rider, and was now stationed in Lamberton, they said ruin this
+revival and the year 1853 will roll some of you into eternity. You
+may never have another opportunity. Ones' text “Bring my <sic corr="spirit">sipirit</sic> away
+from Ephriham for he is joined to his idols again.” Ones' text
+was, “Go your way, Saul,” says Felix, “and come at a more
+convenient season and I will hear thee,” and during that revival I felt
+that I was a lost man. I had been so; I felt like this before. But at
+this revival I could not feel. I attempted to pray, but could'nt pray.
+I sat then and found out it was all for nothing, it seemed to me the
+whole of the subject seemed for me. I was the guilty man. The
+whole of the argument was that God never let His spirit go back to
+Ephriham again, but left him there and gave him up to be lost and
+damned forever. Felix never saw Paul again to talk with him, and
+that was me; both cases seemed to suit me exactly.</p>
+        <p>On one occasion during the revival I stood up and shed tears
+like a child; I felt my sins and asked God to forgive me and I would
+never sin any more—I thought I was a lost man. I went or for weeks,
+crying and howling to God, going on that I was a lost man.
+This was in 1853. I attempted to pray and could not. I would up
+and go, lie down by a place, get up and try it again; no relief for me
+yet. I would go out during the dark hours of the night, away in a
+lonesome place to pray. I asked God if he had drawn His spirit
+away from me and left me to be damned, to show it to me.
+He manifested that He had not drawn His Holy Spirit from me.
+You could hear me cry aloud, I was so rejoiced that I could be saved.</p>
+        <p>In 1854 I professed religion at my work in the woods. I forget the
+day of the month. In November, 1855, I was baptized ; many sore
+trials from June 1853 to 1855. They attempted to whip me in 1854
+and backed me down but I continued to pray night and day. A 
+company of men hired me that year—gave Dr. Rogers $300 for me
+a year. When they did this, I looked at them wistfully, and when they
+talked of whipping me, I told them to back me down and get their
+shooting works ready and kill or cripple me and pay for me, for I
+did not let Dr. Rogers whip me and would not let anyone else do it.
+I went home to him on or about, the 4th of July, and told him I
+wanted to leave and must leave. He said that it was a good note,
+and for me to and stay the year out, as he did not want to take his
+note in. I answered him and said if he did not want to take his
+note in I was man enough to take care of myself.</p>
+        <p>I went back a few days after the 4th of July, but before this
+time I had professed a hope. I do this to show to men that no devil
+has the power to keep a man from praying if he is in earnest. In
+<pb id="jones4" n="4"/>
+a few days I left them. I had promised I wouldn't stay with them,
+and I wouldn't. They did all manner of evil to me except put their
+hands on me. Day after day, while working there, I was praying to
+God to convert my soul. They <sic corr="destroyed">destroyd</sic> everything of mine they
+could put their hands on. I never worked another hour after
+I went back there—they told me they were going to town to
+hire me out, as I did not want to stay with them. I then went
+that day past Davis', the overseer, and told him farewell—I was gone.</p>
+        <p>I concluded to stay out that year until Christmas; this was in
+July. I staid out for about one mouth, and while out one day, I heard
+a voice say, “go in, go in, there will be no abuse.” I said, yes,
+yes, I will go in; “God was protecting me then.</p>
+        <p>While at the distillery, they destroyed my chickens and pigs,
+and forbid anyone selling me either chickens or shoats, or anything
+else; so one day a voice said , “Christ died for you; can't you give
+up a few dung-hill chickens for Him?” I said, “Yes, yes; he could
+give me more or something more.” Bob Jeffries and Jim Litchfield,
+who were living at Raleigh, N.C., now shot my chickens down.
+Sim Rodgers, who was an M. C. from Raleigh that year, and Bill
+Jeffries, of Franklin Co., N.C., were members of the firm.</p>
+        <p>I walked all that day and nearly all night to get to old Sim Rodgers'
+place, which I approached about sunrise. On one occasion,
+while passing the railroad on my way to see my wife and children
+at Raleigh (I had the luck in 1854 to get a free man in Raleigh to
+hire my wife and three children, Hillyard Evans by name,) I passed
+overseer, section hand, railroad hands, white men and colored together. 
+As I approached them, I cried out to myself, I am a taken
+man to-day; I am surrounded.“ I promised God before I left the
+woods to give the matter into his hands, as I was in a deep cut. I
+could not run back nor climb the walls, so I raised my hatchet and
+said to myself, “If you put your hands on me I will not save one of
+you.” My feet burned and I never I felt in such a fix in so short a
+time, when a voice said to me, “I thought you were going to put
+your trust in God; you are putting it in your hatchet.” I let my
+hand fall and walked right on. God would not let them touch me;
+they spoke very politely to me, although they knew a month before
+that I had run away—the morning I went to see old Sim Rogers. I
+had to go and see him first man. I bowed a dozen times when
+within a mile of his house, to God, asking Him to bless me; I had
+strong faith in God.</p>
+        <p>I got there and got into conversation with him and got my
+breakfast, although not hungry—trouble fills any man. He asked
+me which I would do—go to Raleigh or to Billy Jeffries. I said to
+Billy Jeffries. When we got ready to start he saddled four horses;
+one for himself, one for his little son, one for his servant and one for
+me, and said, “look here, you are not going down there with me;
+you are going to leave me.” I said, “no, I will go with you.” I had
+promised God to follow on. He reached back and draws a rope and
+said he must tie me. I shed tears, as I must either submit to this
+indignity or fight him back. I could have whipped him out, but I did
+<pb id="jones5" n="5"/>
+not intend to resist, as I had promised God to leave it all in His
+hands.</p>
+        <p>We went on down there that day. Of course, they tied me—
+I either had to be tied or to show to God I would not trust Him.
+As we rode on I prayed to Almighty God as I sat upon the horse.
+We had not got very far before they took the ropes all off me. When
+they got down to Bob Jeffries they sent for his father. I looked for
+them to whip me almost to death that day, because they hit between
+four hundred and five hundred licks when they get you fastened. I
+was <sic corr="loathe">loth</sic> to go in the gate. They called me in; the flesh was weak;
+I felt a little uneasy and weak.</p>
+        <p>I was right at the place where I professed religion. I continued
+to pray. They treated me very well that day; not a cross word
+did they give me. 'Twas for my wife and children I gave myself
+up. I trusted in God and knew he would not forsake me. They
+gave me a pass to go back to Raleigh that night; we thus made peace
+that far. They were not satisfied with me—they wanted to punish
+me. Dr. Rodgers had sent word to Raleigh if they got hold of me
+to take care of me for him, but not to hurt me, as I was his property.</p>
+        <p>On Monday morning I met Sim Rodgers, to go to work on the
+railroad. He concluded that we had better go back to town—about
+half a mile. I walked on with him until we got to the Court House,
+when he turned to me and said, “I will have to put you in jail.” I
+promised God to leave the work in his hands and let Him fight it
+and when he got me in jail I said to myself, “You never whipped
+me before, but you will whip me now.” I then waited in jail until
+the parties that hired me brought false charges against me, saying
+that I threatened them. They wanted to whip me, but I would not let
+them do it. While waiting one month in jail and one in the woods, I was
+of no service, doing no work. God's spirit whispered to me while in
+those prison walls, “Put your trust in Me and I will
+carry You through all your difficulties; put your trust in Me.”
+Just see, kind readers all the struggles from March to August. I was a
+happy man even in jail, when he said, “Put your trust in Me.”</p>
+        <p>The parties had me put in jail to be shipped away. I had many
+friends in Raleigh, and my wife and friends came to see me every
+day, when I was allowed to speak with them through the grating,
+and I told them not to be uneasy or troubled, as I was coming out
+in a few days. I might go away, but I would only take a ride on the
+railroad and come back again; that I was going no further than Raleigh.</p>
+        <p>In a few days Calvin J. Rodgers, the agent of my master, came
+down to Raleigh, which was fifteen or sixteen miles off. He turned
+me out and hired me to Mr. Henry Miller, the agent of the North
+Carolina Railroad. I saw Miller's hands and asked them what the
+fare on the railroad was for slaves and to give me all the points. I
+then went to Calvin Rodgers and told him I was not going to Miller's;
+he got cross with me, and I told him to set his price for me a month,
+give me a note and let me pick my own man. He did so, and I got
+<pb id="jones6" n="6"/>
+a white man to do it in less than four-and-twenty hours.</p>
+        <p>In 1854 I hired my wife, children and myself until 1865,
+in Raleigh, and never left them until quite recently. Now, readers,
+when Jeffries said “his niggers, should never raise chickens or have
+any privileges; he never wanted me to eat anything except what he
+gave me; never wanted me to eat a piece of chicken or buy a pound
+of butter, if he could help it,” I said, “that the Lord would give me
+more, or something else, and He did do it.<corr>[”]</corr> Readers, we are not
+to the end of it yet. He has given me more than I ever expected.
+In the course of four years He gave me five horses and two wagons,
+as a free man, or at least, everybody, thought I was. I made out
+splendidly. Now, readers, it just shows how important it is to put
+your trust in God, although things may look dark and gloomy.</p>
+        <p>From my boyhood up to the time I was twenty-one or twenty-two
+years of age, I had hard struggling to get bread and clothes.
+After I was ten years old I knew nothing about going to church. I
+don't say I did not have the shirt, for I didn't have it; down South
+the white man wasn't particular about clothing you. It was warm there
+and the cold could not hurt you. Two pieces, shirt and pantaloons,
+lasted you until the fall and winter; three pieces in winter,
+which you generally got by Christmas. A very few people gave
+woolen clothes—wool was high then.</p>
+        <p>From sixteen to twenty years of age I desired to go to church.
+I kept creeping out, the Lord showing me what to do. I looked
+around at myself. God showed me that I was a young man. I went
+to work night and day and clothed myself. We slaves would rise between
+four and five o'clock in the morning, and never get back to bed
+until nine or ten o'clock that night. Up to that time I refused
+to serve God, and yet He extended His mercy to me.</p>
+        <p>I was a young man, near grown, when the stars fell. I then belonged
+to Col. Tignal Jones, of Wake Co, N.C<corr sic=",">[.]</corr> who had married my young
+mistress, Emily Hye. I  might say that we slaves were
+under a cloud; we could not see clearly what the duty of a man was
+at that time, that is, we could not by law, but through the mysteries
+of God we could.</p>
+        <p>I wanted a wife, so I went to Col. Jones and told him I wanted
+to marry. I had been going to see my girl, three miles from home,
+for three years. 'Twas a pretty hard pill, but mustering up the
+courage I said, “Master, I want to get married.” I told him who
+and where my girl was. He answered quick and short, “If you have a
+wife there, I'll sell you to a trader; I want you to have a wife at
+home, sir, I'll buy you a wife.” When he said this, my reply to him
+was, “Go buy her, sir.” I felt very sad, she had troubled me for
+three long years.</p>
+        <p>There was a man in my neighborhood by the name of Sandy
+Hye, who hired hands as fast as he could get them to send them to
+the gold mines, which was about 200 miles away. I got Hye to hire
+me without saying anything to Col. Jones. I wanted to go; I did
+not want to go to a trader, neither did I intend to have a woman I
+did not want. Rye succeeded in sending me to the gold mines. I
+<pb id="jones7" n="7"/>
+went there and never did a days work, and in three weeks time
+I was back, and wouldn't agree to return any more. That same year I
+was out of Col. Jones' service and I went to my wife's master, Dr.
+Rogers, and told him what I wanted. He and his wife were both
+willing for me to have her, but did not know that Col. Jones was opposed
+to it. That same year, 1834, we went together, like a goose and
+gander—no wedding—and we are together yet as man and wife.
+She has been the mother of eleven children, of which we have
+raised all but two.</p>
+        <p>I had pleasure with my wife and little ones for about four years,
+when my troubles commenced. Col. Jones was a white Southern
+man who believed in parting slaves and sending them where he
+pleased. He had four men—I was the youngest—and he parted all
+of them. I was out of his employ for four years, working for the
+Government of North Carolina, after which I fell back in his hands,
+working on his farm and on the Raleigh &amp; Gaston R. R. He set
+out to part my wife and I, as he had <sic corr="threatened">threathened</sic> to do. I could not
+suit him, I could not get along with him; he was always abusing me
+and <sic corr="threatening">threathening</sic> to sell me; he 
+<sic corr="aggrevated">aggrivated</sic> me and tried my very
+soul. I was raised poor and hard as any slave, but the Lord had elevated
+me and made me feel that I was more of a man. I had all
+the craves for a wife and children, and I feel to day that God gave me
+that woman to take care of her, for fifty-two or fifty-three years tells
+mighty well about us. Col. Jones rebuked me on one occasion—I
+was dressing my wife finer than he was his wife. I answered, him,
+“Master, that is my money; I work for it. If I don't give it to my
+wife and children, what am I to do with it?” The troubles between
+he and I still increased, and on one occasion, when I got home in the
+morning from my wife's house, we met and had words<corr>[.]</corr> I replied,
+“Sir, I love my wife—you love yours; if you don't want me to go to
+see my wife, just send me as far away as you can, by land or water,
+for I am going at the risk of my life.” He jumped and struck at
+me and we had a regular warfare that day. He tried to tie and whip
+me but I would not let him. His wife came crying and begging me
+to submit to my master and to cross my hands and let him whip me,
+just to save his word. I would not submit and they sent off after
+the neighbors—he, his wife and myself were shut up in her bedroom.
+By this time I had got very mad; I was not going to hurt the old
+people, but I caught up a couple of heavy chains and stood up behind
+the door, making up my mind to drop them—knock them down as
+they came in. They sent a messenger, telling them not to come in. God
+was in the midst. They turned me out and we got along very well
+for about a year, when another trouble broke out. He intended to
+sell me because I told him I would never serve him. Whenever
+there were traders in the country, I never felt safe with my wife and
+children.</p>
+        <p>He landed me in jail for sale during this time. My wife's master had a
+friend who was a trader in Raleigh. He sent word to the jail to
+keep quiet; he had a man, a trader, who would buy me and carry me
+back to my wife and children. I staid in jail one month when Col.
+<pb id="jones8" n="8"/>
+Jones' brother-in-law, Dick Smith, of Raleigh, turned me out. The
+next trial he gave me was with Keith &amp; Wooley, of South Carolina, speculators, 
+who were traveling through that section of the country buying 
+up negros. I was always on the lookout when there were any
+speculators in the country. He was trying for three days, unbeknowing
+to me, to trade me off.</p>
+        <p>One Sunday I went down to what is known as Rogers' Crossroads,
+when two traders, came riding along, whom none of us knew.
+There were a good many of us colored men standing together
+and we got a little excited, not knowing who they were. I mistrusted
+something and stepped across the road and bowing to them, called them
+“Master.” I thought it was Mr. Wade and Guy, railroad men
+from off the river, and I asked them if I was right. “Oh  yes!”
+said they, “that's who we are; to whom do you belong?”</p>
+        <p>“To Col. Jones,” says I.</p>
+        <p>“What's your name?”</p>
+        <p>I told them my name was Friday Jones. They were on rather
+spirited horses, and I walked along with him for about half a mile.
+I was then very near my wife's house, where I met little Ben Rogers,
+who said, “How do, Mr. Keith, how do, Mr. Wooley, how do,
+Friday; Mr. Keith, how do you and Mr. Wooley come along buying
+the niggers?” They remained silent and winked at Ben Rogers not
+to say, anything about speculators; so they told it next day, for fear
+I would run away. We parted and I went on.</p>
+        <p>I had not gone more than a hundred yards before I had to stop.
+Sunday night I rested bad—I was troubled. I went on home as
+usual Monday morning and went to my work. I worked until Monday
+evening on Panta Creek, and when night came, I said to an old
+man named Jack, “This is my own axe—I will hide it here;
+if I never come back, give it to my wife and children.” Jack
+was astonished at me: it made him feel bad to have me talk so
+to him. I was satisfied in my mind that there was trouble at hand.</p>
+        <p>We had to go about a mile-and-a-half or two miles to the home
+house, where we stayed all night. When I got home, about seven
+or eight o'clock, I concluded to go down to the same neighborhood
+where I was on Sunday. Just before I started, I heard some one
+call Jack; it was Col. Jones himself.  I answered him and told him
+and said Jack wasn't there. He stepped in with his gun in his hand
+and collared me immediately and said, “You are a soldier, sir.”
+I told him, “No sir, I was not.”  He said “Walk with me, sir.” We
+went on to his house and into his bedroom ; he then called for a
+rope to tie me, which I let him do. He told his wife he had sold
+me to Keith &amp; Wooley, and was to deliver me next day at eleven
+o'clock, at Raleigh, N.C. jail and receive his money. I concluded
+to either let him tie me or whip him out, and it would not do to whip
+him as my wife's master would have got down on me then, and he
+was my friend; so I said to him, “Sir, let me go by and bid my
+wife and children farewell?”</p>
+        <p>“No sir, you shall never go by there again until I send you away.<corr>[”]</corr></p>
+        <pb id="jones9" n="9"/>
+        <p>He was very particular in tying me, saying he was going to tie me
+as tight as an Indian pony. He sent to Panta Creek after his brother
+Frank, who came that night. He said, “Tig, have you sold this nigger?”</p>
+        <p>“Yes, I have sold him and am going to deliver him to-morrow
+at eleven o'clock; I Want you to go with me to carry him.” He then
+retired and gave his brother the rope to hold me, telling him to set with
+me all night.</p>
+        <p>During the night I concluded to make Frank carry me out into
+the yard and try to get away, but before we got back my conscience
+said, “Go back; you are tied fast, and a scuffle to get away would, only
+make it worse for you; you cannot get away.” In the dead hour
+of the night I cut the ropes and got my hands loose and clear,
+when I again asked Frank to go out with me—this was the second
+time. I mistrusted the door was locked. Frank said to his brother, 
+“Tig, give me that key, I want to carry this nigger out doors”</p>
+        <p>“You shall not carry him one step,” Tig answered, so he went back
+and sat down. I was tempted to go anyhow, after being loose, and
+whip them out. I had made up my mind never to let them carry
+me to Raleigh, but my conscience persuaded me to sit until to-morrow,
+or the next morning. The madam got up between four and
+five o'clock, and went out to get breakfast, while the boys were feeding
+the horses. Col. Jones then let his brother lay down and he held
+the end of the rope and I the other—he had not discovered that I
+had cut the rope at that time.</p>
+        <p>When the madam went out she left the door unlocked and open, so
+I watched my chance, and when it came, with one spring I was in
+the yard. Frank, who heard me jump, was the first to notice my
+flight and said to Tig, who was sitting by, “He's gone! he's gone!”
+I had made up my mind I would not go, and I wouldn't. It was a
+cold frosty morning and I run five or six miles barefooted and without
+any hat, to where my wife lived to get my clothes. I cut through
+the plantation and got there before Frank did on the horse, because he
+had to go all the way around the road. Just as I got my clothes and
+got out of the way, he rode up and called for my clothes; my
+wife gave him two old shirts, but he would not take them.</p>
+        <p>It was the custom in the South when we slaves ran away
+to strip us naked and starve us out, and forbid anybody feeding
+or clothing us.</p>
+        <p>In 1856 my, wife and three children were for sale. I was for
+sale also. My two oldest children were sold—we were all the property 
+of Dr. Ben Rogers then. Seven other of his servants were for
+sale, but he refused to sell any of them to a trader, either letting
+them select homes for themselves or he selecting one for them. He
+was pressed for $10,000—his youngest son got into a difficulty and
+he had to give a $10,000 bond. He forged $1,000 on the Wilmington
+N.C., Bank.</p>
+        <p>Jno. O'Neil, of Raleigh, saw my wife and I in <sic corr="Raleigh">Raliegh</sic>, and told
+me to see my master and get him to sell them to him (O'Neil) and
+it would be a home for them for their life-time. See what a lie a
+<pb id="jones10" n="10"/>
+man will tell. A short time after that he sold my wife and youngest
+child for as much as he gave for the four.</p>
+        <p>I became so uneasy and troubled I could not work; I went
+away but I could not stay. I had to come back to Raleigh to watch
+where they sent my wife and children—he had now bought my
+wife and children, and did not ask me any odds. I asked him to sell
+again and let me pick their homes. I was worse troubled then about
+my wife and children than I had ever been before in so short a time.
+I went twenty or thirty miles down the railroad, getting up cord wood,
+and was so troubled I could not work at all. I took the train on one
+occasion and landed at the depot before day. I cut me a big hickory
+stick and concluded if he had sent my wife and child away when I
+got there (there was a ditch between his house and the market house
+where I would lay in wait,) to cut him down below the knees, so that
+he would never be of any more account. We got cross that day and
+he attempted to strike me. I knew there was no show for me, so I
+stood perfectly calm and cool, not even winking my eye.</p>
+        <p>That morning before day, I jumped up and ran into the house,
+and felt the bed; finding my wife and child there, no one call tell how
+joyful I felt. He then said to me that he would sell all of them for
+so much, and he would not take that after sunset. This was some
+time in February—I remember of a heavy snow being on the ground.
+I said to him, “Then, sir, you intend to part myself and family?”
+I stepped out the door, and having no dependence at all that I knew
+of, I raised up my hands and gazing across the street, said, “Lord,
+I have done all that I could, the matter is in your hands; my wife
+and children are gone without your assistance.” In a second thereafter,
+my eyes rested on Joshua James, a Baptist minister, who was
+the editor of the <hi rend="italics">Baptist Recorder</hi>. I went up the steps into his office
+and related the occurrence to him. He immediately came down
+and went over and looked at them; he then turned back and he <sic>and
+he</sic> and I went to O'Neil's and agreed to give him such a price for
+them; it was a trade and O'Neil and I had nothing more to do with
+each other.</p>
+        <p>My troubles made a new beginning with James: my wife and
+James' wife could not agree. For a short time after James bought
+her I did not hire her out, but later on I hired her until the surrender.</p>
+        <p>Some time in 1863 while the war was going on, James moved
+away from Raleigh, up in Caswell Co., N. C. At that time I had
+my wife and three youngest children hired, Mary, Cherry and Katy.
+I had two sons hired out in Raleigh at the same time—I hired them
+from their master, Dr. Rogers. Mary was nearly a young woman;
+I watched over her, knowing James would not hire her to me.
+Mrs. Martin, a very respectable lady, hired her before James left Raleigh.
+I got one of James' friends, who was also my friend, to hire Mary
+for me—I took her away from Mrs. Martin's by paying a big price
+for her. No matter how much they asked for my wife and children,
+I paid it.</p>
+        <p>At this time he had an agent in Raleigh, to whom he wrote,
+<pb id="jones11" n="11"/>
+telling him to put my family on the auction block on the first of January.
+The letter was written about, the middle of December, and in
+it he wrote his agent to see Friday Jones, that he might get someone
+to buy the; if he didn't, to put them on the block and sell
+them for the cash—he wanted no more women and children on his
+plantation. Heavy trouble on poor me again about my wife and children.
+I prayed some and studied some. I hitched up my horse and
+buggy and went to his house, about seventy-five miles away. The
+first day I reached the town of Hillsboro, some forty miles from
+home; the next day I got within three miles of Yanceyville C. H.,
+Caswell Co. I then drove up to his house just at dark. He was not
+expecting me. I had been praying to Almighty God before I left home,
+and I now continued and dictated what I must do and what I
+wanted to do. He (James) was naturally a short, crabbed speaking
+man, his manner was not very pleasant and he was a rough looking
+man, but my wife and children were at stake and I had no fear
+of him—I had God with me.</p>
+        <p>I had left mourning hearts at home on the Friday morning I
+started. He fed me and my horse that night and the next morning
+and treated me very well. He invited me in after supper and I told
+him my story; it was between God, him and myself. We set with
+his wife until near one o'clock, talking of many different things. I
+had to agree with him a great deal in his talk. I told him I could
+not get anyone but a trader to buy my wife and children. My master
+was dead and his estate had to be settled the next fall; his oldest
+children had settled out in Tennessee and would not be in until
+the fall, and he (James) could buy my wife and children if he choose.
+He sat down and made me out a pretty stout letter to Alfred Williams,
+his agent. Before he wrote that letter, I promised him a large
+amount of money for their next year's hire, which he agreed to take.
+I returned home very proud. I strutted to my buggy, feeling that I
+had accomplished so much good.</p>
+        <p>I arrived home that evening, after being away for five days,
+and my wife was a happy woman when I told her I had accomplished
+my aim. My brothers and sisters in Christ had me in their arms
+and were sending up prayers for me.</p>
+        <p>I could not stay away from home contented; I was troubled until
+I got back. Two boys I had hired six or seven years back, had
+grown to be men and were in town when I  returned, and they appeared
+so glad to see me. My oldest daughter, whom I took from a
+trader about a year previous to that Christmas, I had left locked up
+in a house I had rented in Raleigh. I was still a restless man and
+never slept sound for any length of time. To show you readers how
+important it is to trust Almighty God, you will readily see by the way
+I have been tried. All those troubles I put before you; man never
+dictated at all—it was my God and me.</p>
+        <p>In 1853 a trader bought my oldest daughter. Before she was
+sold, Dr. Dozier, her master, attempted to whip her and she refused
+to let him; he imprisoned her in a corn crib, and called Tom Gill,
+one of his slaves, to assist him in whipping her, but she whipped them
+<pb id="jones12" n="12"/>
+both, flung the door open and left. She was then living within seventeen
+or eighteen miles of Raleigh; and she came to see me; she only
+staid in the woods a short time. 'Twas a sad thing to see so likely
+a young woman abused as badly as she was.</p>
+        <p>He then sold her to Perry, who lived about three miles from
+Raleigh; Perry sold her to Leroy Jones, eight miles from Raleigh.
+She came to Raleigh to see me at Christmas. Perry, who owned
+her then, ordered a policeman, unbeknowning to her, to put her in
+jail. The policemen came to my house and tried to make a fuss with
+me by taking her out, so as to arrest her, but I held my peace; they
+struck my children, who were crying, a blow or two, but still I said
+nothing. This occurred at night—Parker, Driver and Beavers were
+the names of the policemen. They carried her to jail that night—
+no sleep, no rest for me.</p>
+        <p>I arose early the next morning and got in the roadway that
+Perry had to travel—I knew what block and what street to wait to
+see him; I asked him what she had been doing.</p>
+        <p>“Nothing,” he replied; she had behaved allright, she was a good
+cook and suited him exactly, but the Yankees were going to take the
+country, and he had to be conscripted and carried into the war. He
+had to sell her because he wanted the money back he paid for her,
+to give to his children. I left a sad family, the oldest daughter being
+snatched from our midst by a merciless trader.</p>
+        <p>The next morning Perry came in person and took her out of
+jail and carried her home. The next day, while standing in the yard,
+she saw a strange party of horsemen coming down the lane; she knew
+Leroy Jones, and attempted to make her escape; poor woman, the
+four men soon out-ran and caught her in the open field. Reader,
+common trouble cannot kill me, but one of my saddest feelings was
+when they told me she was sold to a trader.</p>
+        <p>Her husband, Allen Tate, and his master's overseer got into a
+fight, and Tate had to be sent away to keep the overseer from killing
+him. Her youngest child, a girl, died, leaving her oldest child, Bobby,
+and her sister still in the Dozier family.</p>
+        <p>As you peruse this little book just think what I have suffered
+and endured as a man.</p>
+        <p>Saturday night I went to bed as usual. I had been in the habit
+every night and more especially on Saturday night, of telling my people
+one regular saying, “Get up in the morning and give no trouble
+now; let me have my breakfast soon so that I can go to church and
+have nothing to trouble my mind.” I would go to my morning service
+and have a daughter sing a hymn. On Saturday night I always
+knelt and gave humble thanks to God for sparing me and my family
+through the week. Sunday morning I thanked God for letting me
+see the sun rise, and asked Him to bless me both soul and body
+through the sabbath day.</p>
+        <p>On Sunday night I changed my saying to “ get up early, boys,
+feed my horse and prepare me to take a trip.” I took my horse
+and buggy the next morning after breakfast and travelled about sixteen
+miles. 'Twas a very cold morning during the Christmas season. I
+<pb id="jones13" n="13"/>
+had made up my mind what to do when I heard that Jones had
+bought her. Reader, when you get to this place, just pause and see
+how many of you would have done as I did. I fixed up myself as
+though I was going on a trip to New York—clothes and thick
+blankets in the bottom of my buggy. I passed within half a mile
+of the trader's that day and made a stop a few miles the other side.
+I saw some of my acquaintances and inquired for her; they said she
+was over at Jones' the trader. I told Charley Moore, a young man, to
+go over and see her and to tell her that I was in the neighborhood
+and must see her that night, but she must let no one know. I then
+went seven or eight miles further to my mistress', who was a widow,
+and staid there until after sunset. I had then sixteen miles to go
+before I got to Raleigh—Jones' was about half-way. Dr. Roger's
+wife did not want me to go home that night as it was so very cold.
+I told her I could not stay, as my business was so very important I
+had to be there early in the morning. I told her the reason I came
+up was to know if they were going to make any alteration in the
+hiring of us—my boys and I had to be hired every year. She said
+she would make no change; we were to remain hired as our master
+had hired us. I bowed my head and thanked her. I then shook
+hands with her, Henrietta and Aggie, her cook.</p>
+        <p>Then moon was shining bright as day as I drove off. About
+three or four miles from there, I met Charley Moore.</p>
+        <p>“Did you see her, Charley?” I asked.</p>
+        <p>“Yes, everything is all right.”</p>
+        <p>We did not stand and talk long, as there were a good many deserters
+in the woods at that time.</p>
+        <p>“Farewell, <sic corr="Charley">Charlie</sic>,” I said, “I 
+will never forget you.”</p>
+        <p>I then drove on to within half a mile of Jones' house, where
+there was an old field grown up into a wilderness; about fifty-three
+years before one brother had killed another in this place. I drove
+my horse into a thicket and stopped; I then got out and walked
+down to the house. He had a great many hounds, and it seemed as
+if I would never reach the house for them—they alarmed the woods.
+I went stepping along the ridge-path as easy as I could, she imagined
+the dogs were barking at me and came out. The house set off to
+my right side and hearing the bushes parting and cracking on my
+left, I turned, and saw her in the path in front of me. As she appeared
+in the road I made for her, and throwing my arms around
+her I kissed her; telling her I came for her, and if she suffered I intended
+to suffer with her. She informed me that they put irons on
+her but took them off when they got her home.</p>
+        <p>They had a guard watching her, so she asked me to let her go
+back before they missed her.</p>
+        <p>“Very well,” says I, “but come out after they get still as I
+want to take you to Raleigh to-night in my buggy, which is up in
+Bashford's old place.<corr>[”]</corr> She went back immediately.</p>
+        <p>I waited until a very late hour in the night, but she did not
+come. I heard Jones call and talk to some one at the house, but I
+could not tell what he said. She had not returned yet, so in the dead
+<pb id="jones14" n="14"/>
+of the night I went into the yard, and peeped about in the cracks in
+log cabins, but could not see her. I thought, perhaps, she had dropped
+asleep, as the niggers had been dancing and frolicking all the night
+before, and she did not get any sleep. I saw her nodding, as I
+thought, and not daring to let anyone see me I punched her. The woman
+roused up but dropped to sleep again; I was mistaken—it
+was not her.</p>
+        <p>I thought, of another plan: I knocked at the door and asked for
+such and such a man, who was not there; I went to another house
+and asked for another man; he was not there. I then went around
+to the houses generally—they  were built like a town, and a speculator
+has a good many—and if she had heard me, she would have come
+out. Instead of asking the Lord “was I defeated,” I said, “I am
+defeated; Lord, what shall I do, they have got her locked up in the
+house; I have missed my aim and shall have to go back without
+her.“ Instead of asking the Lord what to do, I dictated to him that
+I would stay until day—I was not going home without her.</p>
+        <p>I walked on towards my buggy and was surprised by meeting
+her; she had come out and missed me but had found her way to my
+buggy in the old field. My soul was lifted up. I was a strong
+man and I took her in my arms back to my buggy, and taking my
+blankets, wrapped her up snug from head to foot.</p>
+        <p>It was now past midnight, I drove to Raleigh but stopped, at a 
+friend's house and warmed her; I did not go a direct route because
+I knew they would follow and take me up.</p>
+        <p>After warming up, I pushed on to Raleigh. I got there just as
+day was breaking in the east and astonished her mother and the rest
+of the children, its they did not know where I went or what I went for.
+They arose early and wanted to know what I was going to do with her<corr>[.]</corr>
+I replied that I was going to keep her for awhile in my stable loft.
+After keeping her there for a short while, I carried her out into the
+country where she staid a month or so, but as she again got restless,
+I had to take my horse and buggy in the dead of the night and
+bring her in and kept in the stable loft.</p>
+        <p>James came in a few days after I got her and asked for her.</p>
+        <p>“Good morning, Uncle Friday,” he first said to me.</p>
+        <p>“Good morning, Mr. Jones.”</p>
+        <p>“Uncle Friday, how is your daughter this morning?”</p>
+        <p>“I don't know, sir, how she is.”</p>
+        <p>“Oh yes, you do; all I blame you for is coming up there and
+bringing her away. Were you not up to your mistress' house on Sunday?”</p>
+        <p>“Yes, sir.”</p>
+        <p>“Did you see Squire George Thompson?”</p>
+        <p>“Yes, sir.”</p>
+        <p>“Did you speak to him?”</p>
+        <p>“I did not, sir.”</p>
+        <p>“The day of your hiring, you bring her up there; if you don't,
+I'll give you a heap of trouble. If you can get anyone to give
+$1,200 for her, I'll take it.</p>
+        <pb id="jones15" n="15"/>
+        <p>I looked for him to come that day to the sale, but he did not. I
+bowed down on my <sic corr="knees">kness</sic>—here's faith—and asked God not to let
+him reach that ground on that day. He was not sick that day and
+it was not more one-half or three quarters of an hours' ride, with
+such fine horses and carriages as he had I went to the hiring
+ground as usual and asked my guardian if he could hire me out without
+putting me on the block; he said “yes.” I asked him what he
+would take for me, and he said $50. Park Overby, a white friend of
+mine, said that he would give it; I was then safe, and Jones could
+not interfere with me. He intended to pay any sort of price for me,
+as he was going to have me at all <sic corr="hazards">hazaads</sic>. Fifty dollars in confederate
+money was nothing—it was God bearing me up.</p>
+        <p>I had two boys to be hired. I hired my buggy and horse and
+brought white men from Raleigh to hire my boys. Jones never had
+a chance to speak to me but once in two years, although he was there
+every other day and sometimes every day in the week. My daughter
+was still with me.</p>
+        <p>Within two miles of Raleigh he <sic corr="attempted">attemped</sic> to shoot me, but I got
+away from him and left my wagon standing in the road—he was allowed
+to carry pistols and shoot, and I wasn't. He tried to hire me
+again but I did not go to the hiring; he was there, though. The
+widow said that no one should hire me to punish me; she would hire
+me herself first.</p>
+        <p>Some of the young men at Rogers' hired me and let me stay at
+Raleigh as usual.</p>
+        <p>Leroy Jones was the speculator and Kinyon Jones owned
+trained blood-hounds; they, with Leru House, went into my stable.
+I stood back and saw them go up the steps into the loft, and break
+the door open. She was in there at the time, but they went in and
+searched, and did not find her.</p>
+        <p>I left her then until the morning Sherman's, army arrived; as
+Kilpatrick's cavalry approached Raleigh, running Wheeler's army out,
+I turned her out. I had kept her within one square of the market
+house for twelve months; in the course of the two years she had been
+very sick—on two occasions her mother had said she could not live; to
+turn her loose in the road and let them take her, for they would ruin
+me. Bless my wife! I will never meet a woman that I will love as
+I love her. I said, “I shall not turn her loose, madam, if she dies I
+intend to bury her.”</p>
+        <p>I had two colored friends in Raleigh—John Flagg and Bob
+Lucas. I intended to go down to the country and tell Mr. Holt that
+there was a refugee here to be buried that evening, and that I
+wanted him to dig the grave and have it ready, and I intended to
+take my horse and wagon, and have John Flagg and Bob Lucas bury
+her, had she died. Old Dr. McKee, of Raleigh, prescribed for my
+family in case of sickness and we got the medicine from him and doctored
+her.</p>
+        <p>During the first year, in June, she professed religion. She is
+now living in Raleigh, a sound and healthy woman.</p>
+        <p>I want to show you, readers, what I had to endure as a man. I
+<pb id="jones16" n="16"/>
+had no education. God smiled upon me and gave me common knowledge.
+I close, dear readers, by showing what a father and husband
+can and will do, with the help of God. Col. Jones and I
+now parted forever. It was about six weeks after this that it occurred
+to me he was going to send me off. There was a family breaking up
+and selling out; his wife's sister and her husband both died and the
+children had come from Alabama to settle the estate. The thought
+suggested itself to me that they were going to swap me for some of
+Herndon's people. As a wicked sinner I asked the question, “how
+do I know he would; nobody ever told me so.” 'Twas a matter between
+my God and I.</p>
+        <p>I was on the watch; he could not make a move that I would
+not find out. Col. Jones and family went up to Herndon, about six or
+or eight miles, to bid them farewell, and stayed away nearly a week,
+leaving me to sow wheat and put up fattening hogs.</p>
+        <p>I could not work, so I went to John Suit, a white neighbor, and
+told him they were going to send me away. He said if it had been
+so he would have heard something of it. I quit working entirely;
+my feelings would not <sic corr="let">left</sic> me exercise<corr>[.]</corr></p>
+        <p>I went down to my wife's house, about or ten miles distant,
+at night, and standing upon a ladder in the house, I said, “wife,
+wife, they don't intend I shall stay in this country with you, so you
+and the children must do the best you can.” I had made up my mind
+to leave and go either in the northern or western free States and live.</p>
+        <p>I went within half a mile right in front of his door. I was going
+to dig my cave right there in the mountain and stay the balance
+of my days. A little stream ran down by the foot of the mountain,
+and I threw the dirt I dug out into the stream. I dug a place so
+large that I could go in and turn all around; I was going to secure
+it by cutting down large trees all around it. I asked the Lord not
+to let me be overtaken in that den.</p>
+        <p>Col. Jones and his family had not got back from the sale, so I
+went down to my wife's house. While there, some one came to the
+door and asked my wife when she had seen Friday. I whispered to
+her not to tell them I was there. They said, “tell him to look out
+for himself, as Jones has sold him to Herndon, and Herndon is going
+to leave for Alabama in a few days.<corr>[”]</corr></p>
+        <p>This was my predicament; he had swapped me for Sam, a slave,
+and his wife. When he got home and found that I had left, he was
+astonished; he had to go out in the neighborhood and get a man to
+take Sam, and he kept his wife to cook.</p>
+        <p>He then went to Jesse Pinny to get him to buy Sam; Pinny refused
+to buy Sam, but said that he would buy me if Jones would sell
+me. They were then some three days, Sunday included, trading for
+me. Pinny said the reason he bought me was that he needed one man
+to help him raise his children; he had seen me working and thought I
+would suit him. He sent for me in the night to meet him
+at his brother Sandy's; I met him and he asked me if I would live
+with him, and I told him I would. He told me to come to his house
+<pb id="jones17" n="17"/>
+on Tuesday morning—this was Sunday night. His house was five 
+miles off.</p>
+        <p>Readers, just notice what I suffered as a man, and yet these
+trials were good for me. Col. Jones made me suffer, in his life-time,
+what few man have suffered. On one occasion, I submitted to let him
+tie and whip me. I asked him if he didn't think be he had whipped me enough.</p>
+        <p>“When I am done with you it will be night,” he replied.</p>
+        <p>I did not know my strength; I flung my foot against the tree
+and broke loose and got away from him and the other white man,
+untied the knot with my teeth. I was tempted to kill him.</p>
+        <p>This was two years before I parted with him for good. There
+was a day when he would take no money for me. The first time he
+ever talked of selling me was when I asked him to let me have a
+wife on Dr. Roger's plantation. He never let me see any peace after
+the first four years.</p>
+        <p><sic corr="Brethren">Bretheren,</sic> what a blessing it is to dwell together in the spirit.
+Beware how you entertain a stranger, for you may entertain an angel.
+Have you forgotten the life we lived when we were slaves? Our
+sufferings were great, and in some places we were not allowed to worship
+God at all. We had to have secret prayer meetings on Saturday
+nights, and some would have to watch for the patrolmen and hard
+task-masters, to keep from being surprised, while the others prayed
+and sung. When the enemy was seen the watch would give the alarm;
+we would then close the meeting and make our escape, in order to
+keep our backs from being slashed and salted down.</p>
+        <p>In Marsh county, N. C., we had a noble speaker by the name of
+Minger Crudemp; he was the slave of a popular Baptist Minister, who,
+although he was a preacher, did not allow his slaves to worship the
+God he praised. This Minger Crudemp would hold prayer-meetings
+every Saturday night that he had a chance in spite of the penalty
+he would have to pay if he was caught; they would run him Saturday
+and Sunday. <sic corr="Brethren">Bretheren</sic>, see how hard it was for us so serve God in
+the days of slavery. In some places they were allowed to praise God,
+but they had to have a white man to watch them. (When I was a
+small boy Bethey Thompson, a religious woman, was whipped by her
+mistress because she would pray and shout through the day.) Oh,
+how hard were the lives we led in those days. It was a common thing
+for slave men and women to run away into the woods to keep their
+masters from whipping them. To day, <sic corr="brethren">bretheren</sic>, we ought to love
+one another and be the best friends and citizens in America. Just
+look at the mercy of God in the midst of all the Presidents during
+slavery; yet we were held in bondage. God reared up Abraham
+Lincoln—one whom the people had not looked for—who used more
+power than any of the men in America. He caused the <sic corr="shackles">shackels</sic> to
+be thrown off the bondmen.</p>
+        <p>There are few of you who have ever thought what it cost to set
+you free—hundreds and thousands of lives were lost; even our greatest
+man, Abraham Lincoln, fell. No other man did the will of God
+as he did; it seemed as if he was intended to liberate us. He arose
+<pb id="jones18" n="18"/>
+and declared that slavery should be <sic>be</sic> abolished. This was power that
+God gave him. His heart failed him, but God pressed  him on. All
+that we can do is to live close to the cross as a race. Life and blood
+was sacrificed for us; our people are gaining on one hand but losing
+on the other. Freedom of speech, to serve God, and to worship under
+our own vine and fig-tree, is ours.</p>
+        <p>Between sixty and seventy years ago the colored people of the
+South were shouting in the fields, when the overseer came and was
+about to whip them and drive them to work, when he was stricken
+down and converted by the power of God; then out came the master,
+and he was also converted. These I relate to show the power of
+God and the salvation of men and their souls.</p>
+        <p>How often have mortals been whipped to death and no one near
+to help or pity them. How horrible for a man to stand and sea his
+wife whipped and her wounds bathed in salt water, and not be able
+to protect her. To-day, some of our race are not doing much better.
+Man and wife, think of the passage in the great book; “Little children,
+love ye one another, as the scripture hath commanded you to do.”</p>
+        <closer><signed>FRIDAY JONES.</signed>
+<dateline>Raleigh, N. C.</dateline></closer>
+        <closer>The author of this book is uncultured and unlearned—can
+neither read nor write.</closer>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

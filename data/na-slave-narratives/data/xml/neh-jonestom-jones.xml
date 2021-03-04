@@ -1,0 +1,1678 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY jonestp SYSTEM "jonestp.jpg" NDATA jpeg>
+<!ENTITY jonescv SYSTEM "jonescv.jpg" NDATA jpeg>
+<!ENTITY jonesfp SYSTEM "jonesfp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Experience and Personal Narrative of Uncle Tom Jones; </emph>
+<emph>Who Was for Forty Years a Slave. </emph><emph>Also the Surprising 
+Adventures of Wild Tom, of the Island Retreat, a Fugitive Negro from South Carolina:</emph>
+Electronic Edition.</title>
+        <author>Thomas Jones</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Aletha Andrew</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Aletha Andrew</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">  Laura Button and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     120K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of availability 
+is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number     E 444 J77   
+(East Carolina University)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl><title>Experience and Personal Narrative of Uncle Tom Jones; 
+Who Was for Forty Years a Slave. Also the Surprising Adventures of Wild Tom, 
+of the Island Retreat, a Fugitive Negro from South Carolina</title>
+<author>Thomas Jones</author><imprint><pubPlace>Boston</pubPlace><publisher>H. B. Skinner</publisher><date>[?]</date></imprint></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The transcribed copy is from the East Carolina University.</p>
+        <p id="note">Pages 41-52 are missing in  the original copy.</p>
+        <p>Any 
+hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ 
+and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines 
+has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using 
+Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st 
+edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Jones, Thomas H.</item>
+            <item>African Americans -- North Carolina -- Biography.</item>
+            <item>African Americans -- North Carolina -- Social conditions.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+            <item>Slaves -- North Carolina -- Social conditions.</item>
+            <item>Slaves -- North Carolina -- Social life and customs.</item>
+            <item>Fugitive slaves -- North Carolina -- Biography.</item>
+            <item>North Carolina -- Social conditions -- 19th century.</item>
+            <item>North Carolina -- Social life and customs -- 19th century.</item>
+            <item>Slavery -- North Carolina -- History -- 19th century.</item>
+            <item>Plantation life -- North Carolina -- History -- 19th centur</item>
+            <item>Slaves' writings, American -- North Carolina.</item>
+            <item>African Americans -- South Carolina -- Fiction.</item>
+            <item>Slaves -- South Carolina -- Fiction.</item>
+            <item>Fugitive slaves -- South Carolina -- Fiction.</item>
+            <item>Slavery -- South Carolina -- Fiction.</item>
+            <item>Plantation life -- South Carolina -- Fiction.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1999-08-31, </date>
+        <respStmt>
+          <name>Celine Noel and Steve Kelley </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-06-16, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project 
+manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-06-10, </date>
+        <respStmt>
+          <name>Laura Button </name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-06-01, </date>
+        <respStmt>
+          <name>Aletha Andrew</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cv" entity="jonescv"/>
+        </p>
+      </div1>
+      <div1 type="frontispiece">
+        <p>
+          <figure id="fp" entity="jonesfp"/>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure entity="jonestp"/>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">EXPERIENCE<lb/>
+AND<lb/>
+PERSONAL NARRATIVE<lb/>
+OF<lb/>
+UNCLE TOM JONES;
+ <lb/>
+WHO WAS FOR FORTY YEARS<lb/>
+A SLAVE.</titlePart>
+          <titlePart type="subtitle">ALSO THE<lb/>
+SURPRISING ADVENTURES<lb/>
+OF<lb/>
+WILD TOM,<lb/>
+OF THE<lb/>
+ISLAND RETREAT.
+ <lb/>
+A FUGITIVE NEGRO FROM SOUTH CAROLINA.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>BOSTON;</pubPlace>
+<publisher>PUBLISHED BY H. B. SKINNER.</publisher>
+<pubPlace>No. 15 FRIEND STREET.</pubPlace></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="narrative">
+        <pb id="tom7" n="7"/>
+        <head>SURPRISING ADVENTURES<lb/>
+OF<lb/>
+UNCLE TOM JONES:<lb/>
+FOR FORTY YEARS A SLAVE.</head>
+        <div2 type="chapter">
+          <p>I was born a slave. My recollections of early life are associated
+with poverty, suffering and shame. I was made to feel, in my
+boyhood's first experience, that I was inferior and degraded,
+and that I must pass through life in a dependent and suffering condition. 
+The experience of forty-three years, which were passed by me in slavery,
+was one of dark fears and darker realities. John Hawes was my first
+master. He lived in Hanover County, N. C., between the Black and
+South Rivers, and was the owner of a large plantation called Hawes'
+Plantation. He had over fifty slaves. I remained with my parents nine
+years. They were both slaves, owned by John Hawes. They had six
+children, Richard, Alexander, Charles, Sarah, myself, and John. I
+remember well that dear old cabin, with its clay floor and mud
+chimney, in which, for nine years, I enjoyed the presence and love of
+my wretched parents.</p>
+          <p>Father and mother tried to make it a happy place for their dear
+children. <hi rend="italics">They</hi>worked late into the night many and many a time to
+get a little simple furniture for their home and the home of their
+children; and they spent many hours of willing
+toil to stop up the chinks between the logs of their poor hut,
+that they and their children might be protected from the storm and
+the cold. I can testify from my own painful experience, to the deep
+and fond affection which the slave cherishes in his heart for his
+home and its dear ones. We have no other tie to link us to the human
+family, but our fervent love for those who are <hi rend="italics">with</hi> us and of us in relations of sympathy and devotedness, in wrongs and
+wretchedness. My dear parents were conscious of the desperate and
+incurable woe of their position and destiny; and the lot of inevitable
+suffering in store for their beloved
+<pb id="tom8" n="8"/>
+children. They talked about our coming misery, and they lifted up
+their voices and wept aloud, as they spoke of our being torn from
+them and sold off to the dreaded slave trader, perhaps never to see
+them or hear from them a word of fond love. I am a father, and have
+had the same feelings of unspeakable anguish, as I have looked
+upon my precious babes, and have thought of the ignorance,
+degradation and woe which they must endure as slaves. The great
+God who knoweth all the secrets of the earth, and He only, knows
+the bitter sorrow I now feel, when I think of my four dear children
+who are slaves, torn from me and consigned to hopeless servitude
+by the iron hand of ruthless wrong. I love those children with all a
+father's fondness.</p>
+          <p>Mr. Hawes was a very severe and cruel master. He kept no
+overseer, and supplied his slaves with but a very scanty allowance
+of food and clothing.</p>
+          <p>During the planting and harvest season, we had to work early
+and late. The men and women were called at three o'clock in the
+morning, and were worked on the plantation until it was dark at
+night. After that they must prepare their food for supper and for the
+breakfast of the next day, and to attend to other duties of their own
+dear homes.</p>
+          <p>In the month of November, and through the winter season, the
+men and women worked in the fields, clearing up the new land,
+chopping and burning bushes, burning tar kilns, and digging 
+ditches. They worked together, poorly clad, and suffering from
+the bitter cold and wet of those winter months. Women, wives
+and mothers, daughters and sisters, on that plantation were
+compelled to toil on cold, stormy days in the open field, while the
+piercing wind and driving storm <sic corr="benumbed">benumed</sic> their limbs, and almost
+froze the tears that came forth out of their cold and desolate hearts.
+Little boys, and girls, too, worked and cried, toting brush to the
+fires, husking the corn, watching the stock, and running out errands
+for master and mistress, for their three sons, Enoch, Edward and
+John, and constantly receiving from them scoldings and beatings as
+their reward.</p>
+          <p>Thus passed nine years of my life; years of suffering, the
+shuddering memory of which is deeply fixed in my heart.</p>
+          <p>These nine years of wretchedness passed, and a change came for me.
+My master sold me to Mr. Jones of Washington, N. C., distant 
+forty-five miles from Hawes' plantation. Mr. Jones sent his slave driver, a
+colored man, named Abraham, to conduct me to my new home in Washington. 
+I was at home with my mother when he came. He looked in at the door, and
+called to me, “Tom, you must go with me.” His looks were
+<pb id="tom9" n="9"/>
+ugly and his voice was savage. I was very much afraid, and began to
+cry, holding on to my mother's clothes and begging her to protect
+me, and not let the man take me away. Mother wept bitterly, and, in
+the midst of her loud sobbings, cried out in broken words, “I can't
+save you, Tommy; master has sold you, you must go.” She threw her
+arms around me, and while the hot tears fell on my face, she strained
+me to her heart. There she held me, sobbing and mourning, till the
+brutal Abraham came in, snatched me away, hurried me out of the house
+where I was born, my only home, and tore me away from the dear
+mother who loved me as no other friend could do. She followed him,
+imploring a moment's delay and weeping aloud, to the road, where he
+turned around, and striking at her with his heavy cowhide, fiercely
+ordered her to stop bawling, and go back into the house.</p>
+          <p>Thus was I snatched from my loving parents, and from the true
+affection of the dear ones of home. For thirteen weary years did my
+heart turn in its yearnings to that precious home. And then at the
+age of twenty-two, I was permitted to revisit my early home. I found
+it all desolate; the family all broken up;  father was sold and gone; 
+Richard, Alexander, Charles, Sarah, and John were sold and gone. 
+Mother prematurely old, heart-broken, utterly desolate, weak and dying, 
+alone remained. I saw her, and wept once more on her bosom. I went back to 
+my chains with a deeper woe in my heart than I had ever felt before. 
+There was but one thought of joy in my wretched <sic corr="consciousness">conscionsness</sic>, and that
+was, that my kind and precious mother would soon be at rest in the
+grave. And then, too, I remember, I mused with deep earnestness on
+death, as the only friend the poor slave had. And I wished that I too,
+might lie down by my mother's side, and die with her in her loving
+embrace.</p>
+          <p>My journey to Washington with the heartless Abraham was
+a very sad one. We walked all the way. He strode along in stern
+gloom and silence, too fast for my young feet to keep pace; and I
+began to feel that I must stop and rest. It was bitter cold, too, and I
+was poorly clad to bear the keen air of a January day. My limbs were
+weary with travel and stiff with cold. I could not go on at the rate I
+had done, and so I turned to my guide, and begged him to take me
+into some hut and let me rest and get warm. He cursed me, and told
+me to keep silence and come along, or he would warm me with the
+cowhide. Oh, I thought how cruel and hopeless my lot! Would that
+I could fall down here and die. And I did fall down. We had just
+passed through a soft, wet place, and it seemed then to me that I was
+frozen. And I fell down on my dark,
+<pb id="tom10" n="10"/>
+cold way, unable to proceed. I was then carried into a slave's cabin,
+and allowed to warm and rest. It was nearly midnight when I arrived
+with my conductor at my place of exile and suffering. And certainly
+no heart could be more entirely wretched than I was when I threw my weary, 
+aching body on my cold, hard bed.</p>
+          <p>The next morning I was called into the presence of Mr. Jones, my
+new master, and my work was assigned to me. I was to take care of
+the horse, sweep the rooms, and to bring wood from the wharf on my
+head for the fires at the house and store, with many other duties.
+From the first dawn of day till ten and eleven, and sometimes twelve
+at night, I could hardly find one moment's time for rest. And, Oh, how
+the memory of that year of constant toil and weariness is imprinted
+on my heart, an impression of appalling sorrow. My dreams are still
+haunted with the agony of that year. I had just been torn from my
+home; my yearning heart was deprived of the sweet sympathy of
+those to whose memory I then clung, and to whom my heart still
+turns with irrepressible and unutterable longings. I was torn from
+them and put into a circle of cold, selfish and cruel hearts, and made
+to perform labors too great for my young strength. And yet I
+lived through that year, just as the slave lives on through weary
+years of suffering, on which no ray or light shines, save that which
+hope of a better, happier future gives even to the desolate bondman;
+but I lived through it, with all its darkness and sorrow. That year I
+received my first whipping. I had failed one day to finish my allotted
+task. It seemed to me that I had done my best; but, somehow, that
+day, thoughts of home came so fresh and tender into my mind, and,
+along with these thoughts, a sense of my utter hopeless desolation
+came in and took such a strong hold of my heart, that I sank down a
+helpless, heart-broken child. My tasks for that day were neglected.
+The next morning my master made me strip off my shirt, and then
+whipped me with the cowhide till the blood ran trickling down upon
+the floor. My master was very profane, and, with dreadful oaths, he
+assured me that there was only one way for me to avoid a repetition
+of this terrible discipline, and that was, to do my tasks every day, sick
+or well.</p>
+          <p>But this year went by, and my duties were changed, and my lot
+was made a little easier. The cook, Fanny, died, and I was put into
+her place. I still had to get wood and keep the fires in the house, and,
+after the work of cooking, setting the table, clearing away and
+washing the dishes, there was always something to be done for my
+mistress. I got but little time to rest; but I got enough to eat, 
+which I had not done the year before.
+<pb id="tom11" n="11"/>
+I was by the comfortable fire, a good part of the cold winter weather,
+instead of being exposed to the cold and wet, without warm clothing,
+as I had been the year before, and my labor was not so hard this year
+as it had been the last.</p>
+          <p>My mistress complained of me at length, that I was not so
+obedient as I ought to be, and so I was taken from the house into the
+store. My business there was to open and sweep out the store in the
+morning, and get all the things ready for the accommodation of
+customers who might come in during the day<sic corr=".">, </sic>Then I had to bring out
+and deliver all heavy articles that might be called for such as salt,
+large quantities of which were sold in the store; ship stores, grain,
+etc., etc. I had also to hold myself ready to run on any errand my
+master or his clerk, David Cogdell, might wish to send me on. While
+Cogdell remained in the store, I enjoyed a <hi rend="italics">gleam</hi> of happiness. He
+was very kind to me, never giving me a cross word or a sour look;
+always ready to show me how to do anything which I did not
+understand, and to perform little acts of kindness to me. But his
+kindness and generosity to the poor slaves was very offensive to my
+master and to other slave-holders; and so, at length, Mr. Jones
+turned him off, though he was compelled to acknowledge, at the same
+time, that he was the most trustworthy and valuable assistant he had
+ever had in his store.</p>
+          <p>After my master dismissed Mr. C., he tried to get along with me
+alone in the store. He kept the books and waited upon the most
+genteel of his customers, leaving me to do the rest of the work. This
+went on six months, when he declared that he could not bear this
+confinement any longer; and so he got a white boy to come and enter
+as clerk, to stay till he was of age. James Dixon was a poor boy, about
+my own age, and when he came into the store, could hardly read or
+write. He was accordingly engaged a part of each day with his books
+and writing. I saw him studying, and asked him to let me see his book.
+When he felt in a good humor, James was very kind and <sic corr="obliging">oblging</sic>. The
+great trouble with him was, that his fits of ill-humor were much more
+frequent than his times of good feeling. It happened, however, that
+he was on good terms with himself when I asked him to show me his
+book, and so he let me take it, and look at it, and he answered very
+kindly many questions which I asked him about books and schools
+and learning. He told me that he was trying to get learning enough to
+fit him to do a good business for himself after he should get through with
+Mr. Jones. He told me that a man who had learning would always find
+friends, and get along very well in the world without having to work
+hard, while those who had no learning would
+<pb id="tom12" n="12"/>
+<sic corr="have">nave</sic> no friends, and be compelled to work very hard for a poor
+living all their days. This was all new to me, and furnished me
+topics for wondering thought for days afterwards. The result of my
+meditations was, that an intense, burning desire to learn to read and
+write took possession of my mind, occupying me wholly in waking
+hours, and stirring up earnest thoughts in my soul even when I slept.
+The question, which then took hold of my whole consciousness was,
+how can I get a book to begin? James told me that, a spelling-book
+was the first one necessary in getting learning. So I contrived how I
+might obtain a spelling-book. At length, after much study, I hit upon this plan:
+I cleaned the boots of Mr. David Smith, Jr., who carried on the
+printing business, in Wilmington, and edited the Cape Fear Recorder.
+He had always appeared to me to be a very kind man. I thought I
+would get him to aid me in procuring a spelling-book.
+So I went one morning, with a beating heart, into his office,
+and asked him to sell me a spelling-book. He looked at me in silence,
+and with close attention, for some time, and asked me what I wanted it
+for? I told him I wanted to learn to read. He shook his head, and
+replied, “No, Thomas; it would not answer for me to sell you a book to
+learn out of; <hi rend="italics">you</hi> will only get yourself into trouble if you attempt it;
+and I advise you to get that foolish notion out of your head as
+quickly as you can.”</p>
+          <p>David's brother, Peter Smith, kept a book and stationary store
+under the printing-office, and I next applied to him for a book,
+determined to persevere till I obtained this coveted treasure. He asked
+me the same question that his brother David had done, and with the
+same searching, suspicious look. By my previous repulse I had
+discovered that I could not get a spelling-book, if
+I told what I wanted to do with it, and so I told a lie, in order to get it.
+I answered, that I wanted it for a white boy, naming one that lived at
+my master's, and that he had given me the money to get it with, and
+had asked me to call at the store and buy it. The book was then
+handed out to me, the money taken in return, and I left, feeling very
+rich with my long desired treasure. I got out of the store, and, looking
+round to see that no one observed me, I hid my book in my bosom,
+and hurried on to my work, <sic corr="conscious">consicous</sic> that a new era in my life was
+opening upon me through the possession of this book. That
+consciousness at once awakened new thoughts, purposes and hopes,
+a new life, and <sic>aot</sic>, in my experience. My mind was excited. The
+words spoken by James Dixon of the great advantages of learning,
+made me intensely anxious to learn. I was a slave, and I knew that the
+whole community was in league to keep the poor slave
+in ignorance and chains. Yet I longed to be free, and to be
+<pb id="tom13" n="13"/>
+able to move the minds, of other men by my thoughts. It seemed
+to me now, that, if I could learn to read and write, this learning might  —  
+nay, I really thought it would, point out to me the
+way to freedom, influence, and real, secure happiness. So, I
+hurried on to my master's store, and, watching my opportunity
+to do it, safe from curious eyes, I hid my book with the utmost
+care, under some liquor barrels in the smokehouse. The first
+opportunity I improved to examine it. I looked it over with the
+most intense eagerness, turned over its leaves, and tried to discover 
+what the new and strange <sic corr="characters">chracters</sic> which I saw in its
+pages might mean. But I found it a vain endeavor. I could
+understand a picture, and from it make out a story of immediate 
+interest to my mind. But I could not associate any thought
+or fact with these crooked letters with which my <sic corr="primer">primmer</sic> was
+filled. So the next day I sought a favorable moment, and asked
+James to tell me where a scholar must begin in order to learn
+to read, and how. He laughed at my Ignorance, and, taking
+his spelling-book, showed me the alphabet in large and small letters on
+the same page. I asked him the name of the first letter, pointing it out,
+he told me A; so of the next, and so on through the alphabet. I
+managed to remember A and B, and I studied and looked out the same
+letters in many other parts of the book. And so I fixed in a tenacious
+memory the names of the two first letters of the alphabet. But I found
+I could not get on without help, and so I applied to James again to
+show me the letters and tell me their names. This time he suspected me
+of trying to learn to read myself, and he plied me with questions till
+he ascertained that I was, in good earnest, entering upon an effort to
+get knowledge. At this discovery, he manifested a good deal of
+indignation. He told me, in scorn, that it was not for such as <hi rend="italics">me</hi> to try
+to improve, that I was a <hi rend="italics">slave</hi>, and that it was not proper for <hi rend="italics">me</hi> to
+learn to read. He threatened to tell my master, and at length, by his
+hard language, my anger was fully aroused, and I answered taunt
+with taunt. He called me a poor, miserable nigger; and I called him a
+poor, ignorant servant boy. While we were engaged in loud and angry words,
+of mutual defiance and scorn, my master came into the store.
+Mr. Jones had never given me a whipping since the time I have
+already described, during my first year of toil, want and suffering in his 
+service. But he had now caught me in the unpardonable offence of giving 
+saucy language to a white boy, and one, too, who was in his employ. 
+Without stopping to make any inquiries, he took down the cow-hide, 
+and gave me a severe whipping. He told me never to talk back to a white man on
+pain of flogging. I suppose this law or custom is universal at
+<pb id="tom14" n="14"/>
+the south. And I suppose it is thought necessary to enforce <sic corr="this">ths</sic>
+habit of obsequious submission on the parts of the colored people to
+the whites, in order to maintain their supremacy over the poor, outraged slaves.</p>
+          <p>I will mention, in this connection, as illustrative of this cruel
+custom, an incident which I saw just before I ran away from my
+chains. A little colored boy was carrying along through
+Wilmington a basket of food. His name was Ben, and he belonged
+to Mrs. Runkin, a widow lady. A little mischievous white boy, just
+about Ben's age and size, met him, and purposely overturned the little
+fellow's basket, and scattered his load in the mud. Ben, in return for
+this wanton act called him some hard name, when the white boy
+clinched him to throw him down with the scattered fragments upon
+his basket in the mud. Ben resisted and threw down the white boy,
+proving to be the stronger of the two. Tom Myers, a young lawyer of
+Wilmington, saw the contest, and immediately rushing out, seized
+little Ben, and dragged him into the store opposite the place of battle.
+He sent out to a saddler's shop, procured a cow-hide, and gave the
+little fellow a tremendous flogging, for the daring crime of resisting a
+white boy who had wantonly invaded his rights. Is it any wonder that
+the spirit of self-respect of the poor, ignorant slave is broken down by
+such treatment of unsparing and persevering cruelty?</p>
+          <p>I was now repulsed by James, so that I could hope for no assistance 
+from him in learning to read. But I could not go on alone. I
+must get some one to aid me in starting, or give up the effort to learn.
+This I could not bear to do. I thought of a little boy, Hiram Bricket, ten
+years old, or about that age, who came along by the store one day,
+on his way home from school, while my master was gone home to
+dinner, and James was in the front part of the store. I beckoned to
+Hiram to come round to the back door; and with him I made a
+bargain to meet me each day at noon, when I was allowed a little while
+to get my dinner, and to give me instruction in reading. I was to give
+him six cents a week. I met him the next day at his father's
+stable, the place agreed upon for our daily meeting; and, going
+into one of the stables, the noble little fellow gave me a thorough
+lesson in the alphabet. I learned it nearly all at that time, with what
+study I could give it by stealth during the day and night. And then again
+I felt lifted up and happy.</p>
+          <p>I was permitted to enjoy these advantages, however, but a short
+time. A black boy, belonging to Hiram's father, one day discovered
+our meeting and what we were doing. He told his master of it, and
+Hiram was at once forbidden this employment.
+<pb id="tom15" n="15"/>
+I had then got along so that I was reading and spelling in words of
+two syllables.</p>
+          <p>After I was deprived of my kind little teacher, I plodded on the
+best way I could by myself, and in this way I got into words of five
+syllables. I got some little time to study by daylight in the morning,
+before any of my master's family had risen. I got a moment's
+opportunity also at noon, and sometimes at night. During the day I
+was in the back store a good deal, and whenever I thought I could
+have a few minutes to myself, I would take my book and try to
+learn a little in reading and spelling. If I heard James, or master Jones,
+or any customer coming in, I would drop my book among the barrels,
+and pretended to be very busy <sic corr="shoveling">shovelling</sic> the salt or doing some
+other work. Several times I came very near being detected. My
+master suspected something, because I was so still in the back room,
+and a number of times he came very slyly to see what I was about.
+But at such times I was always so fortunate as to hear his tread or to
+see his shadow on the wall in time to hide away my book.</p>
+          <p>When I had got along to words of five syllables, I went to see a
+free colored friend, Ned Cowen, whom I knew I could trust, and told
+him that I was trying to learn to read, and asked him to help me a
+little. He told me I had got along far enough to get another book, in
+which I could learn to write the letters, as well as to read. He told me
+where and how to procure this book. I followed his directions, and
+obtained another spelling book at Worcester's store in Wilmington.
+Jacob showed me a little about writing. He set me a copy, first of
+straight marks. I now got me a box, which I could hide under my bed,
+some ink, pens, and a bit of candle. So, when I went to bed, I pulled
+my box out from under my cot, turned it up on end, and began my
+first attempt at writing. I worked away till my candle was burned out,
+and then lay down to sleep. Jacob next set me a copy, which he
+called pot-hooks; then, the letters of the alphabet. These letters were
+also in my new spelling-book, and according to Jacob's directions, I
+set them before me for a copy, and wrote on these exercises till I
+could form all the letters and call them by name. One evening, I wrote
+out my name in large letters, — THOMAS JONES. This I carried to
+Jacob, in a great excitement of happiness, and he warmly commended me for my
+perseverance and <sic corr="diligence">dilligence</sic>.</p>
+          <p>About this time, I was at the store early one morning, and thinking
+I was safe from all danger for a few minutes, had seated myself in the
+back store, on one of the barrels, to study in my precious spelling-book. 
+While I was absorbed in this happy
+<pb id="tom16" n="16"/>
+enterprise, my master came in, much earlier than usual, and I did not
+hear him. He came directly into the back store. I saw his shadow on the
+wall, just in time to throw my book over in among the barrels, before he
+could see what it was, although he saw that I had thrown something quickly
+away. His suspicion was aroused. He said that I had been stealing something
+out of the store, and he fiercely ordered me to get what I threw away just as he
+was coming in at the door. Without a moment's hesitation, I determined to
+save my precious book and my future opportunities to learn out of it. I
+knew if my book was discovered, that all was lost, and I felt prepared for
+any hazard or suffering rather than give up my book and my hopes of
+improvement. So I replied at once to his question, that I had not thrown
+anything away; that I had not stolen anything from the store; that I did not
+have anything in my hands which I could throw away when he came in. My master declared, in high passion, that I was lying, and ordered me to begin and
+roll away the barrels. This I did; but managed to keep the
+book slipping along so that he could not see it, as he stood in the
+door-way. He charged me again with stealing and throwing
+something away, and I again denied the charge. In a great
+rage, he then got down his long, heavy cow-hide, and ordered
+me to strip off my jacket and shirt, saying, with an oath, “I
+will make you tell me what it was you had when I came in.” I
+stripped myself, and came forward, according to his directions,
+the same time denying his charge with great earnestness of
+tone, and look, and manner. He cut me on my naked back,
+perhaps thirty times, with great severity, making the blood flow
+freely. He then stopped, and asked me what I had thrown
+away as he came in. I answered again that I had thrown nothing
+away. He swore terribly; said he was certain I was lying, 
+and declared that he would kill me, if I did not tell him the
+truth. He whipped me the second time with greater severity,
+and at greater length than before. He then repeated his question, 
+and I answered again as before. I was determined to die,
+if I could possibly bear the pain, rather than give up my dear
+book. He whipped me the third time, with the same result as
+before, and then, seizing hold of my shoulders, turned me round,
+as though he would inflict on my quivering flesh still another scourging; but
+he saw the deep gashes he had already made, and the blood already flowing
+under his cruel infliction; and his stern purpose failed him. He said, 
+“Why, Tom, I <sic corr="didn't">din't</sic> think I had cut you so bad,” and, saying that, he stopped,
+and told me to put on my shirt again. I did as he bade me, although my
+coarse shirt touching my raw back put me to a cruel pain. He
+<pb id="tom17" n="17"/>
+then went out, and I got my book and hid it safely away before he
+came in again. When I went to the house, my wounds had dried and
+I was in an agony of pain. My mistress told the servant girl, Rachel, to
+help me off with my shirt, and to wash my wounds for me, and to put
+on to them some sweet oil. The shirt was dried to my back, so that it
+could not be got off without tearing off some of the skin with it. The
+pain, upon doing this, was greater even than I had endured from my
+cruel whipping. After Rachel had got my shirt off, my mistress asked
+me what I had done for which my master had whipped me so severely.
+I told her he had accused me of stealing when I had not, and then had
+whipped me to make me own it.</p>
+          <p>While Rachel was putting on the sweet oil, my master came in, and
+I could hear mistress scolding him for giving me such an inhuman
+beating, when I had done nothing. He said in reply, that Tom was an
+obstinate liar, and that was the reason why he had whipped me.</p>
+          <p>But I got well of my mangled back, and my book was as still
+left. This was my best, my constant friend. With great eagerness, 
+I snatched every moment I could get, morning, noon, and
+night, for study. I had begun to read; and, Oh, how I loved
+to study, and to dwell on the thoughts which I gained from
+my reading. About this time, I read a piece in my book about God. It
+said that “God, who sees and knows all our thoughts, loves the
+good and makes them happy; while he is angry with the bad, and will
+punish them for all their sins.” This made me feel very <sic corr="unhappy">unhapdy</sic>,
+because I was sure that I was not good in the sight of God. I
+thought about this, and couldn't get it out of my mind a single hour.
+So I went to James Galley, a colored man, who exhorted the slaves
+sometimes on Sunday, and told him my trouble, asking, “what shall I
+do?” He told me about Jesus, and told me I must pray the Lord to
+forgive me and help me to be good and happy. So I went home, and
+went down cellar and prayed, but I found no relief, no comfort
+for my unhappy mind. I felt so bad, that I could not even study
+my book. My master saw that I looked very unhappy, and
+he asked me what ailed me. I did not dare now to tell a lie,
+for I wanted to be good, that I might be happy. So I told master 
+just how it was with me; and then he swore terribly at me,
+and said he would whip me if I did not give over praying. He
+said there was no heaven and no hell, and that Christians were
+all hypocrites, and that there was nothing, after this life, and that
+he would not permit me to go moping round, praying and
+going to the meetings. I told him I could not help praying; and then
+he cursed me in a great passion, and declared that he would
+<pb id="tom18" n="18"/>
+whip me if he knew of my going on any more in that foolish way. 
+The next night I was to a meeting, which was led by Jack Cammon,
+a free colored man, and a class leader in the Methodist Church. I was
+so much overcome by my feelings, that I <sic corr="stayed">staid</sic> very late. They prayed
+for me, but I did not yet find any relief; I was still very unhappy.
+The next morning, my master came in, and asked me if I went the night before to the meeting. I told him the truth. He said, “ didn't I tell you
+I would whip you if you went nigh these meetings, and didn't
+I tell you to stop this foolish praying.” I told him he did, and
+if he would, why, he might whip me, but still I could not stop
+praying, because I wanted to be good, that I might be happy
+and go to heaven. This reply made my master very angry.
+With many bitter oaths, he said he had promised me a whipping,
+and now he should be as good as his word. And so he was. He
+whipped me, and then forbade, with bitter threatenings, my
+praying any more, and especially my going again to meeting.
+This was Friday morning. I continued to pray for comfort and
+peace. The next Sunday I went to meeting. The minister
+preached a sermon on being born again, from the words of Jesus 
+to Nicodemus. All this only deepened my trouble of mind.
+I returned home very unhappy. Collins, a free man of color,
+was at the meeting, and told my master that I was there. So,
+on Monday morning my master whipped me again, and once
+more forbade my going to meetings and praying. The next
+Sunday there was a class meeting, led by Binney Pennison, a
+colored free man. I asked my master, towards night, if I might
+go out. I told him I did not feel well. I wanted to go to the
+class meeting. Without asking me where I was going, he said
+I might go. I went to the class. I <sic corr="stayed">staid</sic> very late, and was so
+overcome by my feelings, that I could not go home that night.
+So they carried me to Joseph Jones's cabin, a slave of Mr.
+Jones. Joseph talked and, prayed with me nearly all night. In
+the morning I went home as soon as it was light, and, for fear
+of master, I asked Nancy, one of the slaves, to go up into mistress's 
+room and get the store key for me, that I might go and
+open the store. My master told her to go back and tell me to
+come up. I obeyed with many fears. My master asked me
+where I had been the night before. I told him the whole truth. He
+cursed me again, and said he should whip me for my obstinate
+disobedience; and he declared that he would kill me if I did not
+promise to obey him. He refused to listen to my mistress who was a
+professor, and who tried to intercede for me. And, just as soon as he
+had finished threatening me with what he would do, he ordered me to
+take the key and go and open
+<pb id="tom19" n="19"/>
+the store. When he came into the store that morning, two of
+his neighbors, Julius Dumbiven, and MacCauslin, came in too. He
+called me up, and asked me again where I <sic corr="stayed">staid</sic> last night. I told him
+with his boy, Joseph. He said he knew that was a lie; and he
+immediately sent off for Joseph to confirm his suspicions. He ordered
+me to strip off my clothes, and, as I did so, he took down the cow
+hide heavy and stiff with blood which he had before drawn from my
+body with that cruel weapon, and which was congealed upon it.
+Dumbiven professed to be a Christian, and he now came forward and
+earnestly interceded for me, but to no purpose, and then he left.
+McCauslin asked my master, if he did not know, that a slave was
+worth more money after he became pious than he was before. And
+why then, he said, should you forbid Tom going to meetings and
+praying? He replied, that religion was all a damned mockery, and he
+was not going to have any of his slaves praying and whining
+round about their souls. McCauslin then left. Joseph
+came and told the same story about the night before that I had done,
+and then began to beg master not to whip me. He cursed him and
+drove him off. He then whipped me with great severity, inflicting
+terrible pain at every blow upon my quivering body which was still very
+tender from recent lacerations. My suffering was so great, that it
+seemed to me that I should die. He paused at length, and asked me
+would I mind him and stop praying. I told him I could not promise him
+not to pray any more, for I felt that I must and should pray as long as
+I lived. “Well, then, Tom,” he said, “I swear that I will whip you to
+death.” I told him I could not help myself, if he was determined to kill
+me, but that I must pray while I lived. He then began to whip me the
+second time, but soon stopped, threw down the bloody cow-hide, and
+told me to go wash myself in the river, just back of the store, and then
+dress myself, and if I was determined to be a fool, why I must be one.
+My mistress now interceded earnestly for me with my cruel master. The
+next Sabbath was love feast, and I felt very anxious to join in that
+feast. This I could not do without a paper from my master, and so I
+asked mistress to help me. She advised me to be patient, and said she
+would help me all she could. Master refused to give any paper, and
+so I could not join the loving feast the next day.</p>
+          <p>On the next Friday evening, I went to the prayer meeting. Jack
+Cammon was there, and opened the meeting with prayer. Then
+Binney Pennison gave out the sweet hymn, which begins in these
+words:
+<q direct="unspecified"><lg type="verse"><l>“Come ye sinners poor and needy,</l><l>Weak and wounded, sick and sore.”</l></lg></q>
+<pb id="tom20" n="20"/>
+I felt that it all applied most sweetly to my condition, and I said
+in my heart, I will come now to Jesus, and trust in him. So
+when those who felt anxious were requested to come forward and
+kneel within the altar for prayer, I came and knelt down. While Jacob
+Cammon was praying for me, and for those who knelt by my side, my
+burden of sorrow, which had so long weighed me down, was
+removed. I felt the glory of God's love warming my heart, and making
+me very happy, I shouted aloud for joy, and tried to tell all my
+poor slave brothers and sisters, who were in the house, what a dear
+Saviour I had found, and how happy I felt in his precious love.
+Binney Pennison asked me if I could forgive my master. I told him I
+could, and did, and that I could pray God to forgive him, too, and
+make him a good man. He asked me if I could tell my master of the
+change in my feelings. I told him I should tell him in the morning.
+“And what,” he asked, “will you do if he whips you still for praying and going to meeting ?” I said I will ask Jesus to help me bear the
+pain, and to forgive my master for being so wicked. He then said, 
+“Well, then, Brother Jones, I believe that you are a Christian.”</p>
+          <p>A good many of us went from the meeting to a brother's cabin,
+where we began to express our joy in happy songs. The palace of
+General Dudley was only a little way off, and he soon sent over a
+slave with orders to stop our noise, or he would send the patrolers
+upon us. We then stopped our singing, and spent the remainder of
+the night in talking, rejoicing, and praying. It was a night of very
+great happiness to me. The contrast between my feelings then,
+and for many weeks previous, was very great. Now all was bright and
+joyous in my relations towards my precious Saviour. I felt certain that
+Jesus was my Saviour, and in this blessed assurance, a flood of glory
+and joy filled my happy soul. But this sweet night passed away, and,
+as the morning came, I felt that I must go home, and bear the slave's
+heavy cross. I went and told my mistress the blessed change in my
+feelings. She promised me what aid she could give with my master,
+and enjoined upon me to be patient and very faithful to his interest,
+and, in this way, I should at length wear out his <sic corr="opposition">opposiition</sic> to my praying and going to meeting.</p>
+          <p>I went down to the store in a very happy state of mind. I told
+James my feelings.  He called me a fool, and said master would be sure
+to whip me. I told him I hoped I should be able to bear it, and to
+forgive master for his cruelty to me. Master came down, talked with
+me a while, and told me that he should whip me because I had
+disobeyed him in staying out all night. He had told me he should
+whip me if ever I did so, and he
+<pb id="tom21" n="21"/>
+should make every promise good. So I began to take off my clothes.
+He called me a crazy fool, and told me to keep my clothes on, till he
+told me to take them off. He whipped me over my jacket; but I
+enjoyed so much peace of mind, that I scarcely felt the cow-hide.
+This was the last whipping that Mr. Jones inflicted upon me.</p>
+          <p>I was then nearly eighteen years old. I waited and begged for a
+paper to join the Church six months before I could get it. But all this
+time I was cheerful, as far as a slave can be, and very earnest to do all
+I could for my master and mistress. I was resolved to convince them
+that I was happier and better for being a Christian, and my master at
+last acknowledged that he could not find any fault with my conduct,
+and that it was impossible to find a more faithful slave than I was to
+him. And so, at last he gave a paper to Ben English, the leader of the
+colored members, and I joined the love feast, and was taken into the
+Church on trial for six months. I was put into Billy Cochran's class.
+At the expiration of six months, I was received into the Church in
+full fellowship, Quaker Davis' class. I remained there three years. My
+master was much kinder after this time than he had formerly been, and
+I was allowed some more time to myself than I had been before. I
+pursued my studies as far as I could, but I soon found the utter
+impossibility of carrying on my studies as I wished to do. I was a
+slave, and all avenues to real improvement I found guarded with
+jealous care and cruel tenacity against the despised and desolate
+bondman.</p>
+          <p>I still felt a longing desire to improve, to be free, but the conviction 
+was getting hold of my soul, that I was only struggling
+in vain, when seeking to elevate myself into a manly and happy
+position. And now my mind was fast sinking into despair. I could read
+and write, and often enjoyed much happiness in poring over the very
+few books I could obtain; and especially, at times, I found great peace
+in reading my old, worn Testament. But I wanted now that hope which
+had filled my mind with such joy when I first began to learn to read. I
+found much happiness in prayer. But here, also, my mind labored in
+sadness and darkness much of the time.</p>
+          <p>About this time, my master was taken sick. On Sunday, he was
+prostrated by mortal pains and on Friday the same week, he died. He
+left fifteen slaves. I was purchased by Owen Holmes for $435<sic corr=".">,</sic>00. I was then in my twenty-third year. I had just passed through the
+darkest season of despairing agony that I had yet known. This came
+upon me in consequence of the visit, which I have already described,
+to my dear old desolate home. About this time, too, I entered into a
+new and distinct
+<pb id="tom22" n="22"/>
+period of life, which I will unfold in another chapter. I will close
+this period of sorrow and, shame with a few lines of touching interest
+to my mind :</p>
+          <lg>
+            <l>Who shall avenge the slave ? I stood and cried ; </l>
+            <l>The earth, the earth, the echoing sea replied. </l>
+            <l>I turned me to the ocean, but each wave </l>
+            <l>Declined to be the avenger of the slave. </l>
+            <l>Who <hi rend="italics">shall</hi> avenge the slave? my species cried;</l>
+            <l>The winds, the flood, the lightning of the sky.</l>
+            <l>I turned to these, from them one echo ran,</l>
+            <l>The <hi rend="italics">right</hi> avenger of the slave is man. </l>
+            <l>Man was my fellow ; in <hi rend="italics">his</hi> sight I stood, </l>
+            <l>Wept and besought him by the voice of blood. </l>
+            <l>Sternly he looked, as proud on earth he trod, </l>
+            <l>Then said, the avenger of the slave is GOD. </l>
+            <l>I looked in prayer towards Heaven, a while 'twas still, </l>
+            <l>And then, methought, God's voice replied, I WILL.</l>
+          </lg>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER SECOND.</head>
+          <p>I enter now upon a new development of wrongs and woes
+which I, as slave, was called to undergo. I must go back some two or
+three years from the time when my master died, and I was sold to
+Owen Holmes. The bitterness of persecution which master Jones had
+kept up against me so long, because I would try to serve the Lord,
+had passed away. I was permitted to pray and to go to our meetings
+without molestation. My master laid aside his terrible severity
+towards me. By his treatment of me, afterwards, he <hi rend="italics">seemed</hi> to feel that
+he had done me wrong in scourging me as he had done, because I
+could not obey his wicked command, to stop praying, and to keep 
+<sic corr="away">a way</sic> from the meetings. For, after the time of my joining the Church,
+he allowed me to go to all the meetings, and granted to me many other
+little favors, which I had never before received from him. About this
+time, I began to feel very lonely. I wanted a friend to whom I could tell
+my story of sorrows, of unsatisfied longing, of new and fondly
+cherished plans. I wanted a companion whom I could love with all my
+warm affections, who should love me in return with a true and fervent
+heart, of whom I might think when toiling for a selfish, unfeeling
+master; who should dwell fondly on my memory when we were
+separated during the severe labors of the day, and with whom I might
+enjoy the blessed happiness of social endearments after the work of
+each day was over. My heart yearned to have a home, if it was only
+<pb id="tom23" n="23"/>
+the wretched home of the unprotected slave, to have a wife to love me
+and to love. It seems to me that no one can have such fondness of
+love, and such intensity of desire for <hi rend="italics">home</hi> and home affections, as
+the poor slave. Despised and trampled upon by a cruel race of
+unfeeling men, the bondman must die in the prime of his wretched life,
+if he finds no refuge in a dear home, where love and sympathy shall
+meet him from hearts made sacred to him by his own irrepressible
+affection and tenderness for them. <sic corr="And">A nd</sic> so I sought to love and to win
+a true heart in return. I did this, too, with a full knowledge of <sic corr="the">thy</sic>
+desperate agony that the slave husband and father is exposed to. Had
+I not seen this in the anguish of my own parents? Yea, I saw it in
+every public auction, where men and women and children were
+brought upon the block, examined, and bought. I saw it on such
+occasions, in the hopeless agony depicted on the countenance of husband
+and wife, there separated to meet no more in this cruel world; and in
+the screams of wild despair and useless entreaty which the mother,
+then deprived of her darling child, sent forth. I heard the doom which
+stares every slave parent in the face each waking and sleeping hour of
+an unhappy life. And yet I sought to become a husband and a father,
+because I felt that I could live no longer unloved and unloving. I was
+married to Lucilla Smith, the slave of Mrs. Moore. <hi rend="italics">We called</hi> it and
+<hi rend="italics">we considered</hi> it a <hi rend="italics">true marriage</hi>, although we knew well that marriage
+was not permitted to the slaves, as a sacred right of the loving heart. 
+Lucilla was seventeen years old when <sic corr="we">we we</sic> were married. I
+loved her with all my heart, and she gave me a return for my
+affections, with which I was contented. Oh, God of Love, thou
+knowest what happy hours we have passed in each other's society in
+our poor cabin. When we knelt in prayer, we never forgot to ask God
+to save us from the misery of cruel separation, while life and love were
+our portion. Oh, how we have talked of this dreaded fate, and wept in
+mingling sorrow, as we thought of our desolation, if we should be parted
+and doomed to live on weary years away from each other's dear
+presence. We had three dear little babes. Our fondness for our
+precious children increased the current feeling of love for each other,
+which filled our hearts. They were bright, precious things, those little
+babes; at least, so they seemed to us. Lucilla and I were never tired of
+planning to improve their condition, as far as might be done for
+slaves. We prayed with new fervency to our Father in heaven to
+protect our precious babes. Lucilla was very proud of me, because I
+could read and write, and she often spoke of my teaching our dear little
+ones, and then she would say, with tears, “Who knows, Thomas, but <hi rend="italics">they</hi>
+<pb id="tom24" n="24"/>
+may yet be <hi rend="italics">free and happy?</hi>” Lucilla was a valuable slave to her
+mistress. She was a seamstress, and very expert at her needle. I had a
+constant dread that Mrs. Moore, her mistress, would be in want of
+money, and sell my dear wife. We constantly dreaded a final
+separation. Our <sic corr="affection">affections</sic> for each other was very strong, and this
+made us always apprehensive of a cruel parting. These fears were well
+founded, as our sorrowing hearts too soon learned. A few years of
+very pure and constant happiness, for slaves, passed away, and we
+were parted to meet but once again till we met in Eternity. Mrs. Moore
+left Wilmington and moved to Newburn. She carried with her my beloved
+Lucilla, and my three children, Annie, four years old; Lizzie, two and a
+half years; and our sweet little babe Charlie. She remained there
+eighteen months. And, Oh, how lonely and dreary and desponding
+were those months of lonely life to my crushed heart! My dear wife
+and my precious children were seventy-four miles distant from me,
+carried away from me in utter scorn of my beseeching words. I was
+tempted to put an end to my wretched life. I thought of my dear family
+by day and by night. A deep despair was in my heart, such as no one
+is called to bear in such cruel, crushing power, as the poor slave,
+severed forever from the objects of his love, by the rapacity of his
+brother. But that dark time of despair passed away, and I saw once
+more my wife and children. Mrs. Moore left Newburn for Tuscaloosa, Ala.,
+and, passing through Wilmington, on her journey, she spent one
+night in her old home. That night I passed, with my wife and children.
+Lucilla had pined away under the agony of our separation, even more
+than I had done. That night she wept on my bosom, and we mingled
+bitter tears together. Our dear children were baptized in the tears of
+agony that were wrung from our breaking hearts. May a just God
+remember that night in the last award that we and our oppressors are
+to receive!</p>
+          <p>The next morning Mrs. Moore embarked on board the packet. I
+followed my wife and <sic corr="children">childen</sic> to the boat, and parted from them
+without a word of farewell. Our sobs and tears were our only adieu.
+Our hearts were too full of anguish for any other expression of our
+hopeless woe. I have never seen that dear family nor have I heard
+from them since I parted from them there. God only knows the
+bitterness of my agony, experienced in the separation of my wife and
+children from me. The memory of that great woe will find a fresh impression 
+on my heart while that heart shall beat. How will the gifted
+and the great meet the charge against them at the great day, as the
+Judge shall say to them, in stern displeasure, “I was
+<pb id="tom25" n="25"/>
+sick, destitute, imprisoned, helpless, and ye ministered not unto me,
+for when ye slighted and despised these wretched, pleading, slaves,
+ye did these acts of scorn against me. Depart ye workers of iniquity.”</p>
+          <p>After my purchase by Owen Holmes, I hired my time at $150, per
+year, paid monthly. I rented a house of Dr. E. J. Derset. I worked,
+loading and unloading vessels that came into Wilmington, and could
+earn from one dollar to a dollar and a quarter a day. While my wife
+and family were spared to bless my home by their presence and love,
+I was comparatively happy. But I found then that the agony of the
+terrible thought, “I am a slave, my wife is a slave, my precious
+children are slaves,” grew bitter and unsupportable, just as the
+happiness in the society of my beloved home became more distinct
+and abounding. And this one cup of bitterness was ever at my lips. Hearts
+of kind sympathy tender pity, did I not drain that cup of bitter woe to its
+very dregs, when my family were carried off into returnless exile, and I
+was left a heartbroken lonely man? Can you still be inactive while
+thousands are drinking that portion of despair every year in this land
+of schools and Bibles? After I parted from my family, I continued to
+toil on, but not as I had done before. No home was darker than the
+holds of ships in which I worked. Its light, the bright joyous light of
+love and sympathy and mutual endearments was quenched. Ah me,
+how dark it left my poor heart! It was colder than the winter wind and
+frost; the warm sunshine was snatched away, and my poor heart froze
+in its bitter cold. Its gloom was deeper than prison or cave could make
+it. Was not there the <hi rend="italics">deserted</hi> chairs and beds, once occupied by the
+objects of a husband's and a father's deep love? Deserted! How, and
+why? The answer, is it not the unqualified condemnation of the
+government and religion of this land; I could not go into my cold,
+dark, cheerless house; the sight of its deserted rooms was despair to
+my soul. So I worked on, taking jobs whenever I could get them, and
+worked often till nearly morning, and never going to my home for rest
+till I could toil no more. And so I passed four years, and I began to
+feel that I could not live in utter loneliness any longer. My heart was
+still and always yearning for affection and sympathy and loving
+communion. My wife was torn from me. I had ceased to hope for
+another meeting with her in this world of oppression and suffering; so
+I sat down and wrote to Lucilla, that I could live alone no longer, and
+saying to her the sad farewell, which we could not say when we were
+sundered. I asked Mary R. Moore to come and cheer me in my
+desolate home. She became my wife, and, thank God, she
+<pb id="tom26" n="26"/>
+has been rescued from slavery by the blessing of God and my efforts
+to save her. She is now my wife, and she is with me today, and till
+death parts us, secure from the iron hand of slavery. Three of our dear
+children are with us, too, in the old Commonwealth. I cannot say they
+are in a <hi rend="italics">free</hi> land; for, even here, in the city of Boston, where, I am
+told, is kept the old cradle of liberty, <hi rend="italics">my</hi> precious children are excluded
+from the public schools, because their skin is black. Still, Boston is
+better than Wilmington, inasmuch as the rulers of this place permit me to send
+my children to any school at all. After my second marriage, I hired my
+wife of her master, and paid for her time $48<sic corr=".">,</sic>00 a year, for three years.
+We had one child while Mary was a slave. That child is still in chains.
+The fourth year, by the aid of a white friend, I purchased my wife for
+$350<sic corr=".">,</sic>00. We had before determined to try to accomplish this enterprise,
+in order that our dear babes might be free. Besides, I felt that I could
+not bear another cruel separation from wife and children. Yet, the dread
+of it was strong and unceasing upon my mind. So we made a box, and,
+through a hole in the top, we put in every piece of money, from five
+cents up to a dollar, that we could save from our hard earnings. This
+object nerved us for unceasing toil, for twenty months, or about that time.
+What hopes and fears beset us as those months wore away. I have been
+compelled to hide that box in a hole, dug for it, when I knew the
+patrollers were coming to search my cabin. For well do I know, if they
+found my box, I should be penniless again. How often have I started
+and turned in sudden and terrible alarm, as I have dropped a piece of
+money into my box, and heard its loud ring upon the coin below, lest
+some prowling enemy should hear it, and steal from me my <sic corr="hoarded">boarded</sic>
+treasure. And how often have I started up in my sleep, as the storm
+<sic corr="has">bas</sic> beat aloud upon my humble home, with the cry of unspeakable
+agony in my heart,  —  “Then, O God, they have taken my box, and my
+wife and babes are still slaves.” When my box was broken open, I still
+lacked a little of the $350<sic>,</sic>00 necessary to buy my wife. The kind friend,
+who had promised to aid me in my contemplated purchase, made up the
+deficiency, and I became the owner of my wife. We had three children
+at this time, and O, how my crushed heart was uplifted in its pride and
+joy, as I took them in my arms and thought that they were not slaves.</p>
+          <p>After I had purchased my wife, we still worked hard, and
+saved our earnings with great care, in order to get some property in
+hand for future use. As I saved my earnings, I got a white man whom I
+thought my friend, (his name I choose to keep for the present,) to lay it
+out for me. In this way I became the
+<pb id="tom27" n="27"/>
+owner of the cabin in which I lived, and two other small houses, all of
+which were held in the name of this supposed friend. He held them in
+his own name for me. A slave cannot hold property. I will here remark,
+that I was deceived by this man; and, when I ran away from my chains,
+after sending on my family, I was compelled to sacrifice the whole of
+this property. I left it, because I could not get my own, in his hands,
+and <sic corr="came">come</sic> off entirely destitute. Thank God, I got <sic corr="away">a way</sic>, and now I
+have no tears to shed over the loss of my houses.</p>
+          <p>During the winter of 1848-9, a kind lady came and told me that
+some white men were plotting to enslave my wife and children again.
+She advised me to get them off to the free States as quickly and
+secretly as possible. A lawyer of Wilmington told me they were not
+safe, unless emancipated by a special act of the Legislature. He was a
+member of the House, and tried to get through the House a bill for
+their emancipation. But there was so much ill feeling upon this
+question, that he could not do it. The Legislature threw it aside at
+once. He then advised me to get them off to the free States as my only
+course to save them. This I determined to do, if possible. I kept a good
+look out for a vessel. I found one, and made a bargain with the captain
+to take on board for New York, a free colored woman and her three
+children. A kind friend gave me a certificate of their freedom to the
+captain, and I brought my wife and children on board at night, paid
+the captain $25<sic corr=".">,</sic>00 for their fare, and <sic corr="stayed">staid</sic> on the wharf, in torturing
+fear, till about sunrise, when I saw the vessel under way. It was soon
+out of sight. When I went home, I threw myself on my knees, and
+poured out my soul to God, to carry that ship and its precious cargo
+safely and swiftly on to a free haven, and to guard and guide me soon
+to a free home with my beloved family. And so I kept on, praying,
+working, hoping, pining, for <sic corr="nearly">neartly</sic> three weeks, when I received the
+happy news that my dear ones were safe with a true-hearted friend in
+Brooklyn. I had notified him, before hand, that they were coming; and
+now the good and glorious news came that they were safe with Robert
+H. Cousins, where the slaveholder could trouble them no more. I had
+arranged with Mary, when she left, to come on myself, as soon as I
+could get the money for my houses and land. She was to write to me
+as though she had gone to New York on a visit, intending to come
+back, and she was to speak of New York as if she did not like it at all. I
+knew my master would be very angry, when he heard she had gone,
+unbeknown, to him; and thought he would demand to see the letters
+my wife if she should get friends in New York to write to me for her;
+and so
+<pb id="tom28" n="28"/>
+I made ready to meet and quiet his suspicious, while I was plotting 
+my own escape. For more than three months I tried to get the
+money, or part of it, for my houses; but was put off and deceived, till I
+found I must come off without a cent of the property I had tried so
+hard to accumulate. I was required to call and see my master every
+day, because he suspected me of a design to run away. He was taken
+suddenly sick, and I then started for my wife and children to whom I
+arrived shortly afterwards.</p>
+        </div2>
+      </div1>
+      <div1 type="narrative">
+        <pb id="tom29" n="29"/>
+        <head>WILD TOM,<lb/>
+OF THE ISLAND RETREAT.</head>
+        <div2 type="introduction">
+          <head>INTRODUCTION.</head>
+          <p>[WILD TOM, the hero of our story, was of unmixed African blood,
+and the slave of Gen. Carter. He possessed an excellent character for
+integrity and capability — was a devoted and faithful convert to the
+Methodist persuasion; but the suffering he endured, through the
+tyrannical practices of slavery, served to harden his heart, and
+eventually to extinguish the light of religion in his soul.</p>
+          <p>ANN, the wife of Thomas, was a pretty, sprightly, good-natured
+girl, whom he loved exceedingly. She was whipped to death by
+Martin, an overseer on Gen. Carter's plantation.</p>
+          <p>ARCHY MOORE, was son of Mr. Moore, his master, by a Slave
+mother. He was nearly white in his complexion, but yet a crushed 
+Slave.]</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER FIRST.</head>
+          <p>SINCE the death of his wife, a remarkable change had taken place in
+my friend Thomas. He had lost his former air of contentment and
+good nature, and had grown morose and sullen. Instead of being the
+most willing, and industrious laborer in the field as he used to be, he
+seemed to have imbibed a strong dislike for work, and he slighted and
+neglected his task as much as possible. Had he been under any other
+driver than myself, his idleness and neglect would have frequently
+brought him into trouble. But I loved and pitied him; and I screened
+him all I could.</p>
+          <p>The wrongs and injuries that had been inflicted upon him since
+his arrival at <sic corr="Loosahachee">Locsahachee</sic>, seemed to have subverted all
+<pb id="tom30" n="30"/>
+the principles upon which he had so long acted. It was a subject on
+which he did not seem inclined to converse, and upon which I was
+unwilling to press him; but I had <sic corr="abundant">abundent</sic> reason to suspect that he
+had totally renounced the religion in which he had been so carefully
+instructed; and which, for so long a time, had <sic corr="exercised">excercised</sic> so powerful
+an influence over him. He had secretly returned to the practice of
+certain wild rites, which in his early youth, he had learned from his
+mother, who had herself been kidnapped from the coast of Africa, and
+who had been, as he had often told me, zealously devoted to her
+country's superstitions. He would sometimes talk wildly and
+incoherently about having seen the spirit of his departed wife, and
+of some promise he had made to the apparition; and I was led to
+believe that he suffered under occasional fits of partial insanity.</p>
+          <p>At all events, he was in most respects, an altered man. He had
+ceased to be the humble and obedient slave, contented with his lot,
+and zealously devoted to his master's service. Instead of promoting
+his master's interest, it seemed now to be his study and his aim to do
+as much mischief as possible. There were two or three artful, daring,
+unquiet spirits on the plantation, from whom till lately, he had kept
+aloof, but whose acquaintance he now sought, and whose confidence he
+soon obtained. They found him bold and prudent, and what was
+more, trusty and magnanimous; and they soon gave place to his
+superiority of intellect, and acknowledged him as their leader. They
+were joined by some others, whose only <sic corr="motive">motives</sic> was the desire of
+plunder, and they extended their depredations to every part of the
+plantation.</p>
+          <p>In this new character, Thomas still gave evidence that he was no
+ordinary man. He conducted his enterprises with singular address,
+and when all other stratagems by which to save his companions from
+detection proved unavailing, he had still one <sic corr="resource">resourse</sic> that showed
+the native nobleness of his soul. Such was the steady firmness of his
+mind, and the masculine vigor of his constitution, that he was enabled
+to do what few men could. He could brave even the torture of the lash — 
+a torture, I have said already, not less terrible than that of the rack
+itself. When every other <sic corr="resource">resourse</sic> failed him, he was ready to shield
+his companions by a voluntary confession; and to concentrate upon
+himself a punishment, which he knew that some among them were too
+feeble and faint-hearted to endure. Magnanimity such as this, is
+esteemed even in a freeman the highest pitch of virtue, — how then
+shall we sufficiently admire it in a slave?</p>
+          <p>Thank God, tyranny is not omnipotent!</p>
+          <p>Though it crush its victims to the earth; and tread them into the
+dust; and brutify them by every possible invention; it cannot
+<pb id="tom31" n="31"/>
+totally extinguish the spirit of manhood within them. Here it
+glimmers; and there it secretly burns; sooner or later, to burst
+forth in a flame, that will not be quenched, and cannot be kept under!</p>
+          <p>So long as I was in the confidence of Mr. Martin, I was able
+to render Thomas essential service, by informing him of the suspicions, 
+plans, and stratagems of the overseer. It was not long,
+however, before I forfeited that confidence; not because Mr.
+Martin entertained any suspicion of my playing him false,  —  for
+it was very easy to throw dust in the eyes of so stupid a fellow, — 
+but because I did not come up to his notions of the spirit
+and the duty of a driver. The season was sickly; and as the
+hands who composed my gang were from a more northern climate, 
+and not yet seasoned to the pestiferous atmosphere of a
+rice plantation, they suffered a good deal from sickness, and several 
+of them were often unable to work. I had explained to
+Mr. Martin, and he seemed to be satisfied with my explanation;
+but riding into the field one day, in a particularly bad humor,
+and I believe, little excited with liquor, he got into a towering rage at 
+finding not half my gang in the field, and more than half
+the tasks untouched.</p>
+          <p>He demanded the reason.</p>
+          <p>I told him that the hands were sick.</p>
+          <p>He swore they had no <sic corr="business">businsss</sic> to be sick; he was tired, he said, of
+this talk about sickness; he knew very well it was all sham; and he
+was determined to be imposed upon no longer. “If any more
+complaints are made of sickness, Archy, you have nothing to do but
+whip the scoundrels and set them to work.”</p>
+          <p>“What,” said I, “if they are really sick?”</p>
+          <p>“Sick or not sick, I tell you. If they are not sick a whipping is no
+more than they deserve; and if they are, why nothing is so likely to
+do them good as a little bloodletting.”</p>
+          <p>“In that case,” said I, “you had better appoint another driver; I
+should make but a poor hand at whipping sick people.”</p>
+          <p>“Hold your tongue, you damned insolent blackguard. Who gave
+you leave to advise me, or dispute my orders? Hand me your whip,
+you rascal.”</p>
+          <p>I did so; and Mr. Martin thereupon administered upon me a fresh
+infliction of that same discipline he had bestowed when he first put
+the whip into my hand. So ended my drivership; and though I now
+lost my double allowance, and was obliged to turn into the field
+again, and perform my task like the other hands, I cannot say that I
+much regretted it. It was a pitiful and sorry office, which no one but a
+scoundrel ever ought to undertake.</p>
+          <p>I now united myself more closely to the party of Thomas,
+<pb id="tom32" n="32"/>
+and joined heart and hand in all their enterprises. Our depredations
+became at last so considerable, that Mr. Martin was obliged to
+establish a regular watch, consisting of his drivers and a few of their
+subordinates, who kept prowling about the plantation all night, and,
+made it unsafe to venture into the fields. This arrangement was
+hastened by a circumstance that happened upon that plantation,
+about which a very strict inquiry was instituted, but which led to no
+<sic corr="definite">definate</sic> result. On one and the same night, General Carter's splendid
+plantation-seat, and his extensive rice mills were discovered to be on
+fire, and notwithstanding all efforts to save them, both were totally
+consumed. Several of the slaves, and Thomas among the rest, were put
+to a sort of torture to make them acknowledge some participation <sic corr="in this">inthis</sic> house-burning.
+That cruelty availed nothing. They all stoutly denied knowing any thing
+about it. I was, as I have said, very much in Thomas's confidence; yet
+he never spoke to me about that fire. As he was one of those men
+who know how to keep their own secrets, I always suspected that he
+knew much more about the matter than he <sic corr="chose">choose</sic> to divulge.</p>
+          <p>At all events, it was evidently a much more potent feeling
+than the mere love of plunder by which Thomas was actuated.
+Since his wife's death, he sometimes drank to excess; but this
+was seldom, and there never was a man more temperate in his
+meats and drinks, or less <sic corr="fastidious">fistiduous</sic> than Thomas generally was.
+He had formerly dressed with much neatness; now he neglected
+his dress altogether. He did not love society; he had little intercourse 
+with any body except with me; and it was not always
+that he seemed to wish even for my company. Thomas had little 
+use for his share of the plunder, and in fact, he generally
+distributed it among his companions.</p>
+          <p>When the thing was first proposed, he seemed to have little
+inclination to extend our depredations beyond the limits of Loosahachee.
+But as it was no longer safe to continue them there; and his
+companions had rioted too long in plunder to be willing to relinquish
+it, Thomas yielded at last to their urgent solicitations, and led us, night
+after night, to the neighboring plantations. We soon pushed our
+proceedings so far, as to attract the notice of the overseer, whose
+domains we had invaded. At first, they supposed that the thieves
+were to be looked for at home, and numberless were the severities
+they exercised upon those whom they suspected. But in spite of all
+their cruelties, the depredations were still continued and such was the
+singular art and cunning which Thomas displayed, in varying the
+scene and manner of our visits, that for a long time, we escaped all
+the traps and ambushes that were planned against us.</p>
+          <pb id="tom33" n="33"/>
+          <p>We were one night in a rice field, and had almost filled our bags,
+when the watchful ear of Thomas detected a sound, as if
+of some one cautiously approaching. He supposed it might be the
+patrol, which, of late, instead of whiling away their time by the help of
+a fiddle and a bottle, of <sic corr="whiskey">whishey</sic>, had grown more active, and actually
+performed some of the duties of a night watch. Under this
+impression, he gave a signal for us to steal off quietly, in a certain
+order which he had arranged before hand. The field was bordered on
+one side, by a deep and wide river, from which it was protected by a
+high embankment. We had come by water; and our canoe lay in the
+river, under the shade of a clump of bushes and small trees which
+grew upon the dike. One by one, we <sic corr="catiously">cautionsly</sic> stole over the bank,
+carefully keeping in the shade of the bushes, and all but Thomas were
+already in the boat. We were waiting for our leader, who as usual,
+was the last man in the retreat, when we heard several shouts and
+cries, which seemed to indicate that he was discovered, if not taken. The
+sound of two musket shots fired in rapid succession, increased our
+terror. We hastily shoved the boat from the shore; and pushing her
+into the current, of the flood-tide, which was setting up the river, we
+were carried rapidly and silently out of sight of our landing place. The
+shouts were still continued, but they grew fainter and fainter, and
+seemed to take a direction from the river. We now put out our paddles
+and plying with all our strength, we pretty soon reached a small cove
+or creek, the place where we kept our boat, and at which we were
+accustomed to embark. We drew the canoe on shore, and carefully
+concealed it among the high grass. Then, without taking out our rice-bags, 
+and leaving our shoes in the boat, we ran towards
+Loosahachee, which we reached without any further adventure.</p>
+          <p>I was very anxious about Thomas, but I had scarcely thrown myself
+upon my bed, before I heard a light tap at the door of my cabin, which I
+know to be his. I sprang up and let him in. He was panting for breath
+and covered with mud. Thomas said, that just as he was going to climb
+the embankment, he looked behind him, and saw two men rapidly
+approaching. They seemed to observe him just at the same moment,
+and called to him to stop. If he had attempted to reach the boat, it
+would have drawn them that way, and perhaps led to the detection of
+the whole company. The moment they called to him, he dropped his<sic corr="rice-bag"> riee-bag</sic>, and stooping as low as he could, he pushed rapidly through the
+rice in a direction from the river. His pursuers raised a loud shout, and fired
+their muskets at him, — but without effect. He jumped several cross
+ditches, made for
+<pb id="tom34" n="34"/>
+the high ground, at distance from the river, and drew off the
+patrol in that direction. They pursued him closely; but as he
+was very strong and active, and well acquainted with the place, he succeeded in
+escaping from among the ditches and embankments of the rice-field,
+gained the high grounds, and took a direction towards Loosahachee.
+But though he had distanced his pursuers, they had still kept upon his
+track, and he expected that they would follow him up, and would
+shortly be arriving.</p>
+          <p>While Thomas was telling his adventures, he had stripped off
+his wet clothes, and washed off the mud, with which he was
+covered. I furnished him with a dry suit, which he took with
+him to his own cabin which was close by mine. I hastened
+round to the cabins of our companions and told them what
+visitors, to expect. The barking of all the plantation dogs pretty
+soon informed us that the patrol were coming. They had roused
+the overseer, and with torches in their hands, they entered
+and searched every cabin in the quarter. But we were prepared
+for their visit; we were roused with difficulty out of a deep
+sleep, and seemed to be very much astonished at this unseasonable 
+disturbance.</p>
+          <p>The search proved to be a very useless one; but as the patrol were
+certain that they had traced the fugitive to Loosahachee, the overseer
+of the plantation upon which we had been depredating, came over the next
+morning to search out and punish the culprit. He was accompanied by
+several other men, who it seems were freeholders of the district,
+selected with such forms, or rather such neglect of all form, as the law
+of Carolina prescribe in such cases. Five Carolina freeholders, selected
+at hap-hazard, constitute such a court as in most other countries,
+would hardly be trusted with the final adjudication of any matter
+above the value of forty shillings at the amount.</p>
+          <p>A table was set out before the door of the overseer's house, some
+glasses and a bottle of whiskey were placed upon it, and the court
+proceeded to business. We were all brought up and examined, one
+after the other. The only witnesses were the patrol who had pursued
+Thomas; and they were ordered by the court to pick out the culprits.
+That was rather a difficult matter. There were between sixty and
+seventy men of us; the night had been cloudy and without a moon, 
+and the patrol had only caught some hasty and uncertain glimpses of the person
+whom they had followed. The court seemed rather vexed at their hesitation. Yet,
+perhaps, it was not very unreasonable; since they were quite unable
+to agree together as to what sort of a man it was. One thought him
+short, the other was certain
+<pb id="tom35" n="35"/>
+that he was quite tall. The first, pronounced him a stout, well-set
+fellow, the other had taken him to be very slender.</p>
+          <p>By this time, the first bottle of whiskey was emptied, and a
+second was put on the table. The court now told the witnesses
+that it would not do, they did not come up to the mark at all,
+and if they went on at that rate, the fellow would escape altogether. 
+Just at this moment, the overseer of the plantation
+which had been plundered, rode up, and as soon as he had dismounted, 
+he stepped forward to the relief of the witnesses. He
+said, that while the court was organizing, he had taken the opportunity, to ride 
+over and examine the rice-field, in which the
+rogue had been started up. It was much trampled in places,
+and there were a great many foot-prints; but they were all just
+alike, and seemed to have been made by the same person. He
+took a little stick from his pocket, on which, he said, he had
+carefully marked their exact length and breadth.</p>
+          <p>Now this was a trick for detecting people, which Thomas
+understood very well, and he had taken good care to be prepared for
+it. Our whole company were provided with shoes of the largest size
+we could get, and all exactly of the same pattern.</p>
+          <p>This speech of the overseer seemed to revive the drooping hopes
+of the judges; and they made us all sit down upon the ground and to
+have our feet measured. There was a man on the plantation named
+Billy, a harmless, stupid, fellow, wholly unconnected with us, but
+unluckily for him, the only one of all the slaves whose foot
+corresponded at all with the measure. The length of this poor fellow's
+foot was fatal to him. The judges shouted with one voice, and in the
+style of condemnation to be expected from such a court, that “they
+would be damned if he was not the thief.” It was in vain that the poor
+fellow denied the charge and pleaded for mercy. His terror, confusion,
+and surprise, only served to confirm the opinion of his guilt, and the
+more he denied, and the louder he pleaded, the more positively 
+his judges were determined against him. Without further
+ceremony they pronounced him guilty, and sentenced him to be
+hung.</p>
+          <p>The sentence was no sooner pronounced than <sic corr="preparations">preperations</sic> were
+made for its execution. An empty barrel was brought out, and placed
+under a tree that stood before the door. The poor fellow was mounted
+upon it; the halter was put about his neck, and fastened to a limb over
+his head. At first they could get no one willing to act as executioner,
+but after becoming so drunk that they had lost all sense of <sic corr="judicial">judical</sic>
+decorum or piety, one of them kicked, or was rather pushed against
+the barrel, and the poor victim of Carolina justice was launched into
+eternity<corr sic="period missing">.</corr></p>
+          <pb id="tom36" n="36"/>
+          <p>The execution over, the slaves were sent into the field while Martin, 
+with the judges and witnesses, and several others 
+whom the fame of the trial had drawn to Loosahachee, commenced a
+regular drunken debauch, which they kept up all that day, and the
+night following.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER SECOND.</head>
+          <p>The authority of masters over their slaves is in general a continual
+reign of terror. A base and dastard fear is the sole principle of human
+nature to which the slave-holder appeals. When it was determined to
+hang the poor fellow, whose fate I have described in the last chapter,
+his judges could not know, nor do I suppose, they much cared,
+whether he was innocent or guilty. Their great object was to terrify
+the survivors; and by an example of what they would denominate
+wholesome and necessary severity, to deter others from any further
+trespasses upon the neighboring plantations. In this they
+succeeded, for though Thomas endeavored to keep up our spirits, we
+were thoroughly scared, and felt but little inclination to second his
+boldness which seemed to grow more determined, the more obstacles
+encountered.</p>
+          <p>One of our confederates in particular, was so alarmed at the fate of
+poor Billy, that he seemed to have lost all self-control; and we were
+in constant fear lest he should betray us. When the first paroxysm of
+his terror was at its height, the evening
+after he had witnessed the execution, I believe he would gladly have
+confessed the whole, if he could have found a white man sober
+enough to listen to him. After a while, he grew more calm; but in the
+course of the day he had dropped some hints which were
+carefully treasured up by one of the drivers. He reported them, as I
+discovered, to the overseer; but Mr. Martin had not yet recovered
+from the effects of the frolic, and he was too drunk and stupid to
+understand a word that the driver said to him.</p>
+          <p>We had begun to get the better of our fears, when a new incident
+happened, which determined us to seek our safety in flight. Some
+persons, in passing along the river bank, had discovered our canoe,
+which in the hurry of our retreat, we had taken too little care to
+conceal. It contained not only our bags full of rice, — for we had not
+yet recovered courage enough to go after them,  —  but our shoes
+also, all exactly of the same size, and corresponding with the measure 
+which had been produced upon the trial. Here was ample proof that
+quite a number had been engaged in the scene of <sic corr="depredation">depradation</sic>: and as one of the
+<pb id="tom37" n="37"/>
+company had been <sic corr="traced">raced</sic> to Loosachachee, it would be reasonable to
+look for the others upon the same plantation. Luckily, I obtained an
+early intimation of this discovery, by means of one of the overseer's
+house-servants, with whom I had the policy to keep up a pretty
+intimate connection. A man had arrived at the overseer's house, his
+horse dripping with foam, and with an appearance of great haste and
+impatience, he had asked to see the overseer. The moment he came in,
+the stranger <sic corr="requested">requesed</sic> to speak with him alone, and Mr. Martin took
+his guest into another room and locked the door. The girl, who was
+my spy and informant, under an appearance of the greatest simplicity,
+was artful and intelligent; and she was prompted to overhear this
+secret conversation, as much by her own curiosity, as by the
+suspicion that it might possibly be something, in which I would take
+an interest. She contrived to conceal herself in a closet, which was
+separated from the room in which the overseer and his visitor were
+conversing, only by a thin partition; and having overheard his story,
+the substance of which I have already mentioned, and learned
+besides, that the court would hold a new session at Loosahachee,
+the day following, she hastened to inform me of what she had heard.
+She knew nothing in particular, of our affairs, but she had reason to
+believe that this piece of news would not be entirely uninteresting to
+me.</p>
+          <p>I informed Thomas of what she had told me. We agreed at once,
+that our best chance of safety was in flight ; and we immediately
+communicated our intention, and the cause of it, to the rest of our
+confederates. They were anxious to accompany us, and we all
+resolved to be off that very night.</p>
+          <p>As soon as evening came on, we stole away from the plantation
+and gained the woods in company. As we anticipated that a very
+diligent search would be made for us, we <sic corr="thought">though</sic> it best to separate.
+Thomas and myself resolved to keep together; the others scattered
+and took various directions. As long as the darkness lasted, we
+travelled on as rapidly as we could. When the morning began to
+appear, we plunged into a thick swampy piece of woods, and having
+broken down some branches and young trees, we made as dry a bed
+as we were able, and lay down to sleep. We were much fatigued with
+our long and rapid journey, and slept soundly. It was past noon
+when we waked. Our appetites were sharp, but we had <sic corr="no">on</sic> provisions.
+Just as we were beginning to consider what course it would be best
+to pursue, we heard the distant baying of a hound. Thomas listened
+for a moment, and then exclaimed
+<pb id="tom38" n="38"/>
+that he knew that cry. It was a famous dog, a cross of the
+blood-hound, which Mr. Martin had long had in training, and upon
+whose performances in tracking out runaways he very much prided
+himself. The place where we were, was a thick swamp, <corr sic="&quot;in&quot; missing">in</corr>which it was
+difficult to move, and not easy to stand. To cross it would be
+impossible; and we resolved to get into the edge of it, where the
+ground was harder, and the undergrowth thinner, and to continue
+our flight. We did so; but the hound gained rapidly upon us, and his
+baying sounded louder and louder. Thomas drew a stout sharp knife
+which he carried in his pocket. We were now just at the border where
+the dry ground came down upon the swamp, and looking behind us,
+across the level and open woods, we could see the hound coming on
+with his nose to the ground, and uttering at intervals a deep and savage
+cry. Farther behind, but still in full view, we saw a man on horseback,
+whom we took to be Mr. Martin himself.</p>
+          <p>The dog was evidently upon our track and following it to the place
+where we had first plunged into the swamp, he disappeared from our
+view. But we could still hear his clamor, which grew louder and
+almost constant; and we soon perceived by the rustling and cracking
+of the underwood that he was close upon us. At this moment we
+faced about, and stood at bay; — Thomas in front, with his knife in
+hand, and I just behind, with a sharp and heavy lightwood knot, the
+best, indeed the only weapon, of which I could avail myself. Presently the
+dog emerged from the swamp. The moment he saw us, he redoubled
+his cry, and dashed forward foaming at Thomas's throat, but only
+succeeded in seizing his left arm, which Thomas raised as a shield
+against the dog's attack. At the same instant he dealt a stroke with
+his knife, which penetrated to the hilt, and dog and man came
+struggling to the ground. — How the contest would have ended had
+Thomas been alone, is very doubtful; for though the hound soon
+received several wounds, they only seemed to increase his ferocity,
+and he still struggled to get at the throat of his antagonist. My lightwood knot
+now did good service. Two or three heavy blows upon the dog's
+head laid him senseless and sprawling on the ground.</p>
+          <p>While we had been awaiting the dog's attack, and during the
+contest, we had scarcely thought of his master; but looking up, after it
+was all over, we discovered that Mr. Martin was already very near
+us. When the dog took to the swamp, and came suddenly 
+<pb id="tom39" n="39"/>
+upon us before we had expected him. He pointed his gun and
+called upon us to surrender. Thomas no sooner saw the overseer,
+than he seemed to lose all his self control, and grasping his knife, he
+rushed upon him. Mr. Martin fired, but the buck-shot rattled
+harmlessly among the trees, and as he was attempting to wheel his
+horse, Thomas dashed upon him, seized him by the arm and dragged
+him to the ground. The horse ran frightened through the woods; and
+it was in vain that I attempted to stop him. We looked round in
+expectation of seeing some others of the huntsmen coming up. None
+were in sight; and we seized the opportunity to retreat and to carry
+our prisoner into the covert of the swamp.</p>
+          <p>We learned from him that by the time the court and their
+attendants arrived at Loosahachee, our flight had been discovered, and
+that it was immediately resolved to raise the neighborhood, and to
+commence a general search for the runaways. All the horses, dogs
+and men that could be come at, were put in requisition. They were
+divided into parties, and immediately commenced beating through the
+woods and swamps in the neighborhood.</p>
+          <p>A party of five or six men, with Mr<corr sic=". missing">.</corr> Martin and his bloodhound, had
+traced three of our companions into a thick swamp, just on the bank of
+a river. The pursuers dismounted, and with their guns in their hands,
+they followed the dog into the thicket. Our poor fellows <sic corr="were">was</sic> so
+overcome with fatigue, that they slept until the very moment that the
+hound sprang in upon them. He seized one of them by the throat, and
+held him to the ground. The others ran; and as they ran, the pursuers
+fired. One of the fugitives fell dead, horribly mangled and cut to pieces
+with buck-shot; the other still continued his flight. As soon as the
+dog could be compelled to quit his hold of the man he had seized, —
+which was not without difficulty and delay, — he was put upon the
+track of the surviving fugitive. He followed it to the river, where he stood
+at fault  —  The man had probably plunged in, and swam to the other side;
+but as the dog <sic corr="could">conld</sic> not be made to take the water, and as the swamp
+on the opposite bank was reputed to be very soft and dangerous, no
+further pursuit was made; the chase in that direction was given up,
+and the poor fellow was suffered to escape for the present.</p>
+          <p>The pursuers now separated. Two of them undertook to carry back
+to Loosahachee the captive they had taken, and the other three, with
+Mr. Martin and his hound, were to continue the hunt in search of the
+rest of us. They learned from their
+<pb id="tom40" n="40"/>
+captive the place at which we had parted company, and the
+direction which the several parties had taken. After beating
+about for some time, the hound struck upon our trail, and opened 
+in full cry; but the horses of Mr. Martin's companions
+were so broken down, that when he began to spur on, to keep
+up with the hound, he soon left them behind. Mr. Martin
+ended his story by advising us to go in and surrender ourselves; 
+giving us his word and honor for it as a gentleman
+and an overseer, that if we would offer him no further violence 
+or injury he would protect us from punishment, and reward 
+us most handsomely.</p>
+          <p>The sun was now setting. The short twilight which follows Carolina
+sunset would soon be succeeded by the darkness of a cloudy and
+moonless night; and we felt but little apprehension of being immediately
+troubled by our pursuers. I looked at Thomas, as if to inquire what we
+had better do. — He drew me aside, — having first examined the
+fastenings of our prisoner, whom we had bound to a tree, by some
+cords found in his own pocket, and which were doubtless intended
+for a very different purpose.</p>
+          <p>Thomas paused for a moment, as if to collect his thoughts; then
+pointing to Mr. Martin, “Archy,” he said, “that man 
+dies to-night.”</p>
+          <p>There was a wild energy, and at the same time, a steady
+coolness, in the tone in which he spoke. It started me; at first
+I made no answer; and as meanwhile I looked Thomas in the
+face, I saw there an expression of stern exultation, and a fixedness 
+of purpose not to be shaken. His eyes flashed fire, as he
+repeated, but in a low and quiet tone that contrasted strangely with 
+the matter of his speech, “I tell you, Archy, that man
+dies to-night. She commands it; I have promised it; and
+now the time is come.”</p>
+          <p><corr sic="ldquote missing">“</corr>Who commands it?” I hastily inquired.</p>
+          <p>“Do you ask who? Archy, that man was the murderer of my wife.”</p>
+          <p>Though Thomas and I had lived in great intimacy, that was almost
+the first time, since the death of his wife, that he had mentioned her
+to me in such plain terms. He had, it is true, now and then made some
+distant allusions to her; and I recollected that on several occasions before,
+he had dropped some strange and incoherent hints about an
+intercourse which he still kept up with her.</p>
+          <p>The mention of his wife, brought tears into his eyes; — but with his
+hand he wiped  them hastily away and soon recover</p>
+          <note anchored="yes" target="note">[Pages 41-52 missing in the original copy.]</note>
+          <pb id="tom53" n="53"/>
+          <p>all knowledge of any other runaways, or that Wild Tom had any
+body with him.</p>
+          <p>To make all sure, eight or ten of the company were sent to
+patrol on <sic corr="horseback">horsebock</sic> round the edges of the swamp, together with all the dogs but one, while five or
+six of the strongest and most resolute proposed to penetrate the
+interior, and to storm the Island Retreat. The prisoner, with the rope
+still about his neck, the other end made fast to the waist of one of the
+stoutest of the company, was required to serve as guide; and though
+he protested that he knew nothing in particular of the approaches to
+the island, he was threatened with instant death, in case he did not
+conduct them safely and expeditiously across. The fellow, however,
+whether through ignorance or design, led them into very deep water,
+in some places fairly up to their necks, through which they were
+obliged to wade, holding their rifles and powder horns over their
+heads; and in spite of every effort to keep him quiet, as the party
+drew near the island, he would insist on crying out, as if giving
+directions as to the passage, but, as was strongly suspected, with the
+real design of alarming his confederate. And, indeed, before the party
+could make good their footing on the island, he had already taken the alarm, and
+had plunged into the water on the other side. He had gained
+a considerable distance before he was seen, and as he dodged
+behind the great trees of the swamp, several rifle shots fired at
+him failed to take effect. In plunged the others in fresh pursuit,
+while the fugitive, engrossed by this danger behind, made the
+best of his way through the mud and water, till he gained the
+firm land on the other side of the swamp, where he encountered
+a new danger, being seen by one of the scouts patrolling along
+the edge. As he bounded through the piney woods, like a deer,
+a rifle shot <sic corr="grazed">gazed</sic> his side, and though it did not bring him down, yet it
+materially checked the swiftness of his flight. Four or five horsemen
+were soon upon his track. Snapdragon, the overseer, leading in the
+chase, soon came up with the flying negro; and after vainly calling
+to him to yield, and firing his pistols with only slight effect, sprang
+from his horse, and attempted to seize him. Snapdragon was a
+powerful man, but he had now found his match. Wild Tom, exhausted
+and wounded as he was, caught his assailant in his arms, and as they
+rolled upon the ground, the negro's knife was not long in finding its
+way to the overseer's heart. But already the dogs and the other pursuers 
+were upon him, and before he could disengage himself, he was
+made a prisoner, and securely bound. It was not long before the whole
+party was assembled, when some of the more violent proposed to
+revenge the dead overseer by putting the
+<pb id="tom54" n="54"/>
+prisoner to death on the spot. But the pleasure and glory of making a
+parade and exhibition of their prize, and the necessity, too, in order to
+secure the promised reward, to identify him as general Carter's
+runaway, had stayed this summary procedure; and it had been
+resolved forthwith to hasten to the village, which served as seat of
+justice for the county, to commit the prisoners to jail.</p>
+          <p>As soon as an opportunity occurred, I handed Tom a calabash of
+water, which was rudely dashed from his hand by one of the slave
+drivers.</p>
+          <p>I felt at that same moment a hand rudely laid on my shoulder, while
+a voice, which I recognized as that of the same man who had dashed
+the calabash of water from Thomas's grasp, exclaiming, with a volley
+of oaths, “What the devil are you doing here in close confab with
+this murderer? I tell you, stranger, you don't leave here without
+giving an account of yourself!”</p>
+          <p>A number of men, now rushed up to Thomas, and began to
+unfasten his chains and to conduct him towards the door of the
+tavern.</p>
+          <p>These were the more drunken and infuriated portion of the
+company who, enraged at the sight of the dead overseer, wished to try
+and execute him at once, but the others wished to await the arrival of
+general Carter, for whom a messenger had been sent, and to delay
+final proceedings till the prisoner had first been identified as general
+Carter's property, lest otherwise there might be some difficulty in
+recovering the promised reward.</p>
+          <p>The more violent and drunken party had, however, prevailed. A
+court of three freeholders was now organized on the spot, and
+Thomas again surrounded by a rabble of blacks and whites, was now
+brought before this august tribunal. I was myself at the same time
+taken into custody as a suspected person, with an intimation that my case
+should be attended to as soon as that of the negro was disposed of.</p>
+          <p>“Whom do you belong to?” Such was the first question which
+the honorable court addressed to the prisoner.</p>
+          <p>“I belong,” answered Thomas, with much solemnity, “to the God
+who made us all!”</p>
+          <p>The mock court, after hearing a witness or two, pronounced him
+guilty of the murder of the overseer, after which they passed
+sentence of death. A pile of wood was lighted, and the victim of
+slave-holding vengeance was placed in the midst of it, while he
+looked upon his persecutors with a smile of contemptuous defiance
+and his spirit was ushered into the presence of an avenging God!</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

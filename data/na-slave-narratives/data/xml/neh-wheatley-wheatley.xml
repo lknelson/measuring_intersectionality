@@ -1,0 +1,3258 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY wheatfp SYSTEM "wheatfp.jpg" NDATA jpeg>
+<!ENTITY wheattp2 SYSTEM "wheattp2.jpg" NDATA jpeg>
+<!ENTITY wheattp SYSTEM "wheattp.jpg" NDATA jpeg>
+<!ENTITY wheatvs SYSTEM "wheatvs.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Memoir and Poems of Phillis Wheatley, a Native African and a Slave. </emph><emph>Dedicated to the Friends of the Africans:</emph>
+Electronic Edition.</title>
+        <author>Wheatley, Phillis, 1753-1784 </author>
+        <author>Odell, Margaretta Matilda</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Kevin O'Kelley and Sarah Reuning</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Lee Ann Morawski </name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Lee Ann Morawski  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     200K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and 
+personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Memoir and Poems of Phillis Wheatley, a Native African and a Slave. 
+Dedicated to the Friends of the Africans</title>
+            <title type="title page "> Poems on Various Subjects, Religious and Moral.</title>
+            <author>Phillis Wheatley</author>
+          </titleStmt>
+          <extent>103      p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Boston</pubPlace>
+            <publisher>Geo. W. Light</publisher>
+            <date>1834</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number   C-7 W557M  
+(Rare Book, Manuscript, and Special Collections Library, 
+Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>All footnotes are moved to the end of paragraphs in which the reference occurs.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Wheatley, Phillis, 1753-1784.</item>
+            <item>African American poets -- Biography.</item>
+            <item>African American women poets -- Biography.</item>
+            <item>Slaves -- Biography.</item>
+            <item>Slaves' writings, American.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-06-07, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-12-08, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-12-01, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-11-20, </date>
+        <respStmt>
+          <name>Kevin O'Kelley and Sarah Reuning</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="frontispiece">
+        <p>
+          <figure id="frontis" entity="wheatfp">
+            <p>Phillis Wheatley<lb/>Negro Servant to Mr. John Wheatley of Boston<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="wheattp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso">
+        <p>
+          <figure id="verso" entity="wheatvs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Memoir and Poems
+<lb/>
+of
+<lb/>
+PHILLIS WHEATLEY,
+ <lb/>A 
+<lb/>
+Native African and a Slave.</titlePart>
+          <titlePart type="subtitle">DEDICATED TO THE 
+<lb/>
+FRIENDS OF THE AFRICANS.</titlePart>
+        </docTitle>
+        <epigraph>
+          <lg type="verse">
+            <l>‘Some view the sable race with scornful eye—</l>
+            <l>‘Their color is a diabolic dye;</l>
+            <l>‘But know, ye Christians, Negroes black as Cain</l>
+            <l>‘May be refined, and join the angelic train.’</l>
+          </lg>
+        </epigraph>
+        <docImprint>
+          <pubPlace>Boston:</pubPlace>
+          <publisher>PUBLISHED BY GEO. W. LIGHT,
+Lyceum Depository, 3 Cornhill.</publisher>
+          <docDate>1834.</docDate>
+        </docImprint>
+        <pb id="wheat2" n="verso"/>
+        <docImprint>
+          <docDate>Entered according to Act of Congress, in the year 1834,
+<lb/>By Geo. W. Light,
+<lb/>In the Clerk's Office of the District Court of Massachusetts.</docDate>
+        </docImprint>
+      </titlePage>
+      <pb id="wheat3" n="3"/>
+      <div1 type="contents">
+        <head>CONTENTS.</head>
+        <list type="simple">
+          <item>Introduction, . . . . . <ref targOrder="U" target="wheat5">5</ref></item>
+          <item>Memoir, . . . . . <ref targOrder="U" target="wheat9">9</ref></item>
+          <item>Dedication, . . . . . <ref targOrder="U" target="wheat33">33</ref></item>
+          <item>Preface, . . . . . <ref targOrder="U" target="wheat35">35</ref></item>
+          <item>Mr. Wheatley's Letter to the Publisher, . . . . . <ref targOrder="U" target="wheat36">36</ref></item>
+          <item>To the Public, . . . . . <ref targOrder="U" target="wheat37">37</ref></item>
+          <item>POEMS:—To Mæcenas, . . . . . <ref targOrder="U" target="wheat39">39</ref></item>
+          <item>On Virtue, . . . . . <ref targOrder="U" target="wheat41">41</ref></item>
+          <item>On being brought from Africa to America, . . . . . <ref targOrder="U" target="wheat42">42</ref></item>
+          <item>To the University of Cambridge, in New England, . . . . . <ref targOrder="U" target="wheat42">42</ref></item>
+          <item>To the King's Most Excellent Majesty, . . . . . <ref targOrder="U" target="wheat43">43</ref></item>
+          <item>On the Death of the Rev. Dr. Sewell, . . . . . <ref targOrder="U" target="wheat44">44</ref></item>
+          <item>On the Death of the Rev. George Whitefield, . . . . . <ref targOrder="U" target="wheat46">46</ref></item>
+          <item>On the Death of a Young Lady of five years of age, . . . . . <ref targOrder="U" target="wheat48">48</ref></item>
+          <item>On the Death of a Young Gentleman, . . . . . <ref targOrder="U" target="wheat49">49</ref></item>
+          <item>To a Lady, on the Death of her Husband, . . . . . <ref targOrder="U" target="wheat50">50</ref></item>
+          <item>Goliath of Gath, . . . . . <ref targOrder="U" target="wheat51">51</ref></item>
+          <item>Thoughts on the Works of Providence, . . . . . <ref targOrder="U" target="wheat58">58</ref></item>
+          <item>To a Lady, on the Death of three Relations, . . . . . <ref targOrder="U" target="wheat63">63</ref></item>
+          <item>To a Clergyman, on the Death of his Lady, . . . . . <ref targOrder="U" target="wheat64">64</ref></item>
+          <item>A Hymn to the Morning, . . . . . <ref targOrder="U" target="wheat65">65</ref></item>
+          <item>A Hymn to the Evening, . . . . . <ref targOrder="U" target="wheat66">66</ref></item>
+          <item>Isaiah, 63d Chap. 1st and 8th Verses, . . . . . <ref targOrder="U" target="wheat67">67</ref></item>
+          <item>On Recollection, . . . . . <ref targOrder="U" target="wheat68">68</ref></item>
+          <item>On Imagination, . . . . . <ref targOrder="U" target="wheat70">70</ref></item>
+          <item>A Funeral Poem on the Death of C. E., an Infant of twelve<lb/>
+months, . . . . . <ref targOrder="U" target="wheat72">72</ref></item>
+          <item>To Captain H—d . . . . . <ref targOrder="U" target="wheat74">74</ref></item>
+          <item>To the Right Honorable William, Earl of Dartmouth, . . . . . <ref targOrder="U" target="wheat74">74</ref></item>
+          <item>Ode to Neptune, on Mrs. W—'s Voyage to England, . . . . . <ref targOrder="U" target="wheat76">76</ref></item>
+          <pb id="wheat4" n="4"/>
+          <item>To a Lady, on her coming to North America with her Son, for<lb/>
+the recovery of her Health, . . . . . <ref targOrder="U" target="wheat77">77</ref></item>
+          <item>To a Lady, on her remarkable Preservation in a Hurricane, in<lb/>
+North Carolina, . . . . .<ref targOrder="U" target="wheat78"> 78</ref></item>
+          <item>To a Lady and her Children, on the Death of her Son and<lb/>
+their Brother, . . . . . <ref targOrder="U" target="wheat79">79</ref></item>
+          <item>To a Gentleman and Lady, on the Death of the Lady's Brother<lb/>
+and Sister, and a Child of the name of Avis, aged one<lb/>
+year, . . . . . <ref targOrder="U" target="wheat80">80</ref></item>
+          <item>On the Death of Dr. Samuel Marshall, . . . . . <ref targOrder="U" target="wheat82">82</ref></item>
+          <item>To a Gentleman, on his Voyage to Great Britain, for the <lb/>
+Recovery of his Health, . . . . . <ref targOrder="U" target="wheat83">83</ref></item>
+          <item>To the Rev. Dr. Thomas Amory, on reading his Sermons on<lb/>
+Daily Devotion, in which that Duty is recommended and<lb/>
+assisted, . . . . . <ref targOrder="U" target="wheat84">84</ref></item>
+          <item>On the Death of J. C., an Infant, . . . . . <ref targOrder="U" target="wheat85">85</ref></item>
+          <item>A Hymn to Humanity, . . . . . <ref targOrder="U" target="wheat87">87</ref></item>
+          <item>To the Hon. T. H., Esq., on the Death of his Daughter, . . . . . <ref targOrder="U" target="wheat88">88</ref></item>
+          <item>Niobe in Distress for her Children slain by Apollo, . . . . . <ref targOrder="U" target="wheat89">89</ref></item>
+          <item>To S. M., a young African Painter, on seeing his Works, . . . . . <ref targOrder="U" target="wheat97">97</ref></item>
+          <item>To His Honor the Lieutenant Governor, on the Death of his<lb/>
+Lady, . . . . . <ref targOrder="U" target="wheat98">98</ref></item>
+          <item>A Farewell to America, . . . . . <ref targOrder="U" target="wheat100">100</ref></item>
+          <item>A Rebus, . . . . . <ref targOrder="U" target="wheat102">102</ref></item>
+          <item>Answer to the Rebus, . . . . . <ref targOrder="U" target="wheat102">102</ref></item>
+        </list>
+      </div1>
+      <pb id="wheat5" n="5"/>
+      <div1 type="text">
+        <head>INTRODUCTION.</head>
+        <p>SKETCHES of the lives of those who have been distinguished for talents and virtues, 
+are generally acknowledged to have a happy moral influence. But especially is it the 
+case, that, when these qualities have raised the individual who possesses them from the 
+humblest walks of life, to the notice and approbation of the wise and good in its elevated 
+stations, the example cannot but be an encouragement and a gratification to those gifted spirits, 
+unto whom the lines have fallen in the shade-places of life, but who aspire to pitch their tent in 
+the sunshine.</p>
+        <p>Under these impressions we introduce to the reader the subject of the following Memoir, whom we 
+find in the lowest condition of humanity; for she was sold and bought like a beast in the market!
+ and that in the same land where, shortly after, the people rose in their indignation against 
+oppression, and asserted, in the face of a frowning world, that ‘All men are born free and equal.’</p>
+        <p>But the stain of slavery has long been erased from the annals of New England. The groan of the 
+African is not heard among her beautiful hills, nor the whip of the taskmaster in her pleasant 
+<sic corr="valleys">vallies.</sic> Would it were thus unto
+<pb id="wheat6" n="6"/>
+our farthest shores!  How can a free people be a slaveholding
+people? Surely in that social community, where man is claimed as the property of his 
+fellow, the cornerstone of the Temple of Liberty must be laid in the sand;
+and whither shall we flee when such frail foundation is unsettled?</p>
+        <p>We have been told of the happiness of the Negro in his bondage; how blithely he joins in 
+the dance, and how joyously he lifts the burthen of the song, and how free he is from 
+all care for the morrow. But would the free man change places with the slave? Does 
+he envy his condition? It was said of the peasants of France, in the days of a 
+stern master, that they danced to forget their servitude. Mere animal excitement is 
+the enjoyment of the beasts of the forest and the field, the bird of the air, the fish 
+of the sea, and the million insect tribes, sporting in every sun-beam; but this is not 
+the happiness of man. This has to do with mind, and that mind possesses the greatest 
+capacities for happiness, which is most developed, enlarged and improved. How, then, 
+can it be said that the poor slave is happy, whose soul is bound down to the dust by 
+the chains of ignorance and sin? Does his master say he will instruct him? he will 
+teach him? He cannot. He dare not. Let the coffers of science be unlocked to the 
+African. Give him free access to the treasures of knowledge. Make him acquainted 
+with the wealth of his own spirit—his own strength—and his own 
+rights—and the white man would strive to bind him as vainly as the 
+Philistines strove against Sampson. Even now, in his day of darkness, how 
+often has he made the hearts of his
+<pb id="wheat7" n="7"/>
+keepers to quail, and their cheeks to blanch with fear, when they have looked 
+on their wives and little ones, and heard the cry of vengeance fill their 
+plantations with dismay.</p>
+        <p>But even were the thrall of bondage broken, the hapless victim of slavery would 
+find himself, in but too many places, we fear, fettered by prejudice—despised 
+by the proud—insulted by the scornful. Such has been another of the poisonous 
+operations of slavery on public sentiment. But we are not about to weary the reader 
+with the horrors of this system. It will be our humble endeavor, simply to present 
+an unvarnished record of African genius, sustained by Christian benevolence and 
+guided by Christian faith.</p>
+        <p>We will not, however, conclude our remarks without reference to that spirit of the 
+present time which manifestly is moving abroad on the face of society, for the 
+amelioration of the condition, and the <sic corr="development">developement</sic> of the capacity, of the African, of every class. We are glad to perceive that serious and strenuous efforts are being 
+made for the benefit of some of our states—where this system is in its 
+strong-holds—at the suggestion of good men, for the religious instruction of 
+the slaves. There cannot be the least doubt, as it seems to us, that this measure 
+is not only safe and seasonable, but that the policy of the master, so as he remains
+ a master, requires it not less than the true happiness of the slave. But especially
+ is it desirable, among the preparations to the great work of general emancipation, which we trust is not only borne in mind constantly by all good men, but is not far 
+distant in reality. In a word, all the exertions now made, by the benevolent
+<pb id="wheat8" n="8"/>
+friends of the African, appear to us likely to produce or suggest, directly 
+or indirectly, a great amount of good, and to promise the early dawning of 
+that bright day, when, in the moral view of his fellow-men, no less than of 
+that Creator who has ‘made them all of one blood,’ the African shall be as 
+the American, and the black man as the white.</p>
+      </div1>
+    </front>
+    <group>
+      <text>
+        <body>
+          <pb id="wheat9" n="9"/>
+          <div1 type="text">
+            <head>MEMOIR.</head>
+            <p>PHILLIS WHEATLEY was a native of Africa; and was brought to this country in 
+the year 1761, and sold as a slave.</p>
+            <p>She was purchased by Mr. John Wheatley, a respectable citizen of Boston. This 
+gentleman, at the time of the purchase, was already the owner of several slaves; 
+but the females in his possession were getting something beyond the active 
+periods of life, and Mrs. Wheatley wished to obtain a young negress, with the 
+view of training her up under her own eye, that she might, by gentle usage, 
+secure to herself a faithful domestic in her old age. She visited the slave-market, 
+that she might make a personal selection from the group of unfortunates offered 
+for sale. There she found several robust, healthy females, exhibited at the same 
+time with Phillis, who was of a slender frame, and evidently suffering from change 
+of climate. She was, however, the choice of the lady, who acknowledged herself 
+influenced to this decision by the humble and modest demeanor and the interesting 
+features of the little stranger.</p>
+            <p>The poor, naked child (for she had no other covering than a quantity of dirty 
+carpet about her like a <sic corr="original word">fillibeg</sic>) was taken home in the chaise of her mistress, 
+and comfortably attired. She is supposed to have been about
+<pb id="wheat10" n="10"/>
+seven years old, at this time, from the circumstance of shedding her front teeth. 
+She soon gave indications of uncommon intelligence, and was frequently seen 
+endeavoring to make letters upon the wall with a piece of chalk or charcoal.</p>
+            <p>A daughter<ref targOrder="U" id="ref1" n="1" rend="sc" target="note1">*</ref> of Mrs. Wheatley, not long after the child's first introduction to 
+the family, undertook to learn her to read and write; and, while she astonished 
+her instructress by her rapid progress, she won the good will of her kind mistress, 
+by her amiable disposition and the propriety of her behaviour. She was not devoted 
+to menial occupations, as was at first intended; nor was she allowed to associate 
+with the other domestics of the family, who were of her own color and condition, 
+but was kept constantly about the person of her mistress.</p>
+            <note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1">
+              <p>*This lady was better known subsequently as Mrs. Lathrop. </p>
+            </note>
+            <p>She does not seen to have preserved any remembrance of the place of her nativity, 
+or of her parents, excepting the simple circumstance that her mother <hi rend="italics">poured out 
+water before the sun at his rising</hi>—in reference, no doubt, to an ancient 
+African custom. The memories of most children reach back to a much earlier period 
+than their seventh year; but there are some circumstances (which will shortly appear) 
+which would induce us to suppose, that in the case of Phillis, this faculty did not 
+equal the other powers of her mind. Should we be mistaken in this inference, the 
+faithlessness of memory concerning the scenes of her childhood, may be otherwise 
+accounted for.</p>
+            <p>We cannot know at how early a period she was beguiled from the hut of her mother; 
+or how long a time elapsed between her abduction from her first home and
+<pb id="wheat11" n="11"/>
+her being transferred to the abode of her benevolent mistress, where she must have 
+felt like one awaking from a fearful dream. This interval was, no doubt, a long one; 
+and filled, as it must have been, with various degrees and kinds of suffering, might 
+naturally enough obliterate the recollection of earlier and happier days. The solitary exception which held its 
+place so tenaciously in her mind, was probably renewed from 
+day to day through this long season of affliction; for, every morning, when the 
+bereaved child saw the sun emerging from the wide waters, she must have thought of her mother, prostrating 
+herself before the first golden beam that glanced 
+across her native plains.</p>
+            <p>As Phillis increased in years, the <sic corr="development">developement</sic> of her mind realized the promise 
+of her childhood; and she soon attracted the attention of the literati of the day, 
+many of whom furnished her with books. These enabled her to make considerable 
+progress in belles-lettres; but such gratification seems only to have increased 
+her thirst after knowledge, as is the case with most gifted minds, not misled by 
+vanity; and we soon find her endeavoring to master the Latin tongue.</p>
+            <p>She was now frequently visited by clergymen, and other individuals of high standing 
+in society; but notwithstanding the attention she received, and the distinction
+ with which she was treated, she never for a moment lost sight of that modest, 
+unassuming demeanor, which first won the heart of her mistress in the slave-market. 
+Indeed, we consider the strongest proof of her worth to have been the earnest 
+affection of this excellent woman, who admitted her to her own board. Phillis 
+ate of her bread, and drank of her cup, and was to her as a daughter;
+<pb id="wheat12" n="12"/>
+for she returned her affection with unbounded gratitude, and was so devoted 
+to her interests as to have no will in opposition to that of her benefactress.</p>
+            <p>We cannot ascertain that she ever received any formal manumission; but the chains 
+which bound her to her master and mistress were the golden links of love, and 
+the silken bands of gratitude. She had a child's place in their house and in their 
+hearts. Nor did she, notwithstanding their magnanimity in setting aside the prejudices 
+against color and condition, when they found these adventitious circumstances 
+dignified by talents and worth, ever presume on their indulgence either at home or 
+abroad. Whenever she was invited to the houses of individuals of wealth and 
+distinction, (which frequently happened,) she always declined the seat offered 
+her at their board, and, requesting that a side-table might be laid for her, dined 
+modestly apart from the rest of the company.</p>
+            <p>We consider this conduct both dignified and judicious. A woman of so much mind as 
+Phillis possessed, could not but be aware of the emptiness of many of the artificial 
+distinctions of life. She could not, indeed, have felt so utterly unworthy to sit 
+down among the guests, with those by whom she had been bidden to the banquet. But 
+she must have been painfully conscious of the feelings with which her unfortunate 
+race were regarded; and must have reflected that, in a mixed company, there might 
+be many individuals who would, perhaps, think they honored her too far by dining 
+with her at the same table. Therefore, by respecting even the prejudices of those 
+who courteously waived them in her favor, she very delicately expressed her 
+gratitude; and,
+<pb id="wheat13" n="13"/>
+following the counsels of those Scriptures to which she was not a stranger, and 
+taking the lowest seat at the feast, she placed herself where she could certainly 
+expect neither to give or receive offence.</p>
+            <p>It is related that, upon the occasion of one of these visits, the weather changed 
+during the absence of Phillis; and her anxious mistress, fearful of the effects of 
+cold and damp upon her already delicate health, ordered Prince (also an African 
+and a slave) to take the chaise, and bring home her <hi rend="italics">protegee.</hi> When the chaise 
+returned, the good lady drew near the window, as it approached the house, and 
+exclaimed—‘Do but look at the saucy varlet—if he has n't the impudence 
+to sit upon the same seat with <hi rend="italics">my Phillis!’</hi> And poor Prince received a severe 
+reprimand for forgetting the dignity thus kindly, though perhaps to him unaccountably, 
+attached to the sable person of ‘my Phillis.’</p>
+            <p>In 1770, at the age of sixteen, Phillis was received as a member of the church 
+worshipping in the Old South Meeting house, then under the pastoral charge of the 
+Rev. Dr. Sewall. She became an ornament to her profession; for she possessed that
+ meekness of spirit, which, in the language of <sic corr="inspiration">isnpiration,</sic> is said to be above 
+all price. She was very gentle-tempered, extremely affectionate, and altogether 
+free from that most despicable foible, which might naturally have been her 
+besetting sin—literary vanity.</p>
+            <p>The little poem commencing,
+<q direct="unspecified"><lg type="poem"><l>‘ 'T was mercy brought me from my heathen land,’</l></lg></q>
+will be found to be a beautiful expression of her religious sentiments, 
+and a noble vindication of the claims
+<pb id="wheat14" n="14"/>
+of her race. We can hardly suppose any one, reflecting by whom it was 
+written—an African and a slave—to read it without emotions both of regret and admiration.</p>
+            <p>Phillis never indulged her muse in any fits of sullenness or caprice. She was at all 
+times accessible. If any one requested her to write upon any particular subject or event, she immediately set 
+herself to the task, and produced something upon the given theme. This is probably the reason why so many of 
+her pieces are funeral poems, many of them, no doubt, being written at the request of friends. Still, 
+the variety of her compositions affords sufficient proof of the versatility of her genius. We find her
+ at one time occupied in the contemplation of an event affecting the condition of a whole 
+people, and pouring forth her thoughts in a lofty strain. Then the song sinks to the soft 
+tones of sympathy in the affliction occasioned by domestic bereavement. Again, we observe 
+her seeking inspiration from the sacred volume, or from the tomes of heathen lore; now 
+excited by the beauties of art, and now, hymning the praises of nature to ‘Nature's 
+God.’ On one occasion, we notice her—a girl of but fourteen years—recognizing 
+a political event, and endeavoring to express the grateful loyalty of subjects to their rightful 
+king—not as one, indeed, who had been trained to note the events of nations, by a course of 
+historical studies, but one whose habits, taste and opinions, were peculiarly her own; for in 
+Phillis we have an example of originality of no ordinary character. She was allowed, and even 
+encouraged, to follow the leading of her own genius; but nothing was
+forced upon her, nothing suggested, or placed before her
+<pb id="wheat15" n="15"/>
+as a lure; her literary efforts were altogether the natural workings of her own mind.</p>
+            <p>There is another circumstance respecting her habits of composition, which peculiarly claims our 
+attention. She did not seem to have the power of retaining the creations of her own fancy, for 
+a long time, in her own mind. If, during the vigil of a wakeful night, she amused herself by 
+weaving a tale, she knew nothing of it in the morning—it had vanished in the land of dreams.
+ Her kind mistress indulged her with a light, and in the cold season with a fire, in her apartment,
+ during the night. The light was placed upon a table at her bedside, with writing materials, that 
+if any thing occurred to her after she had retired, she might, without rising or taking cold, 
+secure the swift-winged fancy, ere it fled.</p>
+            <p>We have before remarked, that Mrs. Wheatley did not require or permit her services as a domestic; 
+but she would sometimes allow her to polish a table or dust an apartment, (occupations which were 
+not thought derogatory to the dignity of a lady in those days of primitive simplicity) or engage 
+in some other trifling occupation that would break in upon her sedentary habits; but not 
+unfrequently, in these cases, the brush and the duster were soon dropped for the pen, that
+ her meditated verse might not escape her.</p>
+            <p>It has been suggested that memory was in fault in this instance; but we have hesitated to 
+account for this singular habit of mind in this manner; for, upon duly considering the point, 
+we cannot suppose that Phillis could have made such rapid progress in various branches of knowledge,
+ if she had not possessed a retentive memory—and still less, that she could have 
+succeeded in the attainment
+<pb id="wheat16" n="16"/>
+of one of the dead languages. We are rather inclined to refer the fact in question to some 
+peculiar structure of mind—possibly to its activity—perhaps occasioned by lack
+ of early discipline—one fancy thrusting forth another, and occupying its place.</p>
+            <p>But the difficulty still remains, that she could not recall those fancies. Most persons 
+are aware that, by a mental effort, (and there is no operation of the mind more wonderful) 
+they can recall scenes and events long since forgotten; but Phillis does not seem to have 
+possessed this power, as it respects her own productions,—for we believe this singularity
+ to have affected her own thoughts only, and not the impressions made upon her mind by 
+the thoughts of others, communicated by books or conversation.</p>
+            <p>We consider this statement of the case corroborated by the poem on ‘Recollection.’ 
+In this little effusion, referring so directly to the point in question, we find no intimation 
+or acknowledgment of any deficiency, but rather the contrary; and when we remember Phillis's 
+simplicity of character, we cannot suppose that an imperfection of the kind would have been 
+thus passed unnoticed, had any such existed. But, however this singularity may be accounted 
+for, we state the fact as we believe it to have existed, and leave our readers to draw their 
+own inferences. Perhaps there may be many gifted minds conscious of the same peculiarity.</p>
+            <p>By comparing the accounts we have of Phillis's progress, with the dates of her earliest poems, 
+we find that she must have commenced her career as an authoress, as soon as she could write a 
+legible hand, and without being acquainted with the rules of composition. Indeed,
+<pb id="wheat17" n="17"/>
+we very much doubt if she ever had any grammatical instruction, or any knowledge of the structure
+ or idiom of the English language, except what she imbibed from a perusal of the best English 
+writers, and from mingling in polite circles, where, fortunately, she was encouraged to 
+converse freely with the wise and the learned.</p>
+            <p>We gather from her writings, that she was acquainted with astronomy, ancient and modern 
+geography, and ancient history; and that she was well versed in the scriptures of the 
+Old and New Testament. She discovered a decided taste for the stories of Heathen Mythology, 
+and Pope's Homer seems to have been a great favorite with her.</p>
+            <p>Her time, when she was at home, was chiefly occupied with her books, her pen, and her needle; 
+and when we consider the innocence of her life, the purity of her heart, and the modest pride 
+which must have followed her successful industry, joined to the ease and contentment of her 
+domestic lot, we cannot but suppose these early years to have been years of great happiness.</p>
+            <p>The reader is already aware of the delicate constitution and frail health of Phillis. During
+ the winter of 1773, the indications of disease had so much increased, that her physician 
+advised a sea voyage. This was earnestly seconded by her friends; and a son of Mr. and Mrs. 
+Wheatley being about to make a voyage to England to arrange a mercantile correspondence, 
+it was settled that Phillis should accompany him, and she accordingly embarked in the summer
+ of the same year.</p>
+            <p>She was at this time but nineteen years old, and was at the highest point of her short and 
+brilliant career. It is with emotions of sorrow that we approach the strange
+<pb id="wheat18" n="18"/>
+and splendid scenes which were now about to open upon her—to be succeeded by grief and desolation.</p>
+            <p>Phillis was well received in England, and was presented to Lady Huntingdon, Lord Dartmouth, Mr. 
+Thornton,<ref targOrder="U" id="ref2" n="2" rend="sc" target="note2">*</ref><note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* Another of the benefactors of Dartmouth College. </p></note> and many other individuals of distinction; but, says our informant, ‘not all the attention she received, nor all the honors that were heaped upon her, had the slightest influence upon her temper or deportment.  She was still the same single-hearted, unsophisticated being.’ During her stay in England, her poems were given to the world, dedicated to the Countess of Huntingdon, and embellished with an engraving which is said to have been a striking representation of the original.  It is supposed that one of these impressions was forwarded to her mistress, as soon as they were struck off; for a grand niece of Mrs. Wheatly's informs us that, during the absence of Phillis, she one day called upon her relative, who immediately directed her attention to a picture over the fire-place, exclaiming —‘See! look at my Phillis! does she not seem as though she would speak to me!’</p>
+            <p>Phillis arrived in London so late in the season, that the great mart of fashion was deserted. 
+She was therefore urgently pressed by her distinguished friends to remain until the Court returned to St.
+ James's, that she might be presented to the young monarch, George III. She would probably have consented 
+to this arrangement, had not letters from America informed her of the declining health of her mistress, 
+who intreated her to return, that she might once more behold her beloved protegee.</p>
+            <pb id="wheat19" n="19"/>
+            <p>Phillis waited not a second bidding, but immediately re-embarked, and arrived in safety at that
+ once happy home, which was so soon to be desolate. It will probably occur to the reader as singular,
+ that Phillis has not borne a more decided testimony to the kindness of those excellent friends who 
+so tenderly cherished her. Her farewell to America was inscribed to her mistress, indicated by the 
+initials, S. W., but here she merely alludes to the pain of parting. If any other pieces were ever 
+devoted to her, they were doubtless destroyed; for upon mentioning the singularity of her omitting 
+to record a testimony of her gratitude to her benefactors, we were told, by one of the very few
+ individuals who have any recollection of Mrs. Wheatley or Phillis, that the former was a woman 
+distinguished for good sense and discretion; and that her christian humility induced her to
+ shrink from the thought of those good deeds being blazoned forth to the world, which were 
+performed in the privacy of her own happy home. It appears, also, that on her death-bed she 
+requested that nothing might be written upon her decease. Indeed, Phillis was forbidden this 
+indulgence of her grief, and it was shortly after her mournful duty to close the eyes of her 
+indulgent mistress and unwearied friend.</p>
+            <p>The decease of this excellent lady occurred in the year 1774.  Her husband soon followed her to the 
+house appointed for all living; and their daughter joined them in the chambers of death. The son had 
+married and settled in England; and Phillis was now, therefore, left utterly desolate. She spent a short
+ time with a friend of her departed mistress, and then took an apartment, and lived by herself.  
+This 
+was a strange change to one
+<pb id="wheat20" n="20"/>
+who had enjoyed the comforts and even luxuries of life, and the happiness of a fire-side where a well regulated
+ family were accustomed to gather. Poverty, too, was drawing near with its countless afflictions. She could hope
+ for little extraneous aid; the troubles with the mother country were thickening around; every home was darkened,
+ and every heart was sad.</p>
+            <p>At this period of destitution, Phillis received an offer of marriage from a respectable colored man of Boston. 
+The name of this individual was Peters. He kept a grocery in Court-Street, and was a man of very handsome person 
+and manners; wore a wig, carried a cane, and quite acted out <hi rend="italics">‘the gentleman.’</hi> 
+In an evil hour he was accepted; and he proved utterly unworthy of the distinguished woman who honored him by her 
+alliance. He was unsuccessful in business, and failed soon after their marriage; and he is said to have been
+ both too proud and too indolent to apply himself to any occupation below his fancied dignity. Hence his 
+unfortunate wife suffered much from this ill-omened union.</p>
+            <p>The difficulties between the colonies and the mother country had by this time increased to open hostilities. 
+Universal distress prevailed. The provincial army was scantily provided with clothing and food; and the families
+ of those who were fighting for their country, most of whom had been cherished in the lap of plenty, were
+ glad to obtain their daily bread. The inhabitants of Boston were fleeing in all directions; and Phillis 
+accompanied her husband to Wilmington, in this state. In an obscure country village, the necessaries of 
+life are always obtained with more difficulty than in a populous town, and in this season of scarcity, 
+Phillis suffered much
+<pb id="wheat21" n="21"/>
+from privation—from absolute want—and from painful exertions to which she was unaccustomed, 
+and for which her frail constitution unfitted her. We cannot be surprised that, under these distressing 
+circumstances, her health, which had been much improved by her voyage to England, should have again 
+declined. We rather wonder, that one who had been so tenderly reared, and so fondly nurtured, should 
+have borne up, for so long a season, against such an increasing burthen of misfortune and affliction.</p>
+            <p>In the course of these years of suffering, she became the mother of three infants, who inherited the 
+frail health of their parent; and thus to her other cares was added the anxiety of a mother, watching 
+the flickering flame glowing in the bosom of her offspring, and trembling every moment lest the breath 
+of adversity should extinguish a life so dear to her. We know little of Phillis in her relations of 
+wife and mother; but we cannot suppose, that one who had been so faithful to her earliest friend, who
+ was so meek and unassuming, and possessed of such an affectionate constitutional disposition, could 
+have been unmindful, in any case, of her conjugal or matronly duties. Nor can we learn that a breath 
+of complaint or reproach ever escaped her respecting her husband. There are some, however, not so 
+tender of a name she was not allowed to bear, who speak of him as that man deserves to be spoken
+ of, who beguiles a woman to confide in his protection, and betrays her trust and his own.</p>
+            <p>We have alluded above to the circumstance that we never heard Phillis named, or alluded to, by any other 
+appellation than that of ‘Phillis Wheatley’—a name 
+<pb id="wheat22" n="22"/>
+which she sustained with dignity and honor, not only in the vicinity of her own residence, but upon far
+ distant shores. After the evacuation of Boston by the British troops, Phillis returned thither. 
+A niece of Mrs. Wheatley's, whose son had been slain in battle, received her beneath her own roof.
+ This lady was a widow, and not wealthy. She kept a small day school to increase her narrow income. 
+Her mansion had been much injured by the enemy, but it afforded a shelter to herself and daughter,
+ and they ministered to Phillis, and her three suffering children, for six weeks. At the end of 
+that period, Peters came for his wife, and, having provided an apartment, took her thither with 
+her little family.</p>
+            <p>It must be remembered that this was a season of general  poverty. Phillis's friends of former days 
+were scattered far and wide. Many of them, attached to the royal interest, had left the country. 
+The successful patriots, during the seven years' contention, had not only lost the profits which 
+would have arisen from their industry, but were obliged to strain every nerve to meet the exigencies 
+of the war. The depreciation of the currency added greatly to the general distress. Mr. Thacher, for
+ example, in his History of Plymouth, tells us of a man who sold a cow for forty dollars, and gave 
+the same sum for a goose! We have ourselves heard an elderly lady<ref targOrder="U" id="ref3" n="3" rend="sc" target="note3">*</ref>
+<note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3"><p>* The grandmother of the writer of 
+this Memoir. </p></note>
+ relate, that her husband, serving in the army, forwarded her in a letter fifty dollars, which was 
+of so little value when she received it, that she paid the whole for a quarter of mutton, so poor 
+and so tough, that it required great skill and patience, in the culinary
+<pb id="wheat23" n="23"/>
+department, to render it fit for the table. ‘In this condition of things,’ observes the lady,
+ whom we have more than once referred to, and to whom we expressed our surprise at the neglect and 
+poverty into which Phillis was suffered to decline, ‘people had other things to attend to than 
+prose and poetry, and had little to bestow in charity, when their own children were clamorous for. bread.’ Poor Phillis was left to the care of her negligent husband.</p>
+            <p>We now learn nothing of her for a long interval. At length a relative of her lamented mistress heard 
+of her illness, and sought her out. She was also visited by several other members of that family. 
+They found her in a situation of extreme misery. Two of her children were dead, and the third was 
+sick unto death. She was herself suffering for want of attention, for many comforts, and that greatest
+ of all comforts in sickness—cleanliness. She was reduced to a condition too loathsome to describe.
+ If a charitable individual, moved at the sight of so much distress, sent a load of wood, to render her 
+more comfortable during the cold season, her husband <hi rend="italics">was too much of a gentleman</hi> 
+to prepare it for her use.—It is painful to dwell upon the closing scene. In a filthy apartment, 
+in an obscure part of the metropolis, lay the dying mother, and the wasting child. The woman who had 
+stood honored and respected in the presence of the
+wise and good of that country which was hers by adoption, or rather compulsion, who had graced the 
+ancient halls of Old England, and rolled about in the splendid equipages of the proud nobles of Britain,
+ was now numbering the last hours of life in a state of the most abject misery, surrounded by all the
+ emblems of squalid poverty!</p>
+            <pb id="wheat24" n="24"/>
+            <p>Little more remains to be told. It is probable, (as frequently happens when the constitution has long
+ borne up against disease) that the thread of life, attenuated by suffering, at last snapped suddenly; 
+for the friends of Phillis, who had visited her in her sickness, knew not of her death. Peters did not 
+see fit to acquaint them with the event, or to notify them of her interment. A grand niece of Phillis's 
+benefactress, passing up Court-Street, met the funeral of an adult and a child: a bystander informed her
+ they were bearing Phillis Wheatley to that silent mansion ‘where the wicked cease from troubling, 
+and the weary are at rest.’</p>
+            <p>They laid her away in her solitary grave, without a stone to tell that one so good and so gifted sleeps
+ beneath; and the waters of oblivion are rapidly erasing her name from the sands of time.—We 
+would that her memory were engraven upon the heart of the young, and the gifted, who are striving for
+ a niche in the temple of fame. We think, gentle reader, she is as worthy of a place in your thoughts,
+ as the heroines of the thousand tales dressed out to beguile your fancy. Remember, that though the 
+children of men regard feature and complexion, there is One who looketh upon the heart.</p>
+            <p>Here and there we find a solitary pilgrim, belonging to the days of the years that are gone, treasuring 
+Phillis's poems as a precious relic. But when <hi rend="italics">they</hi> shall have passed away, 
+who will remember her? May not this little record, though offered with diffidence, be allowed to 
+perpetuate her name?</p>
+            <p>The poems now republished, are as they came from the hands of the author, without the alteration of a
+<pb id="wheat25" n="25"/>
+word or letter. Surely they lift an eloquent voice in behalf of her race.</p>
+            <p>Is it urged that Phillis is but a solitary instance of African genius? Even though this were the case 
+(which we by no means grant) we reply—that had Phillis fallen into less generous and affectionate
+ hands, she would speedily have perished under the privations and exertions of common servitude. Or had 
+she dragged out a few years of suffering, she would have been of much less value to her master, than the 
+sturdy negress of more obscure faculties, but whose stronger limbs could have borne heavier burthens. How 
+then can it be known, among this unfortunate people, how often the light of genius is quenched in suffering and death?</p>
+            <p>The great difference between the colored man and his oppressors seems to us to be, that the great 
+Ruler of the universe has appointed power unto the white man for a season; and verily they have bowed down 
+their brethren with a rod of iron. From the luxuriant savannahs of America and the barren sands of Africa,
+ the blood of their victims cries unto God from the ground.</p>
+            <p>Friends of liberty! friends of humanity! when will ye appoint a jubilee for the African, and let the 
+oppressed go free?</p>
+            <p>We have named, in the course of the preceding Memoir, some of the remarkable privileges which fell to
+ the lot of Phillis. We should allude also more distinctly to the general disadvantages of her condition. 
+It must not be forgotten, that the opportunities of education allowed females, at this early period, were
+ few and meagre. Those who coveted superior advantages for their children
+<pb id="wheat26" n="26"/>
+sent them home (as the mother country was fondly termed) for their education. Of course, this expensive
+ method could be adopted only by a privileged few, chiefly belonging to old English families of rank and
+ wealth. The great mass of American females could boast of few accomplishments save housewifery. They
+ had few books beside their Bibles. They were not expected to read—far less to write. It was their 
+province to guide the spindle and distaff, and work willingly with their hands. <hi rend="italics">Now,</hi> woman is allowed to establish her humble stool somewhat nearer the elbow-chair of her lord and master; to pore over the huge tome of science, hitherto considered as his exclusive property; to con the musty volumes of classic lore, written even in strange tongues; to form her own opinions, and give them forth to the world. But, in the days of Phillis, these things were not so. She was not stimulated to exertion by the successful cultivation of female talent. She had no brilliant exhibition of feminine genius before her, to excite her emulation; and we are at a loss to conjecture, how the first strivings of her mind after knowledge—her delight in literature, her success even in a dead language, the first bursting forth of her thoughts in song—can be accounted for, unless those efforts are allowed to have been the inspirations of that genius which is the gift of God. And who will dare to say, that the benevolent Sovereign of the universe has appointed her unfortunate race to be hewers of wood and drawers of water, and given them no portion with their brethren?</p>
+            <p>The distinguished women of France were trained, as it were, in the very temple of science, to minister at its altars. Those of England stood, too, in the broad light
+<pb id="wheat27" n="27"/>
+of its wide-spreading beams; but at the time when Phillis lived, our own land was darkly overshadowed. We had no
+ philosophers, no historians, no poets; and
+our statesmen—those wonderful men, who stood forth in the day of a nation's peril, the wonder and glory 
+of the world—had not then breathed forth those mighty energies which girded the warrior for the battle, 
+and nerved the hearts of a whole people as the heart of one man. All here was calm and passionless as the natural
+ world upon the morning of creation, ere the Spirit of God had moved upon the face of the waters. It passed, 
+and the day-spring knew its place. Even thus with the spirit of Liberty. It breathed upon our sleeping nation,
+ awakening the genius of the people to appear from time to time in a thousand new and multiplying forms of 
+ever-varying beauty.</p>
+            <p>Since that day, our philosophers have stood in the courts of monarchs, more honored than he who held the
+ sceptre;
+ and the recesses of the leafy forest, and the banks of the solitary stream and lonely lake, have been 
+hallowed by the legends of the children of song. Nor has skill been wanting to embody the deeds of our fathers,
+ or shadow forth the gentle and the brave, in tales that have stirred many hearts, even beyond the waters. 
+But Phillis lived not amid these happy influences. True, she heard the alarum of Liberty, but it was in 
+suffering and sorrow; and when the shout of triumph was raised, it fell upon a chilled heart and a closing 
+ear. The pride of victory could scarce move the sympathies of one who had known the emptiness of glory, 
+and proved the mockery of fame.</p>
+            <pb id="wheat28" n="28"/>
+            <p>The evidences she has left us of her genius, were the productions of early and happy days, before her mind
+ was matured by experience, the depths of her soul fathomed by suffering, or her fine powers chastened by 
+affliction. The blight was upon her in her spring-time, and she passed away.</p>
+            <p>The reader may claim to be satisfied as to the authenticity of the facts stated in the preceding Memoir.</p>
+            <p>They were derived from grand-nieces of Phillis's benefactress, who are still living, and have a distinct 
+and vivid remembrance both of their excellent relative and her admired protegee.</p>
+            <p>Their statements are corroborated by a grand-daughter of that lady, now residing in Boston; who, though
+ much younger than the individuals alluded to, recollects the circumstance of Phillis's visiting at the
+ house of her father. Other company was probably present; for the lady in question relates, that the 
+domestics observed, ‘it was the first time they ever carried tea to a colored woman.’</p>
+            <p>This lady communicates some particulars which we state with great pleasure, as they remove from Phillis the 
+supposition of her having formed a matrimonial connection from unworthy or mercenary motives. She assures us
+ that Peters was not only a very remarkable looking man, but a man of talents and information; and that he 
+wrote with fluency and propriety, and at one
+period read law. It is admitted, however, that he was disagreeable in his manners, and that on account of his
+<pb id="wheat29" n="29"/>
+improper conduct, Phillis became entirely estranged from the immediate family of her mistress: they were not 
+seasonably informed of her suffering condition, or of her death.</p>
+            <p>Lastly, the author of this Memoir is a collateral descendant of Mrs. Wheatley, and has been familiar with 
+the name and fame of Phillis from her childhood.</p>
+          </div1>
+          <div1 type="text">
+            <head>NOTE.</head>
+            <p>Previous to Phillis's departure for Wilmington, she entrusted her papers to a daughter of the lady who 
+received her on her return from that place. After her death, these papers were demanded by Peters, as 
+the property of his deceased wife, and were, of course, yielded to his importunity. Some years after,
+ he went to the South, and we have not been able to ascertain what eventually became of the manuscripts.</p>
+          </div1>
+        </body>
+      </text>
+      <text>
+        <front>
+          <div1 type="title page">
+            <p>
+              <figure id="title2" entity="wheattp2">
+                <p>[2nd Title Page Image]</p>
+              </figure>
+            </p>
+          </div1>
+          <titlePage>
+            <docTitle>
+              <titlePart type="main">POEMS
+<lb/>
+ON
+<lb/>
+VARIOUS SUBJECTS,
+<lb/>
+RELIGIOUS AND MORAL.</titlePart>
+            </docTitle>
+            <byline>BY </byline>
+            <docAuthor>PHILLIS WHEATLEY.</docAuthor>
+            <docImprint>
+              <pubPlace>FIRST PUBLISHED IN LONDON,</pubPlace>
+              <publisher> FROM THE ORIGINAL<lb/>
+MANUSCRIPT, BY ARCH. BELL, ALDGATE.</publisher>
+              <docDate>1773.</docDate>
+            </docImprint>
+          </titlePage>
+          <pb id="wheat33" n="33"/>
+          <div1 type="dedication">
+            <head>DEDICATION.</head>
+            <p>TO
+<lb/>
+THE  RIGHT HONORABLE, THE 
+<lb/>
+COUNTESS OF HUNTINGDON,
+<lb/>
+THE FOLLOWING POEMS
+<lb/>
+ARE MOST RESPECTFULLY INSCRIBED,
+<lb/>
+BY HER MUCH OBLIGED, VERY HUMBLE,
+<lb/>
+AND DEVOTED SERVANT,
+<lb/>
+PHILLIS WHEATLEY.
+<lb/>
+<hi rend="italics">BOSTON, JUNE</hi> 12, 1773.</p>
+          </div1>
+          <pb id="wheat35" n="35"/>
+          <div1 type="preface">
+            <head>PREFACE.</head>
+            <p>THE following POEMS were written originally for the Amusement of the Author, as they were the 
+Products of her leisure Moments. She had no Intention ever to have published them; nor would 
+they now have made their Appearance, but at the Importunity of many of her best and most 
+generous Friends, to whom she considers herself as under the greatest Obligation.</p>
+            <p>As her attempts in Poetry are now sent into the World, it is hoped the Critic will not severely 
+censure their Defects; and we presume they have too much Merit to be cast aside as 
+worthless and trifling Effusions.</p>
+            <p>As to the Disadvantages she has laboured under, with Regard to Learning, nothing needs to
+ be offered, as her Master's Letter, in the following Page, will sufficiently shew the 
+Difficulties in this Respect she had to encounter.</p>
+            <p>With all their Imperfections, the Poems are now humbly submitted to the Perusal of the Public.</p>
+          </div1>
+          <pb id="wheat36" n="36"/>
+          <div1 type="letter">
+            <head>
+              <hi rend="italics">The following is a Copy of a Letter sent by the Author's <lb/>Master to the Publisher.</hi>
+            </head>
+            <p>PHILLIS was brought from Africa to America in the Year 1761, between seven and eight years of Age. Without 
+any Assistance from School Education, and by only what she was taught in the Family, she, in sixteen Months 
+Time from her Arrival, attained the English Language, to which she was an utter stranger before, 
+to such a degree as to read any, the most difficult Parts of the Sacred Writings, to the great 
+astonishment of all who heard her.</p>
+            <p>As to her Writing, her own Curiosity led her to it; and this she learnt in so short a Time, 
+that in the year 
+1765, she wrote a letter to the Rev. Mr. Occum, the <hi rend="italics">Indian</hi> Minister, 
+while in England,</p>
+            <p>She has a great inclination to learn the Latin Tongue, and has made some progress in it.</p>
+            <p>This Relation is given by her Master, who bought her, and with whom she now lives.</p>
+            <closer><signed>JOHN WHEATLEY.</signed>
+<date><hi rend="italics">Boston, Nov. </hi>14<hi rend="italics">th,</hi> 1772.</date></closer>
+          </div1>
+          <pb id="wheat37" n="37"/>
+          <div1 type="text">
+            <head>TO THE PUBLIC.</head>
+            <p>As it has been repeatedly suggested to the Publisher, by persons who have seen the Manuscript, 
+that Numbers would be ready to suspect they were not really the Writings of Phillis, he has 
+procured the following Attestation, from the most respectable Characters in Boston, that none 
+might have the least ground for disputing their Original.</p>
+            <p>We, whose names are under-written, do assure the World, that the Poems specified in the 
+following Page<ref targOrder="U" id="ref4" n="4" rend="sc" target="note4">*</ref>
+<note id="note4" n="4" rend="sc" place="foot" anchored="yes" target="ref4"><p>* The words 'following Page,' 
+allude to the contents of the Manuscript Copy,
+which are wrote at the Back of the above Attestation. </p></note> were, (as we verily believe) 
+written by Phillis, a young Negro Girl, who was but a few years since, brought an uncultivated 
+barbarian from Africa, and has ever since been, and now is, under the disadvantage of serving 
+as a slave in a Family in this Town. She has been examined by some of the best Judges, and is 
+thought qualified to write them.</p>
+            <list type="simple">
+              <item>HIS EXCELLENCY THOMAS HUTCHISON, Governor,</item>
+              <item>The HON. ANDREW OLIVER, Lieut. Gov.</item>
+              <item>The HON. THOMAS HUBBARD, </item>
+              <item>The HON. JOHN ERVING,</item>
+              <item>The HON. JAMES PITTS,</item>
+              <item>The HON. HARRISON GRAY,</item>
+              <item>The HON. JAMES BOWDOIN,</item>
+              <item>JOHN HANCOCK, ESQ.</item>
+              <item>JOSEPH GREEN, Esq.	</item>
+              <item>RICHARD CAREY, Esq.</item>
+              <item>The REV. CHARLES CHAUNCEY, D. D.</item>
+              <item>The REV. MATTHEW BYLES, D. D.</item>
+              <item>The REV. EDWARD PEMBERTON, D. D.</item>
+              <item>The REV. ANDREW ELLIOT, D. D.</item>
+              <item>The REV. SAMUEL COOPER, D. D.</item>
+              <item>The REV. MR. SAMUEL MATHER,</item>
+              <item>The REV. MR. JOHN MOORHEAD,</item>
+              <item>MR. JOHN WHEATLEY, (her Master.)</item>
+            </list>
+            <p>N. B.— The original Attestation, signed by the above Gentlemen, may be seen 
+by applying to Archibald Bell, Bookseller, No. 8 Aldgate Street.</p>
+          </div1>
+        </front>
+        <body>
+          <pb id="wheat39" n="39"/>
+          <div1 type="poetry">
+            <head>POEMS.</head>
+            <div2 type="poem">
+              <head>TO MÆCENAS.</head>
+              <lg type="verse">
+                <l>MÆCENAS, you, beneath the myrtle shade,</l>
+                <l>Read o'er what poets sung, and shepherds played.</l>
+                <l>What felt those poets, but you feel the same?</l>
+                <l>Does not your soul possess the sacred flame?</l>
+                <l>Their noble strains your equal genius shares</l>
+                <l>In softer language, and diviner airs.</l>
+              </lg>
+              <lg>
+                <l>While Homer paints, lo! circumfused in air,</l>
+                <l>Celestial Gods in mortal forms appear;</l>
+                <l>Swift as they move, hear each recess rebound;</l>
+                <l>Heaven quakes, earth trembles, and the shores resound.</l>
+                <l>Great Sire of verse, before my mortal eyes</l>
+                <l>The lightnings blaze across the vaulted skies;</l>
+                <l>And as the thunder shakes the heavenly plains,</l>
+                <l>A deep-felt horror thrills through all my veins.</l>
+                <l>When gentler strains demand thy graceful song,</l>
+                <l>The lengthening line moves languishing along.</l>
+                <l>When great Patroclus courts Achilles' aid,</l>
+                <l>The grateful tribute of my tears is paid:</l>
+                <l>Prone on the shore, he feels the pangs of love,</l>
+                <l>And stern Pelides' tenderest passions move.</l>
+              </lg>
+              <lg>
+                <l>Great Maro's strain in heavenly numbers flows,</l>
+                <l>The Nine inspire, and all the bosom glows.</l>
+                <pb id="wheat40" n="40"/>
+                <l>Oh! could I rival thine and Virgil's page,</l>
+                <l>Or claim the Muses with the Mantuan sage;</l>
+                <l>Soon the same beauties should my mind adorn,</l>
+                <l>And the same ardors in my soul should burn:</l>
+                <l>Then should my song in bolder notes arise,</l>
+                <l>And all my numbers pleasingly surprise:</l>
+                <l>But here I sit, and mourn a grovelling mind,</l>
+                <l>That fain would mount, and ride upon the wind.</l>
+              </lg>
+              <lg>
+                <l>Not you, my friend, these plaintive strains become:</l>
+                <l>Not you, whose bosom is the Muses' home.</l>
+                <l>When they from towering Helicon retire,</l>
+                <l>They fan in you the bright, immortal fire;</l>
+                <l>But I, less happy, cannot raise the song;</l>
+                <l>The faltering music dies upon my tongue.</l>
+              </lg>
+              <lg>
+                <l>The happier Terence<ref targOrder="U" id="ref5" n="5" rend="sc" target="note5">*</ref> all the choir inspired,</l>
+                <l>His soul replenished, and his bosom fired:</l>
+                <l>But say, ye Muses, why this partial grace</l>
+                <l>To one alone of Afric's sable race,</l>
+                <l>From age to age transmitting thus his name,</l>
+                <l>With the first glory in the realms of fame?</l>
+              </lg>
+              <note id="note5" n="5" rend="sc" place="foot" anchored="yes" target="ref5">
+                <p>* He was an African by birth. </p>
+              </note>
+              <lg>
+                <l>Thy virtues, great Mæcenas! shall be sung</l>
+                <l>In praise of him from whom those virtues sprung:</l>
+                <l>While blooming wreaths around thy temples spread,</l>
+                <l>I 'll snatch a laurel from thine honored head,</l>
+                <l>While you, indulgent, smile upon the deed.</l>
+              </lg>
+              <lg>
+                <l>As long as Thames in streams majestic flows,</l>
+                <l>Or Naiads in their oozy beds repose;</l>
+                <l>While Phœbus reigns above the starry train;</l>
+                <l>While bright Aurora purples o'er the main;</l>
+                <pb id="wheat41" n="41"/>
+                <l>So long, great Sir, the Muse thy praise shall sing;</l>
+                <l>So long thy praise shall make Parnassus ring.</l>
+                <l>Then grant, Mæcenas, thy paternal rays;</l>
+                <l>Hear me propitious, and defend my lays.</l>
+              </lg>
+            </div2>
+            <div2 type="poem">
+              <head>ON VIRTUE.</head>
+              <lg>
+                <l>O THOU bright jewel, in my aim I strive</l>
+                <l>To comprehend thee. Thine own words declare</l>
+                <l>Wisdom is higher than a fool can reach.</l>
+                <l>I cease to wonder, and no more attempt</l>
+                <l>Thine height to explore, or fathom thy profound.</l>
+                <l>But O my soul, sink not into despair;</l>
+                <l>Virtue is near thee, and with gentle hand</l>
+                <l>Would now embrace thee,—hovers o'er thine head.</l>
+                <l>Fain would the heaven-born soul with her converse,</l>
+                <l>Then seek, then court her for her promised bliss.</l>
+                <l>Auspicious queen! thine heavenly pinions spread,</l>
+                <l>And lead celestial Chastity along.</l>
+                <l>Lo! now her sacred retinue descends,</l>
+                <l>Arrayed in glory from the orbs above.</l>
+                <l>Attend me, Virtue, through my youthful years;</l>
+                <l>Oh, leave me not to the false joys of time,</l>
+                <l>But guide my steps to endless life and bliss.</l>
+                <l>Greatness, or Goodness, say what shall I call thee,</l>
+                <l>To give an higher appellation still:</l>
+                <l>Teach me a better strain, a nobler lay,</l>
+                <l>O thou, enthroned with cherubs in the realms of day.</l>
+              </lg>
+            </div2>
+            <pb id="wheat42" n="42"/>
+            <div2 type="verse">
+              <head>ON BEING BROUGHT FROM AFRICA TO <lb/>AMERICA.</head>
+              <lg type="verse">
+                <l>'T WAS mercy brought me from my pagan land,</l>
+                <l>Taught my benighted soul to understand</l>
+                <l>That there's a God—that there's a Saviour too:</l>
+                <l>Once I redemption neither sought nor knew.</l>
+                <l>Some view our sable race with scornful eye—</l>
+                <l>‘Their color is a diabolic dye.’</l>
+                <l>Remember, Christians, Negroes black as Cain</l>
+                <l>May be refined, and join the angelic train.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO THE UNIVERSITY OF CAMBRIDGE, IN <lb/>NEW ENGLAND.</head>
+              <lg>
+                <l>WHILE an intrinsic ardor prompts to write,</l>
+                <l>The Muses promise to assist my pen.</l>
+                <l>'T was not long since, I left my native shore,</l>
+                <l>The land of errors and Egyptian gloom:</l>
+                <l>Father of mercy! 't was thy gracious hand</l>
+                <l>Brought me in safety from those dark abodes.</l>
+              </lg>
+              <lg>
+                <l>Students, to you 't is given to scan the heights</l>
+                <l>Above, to traverse the <sic corr="ethereal">etherial</sic> space,</l>
+                <l>And mark the systems of revolving worlds.</l>
+                <l>Still more, ye sons of science, ye receive</l>
+                <l>The blissful news by messengers from heaven,</l>
+                <l>How Jesus' blood for your redemption flows.</l>
+                <l>See him, with hands outstretched upon the cross!</l>
+                <pb id="wheat43" n="43"/>
+                <l>Immense compassion in his bosom glows;</l>
+                <l>He hears revilers, nor resents their scorn.</l>
+                <l>What matchless mercy in the Son of God!</l>
+                <l>He deigned to die, that they might rise again,</l>
+                <l>And share with him, in the sublimest skies,</l>
+                <l>Life without death, and glory without end.</l>
+              </lg>
+              <lg>
+                <l>Improve your privileges while they stay,</l>
+                <l>Ye pupils; and each hour redeem, that bears</l>
+                <l>Or good or bad report of you to heaven.</l>
+                <l>Let sin, that baneful evil to the soul,</l>
+                <l>By you be shunned; nor once remit your guard:</l>
+                <l>Suppress the deadly serpent in its egg.</l>
+                <l>Ye blooming plants of human race divine,</l>
+                <l>An Ethiop tells you, 't is your greatest foe;</l>
+                <l>Its transient sweetness turns to endless pain,</l>
+                <l>And in immense perdition sinks the soul.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO THE KING'S MOST EXCELLENT <lb/>MAJESTY.—1768.</head>
+              <lg>
+                <l>YOUR subjects hope, dread Sire, the crown upon your<lb/>
+brows may flourish long,</l>
+                <l>And that your arm may in your God be strong.</l>
+                <l>Oh, may your sceptre num'rous nations sway,</l>
+                <l>And all with love and readiness obey.</l>
+              </lg>
+              <lg>
+                <l>But how shall we the British king reward?</l>
+                <l>Rule thou in peace, our father and our lord!</l>
+                <pb id="wheat44" n="44"/>
+                <l>'Midst the remembrance of thy favors past,</l>
+                <l>The meanest peasants most admire the last.<ref targOrder="U" id="ref6" n="6" rend="sc" target="note6">*</ref></l>
+                <l>May George, beloved by all the nations round,</l>
+                <l>Live with heaven's choicest, constant blessings crowned.</l>
+                <l>Great God! direct and guard him from on high,</l>
+                <l>And from his head let every evil fly;</l>
+                <l>And may each clime with equal gladness see</l>
+                <l>A monarch's smile can set his subjects free.</l>
+              </lg>
+              <note id="note6" n="6" rend="sc" place="foot" anchored="yes" target="ref6">
+                <p>* The Repeal of the Stamp Act.</p>
+              </note>
+            </div2>
+            <div2 type="verse">
+              <head>ON THE DEATH OF THE REV. DR. SEWELL.
+<lb/>
+1769.</head>
+              <lg>
+                <l>ERE yet the morn its lovely blushes spread,</l>
+                <l>See Sewell numbered with the happy dead.</l>
+                <l>Hail, holy man! arrived the immortal shore;</l>
+                <l>Though we shall hear thy warning voice no more,</l>
+                <l>Come, let us all behold, with wishful eyes,</l>
+                <l>The saint ascending to his native skies:</l>
+                <l>From hence the prophet winged his rapturous way,</l>
+                <l>To the blest mansions in eternal day.</l>
+                <l>Then, begging for the Spirit of our God,</l>
+                <l>And panting eager for the same abode,</l>
+                <l>Come, let us all with the same vigor rise,</l>
+                <l>And take a prospect of the blissful skies;</l>
+                <l>While on our minds Christ's image is impressed,</l>
+                <l>And the dear Saviour glows in ev'ry breast.</l>
+                <l>Thrice happy saint! to find thy heaven at last,</l>
+                <l>What compensation for the evils past!</l>
+              </lg>
+              <pb id="wheat45" n="45"/>
+              <lg>
+                <l>Great God! incomprehnsible, unknown</l>
+                <l>By sense, we bow at thine exalted throne.</l>
+                <l>Oh, while we beg thine excellence to feel,</l>
+                <l>Thy sacred Spirit to our hearts reveal,</l>
+                <l>And give us of that mercy to partake,</l>
+                <l>Which thou hast promised for the Saviour's sake!</l>
+              </lg>
+              <lg>
+                <l>‘Sewell is dead.’ Swift-pinioned Fame thus cried.</l>
+                <l>‘Is Sewell dead?’ my trembling tongue replied.</l>
+                <l>Oh, what a blessing in his flight denied!</l>
+                <l>How oft for us the holy prophet prayed!</l>
+                <l>How oft to us the word of life conveyed!</l>
+                <l>By duty urged my mournful verse to close,</l>
+                <l>I for his tomb this epitaph compose.</l>
+              </lg>
+              <lg>
+                <l>“Lo, here, a man, redeemed by Jesus' blood,</l>
+                <l>“A sinner once, but now a saint with God.</l>
+                <l>“Behold, ye rich, ye poor, ye fools, ye wise,</l>
+                <l>“Nor let his monument your heart surprise;</l>
+                <l>“'T will tell you what this holy man has done,</l>
+                <l>“Which gives him brighter lustre than the sun,</l>
+                <l>“Listen, ye happy, from your seats above.</l>
+                <l>“I speak sincerely, while I speak and love.</l>
+                <l>“He sought the paths of piety and truth,</l>
+                <l>“By these made happy from his early youth.</l>
+                <l>“In blooming years that grace divine he felt,</l>
+                <l>“Which rescues sinners from the chains of guilt.</l>
+                <l>“Mourn him, ye indigent, whom he has fed,</l>
+                <l>“And henceforth seek, like him, for living bread;</l>
+                <l>“Ev'n Christ, the bread descending from above,</l>
+                <l>“And ask an int'rest in his saving love.</l>
+                <l>“Mourn him, ye youth, to whom he oft has told</l>
+                <l>“God's gracious wonders, from the times of old.</l>
+                <l>“I, too, have cause, this mighty loss to mourn,</l>
+                <l>“For he, my monitor, will not return.</l>
+                <pb id="wheat46" n="46"/>
+                <l>“Oh, when shall we to his blest state arrive?</l>
+                <l>“When the same graces in our bosoms thrive?”</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>ON THE DEATH OF THE REV'D MR. GEORGE <lb/>WHITEFIELD.—1770</head>
+              <lg>
+                <l>HAIL, happy saint! on thine immortal throne,</l>
+                <l>Possest of glory, life, and bliss unknown;</l>
+                <l>We hear no more the music of thy tongue;</l>
+                <l>Thy wonted auditories cease to throng.</l>
+                <l>Thy sermons in unequalled accents flowed,</l>
+                <l>And ev'ry bosom with devotion glowed;</l>
+                <l>Thou didst, in strains of eloquence refined,</l>
+                <l>Inflame the heart, and captivate the mind.</l>
+                <l>Unhappy, we the setting sun deplore,</l>
+                <l>So glorious once, but ah! it shines no more.</l>
+              </lg>
+              <lg>
+                <l>Behold the prophet in his towering flight!</l>
+                <l>He leaves the earth for heaven's unmeasured height,</l>
+                <l>And worlds unknown receive him from our sight.</l>
+                <l>There Whitefield wings with rapid course his way,</l>
+                <l>And sails to Zion through vast seas of day.</l>
+                <l>Thy prayers, great saint, and thine incessant cries,</l>
+                <l>Have pierced the bosom of they native skies.</l>
+                <l>Thou, moon, hast seen, and all the stars of light,</l>
+                <l>How he has wrestled with his God by night.</l>
+                <l>He prayed that grace in ev'ry heart might dwell;</l>
+                <l>He longed to see America excel;</l>
+                <l>He charged its youth that ev'ry grace divine</l>
+                <l>Should with full lustre in their conduct shine.</l>
+                <pb id="wheat47" n="47"/>
+                <l>That Saviour, which his soul did first receive,</l>
+                <l>The greatest gift that ev'n a God can give,</l>
+                <l>He freely offered to the num'rous throng,</l>
+                <l>That on his lips with list'ning pleasure hung.</l>
+              </lg>
+              <lg>
+                <l>“Take him, ye wretched, for your only good,</l>
+                <l>“Take him, ye starving sinners, for your food;</l>
+                <l>“Ye thirsty, come to this life-giving stream,</l>
+                <l>“Ye preachers, take him for your joyful theme;</l>
+                <l>“Take him, my dear Americans, he said,</l>
+                <l>“Be your complaints on his kind bosom laid:</l>
+                <l>“Take him, ye Africans, he longs for you;</l>
+                <l>“Impartial Saviour is his title due:</l>
+                <l>“Washed in the fountain of redeeming blood,</l>
+                <l>“You shall be sons, and kings, and priests to God.”</l>
+              </lg>
+              <lg>
+                <l>Great Countess,<ref targOrder="U" id="ref7" n="7" rend="sc" target="note7">*</ref> we Americans revere</l>
+                <l>Thy name, and mingle in thy grief sincere;</l>
+                <l>New England deeply feels, the orphans mourn,</l>
+                <l>Their more than father will no more return.</l>
+              </lg>
+              <note id="note7" n="7" rend="sc" place="foot" anchored="yes" target="ref7">
+                <p>* The Countess of Huntingdon, to whom Mr. Whitefield was chaplain.</p>
+              </note>
+              <lg>
+                <l>But though arrested by the hand of death,</l>
+                <l>Whitefield no more exerts his lab'ring breath,</l>
+                <l>Yet let us view him in the eternal skies,</l>
+                <l>Let ev'ry heart to this bright vision rise;</l>
+                <l>While the tomb, safe, retains its sacred trust,</l>
+                <l>Till life divine re-animates the dust.</l>
+              </lg>
+            </div2>
+            <pb id="wheat48" n="48"/>
+            <div2 type="verse">
+              <head>ON THE DEATH OF A YOUNG LADY OF FIVE <lb/>YEARS OF AGE.</head>
+              <lg>
+                <l>FROM dark abodes to fair, <sic corr="ethereal">etherial</sic> light,</l>
+                <l>The enraptured innocent has winged her flight;</l>
+                <l>On the kind bosom of eternal love</l>
+                <l>She finds unknown beatitude above.</l>
+                <l>This know, ye parents, nor her loss deplore,</l>
+                <l>She feels the iron hand of pain no more;</l>
+                <l>The dispensations of unerring grace</l>
+                <l>Should turn your sorrows into grateful praise;</l>
+                <l>Let then no tears for her henceforward flow,</l>
+                <l>No more distressed in our dark vale below.</l>
+                <l>Her morning sun, which rose divinely bright,</l>
+                <l>Was quickly mantled with the gloom of night;</l>
+                <l>But hear in heaven's blest bowers your Nancy fair,</l>
+                <l>And learn to imitate her language there.</l>
+              </lg>
+              <lg>
+                <l>“Thou, Lord, whom I behold with glory crowned,</l>
+                <l>“By what sweet name, and in what tuneful sound</l>
+                <l>“Wilt thou be praised? Seraphic powers are faint,</l>
+                <l>“Infinite love and majesty to paint.</l>
+                <l>“To thee let all their grateful voices raise,</l>
+                <l>“And saints and angels join their songs of praise.”</l>
+              </lg>
+              <lg>
+                <l>Perfect in bliss, she, from her heavenly home,</l>
+                <l>Looks down, and smiling, beckons you to come.</l>
+                <l>Why then, fond parents, why those fruitless groans?</l>
+                <l>Restrain your tears, and cease your plaintive moans.</l>
+                <l>Freed from a world of sin, and snares and pain,</l>
+                <l>Why would you wish your daughter back again?</l>
+                <l>No—bow resigned: let hope your grief control,</l>
+                <l>And check the rising tumult of the soul.</l>
+                <pb id="wheat49" n="49"/>
+                <l>Calm in the prosperous and adverse day,</l>
+                <l>Adore the God who gives and takes away;</l>
+                <l>Eye him in all, his holy name revere;</l>
+                <l>Upright your actions, and your hearts sincere;</l>
+                <l>Till, having sailed through life's tempestuous sea,</l>
+                <l>And from its rocks, and boisterous billows free,</l>
+                <l>Yourselves safe landed on the blissful shore,</l>
+                <l>Shall join your happy babe to part no more.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>ON THE DEATH OF A YOUNG GENTLEMAN.</head>
+              <lg>
+                <l>WHO taught thee conflict with the powers of night,</l>
+                <l>To vanquish Satan in the fields of fight?</l>
+                <l>Who strung thy feeble arms with might unknown?</l>
+                <l>How great thy conquest, and how bright thy crown!</l>
+                <l>War with each princedom, throne, and power is o'er,</l>
+                <l>The scene is ended to return no more.</l>
+                <l>Oh, could my Muse thy seat on high behold,</l>
+                <l>How decked with laurel, how enriched with gold!</l>
+                <l>Oh, could she hear what praise thine harp employs,</l>
+                <l>How sweet thine anthems, how divine thy joys!</l>
+                <l>What heavenly grandeur should exalt her strain!</l>
+                <l>What holy raptures in her numbers reign!</l>
+                <l>To soothe the troubles of the mind to peace,</l>
+                <l>To still the tumult of life's tossing seas,</l>
+                <l>To ease the anguish of the parent's heart,</l>
+                <l>What shall my sympathizing verse impart?</l>
+                <l>Where is the balm to heal so deep a wound?</l>
+                <l>Where shall a sovereign remedy be found?</l>
+                <pb id="wheat50" n="50"/>
+                <l>Look, gracious Spirit! from thy heavenly bower,</l>
+                <l>And thy full joys into their bosoms pour;</l>
+                <l>The raging tempest of their grief control,</l>
+                <l>And spread the dawn of glory through the soul,</l>
+                <l>To eye the path the saint departed trod,</l>
+                <l>And trace him to the bosom of his God.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO A LADY, ON THE DEATH OF HER <lb/>HUSBAND.</head>
+              <lg>
+                <l>GRIM monarch! see, deprived of vital breath,</l>
+                <l>A young physician in the dust of death:</l>
+                <l>Dost thou go on incessant to destroy,</l>
+                <l>Our griefs to double and lay waste our joy?</l>
+                <l>Enough, thou never yet wast known to say,</l>
+                <l>Though millions die the vassals of thy sway:</l>
+                <l>Nor youth, nor science, nor the ties of love,</l>
+                <l>Nor aught on earth thy flinty heart can move.</l>
+                <l>The friend, the spouse, from his dire dart to save,</l>
+                <l>In vain we ask the sovereign of the grave.</l>
+                <l>Fair mourner, there see thy loved Leonard laid,</l>
+                <l>And o'er him spread the deep, impervious shade.</l>
+                <l>Closed are his eyes, and heavy fetters keep</l>
+                <l>His senses bound in never-waking sleep,</l>
+                <l>Till time shall cease, till many a starry world</l>
+                <l>Shall fill from heaven, in dire confusion hurled;</l>
+                <l>Till nature in her final wreck shall lie,</l>
+                <l>And her last groan shall rend the azure sky:</l>
+                <l>Not, not till then, his active soul shall claim</l>
+                <l>His body, a divine, immortal frame.</l>
+              </lg>
+              <pb id="wheat51" n="51"/>
+              <lg>
+                <l>But see the softly-stealing tears apace</l>
+                <l>Pursue each other down the mourner's face:</l>
+                <l>But cease thy tears, bid every sigh depart,</l>
+                <l>And cast the load of anguish from thine heart:</l>
+                <l>From the cold shell of his great soul arise,</l>
+                <l>And look beyond, thou native of the skies;</l>
+                <l>There fix thy view, where, fleeter than the wind,</l>
+                <l>Thy Leonard mounts, and leaves the earth behind.</l>
+                <l>Thyself prepare to pass the vale of night,</l>
+                <l>To join forever on the hills of light.</l>
+                <l>To thine embrace his joyful spirit moves,</l>
+                <l>To thee, the partner of his earthly loves;</l>
+                <l>He welcomes thee to pleasures more refined,</l>
+                <l>And better suited to the immortal mind.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>GOLIATH OF GATH.
+<lb/>
+1 SAM. CHAP. 7th.</head>
+              <lg>
+                <l>YE martial powers, and all ye tuneful Nine,</l>
+                <l>Inspire my song, and aid my high design.</l>
+                <l>The dreadful scenes and toils of war I write,</l>
+                <l>The ardent warriors and the fields of fight:</l>
+                <l>You best remember, and you best can sing</l>
+                <l>The acts of heroes to the vocal string:</l>
+                <l>Resume the lays with which your sacred lyre,</l>
+                <l>Did then the poet and the sage inspire.</l>
+              </lg>
+              <lg>
+                <l>Now front to front the armies were displayed,</l>
+                <l>Here Israel ranged, and there the foes arrayed;</l>
+                <l>The hosts on two opposing mountains stood,</l>
+                <l>Thick as the foliage of the waving wood:</l>
+                <pb id="wheat52" n="52"/>
+                <l>Between them an extensive valley lay,</l>
+                <l>O'er which the gleaming armour poured the day;</l>
+                <l>When, from the camp of the Philistine foes,</l>
+                <l>Dreadful to view, a mighty warrior rose;</l>
+                <l>In the dire deeds of bleeding battle skilled,</l>
+                <l>The monster stalks, the terror of the field.</l>
+                <l>From Gath he sprung, Goliath was his name,</l>
+                <l>Of fierce deportment and gigantic frame:</l>
+                <l>A brazen helmet on his head was placed,</l>
+                <l>A coat of mail his form terrific graced;</l>
+                <l>The greaves his legs, the targe his shoulders prest:</l>
+                <l>Dreadful in arms, high towering o'er the rest,</l>
+                <l>A spear he proudly waved, whose iron head,</l>
+                <l>Strange to relate, six hundred shekels weighed:</l>
+                <l>He strode along, and shook the ample field,</l>
+                <l>While Phœbus blazed refulgent on his shield.</l>
+                <l>Through Jacob's race a chilling horror ran,</l>
+                <l>When thus the huge, enormous chief began:</l>
+              </lg>
+              <lg>
+                <l>“Say, what the cause, that in this proud array,</l>
+                <l>“You set your battle in the face of day?</l>
+                <l>“One hero find in all your vaunting train,</l>
+                <l>“Then see who loses, and who wins the plain;</l>
+                <l>“For he who wins, in triumph may demand</l>
+                <l>“Perpetual service from the vanquished land:</l>
+                <l>“Your armies I defy, your force despise,</l>
+                <l>“By far inferior in Philistia's eyes:</l>
+                <l>“Produce a man, and let us try the fight,</l>
+                <l>“Decide the contest, and the victor's right.”</l>
+              </lg>
+              <lg>
+                <l>Thus challenged he: all Israel stood amazed,</l>
+                <l>And ev'ry chief in consternation gazed;</l>
+                <l>But Jesse's son, in youthful bloom appears,</l>
+                <l>And warlike courage far beyond his years;</l>
+                <pb id="wheat53" n="53"/>
+                <l>He left the folds, he left the flow'ry meads,</l>
+                <l>And soft recesses of the sylvan shades.</l>
+                <l>Now Israel's monarch and his troops arise,</l>
+                <l>With peals of shouts ascending to the skies;</l>
+                <l>In Elab's vale, the scene of combat lies.</l>
+              </lg>
+              <lg>
+                <l>When the fair morning blushed with orient red,</l>
+                <l>What David's sire enjoined, the son obeyed;</l>
+                <l>And swift of foot towards the trench he came,</l>
+                <l>Where glowed each bosom with the martial flame.</l>
+                <l>He leaves his carriage to another's care,</l>
+                <l>And runs to greet his brethren of the war.</l>
+                <l>While yet they spake the giant chief arose,</l>
+                <l>Repeats the challenge, and insults his foes:</l>
+                <l>Struck with the sound, and trembling at the view,</l>
+                <l>Affrighted Israel from its post withdrew.</l>
+              </lg>
+              <lg>
+                <l>“Observe ye this tremendous foe, they cry'd,</l>
+                <l>“Who in proud vaunts our armies hath defy'd.</l>
+                <l>“Whoever lays him prostrate on the plain,</l>
+                <l>“Freedom in Israel for his house shall gain;</l>
+                <l>“And on him wealth unknown the king will pour,</l>
+                <l>“And give his royal daughter for his dower.”</l>
+              </lg>
+              <lg>
+                <l>Then Jesse's youngest hope:—“My brethren, say,</l>
+                <l>“What shall be done for him who takes away</l>
+                <l>“Reproach from Jacob, who destroys the chief,</l>
+                <l>“And puts a period to his country's grief?</l>
+                <l>“He vaunts the honours of his arms abroad,</l>
+                <l>“And scorns the armies of the living God.”</l>
+              </lg>
+              <lg>
+                <l>Thus spoke the youth; the attentive people eyed</l>
+                <l>The wondrous hero, and again reply'd:</l>
+                <l>“Such the rewards our monarch will bestow</l>
+                <l>“On him who conquers and destroys his foe.”</l>
+              </lg>
+              <pb id="wheat54" n="54"/>
+              <lg>
+                <l>Eliab heard, and kindled into ire,</l>
+                <l>To hear his shepherd brother thus inquire,</l>
+                <l>And thus begun: “What errand brought thee, say,</l>
+                <l>“Who keeps thy flock? or does it go astray?</l>
+                <l>“I know the base ambition of thine heart,</l>
+                <l>“But back in safety from the field depart.”</l>
+              </lg>
+              <lg>
+                <l>Eliab thus, to Jesse's youngest heir,</l>
+                <l>Expressed his wrath in accents most severe.</l>
+                <l>When to his brother mildly he reply'd,</l>
+                <l>“What have I done? or what the cause to chide?<corr sic="missing punctuation">”</corr></l>
+              </lg>
+              <lg>
+                <l>The words were told before the king, who sent</l>
+                <l>For the young hero to his royal tent.</l>
+                <l>Before the monarch, dauntless, he began;</l>
+                <l>“For this Philistine, fail no heart of man:</l>
+                <l>“I 'll take the vale, and with the giant fight:</l>
+                <l>“I dread not all his boasts nor all his might.”</l>
+                <l>When thus the king: “Durst thou, a stripling, go,</l>
+                <l>“And venture combat with so great a foe,</l>
+                <l>“Who all his days has been inured to fight,</l>
+                <l>“And made its deeds his study and delight?</l>
+                <l>“Battles and bloodshed brought the monster forth,</l>
+                <l>“And clouds and whirlwinds ushered in his birth.”</l>
+              </lg>
+              <lg>
+                <l>When David thus: “I kept the fleecy care,</l>
+                <l>“And out there rushed a lion and a bear:</l>
+                <l>“A tender lamb the hungry lion took,</l>
+                <l>“And with no other weapon than my crook,</l>
+                <l>“Bold I pursued, and chased him o'er the field,</l>
+                <l>“The prey delivered, and the lion killed.</l>
+                <l>“As thus the lion and the bear I slew,</l>
+                <l>“So shall Goliath fall, and all his crew:</l>
+                <l>“The God who saved me from these beasts of prey,</l>
+                <l>“By me this monster in the dust shall lay.”</l>
+              </lg>
+              <pb id="wheat55" n="55"/>
+              <lg>
+                <l>So David spoke. The wondering king reply'd;</l>
+                <l>“Go thou, with heaven and victory on thy side:</l>
+                <l>“This coat of mail, this sword, gird on,” he said,</l>
+                <l>And placed a mighty helmet on his head.</l>
+                <l>The coat, the sword, the helm, he laid aside,</l>
+                <l>Nor chose to venture with those arms untry'd;</l>
+                <l>Then took his staff, and to the neighbouring brook</l>
+                <l>Instant he ran, and thence five pebbles took.</l>
+                <l>Meantime descended to Philistia's son</l>
+                <l>A radiant cherub, and he thus begun:</l>
+              </lg>
+              <lg>
+                <l>“Goliath, well thou know'st thou hast defy'd</l>
+                <l>“Yon Hebrew armies, and their God deny'd.</l>
+                <l>“Rebellious wretch! audacious worm! forbear,</l>
+                <l>“Nor tempt the vengeance of their God too far:</l>
+                <l>“Them who with his omnipotence contend,</l>
+                <l>“No eye shall pity and no arm defend.</l>
+                <l>“Proud as thou art, in short-lived glory great,</l>
+                <l>“I come to tell thee thine approaching fate.</l>
+                <l>“Regard my words. The Judge of all the gods,</l>
+                <l>“Beneath whose steps the tow'ring mountain nods,</l>
+                <l>“Will give thine armies to the savage brood,</l>
+                <l>“That cut the liquid air, or range the wood.</l>
+                <l>“Thee, too, a well aimed pebble shall destroy,</l>
+                <l>“And thou shalt perish by a beardless boy.</l>
+                <l>“Such is the mandate from the realms above,</l>
+                <l>“And, should I try the vengeance to remove,</l>
+                <l>“Myself a rebel to my king would prove.</l>
+                <l>“Goliath, say, shall grace to him be shown,</l>
+                <l>“Who dares heaven's monarch, and insults his throne?<corr sic="missing punctuation">”</corr></l>
+              </lg>
+              <lg>
+                <l>“Your words are lost on me,” the giant cries,</l>
+                <l>While fear and wrath contended in his eyes;</l>
+                <l>When thus the messenger from heaven replies:</l>
+                <pb id="wheat56" n="56"/>
+                <l>“Provoke no more Jehovah's awful hand</l>
+                <l>“To hurl its vengeance on thy guilty land:</l>
+                <l>“He grasps the thunder, and he wings the storm,</l>
+                <l>“Servants, their sov'reign's orders to perform.”</l>
+              </lg>
+              <lg>
+                <l>The angel spoke, and turned his eyes away,</l>
+                <l>Adding new radiance to the rising day.</l>
+              </lg>
+              <lg>
+                <l>Now David comes: the fatal stones demand</l>
+                <l>His left, the staff engaged his better hand.</l>
+                <l>The giant moved, and from his tow'ring height</l>
+                <l>Surveyed the <sic corr="stripling,">strippling,</sic> and disdained the sight,</l>
+                <l>And thus began: “Am I a dog with thee?</l>
+                <l>“Bring'st thou no armour but a staff to me?</l>
+                <l>“The gods on thee their vollied curses pour,</l>
+                <l>“And beasts and birds of prey thy flesh devour.”</l>
+              </lg>
+              <lg>
+                <l>David, undaunted, thus: “Thy spear and shield</l>
+                <l>“Shall no protection to thy body yield:</l>
+                <l>“Jehovah's name—no other arms I bear;</l>
+                <l>“I ask no other in this glorious war.</l>
+                <l>“To-day the Lord of Hosts to me will give</l>
+                <l>“Victory, to-day thy doom thou shalt receive;</l>
+                <l>“The fate you threaten shall your own become,</l>
+                <l>“And beasts shall be your animated tomb,</l>
+                <l>“That all the earth's inhabitants may know</l>
+                <l>“That there's a God who governs all below:</l>
+                <l>“This great assembly, too, shall witness stand,</l>
+                <l>“That needs nor sword nor spear, the Almighty's hand:</l>
+                <l>“The battle his, the conquest he bestows,</l>
+                <l>“And to our power consigns our hated foes.”</l>
+              </lg>
+              <lg>
+                <l>Thus David spoke. Goliath heard, and came</l>
+                <l>To meet the hero in the field of fame.</l>
+                <l>Ah! fatal meeting to thy troops and thee;</l>
+                <l>But thou wast deaf to the divine decree:</l>
+                <pb id="wheat57" n="57"/>
+                <l>Young David meets thee, meets thee not in vain;</l>
+                <l>'T is thine to perish on the ensanguined plain.</l>
+              </lg>
+              <lg>
+                <l>And now the youth the forceful pebble flung;</l>
+                <l>Philistia trembled as it whizzed along.</l>
+                <l>In his dread forehead, where the helmet ends,</l>
+                <l>Just o'er the brows the well-aimed stone descends:</l>
+                <l>It pierced the skull, and shattered all the brain—</l>
+                <l>Prone on his face he tumbled to the plain.</l>
+                <l>Goliath's fall no smaller terror yields,</l>
+                <l>Than riving thunders in aerial fields:</l>
+                <l>The soul still lingered in its loved abode,</l>
+                <l>Till conquering David o'er the giant strode:</l>
+                <l>Goliath's sword then laid its master dead,</l>
+                <l>And from the body hewed the ghastly head;</l>
+                <l>The blood in gushing torrents drenched the plains,</l>
+                <l>The soul found passage through the spouting veins.</l>
+                <l>And now aloud the illustrious victor said,</l>
+                <l>“Where are your boastings, now your champion's dead?”</l>
+                <l>Scarce had he spoke, when the Philistines fled;</l>
+                <l>But fled in vain; the conqueror swift pursued:</l>
+                <l>What scenes of slaughter, and what seas of blood!</l>
+                <l>There, Saul, thy thousands grasped the empurpled sand</l>
+                <l>In pangs of death, the conquest of thine hand;</l>
+                <l>And David, there were thy ten thousands laid:</l>
+                <l>Thus Israel's damsels musically played.</l>
+              </lg>
+              <lg>
+                <l>Near Gath and Ekron many a hero lay,</l>
+                <l>Breathed out their souls, and cursed the light of day:</l>
+                <l>Their fury, quenched by death, no longer burns,</l>
+                <l>And David with Goliath's head returns.</l>
+                <l>To Salem brought, but in his tent he placed</l>
+                <l>The load of armour which the giant graced.</l>
+                <l>His monarch saw him coming from the war,</l>
+                <l>And thus demanded of the son of Ner.</l>
+                <pb id="wheat58" n="58"/>
+                <l>“Say, who is this amazing youth?” he cry'd,</l>
+                <l>When thus the leader of the host replied:</l>
+                <l>“As lives thy soul, I know not whence he sprung,</l>
+                <l>“So great in prowess, though in years so young.”</l>
+                <l>“Inquire whose son is he,” the sov'reign said,</l>
+                <l>“Before whose conquering arm Philistia fled.”</l>
+                <l>Before the king behold the stripling stand,</l>
+                <l>Goliath's head depending from his hand.</l>
+                <l>To him the king: “Say, of what martial line</l>
+                <l>“Art thou, young hero, and what sire was thine?”</l>
+                <l>He humbly thus: “The son of Jesse, I;</l>
+                <l>“I came the glories of the field to try.</l>
+                <l>“Small is my tribe, but valiant in the fight;</l>
+                <l>“Small is my city, but thy royal right.”</l>
+                <l>“Then take the promised gifts,” the monarch cry'd,</l>
+                <l>Conferring riches and the royal bride.</l>
+                <l>“Knit to my soul, forever thou remain</l>
+                <l>“With me, nor quit my regal roof again.”</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>THOUGHTS ON THE WORKS OF PROVIDENCE.</head>
+              <lg>
+                <l>ARISE, my soul; on wings enraptured, rise,</l>
+                <l>To praise the Monarch of the earth and skies,</l>
+                <l>Whose goodness and beneficence appear,</l>
+                <l>As round its centre moves the rolling year;</l>
+                <l>Or when the morning glows with rosy charms,</l>
+                <l>Or the sun slumbers in the ocean's arms:</l>
+                <l>Of light divine be a rich portion lent,</l>
+                <l>To guide my soul and favor my intent.</l>
+                <pb id="wheat59" n="59"/>
+                <l>Celestial Muse, my arduous flight sustain,</l>
+                <l>And raise my mind to a seraphic strain!</l>
+              </lg>
+              <lg>
+                <l>Adored forever be the God unseen,</l>
+                <l>Which round the sun revolves this vast machine,</l>
+                <l>Though to his eye its mass a point appears:</l>
+                <l>Adored the God that whirls surrounding spheres,</l>
+                <l>Which first ordained that mighty Sol should reign,</l>
+                <l>The peerless monarch of the <sic corr="ethereal">etherial</sic> train:</l>
+                <l>Of miles twice forty millions is his height,</l>
+                <l>And yet his radiance dazzles mortal sight.</l>
+                <l>So far beneath—from him the extended earth</l>
+                <l>Vigour derives, and ev'ry flow'ry birth:</l>
+                <l>Vast through her orb she moves with easy grace</l>
+                <l>Around her Phœbus in unbounded space;</l>
+                <l>True to her course, the impetuous storm derides,</l>
+                <l>Triumphant o'er the winds, and surging tides.</l>
+              </lg>
+              <lg>
+                <l>Almighty, in these wondrous works of thine,</l>
+                <l>What Power, what Wisdom, and what Goodness shine!</l>
+                <l>And are thy wonders, Lord, by men explored,</l>
+                <l>And yet creating glory unadored?</l>
+              </lg>
+              <lg>
+                <l>Creation smiles in various beauty gay,</l>
+                <l>While day to night, and night succeeds to day:</l>
+                <l>That Wisdom which attends Jehovah's ways,</l>
+                <l>Shines most conspicuous in the solar rays:</l>
+                <l>Without them, destitute of heat and light,</l>
+                <l>This world would be the reign of endless night.</l>
+                <l>In their excess how would our race complain,</l>
+                <l>Abhorring life! how hate its lengthened chain!</l>
+                <l>From air, or dust, what numerous ills would rise!</l>
+                <l>What dire contagion taint the burning skies!</l>
+                <l>What pestilential vapor, fraught with death,</l>
+                <l>Would rise, and overspread the lands beneath!</l>
+              </lg>
+              <pb id="wheat60" n="60"/>
+              <lg>
+                <l>Hail, smiling morn, that, from the orient main</l>
+                <l>Ascending, dost adorn the heavenly plain!</l>
+                <l>So rich, so various are thy beauteous dies</l>
+                <l>That spread through all the circuit of the skies,</l>
+                <l>That, full of thee, my soul in rapture soars,</l>
+                <l>And thy great God, the cause of all, adores.</l>
+                <l>O'er beings infinite his love extends,</l>
+                <l>His Wisdom rules them, and his Power defends.</l>
+                <l>When tasks diurnal tire the human frame,</l>
+                <l>The spirits faint, and dim the vital flame;</l>
+                <l>Then, too, that ever-active bounty shines,</l>
+                <l>Which not infinity of space confines.</l>
+                <l>The sable veil, that Night in silence draws,</l>
+                <l>Conceals effects, but shews the Almighty Cause;</l>
+                <l>Night seals in sleep the wide creation fair,</l>
+                <l>And all is peaceful but the brow of care.</l>
+                <l>Again, gay Phœbus, as the day before,</l>
+                <l>Wakes ev'ry eye, but what shall wake no more;</l>
+                <l>Again the face of nature is renewed,</l>
+                <l>Which still appears harmonious, fair, and good.</l>
+                <l>May grateful strains salute the smiling morn,</l>
+                <l>Before its beams the eastern hills adorn!</l>
+              </lg>
+              <lg>
+                <l>Shall day to day and night to night conspire</l>
+                <l>To show the goodness of the Almighty Sire?</l>
+                <l>This mental voice shall man regardless hear,</l>
+                <l>And never, never raise the filial prayer?</l>
+                <l>To-day, oh hearken, nor your folly mourn</l>
+                <l>For time mispent, that never will return.</l>
+              </lg>
+              <lg>
+                <l>But see the sons of vegetation rise,</l>
+                <l>And spread their leafy banners to the skies.</l>
+                <l>All-wise, Almighty Providence, we trace</l>
+                <l>In trees and plants, and all the flow'ry race,</l>
+                <pb id="wheat61" n="61"/>
+                <l>As clear as in the noble frame of man,</l>
+                <l>All lovely copies of the Maker's plan,—</l>
+                <l>The power the same that forms a ray of light,</l>
+                <l>That called creation from eternal night.</l>
+                <l>“Let there be light,” he said: from his profound</l>
+                <l>Old Chaos heard, and trembled at the sound:</l>
+                <l>Swift as the word, inspired by power divine,</l>
+                <l>Behold the light around its Maker shine,</l>
+                <l>The first fair product of the omnific God,</l>
+                <l>And now through all his works diffused abroad.</l>
+              </lg>
+              <lg>
+                <l>As reason's powers by day our God disclose,</l>
+                <l>So we may trace him in the night's repose:</l>
+                <l>Say, what is sleep? and dreams how passing strange!</l>
+                <l>When action ceases and ideas range</l>
+                <l>Licentious and unbounded o'er the plains,</l>
+                <l>Where Fancy's queen in giddy triumph reigns.</l>
+                <l>Hear in soft strains the dreaming lover sigh</l>
+                <l>To a kind fair, or rave in jealousy;</l>
+                <l>On pleasure, now, and now on vengeance bent,</l>
+                <l>The lab'ring passions struggle for a vent.</l>
+                <l>What power, O man! thy reason then restores,</l>
+                <l>So long suspended in nocturnal hours?</l>
+                <l>What secret hand returns the mental train,</l>
+                <l>And gives improved thine active powers again?</l>
+                <l>From thee, O man, what gratitude should rise!</l>
+                <l>And when from balmy sleep thou op'st thine eyes,</l>
+                <l>Let thy first thoughts be praises to the skies.</l>
+                <l>How merciful our God, who thus imparts</l>
+                <l>O'erflowing tides of joy to human hearts,</l>
+                <l>When wants and woes might be our righteous lot,</l>
+                <l>Our God forgetting, by our God forgot!</l>
+              </lg>
+              <lg>
+                <l>Among the mental powers a question rose,</l>
+                <l>What most the image of the Eternal shows;</l>
+                <pb id="wheat62" n="62"/>
+                <l>When thus to Reason (so let Fancy rove,)</l>
+                <l>Her great companion spoke, immortal Love:</l>
+              </lg>
+              <lg>
+                <l>“Say, mighty power, how long shall strife prevail,</l>
+                <l>“And with its murmurs load the whispering gale?</l>
+                <l>“Refer the cause to Recollection's shrine,</l>
+                <l>“Who loud proclaims my origin divine,</l>
+                <l>“The cause whence heaven and earth began to be,</l>
+                <l>“And is not man immortalized by me?</l>
+                <l>“Reason, let this most causeless strife subside.”</l>
+                <l>Thus love pronounced, and Reason thus reply'd:</l>
+              </lg>
+              <lg>
+                <l>“Thy birth, celestial queen! 't is mine to own,</l>
+                <l>“In thee resplendent is the Godhead shown;</l>
+                <l>“Thy words persuade, my soul enraptured feels</l>
+                <l>“Resistless beauty which thy soul reveals.”</l>
+                <l>Ardent she spoke, and kindling at her charms,</l>
+                <l>She clasped the blooming goddess in her arms.</l>
+              </lg>
+              <lg>
+                <l>Infinite Love, where'er we turn our eyes,</l>
+                <l>Appears: this ev'ry creature's want supplies;</l>
+                <l>This most is heard in Nature's constant voice;</l>
+                <l>This makes the morn, and this the eve, rejoice;</l>
+                <l>This bids the fostering rains and dews descend</l>
+                <l>To nourish all, to serve one gen'ral end,</l>
+                <l>The good of man: yet man ungrateful pays</l>
+                <l>But little homage, and but little praise.</l>
+                <l>To him whose works arrayed in mercy shine,</l>
+                <l>What songs should rise, how constant, how divine!</l>
+              </lg>
+            </div2>
+            <pb id="wheat63" n="63"/>
+            <div2 type="verse">
+              <head>TO A LADY ON THE DEATH OF THREE
+<lb/>RELATIONS.</head>
+              <lg>
+                <l>WE trace the power of Death from tomb to tomb,</l>
+                <l>And his are all the ages yet to come.</l>
+                <l>'T is his to call the planets from on high,</l>
+                <l>To blacken Phœbus, and dissolve the sky;</l>
+                <l>His too, when all in his dark realms are hurled,</l>
+                <l>From its firm base to shake the solid world;</l>
+                <l>His fatal sceptre rules the spacious whole,</l>
+                <l>And trembling nature rocks from pole to pole.</l>
+              </lg>
+              <lg>
+                <l>Awful he moves, and wide his wings are spread:</l>
+                <l>Behold thy brother numbered with the dead!</l>
+                <l>From bondage freed, the exulting spirit flies</l>
+                <l>Beyond Olympus, and these starry skies.</l>
+                <l>Lost in our woe for thee, blest shade, we mourn</l>
+                <l>In vain; to earth thou never must return.</l>
+                <l>Thy sisters, too, fair mourner, feel the dart</l>
+                <l>Of death, and with fresh torture rend thine heart.</l>
+                <l>Weep not for them, who wish thine happy mind</l>
+                <l>To rise with them and leave the world behind.</l>
+              </lg>
+              <lg>
+                <l>As a young plant by hurricanes uptorn,</l>
+                <l>So near its parent lies the newly born—</l>
+                <l>But 'midst the bright <sic corr="ethereal">etherial</sic> train, behold,</l>
+                <l>It shines superior on a throne of gold:</l>
+                <l>Then mourner, cease; let hope thy tears restrain,</l>
+                <l>Smile on the tomb, and soothe the raging pain.</l>
+                <l>On yon blest regions fix thy longing view,</l>
+                <l>Mindless of sublunary scenes below;</l>
+                <l>Ascend the sacred mount, in thought arise,</l>
+                <l>And seek substantial and immortal joys;</l>
+                <pb id="wheat64" n="64"/>
+                <l>Where hope receives, where faith to vision springs,</l>
+                <l>And raptured seraphs tune the immortal strings</l>
+                <l>To strains extatic. Thou the chorus join,</l>
+                <l>And to thy Father tune the praise divine.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO A CLERGYMAN, ON THE DEATH OF <lb/>HIS LADY.</head>
+              <lg>
+                <l>WHERE contemplation finds her sacred spring,</l>
+                <l>Where heavenly music makes the arches ring,</l>
+                <l>Where virtue reigns unsullied and divine,</l>
+                <l>Where wisdom throned and all the graces shine,</l>
+                <l>There sits thy spouse amidst the radiant throng,</l>
+                <l>While praise eternal warbles on her tongue;</l>
+                <l>There choirs angelic shout her welcome round,</l>
+                <l>With perfect bliss and peerless glory crowned.</l>
+              </lg>
+              <lg>
+                <l>While thy dear mate, no more to flesh confined,</l>
+                <l>Exults, a blest, an heaven-ascended mind,</l>
+                <l>Say, in thy breast shall floods of sorrow rise?</l>
+                <l>Say, shall its torrents overwhelm thine eyes?</l>
+                <l>Amid the seats of heaven a place is free,</l>
+                <l>And angels open their bright ranks for thee;</l>
+                <l>For thee they wait, and with expectant eye</l>
+                <l>Thy spouse leans downward from the empyreal sky.</l>
+              </lg>
+              <lg>
+                <l>“Oh come away, her longing spirit cries,</l>
+                <l>“And share with me the raptures of the skies,</l>
+                <l>“Our bliss divine to mortals is unknown;</l>
+                <l>“Immortal life and glory are our own.</l>
+                <pb id="wheat65" n="65"/>
+                <l>“There, too, may the dear pledges of our love</l>
+                <l>“Arrive, and taste with us the joys above;</l>
+                <l>“Attune the harp to more than mortal lays,</l>
+                <l>“And join with us the tribute of our praise</l>
+                <l>“To him who died stern justice to atone,</l>
+                <l>“And make eternal glory all our own.</l>
+                <l>“He in his death slew ours, and, as he rose,</l>
+                <l>“He crushed the dire dominion of our foes;</l>
+                <l>“Vain were their hopes to put the God to flight,</l>
+                <l>“Chain us to hell, and bar the gates of light.”</l>
+              </lg>
+              <lg>
+                <l>She spoke, and turned from mortal scenes her eyes,</l>
+                <l>Which beamed celestial radiance o'er the skies.</l>
+              </lg>
+              <lg>
+                <l>Then thou, dear man, no more with grief retire,</l>
+                <l>Let grief no longer damp devotion's fire,</l>
+                <l>But rise sublime, to equal bliss aspire.</l>
+              </lg>
+              <lg>
+                <l>Thy sighs no more be wafted by the wind,</l>
+                <l>No more complain, but be to heaven resigned,</l>
+                <l>'T was thine to unfold the oracles divine,</l>
+                <l>To soothe our woes, the task was also thine;</l>
+                <l>Now sorrow is incumbent on thy heart,</l>
+                <l>Permit the Muse a cordial to impart;</l>
+                <l>Who can to thee their tenderest tears refuse?</l>
+                <l>To dry thy tears, how longs the heavenly muse!</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>HYMN TO THE MORNING.</head>
+              <lg>
+                <l>ATTEND my lays, ye ever honored Nine,</l>
+                <l>Assist my labors, and my strains refine;</l>
+                <pb id="wheat66" n="66"/>
+                <l>In smoothest numbers pour the notes along,</l>
+                <l>For bright Aurora now demands my song.</l>
+              </lg>
+              <lg>
+                <l>Aurora hail! and all the thousand dies,</l>
+                <l>Which deck thy progress through the vaulted skies:</l>
+                <l>The morn awakes, and wide extends her rays,</l>
+                <l>On ev'ry leaf the gentle zephyr plays;</l>
+                <l>Harmonious lays the feathered race resume,</l>
+                <l>Dart the bright eye, and shake the painted plume.</l>
+              </lg>
+              <lg>
+                <l>Ye shady groves, your verdant bloom display,</l>
+                <l>To shield your poet from the burning day:</l>
+                <l>Calliope, awake the sacred lyre,</l>
+                <l>While thy fair sisters fan the pleasing fire.</l>
+                <l>The bowers, the gales, the variegated skies,</l>
+                <l>In all their pleasures in my bosom rise.</l>
+              </lg>
+              <lg>
+                <l>See in the east, the illustrious king of day!</l>
+                <l>His rising radiance drives the shades away—</l>
+                <l>But oh! I feel his fervid beams too strong,</l>
+                <l>And scarce begun, concludes the abortive song.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>HYMN TO THE EVENING.</head>
+              <lg>
+                <l>SOON as the sun forsook the eastern main,</l>
+                <l>The pealing thunder shook the heavenly plain;</l>
+                <l>Majestic grandeur! From the zephyr's wing,</l>
+                <l>Exhales the incense of the blooming spring.</l>
+                <l>Soft purl the streams, the birds renew their notes,</l>
+                <l>And through the air their mingled music floats.</l>
+              </lg>
+              <pb id="wheat67" n="67"/>
+              <lg>
+                <l>Through all the heavens what beauteous dyes are spread,</l>
+                <l>But the west glories in the deepest red:</l>
+                <l>So may our breasts with ev'ry virtue glow,</l>
+                <l>The living temples of our God below!</l>
+              </lg>
+              <lg>
+                <l>Filled with the praise of him who gives the light,</l>
+                <l>And draws the sable curtains of the night,</l>
+                <l>Let placid slumbers soothe each weary mind,</l>
+                <l>At morn to wake, more heavenly, more refined;</l>
+                <l>So shall the labours of the day begin</l>
+                <l>More pure, more guarded from the snares of sin.</l>
+                <l>Night's leaden sceptre seals my drowsy eyes,</l>
+                <l>Then cease my song, till fair Aurora rise.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>ISAIAH—63d Chap. 1st and 8th Verses.</head>
+              <lg>
+                <l>SAY, heavenly Muse, what king, or mighty God,</l>
+                <l>That moves sublime from Idumea's road?</l>
+                <l>In Bozrah's dies, with martial glories joined,</l>
+                <l>His purple vesture waves upon the wind.</l>
+                <l>Why thus enrobed delights he to appear</l>
+                <l>In the dread image of the Power of war?</l>
+              </lg>
+              <lg>
+                <l>Compressed in wrath, the swelling wine-press groaned;</l>
+                <l>It bled, and poured the gushing purple round.</l>
+              </lg>
+              <lg>
+                <l>“Mine was the act,” the Almighty Saviour said,</l>
+                <l>And shook the dazzling glories of his head;</l>
+                <l>“When all forsook, I trod the press alone,</l>
+                <l>“And conquered by omnipotence my own;</l>
+                <pb id="wheat68" n="68"/>
+                <l>“For man's release sustained the ponderous load,</l>
+                <l>“For man the wrath of an immortal God:</l>
+                <l>“To execute the Eternal's dread command,</l>
+                <l>“My soul I sacrificed with willing hand;</l>
+                <l>“Sinless I stood before the avenging frown,</l>
+                <l>“Atoning thus, for vices not my own.”</l>
+              </lg>
+              <lg>
+                <l>His eye the ample field of battle round</l>
+                <l>Surveyed, but no created succors found;</l>
+                <l>His own omnipotence sustained the fight,</l>
+                <l>His vengeance sunk the haughty foes in night,</l>
+                <l>Beneath his feet the prostrate troops were spread,</l>
+                <l>And round him lay the dying and the dead.</l>
+              </lg>
+              <lg>
+                <l>Great God, what lightning flashes from thine eyes!</l>
+                <l>What power withstands if thou indignant rise?</l>
+              </lg>
+              <lg>
+                <l>Against thy Zion though her foes may rage,</l>
+                <l>And all their cunning, all their strength engage,</l>
+                <l>Yet she serenely on thy bosom lies,</l>
+                <l>Smiles at their arts, and all their force defies.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>ON RECOLLECTION.</head>
+              <lg>
+                <l>MNEME begin. Inspire, ye sacred Nine,</l>
+                <l>Your vent'rous Afric, in her great design.</l>
+                <l>Mneme, immortal power, I trace thy spring;</l>
+                <l>Assist my strains, while I thy glories sing:</l>
+                <l>The acts of long-departed years, by thee</l>
+                <l>Recovered, in due order ranged we see:</l>
+                <pb id="wheat69" n="69"/>
+                <l>Thy power the long-forgotten calls from night,</l>
+                <l>That sweetly plays before the fancy's sight.</l>
+              </lg>
+              <lg>
+                <l>Mneme in our nocturnal visions pours</l>
+                <l>The ample treasure of her secret stores;</l>
+                <l>Swift from above, she wings her silent flight</l>
+                <l>Through Phebe's realms, fair regent of the night,</l>
+                <l>And, in her pomp of images displayed,</l>
+                <l>To the high-raptured poet gives her aid;</l>
+                <l>Through the unbounded regions of the mind,</l>
+                <l>Diffusing light, celestial and refined.</l>
+                <l>The heavenly phantom paints the actions done</l>
+                <l>By every tribe beneath the rolling sun.</l>
+              </lg>
+              <lg>
+                <l>Mneme, enthroned within the human breast,</l>
+                <l>Has vice condemned, and every virtue blest.</l>
+                <l>How sweet the sound when we her plaudit hear!</l>
+                <l>Sweeter than music to the ravished ear,</l>
+                <l>Sweeter than Maro's entertaining strains,</l>
+                <l>Resounding through the groves, and hills, and plains.</l>
+                <l>But how is Mneme dreaded by the race</l>
+                <l>Who scorn her warnings, and despise her grace!</l>
+                <l>By her unveiled each horrid crime appears,</l>
+                <l>Her awful hand a cup of wormwood bears.</l>
+                <l>Days, years, mispent, oh what a hell of woe!</l>
+                <l>Hers the worst tortures that the soul can know.</l>
+              </lg>
+              <lg>
+                <l>Now eighteen years their destined course have run,</l>
+                <l>In fast succession round the central sun.</l>
+                <l>How did the follies of that period pass</l>
+                <l>Unnoticed, but behold them writ in brass!</l>
+                <l>In Recollection see them fresh return,</l>
+                <l>And sure 'tis mine to be ashamed and mourn.</l>
+              </lg>
+              <lg>
+                <l>O Virtue! Smiling in immortal green,</l>
+                <l>Do thou exert thy power, and change the scene;</l>
+                <pb id="wheat70" n="70"/>
+                <l>Be thine employ to guide my future days,</l>
+                <l>And mine to pay the tribute of my praise.</l>
+              </lg>
+              <lg>
+                <l>Of Recollection such the power enthroned</l>
+                <l>In every breast, and thus her power is owned.</l>
+                <l>The wretch who dared the vengeance of the skies,</l>
+                <l>At last awakes in horror and surprise,</l>
+                <l>By her alarmed, he sees impending fate,</l>
+                <l>He howls in anguish and repents too late.</l>
+              </lg>
+              <lg>
+                <l>But oh! what peace, what joys are hers to impart</l>
+                <l>To ev'ry holy, ev'ry upright heart!</l>
+                <l>Thrice blest the man, who, in her sacred shrine,</l>
+                <l>Feels himself sheltered from the wrath divine!</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>ON IMAGINATION.</head>
+              <lg>
+                <l>THY various works, imperial queen, we see</l>
+                <l>How bright their forms! how decked with pomp by thee!</l>
+                <l>Thy wond'rous acts in beauteous order stand,</l>
+                <l>And all attest how potent is thine hand.</l>
+              </lg>
+              <lg>
+                <l>From Helicon's refulgent heights attend,</l>
+                <l>Ye sacred choir, and my attempts befriend:</l>
+                <l>To tell her glories with a faithful tongue,</l>
+                <l>Ye blooming graces, triumph in my song.</l>
+                <l>Now here, now there, the roving Fancy flies,</l>
+                <l>Till some loved object strikes her wand'ring eyes,</l>
+                <l>Whose silken fetters all the senses bind,</l>
+                <l>And soft captivity involves the mind.</l>
+              </lg>
+              <pb id="wheat71" n="71"/>
+              <lg>
+                <l>Imagination! who can sing thy force?</l>
+                <l>Or who describe the swiftness of thy course?</l>
+                <l>Soaring through air to find the bright abode,</l>
+                <l>The empyreal palace of the thundering God,</l>
+                <l>We on thy pinions can surpass the wind,</l>
+                <l>And leave the rolling universe behind:</l>
+                <l>From star to star the mental optics rove,</l>
+                <l>Measure the skies, and range the realms above.</l>
+                <l>There in one view we grasp the mighty whole,</l>
+                <l>Or with new worlds amaze the unbounded soul.</l>
+              </lg>
+              <lg>
+                <l>Though Winter frowns to Fancy's raptured eyes,</l>
+                <l>The fields may flourish, and gay scenes arise;</l>
+                <l>The frozen deeps may burst their iron bands,</l>
+                <l>And bid their waters murmur o'er the sands.</l>
+                <l>Fair Flora may resume her fragrant reign,</l>
+                <l>And with her flow'ry riches deck the plain;</l>
+                <l>Sylvanus may diffuse his honours round,</l>
+                <l>And all the forest may with leaves be crowned;</l>
+                <l>Showers may descend, and dews their gems disclose,</l>
+                <l>And nectar sparkle on the blooming rose.</l>
+              </lg>
+              <lg>
+                <l>Such is thy power, nor are thine orders vain,</l>
+                <l>O thou, the leader of the mental train:</l>
+                <l>In full perfection all thy works are wrought,</l>
+                <l>And thine the sceptre o'er the realms of thought;</l>
+                <l>Before thy throne the subject passions bow,</l>
+                <l>Of subject-passions sov'reign ruler Thou;</l>
+                <l>At thy command joy rushes on the heart,</l>
+                <l>And through the glowing veins the spirits dart.</l>
+              </lg>
+              <lg>
+                <l>Fancy might now her silken pinions try</l>
+                <l>To rise from earth, and sweep the expanse on high;</l>
+                <l>From Tithon's bed now might Aurora rise,</l>
+                <l>Her checks all glowing with celestial dies,</l>
+                <l>While a pure stream of light o'erflows the skies.</l>
+                <pb id="wheat72" n="72"/>
+                <l>The monarch of the day I might behold,</l>
+                <l>And all the mountains tipt with radiant gold,</l>
+                <l>But I reluctant leave the pleasing views,</l>
+                <l>Which Fancy dresses to delight the Muse;</l>
+                <l>Winter austere forbids me to aspire,</l>
+                <l>And northern tempests damp the rising fire;</l>
+                <l>They chill the tides of Fancy's flowing' sea,—</l>
+                <l>Cease then my song, cease the unequal lay.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>A FUNERAL POEM ON THE DEATH OF C. E.
+<lb/>AN INFANT OF TWELVE MONTHS.</head>
+              <lg>
+                <l>THROUGH airy roads he wings his instant flight</l>
+                <l>To purer regions of celestial light;</l>
+                <l>Enlarged he sees unnumbered systems roll,</l>
+                <l>Beneath him sees the universal whole;</l>
+                <l>Planets on planets run their destined round,</l>
+                <l>And circling wonders fill the vast profound.</l>
+                <l>The <sic corr="ethereal">etherial</sic> now, and now the empyreal skies</l>
+                <l>With growing splendors strike his wond'ring eyes:</l>
+                <l>The angels view him with delight unknown,</l>
+                <l>Press his soft hand, and seat him on the throne;</l>
+                <l>Then, smiling, thus: “To this divine abode,</l>
+                <l>“The seat of saints, of seraphs, and of God,</l>
+                <l>“Thrice welcome thou.” The raptured babe replies:</l>
+                <l>“Thanks to my God, who snatched me to the skies,</l>
+                <l>“Ere vice triumphant had possessed my heart,</l>
+                <l>“Ere yet the tempter had beguiled my heart,</l>
+                <l>“Ere yet on sin's base actions I was bent,</l>
+                <l>“Ere yet I knew temptation's dire intent,</l>
+                <pb id="wheat73" n="73"/>
+                <l>“Ere yet the lash for horrid crimes I felt,</l>
+                <l>“Ere vanity had led the way to guilt;</l>
+                <l>“But soon arrived at my celestial goal,</l>
+                <l>“Full glories rush on my expanding soul.”</l>
+                <l>Joyful he spoke: exulting cherubs round</l>
+                <l>Clapt their glad wings; the heavenly vaults resound.</l>
+              </lg>
+              <lg>
+                <l>Say, parents, why this unavailing moan?</l>
+                <l>Why heave your pensive bosoms with the groan?</l>
+                <l>To Charles, the happy subject of my song,</l>
+                <l>A brighter world, and nobler strains belong.</l>
+                <l>Say, would you tear him from the realms above,</l>
+                <l>By thoughtless wishes and preposterous love?</l>
+                <l>Does his felicity increase your pain?</l>
+                <l>Or could you welcome to this world again</l>
+                <l>The heir of bliss? With a superior air</l>
+                <l>Methinks he answers with a smile severe,—</l>
+                <l>“Thrones and dominions cannot tempt me there.”</l>
+                <l>But still you cry, “Can we the sigh forbear,</l>
+                <l>“And still, and still must we not pour the tear?</l>
+                <l>“Our only hope, more dear than vital breath,</l>
+                <l>“Twelve moons revolved, becomes the prey of death;</l>
+                <l>“Delightful infant, nightly visions give</l>
+                <l>“Thee to our arms, and we with joy receive;</l>
+                <l>“We fain would clasp the phantom to our breast,</l>
+                <l>“The phantom flies, and leaves the soul unblest.”</l>
+              </lg>
+              <lg>
+                <l>To yon bright regions let your faith ascend;</l>
+                <l>Prepare to meet your dearest infant friend</l>
+                <l>In pleasures without measure, without end.</l>
+              </lg>
+            </div2>
+            <pb id="wheat74" n="74"/>
+            <div2 type="verse">
+              <head>TO CAPTAIN H—D.
+<lb/>
+Of the 65th Regiment.</head>
+              <lg>
+                <l>SAY, Muse divine, can hostile scenes delight</l>
+                <l>The warrior's bosom in the fields of fight?</l>
+                <l>Lo! here the Christian and the hero join</l>
+                <l>With mutual grace to form the man divine.</l>
+                <l>In H—d see, with pleasure and surprise,</l>
+                <l>Where valor kindles, and where virtue lies:</l>
+                <l>Go, hero brave, still grace the post of fame,</l>
+                <l>And add new glories to thine honored name,</l>
+                <l>Still to the field, and still to virtue true:</l>
+                <l>Britannia glories in no son like you.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO THE RIGHT HONORABLE WILLIAM,
+<lb/>EARL OF DARTMOUTH,
+<lb/>
+His Majesty's Principal Secretary of State for North America, &amp;c.</head>
+              <lg>
+                <l>HAIL, happy day! when, smiling like the morn,</l>
+                <l>Fair Freedom rose, New England to adorn:</l>
+                <l>The northern clime, beneath her genial ray,</l>
+                <l>Dartmouth! congratulates thy blissful sway:</l>
+                <l>Elate with hope, her race no longer mourns,</l>
+                <l>Each soul expands, each grateful bosom burns,</l>
+                <l>While in thine hand with pleasure we behold</l>
+                <l>The silken reins, and Freedom's charms unfold.</l>
+                <l>Long lost to realms beneath the northern skies,</l>
+                <l>She shines supreme, while hated faction dies:</l>
+                <l>Soon as appeared the Goddess long desired,</l>
+                <l>Sick at the view she languished and expired;</l>
+                <pb id="wheat75" n="75"/>
+                <l>Thus from the splendors of the morning light</l>
+                <l>The owl in sadness seeks the eaves of night.</l>
+              </lg>
+              <lg>
+                <l>No more, America, in mournful strain,</l>
+                <l>Of wrongs and grievance unredressed complain;</l>
+                <l>No longer shall thou dread the iron chain</l>
+                <l>Which wanton Tyranny, with lawless hand,</l>
+                <l>Had made, and with it meant t' enslave the land.</l>
+              </lg>
+              <lg>
+                <l>Should you, my lord, while you peruse my song,</l>
+                <l>Wonder from whence my love of Freedom sprung,</l>
+                <l>Whence flow these wishes for the common good,</l>
+                <l>By feeling hearts alone best understood,—</l>
+                <l>I, young in life, by seeming cruel fate</l>
+                <l>Was snatched from Afric's fancied happy seat:</l>
+                <l>What pangs excruciating must molest,</l>
+                <l>What sorrows labour in my parent's breast!</l>
+                <l>Steeled was that soul, and by no misery moved,</l>
+                <l>That from a father seized his babe beloved:</l>
+                <l>Such, such my case. And can I then but pray</l>
+                <l>Others may never feel tyrannic sway?</l>
+              </lg>
+              <lg>
+                <l>For favors past, great Sir, our thanks are due,</l>
+                <l>And thee we ask thy favors to renew,</l>
+                <l>Since in thy power, as in thy will before,</l>
+                <l>To soothe the griefs, which thou didst once deplore.</l>
+                <l>May heavenly grace the sacred sanction give</l>
+                <l>To all thy works, and thou forever live,</l>
+                <l>Not only on the wings of fleeting Fame,</l>
+                <l>Though praise immortal crowns the patriot's name,</l>
+                <l>But to conduct to heaven's refulgent fane,</l>
+                <l>May fiery coursers sweep the <sic corr="ethereal">etherial</sic> plain,</l>
+                <l>And bear thee upwards to that blest abode,</l>
+                <l>Where, like the prophet, thou shalt find thy God.</l>
+              </lg>
+            </div2>
+            <pb id="wheat76" n="76"/>
+            <div2>
+              <head>ODE TO NEPTUNE,
+<lb/>
+On Mrs. W—'s Voyage to England.</head>
+              <lg>
+                <l>WHILE raging tempests shake the shore,</l>
+                <l>While Æolus' thunders round us roar,</l>
+                <l>And sweep impetuous o'er the plain,</l>
+                <l>Be still, O tyrant of the main;</l>
+                <l>Nor let thy brow contracted frowns betray,</l>
+                <l>While my Susannah skims the watery way.</l>
+              </lg>
+              <lg>
+                <l>The Power propitious hears the lay,</l>
+                <l>The blue-eyed daughters of the sea</l>
+                <l>With sweeter cadence glide along,</l>
+                <l>And Thames responsive joins the song.</l>
+                <l>Pleased with their note, Sol sheds benign his ray,</l>
+                <l>And double radiance decks the face of day.</l>
+              </lg>
+              <lg>
+                <l>To court thee to Britannia's arms,</l>
+                <l>Serene the clime and mild the sky,</l>
+                <l>Her region boasts unnumbered charms;</l>
+                <l>Thy welcome smiles in ev'ry eye.</l>
+                <l>Thy promise, Neptune, keep; record my prayer,</l>
+                <l>Nor give my wishes to the empty air.</l>
+              </lg>
+              <p><hi rend="italics">Boston, October</hi> 10, 1772.</p>
+            </div2>
+            <pb id="wheat77" n="77"/>
+            <div2 type="verse">
+              <head>TO A LADY,
+<lb/>
+On her coming to North America with her Son, for the recovery of her
+<lb/>Health.</head>
+              <lg>
+                <l>INDULGENT MUSE! my grovelling mind inspire,</l>
+                <l>And fill my bosom with celestial fire.</l>
+              </lg>
+              <lg>
+                <l>See from Jamaica's fervid shores she moves,</l>
+                <l>Like the fair mother of the blooming loves,</l>
+                <l>When from above the Goddess, with her hand,</l>
+                <l>Fans the soft breeze, and lights upon the land;</l>
+                <l>Thus she, on Neptune's watery realm reclined,</l>
+                <l>Appeared, and thus invites the lingering wind.</l>
+              </lg>
+              <lg>
+                <l>“Arise, ye winds, America explore,</l>
+                <l>“Waft me, ye gales, from this malignant shore;</l>
+                <l>“The Northern milder climes I long to greet,</l>
+                <l>“There, hope that health will my arrival meet.”</l>
+              </lg>
+              <lg>
+                <l>Soon as she spoke, in my ideal view,</l>
+                <l>The winds assented, and the vessel flew.</l>
+                <l>Madam, your spouse, bereft of wife and son,</l>
+                <l>In the grove's dark recesses pours his moan;</l>
+                <l>Each branch, wide spreading to the ambient sky,</l>
+                <l>Forgets its verdure, and submits to die.</l>
+              </lg>
+              <lg>
+                <l>From thence I turn, and leave the sultry plain,</l>
+                <l>And swift pursue thy passage o'er the main:</l>
+                <l>The ship arrives before the fav'ring wind,</l>
+                <l>And makes the Philadelphian port assigned;</l>
+                <l>Thence I attend you to Bostonia's arms,</l>
+                <l>Where gen'rous friendship ev'ry bosom warms:</l>
+                <l>Thrice welcome here! may health revive again,</l>
+                <l>Bloom on thy cheek, and bound in ev'ry vein!</l>
+                <pb id="wheat78" n="78"/>
+                <l>Then back return to gladden ev'ry heart,</l>
+                <l>And give your spouse his soul's far dearer part;</l>
+                <l>Received again, with what a sweet surprize,</l>
+                <l>The tear in transport starting from his eyes!</l>
+                <l>While his attendant son, with blooming grace,</l>
+                <l>Springs to his father's ever dear embrace,</l>
+                <l>With shouts of joy Jamaica's rocks resound,</l>
+                <l>With shouts of joy the country rings around.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO A LADY,
+<lb/>
+On her remarkable Preservation in a Hurricane, in North Carolina.</head>
+              <lg>
+                <l>THOUGH thou didst hear the tempest from afar,</l>
+                <l>And felt'st the horrors of the watery war,</l>
+                <l>To me unknown, yet on this peaceful shore</l>
+                <l>Methinks I hear the storm tumultuous roar,</l>
+                <l>And how stern Boreas, with impetuous hand,</l>
+                <l>Compelled the Nereids to usurp the land.</l>
+                <l>Reluctant rose the daughters of the main,</l>
+                <l>And slow ascending, glided o'er the plain,</l>
+                <l>Till Æolus in his rapid chariot drove,</l>
+                <l>In gloomy grandeur from the vaults above:</l>
+                <l>Furious he comes; his winged sons obey</l>
+                <l>Their frantic sire, and madden all the sea.</l>
+                <l>The billows rave, the wind's fierce tyrant roars,</l>
+                <l>And with his thundering terrors shakes the shores:</l>
+                <l>Broken by waves, the vessel's frame is rent,</l>
+                <l>And strews with planks the watery element.</l>
+              </lg>
+              <lg>
+                <l>But thee, Maria, a kind Nereid's shield</l>
+                <l>Preserved from sinking, and thy form upheld:</l>
+                <pb id="wheat79" n="79"/>
+                <l>And sure, some heavenly oracle designed,</l>
+                <l>At that dread crisis, to instruct thy mind</l>
+                <l>Things of eternal consequence to weigh,</l>
+                <l>And to thine heart just feelings to convey</l>
+                <l>Of things above, and of the future doom,</l>
+                <l>And what the births of the dread world to come.</l>
+              </lg>
+              <lg>
+                <l>From tossing seas I welcome thee to land.</l>
+                <l>“Resign her Nereid,” 't was thy God's command.</l>
+                <l>Thy spouse, late buried, as thy fears conceived,</l>
+                <l>Again returns, thy fears are all relieved:</l>
+                <l>Thy daughter, blooming with celestial grace,</l>
+                <l>Again thou see'st, again thine arms embrace;</l>
+                <l>Oh come, and joyful show thy spouse his heir,</l>
+                <l>And what the blessings of maternal care!</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO A LADY AND HER CHILDREN,
+<lb/>
+On the Death of her Son and their Brother.</head>
+              <lg>
+                <l>O'ERWHELMING sorrow now demands my song:</l>
+                <l>From death the overwhelming sorrow sprung.</l>
+                <l>What flowing tears! what hearts with grief opprest!</l>
+                <l>What sighs on sighs heave the fond parent's breast!</l>
+                <l>The brother weeps, the hapless sisters join</l>
+                <l>The increasing woe, and swell the crystal brine;</l>
+                <l>The poor, who once his gen'rous bounty fed,</l>
+                <l>Droop and bewail their benefactor dead.</l>
+                <l>In death the friend, the kind companion lies,</l>
+                <l>And in one death what various comfort dies!</l>
+              </lg>
+              <pb id="wheat80" n="80"/>
+              <lg>
+                <l>The unhappy mother sees the sanguine rill</l>
+                <l>Forget to flow, and nature's wheels stand still;</l>
+                <l>But see, from earth his spirit far removed,</l>
+                <l>And know no grief <sic corr="recalls">recals</sic> your best-beloved:</l>
+                <l>He, upon pinions swifter than the wind,</l>
+                <l>Has left mortality's sad scenes behind</l>
+                <l>For joys to this terrestrial state unknown,</l>
+                <l>And glories richer than the monarch's crown.</l>
+                <l>Of Virtue's steady course the prize behold!</l>
+                <l>What blissful wonders to his mind unfold!</l>
+                <l>But of celestial joys I sing in vain:</l>
+                <l>Attempt not, Muse, the too adventurous strain.</l>
+                <l>No more in briny showers ye friends around,</l>
+                <l>Or bathe his clay, or waste them on the ground.</l>
+                <l>Still do you weep, still wish for his return?</l>
+                <l>How cruel, thus to weep and thus to mourn!</l>
+                <l>No more for him the streams of sorrow pour,</l>
+                <l>But haste to join him on the heavenly shore,</l>
+                <l>On harps of gold to tune immortal lays,</l>
+                <l>And to you God immortal anthems raise.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO A GENTLEMAN AND LADY,
+<lb/>
+On the Death of the Lady's Brother and Sister, and a Child of the name of
+<lb/>Avis, aged one year.</head>
+              <lg>
+                <l>ON Death's domain intent I fix my eyes,</l>
+                <l>Where human nature in vast ruin lies:</l>
+                <l>With pensive mind I search the drear abode,</l>
+                <l>Where the dread conqueror has his spoils bestowed;</l>
+                <l>There, there the offspring of six thousand years,</l>
+                <l>In endless numbers to my view appears:</l>
+                <pb id="wheat81" n="81"/>
+                <l>Whole kingdoms in his gloomy den are thrust,</l>
+                <l>And nations mix with their primeval dust:</l>
+                <l>Insatiate still, he gluts the ample tomb;</l>
+                <l>His is the present, his the age to come.</l>
+                <l>See here a brother, here a sister spread,</l>
+                <l>And a sweet daughter mingled with the dead.</l>
+              </lg>
+              <lg>
+                <l>But, Madam, let your grief be laid aside,</l>
+                <l>And let the fountain of your tears be dried.</l>
+                <l>In vain they flow to wet the dusty plain,</l>
+                <l>Your sighs are wafted to the skies in vain;</l>
+                <l>Your pains they witness, but they can no more,</l>
+                <l>While Death reigns tyrant o'er this mortal shore.</l>
+              </lg>
+              <lg>
+                <l>The glowing stars and silver queen of light</l>
+                <l>At last must perish in the gloom of night:</l>
+                <l>Resign thy friends to that Almighty hand</l>
+                <l>Which gave them life, and bow to his command;</l>
+                <l>Thine Avis give without a murmuring heart,</l>
+                <l>Though half thy soul be fated to depart.</l>
+                <l>To shining guards consign thine infant care,</l>
+                <l>To waft triumphant through the seas of air:</l>
+                <l>Her soul, enlarged, to heavenly pleasure springs,</l>
+                <l>She feeds on truth and uncreated things.</l>
+                <l>Methinks I hear her in the realms above,</l>
+                <l>And leaning forward with a filial love,</l>
+                <l>Invite you there to share immortal bliss</l>
+                <l>Unknown, untasted in a state like this.</l>
+                <l>With tow'ring hopes, and growing grace arise,</l>
+                <l>And seek beatitude beyond the skies.</l>
+              </lg>
+            </div2>
+            <pb id="wheat82" n="82"/>
+            <div2 type="verse">
+              <head>ON THE DEATH OF DR. SAMUEL<lb/> MARSHALL,—1771.</head>
+              <lg>
+                <l>THROUGH thickest glooms look back, immortal shade,</l>
+                <l>On that confusion which thy death has made;</l>
+                <l>Or from Olympus' height look down and see</l>
+                <l>A Town involved in grief, bereft of thee.</l>
+                <l>Thy Lucy sees thee mingle with the dead,</l>
+                <l>And rends the graceful tresses from her head;</l>
+                <l>Wild in her woe, with grief unknown opprest,</l>
+                <l>Sigh follows sigh, deep heaving from her breast.</l>
+                <l>Too quickly fled, ah! whither art thou gone?</l>
+                <l>Ah! lost forever to thy wife and son!</l>
+                <l>The hapless child, thine only hope and heir,</l>
+                <l>Clings round his mother's neck, and weeps his sorrow <lb/>there.</l>
+                <l>The loss of thee on Tyler's soul returns,</l>
+                <l>And Boston for her dear physician mourns.</l>
+              </lg>
+              <lg>
+                <l>When sickness called for Marshall's healing hand,</l>
+                <l>With what compassion did his soul expand!</l>
+                <l>In him we found the father and the friend:</l>
+                <l>In life how loved! how honored in his end!</l>
+              </lg>
+              <lg>
+                <l>And must not then our Æsculapius stay,</l>
+                <l>To bring his ling'ring infant into day?</l>
+                <l>The babe unborn in the dark womb is <sic corr="tossed">tost,</sic></l>
+                <l>And seems in anguish for its father lost.</l>
+              </lg>
+              <lg>
+                <l>Gone is Apollo from his house of earth,</l>
+                <l>But leaves the sweet memorials of his worth:</l>
+                <l>The common parent, whom we all deplore,</l>
+                <l>From yonder world unseen must come no more;</l>
+                <pb id="wheat83" n="83"/>
+                <l>Yet 'midst our woes immortal hopes attend</l>
+                <l>The spouse, the sire, the universal friend.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO A GENTLEMAN,<lb/>
+On his Voyage to Great Britain, for the Recovery of his Health.</head>
+              <lg>
+                <l>WHILE others chant of gay Elysian scenes,</l>
+                <l>OF balmy zephyrs, and of flow'ry plains,</l>
+                <l>My song, more happy, speaks a greater name,</l>
+                <l>Feels higher motives and a nobler flame.</l>
+                <l>For thee, O R—, the Muse attunes her strings,</l>
+                <l>And mounts sublime above inferior things.</l>
+              </lg>
+              <lg>
+                <l>I sing not now of green embow'ring woods,</l>
+                <l>I sing not now the daughters of the floods,</l>
+                <l>I sing not of the storms o'er ocean driven,</l>
+                <l>And how they howled along the waste of heaven;</l>
+                <l>But I to R— would paint the British shore,</l>
+                <l>And vast Atlantic not untry'd before:</l>
+                <l>Thy life impaired, commands thee to arise,</l>
+                <l>Leave these bleak regions and inclement skies,</l>
+                <l>Where chilling winds return the winter past,</l>
+                <l>And nature shudders at the furious blast.</l>
+              </lg>
+              <lg>
+                <l>O thou stupendous, earth-enclosing main,</l>
+                <l>Exert thy wonders to the world again!</l>
+                <l>If e'er thy power prolonged the fleeting breath,</l>
+                <l>Turned back the shafts, and mocked the gates of death,</l>
+                <l>If e'er thine air dispensed a healing power,</l>
+                <l>Or snatched the victim from the fatal hour,</l>
+                <l>This equal case demands thine equal care,</l>
+                <l>And equal wonders may this patient share.</l>
+                <pb id="wheat84" n="84"/>
+                <l>But unavailing, frantic is the dream,</l>
+                <l>To hope thine aid without the aid of Him</l>
+                <l>Who gave thee birth, and taught thee where to flow,</l>
+                <l>And in thy waves his various blessings show.</l>
+              </lg>
+              <lg>
+                <l>May R— return to view his native shore,</l>
+                <l>Replete with vigor not his own before,</l>
+                <l>Then shall we see with pleasure and surprise,</l>
+                <l>And own thy work, great Ruler of the skies!</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO THE REV. DR. THOMAS AMORY,
+<lb/>
+On reading his Sermons on Daily Devotion, in which that Duty is
+<lb/>recommended and assisted.</head>
+              <lg>
+                <l>To cultivate in ev'ry noble mind</l>
+                <l>Habitual grace, and sentiments refined,</l>
+                <l>Thus while you strive to mend the human heart,</l>
+                <l>Thus while the heavenly precepts you impart,</l>
+                <l>Oh! may each bosom catch the sacred fire,</l>
+                <l>And youthful minds to Virtue's throne aspire!</l>
+              </lg>
+              <lg>
+                <l>When God's eternal ways you set in sight,</l>
+                <l>And Virtue shines in all her native light,</l>
+                <l>In vain would Vice her works conceal,</l>
+                <l>For Wisdom's eye pervades the sable veil.</l>
+              </lg>
+              <lg>
+                <l>Artists may paint the sun's effulgent rays,</l>
+                <l>But Amory's pen the brighter God displays:</l>
+                <l>While his great works in Amory's pages shine,</l>
+                <l>And while he proves his essence all divine,</l>
+                <pb id="wheat85" n="85"/>
+                <l>The Atheist sure no more can boast aloud</l>
+                <l>Of chance, or nature, and exclude the God;</l>
+                <l>As if the clay, without the potter's aid,</l>
+                <l>Should rise in various forms and shapes self-made,</l>
+                <l>Or worlds above, with orb o'er orb profound,</l>
+                <l>Self-moved, could run the everlasting round.</l>
+                <l>It cannot be—unerring Wisdom guides</l>
+                <l>With eye propitious, and o'er all presides.</l>
+                <l>Still prosper, Amory! still may'st thou receive</l>
+                <l>The warmest blessings which a Muse can give,</l>
+                <l>And when this transitory state is o'er,</l>
+                <l>When kingdoms fall, and fleeting Fame's no more,</l>
+                <l>May Amory triumph in immortal fame,</l>
+                <l>A nobler title and superior name!</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>ON THE DEATH OF J. C.
+<lb/>An Infant.</head>
+              <lg>
+                <l>No more the flow'ry scenes of pleasure rise,</l>
+                <l>Nor charming prospects greet the mental eyes,</l>
+                <l>Smiling, disportive, flushed with ev'ry grace.</l>
+              </lg>
+              <lg>
+                <l>The tear of sorrow flows from ev'ry eye,</l>
+                <l>Groans answer groans, and sighs to sighs reply;</l>
+                <l>What sudden pangs shot through each aching heart,</l>
+                <l>When Death, thy messenger, despatched his dart!</l>
+                <l>Thy dread attendants, all destroying Power,</l>
+                <l>Hurried the infant to his mortal hour.</l>
+                <l>Could'st thou unpitying close those radiant eyes?</l>
+                <l>Or failed his artless beauties to surprize?</l>
+                <pb id="wheat86" n="86"/>
+                <l>Could not his innocence thy stroke control,</l>
+                <l>Thy purpose shake, and soften all thy soul?</l>
+              </lg>
+              <lg>
+                <l>The blooming babe, with shades of death o'erspread,</l>
+                <l>No more shall smile, no more shall raise its head,</l>
+                <l>But, like a branch that from the tree is torn,</l>
+                <l>Falls prostrate, withered, languid and forlorn.</l>
+                <l>“Where flies my James?” 'T is thus I seem to hear</l>
+                <l>The parent ask. “Some angel, tell me where</l>
+                <l>“He wings his passage through the yielding air.”</l>
+              </lg>
+              <lg>
+                <l>Methinks a cherub, bending from the skies,</l>
+                <l>Observes the question, and serene replies:</l>
+                <l>“In heaven's high palaces your babe appears:</l>
+                <l>“Prepare to meet him and dismiss your tears.”</l>
+                <l>Shall not the intelligence your grief restrain,</l>
+                <l>And turn the mournful to the cheerful strain?</l>
+                <l>Cease your complaints, suspend each rising sigh,</l>
+                <l>Cease to accuse the Ruler of the sky.</l>
+                <l>Parents, no more indulge the falling tear:</l>
+                <l>Let Faith to heaven's refulgent domes repair,</l>
+                <l>There see your infant like a seraph glow:</l>
+                <l>What charms celestial in his numbers flow</l>
+                <l>Melodious, while the soul-enchanting strain</l>
+                <l>Dwells on his tongue, and fills the <sic corr="ethereal">etherial</sic> plain!</l>
+              </lg>
+              <lg>
+                <l>Enough—forever cease your murmuring breath;</l>
+                <l>Not as a foe, but friend, converse with Death,</l>
+                <l>Since to the port of happiness unknown</l>
+                <l>He brought that treasure which you call your own.</l>
+                <l>The gift of heaven intrusted to your hand</l>
+                <l>Cheerful resign at the divine command:</l>
+                <l>Not at your bar, must Sovereign Wisdom stand.</l>
+              </lg>
+            </div2>
+            <pb id="wheat87" n="87"/>
+            <div2 type="verse">
+              <head>A HYMN TO HUMANITY.
+<lb/>
+To S. P. G. Esq.</head>
+              <lg>
+                <l>Lo! for this dark terrestrial ball,</l>
+                <l>Forsakes his azure paved hall,</l>
+                <l>A prince of heavenly birth!</l>
+                <l>Divine Humanity behold,</l>
+                <l>What wonders rise, what charms unfold</l>
+                <l>At his descent to earth!</l>
+              </lg>
+              <lg>
+                <l>The bosoms of the great and good</l>
+                <l>With wonder and delight he viewed,</l>
+                <l>And fixed his empire there:</l>
+                <l>Him close compressing to his breast,</l>
+                <l>The sire of Gods and men addressed,</l>
+                <l>“My son, my heavenly fair!</l>
+              </lg>
+              <lg>
+                <l>“Descend to earth, there place thy throne:</l>
+                <l>“To succor man's afflicted son,</l>
+                <l>“Each human heart inspire:</l>
+                <l>“To act in bounties unconfined,</l>
+                <l>“Enlarge the close contracted mind,</l>
+                <l>“And fill it with thy fire.”</l>
+              </lg>
+              <lg>
+                <l>Quick as the word, with swift career,</l>
+                <l>He wings his course from star to star,</l>
+                <l>And leaves his bright abode,</l>
+                <l>The Virtue did his charms impart;</l>
+                <l>There G—y! then thy raptured heart</l>
+                <l>Perceiv'd the rushing God:</l>
+              </lg>
+              <lg>
+                <l>For then thy pitying eye did see</l>
+                <l>The languid muse in low degree;</l>
+                <l>Then, then at thy desire,</l>
+                <pb id="wheat88" n="88"/>
+                <l>Descended the celestial Nine;</l>
+                <l>O'er me, methought they deigned to shine,</l>
+                <l>And deigned to string my lyre.</l>
+              </lg>
+              <lg>
+                <l>Can Afric's Muse forgetful prove?</l>
+                <l>Or can such friendship fail to move</l>
+                <l>A tender human heart?</l>
+                <l>Immortal Friendship laurel-crowned,</l>
+                <l>The smiling Graces all around,</l>
+                <l>With ev'ry heavenly Art.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO THE HON. T. H. ESQ.
+<lb/>
+On the Death of his Daughter.</head>
+              <lg>
+                <l>WHILE deep you mourn beneath the cypress shade</l>
+                <l>The hand of death, and your dear daughter laid</l>
+                <l>In dust, whose absence gives your tears to flow,</l>
+                <l>And racks your bosom with incessant woe,</l>
+                <l>Let Recollection take a tender part,</l>
+                <l>Assuage the raging tortures of your heart,</l>
+                <l>Still the wild tempests of tumultuous grief,</l>
+                <l>And pour the heavenly nectar of relief:</l>
+                <l>Suspend the sigh, dear Sir, and check the groan,—</l>
+                <l>Divinely bright your daughter's virtues shone:</l>
+                <l>How free from scornful pride her gentle mind,</l>
+                <l>Which ne'er its aid to indigence declined!</l>
+                <l>Expanding free, it sought the means to prove</l>
+                <l>Unfailing charity, unbounded love!</l>
+              </lg>
+              <lg>
+                <l>She unreluctant flies, to see no more</l>
+                <l>Her dear loved parents on earth's dusky shore:</l>
+                <pb id="wheat89" n="89"/>
+                <l>Impatient heaven's resplendent goal to gain,</l>
+                <l>She with swift progress cuts the azure plain,</l>
+                <l>Where grief subsides, where changes are no more,</l>
+                <l>And life's tumultuous billows cease to roar;</l>
+                <l>She leaves her earthly mansion for the skies,</l>
+                <l>Where new creations feast her wondering eyes.</l>
+                <l>To heaven's high mandate, cheerfully resigned,</l>
+                <l>She mounts, and leaves the rolling globe behind;</l>
+                <l>She, who late wished that Leonard might return,</l>
+                <l>Has ceased to languish, and forgot to mourn;</l>
+                <l>To the same high empyreal mansion come,</l>
+                <l>She joins her spouse and smiles upon the tomb:</l>
+                <l>And thus I hear her from the realms above:</l>
+                <l>“Lo this the kingdom of celestial love!</l>
+                <l>“Could ye, fond parents, see our present bliss,</l>
+                <l>“How soon would you each sigh, each fear dismiss!</l>
+                <l>“Amidst unuttered pleasures whilst I play</l>
+                <l>“In the fair sunshine of celestial day,</l>
+                <l>“As far as grief affects a happy soul,</l>
+                <l>“So far doth grief my better mind control,</l>
+                <l>“To see on earth my aged parents mourn,</l>
+                <l>“And secret wish for T—l to return:</l>
+                <l>“Let brighter scenes your evening hours employ:</l>
+                <l>“Converse with heaven, and taste the promised joy.”</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>NIOBE IN DISTRESS FOR HER CHILDREN
+<lb/>SLAIN BY APOLLO.
+<lb/>
+From Ovid's Metamorphoses, Book 6th, and from a View of the Painting
+<lb/>of Mr. Richard Wilson.</head>
+              <lg>
+                <l>APOLLO'S wrath, to man the dreadful spring</l>
+                <l>Of ills innumerous, tuneful goddess sing!</l>
+                <pb id="wheat90" n="90"/>
+                <l>Thou who didst first the ideal pencil give,</l>
+                <l>And taught the painter in his works to live,</l>
+                <l>Inspire with glowing energy of thought</l>
+                <l>What Wilson painted, and what Ovid wrote.</l>
+                <l>Muse! lend thine aid, nor let me sue in vain,</l>
+                <l>Though last and meanest of the rhyming train!</l>
+                <l>Oh! guide my pen in lofty strains to show</l>
+                <l>The Phrygian queen all beautiful in woe.</l>
+              </lg>
+              <lg>
+                <l>'T was where Mæonia spreads her wide domain</l>
+                <l>Niobe dwelt, and held her potent reign:</l>
+                <l>See in her hand the regal sceptre shine,</l>
+                <l>The wealthy heir of Tantalus, divine,</l>
+                <l>He most distinguished by Dodonean Jove,</l>
+                <l>To approach the tables of the gods above:</l>
+                <l>Her grandsire Atlas, who with mighty pains</l>
+                <l>The etherial axis on his neck sustains:</l>
+                <l>Her other grandsire on the throne on high</l>
+                <l>Rolls the loud pealing thunder of the sky.</l>
+              </lg>
+              <lg>
+                <l>Her spouse, Amphion, who from Jove too springs,</l>
+                <l>Divinely taught to sweep the sounding strings.</l>
+              </lg>
+              <lg>
+                <l>Seven sprightly sons the royal bed adorn,</l>
+                <l>Seven daughters, beauteous as the rising morn,</l>
+                <l>As when Aurora fills the ravished sight,</l>
+                <l>And decks the orient realms with rosy light,</l>
+                <l>From their bright eyes the living splendors play,</l>
+                <l>Nor can beholders bear the flashing ray:</l>
+              </lg>
+              <lg>
+                <l>Wherever, Niobe, thou turn'st thine eyes,</l>
+                <l>New beauties kindle and new joys arise!</l>
+                <l>But thou hadst far the happier mother proved,</l>
+                <l>If this fair offspring had been less beloved:</l>
+                <l>What if their charms exceed Aurora's teint,</l>
+                <l>No words could tell them, and no pencil paint,</l>
+                <pb id="wheat91" n="91"/>
+                <l>Thy love, too vehement, hastens to destroy</l>
+                <l>Each blooming maid, and each celestial boy.</l>
+              </lg>
+              <lg>
+                <l>Now Manto comes, endued with mighty skill,</l>
+                <l>The past to explore, the future to reveal.</l>
+                <l>Through Thebe's wide streets Tiresia's daughter came,</l>
+                <l>Divine Latona's mandate to proclaim:</l>
+                <l>The Theban maids to hear the order ran,</l>
+                <l>When thus Mæonia's prophetess began:</l>
+              </lg>
+              <lg>
+                <l>“Go Thebans! great Latona's will obey,</l>
+                <l>“And pious tribute at her altars pay:</l>
+                <l>“With rites divine, the goddess be implored,</l>
+                <l>“Nor be her sacred offspring unadored.”</l>
+                <l>Thus Manto spoke. The Theban maids obey,</l>
+                <l>And pious tribute to the goddess pay.</l>
+                <l>The rich perfumes ascend in waving spires,</l>
+                <l>And altars blaze with consecrated fires;</l>
+                <l>The fair assembly moves with graceful air,</l>
+                <l>And leaves of laurel bind the flowing hair.</l>
+              </lg>
+              <lg>
+                <l>Niobe comes with all her royal race,</l>
+                <l>With charms unnumbered, and superior grace:</l>
+                <l>Her Phrygian garment of delightful hue,</l>
+                <l>Inwove with gold, refulgent to the view,</l>
+                <l>Beyond description beautiful, she moves</l>
+                <l>Like heavenly Venus, 'midst her smiles and loves.</l>
+                <l>She views around the supplicating train,</l>
+                <l>And shakes her graceful head with stern disdain,</l>
+                <l>Proudly she turns around her lofty eyes,</l>
+                <l>And thus reviles celestial deities:</l>
+              </lg>
+              <lg>
+                <l>“What madness drives the Theban ladies fair</l>
+                <l>“To give their incense to surrounding air?</l>
+                <l>“Say, why this new-sprung deity preferred?</l>
+                <l>“Why vainly fancy your petitions heard?</l>
+                <pb id="wheat92" n="92"/>
+                <l>“Or say why Coeus' offspring is obeyed,</l>
+                <l>“While to my goddesship no tribute 's paid?</l>
+                <l>“For me no altars blaze with living fires,</l>
+                <l>“No bullock bleeds, no frankincense transpires;</l>
+                <l>“Though Cadmus' palace not unknown to fame,</l>
+                <l>“And Phrygian nations all revere my name.</l>
+                <l>“Where'er I turn my eyes vast wealth I find.</l>
+                <l>“Lo here an empress with a goddess joined.</l>
+                <l>“What! shall a Titaness be deified,</l>
+                <l>“To whom the spacious earth a couch denied?</l>
+                <l>“Nor heaven, nor earth, nor sea received your queen,</l>
+                <l>“Till pitying Delos took the wanderer in.</l>
+                <l>“Round me what a large progeny is spread!</l>
+                <l>“No frowns of fortune has my soul to dread.</l>
+                <l>“What if indignant she decrease my train?</l>
+                <l>“More than Latona's number will remain.</l>
+                <l>“Then hence, ye Theban dames, hence haste away,</l>
+                <l>“Nor longer offerings to Latona pay,</l>
+                <l>“Regard the orders of Amphion's spouse,</l>
+                <l>“And take the leaves of laurel from your brows.”</l>
+              </lg>
+              <lg>
+                <l>Niobe spoke. The Theban maids obeyed,</l>
+                <l>Their brows unbound, and left the rites unpaid.</l>
+              </lg>
+              <lg>
+                <l>The angry goddess heard, then silence broke</l>
+                <l>On Cynthus' summit, and indignant spoke:</l>
+                <l>“Phoebus! behold thy mother in disgrace,</l>
+                <l>“Who to no goddess yields the prior place,</l>
+                <l>“Except to Juno's self, who reigns above,</l>
+                <l>“The spouse and sister of the thundering Jove.</l>
+                <l>“Niobe, sprung from Tantalus, inspires</l>
+                <l>“Each Theban bosom with rebellious fires:</l>
+                <l>“No reason her imperious temper quells,</l>
+                <l>“But all her father in her tongue rebels;</l>
+                <pb id="wheat93" n="93"/>
+                <l>“Wrap her own sons, for her blaspheming breath,</l>
+                <l>“Apollo! wrap them in the shades of death.”</l>
+              </lg>
+              <lg>
+                <l>Latona ceased, and ardent thus replies</l>
+                <l>The God whose glory decks the expanded skies.</l>
+              </lg>
+              <lg>
+                <l>“Cease thy complaints, mine be the task assigned</l>
+                <l>“To punish and to scourge the rebel mind.”</l>
+              </lg>
+              <lg>
+                <l>This Phebe joined. They wing their instant flight,</l>
+                <l>Thebes trembled as the immortal powers alight.</l>
+                <l>With clouds encompassed, glorious Phebus stands;</l>
+                <l>The feathered vengeance quivering in his hands.</l>
+                <l>Near Cadmus' walls a plain extended lay,</l>
+                <l>Where Thebes' young princes passed in sport the day;</l>
+                <l>There the bold coursers bounded o'er the plains,</l>
+                <l>While their great masters held the golden reins.</l>
+                <l>Ismenus first, the racing pastime led,</l>
+                <l>And ruled the fury of his flying steed.</l>
+                <l>“Ah me!” he sudden cries, with shrieking breath,</l>
+                <l>While in his breast he feels the shaft of death;</l>
+                <l>He drops the bridle on his courser's mane,</l>
+                <l>Before his eyes in shadows swims the plain;</l>
+                <l>He, the first-born of great Amphion's bed,</l>
+                <l>Was struck the first, first mingled with the dead.</l>
+              </lg>
+              <lg>
+                <l>Then didst thou, Sypylus, the language hear</l>
+                <l>Of fate portentous whistling through the air</l>
+                <l>As when the impending storm the sailor sees,</l>
+                <l>He spreads his canvass to the favoring breeze,</l>
+                <l>So to thine horse thou gavest the golden reins,</l>
+                <l>Gavest him to rush impetuous o'er the plains:</l>
+                <l>But ah! a fatal shaft from Phebus' hand</l>
+                <l>Smites through thy neck and sinks thee on the sand.</l>
+              </lg>
+              <pb id="wheat94" n="94"/>
+              <lg>
+                <l>Two other brothers were at wrestling found,</l>
+                <l>And in their pastime clasped each other round:</l>
+                <l>A shaft that instant from Apollo's hand</l>
+                <l>Transfixed them both and stretched them on the sand:</l>
+                <l>Together they their cruel fate bemoaned,</l>
+                <l>Together languished and together groaned:</l>
+                <l>Together, too, the unbodied spirits fled,</l>
+                <l>And sought the gloomy mansions of the dead.</l>
+              </lg>
+              <lg>
+                <l>Alphenor saw, and trembling at the view,</l>
+                <l>Beat his torn breast, that changed its snowy hue.</l>
+                <l>He flies to raise them in a kind embrace;</l>
+                <l>A brother's fondness triumphs in his face:</l>
+                <l>Alphenor fails in this fraternal deed,</l>
+                <l>A dart despatched him, (so the fates decreed.)</l>
+                <l>Soon as the arrow left the deadly wound,</l>
+                <l>His issuing entrails smoked upon the ground.</l>
+              </lg>
+              <lg>
+                <l>What woes on blooming Damasichon wait!</l>
+                <l>His sighs portend his near impending fate.</l>
+                <l>Just where the well-made leg begins to be,</l>
+                <l>And the soft sinews form the supple knee,</l>
+                <l>The youth, sore wounded by the Delian god,</l>
+                <l>Attempts to extract the crime-avenging rod;</l>
+                <l>But while he strives the will of fate to avert,</l>
+                <l>Divine Apollo sends a second dart;</l>
+                <l>Swift through his throat the feathered mischief flies,</l>
+                <l>Bereft of sense, he drops his head and dies.</l>
+                <l>Young Ilioneus, the last, directs his prayer,</l>
+                <l>And cries, “My life, ye gods celestial spare.<corr sic="missing punctuation">”</corr></l>
+                <l>Apollo heard, and pity touched his heart,</l>
+                <l>But ah! too late, for he had sent the dart:</l>
+                <l>Thou, too, oh Ilioneus doomed to fall,</l>
+                <l>The fates refuse that arrow to <sic corr="recall.">recal.</sic></l>
+                <pb id="wheat95" n="95"/>
+                <l>On the swift wings of ever-flying Fame,</l>
+                <l>To Cadmus' palace soon the tiding came.</l>
+                <l>Niobe heard, and with indignant eyes</l>
+                <l>She thus expressed her anger and surprize:</l>
+                <l>“Why is such privilege to them allowed?</l>
+                <l>“Why thus insulted by the Delian god?</l>
+                <l>“Dwells there such mischief in the powers above?</l>
+                <l>“Why sleeps the vengeance of immortal Jove?”</l>
+                <l>For now Amphion, too, with grief oppressed,</l>
+                <l>Had plunged the deadly dagger in his breast.</l>
+                <l>Niobe now, less haughty than before,</l>
+                <l>With lofty head directs her steps no more.</l>
+                <l>She, who late told her pedigree divine,</l>
+                <l>And drove the Thebans from Latona's shrine,</l>
+                <l>How strangely changed! yet beautiful in woe,</l>
+                <l>She weeps, nor weeps unpitied by the foe.</l>
+                <l>On each pale corse the wretched mother, spread, </l>
+                <l>Lay overwhelmed with grief, and kissed her dead,</l>
+                <l>Then raised her arms, and thus, in accents slow,</l>
+                <l>“Be sated, cruel goddess, with my woe!</l>
+                <l>“If I 've offended, let these streaming eyes,</l>
+                <l>“And let this seven-fold funeral suffice:</l>
+                <l>“Ah! take this wretched life you deigned to save,</l>
+                <l>“With them I too am carried to the grave:</l>
+                <l>“Rejoice triumphant, my victorious foe,</l>
+                <l>“But show the cause from whence your triumphs flow.</l>
+                <l>“Though I unhappy mourn these children slain,</l>
+                <l>“Yet greater numbers to my lot remain.”</l>
+                <l>She ceased, the bow-string twanged with awful sound,</l>
+                <l>Which struck with terror all the assembly round,</l>
+                <l>Except the queen, who stood unmoved alone,</l>
+                <l>By her distresses more presumptuous grown.</l>
+                <l>Near the pale corses stood their sisters fair,</l>
+                <l>In sable vestures and dishevelled hair;</l>
+                <pb id="wheat96" n="96"/>
+                <l>One, while she draws the fatal shaft away,</l>
+                <l>Faints, falls, and sickens in the light of day.</l>
+                <l>To soothe her mother, lo! another flies,</l>
+                <l>And blames the fury of the inclement skies,</l>
+                <l>And, while her words a filial pity show,</l>
+                <l>Struck dumb—indignant, seeks the shades below.</l>
+                <l>Now from the fatal place, another flies,</l>
+                <l>Falls in her flight, and languishes and dies.</l>
+                <l>Another on her sister drops in death;</l>
+                <l>A fifth in trembling terror yields her breath;</l>
+                <l>While the sixth seeks some gloomy cave in vain,</l>
+                <l>Struck with the rest, and mingled with the slain.</l>
+                <l>One only daughter lives, and she the least;</l>
+                <l>The queen close clasped the daughter to her breast.</l>
+                <l>“Ye heavenly powers, ah spare me one,” she cried,</l>
+                <l>“Ah! spare me one,” the vocal hills replied:</l>
+                <l>In vain she begs, the Fates her suit deny,</l>
+                <l>In her embrace she sees her daughter die.</l>
+              </lg>
+              <lg>
+                <l><ref targOrder="U" id="ref8" n="8" rend="sc" target="note8">*</ref>“The queen, of all her family bereft,</l>
+                <l>“Without or husband, son, or daughter left,</l>
+                <l>“Grew stupid at the shock. The passing air</l>
+                <l>“Made no impression on her stiff'ning hair.</l>
+                <l>“The blood forsook her face: amidst the flood</l>
+                <l>“Poured from her cheeks, quite fixed her eye-balls stood.</l>
+                <l>“Her tongue, her palate, both obdurate grew,</l>
+                <l>“Her curdled veins no longer motion knew;</l>
+                <l>“The use of neck, and arms, and feet was gone,</l>
+                <l>“And even her bowels hardened into stone:</l>
+                <l>“A marble statue now the queen appears,</l>
+                <l>“But from the marble steal the silent tears.”</l>
+              </lg>
+              <note id="note8" n="8" rend="sc" place="foot" anchored="yes" target="ref8">
+                <p>* This verse to end is the work of another hand. </p>
+              </note>
+            </div2>
+            <pb id="wheat97" n="97"/>
+            <div2 type="verse">
+              <head>TO S. M., A YOUNG AFRICAN PAINTER,
+<lb/>
+On seeing his Works.</head>
+              <lg>
+                <l>To show the lab'ring bosom's deep intent,</l>
+                <l>And thought in living characters to paint,</l>
+                <l>When first thy pencil did those beauties give,</l>
+                <l>And breathing figures learnt from thee to live,</l>
+                <l>How did those prospects give my soul delight,</l>
+                <l>A new creation rushing on my sight!</l>
+                <l>Still, wondrous youth! each noble path pursue,</l>
+                <l>On deathless glories fix thine ardent view:</l>
+                <l>Still may the painter's and the poet's fire,</l>
+                <l>To aid thy pencil and thy verse conspire!</l>
+                <l>And may the charms of each seraphic theme</l>
+                <l>Conduct thy footsteps to immortal fame!</l>
+                <l>High to the blissful wonders of the skies</l>
+                <l>Elate thy soul, and raise thy wishful eyes.</l>
+                <l>Thrice happy, when exalted to survey</l>
+                <l>That splendid city, crowned with endless day,</l>
+                <l>Whose twice six gates on radiant hinges ring:</l>
+                <l>Celestial Salem blooms in endless spring.</l>
+                <l>Calm and serene thy moments glide along,</l>
+                <l>And may the muse inspire each future song!</l>
+                <l>Still, with the sweets of contemplation blessed,</l>
+                <l>May peace with balmy wings your soul invest!</l>
+                <l>But when these shades of time are chased away,</l>
+                <l>And darkness ends in everlasting day,</l>
+                <l>On what seraphic pinions shall we move,</l>
+                <l>And view the landscapes in the realms above!</l>
+                <l>There shall thy tongue in heavenly murmurs flow,</l>
+                <l>And there my muse with heavenly transport glow;</l>
+                <l>No more to tell of Damon's tender sighs,</l>
+                <l>Or rising radiance of Aurora's eyes,</l>
+                <pb id="wheat98" n="98"/>
+                <l>For nobler themes demand a nobler strain,</l>
+                <l>And purer language on the etherial plain.</l>
+                <l>Cease, gentle Muse! the solemn gloom of night</l>
+                <l>Now seals the fair creation from my sight.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>TO HIS HONOR THE LIEUTENANT
+<lb/>GOVERNOR,
+<lb/>
+On the Death of his Lady, March 24th, 1773.</head>
+              <lg>
+                <l>ALL conquering Death! by thy resistless power,</l>
+                <l>Hope's tow'ring plumage falls to rise no more!</l>
+                <l>Of scenes terrestrial how the glories fly,</l>
+                <l>Forget their splendors, and submit to die!</l>
+                <l>Who e'er escaped thee but the saint<ref targOrder="U" id="ref9" n="9" rend="sc" target="note9">*</ref> of old,</l>
+                <l>Beyond the flood, in sacred annals told?</l>
+                <l>And the great sage,<ref targOrder="U" id="ref10" n="10" rend="sc" target="note10">** </ref> whom fiery coursers drew</l>
+                <l>To heaven's bright portals from Elisha's view;</l>
+                <l>Wondering he gazed at the refulgent car,</l>
+                <l>Then snatched the mantle floating on the air.</l>
+                <l>From Death, these only could exemption boast,</l>
+                <l>And without dying gained the immortal coast.</l>
+                <l>Not falling millions sate the tyrant's mind,</l>
+                <l>Nor can the victor's progress be confined.</l>
+                <l>But cease thy strife with Death, fond Nature, cease:</l>
+                <l>He leads the virtuous to the realms of peace;</l>
+                <l>His to conduct to the immortal plains,</l>
+                <l>Where heaven's Supreme in bliss and glory reigns.</l>
+              </lg>
+              <note id="note9" n="9" rend="sc" place="foot" anchored="yes" target="ref9">
+                <p>* Enoch.</p>
+              </note>
+              <note id="note10" n="10" rend="sc" place="foot" anchored="yes" target="ref10">
+                <p> ** Elijah.</p>
+              </note>
+              <pb id="wheat99" n="99"/>
+              <lg>
+                <l>There sits, illustrious Sir, thy beauteous spouse;</l>
+                <l>A gem-blazed circle beaming on her brows.</l>
+                <l>Hailed with acclaim among the heavenly choirs,</l>
+                <l>Her soul new-kindling with seraphic fires,</l>
+                <l>To notes divine she tunes the vocal strings,</l>
+                <l>While heaven's high concave with the music rings.</l>
+                <l>Virtue's rewards can mortal pencil paint?</l>
+                <l>No—all descriptive arts and eloquence are faint;</l>
+                <l>Nor canst thou, Oliver, assent refuse</l>
+                <l>To heavenly tidings from the Afric Muse.</l>
+              </lg>
+              <lg>
+                <l>As soon may change thy laws, eternal fate,</l>
+                <l>As the saint miss the glories I relate;</l>
+                <l>Or her Benevolence forgotten lie,</l>
+                <l>Which wiped the trickling tear from Misery's eye.</l>
+                <l>Whene'er the adverse winds were known to blow,</l>
+                <l>When loss to loss<ref targOrder="U" id="ref11" n="11" rend="sc" target="note11">*</ref> ensued, and woe to woe,</l>
+                <l>Calm and serene, beneath her father's hand,</l>
+                <l>She sat resigned to the divine command.</l>
+              </lg>
+              <note id="note11" n="11" rend="sc" place="foot" anchored="yes" target="ref11">
+                <p>* Three amiable daughters, who died when just arrived to women's estate. </p>
+              </note>
+              <lg>
+                <l>No longer then, great Sir, her death deplore,</l>
+                <l>And let us hear the mournful sigh no more;</l>
+                <l>Restrain the sorrow streaming from thine eye,</l>
+                <l>Be all thy future moments crowned with joy!</l>
+                <l>Nor let thy wishes be to earth confined,</l>
+                <l>But, soaring high, pursue the unbodied mind.</l>
+                <l>Forgive the Muse, forgive the adventurous lays,</l>
+                <l>That fain thy soul to heavenly scenes would raise.</l>
+              </lg>
+            </div2>
+            <pb id="wheat100" n="100"/>
+            <div2 type="verse">
+              <head>A FAREWELL TO AMERICA.
+<lb/>
+To Mrs. S. W.</head>
+              <lg>
+                <l>ADIEU, New England's smiling meads,</l>
+                <l>Adieu, the flow'ry plain;</l>
+                <l>I leave thine opening charms, O spring!</l>
+                <l>And tempt the roaring main.</l>
+              </lg>
+              <lg>
+                <l>In vain for me the flow'rets rise,</l>
+                <l>And boast their gaudy pride,</l>
+                <l>While here beneath the northern skies</l>
+                <l>I mourn for health deny'd.</l>
+              </lg>
+              <lg>
+                <l>Celestial maid of rosy hue,</l>
+                <l>Oh let me feel thy reign!</l>
+                <l>I languish till thy face I view,</l>
+                <l>Thy vanished joys regain.</l>
+              </lg>
+              <lg>
+                <l>Susannah mourns, nor can I bear</l>
+                <l>To see the crystal shower,</l>
+                <l>Or mark the tender falling tear,</l>
+                <l>At sad departure's hour;</l>
+              </lg>
+              <lg>
+                <l>Not unregarding can I see</l>
+                <l>Her soul with grief opprest,</l>
+                <l>But let no sighs, no groans for me,</l>
+                <l>Steal from her pensive breast.</l>
+              </lg>
+              <lg>
+                <l>In vain the feathered warblers sing,</l>
+                <l>In vain the garden blooms,</l>
+                <l>And on the bosom of the spring</l>
+                <l>Breathes out her sweet perfumes,</l>
+              </lg>
+              <lg>
+                <l>While for Britannia's distant shore</l>
+                <l>We sweep the liquid plain,</l>
+                <pb id="wheat101" n="101"/>
+                <l>And with astonished eyes explore</l>
+                <l>The wide extended main.</l>
+              </lg>
+              <lg>
+                <l>Lo! Health appears, celestial dame!</l>
+                <l>Complacent and serene,</l>
+                <l>With Hebe's mantle o'er her frame,</l>
+                <l>With soul-delighting mein.</l>
+              </lg>
+              <lg>
+                <l>To mark the vale where London lies,</l>
+                <l>With misty vapors crowned,</l>
+                <l>Which cloud Aurora's thousand dyes,</l>
+                <l>And veil her charms around,</l>
+              </lg>
+              <lg>
+                <l>Why, Phoebus, moves thy car so slow?</l>
+                <l>So slow thy rising ray?</l>
+                <l>Give us the famous town to view,</l>
+                <l>Thou glorious king of day!</l>
+              </lg>
+              <lg>
+                <l>For thee, Britannia, I resign</l>
+                <l>New England's smiling fields;</l>
+                <l>To view again her charms divine;</l>
+                <l>What joy the prospect yields!</l>
+              </lg>
+              <lg>
+                <l>But thou, Temptation, hence away!</l>
+                <l>With all thy fatal train,</l>
+                <l>Nor once seduce my soul away,</l>
+                <l>By thine enchanting strain.</l>
+              </lg>
+              <lg>
+                <l>Thrice happy they, whose heavenly shield</l>
+                <l>Secures their souls from harms,</l>
+                <l>And fell <hi rend="italics">Temptation</hi> on the field</l>
+                <l>Of all its power disarms!</l>
+              </lg>
+              <p><hi rend="italics">Boston, May</hi> 7<hi rend="italics">th,</hi> 1773.</p>
+            </div2>
+            <pb id="wheat102" n="102"/>
+            <div2 type="verse">
+              <head>A REBUS.
+<lb/>
+By J. B.</head>
+              <lg>
+                <l>A BIRD delicious to the taste,</l>
+                <l>On which an army once did feast,</l>
+                <l>Sent by a hand unseen;</l>
+                <l>A creature of the horned race,</l>
+                <l>Which Britain's royal standards grace;</l>
+                <l>A gem of vivid green;</l>
+              </lg>
+              <lg>
+                <l>A town of gaiety and sport,</l>
+                <l>Where beaux and beauteous nymphs resort,</l>
+                <l>And gallantry doth reign;</l>
+                <l>A Daraan hero famed of old</l>
+                <l>For youth and beauty, as we're told,</l>
+                <l>And by a monarch slain;</l>
+              </lg>
+              <lg>
+                <l>A peer of popular applause,</l>
+                <l>Who doth our violated laws</l>
+                <l>And grievances proclaim.</l>
+                <l>The initials show a vanquished town,</l>
+                <l>That adds fresh glory and renown</l>
+                <l>To old Britannia's fame.</l>
+              </lg>
+            </div2>
+            <div2 type="verse">
+              <head>AN ANSWER TO THE REBUS.
+<lb/>
+By the Author of these Poems.</head>
+              <lg>
+                <l>THE poet asks, and Phillis can't refuse</l>
+                <l>To shew th' obedience of the Infant Muse.</l>
+                <pb id="wheat103" n="103"/>
+                <l>She knows the Quail, of most inviting taste,</l>
+                <l>Fed Israel's army in the dreary waste;</l>
+                <l>And what's on Britain's royal standard borne,</l>
+                <l>But the tall, graceful, rampant Unicorn?</l>
+                <l>The Emerald with a vivid verdure glows</l>
+                <l>Among the gems which regal crowns compose;</l>
+                <l>Boston's a town, polite and debonair,</l>
+                <l>To which the beaux and beauteous nymphs repair.</l>
+                <l>Each Helen strikes the mind with sweet surprise,</l>
+                <l>While living lightning flashes from her eyes.</l>
+                <l>See young Euphorbus, of the Daraan line,</l>
+                <l>By Menelaus' hand to death resign:</l>
+                <l>The well-known peer, of popular applause,</l>
+                <l>Is C—m, zealous to support our laws.</l>
+                <l>Quebec, now vanquished, must obey,</l>
+                <l>She, too, must annual tribute pay</l>
+                <l>To Britain, of immortal fame,</l>
+                <l>And add new glory to her name.</l>
+              </lg>
+            </div2>
+          </div1>
+          <trailer>FINIS.</trailer>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>

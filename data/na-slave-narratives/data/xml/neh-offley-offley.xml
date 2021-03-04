@@ -1,0 +1,720 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY offletp SYSTEM "offletp.jpg" NDATA jpeg>
+<!ENTITY offlecv SYSTEM "offlecv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>A Narrative of the Life and Labors of the Rev. G. W. Offley, a Colored Man, 
+Local Preacher and Missionary,</emph>
+<emph>Who Lived Twenty-Seven Years at the
+South and Twenty-Three at 
+the North; Who Never Went to School a Day in His Life, and Only Commenced
+to Learn His Letters 
+When Nineteen Years and Eight Months Old; the Emancipation of His Mother
+and Her Three Children; 
+How He Learned to Read While Living in a Slave State, and Supported
+Himself from the Time He Was
+ Nine Years Old Until He Was Twenty-One:</emph>
+Electronic Edition.</title>
+        <author>Offley, G. W. (Greensbury Washington), b. 1808</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Fiona Mills</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Fiona Mills</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Bethany Ronnberg and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>40KB</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as 
+long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="cover"> A Narrative of the Life and Labors of the Rev. G. W. Offley, A Colored Man, 
+Local Preacher and Missionary.</title>
+            <title type="title page"> A Narrative of the Life and Labors of the Rev. G. W. Offley, A Colored 
+Man, Local Preacher and Missionary, Who Lived Twenty-Seven Years at the South and Twenty-Three at 
+the North; Who Never Went to School a Day in His Life, and Only Commenced to Learn His Letters 
+When Nineteen Years and Eight Months Old; the Emancipation of His Mother and Her Three Children; 
+How He Learned to Read While Living in a Slave State, and Supported Himself from the Time He Was
+ Nine Years Old Until He Was Twenty-One.</title>
+            <author>Rev. G. W. Offley</author>
+          </titleStmt>
+          <extent>24 p.</extent>
+          <publicationStmt>
+            <pubPlace>Hartford, Conn.</pubPlace>
+            <publisher/>
+            <date>1859.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  Bd. Pam. 326.92 Z99  (Rare Book, Manuscript, and Special Collections 
+Library, Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft
+ Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Offley, G. W. (Greensbury Washington), b. 1808.</item>
+            <item>African Americans -- Maryland -- Biography.</item>
+            <item>African American clergy -- Maryland -- Biography.</item>
+            <item>Slaves -- Maryland -- Biography.</item>
+            <item>Freedmen -- Maryland -- Biography.</item>
+            <item>Slaves -- Religious life -- Maryland -- History -- 19th
+century.</item>
+            <item>Slavery -- Maryland -- History -- 19th century.</item>
+            <item>Slaves' writings, American -- Maryland.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-07-20, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-01-14, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-01-11, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-12-16, </date>
+        <respStmt>
+          <name>Fiona Mills</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cv" entity="offlecv"/>
+        </p>
+      </div1>
+      <div1 type="titlepage">
+        <p>
+          <figure id="tp" entity="offletp"/>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">A NARRATIVE
+<lb/>
+OF THE
+<lb/>
+LIFE AND LABORS
+<lb/>
+OF THE
+<lb/>
+G. W. OFFLEY,
+<lb/>
+A COLORED MAN, <lb/>Local Preacher and Missionary,</titlePart>
+          <titlePart type="subtitle">WHO LIVED TWENTY-SEVEN YEARS AT THE SOUTH AND TWENTY-THREE<lb/>
+AT THE NORTH; WHO NEVER WENT TO SCHOOL A DAY IN HIS LIFE,<lb/>
+AND ONLY COMMENCED TO LEARN HIS LETTERS WHEN NINETEEN<lb/>
+YEARS AND EIGHT MONTHS OLD; THE EMANCIPATION OF<lb/>
+HIS MOTHER AND THEIR THREE CHILDREN; HOW HE<lb/>
+LEARNED TO READ WHILE LIVING IN A SLAVE<lb/>
+STATE, AND SUPPORTED HIMSELF FROM THE<lb/>
+TIME HE WAS NINE YEARS OLD<lb/>
+UNTIL HE WAS TWENTY-ONE.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>HARTFORD, CONN.,</pubPlace> <docDate>1859.</docDate></docImprint>
+      </titlePage>
+      <div1 type="introduction">
+        <pb id="offley2" n="2"/>
+        <list type="simple">
+          <head>NAMES OF GENTLEMEN WHO SPEAK IN HIGH TERMS OF
+HIS<lb/> MORAL WORTH:</head>
+          <item><hi rend="italics">Ware, Mass., Feb., </hi>1852.</item>
+          <item>REV<corr>.</corr> W. WARD.</item>
+          <lb/>
+          <item><hi rend="italics">Hartford, Conn.,</hi> 1854.</item>
+          <item>REV. DR. J. HAWES.</item>
+          <item>“Dr. H. BUSHNELL.</item>
+          <lb/>
+          <item><hi rend="italics">Worcester, Mass.,</hi> 1854.</item>
+          <item>REV. O. SWEETSER.</item>
+          <item>“E. SMALLEY.</item>
+          <item>“GEO. BUSHNELL.</item>
+          <item>“DR. A. HILL.</item>
+          <item>Hon. JOHN DAVIS.</item>
+          <item>REV. O. H. TILLOTSON.</item>
+          <lb/>
+          <item><hi rend="italics">Boston, Mass.,</hi> 1859.</item>
+          <item>REV. JOHN W. DADMAN.</item>
+          <item>REV. E. E. HALL.</item>
+        </list>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="offley3" n="3"/>
+        <head>NARRATIVE
+<lb/>
+OF THE LIFE OF<lb/>
+REV. G. W. OFFLEY.</head>
+        <p>My mother was born a slave in the State of
+Virginia, and sold in the State of Maryland,
+and there remained until married, and became
+the mother of three children. She was willed
+free at the death of her master; her three children
+were also willed free at the age of twenty-five.
+But my youngest brother was put on a
+second will, which was destroyed by the widow
+and the children, and he was subjected to bondage
+for life. My father was a free man, and
+therefore bought him as a slave for life and
+<pb id="offley4" n="4"/>
+give him his freedom at the age of twenty
+years. He also bought my sister for a term
+of years, say until she was twenty-five years old.
+He gave her her freedom at the age of sixteen
+years. He bought my grand-mother, who was
+too old to set free, that she might be exempted
+from hard servitude in her old age.</p>
+        <p>Previous to the sale of this family, my
+mother was living with her master's children,
+and they persuaded mother to not consent to
+father's buying the children, and told father if
+he attempted to buy one of them they would
+shoot him dead on the auction ground; that
+they would buy the children themselves, and
+they should have their freedom according to
+their father's will. Mother told them they
+might buy them and welcome, but you had
+better throw your money in the fire, for if you
+buy one of my children I will cut all three of
+their throats while they are asleep, and your
+money will do you no good. Her young masters
+<pb id="offley5" n="5"/>
+were afraid that she meant what she said,
+and they concluded that it would bring a
+disgrace upon the family to prohibit a man from
+buying his own children, though mother had no
+intention of doing as she said.</p>
+        <p>The auctioneer was a true friend to father,
+and used great deception in making the purchaser
+believe that the two children would die
+unless they could have their mother's care, so
+that father bought them at his own price, as
+no person bid against him. They wanted to
+have mother and father to work for them, and
+they would bring up the two children as mother
+had; neither had any care of a family, and
+they was afraid the children would suffer.
+Mother said if they did suffer they would not
+be accountable for it,—that she had two hands,
+and she could work and take care of her own
+children without their help. But when she
+became the mother of eight children, and
+father working for twenty-five or fifty cents
+<pb id="offley6" n="6"/>
+per day, she often would think of her old master's
+kitchen and wish for some of the good
+victuals she had given to the poor whites, and
+the field slaves. But little did they think they
+would ever be poor. One of her young mistresses
+married a miserable young man and she
+went blind and died heart-broken. Her young
+master's daughter married a similar kind of
+wretch, and died young, as thousands of the
+wicked do.</p>
+        <p>I was born Dec. 18th, 1808, in the State of
+Maryland, Queen Ann County, Centerville.
+My mother and father were illiterate, and kept
+no record of their children's births, only
+referring to circumstances. But when I was seven
+years old I heard mother say that her young
+master's daughter Ann was two weeks older
+than myself, and I got a stick, or piece of wood,
+and made 1111111 notches, and at the end of
+every year would add another 1 notch until
+I was twenty-one years old. At that time there
+<pb id="offley7" n="7"/>
+was a dispute between mother and father about
+my age. Mother said I was twenty-one, and
+father thought I was only twenty, and I went
+to Centerville and saw Miss Ann, who was
+born two weeks before me. I asked her if she
+was twenty-one, and she said yes she was just
+twenty-one years old, and I returned from my
+ten miles walk, but dare not name it to father
+until he mentioned it, and I told him I had
+been to see Miss Ann and she said I was twenty-one
+years old; then said he you are free
+from me. During my boyhood father hired
+me to a slaveholder for a term of four years
+to pay his house rent. From the time I was
+nine years old I worked and supported myself
+until I was twenty-one years old, and never
+received one dollar of my wages. When I
+was ten years old I sat down and taking an old
+basket to pieces, learned myself to make baskets.
+After that I learned to make foot mats and horse
+collars, not of leather but of corn husks; also
+<pb id="offley8" n="8"/>
+two kinds of brooms. These articles I used to
+make nights and sell to get money for myself.
+When I was sixteen years old I commenced
+taking contracts of wood-chopping, at fifty
+cents per cord, and hired slaves to chop for me
+nights, when the moon shone bright. In the
+fall and winter we would make our fire and
+chop until eleven or twelve at night. We
+used to catch oysters and fish nights, and hire
+other slaves to peddle them out on Sunday
+mornings. By this way I have helped some to
+get their freedom.</p>
+        <p>EXODUS 20-12: Honor thy father and thy
+mother, that thy days may be long upon the
+land which the Lord thy God giveth thee.</p>
+        <p>When I was twenty-one years old I gave my
+father one year's work to buy him a horse.
+One year's wages for an able bodied man
+$50, or $60, fifty or sixty dollars per year,
+and two holidays at Easter,—two in June, two
+in harvest, and six at the end of the year; one
+<pb id="offley9" n="9"/>
+pair shoes, one pair stockings, one pair woolen
+pants, one coat, two pairs coarse tow linen
+pants, two shirts, and board, is the law of the
+State of Maryland allows a man, free or slave,
+black or white, who hires for one year.</p>
+        <p>My friends who may read this little work,
+will make due allowance when they see that I
+never possessed the advantage of one day's
+schooling in my life, and only commenced to
+learn my letters when nineteen years and
+eight months old.</p>
+        <p>At one time, when going to my work, I found
+a piece of a chapter of an old Bible, Genesis
+25, concerning Isaac, Jacob, and Esau. At
+this time there was an old colored man working
+for my father. He, taking the piece of Bible,
+and read it to me; I do not remember ever
+hearing that much of the Bible read before.
+I told him I would like to learn to read; he
+told me to get a book and he would learn me,
+while he stayed with us. I bought a little
+<pb id="offley10" n="10"/>
+primer, and Sunday morning he commenced
+learning me my letters. By Monday morning
+I could say them all. He would give me lessons
+nights and Sabbath mornings. He said
+when he used to take his master's children to
+school, he would carry his book in his hat
+and get the children to give him a lesson in
+the interval of the school. He grew up to be
+a young man, experienced religion, and joined
+the M. E. church, and was authorized to preach
+among his colored brethren, free and slave, and
+was set free some time before he worked for
+my father.</p>
+        <p>After he left our house I was without a
+teacher, and there was an old man about
+seventy-five or eighty years old, a slaveholder,
+owned a small farm and one slave woman married
+to a slave belonging to another slaveholder.
+This woman was the mother of two small
+children. Her old master had five daughters,
+one son eighteen years of age, a family of ten
+<pb id="offley11" n="11"/>
+in number, to be supported from this little
+farm,—no one to work except this son and the
+slave woman, only as I would go and help them
+occasionally. By this the young man and I
+became very intimate, and I learned him the
+art of wrestling, boxing and fighting, and he
+learned me to read. After that I went to work
+on a rail road; then I taught boxing school,
+and learned to write. After that I went to
+St. George, Del., to work at a hotel. One day
+a white boy came to me and said that he was
+hungry; his father gambled away his money,
+and if I would give him and his little sister
+something to eat occasionally, he would come
+three nights in the week and set copies for me
+to write, and learn me to cypher. The landlady
+was very glad of the opportunity, and
+gave me the privilege of giving them as much
+as I pleased, and I used to take them in the kitchen
+and give them what they could eat, and fill
+their little basket to take home. He would
+<pb id="offley12" n="12"/>
+stay with me sometimes until 2 or 3 o'clock
+P. M., and learn me to cypher to the single
+rule of three.</p>
+        <p>I arrived at Hartford on the 15th of Nov.,
+1835. Since that time some of my good white
+friends have assisted me by referring me to
+good books, and giving good instruction, of
+which I have reason to believe some of them
+are in heaven, and others on earth doing good.</p>
+        <p>My mother's and father's theology, or the
+way we children were taught by our parents,
+neither of them could read; but as mother's
+master was a member of the M. E. church, and
+used to read the Bible to his slaves—not learn
+nor teach them to read, but read the Bible
+to them.</p>
+        <p>First, man is a compound being, possessing
+two natures, a soul and a body; the body is
+of the earth, and must die and return to the
+dust from whence it came; but the soul is immortal;
+that is, will never die, but will live forever
+<pb id="offley13" n="13"/>
+in happiness with God, or exist in hell
+for ever. This theology teaches of two places
+for the souls of the human family after death,
+and the condition by which they must go first.
+If children were obedient to their parents or
+their owners, and prayed to the Lord to forgive
+them of their sins and make them good
+children, and keep them from telling lies, from
+stealing, from taking the Lord's name in vain,
+and to keep the Sabbath holy. But above all,
+never to be saucy to old people, lest our case
+should be like the forty-two children destroyed
+by the two she bears—II KINGS, chap. 2-23:
+And he went up from thence unto Bethel, and
+as he was going up by the way there came
+forth little children out of the city and mocked
+him, and said unto him, Go up, thou
+head, go up thou bald head. Verse 24: and
+he turned back and looked on them and cursed
+them in the name of the Lord; and there came
+forth two she-bears out of the wood and tore
+<pb id="offley14" n="14"/>
+forty and two children of them. And I am
+glad to know that even from the most oppressed
+slave to the most refined white family's
+children at the south, are taught to respect the
+old, white or black. Their children call old
+colored people aunt and uncle by way of respect.
+None use the word ‘nigger’ but the low
+and vulgar.</p>
+        <p>Our family theology teaches that God is no
+respecter of persons, but gave his son to die
+for all, bond or free, black or white, rich or
+poor. If we keep his commandments, we will
+be happy after death. It also teaches that if
+God calls and sanctifies a person to do some
+great work, that person is immortal until his
+work is done; that God is able and will protect
+him from all danger or accident in life if he is
+faithful to his calling or charge committed by
+the Lord. This is a borrowed idea from circumstances
+too numerous to mention. Here,
+is one man we present as a proof of the
+<pb id="offley15" n="15"/>
+immortality of man, while in the flesh: Praying
+Jacob. This man was a slave in the State of
+Maryland. His master was very cruel to his
+slaves. Jacob's rule was to pray three times a
+day, at just such an hour of the day; no matter
+what his work was or where he might be, he
+would stop and go and pray. His master has
+been to him and pointed his gun at him, and
+told him if he did not cease praying he would
+blow out his brains. Jacob would finish his
+prayer and then tell his master to shoot in
+welcome—your loss will be my gain—I have
+two masters, one on earth and one in heaven
+—master Jesus in heaven, and master Saunders
+on earth. I have a soul and a body; the
+body belongs to you, master Saunders, and
+the soul to master Jesus. Jesus says men
+ought always to pray, but you will not pray,
+neither do you want to have me pray. This
+man said in private conversation that several
+times he went home and drank an unusual
+<pb id="offley16" n="16"/>
+quantity of brandy to harden his heart that he
+might kill him; but he never had power to
+strike nor shoot him, and he would freely give
+the world, if he had it in his possession for
+what he believed his Jacob to possess. He
+also thought that Jacob was as sure of Heaven
+as the apostle Paul or Peter. Sometimes Mr.
+S. would be in the field about half drunk,
+raging like a madman, whipping the other
+slaves; and when Jacob's hour would come for
+prayer, he would stop his horses and plough
+and kneel down and pray; but he could not
+strike the man of God.</p>
+        <p>The first Methodist minister that ever
+preached. in a certain town in Queen Ann's
+county, there was a great revival of religion
+among the rich and poor, black and white, free
+and slaves. When many of them experienced
+religion they would disobey their ungodly
+masters and would go to meetings nights and
+Sundays. Two rich slaveholders waylaid the
+<pb id="offley17" n="17"/>
+minister at night, and taking him off from his
+horse and beat him until they thought he was
+dead. But the Lord saved his life to preach
+his Word, and many were converted in the
+same town through his preaching, and many
+masters, when converted, set their slaves free.</p>
+        <p>My grandmother died at ninety years of
+age; my mother at seventy, and my father at
+eighty years of age. These three friends died
+in the strongest triumph of faith in Jesus, who
+when on earth said he would be with his people
+to the end of the world. Amen.</p>
+        <p>Perhaps some person will ask why did I
+teach the art of wrestling, boxing and fighting,
+when desirous to learn to read the Bible? I
+answer because no one is so contemptible as a
+coward. With us a coward is looked upon as
+the most degraded wretch on earth, and is only
+worthy to be a slave. My brother's master,
+Governor R. Right, of Maryland, taught his
+children never to take an insult from one of
+<pb id="offley18" n="18"/>
+their equals—that is, from the rich and
+educated. Their domestic slaves were taught not
+to take an insult from another rich man's
+domestic slave under any consideration. By
+this, you perceive, I was trying to be respectable
+by doing like the rich. Those who read
+the lives of our great statesmen, know they
+were duellists. Then I thought he who could
+control his antagonist by the art of his physical
+power was a greater man. But I thank the
+Lord, since the 21st of Feb., 1836, I have been
+enabled to see things in a different light, and
+believe the man is greater who can overcome
+his foes by his Christlike example.</p>
+        <p>A word to my colored friends. It is often
+said that we are a degraded people in this
+country as well as in Africa. Before we
+consent to the charge, let us look at the word
+degradation. Walker says it means “deprivation
+of office or dignity, degeneracy, to lessen, to
+diminish.” I cannot see that his explanation
+<pb id="offley19" n="19"/>
+has anything to do with the charge against
+us in a moral sense of the term. When properly
+taken into consideration, if we only
+number one-sixth part of the population of
+the United States. Because we have six men
+against one to vote us out of office; that is
+not degrading us, it is oppressing us. If six
+colored men should take a white child from
+its parents, and teach it that its highest obligations
+belong to us, we six men, that we stand
+in the place of God—this is the kind of education
+many of our people have at the south.
+Now I ask if this child should become a
+sabbath-breaker, or a liar, a thief, or a drunkard,
+or an adulterer, not having the advantage to
+know better, I ask who is the degraded man?
+Paul says, Romans 4; 15: For where there is
+no law there is no transgression. Then the
+moral guilt rests on the oppressor and not on
+the oppressed. We must not feel that we are
+degraded. The true meaning of the word
+<pb id="offley20" n="20"/>
+degrade, is to be low, mean, contemptible, willing
+to do a mean act that we know is displeasing
+in the sight of God and man. Therefore we
+may be oppressed by man, but never morally
+degraded, only as we are made willing subjects
+to do sinful acts against what we know or have
+the power to know is wrong in the sight of
+God and man.</p>
+        <p>No difference how poor we are, if we are
+respectable, honest, and upright, with God,
+ourselves, and our fellow man. For St. Peter
+declares, Acts 10, 34-35, that God is no
+respecter of persons. But in every nation, he
+that feareth him, and worketh righteousness, is
+accepted with him. And if any man is accepted
+with his God, then oppression, nor prejudice,
+or prisons, or chains, or whips, or anything
+formed by man, cannot degrade us. No, we
+must voluntarily subscribe to some mean act
+before we can be mean or low in the sight of
+our dear Lord and Master.</p>
+        <pb id="offley21" n="21"/>
+        <p>My dear and much beloved, allow
+me to say to one and all, be sure to send your
+children to the day and sabbath schools.</p>
+        <closer>Yours in love,
+<signed>G. W. OFFLEY.</signed></closer>
+      </div1>
+      <div1 type="text">
+        <pb id="offley22" n="22"/>
+        <head>WHAT A MERCY.</head>
+        <lg type="stanza">
+          <l>What a mercy, a mercy is this!</l>
+          <l>What a mercy, a mercy is this!</l>
+          <l>What a mercy is this, what heavenly bliss,</l>
+          <l>Jesus died to redeem a lost race.</l>
+        </lg>
+        <lg type="stanza">
+          <l>What will, oh, what will become of me,</l>
+          <l>What will, oh, what will become of me,</l>
+          <l>What will become of me when death approaches me,</l>
+          <l>If the Saviour is not found in my heart.</l>
+        </lg>
+        <lg type="stanza">
+          <l>It is awful, 'tis awful to relate,</l>
+          <l>It is awful, 'tis awful to relate,</l>
+          <l>'Tis awful to relate, if death should be my fate,</l>
+          <l>If the Saviour is not found in my heart.</l>
+        </lg>
+        <lg type="stanza">
+          <l>But welcome, but welcome death to me,</l>
+          <l>But welcome, but welcome death to me,</l>
+          <l>But welcome death to me, if Christ should set me free,</l>
+          <l>If my Saviour is found in my heart.</l>
+        </lg>
+        <lg type="stanza">
+          <l>Adieu and adieu to you all,</l>
+          <l>Adieu and adieu to you all,</l>
+          <l>Adieu and adieu to you all, my Saviour doth me call,</l>
+          <l>He hath promised to make me anew.</l>
+        </lg>
+        <lg type="stanza">
+          <l>Adieu to affliction and pain,</l>
+          <l>Adieu to affliction and pain.</l>
+          <pb id="offley23" n="23"/>
+          <l>Adieu to all pain, for dying is gain,</l>
+          <l>If my Saviour is found in my heart.</l>
+        </lg>
+        <lg type="stanza">
+          <l>How reviving and cheering to my mind,</l>
+          <l>How reviving and cheering to my mind,</l>
+          <l>How cheering to my mind the friends I left behind,</l>
+          <l>If my Saviour is found in my heart.</l>
+        </lg>
+        <lg type="stanza">
+          <l>But we hope and we hope for to meet,</l>
+          <l>But we hope and we hope for to meet,</l>
+          <l>But we hope and we hope for to meet, and worship at his feet,</l>
+          <l>And reign with our Saviour above.</l>
+        </lg>
+      </div1>
+      <div1 type="text">
+        <head>JACOB'S LADDER.</head>
+        <lg type="stanza">
+          <l>As Jacob on travels was wearied by day,</l>
+          <l>At night on a stone for a pillow he lay,</l>
+          <l>A vision appeared—a ladder so high,</l>
+          <l>With its foot on the earth, and the top in the sky.</l>
+        </lg>
+        <lg type="stanza">
+          <l>CHORUS—Hallelujah to Jesus who died on the tree,</l>
+          <l>To raise up his ladder of Mercy for me.</l>
+          <l>Press forward! press forward! the prize is in
+view,</l>
+          <l>And a crown of bright glory is waiting for you.</l>
+        </lg>
+        <lg type="stanza">
+          <l>The ladder is long—it's strong and well made—</l>
+          <l>Stood thousands of years, and is not decayed;</l>
+          <l>It's so free of access, all the world may get up,</l>
+          <l>And angels will guard you from bottom to top.—CHORUS.</l>
+        </lg>
+        <pb id="offley24" n="24"/>
+        <lg type="stanza">
+          <l>This ladder is Jesus, the glorious God-man,</l>
+          <l>Whose blood rightly streaming from Calvary ran,</l>
+          <l>On his perfect atonement to heaven we rise,</l>
+          <l>And sing in the mansions prepared in the skies.—CHORUS.</l>
+        </lg>
+        <lg type="stanza">
+          <l>Come let us ascend—behold! never fear—</l>
+          <l>It stood every tempest and always will bear;</l>
+          <l>Millions have tried it, and reached Zion's hill,</l>
+          <l>And thousands by faith are climbing it still.—CHORUS.</l>
+        </lg>
+        <lg type="stanza">
+          <l>Our fathers upon it have mounted to God,</l>
+          <l>Have finished their labors and reach'd their abode,</l>
+          <l>And we are a climbing, and soon will be there,</l>
+          <l>To join in their raptures, their happiness share.—CHORUS.</l>
+        </lg>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

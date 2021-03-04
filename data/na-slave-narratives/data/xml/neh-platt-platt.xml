@@ -1,0 +1,873 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY platttp SYSTEM "platttp.jpg" NDATA jpeg>
+<!ENTITY plattvs SYSTEM "plattvs.jpg" NDATA jpeg>
+<!ENTITY plattbk SYSTEM "plattbk.jpg" NDATA jpeg>
+<!ENTITY plattcv SYSTEM "plattcv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>The Martyrs, and the Fugitive; or a Narrative of the Captivity, Sufferings, and Death of an African Family, and the Slavery and Escape of Their Son:</emph>
+Electronic Edition.</title>
+        <author>Platt, S. H. (Smith H.)</author>
+        <funder>Funding from the National Endowment for the Humanities and The Gladys Krieble Delmas Foundation
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcried by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Melissa Graham and Natalia Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.     160K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> The Martyrs, and the Fugitive; or a Narrative of the Captivity, Sufferings, and Death of an African Family, and the Slavery and Escape of Their Son</title>
+            <title type="cover"> The Martyrs and the Fugitive</title>
+            <author>Rev. S. H. Platt</author>
+          </titleStmt>
+          <extent>  95   p.</extent>
+          <publicationStmt>
+            <pubPlace>NEW-YORK:</pubPlace>
+            <publisher>PRINTED BY DANIEL FANSHAW, Corner of Ann and Nassau-streets.</publisher>
+            <date>1859.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  326.48 P719M    (Rare Book, Manuscript, and Special Collections Library, Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.
+ </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Fugitive slaves -- United States -- Fiction.</item>
+            <item>Slavery -- Africa -- Fiction.</item>
+            <item>Slave trade -- Africa -- Fiction.</item>
+            <item>Slavery -- Southern States -- Fiction.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2003-11-12, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-01-23, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-01-18, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-12-21, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cover" entity="plattcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="platttp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso">
+        <p>
+          <figure id="verso" entity="plattvs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">THE MARTYRS, <lb/> AND <lb/> THE FUGITIVE; </titlePart>
+          <titlePart type="main">OR <lb/> A NARRATIVE OF THE CAPTIVITY, SUFFERINGS, <lb/> AND DEATH OF AN AFRICAN FAMILY, <lb/> AND THE <lb/> SLAVERY AND ESCAPE OF THEIR SON.</titlePart>
+        </docTitle>
+        <byline>BY</byline>
+        <docAuthor>REV. S. H. PLATT, <lb/> Author of “The Gift of Power,” and “Christ and Adornments,” &amp;c.</docAuthor>
+        <docEdition>
+          <hi rend="italics">PUBLISHED FOR THE BENEFIT OF THE FUGITIVE.</hi>
+        </docEdition>
+        <docImprint><pubPlace>NEW-YORK:</pubPlace>
+<publisher>PRINTED BY DANIEL FANSHAW, <lb/> Corner of Ann and Nassau-streets.</publisher>
+<docDate>1859.</docDate></docImprint>
+        <pb id="p2" n="verso"/>
+        <docImprint>
+          <docDate>Entered according to Act of Congress, in the year 1859. by Rev. S. H. PLATT, in the Clerk's Office of the District Court of the United States for the Southern District of New-York.</docDate>
+        </docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="p3" n="3"/>
+        <head>PREFACE.</head>
+        <p>The reader may wish to know whether the following pages are fictitious or historical. They are both. The chief personages, with their “sentiments, virtues, vices, follies, and peculiarities, surroundings,” etc. are historical. The connections in which they are placed are sometimes supposed, and when true, are in some places changed from their real relations to prevent the exposure of the parties, who are still living; yet in no case are they so changed as to distort the facts of the slave system. It is admitted that the heroes of the story are extreme cases, and that it was their misfortune to be such; but the author does not present their experience as an average sample of the sufferings of slave life; he simply vouches for the accuracy of the story as illustrative of the <hi rend="italics">liabilities</hi> of their life.</p>
+        <p>If this feeble effort may avail to stir up the minds of some to a more active hatred of the <hi rend="italics">system,</hi> and afford some pecuniary aid to the suffering fugitive, the object in sending it forth will be accomplished.</p>
+        <closer><signed>S. H. P.</signed>
+<dateline>BROOKLYN, April, 1859.</dateline></closer>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p5" n="5"/>
+        <head>THE MARTYRS, <lb/> AND <lb/> THE FUGITIVE.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <p>“Why are you so sad?” exclaimed the playful Molly Myrtle, as her brother laid aside his pen.</p>
+          <p>“I have just finished writing out the notes that I took the other evening while conversing with the colored man whom you saw at church, and who narrated his experience there.”</p>
+          <p>“What; have you written his history? O, I shall be delighted to read it. Poor man! he must have suffered a great deal, judging from his appearance. But was he not afraid to give you all the facts? How did he know that you would not betray him?”</p>
+          <p>“He was fearful, and it was a long time before I could persuade him to confide in me. Poor fellow! he seems to distrust everybody. His enjoyment of freedom must be sadly disturbed by his suspicions. I could only get his story by 
+<pb id="p6" n="6"/>
+solemnly promising to so disguise it that there would be no danger to him from it.”</p>
+          <p>“But can you rely upon his statement?”</p>
+          <p>“O yes. He gave so many dates and names of persons and places, and I cross-questioned him so closely, that what he says must be true. Besides, I have independent proof from other sources.”</p>
+          <p>“O! do let me hear it, brother; wont you?”</p>
+          <p>“This is only the outline that I now have; but if you wish, I will relate the history from this sketch.”</p>
+          <p>“Well, I am all attention; but you must allow me to ask questions if I wish.”</p>
+          <p>“Certainly; that is one of the privileges conceded to such attractive listeners.”</p>
+          <p>About five hundred miles toward the interior of South-Western Africa, was a beautiful valley some miles in length, entirely covered with coarse grass several feet in height, and drained by a small stream, which, running slowly through, marked its course by the tall rushes which lined its banks.</p>
+          <p>An unusually hot season had dried all the streams in the vicinity but this, and the valley was now a  scene of no ordinary activity. The huge and unwieldy hippopotamus wallowed in the stream, and herds of wild animals, such as elands, koodoos, and antelopes, were gathered beneath the shade of the forests that bounded the 
+<pb id="p7" n="7"/>
+neighboring hills, or threading their way through the high grass, in the narrow path of the elephant or buffalo, toward the water.</p>
+          <p>There in that secluded vale lived Bobah, with his wife, Mabowah, their two children, and her aged parents.</p>
+          <p>Their little hut of reeds was sheltered from the sun and rain by an almost impenetrable grove of banana-trees and shrubs of manioc, interlaced with vines and creepers, and situated upon an elevation near the stream.  In  a small opening was his patch of manioc (a species of plant used for food, from which cassava and tapioca are prepared) and maize, with here and there beans and ground-nuts interspersed, which, together with the game he took in hunting, furnished them a comfortable support.</p>
+          <p>The day had been one of extreme heat, and Bobah and his wife were sitting, in the cool of the evening, singing a native song, and watching the gambols of their children as they sported by the door, when suddenly a rustling sound, proceeding from the narrow path that led to his hut, attracted his attention, and before he could rise, several soldiers of his tribe from the village of his chief, several miles distant, rushed upon him, and saying that the chief wanted a “palaver”<ref id="ref1" n="1" rend="sc" target="note1" targOrder="U">*</ref>
+<note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* Talk, or conversation.</p></note>
+<pb id="p8" n="8"/>
+with him, bound his hands, and ordered him, with his wife and children, to start at once. He obeyed; when, just as they were passing into the shadow of the grove, a succession of dull, heavy sounds caused him to turn, and the scene transfixed him with horror.</p>
+          <p>Mabowah uttered a shriek of anguish, tore away from her captors, and threw herself upon the bodies of her murdered parents, from which she was driven a moment after by the flames of her burning house.</p>
+          <p>A short pole was then laid upon the shoulder of Bobah, and firmly lashed round his neck by a tough vine, and Mabowah was bound in the same way to the opposite end, while the children, a boy of thirteen and a girl of eleven, were placed between the two, and fastened by longer pieces to the same pole; then, with some of the captors before and some behind, they began their sad march through the narrow path to the distant village. The silence of their journey was only broken by the sobs of the heart-stricken captives.</p>
+          <p>Their loss they knew, for none could reverence parents more than they;<ref id="ref2" n="2" rend="sc" target="note2" targOrder="U">*</ref><note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* Thompson, Wilson, Livingston, etc. assert the attachment of Africans to their parents.</p></note> but what to fear they could not tell.</p>
+          <p>Had they been subject to some other chief, they knew that this would prove but the beginning
+<pb id="p9" n="9"/>
+of the life-long doom of slavery. But their chief had never sold his people, and to be convicted of some fearful but unknown crime seemed now their fate. Arrived at the village, they were taken at once before the chief, where the presence of a savage half-blood Portuguese revealed their destiny. Their minds instinctively strove to penetrate the dark future before them, but the very hopelessness of the effort threw them back upon the past, and the images of murdered parents, and burning home, and captive children, rose with <sic corr="appalling">apalling</sic> distinctness before them, till the strong man writhed in agony, and the mother lifted up her voice in the long, low wail of hopeless despair.</p>
+          <p>Already the chieftain's heart was beginning to relent, when the practiced eye of the trader discovered his hesitation, and another dram from his ready flask, accompanied with a significant glance at a pile of coveted “cloths,” decided the question. They were accused of some trifling crime, and condemned, without a hearing, to be sold as slaves.</p>
+          <p>“The wretch!” exclaimed the indignant Molly, “why did he treat them so?”</p>
+          <p>“Because the trader had exhibited his cloths, beads, <sic corr="etc.,">etc,</sic> and refused to trade except for slaves and ivory. The chief had but little ivory, and could not then make war for slaves; so the trader 
+<pb id="p10" n="10"/>
+made him drunk, and then incited him to sell some of his own people, as was frequently done in similar cases.”</p>
+          <p>“Then why did they kill the old people?”</p>
+          <p>“Because they were not fit for slaves; and the Africans believe that the relatives of those whom they have greatly injured may <hi rend="italics">bewitch</hi> them in revenge; so they kill them, to avoid the power of their supposed witchcraft.”</p>
+          <p>“How horrid! Do they do so all over Africa?”</p>
+          <p>“No—only where the slave-traders go: it is a result of their business. In those places where the slave trade is not practised, the people are hospitable and possess many of the virtues of humanity. True, they are heathen, but they have no vice, aside from their idolatry, so sinful and degrading as the slave-holding of their Christian [?] oppressors.”</p>
+          <p>The next day they were marched to another village, from which they were to commence their long and dreary journey to the coast.</p>
+          <p>When once on the way, the younger slaves were allowed to run free, as there was then little danger of losing them. The older ones were tied as before described, and loaded with ivory and such other articles as the trader had procured, and with the goods still reserved with which to pay for passing through the country.</p>
+          <pb id="p11" n="11"/>
+          <p>For several days they proceeded slowly along, sweltering in the heat and parched with thirst, when late one evening they reached a place where they expected to find water and spend the night; but, to their dismay, the bed of the stream was dry, and nothing but a little slimy moisture oozing from the boggy banks could be found. The sultry march, the unavailing cries of the thirsty children for water, with all the increasing tortures of their condition, wrought fearfully upon the mother's mind. The stupid gaze of despair had been succeeded by the wild flashing of an eye that looked upon a purpose too desperate to be told. The deep, mournful shadows of a night of gloom were fast creeping over them.</p>
+          <p>Great rolling masses of black clouds were scattered like withered leaves in an autumn tempest around the heavens, while through their riven forms the grey moonbeams struggled, and the light and shade chased each other like mad phantoms o'er the earth.</p>
+          <p>It was just the time to awaken all the fears or arouse all the <sic corr="frenzy">phrenzy</sic> of the superstitious soul, and from one dark and bewildered mind the response arose full and free. As the night deepened, Mabowah called her little girl to her side, and folding her in her arms, she lay down and fixed her eyes upon her child in the long, searching, yet fitful gaze of a mother's love burning 
+<pb id="p12" n="12"/>
+through a tottering reason, and mingling with the revengeful flame of a crushed and wounded heart. Nor long did she smother that consuming fire. “Me child a slave! me child a slave!” she uttered through her fevered, trembling lips; “No—<hi rend="italics">no slave!</hi>” and her eye flashed and her hands clenched, and all the mother was lost in the maniac. Yet who shall say that her act <hi rend="italics">then</hi> was not the most motherly one of her whole life? Slowly and quietly she laid her child upon the ground; then cautiously glanced around upon the sleeping slaves, to make sure that no eye beheld her, then quickly unwound the fibres of a short piece of rope that she had found, twisted it into a strong cord with a running noose around the neck of the innocent sleeper, and then with one hand over her mouth to suppress her cries, with the other she drew the noose tighter and tighter till the sufferer ceased to struggle; then bending low over the form of her dead, while her reeling mind chuckled over her successful cheat of the trader and the doom of slavery, she gazed till the delirious joy burst forth, “Me child no slave—<hi rend="italics">no slave!</hi>” And then, as the rushing tide rolled back upon her heart, she uttered one wild shriek of woe, and fell swooning upon her child.</p>
+          <p>Her accents of triumph, followed so suddenly by her unearthly screech of agony, brought the trader to the spot; and when he saw his loss, his 
+<pb id="p13" n="13"/>
+anger vented itself in kicks and blows upon the insensible form before him. The blood flowed freely and relieved her over-charged brain, and she returned to consciousness only to sink into the sleep of exhaustion. When she was aroused by the brutal  kicks of the trader, in the morning, the body of her child had been dragged away to be devoured by beasts and fowls, and her own bruised and swollen limbs increased the thirst that was fast drying up the fountain of her life. With tottering steps and haggard looks she was compelled to resume the march; and though again  and again did she attempt to throw herself down to die, the lash of the trader drove her on, till, exasperated by her repeated efforts, he resolved to give her to the next chief who should demand a slave, a tooth, (of ivory,) a gun, or cloth, for permission to pass through his territory. After the most terrible sufferings, the party arrived at a place where water was abundant, and there rested a few days to recruit their strength, having lost several on the way by heat and thirst, and many others being scarcely able to stand. The son of Bobah had suffered intensely from the heat, and on the fourth day of their stay at the place, was permitted, with others of his age, to sport in the waters of the stream. Before they were a ware of it, they had worked themselves to a greater distance from the camp than was allowed,
+<pb id="p14" n="14"/>
+when the approach of one of the drivers caused them to scamper toward it. In the noise and confusion of their flight they did not observe an immense <sic corr="alligator">aligator</sic> that plunged into the stream, close in their rear, but in front of young Bobah, and effectually cut off his retreat. A sudden bend in the stream concealed him from the driver, and before his loss was discovered he had disappeared, but whether he had gained the shore and been lost in the high grass, or had become food for the alligator, none could tell.</p>
+          <p>In either case it was now over with the poor boy. He had gone where no slave-gangs swelter, and no traders drive.</p>
+          <p>Soon after leaving this place they entered the territory of another chief, and halted while he made the usual demand for a gun, or a slave, etc. and Mabowah was sent to “shake his hand.”</p>
+          <p>“What do you mean, brother, by ‘shaking his hand?’ ”</p>
+          <p>“In some parts of Africa, when any one wishes to see the chief, or pass through his country, a present is sent to him, which is called ‘shaking his hand.’ If the present is accepted, the chief returns a much smaller one, and then the parties are friends.”</p>
+          <p>We must here leave them until another evening; but let us not forget that He who has 
+<pb id="p15" n="15"/>
+stamped His image within a casing of ebony, is as mindful of their sorrows as He is of ours; and that our duty is to repair, as far as we can, the wrongs done to the parents, by breaking off the yoke from the children and training them for their immortal destiny.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER II.</head>
+          <p>“I have been thinking, brother,” said Molly, at their next interview, “of poor Mabowah, and I wonder how men could be so cruel.”</p>
+          <p>“The heart is deceitful above all things and desperately wicked.” If its <hi rend="italics">wickedness</hi> can impel to such deeds of blood as midnight <hi rend="italics"><sic corr="assassinations">assassinaations</sic></hi> and wholesale <hi rend="italics">piracy</hi> for gold, its <hi rend="italics">deceitfulness</hi> will furnish some fancied justification of a system which civilization and religion have apparently sanctioned. It is stated that some Greek pirates captured a vessel and murdered all the crew, during Lent, but recoiled with horror at the very thought of eating meat, during the fast of their church, from a well-spread table in the cabin. They could murder without scruple, but to break a fast, was a crime of which they could not be guilty.</p>
+          <pb id="p16" n="16"/>
+          <p>“How strange!” said Molly, “and so I suppose that inhuman monster, the trader, persuaded himself that he was not doing a very great wrong.”</p>
+          <p>Very likely. But let us proceed with the story. The mind of the African may not be as gifted in intellect as ours, but his heart glows with a fervor of attachment unknown to us. The powers of his nature running in the channel of affection intensify its action, and he <hi rend="italics">lives</hi> in what he <hi rend="italics">loves.</hi></p>
+          <p>You can imagine some of the feelings of the broken-hearted Bobah, as he started on the next morning with the troop, but with no wife—no boy—no girl—no parents—no home; to go, he knew not whither, and to suffer, he knew not what. Sadly that day he bore his burden on; and the tender flowers looked up and caught his falling tear-drops and treasured them away, while a voice came in the moaning of the breeze, calling him to join his loved and lost in the land of shades.</p>
+          <p>The trader had learned, at his cost, that with many of his captives liberty was dearer than life, and he could not drive the conviction from their minds, that death was the gateway to the path that would lead them back to their own country; hence he was constantly watching to discover the first indication of a suicidal wish, 
+<pb id="p17" n="17"/>
+that he might anticipate the act by giving the slave to the first chief who might demand one.</p>
+          <p>Bobah was selected that eve, and sent  to the village of the chief. This revived his hopes, for he knew that he was but two days' journey from  Mabowah, and he might possibly escape to her.</p>
+          <p>The rainy season now set in, and the village in which he was held, being bounded on three sides by a gloomy forest of impenetrable thickness, and on the other by a small stream, which, when flooded, covered the adjacent plain to the depth of two or three feet, precluded all access during the wet season,  except by boats. Here he remained while the rain fell and the water rose; and day after day his stricken heart would speed across the watery waste to lay itself in fancy's dreams beside the pining one who alone bound him to earth, and each time it would return to the bitter consciousness of its misery, all the more painful from the mockery of its hope. Aside from this, his condition was not hard; for, like other slaves there, he was treated more as a dependent than a slave. The belief in witchcraft is so strong, and slaves are supposed to have so much of that dreaded gift, that fear of their supernatural powers secures them better treatment than they might otherwise receive. The slave often owns other slaves, and sometimes a greater number than his master.</p>
+          <pb id="p18" n="18"/>
+          <p>But no treatment, however kind, could banish from his mind the recollection of his shaded hut and its loved inmates; and each day of continued rain fell upon him like the dull sound that echoes from the grave when the first clod strikes the coffin of our shrouded joys, and crashes upon our hearts like an avalanche of woe.</p>
+          <p>Little did he think that the time of their meeting was so nigh.</p>
+          <p>A day of pouring rain had passed, and the gloomy shadows of twilight seemed rolled along upon the bosom of the wind, that sighed and moaned through the tall palm-trees and died away in the dense forest growth; and the poor people, as if instinctively interpreting the prophetic voices of the breeze, were huddled together, regarding their fetiches<ref id="ref3" n="3" rend="sc" target="note3" targOrder="U">*</ref><note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3"><p>* The “fetiches” are various articles, shells, etc. supposed to be endowed with supernatural power for the protection or injury of those who may be subject to them.</p></note> with superstitious awe, when a wild shout burst from the outskirts of the village, and before the panic-stricken people could fight or fly, the foe was upon them.</p>
+          <p>“Who were the foe?” asked Molly.</p>
+          <p>“A party from far off to the north-west, near the river Congo.”</p>
+          <p>“But  why did they fight these people—had they been injured by them?”</p>
+          <pb id="p19" n="19"/>
+          <p>“No; but a strong party from a slave ship had sailed far up the Congo, lying in wait near some village, under cover of the thick overhanging bushes by day, and in the night darting out, firing the huts, killing the old, capturing the others, and then pushing on to the next village before the news of their approach could precede them.”</p>
+          <p>They had thus succeeded in securing nearly the desired number, which they hoped to complete by one more attack.</p>
+          <p>But the village next assaulted proved much stronger than they had supposed, and made a desperate resistance; and though the men were driven from the huts, they seized the boats, which had been left poorly guarded, and spread the alarm.</p>
+          <p>The position of the slavers now became perilous in the extreme. Their only safety lay in the women and children whom they had captured in the fight. By their means a parley was held; and as the natives still looked upon them with unaffected dread, a “peace palaver” was concluded on condition that the slavers should deliver up the captive villagers, each with a “cloth”<ref id="ref4" n="4" rend="sc" target="note4" targOrder="U">*</ref><note id="note4" n="4" rend="sc" place="foot" anchored="yes" target="ref4"><p>* “Cloth,” the name given to all cloth used in barter or trading among the Africans.</p></note> for herself and for each of her family, and never disturb them again, and the natives should  restore the boats and give a certain
+<pb id="p20" n="20"/>
+number of slaves within a specified time. Hence the war and the surprise, as described.</p>
+          <p>“How cruel,” exclaimed Molly, “to make slaves of their own countrymen in order to buy a peace with their enemies! It would have been good enough for them if they had been captured.”</p>
+          <p>“But you should remember, sister, that the trade has made them what they are. Now, if a chief wants slaves, and his fear of witchcraft or love for his people prevents his taking them, he sends a war-party to burn the first village they can find, and bring away all they can catch.”</p>
+          <p>This warlike tribe sent their party several days' journey to the south-east, where they fell upon the village in which Bobah was kept, and he, with others, was carefully guarded, while the kidnappers rested, and sent a portion of their number to take more captives from a hut which, from the light gleaming faintly through the fog, they supposed stood across the plain upon the hillside. They returned toward morning with a number of prisoners, and, without bringing them on shore, Bobah and his companions were ordered to join them in the boats.</p>
+          <p>They were soon crowded in; and Bobah, who, in his utter despair, had not even raised his eyes to behold the new captives, had just been thrust, bound, into the bottom of a huge canoe, when, with a scream of frantic joy, a female captive 
+<pb id="p21" n="21"/>
+sprang from the boat alongside and clasped him in her arms, her eyes upturned to heaven, and the big tear-drops pouring down her dusky cheeks.</p>
+          <p>It was his own Mabowah. The hard hearts of their cruel captors were touched, and they were permitted to sit together and tell to each other their tale of suffering and sorrow. A few days after Mabowah was left, as before narrated, another trader passed, who bought her, and on his journey to the coast he had encamped at the edge of the valley just in time to be intercepted by the party, who had mistaken his camp-fire for a village.</p>
+          <p>After a tedious journey in open boats, and through paths covered with water and hedged in by tall, overhanging grass, adding its showers to the pouring rain whenever shaken by the wind or by the passing traveler, and wallowing through mire and fording streams, and sleeping unsheltered save by some friendly boughs or rushes, they arrived weary, heart-sick, and hopeless, where a boat was waiting to take them to the coast.</p>
+          <p>They were soon put aboard, shackled and crowded; and, after days and nights of anxious foreboding, were taken to the ship, which proved to be an American of 320 tons' burden, with a Portuguese captain, and a crew of desperate ruffians from different nations.</p>
+          <p>When once on board, a scene occurred which 
+<pb id="p22" n="22"/>
+utterly defies description. Each party, as they were brought upon deck, were made secure, and then each person was thrown into such a position as was best suited to the purpose, and <hi rend="italics">branded</hi> by the inhuman villains, on some part of the person, by having a red-hot iron in the form of certain letters or signs dipped into an oily preparation, and then pressed against the naked body till it burnt a deep and ineffaceable scar, to show who was the owner. The screams of the poor children were heart-rending, but a fiend in human shape stood over them with a cat-o'-nine-tails, (a whip of nine lashes with fine wire braided in the end of each lash, and attached to a short, stout handle,) and whenever their outcries or resistance became irksome, they were lashed without mercy on the bare back, breasts, thighs, or wherever the cruelty of the inhuman slaver chose to inflict the wounds, every blow bringing with the returning lash pieces of quivering flesh. Mothers with babes at their breasts were basely branded and lashed, hewed and scarred, till it would seem as if the very heavens must smite the infernal tormentors with the doom that they so richly merited. They were then chained two and two, the right arm and leg of one to the left arm and leg of another, and crowded into the slave rooms between decks. The women were stowed in without being shackled.</p>
+          <pb id="p23" n="23"/>
+          <p>Allowing six feet by one foot and four inches for each man, five feet ten inches by one foot four inches for each woman, five feet by one foot two inches for each boy, and four feet six inches by one foot for each girl, the vessel could carry in that crowded state four hundred and fifty-one persons; but in that space were jammed six hundred and two men, women, and children,—all naked and compelled to stow themselves away, by the lash, for a voyage of eight or ten weeks under a tropical sun, and where they could not sit upright,—the space between decks being only two feet ten inches in height. Their sufferings in that confined place, (where they had not as much room, either in length or breadth, as a man in his coffin,) especially when the tarpaulins were accidentally thrown over the gratings, or when the scuttles were closed in foul weather, were utterly indescribable.</p>
+          <p>When Bobah was shackled for the voyage, his astonishment may be imagined when he found that his fellow-captive was the identical trader who had induced his chief to sell him.</p>
+          <p>“How singular!” exclaimed Molly. “But how came he to be a slave?”</p>
+          <p>He had brought his slaves on board, and succeeded in making a better bargain than two rival traders, who at once resolved to be revenged upon him and get him out of their way in the future. 
+<pb id="p24" n="24"/>
+They accordingly watched his departure from the ship, pursued and overtook him, when one of them knocked him down with an oar and the other bound him.</p>
+          <p>They then returned to the ship and sold him. His remonstrances were only answered by the captain with the taunt, “That it mattered not who his slaves were, so long as they were paid for; and as he had been paid for, he might now go along with his gang.” But the perfidious traders met with a speedy retribution; for in their glee at the success of their trick, they did not observe the speedy effect of the mixed brandy potations with which the captain had treated them after inviting them below, where their friendly chat soon ended in a stupid, drunken sleep.</p>
+          <p>The sails were immediately set, and the terrible voyage begun. They had run several hours along the coast, when a boat full of provisions put off from the shore and made signs to trade. The ship was at once hauled to, and the company received on board with tempting offers; but no sooner were they within the power of the slaver than the course was resumed, and the poor deluded people seized and ironed as slaves. Their bitter wails aroused the two sleepers, who, yet half dreaming, stumbled upon deck, and were met with the derisive laugh of the captain, who ordered them shackled and stowed away with the others.</p>
+          <pb id="p25" n="25"/>
+          <p>On each fair day, between eight and nine o'clock in the morning, they were all permitted to come on deck, which was surrounded with high nettings to prevent them from jumping overboard.</p>
+          <p>For their additional security a ring was attached to the shackles of each pair, through which a large chain was reeved, which locked them all in a body to ring-bolts in the deck. About three or four in the afternoon they were again put below, to remain till morning. In the interval, while on deck, they were fed twice with rice, yams, horse-beans, and occasionally a little beef and bread, and allowed a pint of water each during the day, which was served to them after their meals. They were then made to jump in their irons for exercise, which was called dancing, and they were compelled by the “cat” to do it, even though their irons wore to the bones, and though sick with flux or scurvy, or with limbs swollen so that it was painful to move at all.</p>
+          <p>The groans and suffocating cries of the poor victims for air and water sickened the soul of humanity into a loathing of the horrid traffic, which was deepened by the frequent howling, melancholy sound of anguish caused by their thoughts or dreams of their own country, often followed by hysteric fits of the women and the most desperate imprecations of the men. Their sorrows, confinement, 
+<pb id="p26" n="26"/>
+and want of water, caused many to pine away, till a sudden attack of dysentery released them from their sufferings. Many were brought up every morning dead, suffocated by the heat, which was so great between decks, that when the surgeon went below, his shirt was as wet with perspiration in five minutes as if dipped in water, and he could rarely remain more than thirty minutes at a time. Yet those poor creatures were there compelled to moan the long hours of night away, with no water to quench their tormenting thirst, and just air enough to prolong their misery: sick or well, lying naked upon the bare boards till often their bones would wear through the skin, and no kind and sympathizing hand to relieve or friendly heart to feel for them.<ref id="ref5" n="5" rend="sc" target="note5" targOrder="U">*</ref><note id="note5" n="5" rend="sc" place="foot" anchored="yes" target="ref5"><p>* Yet, through such sufferings, during the ten years preceding 1856, about 36,000 slaves per year were brought to America.</p></note> Yes; there was One who noticed all their cries and bottled all their tears; and though they knew not his precious name, his angel of compassion moved amid that sweltering multitude, and whispered (so low that the slaver could not hear it, yet in accents that even those dark minds comprehended) of a rest somewhere—of running streams, and untainted breezes, and unshackled limbs; and many a poor African raised his eyes imploringly toward heaven, and gasped his soul out thither. Yes, and there was at least
+<pb id="p27" n="27"/>
+one human heart that had not lost its impress of humanity.</p>
+          <p>When some time out, a fearful storm broke upon the ship, and raged for four hours with such fury that an ocean-grave seemed their inevitable fate. However, by the skill of the captain they were kept afloat, and, though somewhat disabled, continued their voyage. During the storm, while the vessel was pitching and rolling, now in a mad endeavor to scale the sky, then in a reckless plunge to fathom ocean's depths, the poor Africans were so awe-stricken, that though suffering intensely from the closed scuttles, not a sound was heard save the muffled groans that would involuntarily burst forth; and when at last the tempest ceased, the dead were many, and fear and confinement had sown dysentery broad-cast among the remainder.</p>
+          <p>While the sea was yet heavily rolling, the look-out sang out from the cross-trees—</p>
+          <p>“Ship ahoy! boat to the windward!”</p>
+          <p>“Where away?” asked the captain through his trumpet.</p>
+          <p>“About a mile off the larboard quarter, sir.”</p>
+          <p>The captain sprang up the mast, and pointing his glass in the direction indicated, saw what seemed to be a boat with her side stove in, and a single person clinging to her.</p>
+          <p>“Helm hard down! Brace back the maintopsail! 
+<pb id="p28" n="28"/>
+Haul down the jib and mainsail! Lay her to! Man the long boat! Shove off!” thundered from him in such quick succession, that none but a practised sailor could remember half.</p>
+          <p>“Ay, ay, sir!” was the response, and in less time than it has taken us to tell it, the ship was laid to, and the nimble boat, impelled by half a dozen as fearless hands as ever swung an oar, was dashing through the sea like a thing of life.</p>
+          <p>It was a desperate chance: they could only see the object of their search when both rose on the waves at once, and a moment's delay might prove fatal to the exhausted mariner. But, guided by occasional glimpses of him and by signs from the ship, they soon reached him and drew him in, more dead than alive, and hastened back to the ship, when a few cordials and rest soon restored him sufficiently to tell his story. He was a young surgeon aboard of a merchantman returning from India, which had been wrecked in the gale, and all had perished.</p>
+          <p>An American by birth, he had graduated from a northern medical college with distinction, and then, to enlarge his knowledge and gratify his ardent love of adventure, he had wandered away to the eastern world, and was on his return when wrecked, as before stated.</p>
+          <pb id="p29" n="29"/>
+          <p>He met with the hearty welcome which the sailor, however hardened, always extends to a shipwrecked brother, and, when sufficiently restored, was offered and accepted the post of surgeon, which had been made vacant by the previous death of that officer while on the coast.</p>
+          <p>Although himself a slaveholder, he was a man of nature's noblest pattern.</p>
+          <p>To a keen and searching intellect was added a disposition as mild and tranquil as it was benevolent and sympathizing. Having been all his life absorbed in his studies, and a great part of the time not in immediate contact with the system of slavery, he knew little of it, and far less of the foreign trade.</p>
+          <p>When he saw it in all its horrors before him, his soul sickened, and he regretted for the moment that he had not found his grave upon the sea-weed's bed, rather than live to behold such utter wretchedness, and such heaven-defying iniquity.</p>
+          <p>Then, when he thought—“All this for paltry gold!” the noble instincts of his nature rose in indignant reprobation of the sin. He remonstrated, entreated, did everything that he could do in his dependent position to induce the captain to remit the rigors of their condition. The captain at first listened respectfully, and answered that self-preservation drove them to such 
+<pb id="p30" n="30"/>
+severity; that if they should relax their discipline, the slaves would rise and kill them all. But as this did not satisfy the humane surgeon, he raved and swore, and at last told him if he did not like their conduct he might return where they found him. Finding entreaties unavailing, he turned his whole attention to ministering to the wants of the unfortunate victims as best he could.</p>
+          <p>In each slave-room two or three large tubs were placed for their convenience. But often one of a shackled couple would be attacked with the dysentery while his fellow would be unable or disinclined to move, especially as they must drag themselves over the bodies of others; and thus the deck was soon covered with blood and mucous, emitting the most horrid stench, and breeding death continually. Yet into that living hell the noble martyr would plunge barefoot that he might not tread upon them—often before they had learned his kindness, to be scratched, and bitten, and pinched, till his feet and legs were scarred, and frequently, as he leaned over some poor gasping sufferer, would he find him shackled to a corpse! O how earnestly did he long to tell them of the Savior; but ignorance of their language forbade it.</p>
+          <p>Yet death to them had no terrors. The lingering one would look down upon the cold body beside him, and with sorrow that he had been left, 
+<pb id="p31" n="31"/>
+mournfully repeat, “Gone to he own country! Gone to he own friends!”</p>
+          <p>Then, in their wild agony, crowds would rush to the scuttles as fast as their manacled limbs would go, some dragging the dead with them in their desperate madness, and cry for air and water, till they fell fainting beneath the throng that pressed for their places, only to repeat their unavailing cries. O, it would have melted the heart of a brute to behold them! Yet the cruel sailors would curse them in their rage, and perhaps lash them for their impudence. Good God! was it thy wind that sped them on their course? Was it thy ocean that bore them on its bosom? Was it thy image that they scathed, and peeled, and smothered? Yes; and judgment belongeth unto thee!</p>
+          <p>The companion of Bobah now realized the full iniquity of his horrid traffic, and, goaded by the pangs of remorse, he resolved to die. But as no violent means of self-destruction were within his reach, he determined to starve himself to death. His design was soon detected and he was commanded to eat, and upon refusal, was lashed till he fainted, and then dragged back to the slave-room, and told that he would be whipped every day until he yielded. For three successive days he was lashed, until his entire body was one mass of raw and quivering fibre. After each 
+<pb id="p32" n="32"/>
+whipping he was washed off in salt brine to prevent mortification, and the last time red pepper was added to increase his tortures.</p>
+          <p>Nature sank beneath the repeated inflictions, and the night after his fourth whipping he breathed his last. Poor Bobah envied him his fate, but from the terrible process of delivery he shrank in fear, till the dripping perspiration and raging thirst, which could only be gratified by a single paltry pint of water during all the long hours of sun-hot days and the longer ones of suffocating nights, drove him to the desperate resolution to die, cost what pain it might.</p>
+          <p>Our tongue refuses to tell all the awful scourgings he received, or how cruelly his jaws were forced open by the speculum-oris, (an instrument used by surgeons in the treatment of lock-jaw,) and his mouth crammed so full that he was nearly choked. A record so much like that which devils might cause to be made, is only here given <hi rend="italics">in part</hi> with deepest loathing. It was all in vain. Yet what pain could not extort, the persuasions of kindness effected. The sympathy of the noble surgeon melted the heart that would not bend to force, and he yielded.</p>
+          <p>Both Bobah and Mabowah, each ignorant of the fate of the other, comforted themselves with the hope that when the voyage was over they might meet again; yet that hope was faint indeed, 
+<pb id="p33" n="33"/>
+for all around them their fellow-captives were dying nightly by dozens, and were pitched into the sea as unceremoniously as so many brute carcasses, often before the last breath was drawn.</p>
+          <p>As they drew near the termination of their voyage, the ceaseless watchfulness and untiring exertions of the noble surgeon, together with the constant strain upon his sympathies, wore fearfully upon his strength. But once more he felt that he must explore the horrors of that living tomb between decks.</p>
+          <p>His weakness had increased his nervous sensibility to such an extent that he lost his usual self-possession, and, overcome with the scene, he fell upon his knees, and then, amidst that wondering, stricken throng, he prayed—prayed only as the strong man in agony can pray, till, stifled by the fumes and exhausted by the excitement, he fainted and was hauled up nearly dead.</p>
+          <p>The captain had passed the hatchway during the prayer, and his quick ear caught the hated sounds that were even then bearing his guilty soul with all its enormities before the throne of mercy, and he gnashed his teeth in rage. Suddenly all the demon seemed roused within him, and he ran for his pistols, determined to shoot the rash pleader on the spot.</p>
+          <p>When he returned he found him insensible 
+<pb id="p34" n="34"/>
+upon the deck, and, ashamed to maim him then, he turned to wreak his vengeance upon a babe. “There was a child on board, of nine months' age, which had refused to eat, and the captain had taken it in his hand and flogged it with the ‘cat,’ saying with an oath, ‘——you; I'll make you eat, or I'll kill you.” The poor child having swollen feet, he ordered them to be put into water, although the cook told him it was too hot. This brought off the skin and nails. He then ordered sweet-oil and cloths to be applied; and as the child again refused to eat, he again flogged it, and then tied a piece of mango-wood, weighing some twelve or fourteen pounds, to its neck as a punishment.” He had flogged it three times, when he became so enraged at the surgeon. He now took it and repeated the scourging, then dropped it from his arms upon the deck, and in a few moments it ceased to breathe. Then, with a barbarous refinement of cruelty, he called <hi rend="italics">its own mother</hi> to heave it overboard, and beat her for refusing till she was forced to take it to the ship's side, where, with her head averted that she might not see it, she dropped it overboard, and then shrank away and wept the night's long hours through.</p>
+          <p>“O the cruel monster!” exclaimed Molly, how could he treat it so, and then call its own dear mother to throw her darling overboard! 
+<pb id="p35" n="35"/>
+I am sure there are few such men in the world.”</p>
+          <p>“It may seem to you like an extreme case, and so no doubt it is; yet it is the natural result of the system, to destroy sympathy and even create an unnatural love of cruelty.”</p>
+          <p>None but hard-hearted men will be captains of slavers; and their crew, if engaged with a knowledge of their business, will be like themselves, or if engaged on some other pretext and forced into the business, so abhorrent to all their better feelings, they will be morose and undutiful except from fear of the lash; so that the crew itself tends to make the captain still worse. Then he becomes so much accustomed to regard negroes only as so much property to make money on, that he loses all thought that they are his fellow-creatures. It would be singular, indeed, if his natural hardness should not deepen under such circumstances to utter callousness, and make him only an intelligent and malicious tiger.</p>
+          <p>The good surgeon's hours were numbered. He revived but in part, and knowing that his moments were fast passing, he called the incensed captain, and before he had time to speak or strike, poured upon him such a flood of sublime and holy rebuke, rising to the grandeur of prophetic denunciation, and mingled with such melting pathos of entreaty, that the crime-steeped man was overwhelmed and fled from the scene.</p>
+          <pb id="p36" n="36"/>
+          <p>Then, turning to the hardened crew, he preached salvation through Christ with such power, that had a bolt of heaven's wrath been speeding towards that sin-laden vessel, it must have turned aside, at least till that dying exhortation was over.</p>
+          <p>Its last accents fell upon hearts from which the tear of penitence had not been wrung before, <hi rend="italics">but now they wept!</hi> Yes, they wept; for the march of death was upon those words, and an unseen power clothed them with a spell-binding might. He ceased; the chin quivered, the head dropped, and the noble Astern was no more. He had done his work, and had reached his reward. Solemnly, and with more respect than ever before, the human clay was committed to the deep from that ship's side—did they lay him upon the bosom of the sea to await the resurrection of the just.</p>
+          <p>Nearly three hundred of the slaves had died on the passage, and when at last they arrived in port, many were sick and numbers died—some after landing. The healthy ones, except a few reserved for the owners of the ship, were sold by scramble; <hi rend="italics">i. e.</hi> the ship was covered and darkened with sails, the men placed on the main deck, and the women on the quarter deck. When all was ready, the purchasers on shore came on board, each with cards bearing his own name, and rushed 
+<pb id="p37" n="37"/>
+through the barricade door, some with handkerchiefs tied together to encircle all they thought fit. The sick and disabled ones were sold at auction for whatever they might bring; some selling for a single dollar. Col. Halman, a wealthy planter in Georgia, owned one-eighth of the vessel, and was therefore entitled to some of the slaves. Bobah and Mabowah were among the number which fell to him, and thus they met.</p>
+          <p>They were at once sent off to his large cotton and rice plantation near Savannah, where he employed between seven and eight hundred slaves.</p>
+          <p>Their names were changed to Jacob and Ruth Welden, and they were shown a miserable hut, which was to be their future home.</p>
+          <p>But in their joy at being released from the terrible slave-ship, it seemed for a time, in comparison, a palace. It was eight feet by ten, and eight feet high, with a hole in the top to let the smoke out—put up without a nail, and totally destitute of window-glass, chairs, table, and bedstead. Their only bedding was a blanket, and wrapping themselves in that, on the cold ground they were compelled to sleep. Their food consisted of one peck of corn meal each, per week, which they were obliged to grind for themselves after the day's toil, and which, from the insufficient accommodations for so many, often brought the labor late in the night.</p>
+          <pb id="p38" n="38"/>
+          <p>They were allowed an hour and a half or two hours to prepare and eat their first meal, at about eleven o'clock, and the second was taken after the day's work was over.</p>
+          <p>They had not been here long when Ruth became a mother. The birth of her child was followed by a painful illness of some three weeks' duration, in which her utter loneliness seemed almost as hard to be borne as the suffocating tortures of the middle passage.</p>
+          <p>With no kind hand to soothe her, and no one to supply her wants during all the long fifteen hours of Jacob's daily toil, she would often lie, with the tears streaming down her cheeks, and trace in each feature of her boy some resemblance to those whom she had so fondly loved yet lost in her fatherland.</p>
+          <p>The vigor of a good constitution at length triumphed, and as soon as she recovered so that her master thought she could bear it without a relapse, he ordered the babe to be taken from her and sent a few miles away to a cotton-cleaning establishment which he owned, to be cared for by the old and infirm slaves at work there. There he was named Cæsar. This separation opened all poor Ruth's wounds afresh; and in the bitterness of her spirit she cursed the white man, and sobbed, and implored heaven—and sobbed, and cursed, and implored again, till Jacob entered, 
+<pb id="p39" n="39"/>
+after his day's toil, and found her rolling in anguish, smiting her breast, and tearing her hair in a <sic corr="frenzy">phrensy</sic> of unutterable and uncontrollable grief. To all his anxious inquiries she could only answer, “Me child—me child—me child!” Overwhelmed with sorrow and dread, he rushed to every corner of the hut, then out, around and in again, madly seeking for his child.</p>
+          <p>“Why, Lor, now, what yer goin' on so fur?” exclaimed a fat, bustling negress, with eyes half starting from their sockets.</p>
+          <p>“Me child—me child—me child!” in slow, broken, mournful tones, as if embittered woe had found an utterance, fell upon her ear from the darkness of the hut; to which she answered, “Wal, now, I 'spect yer takin' on so 'bout yer baby, what Mas'r sent off. 'Taint no use, yer may's well gin in. Yer baby aint killed, nor sold. He's jist goin' out a piece to grow up light, to ride Mas'rs hosses.”</p>
+          <p>This utterance, though they scarcely understood its meaning, served to quiet them for the moment, and the old woman went on to explain that the child was taken away in order to stunt his growth, that he might become a rider of his master's race-horses. Comforted with the hope of seeing him again, Ruth and Jacob settled themselves for the night's sleep. But the burden lay too heavily upon their hearts; and, locked in each other's embrace, they lay sighing those deep heart-sighs 
+<pb id="p40" n="40"/>
+which succeed the tumultuous outburst of impassioned woe.</p>
+          <p>We will now leave them, and glance at their master and his family. Col. Halman was a short, fleshy, stout-built, red-faced, gray-headed, hard-drinking man of about two hundred pounds' weight, naturally pleasant and good-natured, but rendered irritable by his vices, till he had become exceedingly passionate, overbearing, and cruel.</p>
+          <p>Mrs. Halman was a tall, slim, rather sharp-featured, though handsome Spanish creole, nearly twenty years younger than her husband, with an ungovernable temper, goaded by her ill-starred position into constant fretfulness, which made her both cruel and revengeful.</p>
+          <p>They had two children, of which he was extremely fond—particularly the daughter—his two former wives having died childless, and the son being subject to fits of derangement.</p>
+          <p>The daughter was a beautiful, kind-hearted child of three years, with eyes and hair of jet black, but complexion lighter than her mother's.</p>
+          <p>The overseer was a spare but stout-built, wiry, full-faced, black-haired Irishman called McCabe. He had been found trustworthy, and, committing the oversight of the plantation to him, the Colonel had given himself up to a life of ease and pleasure. Hunting, horse-racing, and drinking were his principal amusements.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p41" n="41"/>
+          <head>CHAPTER III.</head>
+          <p>We will now pass over four years, marked by no special incident, other than the occasional scourgings and constant hard usage which they had learned to regard as their ordinary lot. Col. Halman had been away on a racing tour, and had lost several races, and involved himself so deeply that upon his return he was unable to meet a payment which was then due.</p>
+          <p>The sale of one of his slaves was the only alternative. A New-Orleans trader was in the neighborhood, who, upon being informed of the Colonel's wishes, immediately repaired to the plantation and selected Jacob, offering a large price, and refusing any other. Accordingly, he was ordered to go to the quarters upon some trifling errand, where he was at once shackled and marched off to the trader's coffle. Poor Jacob begged earnestly to be allowed to say at least one farewell word to Ruth, but a “scene” was not to be endured just then, and he was compelled to go. When the coffle was made up, they were driven to a distant market. While on their way, they stopped one night at a tavern where Jacob and his fellow-prisoner were unbound, to assist in some slight repairs about the driver's wagon, when they heard groans, as of some one in distress, issuing from an adjoining shed.</p>
+          <pb id="p42" n="42"/>
+          <p>The driver walked carelessly toward the place, stood a moment surveying the scene, and with an oath turned away.</p>
+          <p>Not so with Jacob and his companion. With the curiosity natural to the race, and thoughtless of the consequences, they followed the driver, and when he turned they stood transfixed with horror. There, under the shed, hung by the thumbs the naked and writhing form of a beautiful quadroon girl of sixteen summers, and by her stood a burly, drunken villain, holding in one hand a bloody knife, and in the other the dripping cowskin, alternately swearing, maiming, and whipping, and she groaning, writhing, and almost dying. He had bought her for the basest of purposes, and when she refused his will and resisted his pollution, and then tried by running away to escape from his power, all the fiend was aroused within him. He pursued and captured her, then stripped her naked, and hung her, as has been stated, by her thumbs, and whipped her till her entire body, from her neck to her feet, was gored—cut off a toe from each foot, and both ears, and knocked out two front teeth, as marks, if she should ever run away again; and that maimed and bleeding girl was the object that they saw! As the trader turned and saw them, he raised his whip to strike, when the horrified expression of their countenances arrested the blow, and ere he could repeat 
+<pb id="p43" n="43"/>
+the effort they had dashed forward, and Jacob, snatching the knife from the monster's grasp, had severed the cords that bound the bleeding victim, while his companion knocked him down, and then both lifted the poor creature in their arms and bore her out.</p>
+          <p>They had scarcely reached the open space, when the infuriated villain sprang up, drew a pistol from his pocket and fired. The ball passed through Jacob's neck, severing the jugular vein, and lodged against the skull of the miserable girl. She drew one convulsive gasp and all was over. Jacob fell forward upon her, and his companion was about to feel the force of the clubbed pistol, when the trader interfered and the slave retreated to the coffle. The trader raised Jacob's head upon his knee, examined the wound attentively, and seeing that he was almost gone, laid him down, and with a desperate oath demanded <hi rend="italics">nine hundred dollars</hi> of the murderer. But he in turn looked upon the corpse before him, and demanded fifteen hundred of the trader for his slave's act in occasioning her death. The dispute ran high, and was only decided by appealing to the law.</p>
+          <p>A jury of slave-holders was called the next day,—the boon companions of the murderer,—and <hi rend="italics">the slave,</hi> Jacob's companion, arraigned for assaulting a white man!</p>
+          <pb id="p44" n="44"/>
+          <p>No other proof was needed than the oath of the person thus assaulted, and the case was clear. He was condemned to “receive <hi rend="italics">five hundred</hi> lashes, and (to make the cruel torture more keen) not more than thirty-nine at any one time; and the physician of the jail was instructed to see that they should not be administered too frequently, and only when in his opinion he could bear them.” Most infernal decision! Five hundred blows for one! And yet this is law! Good God, save us from its protecting shadow!<ref id="ref6" n="6" rend="sc" target="note6" targOrder="U">*</ref><note id="note6" n="6" rend="sc" place="foot" anchored="yes" target="ref6"><p>* Yet under such laws more than 600,000 slaves are held by men professing to be Christians.</p></note></p>
+          <p>The trader was now fairly aroused. He had lost nine hundred dollars already, and now seven hundred more were to lie in jail till they could bear five hundred lashes; because, forsooth, it would be cruel and a crime to kill him outright for his guilt. (?) So Christian mercy ordains that he shall die thirteen times over!</p>
+          <p>The trader at once instituted a suit against his enemy for cruelly and maliciously punishing his slave girl with unlawful severity, and another for the unjustifiable killing of the slave Jacob.</p>
+          <p>On the trial of the first case it was decided that “The end of the law respecting the slave is <hi rend="italics">the profit of the master</hi> and his security, not the good of the slave; and to secure this end, the power of the <hi rend="italics">master must be absolute, to render</hi>
+<pb id="p45" n="45"/>
+<hi rend="italics">the submission of the slave perfect.</hi> That the slave, to remain a slave, must be sensible that there <hi rend="italics">is no appeal</hi> from his master.” “Therefore it is the policy of the law, in respect to the relation of master and slave, and for the purpose of securing subordination and obedience on the part of the slave, to <hi rend="italics">protect the master from prosecution</hi> in all such cases, even if the <hi rend="italics">whipping and punishment be malicious, cruel, and excessive.</hi>” Again: “All colored testimony is excluded; and no white man saw the punishment except the trader, who only saw two or three blows, and could not tell whether the punishment was of “unusual severity” or not—not knowing for what she was punished; and as obedience was absolutely necessary, <hi rend="italics">she was in a state of insurrection until she obeyed him,</hi> and a slave in insurrection <hi rend="italics">might be killed by any person.</hi>” Case decided for defendant.</p>
+          <p>As to the second case, it was decreed that “When the slave of one party is killed, or his property value diminished by another party, the person thus doing is liable for damages to the owner of the slave thus injured, to the full amount of the loss sustained, except the slave be outlawed,<ref id="ref7" n="7" rend="sc" target="note7" targOrder="U">*</ref><note id="note7" n="7" rend="sc" place="foot" anchored="yes" target="ref7"><p>* Outlawry is this: If a slave runs away and hides, and kills hogs, etc. to keep from starving, two justices of the peace of the county shall issue a proclamation requiring him to surrender, and the sheriff to arrest him; said proclamation to be read at the door of the court-house, and such other places as the justices shall designate. If the slave do not immediately return, it shall be lawful for any person to kill him in such way as he may think best.</p></note> or offers resistance when running away,
+<pb id="p46" n="46"/>
+or assaults a white man. In the case in question, the slave was killed while aiding and abetting a rebel slave, and after assaulting the defendant; therefore, the case is ruled for defendant. O, even-handed justice, is this thy ruling? Is it rebellion to the death, for the innocent and pure to turn with loathing from the wretch whose very touch is pollution?</p>
+          <p>Is it outlawry, and crime, and life-blood, to pity the maimed, quivering, gasping, dying, stainless maiden, whom lust, and passion, and power (cursed trio!) had striped, and gored, and mutilated? And this in a <hi rend="italics">Christian land,</hi> where the symbol of liberty proudly floats on every flag, and a falsified Constitution declares that <hi rend="italics">all men are born free and equal, but black men are chattels personal!</hi></p>
+          <p>Yet, thank God! there are men better than their laws, although, from the more numerous class of the uncultivated in manners and morals in the community, they are in a small minority; still, the bare fact that some, in the exercise of their irresponsible power, are better than the laws, goes far to redeem humanity from the utter stigma that must otherwise attach to it.</p>
+          <p>“But, brother!” exclaimed Molly, “that 
+<pb id="p47" n="47"/>
+must have been an extreme case; all masters cannot certainly be so cruel.”</p>
+          <p>“They are not, and I believe but few are; but every one <hi rend="italics">has it in his power to be, and the slave has no redress.</hi> True, the law professes to protect him, but the testimony of colored witnesses,—slave or free,—cannot be received; so that all the master has to do, is to perpetrate his barbarities where no white person can see him, and he is safe.”</p>
+          <p>And should he be prosecuted on suspicion, his own oath clears him, in spite of any amount of circumstantial evidence. Besides, ordinarily, no friend of the slave will prosecute the master for ill-treatment; because, if proved, (as a southern judge has himself said,) “No man can anticipate the many and aggravated provocations of the master, which the slave would be constantly stimulated, by his own passions or the instigations of others, to give; or the consequent wrath of the master, prompting him to bloody vengeance upon the turbulent traitor—a vengeance generally practised with impunity, by reason of its privacy.” Hence, says another judge, “There have been no prosecutions of the sort. The established and uniform practice of the country, in this respect, is the best evidence of the portion of power deemed by the whole community requisite to the preservation of the master's dominion.”</p>
+          <pb id="p48" n="48"/>
+          <p>“But would not their own interest lead them to avoid inhuman punishment?”</p>
+          <p>If interest were always superior to passion it might; but that it is not, is seen everywhere in the passionate cruelty to animals, which diminishes their value; and you should remember that the whole slave system is one great nursing mother of passion, as Jefferson wrote: “The whole commerce between master and slave is a <hi rend="italics">perpetual exercise of the most boisterous passions;</hi> the most unremitting despotism on the one part, and degrading submission on the other. <hi rend="italics">Our children see this, and learn to imitate it;</hi> for man is an imitative animal. The parent storms; the child looks on, catches the lineaments of wrath, <hi rend="italics">puts on the same airs in a circle of smaller slaves,</hi> gives loose to the worst of passions; and <hi rend="italics">thus nursed, educated, and daily exercised in tyranny,</hi> cannot but be stamped by it with odious peculiarities. The man must be a prodigy who can retain his morals and manners undepraved in such circumstances.” Besides, it is often more for the master's interest to overwork and subject his slaves to murderous hardship, than to treat them well, because of the increased pecuniary gain. Thus, on the southern sugar plantations it is an established custom to task the hands so as to kill them in from five to seven years, and then re-stock; it being cheaper to purchase new 
+<pb id="p49" n="49"/>
+hands, than to keep a sufficient number to do the work without injury to themselves. And again, it is for the master's interest to exact obedience at all hazards; and if the poor slave girl has been so unfortunate as to inherit the female slave's greatest curse, personal beauty, and then to save her honor dares to resist, she must be compelled to yield, or the master's authority is at an end; and to whatever extremity the punishment may be carried, the law and public sentiment will uphold it, and interest demands it; for it then sustains the most essential and necessary right of the master's relation—one without which the relation itself must cease.</p>
+          <p>Some other mode of exacting obedience might be preferred, but obedience itself to any and every mandate of the master must be enforced, come life or death.</p>
+          <p>And every slaveholder is compelled, by the necessities of the case, virtually to act upon this principle, whether he approves it or not. Hence, many of the hardships of the slave's life are chargeable not so much upon the disposition of the master, as upon the requirements of the system. And when, in the case of the stubbornly refractory all other measures fail,—and he is sold to the southern driver instead of being whipped to death,—it is only a refinement of the torture and protraction of the agony. No wonder that 
+<pb id="p50" n="50"/>
+the moral sentiment in  regard to the negro is so blunted and paralyzed. It would be so with us were we exposed to the direct educational influence of the slave system. Says a southern paper: “There are <hi rend="italics">many persons</hi>—and we regret to say it—who think they have the same right to shoot a negro, if he insults them, or even runs from them, that they have to shoot down a dog.” And why should they not think so? Their papers are filled with advertisements of rewards for runaways,—“dead or alive,”—described as having “lost toes,” “fingers,” or “ears,” having “front teeth knocked out,” “branded on the cheek,” “breast,” “back,” “marks of severe cuttings with the whip,” “sores caused by the wearing of irons,” “scars from the bite of hounds,” “lame from broken limbs,” “having only one eye,” etc., etc., etc.</p>
+          <p>What can such things suggest, but the treatment that has caused them—a treatment familiarized by observation and perhaps experience, till it would be strange indeed if their rights and feelings as men should not be totally disregarded.<ref id="ref8" n="8" rend="sc" target="note8" targOrder="U">*</ref>
+<note id="note8" n="8" rend="sc" place="foot" anchored="yes" target="ref8"><p>* Humanity is  a greater crime than the most outrageous cruelty. For cruel punishment (provided it is proved by white witnesses and is not usually inflicted) a man may be fined $500. For breaking an iron collar from the neck of a slave he may be fined $1000 <hi rend="italics">and imprisoned two years!</hi></p><p>In South Carolina, for killing a slave outright a man may be put to death, (if convicted;) but if he <hi rend="italics">tortures him to death</hi> with the lash, or otherwise, he may pay $500 and possibly be imprisoned six months.</p></note>
+<pb id="p51" n="51"/>
+Hence we should be the deadly foes of the <hi rend="italics">accursed system,</hi> spurning compromises as infamous bargains with the devil and compacts with hell, all the more dangerous as they profess to be “constitutional!”</p>
+          <p>“Why, brother, you are getting excited.”</p>
+          <p>“So I am, Molly; and shame on the detestable cowardice that fears to become excited upon such a question as this! But we must leave it till to-morrow.”</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER IV.</head>
+          <p>When Ruth came from the field, after the sale of Jacob, and learned her loss from the old negress, who was her comforter before, her cheek blanched, her frame quivered for a moment like an aspen-leaf, and then, without a groan or a sigh, she fell heavily upon the ground.</p>
+          <p>The old woman was accustomed to strange sights, and could bear any ordinary scene with a stoical indifference that clearly belied the goodness of her nature. But this awful silence of woe, this chilling despair that settled with such frigid coldness upon the heart, and looked its calm iciness through the half-closed eyes, <hi rend="italics">this</hi> was something she had never seen before. “Good 
+<pb id="p52" n="52"/>
+Lor e massa! ded an' gone! O, marcy! marcy! gone off in an eberlastin' fit! Fetch de water! Here, yer lazy niggers, tell massa! O Lor! what kin a poor creetur du?” And old Chloe, once overcome, fairly crazy with excitement, danced about, uttering such wild, disconnected sentences that the hubbub soon brought scores of blacks and the overseer to the spot. As soon as the trouble could be ascertained,—for poor Chloe was too much excited to tell,—Ruth was borne away from the confusion, and a few restoratives administered with success. She partially revived, then sank away again, then revived to a state of sleepy, muttering delirium, or wild, staring, speechless mania.</p>
+          <p>Weeks passed away, and she slowly recovered her strength till she was able to sit on a bench outside the sick-quarters. While sitting there, one day, sadly musing upon the past, little May chanced to stray by, and, with the quick perception of childhood, saw at once that something more than common ailed her. She instantly ran to her, and not knowing her name, stood before her, and for a moment looked upon her with the unaffected tenderness and sympathy of her years, then in the soft and subdued tones which the presence of a great sorrow elicits, asked, “What's the matter, Aunty?” The words fell like the voice of an angel upon the o'erfraught heart, and 
+<pb id="p53" n="53"/>
+it welled up afresh, as grief's fountain does when the hand of rare kindness is laid upon it. The burst of tears only deepened Mary's sympathy, and she laid her little face upon Ruth's lap and wept with her.</p>
+          <p>O, it was a lovely sight, to see that young unburdened heart bend itself beneath the weight of woes that the strength of years could scarcely stagger under; and it eased for a brief moment the cankering heart-ache of stricken Ruth, and she clasped her to her bosom and wept again.</p>
+          <p>When the tumult of her feelings had somewhat subsided, she answered the inquiries of her little comforter, till she had told her the whole story of her life.</p>
+          <p>From that hour Ruth found a friend, and from that same hour the thoughtful mind of Mary took a new channel; and if her light-hearted gayety was chastened, and her vivacity diminished, it could easily be seen that a richer harvest of heart-treasure was ripening within for the garner. She was not allowed to associate with the plantation-slaves, but she often found an opportunity to slip away to see Ruth, whose only desire now seemed to be to see her boy. It was preying upon her life, and the sympathies of Mary could not rest till her desires were gratified.</p>
+          <p>The guileless artlessness of her manner, and the tears of unaffected sympathy with which she 
+<pb id="p54" n="54"/>
+plead with the overseer, soon prevailed, and Ruth was permitted to go to see her boy, and remain with him until able to work in the fields again. Her recovery was slow, so slow that all the native affection of her heart had time to warm into a fervid glow of love for her child, the intensity of which only embittered her existence the more. It would be useless to describe all the pangs she felt when compelled to return to the plantation, and resume the dreary life of toil from which even her painful sickness had been a recreation.</p>
+          <p>We will leave her in her loneliness and sorrow, and pass on to the time when Cæsar commenced his active life. He was put to knitting when about three years old, and then hemming cotton handkerchiefs. When between five and six he was sent to the plantation, and put under the care of one Dick Burley, his master's principal jockey and trainer, to be trained for a race-horse rider. Col. Halman kept a number of horses, and prided himself upon keeping some of the fleetest in the country.</p>
+          <p>Dick was of about middling height, sharp features, sandy hair, quick-tempered, and given to drink.</p>
+          <p>His method of training was to first put the boy on a well-trained horse, and instruct him how to sit and rein. After becoming somewhat accustomed to this, he <hi rend="italics">tied</hi> him upon a young unbroken 
+<pb id="p55" n="55"/>
+horse, gave him the bridle, and then turned him loose. Just before Cæsar was tied on, he was very much frightened by an awful scene in the training of two boys, who were a little farther advanced than himself. The two boys were tied on at the same time, and for a few moments managed bravely, but by a sudden turn of one of the horses, his rider slipped around under him, and hung head downwards; this frightened the timid colt so much, that in his frantic plunges to rid himself of the boy, before any one could interfere he was a bruised and mangled corpse. The terrific bounds of this horse so terrified the other, that he too began to rear and plunge, and the poor little rider, seeing the fate of his companion and losing all presence of mind, jerked with all his strength upon the reins just as the animal reared, and brought him over, and was crushed to death in an instant. This scene did not greatly strengthen the nerves of Cæsar, when, a few days after, he was tied on in the same manner. He too would have shared their fate, had not two old slave women noticed his slipping, and caught the horse just in time to prevent his going under.</p>
+          <p>Col. Halman owned a plantation and stables in Virginia; and Cæsar was employed, after his tenth year, as a rider and a body-servant, that is, to wait upon his master. In this capacity he 
+<pb id="p56" n="56"/>
+came to Virginia, and while there ran his first race for money near the James River, where he won $2,000, and a few days after ran again and lost $2,500. They then went to Norfolk, and took a steamer to New-York, and put up in Cherry-street. While there the Colonel made arrangements for a race on the Long Island Course, and meantime went to Hunting Park Course in Pennsylvania, where he won $3,000.</p>
+          <p>Burley was a notorious scoundrel, and taught Cæsar all sorts of tricks to balk his adversaries' horses, which he often used successfully. Thence they went to New-Jersey, and in Hoboken won another purse of $2,500.</p>
+          <p>While traveling, especially in free States, Cæsar was well used; but not knowing that he was then free, he could not take advantage of the fact. Major J—, of Cold Spring was the competitor in the race on the Long Island Course. The first heat Cæsar's horse won with ease, when the Colonel took Cæsar aside, and ordered him not to do his best, but let the Major win, so that he would be induced to bet higher. The purse of $2,000 was then again lost, but the Major would not bet again, so they then returned to Georgia. The next season they went to Mobile, in Alabama, and ran four races and lost them all. Colonel Halman was in liquor most of the time; and the more bad luck he had, the harder he drank, 
+<pb id="p57" n="57"/>
+and the worse poor Cæsar fared, being whipped after every race, if unsuccessful. His usual punishment was twenty-five lashes on the bare back, and then rubbed down with salt brine, and left standing in the sun from fifteen minutes to half an hour—which was often worse than the whipping. The Colonel resolved to try once more; and after a rainy week, when the track was slippery, he ordered him to “win or catch it.” The horse made tremendous exertions under the goadings of his almost despairing rider, but slipped and fell broadside, breaking Cæsar's arm and leg.</p>
+          <p>The Colonel was watching the race with much anxiety, when the fall aroused all his drunken wrath. He rushed to the spot, and instantly ordered him to be stripped and receive twenty-five lashes. A physician, who chanced to be present, now came forward and examined his wounds, and decidedly objected to any punishment in that condition. The master raved and swore; the doctor stood firm and objected. At length the dispute ran so high that they drew pistols over his body, when others interfered and prevented any further mischief. He was then carried to the hospital, where he lay nearly five months. His master would occasionally call to see him,—always in a passion,—and generally, before leaving, wish him dead.</p>
+          <p>Before his recovery he was sent home, and 
+<pb id="p58" n="58"/>
+while his arm was still weak he was forced to ride again. The horse was young and not well trained, and his arm not being strong, the horse ran and threw him, his head struck a post, and he was taken up for dead with a broken skull. He then lay two or three months, most of the time delirious, and, after recovering sufficiently, traveled with his master as body-servant. They visited Niagara Falls and other places, and he was treated better than he ever was at any other time, except when on a subsequent journey to England. They returned by way of St. Louis, New-Orleans, and Mobile; and while at Mobile his master, while in a drunken spree, sold him to a southern trader named Jim Wallace, who intended taking him to New-Orleans where he lived. The morning before he was to start, Col. Halman came to him and wished to buy Cæsar back. The trader replied: “You have not money enough to do it.” But the Colonel remonstrated—said it was not a fair trade—was done when intoxicated, etc.; and at last bought him back for $1,000, losing $500 by the trade, but swearing that he would have it out of him before a year passed.</p>
+          <p>While there he witnessed one of those thrilling scenes that not unfrequently transpires in slave markets. An old woman and her daughter were put up to be sold for debt. They had lived with a kind mistress, and were struck off to different 
+<pb id="p59" n="59"/>
+persons. The old woman cried aloud, when the cruel trader stepped up to her, and cut her two or three times with his whip, saying at the same time, “Shut up, you old wench, or I'll whip you till the blood runs into your shoes!” The mistress then came forward and begged to buy her back; but he would not sell, and the mother and daughter were parted, never to meet again till that day when the slave and the free shall alike “be judged according to the deeds done in the body.”</p>
+          <p>When Cæsar was well, his master was accustomed to order him to attack any negro that chanced to pass, that the fight might afford amusement to the spectators. He became very skillful in these “rough and tumble” encounters, for he was stimulated by his love of applause if successful, and fear of blows from his master if unsuccessful.</p>
+          <p>After spending some time at home, the Colonel resolved to visit England to try his Grey against the English trotting-horses. He accordingly sailed for Liverpool; but the passage was very rough, and the horse was so bruised that he was unfit to run upon their arrival.</p>
+          <p>Hence the match was postponed, and finally won. Thence they went to Ireland, and ran on the Curragh of Kildare, and after an unsuccessful season returned home. While in Dublin, Cæsar was offered $40 per month by a sportsman to 
+<pb id="p60" n="60"/>
+stay with him as jockey and rider. But poor Cæsar knew not that he was free; and fearing that his master might hear of the offer and whip him for it, according to previous instructions he replied he “was not out of his time.” After his return he was employed as body and house servant. His mistress would sit in a large rocking-chair in the middle of the room, with her cowskin in her hand; and whenever he or her two female servants came within her reach, if she was displeased at anything, she would vent her spite in blows upon their necks. One of her female servants had been so injured in early life that her intellect was blunted, and she became the special object of aversion. Her neck was kept a raw and bleeding sore constantly, by the stripes of her tormentor. Of course, such treatment roused all the hateful and vindictive feelings of Cæsar's heart, and his whole delight was to study out some means to <sic corr="tease">teaze</sic> her, and yet escape chastisement.</p>
+          <p>One day, while drawing water for his horses, he observed some nice apple-dumplings just taken from the fire. At that moment the room was left vacant, and he dodged in and seized a large one, with which he was about to make his escape, when his mistress entered; but quickly turning, he dropped the scalding dumpling into the pocket of his thin tow pants, and catching up his pail, 
+<pb id="p61" n="61"/>
+ran for the stables; but before he had reached there his thigh was burned to a blister.</p>
+          <p>A short time after, the family were all away, and he resolved to revenge himself upon his mistress. Accordingly he went to the kitchen, and there found her favorite cat. He then heated the poker, and with it burned her nose and paws till she became desperate. Having cornered her where there was no escape, he plied his iron with increasing zeal, when she suddenly sprang upon him, and fixing her claws in his breast, fought and tore like a tigress. Poor Cæsar had now found more than he had bargained for, and roared aloud with pain; but before he could open the door and release himself his bosom was terribly lacerated. His wounds made him weak and sick; and as he dare not tell of them for fear of worse ones on his back, he had to dress them with his horse-liniment and endure the pain.</p>
+          <p>While yet lame and dull from their effects, his mistress frequently gave him passing blows, and finally sent him to the quarters to receive a dozen lashes there. When he returned to the house she ordered him to take a pitcher, and go to the spring-run, and get some milk that was kept there. He went and kicked the milk-pot into the spring, then filled his pitcher with the water and took it to her, saying that “some one had upset the pot.” She saw the trick at once, and accused 
+<pb id="p62" n="62"/>
+him of it, but he denied it. She then ordered him to follow her; and taking her cowskin, led the way to the spring, where she whipped him till she was tired, then told him if he did not confess it she would drown him in the spring. She accordingly seized him; but he contrived to so entangle himself with her, that as she made an effort to put him in, she fell backwards and struck her head against the stone side, and lay insensible in the run. He resolved to let her drown; but before she was quite gone, some other member of the family discovered her and carried her to the house.</p>
+          <p>When his master returned, a few days after, he called for Cæsar, and gave him a note to take to the quarters. He took it, suspecting something of its import, when the overseer ordered him to strip, tied him up, gave him twenty-five lashes, and brined him as usual.</p>
+          <p>He was unable to work for two weeks after this, and it taught him to be more prudent in his plans of revenge.</p>
+          <p>“Well,” said Molly, “he deserved some punishment that time.”</p>
+          <p>“Very true, and no doubt slaves often deserve it; for a more vexatious life can scarcely be imagined, than to be obliged to control a lot of lazy, stubborn, and revengeful negroes. Yet it is this very fact that makes the system the more repulsive; 
+<pb id="p63" n="63"/>
+<hi rend="italics">because it is a vast educational establishment, in which the worst passions are developed as a principle, and iniquity is studied as a science!</hi> Instead of training them for usefulness and the high destiny of immortality, they are constantly educated in the development of passions of which it would be slander to accuse the brute, and to which devils never could sink.</p>
+          <p>And yet men say that the very God who has redeemed them, authorizes such an educational influence. If I believed it, I would burn my Bible as the most despicable humbug on earth, and reprobate its God as I now hate the devil. But more of this at our next interview.</p>
+        </div2>
+        <div2 type="text">
+          <head>CHAPTER V.</head>
+          <p>I will now attempt to show the educational influence of the slave system, as it operates upon both classes, in the incidents that follow.</p>
+          <p>The father of Col. Halman had a female house-servant by whom he had a child, a handsome mulatto girl, who grew up with Col. H., and by whom she had a beautiful quadroon child. This child's mother the Colonel had been compelled to sell, in consequence of the constant reproaches of a former wife; and the present Mrs. Halman could 
+<pb id="p64" n="64"/>
+illy brook seeing the beautiful quadroon upon the premises, rivaling her own charms, and a constant reminder of her husband's shame. She occasionally wreaked her ill-humor upon her, till the Colonel sent her to his plantation in Virginia, to save her from further severity and himself from merited reproaches.</p>
+          <p>While on one of his northern tours, he fell in company with Mr. De Alembert, of one of the proudest and most aristocratic families of southern Virginia, and invited him to visit him at his Longfield plantation.</p>
+          <p>Alembert had just succeeded, by the death of his widowed mother, to the inheritance of the old family homestead; and as he desired to increase his patrimony, he sold all the house-slaves, and with the avails re-stocked his plantation with a sufficiency of good healthy hands, mostly young females, and set out to visit Col. Halman. One article in his inventory of goods he had purposely left unsupplied, until one to his taste should fall in his way. The condition was quickly met, for at the Colonel's he saw Rosette, the beautiful quadroon, and at once unfolded his plans and made an offer.</p>
+          <p>“You see, Colonel,” said he, “if I marry I shall have to keep two or three house-servants, which will cost me $3,000, beside all the expense of a wife; so I have concluded to buy me a 
+<pb id="p65" n="65"/>
+right sort of a girl, and manage without a wife. Now, there is that quadroon there—what will you take for her?”</p>
+          <p>“Don't want to sell!” gruffly replied the Colonel, as the recollection of her near relationship forced itself upon him.</p>
+          <p>“But would'nt $1,500 be something of an inducement?” urged Alembert.</p>
+          <p>“Lord knows I need the money bad enough, but ye see I don't just like to sell her.”</p>
+          <p>They sat some time in silence, each watching the graceful movements of Rosette, one thinking of the past, the other of the future.</p>
+          <p>The past was not a very pleasant theme for the Colonel's meditations, and he sat uneasily, hitching, hemming, and spitting, till he unconsciously thrust his hand into his pocket, and it rested upon a letter that he had received the day before, challenging him to a race. He had thought little of it, because the want of funds prevented his acceptance of the offer. But now a new idea struck him.</p>
+          <p>“I tell you what, young fellow, if you will give me $2,000 for her, she's yours, sure as fate; but not a picayune less.”</p>
+          <p>“Two thousand dollars! two thousand dollars! that's a heap for one girl! But then she's mighty handsome (and she'll raise splendid young ones, too,”) mused Alembert, and then spoke out: 
+<pb id="p66" n="66"/>
+“Well, Colonel, that's a high figure; but I'll take her.”</p>
+          <p>And the papers were made out and signed, and Alembert, with his <hi rend="italics">property-mistress,</hi> started for his plantation.</p>
+          <p>In due time she bore her chaste bachelor lord a beautiful, flaxen-haired boy, who grew in interest and beauty as he did in stature, and moreover so favored his <hi rend="italics">master's</hi> features, that even strangers were at no loss to divine his paternity. Meantime a strange bleaching process was going on in the somewhat numerous children of the plantation-slaves. They—particularly the children of the younger mothers—were a great part of them mulattoes, or quadroons, according as the mothers were black or mulattoes; and as the value of the children increased in the ratio of their whiteness, the <hi rend="italics">master, of course,</hi> would not trouble himself to ascertain the cause.</p>
+          <p>Nearly three years passed away, and Rosette's child grew more and more like <hi rend="italics">“master,”</hi> till it could be endured no longer, and one day he was sold to go off south. His mother had left him to step out for a few moments, and when she returned he was gone. The trader had taken him and rode away.</p>
+          <p>We will not attempt to describe poor Rosette's feelings. She had seen the children of other slaves sold thus, but she fondly hoped that 
+<pb id="p67" n="67"/>
+<hi rend="italics">hers</hi> would be spared to her. Alembert at once told her that if she cheered up and behaved herself, she would be treated the same as before; but if she “moped and whimpered” around in that way, he would sell her to the first New-Orleans trader. She saw the hopelessness of her lot, and though her heart buried itself in anguish, she assumed a cheerful aspect in his presence and was retained in his favor. Not long after, she found herself exposed to the same fearful trial again; and rather than endure the suspense that must always hang over her, she resolved to secure her freedom or perish in the attempt.</p>
+          <p>She had learned enough to know that her only hope was in reaching the mountains without discovery, which she had been told lay towards the setting sun, and then following the north star till she came to a land of freedom. Animated by the hope of escape, and not knowing the dangers of the way, she assumed a cheerful guise and waited for an opportunity. Alembert had gone on some business to the sea-shore, and would not return before three days, when the favorable time came. A lowery day was succeeded by a night of pitchy darkness and rain, with a strong wind from the south-east; when late in the eve she emerged from the mansion, with a small bundle containing such food as she had been able to secure, and a few little articles, among others, a 
+<pb id="p68" n="68"/>
+dress which had been worn by her little boy.</p>
+          <p>Placing her back to the wind, she stumbled on through the darkness, falling over various obstructions, and into holes and gullies; but still she kept on till the light began to break in the east, when weary, faint, bruised, and hungry, she crawled into a thick hedge, ate her morning meal, and slept—the dreamy, disturbed, and fitful sleep of anxious fatigue. The next night she continued the same course, with the north star for her pilot, instead of the wind, keeping it constantly upon her right. Thus she proceeded till she reached the mountains and struck for the north.</p>
+          <p>Great was the commotion at the mansion on the morning after her escape. The heavy rain of the night had completely obliterated every trace of her course, hence all was doubt and uncertainty respecting it. However, no time was to be lost, and the energetic overseer at once caused the following advertisement to be inserted in the county papers, and sent off for a notorious negro-catcher to come with his hounds, and, if possible, trace her:</p>
+          <q type="text" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="text">
+                  <head>“$200 REWARD!!</head>
+                  <p>“Ran away from the subscriber, living near Barksdale, Halifax Co., a very light quadroon woman, of medium size, very handsome, and about 20 years old; has long, straight, auburn hair, which she usually keeps in good order. When she left, she had on either a white dress or a striped muslin, and a pink sun-bonnet. She dresses very neatly, wears one or two rings, is very intelligent, converses well, and can spell out print. Her name is Rosette, and the above reward will be paid for her if taken out of the State, and $100 if taken within the State. </p>
+                  <closer>
+                    <signed>DE ALEMBERT.”</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <pb id="p69" n="69"/>
+          <p>But notwithstanding all the efforts of dogs and men, the rain had so effectually befriended her, that they were compelled to relinquish the search.</p>
+          <p>We will now continue the narrative of Cæsar. We left him—</p>
+          <p>“If you please, brother, I would like to ask if it is the custom in Virginia to raise slaves to sell, and if what you have intimated is really true—that they increase in value as they are white in color?”</p>
+          <p>“I have heard that they do not separate families; but I should think if they raise them to sell, they must do so.”</p>
+          <p>Your inquiry includes so much, that I shall have to answer each point separately.</p>
+          <p>In regard to the raising of slaves for the southern market, nothing is more common in the papers of Mississippi, Louisiana, etc., than to find advertisements from dealers closing with such an assurance as this, viz: “The subscriber will continue to receive fresh supplies from Richmond, Va., during the season, and will be able to furnish to order any description of negroes sold in Richmond.”</p>
+          <p>In 1836 Virginia exported forty thousand slaves. During the same year the four States of Louisiana, Mississippi, Alabama, and Arkansas, imported from the more northern States two hundred 
+<pb id="p70" n="70"/>
+and fifty thousand. At least one-third of these (over 80,000) were sold, and the remainder immigrated with their masters. In reference to these facts, a southern writer (Professor Dow, of the University of William and Mary, in Virginia) says: “A full equivalent being left in the place of the slave, (the <hi rend="italics">purchase money,</hi>) this emigration becomes an advantage to the State, and does not check the black population as much as at first view we might imagine; because it furnishes every inducement to the master to attend to the negroes, <hi rend="italics">to encourage breeding,</hi> and to cause the greatest number possible to be raised.”</p>
+          <p>“Virginia is, in fact, a negro-raising State for the other States.”</p>
+          <p>From 1817 to 1837, from Virginia and North Carolina alone, 300,000 slaves were sent to the south.</p>
+          <p>From January 1st, 1851, to November 20th, 1852, were sent from the single port of Baltimore to southern ports 1,033 slaves, mostly between the ages of ten and thirty.</p>
+          <p>I presume these facts will be sufficient to show the truth in regard to raising.</p>
+          <p>Now how can all these young slaves be sent away without a separation of families? Look at such advertisements as this: “I have just returned to my stand, at the forks of the road, with fifty likely young negroes for sale.”</p>
+          <pb id="p71" n="71"/>
+          <p>Were they all of one family? Where were the fathers and mothers, and young brothers and sisters? Sixty-four southern papers report, during the last two weeks of the month of November, 1852, the sale of 4,100 slaves, besides 30 lots of various numbers, and 92 <hi rend="italics">runaways.</hi> We do not accuse slaveholders of <hi rend="italics">wishing</hi> to separate families, but simply assert the utter impossibility of doing otherwise, <hi rend="italics">as a common thing,</hi> as long as they foster such a trade with such a market.</p>
+          <p>As to the increased value of mixed blood, the simple fact that the 350,000 slaveholders of the south own 800,000 mulattoes, is fearfully suggestive of <hi rend="italics">that</hi>—and <hi rend="italics">another fact</hi> of the slave system also, viz: its constant temptations to the indulgence of the passions.</p>
+          <p>Able field-hands now bring from $600 to $1,500; but beautiful young mulatto girls bring from $1,000 to $2,500, and one was sold at public auction to a rich young planter for $7,500. A rich admixture of white blood is a great improvement of the breed, and many of the best and most valued slaves of the south <hi rend="italics">are as white as their masters!</hi></p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p72" n="72"/>
+          <head>CHAPTER VI.</head>
+          <p>After Cæsar's return from England, he lived about three years in much the same way as before his journey. He slept in the stables, and had trained one of the horses so that he could lie in the stall with him; and if the horse wished to move, he would shove Cæsar across the stall with his nose, and never tread on him, however soundly he might sleep. When in the stall, the horse would allow no person, not even Col. Halman, to enter. In the faithful attachment of this horse Cæsar found his greatest comfort. But the carefulness of his horse proved, upon one occasion, a serious misfortune. They were in the stable, in the midst of the racing season, and it often happened when several races came off in quick succession, that the care of the horses and the riding took most of Cæsar's time, so that he had little opportunity for sleep. At one time he had been up two entire nights, and was busily rubbing down his horse, with the animal's hind leg across his knees, when, overcome with fatigue, he fell asleep in that position. Thus his master found him, and seizing a large bar of wood which was used as a fastening to the door, struck him a severe blow across the arm and ordered him to go to work.</p>
+          <p>“I can't, master, my arm is broke.”</p>
+          <pb id="p73" n="73"/>
+          <p>“Your arm is broke, is it—pity it was'nt your head! Come out and I'll break your neck, you lazy, sleepy nigger, if you don't mind my orders and keep your eyes open!”</p>
+          <p>An examination showed that the limb was really broken, and he was sent to the overseer to be cared for.</p>
+          <p>Some time after his recovery his master resolved upon a tour through France and Spain, and concluded to take two of his best horses along, and Cæsar to groom them.</p>
+          <p>One horse died on the passage, but the other landed in good condition. They ran one race in France for $20,000 and lost, and then proceeded to Spain. There was to be a great race for $40,000, and Col. Halman determined to compete for the purse. As they were proceeding towards the place, and within two or three days' journey, Cæsar ran a scrub-race with a young Spaniard, and then disputed with him about the race, when the Spaniard drew a dirk and threw it, intending it to strike his heart; but by a sudden movement he dodged the weapon, and received it in his arm. He at once drew it out, and knocked his assailant down with his riding-whip, and beat him “till he lay quiet;” then bound up his arm with his handkerchief and rode as quickly as possible to his master, when they both mounted and rode nearly all night to avoid pursuit. At the great 
+<pb id="p74" n="74"/>
+race the Colonel's horse won the purse, but again poor Cæsar suffered. In endeavoring to pull up his horse the bits parted, and he was thrown and three ribs broken.</p>
+          <p>On their return they had a stormy passage, and Cæsar was so knocked about that his imperfectly healed ribs were displaced, and for fourteen months he was disabled, and has never entirely recovered. Even now they gather and discharge during every long storm.</p>
+          <p>Just previous to his return, a number of the plantation-slaves, who were experienced, were sent up to Virginia to the Longfield farm, and exchanged for those less accustomed to their work.</p>
+          <p>Ruth was among the number. But the progress of years and sorrows had wrought their change. A deep melancholy had settled upon her: she seldom smiled, and when she did, it was quickly followed by a sigh. But the time of her redemption drew nigh: a new destiny was awaiting her.</p>
+          <p>In the shade of a thick wood near the Longfield farm stood an old deserted hut, in which the negroes of the adjoining plantations were accustomed, whenever they could steal away, to assemble for religious services. In spite of their <sic corr="secrecy,">secresy,</sic> however, the place and employment was known. But the overseers were shrewd men, and as long as no treasonable designs were entertained, 
+<pb id="p75" n="75"/>
+they cared not how many of the slaves experienced religion, nor how much they obtained; for real genuine piety enhanced a negro's value full a hundred dollars, by making him <hi rend="italics">honest</hi> and <hi rend="italics">obedient.</hi> They therefore allowed the meetings to continue, in spite of the law, and Ruth was invited to attend them. She did so, and her mournful expression soon elicited all the sympathies of the African heart. She was instructed, prayed for, exhorted, etc., till by the Divine Spirit's agency she was led to the Savior, of whom she now for the first time definitely heard. Her joy then equaled her ignorance and darkness before, and she prayed and sang from morning till night. Thus her mistress found her on her return from a visit to the north. At first she was confounded, then her wrath was kindled. She could not endure to see any one happier than herself; especially that a slave woman like Ruth should presume to such an experience, was a transgression of propriety closely bordering upon insolence. Then, when she remembered May's early interest in her, she resolved to watch. May was now with her, just returning after a long absence to complete her education, but had not as yet recognized Ruth in her transient glimpses of her among the other slaves. Mrs. Halman requested her own waiting-maid to be exchanged for a time for Ruth.</p>
+          <pb id="p76" n="76"/>
+          <p>When May and Ruth first met, it was when Mrs. Halman was absent; and well for Ruth that it was so, for had her mistress have seen that meeting, Ruth would have suffered for her temerity.</p>
+          <p>In the fullness of her heart she had forgotten that the little tender-hearted May, who once wept with her, had now become the queenly belle of twenty-one summers, and she unburdened her heart in the same simple and undisguised manner that she did before the quarters in her earlier sorrows. But the story was now very different. For a time May listened with mechanical attention; for though the looks, the voice, and the gestures of the speaker were strangely new and touching, her memory was busy in recalling that scene of her infant years. When it stood before her in all its proportions, the contrast of the present pressed with overwhelming power upon her heart.</p>
+          <p>With melting pathos Ruth told of her long years of darkness, her troubled seeking after something that should satisfy her soul, and then her joyful finding; and as she knelt before May and clasped her arms around her, and with flowing tears exclaimed, “O, missus May! de Lor he be berry good! O, he my song all de day, an', me joy in de night time!” May could refrain no longer, and bending over, she buried her head 
+<pb id="p77" n="77"/>
+upon the shoulder of Ruth and sobbed like an infant. Her apparent sympathy only called out a fresh burst of praise from Ruth: “O, bress de Lor! bress de Lor! me be ready to go up in de charyat ob fire!” Little did she know the terrible storm that was raging within the fair bosom that to her seemed the shrine of all innocence and loveliness.</p>
+          <p>But ONE saw it, and his angels rejoiced. May had always been thoughtful, but she now, for the first time, saw her sinfulness and felt her need of a Savior. Not long did she struggle; for the native trustfulness of her heart seemed instinctively to fly toward Him, and she was soon at peace. The external change was not great, yet the keen observer—such as her mother was—could detect a quiet peacefulness, and a more radiant loveliness than ever before.</p>
+          <p>Mrs. Halman soon discovered the cause, and, true to the instincts of her depraved heart, she resolved to whip the foolishness out of Ruth. When she found her her efforts vain, she wrote to the Colonel, requesting him to order Ruth back to Georgia and cure her of her fanaticism. He accordingly had her sent back to the plantation, and ordered her to stop singing and praying. She refused, and was whipped; still she persisted, and again was whipped, but still refused. The Colonel then swore that no nigger on his plantation 
+<pb id="p78" n="78"/>
+should break his orders, and she must yield or die. He then ordered her to have twenty-five lashes every day till she stopped  her “——nonsense.” But the more she was whipped the more obstinate  she became, declaring that she would die rather  than give up her religion.</p>
+          <p>May  had meantime arrived, and having heard of the punishment, interceded for Ruth with all the powers of persuasion which she could command; and gladly would the Colonel have  granted her desire, but the thing was too well known upon the plantation to allow it to pass. So, with a seeming compliance, he sent her off upon a short excursion, promising to follow  in a few hours.</p>
+          <p>He then ordered Ruth to be brought out, and a large number of the slaves collected, among whom  was Cæsar,  to witness her submission. She was tied up and stripped, then told that she must yield or die. The Colonel had at that time two overseers—the Irishman before described, and a stout, large-fisted Scotchman, named Anderson. She saw that her hour had  come, and turning her eyes toward heaven, she prayed for strength to persevere. Anderson at once laid on the lash with all his strength, mangling her body with every stroke. Her screams and  screeches for a time were perfectly heart-rending; then they subsided into low moans, mingled with ejaculatory prayers for strength, for her boy, for her master, and for her overseer. Anderson could endure  it no longer. He threw the whip down, and swore he would never strike her another blow. But McCabe seized it, and for one hour, with occasional intermissions, he plied  the lash, till the master ordered him to desist. They then untied her, and she fell dead at their feet!</p>
+          <p>On the adjoining plantation lived Dr. Whitlow, a kind and Christian  man. Cæsar had been sent there occasionally 
+<pb id="p79" n="79"/>
+upon errands, and had heard the Doctor read the Bible to his slaves, and pray with them. He knew, too, that they were contented and happy, and that no inducement would prove  sufficient to cause them to run away.<ref id="ref9" n="9" rend="sc" target="note9" targOrder="U">*</ref><note id="note9" n="9" rend="sc" place="foot" anchored="yes" target="ref9"><p>* Such cases are often urged in proof of the assertion “that slaves are better off than if they were free.” But what greater injury can be inflicted upon them, than to crush out the first principle of manhood, as well as enslave the body? The slave is not all a slave while he detests his chains and struggles against them; but when he learns to <hi rend="italics">love</hi> them, he has sunk to the lowest possible depths of degradation.</p></note> He became interested, and often stole away and listened, about the time the Doctor usually read, and thus had learned considerable about the Bible and his soul. When he saw his mother martyred, and listened  to her exhortation and prayers, his seriousness was deepened. Soon after, he went with his master to Virginia to groom the horses there, as he was no longer of any service as a rider. The Colonel supposed  that there would be no danger of his learning to pray, after seeing his mother's fate. He was soon  invited to the meetings, and was prayed for. The third time he went he fell prostrate and senseless, and lay all night and the most of the next day in that condition. The slaves hid him, and the master searched for him. His feelings while in that state are given in his own words, thus:</p>
+          <p>“I seemed to be in a great meeting in a large house, and wanted to get out, but the door was fast. I then tried to leap from the window, but under it was a great gulf of fire, into which I was falling, when I cried for  mercy. Then a tall person with white hair appeared, and asked, ‘Dost thou believe?’ I answered, ‘Yes, Lord,’ and was at once lifted away and carried into another room, brilliantly lighted, from which a door opened into another
+<pb id="p80" n="80"/>
+which seemed filled with singers and harpers, singing, ‘This is the place of holiness.’ Then two angels appeared, singing, ‘Great is the Lord and greatly to be praised in the city of our God and in the mountain of his holiness.’ When I recovered I was happy, and I exclaimed, ‘As my  mother died praying, so will I.’ Soon after, master found me in a back room praying.</p>
+          <p>“ ‘What are you doing here?’ said he.</p>
+          <p>“ ‘Seeking the salvation of my soul.’</p>
+          <p>“ ‘I'll give you salvation, when I get you home! These——niggers are getting you into the same way that your mother was. You saw what became of her, and if you don't give up this cursed foolishness, I'll whip the heart out of you!’</p>
+          <p>“Said I, ‘Master, I mean to serve you just as well as I can, but I must save my soul.’</p>
+          <p>“ ‘Soul! What do you know about soul? Niggers have no more souls than horses. Now go about your business; and mind, let me hear no more of this.’ ”</p>
+          <p>He was at once sent back to Georgia, where  he deliberated some time as to the best plan to pursue; but he at length determined to pray on, and suffer the consequences.</p>
+          <p>Meantime he had heard Dr. Whitlow read about Jacob, and had composed the following song, with which he enlivened many solitary hours:</p>
+          <lg type="song">
+            <head>JACOB'S LADDER.</head>
+            <lg>
+              <l>As Jacob in travels was weary by day,</l>
+              <l>At night on a stone for a pillow he lay;</l>
+              <l>A vision appeared—'twas a Ladder so high,</l>
+              <l>Its feet on the earth, and its top in the sky.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Hallelujah! to Him who died on the tree,</l>
+              <l>To raise up this Ladder of Mercy for me;</l>
+              <pb id="p81" n="81"/>
+              <l>Press forward, press forward! the prize is in view—</l>
+              <l>A crown of bright glory is waiting for you.</l>
+            </lg>
+            <lg>
+              <l>This Ladder is long, it is strong and well made,</l>
+              <l>Has stood thousands of years, and not yet decayed;</l>
+              <l>So free to accept, all the world may get up—</l>
+              <l>Bright angels will guard you from bottom to top.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>This Ladder is JESUS, that glorious God-Man,</l>
+              <l>Whose blood, richly streaming, from Calvary ran.</l>
+              <l>On his perfect atonement to heav'n we'll rise;</l>
+              <l>We'll sing in his mansions prepared in the skies.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Come, let us ascend it—behold, never fear—</l>
+              <l>It's stood every tempest, and always will bear;</l>
+              <l>Millions have tried it, and have gained Zion's hill,</l>
+              <l>And ten thousands, by faith, are climbing it still.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Our fathers, by faith, thus have mounted to God,</l>
+              <l>They finished their labors and reached their abode;</l>
+              <l>And we still are climbing—we soon shall be there,</l>
+              <l>To join in their raptures, their happiness share.</l>
+              <l>CHORUS.</l>
+            </lg>
+          </lg>
+          <p>He now endeavored, in every possible way, to do his duty to his master, hoping thus to show that religion had not injured him, and for several weeks he was permitted to enjoy himself. But he soon grew bolder, and instead of praying softly, his voice could be heard at some distance from the stables; and his master came in a tearing passion and ordered him to be whipped, and never pray again, commanding every one upon the premises to report to him if they knew of his attempting it. Poor Cæsar begged for mercy, promised to do anything, day or night, but said he must escape the punishment of hell. His master told him there was “no future for a nigger—when he died it was the end of him,” etc.</p>
+          <pb id="p82" n="82"/>
+          <p>But all this was poor consolation for Cæsar, amid his stripes. Again and again he was scored, till the very mention of the whip sent a tremor through his frame. Again and again did the lovely May plead with tears for him, till she was compelled to fly like an angel of purity from the presence of her enraged and maddened father. But all the scourgings could not lash out the manhood from the patient Cæsar. He composed another song and sang it at his work:</p>
+          <lg type="song">
+            <lg>
+              <l>Slaves have a trying life to lead,</l>
+              <l>While roving through this wilderness.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>White man, you'd better repent,</l>
+              <l>For the judgment's rolling 'round!</l>
+              <l>O there is glory, yes there is glory,</l>
+              <l>
+                <hi rend="italics">How can the white man reach the promised land?</hi>
+              </l>
+            </lg>
+            <lg>
+              <l>We work all day, and half the night,</l>
+              <l>And up before 'tis morning light.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>We're like brute beasts in the market sold,</l>
+              <l>And suffer heat, and lash, and cold.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>We suffer here like father Job,</l>
+              <l>But soon will go to wear the robe.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>You drag us now from shore to shore,</l>
+              <l>Our Savior's name we'll praise the more.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Yes, kill our bodies if you will,</l>
+              <l>Our soul will land on Zion's hill.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Then, when you think that we are dead,</l>
+              <l>You'll hear us shouting o'er your head.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <pb id="p83" n="83"/>
+            <lg>
+              <l>White man, I bid you now farewell,</l>
+              <l>I will not go with you to hell.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>White man, you'd better repent,</l>
+              <l>For the judgment's rolling round!</l>
+              <l>O there is glory, yes there is glory,—</l>
+              <l>How can the white man reach the promised land?</l>
+            </lg>
+          </lg>
+          <p>One day his master heard him sing it, and at once sent him off with a note to the overseer, who took it, saying, “What's this?”</p>
+          <p>Poor Cæsar answered, sobbing—“It's for you to whip me, for praying and singing.”</p>
+          <p>“Well, if you're fool enough to be-excited in that way, go ahead, and I'll put you in the same hole your mother's in.”</p>
+          <p>After that he dared pray no more in the stables, but selected a place in a thick grove about half a mile away; but that was soon discovered, and he then saw that he must escape, or yield, or be cut to pieces by inches and die by the week. From this he shrank, and determined, desperate as was the effort, to make his escape. In his voyages to Europe he had heard the sailors talk about the stars, till he could shape his course by them. While in Virginia, too, he had learned that if he could reach Pennsylvania safely, he need fear no more. He at once commenced making preparations, by digging a hole under the stable floor, in which to put whatever he might collect.</p>
+          <p>He had a brace of pistols which he always carried at races, and his master kept a large quantity of powder and balls in his cellar for sporting purposes, of which he contrived to secure a sufficient amount. He also had the dirk that he took from the Spaniard who stabbed him. He then removed a board from the stable and replaced it, so that he could go out and in at pleasure, when locked 
+<pb id="p84" n="84"/>
+in during the night. He was allowed for food a pound of crackers per day, and occasionally a quarter of a pound of cheese, during the racing season, and about the same substance in other things at other times. Out of that he saved one meal each day and stored it away in his cellar; also, twenty-eight boxes of matches. He then gathered pitch, and with some rosin which was in the stables he made three or four hundred torches, about 2½ inches long by an inch in diameter, by melting the ingredients together over a little furnace near the stables, which he used to heat water with for the horses. Then, with a large, round-bottomed, canvass union bag, his preparations were completed.</p>
+          <p>He knew that an overseer of an adjacent plantation was in the habit of crossing the Ogeechee river every night, and leaving his boat on the bank. His plan was to wait until some night when the wind would blow directly across the river, so as to drive the boat back, after he had crossed.</p>
+          <p>After some time the favorable moment came, and shouldering his bag, with pistols and dirk in his pocket, he made his way out of the stables late in the evening, and struck for the river, which he crossed, and shoved the boat off, and the wind took it back to the other shore. His object in this was to escape the dogs. His dress consisted of tow-cloth, and thin riding-slippers. He traveled all that night, and in the morning, after wading in a small brook several miles so that the hounds might not track him, he climbed a thick tree, and remained throughout the day, eating but one meal and trembling at every sound.</p>
+          <p>Thus he went on several days, till one time he heard the hounds, and gave up all for lost. A short distance from the place on which he stood he saw a large stream, 
+<pb id="p85" n="85"/>
+and started for it, with the intention of drowning himself in it rather than be captured. But the sound suddenly receded, and he then concluded it was only the baying of huntsmen's dogs. Then, with safety from that danger, came the overwhelming sense of his loneliness and wretchedness. Alone in the vast forest, with hundreds of miles of weary travel before him, and every man a foe, he sat down and wept. Then he thought he would return, and perhaps his master would not be hard with him. Then he thought he would feign himself lost. But prayer soon brought relief, and he traveled on. His food was soon exhausted and his slippers worn out, and he was compelled to bear hunger and pain as he had never anticipated. Still, he found a poor subsistence upon nuts, wild oranges, persimmons, and such small game as he could shoot.</p>
+          <p>After being out a few weeks, he slept within a circle of fire, his strength being too much exhausted to climb trees. Often, as the gloomy shades of night hung around him, did the loneliness of his condition force itself upon him with such resistless power, that he threw himself upon the cold, wet ground and sobbed his strength away, and longed to find his grave. And anon, as some trembling starlight would penetrate the dense overhanging branches, it would seem to lift the sense of utter desolation from his heart, and a whispered prayer for protection and strength would compose him for his weary slumbers.</p>
+          <p>One day, as he was looking around for a convenient place to collect his bed of leaves and circle of brush, he was suddenly confronted by a large wolf. He dare not fire upon her for fear of only wounding her, and thus rendering his position still more dangerous; but he had heard hunters say that if a man fixed his eye steadily 
+<pb id="p86" n="86"/>
+upon a wild animal without quailing, the beast would shrink away. Nerving himself by a mental prayer, he fastened his eyes upon her while he struck a match, kindled a torch, and hurled it at her, upon which she turned and slowly galloped off.</p>
+          <p>Some days after, he came to a large river, which he swam with his bag tied upon his head. But the effort had nearly proved fatal. He had reached the middle of the stream, when his strength failed and the current began to sweep him down. Again prayer was his refuge, and animated by a faith that he should yet escape, he cast his eyes down the stream, and saw that just below him a point jutted out into the river, making a bend in the current. Towards that point he directed his exertions, when the current swept him past, and he yielded in despair and sunk; but his feet touched the bottom, and he gained the shore.</p>
+          <p>Thirteen weeks and four days was that poor slave wandering thus, an exile and a criminal, for daring to wish to own himself. During the eleventh week of his journey, while in the Blue Mountains of Virginia, threading a deep and gloomy gorge, he suddenly came to the body of a female slave. He had found several before, some in different stages of decay, and some with only the bleaching bones to tell how vainly they had sought for earthly freedom. But this one was but recently dead. He drew near with the solemn awe that any man would feel after a separation of eleven weeks from everything human, and then to find himself in the presence of the dead. Alone with the dead! Not in lighted rooms, and with the corpse robed for its long rest, but in the deep gloom of forest trees and mountain gorges, and the dead robed for flight, and beautiful in death.</p>
+          <pb id="p87" n="87"/>
+          <p>He stooped over the prostrate form, as it lay with its face turned towards heaven, and hands clasped across the bosom, and a smile still lingering upon the lips, and with the exclamation, “O God, 'tis Rosette!” fell upon his knees beside the corpse. Her flight and exposure had overcome her, and she had died alone and apparently without a struggle, but with joy that Alembert could claim her no longer.</p>
+          <p>At last he reached——, Penn. and just in the edge of evening made his way towards the house of a Quaker, and asked for help. The good man took him in, and his family nursed him for many weeks, before he recovered from the long exposure and hardships of that fearful forest journey.</p>
+          <p>He then found work at a place toward the interior of the State, as hostler, where he remained till observed by a gentleman from New-Jersey, who induced him to leave and go to——to live. There he had a fellow-laborer, a colored man who professed to be very pious, and who succeeded by his apparent friendship in drawing from him his whole history, and saw his brand.</p>
+          <p>A few days after, this man wrote several letters, and in due time received others. He then professed to have business to Philadelphia. A day or two after, as Cæsar was sitting in the kitchen eating supper, a loud knock was heard at the front door of the kitchen, which his employer opened, and some one asked, “Have you a nigger working for you?” Cæsar knew the voice as his old master's, and seizing his cap from a chair by his side, he darted through the rear door and ran for a large wood about a quarter of a mile from the house. His pursuers saw his movements, and immediately gave chase. They were Col. Halman, a constable from the south, and the sheriff 
+<pb id="p88" n="88"/>
+of the place. The constable was a small man and a fleet runner, and just before they reached the wood he had his hand almost upon poor Cæsar's shoulder, when he drew his pistol and snapped it over his shoulder. The weapon missed fire, but it checked the pursuer so that he reached the shade in safety. The officers halted at the edge of the pines till Col. Halman came up, puffing and blowing, and seeing that they had not secured him, he raved like a madman. He swore that he “would have him, dead or alive, if he had to go through perdition for him.”</p>
+          <p>The sheriff proposed surrounding the woods, but the Colonel answered,—</p>
+          <p>“May as well chase a deer through——, as to hunt him there.”</p>
+          <p>They then started for the village for help, and he struck for New-Brunswick, which he reached just in time to take the six o'clock boat for New-York, where he arrived and placed himself in the care of a colored minister's family, the minister himself being on a journey to Canada with some fugitives; and by their influence he was provided with a temporary home.</p>
+          <p>Thus the Colonel's $500 reward, his long journey, and the execrable perfidy of the black hypocrite who betrayed him, (may he long live to repent of his cowardly villainy!) all failed.</p>
+          <p>He has since met his master in a railroad depot, but was not recognized, and, to use his own phrase, he “did not care to be introduced to him.” Now the old man sleeps his last sleep, and it is not for us to say bow much or how little of his cruel and tyrannical life is chargeable upon his early associations, and the distorting influence of the accursed system which blights both master and slave for time and eternity. The Judge of all the earth 
+<pb id="p89" n="89"/>
+will do right. Be it ours to spread the mantle of a Christian charity as far as possible over the actors in the dark scene, while we abate not one jot or tittle of the deep and <sic corr="ineradicable">irradicable</sic> hatred which we cherish toward the abominable system.</p>
+          <p>A few more pages will now complete our record. Col. Halman had sold to Dr. Whitlow a mulatto man, his own son, who by his intelligence and faithfulness won the regard of his master, and was rewarded by emancipation and a free passage to a northern port; and soon after, the good doctor died and emancipated all his slaves by will. In order to prepare the mulatto for freedom, he taught him to read and write. The Colonel being informed of these things, and incensed at what Cæsar had told him about hearing the Doctor read the Bible, induced a low, scurrilous white resident to institute two suits against the Doctor—one for teaching his slave to read and write, for which he was fined one hundred dollars; the other suit, for emancipating the same slave, was commenced on the day of his death, and was unknown to him, but continued against his heirs, who were fined two hundred dollars, (one-half to the informer,) and the negro remanded to a state of slavery. The last part of the decree came too late—he was beyond pursuit. Not so fortunate, however, were the other slaves. For attempting to execute the will of the Doctor, his heirs were fined one thousand dollars, and every slave <hi rend="italics">being convicted</hi> of being the subject of such merciful intentions was sold at public auction to southern drivers.</p>
+          <p>These things had been transpiring during the last three months of Cæsar's captivity, and May had heard of them till her very soul loathed the system which created such abominations, and she longed to flee from it for ever.</p>
+          <pb id="p90" n="90"/>
+          <p>While reflecting upon them her heart turned towards the land of freedom, and she sought relief from her sad thoughts in re-perusing some letters from her northern friends. As she was seeking them, she accidentally discovered a tract which had been given her by one of her friends, on the “Rights of Conscience,” and which in the hurry of her departure she had thrown into her trunk, and had not thought of since. She now read it with the deepest interest. It was founded on the words, “We ought to obey God rather than men,” and illustrated the truth in clear and forcible terms.</p>
+          <p>Taking the tract in her hand, she had gone to encourage Cæsar to remain faithful, hoping yet to overcome the opposition of her father, when she found him in tears and covered with blood from a recent whipping. In the agitation of the moment she laid down the tract, consoled him as well as she could, and returned to her room. A moment after, he discovered the tract and took it to carry to her. But unfortunately for him, he had learned to spell out the names of horses on their blankets, and he stopped a short time to spell out a few words through his tears. While thus engaged, the Colonel came upon him, and snatching it from his hand, demanded angrily, “What he had there?” Then glancing over a page or two, he thought he discovered a conspiracy of his daughter's, whose pious feelings he derided, and instantly ordered a most unmerciful lashing for poor Cæsar, (utterly regardless of his protestations of innocence,) and a general branding of some two hundred of his slaves, (Cæsar among the number, whose brand had nearly grown out,) as soon as the plantation-work would permit. He then commanded his daughter before him, and demanded an explanation. The appearance of her father for a moment overcame her, and without waiting 
+<pb id="p91" n="91"/>
+for her reply, he proceeded in a storm of invective against “religion, northern sentiment, her insurrectionary folly,” etc. Shame, pride, and indignation struggled in the poor girl's heart for the mastery, and with a violent effort she controlled her emotion, drew herself up to her full height, and with a withering glance of firm and scornful determination, checked his tirade.</p>
+          <p>“Father, if you have anything to say to me, say it as a gentleman and a parent, or excuse me from your presence.”</p>
+          <p>The old man stood abashed. There was a spirit of which he had never dreamed, and he quailed before her stern look of virtuous indignation; then suddenly turning, he requested her to remain till his return, which was in a few moments, with a ponderous law-book in his hand.</p>
+          <p>“I wish you to see to what you have exposed yourself,” said he, pointing to the open page. She took it and read:</p>
+          <p>“The publishing or <hi rend="italics">circulating any</hi> pamphlet or paper, having an evident <hi rend="italics">tendency</hi> to excite slaves or free persons of color to insurrection or resistance,” (Cæsar was <hi rend="italics">resisting,</hi>) “shall be punished with imprisonment for not less than one year, <hi rend="italics">and</hi> standing in the pillory, and whipping, at the discretion of the court,” (even if it be within an inch of death,) “for the first offense, and death for the second.”</p>
+          <p>“Father, are such laws necessary to sustain the slave system?”</p>
+          <p>“Yes.”</p>
+          <p>“Then farewell to them and it together! I will not longer breathe the air that is tainted by the horrid thing! I shall soon depart for the north!”</p>
+          <pb id="p92" n="92"/>
+          <p>The look and the voice proclaimed the earnestness of feeling and decision of will that prompted the words. The father well knew that beneath the lovely and gentle exterior of his daughter there lay, in her instinctive abhorrence of wrong, the elements of a conflict, which if once aroused would impel her to any sacrifice; and hard as it was for his domineering spirit to yield, he saw its necessity now. Still his hatred of her principles must find vent.</p>
+          <p>“So your self-sacrificing religion leads you to run away from what you don't like?” Then, in a mournful tone he added:</p>
+          <p>“I am an old man now, and shall not stay here long. Your brother will never be fit for anything, and who then will take care of all these niggers?”</p>
+          <p>She had never viewed the subject in this light before, but now her course was clear.</p>
+          <p>“Father, forgive my hasty resolution; I will remain, and show you by my life that the religion of Christ, while it abhors the traffic in the souls of men, can nerve its possessor to endure association with it, to some extent, for the good of the oppressed.”</p>
+          <p>And while Cæsar was threading the lonely wilds of Virginia, she was an angel of compassion to many a sorrowing heart in the place where he had borne his last stripes, and which he had left for ever.</p>
+          <p>Cæsar still lives, has a wife and children, and retains his Christian integrity; and though his hardships have been great in the past, they have purchased for him but slight exemption in the present. He is yet a child of sorrow; and as he treads his thorny way toward the grave, his uncomplaining spirit, pressed beneath a load of poverty, and sickness, and trial, looks up amid its tears and anticipates 
+<pb id="p93" n="93"/>
+a rest in heaven. Since he gained his freedom, one leg has been broken by the kick of a horse, and he has been confined more than a year from the effects of a dose of poison administered for some unknown cause in a glass of beer, by a dastardly scoundrel with a white skin. Probably it was not designed to affect him so seriously, but his early sufferings had so undermined his constitution, that there was little strength to resist its influence.</p>
+          <p>He is every year confined from two to six or eight months by sickness, and supported by the labors of his wife, with assistance from sympathizing friends, and the little that he can earn (from five to ten dollars per month) when able to work. His mind, naturally superior to most of his race, has inclined to song, and he has composed a number of homely, uncouth “ballads,” as he calls them.—poor enough according to our standard of judgment, but which, sung in his melodious but now broken voice, sound really pleasing. He has thus earned some small change from time to time, and is now soliciting the aid of the benevolent to secure a small old house, that he may die a freeman and leave a shelter for his family. Heaven prosper his efforts! If the sufferings of the unfortunate merit sympathy, he has surely earned success.</p>
+          <p>Now, kind reader, if you have had patience to follow us through this somewhat disguised narrative thus far, and your heart now prompts to some act of kindness to this son of misfortune, lend your aid in the circulation of this book, as its profits will be sacredly devoted to his use.</p>
+          <p>As specimens of his composition, (always only memorized,) two or three of his “ballads” are appended. To ourselves they suggest many mournful reflections. Is it upon such wings only that the soul, that would delight to 
+<pb id="p94" n="94"/>
+soar in song, may rise? How deep their degradation! How terrible the ignorance to which they are doomed! God hasten the day of deliverance!</p>
+          <lg type="poem">
+            <head>SALVATION.</head>
+            <lg>
+              <l>Salvation, 'tis a joyful sound</l>
+              <l>To tell to all the people round,—</l>
+              <l>To Jew and Gentile, bond and free,</l>
+              <l>O every one may come and see.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Jesus, the meek and lovely lamb,</l>
+              <l>Appeared a babe in Bethlehem,</l>
+              <l>And now he says that all may be</l>
+              <l>So happy in eternity.</l>
+            </lg>
+            <lg>
+              <l>O sinner, Jesus died for thee,</l>
+              <l>A suffering death on Calvary;</l>
+              <l>While on the cross he hung and cried,</l>
+              <l>And then he bowed his head and died.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>And then he lay within the tomb,</l>
+              <l>Silent, until the third-day morn;</l>
+              <l>And then about the break of day</l>
+              <l>An angel rolled the stone away.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Ye young, ye gay, ye rich and proud,</l>
+              <l>You soon must die and wear the shroud;</l>
+              <l>O time will rob you of your bloom,</l>
+              <l>And death will drag you to the tomb.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Say, will you go to heav'n or hell?</l>
+              <l>For one you must, and there to dwell;</l>
+              <l>For Christ will come, and quickly too,</l>
+              <l>And I must meet him—so must you.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>The great white throne will soon appear,</l>
+              <l>And all the world must then draw near;</l>
+              <l>And sinners will be driven down,</l>
+              <l>While saints shall wear the starry crown</l>
+              <l>CHORUS.</l>
+            </lg>
+          </lg>
+          <pb id="p95" n="95"/>
+          <lg type="poem">
+            <head>THE HOLY WAR.</head>
+            <lg>
+              <l>I've listed in this holy war—</l>
+              <l>Eternal life, eternal joy.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>It takes a valiant soldier</l>
+              <l>To walk the heavenly road.</l>
+              <l>I'll praise God till I die;</l>
+              <l>I'll praise God till I die:</l>
+              <l>It takes a valiant soldier</l>
+              <l>To walk the heavenly road.</l>
+            </lg>
+            <lg>
+              <l>Religion 'tis that makes a man—</l>
+              <l>Deny it, sinners, if you can.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>I never shall forget the day</l>
+              <l>When Jesus washed my sins away.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>I'm now a soldier of the cross,</l>
+              <l>All earthly things I count but dross.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>I have my breast-plate, sword, and shield</l>
+              <l>And boldly march into the field.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Though tribulation we shall meet,</l>
+              <l>We soon shall walk the golden street.</l>
+              <l>CHORUS.</l>
+            </lg>
+            <lg>
+              <l>Then run up, children, get your crown,</l>
+              <l>And by your Father's side sit down.</l>
+              <l>CHORUS.</l>
+            </lg>
+          </lg>
+        </div2>
+      </div1>
+      <trailer>THE END.</trailer>
+    </body>
+    <back>
+      <div1 type="cover">
+        <p>
+          <figure id="back" entity="plattbk">
+            <p>[Back Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

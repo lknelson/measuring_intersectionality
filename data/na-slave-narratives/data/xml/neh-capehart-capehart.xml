@@ -1,0 +1,428 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY capecv SYSTEM "capecv.jpg" NDATA jpeg>
+<!ENTITY capefp SYSTEM "capefp.jpg" NDATA jpeg>
+<!ENTITY capetp SYSTEM "capetp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Reminiscences of Isaac and Sukey, Slaves of B. F. Moore, of Raleigh, N. C.:</emph>
+Electronic Edition.</title>
+        <author>Capehart, L. C.</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Lee Ann Morawski</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Lee Ann Morawski</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Chris Hill  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca.   20K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Reminiscences of Isaac and Sukey, Slaves of B. F. Moore, of Raleigh, N. C.</title>
+            <author>L. C. Capehart</author>
+          </titleStmt>
+          <editionStmt>
+            <edition/>
+          </editionStmt>
+          <extent>11  p., 1 ill.</extent>
+          <publicationStmt>
+            <pubPlace>Raleigh</pubPlace>
+            <publisher>Presses of Edwards and Broughton Printing Co.</publisher>
+            <date>1907</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  Cp813 C23 c.2  (North Carolina Collection, University of North Carolina at Chapel Hill)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>This electronic edition has been created by Optical
+Character Recognition (OCR). OCR-ed text has been compared against the
+original document and corrected.  The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- North Carolina -- Raleigh --
+Fiction.</item>
+            <item>Slaves -- North Carolina -- Raleigh -- Fiction.</item>
+            <item>North Carolina -- Fiction.</item>
+            <item>Dialect literature, American -- North Carolina --
+Raleigh.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-09-15, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-07-18, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-07-17, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-07-10, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="capecv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="capefp">
+            <p>ISAAC B. F. MOORE.<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="capetp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="half title">
+        <head>REMINISCENCES
+<lb/>
+OF
+<lb/>
+ISAAC AND SUKEY
+<lb/>
+SLAVES OF B. F. MOORE,
+<lb/>
+OF
+<lb/>
+RALEIGH N. C.</head>
+        <p/>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">REMINISCENCES
+<lb/>
+OF
+<lb/>
+ISAAC AND SUKEY,
+<lb/>SLAVES OF B. F. MOORE,
+<lb/>
+Of
+<lb/>
+RALEIGH. N. C.</titlePart>
+        </docTitle>
+        <byline>BY HIS DAUGHTER</byline>
+        <docAuthor>L. C. CAPEHART.</docAuthor>
+        <docImprint><pubPlace>RALEIGH:</pubPlace>
+<publisher>PRESSES OF EDWARDS AND BROUGHTON PRINTING CO.</publisher>
+<docDate>1907.</docDate></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="chapter">
+        <pb id="cape3" n="3"/>
+        <head>Isaac and the Yankee Officer.</head>
+        <note anchored="yes">
+          <p>Interview between Isaac B. F. Moore, as he called himself, 
+(taking the name of his former master, a prominent lawyer 
+of Raleigh, N.C.) and one of Kilpatrick's cavalry stationed 
+in Raleigh in April, 1865.]</p>
+        </note>
+        <p>Isaac lived on the plantation of Mr. B. F. Moore, near the 
+city of Raleigh, now owned by Mr. Bart Gatling. On this 
+farm there was a fine apple orchard. The Yankees were 
+camped in the grove near the “Great House,’ as, the negroes 
+called the house in which the white family lived. I give 
+the interview in Isaac's own words:</p>
+        <p>“One day a Yankee officer tied his ridin' horse to one of de 
+best apple trees in de orchard; de horse he begun to bite 
+de bark on de tree, so I said, ‘Mister, dat's a mighty good 
+horse-apple tree your horse is bitin', he will kill it. De 
+Yankee giv me a most <hi rend="italics">sarching</hi> look and said, ‘You think 
+more of a d—m apple tree dan I do of a man's life.’ He 
+stood close to me wid his sharp shooter, his neck as red as 
+any rose, all ready to put my candle out at any minute. You 
+better believe I <hi rend="italics">cased</hi> myself away from dar. Arter dat I 
+sed no more 'bout tyin' horses to apple trees.”</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape4" n="4"/>
+        <head>Isaac Before the Mayor for Killing his<lb/>
+Neighbor's Hogs.</head>
+        <p>One day arter de surrender a gentleman livin' near me got 
+me to watch his field to keep de hogs from rootin' up his 
+'taters, so when de hogs begun to root I sot my little dog 
+on em, and he fairly tore em to pieces, so de odder man he 
+got mad an' ordered me 'fore de Mare. I went to see my ole 
+marster to git him to pear for me. He wuz a big lawyer, he 
+wus, an' all de folks was 'fraid er him; when he got mad he 
+war er terror, an' er Union man, too, an' cum right out wid 
+what he had to say, an' nobody would kill him, but tother 
+folks was 'fraid. Sum of 'em <hi rend="italics">talked</hi> mighty big, but nebber 
+went whar de fight was. But I was gwine ter tell you 'bout 
+dat trial. De time was sot fur ten o'clock, an' when my 
+marster got dar, I was dar too, me an' my little dog. I 
+bring my little dog kase marster want de coat to see him, 
+kase he said no sich dog as dat cud tare all dem hogs ter 
+pieces, as de man said. Well, me and my marster waited an' 
+waited (he had a case in ernudder coat); he was a mity busy 
+man, anyhow, you nebber see him sittin' down doing nuthin'. 
+Marster he kept talkin' 'bout losin' his time, an' arter 
+erwhile de mare he cum in, an' marster he kep' on talkin' 
+'bout his bein'
+<pb id="cape5" n="5"/>
+so late, takin' up his valable time, an' he kept on talking
+—he fairly charged, didn't, giv nobody else a chance; 
+so, arter erwhile, de mare got up <hi rend="italics">easy</hi> an' went out an' soon 
+arter all de odder folks what cum to hear de trial dey went 
+out too. When marster got thrugh talkin' he looked 'round an 
+sed to me, “Well, Isaac, as everybody else is gone, we 
+might as well go too”; and dat wus de las' I hear of dat 
+trial.</p>
+      </div1>
+      <div1 type="chapter">
+        <head>Isaac Indicted for Shooting his Neighbor's<lb/>
+Hog.</head>
+        <p>Er nudder time a man dited me fur shootin' his hog. I went 
+up to de coat house an waited dar a long time. Nobody called 
+my name an' I didn't see marster no whar, so I jes' leaves 
+dar an' goes to look fur my marster. I met him on de street 
+an' I says, marster, I bleeve dey is gwine ter beat us, I 
+think we better peal to Spreme coat. “Nebber mind,” says 
+marster, you come back wid me to de coat house. Soon as we 
+got dar a man called out “Isaac B. F. Moore, cum to de 
+stand.” I went up an' giv in my evidence, an' I nebber heard 
+no more 'bout dat hog case frum dat day to dis.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape6" n="6"/>
+        <head>Isaac and Mars' Ben.</head>
+        <p>One very hot, sultry day in August, Isaac and his young 
+master Ben went on a fishing trip about twenty miles from 
+Raleigh. After they had traveled several miles conversing 
+pleasantly, as the manner was in those days between master 
+and servant, silence reigned for a few minutes, during 
+which time Isaac was closely observing his surroundings; he 
+soon spied a woodpecker tapping on the bark of a seasoned 
+oak tree. Umph! says Isaac, “dat woodpecker must have a 
+strong constitution to peck a hole in dat tree.” He shot at 
+a bird one day and missed him, the bird alighted in a tree 
+nearby, and began to pick himself. “Look at dat rascal,” 
+said Isaac, “pickin' my shots out of his back.”</p>
+        <p>One night he was aroused front his slumbers by dreams of 
+burglars. He took his old army musket (True Blue he called 
+it), went out in the yard and shot at what he thought was 
+a man; when he re-entered the house his son said, “Father, 
+did you kill him?” No, siree, but God knows I filled dat 
+ole <hi rend="italics">beegum</hi> full of shot.”</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape7" n="7"/>
+        <head>Isaac Rabbit Hunting.</head>
+        <p>One day Isaac went rabbit hunting. He shot
+at a rabbit, and was asked if he killed him. “No,
+said he, “de powder got between de rabbit an' de
+shots; de shots passed by him, but he <hi rend="italics">smelt</hi> de
+powder an' de smoke, an' you ought to heerd him
+snort!”</p>
+      </div1>
+      <div1 type="chapter">
+        <head>Isaac Voting the Democratic Ticket.</head>
+        <p>One day I met one of dese highfalutin' nigger women who 
+puts on so many airs; she says to me, “I'm a great mind to 
+shoot you, you ole rascal, fur votin' dat ticket.” “Well, 
+madam, if your fingers ken play on de trigger enny faster 
+dan mine, crack a' loose.”</p>
+        <note anchored="yes">NOTE.—He was always a good Democrat.</note>
+      </div1>
+      <div1 type="chapter">
+        <head>Isaac Watching his Corn at Night Hears it<lb/>
+Growing.</head>
+        <p>Dese niggers what don't work kep stealin' my
+corn out de field, so I says to myself I'll ketch de
+stinkin' rascal an' have him struck nine
+thirty on his naked hide; So I takes my <hi rend="italics">True Blue</hi> musket, 
+my pistol, my sword, an' my dirk to de field an' hides 
+myself. I watched all de live long night, an' nobody cum, 
+but God knows I neber heerd corn grow so fast in my life. 
+'Twas nately <hi rend="italics">poppin'</hi> an' <hi rend="italics">crackin'</hi> all night long!</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape8" n="8"/>
+        <head>Isaac's Steer in the Mire.</head>
+        <p>One day “Mars Ben”, walking down the street,
+met Isaac looking very anxious. “What's the 
+matter, old man?” “Dat steer you bought fur me is
+mired in Mr. Gatling's mill pond an' I can't git
+him out.” “Who have you to help you?” “Well, 
+little John Gatling is dar an' Mr. Taylor. Mr.
+Taylor ain't <hi rend="italics">workin'</hi> any, he jes' doin' de 
+<hi rend="italics">plannin'</hi>. We bin tryin' to <hi rend="italics">undermine</hi> him, but t'aint
+no use, for he jis gits deeper and deeper.”</p>
+        <p>Later on the steer was extricated. Marse Ben,
+meeting Isaac, said, “Well, old man, I hear you
+got your steer out of the pond; what did he do
+when he got out, was he much exhausted?” “No,
+<hi rend="italics">siree;</hi> de doggoned old rascal jest went to eatin'
+grass like dere was nothin' de matter wid him.
+Marse Ben, don't yon ever buy me ernuther pop-eyed 
+steer, a pop-eyed steer is ungodly. Don't 
+put a bit in all ox's mouth. De Bible speaks 
+bitterly agin it.”</p>
+        <note anchored="yes">NOTE—Mr. James Fontleroy Taylor, the Bard of Rhamkatte.</note>
+        <p>“Marse Ben, I heerd Miss Lucy was gwine to git married 
+agin'; is dat so?” “Yes, Isaac, she is to marry Mr. Baldy 
+Capehart, and I hope she will be happy, for she is very 
+lonely now.” “Bless my soul! I clare to gracious it's a 
+mortification to seriousness!”</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape9" n="9"/>
+        <head>Sukey's Opinion of her Master's Monument.</head>
+        <p>Sukey, after the Civil War was over, lived near Oakwood 
+Cemetery. Soon after the erection of a monument to my 
+father, which was surmounted by a bust under a canopy, I 
+came to Raleigh on a visit. As usual, she came to see me, 
+and as she lived near and I had not yet seen the
+bust, I asked her if she thought it resembled my
+father. She replied, “It's mity like marster, all
+but one thing; it ain't got no <hi rend="italics">arms</hi>. Marster
+was such a busy man, always at work, it ought
+to have <hi rend="italics">arms</hi> put to it.” “I hope you are getting
+on well, Aunt Sukey.” “Yes, ma'am, I git so full
+of de Spirit some times you could hear me holler
+over here (about one mile) if de win' was blowin'
+de right way. I spect if I eber gits to Heben, de
+Lord will say, “take Sukey out of dar, for she
+hollers too loud.”</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape10" n="10"/>
+        <head>Sukey's Husband, Uncle “Toney,” and the<lb/>
+Outsiders.</head>
+        <p>It was customary in ye olden times for gentlemen 
+on horseback, when returning from church,
+to ride by the side of the carriage and converse
+with the ladies within. It was quite difficult to
+keep pace with horses trotting briskly. On one
+occasion a young lady called out, “Uncle Tony,
+don't drive so fast, the young men can not keep
+up.” Uncle Tony, whose horses had been ploughing
+during this week, replied, “<hi rend="italics">Dee</hi> horses bin
+<hi rend="italics">workin</hi> all de week, dum horses bin <hi rend="italics">restin</hi> all de
+week; if <hi rend="italics">dum</hi> horses can't keep up wid <hi rend="italics">dee</hi> horses,
+dum horses mus' stay behind.”</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="cape11" n="11"/>
+        <head>Sukey Bat Moore on the Art of Flying.</head>
+        <p>One summer night about twelve o'clock my
+mother was awakened by Sukey (who had just 
+returned from a <hi rend="italics">revival</hi>) kneeling at her bedside,
+saying, “Mistis, Mistis, pray for me,—Judy Freeman
+has got religion and I can't git it.” My
+mother tried to soothe, and promised to pray for 
+her. Later on she gave evidence of having “come
+through.” Not long afterward while in church
+she felt happy, and began to shout, saying, “Oh!
+I feel I can fly to heaven!” Some of the sisters
+said to her, “Aunt Sukey, do try,” and under the
+influence of excitement she really did jump out
+of the window, and of course fell to the ground;
+fortunately it was very low and she sustained no
+injury. One of her friends asked her why she
+failed to fly. She replied, “I dunno, honey, 'cept
+as how I didn't git de <hi rend="italics">right flop</hi>”!</p>
+        <note anchored="yes">NOTE—Alluding to the habit of fowls raising and 
+lowering their wings in order to inflate their lungs before 
+flying, which is usually termed flopping.</note>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

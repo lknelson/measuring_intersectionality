@@ -1,0 +1,3689 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY smithfp SYSTEM "smithfp.jpg" NDATA jpeg>
+<!ENTITY smithtp SYSTEM "smithtp.jpg" NDATA jpeg>
+<!ENTITY smith98 SYSTEM "smith98.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Biography of Rev. David Smith of the A. M. E. 
+Church; Being a Complete History, Embracing over Sixty Years' Labor in the 
+Advancement of the Redeemer's Kingdom on Earth.</emph><emph>Including “The 
+History of the Origin and Development of Wilberforce University”:</emph>
+Electronic Edition.</title>
+        <author>Smith, Rev. David, b. 1784</author>
+        <author>Payne, Daniel Alexander, 1811-1893</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Katherine Anderson and Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Katherine Anderson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Lee Ann Morawski  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     250K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching 
+and personal use as long as this statement of availability is included in the 
+text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Biography of Rev. David Smith, of the A. M. E. 
+Church Being a Complete History, Embracing over Sixty Years' Labor in the 
+Advancement of the Redeemer's Kingdom on Earth.  Including “The History 
+of the Origin and Development of Wilberforce University.”</title>
+          </titleStmt>
+          <extent> 135     p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Xenia, O.</pubPlace>
+            <publisher>The Xenia Gazette Office</publisher>
+            <date>1881</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number    922.7 S645B (Divinity School Library, 
+Duke University)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>All footnotes are inserted at the point of reference within paragraphs.
+ </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor 
+(SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl><title>Library of Congress Subject Headings, </title>
+<edition>21st edition, 1998</edition></bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Smith, David, b. 1784.</item>
+            <item>African Americans -- Maryland -- Biography.</item>
+            <item>African Americans -- Ohio -- Biography.</item>
+            <item>African American clergy -- Biography.</item>
+            <item>African Methodist Episcopal Church -- Clergy --
+Biography.</item>
+            <item>African Methodist Episcopal Church -- History -- 19th
+centur</item>
+            <item>Freedmen -- Biography.</item>
+            <item>Slaves -- Maryland -- Biography.</item>
+            <item>Wilberforce University -- History -- 19th century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-04-07, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-11-30, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-11-29, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-11-19, </date>
+        <respStmt>
+          <name>Katherine Anderson and Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="smithfp">
+            <p>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="smithtp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <pb id="dsmith1" n="1"/>
+        <docTitle>
+          <titlePart type="main">BIOGRAPHY
+<lb/>OF
+<lb/>REV. DAVID SMITH,
+<lb/>OF THE A. M. E. CHURCH
+ <lb/>
+BEING A COMPLETE HISTORY, EMBRACING OVER
+<lb/>SIXTY YEARS' LABOR IN THE ADVANCEMENT
+<lb/>OF THE REDEEMER'S
+<lb/>KINGDOM ON EARTH.</titlePart>
+          <titlePart type="subtitle">INCLUDING
+<lb/><hi rend="ITALICS">“The History of the Origin and Development
+<lb/>of Wilberforce University.”</hi></titlePart>
+        </docTitle>
+        <docImprint><pubPlace>XENIA, O.:</pubPlace>
+<publisher>PRINTED AT THE XENIA GAZETTE OFFICE.</publisher>
+<docDate>1881.</docDate></docImprint>
+      </titlePage>
+      <div1 type="contents">
+        <pb id="dsmith3" n="3"/>
+        <head>CONTENTS</head>
+        <list type="simple">
+          <item>I. Introduction . . . . . . <ref target="dsmith9" targOrder="U">9</ref></item>
+          <item>II. My Redemption . . . . . . <ref target="dsmith13" targOrder="U">13</ref></item>
+          <item>III. My Connection with Sharp-street Colored <lb/>
+Methodist Church . . . . . . <ref target="dsmith15" targOrder="U">15</ref></item>
+          <item>IV. My Life as an Exhorter in the M. E.<lb/>
+Church . . . . . .<ref target="dsmith18" targOrder="U">18</ref></item>
+          <item>V. My Labors outside of Baltimore . . . . . . <ref target="dsmith21" targOrder="U">21</ref></item>
+          <item>VI. My Connection with the A. M. E.<lb/>
+Church . . . . . . <ref target="dsmith25" targOrder="U">25</ref></item>
+          <item>VII. The Union Formed by the Philadelphia,<lb/>
+Baltimore and Show Hill <lb/>Churches . . . . . . <ref target="dsmith31" targOrder="U">31</ref></item>
+          <item>VIII. My Ordination to the Order of Deacon<lb/>
+and Elder . . . . . . <ref target="dsmith39" targOrder="U">39</ref></item>
+          <item>IX. My Labors near Pittsburg . . . . . . <ref target="dsmith55" targOrder="U">55</ref></item>
+          <item>X. My Labors in Ohio . . . . . . <ref target="dsmith69" targOrder="U">69</ref></item>
+          <item>XI. My First Appointment in Ohio . . . . . . <ref target="dsmith74" targOrder="U">74</ref></item>
+          <item>XII. My General Labors . . . . . . <ref target="dsmith82" targOrder="U">82</ref></item>
+          <item>XIII. The Return to my Labors in Ohio . . . . . . <ref target="dsmith86" targOrder="U">86</ref></item>
+          <item>WILBERFORCE UNIVERSITY . . . . . . <ref target="dsmith99" targOrder="U">99</ref></item>
+          <item>Miscellaneous Remarks . . . . . . <ref target="dsmith133" targOrder="U">133</ref></item>
+        </list>
+      </div1>
+      <pb id="dsmith5" n="5"/>
+      <div1 type="preface">
+        <head>PREFACE.</head>
+        <p>The idea of writing and giving the Church and
+community the advantage of my experience and
+such facts as came under my personal observation
+during the many years of labor I have spent in
+the A. M. E. Church, has occupied my attention
+for years. In the sun-set of my days upon earth 
+I am seriously impressed with the duty of publishing 
+my life in the form of a history that generations yet 
+unborn might know that David Smith lived and labored for the
+advancement of the Redeemer's Kingdom on earth, and
+that my life was spent as a sacrifice (according
+to my limited ability) to better the condition of
+<pb id="dsmith6" n="6"/>
+my fellow-man. Just before the civil war I undertook
+the task of having my life published. I had
+it all prepared for the <hi rend="italics">press</hi> and placed in the
+hands of a white brother to have it published.
+This dear brother was then in the M. E. Book
+Concern at Cincinnati, and when I heard from
+him, he informed me the manuscript was misplaced.
+I then became very much discouraged
+and gave up the notion of any further attempt of
+publishing my life, until last fall, September 1880,
+at the session of the Ohio Annual Conference,
+which met in Columbus, Ohio, on the 13th of
+September, 1880. In the evening, the Semi-<sic corr="Centenary">Centinary</sic>
+Celebration of the Ohio Conference was 
+held in St. Paul's A. M. E. church, Columbus, O.
+I was called upon to say something in regard to
+my connection with the A. M. E. Church and my
+labors in the Ohio Annual Conference. I had
+stated imperfectly some of my labors in the Church,
+and after the Conference closed its session, the
+<pb id="dsmith7" n="7"/>
+young pastor, Rev. John Coleman, who was appointed
+to the Xenia station by Bishop James A.
+Shorter, called upon me and stated to me how
+much he was interested in my remarks. He said
+he thought the Church and community ought to
+have the advantage of my history before I departed
+this life. I carefully considered the matter,
+and finally concluded I would publish my biography
+if he would assist me in its preparation. He
+agreed and inside of four months I present this
+imperfect little book.</p>
+        <p>I hope it may be interesting, useful, and find
+favor in the eyes of the Church and community,
+as one of the last acts of my life on earth. And
+when my body sleeps in the silent grave and my
+spirit is at rest, I trust this book may speak for me.</p>
+        <signed>THE AUTHOR.</signed>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="dsmith9" n="9"/>
+        <head>THE BIOGRAPHY<lb/>
+OF THE<lb/>
+<hi rend="italics">Rev. David Smith.</hi></head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <p>I was born March 10th, 1784, nine miles from Baltimore,
+Baltimore county, Maryland; on Major Rutter's farm. I was
+sold from this place to a Spanish Consul, by the name of
+John Burnibue. I lived with Mr. Burnibue until I was eight or
+nine years of age. The family were all Roman Catholics
+except Mr. Burnibue's wife's sister, whose name was
+Matilda White. She was a young lady possessed of fine
+feelings and great sympathy. The family of Mrs. Burnibue
+was in humble circumstances in life. Miss Matilda White
+obtained the position of house-keeper for Mr. Burnibue;
+she had the entire care of the household affairs, and thereby
+releasing Mrs. Burnibue of the house duties and domestic
+cares, thus allowing her
+<pb id="dsmith10" n="10"/>
+to become the equal companion of Mr. Burnibue
+and his associates. I was entrusted entirely to the
+care of Miss Matilda White, and her fine feelings
+and great sympathy always kept her above prejudice
+and partiality, hence she treated me as
+kindly as she did the rest of the family.</p>
+          <p>The Catholics were then, as they are now, very
+strict and devoted to their religious faith. One of
+the rules of the family was that I should attend
+the Catholic church with the children of the
+family; this we did whenever the weather and
+health <sic corr="permitted">permited</sic>—there was no excuse for us children.
+I remember the method by which we were
+punished for our misbehavior, it was after this
+manner:</p>
+          <p>She seldom ever whipped us, but would shut us
+up in the closet and tell us how the Saviour was
+displeased with our bad conduct, and thus make
+us feel very penitent for our sins.</p>
+          <p>While I was attending the Catholic church I
+was very much charmed with the organ and the
+the delightful music rendered Sabbath after Sabbath,
+and from that day until now, I have ever
+been a lover of music, although I am not talented
+in this useful and interesting art.</p>
+          <p>Now, I wish to mention an important fact connected
+with my liberation. Miss Matilda White
+<pb id="dsmith11" n="11"/>
+was uncommonly poor, and at the time of the rebuilding
+of the Episcopal church in Charles
+street, Baltimore, Parson Ben (so called by the
+community in general at that time) instituted a
+lottery for the benefit of the Church. Miss Matilda
+White, thinking a great deal of me, gave me
+five dollars with which to purchase a ticket for her.
+She drew $12,000 with it, and for me, her luck
+was my temporal salvation, as you shall soon see.
+Shortly after Miss Matilda drew this fortune, I
+embraced the Christian religion; then I began to
+labor under many difficulties from the family on
+account of my religious profession. No one
+knows the bitter feeling a devoted Catholic has
+towards a Protestant, but he who has experienced
+it as I did in the case under consideration.</p>
+          <p>My warm affections, just renewed by the Spirit
+of God, inclined me toward the Methodists, but
+the very name of a Methodist was obnoxious to a
+Roman Catholic, hence my afflictions became sore
+and many; it appeared to me that Satan himself
+was turned upon me and that I would certainly
+be destroyed. All the family became my bitter
+oppressors and persecutors, except Miss Matilda
+White. Mr. Burnibue was so enraged against me
+that he determined to sell me to a Georgian, which
+to a poor slave was the worst form of punishment. 
+<pb id="dsmith12" n="12"/>
+I have never had such feelings before nor
+since. I became so disturbed about my situation,
+I plead with God day and night, for my deliverance.
+I could heartily join the Prophet and say :
+“O, that my head were waters and mine eyes a
+fountain of tears.” For I thought I certainly
+would grieve and cry myself to death. The tears
+I shed, flowed so constantly that there were two
+briny channels made visible upon my cheeks.
+Right here I promised God, if he would interpose
+and deliver me from this affliction, I would be an
+humble, faithful and obedient servant all the days
+of my life. I used as a plea the power he had
+exercised in freeing me from sin. I knew very
+well, if God was able to deliver me from the corrupt
+influence of the world and the power of
+Satan, that he was able to deliver me from this
+slave-holder. Yet I was like many others, I did not
+see by what method he would secure my deliverance.
+Still with child-like simplicity I trusted
+him, though I did not understand then as I do
+now, the sentiment or that good hymn:
+<q direct="unspecified"><lg type="verse"><l>“Ye fearful saints, fresh courage take,</l><l>The clouds ye so much dread,</l><l>Are big with mercy and shall break</l><l>In blessings on your head.”</l></lg></q></p>
+          <p>I was advertised for sale in the Baltimore
+papers, and this kind of statement was made:</p>
+          <pb id="dsmith13" n="13"/>
+          <p>“No one can buy him but a Georgian.”</p>
+          <p>It seemed that nothing would satisfy Mr. Burnibue's
+hatred and bitter feeling against me, but
+my shipment to Georgia. Still I waited the appointed
+time until my deliverer came. The Lord
+moved in a mysterious way, his wonders to
+perform. I now close this chapter and hasten to
+my mysterious redemption.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER II.<lb/>
+MY REDEMPTION.</head>
+          <p>Miss Matilda White, unbeknown to me, had
+skillfully arranged to defeat Mr. John Burnibue's
+evil designs, and, therefore, consulted a Georgia
+slave-buyer and provided him with the means and
+instructed him to buy me for her. Her intention
+to set me free was kept a profound secret from
+Mr. Burnibue, and, also, from the Georgian; for
+if it had been known to either or both, the plan
+could not have been worked so successfully as it
+was, for Mr. Burnibue would not have permitted
+her to buy me; and, just to think, this wise and
+blessed woman never even hinted to me her intention
+to set me free. This, I regarded as a wise
+step in her, for if I had known it, I might have
+<pb id="dsmith14" n="14"/>
+been overjoyed and revealed her plan and might
+have been the means of her being defeated. I
+was sold at home between nine and ten o'clock in
+the morning (the precise date unknown). As I
+came down stairs from Mr. Burnibue's office (his
+private office) I met Miss Matilda White, and the
+Georgian handed her a bill of sale for me, and
+immediately she took me to a lawyer's office (Mr.
+Heath's). He wrote my free papers, and, in company
+with Miss Matilda White, the lawyer went
+to the court-house and had them recorded. This
+was on the day I was sold, and I received a copy
+of the same.</p>
+          <p>I said, now I am free—both soul and body.
+My heart was so rejoiced I did not know hardly
+what to say, yet I said, “Glory to God in the
+highest.” Here, with gratitude and thankfulness,
+I made many promises to God which, in the long
+line of my life, have been motives to noble enterprises
+for God and humanity. I consecrated myself
+to God and my whole life to better the condition
+of my people. Ever since then, the cause of
+the Lord has prospered in the hands of his humble
+servant, of which I shall speak more elaborately
+in the future.</p>
+          <lg>
+            <l>“His purposes will ripen fast,</l>
+            <l>Unfolding every hour,</l>
+            <l>The bud may have a bitter taste,</l>
+            <l>But sweet will be the flower.”</l>
+          </lg>
+        </div2>
+        <pb id="dsmith15" n="15"/>
+        <div2 type="chapter">
+          <head>CHAPTER III.<lb/>
+MY CONNECTION WITH SHARP-STREET<lb/>
+COLORED METHODIST CHURCH.</head>
+          <p>According to the rules and discipline of the
+Church, I joined on six month's probation. As
+nearly as I can recollect, I was about twelve years
+old. The Rev. Nasey Schin was then pastor of
+Sharp and Light street Churches, the only colored
+Churches in Baltimore at that time. When my
+probation was out (the six months) I was then
+received into full membership, and very soon after
+I requested the Rev. Schin to give me a permit to
+hold prayer-meetings in private houses, which he
+consented to do.</p>
+          <p>I perceived the Lord had found me standing in
+the market place idle and said unto me, “Go work
+in my vineyard, and whatever is right I will pay
+thee.” And, thus being moved by the Spirit of
+the Lord, I commenced my labors for the Lord
+Jesus. I held prayer-meetings in different parts
+of the city, telling my Christian experience and
+how God had delivered me from the devil and
+slavery.</p>
+          <p>A great revival followed my humble efforts, so
+much so the people and pastors of Baltimore became
+<pb id="dsmith16" n="16"/>
+so intensely interested in my success, that I
+became a public talk, both from the pulpits and also
+in the streets of the city. This deep interest in
+me and my success continued for a considerable
+while, and both white and colored people became
+my friends and had the greatest respect for me.</p>
+          <p>But, alas! a cloud of opposition arose. I perceived
+that I was not going to have it pleasant all
+the while. Soon my own people became jealous
+of me and my work, thinking and saying that I
+was too young to be allowed to carry on these
+meetings; but the white people thought differently,
+for many of their servants were professing the
+Christian religion at these meetings and, consequently,
+made better servants; hence, they spoke
+well of me and did all they could to protect and
+enhance my efforts.</p>
+          <p>At this time there were no licensed preachers
+among my people. The highest position to which
+the colored ministry attained in the M. E. Church
+was to an Exhorter. These were spiritual overseers
+of the black sheep of the Redeemer's fold.
+Whenever the dark-skinned sheep went astray, the
+colored Exhorters reported them to the Quarterly
+Conference and the Elders of the M. E. Church,
+and the Elders and Conference would deal with
+them according to their offense, and would often
+<pb id="dsmith17" n="17"/>
+turn these colored people out of the Church. The
+colored people had several Exhorters in the city of
+Baltimore at that time.</p>
+          <p>There were Fathers Dublin, John Why, Pikinhill,
+Chrisphus, and others; these constituted the
+leading Exhorters of Baltimore. At the white
+Quarterly Conference, these Exhorters complained
+against me. They said I was too fast for a young
+man; and these Exhorters could not read, nor could
+I, at that time. They acknowledged that I was a
+pious young man, but they made this objection:
+that I said more about the Scriptures than they,
+who were older and much more experienced than
+myself. The Conference listened patiently to
+their complaints against me. The Elder said he
+would attend some of my meetings and see how
+I carried them on. This he did unbeknown to me.</p>
+          <p>I remember at the last prayer-meeting I held
+just before the quarterly meeting, the pastor,
+unbeknown to me, brought the Presiding Elder
+with him to my meeting. At the ensuing Quarterly
+Conference the Presiding Elder stated that
+he had visited one of my meetings, and he said I
+was doing a good work; and from that time there
+was no further dispute about me and my work.
+The Quarterly Conference immediately voted me
+<pb id="dsmith18" n="18"/>
+Exhorter's license. I felt the Lord was fighting
+for me while I held my peace. Thus I was promoted
+to the rank of an Exhorter in the M. E.
+Church.</p>
+          <p>“He that waiteth upon the Lord shall renew his
+strength; he shall mount up as on the wings of an
+eagle.”</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER IV.<lb/>
+MY LIFE AS AN EXHORTER IN THE M. E.<lb/>
+CHURCH.</head>
+          <p>I continued to hold meetings in private houses
+until I gained the affections of the people at large
+—both white and colored—more particularly the
+better class of my own people. I will name some
+of them: Alexander Murray, John C. Hall,
+Charles Hackett, Henry Harden, John Forty,
+Edward Walters, Stephen Hill, and many others.
+These were my particular friends, and God made
+me an agent in bringing many of them to love the
+Lord Jesus.</p>
+          <p>I organized a band of young men to assist me
+with my meetings. Among them were the following:
+Nathan Peck, Alexander Murray, Leben
+<pb id="dsmith19" n="19"/>
+Lee and David Cornish. These were my faithful
+and zealous friends and helpers in the Gospel.
+We were, as a general thing, excellent singers.
+This drew great crowds of young people and the
+better class of the aged. After singing, we would
+turn our gathering into prayer-meeting, which
+terminated in the conviction and conversion of
+souls to God.</p>
+          <p>Alexander Murray, like John the Baptist, was
+our forerunner. His duty was to prepare the
+place of meeting, and every Sunday, after three
+o'clock preaching, he would announce the next
+place of meeting. These meetings were held
+among the best colored families of Baltimore, and
+because the best families attended and took part
+in these meetings we had excellent order. The
+citizens had the highest regard for us. Tongue
+can not express the wonderful results which followed
+our humble labors in this part of the
+Lord's vineyard.</p>
+          <p>It will be remembered by the readers, at this
+time there were few free colored people in Baltimore,
+compared to the great mass of my people
+who lived in this great city. There was a large,
+and also respectable, portion of my people, who
+were nurses, stewards, coachmen and housewaiters.
+These were very largely influenced by
+<pb id="dsmith20" n="20"/>
+their owners, both in sentiment, fashion and expression.</p>
+          <p>Such men as Stephen Hill were the exponents
+of this class of colored people. His name will
+ever be remembered by the good people of Baltimore.
+So wonderfully was this great man possessed
+with native ability, though he could not
+read, he had such a remarkable mind that the oral
+instructions his owners gave him, made him one of
+the leading spirits among our people in the city of
+Baltimore. Brother Hill could see through and
+discuss like a learned philosopher nearly any subject,
+whether in science, philosophy, religion, or
+politics. The reader can not imagine the degree
+of native ability possessed by this man. There
+were so few men among us who possessed such
+talent as did Brother Hill that he was almost unduly
+admired and worshiped by our people.
+When such men became religious as they did,
+their owners became very much interested in me
+and did what they could to assist me, for such religious
+reformation made this class of men and
+women better servants, and by their good behavior
+many of them became free. Stephen Hill,
+Henry Harden, Leben Lee, and many others were
+set free by their owners on account of their good
+behavior and industry.</p>
+          <pb id="dsmith21" n="21"/>
+          <p>The work of the Lord prospered and increased
+daily. Souls were added to the Church, such as
+will be saved in glory. So successful was our
+evangelistic work in the city of Baltimore, Sharp
+street church became overflowed with hearers;
+hence the people were compelled to build another
+church in Old Town. In the next chapter I shall
+give some account of our labors outside of Baltimore.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER V.<lb/>
+MY LABORS OUTSIDE OF BALTIMORE.</head>
+          <p>It was revealed to me by the Spirit of God that
+my successful labors in the city of Baltimore had
+come to a close; hence, I was impressed to leave
+the city and go on the plantations. O, what an
+instructive lesson I learned at this point in the
+history of my life! The lesson was this: God
+will make thee the weakest of his servants whom
+he has fashioned and set in their proper places to
+work. <hi rend="italics">Awful</hi> agents in his hand for good. “To
+everything there is a season.” When God's appointed
+seasons for good have passed, the agents
+he has employed to work in his vineyard cease to
+<pb id="dsmith22" n="22"/>
+be affective, however strongly they may exert
+themselves. “The Spirit of God worketh in us
+to perform the will and pleasure of God and not
+our own.”</p>
+          <p>I became very much perplexed to know how I
+should begin my labors in the field to which I had
+been lead, viz: the plantations. What to do I did
+not know, but finally it occurred to me, that if I
+would present the case to some wealthy friend of
+note and obtain his approval, I could possibly
+reach the field to which I had been called, and by
+some kind of recommendation obtain the favor of
+the slave-holders on these plantations. I presented
+the matter to Mr. John T. Barr, Esq. He was
+one of the largest dry goods merchants in Baltimore
+and then kept a wholesale store in Baltimore
+street. I had lived with him and he had the
+greatest confidence in me.</p>
+          <p>I stated to him what had been revealed to me;
+he then told me he would prepare for me a recommendation
+of character, and said I should have
+no trouble in this direction, and immediately he
+proceeded to write the recommendation for me.
+He went to nearly all the wealthy men of Baltimore
+and had them to endorse this commendation
+for me. Then I went out among all denominations,
+and all were willing to bear what I had to
+<pb id="dsmith23" n="23"/>
+say about the Lord Jesus. The Lord made our
+words like fire and hammer, melting the hearts of
+the unconverted and leading them to conform
+their <hi rend="italics">lives</hi> in <hi rend="italics">love</hi> and <hi rend="italics">obedience</hi> to God's holy
+word. O, how it made my soul rejoice to see so
+many converted to the Savior!</p>
+          <p>The slave-holders became so favorably impressed
+with me and my labors that they would allow
+me to hold meetings two or three days on the
+plantations at nearly any time I saw fit to do so.
+The result was that many of the slaves were converted
+to God, and naturally they became better
+servants, and afterwards obtained their freedom.
+The masters of these slave people would assign
+my lodging and fare with the household servants
+instead of the field hands. This indicated the
+respect they had for me. Many of the masters,
+their sons and daughters were convicted and
+converted to God; hence they espoused my labors
+of <hi rend="italics">love,</hi> and did all they could to assist me in my
+arduous duties.</p>
+          <p>I remember very distinctly of holding a meeting
+on what was then called Manna Hill, on the turnpike
+leading to Little York, Pa. The meeting
+was held in a school house; we commenced the
+service at 11 A.M. The power of the Lord was so
+wonderfully poured out upon the assembly, that
+<pb id="dsmith24" n="24"/>
+the meeting did not break up until 3 P.M. Here I
+saw the slaves and their owners singing, shouting
+and praising God together. All seemed to be one
+in Christ Jesus; there was no distinction as to the
+rich or poor, bond or free, but all were melted into
+sweet communion with the spirit and united in
+Christian fellowship; and to my mind they could
+have befittingly sang this blessed hymn:</p>
+          <lg>
+            <l>“Blest be the dear uniting love</l>
+            <l>That will not let us part;</l>
+            <l>Our bodies may far off remove,</l>
+            <l>We still are one in heart.”</l>
+          </lg>
+          <p>We had many such meetings in those days. I
+could say volumes upon this subject if it were not
+for a more important part of my history. I now
+leave this present subject to speak of my departure
+from the M. E. Church.</p>
+          <lg>
+            <l>“Farewell, dear friends, I must be gone,</l>
+            <l>I have no home or stay with you;</l>
+            <l>I take my staff and travel on,</l>
+            <l>Till I a better world do view.”</l>
+          </lg>
+        </div2>
+        <pb id="dsmith25" n="25"/>
+        <div2 type="chapter">
+          <head>CHAPTER VI.<lb/>
+MY CONNECTION WITH THE A. M. E.<lb/>
+CHURCH.</head>
+          <p>Daniel Coker was the leading spiritual overseer in the
+Colored M. E. Church of Baltimore. It was his duty to
+watch over his colored brethren, take note of their condition
+and report to the white Elder; and the Elder's decision in
+Church matters was law to the colored brethren. Many of
+our people apprehended the wrongness in the manner which
+the Presiding Elder would often treat the colored Christian.
+They thought it was not a Christian spirit; therefore they
+became very much dissatisfied. Time had so altered things
+relative to colored preachers, that the M. E. Church now
+gave license to colored preachers, but these were only local.</p>
+          <p>The following are some of these preachers: Rev. Daniel
+Coker was the leading spirit, and the first licentiate in the
+city of Baltimore. Afterward the Rev. Daniel Moore, John
+Mingo, and two other Exhorters—the Rev. Jos. Touny and
+another whose name I cannot call now; these brethren came
+from Eastern Shore to the city. They were men possessing
+much talent and exercised themselves
+<pb id="dsmith26" n="26"/>
+in Sharp-street church. These brethren became very
+popular in their Church; so much so, that the local preachers
+(white) became jealous of them, for they received all the
+appointments in the colored churches. At this point began
+the bone of contention between the white and colored
+Methodists. The contention continued until the leading
+colored brethren and sisters of Baltimore organized a
+separate and distinct body of Methodists, which resulted in
+the organization of an A. M. E. Church in Baltimore.</p>
+          <p>The Rev. Daniel Coker consulted the local preachers
+(colored) and the Exhorters from Eastern Shore as to
+how it would do for them to be 
+to themselves—a separate and distinct body of 
+Methodists. These brethren opposed the suggestion,
+but the Rev. Daniel Coker continued to discuss
+the subject in such a way as not to allow them to take
+advantage of him and report him to the white Elders. He
+continued for some time in this way, until all hope of getting
+them to agree with him was lost. He then left them and
+called together John C. Hall, Charles Hackett, Alexander
+Murray, Nathan Peck, Leben Lee, James Touston, Charles
+Pierce, Richard Williams, Henry Harden, Stephen Hill (the
+wonderful man of whom I spoke in Chapter IV), David
+Smith,
+<pb id="dsmith27" n="27"/>
+N. T. Hammond and Faton Blake. All were pledged not to
+reveal the object of this council, for we were afraid of the
+opposite party, and that the white Elders would get into
+the secrets of our meeting and defeat our purposes; hence,
+the business was kept a profound secret.</p>
+          <p>We met weekly for a considerable while, instructed by
+Daniel Coker. Stephen Hill was our great lawyer. He
+continued to discuss the advantage of forming a distinct
+connection of Methodists, and we were all converted and
+sanctified to this end. I say sanctified, because not a man of
+us ever went back to the M. E. Church. To our great
+surprise, the Rev. Daniel Coker informed us, at one of our
+meetings, that there was a great disturbance in Philadelphia
+between the Rev. Richard Allen and some of the white
+Elders of the M. E. Church. The trouble arose, it seems,
+from this: The appointing power gave the colored people a
+minister (white) who was not faithful to his duties. The
+colored people became very much dissatisfied and began to
+murmur and neglect their Church obligations. The white
+Elder became much displeased at the conduct of the
+members, so much so that he threatened to turn them out of
+the Church as disorderly members, whereupon the members
+of the Church became
+<pb id="dsmith28" n="28"/>
+enraged and entered a protest against the retention and
+support of the appointed pastor.</p>
+          <p>The Rev. Richard Allen was the leading spirit in the great
+colored congregation of Philadelphia. He claimed the colored
+people built the church and, therefore, had a right to it aside
+from the appointed Elder. The Elder contending on the other
+hand that the property had been made over to the Bishop
+and Conference and, hence, it belonged to the M. E.
+Connection. Revs. Daniel Coker and Richard Allen communicated
+with each other upon the subject of coming out
+from the M. E. Church and forming a separate and distinct
+body of colored Methodists. The particulars were kept a
+secret between the Reverends Coker and Allen. Daniel Coker
+informed us at one of our club meetings, in Baltimore, that it
+was the intention of Rev. Allen and his congregation to come
+out from the M. E. Connection in the city of Philadelphia.</p>
+          <p>He obtained our promise at that meeting to come out
+from the M. E. Connection in Baltimore—and out we came.
+A great number of brethren and sisters came out with us.
+Rev. Daniel Coker rented a Presbyterian church in Old
+Town, so that that part of the congregation which came
+out from Sharp-street church might
+<pb id="dsmith29" n="29"/>
+have a place in which to worship. And the following
+Tuesday or Wednesday evening, we formed seven or eight
+classes. By Sabbath, Daniel Coker and others had agreed to
+buy a large church (in what was then called Fish street) for
+twelve thousand dollars—paying one thousand dollars cash,
+or before we got possession.</p>
+          <p>About this time Rev. Richard Allen and others were in
+great trouble about their Christian rights. The white Elder
+tried to force himself on them as their pastor. He made an
+appointment to preach for the colored people one Sabbath,
+at 3 o'clock P.M. When the time arrived, he came and
+brought other ministers of the M. E. Church with him. The
+church was filled and all the aisles were crowded, so much
+so the ministers and pastors were unable to reach the pulpit;
+and aside from the crowd there were brethren appointed
+by the dissatisfied part of the congregation to prevent the
+pastor from preaching that afternoon. The Rev. Richard
+Allen and others were assigned this duty.</p>
+          <p>[I do not defend or praise such conduct, but simply
+relate it as it is, and leave the readers to exercise their own
+judgment.]</p>
+          <p>The Rev. Tapseco (colored) was preaching when the
+white Elder and his associates came,
+<pb id="dsmith30" n="30"/>
+and when the Elder found he would not be permitted to
+preach for his colored brethren that afternoon, he said to
+the ministers who accompanied him: “Bear witness; this
+man has taken my appointment.” They then departed much
+displeased.</p>
+          <p>On the following Monday, the Rev. Richard Allen called
+upon Mr. Paul Brown, one of the most eminent lawyers in
+Philadelphia, and consulted him about the Church and her
+troubles, and finally this counsel drew up a supplement
+which he (Allen) and his congregation—the dissatisfied part
+of his members—were to sign. The lawyer advised the Rev.
+Allen to convey this document to Harrisburg and present it
+to the Legislature, praying the right of church property
+situate in the city of Philadelphia, which property they (the
+colored people) had purchased with their own means. The
+Rev. Allen was to remain in Harrisburg until special
+legislation decided the matter. This he did. The Legislature
+granted the colored people the church property in the city
+of Philadelphia. The Rev. Richard Allen had nearly sixteen
+hundred members belonging to his congregation at the time,
+and when the news reached us at Philadelphia, there was a
+wonderful shout among this long oppressed people.
+<pb id="dsmith31" n="31"/>
+Then was it that the Rev. Richard Allen became so
+deeply seated in the hearts of his people,
+and this Christian hero remained the loved and admired
+until his death.</p>
+          <p>Baltimore was out from the M. E. Church three weeks
+before the Rev. Richard Allen and his congregation came out
+in the city of Philadelphia.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER VII.
+<lb/>THE UNION FORMED BY THE PHILADELPHIA,
+<lb/>BALTIMORE AND SHOW HILL
+<lb/>CHURCHES.</head>
+          <p>The representatives of these three Churches met in
+Philadelphia. Daniel and Admiral Coker and Stephen Hill
+represented Baltimore, and Show Hill Church was
+represented by preacher Chaney. The Church at
+Philadelphia was represented by Rev. Richard Allen, and his
+associates were the Rev. Tapseco and a school-master, who
+had control of the colored school in Philadelphia at the time.
+These noble hearted men were zealously affected and moved
+to organize a plan which would be the means of
+accomplishing the good
+<pb id="dsmith32" n="32"/>
+and glorious end sought, to-wit:—the elevation and education
+of a despised and oppressed race, not only in civil, but also
+in religious freedom. “Lord lay not this sin to their charge.”</p>
+          <p>These Churches formed a Christian Confederation, and
+from that meeting the Confederation of the Churches
+appointed a Convention to meet in Philadelphia the
+following spring. No one can imagine with what enthusiasm
+the colored people of these two great cities were filled, over
+these encouraging prospects. The Convention was called in
+order to form an African Connection and adopt a discipline,
+and hymn books; and to make all necessary regulations for
+the existence of a great connection. I can not give the names
+of all the delegates appointed from the different Churches,
+but I can give the names of some, as I had the honor of being
+a delegate from Baltimore: The Rev. Daniel Coker, Mr.
+Stephen Hill, John C. Hall, Henry Harden, Nathan Peck,
+David Smith, and others, were also delegates. The
+Convention met as it was appointed, and formed a union of
+the Churches and established the intended Connection.</p>
+          <p>The next year a Conference was appointed to meet in the
+city of Philadelphia. The year rolled on and the Conference
+finally met as it was appointed. 
+<pb id="dsmith33" n="33"/>
+The meeting was held in the Rev. Richard Allen's
+parlor, in Pine street, and there the Conference transacted its
+important business, and then adjourned. The next
+Conference of the African M. E. Connection, met the
+following spring in the city of Baltimore, Md. The
+Conference convened in a private house. This was the
+second Conference of the A. M. E. Connection that year—the
+first being held in Philadelphia, we moved in the spring to
+Baltimore and held the second. Mr. Solomon Doubton, who
+was then a prominent citizen of Baltimore, opened the doors
+of his home to accommodate the members of the Conference.
+He lived at that time in Spring street. At this Conference the
+Rev. Richard Allen was appointed to the pastoral charge of
+Bethel Church, Philadelphia; the Rev. Daniel Coker to
+Bethel Church, Baltimore, and the Rev. Chaney to the charge
+of Show Hill Church. The Conference was held again in
+Philadelphia, but I did not attend that session of the
+Conference. The minutes will show that Rev. Richard Allen
+was ordained Bishop at this session of the A. M. E.
+Connection. The Rev. Daniel Coker was elected Bishop in
+the morning, but there was so much dissatisfaction among
+the people, that the election of Daniel Coker was rescinded, and
+<pb id="dsmith34" n="34"/>
+Richard Allen was elected and ordained, April 9th, 1816, in
+his stead. The objection to the election and ordination of the
+Rev. Daniel Coker seems to have been on account of his
+color. He being nearly white, the people said they could not
+have an <hi rend="italics">African Connection</hi> with a man as light as Daniel
+Coker at its head; therefore, the Rev. Richard Allen was
+their choice. He was ordained Bishop by Bishop White, a
+white bishop, who was then an active Bishop of the
+Episcopal Church, assisted by Absalom Jones, an Episcopal
+Elder then stationed in Philadelphia; and, I suppose, others
+also took part in the ordination of Mr. Allen.</p>
+          <p>The people every where seemed to be satisfied with this
+remarkable event, but alas! it was the destruction of Daniel
+Coker, and it pains me to make mention of this fact in my
+history.</p>
+          <p>The next Conference was held in Baltimore, and from this
+Conference, Daniel Coker was appointed again to Bethel
+charge, Baltimore, and also to lay out the Baltimore Circuit,
+which he did, and very successfully too, for Daniel Coker, I
+may say justly, was an exception, so far as his wit, talent
+and education were concerned. He was born in the pine
+regions of Baltimore county, Md., my native county and
+state. He ran away
+<pb id="dsmith35" n="35"/>
+when but a small boy, and went to New York, where he
+received a liberal education. Here he remained until he grew
+up to manhood. He then embraced the Christian religion,
+joined the Methodist Church and obtained license to preach
+in the Church. About the time this young man grew up, the
+colored people in Baltimore petitioned the wealthy (white)
+people to grant them a school, that they might educate their
+children. This was in opposition to the laws of the state,
+but however the wealthy people assumed the
+responsibility and granted the request, giving the free
+colored people a school.</p>
+          <p>When the colored people ascertained that they could
+have schools, by the consent of the wealthy white people
+of Baltimore, they sent to New York to obtain the services
+of Rev. Daniel Coker and another man by the name of
+Collins, as teachers of the schools. The Rev. Daniel Coker
+came, but before he took charge of the school he informed
+some of his friends that he had run away from the state
+when quite a boy, and had since resided in New York;
+therefore he could not appear in public until they bought
+him. After hearing this the young men of Baltimore raised
+the money and entered into an arrangement with a Quaker
+by the name of Ticin, to “buy Mr.
+<pb id="dsmith36" n="36"/>
+Coker running,” which was done. These men then entered
+upon their duties as teachers in the city of Baltimore, and
+the schools prospered by their teaching and management, to
+a great extent. Mr. Collins was a great singer, and
+established the first choir in Sharp-street M. E. Church.
+The introduction of sacred music at this early date in the
+city of Baltimore accounts, possibly for the love of singing,
+&amp;c., of which the Baltimoreans are so noted.</p>
+          <p>The talent Coker exercised, not only in the school house,
+but in the pulpit as well, rendered him very influential
+among the people in Baltimore, both white and colored. The
+whites who favored colonization to Liberia, thought the
+Rev. Daniel Coker was too intelligent to remain in this
+country. They said he should go to Africa where his talent
+could be exercised in the interest of his race. Mr. Coker was
+very much opposed to this Society and its intention, but the
+members of the Society continued to hold out inducements
+to him, promising if he would consent to go, he should be
+made President of the Republic of Liberia. Rev. Daniel
+Coker met with some misfortunes in the city of Baltimore
+and finally he consented to accept the offer; he went to
+Liberia, became President, and, I am told, held this office
+with credit until the day of his death. </p>
+          <pb id="dsmith37" n="37"/>
+          <p>After the Rev. Daniel Coker joined the Colonization
+Society, and was made President of the Republic of Liberia,
+the Baltimore (or Maryland) Conference, which convened
+in the spring, took into consideration the Harrisburg circuit,
+and the preachers agreed to keep up the preaching places
+which the Rev. Daniel Coker had laid out. The following are
+some of the preaching places: Little York, Pennsylvania;
+Wrightville, on the Susquehanna river, Columbia,
+Lancaster, Harrisburg, Carlisle, Shippingburg,
+Chambersburg, Greencastle, Hagarstown, Funcktown, and
+Fredericktown.</p>
+          <p>This circuit was more particularly kept up by Shadrick
+Bassett and myself. We traveled this circuit afoot, and had
+our appointments arranged for every two weeks. Great
+revivals followed from point to point. “The people were
+willing in the day of God's power.” Scores were brought
+into the Church by our humble efforts. The white as well as
+the colored people were so much taken up with us that they
+would contribute very liberally to the support of colored churches.</p>
+          <p>One thing that assisted us very much in gaining friends
+and obtaining means to assist in building churches was the
+manner in which the Rev. Daniel Coker had began to lay
+out the circuit.
+<pb id="dsmith38" n="38"/>
+He went to the wealthy white people and obtained their
+consent to act as Trustees of the colored churches; and
+when I came on the circuit I presented to these wealthy
+people the recommendation which I had obtained of Mr.
+John T. Barr, Esq., of Baltimore, hence, they were more
+particularly interested in me, notwithstanding Bro. Bassett
+was the best speaker. Bro. Bassett thought it would be best
+for me to collect the means to buy lots and build churches,
+which I did there very successfully, and soon were seen the
+temples of God lifting their towering heads nearly all over
+the circuit.</p>
+          <p>The Rev. Henry Harden was appointed to hold our
+quarterly meetings.</p>
+          <p>The Church had so developed by this time that Bishop
+Allen had ordained five of his local preachers. Some were
+Deacons and some were Elders. Among them was the Rev.
+Henry Harden. You can not imagine what wonderful times
+we had at these quarterly meetings.</p>
+          <p>In those days when it was announced that a colored
+Elder was to hold a quarterly meeting, the people (white
+and colored) would come in the towns and villages from all
+parts of the country in great crowds. These rustic people
+were not ashamed to come to these meetings in road wagons
+<pb id="dsmith39" n="39"/>
+or in any possible way they could make it convenient
+to reach these blessed meetings. Often the meetings would
+begin on Saturday and not end before Monday
+or Tuesday evening at sunset. We would go out about
+a mile from town and hold what were
+called “farewell meetings.” 
+Many souls were converted at these meetings.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER VIII.
+<lb/>MY ORDINATION TO THE ORDER OF
+<lb/>DEACON AND ELDER.</head>
+          <p>The following year the Conference sat in Baltimore,
+brother Bassett and I made our report to
+this Conference. The members of this Conference
+were highly pleased over the success which
+attended our year's labors on the Harrisburgh Circuit.
+I was then ordained Deacon and Elder, and
+returned to the Harrisburgh Circuit by the appointment
+of Bishop Allen. This year I had no
+associate to assist me in the Pastoral work of the
+Circuit, but I soon found the work was more than
+I could faithfully attend, for the Lord began to
+pour out his blessings upon the people as he did
+the first year, and our number increased daily. I
+<pb id="dsmith40" n="40"/>
+then wrote Bishop Allen, praying him to send me help;
+which he did. The Rev. Bishop Allen sent an elderly man
+by the name of Cousin. Brother Cousin was from Virginia;
+he brought papers with him, representing them to be from
+the hand of the Rev. Richard Allen. These made statements
+to this effect:—that the Bishop had given him the over-sight
+of the Circuit and that I was to be under him. He was a great
+speaker, and entertained and pleased the people very much.
+I submitted, thinking his report was true. He had no family,
+but I had, and he retained all the money gathered from the
+people. I wrote Bishop Allen, stating to him that he had
+given Elder Cousin the over-sight of the Circuit, and he kept
+all the means, and my family was about to starve. The
+Bishop said he did not give Bro. Cousin the over-sight of
+the Circuit, and told me to drive him off; but I could not do
+this if I wanted to, for brother Cousin had won the
+affections of the people, and therefore had the inside track
+of me; but at the next Conference he was tried and expelled
+for misdemeanor. The same year Elder Cousin and I had
+charge of the Harrisburgh Circuit, a trouble occured at East
+Point, between the white and colored people, about some
+Church property; you can not imagine the excitement
+<pb id="dsmith41" n="41"/>
+there was at this place. Bishop Allen ordered me to go
+there and hold a Quarterly Meeting. I soon found
+myself in the midst of this turbulent scene, ready to
+do what I could to <sic corr="reconcile">reconsile</sic> these contending
+elements. Here (at East Point) I found brother Wm.
+Paul Quinn, he was quite young at that time, and a
+licensed preacher.</p>
+          <p>The Conference year came on, and Bro. Quinn made
+all the necessary preparations to meet the Conference
+which was to convene in the city of Philadelphia.
+There was a man by the name of Rev. Collins,
+accompanied and introduced Bro. Quinn to the
+Conference. Bro. Collins doubtless is well known by
+the old citizens of Pittsburgh, for he afterwards settled
+in this smokey city, and became one of the highly
+respected citizens of the same.</p>
+          <p>From this Conference, Bro. Wm. Paul Quinn was
+appointed to lay out a Circuit in Pennsylvania, which
+he was very <sic corr="successful">sucessful</sic> in doing. In those days Bro.
+Quinn was considered to be a great man, though he
+was not very learned, he was both <hi rend="italics">witty and <sic corr="talented">talened</sic>,</hi>
+and these endowments enabled him to accomplish
+much in the behalf of the Church. His first work in the
+A. M. E. Church, in the way of laying out a Circuit,
+was mostly in Buck county, Pa. Take notice, Rev<corr sic="missing punctuation">.</corr>
+<pb id="dsmith42" n="42"/>
+Quinn always claimed to be the first itinerant preacher in
+the A. M. E. Church, simply because he traveled his Circuit
+on horse-back, but I walked, because I did not understand
+how to ride very well. He rode horse-back in laying out his
+Circuit. The question as to who was the first itinerant
+preacher in the A. M. E. Church, was never settled between
+us. At the next Conference, which met in Philadelphia, Rev.
+Win. Paul Quinn made a very favorable report, which the
+Bishop and Conference received with much joy. The reader
+must remember at this stage of development of the Church,
+it was our custom to hold two Conferences during the same
+year. The first was held in the spring, in Philadelphia, and
+this was called the Pennsylvania Conference, after which
+Bishop Allen went to the city of Baltimore and held what
+was then called the Maryland Conference.</p>
+          <p>The Secretaryship, seemed to be the most difficult
+position in these Conferences, and why? Simply because
+there were so few men of color who could write sufficiently
+well as to keep correct minutes. We were often compelled
+to select persons as Secretaries of the Conference,
+irrespective of their religious or moral condition. Richard
+Allen, jr., was our first Secretary, he was
+<pb id="dsmith43" n="43"/>
+not a religious man, but he was an excellent scribe, and he
+filled the position of Secretary for several Conference years.
+His office was so important that he would leave
+Philadelphia with the Rev. Bishop Allen and come to
+Baltimore to act as Secretary of the Maryland Conference.
+Richard Allen, jr., remained Secretary of the Connection,
+until the Rev. Jacob Matthews joined the A. M. E. Church,
+who became Richard Allen's successor, in this position. The
+Rev. Jacob Matthews was an M. E. preacher from the city
+of New York. He moved to Philadelphia, joined the A. M. E. 
+Church, and was stationed at Bethel Church as the
+successor of Bishop Allen, after serving his time with this
+congregation, Bishop Allen appointed him to Bethel
+Church, Baltimore, Md. Rev. Matthews was a fair scribe
+and an excellent man, very much beloved by the people. He
+filled the office of Secretary for a considerable while. The
+Harrisburgh Circuit was then under the jurisdiction of the
+Maryland Conference.</p>
+          <p>We will now return to the Harrisburgh Circuit. It was at
+the session of the Baltimore, following the Philadelphia
+Conference which met in the spring (at the time Bro. Quinn
+joined), that Bro. Cousin was tried and expelled from the
+Conference for misdemeanor. Now the Harrisburgh
+<pb id="dsmith44" n="44"/>
+Circuit by this time had become so large that it was thought
+best by the members of the Conference to divide it, so as to
+make Fredricktown a station, this was done, and two
+Circuits and one station was made out of what was formerly
+called the Harrisburgh Circuit. Then the people of
+Fredricktown petitioned Bishop Allen to send me to
+Fredricktown as their stationed preacher. This was very
+unpleasant to me, for I always had the spirit of an
+evangelist. However I remained in this station about three
+months. I felt as a bird caged, deprived both of the use of
+wings and free air. My habit had been to preach two or
+three times a day, and nearly every night to large
+congregations composed of white and colored people. To
+see the same faces and preach to the same people, night
+after night, became a painful affliction to me. I became so
+much dissatisfied, I left and went to Washington, D.C. At
+that time our people in Washington were very much
+opposed to the A. M. E. Church, and declared if any of the
+A. M. E. preachers should dare to come to Washington to
+establish an A. M. E. Church, they (the people under the
+M. E. Connection) would tar and feather them, but like the
+great Apostle of the Gentiles, I thought in myself “none of
+these things move me,” for it was
+<pb id="dsmith45" n="45"/>
+my purpose to trust in the living God, who is able to do
+more than I could think or ask. Now with unshakened faith
+in God, I went to Georgetown, not knowing what would
+befall me. My only ambition was to preach the Gospel of
+the Son of God, that souls might be saved, and the kingdom
+of <sic corr="righteousness">rightousness</sic> established among my people. While
+passing through the streets, I met a colored man who was
+leader in the Church choir. His congregation was then
+building a new church, he asked me if I was not a preacher? I
+told him I was; he then requested me to remain and preach
+for the congregation that evening. I consented, and preached
+for them; we had a wonderful time, eight persons came to the
+altar to be prayed for, and two of them came through that
+evening, and there was a wonderful shout in the camp. I
+wish now to relate a little instance which may be amusing to
+the readers:</p>
+          <p>One of the leading <sic corr="brethren">breathren</sic> was as happy as he could
+well be, and seized me around the neck and said “brother
+where did you come from?” I told him I was from
+Fredricktown, and that I was a Bethel preacher, of the
+Bethel Connection, “put out the lights!” and out the
+candles went. He did not only put out the candles, but
+drove me out also. One of the brethren got my horse
+<pb id="dsmith46" n="46"/>
+and commanded me to depart. It was about 12 o'clock in the
+night when he brought my horse. This kind of treatment
+was a sad affliction to me, for I was a stranger and a <sic corr="pilgrim">pilgram</sic>
+in that part of the country. You might imagine my distress,
+if you could for a single moment, think of this one fact, 12
+<hi rend="italics">o'clock at night, drove out of the church,</hi> unacquainted with
+any one, or place where I might find shelter and sympathy.</p>
+          <lg>
+            <l>“Judge not the Lord by feeble sense,</l>
+            <l>But trust him for his Grace,</l>
+            <l>Behind a frowning providence, </l>
+            <l>He hides a smiling face.”</l>
+          </lg>
+          <p>However I mounted my horse and inquired of the
+watchman the way to Capitol Hill, he gave me the
+directions, which I followed very closely. I crossed the
+bridge leading from Georgetown to the city of Washington. I
+was acquainted with a Bro. by the name of St. Cypian
+Beanes who was a noble hearted man and was then in good
+circumstances. He lived on Capitol Hill, and my purpose
+was to find his comfortable home. I was satisfied if I could
+only find him, God would open his heart and he would take
+one of God's humble servants and give him shelter. The
+watchman directed me to Bro. Beanes' house, and it was
+about 2 o'clock when I arrived. This dear
+<pb id="dsmith47" n="47"/>
+brother received me very kindly. After I had been seated for
+a short while I made known to him the object of my visit. He
+said my life was not secure, but if God was for me I would
+come out more than conqueror. He promised me to do what
+he could to assist me in the accomplishment of my
+intentions, but advised me to be very cautious in my
+operations. I spoke to him of the recommendation which I
+had obtained of Mr. John T. Barr, Esq., of Baltimore, Md.
+He said it would do very well to show it to the white people,
+but that colored people did not stop for this kind of
+recommendation. In the midst of this danger I began to study
+some plan by which I might succeed in my undertaking. The
+thought of appointing a committee of protection presented
+itself to me.</p>
+          <p>I commenced my work by selecting and appointing the
+best men (not Church members) from among those who
+were porters and waiters at the Capitol. These were to
+protect me in my intended work to establish an A. M. E.
+Church in Washington. The first on the committee were
+George Hicks, Dora Bowen and William Coster, runners at
+the Capitol, and two other names which I can not now
+remember. At the War office I appointed Wm. Deacher, Wm.
+Warren and others. 
+<pb id="dsmith48" n="48"/>
+These men had wonderful influence among the colored
+people; and what these men said was generally received as
+true by the colored people of Washington. The news soon
+spread all through Washington that an A. M. E. preacher
+was in the city. The city was in great excitement. The
+people (colored) who were under the M. E. Church soon
+made me leave between two suns. Now, before I left
+Washington I obtained a written permission from a 'squire
+by the name of Jackson Chambers to preach the following
+Sabbath in his rope-walk. Mr. Chambers was an M. E.
+preacher (local). Brother Beanes was the chief agent in
+obtaining this permit, for he was well acquainted with Mr.
+Chambers. I then mounted my horse, crossed the river and
+came to a little town, about sixteen miles from Washington
+City, and stopped with a tavern-keeper by the name of
+George Cole, with whom I became acquainted at the
+Baltimore Conference some time before. Mr. Cole was a
+brother-in-law to Bro. Beanes, and both were thought much
+of by the wealthy whites. I arrived at Mr. Cole's tavern
+between 10 and 11 o'clock A.M. The slave-holders generally
+assembled here about this time of the day to drink and talk
+about their slaves. I was introduced to them by Mr. Cole. They were
+<pb id="dsmith49" n="49"/>
+all pretty much under the influence of liquor. I immediately
+showed them the recommendation I had from Mr. John T.
+Barr, of Baltimore. They then and there requested me to
+preach, which I did, taking as a text, John, III chapter, 7
+verse; subject: “The new birth.” These men were all much
+pleased with the discourse.</p>
+          <p>On Sabbath, I returned to Washington in company with a
+great many colored men, who went to protect me from the
+violence which they supposed awaited me in the city. O, just
+think, all these were slave men! As we got to the bridge
+leading into Washington, we saw a great crowd of people on
+the opposite side of the bridge awaiting our arrival. This was
+Sabbath morning, and I was on my way to the rope-walk to
+fill my appointment at 11 o'clock. We naturally thought
+they were there for the purpose of disturbing us. I was then
+advised by my protectors to take off my ministerial
+costume that I might not be distinguished from the rest of
+the company. I took off my costume, and when we came to
+the rope-walk we found a great crowd of people—white and
+colored—awaiting our arrival, and three constables to prevent
+me from preaching; but I had the written agreement
+from 'Squire Chambers himself, stating that I was authorized
+to preach in his
+<pb id="dsmith50" n="50"/>
+<hi rend="italics">rope-walk</hi> on Sabbath. The committee of protection,
+whom I had appointed before I left Washington for Mr.
+Cole's tavern, met me at the rope-walk and showed my
+permit to the constables, and insisted on my preaching in
+the rope-walk that morning; hence, the constables
+abandoned the premises and I was allowed to proceed.</p>
+          <p>Among the persons who constituted the committee of
+protection which met me at the rope-walk, and perhaps the
+most prominent, was Bro. Beanes, with whom I had
+stopped when I first <sic corr="went">whent</sic> to Washington. My opening
+hymn on this occasion was thus:</p>
+          <lg>
+            <l>“Thou Judge of quickened dead,</l>
+            <l>Before whose bar severe,</l>
+            <l>With holy joy or guilty dread, </l>
+            <l>We shall soon appear.</l>
+          </lg>
+          <lg>
+            <l>Our cautioned souls prepare</l>
+            <l>For that tremendous day,</l>
+            <l>And fill us now with watchful care, </l>
+            <l>And stir us up to pray.”</l>
+          </lg>
+          <p>I took for my text, John iv: 29: “Come see a man that told
+me all things that I ever did. Is not this Christ?” The text is
+so familiar to the people, even to this day, when I visit that
+great city, Washington, the subject and text is a traditional
+talk, for many of the people have the text written in their
+Bibles, and I have had to preach
+<pb id="dsmith51" n="51"/>
+from the same text several times to satisfy them.</p>
+          <p>After preaching in the rope-walk that morning,
+I told them all about the A. M. E. Connection and
+what the African M. E. Church proposed to do.
+I then called for joiners, and forty-three came forward
+and joined our Connection. We gained a
+great victory, and the meeting was long remembered
+by all those who were present. Many of
+those who joined us were converted that day and
+night.</p>
+          <p>I did not preach at Jackson Chambers' in the
+afternoon, nor at night. Some people might want
+to know the reason I did not preach in this 
+rope-walk in the afternoon? Simply, because “the
+slaying of the Lord were many,” and the people
+were crying for mercy in every direction. I then
+thought it would be better to wait until night before
+I began preaching again. Night came on
+and I went to Capitol Hill; the moon was shining
+very bright. I took Mr. George Bell's door-step
+as my pulpit, and here I stood and proclaimed the
+Gospel to dying men and women. After the
+meeting was opened I took for my text, Isaiah,
+53—1: “Who hath believed our report, and to
+whom is the arm of the Lord revealed?” A large
+crowd of people attended the meeting that evening.
+After preaching I again opened the door of
+<pb id="dsmith52" n="52"/>
+the Church, and twenty more joined the Connection.
+I then requested all the members to meet
+me on Monday evening, to be assigned to their
+classes. I then called my committee to meet on
+Tuesday evening, to take into consideration the
+best method of building a church.</p>
+          <p>We met, and Mr. George Hicks stated that
+there was an old school-house on Capitol Hill that
+could be bought for $300, but this school-house
+was on leased ground; but, if the house was fixed
+up it would make a comfortable place of worship.
+We agreed to buy the school-house, and the next
+night I made the intention known to the congregation
+ (this was on Wednesday evening). I appointed
+a meeting again on Thursday evening,
+and told the congregation to bring all the money
+they could, for I desired to get possession of the
+school-house by the next Sabbath; and, on Thursday,
+we collected three hundred dollars and
+enough over that amount to repair and make the
+school-house comfortable for worship the following
+Sabbath.</p>
+          <p>The colored people under the M. E. Church had
+stirred up the people to such an extent that on
+the Sabbath, three constables were stationed at
+the school-house to prevent us from holding our
+meeting. We had the lease for the ground and a
+<pb id="dsmith53" n="53"/>
+receipt for the money we had paid for the 
+school-house. Mr. George Hicks showed these papers
+to the constables and they left the premises, and
+did not arrest me as the enemies of the A. M. E.
+Church had intended. The next thing after we
+got possession of the school-house was the breaking
+out of a great revival, and the people fell before
+the Word of God like grass before a scythe.
+Prominent among those who embraced the Christian
+religion were Mr. George Hicks, who became
+an earnest preacher in the A. M. E. Church, and
+George Simms, an Exhorter. I took the Rev.
+Bro. Schurman into the A. M. E. Church and
+appointed him to Fredericktown to fill out the
+Conference year.</p>
+          <p>I returned again to Mr. Cole's tavern, and in a
+short while established a Church in the neighborhood
+—the congregation being composed chiefly
+of slave people. The white people thought a
+great deal of me because I did not say anything
+to their slaves about becoming free from their
+earthly masters, but impressed upon them the
+necessity of becoming free from the devil. I then
+went to Prince George co. and established a
+Church of nearly two hundred members. These
+three points constituted the circuit of which
+Washington was the head. I held a camp meeting 
+<pb id="dsmith54" n="54"/>
+in Prince George co., and many were converted
+to God. The Rev. Jacob Matthews, who
+was then stationed in the city of Baltimore, assisted
+me in this camp meeting.</p>
+          <p>You will remember that I was to preach at
+Fredericktown that year, but when I took the
+Rev. Schurman in the A. M. E. Connection, I
+appointed him to the Fredericktown station, which
+he filled with credit and success. Bro. Schurman
+had a wonderful revival and many souls were
+added to the Church. Now, after the Conference
+labors were closed, I returned to the Conference,
+which met in the city of Baltimore, and
+made the report of my work, and there was great
+rejoicing among the Conference members over
+my labors.</p>
+          <p>I was sent back to Washington the following
+year, but I did not remain there; the Rev. Schurman
+went in my stead, as there were some family
+matters which called me home for a while. I was
+then living in Baltimore. When the Rev. Schurman
+had gotten as far as Mr. Cole's tavern, he
+was arrested and put into jail by the slave-holders,
+and the Churches at this place (Mr. Cole's) and
+the one at Prince George's were closed against us.
+I went back to Washington and continued in that
+city from that time until the Church in Washington 
+<pb id="dsmith55" n="55"/>
+was a station, and I named the church Israel.
+After my departure from the city, the members
+bought a church under Capitol Hill.</p>
+          <p>Now, I leave Washington and turn my attention
+to another field of my labor.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER IX.
+<lb/>MY LABORS NEAR PITTSBURG.</head>
+          <p>The Rev. Jacob Richardson and I concluded to
+come to the West and labor in the vineyard of the
+Lord. We made Pittsburg, Pa., our objective
+point, and soon started for the Smoky City of the
+mountains. We arrived in Pittsburg on Sabbath
+evening, and there was great excitement over the
+arrival of the colored Evangelists. I preached at
+night. The following persons were living in
+Pittsburg at the time (I mention them because
+there are some interesting features connected with
+them and our labor in Pittsburg): James and
+George Coleman were musicians and Abraham
+Lewis was one of their associates; and, while Mr.
+Lewis was not a musician and did not play for the
+wealthy white people about Pittsburg as James
+and George Coleman did, yet he waited at the
+<pb id="dsmith56" n="56"/>
+entertainments of these wealthy white people.
+These persons came to hear us on Sabbath night,
+and all three of them were convicted and converted
+to God that night. James and George
+Coleman became circuit preachers, and were
+much beloved by all who knew them, as they did
+much valuable work for the A. M. E. Connection,
+James, especially; for he became a leading preacher
+in the Ohio Conference. Abraham Lewis remained
+a local preacher, but was very useful and
+highly esteemed by the leading citizens of Pittsburg.
+He was truly a light in the Smoky City,
+and too much can not be said of him as an exemplary
+man. He lived the life of the righteous;
+hence, died the death of the same, and to-day,
+doubtless, he is enjoying the saint's rest. “There
+remaineth therefore a rest to the people of God.”</p>
+          <p>I remained in Pittsburg one week, and then
+proceeded to Little Washington, Pa. Here I met
+with some difficulties. There was a man living
+in Little Washington by the name of George
+Bowler, who was a barber and a colored man
+of considerable influence. He had written to
+Bishop Allen, praying him to send a preacher to
+Little Washington. When I arrived I found him
+in his shop shaving an M. E. preacher, by the
+name of Rev. Bear. Mr. Bowler was an Exhorter
+<pb id="dsmith57" n="57"/>
+in the M. E. Church. The Rev. Bear entered
+into a conversation with me (let it be remembered
+that all the colored people of Methodist persuasion
+belonged to his Church). He said to me in the
+presence of Mr. Bowler: “You have compassed
+land and water to make proselytes, and you will
+make them ten-fold more the children of the
+devil.” After hearing this, Mr. Bowler said to
+me: “You can't stay in my house.”</p>
+          <p>I then left his premises and went into the streets
+and inquired for a Presbyterian minister, for I
+knew the Presbyterians were kind and endorsed
+(as a general thing) religious freedom. I soon
+found one of that persuasion by the name of Rev.
+Brown. I showed the recommendation I had
+obtained of Mr. John T. Barr, Esq., of Baltimore.
+I also told him of my intention to gather my people
+together, wherever it was practicable, and
+form them into a distinct body of Methodists.
+He received and treated me very kindly. “If the
+Lord is for us, who can be against us?” After
+remaining with Mr. Brown that night, I thought
+the next morning, when I awoke, that “I must
+work while it is called day,” and, “I must work
+the work of Him that sent me.” After family
+devotion and breakfast was over, I started out in
+search of the colored people.</p>
+          <pb id="dsmith58" n="58"/>
+          <p>I found quite a number of them, but they were afraid (?)
+of me. I continued on my mission, and finally I came across
+an old colored man by the name of Dawns. He was the
+father of the well-known William Dawns, of Cincinnati. This
+boy, William, was then going to school in Little
+Washington. The young man grew up and moved to
+Cincinnati. I recommended him to my Lodge in Philadelphia
+to be made one of the first colored Masons west of the
+Allegheny mountains. Nearly all the old settlers of
+Cincinnati know him well. His widow, Rebecca Dawns, is
+still living on West Walnut Hills, Cincinnati.</p>
+          <p>I must again return to old Mr. Dawns, of Little
+Washington. He owned a beautiful grove, which was
+connected with a little homestead. He did not profess to be
+a Christian, and I explained to him the history and object of
+the A. M. E. Connection. He endorsed my purpose, and
+seemed well pleased with the idea of a connection being
+controlled entirely by colored people. I prayed him to allow
+me to preach in his beautiful grove. He readily consented to
+do so, and built a stand and made all the necessary
+arrangements for Sabbath afternoon's preaching. The Rev.
+Mr. Brown was so much interested in my success that he
+had written kind requests to all the pastors of
+<pb id="dsmith59" n="59"/>
+Washington, Pa., asking them to dispense with their
+meetings on Sabbath, in the afternoon, and they (the
+pastors) and their congregations turn out
+to my meeting. The Baptist preacher consented, but the
+Rev. Bear would not listen to it. However, we went on
+with our meeting, and it was amusing to see his people
+desert their shepherd and come out to see and hear an old
+colored preacher. The whole town turned out <hi rend="italics">en masse</hi> to
+my meeting, for they had not heard a colored man preach in
+this section of the country before. I commenced to preach
+between 2 and 3 o'clock P.M., and just as I was about to
+close, Jacob Richardson came from Pittsburg, and read the
+preface to our discipline.</p>
+          <p>I then proceeded to open the doors of the Church, and
+forty-eight persons came forward and joined the A. M. E.
+Connection. I left one lone colored woman to be seated in
+the gallery of Mr. Bear's church. The galleries of the M. E.
+Churches were the auditoriums for the Ethiopian brethren
+and sisters of that day, and the rule of 
+our mother Church was: “Thus far shall thou come and no
+farther.” The Rev. Mr. Bear was much displeased with the
+movement of his African competitor. He tried to move the
+public against me, but failed to succeed. I told him that
+these
+<pb id="dsmith60" n="60"/>
+were my people and I had a right to them; yet this did not
+satisfy him.</p>
+          <p>The next perplexing thing was the manner of obtaining a
+place of worship. I was a Mason and proved to some of the
+leading white Masons that I was a true brother. I then told
+them my mission, and stated my purpose to gather up my
+people and organize them into a distinct body of
+Methodists, which was known as the A. M. E. Church, and
+that I had no place of worship. They agreed to allow me to
+preach in the Masonic Hall until the congregation could
+obtain a place of worship. All seemed willing to assist me in
+obtaining a suitable place to hold divine services.</p>
+          <p>Monday morning I started out among the colored and also
+the white people with a subscription paper and got about
+nine hundred dollars' subscription. We then bought a double
+house from a judge of the Court. If my memory serves me
+rightly, I think his name was Beard. He took the value of the
+subscription paper as pay for the property. We soon
+repaired the house and a revival followed, and soon had the
+town in what Mr. Bear would term an excitement. We soon
+had a respectable membership and a fine congregation added
+to the A. M. E. Connection. I remained in Little Washington
+a short while and then departed for Brownville, Pa. </p>
+          <pb id="dsmith61" n="61"/>
+          <p>I found the colored people here as I did in Washington—
+those who were of the Methodist persuasion belonged to
+the M. E. Church. My first sermon was preached in the
+Friends' church. I remember a Quaker was convicted and
+cried for mercy. After this, the leading members of the
+Society would not allow me to preach in their church any
+more, because they did not believe in that kind of
+excitement. However, I continued faithful to my mission,
+and my people severed their connection with the M. E.
+Church without much trouble on my part—for they were
+like ripe fruit, only waiting to be plucked.</p>
+          <p>We worshiped in a man's house by the name of Norris,
+who was the father of Thomas Norris, of Pittsburg. Bro.
+Thomas Norris was quite a boy, going to school, when I
+established the Church in Brownsville. I have only to
+mention Brother Norris, for the old citizens and preachers
+who have visited Pittsburg, remember well his hospitable
+disposition and usefulness to the A. M. E. Connection in
+this great city. In the case of Father Norris and son, we see
+“Hereditable good is like hereditable evil, transmitted from
+father to son.” We raised a large subscription in
+Brownsville, but did not build a church; for it was built
+after my departure.</p>
+          <pb id="dsmith62" n="62"/>
+          <p>From Brownsville I went to Pike's Run, and took sixty
+members in the A. M. E. Church. We worshiped in Mr.
+Pointer's house. From Pike's Run, I went to a little town (I
+cannot recollect its name at present), I was successful there,
+and took thirty members in the Church. These three points
+constituted what was afterwards called the Little
+Washington Circuit. The following spring, I and my wife
+went to the Baltimore Conference. We learned there was a
+great trouble in Bethel Church, Philadelphia; however the
+trouble did not take a definite form until the meeting of the
+Philadelphia Conference. The trustees and officers of Bethel
+Church had elected Bishop Allen their pastor for life, at five
+hundred dollars per year as a salary. Mr. Allen also held the
+following offices in Bethel Church, (remember he was
+appointed or elected to these positions before he was
+ordained Elder or Bishop), trustee and steward, and after his
+ordination, pastor of the Church. After the Rev. Allen
+became Bishop, the people became dissatisfied. They
+wanted him to resign all the offices in the Church except
+that of the Bishoprick. They wanted Bishop Allen and the
+Conference to appoint them a pastor yearly, and that the
+five hundred dollars they agreed to pay the Bishop for life,
+as pastor of the
+<pb id="dsmith63" n="63"/>
+Church, be paid to the pastors whom the Bishop and
+Conference might send from time to time. There was quite a
+number of the male members of the Church, who banded
+themselves together and drew up a petition, making the
+statements (as to his position as an officer of the Church)
+and when the Conference met, (the Conference was held in
+Bishop Allen's parlor) these men assembled in front of the
+Bishop's house, with the petition to present to the Bishop
+and Conference, asking Mr. Allen to resign his offices and
+relinquish all personal claims previously entered into by
+him and the congregation of Bethel Church. The Rev.
+Richard Allen refused to allow their petition to be read
+before the Conference. This created great dissatisfaction,
+both in and out of the Conference. He went further than this
+refusal, for at night he read these members out of the
+Connection as disorderly members. Some of these members
+were well to-do, and they went around on Lumbard street,
+in a stone's throw of the Bethel church, and bought a lot, on
+which to build an Independent church.</p>
+          <p>There was great trouble both in the Church and the
+<sic corr="families">familes</sic> of the congregation who belonged to, and attended
+the Bethel church. Husband against wife, and <hi rend="italics">vice versa.</hi>
+The cloud of discouragement
+<pb id="dsmith64" n="64"/>
+hovered over the newly organized
+Connection, and the Conference was much afflicted. After
+the Independent Congregation had put up a building; they
+sent for Bishop Allen and desired to harmonize their
+differences and they remain in the Connection if possible,
+but the Rev. Richard Allen would not consent to their plans,
+and furthermore, they differed among themselves, and a
+great fight ensued and much blood was shed, but there were
+no lives lost. The part of this Independent Congregation
+which desired to accept Mr. Allen's plan of harmony, drew
+out and went in what was called Hurst street, and built
+themselves a Church. One was called <hi rend="italics">Big Wesley</hi> and the
+other <hi rend="italics">Little Wesley.</hi> Little Wesley remained Independent
+for a considerable while, and finally returned to the A. M. E.
+Church. The real cause of so much division among the
+colored people after the idea was obtained that they were at
+liberty to organize and carry on distinct and seperate
+religious bodies, was this:—a great many ambitious men came
+to the front to obtain rule and fame. I desire to name a few
+of such men: Rev. Thompson, Rush and Wm. Paul Quinn
+set up seperate Churches in the city of New York, and Rev.
+Peter Spencer, of Wilmington, Delaware, who met in the
+Convention
+<pb id="dsmith65" n="65"/>
+at Philadelphia, when the A. M. E. Church was
+organized. We do not wish in mentioning the names of this
+class of men, to make the impression that these were men of
+no influence and standing in the community in which they
+lived; for they were certainly men of means and influence.
+Many of then formed seperate bodies, some endured the
+march of time, while others faded away. It was with Rev.
+Richard Allen, Daniel Coker, Henry Harder, Stephen Hill
+and other intelligent colored men, we may attribute the
+origin of the <hi rend="italics">idea of Christian equality, freedom and 
+self-government</hi> among the colored people of America. The Rev.
+Richard Allen and his organization (A. M. E. Church) has
+endured the march of time, and perhaps it may be attributed
+to this fact—the A. M. E. Church started to catch up with
+the times and unfold her Christian character according to the
+progress of the present and future generation. The seed of
+energy, character and intelligence which was set in motion
+by these founders is seen to-day sending a healthy <hi rend="italics">influence</hi>
+throughout the length and breath of the A. M. E. Church,
+and thus the Church has been throwing off the old forms
+and gathering new life and strength, as the years have come
+and gone. And now more than a half <sic corr="century">centuary</sic> finds her in
+possession
+<pb id="dsmith66" n="66"/>
+of great institutions of learning, and a publishing
+department, Church Organ and an intelligent ministry.
+After the Conference was over in Philadelphia, I took a
+respite and moved from Baltimore to Philadelphia.</p>
+          <p>These Independent members called on me, and desired me
+to preach for them as their pastor, but this I refused to do.
+They appointed a man from among themselves by the name
+of Edward Johnson, he took charge of temporal concerns of
+the Church. I want it well understood that I did not take any
+part in the troubles between Mr. Allen and his people. My
+peculiar disposition was and is to-day, not to be a <sic corr="sectarian;">secterian;</sic>
+but having an ardent love for preaching and being possessed
+of the missionary spirit, I was moved to go wherever there
+was a door opened for the preaching of God's word. I agreed
+however to take the Spiritual over-sight of the newly formed
+organization.  I labored among <sic corr="them">then</sic> a considerable while; 
+they wanted to come under some Connection; therefore 
+asked my advice in the matter. I told them they could write to the Zion M. E.
+Church, New York, and form a Connection, which they did
+by calling a Convention as Mr. Allen and the founders of
+the A. M. E. Church. This Connection was afterwards
+called the Zion Wesleyan Connection.
+<pb id="dsmith67" n="67"/>
+The Rev. Mr. Rush was their first superintendent.
+He desired me to go to Jersey City, nine miles
+from New York; there I built a church and it
+became very prosperous. At this time the whites
+were mobbing the colored people and burning their
+property all over the country. I then went to
+Hartford, Connecticut, and established a Society
+there; here I became acquainted with Mr. Burch,
+who afterwards became a preacher in the A. M. E.
+Connection. He is still living and preaching
+in the State of Mississippi. I raised a Society in
+Hartford, Con., and then went to Bridgeport and
+built a church there. I remained in Bridgeport
+six months. I then went to New York to see
+Mr. Rush, the superintendent of the A. M. E.Z.
+Connection, he desired my ordination papers; I
+went into his room and he wrote on these papers,
+that I was a preacher of the Zion Wesleyan Connection.
+I could not write, or read writing; when
+I found out what Mr. Rush had done, I determined
+to go out of the reach of all of these contending
+parties. I concluded to come West, but I did not
+make my intention known to any one.</p>
+          <p>During the time I was laboring with the Zion Wesleyan
+Connection, there arose trouble between Bishop Allen and
+Rev. Wm. Paul Quinn, and I am not able to say whether the
+Rev. Quinn was
+<pb id="dsmith68" n="68"/>
+turned out of the Connection, or whether he left
+the Bethel Connection. However this may be,
+he went to New York and founded a Church with
+about one hundred and fifty members; but he did
+not succeed well with his enterprise. He requested
+me to come and hold Quarterly meeting for
+him, and while there the people became very
+much attached to me, and wanted me to take
+charge of their Church.</p>
+          <p>Soon Bishop Allen died, and Bishop Morris
+Brown filled his place.</p>
+          <p>At a love feast in Philadelphia, Bro. Quinn,
+having applied to join the Connection again,
+Bishop Brown brought the matter before the
+people and they consented to receive him with
+this proviso:—that he should go West and speed
+the Connection. This he agreed to do, and started
+off the next morning, and he as all know, was
+quite successful in his labors in the West. I soon
+followed him to the far West. I passed through
+Pittsburgh to Cincinnati, Ohio. I will speak in
+the next chapter of my labor in Ohio. The
+Macedonian cry, “come and help,” was heard on
+the west side of the Allegheny <sic corr="mountains.">mountians.</sic></p>
+        </div2>
+        <pb id="dsmith69" n="69"/>
+        <div2 type="chapter">
+          <head>CHAPTER X.
+<lb/>
+MY LABORS IN OHIO.</head>
+          <p>Elder Quinn was the Presiding Elder over the West.
+He met Bishop Morris Brown at Pittsburg, and came
+from there to Chillicothe, Ohio. I understand this was
+the second session of Conference which met in 1831. I
+had just arrived in Cincinnati about the time the
+Conference began its session at Chillicothe. I was then
+in the midst of a great revival in Cincinnati, and many
+souls were brought to Christ. Bishop Brown and Elder
+Quinn had written to me, informing me that it was the
+Bishop's intention to station Bro. Atchison in
+Cincinnati, and desired that I should remain and assist
+him in his pastoral duties. I consented, and through
+our labors many souls were converted to God. I wish
+to mention some important facts connected with the
+Rev. Atchison's year's labor in Cincinnati:</p>
+          <p>First.—I informed the people of Cincinnati that I was a
+Mason, and I called them together and we raised three
+hundred dollars in a few days. They immediately
+selected a delegation (recommended by myself) and
+sent them to the Philadelphia
+<pb id="dsmith70" n="70"/>
+Lodge (to which I belonged) to be made Masons. Mr.
+Anderson was then Master of the Lodge of which I speak.
+The delegation returned, bringing Mr. Anderson with them,
+and immediately began to make colored Masons in the
+West. We soon formed two numbers in the city, and from
+this time out, masonry spread among the colored people in
+the West like wild-fire. “Behold how great a matter a little
+fire kindleth.”</p>
+          <p>The colored people being wronged by the white people
+of Cincinnati, and having nowhere nor means with which to
+bury their dead, I proposed to form a benevolent society
+among the colored population of Cincinnati. A great many
+joined this society, and each member was to pay 25 cents
+per month. We soon gathered considerable means, and the
+society was in the act of putting out its money on interest
+when I persuaded them to buy a burying ground, which 
+they did. This proved a great blessing to the people of 
+color in Cincinnati. Then I proceeded to establish a Ladies' 
+Court among the Masons' wives and daughters. This society 
+spread far and wide in the West, and to-day it is very extensive. 
+Many other such societies of the kind have been formed and have 
+done great good to my people. I am said to be the father of the
+benevolent societies in the West.
+<pb id="dsmith71" n="71"/>
+I wish to make a short apology, not in the sense
+of excusing myself for having set these societies at work in
+the West, but I mean my apology in the way of deference
+for my conduct in this direction, and at the time I was so
+busily engaged in the noble work of organizing and carrying
+on benevolent societies. 1st, Societies then, and their use.
+2d, Societies now, and their abuses.</p>
+          <p>It is a piece of wisdom, as well as it is natural, for the
+races and nations of mankind to be united in love and for the
+accomplishment of noble objects and enterprises in life.
+History proves that the most united race or nation has ever
+been the most successful and have accomplished the
+greatest good for the world. When I came to the West, and
+at the time when I was young and vigorous and in the active
+field laboring for God and the good of my people, “The
+people were like sheep having no shepherd,” devoured on
+every side by the wolves of slavery, prejudice and
+ostracism. They were daily destroyed and wasted by mobs,
+both in the East and West, North and South. The great need
+of my people was “leaders” and “organizers.” These leaders
+were so few and the wants of the people so many, that they
+were required to perform the religious, political, intellectual
+and benevolent duties common to the
+<pb id="dsmith72" n="72"/>
+race; hence, you can readily see why I was forced to the
+duty of organizing and carrying on benevolent associations
+among my people at that time and under those
+circumstances, and aside from these conditions which force
+the religious leaders into so many positions which seem
+unbecoming at the present time. The next thought which
+presents itself to us is this fact: The existence of the
+benevolent societies is justified.</p>
+          <p>First —There was no admission to the poor houses for
+colored people. They had no where to bury their dead. They
+were not admitted to public schools nor churches without
+impositions and afflictions; hence it was necessary for the
+people to unite and assist each other in these directions. No
+reasonable person will condemn these early fathers of the
+race.</p>
+          <p>Second.—Benevolent Societies of to-day, and their abuses.
+While I claim to be the father of Benevolent Societies in the
+West, I do not think that there is any just reason for the
+existence of so many Benevolent Societies, and the extent to
+which they are carried on by their leaders at the
+present day. 1st, the necessity for their existence is not
+urgent and plausible as it was at the time when I came out
+West. All have admission (with few exceptions) to the
+public schools, burying
+<pb id="dsmith73" n="73"/>
+grounds and infirmaries. Again the cities and towns have
+their organized committies to see after the poor and supply
+them with such things as they really need. Again, it is
+claimed that the Churches are vastly injured by these
+organizations, &amp;c. I have only this to say among the last
+words of this life: If these Societies have become
+demoralizing to the Church of God, I say away with them,
+and let the present generation have some other institutions
+in harmony with the Church of God, and which will meet
+the wants of the present age.</p>
+          <p>“To everything there is a season, and a time to every
+purpose under the heaven.”</p>
+          <p>The Church of God is the hope of the world, and in her
+triumph and success is found all the best interests and
+happiness of mankind. My prayer is that “the Kingdom of
+God may come and his will be done on earth, as the angels
+do it in heaven.”</p>
+          <lg>
+            <l>“Hosanna to our Conquering King!</l>
+            <l> All hail, incarnated love!</l>
+            <l>Ten thousand songs and glories wait</l>
+            <l> To crown thy head above.</l>
+          </lg>
+          <lg>
+            <l>Thy victories and thy deathless fame,</l>
+            <l>Through all the world shall run,</l>
+            <l>And everlasting ages sing</l>
+            <l>The triumphs thou has won.”</l>
+          </lg>
+        </div2>
+        <pb id="dsmith74" n="74"/>
+        <div2 type="chapter">
+          <head>CHAPTER XI.
+<lb/>
+MY FIRST APPOINTMENT IN OHIO.</head>
+          <p>I do not recollect where the Conference met following the
+session at Chillicothe, 1831. However this may be, at the
+session of 1832, I was sent to lay out a circuit beginning at
+Hamilton, O. The circuit comprised the following places:</p>
+          <p>Hamilton, Mason, Lebanon, Harveysburg and Xenia.
+These constituted what was known and called the Hamilton
+circuit. I made very little progress either temporal or
+spiritual, during the year, a black cloud of wickedness and
+ignorance engrossed the minds and hearts of the people.
+The whites were very much opposed to the prosperity of
+the colored people. The colored people and the
+abolitionists were persecuted and driven from their little
+homes which they had accumulated by hard labor. Their
+churches and houses were stoned and many were compelled
+to sell out and go to Canada. This state of things continued
+for quite a while. The mean and fiendish treatment the
+colored people received from the low class of whites,
+encouraged and urged on by the intelligent and wealthy, can
+not be described. The
+<pb id="dsmith75" n="75"/>
+fugitive slave law was in full force, and this hellish
+instrument made the low-class of whites companions of
+blood hounds and negro hunters. In search for the fleeing
+slaves, they would come in our houses at night and
+maltreat our wives and daughters, and we had no appeal,
+our oaths were useless breath and words spent to no
+purpose.</p>
+          <p>The Rev. M. M. Clarke, a scholar and the embodiment
+of manliness, called a convention, and he and men of like
+minds, established schools for the colored children, but
+these were all broken up by mob laws. The school houses
+were destroyed and the children stoned. After such fearful
+destruction of his school enterprise, he joined the traveling
+Connection and was stationed in Cincinnati—in this station
+he met with great success. From here he went to the State
+of Illinois. This eminent and enterprising man soon visited
+the continent of Africa.</p>
+          <p>I was again stationed in the city of Washington, D. C. He
+returned and was much deranged in his mind; this affliction
+came from family trouble which he encountered. We did
+what we could for him in Washington, and sent him West,
+and he became very useful again, and ended his days on
+earth while stationed in New Orleans.</p>
+          <p>I leave this point at present for fear the torch
+<pb id="dsmith76" n="76"/>
+of my indignation will be kindled and my manhood
+aroused to an unchristian condition. In the <sic corr="original printing error">the</sic> sunset of my
+life, when the battle-ax (the ballot) which defends my
+manhood is placed at my disposal, I am bound by the
+law of self-preservation, to cast it manfully against the
+remains of that class who thus wronged and crushed the
+people with whom I am identified.</p>
+          <p>I now come back to my spiritual labors. The following
+year, 1833, I was re-appointed to the Hamilton circuit, and
+did much better than I did the first year. I established little
+societies in all the places which constituted the Hamilton
+circuit, with the exception of Harveysburg. I had what I
+considered a successful camp meeting at Harveysburg, but
+did not build any church there. When I visited this point I
+usually preached in the United Brethren's church, as my
+people did not have any place of worship. The Quakers and
+the whites in general, were much taken up with me. The
+next Conference year the Rev. James Woodson was
+appointed to the Hamilton circuit, and I was made his
+Presiding Elder. He did great good, temporal and spiritual,
+and this year we formed a society in Oxford, and was
+<sic corr="successful">succesful</sic> in getting a Church.</p>
+          <p>The next year the Bishop saw fit to send me to
+<pb id="dsmith77" n="77"/>
+Chillicothe. The people were then worshiping in an old
+delapidated frame church, but during the year I bought a
+lot and paid for it. The people were poor and dilatory,
+hence assisted me but little in my Church labors. However
+I and some wicked friends with whom I had gotten
+acquainted, and who thought a great deal of me, went out
+and got the stone, boated them to Chillicothe and laid the
+foundation for a new Church; this foundation remained for
+ten years without a building. The same year I went to
+Bainbridge and collected enough money to build a church
+there. Allow me to say that the white friends at this place
+were exceedingly liberal. Bro. Samuel Watts was appointed
+to the Chillicothe charge and after he received his
+appointment I persuaded him to go among the whites and
+obtain money enough to build a church, and I remember I
+gave him a gold dollar to start the work, he was quite
+successful, and built the brick church which the
+congregation now occupies.</p>
+          <p>My next appointment was to the Columbus charge, by
+Bishop Nazrey. It will be remembered by this time we (the
+African Methodist) had the following Bishops: Bishop
+Morris Brown, Quinn, Payne and Nazrey. I succeeded
+the Rev. J. M. Brown. The Church was very much confused
+<pb id="dsmith78" n="78"/>
+and the officers all scattered, so much so that they would
+not meet me when I arrived (trouble too bad to mention) I
+went on doing the best I could and there was always a
+crowd to hear what I had to say. Mr. Jas. Respus was one
+of the trustees, but he did not profess faith in the Lord
+Jesus. He was in good circumstances and a man of influence,
+he and his wife declared they would stand by me. I stopped
+with them, and he lifted the collections for me, until I could
+get some men in the Church out of whom I might get some
+officers. We had a successful revival and many were
+converted to God. We soon re-organized the Church and
+built a parsonage, by the help of the Lord. The parsonage
+was built on the old Church lot. Mr. &amp; Mrs. Respus were
+great helpers. He had two teams and agreed to haul the
+stone to Capitol Square. I drove one of these teams for my
+board that Conference year. As Conference came on the
+people spoke very strongly of petitioning for my return,
+but I heard of it and told them from the pulpit that I would
+not come back the next year. Bishop Nazrey was on his way
+to Detroit, Michigan, to hold Conference, and unbeknown
+to me, the people wrote him to stop in Columbus as they
+wished to have an interview with him upon the subject of
+sending me back to Columbus, but I would not consent.</p>
+          <pb id="dsmith79" n="79"/>
+          <p>From the Detroit Conference, 1858, I was sent
+to Allegheny, Penn.  There I found an old delapidated
+church, with a few poor members who were
+very deficient in business, and here wickedness
+prevailed to a fearful extent. I did the best I
+could, and after much hard labor, we had a 
+great revival, collected three hundred dollars from the
+white and colored people. At the same time
+laboring under a great many disadvantages. We
+repaired the church, and matters moved on nicely.
+From the next Conference the Bishop appointed
+me to the Zanesville charge, and here I found many
+fine business and christian men and women. I succeeded
+the Rev. A. R. Green, who died at Vicksburg, from the
+yellow fever, a few years ago. He was considered at
+that time one of our best business men, but was quite
+self-willed. When I went to Zanesville, the Rev. A. R. 
+Green had an enterprise on foot to obtain a place of
+worship. He had gotten the people to subscribe
+for this purpose, and it seems he had purchased
+two lots with houses on them, and at the same
+time he and the trustees held a claim on this
+property. The trustees and the former pastor
+had the books arranged so we could not understand
+them, hence this made a division between the people
+and trustees. I went to work and
+<pb id="dsmith80" n="80"/>
+turned the trustees out of the board, contrary to
+the law and discipline of the Church, but it was
+the best I could do. They declared war against
+me and followed me to the Conference. I am 
+sorry to say that the Rev. A. R. Green lead the
+trustees in their persecutions against me. At the
+Conference they instituted a trial against me, and
+proved that I was guilty of mal-administration.
+I acknowledged before the Conference that I had
+turned out the trustees contrary to the law of the
+Church. I was not working for David Smith, but
+for God. I did wrong; therefore, I asked the
+forgiveness of the Bishop and Conference, and also
+the trustees. They readily forgave me, and the
+Conference restored the trustees to their office
+again.</p>
+          <p>I then went to Bishop Nazrey and prayed him
+to send the Rev. James A. Shorter to the Zanesville
+charge, which he did, for Bishop Nazrey had
+the utmost confidence in me. I knew full well 
+that the Rev. James A. Shorter could settle any
+difficulty of the kind according to the law and
+discipline of the Church. He soon saw the trouble,
+settled it and purchased the church I was
+trying to buy from the white people. This ended all
+the dispute, and the Church sailed on in peace
+and harmony. Since that time Zanesville has
+<pb id="dsmith81" n="81"/>
+been among the leading appointments in the Ohio
+Conference. Among the leading intelligent Christian
+workers of Zanesville I have only to mention the
+following: Bro. Messer, who held many important
+positions in the Church at Zanesville; Bro. N. T. Gant, a
+wealthy citizen and member of the A. M. E. Church, did
+much toward building up this important charge. I might
+mention many other noble-hearted Christian men and
+women who did much to make the A. M. E. Church what
+it is in the city of Zanesville.</p>
+          <p>This charge has been blessed with some of the best
+and most intelligent pastors of the Ohio Conference,
+among whom were the Reverends A. R. Green, David
+Smith, J. A. Shorter (now Bishop), S. H. Thompson, A.
+A. Whiteman, G. H. Graham and Dr. John G. Mitchell.
+These men have done much to inspire this
+congregation to noble deeds. “Like priests; like
+people.”</p>
+        </div2>
+        <pb id="dsmith82" n="82"/>
+        <div2 type="chapter">
+          <head>CHAPTER XII.
+<lb/>
+MY GENERAL LABORS.</head>
+          <p>I wish to pause for a while with my labors in Ohio and
+speak briefly of some of my general labors, which have
+important connections with something I shall say in the
+future.</p>
+          <div3 type="subchapter">
+            <head>HOW AFRICAN METHODISM WAS FIRST 
+<lb/>INTRODUCED IN KENTUCKY.</head>
+            <p>I went to New Orleans and remained there six months.
+On my return I stopped in the city of Louisville, Ky. Here
+I saw a lady that suited my fancy, and I therefore married
+her, (my third wife). She was Sonney Lewis' widow. The
+M. E. preacher who had charge of the colored and white
+Methodists of Louisville knew me in Baltimore, and was
+acquainted with the nature and object of the African M. E.
+Church. He persuaded me not to say anything about the A.
+M. E. Church, as it was very dangerous at that time for any
+one to advocate the principles of Christian manhood which
+the A. M. E. Church held and taught her adherents. There
+was a man by the name of Rev. James Harper who was
+<pb id="dsmith83" n="83"/>
+pastor at Lexington about the time I stopped in the city.
+He knew me years before, and was not upon very good
+terms with me. He incited the people against me and the 
+A. M. E. Church, calling us abolitionists. The white 
+preacher of Louisville persuaded me to take charge of 
+the Centre-street Church, and another little Church which 
+belonged to a man by the name of Washington Spradley.
+I consented, but did not join them.</p>
+            <p>That year I became acquainted with a great many of the
+white preachers and citizens of Louisville, and they had 
+great confidence in me. That year I had wonderful success 
+in Louisville. After my year was out I bought property and 
+moved over to Jeffersonville, Ind., and raised a Society there. 
+I also went back (now and then) to Louisville and preached 
+in my wife's mother's house and raised a society under the
+auspices of the A. M. E. Church. There was a man by the
+name of Smith who agreed, if I could preach for the little
+society in Louisville, he would pay my traveling expenses
+to and from the city. The little society in Louisville soon 
+bought a lot. I then <sic corr="laid">layed</sic> out the Jefferson circuit, comprising
+New Albany, Charleston and Jeffersonville. We
+built churches in New Albany and Jeffersonville. 
+I found out where the Rev. William Paul Quinn
+<pb id="dsmith84" n="84"/>
+was (he was not then Bishop), and wrote to him to
+come to Jeffersonville. He came, bringing the Rev.
+George Johnson with him. He was Elder Quinn's
+secretary. I stated to him what I had done, and he then
+called a Quarterly Conference in Jeffersonville and
+appointed the Rev. George Johnson to Louisville,
+where he put up a little frame building on the lot they
+bought in the city. This little society multiplied and
+finally built “Quinn's Chapel.” He met with
+considerable difficulty. We appointed Bro. George
+Johnson's father to the Jeffersonville circuit, and my
+house was headquarters.</p>
+            <p>I had brought Major Wilkerson from New Orleans
+with me and introduced him to the Ohio Conference
+which met at Cincinnati. When the Conference met in
+Cincinnati, William Paul Quinn was Presiding Elder.
+He gave the Rev. Wilkerson charge of a circuit in
+Indiana, and made me Presiding Elder over Rev.
+George Johnson, his Father, and the Rev. Wilkerson.</p>
+            <p>The following year the General Conference met in
+Pittsburg, Pa., 1844. At this General Conference the
+Rev. William Paul Quinn was made Bishop. I
+prepared to go, but did not, for some reason best
+known to myself. The following year the newly-made
+Bishop organized the Indiana
+<pb id="dsmith85" n="85"/>
+Conference, and appointed Vincennes, on the Wabash
+river, as the place of meeting. During this year I found the
+Rev. Willis R. Revels, with whom I became acquainted in
+Connecticut. He was in a very low condition, but he
+prepared and went with me to the Conference. He afterward
+became an eminent preacher in the A. M. E. Church, and
+died at his home in Indianapolis, an honored member of the
+Indiana Conference.</p>
+            <p>I moved from Jeffersonville to Cincinnati. I took what was
+called a ministerial respite, and retained this relation several
+years. I will now return to my labors in Ohio. During the
+years of general labor I became acquainted and was generally
+known throughout the West. My acquaintance and labors
+introduced me as an African Methodist, and the people of
+the then Western States became friends to the A. M E.
+Church; hence the seed of African Methodism, wafted from
+the East to the West by a few sacrificing missionaries, grew
+and spread into the plant of African Methodism, until to-day 
+she claims her thousands of noble-hearted Christians in
+the Middle and Western States. The noted name of the once
+Bishop William Paul Quinn has only to be mentioned, and
+the impulse of gratefulness echoes from the Pacific to the
+summit of the Allegheny
+<pb id="dsmith86" n="86"/>
+mountains. I am generally called by the Western brethren
+Father Smith, of Ohio.</p>
+          </div3>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER XIII.
+<lb/>
+THE RETURN TO MY LABORS IN OHIO.</head>
+          <p>When my respite was out in Cincinnati I was again
+appointed to the Hamilton circuit. The following brethren
+had charge of the circuit from the time I laid out the circuit
+until I returned to it the second time: Reverends Newson,
+Wells, Jessie, Devine, Rice and Daniel Winslow. These
+brethren made a considerable improvement in the condition
+of the circuit during their time. Just before Bro. Winslow left
+the circuit I held a camp meeting for him at Mason, and it
+was at this meeting that Bishop William Paul Quinn was
+stabbed by some ruffian, but we are glad to say it was only
+a flesh wound. He instituted a law suit, but it did not
+amount to anything. He then went back to Philadelphia to
+show the public what he suffered for his people in the
+West, and the people had great sympathy for him.</p>
+          <p>The next Conference year after this camp meeting, I
+followed Brother Winslow on the Hamilton
+<pb id="dsmith87" n="87"/>
+circuit. I had a pleasant time, but little was done in the way
+of building churches. Wesley Roberts negotiated (upon his
+own responsibility) with a man by the name of Rader to
+build a brick church in the lower part of Xenia. Mr. Rader
+put up the walls and put the roof on the building and Bro.
+Roberts became security for the money. This was toward
+the end of Conference year. The circuit was so large that I
+could not remain in Xenia long enough to do much in the
+way of assisting the people to collect money to meet their
+payment. At the session of the ensuing Conference I
+advised the Conference to make Xenia a station, and that I
+would go and be their pastor and trust God for my pay. “It
+may not be my way or time, but in his way and time the
+Lord will provide.”</p>
+          <p>The Conference divided the Hamilton circuit and made
+Xenia a station and returned me as the pastor. I had only
+eight members, and nowhere to stay but at Brother Wesley
+Roberts' house. The church had no floor in it, and I went to
+work, got boards and put a floor in the church. The people
+did not know anything about festivals. I went to
+Cincinnati, and got some of the sisters out of our Church to
+purchase such things as I needed for the occasion, and two
+of them came
+<pb id="dsmith88" n="88"/>
+with me and assisted in carrying on the enterprise. We
+realized a considerable amount of money to pay off our
+debt, for we had two festivals almost in succession. There
+were two things which made its successful in this
+enterprise:</p>
+          <p>First.—The people had a mind to work for those who were
+members of the Church; were possessed of zeal and
+magnanimity of heart and unanimity of purpose which aided
+them to succeed; hence, they accomplished the work their
+hands found to do. The work of building the church by the
+eight members (assisted by the liberal-hearted community)
+and this remarkable festival or festivals stands among the
+greatest achievements of the A. M. E. Church in the city of
+Xenia. Although the A. M. E. Church in Xenia has been
+afflicted by a “split,” yet she has gathered and retained a fair
+proportion of the intelligent and wealthy citizens of our
+city, and bids fair to be among the prominent appointments
+of the Ohio Conference.</p>
+          <p>Soon after our festivals the news came that a railroad was to be
+laid between Xenia and Dayton, and that it would take a part off
+of our church lot. The people became very much dissatisfied and
+discouraged, but, before the Conference year was up, I had
+contracted for the church where we
+<pb id="dsmith89" n="89"/>
+now worship. We contracted for the same with a man by the
+name of Barr for $1,200, and out of said amount Mr. Rader
+was to be paid the balance due him for building the little
+brick church, and at the same time Mr. Barr was to take the
+NOTE we (the Church) held against the Railroad Company
+who had bought our little church. By this time my year was
+out.</p>
+          <p>The next Conference year the Bishop appointed the Rev.
+Jeremiah Bowman to the Xenia station. I was one of the
+trustees of the Church in Xenia. I felt it my duty to guard
+the interest of the Church I had labored so hard to obtain,
+therefore I took a respite and came home to see after
+matters. There was some informality in the notes given Mr.
+Barr, and the Church had seven hundred dollars more to pay
+than she had agreed to. The people were very much
+dissatisfied with Mr. Bowman, for he was very disagreeable.
+He had everything his own way, and went to work and
+seated the Church, called the Quarterly Conference. He
+appointed me Steward, and said the books, papers and
+money of the Church should be put in my hands. I held my
+peace, as there was much confusion.</p>
+          <p>As soon as he got the church seated he sent for Bishop
+Quinn and had the church consecrated,
+<pb id="dsmith90" n="90"/>
+and took up a collection of $18 or $20, which was
+placed in my hands. I carried the money out
+home (I was then living at Wilberforce). He
+came the next morning and demanded the papers
+and money to show them to the Bishop (as he
+told me). I refused, and he became angry and
+fell out with me. He came in the afternoon
+(Monday) and said the Bishop was going away
+on Tuesday and wanted to see the papers before
+he departed. I gave him the papers and books,
+but not the money. I gave the money to one of
+the Stewards, Bro. Joseph Garrett, who lives in
+Toledo. Tuesday morning, I came to Xenia,
+saw Bishop Quinn, and stated to him what Bro.
+Bowman had said. He knew nothing of it, but
+said he wanted his expenses paid. The entire
+year was one of trouble until the ensuing 
+Conference. The next Conference was held in Xenia,
+1856, Bishop D. A. Payne, presiding. I brought
+a charge against Bro. Bowman for the manner
+with which he had treated the people. Bro. Bowman 
+brought a charge against me for interfering
+with his charge. The Bishop stated that it was
+necessary to try the charge against me first. The
+committee decided that I was not guilty of interfering 
+with Bro. Bowman's charge. Then they
+proceeded with the charge against Bro. Bowman.
+<pb id="dsmith91" n="91"/>
+With this we leave the matter, saying none but God knows
+the trouble the Church and Conference had with Bro.
+Bowman.</p>
+          <p>From the Xenia Conference I was appointed to the Troy
+and Piqua circuit, succeeding the Rev. H. A. Jackson. The
+cloud of trouble had turned into sunshine, and we had a
+glorious time that year. After I served the Troy circuit one
+year, Bishop Payne insisted that I should go to Washington,
+D. C., as the people wanted me there very much. It had been
+about forty years since I had established the Church in
+Washington; hence, they wanted me to return, which I did.
+This was in 1859 or 1860. I took charge of Israel Church
+and had the oversight of the Church on the Island. There
+seemed to be a strange feeling come over the people on my
+return which I can not describe. There never was a time
+when there seemed to be more union among the people than
+at that time, though it was war times.</p>
+          <p>I became acquainted with Mr. Lovejoy, who was a
+member of Congress at the time. He, his wife and associates
+would attend my Church. Mr. Lovejoy often preached for
+me, and he and his associates and their wives contributed
+largely to my support. The wives of this class of men (for
+they were abolitionists of the deepest dye)
+<pb id="dsmith92" n="92"/>
+have given me many a five-dollar gold piece, and they would
+tell me all about the efforts they were then putting forth to
+make the District free. I could not keep it, but would often
+tell my old brethren and sisters. They often begged me not
+to say anything about it, for fear the white people would
+get hold of it and maltreat them. Mr. Lovejoy said to me: “I
+will let you know when the effort for the liberation of the
+District is completed, and I want you to have a jollification
+meeting in your Church.”</p>
+          <p>This, I did. I was the first to publish it through
+Washington and Georgetown. We had a wonderful
+jollification meeting at which many of the Senators and their
+wives were present. I preached from the following words:
+“Greater is he that is for us than he that is against us.” O,
+such a shout of joy as we had in and out of the church. It
+can not be described. At night I tried to preach but failed,
+for such was the joy of the people. During the year I built a
+church in Good Hope and had a large society. The
+Government took it for the use of the soldiers, but paid us
+well for its use. We took the money, paid for the church and
+everything seemed to go on gloriously and prosperously.</p>
+          <p>The martial law of Washington became such
+<pb id="dsmith93" n="93"/>
+that no persons were allowed to leave the city; (I remained
+in Washington during the war) I went to President Lincoln
+and told him I wanted to go home to see my wife. He said
+to me, “Father Smith, I can not give you a permit to go
+home.” On the day I reached Xenia, Ohio, peace was
+declared, and Oh, what rejoicing there was in the city over
+the Union victory, tongue can not express it. I remained
+home until the Ohio Conference met in Delaware. I was
+then appointed by Bishop Quinn, to Kentucky as a
+Missionary. The purpose was to get together all the
+Churches which belonged to my people, or as many as I
+possibly could. I succeeded in adding the following
+Churches to the A. M. E. Church: St. Paul's Church,
+Lexington, Ky., and I appointed the Rev. G. H. Shaffer as
+pastor, and one at Georgetown which I had charge of; and
+one at Nicholasville; and another at Harrodsburg. Rev. R.
+Craig had the pastoral charge of the Harrodsburg. To the
+Church at Frankfort, I appointed the Rev. W. H. Brown,
+who was then a student at Wilberforce. To the Church at
+Cynthiana, Rev. J. Francis. I do not recollect whom I
+appointed to Danville. The Conference met in Chillicothe in
+1866, and I brought my brethren to Conference from
+Kentucky to be ordained, which was done, and they
+<pb id="dsmith94" n="94"/>
+were sent to enlarge the <sic corr="ministerial">ministeral</sic> ranks of the
+A. M. E. Church, and now the little Kentucky
+field has so enlarged in the last ten years, she has
+become a <sic corr="separate">seperate</sic> Conference in our Connection,
+known as the “Kentucky Conference of the A. M. E. 
+Church,” and now has between fifty and 
+sixty regular appointments, with five or six thousand 
+members. At the last session, September,
+1880, this Conference was divided, and now there
+are two Conferences in the State of Kentucky.
+Glory to God for the wonderful success that the
+humble labors of his servant have accomplished
+in that field and part of his vineyard.</p>
+          <lg>
+            <l>“This work, to thee, God, in faith we lay,</l>
+            <l>This work, Lord, to thee we raise;</l>
+            <l>Thine eye be opened night and day,</l>
+            <l>To guard this work of prayer and praise.</l>
+          </lg>
+          <lg>
+            <l>Upon this work heavenly peace,</l>
+            <l>And holy love, and concord dwell,</l>
+            <l>Here give the burdened conscience ease.</l>
+            <l>And the wounded spirit heal.</l>
+          </lg>
+          <lg>
+            <l>But will, indeed, Jehovah deign,</l>
+            <l>Here to abide no transient guest,</l>
+            <l>Here will our great Redeemer reign,</l>
+            <l>And here the Holy Spirit rest.</l>
+          </lg>
+          <lg>
+            <l>Never let thy glory hence depart;</l>
+            <l>Yet choose not, Lord, this shrine alone,</l>
+            <l>Thy Spirit dwell in every heart,</l>
+            <l>In every bosom fix thy throne.”</l>
+          </lg>
+          <pb id="dsmith95" n="95"/>
+          <p>My next appointment was to Urbana station. I was
+appointed to the charge by Bishop Payne, 1873, to fill out
+the incomplete year of the Rev. J.W. Steward. We succeeded
+in taking in eighty-three new members, and raised seven
+hundred dollars to pay on Church debts, &amp;c. The Bishop
+returned me to the Urbana station from Conference.
+Everything went on nicely for a while, then one of the
+officers became dissatisfied, saying I was too old, and used
+his influence in the official board against me, until he got his
+associates dissatisfied. He and the other official members
+told me at an official meeting, “that they had nothing against
+me, only that I was too old to entertain the congregation,” (I
+mean the young folks). I want you to mark, this fact—these
+young people had come in the Church under my
+administration. I think the real cause was this: They wanted
+a young preacher.</p>
+          <p>I made it a practice to carry the young preachers, &amp;c.,
+when I went to Urbana on Sabbath, and these fathers in the
+Church, appreciating young men, were moved to this unjust
+complaint against me. I have always made it a rule of my
+life, never to stay with a people that did not want me. I
+therefore told them to write a statement to that effect, and
+that I would convey it to Bishop
+<pb id="dsmith96" n="96"/>
+Payne. I did so, and the Bishop moved me immediately.
+This ended my labors in Urbana.</p>
+          <p>The next appointment I received was to the Troy and
+Piqua circuit. I met with little success at this point, yet I
+succeeded in keeping the Church together, and I also
+collected some money to assist in enlarging the Church. 
+I gave fifty dollars for that purpose. The Church was 
+remodeled after my Conference year was up.</p>
+          <p>The next Conference met in Portsmouth. I located at this
+Conference: From then until the writing of this book I have
+been going through the Connection, assisting the brethren
+and anxiously watching the success of the A. M. E.
+Connection.</p>
+          <p>Now, at the close of nearly a century of years, I stand, as
+it were, up in the dome of African Methodism. My ears are
+saluted with the noise of a mighty Christian army of the
+sable sons that have arisen out of the waters of Africa—an
+army comprising fifteen hundred traveling preachers, three
+hundred and thirty-six thousand members, and one
+publishing house, situated at 631 Pine street, Philadelphia.
+At this publication department the great organ of the A.M.
+E. Church is printed,—“The Christian Recorder”—, which is
+the exponent and battle-axe of the race, exposing
+<pb id="dsmith97" n="97"/>
+corruption in Church and State and defending
+the Christian manhood of the race. We have two
+foreign missionaries—one stationed in Hayti and
+the other in Africa.</p>
+          <p>I wish to speak of the last great department of
+the A. M. E. Church that has arisen since she
+started—the <hi rend="italics">Christian lighthouse</hi> of the A. M. E.
+Church—viz: Wilberforce University.  Why do
+I speak so particularly and emphasize so strongly
+upon this department of the Church? Simply,
+because the future developments of our beloved
+Church lay in the education and character of her
+<hi rend="italics">ministerial rank, for as the preachers are so will
+the people be.</hi> The cause must produce <hi rend="italics">like effect.</hi>
+A wise and holy ministry will create and develop
+a wise and holy Church. As we look through
+the window of prophecy we read these sentences:
+“For the earth shall fill with the knowledge of
+God as the waters cover the sea.”—Heb. 2-14.
+To show what progress we are making toward a
+Holy ministry and Christian education, I refer the
+readers to the History of Wilberforce as carefully
+prepared and published by Rt. Rev. D. A. Payne,
+D. D.</p>
+        </div2>
+      </div1>
+      <div1 type="illustration">
+        <pb id="dsmith98" n="98"/>
+        <p>
+          <figure id="ill1" entity="smith98">
+            <p>[Illustration]</p>
+            <p/>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="text">
+        <pb id="dsmith99" n="99"/>
+        <head>CHAPTER XIII.
+<lb/>
+ THE HISTORY
+<lb/>
+OF THE 
+<lb/>
+ORIGIN AND DEVELOPMENT
+<lb/>
+OF 
+<lb/>
+WILBERFORCE UNIVERSITY</head>
+        <docAuthor>BY BISHOP DANIEL A. PAYNE, (<hi rend="italics">Its Former Pres't.</hi>)</docAuthor>
+        <div2 type="subchapter">
+          <head>WILBERFORCE UNDER THE AUSPICES OF THE
+<lb/>
+M. E. CHURCH.</head>
+          <p>“It was in one of the darkest periods of the Nation's
+history, when the Cincinnati Conference of the Methodist
+Episcopal Church, moved by the inspiration of Christian
+philanthropy, appointed a committee of seven to consider
+and report a plan for the improvement of the intellectual
+and moral condition of the thirty thousand colored people
+of Ohio, and those of other free States, by furnishing them
+such facilities of education as had been
+<pb id="dsmith100" n="100"/>
+generally beyond their reach. This period was that
+intervening the passage of the Fugitive Slave Bill and the
+breaking out of the civil war. The demon of slavery had
+reached the zenith of its power, and was preparing for its
+deadly struggle with the genius of liberty. ‘A Brief History
+of the Enterprise’ was written by one of its chief actors, and
+is too interesting and important a leaf in the history of our
+national progress to be abridged. I therefore give it here,
+<hi rend="italics">verbatim et literatim.</hi> It is from the pen of Rev. John F.
+Wright, D. D.:</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="speech">
+                  <p>“ ‘The mission of Methodism, like that of the Gospel, is
+to every human being. All classes have engaged her
+attention, especially the poor; and the colored people of this
+and other lands have shared of her sympathy and labors.
+In 1853 some of the ministers and members of the Methodist
+Episcopal Church saw and felt the necessity of a more
+liberal and concentrated effort to improve the condition and
+furnish the <sic corr="facilities">facilitles</sic> of education to the thirty thousand
+colored people in Ohio and those of other free States. At the
+session of the Cincinnati Conference, held at Hillsboro,
+September 28th, 1853, on motion of Rev. A. Lowrey, it
+was ordered ‘that a committee of seven be appointed by the
+President to inquire and report to the next Conference what
+can best be done to promote the welfare of the colored
+people among us.’ Bishop Janes appointed the following
+that committee, namely: John F. Wright, Augustus Eddy,
+A. Lowrey, G. Moody, J. T. Mitchell, William I. Fee,
+and Charles Elliott.</p>
+                  <pb id="dsmith101" n="101"/>
+                  <p>“ ‘A majority of the committee met on the call of the
+chairman, at the Methodist Book Concern, on the 9th of
+August, 1854, and on a full and free discussion, adopted the
+following brief outline of a plan which was judged best
+calculated to answer the end had in view, and which the
+chairman was requested to elaborate in a report to be
+presented to the Conference:</p>
+                  <p>“ ‘1. <hi rend="italics">Resolved,</hi> That it is of the greatest importance, both
+to the colored and white races in the free States, that all the
+colored people should receive at least a good common
+school education; and that for this purpose well-qualified
+teachers are indispensable.</p>
+                  <p>“ ‘2. That the religious instruction of the colored people is
+necessary to their elevation as well as their salvation.</p>
+                  <p>“ ‘3. That we recommend the establishment of a literary
+institution of a high order for the education of the colored
+people generally, and for the purpose of preparing teachers
+of all grades to labor in the work of educating the colored
+people in our country and elsewhere.</p>
+                  <p>“ ‘4. That we recommend that an attempt be made, on
+the part of the Methodist Episcopal Church, to co-operate
+with the African Methodist Episcopal Church in promoting
+the intellectual and religious improvement of the colored
+people.</p>
+                  <p>“ ‘5. That we recommend the appointment of a general
+agent to carry out the objects proposed in the foregoing
+resolutions, and to labor otherwise for the improvement
+of the people of color.</p>
+                  <pb id="dsmith102" n="102"/>
+                  <p>“ ‘6. That we will furnish all the Conferences in the free
+States of the West with a copy of our resolutions, and
+respectfully request them to cooperate with us.</p>
+                  <p>“ ‘7. That the editor of the Western Christian Advocate be
+requested to publish the foregoing resolutions, and call the
+attention of the Conferences invited to concur in them, in
+such remarks as he may deem proper.</p>
+                  <signed>“ ‘JOHN F. WRIGHT, <hi rend="italics">Chairman.</hi>
+“ ‘A. LOWREY, <hi rend="italics">Secretary.</hi>
+’”</signed>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>Dr. C. Elliott accompanied the publication of these
+resolutions with an able editorial.</p>
+          <p>The chairman of the committee was directed to
+communicate this plan to the several Conferences in the
+West for their consideration and concurrence. This was
+done, and many of those Conferences took favorable action
+on it, which showed that they were not only ready to adopt
+the outline of this great movement, but to assist in carrying
+it out.</p>
+          <p>“The committee, as instructed, made a report to the
+Cincinnati Conference, held in the city, September 23,
+1854.</p>
+          <p>“We have but little space, and can make but a short
+extract from this report. It says: “We give no countenance
+to any theory which goes to deprive the black man of his
+full share in our common humanity, but hail him as a man, a
+brother, in accordance with that grand affirmation of the
+Bible, which must forever settle the unity of the human race;
+that God ‘hath made of one blood all nations of men, for
+to dwell on the face of the
+<pb id="dsmith103" n="103"/>
+earth.’ Hence, we cordially concede our obligation to do
+good to the colored race, according to our ability and their
+necessity. Here, then, is an extensive field open for
+benevolent enterprise, where a part of the large donations of
+the rich and the smaller contributions of those of less ability
+may advantageously mingle together, and where the
+patriot, the statesman, and the philanthropist of every
+description may unite in the accomplishment of this noble
+work.”</p>
+          <p>“Several resolutions were appended to the report. One
+recommended the establishment of a literary institution of a
+high order for the education of the colored youth; and one
+recommended the appointment of a general agent. The
+entire report was adopted by the Conference, and John F.
+Wright was appointed the agent.</p>
+          <p>The general agent, although he had to serve a large district
+as presiding elder, labored quite extensively, by
+correspondence and otherwise, in the work assigned him,
+bearing his own expenses. He succeeded in awakening a
+lively interest on the subject, and in attracting the attention
+and exciting the hopes of the colored people.</p>
+          <p>At the session of the Cincinnati Conference, September
+28th, 1855, the committee, consisting of Rev. C. W. Swain,
+A. Lowrey, and M. Dustin, to whom was referred the
+elevation of the colored people, reported the following 
+resolutions, which were adopted by the Conference:</p>
+          <p>“<hi rend="italics">Resolved,</hi> That we recommend the appointment of
+Rev. John F. Wright as general agent
+<pb id="dsmith104" n="104"/>
+for this Conference, to take the incipient steps for a College
+for the colored people in this State.</p>
+          <p>“<hi rend="italics">Resolved,</hi> That our delegates be, and are hereby
+instructed, to bring this subject before the next General
+Conference for their sanction and assistance.</p>
+          <p>“<hi rend="italics">Resolved,</hi> That it be the duty of our general agent to 
+co-operate with the African Methodist Episcopal Churches in
+promoting Sabbath schools and other educational interests
+of the colored people.”</p>
+          <p>The Conference associated with their general agent C. W.
+Swain, A. Lowery, M. Dustin and M. French, to carry out
+the first resolution, having reference to the eligible and
+valuable Xenia Springs property, in Greene county, Ohio.</p>
+          <p>The general agent and the committee associated with him
+held their first meeting at the Methodist Book Concern,
+Cincinnati, on the 31st of October, 1855, all present except
+Rev. C. W. Swain. John. F. Wright was appointed
+Chairman, and M. French, Secretary.</p>
+          <p>At this meeting the agent was authorized to commence
+negotiating with the owners for the purchase of the Xenia
+Springs property, that being preferred by the committee as
+the most eligible location for such an institution. The agent
+was also authorized to make an offer for the property, and
+solicit subscriptions and donations for the object.</p>
+          <p>The offer made by the agent in behalf of the committee
+was declined, but the negotiations were continued till the
+amount of difference between
+<pb id="dsmith105" n="105"/>
+the parties was reduced to five hundred dollars. At this
+point Mrs. Judge McLean exerted her kind influence in 
+<sic corr="bring">brining</sic> about a contract for the purchase.</p>
+          <p>An offer of $13,500 was made to one of the principal
+owners, who laid it before his partner in the East, and as no
+answer was returned to the Western owner for a longer time
+than was usual, he inferred his friend approved of the sale,
+and closed the contract, agreeing to the payments
+proposed, and so informed his Eastern partner.</p>
+          <p>The former letter had then been received, and he objected
+to the terms on which Mr. D. had agreed to sell the
+property. He came out in person, and Messrs. Wright and
+French, after a long interview, received from him the most
+favorable terms on which he would sell, as follows: One-fourth
+of $13,500 to be paid down, or a note given, including ten
+per cent. interest, at sixty days, with personal endorsers;
+the balance in one and two years; notes to be given by the
+commissioners of the Conference for the deferred payments,
+with approved personal endorsers, and all secured by a
+mortgage on the property, six per cent. interest to be paid
+semi-annually—allowing us only ten days to consider and
+comply with the conditions.</p>
+          <p>Messrs. Wright and French soon obtained an interview
+with their associates at the General Conference at
+Indianapolis, and after a deliberate consultation, they all,
+except Rev. C. W. Swain, agreed, in order to secure this
+valuable and in every way suitable property for this
+benevolent
+<pb id="dsmith106" n="106"/>
+object, that they would sign notes for the amount, and do
+what they could to procure endorsers.</p>
+          <p>In the meantime, this philanthropic work had been
+presented to the General Conference, and referred to a
+committee, consisting of Rev. Cyrus Brooks, Z. Connell,
+Moses Hill, H. E. Pilcher, M. Dustin, F. C. Holliday and
+R. Boyd. On the 22d of May, 1856, through their chairman,
+the committee made their report. It commences with a
+history of the movement, and then describes the Xenia
+Springs property, including fifty-two acres of ground, with
+a large edifice, with numerous rooms, which are well adapted
+for the purpose of a boarding-house, school and class-rooms,
+chapel, etc.; also several cottages, well adapted to the use
+of private families. There are several mineral and other springs
+on the premises, the whole having been fitted up for a
+fashionable watering place, at a cost of some $50,000. It is
+situated in Greene county, Ohio, very near a good turnpike
+road, about midway between Cincinnati and Columbus, and
+near the railway. It is easy of access, and yet retired, in a
+rural, beautiful and healthy region, and in nearly as mild a
+climate as can be obtained north of the Ohio river.</p>
+          <p>The following resolutions, with the whole report, were
+adopted by the Conference with great unanimity, and
+without an expressed objection:</p>
+          <p>“<hi rend="italics">Resolved,</hi> That in the judgment of this General
+Conference, the religious education of the people of color in
+our land, will tend most effectually and speedily, under
+God, to their elevation in this country, and to prepare the
+way for the
+<pb id="dsmith107" n="107"/>
+restoration of the benighted millions of downtrodden
+Africa to the blessings of civilization, science and religion.</p>
+          <p>“<hi rend="italics">Resolved,</hi> That we look upon the proposed plan for
+the education of the colored youth of our land as of God,
+and as promising great good to the people of color among
+us, and untold blessings to the land of their ancestors; and
+we do most earnestly recommend this noble work to the
+sympathy, the prayers, and the generous benefactions of all
+who desire the elevation of the entire family of man.</p>
+          <p>“<hi rend="italics">Resolved,</hi> That we bespeak for the agents of this
+enterprise a cordial reception on the part of all Christians
+and philanthropists, hoping that they may be successful,
+not only in awakening sympathy and enlisting prayers, but
+also in gathering funds to pay for the property purchased,
+and to afford a liberal <sic corr="endowment">endownment</sic> of the Institution, so
+as to place it on an equal footing with the best institutions
+of learning in our country.”</p>
+          <p>Messrs. Wright and French with great pleasure,
+heard of the favorable action of the General 
+Conference, and applied themselves with increased
+exertions to comply with the conditions made by
+Mr. B., the hardest of which seemed to be to 
+procure men from pure philanthropy to endorse their
+notes. Yet they found business men who 
+determined to take the risk for the sake of advancing
+the intellectual and moral improvement of the
+most neglected and needy portion of our population.
+It was known that another party stood
+ready to close the contract with the owners if
+<pb id="dsmith108" n="108"/>
+they failed, offering $1500 more. They had till Saturday,
+the 24th of May, to meet the conditions, and by diligent
+and continued efforts the last endorser was obtained, half an
+hour before midnight, at which the time allowed expired.
+As they are deemed worthy of imperishable honor, we
+render the small tribute of here recording their names, with a
+clear conviction that their record is on high, and a strong
+hope that they will have a brighter and more enduring
+reward in the decisions of the great day.</p>
+          <p>The names are: Wm. Wood, Alexander Webb, John
+Dubois, Morris S. Hopper. The general agent advanced
+$376, and for the balance of the cash payment, $3000, a
+note was given at sixty days, endorsed by William Wood,
+John Elstner, and W. B. Smith &amp; Co.—names never to be
+forgotten.</p>
+          <p>This enterprise was commenced by faith in that God
+who hath respect unto the lowly, and who can control the
+hearts of all men, and its friends have cause to thank God
+and take courage.</p>
+          <p>Immediately after the purchase, the general agent entered
+upon his work of soliciting funds to meet the note of $3000
+due in sixty days. He collected some in the West, and going
+to the East he had some success in New York, Boston,
+Providence, Woonsocket, New Bedford, and other places
+in New England and New York; and it ought to be said, to
+the honor of Dr. W. G. Palmer, that a few days before the
+note matured he loaned the agent, on his individual note,
+$1000, by which, with other funds, the note was paid.</p>
+          <pb id="dsmith109" n="109"/>
+          <p>On the 30th day of August, 1856, application
+was made in due form, to the authorities of Greene
+county, and State of Ohio, for the benefit of the general law
+of the State, passed April 9th, 1852; and every requisition
+of the law being complied with, the institution was
+organized and constituted a body corporate, under the name
+of  “The Wilberforce University.” The corporators adopted
+articles of association and elected a Board of twenty-three
+Trustees. Some changes have taken place in the Board since
+its first organization; the present catalogue, however, will
+show the names of the members of the Board is it now
+exists. At the first meeting John F. Wright, was elected
+President of the Board, and M. French, Secretary; and Rev.
+Professor F. Merrick was elected President of the
+University. There was, however, no demand at that time
+for his services at the institution, and the school was
+supplied with teachers for the time being, as they were
+needed.</p>
+          <p>Professor James K. Parker served as Principal
+from February, 1857, to July, 1858, and then 
+retired with commendation of the Board. Prof.
+Merrick having declined serving, on the 30th of
+June, 1858, Rev. Richard S. Rust, a distinguished
+member of the New Hampshire Conference, was
+unanimously elected President of the Institution.
+When officially notified of his election, after 
+finding he could be released from an important
+pastoral charge, he signified his willingness to
+accept the appointment, and at the commencement
+of the fall term he entered upon his work.
+<pb id="dsmith110" n="110"/>
+He has shown himself well qualified, and has
+been eminently successful in his position. The
+number of students has varied from seventy to
+one hundred. Many of them are very promising,
+and some have made remarkable proficiency in
+their studies. Every year the school has been
+visited with a gracious revival of religion, and
+many of the pupils have been made the happy
+subjects of a work of grace which is deemed all
+important to their usefulness in life. This benevolent 
+scheme is based on the supposition that the
+colored man must, for the most part, be the 
+educator and elevator of his own race in this
+and other lands. Hence, a leading object of the 
+institution is to educate and thoroughly train many 
+of them for professional teachers, or for any other 
+position or pursuit in life to which God, in
+His providence, or by his Spirit, may call them. It 
+has also been a cherished idea with the founders of 
+the Institution that a Theological Department should 
+be organized at the earliest period possible, in which 
+young men called of God to preach “the unsearchable 
+riches of Christ” might receive that aid so essential to 
+prepare them for this great work. We are happy to 
+learn that several young men have already
+entered this department, who give promise of great
+usefulness to the Church and the world. Our enterprise has
+enlisted the hearts and received the favor of some
+distinguished statesmen and other citizens of our common
+country, and is designed to unite and engage the efforts of
+all Christians and philanthropists. Several of the leading
+denominations of Christians
+<pb id="dsmith111" n="111"/>
+are represented in the Board of Trustees. We have good
+reasons to believe this work is of God, that His hand is in
+it, and His blessing will be upon it, and, therefore, we hope
+for good results.</p>
+        </div2>
+        <div2 type="text">
+          <head>IMMEDIATE RESULTS.</head>
+          <p>The catalogue of 1859—60, shows a roll of 207
+students, the majority of whom were the natural
+children of Southern and Southwestern planters.
+These came from the plantation with nothing
+mentally but the ignorance, superstition, and vices
+which slavery engenders; but departed with so
+much intellectual and moral culture as to be 
+qualified to be teachers in several of the Western
+States, and, immediately after the over-throw of
+slavery, entered their native regions as teachers of
+the freedmen.</p>
+          <p>A large number were gathered from the free States, and
+others from some of the most respectable families in
+Pennsylvania, Ohio, Illinois and California. These
+derived the greater benefit from the instruction given at
+<sic corr="Wilberforce,">Wilberfore,</sic> and were prepared for a higher sphere of
+usefulness. Dr. Rust had also formed a class in the Classics
+and Mathematics; another in French; and a third had
+commenced theological studies, of whom were six young
+men, who have since distinguished themselves in the
+pastoral and other fields of usefulness, covering politics,
+the military service of the United States, and the publishing
+department of the African M. E. Church. One of these ran a
+short but glorious career as a pastor, and is gone to enjoy
+the “Saints' everlasting rest.”</p>
+        </div2>
+        <pb id="dsmith112" n="112"/>
+        <div2 type="text">
+          <head>WILBERFORCE UNDER THE AUSPICES OF
+<lb/>THE A. M. E. CHURCH.</head>
+          <p>On the 10th of March, 1863, between 9 and 10 o'clock, P. M., 
+one of the Bishops of the A. M. E. Church agreed with
+the original Trustees<ref id="ref1" n="1" rend="sc" target="note1" targOrder="U">*</ref><note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>*The original Trustees consisted of twenty-four persons, four 
+of whom were colored.</p></note> of Wilberforce University to
+purchase the property for the A. M. E. Church, to be used
+as an institution of education for the colored race; which
+was, at the time, excluded from all the schools of higher
+education, excepting two or three, of which Oberlin was
+chief. Their admission into others, if admitted at all, was on
+such conditions as few persons of color would accept. This
+Bishop associated with himself, Rev. James A. Shorter and
+Mr. John G. Mitchell, who was at that time Principal of a
+graded school in the city of Cincinnati. These three persons
+applied for and obtained a new charter for Wilberforce, in
+the name of the A. M. E. Church, according to the general
+law of Ohio.</p>
+          <p>Under this charter they organized a new Board of
+Trustees, and the school was re-opened on the 3d day of 
+July, 1863, by Prof. John G. Mitchell. Only six children
+were present. They were put upon the study of elementary 
+English.</p>
+          <p>During the first ten months the school gradually
+increased in members and progressed in knowledge.</p>
+          <p>Professor Mitchell was aided by his wife, Mrs. Fannie
+A. Mitchell.</p>
+          <pb id="dsmith113" n="113"/>
+          <p>At the opening of the spring of 1864, the
+increasing numbers demanded another teacher, and
+Miss Esther T. Maltby, of Oberlin, then a teacher
+in the schools of the American Missionary Society,
+at Portsmouth, Va., was secured as Lady Principal
+and Matron.</p>
+          <p>She reached Wilberforce with a Greek testament
+in her hand. It was her traveling companion
+all along the journey from Portsmouth to Xenia.</p>
+          <p>This circumstance I am particular to mention,
+because the fact furnished us with a key to her
+character, as it seemed to have colored her 
+life since. She was an excellent Greek and
+Latin scholar, a good mathematician, and has no
+superior, that I ever saw, as a disciplinarian.
+Zealous for the moral purity of the children and
+youths committed to her care, she labored day and
+night to induce them to be Christians as well as
+scholars.</p>
+          <p>The ordinary religious services of the Institution
+were not sufficient for her; she, therefore, held an
+extra prayer meeting every morning, from 8 to 8 1/2
+o'clock, in which she read the Holy Scriptures,
+exhorted, sang, and prayed with those who were
+willing to attend her meetings, and succeeded in
+leading many from their vices, to live an upright
+life; among whom was a very playful and 
+mischievous lad, by the name of Thomas H. Jackson,
+who united with the College Church, graduated
+from the Theological Department of the University,
+filled the chair of Ecclesiastical History, Pastoral
+Theology, and Homiletics for two years
+<pb id="dsmith114" n="114"/>
+at Wilberforce; severed in the pastorate of a large
+Church at Columbia, South Carolina, for three
+years, and at the last annual meeting of the Trustees
+was re-elected to fill the same chair.</p>
+        </div2>
+        <div2 type="text">
+          <head>THE CATASTROPHE OF 1865.</head>
+          <p>Professor Mitchell had been constrained, by the
+wants of the school, to go out as a financial agent.
+The management of the school was left solely to
+Miss Maltby, and, under God, it was increasing
+in numbers and popularity.</p>
+          <p>The progress of the students was commendable,
+and classes were formed in Greek, Latin, and the
+lower Mathematics. Everything indicated a 
+prosperous future, when suddenly the buildings were
+set on fire by incendiaries. Within half an hour
+the beautiful edifice was nothing but smouldering
+embers. The catastrophe fell upon us like a clap of
+thunder in a clear sky.</p>
+          <p>It was a time of lamentation for our friends,
+and rejoicing for out enemies. Said one of the 
+latter, “Now their buildings are burned, there is
+no hope for them.” Another said, “I wish lightning
+from heaven would burn down Wilberforce.”
+This one supposed his impious prayer was more
+than answered.</p>
+          <p>But we believed and said, “Out of the ashes of
+the beautiful frame building a nobler one shall
+rise.” Mr. Mitchell had gone to Xenia, with
+almost all the students, to witness the celebration
+of the fall of Richmond.</p>
+          <p>Two obstreperous female students were detained
+on the grounds by way of punishment for acts of
+<pb id="dsmith115" n="115"/>
+disobedience. I was attending Conference at Baltimore, and
+Miss Maltby was left alone. No, she was not alone. As
+God was with Daniel in the lion's den, and with his three
+brethren in the fiery furnace, so was He with her in the
+trouble at Wilberforce. Without faltering, one of the
+cottages was converted into a school-room, and the
+scholars taught therein, till the last of June, which
+terminated the academic year; after which,
+all the students from abroad went home.</p>
+          <p>The majority of the advanced students never
+returned, but went to other institutions. Those who
+preferred Wilberforce came back the next autumn.
+Meanwhile, we began to mature our plans for rebuilding.
+The result is before the country. The edifice will be
+finished and dedicated next summer, and will be a larger,
+finer, and nobler edifice than the former. As respects the
+school, it passed through severe trials.</p>
+          <p>Miss Maltby's nervous system was so affected
+by the catastrophe, that for twelve month's she
+was unfit for labor, and never returned. She is
+now a missionary in Asia Minor, in the service of
+the A. B. C. F. M. Professor Mitchell was compelled 
+to be in the field, soliciting funds to aid us
+in rebuilding, and, therefore, for a season, the
+management of the school fell upon our most 
+advanced student, Mr. J. P. Shorter, who acted his
+part nobly, until we were able to secure the services 
+of competent Professors, who were soon
+found in the persons of Professor Theodore E.
+Suliot, Professor William Kent, and Miss Sarah J.
+Woodson.</p>
+        </div2>
+        <pb id="dsmith116" n="116"/>
+        <div2 type="text">
+          <head>OPENING OF THE DEPARTMENTS.</head>
+          <p>The Theological and Classical were opened in the
+autumn of 1866; the Scientific in 1857; the Normal in
+1872.</p>
+          <p>Graduates have gone forth from all these 
+Departments, except the Law, and only three from
+that have been put upon the study of Law.</p>
+        </div2>
+        <div2 type="list">
+          <list type="simple">
+            <head>GRADUATES FROM THE THEOLOGICAL 
+<lb/>DEPARTMENT.</head>
+            <item>Rev. John F. Janifer, B. D. . . . . 1870</item>
+            <item>Rev. Thomas H. Jackson, B. D. . . . . 1870</item>
+            <item>Rev. Isaiah H. Welch, B. D. . . . . 1870</item>
+            <item>Rev. Benjamin F. Lee, B. D. . . . . 1872</item>
+            <item>Rev. George T. Robinson, B, D. . . . . 1872</item>
+            <item>Rev. Charles Edward Herbert, B. D. . . . . 1872</item>
+            <item>Rev. John W. Beckett, B. D. . . . . 1872</item>
+            <item>Rev. Henry A. Knight, B. D. . . . . 1875</item>
+            <item>Rev. John Coleman, B. D. . . . . 1875</item>
+            <item>Rev. John G. Yeiser, B. D. . . . . 1876</item>
+            <item>Rev. George C. Whitfield, B. D. . . . . 1876</item>
+          </list>
+        </div2>
+        <div2 type="list">
+          <list type="simple">
+            <head>FROM THE CLASSICAL.</head>
+            <item>Mr. Joseph P. Shorter, A. B. . . . . 1871</item>
+            <item>Mr. Samuel T. Mitchell, A. B. . . . . 1873</item>
+            <item>Mr. Alexander Dumas Delany, A. B. . . . . 1873</item>
+            <item>Miss Mary E. Davis, A. B. . . . . 1874</item>
+            <item>Miss Julia A. Shorter, A. B. . . . . 1873</item>
+            <item>Mr. Samuel R. Bailey, A. B. . . . . 1874</item>
+            <item>Mr. Andrew T. Bowles, A. B. . . . . 1876</item>
+          </list>
+        </div2>
+        <pb id="dsmith117" n="117"/>
+        <div2 type="list">
+          <list type="simple">
+            <head>FROM THE NORMAL. </head>
+            <item>Miss Almira Copeland, B. E. . . . . 1873</item>
+            <item>Miss Virginia Copeland, B. E. . . . . 1873</item>
+            <item>Miss Maggie E. Crable, B. E. . . . . 1873</item>
+            <item>Miss Carrie L. Jenkins, B. E. . . . . 1873</item>
+            <item>Miss Ella J. Greene, B. E. . . . . 1873</item>
+            <item>Miss Elizabeth W. Baker, B. E. . . . . 1876</item>
+          </list>
+        </div2>
+        <div2 type="list">
+          <list type="simple">
+            <head>FROM THE SCIENTIFIC DEPARTMENT.</head>
+            <item>Miss Lottie P. Harris, B. S. . . . . 1872</item>
+            <item>Miss Hallie Q. Brown, B. S. . . . . 1873</item>
+            <item>Miss Mary E. Ashe, B. S. . . . . 1873</item>
+            <item>Miss Caroline Z. Jenkins, B. S. . . . . 1875</item>
+            <item>Miss Zelia R. Ball, B. S. . . . . 1875</item>
+          </list>
+        </div2>
+        <div2 type="text">
+          <head>SUCCESSION OF PRINCIPALS, PROFESSORS AND
+<lb/>TEACHERS UNDER THE AUSPICES OF THE
+<lb/>CINCINNATI CONFERENCE OF THE METHODIST
+<lb/>E. CHURCH.</head>
+          <list type="simple">
+            <head>I.</head>
+            <item>Rev. M. P. Gaddis, Principal; Mrs. M. P. Gaddis,
+Assistant, about six months.</item>
+          </list>
+          <list type="simple">
+            <head>II.</head>
+            <item>Professor James K. Parker, Principal; Mrs. James K.
+Parker, Matron; Miss Maggie Baker, Teacher of Music;
+Miss Mary J. Allen, Teacher of English, about two years.</item>
+          </list>
+          <list type="simple">
+            <head>III.</head>
+            <item>Rev. Richard S. Rust, D. D., President (Wesleyan
+University,) Professor of Theology and
+<pb id="dsmith118" n="118"/>
+Mental Science; George W. Mendall, A.M., (Wesleyan
+University,) Professor of Languages and Natural Sciences;
+Mary J. Allen, (Wesleyan Academy,) Preceptress, Teacher
+of French and Mathematics; Sarah J. Woodson
+(Oberlin,) Teacher of English Department; Adelaide
+Warren (Oberlin,) Teacher of Instrumental and Vocal
+Music.</item>
+          </list>
+          <p>Professor Wendell was succeeded by Professor Pliny S.
+Boyd, A. B., Oberlin. Miss Warren was succeeded by
+Miss Biffington, New York; and Miss Allen was
+succeeded by Miss Isabella Oakley.</p>
+        </div2>
+        <div2 type="text">
+          <head>SUCCESSION UNDER THE AUSPICES OF THE
+<lb/>A. M. E. CHURCH, FROM 1863-65.</head>
+          <p>Right Rev. D. A. Payne. D. D., President (Gettysburg Theological 
+Seminary,) Professor of Christian Theology, Mental Science, 
+and Church Government.</p>
+          <p>John G. Mitchell, A.M., (Oberlin,) Professor
+of Greek, Latin and Mathematics.</p>
+          <p>Miss Esther T. Maltby, A. B., (Oberlin,) Lady
+Principal, Matron and Secretary of Faculty.</p>
+          <p>Mrs. Fannie A. Mitchell (Oberlin,) Assistant
+Teacher and Head of Intermediate Department.</p>
+        </div2>
+        <div2 type="text">
+          <head>FROM 1866 TO 1868.</head>
+          <p>Right Rev. D. A. Payne, D. D., President 
+(Gettysburg Theological Seminary.)</p>
+          <p>Professor John G. Mitchell, A.M., (Oberlin.)</p>
+          <p>Rev. William Kent M. D., (England,) 
+Professor of Natural Science.</p>
+          <pb id="dsmith119" n="119"/>
+          <p>Theodore E. Suloit, A.M., (Edinburgh, Scotland,)
+Professor of Latin and French Literature,
+and Adjunct Professor of Mathematics.</p>
+          <p>Miss Sarah J. Woodson, Oberlin, Preceptress
+of English and Latin, and Lady Principal and
+Matron.</p>
+          <p>Miss Woodson was succeeded by Miss
+Josephine Jackson, B. S., Adrian, Michigan.</p>
+        </div2>
+        <div2 type="text">
+          <head>FROM 1868-1869.</head>
+          <p>This year finds Bishop Payne still acting as
+President, but not a Professor, the Theological
+Department being managed wholly by Rev.
+Henry C. Fry, A.M., Oberlin.</p>
+          <p>Professor John Smith, Oberlin, succeeded Prof.
+Mitchell, and Mrs. Messenger succeeded Miss
+Josephine Jackson.</p>
+          <p>Rev. Thomas H. Jackson, B. D., Wilberforce
+University, Professor of Ecclesiastical History,
+Homiletics and Pastoral Theology.</p>
+          <p>William B. Adams, Amherst, A.M., Professor
+of Greek and Natural Science.</p>
+          <p>Right Rev. R. G. Mortimer, Professor of Latin,
+Greek, Exegesis, and Adjunct Professor of 
+Mathematics.</p>
+          <p>Dr. Wilson, Teacher of Hebrew Language
+and Hebrew Exegesis.</p>
+          <p>Roswell Howard, A.M. B. L., Professor of Law.</p>
+          <p>Honorable John Little, Professor of Law.</p>
+          <p>Mrs. Alice M. Adams, Holyoke, Lady
+Principal, Matron and Teacher of English; who was
+succeeded by Miss Emma L. Parker; who was
+<pb id="dsmith120" n="120"/>
+succeeded by Miss Leonore Congdon. Miss
+Parker was of the Wesleyan Female Seminary,
+Oxford, Ohio; Miss Congdon, of Oberlin.</p>
+        </div2>
+        <div2 type="text">
+          <head>1870 TO 1876.</head>
+          <p>Bishop Payne is still the President. Professor Jackson
+was succeeded by Rev. B. F. Lee, Wilberforce University.</p>
+          <p>Benjamin H. Sampson, A.M., Oberlin, succeeded 
+Professor Mortimer as Professor of Latin, Greek
+and Mathematics, and Secretary of the Faculty.</p>
+          <p>Rev. Benjamin F. Lee is in turn succeeded by
+Professor Thomas H. Jackson, and Professor Sampson's
+chair is now filled by Professor Joseph P. Shorter, the first
+graduate from our Classical Department; at the same time
+Miss McBride is succeeded by Miss Ella J<corr sic="missing punctuation">.</corr> Greene, in all
+things excepting the languages.</p>
+        </div2>
+        <div2 type="text">
+          <head>OUR METHODS</head>
+          <p>In the Classical and Mathematical Department, are the
+same as generally obtained in American colleges.</p>
+          <p>In the Normal, we have the methods of Oswego. 
+In the practicing schools of the Normal Department 
+there is nothing peculiar but our manner
+of teaching Orthography and Orthœpy; here we
+employ analysis, that is to say, immediately after
+a pupil has spelled a word, he is required to tell
+how many letters, how many vowels, and how
+many consonants it contains, then to give the
+quality and quantity of every vowel, and to 
+<pb id="dsmith121" n="121"/>
+distinguish the characteristic of the sub-vocals and the
+aspirates.</p>
+          <p>We deem this the best method of teaching the art of
+spelling, because it is the most thorough;
+and also because, when the principle is continually
+applied and the habit is formed, in subsequent
+life the individual will be satisfied with nothing
+short of a thorough knowledge of <hi rend="italics">any object</hi>
+which he may take to scrutinize; or any subject
+he may begin to investigate.</p>
+          <p>In our Theological Department, we employ both the
+inductive and deductive methods, allowing the largest
+liberty of investigation and of expression; excepting that
+which borders upon impiety and blasphemy.</p>
+          <p>Our aim is to make Christian scholars, not mere bookworms, 
+but workers, <hi rend="italics">educated workers</hi> with God for
+man—to effect which we employ not the <sic corr="Classics">Ciassics</sic> and
+Mathematics only, but Science and Philosophy also, the
+former for their discriminating, polishing and cultivating
+influences, the latter for the quickness and exactness which
+they impart to the cognitive faculty, and the seed thoughts
+which they never fail to sow in the mind. And yet we hold
+that the Classics and Mathematics, as Science and
+Philosophy, can and must be consecrated to human 
+well-being by the teachings, the sentiments, and the spirit of
+Jesus.</p>
+        </div2>
+        <div2 type="text">
+          <head>OUR SOCIAL SURROUNDINGS.</head>
+          <p>We are in the midst of a farming region, immediately
+encircled by ten families, who are also educating their
+children in our school; two of
+<pb id="dsmith122" n="122"/>
+them were formerly students, who, since they left
+us, have been married, and are now in their turn
+educating their children in their own Alma Mater.
+The influence of the College upon these children
+is manifest; not only in their manners, but also in
+their talents, for, of 126 to 153 students who have
+annually filled our halls during the last four years,
+none surpass them in mental powers; very few
+equal them in capacity or ability.</p>
+        </div2>
+        <div2 type="text">
+          <head>THE GROUNDS.</head>
+          <p>The real estate of Wilberforce contains 53 acres
+of land, finely timbered, and abundantly watered
+with mineral springs. The campus embraces
+about ten acres—5 in front and 5 in the rear.  It
+is traversed by a ravine, which at certain points
+becomes so deep as to eclipse the apex of the
+cupola, 92 feet high. Its meanderings are east,
+southeast by north, flanking and moulding the
+rear of the campus into graceful curves and
+slopes, producing the form of a miniature table-land,
+sharply defined and beautiful. The front is
+level, with a slight indenture running southward.
+It is shaded by forest trees and a few evergreens.</p>
+        </div2>
+        <div2 type="text">
+          <head>OUR PROPERTY</head>
+          <p>consists of fifty-two acres of undulating land,
+which was heavily timbered when we bought it,
+in 1863. It is traversed by a deep ravine, through
+which a murmuring streamlet meanders winter
+and summer. At the time of its purchase, there
+were five mineral springs running out of the sides
+of this ravine, which are at present reduced to
+<pb id="dsmith123" n="123"/>
+three, caused by the diminution of the timber, which has
+been cut down for fuel and other purposes. On these fifty-two 
+acres we have ten buildings, exclusive of a barn and
+stable. Nine of these buildings are cottages, erected within
+the campus. They are inhabited chiefly by students and
+families who came to educate their children under college
+restrictions and influences.</p>
+          <p>The main edifice is built in the centre of the campus. The
+foundations are of solid lime stone. The superstructure is
+of red brick, three stories above the basement, and is 44 by
+160 feet. It embraces a centre and two wings—the centre is
+40 by 52, the wings are 40 by 60. This building contains
+eight recitation and one lecture rooms, one art and one
+music room, one library, and a large hall, to be fitted up for
+a museum. It has also five dormitories, with forty 
+bed-rooms, and sleeping accommodations for eighty persons.
+The basement contains fifteen rooms, which embrace the
+kitchen, pantry, store-rooms, dining-hall, laundry and
+sleeping apartments for all connected with the culinary and
+laundry work. When the dormitories and cottages are filled,
+students often find comfortable accommodations in this
+commodious basement.</p>
+        </div2>
+        <div2 type="text">
+          <head>OUR LIBRARY AND MUSEUM.</head>
+          <p>The library contains about 3000 bound volumes and 300
+pamphlets. The most of them are useful. Among these are
+few books of reference. We have none that can be
+considered as rare. Our
+<pb id="dsmith124" n="124"/>
+museum is so small that we call it nothing more than the
+nucleus of a future one.</p>
+        </div2>
+        <div2 type="text">
+          <head>GRATEFUL RECOLLECTIONS OF BENEVOLENCE.</head>
+          <p>Before concluding this historical sketch, it seems proper
+to make a grateful record of those who generously aided us
+when we most needed their assistance to make our very
+existence an unquestionable fact, for at that time some of
+our own short sighted people, for whose special benefit we
+have always planned and executed, had formally denied it.</p>
+          <p>In March, 1863, our friends of the Cincinnati Conference
+of the Methodist Episcopal Church sold us the property
+for its indebtedness, which was $10,000, and that, too, at
+the time when the agent of the State of Ohio stood anxious
+to buy it at a much larger price for an asylum, and from
+others they could have obtained from one to two-thirds
+more than we were able to give. Their liberality placed a
+valuable seat of learning, with at least $1000 worth of
+furniture, within our reach, and therefore we ought to be
+grateful.</p>
+          <p>In 1867-68, the Society for the Promotion of Collegiate
+and Theological Education at the West aided us in the sum
+of $1800. Let it be remembered that we were burnt out in
+the spring of 1865. In 1867 we had erected the western
+wing of our edifice; but its walls were not only unpictured
+and its floors uncarpeted, they were <hi rend="italics">unplastered</hi> and
+<hi rend="italics">rough; all around us presented an uninviting aspect.</hi></p>
+          <p>At my earnest invitation, the good Secretary,
+<pb id="dsmith125" n="125"/>
+Dr. Theron Baldwin came—he saw the “appalling obstacles”
+which we had to face and overcome. His soul was stirred to
+its depths, and his eloquent plea in our behalf induced the
+Society to vote us $1800 for the 1867. In 1868-69 they
+again voted us $1800. Although the funds of the society did
+not enable them to make good the whole of this last vote,
+what we did receive was of signal benefit, and we are
+therefore thankful.</p>
+          <p>The American Unitarian Association aided us from 1868
+to 1875, at an average of $500 per annum. The first twelve
+months of that time they gave us $800, in all about $4000.
+We have received from them, for purely educational
+purposes, in the form of lectures on different branches of
+natural science, including experimental physics, also
+lectures on literature and philosophy. The lectures on
+literature were both Biblical and secular. They were
+delivered by the scholarly Professors of Antioch, and have
+been very serviceable to our graduates, not only in 
+stimulating them to deep research, but also in polishing their
+style, for which we ought to be grateful.</p>
+          <p>To construct our new edifice, Rev. R. S. Rust,
+D. D., and Rev. J. F. Wright, D. D., each gave us
+$100. For our endowment fund, John Pfaff, Esq.,
+of Cincinnati, and P. P. Mast, Esq., of Springfield, 
+Ohio, <sic corr="each">esch</sic> has subscribed $500. The latter
+is to pay his subscription some time in the coming
+summer.</p>
+          <p>In 1868 that noble philanthropist, Hon. Gerritt
+Smith, sent us $500; the same year the equally
+noble Chief Justice Chase induced an English
+<pb id="dsmith126" n="126"/>
+gentlemen to send us $300; subsequently the
+Chief Justice gave us $250, and in his last will 
+bequeathed us $10,000. In this last instance he
+magnified his greatness in making us, who are the poorest
+of God's poor in the United States, the first object of his
+considerate benevolence.</p>
+          <p>Now, and here, we record the facts that, in 1869, we
+received, through General Howard, from the Freedmen's
+Bureau, $3000, and in 1870 we received from the same 
+Bureau, by special act of Congress, $25,000, for all of which
+we ought to be grateful. Total from the Bureau, $28,000. All
+this has been spent in building, except $3125, which was
+paid to the agent as per centage. Concerning our benefactors,
+whose earthly career has been finished, <hi rend="italics">we hope</hi> they may
+“be rewarded at the resurrection of the just.” Concerning
+those who are still living, <hi rend="italics">we pray</hi> that they and theirs may
+never lack a friend nor aid in the time of need or the day of
+adversity.</p>
+        </div2>
+        <div2 type="text">
+          <head>COLLEGE SOCIETIES.</head>
+          <p>The “Society of Inquiry on Missions” was organized by
+the President, for the purpose of collecting information
+concerning Christian Missions from all sources, foreign and
+domestic, and to cultivate the spirit of missions in the
+Theological students for whose special benefit the
+organization was brought into existence. Since then other
+persons have been admitted to membership, but the
+extension of this privilege to persons not members of the
+Theological Department, has, in
+<pb id="dsmith127" n="127"/>
+some respects, damaged the original character of the
+Society.</p>
+          <p>The Soldalean Society was organized by the students,
+the present Professor Shorter, then a student, being their
+leader. It is a debating club. Its design is mutual
+improvement in composition, disputation and oratory.</p>
+          <p>Outside of the Institution, but connected with it by
+bonds of earnest friendship, is the “College Aid Society,”
+consisting chiefly of married ladies, and some of the oldest
+female students. Its aim is declared in its name. This
+Society carne into existence through the wants of the
+College, and has rendered signal services to the University
+in times of embarrassment.</p>
+          <p>“Wilberforce University Endowment Association,”
+outside of the Institution, consists chiefly of ministers and
+laymen of the Ohio, Pittsburg and Kentucky Conferences,
+who are earnest workers in its behalf, and connected with it
+by a friendship as sincere is it is earnest. Its object is the
+permanent endowment of Professorships and
+Scholarships.</p>
+        </div2>
+        <div2 type="text">
+          <head>BOARDING FACILITIES.</head>
+          <p>Students can board in families for $2.00 and $2.50 per
+week.</p>
+          <p>A Boarding Club, consisting of the students, including
+both sexes, is called “The Mutual Relief Association.”
+Board is furnished by this club for $1.50 per week. The
+<hi rend="italics">initiation</hi> fee is $3.50, including the first week's board,
+so that the first month's board will cost a new member $7.50;
+<pb id="dsmith128" n="128"/>
+after that, only $6.00 per month. It was first 
+managed by a Steward, a Secretary, and a Treasurer,
+elected among themselves; but at the
+end of every year they were involved in debts.
+At the end of three years, it was found that their
+management was ruinous; since then it has been
+gratuitously managed by one of our Professors,
+who has not only kept the Club out of debt, but
+has had a surplus for it at the end of the college
+year. They hire a cook, but take turn to wait
+upon themselves at table, and thereby reduce their
+expenses to the <hi rend="italics">minimum.</hi> The young men do
+the heavier part of the work, the young women
+the lighter.</p>
+        </div2>
+        <div2 type="text">
+          <head>SOURCES OF INCOME AND PRESENT CONDITION.</head>
+          <p>As respects endowment of Professorship, we have none.
+As respects scholarships, we have an endowment of $2300,
+which yields assistance to two students, giving each the
+sum of $70.50 annually. Ten thousand dollars of the Avery
+estate have been set apart for our benefit, and the interest,
+at six per cent. paid over to us semi-annually. Our Church
+Treasury yields us an average of $1000 annually; tuition
+fees and rents, amounting to about $5000 annually; bonds
+in the Western Union Telegraph Company, and the railroad
+between Pittsburgh and Cleveland, bequeathed by the late
+Chief Justice Chase, amounting to $10,000; but this is at
+present not available. Morally and intellectually, I believe
+we compare favorably with similar institutions. We have
+<sic corr="original printing error">have</sic> a church within the University, by means of which
+the moral
+<pb id="dsmith129" n="129"/>
+and religious character of the students is beneficially
+affected, so that many who come to us careless of their
+spiritual well being, leave us as earnest Christians. In this
+church we have also a well-managed Sunday-school, taught
+by the Professors and advanced students.</p>
+          <list type="simple">
+            <item>In the Normal Department are, 
+Juniors, . . . . . 4</item>
+            <item>Seniors, . . . . . 1</item>
+            <item>Classical</item>
+            <item>Sophomores, . . . . . 1</item>
+            <item>Juniors, . . . . . 1</item>
+            <item>Seniors, . . . . . 1</item>
+            <item>Theological</item>
+            <item>Freshmen, . . . . . 6</item>
+            <item>Sophomores, . . . . . 2</item>
+            <item>Seniors, . . . . . 2</item>
+            <item>Theo'l Dep't, different stages of prepar'n, . . . . . 20</item>
+            <item>Scientific Department, are Sophomores, . . . . . 2</item>
+            <item>Juniors, . . . . . 1</item>
+            <item>Training School, of different grades, . . . . . 50</item>
+            <item>Different stages of English studies, . . . . . 46</item>
+            <item>Total, . . . . .  127</item>
+          </list>
+        </div2>
+        <div2 type="text">
+          <head>SUMMARY OF RESULTS FROM 1863 TO 1876.</head>
+          <p>Fully, to appreciate the results of our efforts, it is
+necessary to remember, first, that the 10th of March, 1876,
+will be just thirteen years since we purchased the real estate
+of Wilberforce University, at a cost of $10,000; and the end
+of July, 1876, will be thirteen years from the day when the
+school was opened. Secondly, that we had not a dollar
+when we made the <hi rend="italics">bid</hi> for the property. Thirdly, that we
+opened the school with but six
+<pb id="dsmith130" n="130"/>
+pupils in Primary English studies, having but one
+teacher, and that we were burnt out about two
+years after we made the purchase of the property.
+Our dormitories, recitation-rooms, library and
+chapel were all consumed, and our school almost
+broken up. We had to begin anew. Now we
+have so far completed our new building that we
+shall be able to dedicate it this summer. The
+burnt edifice was made of wood, erected on a
+slight brick foundation; it was beautiful, but a
+light and airy thing. Our present edifice is
+heavy brick, on massive stone foundation. The cost, when
+completed and furnished, will be about $45,000. Within
+thirteen years from the day we opened our Primary English
+school, we shall have graduated thirteen young ladies and
+sixteen young men. Total, 29.</p>
+          <p>All our graduates have engaged in the honorable and
+useful employment of the pulpit and the school room.
+Three have been elected to fill Professorships in their own
+Alma Mater, and one is Principal of Lincoln Institute, a
+High and Normal School of the State of Missouri, for the
+secondary education of colored youth. In addition to these,
+scores of undergraduates have received a partial training
+within the past twelve years, who are now employed or
+have been employed as teachers and preachers in the
+Western and Southern States, but chiefly in the latter.</p>
+        </div2>
+        <div2>
+          <head>CONCERNING THE ELECTION OF TRUSTEES AND
+<lb/>FACULTY.</head>
+          <p>Inasmuch as Wilberforce is under denominational
+<pb id="dsmith131" n="131"/>
+auspices, it was deemed prudent at the time of its
+organization to have each Annual Conference represented
+by two laymen and three clergymen; and, therefore,
+inasmuch as there are twenty-three Annual Conferences,
+there are also one hundred and fifteen denominational
+Trustees, and to these add nine honorary Trustees, and the
+six Bishops, who are <hi rend="italics">ex officio</hi> Trustees, and we have the
+enormous Board of one hundred and thirty; but <hi rend="italics">practically,</hi>
+we have not more than twenty four, the largest number ever
+present at an annual meeting. The lesson taught us at the
+end of twelve years, is, that there is no need of having more
+than one clergyman and one layman to represent an Annual
+Conference, who may have alternates; these, with ten or
+twelve honorary members and the <hi rend="italics">ex officios,</hi> from whom a
+quorum can be convened within three hours' ride of the
+University, would be sufficient for all practical purposes.
+Our own experience and observation for twenty years furnish
+strong objections, also, to the annual election of the Faculty. 
+The power and skill requisite to the successful working of a collegiate
+institution are attained only by the long experience and
+observations of many years, and is too important and
+valuable to be set aside for the gratification of the
+ambitious and arrogant, or the envious and malicious, as
+has sometimes been done. Common sense dictates the
+abolition of such a rule and the adoption of a better.</p>
+          <p>We will now finish this historical sketch by remarking:—</p>
+          <p>The Charter of Wilberforce prohibits all
+<pb id="dsmith132" n="132"/>
+distinctions based on race or color. Like Christianity, of
+which it is an off-spring, its advantages and facilities are
+free to all races. Though very poor, young and weak, all the
+leading denominations have been represented among its
+teachers and its Faculty as well as its Trustees.
+Methodists, Baptists, Presbyterians, Congregationalists,
+Unitarians and Quakers—even Roman Catholics—have met
+here on common grounds.</p>
+          <p>To any thinking mind, may be clearly seen that if
+without endowment and with very poor facilities, 
+so much good has been accomplished as these 
+pages make evident, a thousand fold more could be 
+effected if amply endowed and ably officered. To 
+this end, its real, intelligent and considerate friends 
+should wisely plan and diligently execute.</p>
+          <signed>DANIEL A. PAYNE,
+<lb/><hi rend="italics">Prest. Wilberforce University.</hi></signed>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="remarks">
+        <pb id="dsmith133" n="133"/>
+        <head>MISCELLANEOUS REMARKS.<lb/>
+ACCOUNT OF MY COMPANIONS AND HOUSEHOLD.</head>
+        <p>In the early part of my life (I do not know the date or
+how old I was when I married my first wife) I felt that I
+needed a companion to assist me in the arduous duties of
+life. I therefore courted the affections of Miss Nancy Prout,
+the daughter of William Prout, of Baltimore, Md., and the
+happy union of husband and wife was soon consummated.
+We raised a very large family; unfortunately for us,
+however, death visited us quite often. Very soon we were
+deprived of nearly all of the children with which we had
+been blessed. Out of the twelve children only four lived to
+man and womanhood. My eldest daughter, Miss Elizabeth
+Smith, married a man of Philadelphia, by the name of James
+Gayles. She became very useful in the Church and a great
+organizer of benevolent societies. Finally my wife died a
+successful Christian death, and I was again left alone to bear
+the burdens of life. I was traveling the Harrisburg circuit
+when my companion died.</p>
+        <p>I remained single two years. I next married a lady of
+Pittsburg, Pa., by the name of Miss Hannah Johnson, the
+only daughter of Mr. Adam Johnson. We raised
+considerable family, but
+<pb id="dsmith134" n="134"/>
+disease and death deprived me of all my children and wife,
+with the exception of one daughter, whose name is Eliza.
+She married William Cary, of Virginia. Mr. and Mrs. Cary
+have resided in Xenia, Ohio, for years. Mrs. Eliza Cary is
+well known in Xenia, and also in the city of Cincinnati, as a
+useful Christian woman.</p>
+        <p>I married my third wife in Louisville, Ky. She
+was the widow of Mr. Sonny Lewis. We then
+moved to Ohio, bought a home and settled three miles 
+north of Xenia, near Wilberforce University, and here I remained
+until the death of my wife (Polly Smith). She suffered for
+seven long years, almost an invalid, and finally died a
+Christian death. Again I was left alone, a man carrying
+nearly a century of years. I then moved to Xenia, and at
+the writing of this book I am living with my daughter, Eliza
+Cary, and with this only daughter I expect to spend my
+last days on earth.</p>
+        <p>Some of the reasons which lead me to join the
+A. M. E. Church:</p>
+        <p>First. I was convinced by Daniel Coker, and
+others, that when the A. M. E. Church was 
+established she could do more good among my people
+than the M. E. Church, and why? Simply on
+<pb id="dsmith135" n="135"/>
+account of the peculiar adaptation of any race of people to
+reach and effect its own people to a greater degree than a
+stranger can possibly do.</p>
+        <p>Second. The longer I was connected with her the more
+plainly I saw the sweeping field she afforded for the
+development of Christian manhood.</p>
+        <p>Third, There is no bar on account of color; but Virtue,
+Qualification and Usefulness were the three steps to the
+highest position in the Church. Hence I have devoted
+nearly sixty years to the service of my Church.</p>
+        <p>I am hers for success and development.</p>
+        <signed>DAVID SMITH.</signed>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

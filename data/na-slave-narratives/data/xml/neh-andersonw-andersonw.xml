@@ -1,0 +1,980 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY andertp SYSTEM "andertp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Life and Narrative of William J. Anderson, Twenty-four Years a Slave; 
+Sold Eight Times! In Jail Sixty Times!! Whipped Three Hundred Times!!! or The Dark 
+Deeds of American Slavery Revealed. Containing Scriptural Views of the Origin of the 
+Black and of the White Man. Also, a Simple and Easy Plan to Abolish Slavery in the 
+United States. Together with an Account of the Services of Colored Men in the 
+Revolutionary War—Day and Date, and Interesting Facts:</emph>
+Electronic Edition.</title>
+        <author>Anderson, William J., b. 1811</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by Apex Data Services, Inc.</resp>
+          <name/>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca. 125K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as
+ long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Life and Narrative of William J. Anderson, Twenty-four Years a Slave; 
+Sold Eight Times! In Jail Sixty Times!! Whipped Three Hundred Times!!! or The Dark Deeds of American 
+Slavery Revealed. Containing Scriptural Views of the Origin of the Black and of the White Man. Also, 
+a Simple and Easy Plan to Abolish Slavery in the United States. Together with an Account of the Services 
+of Colored Men in the Revolutionary War—Day and Date, and Interesting Facts</title>
+            <author>Written by Himself</author>
+          </titleStmt>
+          <extent> 81     p.</extent>
+          <publicationStmt>
+            <pubPlace>CHICAGO:</pubPlace>
+            <publisher>DAILY TRIBUNE BOOK AND JOB PRINTING OFFICE.</publisher>
+            <date>1857.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">This electronic edition has been transcribed from a photocopy supplied by the University 
+of Minnesota, Minneapolis.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved.</p>
+        <p>This electronic edition has been transcribed from a photocopy supplied by the University 
+of Minnesota, Minneapolis.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft
+ Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings </title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Anderson, William J., b. 1811.</item>
+            <item>African Americans -- Biography.</item>
+            <item>Slaves -- United States -- Biography.</item>
+            <item>Fugitive slaves -- Biography.</item>
+            <item>Plantation life -- Southern States -- History -- 19th century.</item>
+            <item>Slavery -- United States -- History -- 19th century.</item>
+            <item>African American Methodists -- Clergy -- Biography.</item>
+            <item>African American clergy -- Biography.</item>
+            <item>African Americans -- Religion.</item>
+            <item>African Methodist Episcopal Church -- Clergy -- Biography.</item>
+            <item>United States -- History -- Revolution, 1775-1783 -- Participation, African American.</item>
+            <item>Slaves' writings, American.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-09-26, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-09-15, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-08-08, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-07-21, </date>
+        <respStmt>
+          <name>Apex Data Services</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="andertp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">LIFE AND NARRATIVE <lb/>OF<lb/> WILLIAM J. ANDERSON, <lb/> Twenty-four Years a Slave; <lb/>SOLD EIGHT TIMES! IN JAIL SIXTY TIMES!! WHIPPED THREE <lb/>HUNDRED TIMES!!! <lb/>OR THE <lb/>
+Dark Deeds of American Slavery Revealed. <lb/> CONTAINING SCRIPTURAL VIEWS OF THE ORIGIN OF THE BLACK <lb/> AND OF THE WHITE MAN. ALSO, A SIMPLE AND <lb/> EASY PLAN TO ABOLISH SLAVERY <lb/> IN THE UNITED STATES, <lb/> TOGETHER WITH <lb/> An Account of the Services of Colored Men <lb/> IN THE REVOLUTIONARY WAR—DAY AND DATE, <lb/> AND INTERESTING FACTS.</titlePart>
+        </docTitle>
+        <docAuthor>WRITTEN BY HIMSELF.</docAuthor>
+        <docImprint><pubPlace>CHICAGO:</pubPlace>
+<publisher>DAILY TRIBUNE BOOK AND JOB PRINTING OFFICE.</publisher>
+<docDate>1857.</docDate></docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="p3" n="3"/>
+        <head>PREFACE.</head>
+        <p>After praying to God and asking His blessing to rest upon me and my book, I enter into the task, because I have the blacks and some of the whites to contend with. The blacks I know will be prejudiced against me because I cease to labor as they do, as a general thing—and some few of the prejudiced whites think that all colored men ought to work with the plough and the hoe. But as I know all kinds of wicked lies will be raised by my own race, I have engaged the arm of Almighty God to help me. The truth is, very few ever have been through what I have.</p>
+        <p>I have been sold, or changed hands about eight or nine times; I have been in jail about <hi rend="italics">sixty times;</hi> I had on irons or handcuffs <hi rend="italics">fifty times;</hi> I have been whipped about <hi rend="italics">three or four hundred times.</hi> Any persons who do not believe what I say, if they are very desirous of knowing the fact, can see the receipts by paying the stipulated sum of five dollars.</p>
+        <p>Many persons can easily say they do not believe thus and so, but the truth is, few say this that have been through the mill of slavery. I will tell who say a great many things wrong, the <hi rend="italics">slaveholders in heart</hi> and <hi rend="italics">dough-faces</hi> of the North, where I came expecting to find all free in heart.</p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p5" n="5"/>
+        <head>LIFE AND NARRATIVE <lb/>
+of <lb/>
+WILLIAM J. ANDERSON.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <argument>
+            <p>MY BIRTH AND PARENTAGE—SERVITUDE—COMFORTS, ETC.</p>
+          </argument>
+          <p>I was born June 2d, 1811, of a free mother, in Hanover county, Va., her name was Susan. My father's name was Lewis Anderson, who was himself a soldier slave, belonging to a Mr. Shelton. After the war of '76, his master told him to go home—he would do something for him. But he died a slave. My mother, now a widow, and being indigent and needy, bound me out to a Mr. Vance, a slaveholder, some ten miles from where she lived. Being young and inexperienced, poor and penniless, I was thrown among the slaves and had to fare just as hard as they did; under slave influence I had to live and suffer, and was brought up. But the truth is, I had no bringing up; I was whipped up, starved up; kicked up and clubbed up. I had no schooling except what I stole by fire and moon light, with a little Sabbath light.</p>
+          <pb id="p6" n="6"/>
+          <p>Slaveholders laws are positively opposed to the slave learning anything more than to handle the axe, plough and hoe. Often have I been whipped for trying to learn my book or read my bible; still I was permitted to visit my mother's cabin, and attend preaching meetings sometimes, with a written passport.</p>
+          <p>So matters and things moved on with me tolerable peaceably. I lived at a place where I could see some of the horrors of slavery exhibited to a great extent; it was a large tavern, situated at the crossing of roads, where hundreds of slaves pass by for the Southern market, chained and handcuffed together by fifties—wives taken from husbands and husbands from wives, never to see each other again—small and large children separated from their parents. They were driven away to Georgia, and Louisiana, and other Southern States, to be disposed of.</p>
+          <p>O, I have seen them and heard them howl like dogs or wolves, when being under the painful obligation of parting to meet no more. Many of them have to leave their children in the cradle, or ashes, to suffer or die for the want of attentive care or food, or both.</p>
+          <p>Had I the ability of language and learning, I would try to portray the condition of the slave. To be a slave—a human one of God's creatures—reduced to chattelism—bought and sold like goods or merchandise, oxen or horses! He has nothing he can call his own—not even his wife, or children, or his own body. If the master could take the soul, he would take it; but I believe the lord takes care of that.</p>
+          <p>The slaves are kept entirely ignorant, cowed down by the lash and hard work, in Virginia, by the legislature and police, or patrol—nothing is neglected that is calculated to keep the slaves cowed down. In this condition I grew up through much trouble.</p>
+          <pb id="p7" n="7"/>
+          <p>I wish here to remark that there are some exceptions to the general rule of slaveholding—some are more cruelly treated than others. While I lived in old Virginia I fared tolerably well, considering my condition, which was equal to that of a slave. The Sabbath was observed where I lived; but my master was a hard worker and sometimes whipped hard; but my mother thinking all things were right, did not give herself any uneasiness about me, thinking him such a good man, who had promised such righteous and good things for me. But slaveholding is deception any way you take it; it undoubtedly is the greatest evil beneath the sun, moon or stars; intemperance or Indian barbarities do not compare with it, and I think it will be proved, as the sequel will show, that it is the worst institution this side of hell or heaven.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p8" n="8"/>
+          <head>CHAPTER II.</head>
+          <argument>
+            <p>MY EARLY STUDIES OF RELIGION AND LEARNING—OPPOSITION, ETC.</p>
+          </argument>
+          <p>When I was a small boy I desired two things; one was to be a good Christian, and the other was to learn my book well. I often stole away in private or secret to pray. I often stole away to prayer meetings and preachings. Early, as in good ground, was the precious seed of grace sown in my heart; but like many others, hard trials, whippings, slavery and bad company drew off considerable from these precious feelings; yet, I thank God that I retained them and thought on them, for they hardly left me night or day, until I arrived in the State of Indiana; there I shortly after made a profession of the love of God being shed abroad in my heart, and joined the church. I think we as a race ought to try and get to Heaven, where there is no slavery, or whipping, or selling for gold. O, that God would keep me faithful till death.</p>
+          <p>When I got to Mississippi, where they work, curse, swear and dance on Sunday, I felt awfully; no preaching or Bible to read, or anything to give consolation, but the whip and hard work; no one called on God for a blessing, but a curse. But I think God it was no worse with me than it was, for many fared worse than I did.</p>
+          <p>In getting the learning I obtained, I had to buy my book and keep it very secretly. Though very young, say about eight or nine years old, I often carried my book in my hat or 
+<pb id="p9" n="9"/>
+pocket, for fear of detection, and hid it in the leaves or earth for fear of the lash or detection, for it was against all the laws of Virginia for slaves or blacks to be taught to read or write; but by hard study and labor, and much secrecy, and the assistance of some little white boys and girls, I managed to gain some information. While the slave boys would be playing marbles, my attention would be on my book; often, when I would be looking on my book, the approach or sight of a white man made me put it aside. In this situation, how I have mourned for a little instruction.</p>
+          <p>Finally, after Providence had smiled on me, and I could read a little, I then desired to learn to write. My copies were old scraps of writing that I could pick up at times. Then, after my day's work was over, by fire-light I would practice upon my lessons in writing. In passing on during the day, when I had an opportunity I would stoop down and practice a little in thousand, but when the old slaveholder saw it, he would tell me that I was studying philosophy, and that he would whip it out of me, etc., etc.</p>
+          <p>Thus, I thank God, I made such advancement that I could read and write considerable. There being many in my condition who wanted to learn very badly, they persuaded me to teach them a little on Sundays; so we went on teaching and learning a few Sundays before the white people found it out, and gave us our orders never to meet for instructions any more, on the peril of the lash; and our little school was broken up forever.</p>
+          <p>Then I was watched closely the balance of the time I staid in Virginia, so the reader may account for my imperfections in my simple narrative and tale. But here, Christian reader, my heart runs out in thanks to God for his great blessings toward me, who, I must acknowledge, as David said, “The Lord is my <sic corr="shepherd,">sheperd,</sic> I shall not want; surely goodness and 
+<pb id="p10" n="10"/>
+mercy have followed me all the days of my life and I will dwell in the house of the Lord forever.” Yes, reader, I can look back and see the goodness of God in all the train of my distress, and if they are faithful, I think many poor slaves will get to Heaven, where there is no slavery, or whipping, or selling Christian slaves for gold.</p>
+          <p>I have often thought it would be a good and great thing if all the slaves and free persons would unite and pray for deliverance; I believe God would graciously deliver them out of their Southern bondage; I believe the time would shortly come when God would aid them from Heaven. O, when God works, moves, and thunders, and shakes the earth, man trembles, shakes, quakes and fears. As the poet says:</p>
+          <lg type="poem">
+            <l>“God moves in a mysterious way,</l>
+            <l>His wonders to perform;</l>
+            <l>He plants his footsteps on the sea</l>
+            <l>And rides upon the storm.”</l>
+          </lg>
+          <p>Deep and unfathomable is the power and wisdom of God. O, that we all would trust the Lord for his goodness, which endureth forever.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p11" n="11"/>
+          <head>CHAPTER III.</head>
+          <argument>
+            <p>KIDNAPPED—SOLD INTO TENNESSEE—SUFFERING ON THE WAY, ETC.</p>
+          </argument>
+          <p>My master was considered one of those cunning, fox-like slaveholders; his craving for gold was almost insatiable; he kidnapped me by night, when all things were as silent as death, handcuffed and chained me securely, while I was ten miles from my mother, and young and inexperienced, helpless and ignorant of the geography of the country. The horrors of leaving my native land I cannot express. I was hurried off, and not permitted to get my clothes or bid my friends farewell.</p>
+          <p>We arrived early next day in the city of Richmond, the capital of the State. The slave-market space was very much crowded; so he sold me privately, for three hundred and seventy-five dollars. A southern trader bought me; he asked me if I ever run, I told him I had. He asked me if I could run fast; I told him I could. He asked once more if I ever ran away; as I always stood much upon truth, I told him I had, once only, and stayed away one day. So he put me in jail, there to remain until he made up his drove of slaves, which was a very few days. But I, a free boy, locked up in jail! It was a bad and horrible feeling.</p>
+          <p>In a few days he made up his drove, to the number of some sixty-five or seventy. Myself and several men, say twenty or more, were chained together, two and two, with a chain 
+<pb id="p12" n="12"/>
+between. In this situation we started, on the 6th of Nov., 1826, for East and West Tennessee. Then we sang the song—</p>
+          <lg type="song">
+            <l>“Farewell, ye children of the Lord, &amp;c.”</l>
+          </lg>
+          <p>We traveled a few days, and scenes of sadness occurred; the snow and rain came down in torrents, but we had to rest out in the open air every night; sometimes we would have to scrape away the snow, make our pallets on the cold ground, or in the rain, with a bunch of leaves and a chunk of wood for our pillow, and so we would have to rest the best we could, with our chains on. In that awful situation the reader may imagine how we gained any relief from the suffering consequent upon the cruel infliction we had to endure. We were driven with whip and curses through the cold and rain.</p>
+          <p>One thing in particular attracted my attention on my way to Tennessee; it was the sight of about fifty women working with picks, hoes and shovels, and a large white man cursing and driving them with a ship; all had on hats alike.</p>
+          <p>Our route was straight up the James River; we passed many towns which it would be useless to mention. In about two months we arrived safely in Nashville, West Tennessee. Our irons were knocked off from our limbs. O, the soreness and awful feelings are inexpressible.</p>
+          <p>We were here sold and joined with another drove, and awaited the horrors of another journey, or to prepare in one hell for another. But while we were here delayed the slave, women brought forth several illegitimate children, which is very common, as the white gentlemen had been cohabiting with them before and during the journey, which is one of the greatest curses about slavery, as this narrative will show. And here, in Nashville, I saw them bought and sold like cattle, as in old Virginia.</p>
+          <p>At the raising of the river we were all huddled on the 
+<pb id="p13" n="13"/>
+boat, very uncomfortably together, and down the river we went, still grieving, mourning and sorrowing over our fate. About this time a horrible accident happened on a boat; a gang of colored men, chained together, were drowned in the hull of the boat. The cries and wailings of the poor creatures, while struggling with death, were horrifying and frightful in the extreme. No words can describe the dreadful scene.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p14" n="14"/>
+          <head>CHAPTER IV.</head>
+          <argument>
+            <p>OUR ARRIVAL AT NATCHEZ—MANAGEMENT, SALES, ETC.</p>
+          </argument>
+          <p>In due time we arrived safely in the slave-pen at Natchez, and here we joined another large crowd of slaves which were already stationed at this place. Here scenes were witnessed which are too wicked to mention. The slaves are made to shave and wash in greasy pot liquor, to make them look sleek and nice; their heads must be combed, and their best clothes put on; and when called out to be examined they are to stand in a row—the women and men apart—then they are picked out and taken into a room, and examined. See a large, rough slaveholder, take a poor female slave into a room, make her strip, then feel of and examine her, as though she were a pig, or a hen, or merchandise. O, how can a poor slave husband or father stand and see his wife, daughters and sons thus treated.</p>
+          <p>I saw there, after men and women had followed each other, then—too shocking to relate—for the sake of money, they are sold separately, sometimes two hundred miles apart, although their hopes would be to be sold together. Sometimes their little children are torn from them and sent far away to a distant country, never to see them again. O, such crying and weeping when parting from each other! For this demonstration of natural human affection the slaveholder would apply the lash or paddle upon the naked skin. The former was 
+<pb id="p15" n="15"/>
+used less frequently than the latter, for fear of making scars or marks on their backs, which are closely looked for by the buyer. I saw one poor woman dragged off and sold from her tender child—which was nearly white—which the seller would not let go with its mother. Although the master of the mother importuned him a long time to let him have it with its mother, with oaths and curses he refused. It was too hard for the mother to bear; she fainted, and was whipped up. It is impossible for me to give more than a faint idea of what was enacted in the town of Natchez, for there were many slave pens there in 1827. For some reason or other, which I never knew, I was sold first. A hellish, rough-looking, hard-hearted, slave-driving slaveholder, by the name of Rocks, bought me from T. L. Pain, Denton &amp; Co. We were delayed a few days before we got a boat for the residence of Mr. Rocks. I had an opportunity of seeing the distress of the poor slaves of Natchez; but in a few years afterwards God visited them with an awful overthrow. A dreadful hurricane destroyed houses and boats of all kinds, and many lives of nobles were lost in oblivion.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p16" n="16"/>
+          <head>CHAPTER V.</head>
+          <argument>
+            <p>ARRIVING ON THE COTTON FARM—RUNNING AWAY—GETTING INTO JAIL—AWFUL WHIPPING—LABOR, FOOD, CLOTHING—HARD TIMES.</p>
+          </argument>
+          <p>When I arrived on the farm, and beheld the way they were fed, worked, clothed, whipped and driven, my poor heart faltered within me, to see men and women reduced to the hardships of cattleism. Yes, yes! I sat down by the Mississippi River and wept. O, I wept when I saw the holy Sabbath desecrated. The only money I possessed was one dollar. With this I purchased a Bible, but it was taken from me and torn up, and I was whipped for reading it. We had no preaching or meeting at all—nothing but whipping and driving both night and day—sometimes nearly all day Sunday.</p>
+          <p>Possibly the reader may imagine my feeling, I cannot describe them, when I remembered old Virginia, the place of my birth, my mother's house, the cabin, the grove, the spring, the associates, the Sabbath enjoyments. I felt that I was like the children of Israel when they were taken down into Babylonian captivity. They desired of me an old Virginia song, but how could I sing a song in a strange land. O, I would sit alone and weep, cry, mourn and pray. Far, far away, I was once free—now kidnapped and sold into a strange 
+<pb id="p17" n="17"/>
+land, and never expecting to be released until death should set me free again.</p>
+          <p>I made up my mind to run away, and set about making preparations. My plan was to steal a skiff, as I lived twenty miles above Vicksburg, on the west bank of the Mississippi river, which was deep, wide and rapid, and make off down the river until I got to Vicksburg, or get on a steamboat going up the river. But, being ignorant of important facts, my plan did not work at all, for I did not get as far as Vicksburg before a parcel of “Northern men with Southern principles” assisted me to town and put me in jail; they were Indianians.</p>
+          <p>In a few days my master came down, put irons on my hands and feet, and laughed in anger at my calamity. He took me back upon the cotton farm, where he with three or four others, stripped me stark naked, or divested me of all my apparel, drove down four stakes, about nine feet apart, then (after I was tied hard and fast to the cold ground) with a large ox whip, laid on me (he said) five hundred lashes, till the blood ran freely upon the cold ground and mother earth drank it freely in. I begged, mourned, and cried, and prayed; but all my lamentations were only sport for him; he was a stranger to mercy. My pen would fail here to describe my agonizing <sic corr="feelings">feeelings</sic> and I must leave the reader again to imagine my suffering condition. At the close of this brutal punishment he called for some salt brine, of the strongest kind, and had me washed down in it. O, that, with the whipping, was another hell to undergo. He at last let me up in my chains, and put me to work at hard labor, on corn and water.</p>
+          <p>Now, hear what our food was. We were called up on Sunday evenings, and had a peck of corn measured to us, shelled, or enough corn to make a good peck, two or three 
+<pb id="p18" n="18"/>
+pounds of pork or beef. This was our allowance for a week; but to continue the punishment for my running away he would not allow me any meat for several weeks, and kept me in chains some two months, this was to cow me down in degradation like the rest of the slaves, which was hard to do.</p>
+          <p>On this farm they had a large coffee mill on which we might grind our corn, or beat, boil or parch it. This had to be done between two days, or we must go without eating the next day. Here I wish to remark; that I worked hard on my allowance of corn or dry bread for several weeks. There being a large lot of chickens on the farm, I determined to kill and cook one, to eat with my bread and make it go down better. I had eaten only a part of the fowl when my master was told by some of the other servants that I was “eating up all the chickens on the place!” My master seized me and dragged me out of the cabin, tied me down to the same stakes which had witnessed my agony on a former occasion, and gave me one hundred lashes—he said. I have no recollection of eating any more chickens while I lived in the State of Mississippi. But my appetite for such food was not destroyed by my master's cruelty to me, and I have enjoyed many a meal of such innocent fowls since I left there.</p>
+          <p>It should be remembered that slaves are sometimes great enemies to each other, telling tales, lying, catching fugitives, and the like. All this is perpetuated by ignorance, oppression and degradation.</p>
+          <p>We were obliged to work exceedingly hard, and were not permitted to talk or laugh with each other while working in the field. We were not allowed to speak to a neighbor slave who chanced to pass along the road. I have often been whipped for leaving patches of grass, and not working fast, or for even looking at my master. How great my sufferings were the reader cannot conceive. I was frequently knocked 
+<pb id="p19" n="19"/>
+down, and then whipped up, and made to work on in the midst of my cries, tears and prayers. It did appear as if the man had no heart at all. My sufferings while obliged to pursue. my labor, picking cotton, were too intense for my poor brain to describe, and no one can realize such bodily anguish except one who has passed through the like. I was whipped if I did not pick enough, or if there was trash found in it. The most of slaveholders are very intemperate indeed. My master often went to the house, got drunk, and then came out to the field to whip, cut, slash, curse, swear, beat and knock down several, for the smallest offence, or nothing at all.</p>
+          <p>He divested a poor female slave of all wearing apparel, tied her down to stakes, and whipped her with a handsaw until he broke it over her naked body. In process of time he ravished her person, and became the father of a child by her. Besides, he always kept a colored Miss in the house with him. This is another curse of Slavery—concubinage and illegitimate connections—which is carried on to an alarming extent in the far South. A poor slave man who lives close by his wife, is permitted to visit her but very seldom, and other men, both white and colored, cohabit with her. It is undoubtedly the worst place of incest and bigamy in the world. A white man thinks nothing of putting a colored man out to carry the fore row, and carry on the same sport with the colored man's wife at the same time.</p>
+          <p>I know these facts will seem too awful to relate, but I am constrained to write of such revolting deeds, as they are some of the <hi rend="italics">real</hi> “dark deeds of American Slavery.” Then, kind reader, pursue my narrative, remembering that I give no fiction in my details of horrid scenes. Nay, believe, with me, that the half can never be told of the misery the poor slaves are still suffering in this so-called land of freedom.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p20" n="20"/>
+          <head>CHAPTER VI.</head>
+          <argument>
+            <p>RUNNING AWAY TO NEW ORLEANS—CAPTIVITY SCENES—WORK, WHIPPING— <lb/>
+RETURNED IN CHAINS, ETC.</p>
+          </argument>
+          <p>Some three or four years had now elapsed, and I had become a man in age, and was nearly or entirely acclimated to the country. I concocted another scheme for running away; for the spirit of freedom still burned within me. My plan at this time was to write myself a pass down to New Orleans, and when I got there, to take a ship to New York or Boston. This would have been very good had I succeeded; but it did not work well, as the sequel will show. I made all my arrangements secretly. My bread, clothes, and small draft being ready, and the night, with the appointed hour, having arrived, with a heavy heart and bewildered mind I stepped into my boat and left this gentleman slaveholder the second time. I wrote a pass to New Orleans, but I fell in with a white man on my journey who promised me his assistance. But there are too many white men in that country who are deceivers—instead of helping me he put me in jail; then went up the river, let my master know of my capture, and got the reward—some hundred or more dollars.</p>
+          <p>While on my journey down, and at New Orleans, I saw scenes indescribable. I could hear the whip long before day and long after dark, on the backs of the poor slaves. It seemed to me that I came out of the frying pan into the 
+<pb id="p21" n="21"/>
+fire, for here I saw them driven and whipped, nearly naked, with a little rice and molasses for their food—no meat except they stole or took it—and very little time to eat it. Some say the slaves steal, but I do not consider it stealing when a person eats, where he labors without compensation both night and day. I was thrown into the calaboose to suffer; I was put on the streets to labor with hundreds of others, with a chain locked to my leg. Here I saw about three hundred colored men in chains or in like situation with myself. These men had been employed on ships, schooners, steam and flat boats by white men from Boston, New York, Pennsylvania, Ohio, Louisiana, Wisconsin, Illinois and Michigan; but when they got to New Orleans they were imprisoned in chains, whipped, starved and driven like oxen, because the Lord had made them black. While this was going on among the men, I saw many likely women wearing hobbles and an iron collar around the neck, with long horns of iron attached to the same. O! the horrors of Slavery. The reader may imagine how I felt about this time, confined every night, awaiting the arrival of my master.</p>
+          <p>I will now try to describe the scenes in the calaboose whipping room. They have a large, strong ladder, with ropes at each end and one in the middle. The subject to be whipped is divested of wearing apparel, and made to lay down; if he refuses to do so he is knocked down, and by the time he recovers he is stretched out and tied fast to the ladder, with the rope tight across the middle of the body. Then the fourth man lays on with the whip, paddle, or whatever he chooses. In this way perhaps ninety or a hundred are whipped every day, while begging, crying and screaming does no good. A little after daylight the whipping begins, and continues until late in the afternoon. Many of the chain 
+<pb id="p22" n="22"/>
+gang are whipped, and many of the citizens send their slaves there to be whipped, and pay for it.</p>
+          <p>It seemed as though all the beef heads in the city were collected and brought there, boiled and chopped into hash by an old colored man, then dipped out with a ladle and divided among all hands, with a small loaf of bread. The women were stripped and whipped the same as the men, in the same room and by the same men. These are colored men, ordered by white men who stand by to see it well done. If there is anything like a hell on earth, New Orleans must be the place. Filth and vermin were in abundance.</p>
+          <p>Many white gentlemen—or white fiends in human shape—would send their women and girls here to be whipped because they would not gratify their hellish passions. Many of them; to my knowledge, have been brought here from Kentucky, Virginia and Tennessee, and whipped until they yielded; then by debauchery and incest they have become more loathsome and degraded than the brute creation. I have known men in different parts of the South to make colored men get out of bed and go home, while they take their place and cohabit with their wives. I have often known them to sell their cousins, brothers, sisters, sons and daughters. It is certainly a great sin, and men who will do these things are capable of committing the most atrocious crimes.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p23" n="23"/>
+          <head>CHAPTER VII.</head>
+          <argument>
+            <p>MY RETURN FROM NEW ORLEANS—WHIPPING—WORKING—CONDITION OF A SLAVE SOLD—HARD MASTER, ETC.</p>
+          </argument>
+          <p>I remained in New Orleans about three months, when my long-looked-for master arrived. I was very glad of this, for I wished to change my location, let the consequences be what they would. He saw the calaboose was so well arranged for whipping that he paid and had me whipped, in the room and on the ladder where the blood of hundreds had flown like water. O! that whipping. It was equal, in severity, to any I had received in former days. Sore, distressed and in irons, he again brought me home. He would not give me anything to eat on the boat; but, bless the Lord, I fared very well. After arriving home I wore those irons many months, but on taking them off he treated me a little better. In process of time, however, we had many serious difficulties. He whipped me again and again; kept a pair of handcuffs for my poor limbs, which soon became as common as a pair of gloves on a frosty morning. My life, I must truly say, was a terror to me. Many a day have I worked without food enough to sustain my feeble body. I can show scars which cannot fail to convince the most sceptical, of the ill-treatment of the colored man in the South. Finally I was sold by Mr. Rocks to Mr. G. B. Rogers, for seven hundred dollars. He appeared at first to be a kind hearted, friendly and religious man, of the Baptist creed. His wife and her family were
+<pb id="p24" n="24"/>
+Baptists. We moved on smoothly for a short time, then devilment began to show itself in him. He began to whip and drive all around him at a monstrous rate. His good words and deeds all left him; his humane feelings were all absorbed in his avaricious pursuit of wealth. He kept a close watch over his slaves by night to keep them at home. I wished at times to visit other families, and we had a great falling out about that; he jailed me; handcuffed me; whipped and abused me. Surely, he had more regard for the Sabbath than others I had been with; he also gave us better food and more of it at first, but he had some awful bad traits in his character. I have known him to make four men leave their wives for nothing, and would not let them come and see them any more on the peril of being shot down like dogs; he then made the women marry other men against their will. Oh, see what it is to be a slave? A man, like the brute, is driven, whipped, sold, comes and goes at his master's bidding.</p>
+          <p>After the lapse of about five years this gentleman sold me to Mr. Hudmon for a thousand dollars on credit. He sold me to a Mr. Shephard, who kept me about two months, and then sold me to a Mr. Hamlin. Mr. H. was a great gambler, and I never knew when I was safe. I would often tremble when I laid down, for fear I would have to change in the morning. Sure as I live, one morning when I was called up, I was sold to a young Mr. Hammond. He in turn sold me to a widow lady, Mrs. Hampton. Two or three of these last mentioned men were very good to me; they had nothing for me to do that was very hard. The old widow was the worst old lady I ever saw. She whipped severely, or had it done by her overseer. She worked us very hard, and made him follow us close all day with whip in hand.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p25" n="25"/>
+          <head>CHAPTER VIII.</head>
+          <argument>
+            <p>PUNISHMENT, SUFFERINGS AND DEATH OF SLAVES—ADVENTURES, ETC.</p>
+          </argument>
+          <p>I now wish to state some of the dark deeds and wonderful workings of Slavery in the State of Mississippi, which will introduce some important incidents of my past life in a manner which may be found of interest to the reader.</p>
+          <p>I once knew a colored man by the name of Branum Harris; his wife's name was Amy, and his overseer's name was Showers. Although they came in late at night from their labor, and were of course weary, they had to prepare their provisions for the next day ere they slept, or go without. The overseer was not to furnish them with cabins. One night their child was taken very ill, in consequence of which they were delayed a little after the rest of the hands had gone to work. As they (Harris, his wife and wife's sister) were passing the overseer's house, the overseer said to the women:</p>
+          <p>“Stop! I will give you two a whipping this morning for being so late.”</p>
+          <p>This was just after daylight.</p>
+          <p>“O,” says Branum, “our child has been sick all night. O, do not whip her this time.”</p>
+          <p>“Stop, sir!” said Mr. Showers, “I will give you a flogging this morning.”</p>
+          <p>He did not stop, and the overseer leveled his gun and shot him down. He then whipped the two women awfully.</p>
+          <p>This same man run a slave into a gin house full of cotton, 
+<pb id="p26" n="26"/>
+which caught on fire and burnt down with the slave in it. This unfortunate victim was buried in the same grave with Branum. This occurred on Dr. Harris's farm, not far from Vicksburg, Mississippi, and this overseer was a Baptist deacon.</p>
+          <p>Another overseer on the same farm, a religious man, shot a colored man by the name of Enoch because he worked his garden patch on Sunday. This overseer's name was Mr. Knox.</p>
+          <p>I knew another colored man by the name of Givens, on the same farm, who was shot by a white man.</p>
+          <p>These acts, heinous as they are in the sight of God and man, were considered right, and therefore nothing was said; not even in the church to which they belonged. It seems, truly, as though there was nothing too bad for some slaveholders to do.</p>
+          <p>I saw Mr. Hudmon, an overseer, whip a very nice colored man one hundred or more lashes, and until the blood flowed down to the ground; he then asked him if he was mad. He, in pain, was slow to answer. He again commenced, and whipped him until he made him laugh. The reader may imagine what kind of a laugh it was.</p>
+          <p>Christian reader, I ask you to look at these facts, and answer before God the question of right and wrong. Then, if your conscience tells you that human bondage is a great sin, and I think it must, why will you not turn and plead for the suffering millions of your fellow creatures in the Southern States?</p>
+          <p>It is almost impossible for slaves to escape from that part of the South, to the Northern States. There are a great many things to encounter in escaping, vis: large and small rivers, lakes, panthers, bears, snakes, alligators, white and black men, blood hounds, guns, and, above all, the dangers of starvation..</p>
+          <pb id="p27" n="27"/>
+          <p>There was a poor slave by the name of Phill Sharp, who ran away from his master, Mr. Beacher, who resided near Vicksburg. His master had bought him of a trader from Tennessee. Sharp had left a wife there whom he dearly loved. His master continued to flog, drive and starve him, and he made up his mind to escape, and, if possible, see his wife once more in this life. Saturday night, the time he had fixed upon for leaving, arrived, and although the rivers were high and the weather warm, he concluded to travel by night and lay by in the day time, in the swamps, which are very dismal. After swimming rivers and passing through many difficulties, he arrived at a small lake about a quarter of a mile wide. He plunged in, and when nearly across he saw a large panther, on the opposite bank, awaiting his arrival. He paused a moment, but on looking back he saw a large alligator, with his month wide open, pursuing him. Here was a horrid dilemma. What to do he did not know, but there was no time to be lost. He swam on across, for he thought he could do more on land than he could in the water. Just as he got near the shore the panther made a spring at him, but missed his prize and lit on the back of the alligator. “Then,” said he, “the two had an awful fight, but I did not wait to see which came off best.”</p>
+          <p>He was espied and chased by dogs a long distance out of his way. One night he discovered a horse at large, and believing it no sin to take such means to escape, captured the beast, made and put on him a bridle of bark, and then took passage on horseback. He proceeded on his way until a very late hour, when he dropped into a sweet sleep. He knew not how long he slept, but when he awoke and became conscious of his situation, judge of his surprise at finding that the wicked old horse had turned around and come back to the same bars that he had taken him from. It being broad day-light 
+<pb id="p28" n="28"/>
+and near a small town, he had to make haste to release him. He had to lay all day under some large slabs of bark near by, without food or water. Some huntsmen sat down on the bark to rest, and remarked that the school boys had a very nice little house made of them. He thought they might have heard his heart beat if they had listened. When night came on again he thought he would try his feet, so he traveled on a short distance and stopped at a farm house to get something to eat; being by this time very hungry and much fatigued. It was raining quite hard at the time, and very dark. He called at a place where the house was on a little rise of ground, and had a low fence enclosing the dwelling and kitchen separate. At the door of the kitchen he met the cook—a colored woman—and asked her to give him something to eat; stating at the same time that he was a runaway slave, and most starved. She said she would supply him if he would wait her return. Just as she got to the house she said, “Master, master, here is a runaway at the kitchen.” The master sprang up, called his dogs and set them after him. He broke for the woods, but in looking back for the approach of the dogs he forgot the low fence that surrounded the place and run against it, and down it came with a crash. He succeeded in loosing the dogs and made his escape. This is the 
+<pb id="p29" n="29"/>
+way the poor colored people are taught to betray each other for a good name, or a little tobacco, or a few pounds of meat. He traveled on that night and was finally successful in obtaining something to eat.” A few days previous to his crossing the line into Tennessee, he met two white men, both of whom had loaded guns, and ordered him to stop. He knocked them both down, and proceeded on his way with a trembling heart. Eventually he had the good fortune to see his wife once more, then passed on through Indians into Ohio. This poor man is one that came through safe; but few there are who are so successful.</p>
+          <p>But to proceed with my narrative. It was as common for the widow Hampton to have her men and women stripped by the overseers before her eyes and whipped naked, as it was to eat. She had eight or ten runaways in the woods constantly. She gave us very little to eat, and we had often to steal or take what we had. We were compelled to work nearly all day every Sunday. A great deal of whipping had to be done on Sunday, for offences committed during the week. She owned hundreds and hundreds of acres of, land, and about one hundred and seventy slaves. She allowed no preaching nor bibles on her plantation, and prohibited all communication between other plantations and her own. She always had her negro cabins well watched, and left nothing undone where devilment was on hand.</p>
+          <p>I saw that my doom of distress was fixed. My life was indeed a burden to me; I knew not what to do. When I thought of my previous life in old Virginia, my mother and friends, my poor heart would sink within me, and I could but exclaim, with Paul, “O, wretched man that I am; who shall deliver me from this body of death.” I have often wept in solitude over my condition, finding no comfort or encouragement save in any pleadings with God. I had a confidence in 
+<pb id="p30" n="30"/>
+the Allwise Disposer, but I was prone to inquire of Him why I was thus left to suffer and endure such awful torment.</p>
+          <p>Every Christian who has passed through affliction, has been inclined, I doubt not, to inquire of his God the reason of all his torments, and I know that some have exclaimed, “O God, why forsakest thou me?”</p>
+          <p>But there is most precious consolation in the memory of all His blessings and deliverances, and the hope which is built up in our become by His promises. We must remember that</p>
+          <q direct="unspecified">
+            <lg>
+              <l>“He doeth all things well.”</l>
+            </lg>
+          </q>
+          <p>I again made up my mind to run away, let the consequences be what they would. Patrick Henry's words became my motto, via: “Give me liberty or give me death.” I set about making my arrangements for the journey. I was some fifty miles off from the Mississippi river, in a thickly settled country, and surrounded by the worst of white and colored people. My plan was to write, myself a pass, for which I knew I would be often asked. How to do this was the point. I had no pen, ink or paper, and in a place where I dare not ask for it, for fear of detection. No one knew that I could either read or write; this was very fortunate for me.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p31" n="31"/>
+          <head>CHAPTER IX.</head>
+          <argument>
+            <p>RUNNING AWAY FROM MRS. HAMPTON—PERIL ON THE MISSISSIPPI RIVER.</p>
+          </argument>
+          <p>Being now fully resolved to put my trust in God, fear no danger, and travel from the South to the North in search of light and liberty, I ventured to ask a house servant by the name of Dick for the necessary material, with which I wrote myself a pass to Vicksburg, where I thought I might obtain a boat. I knew the widow had a number of men in the woods in search of runaways, and she would not make much fuss after me; probably thinking I would come back in due time to receive my whipping and go to work; but she has died much deceived. I was very well known in Vicksburg, for I had been in jail there seven or eight times, and as many knew I could both read and write, my case would be very critical. But as nothing ventured nothing gained, I was determined to try. I also knew that for a colored man to make an application for a passage up the river on a boat without the voice of some white man, would be looked upon with astonishment, and a close examination would follow.</p>
+          <p>July 2d, 1836, was the day I had appointed, and just before daylight I started. I arrived at the ferry—eight miles from home—passed my examination and went on my way. I met a number of white men, with a trembling heart, who, after examining my false pass, permitted me to go on, although they said they thought it was a forgery. I arrived at the 
+<pb id="p32" n="32"/>
+river after seeing several old colored friends. I was asked, by some of the whites, what my business was in those parts. I told them I was a-going to cook a 4th of July dinner. I asked at the boat for a passage up the Mississippi to Louisville, Kentucky. The mate told me to show my pass to the clerk before leaving the port. I told him I would; the reader may imagine my feelings. I never spoke to the clerk, as God would have it. It must have been the wonderful workings of Providence that brought about everything for my good and His own glorification. I saw no one that knew me, although I had resided within three miles of the town for about five years. I saw on the boat about sixty or seventy slaves, who were going up the river with their master to the State of Arkansas, to open a farm. I sat down in their midst; the boat raised steam and pushed out from shore. O, how glad I was to see her fast running out of sight of the town and the old jail that I had often been locked up in. When the old town had been lost in the distance, and the grim shadows of fear had partially vanished, my heart overflowed with joy, that thus far I had proceeded on my journey without molestation. I thus passed on peaceably from day to day.</p>
+          <p>I had made a confident of the steward, a colored man, who 
+<pb id="p33" n="33"/>
+was true to his trust. When the boat had run about eighteen hundred miles up the river, the master with his slaves got off, and I could no longer pass under their protection; but was left to devise and seek some other plan to elude detection by the ever suspicious persons who journeyed with me. My peril began now to be more imminent, but with a heart borne up by the blessed hope of deliverance from cruel, life-torturing bondage, I trusted in the Great Father above, and could but pursue my way.</p>
+          <p>In two or three days after these slaves had left, the Captain came to me and said he thought I belonged to that gang of slaves. I told him no. He then asked me who I belonged to. I told him I belonged to Mr. Crawford, of Louisville, Kentucky.</p>
+          <p>“Have you any pass?” said he.</p>
+          <p>“Yes, sir,” I answered.</p>
+          <p>“Show it to me.”</p>
+          <p>He looked it all over, and throwing it down he said:</p>
+          <p>“You are a runaway, sir; that pass is forged. Have you any more papers, sir?” says he.</p>
+          <p>“Yes, sir; I have a letter to my master.”</p>
+          <p>“Go get it, quick, sir.”</p>
+          <p>I handed him the papers, with a trembling heart. He took it and looked it over carefully, then throwing them down, he said:</p>
+          <p>“You scoundrel! these papers are all forged. How dare you get on my boat?” You are running away, sir. I will put you in jail as soon as I arrive in Louisville.”</p>
+          <p>Think, friendly reader, how I felt about this time. The thoughts of being returned into slavery, with the chains upon my limbs and the whip flourished with mad vengeance over my head—the cries of agony, wrung from tortured victims, ringing in my ears—oh, 'twere worse than death.</p>
+          <pb id="p34" n="34"/>
+          <p>Two men were placed to watch me night and day. I was not permitted to carry wood as usual from the shore. Thus I traveled on up the Ohio river, trembling and spirit-worn.</p>
+          <p>The night previous to their landing at Louisville—where I was to be imprisoned and again sent back to slavery—my watchers kept a sharp lookout at every landing, to see that I did not escape. While they watched me, I also kept an eye to business.</p>
+          <p>I had procured a large knife previous to my starting, knowing it to be an indispensable article to a man in my situation. The captain said to me, several times, that if he thought I had any notion of giving him the slip, he would iron me; but I made all manner of fair promises, and in that way kept my limbs free.</p>
+          <p>It grew late; the cocks began to crow at the approach of morn. Indiana was on one side and Kentucky on the other. Here was freedom, and the time had come that to get free, as I wanted to, I would have to make another bold strike. How to manage it successfully was a question hard for me to solve. The Ohio river was quite high, the night dark, and the boat running at her highest speed. How I was to get to the shore of Indiana had been my daily study for several days. I could not swim, neither could I fly, nor walk on the water. O, what shall I do? was the constant, unanswered query of my poor heart. A thousand thoughts would flash across my mind in a moment, for my time was now getting very short.</p>
+          <p>I have, in my lectures, of late years, asked a thousand people at once how I got off that boat, or watery prison, but none could tell me. Now, gentle reader, I will tell you how I got off. Just before day, the mate—one of the noble watch men—came to the after part of the boat and said:</p>
+          <p>“Where is that runaway?”</p>
+          <p>Then I snored as loud as a hog in frosty weather. In a 
+<pb id="p35" n="35"/>
+moment he turned and went toward the bow or fore part of the boat, when I quickly threw my little bundle of clothing into the yawl boat, and jumped after them. With my knife I cut the rope that secured the yawl, and as quick as thought I was fast gliding astern. The boat continued on her course, while I, unobserved, turned my craft for the Indiana shore, where I landed in about ten minutes from the time I left the old floating prison house. The splendid boats which navigate that beautiful river are often styled “floating palaces,” but  this, to me, was more like a dungeon:</p>
+          <p>O, then I had a time of rejoicing. I laughed and cried. I tried to pray and return thanks to the Lord for His goodness to poor me. I am not able to express my feelings then or now. When I remembered that just a few days ago I was down in a slave state, under the lash; that only a few moments ago I was a slave on yonder boat, but now free! free forever! O, I was like the Indian who went out and painted himself, and, returning to camp, his own dog bit him; he said, “Sure this is not me.” Those were my feelings, truly. O, reader, I can never forget that morning.</p>
+          <p>I took up my little bundle of clothing and traveled on. In the State of Indiana I felt light and comfortable; the small obstacles I had to encounter I did not fear.</p>
+          <p>I arrived in Madison City, Indiana, on the 15th of July, 1836, weary in mind and body, but joying in my escape from tyranny and persecution. My funds in pocket amounted to one dollar, which I advanced for my board. I sought employment immediately, and soon engaged to work for Messrs. F. Thompson and E. D. Luck, carrying the hod for a dollar a day. This, of course, was new and rather severe labor for me at this time; but it was far better than toiling in the cotton or corn field, for a reward of a scanty meal of corn and the lash. My freed spirit could now sing a new song, 
+<pb id="p36" n="36"/>
+where there were no wailings nor cries of anguish. I could go and come as I chose. Blessing my Maker for this dear gift of liberty and release from cruel torture, I began the laborious occupation of lifting mortar and brick.</p>
+          <p>At first I was very awkward, and became the butt of considerable ridicule among my colored companions. But my determination to persevere and earn my money by diligence, helped me through the initiation with wonderful success. In a few weeks I had gained the confidence and esteem of my employers, and was otherwise rewarded. My wages were better than those of other laboring men in the town. Among both white and colored citizens my credit was in fair repute, and my honesty and steadiness of purpose were acknowledged.</p>
+          <p>There were two things which I desired, namely: Knowledge of books, and the truths of Christianity. Reading I attended to assiduously, and made some progress in the hitherto hidden paths of learning. The word of the Lord was daily searched, and His mighty truths awoke a new ardor in my soul. I hungered and thirsted after righteousness.</p>
+          <p>In the fall of this year, duty prompted me to unite with the Methodist Episcopal Church. The society worshipped in an old log tenement in the northern part of the town. The members numbered only eight or nine. One day we needed some candles to light our primitive meeting house. My first impulse was to purchase the articles with my own money. I had but a solitary dime. I remembered the promise of the Saviour, “He who giveth to the poor lendeth to the Lord,” and determined to test it. With that only dime I bought candles for the meeting, and awaited the result. I was most pleasantly surprised, the following day, by liberal donations of dimes from sympathetic brethren. I even found money while digging, and by the following night I had the nice little sum of seven dollars in small money.</p>
+          <pb id="p37" n="37"/>
+          <p>Ever since that memorable event I have felt a most hearty willingness to trust in the Lord. To-day the faith lives within my breast as brightly as ever, while I wait upon His blessed word. The poet eloquently expresses my impressions in the hymn beginning—</p>
+          <lg type="hymn">
+            <l>“God moves in a mysterious way,</l>
+            <l>His wonders to perform;</l>
+            <l>He plants his footsteps in the sea</l>
+            <l>And rides upon the storm.”</l>
+          </lg>
+          <p>My brethren and sisters in the church began early to manifest their regard for my good endeavors, and I hoped to soon become influential in the service of Christ.</p>
+          <p>The next year, 1837, I was married to Miss Sidney, of Pennsylvania. She was a worthy, industrious and estimable woman. Although her health was poor, and she suffered much, she was ever faithful in her duty to her husband. She was a member of the Baptist denomination at the time of our marriage, but soon after united with the Methodists, and went down to the grave hoping in the resurrection. She left this weary world forever on the 9th day of January, 1849.</p>
+          <p>While she lived we labored together, and prospered. We felt that our efforts to do good had not been in vain or unrewarded. So it must be with those who seek after the blessings of true religion, take up their cross and follow the meek and lowly Jesus.</p>
+          <p>There was unity of spirit in our little church, and each sought to assist a neighbor. Through industry and diligence we were enabled to build a small frame building for our church edifice, on Walnut street. In this I bore a fair and rather conspicuous part. I was favored both temporally and spiritually. I was enabled to build a house in town, and also purchased a small farm in the country. A year after, I bought another farm—and my possessions were estimated at
+<pb id="p38" n="38"/>
+nearly two thousand dollars. Even a third farm was soon added to my estate, which I improved and cultivated.</p>
+          <p>Thus I prospered most wonderfully in earthly acquirements, and while favors were heaped upon me in my temporal affairs, I felt that my spiritual progress was onward and upward. I was promoted to the office of class-leader in the church, and head steward. Two years after this, I procured a license to exhort, and in two years more I had permission to preach the gospel of Christ. On all occasions I betook myself to prayer and diligent study of the Scriptures. Fifty dollars was invested in valuable works on the Bible, which made my library superior to any that belonged to my classmates. In two years more I was duly elected to the charge of the Walnut Street Church in our town, which I endeavored to serve with Christian fear, always keeping in view the glory of God, and Christ, my guiding star.</p>
+          <p>Those who favored the “peculiar institution” sought to make me promise to assist no more fugitives in their flight, as they should chance to pass that way. But their attempts were vain, for how could I do this and be a consistent follower of the instructions found in my Bible? In the good book we are commanded to feed the hungry and clothe the naked, and no mention is made of color or condition. Besides, I had learned by sad experience how the poor hound-driven slave pants for freedom from such inhuman bondage—how the heart is made to leap with joy when a friend indeed offers the protection sought. No, my whole duty must include this kindness to my unfortunate fellow beings. And while I live I hope to work in the glorious cause of charity and beneficence toward God's afflicted children.</p>
+          <p>My two wagons, and carriage, and five horses were always at the command of the liberty-seeking fugitive. Many times have my teams conveyed loads of fugitive slaves away while 
+<pb id="p39" n="39"/>
+the hunters were close upon their track. I have carried them away in broad daylight, and in the grim shades of night. I have scouted through the woods with the fleeing slave while the barbarous hunters pursued as if chasing wolves, panthers or bears.</p>
+          <p>That old town has known many a bloodthirsty chase, and has been the home of numerous negro-catchers, both white and black. But many of them have gone to their long home—the “bourne from whence no traveler returns.” I knew them well, and their names I might disclose; but I forbear. Surely they will all meet their reward in the great day.</p>
+          <p>Fifteen years ago some men in Kentucky had a great desire to catch me within the limits of their State, as they averred that I had been guilty of assisting negroes to escape from their masters. But I kept out of their way until December 12th, 1856.</p>
+          <p>For the information of certain people who may feel interested, I will here state, that although I have assisted a hundred colored people within the State of Indiana, I have never helped one to get across the Ohio river from Kentucky. They have only been aided by me when they were in Indiana, and in such manner as giving them food and instruction in the course to pursue, &amp;c.</p>
+          <p>I am sorry to state that now the colored people are rewarding me by evil treatment, discrediting my statements and persecuting me in various ways. I could inform the reader of several instances of persecution while pursuing my good intentions, but fear I may be deemed guilty of a bad return myself.</p>
+          <p>I will still put my trust in God, nor allow the threats and wicked acts of my fellow men to deter me from deeds of virtue. For if God be for me who can be against me?</p>
+          <pb id="p40" n="40"/>
+          <p>I could mention many instances of narrow risks of life and limb which I have run, with names of persons and places, but I know I should not be deemed a forgiving creature.</p>
+          <p>With much praying and faithfulness I continued the allotted time to discharge my duty to the best of my ability, at the Walnut street church. My successor was Rev. B. Mark Smith.</p>
+          <p>My time was now pretty fully employed in drawing wood with two teams, besides other services of a like character; and these furnished a fair amount of money necessary for the maintenance of our family. My credit had grown to a most gratifying condition, the bankers being ready and willing at any time to lend me money.</p>
+          <p>At length I came to the conclusion to withdraw from the Methodist Episcopal Society of whites, and join what is now the African Methodist Episcopal Church.</p>
+          <p>The charge of a circuit was immediately given me, and I again went forward in the work of the ministry. My labors seemed to be blessed of the Lord, for many were added to the church and many induced to follow the meek and lowly Jesus. Great happiness was my portion; my heart would leap with joy, and ofttimes have I been ready to exclaim, Glory to God as I thought on His goodness and loving kindness.</p>
+          <p>I arranged and directed Sabbath Schools, as they were appointed, and the fruits of my labors were made apparent in the good conduct of the precious pupils who listened to and honored me. The support afforded me through my circuit was meagre, though the range was quite extensive.</p>
+          <p>I labored diligently, nor spared any trouble, as I sought to benefit immortal souls.</p>
+          <p>A camp meeting, at which I officiated, was held at Vernon, Indiana, and was the closing scene of this eventful year. 
+<pb id="p41" n="41"/>
+Since then I have not had charge of any congregation, though I have not neglected to serve that being who giveth every good and perfect gift.</p>
+          <p>Mine has been a changeable life—a pilgrimage of suffering, now and then brightened by a ray of joy and earthly happiness, but generally clouded with terrible feelings. But you shall know more of scenes in my pathway.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p42" n="42"/>
+          <head>CHAPTER X.</head>
+          <argument>
+            <p>BUILDING CHURCHES, ETC.</p>
+          </argument>
+          <p>At the time I became connected with the A. M. E. Church, the congregation had a church building of their own to worship in. I had built a parsonage house for the Walnut Street Church with my own means, and I now decided to erect a building for this society to worship in, and rent it to them. The object was easily accomplished. The congregation made many efforts to build a church for themselves, but failed. At last they agreed to accept my direction in the matter, and the house was soon erected, which is now the Fifth Street, or the Brick Church. The building was not entirely completed until during the administration of Rev. E. Weaver.</p>
+          <p>At the close of the term of my ministry, I determined to give up farming and to turn my attention to the business of grocery keeping, huckstering, &amp;c., in which I engaged for a time. But this soon proved a ruinous move for me. My native benevolence would not permit me to treat my customers as if there was a possibility of their cheating me out of my dues, and I was always too willing to trust to their honesty. Patrons were not few, and I served them readily, until there was a necessity for collecting the straggling debts among the numerous delinquents. This proved to be the 
+<pb id="p43" n="43"/>
+most difficult part of my business, for, while some had already left the town for parts to me unknown, many still remained who pleaded poverty and inability to pay. I am sorry that I am obliged to record dishonesty of my brethren, but certain it is that their acts convicted many of violating the laws of duty. I was obliged to yield to the necessity of closing up my trading business. Some of those who had been only too glad to be served with things for the household, and allowed to wait until. I was nearly involved in debt, were the most unkind to me when the time came for settlement. There were debts of fifty to seventy dollars, the demand for the payment of which was the cause of many hard words from the debtors, who would often even manifest a disposition to fight me.</p>
+          <p>I am well aware that during those trials I was guilty of some evil thoughts and misdeeds, and for which I have been truly repentant since. But it was a severe struggle to overcome the excitement caused by such treatment and ill success. I hope that I may be forgiven, at least by my Heavenly Father, if not by my fellow men.</p>
+          <p>When I review the scenes of my life, and bring to mind the services I have rendered my colored brethren—even risked my life for them—the remembrance of their unmanly treatment of me, stirs up the sorrow of my heart. O God, wilt thou instruct and lead them from the evil of their ways, and keep me still within thy arms?</p>
+          <p>I eventually removed to Indianapolis, Indiana, where I engaged in business for a time. An agency was entrusted to me here to raise money for building a church in Louisville, Kentucky. When one hundred dollars had been obtained and handed over I found that the demand was too great for me to supply, and declined the agency. Since that experience I have been simply agent for myself, and found ample 
+<pb id="p44" n="44"/>
+employment for labor and money. My trade now was in books, to some extent, and very successful too.</p>
+          <p>For about fifteen years I have preached and lectured, and I can but acknowledge the goodness of the Great Shepherd to-day—that He is with me still. As I pen these lines the day is breaking. O that God would cause the daylight of religion to break upon many souls. I feel that I am too much like Peter, who chose to follow his Lord afar off. But still I can say, with the Psalmist,</p>
+          <p>“The Lord is my Shepherd, I shall not want; He maketh me to lie down in green pastures; He leadeth me beside still waters. Yes, He restoreth my soul; He leadeth me in the paths of righteousness, for His own name's sake. Yea, though I walk through the valley of the shadow of death, I shall fear no evil, for thou art with me; thy rod and thy staff they comfort me. Yes, thou anointeth my head with oil; thou spreadeth a table before me, in the presence of mine enemies. Surely goodness and mercy have followed me all the days of my life, and I will dwell in the house of the Lord forever. I once was young, but now I am old, and I never have seen the righteous forsaken nor his seed begging bread. The earth is the Lord's and the fullness thereof.”</p>
+          <p>Therefore I will trust in Him, as did Job, Peter, Paul and all the Apostles of old. O, like Jonah, I can almost say “I have cried to God out of the belly of hell,” for some of these jails resemble a hell, and I have been in many of them in the United States; for where the slaveholders did not put me in, these mean Northerners or Free State men, both black and white, would concoct plans to imprison me. But, bless the Lord, the old man Anderson still lives, while many of them are falling to rise no more. Yes, glory to God, I expect to shout Victory when the world is on fire.</p>
+          <p>When I look back upon my past life I can see where I 
+<pb id="p45" n="45"/>
+could have lived a better man, and it grieves me to think that I am not a better man than I am to-day; but I glorify and bless God it is no worse with me than it is. Yes, I feel happy to-day that my face is Zionward, and that my treasures are laid up in heaven. I can cheerfully pray for my persecutors, and thereby do good for evil. Yes, my soul feels happy to-day. Often when I think what I have passed through, and how I now enjoy myself, I can truly sing—</p>
+          <lg type="poem">
+            <l>“How happy are they</l>
+            <l>Who their Saviour obey,</l>
+            <l>And have laid up their treasures above.</l>
+            <l>Tongue cannot express</l>
+            <l>The sweet comfort and peace</l>
+            <l>Of a soul in its earliest love.”</l>
+          </lg>
+          <p>Or this—</p>
+          <lg type="poem">
+            <l>“God moves in a mysterious way,</l>
+            <l>His wonders to perform;</l>
+            <l>He plants His footsteps in the sea,</l>
+            <l>And rides upon the storm.”</l>
+          </lg>
+          <p>Yes, bless the Lord, He has always stood by poor, unworthy me in all my distress. After I found that everybody appeared to be inclined to cheat me out of what I was worth, I concluded to travel over the Northern States and sell books. It would undoubtedly be astonishing to the reader to hear how many places I have preached and lectured—frequently to very large crowds. I have spoken some one thousand times. So I assure the reader I am not just scared up like a rabbit</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p46" n="46"/>
+          <head>CHAPTER XI.</head>
+          <argument>
+            <p>MORE SCENES OF SUFFERING AND TORTURE.</p>
+          </argument>
+          <p>I may again ask the reader to listen to sorrowful tales, and notes of scenes which have been only too familiar to my own eyes. Some sketches I give from persons are reliable, and the sympathetic or the horror-stricken may not turn away disgusted and doubting the truth of the narrative.</p>
+          <p>I once knew a man in old Virginia by the name of Thornton, who had an old pious slave. I knew them both. This wicked tyrant practiced his cruelty in various ways. Sometimes he would strip the old slave, turn him loose in his barn and train him with a whip as if he were a dog. He would order him in words like these:</p>
+          <p>“Pass by me, you d—d rascal!”</p>
+          <p>Then as the poor slave obeyed him, Thornton lashed his naked body with the hickories. Thus he would continue his hellish sport till the poor creature had received as many as three hundred cuts.</p>
+          <p>Sam, the pious old slave, was one of the most obedient, ignorant creatures, and there was no necessity for such inhuman treatment. But, tortured thus till despair seized him, he sometimes ran away. But after he had been missing two or three days, his master would go to the edge of the woods and, with vengeance in his tone, bawl out—</p>
+          <p>“You, Sam!”</p>
+          <pb id="p47" n="47"/>
+          <p>Poor Sam, frightened into obedience, would yield, answer, and then return to the clutches of his wrathful master.</p>
+          <p>But, long ago, Thornton went to his reward in the regions below, and we trust his faithful slave has exchanged this earthly existence for one of bliss, singing praises unceasingly with the host above.</p>
+          <p>In the family of another well known hard-hearted slave owner, who whipped and drove his slaves like dogs or cattle, for about sixty or seventy years, there lived a colored man by the name of Joe.</p>
+          <p>One day the master was taken sick and nigh unto death. His preacher or spiritual adviser was sent for, and while attending there the old master died.</p>
+          <p>The preacher took it upon himself to give Joe some good advice on the occasion.</p>
+          <p>“Come here, my good boy,” said the pious man. Joe obeyed, when his reverence began:</p>
+          <p>“Your master is dead and gone to heaven. Your mistress is left a widow. Now, Joe, you must stay at home and take care of your mistress. Don't rob the smoke house, nor pig pen, nor hen roost, nor potato patch; and when you die you will go to heaven, where your master is gone.”</p>
+          <p>“Whar?” asked Joe.</p>
+          <p>“To heaven,” replied the minister.</p>
+          <p>“<sic corr="Ain't">Aint</sic> God dar?”</p>
+          <p>“Yes, Joe.”</p>
+          <p>“Don't He know ebery ting?”</p>
+          <p>“Yes, Joe.”</p>
+          <p>“And He gwine to let massa come dar after he been beatin and whippin' me for fifty years? If I go dar, and massa is dar, I'll put on my old hat and come straight out of dar.’ I won't stay in no such a heaven, where they let such a man as massa stay dar.”</p>
+          <pb id="p48" n="48"/>
+          <p>So persisted the honest old slave, and rather puzzled the wise head of the reverend adviser.</p>
+          <p>Another savage specimen of a slaveholder, who drank liquor too freely for his own good, and whipped and drove his poor slaves in a desperate manner, I once knew of in the State of Mississippi. This monster in human shape was an outlaw who feared not God, nor regarded human beings with any degree of kindness.</p>
+          <p>One of his slaves was in the habit of running away as often as an opportunity was presented. His master tried every stratagem of cruelty to make this poor creature fear him and stay at home, but with poor success. One day the old tyrant took his truant slave to the woods, tied him to a tree, and left him to die by inches. Insects drank his blood, and he yielded at last to this horrid death.</p>
+          <p>This same fiend of a slaveholder had another slave who loved liberty better than bondage and the lash. His master hunted and caught him with bloodhounds, and allowed the dogs to kill him. Then he cut his body up and fed the fragments to the hounds.</p>
+          <p>These same dogs once attacked some children returning from school, and killed one or more.</p>
+          <p>It is no uncommon thing for slaveholders to keep such savage dogs, trained to hunt and follow the track of the poor colored fugitive, day and night, till they catch him. Men who do not own such hunters hire them for the purpose of running down God's unfortunate creatures, whose great sin among the whites is the darkness of their skin I do think that the hearts of the masters must be far blacker than the negro's skin.</p>
+          <p>Driven to the woods or swamp, the slave is obliged too often to yield and be torn by the savage dogs who gratify the vengeful dispositions of the masters.</p>
+          <pb id="p49" n="49"/>
+          <p>As I rehearse these soul-torturing, harrowing facts—these scenes of blood and butchery—my heart sickens and my blood runs cold, and I finally drop my pen while the tears of sorrow and sympathy flow. It is surely a hard question to answer—Why does the Lord thus suffer us to be afflicted, beaten, dragged and torn with anguish unspeakable, in this glorious “<sic corr="free">freo</sic>” country? His ways are past finding out.</p>
+          <p>A man by the name of Paddy, who was once employed as overseer of slaves in the State of Louisiana, related to me some of his experiences—a portion of which story I may here publish. On a sugar plantation, while employed in boiling sugar, he kept an old slave up every night, according to his master's orders, to serve him in the operations. Constant taxing of the old slave's faculties, finally used up his powers of keeping awake, and one night the old man fell asleep and tumbled into the kettle of boiling hot sugar. When found he was cooked through and through—emphatically “done brown.”</p>
+          <p>The master also owned several other slaves, some of whom would escape as they found opportunity to do so. One was caught and brought home to him, when the master took him to a wood pile and chopped off one of the poor slave's legs. A physician was sent for, and the stump of a limb was done up, while the victim of such vengeful deeds was left to suffer.</p>
+          <p>Another truant slave, when brought home, was forced to have one of his eyes punched out, as a penalty for his misconduct.</p>
+          <p>Others who dared to use their God-given rights, were branded with hot irons or had their ears cropped.</p>
+          <p>As for whipping, Mr. Paddy said his employer had so much of it to do that he was forced to leave him. Mr. P. said those slaves were beaten and worked hard, and given poor food and poor clothes. Cattle seldom receive such treatment 
+<pb id="p50" n="50"/>
+as did these suffering slaves. Oh, the horrors of American Slavery! I wonder if the devil can fathom the institution.</p>
+          <p>In my boyish days, in old Virginia, there lived a very rich man by the name of Garland, in Hanover county, the place of my birth. He owned a large number of slaves. His overseer's name was King, who was an awful tyrant—a monster among the negro race—whipping and driving both men and women, and cohabiting among the women, both married and single.</p>
+          <p>So Mr. King flourished for a time; but his cup of iniquity got full, and one day while he was counting rails in the woods, two brother slaves, named Humphrey and Thornton, knocked him down with their axes and killed him. Just before he expired, some little black thing or devil made his appearance and said, “If he is not dead don't kill him.” They did, however, kill him and placed him on the road side. This Mr. King, they supposed, dealt with the devil, and this was his black brother, who came to relieve him. But the slaves were too strong for the devil.</p>
+          <p>For this deed the slaves were both swung off from one gallows. I saw them myself.</p>
+          <p>This King would hang his coat up in the field, and tell the slaves he would be back shortly. They would work hard while looking at his coat, although he would sometimes be twelve miles distant.</p>
+          <p>Now I wish to speak of an awful occurrence that transpired on the Ohio river. It will be remembered by early settlers of Kentucky that one Ned Stone was a great negro trader. His cruel mind did not recognize it as being a horrid crime to separate husband and wife, parents and children, etc.</p>
+          <p>This Ned Stone, after trading in slaves some fifteen years, making himself rich from the income, undertook to make a large trade in slaves. He bought a lot in Maryland, some in 
+<pb id="p51" n="51"/>
+Virginia, some in Kentucky, etc., and stole some, as he usually did. He then proceeded down the river, on two flat boats, with his prizes—men, women and children—amounting to the number of one hundred and seventy-five. He passed Cincinnati; Madison, Indiana; and Louisville, Kentucky. On down he went, treating his slaves in a very cruel manner, until he got opposite Rome, Indiana.</p>
+          <p>Now I will give the statement of the colored men themselves, for I lived with them five years in slavery and hard servitude. Those colored men said they concocted a plan to murder all the whites, and then leave the boats and pass for free men in Indiana. There were about seventy-five colored men and only five whites, to wit: Ned Stone, a Mr. Davis, a Mr. Cobb, and two others. They murdered all the white men about nine o'clock. The colored men then cut their chains off, put them on the white men and sunk them in the river, and landed in Indiana that same night. In a few days they were nearly all captured and taken over to Kentucky. The white men were dragged from the bottom of the river, and the irons taken off them and again put on the colored men. Five of the blacks, who were deemed most guilty, were hung; the rest were sold for a compensation down in Mississippi.</p>
+          <p>It seemed that the judgments of God followed those poor; unfortunate creatures.</p>
+          <p>Of my sufferings in this narrative I have only mentioned one thing out of a thousand, and of the other poor slaves, only one in ten thousand that have come under my own observation. The reader will pardon my short narrative, as my recollection and time will not permit me to extend this little sketch at present. I say again, the half has not been told of my knowledge of Slavery in the United States.</p>
+          <p>I must now pass over a few years of my life while enjoying comparative peace and some, at least, of the comforts of 
+<pb id="p52" n="52"/>
+freedom. The incidents during this period might not prove of interest to the readers of this narrative, and I will not detain them with details of familiar scenes. Suffice it to say, my heart grew not thankless to Him who had been my Preserver, and the blessings of freedom nourished a love for all things good.</p>
+        </div2>
+        <div2 type="section">
+          <pb id="p53" n="53"/>
+          <head>CHAPTER XII.</head>
+          <argument>
+            <p>MY ARREST AND TRIAL—CHARGED WITH THE CRIME OF ASSISTING SLAVES FROM KENTUCKY.</p>
+          </argument>
+          <p>On the 12th of December, 1856, I was in Jeffersonville, Indiana, and having been absent from home (Madison City) for some time, my heart's desire was to get to my family that night. Fearing the boat, which was at the levee, would not cross the river in its passage, I took passage on the ferry-boat and went on board the steamer Telegraph, bound for Madison. Just as I walked on, Mr. Bly, one of the policemen of Louisville, and others, bawled out and said:</p>
+          <p>“Here is Mr. Freemont!”</p>
+          <p>They took me to, jail and confined me therein. There I laid and suffered, with nothing but hogs' hearts and a little corn bread to eat; huddled in a cold cell all night, without enough bedding to keep me warm.</p>
+          <p>On Sunday evening they came and informed me that there was a reward offered for me up at Carrollton, in Kentucky; that I had been running off the slaves of a Mr. Guiltners.</p>
+          <p>O, my God! I was horror struck. No one could tell, nor could I express my feelings. With a heavy heart and bewildered mind, and in care of a strong guard, I was taken on up the river.</p>
+          <p>Some few things attracted my attention on the way which I will mention. They watched every colored person that 
+<pb id="p54" n="54"/>
+came near to me, venturing sarcastical remarks, as, “Here comes the committee,” &amp;c., &amp;c. Oh, the horrible feelings I was here obliged to endure no tongue can tell. In the midst of the agony produced by the thought of bondage being again thrown upon me, I was taunted, and my heart was wrung anew. They had taken all my money from me, as they thought, (about one hundred and twenty dollars in gold and silver.)</p>
+          <p>As I passed Madison I begged the guard to let me send twenty dollars up to my poor wife, whom I knew was greatly in need of it; but he refused me four or five times. Another man came to watch me, and I named it to him. He said he would send the money to her if I had any about me. Well, as God would have it, in their search they did not find all I had. I had fifty dollars in paper about me still, and out of this I gave him twenty to send to her; but, sad to relate, this man has never sent it to her yet; at least she never has received it. I did not know what they might do with me when they should get me to Carrollton. Grim forebodings haunted me. Dreadful deeds were no doubt being planned for my subjugation to the yoke of slavery. My heart was in my mouth, it seemed, all the way. I did not know what untruths they might swear to in order to convict me. I did not know but that they might lynch me without judge or jury.</p>
+          <p>But we landed safely, and they conveyed me to the jail without molestation. I laid there some five days and nights, and I assure you I did not sleep or eat much during that time, but prayed without ceasing, and I believe the Lord heard my prayers. I continued to pray and ask the Lord to bless me and open the way for my deliverance.</p>
+          <p>My lawyer, Mr. Vanatta, came from Madison; he, with another lawyer, of Carrollton, Mr. Windslow, contested the 
+<pb id="p55" n="55"/>
+suit. The day came for my trial. I was arraigned for conveying away Mr. Guiltners' negroes. Some five or six witnesses were examined. They all testified that I had said that I had helped off one hundred slaves. One man swore that on one occasion I said I had just returned from Canada, to where I had taken a lot of slaves from Kentucky. No one, thank God, could swear that he ever saw me take any slaves from Kentucky much less from Mr. Guiltners. There seemed to be considerable feeling against me, but nothing was said openly. While this was going on it seemed that I was going to the State Prison for life. My lecturing papers and ballads were all closely examined. The crowd looked rough and awful.</p>
+          <p>At length the pleadings commenced. They had not proved anything at all against me. By their laws, to convict me, they must prove that I had taken negroes from a man residing in Kentucky, but this they failed to do; therefore my lawyer plead my acquittal. They found that I was a man free born, of lawful age, duly and truly prepared, properly vouched for, and had traveled from the west to the east in search of light.</p>
+          <p>The judge decided that I was not guilty as charged, but he said there was something in my carpet bag very antagonistical to slavery; yet he would acquit me. He held me to bail in the sum of five hundred dollars, which sum he said I would have to pay or lay in jail all the winter. The reader must know that I was unable to give this bond, and in this suspense they held me about two hours. The feelings of my poor heart all this time were only alleviated by fervent prayer to God that He would help poor, unworthy me.</p>
+          <p>At last I felt that God had heard my prayer. The prosecuting attorney came in and whispered to the judge, and they concluded to pity me and let me go. They formed a guard amongst themselves, and put me over the river, twelve miles 
+<pb id="p56" n="56"/>
+above Madison, on the Indiana shore, at the setting of the sun.</p>
+          <p>Now, reader, I have given but a short sketch of this awful transaction, and among all the scenes of this troublesome life, this seemed to be one of the hardest trials. It cost me all the money I could raise, and jeopardized my only piece of property, and has left me penniless and destitute. But still I hope the Lord will remember me in my affliction, as he did Job, although I have not been as faithful as he was. I was treated as well as I could possibly expect, while in jail at Carrollton, and the trial was fair and impartial.</p>
+          <p>In justice to myself I will here state that I have been accused by the friends of Mr. Elijah Anderson, and also by my personal enemies, of making statements during my confinement (to ameliorate my condition) which led to his arrest. This is decidedly false. Even if I had been so wickedly disposed, I had no chance whatever to do anything to injure him. True it is, that on the same day I was acquitted he was arrested on a boat in the river, and if I had been guilty of these statements, would I not have been detained as a witness against him? The reader can easily satisfy his own mind as to my guilt or innocence. Mr. Elijah Anderson is not a relative of mine—merely an acquaintance.</p>
+          <p>I have been a great friend to colored strangers for years, and because of my efforts in their behalf I have been accused of helping off slaves. But what could I do—a poor colored man, of very limited power and liberty?</p>
+          <p>While I am penning these lines my heart is weeping and bleeding with sorrow; all my worldly goods are gone, but I feel thankful to God it is no worse. Like David, I can say that “In my distress I cried unto the Lord, and He heard me and saved me out of my troubles. The earth is the Lord's 
+<pb id="p57" n="57"/>
+and the fullness thereof. If I am faithful He will restore to me four fold.”</p>
+          <p>I have given this short history of my life and trials, but I have failed to express my feelings. In justice to the slaveholders I would state that I believe they gave me a fair trial, and although I was sinfully and wrongfully arrested and detained, I will continue to pray for my persecutors, and do good for evil.</p>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="appendix">
+        <pb id="p59" n="59"/>
+        <head>APPENDIX.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <argument>
+            <p>A SIMPLE PLAN FOR ABOLISHING SLAVERY IN THE UNITED STATES.</p>
+          </argument>
+          <p>My plan is simply this: Let Congress set apart a territory somewhere in the United States for the colored people, open to the choice of free and slaves to emigrate to, as they may think proper. Then let Congress appropriate several millions of dollars in lands or otherwise, to be paid to the holders of slaves for them, say a stipulated sum on each. Upon the payment of this let the slaveholders give the slaves their liberty. As most of the slave labor will be needed, let their present masters, or others, hire them as they choose, for a small compensation. At the same time let them have the advantages of education. By this arrangement the masters would get three times the work done, and on the whole the master and slave would prove a blessing to each other.</p>
+          <p>1. Congress is able to donate to Railroad Companies large tracts of land to aid them in the construction of their lines.</p>
+          <p>2. The United States, with her glorious institutions, rich and plenteous soil, invites all nations to her friendly protection; while at the same time they discourage, or will not set apart a place for colored people, which surely ought to be 
+<pb id="p60" n="60"/>
+done. Justice to the colored man demands it, for the profits of the past. We leave the philosopher and scholar to determine, and the Christian Church, both North and South; to pray and think over these matters of great importance. O, may God impress it upon their minds.</p>
+          <p>3. They all agree that slavery is an evil; they all, with a few exceptions, profess a desire to get rid of it; and by this simple plan the slave will be encouraged to work hard, to maintain and educate his family. A great deal of their labor will be needed where they are to till the lands, and if such an institution were established, things would prosper far better than they do at present. Every servant would work with a glad and cheerful heart. The overseers' wages would be saved, and there would be no requirement for warlike implements.</p>
+          <p>Let all those who feel so disposed, emigrate to the said territory from either north or south—and many would go with their families and wealth—and there would soon be a large colony established. All this could be as easily done as to grant lands to make railroads and other improvements. I do think this ought to be done, but we wait for our friends to speak, petition and write on this subject, for as a race our hands are tied and mouths stopped. Come, friends, by way of investigation, let us hear from you from all points, both north and south. We say again, that there are large tracts of unbounded territory, then why will not the whites give the blacks a place. We are brought here captives by them from our native country, and have helped to clear and till this, and now to be forced away is more than we can bear.</p>
+        </div2>
+        <div2 type="section">
+          <pb id="p61" n="61"/>
+          <head>CHAPTER II.</head>
+          <argument>
+            <p>SCRIPTURAL VIEWS OF COLORS, ETC.-HOW THE FIRST BLACK AND <lb/>
+WHITE MAN CAME.</p>
+          </argument>
+          <p>Read the second chapter of Genesis, seventh verse; it says, “And the Lord God formed man of the dust of the earth, and breathed into him the breath of life, and he became a living soul.” This earth or place where man was formed was in or near the garden of Eden, where the ground was quite black or dark; no one believes that it was white, and therefore the first man was black. The reader may differ with me on this point, but we both have a right to our opinions in these times of free thinking</p>
+          <p>Read 2d Kings, 5th chapter, where Naaman came to the Prophet Elisha, the man of God, to be cured of a certain bad disease, and after the man of God had cured him, he would not take anything from his hand as a compensation, and he departed in peace—rejoicing. But Gehazi, the Prophet's servant, ran after him with a lie in his mouth, and said his master, the Prophet, had sent him for two changes of garments, and two shekels of silver. Naaman dismounted from his chariot and loaded his servant with what he asked for, and he carried them back and placed them in the tower, and went in and stood before his master, the man of God. Elisha said to him, “Where hast thou been, Gehazi?” He said, “I have been no whither.” Then the Prophet said to him, 
+<pb id="p62" n="62"/>
+“Well hast thou said thou hast been no whither; did not my heart go with thee when thou followed Naaman, and lied to him for gold and changes of garments? O, Gehazi,” said the man of God, “this is no time to take gold and silver, or lands, or houses. The disease that was upon Naaman shall return upon thee and thy seed forever.”</p>
+          <p>Gehazi was scared, and he went out from the Prophet white as snow. We perceive, therefore, that there have been white men ever since that time. I have given these views a thousand times in the hearing of the learned, and none of them have disputed my assertions; and you, friendly reader, if you were to examine the Scriptures closely, will find good logic in what I have said. It is true I do not expect the prejudiced to credit these facts, but we are all made of the dust of the earth, and Christ died for all, and we who are faithful to God are going to the same heaven or hell. In every nation he that worketh righteousness is accepted of Him. It is true a great deal has been said about colors, and how they came, but none of us were present when man was created, therefore we have to do the best we can with the writings that are left for our instruction. O, may God help us to search closely and pray over these matters.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p63" n="63"/>
+          <head>CHAPTER III.</head>
+          <argument>
+            <p>SERVICES OF COLORED MEN IN THE REVOLUTIONARY WAR.</p>
+          </argument>
+          <p>A great many of the whites say that colored people never done anything in the wars of this country; therefore they wish us away. Some say let them go to Liberia, while others say let them go to the Rocky Mountains. This is our native country; here we were born; here we have lived, and are acclimated; and now I will show that we performed no unimportant part in the Revolutionary struggle.</p>
+          <div3 type="section">
+            <head>MASSACHUSETTS.</head>
+            <p>On the fifth of March, 1851, a petition was presented to the Massachusetts Legislature, asking an appropriation of $1,500 for erecting a monument to the memory of Crispus Attucks, the first martyr in the Boston Massacre of March 5th, 1770. The matter was referred to the Committee on Military Affairs, who granted a hearing of the petitioners, in whose behalf appeared Wendell Phillips, Esq., and Wm. C. Nell, but  finally submitted an adverse report on the ground that a boy, Christopher Snyder, was previously killed. Admitting this fact, (which was the result of a very different scene from that in which Attucks fell,) does not offset the 
+<pb id="p64" n="64"/>
+claims of Attucks, and those who made the 5th of March famous in our annals—the day which history selects as the dawn of the American Revolution.</p>
+          </div3>
+          <div3 type="section">
+            <head>RHODE ISLAND.</head>
+            <p>The Hon. Tristam Burgess, of Rhode Island, in a speech in Congress, first month, 1828, said: “At the commencement of the Revolutionary War, Rhode Island had a number of slaves. A regiment of them were enlisted into the Continental service, and no braver men met the enemy in battle; but not one of them was permitted to be a soldier until he had first been made a free man.”</p>
+            <p>“In Rhode Island,” says Governor Eustis, in his able speech against Slavery in Missouri, 12th of twelfth month, 1820, “the blacks formed an entire regiment, and they discharged their duty with zeal and fidelity. The gallant defence of Red Bank, in which the black regiment bore a part, is among the proofs of their valor.” In this contest, it will be recollected, four hundred men met and repulsed, after a terrible and sanguinary struggle, fifteen hundred Hessian troops, headed by Count Donop. The glory of the defence of Red Bank, which has been pronounced one of the most heroic actions of the War, belongs in reality to black men; yet who now hears them spoken of in connection with it? Among the traits which distinguished the black regiment, was devotion to their officers. In the attack made upon the American lines, near Croton river, on the 13th of fifth month, 1781, Colonel Greene, the commander of the regiment, was cut down and mortally wounded; but the sabres of the enemy only reached him through the bodies of his faithful guard of blacks, who hovered over him to protect him; <hi rend="italics">every one of whom was killed.</hi></p>
+          </div3>
+          <div3 type="section">
+            <pb id="p65" n="65"/>
+            <head>CONNECTICUT.</head>
+            <p>Hon. Calvin Goddard, of Connecticut, states that in the little circle of his residence, he was instrumental in securing, under the act of 1818, the pensions of nineteen colored soldiers. “I cannot,” he says, “refrain from mentioning one aged black man, Primus Babcock, who proudly presented to me an honorable discharge from service during the war, dated at the close of it, wholly in the handwriting of George Washington. Nor can I forget the expression of his feelings when informed, after his discharge had been sent to the War Department, that it could not be returned. At his request it was written for, as he seemed inclined to spurn the pension and reclaim the discharge.”</p>
+            <p>During the Revolutionary War, and after the sufferings of a protracted contest had rendered it difficult to procure recruits for the army, the Colony of Connecticut adopted the expedient of forming a corps of colored soldiers. A battalion of blacks was soon enlisted, and throughout the war conducted themselves with fidelity and efficiency. The late General Humphreys, then a captain, commanded a company of this corps. It is said that some objections were made, on the part of officers, to accepting the command of the colored troops. In this exigency, Captain Humphreys, who was attached to the family of General Washington, volunteered his services.</p>
+            <p>The following extract, furnished by Charles Lenox Remond, from the pay rolls of the second company, fourth regiment of the Connecticut line of the revolutionary army, may rescue many gallant names from oblivion:</p>
+            <p>
+              <list type="simple">
+                <head><hi rend="italics">Captain,</hi> DAVID HUMPHREYS. <lb/>
+<hi rend="italics">Privates.</hi></head>
+                <item>Jack Arabus,</item>
+                <item>Jo Otis,</item>
+                <item>Prince Johnson,</item>
+                <item>John Cleveland,</item>
+                <item>James Dinah,</item>
+                <item>Alexander Judd,</item>
+                <pb id="p66" n="66"/>
+                <item>Phineas Strong,</item>
+                <item>Peter Mix,</item>
+                <item>Pomp Liberty,</item>
+                <item>Ned Fields,</item>
+                <item>Philo Freeman,</item>
+                <item>Cuff Liberty,</item>
+                <item>Isaac Higgins,</item>
+                <item>Hector Williams,</item>
+                <item>Pomp Cyrus,</item>
+                <item>Lewis Martin,</item>
+                <item>Juba Freeman,</item>
+                <item>Harry Williams,</item>
+                <item>Cæsar Chapman,</item>
+                <item>Cato Robinson,</item>
+                <item>Sharp Rogers,</item>
+                <item>Brister Baker,</item>
+                <item>Prince George,</item>
+                <item>Solomon Sowtice,</item>
+                <item>Cæsar Bagdon,</item>
+                <item>Prince Crosbee,</item>
+                <item>Peter Freeman,</item>
+                <item>Gameliel Terry,</item>
+                <item>Shubael Johnson,</item>
+                <item>Cato Wilbrow,</item>
+                <item>Lent Munson,</item>
+                <item>Tim Cæsar,</item>
+                <item>Cuff Freeman,</item>
+                <item>Heman Rogers,</item>
+                <item>Jack Little,</item>
+                <item>Juba Dyer,</item>
+                <item>Job Cæsar,</item>
+                <item>Bill Sowers,</item>
+                <item>Andrew Jack,</item>
+                <item>John Rogers,</item>
+                <item>Dick Violet,</item>
+                <item>Peter Morando,</item>
+                <item>John Ball,</item>
+                <item>Ned Freedom,</item>
+                <item>Peter Lion,</item>
+                <item>John McLean,</item>
+                <item>Ezekiel Tupham,</item>
+                <item>Sampson Cuff,</item>
+                <item>Jesse Vose,</item>
+                <item>Tom Freeman,</item>
+                <item>Dick Freedom,</item>
+                <item>Daniel Bradley,</item>
+                <item>Congo Zado,</item>
+                <item>Pomp McCuff.</item>
+                <item>Sharp Camp,</item>
+                <item>Peter Gibbs, </item>
+              </list>
+            </p>
+            <p>The names of the two brave men of color who fell, with Ledyard, at the storming of Fort Griswold, were Sambo Latham and Jordan Freeman.</p>
+            <p>Ebenezer Hills died at Vienna, N. Y., August, 1849, aged 110. He was born a slave in Stonington, Conn., and became free when twenty-eight years of age. He served through the Revolutionary War, and was at the battles of Saratoga and Stillwater, and was present at the surrender of Burgoyne.</p>
+            <p>The colored inhabitants of Connecticut assembled in Convention in 1849, to devise means for their elective franchise, which is yet denied to seven thousand of their number. A gentleman present reports the following extract:—“A young man, Mr. West, of Bridgeport, spoke with a great deal of energy, and with a clear and pleasant tone of voice, which many a lawyer, statesman or clergyman might covet, nobly vindicating the rights of the brethren. He said that the 
+<pb id="p67" n="67"/>
+bones of the colored man had bleached on every battle-field where American valor had contended for national independence. Side by side with the white man, the black man stood and struggled to the last for the inheritance which the white men now enjoy but deny to us. His father was a soldier-slave, and his master said to him, when the liberty of the country was achieved, ‘Stephen, we will do something for you.’ But what have they ever done for Stephen, or for Stephen's posterity?”</p>
+          </div3>
+          <div3 type="section">
+            <head>NEW HAMPSHIRE.</head>
+            <p>The Rev. Dr. Harris, of Portsmouth, N. H., a revolutionary veteran, stated in a speech at Francestown, N. H., some years ago, that on one occasion the regiment to which he was attached was commanded to defend an important position which the enemy thrice assailed, and from which they were as often repulsed. “There was,” said the venerable speaker, “a regiment of blacks in the same situation—a regiment of negroes fighting for our liberty and independence, not a white man among them but the officers—in the same dangerous and responsible position. Had they been unfaithful, or given away before the enemy, all would have been lost. Three times in succession were they attacked with most desperate fury by well-disciplined and veteran troops, and three times did they successfully repel the assault, and thus preserve an army. They fought thus through the war. They were brave and hardy troops.</p>
+          </div3>
+          <div3 type="section">
+            <head>VERMONT.</head>
+            <p>August 16th, 1777, the Green Mountain Boys, aided by troops from New Hampshire, and some few from Berkshire 
+<pb id="p68" n="68"/>
+county, Massachusetts, under the command of Gen. Starks, captured the left wing of the British Army near Bennington. Not having rope enough to tie all the prisoners, Gen. Starks called for more. Mrs. Robinson, wife of Hon. Moses Robinson, told the General that she would take down the last bedstead in the house and present him with the rope, on condition that he would permit her negro man to harness up an old mare, and hitch the rope to the whiffletree, mount the mare, and conduct the prisoners out of town. The General accepted the proposition, and thus was the left wing of the British army marched out of town.</p>
+            <p>Gen. Schuyler writes from Saratoga, July 23, 1777, to the President of Massachusetts Bay, “That of the few Continental troops we have had to the Northward, one-third part is composed of men too far advanced in years for field service, of boys, or rather children, and, mortifying barely to mention, of negroes.”</p>
+            <p>The General also addressed a similar letter to John Hancock, and again to the Provincial Congress, that the foregoing were facts which were altogether uncontrovertible.</p>
+          </div3>
+          <div3 type="section">
+            <head>NEW YORK.</head>
+            <p>I am indebted to Rev. Theodore Parker, of Boston, for the following Historical Sketch of New York Soldiery:</p>
+            <p>“Not long ago, while the excavations for the vaults of the great retail dry goods store of New York were going on in 1851, a gentleman from Boston noticed a large quantity of human bones thrown up by the workmen. Everybody knows the African countenance: the skulls also bore unmistakable marks of the race they belonged to. They were shoveled up with the earth in which they had rested, carted off and 
+<pb id="p69" n="69"/>
+emptied into the sea to fill up a chasm and make the foundation of a warehouse.</p>
+            <p>“On inquiry, the Bostonian learned that these were the bones of colored American soldiers who fell in the disastrous battles of Long Island, in 1776, and of such as died of the wounds then received. At that day, as at this, spite of the declaration that ‘all men are created equal,’ the prejudice against the colored man was intensely strong. The black and white had fought against the same enemy, under the same banner, contending for the same ‘inalienable right’ to life, liberty, and the pursuit of happiness. The same shot, with promiscuous slaughter, had mowed down Africans and Americans. But in the grave they must be divided. On the battle field the blacks and whites had mixed their bravery and their blood, but their ashes must not mingle in the bosom of their common mother. The white Saxon, exclusive and haughty even in his burial, must have his place of rest proudly apart from the grave of the African he had once enslaved.”</p>
+          </div3>
+          <div3 type="section">
+            <head>PENNSYLVANIA.</head>
+            <p>The late James Forten, of Philadelphia, well known as a colored man of wealth, intelligence and philanthropy, relates “that he remembered well when Lord Cornwallis was overrunning the South, when thick gloom clouded the prospect. Then Washington hastily gathered what forces he was able, and hurried to oppose him. And I remember,” said he, “for I saw them, when the regiments from Rhode Island, Connecticut and Massachusetts marched through Philadelphia, that one or two companies of colored men were attached to each. The vessels of war of that period were all, to a greater or less 
+<pb id="p70" n="70"/>
+extent, manned with colored men. On board the ‘Royal Louis,’- of twenty-six guns, commanded by Captain Stephen Decatur, senior, there were twenty colored seamen. I had myself enlisted in this vessel, and on the second cruise was taken prisoner, and shortly after was confined on board the old Jersey Prison Ship, where I remained a prisoner for seven months. The Alliance, of thirty-six guns, commanded by Commodore Barry; the Trumbull, of thirty-two guns, commanded by Captain Nicholson; and the ships South Carolina, Confederacy, and Randolph, each were manned in part by colored men.”</p>
+          </div3>
+          <div3 type="section">
+            <head>SOUTH CAROLINA.</head>
+            <p>Even in the Slaveholding States did colored people magnanimously “brave the battle field,” developing a heroism indeed as though their own liberty was to be a recompense. But we found no proof that the boasted chivalry of the Palmetto State extended the boon demanded by simple justice.</p>
+            <p>The celebrated Charles Pinckney, of South Carolina, in his speech on the Missouri question, and in defiance of the Slave representation of the South, made the following admission:</p>
+            <p>“They (the colored people) were, in numerous instances, the pioneers, and, in all, the laborers of our armies. To their hands were owing the greatest part of the fortifications raised for the protection of the country. Fort Moultrie gave, at an early period of the inexperience and untried valor of our citizens, immortality to the American arms.”</p>
+          </div3>
+          <div3 type="section">
+            <pb id="p71" n="71"/>
+            <head>VIRGINIA.</head>
+            <p>THE LAST OF BRADDOCK'S DEFEAT.—The Lancaster (O.) Gazette, February, 1849, announces the death, at that place, of Samuel Jenkins, a colored man, aged 115 years. He was a slave of Captain Breadwater, in Fairfax county, Virginia, in 1771, and participated in the memorable campaign of Gen. Braddock.</p>
+            <p>TESTIMONY OF HON. ROBERT C. WINTHROP.—From his speech in Congress, on the Imprisonment of Colored Seamen, September, 1850:</p>
+            <p>“I have an impression, however, that not indeed in these piping times of peace, but in the time of war, when quite a boy, I have seen black soldiers enlisted, who did faithful and excellent service. But however it may have been in the Northern States, I can tell the Senator what happened in the Southern States at this period. I believe that I shall be borne out in saying that no regiments which were <sic corr="organized">organised</sic> under the direction of General Jackson himself, after a most glorious appeal to the patriotism and honor of the people of color of that region, and which, after they came out of the war, received the thanks of Gen. Jackson, in a proclamation which has been thought worthy of being inscribed on the pages of history.”</p>
+          </div3>
+          <div3 type="section">
+            <head>LOUISIANA.</head>
+            <p>In 1814, when New Orleans was in danger, and the proud and criminal distinctions of caste were again demolished by one of those emergencies in which nature puts to silence for the moment the base partialities of art, the free colored people were called into the field in common with the whites, and 
+<pb id="p72" n="72"/>
+the importance of their services was thus acknowledged by General Jackson:</p>
+            <q type="letter" direct="unspecified">
+              <text>
+                <body>
+                  <div1 type="letter">
+                    <opener>
+                      <dateline>“Head Quarters, Seventh Military District, <lb/>
+Mobile, September 21, 1814.</dateline>
+                      <salute>
+                        <hi rend="italics">“To the Free Colored Inhabitants of Louisiana:</hi>
+                      </salute>
+                    </opener>
+                    <p>“Through a mistaken policy, you have heretofore been deprived of a participation in the glorious struggle for national rights, in which <hi rend="italics">our</hi> country is engaged. This no longer shall exist.</p>
+                    <p>“As Sons of Freedom, you are now called upon to defend our most inestimable blessings. <hi rend="italics">As Americans,</hi> your country looks with confidence to her adopted children, for a valorous support, as a faithful return for the advantages enjoyed under her mild and equitable government. As fathers, husbands, and brothers, you are summoned to rally around the standard of the eagle, to defend all which is dear in existence.</p>
+                    <p>“Your country, although calling for your assistance, does not wish you to engage in her cause without remunerating you for the services rendered. Your intelligent minds are not to be led away by false representations—your love of honor would cause you to despise the man who should attempt to deceive you. With the sincerity of a soldier, and in the language of truth, I address you.</p>
+                    <p>“To every noble hearted free man of color, volunteering to serve during the present contest with Great Britain, and no longer, there will be paid the same bounty in money and lands now received by the white soldiers of the United States, namely: one hundred and twenty dollars in money and one hundred and sixty acres of land. The non-commissioned officers and privates will also be entitled to the same monthly pay, daily rations and clothes furnished to any American soldier.</p>
+                    <p>“On enrolling yourselves in companies the Major General 
+<pb id="p73" n="73"/>
+commanding will select officers, for your government, from your white fellow citizens. Your non-commissioned officers will be appointed from among yourselves.</p>
+                    <p>“Due regard will be paid to the feelings of freemen and soldiers. You will not, by being associated with white men in the same corps, be exposed to improper comparisons or unjust sarcasm. As a distinct, independent battalion or regiment, pursuing the path of glory, you will, undivided, receive the applause and gratitude of your countrymen.</p>
+                    <p>“To assure you of the sincerity of my intentions, and my anxiety to engage your invaluable services to our country, I have communicated my wishes to the Governor of Louisiana, who is fully informed as to the manner of enrollments, and will give you every information on the subject of this address.</p>
+                    <closer>
+                      <signed>“ANDREW JACKSON,<lb/>
+Major General Commanding.”</signed>
+                    </closer>
+                  </div1>
+                </body>
+              </text>
+            </q>
+            <p>JOSEPH DAVIS, A COLORED SOLDIER.—There lives an old man in Madison, Ind., who was in the battle of New Orleans. He says a colored man told Jackson how to plan the cotton bales for protection, and says there were 8,000 colored soldiers in the battle, and they fought like heroes. When the armies met, it was like heaven and earth had come together. I jumped over the fort, and took up a rifle and a gold watch, and jumped back again, while the balls were flying like hailstones. He was divested of all his apparel, nearly, but no blood was drawn by this operation, and he still lives to tell the tale that the colored men have labored for this country.</p>
+            <p>THEODORE PARKER says the first cannon the United States ever had, a colored man stole from the British lines.</p>
+            <p>After the wars of '76, John Randolph presented a flag 
+<pb id="p74" n="74"/>
+with his inscription on it to a  company of colored men called the “Bucks of America.”</p>
+            <p>Capt. FORD, of Madison, Ind., says three of the best men he had in his company in Mexico were colored men, who were obedient and did good service.</p>
+            <p>The half will never be told of what the colored men have done, and how they have bled and died for this country; on nearly every battle field, on sea and land, and on the ice, has the black man spilt his blood freely. But, now the battle is over and the victory is won, what do we receive in return? Here is what we get: knocked down, shot down, branded, burned, run down by hounds, starved, and worked without compensation, sold from our wives and children for gold. O, when I dwell or speak on these subjects in my lectures, some think I am crazy or filled with wine; so they said of the Apostle Peter on the day of Pentecost. When I talk about what I have been through, it makes me tremble and quake like the jailor did before Peter.</p>
+            <p>If it was not for Slavery, what a great and good country we  should have in the South. Oh! if the Christians all would act against Slavery, it could not stand; but in the South the preacher sells the preacher from his family and friends for gold; the sister beats the sister over the head with a stick or anything she gets her hands on; but I hope the time will come when all the Christian Church, North and South, will pray and act against Slavery, till liberty and freedom shall cover over our land, as the waters do the great  deep, and the master and slave shall worship God together.</p>
+            <p>I have added some poetry suitable to the slave-selling Christians, “Come Saints and Sinners;”  also, one suitable to the slave's feelings when a tyrant master dies, and they collect to rejoice together, “Come all my brethren,” &amp;c.; one, my 
+<pb id="p75" n="75"/>
+feelings when running away from the South, “Away to Canada,” &amp;c., and one my feelings when sold South, “Farewell ye children of the Lord,” &amp;c. This poetry is just suitable to these cases.</p>
+          </div3>
+        </div2>
+      </div1>
+      <div1 type="section">
+        <pb id="p77" n="77"/>
+        <head>SONGS OF FREEDOM.</head>
+        <div2 type="section">
+          <head>Away to Canada.</head>
+          <lg type="song">
+            <lg>
+              <l>I am on my way to Canada,</l>
+              <l>The free and happy land,</l>
+              <l>The direful effects of slavery</l>
+              <l>I can no longer stand.</l>
+              <l>My soul is vexed within me so,</l>
+              <l>To think that I'm a slave;</l>
+              <l>I'm now resolved to strike the blow,</l>
+              <l>For freedom or the grave.</l>
+              <l>O! righteous Father, wilt thou not pity me,</l>
+              <l>And aid me on to Canada, where colored men are free?</l>
+            </lg>
+            <lg>
+              <l>I've served my master all my days</l>
+              <l>Without a dime's reward,</l>
+              <l>And now I'm forced to run away</l>
+              <l>To flee the lash abhorred.</l>
+              <l>The hounds are baying on my track,</l>
+              <l>The master's just behind,</l>
+              <l>Resolved that he will bring me back,</l>
+              <l>Before I cross the line.</l>
+              <l>Oh! old master, don't you come after me,</l>
+              <l>I'm doing all I can to reach the land of liberty.</l>
+            </lg>
+            <lg>
+              <l>I heard old master pray last night,</l>
+              <l>I heard him pray for me,</l>
+              <l>That God would come, and in his might,</l>
+              <l>From Satan set me free.</l>
+            </lg>
+            <pb id="p78" n="78"/>
+            <lg>
+              <l>As I from Satan would escape,</l>
+              <l>And flee the wrath to come;</l>
+              <l>If there's a fiend in human shape,</l>
+              <l>Old master must be one.</l>
+              <l>Oh! old master, why do you pray for me?</l>
+              <l>I'm doing all I can to reach the land of liberty.</l>
+            </lg>
+            <lg>
+              <l>Ohio's not the place for me,</l>
+              <l>For I was much surprised</l>
+              <l>To see so many of her sons</l>
+              <l>In garments of disguise.</l>
+              <l>Her name has gone out through the land,</l>
+              <l>Free labor, soil, and men,</l>
+              <l>But slaves had better far be hurled</l>
+              <l>Into the lion's den.</l>
+              <l>Fare ye well, Ohio, I am not safe in thee;</l>
+              <l>I'll travel on to Canada, where colored men are free.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <head>The Slave's Song when the Tyrant Master dies.</head>
+          <lg type="song">
+            <lg>
+              <l>Come all my brethren and let us take a rest,</l>
+              <l>While the moon shines so bright and so clear;</l>
+              <l>Old master has died, and left us all at last,</l>
+              <l>He has gone to the bar to appear.</l>
+              <l>CHORUS:—Brethren, hang up the shovel and the hoe,</l>
+              <l>Take down the fiddle and the bow;</l>
+              <l>Old master's gone to the slaveholder's rest,</l>
+              <l>He's gone where they all ought to go.</l>
+            </lg>
+            <lg>
+              <l>He will no more trample on the neck of the slave,</l>
+              <l>His back he'll no longer score;</l>
+              <l>Old master is dead and he's laying in his grave,</l>
+              <l>He is gone where they all ought to go.</l>
+              <l>CHORUS:—Brethren, &amp;c.</l>
+            </lg>
+            <pb id="p79" n="79"/>
+            <lg>
+              <l>I heard the old doctor say, the other night,</l>
+              <l>As he passed by the dining room door,</l>
+              <l>“Perhaps the old gentleman may live thro' the night,</l>
+              <l>But I think he will die about four.”</l>
+              <l>CHORUS:—Brethren, &amp;c.</l>
+            </lg>
+            <lg>
+              <l>Then old mistress sent me, at the peril of my life,</l>
+              <l>For the pastor to come down to pray;</l>
+              <l>“For,” says she, “old master is now about to die;”</l>
+              <l>And I says, “God speed him on his way.”</l>
+              <l>CHORUS:—Brethren, &amp;c.</l>
+            </lg>
+            <lg>
+              <l>At four o'clock this morning the family were called</l>
+              <l>Around the old man's dying bed,</l>
+              <l>And I tell you now I laughed to myself when I was told</l>
+              <l>That the old man's spirit had fled.</l>
+              <l>CHORUS:—Brethren, &amp;c.</l>
+            </lg>
+            <lg>
+              <l>The children all did grieve, and so did I pretend;</l>
+              <l>The old mistress nearly went mad;</l>
+              <l>And the old parson groaned so that the heavens fairly rend,</l>
+              <l>But I tell you now I felt mighty glad.</l>
+              <l>CHORUS:—Brethren, &amp;c.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <head>Composed by a Methodist Minister.</head>
+          <lg type="song">
+            <lg>
+              <l>Come saints and sinners, hear me tell</l>
+              <l>How pious priest whipped Jack and Nell,</l>
+              <l>And women buy and children sell,</l>
+              <l>And preach all sinners down to hell,</l>
+              <l>And sing of heavenly union.</l>
+            </lg>
+            <lg>
+              <l>They'll church you if you sip a dram,</l>
+              <l>And damn you if you steal a lamb,</l>
+              <l>Yet, rob old Fanny, Doll and Sam,</l>
+              <l>Of human right, and bread, and ham—</l>
+              <l>Kidnappers' heavenly union.</l>
+            </lg>
+            <pb id="p80" n="80"/>
+            <lg>
+              <l>They loudly preach of Christ's reward,</l>
+              <l>And bind his image with a cord,</l>
+              <l>And score and swing the lash abhorred,</l>
+              <l>And sell their brother in the Lord,</l>
+              <l>And hand-cuff heavenly union.</l>
+            </lg>
+            <lg>
+              <l>They'll raise tobacco, corn and rye,</l>
+              <l>And drive, and thieve, and cheat and lie,</l>
+              <l>And lay up treasures in the sky,</l>
+              <l>By making switch and cow-skin fly,</l>
+              <l>In hope of heavenly union.</l>
+            </lg>
+            <lg>
+              <l>They'll crack old Tommy on the skull,</l>
+              <l>And preach and roar like a Russian bull,</l>
+              <l>Or braying horse, of mischief full,</l>
+              <l>Then seize old Jacob by the wool,</l>
+              <l>And pull for heavenly union.</l>
+            </lg>
+            <lg>
+              <l>Love not the world, the preacher said,</l>
+              <l>He winked his eye and shook his head,</l>
+              <l>He seized on Tom, and Dick, and Ned,</l>
+              <l>Cut short their meat, and clothes, and bread,</l>
+              <l>In hope of heavenly union.</l>
+            </lg>
+            <lg>
+              <l>Another preacher, Winans, spoke</l>
+              <l>Of one whose heart for sinners broke,</l>
+              <l>He tied old Nannie to an oak,</l>
+              <l>He drew the blood at every stroke,</l>
+              <l>In hope of heavenly union.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <head>The Poor Slave's own Song.</head>
+          <lg type="song">
+            <lg>
+              <l>Farewell, ye children of the Lord,</l>
+              <l>To you I am bound in the cords of love.</l>
+              <l>We are torn away to Georgia,</l>
+              <l>Come and go along with me.</l>
+              <l>Go and sound the jubilee, &amp;c.</l>
+            </lg>
+            <pb id="p81" n="81"/>
+            <lg>
+              <l>To see the wives and husbands part,</l>
+              <l>The children scream, they grieve my heart;</l>
+              <l>We are sold to Louisiana,</l>
+              <l>Come and go along with me.</l>
+              <l>Go and sound, &amp;c.</l>
+            </lg>
+            <lg>
+              <l>Oh! Lord, when shall slavery cease,</l>
+              <l>And these poor souls enjoy their peace?</l>
+              <l>Lord, break the slavish power!</l>
+              <l>Come, go along with me.</l>
+              <l>Go and, sound, &amp;c.</l>
+            </lg>
+            <lg>
+              <l>Oh! Lord, we are going to a distant land,</l>
+              <l>To be starved and worked both night and day;</l>
+              <l>O, may the Lord go with us;</l>
+              <l>Come and go along with me.</l>
+              <l>Go and sound, &amp;c.</l>
+            </lg>
+          </lg>
+        </div2>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

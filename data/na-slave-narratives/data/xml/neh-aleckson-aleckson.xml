@@ -1,0 +1,3623 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY alecktp SYSTEM "alecktp.jpg" NDATA jpeg>
+<!ENTITY aleckvs SYSTEM "aleckvs.jpg" NDATA jpeg>
+<!ENTITY aleckcv SYSTEM "aleckcv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Before the War, and After the Union.  An Autobiography:</emph>
+Electronic Edition.</title>
+        <author>Aleckson, Sam, b. 1852</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Tom Horan and Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name rend="italics">Chris Hill and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca. 200K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as 
+long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Before the War, and After the Union; An Autobiography</title>
+            <title type="cover"> Before the War, and After the Union</title>
+            <author>Sam Aleckson</author>
+          </titleStmt>
+          <extent> 171 p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Boston, Massachusetts</pubPlace>
+            <publisher>Gold Mind Publishing Company</publisher>
+            <date>[1929]</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  E185.97 .A36 1929   (Cornell University  Library)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Aleckson, Sam, b. 1852.</item>
+            <item>African Americans -- South Carolina -- Charleston --
+Biography.</item>
+            <item>Slaves -- South Carolina -- Charleston -- Biography.</item>
+            <item>Slavery -- South Carolina -- Charleston -- History -- 19th
+century.</item>
+            <item>Plantation life -- South Carolina -- History -- 19th 
+century.</item>
+            <item>South Carolina -- History -- Civil War, 1861-1865.</item>
+            <item>Reconstruction -- South Carolina.</item>
+            <item>Slaves' writings, American -- South Carolina.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-12-12, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-03-29, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-03-23, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-03-17, </date>
+        <respStmt>
+          <name>Bethany Ronnberg and Tom Horan</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cv" entity="aleckcv"/>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="tp" entity="alecktp"/>
+        </p>
+      </div1>
+      <div1 type="verso">
+        <p>
+          <figure entity="aleckvs"/>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Before The War,<lb/>
+and<lb/>
+After the Union</titlePart>
+          <titlePart type="subtitle">
+            <hi rend="italics">An Autobiography</hi>
+          </titlePart>
+        </docTitle>
+        <byline>By
+<docAuthor>SAM ALECKSON<lb/>
+1852—1914<lb/>
+WINDSOR, VERMONT</docAuthor></byline>
+        <docImprint><publisher>GOLD MIND PUBLISHING COMPANY</publisher>
+<pubPlace>BOSTON, MASSACHUSETTS</pubPlace></docImprint>
+        <pb id="aleckvs" n="verso"/>
+        <docImprint><docDate>Copyrighted 1929<lb/>
+SAMUEL WILLIAMS</docDate>
+<pubPlace>Printed in U. S. A.</pubPlace>
+<publisher>GOLD MIND PRINTERS</publisher>
+<pubPlace>Boston, Mass.</pubPlace></docImprint>
+        <pb id="aleck7" n="7"/>
+        <epigraph>
+          <q type="quote" direct="unspecified">
+            <lg type="verse">
+              <l>“I will a plain unvarnished tale deliver.”</l>
+              <signed>Shakespeare.</signed>
+            </lg>
+          </q>
+        </epigraph>
+      </titlePage>
+      <div1 type="contents">
+        <pb id="aleck8" n="8"/>
+        <head>BEFORE THE WAR</head>
+        <list type="simple">
+          <head>CONTENTS</head>
+          <item>1 Genealogy . . . . . <ref target="aleck17" targOrder="U">17</ref></item>
+          <item>2 Childhood . . . . . <ref target="aleck22" targOrder="U">22</ref></item>
+          <item>3 The Fickle Maiden . . . . . <ref target="aleck35" targOrder="U">35</ref></item>
+          <item>4 The Lover . . . . . <ref target="aleck61" targOrder="U">61</ref></item>
+          <item>5 The Hunting Season at Pinetop . . . . . <ref target="aleck66" targOrder="U">66</ref></item>
+          <item>6 The Beginning of the End . . . . . <ref target="aleck76" targOrder="U">76</ref></item>
+          <item>7 In Town Again . . . . . <ref target="aleck86" targOrder="U">86</ref></item>
+          <item>8 A Turkey Stew . . . . . <ref target="aleck94" targOrder="U">94</ref></item>
+          <item>9 Tom Bale . . . . . <ref target="aleck98" targOrder="U">98</ref></item>
+          <item>10 Silla—The Maid . . . . . <ref target="aleck108" targOrder="U">108</ref></item>
+          <item>11 The Appraisement . . . . . <ref target="aleck113" targOrder="U">113</ref></item>
+          <item>12 The Big Fire . . . . . <ref target="aleck117" targOrder="U">117</ref></item>
+          <item>13 Mr. Ward's Return to Pinetop . . . . . <ref target="aleck119" targOrder="U">119</ref></item>
+          <item>14 Roast Possum . . . . . <ref target="aleck128" targOrder="U">128</ref></item>
+          <item>15 After De Union . . . . . <ref target="aleck138" targOrder="U">138</ref></item>
+          <item>16 In the Land of the Puritans . . . . . <ref target="aleck147" targOrder="U">147</ref></item>
+          <item>17 The Town of Springlake . . . . . <ref target="aleck155" targOrder="U">155</ref></item>
+          <item>18 Wrong Impressions . . . . . <ref target="aleck165" targOrder="U">165</ref></item>
+        </list>
+      </div1>
+      <div1 type="dedication">
+        <pb id="aleck11" n="11"/>
+        <p>
+          <hi rend="italics">Dedicated<lb/>
+to<lb/>
+My Children<lb/>
+and<lb/>
+Grand Children<lb/>
+Whose<lb/>
+Kindness and Affection<lb/>
+Serve in Great Measure<lb/>
+to Make My Declining Years<lb/>
+Peaceful and Contented.</hi>
+        </p>
+      </div1>
+      <div1 type="preface">
+        <pb id="aleck14" n="14"/>
+        <head>PREFACE</head>
+        <p>“When I began this unpretentious narrative, I was
+almost sightless. I had just recovered from a severe attack
+of illness, during which for a time I became totally blind,
+and after I was better my eyes seemed hopelessly affected.
+This I endeavored to conceal as I had to earn my bread, but
+so frequently did I pass my most intimate friends on the
+street without the slightest show of recognition that I was
+forced to admit I was almost blind. I was then urged to
+consult an eminent physician of the town who gave special
+attention to ailments of the eye, and after a complete
+examination, he informed me that my eyes were in such
+condition that glasses would do me no good, and with a
+show of sincere sympathy said, “I am sorry for you, but
+within six months you will be totally blind.”</p>
+        <p>“Approaching blindness is always appalling, especially
+to one who is dependent on his labor for a living. ‘What
+shall I do when my sight is gone?’ This question forced
+itself upon me night and day. I was then past middle life,
+and the prospects of a blind and helpless old age stood out
+before me. My life had not been wholly uneventful; I had
+been of
+<pb id="aleck15" n="15"/>
+an observant turn of mind from my youth. What if I could
+set down the events that had come under my observation
+in some connected form? Might I not thereby be able to
+earn something toward my support when I could no longer see!</p>
+        <p>“I was compelled to give up some of my work on account
+of failing sight, but I was still employed by day. I began to
+write at night often tinder poor light, being scarcely able to
+see the words as I traced them. Thus my MS. was finished.
+Untoward conditions prevented publication and it has lain hidden
+away all these years. The motive that first prompted me to
+undertake the task no longer exists, my sight has been
+providentially restored, and at the age of seventy-two I find
+myself in good health and able to earn my living. There are
+other considerations, however, which actuate me, even at
+this late day, to present to the reader this crude story.</p>
+        <p>“It is a remarkable fact that very many of the immediate
+descendants of those who passed through the trying
+ordeal of American slavery know nothing of the hardships
+through which their fathers came. Some reason for this may
+be found in the fact that
+<pb id="aleck16" n="16"/>
+those fathers hated to harrow the minds of their
+children by the recital of their cruel experiences
+of those dark days. There is, however, a deeper reason. 
+It is found in the religious nature of the
+Negro and the readiness with which he fell under the
+influence of Christianity, and the zeal with which
+he strove to follow the teaching and example of the
+lowly Nazarene.</p>
+        <p>“If the Negro had emerged from slavery in a sullen
+and vindictive frame of mind, he would
+unquestionably have shared the fate of the American 
+Indian, and we would not now be witnessing the 
+marvelous progress he is making, nor his surprising 
+increase in numbers.</p>
+        <p>“While it is sweet to forgive and forget, there 
+are somethings that should never be forgotten. If 
+this humble narrative will serve to cause the youth 
+of my people to take a glance backward, the object 
+of the writer will have been attained. As Frederick 
+Douglass has said, “How can we tell the distance we 
+have come except we note the point from
+which we started?”</p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="chapter">
+        <pb id="aleck17" n="17"/>
+        <head>CHAPTER I</head>
+        <head>GENEALOGY</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Breathes there a man with soul so dead”</hi>
+          </p>
+        </epigraph>
+        <p>I WAS born in Charleston, South Carolina in the 
+year, 1852. The place of my birth and the conditions 
+under which I was born are matters over 
+which, of course, I had no control. If I had, I 
+should have altered the conditions, but I should not 
+have changed the place; for it is a grand old city,
+and I have always felt proud of my citizenship. My father
+and my grandfather were born there, and there they 
+died—my grandfather at the age of seventy-two, my father at
+seventy-six. My great grandfather came, or rather was
+brought, from Africa. It is said he bore the distinguishing
+marks of royalty on his person and was a fine looking 
+man—fine looking for a Negro I believe is the
+<pb id="aleck18" n="18"/>
+usual qualification—at least that is what an old lady once
+told my own father who had inherited the good looks of his
+grandsire.</p>
+        <p>I do not know the name my great grandfather bore in
+Africa, but when he arrived in this country he was given the
+name, Clement, and when he found he needed a surname—
+something he was not accustomed to in his native land—he
+borrowed that of the man who bought him. It is a very good
+name, and as we have held the same for more than a
+hundred and fifty years, without change or alteration, I
+think, therefore, we are legally entitled to it. His descendants
+up to the close of the Civil War, seemed with rare good
+fortune under the Providence of God, to have escaped many
+of the more cruel hardships incident to American slavery.</p>
+        <p>I may be permitted to add that on the arrival of my
+progenitor in this country he was not allowed to enter into
+negotiation with the Indians, and thereby acquire a large
+tract of land. Instead, an axe was placed in his hands and he
+therefore became in some sort, a pioneer of American
+civilization.</p>
+        <pb id="aleck19" n="19"/>
+        <p>My father and my mother were both under the “yoke”,
+but were held by different families. They made their home
+with my father's people who were, of all slave holders, the
+very best; and it was here that I spent the first years of my
+life.</p>
+        <p>My mother went to her work early each morning, and
+came home after the day's work was done. My brother,
+older than I, accompanied her, but I being too young to be
+of practical service, was left to the care of my 
+grandmother—and what a dear old christian she was! 
+At this time her advanced age and past faithful service, 
+rendered her required duties light, so that she had 
+ample time to care for me. Her patient endeavor to 
+impress upon my youthful mind the simple principles 
+of a christian life shall never be forgotten, and 
+I trust her efforts have not been altogether in
+vain. She was born in the hands of the family where she
+passed her entire life; and it would be a revelation to many
+of the present day to know to what extent her counsel and
+advice was sought and heeded by the household—white and
+black.</p>
+        <p>Our household was large; beside the owners, three
+<pb id="aleck20" n="20"/>
+maiden ladies (sisters) there were a dozen servants, some
+like my father, worked out and paid wages, but all:
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Claimed kindred here</l><l>And had their claims allowed.”</l></lg></q>
+for, there never was a better ordered establishment, nor were
+there ever better examples of christian womanhood than that
+of the three ladies who presided over it; and it is especially
+worthy of note that all the servants who were old enough,
+could read, and some of them had mastered the three “R's”,
+having been taught by these ladies or their predecessors.
+Before the beginning of the Civil War these kind ladies
+liberated all their slaves, and it is no reflection on the Negro
+that many of the liberated ones refused to leave them. There
+were many considerations that prompted them to decline
+their proffered freedom; in some cases husband and wife
+were not fellow-servants, and one was unwilling to leave the
+other. All those who accepted their liberty were sent to
+Liberia. I know of one who returned after the, war to visit
+relatives and friends. He had been
+<pb id="aleck21" n="21"/>
+quite successful in his new home, and he gave good
+account of those who had left Charleston with him. Some
+had died, others were doing well. He found one of the good
+ladies still living and had the great pleasure of relating his
+story to her. When, after a brief stay in the city, he took his
+departure, he carried with him many tokens of remembrance
+from their kind benefactress for himself and those at home.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck22" n="22"/>
+        <head>CHAPTER II</head>
+        <head>CHILDHOOD</head>
+        <epigraph>
+          <lg type="verse">
+            <l>
+              <hi rend="italics">“How dear to my heart are the scenes of my
+childhood</hi>
+            </l>
+            <lb/>
+            <l>
+              <hi rend="italics">When fond recollections present them to view.”</hi>
+            </l>
+          </lg>
+        </epigraph>
+        <p>Though fifty years of time and more than a thousand miles
+of space separate me from the home of my birth and early
+childhood, the old home seems more plain before me now
+than places I visited but yesterday. It was a grand old
+house, built of grey brick. There were three spacious
+piazzas running along the west and south sides of the
+house. The wide yard was paved with brick. To the west of
+the paved yard was a large garden in which rarest flowers
+bloomed; but dearer than all to our youthful hearts were the
+“Four-o'clocks”, that grew there in great profusion and
+various colors. We made festoons of them, hung them over
+our heads while we
+<pb id="aleck23" n="23"/>
+“played house” and made mud pies beneath. We wove
+garlands and twined them about the neck of dear old
+“Watch.” He was our great Newfoundland. Was there ever
+such a faithful dog as he? Noble animal, rough and tumble
+with the boys, gentle with the girls, but kind to all. The
+bulldog and the pug have taken his place now, but surely
+there never was a safer or kinder friend to children than he.
+Our “Watch” had never read “The Rights of the Child,” but
+he put his foot, or rather his paw (no small one), down on
+any of us being punished in his presence. Whenever our
+parents deemed it <sic corr="incumbent">encumbent</sic> on them to give forcible and painful
+evidence that they were not amendable to the charge of
+“sparing the rod and spoiling the child,” it was necessary to
+lock Watch up in the woodshed, and if in their haste this
+precaution was neglected he would rush in, seize the slipper
+or strap (they used both in those days), between his teeth
+and hang on like grim death. After we had escaped to the
+yard he would run out, lick our faces and seem to say, “I
+told you I would not allow it. Come, let us have a romp.”</p>
+        <p>There were fruit trees in our garden; peaches,
+<pb id="aleck24" n="24"/>
+apricots, pomegranate and figs. We loved the figs most, of
+which there were several varieties. Our especial pride was
+the large black fig tree. There were six of us, three girls and
+three boys. Four of us were white and two were Negroes.
+Did we quarrel and fight? No indeed! Our little
+misunderstandings were settled long before we came to blows. 
+There was more of the spirit as well as the letter of the 
+little lines:
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Let dogs delight</l><l>To bark and bite,”</l></lg></q> 
+than seems generally the case now. Would there 
+was more of that spirit abroad in the land today 
+then would we hear less of Negro problems, 
+deportations, and the like.</p>
+        <p>Every morning in season would find us at our favorite
+fig tree. The, boys would climb into its branches while the
+girls stood below with extended aprons to catch the fruit
+as we dropped them. Some times there came a voice from
+above in complaining tones—“Now Jennie! I see you
+eating.” “Oh,” would be the reply, “That one was all
+mashed up.” “All right, now don't eat till we come down.”</p>
+        <pb id="aleck25" n="25"/>
+        <p>Then when we descended we took large green fig-leaves, 
+placed them in a basket, laid the most perfect
+fruit thereon, and one of us would run to the
+house with it. . . . “Don't eat till I come back.”
+“We won't.” . . . When the messenger returned
+we went to our favorite nook in the garden and
+after dispatching about a dozen figs apiece we
+rushed to our breakfast with appetites as unappeased 
+as if we had fasted for a week—And then to
+school, “But not the Negroes” you say? Yes indeed!
+The Negroes too.</p>
+        <p>The four white children that formed a part of this little
+band did not live at our house. They were niece and
+nephew of our good ladies and lived a short distance from
+us. They came regularly every morning and afternoon,
+except Sunday, to “play in our yard.” They attended a
+private school, while Jennie and myself, the two Negroes,
+were taught at home by their aunts for two or three hours
+each day. One of these kind ladies, usually Miss S——, strove
+with our obtuseness. We had only one book each, but it
+was a great book. I thought so then and I think so now.
+From it, like all great men, we first
+<pb id="aleck26" n="26"/>
+learned our A B C's, then came A-b-âb B-a, ba and so on
+to such hard words as ac-com-mo-da-tion, com-pen-sa-tion
+and the like. From this wonderful book we learned to read,
+write, and cipher, too. We also got an idea of grammar, of
+weights and measures, etc. We had slates, for those useful
+articles had not yet gone out of fashion.</p>
+        <p>There were pictures in our book illustrating fables that
+taught good moral lessons, such as that of the man who
+prayed to Hercules to take his wagon out of the mire; of the
+two men who stole a piece of meat; of the lazy maids and of
+the kindhearted man who took a half frozen serpent into his
+house. This book was called, “Thomas Dilworth's,” and
+many a slave was severely punished for being found with a
+copy of it in his hands. When one had succeeded in
+mastering the contents of this book (which they frequently
+did), he was considered a prodigy of learning by his fellows.
+I do not know whether Mr. Dilworth has ever had a
+monument erected to his memory, but if ever a man deserved
+one it is he.</p>
+        <p>This was a Christian household. The Sabbath
+<pb id="aleck27" n="27"/>
+was strictly observed. Duties were reduced to the barest
+necessities, and all attended church. There was no cooking.
+Cold meats, tea and bread served to satisfy our hunger on
+the Lord's Day. The ladies were Congregationalists and
+attended the “Circular Church.” The servants were left to
+their own choice in religious matters and were divided in
+their religious opinions. My grandmother was a Methodist
+and attended “Old Cumberland.” It required something very
+serious to prevent the dear old lady going to prayer meeting
+on Sunday mornings. These meetings were held at an early
+hour, but I always went with her. Each one entered the
+sacred place in solemn silence. When the moment arrived
+some leader would raise one of those grand
+old hymns such as—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Early my God without delay</l><l>I haste to seek thy face.” </l></lg></q>
+for, they sorely felt the need of Him who
+<pb id="aleck28" n="28"/>
+“Tempereth the wind to the shorn lamb!” Then at the close they
+sang—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“My friends I bid you all farewell </l><l>I leave you in God's care </l><l>And if I never more see you, </l><l>Go on, I'll meet you there.”</l></lg></q>
+It not only had reference to the final dissolution, but also
+to the uncertain temporal condition under which they lived,
+for, in many instances before the next prayer meeting they
+were sold, to serve new masters in distant parts. Often
+without having time to say good-bye to relatives or friends.</p>
+        <p>When meeting was over they filed out quietly. No
+buzz of voices was heard until they reached the sidewalk.
+Then, after a hearty handshake and a word of cheer and
+hope, they hastened to their duties; many to serve hard
+and impatient masters. 'Twere well for these that they had
+been fortified by those few moments of prayer and meditation.</p>
+        <p>The people showed commendable zeal in attending these
+meetings. In those early Sunday mornings men and women
+might have been seen standing within their gates. They
+appeared to be listening
+<pb id="aleck29" n="29"/>
+intently, as if to catch some sound (for they must not be
+found on the streets after “drum beat” at night or before
+that hour in the morning). At the first tap they hastened out
+to their respective places of worship, there to lift up their
+hearts and voices in prayer and supplication to God.</p>
+        <p>My mother's people too, were of the “St. Clair” type. On
+Sundays after Sabbath School I was permitted to visit my
+mother at their home. They were Mrs. Dane, a widow, and
+three grown children—a daughter and two sons. The
+daughter was married. The sons, Thomas and Edward were
+unmarried. I always looked forward to these visits with
+pleasure as I was sure to be regaled with lumps of sugar and
+pieces of money, by the old lady and the other members of
+the family. Besides, Mr. Edward (who was a lover of fine
+horses, and of whom I shall have something more to say
+later), would treat me to a horseback ride around the large
+lot.</p>
+        <p>There is nothing good to be said of American slavery. I
+know it is sometimes customary to speak of its bright and
+its dark sides. I am not prepared to admit that it had any
+bright sides, unless it was
+<pb id="aleck30" n="30"/>
+the Emancipation Proclamation issued by President Abraham
+Lincoln . . . There was often a strong manifestation of
+sympathy, however. A sad incident which occurred in the
+Dane family when I was about eight years old may serve to
+illustrate this:—It was usual in those days for each member
+of a family to have his or her own personal attendant. Mr.
+Thomas Dane, a kind-hearted gentleman of studious habits
+and quiet demeanor, had as his servant, a woman called
+Beck. He did not take breakfast with the family. It was his
+custom to take his morning meal in his own apartment being
+waited on by her. Like all the good slaveholders the Danes
+did not ruthlessly sell their slaves. I do not know how it
+came about that two of Aunt Beck's children had been sold.
+She had one remaining child at this time. He was a bright
+fellow of about sixteen years of age. He was well-liked by all
+on account of his cheerful disposition. I cannot tell the
+cause of it, but the boy George was sold away from his
+mother as had been his brother and sister. This was a heavy
+blow to her. One morning, shortly after the sale of George,
+Mr. Dane came down to
+<pb id="aleck31" n="31"/>
+breakfast. Noticing the dejected appearance of his servant,
+and no doubt, discerning the cause he ventured some
+pleasant remark, but Aunt Beck's heart was heavy. 
+At last, no longer able to suppress her great
+grief she began to weep. “My last chile gone now, Mas'
+Thomas,” she said.</p>
+        <p>“I know it Beck,” he answered, placing his hand to his
+head, “But, my God! I could not help it.”</p>
+        <p>He rose from the table and paced the floor. The woman
+became alarmed at the agitation of her master, and forgetting
+her sorrow for the moment, said, “I know you couldn't help
+it Mas' Thomas. Sit down and eat your breakfast.”</p>
+        <p>But, no breakfast for him that morning. Presently he went
+up to his room. Soon he returned having arranged his toilet
+with more than usual care. He stepped out into the yard,
+entered an outer building—in a moment a pistol shot was
+heard! They rushed to the step, but his life blood was
+ebbing away. He never spoke again. The grief of the woman
+was more than he could stand.</p>
+        <p>I visited the place a few years ago. There were different
+people there. They knew naught of that
+<pb id="aleck32" n="32"/>
+sad tragedy, nor did they know that Petigrue, Rutledge,
+Horry, Pringle and Lowndes were once regular visitors here.
+The old house and its surroundings are very much as they
+were fifty years ago. The chimes of St. Michael can still be
+distinctly heard and the hands on the dial may still be seen
+from the house.</p>
+        <p>It is quite different at the place where I was born. There is
+not a vestige of the old house to be seen, for a great fire
+since that time, swept over this district and destroyed it and
+nearly every nearby dwelling house. In my childhood we had
+as near neighbors Pinckney, Legare, and Prescott. There is
+nothing about the locality now to show that here was once
+the abode of aristocracy and wealth, for, in no instance have
+the old families rebuilt their homes here. Very near our house
+stood a large and quaint old dwelling built before the
+Revolution. The front door was reached by high flights of
+steps. I always stood in awe of that house; partly because of
+the high wall that surrounded it, and partly because once a
+member of the tribe of “Weary Willies,” chanced to pass
+that way, He sat down on those
+<pb id="aleck33" n="33"/>
+steps to eat a loaf of bread that had been given him.
+Whether from hunger or from some other cause, (I never
+knew), he died there with the bread in his hand. As a result,
+“Go die on Blank's steps” became a phrase of the day. The
+wall that surrounded that old place was high—higher than
+any wall appears to me now. It was ornamented on top
+with glass bottles—broken bottles. The man who
+broke them seemed to have had murder in his heart. He did
+not follow any particular line in breaking them, nor did he
+seem to strive at color effect. There were white, black and
+brown bottles all broken in a way that was calculated to
+inflict mortal injury on any who attempted to climb into the
+inclosure.</p>
+        <p>But the old house and its high wall too have disappeared. 
+Cotton yards and ware-houses now occupy the site of 
+many an old mansion. Houses have been built
+on some of the lots, but they are far less pretentious than
+their predecessors, and are occupied by different people.
+For—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Other men our fields will till</l><l>And other men our places fill</l><l>A hundred years to come.”</l></lg></q></p>
+        <pb id="aleck34" n="34"/>
+        <p>There were many walls like the one I alluded to in the
+quaint old city, but they have nearly all disappeared. 
+All the midnight prowler has to do now is to step 
+lightly over artistically trimmed hedges and meander 
+through beautifully laid out walks to the rear of 
+the premises to where the feathery tribe reposes in 
+ornamental structures. But if the glass bottles and 
+high walls are no more, the dim flickering street-lamps' 
+have also been replaced by the brilliant electric light, 
+thus enabling the watchful owner to place his “Mustard seed”
+the more accurately where they would do the most good.
+Therefore, . . . The “Knight of the feather” may well sigh for
+the good old “lamp oil” times.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck35" n="35"/>
+        <head>CHAPTER III</head>
+        <head>THE FICKLE MAIDEN</head>
+        <epigraph>
+          <lg type="verse">
+            <l>
+              <hi rend="italics">"We will ring the chorus</hi>
+            </l>
+            <l>
+              <hi rend="italics">From Atlanta to the sea."</hi>
+            </l>
+          </lg>
+        </epigraph>
+        <p>MY mother and her children fell to the lot of Edward
+Dane, brother of Thomas. This young gentleman was of a
+gay disposition; fond of horses and the sports of the day.
+Like his brother he was kind and generous. He taught me to
+ride, and when I could sit my horse well “bare-back” he had
+a saddle made for me at the then famous “McKinzie's”
+saddlery, sign of the “White Horse at the corner of Church
+and Chalmers street. (Gentlemen had their saddles made to
+order in those days). I would often accompany him “up the
+road” on horseback to the Clubhouse, there to exhibit my
+youthful feats of horsemanship, for the divertissement of
+Mr. Dane and his friends. My horse, Agile and myself were
+the best of friends. He never hesitated at a hurdle
+<pb id="aleck36" n="36"/>
+and we never had a mishap. Possibly Mr. Dane had
+“views”, concerning me for he owned several fast horses,
+but before I was old enough to be of practical service,
+“Sherman came marching through Georgia.”</p>
+        <p>Here I shall have to admit that I was a “Sherman
+Cutloose” (this was a term applied in derision by
+Some of the Negroes who were <hi rend="italics">free before</hi> the war,—
+To those who were <hi rend="italics">freed by</hi> the war). I am
+Persuaded however that all the Negroes in the slave belt,
+And some of the white men too, were “Cutloose” by
+General Sherman. But let bygones be bygones.
+“We are brothers all, at least we would be if it
+were not for the demagogues and the Apostles of
+hate.</p>
+        <p>Mr. Edward Dane was an ardent supporter of the
+“Code.” He was an authority on such matters and
+could arrange a meeting with all the nice attention
+to details that characterized gentlemen of the “Old
+School” in South Carolina. His deliberation in such
+Matters would have been a keen disappointment to
+“Mr. Winkle” as there was never was any danger of the 
+police or anyone else interfering when he had matters
+in hand. The police, however, never interfered
+<pb id="aleck37" n="37"/>
+with gentlemen of the “old school” in the “Palmetto” state.
+The following story is told of a well-known gentleman of a
+past generation:—He was a man of splendid physique and
+dignified carriage. One morning he entered the Old
+Charleston Market with a lit cigar between his lips. Soon he
+was accosted by a policeman, a new recruit from the
+Emerald Isle. “It be aginst the law to be <sic>afther schmokin</sic> in
+the Market, <sic>Sor,</sic>” he said. “The law,” said Mr.——. “I am the
+law. When you see me you see the law. The law was made 
+for poor white men and Negroes.” And he strode on leaving
+that son of Erin a wiser, if not a better man.</p>
+        <p>The Danes were society people. In their well-appointed
+home they kept many servants, Mrs. Dane and her daughter
+Mrs. Turner were both kind ladies. The old lady had a way
+of personally looking into matters about the establishment
+that secured for her a pet name from the servants.
+Whenever she started on her tour of inspection word would
+be passed along, “de old Jay comin'. This would send
+every one to their post of duty. Of course the servants were
+ignorant of the fact that
+<pb id="aleck38" n="38"/>
+Mrs. Dane knew anything about the re-christening
+she had secured at their hands. Judge of their surprise
+therefore, then that lady presented herself 
+before them and announced, “Yes, here comes the
+‘Old Jay!’”</p>
+        <p>They were all assembled in the kitchen for a little
+chat, and their attitudes and the expressions of
+bewilderment on their faces would have delighted the
+heart of an artist. The cook was just about to 
+emphasize a remark he had made by bringing a large
+spoon which he held above his head down on the 
+dresser, when the sudden appearance of the lady
+and her words, seemed to arrest the descent. There
+he stood in open-mouthed amazement. Mrs. Dane
+surveyed the scene for a moment, then quietly
+withdrew, a smile of amusement on her face. This
+incident was long remembered by  those present, but
+any reference to it in his presence was promptly
+frowned down by the Cook, who felt keenly the
+ludicrousness of the figure he cut with the uplifted
+spoon. It was a much as their dinner was worth
+for any one of them even to raise a spoon above their
+heads.</p>
+        <pb id="aleck39" n="39"/>
+        <p>Uncle Renty, the cook, particularly disliked these
+periodical intrusions in his domain. The altogether
+unnecessary clatter and clashing of pans and kettles 
+whenever the lady made her appearance was 
+only his method of expressing his resentment. This, 
+Mrs. Dane well understood, and never prolonged her 
+stay in the kitchen, for the old man's ability as an 
+artist in his profession was recognized and appreciated. 
+It was said that when the elder Mr. Dane was alive, 
+he frequently began and ended his dinner with one of 
+Uncle Renty's soups. They were simply marvelous, especially 
+his turtle, calf's head and okra soups. How he made 
+them no one knew, nor would they have been any wiser 
+if he had been questioned on the subject. He had
+several dishes of his own invention to which he had given
+original names. The other servants had great respect for
+him; the old, because of his skill, and the young, because of
+his readiness with the rolling pin. He had obtained the name
+of “Old Scarlet” from his follow-servants. But those who
+ventured to call him so always took pains to get out of
+reach. This is how he got the name:—</p>
+        <pb id="aleck40" n="40"/>
+        <p>In those days personal application for work were
+frequently made from door to door by the “newly arrived.”
+One day an Irish woman applied to Mrs. Dane. She did not
+need her particularly, but thought she might give the
+woman work for a day or two as assistant to Uncle Renty,
+for they were to have a large dinner party:—“Wait 
+a moment,” she said. The lady knew the old man well 
+enough to know that diplomacy was required. Going to the
+kitchen she <sic corr="complemented">complimented</sic> him on the neat appearance of
+things. “You are all in readiness for the dinner I see.”</p>
+        <p>“Yes ma'am.” (Now the old man had already been
+apprised of the purport of her visit. He was fully prepared.
+He was by no means color blind, but was not well posted
+in the nomenclature of colors.)</p>
+        <p>“And do you know daddy Renty,” continued Mrs.
+Dane, “I have thought that you might need some
+additional help in the kitchen for a day or so.”</p>
+        <p>“Everything was all right las time, ain't ee ma'am?”</p>
+        <pb id="aleck41" n="41"/>
+        <p>“Oh yes, certainly. Everything was just splendid,” 
+she replied, “But a white woman has applied to me for work and
+I thought—.”</p>
+        <p>“Mis Charlotte,” interrupted Renty, “I don't <sic>car</sic> if she
+white as scarlet, ma'am, I doan want um in my kitchen.”
+Argument was useless and so a job had to be found for
+Bridget in the laundry.</p>
+        <p>But all of this was before the untimely death of Mr.
+Thomas Dane, to which I referred in the preceding chapter.
+That sad event seemed to have been the beginning of
+trouble for the Dane family. Indeed things were becoming
+serious for all. The probability of war between the states
+was manifested more and more daily. There was a growing
+feeling of unrest everywhere, and it was soon known that
+this calamity would not be averted.</p>
+        <p>The very commencement of the war seemed to have
+brought disaster to the financial prosperity of many, and
+the Danes were among the earliest to feel its effects. Some
+of the servants were sent out to work and so it happened
+that my mother went as cook for a wealthy family in the
+city. They were very kind people. Mrs. Bale was a widow
+with two
+<pb id="aleck42" n="42"/>
+children. They were both married. Mrs. Ward, the daughter,
+and her husband lived with her mother. The son, Tom Bale
+had establishments of his own.</p>
+        <p>It was hard for me to leave our dear old home at the
+Misses Jayne's, my father's people, for there was my good
+old grandmother, the kind ladies, my playmates and faithful
+old Watch. But the distance was too far for my mother to
+walk back and forth, (there were no street cars in those
+days), so we had to make our home at Mrs. Bale's house. I
+found some consolation however, in our new home.
+Mrs. Ward had two boys, and they and I soon 
+became good friends. Besides, there were horses there, and
+Uncle Ben, the coachman allowed me to
+Ride them to water. There were children living next
+door too, with whom I became acquainted, and this led to 
+a romantic incident in my life years afterward. When 
+“the Union had come in,” I married one of the little 
+girls who lived next door, although I had to
+go all the way to New York to find her.</p>
+        <p>Our stay at Mrs. Bale's was very pleasant, circumstances
+being considered. It was here, however
+<pb id="aleck43" n="43"/>
+that I witnessed the first instance of cruelty or
+harshness of an owner to his slave that ever came
+under my personal observation. Of this I shall have
+more to say. I missed my weekly visits to the Danes
+too, for besides the pennies, lumps of sugar and
+horseback rides, I had many friends there also. Then
+there was Cora, the daughter of one of the servants, 
+I am still inclined to believe that she was the
+most beautiful girl I have ever seen. She was 
+endowed with an olive complexion, large black dreamy
+eyes, raven hair, pearly white teeth and a bewitching 
+smile. Her voice was one of the most unusual
+voices I have ever heard. Cora used to kiss me
+and call me her little sweetheart, (for though you
+would not believe it now, then I was a bright-looking
+little two-headed chap, and got many a kiss from
+the “big girls” in the neighborhood, because they
+said I was so cute.) But that was years and years
+ago. Cora promised to “Wait for me.” Of course
+I believed her. She was eighteen and I was about
+nine years old, yet I thought that somewhere in the
+race of life I would overtake her and she would be
+mine. It never occurred to me that when I had
+<pb id="aleck44" n="44"/>
+reached eighteen she would be twenty-seven, and the
+disparity in our ages would be the same. Years afterward I
+met her. She was married and had several children, while I
+was just entering into young manhood. How fickle some
+girls are, eh?</p>
+        <p>There was a large garden with fig trees and flowers in it
+at Mrs. Bale's house, but the figs were not as sweet nor
+were the flowers half as beautiful as those at my old home.
+There were two dogs not near so clever as our Watch, and
+the children—well, they had never lived at a home like our
+old place on Guignard Street. In fact, there never was
+another home like that, but “Grief sits light on youthful
+hearts.” All my regrets were greatly modified by the
+prospects of a visit to the country. Such a trip always
+seems alluring to a city boy. Indeed the country seems to
+hold out allurements to everyone except those who live
+there. Mr. Ward owned a plantation to which the family
+went every winter, and when it became known to me that
+we were soon to go there, I was all impatience. I plied
+Uncle Ben with a thousand questions as to how far away it
+was, what kind of a place, what was to be seen,
+<pb id="aleck45" n="45"/>
+were there any snakes, did they bite, was there any wild
+horse running about in the woods, did he think I might catch
+one? Etc., etc. Now Uncle Ben was a philosopher. He was
+not given over much to talking. No one but myself would have
+dared to ask him so many questions. He had taken a fancy
+to me. Everyone said it was a wonder. He had no children of
+his own, besides he was inclined to be somewhat of a
+misanthropist. I would sometime have to wait indefinitely
+for an answer to a very simple question. However, by the
+exercise of patience and discretion I finally got all the
+information I desired, or thought I did, which amounted to
+the same thing.</p>
+        <p>Uncle Ben was epigrammatic as well as philosophical. 
+one night after a very trying day he went to
+prayer meeting. He was feeling rather blue, and
+did not intend to take an active part in the exercises. Of
+course the conductor of the meeting knew nothing of the
+old man's frame of mind. “Will brudder Ben jine us in
+prayer?” he asked, but there was no response. “I mean brudder
+Ben Bale,” he said, fearing there might be some
+misunderstanding. Being thus importuned the old man 
+knelt down and delivered himself as follows:—
+“A ha'd bone to caw. A
+<pb id="aleck46" n="46"/>
+bitter pill to swoller.” Bress de Lawd. Amen.</p>
+        <p>But Christmas was approaching, and Santa Claus
+was gleefully expected for the good old man was a
+real personage in those days—not a myth. Oh,
+but you say it was wrong to deceive the children, as
+it had a bad effect on them? I don't know, but it
+seems to me that the children who believed in Santa
+Claus in those days would at least compare favorably in their 
+love of truth with those of the present
+day who know, “It is only father and mother.” At
+all events the country was forgotten for a while. It
+was sometime after holidays that we left for the
+plantation. There was not a gayer boy than myself when 
+we boarded the train. (This was in the year 1860).</p>
+        <p>When we arrived at the station there were three
+teams awaiting us; one for the family, one for the
+servants, and another for the baggage. Uncle Ben
+was there, having brought the horses up by road a
+few days before. I rode on the baggage wagon. As
+there were only the driver and myself on it I thought
+I could ply the former for information without 
+being requested to “Hold my tongue,” an operation
+<pb id="aleck47" n="47"/>
+that I had always found difficult. My companion I
+found was I well grown boy whose name was Missouri. 
+Why they gave him that name I do not
+know. Perhaps it was in honor of the “Missouri
+Compromise.” He said his name was the same as
+that of a great country miles and miles away, that
+he was called “Zury” for short, that his principal
+work on the plantation was plowing, and that his
+mule, Jack, was the best plow animal on the place.
+He also informed me that there were a large number
+of children on the plantation whose work was to
+play, and to keep the rice birds out of the fields. 
+I suppose he was thoroughly dry by the time we got
+To “Pine Top,” but he was a good-natured follow.
+We became firm friends. I always rode his mule
+from the field to the barn. Zury is now living in
+Charleston, where he is a successful mechanic known
+as Mr. Ladson.</p>
+        <p>Anyone visiting the old time plantation must
+have been impressed by the boundless hospitality of
+the people. Everybody came to see us. They
+brought chickens, eggs, potatoes, pumpkins, plums
+and things numerous to mention. I soon
+<pb id="aleck48" n="48"/>
+found many play fellows. My especial chums were Joe and
+Hector, sons of the plantation driver. The boys were
+somewhat older than myself. They were skilled in
+woodcraft, and taught me bow to make bird traps and soon
+had me out hunting. One morning early, we started out,
+taking their dog, Spot along. When we reached the woods
+the dog ran ahead briskly, barking as he went. Shortly he
+began to bark furiously. “Spot, tree,” said Joe, and we
+hastened on. When we got to the dog he was standing by
+a tall stump, still barking. “Got er rabbit,” said Hector.</p>
+        <p>“Where?” I inquired.</p>
+        <p>“En de holler,” he replied, and thrusting his arm into it
+he drew out the poor trembling creature by his hind legs.</p>
+        <p>“Set him down!” I cried.</p>
+        <p>“Oh no,” said he, “Ee might git 'way.”</p>
+        <p>This was just what I wanted, for I pitied the little animal,
+but the boys were hunters. They were not going to risk
+losing their game, so they killed the frightened thing
+without further ceremony, and put him in their bag. We got
+three rabbits that morning. I did not enjoy the sport, nor
+did I partake of the rabbit stew they had for dinner.
+<pb id="aleck49" n="49"/>
+I did enjoy the night hunts however, for coon and
+possum were our quarry. I went with some of the young
+men. While the harmless little rabbit will not even defend
+himself when attacked, the possum is shy and crafty and the
+coon will fight. One night the dogs tree'd a coon. Now the
+wily animal usually selects a tree from which he can reach
+another, but this coon did not have time to “pick and
+choose.” There was no other tree within jumping distance,
+so he went out on a limb as far away from the body of the
+tree as possible. And there he sat. As it was a large tree, it
+was decided that instead of cutting it down, someone
+should go up and shake the game off of it. Sandy, one of the
+party, readily volunteered to do so. Reaching the limb on
+which the coon was “roosting,” he went on it so as to give
+it a vigorous shaking. The limb broke and down came both
+man and coon. The coon was dispatched while some of the
+men went to the assistance of Sandy. We thought he was
+seriously injured. He was stunned for a moment, but as
+they raised him up he asked, “Did we git um, boys?” The fall
+of more than twenty feet was broken by the branches
+beneath him, and thus he soon was all right again.</p>
+        <p>These hunts were great, but they were nothing compared
+to the feasts that followed. These were
+<pb id="aleck50" n="50"/>
+never held on the same night as the hunt, but on the one
+following. I never took kindly to either the coon or the
+possum. The former is usually too fat, and the habits of the
+other do not appeal to me. But the stories told at these
+feasts! They would make the fortune of a writer if he could
+reproduce them. They simply cannot be reproduced, that is
+all. To get the real, genuine, simon pure article one must be
+on the ground. And perhaps you think that you have heard
+good, sound, hearty unadulterated laughter. Well, may be.</p>
+        <p>You may disfranchise the Negro, you may oppress him,
+you may deport him, but unless you destroy the
+disposition to laugh in his nature you can do him no
+permanent injury. All unconscious to himself, perhaps. It
+is not solely the meaningless expression of “vacant mind,”
+nor is it simply a ray—It is the beaming light of 
+hope—of faith. God has blessed him thus. He sees 
+light where others see only the blackness of night<corr sic="no punctuation">.</corr></p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck51" n="51"/>
+        <head>CHAPTER IV</head>
+        <head>THE LOVER</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“The tide of true love never did run smooth.”</hi>
+          </p>
+        </epigraph>
+        <p>PINE TOP, Mr. Ward's country seat, was a beautiful
+plantation about eighteen or twenty miles from Charleston.
+The house, an old colonial mansion, stood on elevated
+ground, well back from the main road, and commanded a
+fine view of the surrounding country. From the main road
+the house was reached through a wide avenue, lined on
+either side by giant live oaks, while immediately in front of
+the house was a large lawn circled by a wide driveway.</p>
+        <p>From the front door of the house the barns, stables, 
+gin-house, corn mill and Negro quarters, presented the
+appearance of a thriving little village. The quarters were
+regularly laid out in streets, and the cabins were all 
+whitewashed. I once read in a newspaper, a letter from a Northern
+<pb id="aleck52" n="52"/>
+man who visited the South immediately after the
+war. He took a rather unfavorable view of the
+prospects of the Negro, for he said, “There was a
+lamentable absence of flowers about their cabins.”
+I suppose this “Oscar Wilde” thought the conditions
+under which the people lived were well
+calculated to foster love of the beautiful. The poor
+fellow could not have visited Pine Top however, and
+many other places I could name, or he would have
+been delighted to see the well-kept little flower beds
+near many of the cabins. And no doubt, he would
+have said they were just “too, too” for words. He
+might even have been tempted to enter some of those
+cabins by their neat and tidy appearances which
+could be seen through the open doors.</p>
+        <p>Mr. Ward was what was called a “good master.”
+His people were well-fed, well-housed and not
+over-worked. There were certain inflexible rules
+however, governing his plantation of which he allowed
+not the slightest infraction, for he had his place for
+the Negro. Of course the Negro could not stand
+erect in it, but, the Negro had no right to stand 
+<pb id="aleck53" n="53"/>
+erect. <hi rend="italics">His</hi> place for the Negro was in subjection
+and servitude to the white man. That is, to Mr.
+Ward and his class, for while he maintained that the
+supremacy of all white men over the Negro was
+indisputable, and must be recognized, still there was
+a class of white men that he would have prevented
+from ever becoming slaveholders.</p>
+        <p>While I repudiate Mr. Ward's views I am bound
+to believe that there is something in blood. In those
+parts of the South where aristocratic influence is
+dominant, opposition to the advancement and
+progress of the Negro is less than where the
+contrary is true. Eliminating the Negro altogether,
+in some of the southern states the “bottom rail” has
+gotten on top with a vengeance, and where such is
+the case, it is very bad for the “enclosure.” </p>
+        <p>One evening Mr. Ward sat in his library before
+a blazing wood fire. He was the picture of contentment;
+and why should he be otherwise? He had a
+beautiful wife, two fine boys, hundreds of acres of
+land and numerous slaves to work them. Furthermore,
+he had just dined on wild duck. Now I would
+not tax the credulity of the reader by an exact
+<pb id="aleck54" n="54"/>
+statement as to how long those ducks had been allowed to
+hang up after being shot before they were considered
+“ripe,” but, they had reached a stage that would hardly
+have been appreciated by a man of less “refined” taste than
+his, for Mr. Ward was a lover of “high game.” The aroma
+that arose from those “birds” during their preparation for
+the table would not have tempted the appetite of an
+ordinary man, even if he were very hungry.</p>
+        <p>Mrs. Ward had joined her husband for a little chat when
+Jake, the waiting boy, entered.—(Jake was the assistant
+and understudy of Uncle Sempie, the veteran butler. Uncle
+Sempie always retired after dinner, leaving Jake to attend
+to the later wants of his master). “Mingo, fum Mr. Hudson
+place wan ter see yo, sah,” he said.</p>
+        <p>“All right, let him in,” said Mr. Ward.</p>
+        <p>Presently Jake returned ushering in a very young
+Negro who appeared to be laboring under some 
+embarrassment. As he entered he said, “Ebenin sah, 
+ebenin ma'am.”</p>
+        <p>“Good evening,” replied the lady and gentleman.</p>
+        <pb id="aleck55" n="55"/>
+        <p>“Are you Mingo from Mr. Hudson?” asked Mr. Ward.</p>
+        <p>“Yees, sah.”</p>
+        <p>“How are your master and mistress?”</p>
+        <p>“Dey berry well, sah.”</p>
+        <p>“Well, Mingo, what can I do for you?”</p>
+        <p>The young fellow hesitated as if be did not know exactly
+how to proceed. Both the lady and gentleman looked at him
+attentively. He was becomingly attired, had a pleasant face,
+and was evidently a favored servant. At last he mustered
+enough courage to say, “I come sah ter ax yo p'mission ter
+cum see Dolly. Dolly is the darter ob Uncle Josh and Ant
+Peggy, sah,” he added.</p>
+        <p>Mr. and Mrs. Ward strove hard to suppress their mirth
+as they saw the poor fellow was about to collapse. “Oh,”
+said the lady smiling, “So you would a-courting go, eh?”</p>
+        <p>“Yees, ma'am,” recovering himself a little.</p>
+        <p>Mr. Ward cleared his throat. “Well Mingo,” he asked,
+“Have you got your master's consent?”</p>
+        <p>“Oh yees sah.”</p>
+        <pb id="aleck56" n="56"/>
+        <p>“And you and Dolly understand each other?”</p>
+        <p>“Yees, sah.”</p>
+        <p>“Are Josh and Peggy willing to have you for a
+son-in-law?”</p>
+        <p>“Oh yees, sah, I don ax dem.”</p>
+        <p>“I suppose you behave yourself. I am very
+particular concerning this matter.”</p>
+        <p>“I know dat, sah. Mas Jeem kin tell yo bout me,
+sah.”</p>
+        <p>“Well, I guess it is all right. Of course I shall
+inquire about you. Have you got your ticket?”</p>
+        <p>Here Mingo produced the desired article. Mr.
+Ward read it, his brows contracting a little. “This
+is all right,” he said, returning the paper, “Except
+that it does not way where you are to go. Now I
+never allow anyone on my place with such a ticket.
+The next time you visit Dolly you must have a
+different “ticket.” Ask your master to give you one
+stating plainly that you are to visit my plantation.
+Do you understand?”</p>
+        <p>“Yes, sah.”</p>
+        <p>“Well, Mingo, I wish you good luck!” said Mrs. Ward.</p>
+        <pb id="aleck57" n="57"/>
+        <p>“Tankee ma'am, tankee sah,” and he bowed himself off.</p>
+        <p>The “ticket” referred to was simply a permit showing that
+the slave had his or her master's consent to be absent from
+home. In some instances their destination was mentioned; in
+others it merely stated that “A— has my permission to be
+absent on such a date, or between given dates.” Mr. Ward
+never refused his people “leave of absence,” but in every
+case their destination was clearly set forth. It would not be
+safe for them to be found “off the coast.”</p>
+        <p>Now I would not insinuate that Mingo was a fickle lover.
+It is just possible that he wished to visit some of the other
+girls in the neighborhood simply for the purpose of
+convincing himself by actual comparison of the superior
+charms of his own Dolly. His was a monthly “ticket,” and
+under these circumstances we must excuse him for not
+wishing to have it changed. In fact he determined not to do
+so. He did not even acquaint Dolly with Mr. Ward's
+instruction. Possibly he feared that she might have
+<pb id="aleck58" n="58"/>
+agreed with that gentlemen—from different motives of
+course.</p>
+        <p>It was the custom of the owner of “Pine Top” during his
+stay on the plantation to visit the “Quarters,” ostensibly to
+see how his people were getting on, and incidentally, to
+note that things were as they should be on the place.
+Mingo was aware of this so he thought that on his future
+visits to his sweetheart all he had to do was “to lay low”
+until Mr. Ward had made his rounds. In this he was
+successful for a time but—
+<q type="quote" direct="unspecified">“The best laid plans of mice and men, gang aft
+agley.”</q>
+Besides, young love is ever impatient.</p>
+        <p>One night he took his stand in his usual place of
+concealment. It had been raining and the weather was
+decidedly cold. He had waited long after the usual time for
+the gentleman's visits. “Spec de old feller ain't comin out
+tonight,” he said to himself.</p>
+        <p>Mingo did not know Mr. Ward. The people on Pine
+Top expected their master at any hour, and were not
+surprised to have him present himself at their doors when
+<hi rend="italics">he</hi> thought they were not looking
+<pb id="aleck59" n="59"/>
+for him. He would sometimes even partake of roast possum
+or coon. Unaware of these habits Mingo hastened to meet
+the warm welcome that awaited him at Dolly's cabin. He was
+destined to receive a warmer welcome than the one he
+anticipated.</p>
+        <p>Uncle Josh and Aunt Peggy sat by the fire. <hi rend="italics">Perhaps</hi> they
+were asleep. Dolly and Mingo were sitting at a small table as
+far away from the old folks as they possibly could get. “I
+bin ober to Cedar Hill las nite,” he began, “An I see'd the
+new gal dey got. I tink she is——.”</p>
+        <p>“I see'd her,” interrupted Dolly, “An I tink she's just
+horred.”</p>
+        <p>And Mingo deeming discretion the better part of valor
+said, “I tink so too.”</p>
+        <p>Just then there was a loud rap on the door and Mr. Ward
+entered! Sometimes the very means we use to conceal our
+fears serve but to make them plain. The moment Mingo
+sighted Mr. Ward he became alarmed, but he must appear
+collected.</p>
+        <p>“Ebenin sah. Cole nite, sah. How is Missus and de
+chillun?”</p>
+        <p>Immediately Mr. Ward knew “the lay of the
+<pb id="aleck60" n="60"/>
+land.” “Oh they are all well. How are all at Laurel Grove?”
+he asked smoothly.</p>
+        <p>“Berry well, sah, all berry well.”</p>
+        <p>Mr. Ward turned to speak to the old people, taking good
+care to place himself between Mingo and the door. When
+he started to leave the house he seemed to remember
+something. “Oh, by the way Mingo, did you have your
+ticket changed?”</p>
+        <p>“Mas Jeems, he bin gon ter town, sah, an Miss Liza say
+wait til he cum back.”</p>
+        <p>“Ah, then you had it changed when he came back, did
+you?” Mr. Ward spoke very deliberately.</p>
+        <p>“When he git back I so busy I forgot, but I hab um fix
+sho fore I cum er gen, sah.”</p>
+        <p>It was a cool night, but there were signs of perspiration
+on Mingo's face as he spoke. “I am afraid to trust your
+memory, Mingo,” he said. Then he stepped to the door
+placing the silver mounted cow's horn which he always
+carried about the plantation, to his lips, blowing a loud
+blast.</p>
+        <pb id="aleck61" n="61"/>
+        <div2 type="subchapter">
+          <head>THE DRIVER</head>
+          <p>Uncle Joe, as he was called by the Negroes, and,
+Daddy Joe as he was called by the white folks, was
+Mr. Ward's driver. He was a plantation Negro,
+the son of a plantation Negro, but he would not
+have answered to any of the descriptions usually
+given to the “plantation Negro.” He did not have
+a receding forehead, a protruding jaw, nor bandy
+legs. In fact, he bore a striking resemblance to a
+well formed man. He had a thoughtful expression,
+and although he was rarely seen to smile, he had a 
+pleasant countenance. He was not harsh with those
+over whom he had been placed. “Boy, doan lemme
+put me han on yo,” was sufficient to bring the most
+refractory into line, and this was nor a mere figure
+of speech, for when his hand did drop on the shoulder
+of some erring culprit it came down with a force;
+the effects of which was felt for a long time after,
+for he was a man of unusual strength.</p>
+          <p>But Uncle Joe could laugh, and when he was
+Engaged in relating some particularly ludicrous 
+Adventure of Brer Rabbit and Brer Wolf, to his two boys
+Joe and Hector, at night when the day's work was
+<pb id="aleck62" n="62"/>
+done, his sonorous voice could be heard throughout
+the Quarters.</p>
+          <p>This night the old man had removed the tension
+from the boys' minds by completing a Jack O' Lantern
+story begun on the night before. The story was
+as follows:</p>
+          <p>“Wonce der was er man. He lib on won plantation
+en his wife an chillun dey lib on er noder, seben
+mile off. Von nite de man tink he go see dem, so he
+ketch a fat 'possum. He put de possum en some oder
+tings een er bag en start. Wen he git good way on
+de road he see er brite light. (Dem Jack O' Lantern
+always lookin out fur trabblers). De lite blin
+de man an he los de road. Fus ting he kno he fine
+heself een a swamp. Den de Jack O' Lantern laf en
+say, “Now I hab dar bag.” De lite gon out quick en
+de man cudent see he han befo he face.”</p>
+          <p>Here the old man pleaded weariness and sent the
+boys to bed, promising to finish the story the next
+night, for though Uncle Joe had never written a 
+continued story he understood the art of creating a
+demand for the next number. All the following day
+the boys talked about the probable fate of the luckless
+<pb id="aleck63" n="63"/>
+traveler. “I bet,” said Joe, “Dat Jack Lantin
+tak de man bag, den kill um.”</p>
+          <p>“He doan hab to kill um he self. All he hab ter
+do es to tak way he bag en lebe um een de dak, en
+sum ob dem bad wile varmint wat be een de swomp
+eat um up,” answered Hector.</p>
+          <p>But to their great relief their father had skillfully
+extricated the poor fellow from his perilous
+position, bag and all, with no greater misfortune
+than the loss of his hat which was brushed off by the
+low hanging branches. His shoes came off in the
+soft mud of the place. These he did not stop to hunt
+for as he was glad to get out alive. The boys, thus
+satisfied went willingly to bed, while Uncle Joe
+settled himself for a quick no by the fire. Aunt Binah,
+his wife, busied herself cleaning up supper dishes.
+As she went about her work she hummed an old
+Plantation hymn; the humming grew louder as she
+Continued, and soon she began to sing—“I run
+From Pharo, lem me go.”</p>
+          <p>This seemed to arouse her husband, for he
+Commenced to beat time with his foot. When she
+<pb id="aleck64" n="64"/>
+reached the chorus he joined in and their strong voices
+blended harmoniously.</p>
+          <lg type="verse">
+            <l>“De hebben bells er ringin, I kno de road </l>
+            <l>De hebben bells er ringin, I kno de road </l>
+            <l>De hebben bells er ringin, I kno de road, </l>
+            <l>King Jesus sittin by de watah side.”</l>
+          </lg>
+          <p>“Hush,” said Aunt Binah, “Tink I yer de hon.” They
+both listened attentively. Yes, there was another blast.
+“Wonder wha dat debble wan wid me now,” said Uncle
+Joe. He slipped on his shoes, got his hat and coat,
+(meanwhile his wife had lighted his lantern), and hurried
+out. As he stepped outside a third blast assailed his ears;
+this to direct him, as Mr. Ward had seen the light.</p>
+          <p>“Um soun like he ober to Josh house. Wonder wha da
+him now?” he said to himself, hastening along.</p>
+          <p>“Ah Joe,” said Mr. Ward as the driver reached Josh's
+cabin, “Mingo has forgotten my orders. Take him over to
+the barn and give him twenty lashes.”</p>
+          <p>“Cum on boy,” said Uncle Joe, not unkindly, yet in a
+tone that indicated there was to be no hanging
+<pb id="aleck65" n="65"/>
+back. Under these circumstances Mingo must be
+excused for not having lingered to say “Good
+night.” In fact, “his heart was too full for 
+utterance.” And so the line of march was taken up 
+in silence, Uncle Joe leading with his lantern, Mingo
+next, Mr. Ward bringing up the rear. When the
+humiliating performance was over, the party broke
+up. Mr. Ward returned to the house whistling
+softly:—
+<q type="quote" direct="unspecified">“From Greenland's icy mountains.”</q>
+Uncle Joe, wending his way back to his cabin, sang 
+in a low voice, “There's rest for the weary.”</p>
+          <p>Poor Mingo neither sang nor whistled. As he painfully
+took the shortest cut for the main road he consoled 
+himself with the thought that—“Faint heart never 
+won fair lady.” He did not put it just in that way. 
+What he really did say to himself was “Well, sum time 
+Man hab ter go tru heap to git wife.”</p>
+          <p>Did he win his Dolly finally? We shall see.</p>
+        </div2>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck66" n="66"/>
+        <head>CHAPTER V</head>
+        <head>THE HUNTING SEASON AT PINE TOP </head>
+        <epigraph>
+          <p><hi rend="italics">“The Old Flag never touched the ground.”</hi><lb/>
+The Color Sergeant At <sic corr="Battery">Ballery</sic> Wagener</p>
+        </epigraph>
+        <p>GAY hunting parties composed of friends from the city
+and ladies and gentlemen from the surrounding plantations
+often assembled at Pine Top. Many amusing tales were
+told there of the “Stag Fright” and blunders of amateur
+sportsmen on their first deer hunt. There was a Mr.
+Brabham, a carpenter, who being placed at a “stand” for
+the first time, and told not to let the deer pass him, waited
+in breathless anxiety. Soon a magnificent buck came bounding
+towards him almost within arms' reach. Throwing
+<pb id="aleck67" n="67"/>
+up his arms wildly, his gun held aloft, he
+exclaimed, “I wish I had my hatchet!” while the
+terrified animal sped on to be brought down by a more
+collected hunter on the next stand.</p>
+        <p>This year however, the festivities were cut short
+for Mr. Ward was often called to the city as indeed
+were many of the other gentlemen who were accustomed
+to join the gay throng at Pine Top. It was
+soon known that they were attending Mass Meetings
+and Conventions. Sometimes Mr. Ward would
+be absent several days. There were strange
+whisperings among the Negroes. “Dat ting comin,”
+they said mysteriously to each other, “Pray my brudder,
+pray my sister.” I listened with wonderment,
+but was taught to say nothing.</p>
+        <p>Uncle August was Mrs. Ward's right hand man.
+He was equally at home in the fields or in the house,
+and could always be depended on in an emergency.
+He was full of humor, a born mimic, and could set
+those about him in gales of laughter, without seeming
+to try. Mrs. Ward frequently conversed with
+him when he was engaged in some task under her
+directions about the house, or grounds. One day
+while he was moving some pieces of furniture from
+<pb id="aleck68" n="68"/>
+one room to another the lady said, “Daddy August, do you
+know there is going to be war?”</p>
+        <p>“War! ma'am, Wey, ma'am,” Anyone who saw and heard
+the old man would have been ready to affirm most
+positively that this was the very first intimation he had
+had of the impending conflict.</p>
+        <p>His mistress certainly thought so.</p>
+        <p>“Why here,” she replied.</p>
+        <p>“On dis plantation, ma'am?”</p>
+        <p>“Oh no, I don't mean that exactly, but you see, the
+Yankees are determined to take our Negroes from us, and
+we are equally determined that they shall never, never 
+do so. Why Daddy August, don't we treat you all well?”</p>
+        <p>“Ob cose yo does, ma'am. Wha dey bodder deyself 
+bout we fer?”</p>
+        <p>“That's just it; they are simply jealous to see us getting
+along so well, and they want to take our Negroes and put
+them at all kinds of hard work, like horses and mules. They
+are sending emissaries among our Negroes, to make them dissatisfied.</p>
+        <p>“Wha dem is, Miss Em'ly?” (Of course he had not the
+slightest idea what an emissary was!)</p>
+        <p>“Oh they are men who will try to sneak around
+<pb id="aleck69" n="69"/>
+and talk to the Negroes.”</p>
+        <p>“Wha dey gwine say?”</p>
+        <p>“Well, they will tell the Negroes that they are
+their best friends, and so on, just for the purpose
+of deceiving them you know.”</p>
+        <p>For a second there was a twinkle in Uncle
+August's eyes which Mrs. Ward did not observe.
+“Mis Em'ly,” he asked with a startled expression on
+his face, “Wha dem embissary look lak.”</p>
+        <p>“Oh they will be in disguise, you know, but they
+try to look like our own people. Why?”</p>
+        <p>“Well yo kno, toder day wen I bin gon over ter
+Mr. Hudsin, ma'am? When I coming back an git
+mos to de big gate, I see er strange man comin' up
+de road. Time as I see un I tink dem “Kidnabber”
+cause you kno dey car off Mr. Hudsin Tom.”</p>
+        <p>“Now Daddy August,” interrupted Mrs. Ward,
+“I don't believe any kidnapper carried off that boy.
+I think he just ran away.”</p>
+        <p>“Wha he hab ter run away fer, Mis Em'ly? I
+sho Mr. Hudsin es er good man!”</p>
+        <p>The aforementioned Tom was at this very moment
+on the way to freedom by means of the “Underground
+<pb id="aleck70" n="70"/>
+Railroad,” and this Uncle August knew very well.</p>
+        <p>Enyhow I fraid dem kidnapper so I mak hase git inside de
+gate. Wen he git ter de gate he call ter me “Cum yer. I wanter
+tell yo somting.” </p>
+        <p>I say, “Cum een, sah.”</p>
+        <p>He say, “No, yo cum yer.”</p>
+        <p>I say, “I see Mas Henry cummin an I ain't ga
+time. (You kno Mas' Henry gon ter town dat day). 
+Time as I say dat he hurry way.”</p>
+        <p>“I see yo ergan,” he say. Den I say ter maself I know dat da
+“kidnabber.”</p>
+        <p>“Did you see him again?” asked Mrs. Ward quietly but
+she did not succeed in hiding her alarm from the old man.
+He knew what effect his story (and it was a great big one),
+would have.</p>
+        <p>“No, ma'am!” he answered, “An I doan wanter see um gan
+noder.”</p>
+        <p>Mrs. Ward determined to acquaint her husband with what
+she had heard, as soon as possible. Therefore, when Mr.
+Ward returned from the city that evening, she informed him
+privately of what August had told her. He was even more
+disturbed than she
+<pb id="aleck71" n="71"/>
+was. “And,” she added, “Daddy August is frightened 
+half to death.”</p>
+        <p>They both concluded that the stranger was a Yankee spy.
+“It will not be good for him if I find
+him prowling about here,” said Mr. Ward, “I shall question
+August further about it.”</p>
+        <p>He found an opportunity that evening, without
+appearing to attach any importance to the incident, to
+question the old man closely. However, August had
+nothing to add to what he had told Mrs. Ward. He
+considered it was already a sufficient “whopper.”</p>
+        <p>But Mr. Ward was uneasy. He told Uncle Joe to have
+two horses saddled, and they rode over to Mr. Hudson's.
+He did not acquaint the driver of the object of the visit, but
+that was not necessary as August and Joe had already had
+a hearty laugh over the hoax. From Mr. Hudson's they went
+to Mr. Benton's. To each of these gentlemen Mr. Ward
+related what he had heard. Neither of them had seen or
+heard of any stranger in the neighborhood. They both
+promised to look out, and if such was found it would not be
+their fault if he did not
+<pb id="aleck72" n="72"/>
+give good account of himself. But the mysterious
+man was never found of course.</p>
+        <p>Some days after the incident just related Mrs.
+Ward was superintending some work which Uncle
+August was doing in the garden; setting out plants
+And the like, for it was now early spring. A team
+Drove up to the house and the men proceeded to
+Unload a tall pole. “Wha dey gwine do out dey, Mis
+Em'ly?” asked the old man innocently.</p>
+        <p>“Why they are going to set up a flagpole. You
+see we are to have a government of our own so we
+must have a flag of our own; the Confederate flag.
+It is going to be a very pretty one, too.”</p>
+        <p>“No priteer dan de old flags upstars.”</p>
+        <p>“Oh yes, a great deal prettier,” but the lady was
+thinking of the old flag her father and grandfather
+had fought under.”</p>
+        <p>The old man glanced at her. “Well,” he said, “It
+hab ter be berry puty ter beat de old flag.” There
+was more in his words than he meant his mistress to
+understand.</p>
+        <p>“Daddy August,” said Mrs. Ward, as though not
+<pb id="aleck73" n="73"/>
+wishing to speak any more about flags, “We will put
+that right here,” (alluding to a plant the old man 
+held in his hands).</p>
+        <p>August did as directed, but he was not quite through
+yet. Presently he said, “Mis Em'ly, wha yo gwine do wid de
+old flag? Yo pa an yo granpa use ter tink er heap ob dat
+one.”</p>
+        <p>“Burn it up!” replied Mrs. Ward in rather a vehement tone.</p>
+        <p>Uncle August knew he had said enough.</p>
+        <p>It was now about the middle of April 1861. Important 
+matters seemed to require Mr. Ward's attention in the 
+city, and much of his time was spent there. One evening 
+Mrs. Ward told Uncle Ben he must meet Mr. Ward at 
+the station the following day with a pair of horses. He 
+usually used a single horse and a dog cart for this purpose. 
+“Sumting up,” said the old coachman to himself.</p>
+        <p>Mr. Ward had not been home for near two weeks. The
+Negroes on the plantation knew war was approaching,
+for though they could not read the newspapers,
+it is remarkable how well posted they were 
+<pb id="aleck74" n="74"/>
+in regard to the trend of events. They knew also
+that their master's long absence was to be accounted
+for in the coming conflict. His return therefore,
+was anxiously awaited by them; as they hoped to
+gain some information as to how matters actually
+stood.</p>
+        <p>The next morning Uncle Ben had his team in tip
+top shape, and rigged up with his regulation 
+coachman's outfit, including his shiny silk hat. He
+carried Jake along to open the gates. “I kno wha he want,”
+he had said, “But wait little bit.” And he drove away.</p>
+        <p>As they left the station Mr. Ward said, “Save your
+horses Ben,” but when they swung into the plantation
+avenue he told the coachman to “let them go.”</p>
+        <p>Uncle Ben pulled up his lines, drew the whip lightly
+across his horses and said, “Git out.”</p>
+        <p>Tom and Jerry responded and they came up the “home
+stretch” in fine style. The whole family stood on the front
+porch waving their handkerchiefs. Mr. Ward waved his in
+return. As Uncle
+<pb id="aleck75" n="75"/>
+Ben drew up at the stepping stone, Mr. Ward
+sprang out, ran up the steps, embraced his wife and
+children, and kissed his mother-in-law, (a thing
+which I believe men seldom do). “We have taken
+the fort,” he said, as they entered the house.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck76" n="76"/>
+        <head>CHAPTER VI</head>
+        <head>THE BEGINNING OF THE END</head>
+        <p>THAT night conflicting emotions governed those who
+lived on “Pine Top” plantation. In the big house there was
+gladness and rejoicing, while at the Quarters there was
+groaning and lamentation. The Negro believed that as long
+as Major Anderson held Fort Sumter their prospects were
+at least hopeful; but when Sumter fell, they felt that their
+hopes were all in vain. Though the future looked dark,
+there were two on the place who never gave up; Uncle Ben
+and Aunt Lucy. You are acquainted
+<pb id="aleck77" n="77"/>
+with the old man already. Aunt Lucy was the plantation nurse.
+Years of hard and faithful toil in the fields had gained for
+her respite from active labor. It was her sole duty now to take
+care of the young children of the women who had to go into
+the rice and cotton fields, and those mothers were glad
+indeed to have such a kind christian woman as she was
+to look after their little ones while they were at
+work. The old woman, though well on in years, was still
+hale and hearty. “Min, wha I tell yo. De Master gwine bring
+we out,” were her words of encouragement to those who were
+ready to despair. Uncle Ben's words were, “Dem buckra kin
+laf now, but, wait tel bime by.’</p>
+        <p>Between the “big house” and the Quarters there was a
+spring from which the people got their drinking water. 
+Every afternoon a long line of children might
+have been seen with “piggins” on their heads,
+taking in the supply for the night. On the evening of Mr.
+Ward's return, the children did not appear.
+In their stead, and at a later hour, their parents came. It was
+noticeable too, that they lingered at the spring, being 
+concealed from view by the trees that grew about it. The 
+reason of all this was that
+<pb id="aleck78" n="78"/>
+arrangement had been made with Jake that as soon as
+possible after dinner, he was to run down and tell them
+any news he might gather during that meal. Jake, as a
+possible gatherer of news! Why that was absurd! He was
+spry enough about the house and dining-room, but
+otherwise he was as dense as a block of stone. At least,
+that was what his master would have said of him. This
+<hi rend="italics">density</hi> on the part of the Negro was, in fact, a weapon of
+defense—the only one he had. Do you think Captain
+Small could have run the Planter out of Charleston harbor if
+it was thought he had sense enough to do so? No, indeed!
+He never would have had the chance.</p>
+        <p>I said Jake was to run down. That was a mistake. He was
+much too wise for that. After dinner was over he
+sauntered down the back steps as soon as he could. Upon
+reaching the ground, he thrust his hands into his pockets,
+and walked slowly toward the spring, whistling, “Way
+Down Upon the Swanee River,” as though he didn't have an 
+idea in his head. “He comin' now,” said Aunt Lucy, “Well 
+mi son, wha he say,” as the boy drew near.</p>
+        <p>“Well, ma'am, dy tak de fote. We done now”
+was heard on all sides.</p>
+        <pb id="aleck79" n="79"/>
+        <p>“Wait, chilun, hope pray,” was the old woman's
+encouraging words as she proceeded to question the boy
+further. “Wha dey do wid Majer Ande'son?”</p>
+        <p>“Dey le him go.”</p>
+        <p>“Wha dey say bout him?”</p>
+        <p>“O he say do Majer es er brave man. He mak er
+speech befo he cum out. He say, (and Jake drew himself 
+up to imitate the Major) ”Genlemen, if I had food 
+fer my men, an ambunachun I be dam if I wed le yo 
+cum on dose gates!”</p>
+        <p>“Amen, bress de Lawd!” cried the old woman.</p>
+        <p>“O Ant Lucy!” said Manda, the housemaid, abashed at
+the old woman's endorsement of the somewhat impious 
+remarks of the gallant Major.</p>
+        <p>“Hole yo tong yo braze piece. Go on Jake mi son.”</p>
+        <p>But the boy had little more to tell and so the people
+went sadly back to their cabins. Aunt Lucy's
+parting words were, “Hope chilun, pray chilun.”</p>
+        <p>The next day Mr. Ward gave Uncle Sempie orders
+to prepare for a large dinner party that would be given
+by him in a few days. This was to be another
+addition to the long list of similar functions that had
+taken place at Pine Top under the supervision
+<pb id="aleck80" n="80"/>
+of the old butler. Among them there was one to
+which the old man often referred with special pride. It was
+the great dinner given by Mrs. Ward's grandfather, 
+(for Pine Top had been the home of the Bale's for 
+generations), in honor of the Hon. John C. Calhoun.</p>
+        <p>When the day for Mr. Ward's great dinner came,
+the guests began to arrive early; some on horseback,
+others in carriages, the coachmen vying with each
+other in the style in which they came up the avenue,
+and pulled up at the stepping stone. There were
+distinguished ladies and gentlemen. There were
+horses that had records, and some of the coachmen
+had records, too. York, Mr. Boyleston's coachman
+was one of these. His horses always showed the
+best of care and his stables were models of neatness
+and appointment. He had three well grown stable
+boys under him who were kept at rubbing and polishing 
+constantly. The boys slept at the stable while York 
+occupied a neat little cabin on a hill a short 
+distance away. Seen early in the mornings coming 
+down to look after his stock, with a cigar in his 
+mouth, he might easily have been taken for Mr.
+<pb id="aleck81" n="81"/>
+Boyleston himself. As he neared the stable he would say,
+“Ahem!” and each boy popped his head out and would say,
+“Sah.” Upon entering he went through a minute inspection,
+and it was for their best interest if everything was found in
+perfect order. York had the record of having once knocked
+his master down.</p>
+        <p>The circumstances which led to this daring performance
+were these: Mr. Boyleston took great pride in his horses.
+His stock was always of the finest strain, and it may be
+added that he appreciated his coachman's ability as a whip
+and manager. His special pride was a span of dark gray trotters
+of undoubted pedigree. For these he had bought an
+expensive pair of blankets. “Now, York,” he had said,
+“These blankets have cost me a great deal of money. Be
+very careful with them. Never allow the horses to wear them
+at night.”</p>
+        <p>York took as much pride in those beautiful coverings for
+his horses as did his master. He never permitted the boys to
+touch them, but each morning after the finishing touches to
+the animals, he adjusted them with his own hands. One
+morning he
+<pb id="aleck82" n="82"/>
+led the horses out on to the floor of the barn, hitched them,
+and threw the blankets lightly over them, while he took
+another horse outside to water. Unfortunately he had tied
+the animals too closely together. They began biting at each
+other as horses are wont to do. One of them got his teeth
+into the blanket of the other, pulled it down on the floor,
+and together they trampled it under hoofs. The boys were
+at work at a distant part of the place therefore could not see
+what was going on. When York returned he was dismayed
+at the sight. The once beautiful blanket now stained and
+torn, lay under the feet of the horses! He picked it up, but
+there was nothing he could do to repair the damage. He
+placed it on the horse as best be could. To add to his
+confusion be saw Mr. Boyleston coming down to the stables
+for his usual morning inspection. The coachman walked to the
+further end of the barn, pretending to be engaged at some
+work, while his heart beat almost loud enough to be heard.</p>
+        <p>“York,” called out Mr. Boyleston as soon as he entered
+and his eyes fell on the damaged blanket, “Did I not tell
+you never to let the horses wear
+<pb id="aleck83" n="83"/>
+their blankets at night?”</p>
+        <p>“I dident, sah, de——.”</p>
+        <p>“You are a——liar, sir——.”</p>
+        <p>Out flew York's right arm before he knew it, and down
+went his master. He walked out into the lot, folded his arms,
+and stood facing the door. Mr. Boyleston got up. As he
+came to the door York said, “Shoot me down, sah.” His
+master drew his revolver. “Fire, sah, I'se ready,” and York
+stood unflinchingly.</p>
+        <p>Mr. Boyleston put up his pistol. “Come here to me,
+York,” he said.</p>
+        <p>“No, sah.”</p>
+        <p>“May I come to you?”</p>
+        <p>“Yees, sah! I wudent ham a hair on yo head.”</p>
+        <p>“York,” said Mr. Boyleston walking out to his coachman,
+“How came that blanket to be in such a condition?”</p>
+        <p>York gave his master a straight account of the whole
+occurrence. “Here is my hand; I was wrong,” was Mr.
+Boyleston's magnanimous answer, “Do not mention this
+to anyone.”</p>
+        <pb id="aleck84" n="84"/>
+        <p>There were not many masters like this one.</p>
+        <p>Mr. Ward's dinner was a grand affair, and no one
+rejoiced at its success more than old Uncle Sempie. After
+dinner the party went out on the lawn where a stand had
+been erected. Amid cheers the new flag was raised and
+many gentlemen made speeches which all seemed to be
+aimed at the “White House.” I did not know where that
+was, but Uncle Ben said it was where “dem buckra wud
+nebah git.” Later I learned that the White House was at
+Washington, and sure enough they never got there.</p>
+        <p>Mr. Ward now deemed it necessary to have the
+plantation carefully guarded at night. For this purpose he
+chose two young Negroes, brothers, Titus and Pompey.
+The confidence the southern white had in the Negro, and
+the fidelity of the latter to the trust reposed in them speak
+volumes. Here was this master perfectly satisfied to place
+the safety of himself and family in the hands of these men,
+on whom, at that moment, he was seeking to rivet the
+chains of slavery forever. The men were to relieve each
+other, and at stated intervals, if things were all right, they
+were to come under Mr. Ward's window
+<pb id="aleck85" n="85"/>
+and sing out, “All is well!” If things were otherwise, they
+were to pull a knob which would ring a bell in their master's
+room.</p>
+        <p>Titus was noted for his prodigious strength, and an
+equally enormous appetite. He created great amusement one
+night during his watch by standing under the window and
+shouting, “All is well and I'se hungry!” Mr. Ward took the
+hint and thereafter the men were each provided with a large
+“hoe cake,” lined with fat bacon every night before going on
+duty.</p>
+        <p>The time drew near for our return to the city. We must not
+remain on the plantation after the tenth of May, for those
+not acclimated are liable to contract malarial fever. Soon we
+bid farewell to the old place and to the many kind friends we
+had met there. The kind-hearted people loaded us with
+simple gifts. My stay in the country had been most pleasant.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck86" n="86"/>
+        <head>CHAPTER VII</head>
+        <head>IN TOWN AGAIN</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Mischief, thou art afoot.”</hi>
+          </p>
+        </epigraph>
+        <p>ON arriving in Charleston we found great excitement
+there. Men were going about the streets wearing
+blue cockades on the lapels of their coats. These
+were the “minute men,” and the refrain was
+frequently heard,
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Blue cockade and rusty gun</l><l>We'll make those Yankees run like fun.”</l></lg></q></p>
+        <p>Soldiers on parade often passed by our house,
+<pb id="aleck87" n="87"/>
+and we ran to see them. One day a troop of horses
+went by. The ladies waved their handkerchiefs and
+the officers saluted. I heard they were on their way
+to the “Front.” I wanted very much to know where
+that was, therefore, when Uncle Ben and I went to
+the stable I asked, “Uncle Ben, where's the ‘Front?’ ”</p>
+        <p>The old man made me no immediate reply. In
+fact, he never did. Knowing he heard me I waited
+patiently. Presently he looked up:—“De front,
+boy, es de place weh dem young buckra gwine ketch
+de debble,” he said, and resumed his work.</p>
+        <p>Mr. Ward had received a commission in the army
+with headquarters at Secessionville. It chanced
+that Mr. Edward Dane was appointed on his staff,
+and he took my brother, several years older than
+myself, into the army with him. But the dear boy
+contracted fever and soon died. Later, the command
+was removed to another point in the harbor,
+and for a short time I took my brother's place as
+officer's boy! And here I must admit I wore the
+“gray.” I have never attended any of the
+Confederate reunions. I suppose they overlooked my
+name on the army roll! I carried a knapsack, too.
+My uniform consisted of a confederate gray jacket,
+blue pants, and a Beauregard cap. My knapsack
+<pb id="aleck88" n="88"/>
+was somewhat smaller than the regulation article,
+and was covered with glazed leather. It usually
+contained clothes going to or from the washerwoman
+in the city. I had a day in the city every week and
+thus had ample time to do my shopping which usually
+consisted of five molasses groundnut cakes, at
+one dollar each! They were not quite as large as
+those you get for a penny now, either. Once I went
+to buy a pair of shoes and the storekeeper charged
+me seventy dollars for them. I tried several other
+stores and finally got a pair for sixty-five dollars.
+Talk about things being high now, why then most
+things were literally “out of sight”—especially
+things to eat.</p>
+        <p>In the early part of our day on the Island things
+were reasonably plentiful. The real business of the
+struggle had not yet begun, and General Ward still
+had cattle at Pine Top. It was his custom to occasionally
+have a lamb or a “Harry Dick” dressed on
+the plantation and shipped down to the Island. On
+these he regaled himself and brother officers. And,
+“Hereby hangs a tale,” from which we get another
+glimpse of the general's limitation for the Negro.</p>
+        <p>General Ward had a boat's crew of six men. With
+one exception they were detailed soldiers—up country
+<pb id="aleck89" n="89"/>
+men—who had little knowledge of the management
+of boats. The exception was Dick Brown, a
+Negro fisherman. As is well known the fishermen in
+and around Charleston have no superiors in the handling
+of small craft on the river, or in the open sea.
+Dick pulled the stroke oar, acted as coach, and when
+the wind was fair, he sailed the boat. Relying on
+Dick's skill and knowledge the general had never
+missed a trip on account of weather. On one occasion
+he presented his crew with a side of meat and
+they appointed one of their number who had had
+some experience as a butcher, to cut up and share
+it. The general chanced to pass by while the sharing
+was in progress. “Ah boys,” said he, “Sharing
+up?”</p>
+        <p>“Yes sir,” replied the butcher, “There are six of
+us and I am trying to divide as equally as possible.”</p>
+        <p>“Oh well now, I certainly want Dick to have a
+portion, but I did not expect him to share equally
+with you white men; a Negro must never share
+equally with a white man, you know. Where was
+Dick while this was going on? He stood right
+among the speakers together with Jake, the
+general's boy and I, for Mr. Ward would never think
+<pb id="aleck90" n="90"/>
+of being so “unjust” to a Negro as to speak behind
+his back.</p>
+        <p>There are two of us alive today. I don't know
+where General Ward is, but I do know that he is
+dead. Shot did sometimes fall thick and fast on the
+Island, but <hi rend="italics">then,</hi> the general, had the benefit of the
+sea breeze!</p>
+        <p>The command was soon ordered to Virginia, and
+I, being too young to be taken along, was given an
+indefinite furlough.</p>
+        <p>During the latter part of my stay on the Island
+things were tight. As for provisions, well, there
+weren't any to speak of. Ground-seed corn and
+hominy with an occasional piece of bacon, was
+considered very acceptable. These advocates of
+“plain food” should have been with us. Nothing could
+have been more plain than our fare. I don't believe it was
+unhealthy either, although I have had no desire to
+try it again. “Pie” is good enough for me. For
+coffee we had parched grist steeped and sweetened
+with molasses, “Mule Blood” brand. I went over
+from the Island in Mr. Ward's boat every Saturday.
+They were steamers that ran regularly to our Island,
+(“The Planter,” of heroic memory was one of
+<pb id="aleck91" n="91"/>
+these), but they only crossed at night so as to avoid
+“salutes” from the blockading fleet. Most of the
+officers of our command kept row boats in which
+they could reach the city at their pleasure. Our
+landing place at first was Market Dock, but when
+General Gilmore began to raise the temperature in
+the lower part of the city, we moved our moorings
+further uptown; for it would have been rather unpleasant
+to be standing on a wharf and have a shell
+come whistling by taking one's head off. Furthermore,
+the head might roll overboard, or else the kind
+comrade who picked it up might, in his haste, be apt
+to clap it on again upside down, or backside front;
+and like the lady who did not receive an invitation
+to the “pink tea,” one would never feel the same
+again.</p>
+        <p>“The Old Coffee” and “DeKalb” belonged to our
+fleet. Captain Christian of the “Coffee” was one of
+the most popular seamen at the port of Charleston—
+“as jolly an old sea dog as ever drank grog.”
+I always returned to the Island at night by steamer.
+Several times, random shots fell near us but we
+were never hit, and soon got used to them. When
+<pb id="aleck92" n="92"/>
+one came skipping toward us we simply said, “Shoo
+fly.” At this time I was about ten years old, and
+rather small for my age. I shall never forget the
+peals of laughter that greeted my first appearance
+at headquarters. I boarded the Old Coffee at “Market
+Dock” and was met on the other side by Mr.
+Dane who took me up to the place. Then I was
+taken into a large room in which were General Ward,
+Captain Parker, Lieutenant Tompson and Jenks.
+“What in thunder are you going to do with that
+boy!” they cried in unison.</p>
+        <p>“This boy is all right Jim,” said Mr. Dane looking
+at Lieutenant Tompson, “He can ride.” The
+laugh was now turned on the lieutenant who, as I
+afterwards learned, had been thrown from his horse
+a few days before.</p>
+        <p>My duties were very light. If any of the old
+soldiers are now living who were on that Island at that
+time, (1862-63), remember seeing an officer splendidly
+mounted, followed by a mite of a Negro boy
+also mounted, galloping over the Island, the boy was
+myself.</p>
+        <pb id="aleck93" n="93"/>
+        <p>Those who remained at home in the South had
+many privileges to bear, of which I got my full
+share. Things that we consider common necessities
+now, were luxuries then. The people who sometimes
+clamor for war have no conception of what it really
+is. But let us not dwell on these harrowing times
+of the past. May we never see the likes again!</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck94" n="94"/>
+        <head>CHAPTER VIII</head>
+        <head>A TURKEY STEW</head>
+        <p>TURKEYS and even chickens were very scarce on
+our Island. It is remarkable how quickly these creatures
+disappear from the neighborhood of a soldier's
+camp during war times, especially when rations
+are scant. I suppose they become alarmed and
+fly away. Some people may be of a contrary
+opinion, but we will let that pass.</p>
+        <p>Adjoining our Quarters there lived an Irishman
+who owned some turkeys. Besides these there was
+not so much as a turkey feather for miles around.
+At this time one of these festive birds was worth his
+<pb id="aleck95" n="95"/>
+weight in gold. But, there was no gold in
+circulation hence the amount of confederate money
+it would have taken to buy one would have equalled
+the turkey himself—at least in bulk. When Mr.
+O'Flanagan wanted to buy a piece of real estate,
+or make some similar investment, he just sold one of
+his turkeys to some young officer who was willing
+to part with a small fortune. For these and other
+reasons you may be sure that Pat kept watchful
+eyes on his flock.</p>
+        <p>One afternoon one of these turkeys, without the
+fear of consequences, flew over into our yard. We
+had a dog that would “fetch,” therefore, Jake
+quietly remarked, “Sic um, Bull.” In less than no
+time Bull had that turkey by the neck, and in equally
+short order, Jake had that bird in the bag.</p>
+        <p>The fence between the lots was a high one. Those
+on the other side would not see what was going on
+in our yard, but they heard the dog chasing the
+turkey. Therefore, it was not long before Mr.
+O'Flanagan presented himself to the sentinel at the
+gate. “I wud loike to go in an git me turkey,” he
+said.</p>
+        <pb id="aleck96" n="96"/>
+        <p>Now the soldier had seen what was going on, and
+with visions of a midnight roast before him, had
+become a party to the transaction. With a view of
+allowing Jake time to “cover his tracks” he resorted
+to “dilatory” measures. “What kind of a turkey
+was it,” he asked with an innocent look on his face,
+And when he could think of no other questions to
+ask he told the man he would have to see one of the
+officers. “There is General Ward coming up the
+street now,” he said, and Pat hastened to meet the
+general.</p>
+        <p>“Yr haner, one av me turkeys flyed over de
+fince an oi belave some wan was afther sittin
+the dorg on im.”</p>
+        <p>We have already seen that General Ward was a
+strict disciplinarian even in civil life. He was no less
+so as a military man therefore he told the Irishman
+to go in and look for his property, and if he found
+that any damage had been done to it, he should have
+ample satisfaction, as he never allowed any crooked
+proceedings about his headquarters.</p>
+        <p>In Pat went. He searched in all the out-buildings,
+<pb id="aleck97" n="97"/>
+high and low without success. He went to the kitchen
+where Jake was busy getting the general's supper.
+“The Ginral said oi cud luk fer me turkey.
+De dorg——”</p>
+        <p>“Dog nebbah bring no turkey een yer,” said Jake,
+“Yo ken look, doe.”</p>
+        <p>But the search revealed no trace of the missing
+bird and Mr. Patrick O'Flanagan left muttering
+“imprecations not loud but deep.”</p>
+        <p>Does the devil take care of his own? I don't
+know, but during the hunt in the kitchen Jake's
+heart was in his mouth, for the turkey was hanging
+peacefully in a bag behind the door where he might
+easily have been seen if Pat had only looked there.</p>
+        <p>I do not know whatever became of it. It was
+never cooked in that kitchen. Jake became alarmed
+and took it away under cover of night.</p>
+        <p>Many a story is told about the camp fire, and
+many a dainty bite goes round that never came from
+the commissary.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck98" n="98"/>
+        <head>CHAPTER IX</head>
+        <head>TOM BALE</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“If thine enemy hunger, feed him.”</hi>
+          </p>
+        </epigraph>
+        <p>IN a previous chapter I promised to say something
+further about Mr. Bale. It was his habit
+to spend a week or more with his mother every
+year, and during our stay at Mrs. Bale's, and after
+our return from Pine Top he made one of his
+yearly visits, bringing his wife and child, nurse,
+coachman, and three horses.</p>
+        <p>It is said that no man is wholly bad. If this is
+true why the young man of whom we are going to
+speak must have had his redeeming qualities. But
+they were never manifested in the treatment of his
+slaves. He was a very young man. His father had
+died when the son had barely reached his majority,
+and he was left in sole control of the large plantation
+on which were more than four hundred Negroes.
+<pb id="aleck99" n="99"/>
+It was said, he had from his youth exhibited an ugly
+disposition, and this early elevation to power did
+not tend to improve his character. In many
+instances where the master was harsh, the mistress
+was considerate; while in others the reverse was true.
+In either of these cases the servants had a chance,
+but where both were alike inconsiderate, the fate of
+the slave was hard indeed. . . . Young Mrs. Bale
+was hard to please.</p>
+        <p>Some say that even the devil is not as black as he
+is painted. I never could endorse that statement. I
+have always thought he was as black as it was possible
+to paint him, and a great deal blacker. At any
+rate I am free to say there was not one, single, mitigating
+feature in the treatment of those unfortunate creatures
+who had to serve Tom Bale; they all
+suffered. A double share seemed to fall to the lot
+of “London,” the coachman. To say that this poor
+fellow had a hard time would convey but a faint idea
+of his condition. He was competent, faithful and
+submissive, but these qualities did not secure for him
+the slightest consideration. Frequently, after going
+<pb id="aleck100" n="100"/>
+over the cushion, etc., with her handkerchief,
+his mistress would send the carriage back to the
+stable as being “Absolutely too dusty to ride in.”
+The slightest complaint from Mrs. Bale exasperated
+his master against him and he was often severely
+punished even though he had done all in his power
+to have everything in perfect order. His patient
+fortitude under cruel treatment was indeed wonderful.
+Despite the terrible hardships he had to endure,
+he managed to extract some pleasures from his
+occupation. He loved his horses and often spoke
+of them in terms of endearment. “Dem boys nebber
+mak me shame yit,” he would say in speaking of
+them, “Wen I say cum Daddy, cum Spug, de Nigger
+dat pick me up got ter kno wha he bout.”</p>
+        <p>London and I were best friends, and so as
+to be on hand each morning when he went to the
+stable I was permitted to occupy a cot in his room,
+for I liked to go with him. He went much earlier
+than Uncle Ben. The poor fellow was glad to have
+me with him at night. It was a relief to him to have
+someone to talk to. He would tell me about the fine
+<pb id="aleck101" n="101"/>
+horses he had handled, and others he had known: Of
+Old Tar River, Bonnet so Blue and Clara Fisher.
+When he was seated on his box flourishing his whip
+with the easy grace of the experienced southern
+coachmen, one would not think his life was the
+terrible grind it really was.</p>
+        <p>One morning at a very early hour I heard Tom
+Bale calling from the yard, “London, London!” I
+tried to rouse the sleeping man without success.
+Presently I heard the heavy tread of his master coming
+upstairs.—And London slept!—The balmy
+air of that spring morning was seductive. The
+night had been rather warm and London was not
+encumbered with any superfluous clothing. Now
+London was very careful with his whips. They were
+not allowed to lay about carelessly, but were suspended
+from a rack of polished wood, made for the
+purpose, and hung against the wall in his room.
+There was one gold mounted, one mounted with silver,
+and one was adorned with carved ivory, one
+had a dainty little red ribbon bow on it, while the
+two others were decorated respectively with white
+and yellow.</p>
+        <pb id="aleck102" n="102"/>
+        <p>Bale pushed open the door and strode into the room.
+He looked at the sleeping coachmen a moment,
+then, with a muttered imprecation, took down
+one of those whips; I don't know which. I heard the
+“swish” through the air, for by that time I had
+covered my head. Blow after blow descended upon him
+until the blood started. “Now,” said the tyrant
+fairly exhausted, “Go down and hitch up my horse!
+I told you to have my buggy ready early this morning.”
+The abused and bleeding Negro hastened to
+obey.</p>
+        <p>Tom Bale had intended that morning to drive up
+alone to one of his plantations twenty miles from the
+city. He had hitched a fast young horse to a light
+buggy. The mistreated London who had handled
+this animal from a colt had once ventured to warn
+his master about driving him with an open bridle.
+In truth, he tried to prevent Bale from possibly
+having his neck broken. That b— d—, the bully
+had replied, “I want his head to show. He has the
+finest head in South Carolina.”</p>
+        <pb id="aleck103" n="103"/>
+        <p>But that morning it appears retributive justice
+was at his heels, for, late that afternoon the horse
+reached the plantation with a part of the harness
+clinging to him; clearly evident a runaway. As you
+probably know this created no small stir in the
+place. A searching party was sent out immediately.
+“Here Caesar, you take Sancho and two or three
+others. Hasten out, take lanterns with you. I will
+follow with a team,” and Jim Black, the overseer,
+hurried away to the barn.</p>
+        <p>It was remarkable how much time Caesar managed
+to consume in getting ready though apparently
+using all possible expedition. At last they were off.
+“Cum on boys,” he said as they got out into the
+main road and he started on a brisk run in the direction
+in which it was least likely to find the missing
+man. They had gone nearly a quarter of a mile
+before Black drove out. He yelled at them to come
+back. Their confusion was so very evident that he
+simply abused them roundly as a pack of blockheads,
+and sent them down the road toward the city.</p>
+        <pb id="aleck104" n="104"/>
+        <p>They hunted some miles before any trace of Tom
+Bale was discovered. At last they found a piece of
+leather—some part of the harness. It was now
+quite dark. Lanterns and torches were lighted. A
+little further on they came to a place where the
+vehicle had evidently left the road. A few hundred
+yards out in the pine woods the upset buggy was
+seen, and nearly lay the young man, pale and unconscious.
+Even <sic corr="Caesar">Ceasar</sic> felt pity for him.</p>
+        <p>He was lifted into the wagon in which the overseer
+had thoughtfully placed a small mattress. He
+had also dispatched a messenger on horseback who
+met them on their way back. Upon a hasty examination
+the physician found that Bale had one
+leg broken and his shoulders severely bruised. It
+was weeks before he could be removed to the city,
+and months after the accident before he was able to
+get about.</p>
+        <p>The summary visitation of Providence, should, it
+would seem, have cured this rash young man; but it
+did not. At this time the war is on and Tom Bale
+<pb id="aleck105" n="105"/>
+is impatiently awaiting his physician's permission
+to join his regiment at the front. The newspapers
+are giving glowing accounts of Confederate victories.
+The white people are exultingly jubilant,
+and the Negroes correspondingly sad and depressed,
+for though they cannot read the newspapers they
+are well posted as to the news that comes in.</p>
+        <p>One morning Mr. Thomas Bale was seated on his
+piazza in Charleston, reading. The reports of
+Confederate success pleased him. London, with his
+heart bowed down was sweeping the sidewalk in
+front of the house when a fellow sufferer passing by
+stopped to exchange the usual morning greeting.—</p>
+        <p>“Mornin' brudder Lon'on.”</p>
+        <p>“Mornin' mi brudder.”</p>
+        <p>“How yo gittin on?”</p>
+        <p>“O mi brudder, ha'd time, an wus cumin,” was
+London's sad reply.</p>
+        <p>Out flew his master, and with the heavy cane he
+had carried out since his accident he felled the poor
+slave to the earth. “Say better times are coming,
+you rascal,” he stormed, re-entering the house.</p>
+        <pb id="aleck106" n="106"/>
+        <p>And what did much abused Negro do? The
+war being over Tome Bale returned to his home
+broken in health and fortune; for despite his injured
+leg he had gone into the war and remained
+until the end came. At this time many of the men
+who were engaged in the southern side during the
+war, not knowing what would be their fate under
+the new order of things, were hastening out of the
+country. Bale was among these. He was forced to
+leave his family inadequately provided for. However,
+he was still a young man and hoped to retrieve
+his fortune in a foreign land, or at least to
+remain away until things were settled.</p>
+        <p>It was a terrible blow to his young wife with two
+children to be so suddenly reduced from affluence to
+poverty. . . . But, there was a friend at hand—
+London. He had secured a situation as teamster
+with a wholesale house that had resumed business in
+the city; and every Saturday evening found him at
+the door of the house in which Mrs. Bale lived with
+packages of tea, coffee, sugar, butter, etc., such as
+she had been accustomed to and could no longer
+afford to buy; bought with his own money, from the
+<pb id="aleck107" n="107"/>
+same exclusive establishment where she formerly
+dealt. Occasionally when passing that way with his
+truck he would leave ham at the door. This continued
+until the death of the lady. Tom Bale never
+returned. It was said he fell a victim to malaria and
+died in a far away land.</p>
+        <p>It is but a few years since London went to his
+reward. He became a deacon in his church before
+he died, and on many a Thursday night meeting he
+would stand and sing:—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“What troubles have we seen</l><l>What conflicts have we passed!</l><l>But out of all the Lord</l><l>Had brought us by his love.</l><l>And still he doth his grace</l><l>Afford, and hides our lives above.”</l></lg></q>
+while tears of gratitude rolled down his cheeks. He
+had lived to dwell “under his own vine and fig tree,
+with none to molest or make him afraid.”</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck108" n="108"/>
+        <head>CHAPTER X</head>
+        <head>SILLA—THE MAID</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“As we forgive those who trespass against us.”</hi>
+          </p>
+        </epigraph>
+        <p>IT is more pleasant to me than otherwise that I
+have no other similar instance of cruelty to relate,
+coming under my own observation like that of Tom Bale's.
+Although the following may not be called
+cruel, still it is not devoid of severity and harshness.</p>
+        <p>Among our neighbors there was a family whose
+servant had rather a hard time of it. The family
+was very religious but not liberal minded. All their
+servants had to attend the family church.</p>
+        <pb id="aleck109" n="109"/>
+        <p>One of the ladies had a maid whose lot was hard
+indeed. She was only allowed to wear such dresses
+as her mistress prescribed, and these were always
+made of the coarsest material after an original design.
+She was never permitted to wear a bonnet,
+but must have her head tied with a bandanna. No
+idea of economy prompted the mistress. There were
+those mean enough to say that it was done because
+Silla was very pretty and the lady was so plain.</p>
+        <p>Now the maid was fond of dress. She also had
+strong religious sentiments but they were different
+from those of her mistress. She was also an expert
+needle-woman, and her brother who “hired his time”
+and “worked out,” furnished her with material which
+she fashioned to suit herself—working at night and
+at odd times. Sometimes on Sundays she managed
+to attend the church of her choice, arrayed in such
+garments as she desired, being careful however, to
+leave the house after the family had gone, and to
+return before their arrival. But she came to grief
+at last.</p>
+        <p>It was during a season of great excitement in
+religious circles in the city. The Baptists were making
+<pb id="aleck110" n="110"/>
+heavy inroads on the Methodist Camp, and the
+latter found it necessary to bring out their heavy
+artillery. Many eminent Divines noted for their
+piety, learning and eloquence had been invited by
+the Methodist clergy to assist in calming the fears
+of their flocks. Silla was a strong Methodist, therefore
+when it was announced that on a certain Sunday
+a Reverend Gentlemen of matchless eloquence
+would preach, she determined to hear him. It was
+said that this particular sermon had the effect of
+sending the wavering ones back to their ranks; for,
+after an impassioned appeal to his hearers to stand
+firm, he closed his eloquent discourse as follows:—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Let others glory in the water</l><l>I glory in the blood.”</l></lg></q></p>
+        <p>I need not tell you that on that Sunday Silla
+appeared in a beautiful dress made in the latest style,
+a rich mantilla, and a bonnet that was not inexpensive.
+Altogether she presented a very enviable
+appearance.</p>
+        <p>When she was ready to start out Aunt Cinda, the
+old nurse, said to her, “Now gal, yo luk berry nice
+indeed, but doan le dem tings tun yo hed so de
+buckra git home for yo.”</p>
+        <pb id="aleck111" n="111"/>
+        <p>“O no ma'am, Aunt Cinda, I'll be in time.”</p>
+        <p>But alas! What with a word of greeting here,
+and a word of congratulation there, after service,
+the time slipped by. As Silla sped homeward she
+became aware of the fact that she was late. She
+quickened her pace, but “Time lost can never be
+regained.” Miss Octavia had reached home before
+she got there.</p>
+        <p>On reaching the house the lady had immediately
+called for her maid, and she was quite surprised to find
+that she had not yet returned from church. Therefore,
+she took her seat on the piazza which commanded
+a full view of the servants' entrance, determined
+to ascertain from Silla as soon as she came
+in, the meaning of her tardiness. The lady was not
+in a pleasant frame of mind either, as she was quite
+thirsty and wanted a drink of water.</p>
+        <p>As Silla timidly opened the gate and put her head
+in she would have withdrawn it, but... “Walk
+in here, madam!” came from her mistress in tones
+that were not to be misunderstood, “Where have
+you been?”</p>
+        <pb id="aleck112" n="112"/>
+        <p>“To church, ma'am.”</p>
+        <p>“What church, pray?”</p>
+        <p>“Methodist, ma'am.”</p>
+        <p>“And who gave you those horrid things you have on?”</p>
+        <p>“Bobber Jim, ma'am.”</p>
+        <p>“He did, eh! Come right in here.”</p>
+        <p>Silla's heart sank within her as she meekly obeyed.
+Miss Octavia followed her servant into the house.
+“Get me some old newspapers,” she said. “Place
+them in that grate. Take off that hat and lay it on
+the paper. Now get a match and set the fire.”
+And the poor girl stood there and saw her beautiful
+bonnet go up in smoke.</p>
+        <p>“Now madam, go and take off those things and
+never let me see you with them on again!”</p>
+        <p>Silla served Miss Octavia for a long time after the
+war. The lady is dead now, but the maid is still
+living in Charleston, South Carolina.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck113" n="113"/>
+        <head>CHAPTER XI</head>
+        <head>THE APPRAISEMENT</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“He will give His angels charge concerning thee.”</hi>
+          </p>
+        </epigraph>
+        <p>WHILE we were at Mrs. Bale's and before I went
+“into camp,” I had the following sad experience:—
+Up to this event it had never dawned upon me that
+my condition was not as good as that of any boy in
+the country. With kind parents, two sweet little
+sisters, an affectionate brother, gentle companions
+to play with, and every boyish wish gratified, the
+improbability of my succession to the presidential
+chair never once occurred to me. But now I was
+made to feel that life was not all “one pleasant
+dream.”</p>
+        <p>One day my mother received a message calling
+her down to the Dane's. When she returned she
+<pb id="aleck114" n="114"/>
+seemed very sad, and upon my father's arrival
+home I saw them in earnest conversation. Before
+I went to bed that night my mother told me that I
+would have to go with her to the Dane's on the next
+day. “The Old Jay wants to see you,” she said.</p>
+        <p>I was greatly pleased at this for it was a long
+time since I had been there. When we arrived the
+next day I found all the servants arrayed as if for
+some holiday occasion and I also found that they
+were to be “praised.” However, I couldn't understand
+why persons dressed up as they were, and who
+had been bought together for commendation,
+should look so sad. I did not know what I had done
+deserving of special mention, but I did remember
+that sometime before my horse ran away with me
+through the crowded streets, and that I had managed
+to keep my seat. I finally brought the animal
+to a stand without any damage. Therefore, I
+thought I would receive a gold medal, or perhaps
+“four pence” in money. But to be certain, I would
+ask Cora what it all meant.</p>
+        <p>I found her seated alone on a bench in the yard
+looking more beautiful than ever. “Cora,” said I,
+“What is all of this about?”. . . Instead of answering
+my questions she began to cry and she took
+<pb id="aleck115" n="115"/>
+hold of me and hugged and kissed me right there in
+the yard, before all those people!! My, didn't I
+blush!</p>
+        <p>The fact was, kind reader, as you have already
+surmised, the “Estate” was to be sold, and the people
+had been brought together for “appraisement.”</p>
+        <p>Several gentlemen came out into the yard. The
+people stood up, and the gentlemen went among
+them asking questions. One of them placed his
+hand on my head. . . . “Well, my boy,” said he,
+“What can you do?”</p>
+        <p>“I can ride, Sir,” I answered, whereupon my mother
+gave me a gentle nudge which meant, “Hush.”
+She then explained to him that my brother and I
+were not to be sold for she had earnestly requested
+Mr. Dane not to “sell” us. She knew that we should
+receive good treatment as long as we were in his
+hands, and that if we went with her, the Negro
+Traders would soon separate us. With many protestations
+Mr. Dane had promised her that he would
+not sell us even if he had to go barefoot. He kept
+his word, but my mother and two little sisters went
+and for four years, we neither saw nor heard of each
+other. When “the cruel war was over” we were
+brought together again, and you may know there
+<pb id="aleck116" n="116"/>
+was a happy meeting for—“He had given his angels
+charge concerning us.” We were all there to
+greet the gallant Major Anderson when he returned
+to raise the “Old Flag” over Fort Sumter.</p>
+        <lg type="verse">
+          <l>“ 'Twas the star spangled banner</l>
+          <l>And long may it wave,</l>
+          <l>O'er the land of the free</l>
+          <l>And the home of the brave.”</l>
+        </lg>
+        <p>The war was ended. The Union had come. Soon
+the schools were thrown open, and under the leadership
+of the enthusiastic Redpart, and that noble
+band of pioneer men and women from the North, the
+children flocked to them. Surely there must be a
+future for a people so eager to learn as is the Negro,
+and though we are not yet out of the woods,
+<q type="verse" direct="unspecified"><lg type="verse"><l>“We are coming, Father Abraham</l><l>Full many a million strong.”</l></lg></q></p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck117" n="117"/>
+        <head>CHAPTER XII</head>
+        <head>THE BIG FIRE</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Hear the loud alarum bell.”</hi>
+          </p>
+        </epigraph>
+        <p>ON the night of December 11th, 1861, our dear
+old home on Guignard street was destroyed by fire.
+This was the greatest conflagration that has happened
+in Charleston during my lifetime.</p>
+        <p>It broke out at, or near the corner of East Bay
+and Hasel Streets, and swept in a direction across
+the city to the very edge of Ashley River, at the
+other side of town; licking up nearly everything in
+its patch. When the alarm was given Ward 3, we
+hurried out from Mrs. Bate's where we were living
+<pb id="aleck118" n="118"/>
+at that time. Not very far away from the old place,
+looking in that direction, we saw the flames leaping
+up, and hastened on. The sparks seemed to rain
+down from the heavens as we ran. When we reached
+there, we found the engines pouring streams of
+water on the house, while there was a long line of
+men reaching from the well in the yard, up the back
+stairs to the roof of the house, passing buckets of
+water from one to another.</p>
+        <p>The devoted ladies stood by encouraging them.
+“Water! More water!” they cried. But it was all
+unavailing. The fire soon caught the piazzas, then
+burst in the windows and doors seeming to say, “Who
+would stay the ‘Fire King?’ ” Soon the old home
+together with nearly all of the neighboring houses
+was a mass of ruin. On swept the flames reaching
+Broad Street. They raged about the Cathedral.
+It was thought that owing to the material of which
+that beautiful structure was built, it would have
+escaped, but no—under the fierce onslaught of the
+devouring element, the costly and magnificent edifice
+melted away; and onward the fire sped, not stopping
+until it reached the waters of the Ashley River.</p>
+        <p>I do not know the casualties that attended this
+distressing event, but the property loss was very
+great.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck119" n="119"/>
+        <head>CHAPTER XIII</head>
+        <head>MR. WARD'S RETURN TO PINE TOP</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Let us have peace.”</hi>
+          </p>
+        </epigraph>
+        <p>IT was late in the Fall of 1865 that Mr. Ward
+was on his way to join his family. As soon as possible
+after the surrender of Richmond, he had made
+a hasty visit to Charleston to assure himself of their
+safety, but had returned to Richmond after a few
+days stay with them to engage in some clerical work
+<pb id="aleck120" n="120"/>
+he had previously secured in that city; the compensation
+for which he found himself sorely in need of
+at that time. He was now on his way to join them
+permanently. He had an irresistible impulse however
+to visit the old plantation. As the train sped
+on, the desire grew upon him, therefore when they
+pulled up at the little station, White House, he got
+off, determined to walk out to the place. It is worthy
+of note that this man did not for a moment doubt
+that he would be kindly received by his former slaves,
+if any remained there.</p>
+        <p>Fortunately he met an old friend at the station
+who gladly provided him with a horse on which he
+rode out to the plantation, beset by emotions better
+imagined than described. As he turned from the
+road into the long avenue a mass of ruins met his
+eyes. The noble old house had been destroyed by
+fire! With a sad heart he rode on.</p>
+        <p>Uncle Joe was at work burning stubble in a nearby
+field. As he raised his eyes they rested on the
+lone horsemen. “Wonder who da him,” he said as
+he started to meet the stranger, “Um, ee luk like
+<pb id="aleck121" n="121"/>
+Mass Willum, Lord bless me!”</p>
+        <p>As the two men drew near each other Mr. Ward
+leaped from his horse and extending his hand he
+cried, “Joe!”</p>
+        <p>“Mas Willum!” sobbed the old Negro.</p>
+        <p>They fell on each others necks and wept like
+children. Oh why did the designing stranger and the
+native demagogue enter to thwart this auspicious
+opening of a new era between these men?</p>
+        <p>After a while they started toward Uncle Joe's
+cabin. Mr. Ward refused to remount though urged
+to do so by the old man. As they walked along Mr.
+Ward inquired about those he had left on the place.
+Some had gone away. They had sought the city.
+It were well for many of these if they had remained
+on the plantation, for the town held many snares
+and temptations to which they were unaccustomed,
+and to which they fell a prey. Old Uncle Josh and
+his wife had gone to Mrs. Ward in Charleston. Uncle
+Josh was not inclined to leave the plantation,
+but his wife was anxious to go and see how Mrs.
+Ward was faring, and if she could be of any help
+<pb id="aleck122" n="122"/>
+to her. Thus they went.</p>
+        <p>Mrs. Ward was more than glad to see her old
+friends. “I thank you very much for coming to me
+at this time,” she said to Aunt ——, but I am not
+able to offer you any wages, for I am without means
+now.”</p>
+        <p>“I a'int cum fer yo money, Chile,” the old woman
+answered, “Ef yo doan need my sarbis I ken go
+back.”</p>
+        <p>“Oh you dear creatures, you know how much
+I need you. I only meant that I cannot pay you
+anything just now.”</p>
+        <p>And so the old woman took charge, greatly to the
+relief of Mrs. Ward, also to that of Uncle August
+who had been constantly with his mistress, and was
+acting in the capacity of general house servant.
+The advent of Aunt Peggy allowed him a chance to
+go out doing odd jobs, thereby earning a few dollars.
+He steadily refused to accept any work that would
+take him away permanently from Mrs. Ward. The
+lady could offer comfortable quarters to Uncle Josh
+and his wife. The old man soon obtained work in
+the city and the three servants lived on the premises
+until they died. It is doubtful if Mrs. Ward ever
+<pb id="aleck123" n="123"/>
+had any more faithful and truer servants than they
+were.</p>
+        <p>Mr. Ward was glad to find that there were still
+many of his people on the plantation, all of whom
+seemed glad to see him. Old Aunt Binah, Uncle
+Joe's wife was dead, and his two boys, now strapping
+young fellows had gone to the city to work. “Long
+shore” the old man informed him, also that they
+had turned out well and came up to see him often.</p>
+        <p>As they neared the cabin they passed a pen in
+which were six fine shoats “Dem b'long to Mingo,
+sah,” said Uncle Joe.</p>
+        <p>A shade passed over Mr. Ward's face. “Mingo?”
+he asked.</p>
+        <p>“Yessah. Mingo mar'ed Dolly, yo kno sah, an ee
+com ter lib yer wid er. And den wen they gon ter
+town an my old ooman dead, Dolly un him com lib
+wid me sah, caise I so lonsum. Mingo is er good
+christon man sah, an dey berry kine ter me.”</p>
+        <p>The shade on Mr. Ward's face deepened. “Joe,”
+said he, “I treated Mingo harshly once.”</p>
+        <p>“I kno dat, but ee don forgit all bout it, sah.”</p>
+        <pb id="aleck124" n="124"/>
+        <p>Mr. Ward sighed as though he wished he could
+forget also. “Is Lucy still here?” he asked.</p>
+        <p>“Yee, sah. She es prime es eber.”</p>
+        <p>“Let us go over and see her.”</p>
+        <p>“Praise de Lawd!” cried the old woman as they
+entered her cabin. Mr. Ward could not speak, but
+extended his hand.</p>
+        <p>“Mas Willum, I'se berry glad ter see yer. Si'
+down. How yer bin all dis time?”</p>
+        <p>“Well, Ma'am Lucy, I have had some hard raps,
+but I am thankful to be alive, and to see you all
+again. A great change has come about.”</p>
+        <p>“Yee sah, God mov een er misterous way.”</p>
+        <p>After a short stay at Aunt Lucy's they visited
+the other cabins before returning to Uncle Joe's
+abode. “Sorry de ole ooman ain't here yere, sah,” said
+the old man with moistened eyes, as they went in.
+Dolly, busy with the housework, had noticed Uncle
+Joe and a white man going to the barn with a horse.
+They had left the horse there and were next seen
+<pb id="aleck125" n="125"/>
+coming toward the cabin. With native shyness she
+drew herself from view, and when she ventured to
+peep out again, the man had passed her house going
+in the direction of Aunt Lucy's. “Vonder who dat,”
+she had said, and went on with her work.</p>
+        <p>Meanwhile Mr. Ward and Uncle Joe had completed
+their visits and returned. She did not see
+them until they entered the rear door of the cabin.
+She was just about to put a large dish into the cupboard
+when she glanced up. . . . Down went the
+dish to the floor in a hundred pieces!!! “Don't be
+frightened, Dolly,” said Mr. Ward, smiling and extending
+his hand. “You got your Mingo after all.”</p>
+        <p>Dolly was speechless for a moment. Then she
+said, “Ee this yo Mas Willum!”</p>
+        <p>“Yes indeed,” replied the gentleman, “and I am
+truly glad to see you. How are you and your husband?”</p>
+        <p>“Ve quite well, tankee sah. How yo do?”</p>
+        <p>“Oh, I feel better now, than I have for many a
+day,” he replied.</p>
+        <p>The men sat down before the blazing fire and
+entered into a long earnest conversation concerning
+<pb id="aleck126" n="126"/>
+the past, the present and the future. Just before
+they entered the door, Mr. Ward had noticed a fine
+possum hanging outside, all cleaned and ready for
+the oven. He was at the point of expressing his delight
+at the sight when he was arrested by the pathetic
+remarks of Uncle Joe. During a lull in the
+conversation he turned to Dolly and said, “I see
+you have a fine possum.”</p>
+        <p>“Yees sah,” she answered, “Mingo ketch him las
+night, and we gwine ter hab im for supper. Glad yo
+cum jest een time.”</p>
+        <p>“I am glad too,” said Mr. Ward laughingly.</p>
+        <p>Mingo worked at the ferry half a mile away. He
+was later than usual coming home that evening, and
+had reached the house without being apprised of
+Mr. Ward's arrival. When he came in and saw the
+gentleman, he stood motionless with astonishment.
+Mr. Ward got up. Advancing toward the bewildered
+man with outstretched hand he said, “Mingo,
+I treated you harshly once. I am ashamed of it,
+and I wish to ask your pardon.”</p>
+        <pb id="aleck127" n="127"/>
+        <p>Mingo grasped his hand. “Doan say nothin bout
+dat, sah. Ise glad ter see yo—berry glad ter see
+yo sah. Si down.” And the two men had a long
+talk.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck128" n="128"/>
+        <head>CHAPTER XIV</head>
+        <head>ROAST POSSUM</head>
+        <epigraph>
+          <lg type="verse">
+            <l>
+              <hi rend="italics">"Tun dat possum roun and roun</hi>
+            </l>
+            <l>
+              <hi rend="italics">Tun dat possum roun."</hi>
+            </l>
+          </lg>
+        </epigraph>
+        <p>DOLLY knew the high estimate Mr. Ward had of
+old Aunt Lucy's ability as a cook, therefore she
+requested her to come over that evening. This the
+old lady readily consented to do, and as she proceeded
+with her pleasant task, she indulged in many
+reminiscences of former occasions on which she had
+officiated to the gastronomic delight of Mr. Ward;
+and even of old Mr. Bale, Mrs. Ward's father.
+When everything was ready Dolly brought out a
+snowy cloth, spread it on the pine table, laid a plate,
+knife and fork thereon, then she ran down to the
+spring for some fresh water. Returning, she placed
+a glass of this beside the plate. Meanwhile Aunt
+Lucy was taking up the summer. On a large dish
+she gently placed the festive possum done to a turn.
+Then she carefully arranged some baked sweet
+potatoes around it. Over all she poured some gravy
+<pb id="aleck129" n="129"/>
+that had been simmering in a saucepan by the fire.
+She placed this dish in front of the plate on the
+table, and flanked it on one side by a dish of rice as
+white as milk, and on the other by some delicious
+cornbread. She surveyed the table a moment then
+announced, “Supper ready.”</p>
+        <p>“Draw up, sah,” said Mingo acting as master of
+ceremonies.</p>
+        <p>“Surely you are all going to join me!” said Mr.
+Ward rising.</p>
+        <p>“No sah,” answered Uncle Joe, “It do ve mo good
+ter see yo eat dan ter eat vesef, sah.”</p>
+        <p>Argument was of no avail, therefore Mr. Ward
+sat down and in a remarkably short space of time
+that dish of possum and potatoes had very perceptively
+diminished. After Mr. Ward was through,
+the table was rearranged and the others sat down.</p>
+        <p>The gentleman looked thoughtfully into the fire,
+and when all had finished he stood up. “Joe, Lucy,
+Mingo, Dolly,” said he, calling each by name, “I can
+never hope to enjoy another meal such as I have
+<pb id="aleck130" n="130"/>
+had, as long as I live. His earnestness impressed
+them all. They made no reply.</p>
+        <p>Immediately after supper Mingo had excused himself,
+and was absent for more than an hour. All of
+those whom Mr. Ward had not seen during the day
+came in after supper to shake hands with him. Mingo
+was seen to whisper to two or three of the younger
+men, and together they went out; seemingly on
+some mysterious errand.</p>
+        <p>Some of the older people tarried a while to talk.
+“Chillun,” said Aunt Lucy, “Look at de vonders ob
+de Master.” Then she raised her voice and sang,
+“And are we yet alive?”</p>
+        <p>Uncle Joe requested the old woman to pray. They
+all knelt down while she uttered a prayer of
+wonderful strength; full of faith and hope. Mr. Ward
+was asked by the old man to read the 14th chapter
+of St. John. Uncle Joe, though still vigorous, was
+quite an old man; therefore, at the conclusion of the
+reading he sang:—
+<pb id="aleck131" n="131"/>
+<q type="verse" direct="unspecified"><lg type="verse"><l>“On Jordan's stormy banks I stand</l><l>And cast a wistful eye.”</l></lg></q>
+They all felt that he was looking, “For a house not
+made with hands, but eternal in the heavens.” And
+so he was, for a few months later he passed to his
+reward.</p>
+        <p>They had all joined in the singing, and accustomed
+as was Mr. Ward to hearing them, it seemed
+as though he was never so impressed as now. Again
+and again he requested them to sing, and they responded
+with such old hymns as:—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Roll Jordan, roll</l><l>My bruder, yo aught to bin dere</l><l>To yer wen Jordan roll.”</l></lg></q></p>
+        <p>When they rose to leave they sang heartily:—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“No fearin, no doubtin</l><l>While God's on our side.</l><l>We'll all die er shoutin'</l><l>De Lawd will provide.”</l></lg></q></p>
+        <p>Kind reader have you ever heard those people
+<pb id="aleck132" n="132"/>
+sing? If a band of these old veterans could be
+brought together and travel through the country
+singing their old time songs, I believe it would do
+more towards settling the so called Negro problem,
+and allaying the growing unrest caused thereby,
+than any other single force. The particular ones of
+whom I write are all, with a single exception, dead;
+but there are still many of the “Old Timers” living.</p>
+        <p>Mr. Ward had not expected to stay so long, but
+the hours sped swiftly, and he was forced to spend
+the night under the roof of old Uncle Joe. Mr.
+Mingo went to work early the next morning before
+Mr. Ward was up.</p>
+        <p>The borrowed horse had been returned by one of
+the men going to the station, as the gentleman
+found his stay would be prolonged. Uncle Joe
+would drive him over to take the train.</p>
+        <p>After breakfast Uncle Joe went to the barn to
+“hitch up.” When he drove up to the cabin door
+there was a large homespun sack which seemed to
+<pb id="aleck133" n="133"/>
+contain something bulky, lying across the rear part
+of the buggy. “Got quite a load behind you, Joe,”
+remarked Mr. Ward as he stepped in.</p>
+        <p>“One ob Mingo shoats, sah. Ee kill im las night.
+Say ee sory ee didn't hab time to cut up de meat.
+Yo kin hab dat don wen yo git home. Hang im up in
+er cool space, sah.”</p>
+        <p>The gentleman made no reply, but there was a
+strange, far away look in his eyes. As they drove,
+the old man imparted such bits of information as
+he thought might be of interest. Finally both became
+silent. “Joe,” at length said Mr. Ward, “You
+are thoughtful as usual.”</p>
+        <p>“Fine nuff ter tink bout, sah. Member once wen I
+didn't tink, an ee put de wuk on de plantation bac
+two days. He laughed loudly as though amused by
+some recollection. Mr. Ward smilingly asked when
+this happening had occurred. Then the old man related
+the circumstances which were as follows:—</p>
+        <p>Mr. Ward had directed him to have a piece of
+work done. He had delayed in doing it because
+there was something about it to which he wished to
+<pb id="aleck134" n="134"/>
+call his master's attention. However, before he
+could do so Mr. Ward called him and demanded to
+know what was the cause of the delay. “I thought
+sah,” began Uncle Joe. “I don't want you to think.
+Do as I tell you,” Mr. Ward had said sternly.</p>
+        <p>Later the old man's reasons were discovered to be
+well founded, but his master made no acknowledgment
+of it. One morning some time after Mr. Ward
+had said, “Joe, tomorrow morning early, take two
+double teams and four men, and go over to Mr.
+Bennett Ward's (a brother of his). There are
+some things there; furniture, etc., that I wish to
+have brought here. Make a very early start. I
+will ride over after you. Wait there until I come.”</p>
+        <p>Now it so happened that on this very day, after
+Mr. Ward had given his instructions, he received a
+letter calling him to the city on urgent business.
+He went down that evening. Naturally he said nothing
+to Uncle Joe, nor did he change his orders. The
+old man knew he was gone, also that it was impossible
+for him to return in time to ride over to his
+<pb id="aleck135" n="135"/>
+brother's, as it was eight miles across the country.
+But he was not to think!</p>
+        <p>By daylight next morning, he with teams and
+men, was on the road to “Mas' Bennett.” On his
+arrival he told the gentleman the orders he had
+received from his master. “All right,” said he,
+“Wait.” And they waited.</p>
+        <p>At dinner time Mr. Ward expressed surprise that
+his brother had not come. At night he felt worried
+about it. “If he is not here in the morning I shall
+ride over and see what the matter is,” he said.</p>
+        <p>The next day, when breakfast had been completed,
+he mounted his horse and rode away, telling Joe to
+remain there as his brother might come at any moment.
+He had expected to meet Mr. William on the
+way, but after riding several miles without doing so,
+he became quite alarmed and went on to Pine Top.
+His brother he found, had been called to the city
+unexpectedly, and had not returned as yet. Mrs.
+Ward knew that her husband intended to send Joe,
+but thought he had altered the arrangement when he
+<pb id="aleck136" n="136"/>
+found that he would be absent. She was just on the
+verge of sending for Joe to come back.</p>
+        <p>It was near three o'clock when Mr. Ward got
+home. His brother was in the act of leaving. “I
+did tell Joe to go over to your place yesterday, and
+to wait until I came. I forgot all about it until a
+few moments ago. When you get home, please see
+that the wagons are loaded tonight, and let them
+start back by daylight,” said Mr. William Ward.</p>
+        <p>Not until nine o'clock in the morning of the third
+day of their absence did they return to Pine Top.
+Work had been terribly put back on the place. But,
+Uncle Joe had done as he was told, without thinking.</p>
+        <p>Mr. Ward remembered facts distinctly. He now
+learned for the first time the true inwardness of
+them. “Joe,” said he with a smile, “That was not
+the only mistake I ever made.”</p>
+        <p>They bade each other good-bye at the station.
+“Remain on the plantation, Joe, and tell all the
+<pb id="aleck137" n="137"/>
+others to do so until we see what is to be done,”
+said Mr. Ward as he boarded the train. They never
+met again!</p>
+        <p>Mr. Ward entered the ministry and labored for
+some years on the coast among his own people, in
+the vicinity where he once had his military
+headquarters. Was the inspiration furnished by that
+memorable visit to the old plantation? Who can
+tell?</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck138" n="138"/>
+        <head>CHAPTER XV</head>
+        <head>After De Union</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Universal Suffrage say to all, Be ye tranquil.”</hi>
+          </p>
+        </epigraph>
+        <p>RECONSTRUCTION times were now at hand. The
+ruinous conditions that followed that period have
+been oft and repeatedly charged to the Negroes of
+South Carolina. Is this just? Is it true? I say,
+No! I was but a boy then. I remember going with
+my father who was one of a delegation of men selected
+for the purpose of calling on some gentlemen
+of Charleston. These gentlemen, although they had
+been slaveholders, were always kindly disposed
+<pb id="aleck139" n="139"/>
+toward the Negro. I understood the purpose of
+the visits was to secure the good offices of these
+gentlemen in framing new laws for the government
+of the state.</p>
+        <p>The first one they called on came out and stood
+uncovered on the doorsteps, while the spokesmen of
+the Negroes explained the object of the visit. The
+venerable gentleman thanked the delegates for this
+expression of their confidence, and promised to do
+all in his power to bring about peace and tranquillity
+to the state and people.</p>
+        <p>They made other visits with like results. “Bless
+be the man who ne'er consents by ill advice to walk,”
+is as applicable to a state or community as to an
+individual. Ill advice seemed to have ruled the first
+attempt at legislation in South Carolina after the
+war; for the outcome of it was the enactment of a
+code of laws which rendered the condition of the
+Negroes in the state worse if possible, than it was
+under slavery. These laws were very appropriately
+called, “The Black Code.” It is strange that we
+do not hear much of that code now. Possibly somebody
+<pb id="aleck140" n="140"/>
+is ashamed of it.</p>
+        <p>That was the entering wedge. It opened the door
+to the designing stranger, and made subsequent conditions
+possible. It was not the work of Negroes,
+but it opened the way for, and brought about, what
+is called the “Carpet Bag” era, of which nothing
+good can be said. It was “Bad,” very “Bad.”</p>
+        <p>But the state was finally wrested from the hands
+of the despoiler. The gallant Hampton came to
+the rescue. About this time men who had found
+things under the corrupt Carpet Bag System, “as
+sweet as a daisy in a cow's mouth,” awoke to the
+discovery that the “Civilization of the Cavalier and
+the Roundhead was imperiled.” That discovery it
+was said, was hastened by the thought that their
+own heads were no less so. In fact, in Charleston
+today, a highly respected gentleman and citizen is
+living, who in a public speech said in effect, “Let us
+not blame the Negroes; they have been but dupes.
+Let us rather ornament the lamp posts of the city
+with the suspended bodies of the rascals who have
+used them for their own selfish purposes.”</p>
+        <pb id="aleck141" n="141"/>
+        <p>At that time I was a young man in the employment
+of one of the oldest business firms in Charleston.
+One day one of my employers called me into
+his private office. (This gentleman was one of the
+most conscientious men I have ever known. He had
+been very kind to me, as indeed were all the members
+of the firm. In all my varied experiences I have
+never met with kinder treatment than I received at
+their hands). After telling me of the deplorable
+condition in which the state then was, he asked me
+to support General Wade Hampton for governor,
+in the coming election. I told him that while I
+realized the truth of what he had said, I could not
+vote for Hampton! Also, that in consequence of the
+chaotic conditions in the state I had determined not
+to vote at all. He then asked me if I would go to
+hear General Hampton, (the general was to speak
+especially to the Negroes of Charleston). This I
+readily consented to do.</p>
+        <p>I do not remember the date of this meeting. It
+was however, a short time before the election which
+took place on the seventh day of November, 1876.
+<pb id="aleck142" n="142"/>
+At the appointed time the Academy of Music was
+crowded with the Negroes of the city. I could only
+get standing room. We, the Negroes, could sit in
+any part of the place we desired then.</p>
+        <p>General Wade Hampton rose to speak—a splendid
+man, a perfect specimen of manhood and vigor.
+The hardships of the war through which he had
+passed seemed to have had but little effect upon
+him. He was a fluent speaker. In a forceful manner
+he told of the sad condition in which the affairs
+of the state then stood. Our only desire he said,
+was to save our dear old state from utter ruin.
+Then, raising his right hand to heaven he said these
+very words as near as I can recollect, “If I am
+elected governor, I swear to God that not one right
+or privilege that you now enjoy shall be taken from
+you!”</p>
+        <p>I believe, in fact I know he was sincere, and while
+I did not vote for him I honored his sincerity. But
+he had made pledges for his people which they failed
+to keep. The immediate result of his election was
+the passing of restrictive measures aimed exclusively
+<pb id="aleck143" n="143"/>
+at the Negro. The brave old general lived to see the
+day when he, like his pledges, was laid aside—a
+soldier and a gentleman. It was well for him that
+he was bred in the school of the soldier; well for
+him that he was truly brave, else he could not have
+stood up against it.</p>
+        <p><q type="quote" direct="unspecified"><lg><l>“He was a man take him in all for all”</l></lg></q>
+and I fear, we in South Carolina,
+<q type="quote" direct="unspecified"><lg><l>“May not look upon his like again.”</l></lg></q></p>
+        <p>But the end is not yet, for we hear of other
+oppressive measures, such as disfranchisement and the
+like. While this is true it is equally true that the
+Negro has many friends among the southern white
+people. Such offensive measures as the “Jim Crow
+Car,” are not the works of the better element of the
+southern people. Many Negroes owe their success
+in business enterprises and other efforts they have
+put forward for their advancement, directly to the
+aid and encouragement they have received from those
+who formerly held them in bondage.</p>
+        <p>If there is a Negro problem before the American
+people, it is one of the greatest propositions that
+has ever confronted them. If either of the measures
+<pb id="aleck144" n="144"/>
+yet proposed could be carried out it would not settle
+the Negro question, for I hear of no plan as yet to
+remove the Negro from the face of the earth.
+Though, perhaps even this would find many advocates.
+If there is a Negro problem, a great
+principle is involved in its settlement. There is no
+question of the power of the white people of America
+to dispose of it in any way they may choose, but,
+to “settle it,” requires the exercise of justice and
+equity.</p>
+        <p>To many this problem seems more imaginary than
+real, and the measures thus far proposed for its
+settlement seem impractical to say the least of
+them. One-sided settlements are hardly ever satisfactory
+or conclusive.</p>
+        <p>If there is a real vital question it affects the Negro
+as well as the white man, and the simple principles
+of humanity and “fair play” would seem to call for
+the consideration and the interest of both.</p>
+        <p>Why not call the brains of the Negro into the
+council for its consideration? There is plenty of it
+among the men of large calibre, many whose names
+<pb id="aleck145" n="145"/>
+are frequently before the public, and others whose
+names are seldom heard. I believe they would
+convince the country, and the world that this “Great
+Lion” is no formidable than those which “<sic corr="Pilgrim">Pilgram</sic>” saw.</p>
+        <p>When a boy I knew a man whom I greatly disliked.
+I did not know anything wrong about him,
+but there was something about his looks that repulsed
+me. I never cared to meet him. Some time
+afterwards I learned something of his history. He
+had been shipwrecked once. Together with some
+others he got into a small boat. As they pulled off
+from the sinking vessel a strong swimmer reached
+the boat and tried to climb in. This man violently
+struck the hands of the swimmer away, and the poor
+fellow sank beneath the waves. He justified himself
+on the ground that there was already a sufficient
+number in the boat, and if the swimmer had not been
+prevented from entering the boat, the lives of these
+would have been endangered. Perhaps he was right,
+but I was more afraid of him than ever, for I could
+not think of him as other than a murderer.</p>
+        <pb id="aleck146" n="146"/>
+        <p>Those who would drive the Negro away from this
+country for which he has fought and bled, I regard
+as worse than this man; for, we are all ready in the
+boat, and they seek to cast us into the sea.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck147" n="147"/>
+        <head>CHAPTER XVI</head>
+        <head>IN THE LAND OF THE PURITANS</head>
+        <epigraph>
+          <lg type="verse">
+            <l>
+              <hi rend="italics">“ 'Tis a very good land I tell you,</hi>
+            </l>
+            <l>
+              <hi rend="italics">'Tis a very fine land indeed.”</hi>
+            </l>
+          </lg>
+        </epigraph>
+        <p>FOR years I had desired to visit “away down
+east.” I wanted to see more of those people from
+whom sprung the liberty-loving men and women,
+who did so much for the amelioration of the condition
+of the race. I had all ready witnessed the practical
+working of their christian charity, and the
+zeal through the labor of the gallant band, who
+<pb id="aleck148" n="148"/>
+immediately after the war came down to the south
+with the bible in one hand, and the primer in the
+other; for the purpose of enlightening and elevating
+a benighted people.</p>
+        <p>They have nearly all passed away, for it is more
+than forty years since, but there remains as monuments
+to their philanthropy, the schools and colleges
+they established throughout the southland.</p>
+        <p>With the view therefore, of becoming better acquainted
+with these people, I availed myself of the
+first opportunity that presented itself. Before this
+I had visited some of their large cities, but the
+population of cities do not afford the opportunity of
+gaining such clear insight of a people as the country
+does. For, in the cities they are on “dress parade,”
+but in the country they are “at home” so to speak,
+therefore, I wished to visit the rural or semi-rural
+parts of the country.</p>
+        <p>It is a “far cry” from the land of cotton and of
+rice to the land of pie and beans. Yet, within
+four days after leaving my home in South Carolina,
+I found myself among the hills and mountains of one
+of the eastern states, and I seemed to have landed
+<pb id="aleck149" n="149"/>
+in the very heat of the “pie belt,” as the following
+story will show.</p>
+        <p>Soon after my arrival I entered the services of a
+gentleman, and was assigned to duty at some distance
+from his residence. It was too far away for me
+to return to the house for dinner, so I was provided
+with an ample “dinner pail” which the cook
+arranged for me each morning before I left the
+house. The first day when I opened my pail at
+noon, I found some delicious bread and butter, a
+generous slice of cake, a piece of pie, and a bottle
+of rich milk. You may be sure I enjoyed this very
+much indeed. On the second day there were cake,
+bread, and pie, and on the third day pie, bread and
+cake.</p>
+        <p>Now, I had thought I was somewhat partial to
+pie, having been accustomed to an occasional bite
+of that delicacy at home, but this was “too much.”
+There were more than a dozen men engaged at the
+place, and I discovered that each one of them was as
+abundantly supplied with pie as myself. At this
+<pb id="aleck150" n="150"/>
+time there was a dear relative of mine engaged with
+the same family. She saw how things were going
+with me, and one night when I returned from work,
+she surprised me with a dish of rice and tomatoes
+cooked in southern style. It was a revelation to the
+cook to see rice served in this manner, but it must
+have been a far greater revelation to her to see how
+I devoured it. Soon my relative returned to her
+home in the south, and once more I found myself
+eating pie every day like a native.</p>
+        <p>The country was beautiful. It was in the famed
+Connecticut valley. The coloring of the landscape
+was all that could be desired, but there was a
+lamentable lack of color in the population. This, you
+must know, was utterly unbearable to any man from
+South Carolina, be he white or black, unless it be our
+senior senator. Therefore, I went to my employer
+and told him if the situation in this respect could
+not be changed, I could not remain in that part of
+the United States. “You see sir,” said I, “I have a
+wife and ten children, and ——.”</p>
+        <p>The gentleman leaped making a complete revolution
+<pb id="aleck151" n="151"/>
+in the air. “Ten children!” he exclaimed,
+“Where? What in the world!”</p>
+        <p>Here he seemed to recover his equilibrium. He
+had four or five children himself. I then explained
+to him that it was not my purpose to bring all of our
+children to Spring Lake, that there were ten
+children in our family, but five of them were at home,
+while the other five were doing well for themselves
+in another part of the States; that it was my intention
+to have my wife bring the five that were at
+home as far as New York, leave four of them there,
+and she and the youngest join me at Spring Lake
+for the present. This arrangement suited him,
+and he promptly handed me a check covering the
+amount of their passage.</p>
+        <p>Before leaving home I had arranged with my life
+that if I found my situation satisfactory, I would
+send for her, and that the arrangement for the children
+indicated above, would be carried out. Consequently,
+it was with a light heart I wrote as follows:—
+<q type="letter" direct="unspecified"><text><body><div1 type="letter"><opener><salute>“Dear H.</salute></opener><p>I enclose check for — dollars. Come on
+<pb id="aleck152" n="152"/>
+north. Leave Tom, Dick, Harry and Betsy
+Ann with G—— in New York, and you
+and Matilda Jane join me at Sorwind.</p><closer><signed>Your devoted husband.”</signed></closer></div1></body></text></q></p>
+        <p>But at the last moment our plans miscarried,
+and my wife found it necessary to bring all of the
+children with her.</p>
+        <p>The arrival of seven Afro-Americans created
+some excitement in the little town. I took my family
+to the Spring Lake Hotel and registered:—Mr. Sam
+Aleckson, wife and children, South Carolina. The
+next morning I explained the situation to my employer.
+He very readily, and with great kindness,
+placed at our disposal a neatly furnished cottage
+which he owned. How shall we ever thank the kind
+hearted Miss M—— who came personally to see
+that we were comfortably situated, and not in need
+of anything?</p>
+        <p>We began housekeeping under very favorable conditions.
+There was a large apple orchard around
+the house, and the children were as happy as larks.
+They had never before seen such an abundance of
+this delicious fruit. But our troubles were not yet
+<pb id="aleck153" n="153"/>
+over, as will hereafter appear.</p>
+        <p>We were quite comfortably situated. I had forgotten
+all about “pie,” and we had resumed our old
+bill-of-fare: hominy, meat, bread, and tea or coffee
+for breakfast; meat, rice, and some vegetable for
+dinner, and bread, butter and tea for supper. One
+day a kind neighbor stepped in to see my wife. “I
+have just finished baking,” she said, “I have made
+eight pies, a big pan of doughnuts, some cookies,
+and a cake. What kind of pie did you have for
+dinner?”</p>
+        <p>“Well er, oh, we didn't have any pie today.”</p>
+        <p>“Good land, Mrs. Aleckson! No pie? What do
+you give those children to eat? Why, why!”</p>
+        <p>When I got home I found my wife looking
+worried. “What's troubling you?” I asked.</p>
+        <p>“Pie,” she replied. Then she told me about the
+visit.</p>
+        <p>Next day I determined to consult a friend. After
+telling him my story he looked at me incredulously.
+“Well, now hain't you been having at least two kinds
+of pie every day right straight along?” he asked.</p>
+        <p>“Well no. You see er—er, um—” I began.</p>
+        <pb id="aleck154" n="154"/>
+        <p>“Gosh, man!” he interrupted, “If you were going to
+stay here you will have to do it.”</p>
+        <p>“Don't you think I might compromise on er say,
+one every other day?” I asked helplessly.</p>
+        <p>“No siree! They might let you off on one each
+day, but I am not sure of that.”</p>
+        <p>Again, kind friends came to the rescue on the next
+night. When we were about to retire, there was a
+loud rap on the door. Upon opening it I saw a large
+delegation of neighbors, headed by our good friend
+Mrs. B——. It was a surprise party, and they
+brought us material enough to make pies every day
+for two months!!!!</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck155" n="155"/>
+        <head>CHAPTER XVII</head>
+        <head>THE TOWN OF SPRINGLAKE</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Maud Miller on a Summer's Day.”</hi>
+          </p>
+        </epigraph>
+        <p>I FOUND myself enjoying remarkable prosperity
+among a kind and hospitable people, who in
+industry, thrift and economy were unsurpassed.</p>
+        <p>Near our house there was a large meadow very
+suggestive of “Maud Miller” and the “Judge.” The
+picture was heightened when I saw a buxom lass at
+work in the field. However, unlike Maud, she did
+not handle a rake. The raking is all done now by
+horse power. Instead she was provided with a fork
+which she wielded in “tumbling” with as much speed
+<pb id="aleck156" n="156"/>
+and dexterity as any of the men engaged in the
+work. She might, too, have proven an acquisition
+to the household of a judge, as I learned that she
+was a teacher of the higher branches in a high
+grade school, and only took this method during
+vacation to develop health and muscle. I felt sure
+if she had any rude boys in her class they would get
+the full benefit of it during the next school term.</p>
+        <p>The superiority of New England for houses
+cleaning and housekeeping is well known. In
+house cleaning they excel. This they go about
+with absolute devotion. The spring house cleaning
+is scarcely over with when that of Fall begins.
+Indeed they seem to go about the house continually
+with hair broom and dustpan in hand. When
+any stray particle of dust is found, they swoop
+down upon it like a hawk does on a chicken, and
+bear it away in triumph to the furnace.</p>
+        <p>Ours is a great country; great in extent as well as
+in achievement. But, while many hundreds of miles
+may separate one community from another, still,
+through the means of the press and general literature
+<pb id="aleck157" n="157"/>
+we can readily obtain intelligence of our most
+distant neighbors. It is remarkable though, notwithstanding
+these sources of information, how our
+opinions, formed from what we have read of those
+at a distance from us, are apt to be altered, or completely
+changed by actual contact. It is also surprising
+to what extent people speaking the same language,
+living under practically the same institutions,
+and forms of government, may differ in forms and
+customs. Here as elsewhere there are many
+peculiarities noticeable to the stranger.</p>
+        <p>Springlake is a historic old town. The public
+school system is perfect. This is a splendid public
+library which adds greatly to the educational
+advantages of the place. It boasts of several churches.
+All the people in Springlake go to church, but I
+found in traveling through the country, the same
+falling off in church attendance as is noticeable in
+other parts of the United States—especially among
+the men.</p>
+        <p>When I was a school boy, there was a picture in
+one of my books that represented a man and woman
+walking through the forest. The woman held a
+<pb id="aleck158" n="158"/>
+book in her hand, while the man carried a gun;
+presumably a safeguard against attacks of wild breasts
+or savages. Indeed if I remember rightly, there did
+appear the figure of an Indian peeping stealthily
+from behind a tree. The picture bore the title,
+“Going to Church in New England.” The date
+given was sometime in the early settlement of the
+country. There seemed to be deep snow on the
+ground.</p>
+        <p>The devotion evinced by people attending church
+under such unfavorable conditions attracted my
+wonder and admiration. This was, no doubt, a
+faithful representation of that period. But even in
+the Land of Puritans this good old custom of the
+fathers seems to be, “More honored in the breach
+then in the observance.”</p>
+        <p>Somehow mankind seems to require the scourge
+and the lash. The great religious revival in the far
+north was preceded by a distressing famine in that
+country. The earthquake in California set on foot
+a movement for the abolition of the saloon system.
+While similar distresses in other parts of this country
+<pb id="aleck159" n="159"/>
+have caused the “Lion and the Lamb” to lie down
+together, material prosperity seems to blind men's
+eyes, and they forget to “Praise God from whom
+all blessings flow.”</p>
+        <p>Strolling along one day I came upon a neat and
+substantial edifice. “What church is that?” I asked
+of an old man who lived nearby.</p>
+        <p>This ancient was more than eighty years of age.
+Obligingly he told me the name of the church. “You
+must have a large congregation.”</p>
+        <p>“No, the number of persons who attended this
+church when I was young and occupied places
+reserved for the choir, alone outnumbered the entire
+congregation that meet here now for worship at
+irregular intervals,” he answered sadly.</p>
+        <p>There was to be found however, many types of the
+“Village Preacher,”
+<q type="verse" direct="unspecified"><lg type="verse"><l>“A man he was to all the country dear,</l><l>And passing rich on forty pounds a year.”</l></lg></q>
+for I fell sick, and such a person with his good wife
+drove six miles, through a snowstorm to bring me
+words of hope and consolation. In common with
+<pb id="aleck160" n="160"/>
+those in other parts of our beautiful land, there are
+many who hope and pray for, and confidently look
+forward to a great religious revival. To that end let
+all join, at least reverently in spirit, in the old
+plantation hymn:—
+<q type="verse" direct="unspecified"><lg type="verse"><l>“Gib me dat old time religion</l><l>For 'tis good een de time ob trouble,</l><l>'Tis good wen de doctah gib me ober</l><l>'Tis good enuf fer me.”</l></lg></q></p>
+        <p>It was summer when I arrived in Springlake, but
+as I remarked before, summer does not linger here.
+It was soon haying-time; a very busy season of the
+year. They had hardly gotten the last load from
+the meadow before the snow came! The snow seemed
+beautiful—nay, 'tis beautiful. To get the full
+effects of its beauty you should be in a nice warm
+room looking out at it through double panes of
+glass. For, if you have to shovel a half mile through
+snow three feet deep, you are apt, if you are not a
+very temperate man, to find yourself using strong
+and uncomplimentary terms in reference to the poets
+who sing of its loveliness.</p>
+        <pb id="aleck161" n="161"/>
+        <p>It was my duty to shovel snow; I who had never
+seen snow more than two or three times in my life
+before, and at that only an inch or two thick. I
+had to run the furnace, too. This latter was more
+to my liking. One day I was sent on an errand
+during a snowstorm. My way lay down grade, but
+I went heedlessly on chanting gayly, “Where the
+snowflakes fall thickest, nothing can freeze.”</p>
+        <p>I had begun to have some misgivings though, for
+while the flakes were falling thick and fast, I was
+already half frozen. Some minutes later I knew nothing
+at all, for down I went, striking my head against
+a rock. The little Eva of the household was playing
+out in the storm with the thermometer about twenty
+degrees below zero, just as happy as are South
+Carolinian children when they go out gathering <sic corr="jasmines">jasmins</sic>
+in May. She ran to my assistance, helped me
+to rise, and led me back to the house. I was stunned
+and dazed.</p>
+        <p>When I regained consciousness they were bathing
+an ugly cut on my head, from which the blood
+<pb id="aleck162" n="162"/>
+poured profusely. I had relied on Mr. Holmes. I
+knew he was a humorist, but I confess I had taken
+him seriously. It cost me about half a gallon of
+good warm southern blood to discover that he was
+only joking, for frequently under a very heavy covering
+of snow, there is a bed of ice as smooth as
+glass. This is put there by the intelligent New Englander
+to impart that glad movement to his sleigh,
+which is so entrancing when he goes out driving with
+his best girl.</p>
+        <p>One day when it was very slippery the laundress
+went out to the clothesline. She was in danger of
+falling. The chivalry of South Carolina was upon
+me. I rushed to her assistance, and down I went at
+her feet. I was in a splendid position to propose,
+but being already married I refrained. “Arise
+brave knight,” said the lady, “They at the castle
+doth laugh at us.”</p>
+        <p>My employer was an energetic man. He had built
+a house on a rock;—rather on the place where a
+rock used to be. “How are you ever going to build
+<pb id="aleck163" n="163"/>
+a house on that rock?” he was once asked.
+Napoleon like—he answered, “There shall be no rock,”
+and straightaway began blasting. The result was,
+a palatial mansion that towers above the surrounding
+houses, as the owner does above ordinary men in
+energy and determination. Such a man as he had
+no time to waste on a “tenderfoot” from South
+Carolina, therefore, “When the gentle springtime
+came” he told me I had better return to the sunny
+south; offering very kindly to arrange for my return
+passage. But, like the noble Frenchman, I said,
+“Here I am and here I stay.” That is, I declined
+his offer with thanks.</p>
+        <p>“What are you going to do?” he asked.</p>
+        <p>“Work sir,” I replied.</p>
+        <p>He looked at me with an incredulous smile. There
+was one however, whose kindness I shall never forget.
+One who had not altogether lost confidence in
+me, and through whose kind intercession I obtained
+another situation. By this time I had become “inoculated,”
+and was able to give entire satisfaction
+<pb id="aleck164" n="164"/>
+to my employers, who were also very kind gentlemen.</p>
+        <p>The little town of Springlake (you won't find it
+on a map, for it is hidden away between high mountains),
+is a most beautiful and a typical New England
+settlement. Nature has done wonders to
+beautify the place. Some one has said the Garden
+of Eden was in the United States. If it were not for the
+fact that the mercury frequently falls to forty
+degrees below zero, and that the summer passes like
+a “watch in the night,” I would be inclined to believe
+that this is the place.</p>
+        <p>The people of Springlake—well, they are New
+England people; and that is all that need be said.
+The women are of course, better than the men, as is
+the case all over the world.</p>
+      </div1>
+      <div1 type="chapter">
+        <pb id="aleck165" n="165"/>
+        <head>CHAPTER XVIII</head>
+        <head>WRONG IMPRESSIONS</head>
+        <epigraph>
+          <p>
+            <hi rend="italics">“Twix Twiddledum and Twiddledee.”</hi>
+          </p>
+        </epigraph>
+        <p>In many parts of New England a very erroneous
+impression prevails regarding the attitude of the
+white people; I mean the white people of the south
+toward the Negro. The general idea seems to be
+that the average southern white man sallies forth
+every morning with a bowie knife between his teeth,
+and the first Negro he meets, proceeds to lay him
+<pb id="aleck166" n="166"/>
+open in the back, broil him on a bed of hot coals
+and thus whet his appetite for breakfast. I found
+too, that this impression is largely the result of the
+thoughtless and altogether unnecessary talk of many
+southerners visiting the North, who seem to feel it
+<sic corr="incumbent">encumbent</sic> on them to disavow the very friendly relations
+that exist between these two races in many
+parts of the South, by expressions of indifference,
+and intolerance, that in many instances are never
+manifested at home. The northerners do not understand
+that these expressions are only meant in a
+sort of “Pickwickian” sense; hence the error.</p>
+        <p>There is a northern family, a branch of which
+lives in Dixie, who, before the war were large owners
+of slaves. Some years after the war, a member of
+the southern branch visited relatives in the North.
+In answer to one of the children as to how their
+slaves had been treated he replied, “Oh we treated
+them about the same as we did our horses and
+mules.”</p>
+        <pb id="aleck167" n="167"/>
+        <p>Such expressions do no possible good, and are frequently
+productive of harm. As a matter of fact,
+the southern family was noted for the very humane
+manner in which they treated their slaves, and some
+of those servants as well as the descendents of
+others, are in the service of the family at this very
+day.</p>
+        <p>Again the little girl who had asked this question
+was asked by one of the servants, how she liked her
+southern relative. “Not one bit,” she replied, “I
+can never like any one who speaks of treating people
+like cattle.”</p>
+        <p>“My father once shot ten of his slaves. Yes sir,
+shot them down in their tracks because he thought
+they were planning to run away!” and the young
+“Munchausen” from the South, looked around with
+an air of superiority on the Yankee youths to whom
+he was speaking.</p>
+        <p>Somehow the impression has gotten abroad that
+the ordinary form used by the southern white people
+<pb id="aleck168" n="168"/>
+in addressing a Negro is “nigger.” Now, it is
+well known that this term is never used by the better
+class, for, “Though I be a native here and to the
+manner born,” I can truthfully say I have never, in
+a lifetime of fifty years, once had the term applied
+to me personality; and curiously enough, the only
+time I ever was offended by it happened in the North.
+(This of course, was not at Springlake). At this
+time I was employed at a large store in the country
+town. One day a farmer came into the store. Now
+when I was a little boy a kind lady school teacher
+from New England had given me a little book that
+contained the picture of the Yankee Overseer on a
+southern plantation, “Who down in the South became
+whipper of slaves.” Upon seeking this farmer
+I thought that picture must have been taken from
+life, for he bore such a remarkable likeness to it.</p>
+        <p>“Whar's your nigger?” he asked, speaking to one
+of the clerks, “I got some pertaters I want him to
+help unload.”</p>
+        <pb id="aleck169" n="169"/>
+        <p>I had a good place, but I made up my mind that
+before I gave him any assistance, I would throw up
+the job. Therefore I went on with my work, and he
+got his load off without any help from me.</p>
+        <p>The term “nigger” is a much controverted one.
+There is not the slightest doubt that it is offensive
+to all intelligent, self-respecting Negroes, and is
+never used by them. This term like any other, without
+regard to their significance or lack of significance,
+becomes offensive when applied in derision.
+And, as has been the case with many other terms,
+thus applied will lose its offensiveness in proportion,
+as the object it shall secure the respect of those by
+whom it is applied.</p>
+        <p>I can not tell of all I saw and of all I learned in
+New England: of industry, of economy, of thrift,
+of wealth, of charity. It is a goodly land, and yet,
+<q type="verse" direct="unspecified"><lg type="verse"><l>“I love the land where the cotton plant grows,</l><l>The land where there is no ice.</l><l>I love the land where the jasmine blows</l><l>I love the land of rice.”</l></lg></q>
+<pb id="aleck170" n="170"/>
+Both north and south, ours is a great land, and we
+are justly proud of it. I say “we” and “ours” for
+I know not what else to say. When I am in the
+South I feel at home, and as I gaze on the high hills
+and lofty mountains of New England, I feel as ready
+to sing, “My country 'tis of thee—” as any man in
+America, for notwithstanding the untoward conditions
+surrounding my people in many parts of this
+land, the heart of the Negro is loyal.</p>
+        <p>“Send him away,” say some. “God forbid it!” say
+I. But, if that sad day should ever come, let the
+Negro fold his arms. The great fear is that this
+people are looking in one direction while going in
+another. The danger is that they may run against
+a wall.</p>
+        <p>The financial, the labor, the agricultural, and even
+the “servant girl” problems have been discussed pro
+and con very thoroughly. This is one problem,
+however, that does not seem to receive the attention
+its gravity demands.</p>
+        <pb id="aleck171" n="171"/>
+        <p>Divorces have reached an alarming proportion in
+some parts of the United States. It is noteworthy
+that they so frequently occur where the sexes appear
+to possess in even measures, those qualities that
+would seem to make them of mutual assistance to
+each other, and where similar educational advantages
+should render them mutually agreeable.</p>
+        <p>The separations too, are often sought on grounds
+which look ridiculously inadequate. For instance;
+Because breakfast was not ready promptly at fifty-seven
+minutes after six o'clock, on the one side, or
+some equally grave offense on the other side. Were
+I called upon to say what, in my judgement, are the
+strongest forces at work to <sic corr="undermine">undermind</sic> the foundation
+of this great Republic, I should name, lynching and divorce.</p>
+        <p>I for one, have no fear for the ultimate fate of
+the Negro. My fears are for the American nation,
+for, I feel as an American, and cannot feel otherwise.</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

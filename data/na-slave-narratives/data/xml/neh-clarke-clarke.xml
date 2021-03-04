@@ -1,0 +1,3307 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY clark75 SYSTEM "clark75.jpg" NDATA jpeg>
+<!ENTITY clarktp SYSTEM "clarktp.jpg" NDATA jpeg>
+<!ENTITY clarkvs SYSTEM "clarkvs.jpg" NDATA jpeg>
+<!ENTITY clarkfp SYSTEM "clarkfp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="TEI.2" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Narrative of the Sufferings of Lewis Clarke, 
+During a Captivity of More Than Twenty-Five Years, Among the Algerines of Kentucky, 
+One of the <sic>So Called</sic> Christian States of America.  Dictated by Himself:</emph>
+Electronic Edition.</title>
+        <author>Lewis Garrard Clarke, 1812-1897</author>
+        <funder>Funding from the National Endowment for the Humanities supported 
+the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by </resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Chris Hill and Kevin O'Kelly</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Kevin O'Kelly  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.    200 K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of availability 
+is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number T E444 .C59    
+(Treasure Room Collection, James E. Shepard Memorial Library, North 
+Carolina Central University)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Narrative of the Sufferings of Lewis Clarke, During 
+a Captivity of More Than Twenty-Five Years, Among the Algerines 
+of Kentucky, One of the So-Called Christian States of America.  
+Dictated by Himself.</title>
+          <author>Lewis Clarke</author>
+          <imprint>
+            <pubPlace>Boston:</pubPlace>
+            <publisher>David H. Ela, Printer, At 
+the Stone Steps, 37 Cornhill.</publisher>
+            <date>1845.</date>
+          </imprint>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>James E. Shepard Memorial Library, North Carolina Central University, 
+provided the text for the electronic publication of
+          this title.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="lat" lang="lat">Latin</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Clarke, Lewis Garrard, 1812-1897.</item>
+            <item>African Americans -- Kentucky -- Biography.</item>
+            <item>Slaves -- Kentucky -- Biography.</item>
+            <item>Fugitive slaves -- Kentucky -- Biography.</item>
+            <item>Slavery -- Kentucky -- History -- 19th century.</item>
+            <item>Plantation life -- Kentucky -- History -- 19th
+century.</item>
+            <item>Slaves' writings, American -- Kentucky.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-02-16, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther</name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-08-31, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-08-29, </date>
+        <respStmt>
+          <name>Kevin O'Kelley</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-08-02, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="clarkfp">
+            <p>Lewis Clarke<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="clarktp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page verso image">
+        <p>
+          <figure id="verso" entity="clarkvs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">NARRATIVE
+<lb/>OF THE
+<lb/>SUFFERINGS OF LEWIS CLARKE,
+<lb/>DURING A
+<lb/>CAPTIVITY
+<lb/>
+OF MORE THAN TWENTY-FIVE YEARS,
+<lb/>
+AMONG THE
+<lb/>
+ALGERINES OF KENTUCKY,
+<lb/>ONE OF THE SO CALLED<lb/>
+CHRISTIAN STATES OF NORTH AMERICA.
+<lb/>
+DICTATED BY HIMSELF.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>BOSTON:</pubPlace>
+<publisher>DAVID H. ELA, PRINTER,<lb/>
+AT THE STONE STEPS, 37 CORNHILL.</publisher>
+<docDate>1845.</docDate></docImprint>
+        <docImprint><docDate>Entered according to Act of Congress, in the year 1845,<lb/>
+BY LEWIS CLARKE,</docDate>In the Clerk's Office of the District Court of the District of Massachusetts.</docImprint>
+      </titlePage>
+      <div1>
+        <pb id="clarkv" n="v"/>
+        <head>PREFACE.</head>
+        <p>I FIRST became acquainted with LEWIS CLARKE in December,
+1842. I well remember the deep impression made upon my
+mind on hearing his Narrative from his own lips. It gave me a
+new and more vivid impression of the wrongs of Slavery than I
+had ever before felt. Evidently a person of good native talents
+and of deep sensibilities, such a mind had been under the dark
+cloud of slavery for more than twenty-five years. Letters, reading,
+all the modes of thought awakened by them, had been utterly
+hid from his eyes; and yet his mind had evidently been active,
+and trains of thought were flowing through it, which he was utterly
+unable to express. I well remember too the wave on wave
+of deep feeling excited in an audience of more than a thousand
+persons, at Hallowell, Me., as they listened to his story and looked
+upon his energetic and manly countenance, and wondered if
+the dark cloud of slavery could cover up—hide from the world,
+and degrade to the condition of brutes, such immortal minds.
+His story, there and wherever since told, has aroused the most
+utter abhorrence of the Slave System.</p>
+        <pb id="clarkvi" n="vi"/>
+        <p>For the two last years, I have had the most ample opportunity of
+becoming acquainted with Mr. Clarke. He has made this
+place his home, when not engaged in giving to public audiences
+the story of his sufferings, and the sufferings of his fellow slaves.
+Soon after he came to Ohio, by the faithful instruction of pious
+friends, he was led, as he believes, to see himself a sinner before
+God, and to seek pardon and forgiveness through the precious
+blood of the Lamb. He has ever manifested an ardent thirst for
+religious, as well as for other kinds of knowledge. In the opinion
+of all those best acquainted with him, he has maintained the
+character of a sincere Christian. That he is what he professes
+to be,—a slave escaped from the grasp of avarice and power,—
+there is not the least shadow of doubt. His narrative bears the
+most conclusive internal evidence of its truth. Persons of discriminating
+minds have heard it repeatedly, under a great variety
+of circumstances, and the story, in all substantial respects, has
+been always the same. He has been repeatedly recognized in
+the Free States by persons who knew him in Kentucky, when a
+slave. During the summer of 1844, Cassius M. Clay visited
+Boston, and on seeing Milton Clarke, recognized him as one of
+the Clarke family, well known to him in Kentucky. Indeed,
+nothing can be more surely established than the fact that Lewis
+and Milton Clarke are no impostors. For three years they have
+been engaged in telling their story in seven or eight different
+States, and no one has appeared to make an attempt to contradict
+them. The capture of Milton in Ohio, by the kidnappers,
+as a slave, makes assurance doubly strong. Wherever they
+have told their story, large audiences have collected, and everywhere
+<pb id="clarkvii" n="vii"/>
+they have been listened to with great interest and satisfaction.</p>
+        <p>Cyrus is fully equal to either of the brothers in sprightliness of
+mind—is withal a great wit, and would make an admirable lecturer,
+but for an unfortunate impediment in his speech. They
+all feel deeply the wrongs they have suffered, and are by no
+means forgetful of their brethren in <hi rend="italics">bonds.</hi>When Lewis first came to this place, he was frequently noticed in silent and deep
+meditation. On being asked what he was thinking of, he would
+reply, “O, of the poor slaves! Here I am free, and they suffering
+<hi rend="italics">so much.</hi>”Bitter tears are often seen coursing down his
+manly cheeks, as he recurs to the scenes of his early suffering.
+Many persons, who have heard him lecture, have expressed a
+strong desire that his story might <sic corr="be">he</sic> recorded in a connected
+form. He has therefore concluded to have it printed. He was
+anxious to add facts from other witnesses, and some appeals
+from other hearts, if by any means he might awaken more hearts
+to feel for his downtrodden brethren. Nothing seems to grieve
+him to the heart like finding a minister of the Gospel, or a
+professed Christian, indifferent to the condition of the slave. As to
+doing much for the instruction of the minds of the slaves, or for
+the salvation of their souls, till they are EMANCIPATED,<hi rend="italics"> restored</hi>
+to the rights of men, in his opinion it is utterly impossible.</p>
+        <p>When the master, or his representative, the man who justifies
+slaveholding, comes with the whip in one hand and the Bible in the
+other, the slave says, at least in his heart, lay down <hi rend="italics">one</hi> or the <hi rend="italics">other.</hi>
+Either make the tree good and the fruit good, or else both corrupt
+together. Slaves do not believe that THE RELIGION
+<pb id="clarkviii" n="viii"/>
+which is from God, bears <hi rend="italics">whips and chains.</hi> They ask
+emphatically concerning their FATHER in Heaven,
+<q direct="unspecified"><lg type="verse"><l>“Has HE bid you buy and sell us,</l><l>Speaking from his throne, the sky.”</l></lg></q></p>
+        <p>For the facts contained in the following Narrative, Mr. Clarke is of
+course alone responsible. Yet having had the most ample
+opportunities for testing his accuracy, I do not hesitate to say, that I
+have not a shadow of doubt, but in all material points every word is
+true. Much of it is in his own language, and all of it according to his
+own dictation.</p>
+        <closer><signed>J. C. LOVEJOY.</signed>
+<hi rend="italics">Cambridgeport, April,</hi> 1845.</closer>
+      </div1>
+    </front>
+    <body>
+      <pb id="clark9" n="9"/>
+      <div1 type="narrative">
+        <head>NARRATIVE OF LEWIS CLARKE.</head>
+        <p>I WAS born in March, as near as I can ascertain, in the year
+1815, in Madison County, Kentucky, about seven miles from
+Richmond, upon the plantation of my grandfather, Samuel
+Campbell. He was considered a very respectable man among
+his fellow robbers— the slaveholders. It did not render him less
+honorable in their eyes, that he took to his bed Mary, his slave,
+perhaps half white, by whom he had one daughter,— LETITIA
+CAMPBELL. This was before his marriage.</p>
+        <p>My Father was from “beyond the flood”— from Scotland,
+and by trade a weaver. He had been married in his own country,
+and lost his wife, who left to him, as I have been told, two sons.
+He came to this country in time to be in the earliest scenes of
+the American Revolution. He was at the Battle of Bunker Hill,
+and continued in the army to the close of the war. About the
+year 1800, or before, he came to Kentucky, and married Miss
+Letitia Campbell, then held as a slave by her<hi rend="italics"> dear</hi> and
+<hi rend="italics">affectionate</hi> father. My father died, as near as I can recollect,
+when I was about ten or twelve years of age. He had received a
+wound in the war which made him lame as
+<pb id="clark10" n="10"/>
+long as he lived. I have often heard him tell of Scotland, sing the
+merry songs of his native land, and long to see its hills once
+more.</p>
+        <p>Mr. Campbell promised my father that his daughter
+Letitia should be made free in his will. It was with this
+promise that he married her. and I have no doubt that Mr.
+Campbell was as good as his word, and that by his <hi rend="italics">will,</hi>
+my mother and her nine children were made free. But ten
+persons in one family, each worth three hundred dollars,
+are not easily set free among those accustomed to live by
+continued robbery. We did not, therefore, by an instrument
+from the hand of the dead, escape the avaricious
+grab of the slaveholder. It is the common belief that the
+will was destroyed by the heirs of Mr. Campbell.</p>
+        <p>The night in which I was born, I have been told, was
+dark and terrible, black as the night for which Job prayed,
+when he besought the clouds to pitch their tent round
+about the place of his birth; and my life of slavery was
+but too exactly prefigured by the stormy elements that
+hovered over the first hour of my being. It was with
+great difficulty that any one could be urged out for a
+necessary attendant for my mother. At length one of the
+sons of Mr. Campbell, William, by the promise from his
+mother of the child that should be born, was induced to
+make an effort to obtain the necessary assistance. By
+going five or six miles he obtained a female professor of
+the couch.</p>
+        <p>William Campbell, by virtue of this title, always
+claimed me as his property. And well would it have
+been for me, if this claim had been regarded. At the age
+of six or seven years I fell into the hands of his sister,
+Mrs. Betsey Banton, whose character will be best known
+<pb id="clarke11" n="11"/>
+when I have told the horrid wrongs which she heaped upon me
+for ten years. If there are any <hi rend="italics">she</hi> spirits that come up from hell,
+and take possession of one part of mankind, I am sure she is one
+of that sort. I was consigned to her under the following
+circumstances: When she was married, there was given her, as
+part of her dower, as is common among the Algerines of
+Kentucky, a <hi rend="italics">girl</hi> by the name of Ruth, about fourteen or fifteen
+years old. In a short time Ruth was dejected and injured,
+by beating and abuse of different kinds, so that she was
+sold for a half-fool to the more tender mercies of the sugar
+planter in Louisiana. The amiable Mrs. Betsey obtained then,
+on loan from her parents, another slave named Phillis. In six
+months she had suffered so severely under the hand of this
+monster woman, that she made an attempt to kill herself, and was
+taken home by the parents of Mrs. Banton. This produced a regular
+slave-holding family brawl—a regular war of <hi rend="italics">four</hi> years, between
+the <hi rend="italics">mild</hi> and peaceable Mrs. B. and her own parents. These wars
+are very common among the Algerines in Kentucky; indeed,
+slave-holders have not arrived at that degree of civilization that
+enables them to live in tolerable peace, though united by the
+nearest family ties. In them is fulfilled what I have heard read in
+the Bible: The father is against the son, and the daughter-in-law
+against the mother-in-law, and their <hi rend="italics">foes</hi> are of their own
+household. Some of the slaveholders may have a <hi rend="italics">wide</hi> house;
+but one of the <hi rend="italics">cat-handed,</hi> snake-eyed, brawling women, which
+slavery produces, can fill it from cellar to garret. I have heard
+every place I could get into any way, ring with their screech-owl
+voices. Of all the animals on the face of this earth, I am most
+afraid of a real mad, passionate,
+<pb id="clarke12" n="12"/>
+raving, slaveholding woman. Some body told me once, that
+Edmund Burke declared, that the natives of India fled to the
+jungles, among tigers and lions, to escape the more barbarous
+cruelty of Warren Hastings. I am sure I would sooner lie down
+to sleep by the side of tigers, than near a raging-mad slave
+woman. But I must go back to <hi rend="italics">sweet</hi> Mrs. Banton. I have been
+describing her in the <hi rend="italics">abstract;</hi>—I will give a full-grown portrait
+of her, right away. For four years after the trouble about Phillis,
+she never came near her father's house. At the end of this
+period another of the amiable sisters was to be married, and
+sister Betsey could not repress the tide of curiosity, urging her
+to be present at the nuptial ceremonies. Beside, she had
+another motive. Either shrewdly suspecting that she might
+deserve less than any member of the family, or that some
+ungrounded partiality would be manifested toward her sister,
+she determined at all hazards to be present, and see that the
+scales which weighed out the children of the plantation should
+be held with even hand. The wedding day was appointed—the
+sons and daughters of this joyful occasion were gathered
+together, and then came also the fair-faced, but black-hearted
+Mrs. B. Satan among the Sons of God was never less welcome,
+than this fury among her kindred. They all knew what she came
+for,—to make mischief if possible. “Well now, if there aint
+Bets,” exclaimed the old lady. The father was moody and
+silent, knowing that she inherited largely of the disposition of
+her mother; but he had experienced too many of her retorts of
+courtesy to say as much, for dear experience had taught him
+the discretion of silence. The brothers smiled at the prospect of
+fun and frolick, the sisters trembled for fear, and word flew
+round among the
+<pb id="clarke13" n="13"/>
+slaves, “The old she-bear has come home! look out! look out!”</p>
+        <p>The wedding went forward. Polly, a very good sort of a girl
+to be raised in that region, was married, and received, as the
+first installment of her dower, a <hi rend="italics">girl</hi> and a <hi rend="italics">boy. </hi>Now was the
+time for Mrs. Banton, sweet good Mrs. Banton. “Poll has a girl
+and a <hi rend="italics">boy,</hi> and I only had that fool of a girl ; I reckon if I go
+home without a boy too, this house wont be left standing.”</p>
+        <p>This was said, too, while the sugar of the wedding cake was
+yet melting upon her tongue ; how the bitter words would flow
+when the guests had retired, all began to imagine. To arrest
+this whirlwind of rising passion, her mother promised any boy
+upon the plantation, to be taken home on her return. Now my
+evil star was right in the top of the sky. Every boy was ordered in,
+to pass before this female sorceress, that she might select a
+victim for her unprovoked malice, and on whom to pour the
+vials of her wrath for years. I was that unlucky fellow.
+Mr. Campbell, my grandfather, objected, because it would divide
+a family, and offered her Moses, whose father and mother had
+been sold South. Mrs. Campbell put in for William's claim,
+dated <foreign lang="lat"><hi rend="italics">ante-natum</hi></foreign>—before I was born ; but objections and
+claims of every kind were swept away by the wild passion and
+shrill-toned voice of Mrs. B. Me she would have, and none else.
+Mr. Campbell went out to hunt and drive away bad thoughts—  
+the old lady became quiet, for she was sure none of her blood
+run in my veins, and if there was any of her husband's there,
+it was no fault of hers. I was too young, only seven years of age,
+to understand what was going on. But my poor and affectionate
+mother understood and appreciated it all. When
+<pb id="clarke14" n="14"/>
+she left the kitchen of the Mansion House, where she was
+employed as cook, and came home to her own little cottage, the
+tear of anguish was in her eye, and the image of sorrow upon
+every feature of her face. She knew the female Nero, whose rod
+was now to be over me. That night sleep departed from her
+eyes; with the youngest child clasped firmly to her bosom, she
+spent the night in walking the floor, coming ever and anon to
+lift up the clothes and look at me and my poor brother who lay
+sleeping together. <hi rend="italics">Sleeping,</hi> I said ; brother slept, but not I. I
+saw my mother when she first came to me; and I could not
+sleep. The vision of that night, its deep, ineffaceable impression
+is now before my mind with all the distinctness of yesterday. In
+the morning I was put into the carriage with Mrs. B. and her
+children, and my weary pilgrimage of suffering was fairly
+begun. It was her business on the road for about twenty five or
+thirty miles to initiate her children into the art of tormenting
+their new victim. I was seated upon the bottom of the carriage,
+and these little imps were employed in pinching me, pulling my
+ears and hair, and they were stirred up by their mother like a
+litter of young wolves to torment me in every way possible. In
+the mean time I was compelled by the old she wolf, to call them
+“Master,” “Mistress,” and bow to them and obey them at the
+first call.</p>
+        <p>During that day, I had indeed no very agreeable foreboding
+of the torments to come; but sad as were my anticipations, the
+reality was infinitely beyond them. Infinitely more bitter than
+death were the cruelties I experienced at the hand of this
+merciless woman. Save from one or two slaves on the
+plantation, during my ten years of captivity here, I scarcely
+heard a kind word, or saw a smile
+<pb id="clarke15" n="15"/>
+toward me from any living being. And now that I am
+where people look kind and act kindly toward me, it seems like a
+dream. I hardly seem to be in the same world that I was then.
+When I first got into the free States and saw everybody look
+like they loved one another, sure enough I thought this must
+be the “<hi rend="italics">Heaven</hi>” of LOVE I had heard something about. But I
+must go back to what I suffered from that wicked woman. It is
+hard work to keep the mind upon it; I hate to think it over— but
+I must tell it— the world must know what is done in Kentucky.
+I cannot, however, tell all the ways, by which she tormented me,
+I can only give a few instances of my suffering as specimens of
+the whole. A book of a thousand pages would not be large enough
+to tell of all the tears I shed, and the sufferings endured in THAT
+TEN YEARS OF PURGATORY.</p>
+        <p>A very trivial offence was sufficient to call forth a great burst
+of indignation from this woman of ungoverned passions. In my
+simplicity, I put my lips to the same vessel and drank out of it 
+from which her children were accustomed to drink. She
+expressed her utter abhorrence of such an act, by throwing my
+head violently back, and dashing into my face two dippers of water.
+The shower of water was followed by a heavier shower of <hi rend="italics">kicks</hi>—yes, delicate reader, this <hi rend="italics">lady</hi> did not hesitate to <hi rend="italics">kick,</hi> as well as
+cuff in a very plentiful manner— but the words bitter and cutting
+that followed were like a storm of hail upon my young heart. “She
+would teach me better manners than that—she would let me know
+I was to be brought up to her hand—she would have <hi rend="italics">one</hi> slave
+that knew his place; if I wanted water, go to the spring, and not
+drink there in the house.” This was new times for me— for
+<pb n="16"/>
+some days I was completely benumbed with my sorrow. I could
+neither eat nor sleep. If there is any human being on earth, who
+has been so blessed as never to have <hi rend="italics">tasted</hi> the cup of sorrow,
+and therefore is unable to conceive of <hi rend="italics">suffering,</hi>
+if there be one so lost to all feeling as even to say that the
+slaves do not suffer, when <hi rend="italics">families</hi> are separated, let such an
+one go to the ragged quilt which was my couch and pillow and
+stand there night after night, for long weary hours, and see the
+bitter tears streaming down the face of that more than orphan
+boy, while with half suppressed sighs and sobs, he calls again
+and again upon his absent mother.
+<q direct="unspecified"><lg type="verse"><l>“Say, Mother, wast thou conscious of the tears I shed,—</l><l>Hovered thy spirit o'er thy sorrowing son?</l><l>Wretch even <hi rend="italics">then!</hi> Life's journey just begun.”</l></lg></q>
+Let him stand by that couch of bitter sorrow through the
+terribly lonely night, and then wring out the wet end of those
+rags, and see how many tears yet remain, after the burning
+temples had absorbed all they could. He will not doubt, he
+cannot doubt but the slave has feeling. But I find myself
+running away again from Mrs. Banton—and I don't much
+wonder neither.</p>
+        <p>There were several children in the family, and my first main
+business was to wait upon them. Another young slave and
+myself have often been compelled to sit up by turns all night,
+to rock the cradle of a little, peevish scion of slavery. If the
+cradle was stopped, the moment they awoke a dolorous cry
+was sent forth to mother or father, that Lewis had gone to
+sleep. The reply to this call, would be a direction from the
+mother, for these petty tyrants to get up and take the whip, and
+give the good-for-nothing
+<pb id="clarke17" n="17"/>
+scoundrel a smart whipping. This was the midnight
+pastime of a child ten or twelve years old. What might you
+expect of the future man?</p>
+        <p>There were four house-slaves in this family, including
+myself, and though we had not, in all respects, so hard
+work as the field hands, yet in many things our condition
+was much worse. We were constantly exposed to the
+whims and passions of every member of the family; from
+the least to the greatest their anger was wreaked upon us.
+Nor was our life an easy one, in the hours of our toil or in
+the amount of labor performed. We were always required
+to sit up until all the family had retired; then we must be
+up at early dawn in summer, and before day in winter.
+If we failed, through weariness or for any other reason, to
+appear at the first morning summons, we were sure to have
+our hearing quickened by a severe chastisement. Such
+horror has seized me, lest I might not hear the first shrill call,
+that I have often in dreams fancied I heard that unwelcome call,
+and have leaped from my couch and walked through the house
+and out of it before I awoke. I have gone and called the other
+slaves, in my sleep, and asked them if they did not hear
+master call. Never, while I live, will the remembrance of
+those long, bitter nights of fear pass from my mind.</p>
+        <p>But I want to give you a few specimens of the abuse which I
+received. During the ten years that I lived with Mrs. Banton, I
+do not think there were as many days, when she was at home,
+that I, or some other slave, did not receive some kind of
+beating or abuse at her hands. It seemed as though she could
+not live nor sleep unless some poor back was smarting,
+some head beating with pain, or some eye filled with tears,
+around her. Her tender mercies
+<pb n="18"/>
+were indeed cruel. She brought up her children to imitate
+her example. Two of them manifested some dislike to the
+cruelties taught them by their mother, but they never stood
+high in favor with her; indeed, any thing like humanity or
+kindness to a slave, was looked upon by her as a great offence.</p>
+        <p>Her instruments of torture were ordinarily the raw hide, or a
+bunch of hickory-sprouts seasoned in the fire and tied
+together. But if these were not at hand, nothing came amiss.
+She could relish a beating with a chair, the broom, tongs,
+shovel, shears, knife-handle, the heavy heel of her slipper ; her
+zeal was so active in these barbarous inflictions, that her
+invention was wonderfully quick, and some way of inflicting
+the requisite torture was soon found out.</p>
+        <p>One instrument of torture is worthy of particular description.
+<hi rend="italics">This was an oak club, a foot and a half in length and an inch
+and a half square.</hi> With this delicate weapon she would beat
+us upon the hands and upon the feet until they were blistered.
+This instrument was carefully preserved for a period of four
+years. Every day, for that time, I was compelled to see that
+hated tool of cruelty lying in the chair by my side. The least
+degree of delinquency either in not doing all the appointed
+work, or in look or behavior, was visited with a beating from
+this oak club. That club will always be a prominent object in the
+picture of horrors of my life of more than twenty years of bitter
+bondage.</p>
+        <p>When about nine years old I was sent in the evening to
+catch and kill a turkey. They were securely sleeping in a tree— 
+their accustomed resting place for the night. I approached as
+cautiously as possible, selected the victim I was directed to
+catch, but just as I grasped him in my
+<pb id="clarke19" n="19"/>
+hand, my foot slipped and he made his escape from the tree and
+fled beyond my reach. I returned with a heavy heart to my
+mistress with the story of my misfortune. She was enraged
+beyond measure. She determined at once that I should have a
+whipping of the worst kind, and she was bent upon adding all
+the aggravations possible. Master had gone to bed drunk., and
+was now as fast asleep as drunkards ever are. At any rate he
+was filling the house with the noise of his snoring and with the
+perfume of his breath. I was ordered to go and call him— wake
+him up—and ask him to be <hi rend="italics">kind</hi> enough to give me fifty good
+smart lashes. To be <hi rend="italics">whipped</hi> is bad enough— to <hi rend="italics">ask</hi> for it is
+worse— to ask a drunken man to whip you is too bad. I would
+sooner have gone to a nest of rattlesnakes, than to the bed of
+this drunkard. But go I must. Softly I crept along, and gently
+shaking his arm, said with a trembling voice, “Master, Master,
+Mistress wants you to wake up.” This did not go the extent of
+her command, and in a great fury she called out—“What, you
+wont ask him to whip you, will you?” I then added
+“Mistress wants you to give me fifty lashes.” A bear at
+the smell of a lamb, was  never roused quicker. “Yes,
+yes, that I will; I'll give you such a whipping as you will
+never want again.” And sure enough so he did. He sprang
+from the bed, seized me by the hair, lashed me with a handful
+of switches, threw me my whole length upon the floor,
+beat, kicked and cuffed me worse than he would a dog, and
+then threw me, with all his strength out of the door more
+dead than alive. There I lay for a long time scarcely able
+and not daring to move, till I could hear no sound of the
+furies within, and then crept to my couch, longing for
+death to put an end to my misery. I had no friend in the
+<pb id="clarke20" n="20"/>
+world to whom I could utter one word of complaint, or to whom
+I could look for protection.</p>
+        <p>Mr. Banton owned a blacksmith shop in which he spent
+some of his time, though he was not a very efficient hand at the
+forge. One day Mistress told me to go over to the shop and let
+Master give me a flogging. I knew the mode of punishing there
+too well. I would rather die than go. The poor fellow who
+worked in the shop, a very skilful workman, neglected one day
+to pay over a half dollar that he had received of a customer for
+a job of work. This was quite an unpardonable offence. No
+right is more strictly maintained by slave holders, than the right
+they have to every cent of the slave's wages. The slave kept
+fifty cents of his own wages in his pocket one night. This came
+to the knowledge of the Master. He called for the money and it
+was not spent— it was handed to him; but there was the horrid
+<hi rend="italics">intention</hi> of keeping it. The enraged Master put a handful of
+nail rods into the fire, and When they were <hi rend="italics">red hot</hi> took them
+out, and <hi rend="italics">cooled</hi> one after another of them in the blood and
+flesh of the poor slave's back. I knew this was the shop mode
+of punishment; I would not go, and Mr. Banton came home,
+and his amiable lady told him the story of my refusal ; he broke
+forth in a great rage, and gave me a most unmerciful beating,
+adding that if I had come, he would have burned the hot nail
+rods into my back.</p>
+        <p>Mrs. Banton, as is common among slave holding women,
+seemed to hate and abuse me all the more, because I had some
+of the blood of her father in my veins. There <sic corr="are">is</sic> no slaves that
+are so badly abused, as those that are related to some of the
+women—or the children of their own husband; it seems as
+though they never could hate these quite bad enough. My
+sisters were as white and good looking
+<pb id="clarke21" n="21"/>
+as any of the young ladies in Kentucky. It happened
+once of a time, that a young man called at the
+house of Mr. Campbell, to see a sister of Mrs. Banton. Seeing
+one of my sisters in the house and pretty well dressed, with a
+strong family look, he thought it was Miss Campbell, and with
+that supposition addressed some conversation to her which he
+had intended for the private ear of Miss C. The mistake was
+noised abroad and occasioned some amusement to young
+people. Mrs. Banton heard, it made her cauldron of wrath
+sizzling hot— every thing that diverted and amused other people
+seemed to enrage her. There are hot springs in Kentucky, she
+was just like one of them, only chuckfull of boiling poison.</p>
+        <p>She must wreak her vengeance for this innocent mistake of
+the young man, upon me. “She would fix me so that nobody
+should ever think I was white.” Accordingly in a burning hot
+day, she <hi rend="italics">made me take off every rag of clothes, go out into
+the garden</hi> and pick herbs for hours— in order to <hi rend="italics">burn</hi> me black.
+When I went out she threw cold water on me so that the sun
+might take effect upon me, when I came in she gave me a severe
+beating on my blistered back.</p>
+        <p>After I had lived with Mrs. B. three or four years I was put to
+spinning hemp, flax and tow, on an old fashioned foot wheel.
+There were four or five slaves at this business a good part of
+the time. We were kept at our work from daylight to dark in
+summer, from long before day to nine or ten o'clock in the
+evening in winter. Mrs. Banton for the most part was near or
+kept continually passing in and out to see that each of us
+performed as much work as she thought we ought to do. Being
+young and sick at heart all the time, it was very hard work to go
+<pb id="clarke22" n="22"/>
+through the day and evening and not suffer exceedingly for
+want of more sleep. Very often too I was compelled to work
+beyond the ordinary hour to finish the appointed task of the
+day. Sometimes I found it impossible not to drop asleep at the
+wheel.</p>
+        <p>On these occasions Mrs. B. had her peculiar contrivances
+for keeping us awake. She would sometimes sit by the hour
+with a dipper of vinegar and salt, and throw it in my eyes to
+keep them open. My hair was pulled till there was no longer
+any pain from that source.<hi rend="italics"> And I can now suffer myself to be
+lifted by the hair of the head, without experiencing the least
+pain.</hi></p>
+        <p>She very often kept me from getting water to satisfy my
+thirst, and in one instance kept me for two entire days without
+a particle of food.</p>
+        <p>But all my severe labor, bitter and cruel punishments for
+these ten years of captivity with this worse than Arab family,
+all these were as nothing to the sufferings experienced by
+being separated from my mother, brothers and sisters; the
+same things, with them near to sympathize with me, to hear my
+story of sorrow, would have been comparatively tolerable.</p>
+        <p>They were distant only about thirty miles, and yet in ten
+long, lonely years of childhood, I was only permitted to see
+them three times.</p>
+        <p>My mother occasionally found an opportunity to send
+me some token of remembrance and affection, a sugar plum or
+an apple, but I scarcely ever ate them— they were laid up and
+handled and wept over till they wasted away in my hand.</p>
+        <p>My thoughts continually by day and my dreams by night
+were of mother and home, and the horror experienced
+<pb id="clarke23" n="23"/>
+in the morning, when I awoke and behold it was a
+dream, is beyond the power of language to describe.</p>
+        <p>But I am about to leave the den of robbers where I had been
+so long imprisoned. I cannot however call the reader from his
+new and pleasant acquaintance with this amiable pair, without
+giving a few more incidents of their history. When this is done,
+and I have taken great pains, as I shall do to put a copy of this
+portrait in the hands of this Mrs. B., I shall bid her farewell. If
+she sees something awfully hideous in her picture as here
+presented, she will be constrained to acknowledge it is true to
+nature— I have given it from no malice, no feeling of resentment
+toward her, but that the world may know what is done by
+<hi rend="italics">slavery,</hi> and that slave holders may know, that their crimes will
+come to light. I hope and pray that Mrs. B. will repent of her
+many and aggravated sins before it is too late.</p>
+        <p>The scenes between her and her husband while I was with
+them strongly illustrate the remark of Jefferson, that slavery
+fosters the worst passions of the master. Scarcely a day passed
+in which bitter words were not bandied from one to the other. I
+have seen Mrs. B. with a large knife drawn in her right hand, the
+other upon the collar of her husband, swearing and threatening
+to cut him <hi rend="italics">square in two.</hi> They both drank freely, and swore like
+highwaymen. He was a gambler and a counterfeiter. I have seen
+and handled his moulds and his false coin. They finally
+quarrelled openly and separated, and the last I knew of them, he
+was living a sort of poor vagabond life in his native State, and
+she was engaged in a protracted law suit with some of her former
+friends about her father's property.</p>
+        <p>Of course such habits did not produce great thrift in their
+worldly condition, and myself and other slaves were
+<pb id="clarke24" n="24"/>
+mortgaged from time to time to make up the deficiency between
+their income and expenses. I was transferred at the
+age of sixteen or seventeen to a Mr. K., whose name I forbear
+to mention, lest if he or any other man should ever
+claim<hi rend="italics"> property</hi> where they never had any, this my own
+testimony might be brought in to aid their wicked purposes.</p>
+        <p>In the exchange of masters, my condition was in many
+respects greatly improved—I was free at any rate from
+that kind of suffering experienced at the hand of Mrs. B.
+as though she delighted in cruelty for its own sake. My
+situation however with Mr. K. was far from enviable.
+Taken from the work in and around the house, and put
+at once at that early age to the constant work of a full
+grown man, I found it not an easy task always to escape
+the lash of the overseer. In the four or five years that I
+was with this man, the overseers were often changed.
+Sometimes we had a man that seemed to have some
+consideration, some mercy, but generally their eye seemed to
+be fixed upon one object, and that was to get the greatest
+possible amount of work out of every slave upon the
+plantation. When stooping to clear the tobacco plants from
+the worms which infest them, a work which draws most
+cruelly upon the back, some of these men would not
+allow us a moment to rest at the end of the row, but at
+the crack of the whip we were compelled to jump to our
+places from row to row for hours; while the poor back
+was crying out with torture. Any complaint or remonstrance
+under such circumstances is sure to be answered in no
+other way than by the lash. As a sheep before her shearers is
+dumb, so a slave is not permitted to open his mouth.</p>
+        <p>There were about one hundred and fifty slaves upon
+<pb n="25"/>
+this plantation. Generally we had enough in quantity of food.
+We had however but two meals a day, of corn meal bread, and
+soup, or meat of the poorest kind. Very often so little care had
+been taken to cure and preserve the bacon, that when it came
+to us, though it had been fairly killed once, it was more alive
+than dead. Occasionally we had some refreshment over and
+above the two meals, but this was extra, beyond the rules of
+the plantation. And to balance this gratuity, we were also
+frequently deprived of our food as a punishment. We suffered
+greatly, too, for want of water. The slave drivers have the
+notion that slaves are more healthy if allowed to drink but
+little, than they are if freely allowed nature's beverage. The
+slaves quite as confidently cherish the opinion, that if the
+master would drink less peach brandy and whisky, and give
+the slave more water, it would be better all round. As it is, the
+more the master and overseer drink, the less they seem to
+think the slave needs.</p>
+        <p>In the winter we took our meals before day in the morning
+and after work at night. In the summer at about nine o'clock in
+the morning and at two in the afternoon. When we were
+cheated out of our two meals a day, either by the cruelty or
+caprice of the overseer, we always felt it a kind of special duty
+and privilege to make up in some way the deficiency. To
+accomplish this we had many devices. And we sometimes
+resorted to our peculiar methods, when incited only by a
+desire to taste greater variety than our ordinary bill of fare
+afforded.</p>
+        <p>This sometimes lead to very disastrous results. The
+poor slave, who was caught with a chicken or a pig killed
+from the plantation, had his back scored most unmercifully.
+Nevertheless, the pigs would die without being sick or
+<pb id="clarke26" n="26"/>
+squealing once, and the hens, chickens and turkeys,
+sometimes disappeared and never stuck up a feather to tell
+where they were buried. The old goose would sometimes
+exchange her whole nest of eggs for round pebbles; and
+patient as that animal is, this quality was exhausted, and she
+was obliged to leave her nest with no train of offspring
+behind her.</p>
+        <p>One old slave woman upon this plantation was altogether
+too keen and shrewd for the best of them. She would go out
+to the corn crib, with her basket, watch her opportunity, with
+one effective blow pop over a little pig, slip him into her
+basket and put the cobs on top, trudge off to her cabin, and
+look just as innocent as though she had a right to eat of the
+work of her own hands. It was a kind of first principle, too, in
+her code of morals, that they that <hi rend="italics">worked</hi> had a right to eat.
+The moral of all questions in relation to taking food was easily
+settled by Aunt Peggy. The only question with her was, <hi rend="italics">how</hi>
+and <hi rend="italics">when</hi> to do it.</p>
+        <p>It could not be done openly, that was plain; it must be
+done, secretly, if not in the day time by all means in the night.
+With a dead pig in the cabin, and the water all hot for
+scalding, she was at one time warned by her son that the
+Philistines were upon her. Her resources were fully equally to
+the sudden emergency, quick as thought, the pig was thrown
+into the boiling kettle, a door was put over it, her daughter
+seated upon it, and with a good thick quilt around her, the
+overseer found little Phillis taking a steam bath for a terrible
+cold. The daughter acted well her part, groaned sadly, the
+mother was very busy in tucking in the quilt, and the overseer
+was blinded, and went away without seeing a bristle of the
+pig.</p>
+        <p>Aunt P. cooked for herself, for another slave named
+<pb id="clarke27" n="27"/>
+George, and for me. George was very successful in bringing
+home his share of the plunder. He could capture a pig or a
+turkey without exciting the least suspicion. The old lady often
+rallied me for want of courage for such <sic corr="enterprises">enterprizes</sic>. At length, I
+summoned resolution one rainy night, and determined there
+should be one from the herd of swine brought home by my
+hands. I went to the crib of corn, got my ear to shell, and my
+cart stake to despatch a little roaster. I raised my arm to strike,
+summoned courage again and again, but to no purpose. The
+scattered kernels were all picked up and no blow struck. Again
+I visited the crib, selected my victim, and <hi rend="italics">struck</hi>— the blow
+glanced upon the side of the head, and instead of falling, he
+ran off squealing louder than ever I heard a pig squeal before.
+I ran as fast in an opposite direction, made a large circuit and
+reached the cabin—emptied the hot water and made for my
+couch as soon as possible. I escaped detection, and only
+suffered from the ridicule of old Peggy and young George.</p>
+        <p>Poor Jess, upon the same plantation, did not so easily
+escape. More successful in his effort, he killed his pig, but he
+was found out. He was hung up by the hands, with a rail
+between his feet, and full three hundred lashes scored in upon
+his naked back. For a long time his life hung in doubt, and his
+poor wife, for becoming a partaker after the fact, was most
+severely beaten.</p>
+        <p>Another slave, employed as a driver upon the plantation.
+was compelled to whip his own wife, for a similar offence, so
+severely that she never recovered from the cruelty. She was
+literally <hi rend="italics">whipped to death by her own husband.</hi></p>
+        <p>A slave, called Hall, the hostler on the plantation, made a
+successful sally one night upon the animals forbidden to
+<pb id="clarke28" n="28"/>
+the Jews. The next day he went into the barn loft and fell
+asleep. While sleeping over his abundant supper, and
+dreaming perhaps of his feast, he heard the shrill voice of his
+master, crying out “the hogs are at the horse trough—where is
+Hall.” The “hogs and Hall” coupled together, were enough for
+the poor fellow. He sprung from the hay and made the best of
+his way off the plantation. He was gone six months, and at the
+end of this period he procured the intercession of the son-in-law
+of his master, and returned, escaping the ordinary punishment.
+But the transgression was laid up. Slave holders seldom <hi rend="italics">forgive,</hi>
+they only <hi rend="italics">postpone</hi> the time of revenge. When about to be
+severely flogged for some pretended offence, he took two of
+his grandsons and escaped as far towards Canada as Indiana.
+He was followed, captured, brought back and whipped most
+horribly. All the old score had been treasured up against him,
+and his poor back atoned for the whole at once.</p>
+        <p>On this plantation was a slave named Sam, whose wife lived
+a few miles distant, and Sam was very seldom permitted to go
+and see his family. He worked in the blacksmith shop. For a small
+offence, he was hung up by the hands, a rail between his feet,
+and whipped in turn by the master, overseer and one of the
+waiters, till his back was torn all to pieces, and in less than two
+months Sam was in his grave. His last words were, “Mother,
+tell master he has killed me at last for nothing, but tell him if
+God will forgive him, I will.”</p>
+        <p>A very poor white woman lived within about a mile of the
+plantation house. A female slave named Flora, knowing she
+was in a very suffering condition, shelled out a peck of corn
+and carried it to her in the night. Next day
+<pb id="clarke29" n="29"/>
+the old man found it out, and this deed of charity was atoned
+for by one hundred and fifty lashes upon the bare back of
+poor Flora.</p>
+        <p>The master with whom I now lived, was a very passionate
+man. At one time he thought the work on the plantation did not
+go on as it ought. One morning, when he and the overseer
+waked up from a drunken frolick, they swore the hands should
+not eat a morsel of any thing, till a field of wheat of some sixty
+acres was all cradled. There were from thirty to forty hands to
+do the work. We were driven on to the extent of our strength,
+and although a brook ran through the field, not one of us was
+permitted to stop and taste a drop of water. Some of the men
+were so exhausted, that they reeled for very weakness; two of
+the women fainted, and one of them was severely whipped to
+revive her. They were at last carried helpless from the field and
+thrown down under the shade of a tree. At about five o'clock in
+the afternoon the wheat was all cut and we were permitted to
+eat. Our suffering for want of water was excruciating. I trembled
+all over from the inward gnawing of hunger and from burning
+thirst.</p>
+        <p>In view of the sufferings of this day we felt fully justified in
+making a foraging expedition upon the milk room that night.
+And when master and overseer and all hands were locked up in
+sleep, ten or twelve of us went down to the spring house,—a
+house built over a spring to keep the milk and other things
+cool. We pressed altogether against the door, and open it
+came. We found half of a good, baked pig, plenty of cream,
+milk and other delicacies, and as we felt in some measure
+delegated to represent all that had been cheated of their meals
+the day before, we ate plentifully. But after a successful
+plundering expedition 
+<pb id="clarke30" n="30"/>
+within the gates of the enemy's camp, it is not easy always to
+cover the retreat. We had a <hi rend="italics">reserve</hi> in the pasture for this
+purpose. We went up to the herd of swine, and with a milk pail
+in hand, it was easy to persuade them there was more where
+that came from, and the whole tribe followed readily into the
+spring house, and we left them there to wash the dishes and
+wipe up the floor, while we retired to rest. This was not malice
+in us; we did not love the waste which the hogs made; but we
+must have something to eat, to pay for the cruel and reluctant
+fast; and when we had obtained this, we must of course cover
+up our track. They watch us narrowly; and to take an egg, a
+pound of meat, or anything else, however hungry we may be,
+is considered a great crime,—we are compelled therefore, to
+waste a good deal sometimes, to get a little.</p>
+        <p>I lived with this Mr. K. about four or five years. I then fell
+into the hands of his son. He was a drinking, ignorant man, but
+not so cruel as his father. Of him I hired my time at $12 a
+month, boarded and clothed myself. To meet my payments, I
+split rails, burned coal, peddled grass seed, and took hold of
+whatever I could find to do. This last master, or owner as he
+would call himself, died about one year before I left Kentucky.
+By the administrators I was hired out for a time, and at last put
+up upon the auction block for sale. No <hi rend="italics">bid</hi> could be obtained
+for me. There were two reasons in the way. One was, there
+were two or three old mortgages which were not settled, and
+the second reason given by the bidders was, I had had too
+many privileges—had been permitted to trade for myself and go
+over the state— in short, to use their phrase, I was a “spoilt
+nigger.” And sure enough I was, for all their purposes. I had
+long thought and dreamed of LIBERTY; I
+<pb id="clarke31" n="31"/>
+was now determined to make an effort to gain it. No tongue
+can tell the doubt, the perplexities, the anxiety which a slave
+feels, when making up his mind upon this subject. If he makes
+an effort and is not successful, he must be laughed at by his
+fellows ; he will be beaten unmercifully by the master, and
+then watched and used the harder for it all his life.</p>
+        <p>And then if he gets away, <hi rend="italics">who, what</hi> will he find? He is
+ignorant of the world. All the white part of mankind, that he
+has ever seen, are enemies to him and all his kindred. How can
+he venture where none but white faces shall greet him? The
+master tells him that abolitionists <hi rend="italics">decoy</hi> slaves off into the
+free states to catch them and sell them to Louisiana or
+Mississippi; and if he goes to Canada, the British will put
+him in a <hi rend="italics">mine under ground, with both eyes put out, for life.</hi>
+How does he know what or whom to believe? A horror of
+great darkness comes upon him, as he thinks over what may
+befal him. Long, very long time did I think of escaping
+before I made the effort.</p>
+        <p>At length the report was started that I was to be sold
+for Louisiana. Then I thought it was time to act. My mind was
+made up. This was about two weeks before I started. The first
+plan was formed between a slave named Isaac and myself.
+Isaac proposed to take one of the horses of his mistress, and I
+was to take my pony, and we were to ride off together, I as
+master and he as slave. We started together and went on five
+miles. My want of confidence in the plan induced me to turn
+back. Poor Isaac plead like a good fellow to go forward.
+I am satisfied from experience and observation that both of
+us must have been captured and carried back. I did not know
+enough at that time to travel and manage a waiter. Every thing
+<pb n="32"/>
+would have been done in such an awkward manner that a keen
+eye would have seen through our plot at once. I did not know
+the roads, and could not have read the guide boards; and
+ignorant as many people are in Kentucky, they would have
+thought it strange to see a man with a waiter, who could not
+read a guide board. I was sorry to leave Isaac, but I am
+satisfied I could have done him no good in the way proposed.</p>
+        <p>After this failure I <sic corr="stayed">staid</sic> about two weeks, and, after having
+arranged every thing to the best of my knowledge, I saddled my
+pony, went into the cellar where I kept my grass seed
+apparatus, put my clothes into a pair of saddlebags, and them
+into my seed-bag, and thus equipped set sail for the North
+Star. O what a day was that to me. This was on Saturday, in
+August, 1841. I wore my common clothes, and was very careful to
+avoid special suspicion, as I already imagined the administrator
+was very watchful of me. The place from which I started was
+about fifty miles from Lexington. The reason why I do not give
+the name of the place, and a more accurate location, must be
+obvious to any one who remembers that in the eye of the law I
+am yet accounted a slave, and no spot in the United States
+affords an asylum for the wanderer. True, I feel protected in the
+hearts of the many warm friends of the slave by whom I am
+surrounded, but this protection does not come from the LAWS
+of any one of the United States.</p>
+        <p>But to return. After riding about fifteen miles, a Baptist
+minister overtook me on the road, saying, “How do you do,
+boy; are you free? I always thought you were free, till I saw
+them try to sell you the other day.” I then wished him a
+thousand miles off, preaching, if he would,
+<pb n="33"/>
+to the whole plantation, “Servants obey your masters;” but I
+wanted neither sermons, questions, nor advice from him. At
+length I mustered resolution to make some kind of a reply.—  
+What made you think I was free? He replied, that he had noticed
+I had great privileges, that I did much as I liked, and that I was
+almost white. O yes, I said, but there are a great many slaves as
+white as I am. “Yes,” he said, and then went on to name several;
+among others, one who had lately, as he said, run away. This
+was touching altogether too near upon what I was thinking of.
+Now, said I, he must know, or at least reckons, what I am at— 
+<hi rend="italics">running away.</hi></p>
+        <p>However, I blushed as little as possible, and made strange of
+the fellow who had lately run away, as though I knew nothing of
+it. The old fellow looked at me, as it seemed to me, as though he
+would read my thoughts. I wondered what in the world a <hi rend="italics">slave
+could</hi> run away for, especially if they had such a chance as I
+had had for the last few years. He said, “I suppose you would
+not run away on any account, you are so well treated.” O, said
+I, I do very well—very well, Sir. If you should ever hear that I had
+run away, be certain it must be because there is some great
+change in my treatment.</p>
+        <p>He then began to talk with me about the seed in my <hi rend="italics">bag,</hi>
+and said that he should want to buy some. Then, I thought, he
+means to get at the truth by looking in my <hi rend="italics">seed-bag,</hi> where,
+sure enough, he would not find <hi rend="italics">grass</hi> seed, but the seeds of
+Liberty. However, he dodged off soon, and left me alone. And
+although I have heard say, poor company is better than none, I
+felt much better without him than with him.</p>
+        <p>When I had gone on about twenty-five miles, I went
+<pb id="clarke34" n="34"/>
+down into a deep valley by the side of the road, and changed
+my clothes. I reached Lexington about seven o'clock
+that evening, and put up with brother Cyrus. As I had often
+been to Lexington before, and stopped with him, it excited no
+attention from the slave holding gentry. Moreover, I had a pass
+from the administrator, of whom I had hired my time. I remained
+over the Sabbath with Cyrus, and we talked over a great many
+plans for future operations, if my efforts to escape should be
+successful. Indeed we talked over all sorts of ways for me to
+proceed. But both of us were very ignorant of the roads, and of
+the best way to escape suspicion. And I sometimes wonder,
+that a slave, so ignorant, so timid, as he is, <hi rend="italics">ever</hi> makes the
+attempt to get his freedom. “<hi rend="italics">Without</hi> are <hi rend="italics">foes,</hi> <hi rend="italics">within </hi>are <hi rend="italics">fears.</hi>”</p>
+        <p>Monday morning, bright and early, I set my face in good
+earnest toward the Ohio River, determined to see
+and tread the north bank of it, or <hi rend="italics">die</hi> in the attempt. I said to
+myself, one of two things, FREEDOM or DEATH. The first
+night I reached Mayslick, fifty odd miles from Lexington. Just
+before reaching this village, I stopped to think over my
+situation, and determine how I would pass that night. On that
+night hung all my hopes. I was within twenty miles of Ohio. My
+horse was unable to reach the river that night. And besides, to
+travel and attempt to cross the river in the night, would excite
+suspicion. I must spend the night  <hi rend="italics">there.</hi> But <hi rend="italics">how?</hi> At one time,
+I thought, I will take my pony out into the field ,and give him
+some corn, and sleep myself on the grass. But then the <hi rend="italics">dogs</hi>
+will be out in the evening, and if caught under such
+circumstances, they will take me for a<hi rend="italics"> thief</hi> if not for a runaway.
+That will not do. So after
+<pb id="clarke35" n="35"/>
+weighing the matter all over, I made a plunge right into
+the heart of the village, and put up at the tavern.</p>
+        <p>After seeing my pony disposed of, I looked into the
+barroom, and saw some persons that I thought were from my
+part of the country, and would know me. I shrunk back with
+horror. What to do I did not know. I looked across the street,
+and saw the shop of a silversmith. A thought of a pair of
+spectacles, to hide my face, struck me. I went across the way,
+and began to barter for a pair of double eyed green spectacles.
+When I got them on, they blind-folded <hi rend="italics">me,</hi> if they did not
+others. Every thing seemed right up in my eyes. I hobbled back
+to the tavern, and called for supper. This I did to avoid notice,
+for I felt like any thing but eating. At tea I had not learned to
+measure distances with my new eyes, and the first pass I made
+with my knife and fork at my plate, went right into my cup. This
+confused me still more, and, after drinking one cup of tea, I left
+the table, and got off to bed as soon as possible. But not a
+wink of sleep that night. All was confusion, dreams, anxiety
+and trembling.</p>
+        <p>As soon as day dawned, I called for my horse, paid my
+reckoning, and was on my way, rejoicing that <hi rend="italics">that</hi> night was
+gone, any how. I made all diligence on my way, and was
+across the Ohio, and in Aberdeen by noon that day!</p>
+        <p>What my feelings were when I reached the free shore, can
+be better imagined than described. I trembled all over with
+deep emotion, and I could feel my hair rise up on my head. I
+was on what was called a <hi rend="italics">free</hi> soil, among a people who had
+no slaves. I saw white men at work, and no slave smarting
+beneath the lash. Every thing was indeed <hi rend="italics">new</hi> and wonderful.
+Not knowing
+<pb id="clarke36" n="36"/>
+where to find a friend, and being ignorant of the country,
+—unwilling to inquire lest I should betray my ignorance, it
+was a whole week before I reached Cincinnati. At one place
+where I put up, I had a great many more questions put to
+me than I wished to answer. At another place I was very
+much annoyed by the officiousness of the landlord, who
+made it a point to supply every guest with newspapers. I
+took the copy handed me, and turned it over in a somewhat
+awkward manner, I suppose. He came to me to point out a
+Veto, or some other very important news. I thought it best
+to decline his assistance, and gave up the paper, saying
+my eyes were not in a fit condition to read much.</p>
+        <p>At another place, the neighbors, on learning that a
+Kentuckian was at the tavern, came in great earnestness to
+find out what my business was. Kentuckians sometimes came
+there to kidnap their citizens—they were in the habit of
+watching them close. I at length satisfied them, by assuring
+them that I was not, nor my father before me, any slave holder
+at all; but, lest their suspicions should be excited in another
+direction, I added, my grandfather was a slave holder.</p>
+        <p>At Cincinnati I found some old acquaintances, and spent
+several days. In passing through some of the streets, I several
+times saw a great slave dealer from Kentucky, who knew me,
+and when I approached him, I was very careful to give him a
+wide berth. The only advice that I here received, was from a
+man who had once been a slave. He urged me to sell my pony,
+go up the river to Portsmouth, then take the canal for
+Cleveland, and cross over to Canada. I acted upon this
+suggestion, sold my horse for a small sum, as he was pretty
+well used up, took passage for
+<pb id="clarke37" n="37"/>
+Portsmouth, and soon found myself on tire canal-boat,
+headed for Cleveland. On the boat I became acquainted
+with a Mr. Conoly, from New York. He was very sick with
+fever and ague, and as he was a stranger and alone, I took the
+best possible care of him for a time. One day, in
+conversation with him, he spoke of the slaves in the most
+harsh and bitter language, and was especially severe on
+those who <hi rend="italics">attempted to run away.</hi> Thinks I, you are not the
+man for me to have much to do with. I found the <hi rend="italics">spirit</hi> of
+slaveholding was not all South of the Ohio River.</p>
+        <p>No sooner had I reached Cleveland, than a trouble came
+upon me from a very unexpected quarter. A rough, swearing
+reckless creature in the shape of a man, came up to me and
+declared I had passed a bad five dollar bill upon his wife, in
+the boat, and he demanded the silver for it. I had never
+seen him nor his wife before. He pursued me into the tavern,
+swearing and threatening all the way. The travellers, that
+had just arrived at the tavern, were asked to give their
+names to the clerk, that he might enter them upon the book.
+He called on me for my name, just as this ruffian was in
+the midst of his assault upon me. On leaving Kentucky
+I thought it best for my own security to take a new name,
+and I had been entered on the boat, as Archibald Campbell.
+I knew, with such a charge as this man was making against
+me, it would not do to change my name from the boat
+to the hotel. At the moment, I could not recollect what I
+had called myself, and for a few minutes, I was in a
+complete puzzle. The clerk kept calling, and I made believe
+deaf, till at length the name popped back again, and I
+was duly enrolled a guest at the tavern in Cleveland.
+I had heard before of persons being frightened out of
+their <hi rend="italics">Christian</hi> names, but I was fairly scared
+<pb id="clarke38" n="38"/>
+out of both mine for a while. The landlord soon protected me
+from the violence of the bad-meaning man, and drove him
+away from the house.</p>
+        <p>I was detained at Cleveland several days, not knowing how
+to get across the Lake into Canada. I went out to the shore of
+the lake again and again, to try and see the other side, but I
+could see no hill, mountain, nor city of the asylum I sought. I
+was afraid to inquire <hi rend="italics">where</hi> it was, lest it would betray such a
+degree of ignorance as to excite suspicion at once. One day I
+heard a man ask another, employed on board a vessel, “and
+where does this vessel trade?” Well, I thought, if that is a proper
+question for you, it is for me. So I passed along and asked of
+every vessel, “Where does this vessel trade ?” At last the
+answer came, “over here in Kettle Creek, near Port Stanley.”
+And where is that, said I. “O, right over here in <hi rend="italics">Canada.</hi>”
+That was the sound for me, “over here in Canada.” The
+captain asked me if I wanted a passage to Canada. I thought
+it would not do to be too earnest about it, lest it would betray
+me. I told him I some thought of going, If I could get a passage
+cheap. We soon came to terms on this point, and that evening
+we set sail. After proceeding only nine miles the wind changed,
+and the captain returned to port again. This I thought was a
+very bad omen. However, I stuck by, and the next evening
+at nine o'clock we set sail once more, and at daylight, we were
+in Canada.</p>
+        <p>When I stepped ashore here, I said, sure enough I AM FREE.
+Good heaven! what a sensation, when it first visits the bosom
+of a full grown man—one, <hi rend="italics">born</hi> to bondage—one, who had
+been taught from early infancy, that this was his inevitable lot
+for life. Not till <hi rend="italics">then,</hi> did I dare to cherish
+<pb id="clarke39" n="39"/>
+for a moment the feeling that <hi rend="italics">one</hi> of the limbs of my body, was
+my own. The slaves often say, when cut in the hand or foot,
+“plague on the old foot, or the old hand, it is master's—let him
+take care of it—Nigger don 't care if he never get well.” My
+hands, my feet, were now my own. But what to do with them
+was the next question. A strange sky was over me, a new earth
+under me, strange voices all around—even the animals were
+such as I had never seen. A flock of prairie hens and some
+black geese, were entirely new to me. I was entirely alone, no
+human being that I had ever seen before, where I could speak
+to him or he to me.</p>
+        <p>And could I make that country ever seem like <hi rend="italics">home?</hi>Some people are very much afraid all the slaves will run up North, if
+they are ever free. But I can assure them that they will run
+<hi rend="italics">back</hi>again if they do. If I could have been assured of my
+freedom in Kentucky then, I would have given any thing in the
+world for the prospect of spending my life among my old
+acquaintances, and where I first saw the sky, and the sun rise
+and go down. It was a long time before I could make the sun
+work right at all. It would rise in the wrong place, and go down
+wrong, and finally it behaved so bad, I thought it could not be
+the same sun.</p>
+        <p>There was a little something added to this feeling of
+strangeness. I could not forget all the horrid stories
+slaveholders tell about Canada. They assure the slave, that
+when they get hold of slaves in Canada, they make various
+uses of them. Sometimes they <hi rend="italics">skin</hi> the <hi rend="italics">head,</hi> and wear the
+wool on their coat collars—put them into the lead mines with
+both eyes out—the young slaves they eat—and as for the
+Red Coats, they are sure death to the slave. However
+ridiculous to a well informed person such stories
+<pb id="clarke40" n="40"/>
+may appear, they work powerfully upon the excited imagination
+of an ignorant slave. With these stories all fresh in mind, when
+I arrived at St. Thomas, I kept a bright look out for the Red
+Coats. As I was turning tile corner of one of the streets, sure
+enough, there stood before me a <hi rend="italics">Red Coat</hi> in full uniform, with
+his tall bear-skin cap a foot and a half high, his gun shouldered,
+and he standing as erect as a guide-post. Sure enough, that is
+the fellow that they tell about catching the slave. I turned on
+my heel and sought another street. On turning another corner,
+the <hi rend="italics">same</hi>soldier, as I thought, faced me with his black cap and
+stern look. Sure enough, my time has come now. I was as near
+scared to death then, as a man can be and breathe. I could not
+have felt any worse, if he had shot me right through the heart. I
+made off again as soon as I dared to move. I inquired for a
+tavern. When I came up to it, there was a great brazen lion
+sleeping over the door, and although I knew it was not alive, I
+had been so well frightened, that I was almost afraid to go in.
+Hunger drove me to it at last, and I asked for something to eat.</p>
+        <p>On my way to St. Thomas I was also badly frightened. A
+man asked me who I was. I was afraid to tell him, a runaway
+slave, lest he should have me to the mines. I was afraid to say,
+“I am an American,” lest he should shoot me, for I knew there
+had been trouble between the British and Americans. I
+inquired at length for the place where the greatest number of
+colored soldiers were. I was told there were a great many at
+New London; so for New London I started. I got a ride with
+some country people to the latter place. They asked me who I
+was, and I told them from Kentucky; and they, in a familiar
+<pb id="clarke41" n="41"/>
+way, called me “Old Kentuck.” I saw some soldiers on the way,
+and asked the men what they had soldiers for. They said they
+were kept “to get <hi rend="italics">drunk</hi> and be <hi rend="italics">whipt;</hi>” that was the chief use
+they made of them. At last I reached New London, and here I
+found soldiers in great numbers. I attended at their parade, and
+saw the guard driving the people back ; but it required no guard
+to keep me off. I thought, if you will let me alone, I will not
+trouble you. I was as much afraid of a red coat, as I would have
+been of a bear. Here I asked again for the colored soldiers. The
+answer was, “Out at Chatham, about seventy miles distant.” I
+started for Chatham. The first night I stopped at a place called
+the Indian Settlement. The door was barred at the house
+where I was, which I did not like so well, as I was yet
+somewhat afraid of their Canadian tricks. Just before I got to
+Chatham, I met two colored soldiers, with a white man bound,
+and driving him along before them. This was something quite
+new. I thought then, sure enough this is the land for me.
+I had seen a great many colored people bound, and in the
+hands of the whites, but this was changing things right about.
+This removed all my suspicions, and ever after I felt quite easy
+in Canada. I made diligent  inquiry for several slaves that
+I had known in Kentucky, and at length found one named
+Henry. He told me of several others with whom I had been
+acquainted, and from him also I received the first correct
+information about brother Milton. I knew that he had left
+Kentucky about a year before I did, and I supposed, until now,
+that he was in Canada. Henry told me he was at Oberlin, Ohio.</p>
+        <p>At Chatham I hired myself for a while to recruit my purse a
+little, as it had become pretty well drained by this
+<pb n="42"/>
+time. I had only about sixty-four dollars when I left Kentucky,
+and I had been living upon it now for about six weeks. Mr.
+Everett, with whom I worked, treated me kindly, and urged me
+to stay in Canada, offering me business on his farm. He
+declared “there was no ‘free state” in America, all were <hi rend="italics">slave</hi>
+states—bound to slavery, and the slave could have no asylum
+in any of them.” There is certainly a great deal of truth in this
+remark. I have <hi rend="italics">felt,</hi> wherever I may be in the United States,
+the kidnappers may be upon me at any moment. If I should
+creep up to the top of the monument on Bunker's Hill, beneath
+which my father fought, I should not be safe even there. The
+slave-mongers have a right, by the laws of the United States,
+to seek me even upon the top of the monument, whose base
+rests upon the bones of those who fought for freedom.</p>
+        <p>I soon after made my way to Sandwich, and crossed over to
+Detroit, on my way to Ohio, to see Milton. While in Canada I
+swapped away my pistol, as I thought I should not need it, for
+an old watch. When I arrived at Detroit, I found my watch was
+gone. I put my baggage, with nearly every cent of money I
+had, on board the boat for Cleveland, and went back to
+Sandwich to search for the old watch. The ferry here was
+about three-fourths of a mile, and in my zeal for the old watch, I
+wandered so far that I did not get back in season for the boat,
+and had the satisfaction of hearing her <hi rend="italics">last</hi> bell just as I was
+about to leave the Canada shore. When I got back to Detroit I
+was in a fine fix; my money and my clothes gone, and I left to
+wander about in the streets of Detroit. A man may be a man for
+all clothes or money, but he don't feel quite so well, any how.
+What to do now I could hardly
+<pb id="clarke43" n="43"/>
+tell. It was about the first of November. I wandered about and
+picked up something very cheap for supper, and paid
+ninepence for lodging. All the next day no boat for
+Cleveland. Long days and nights to me. At length
+another boat was up for Cleveland. I went to the captain
+to tell him my story; he was very cross and savage—said
+a man no business from home me without money—that so
+many told stories about losing money that he did not know
+what to believe. He finally asked me how much money I
+had. I told him sixty-two and a half cents. Well, he
+said, give me that, and pay the balance when you get
+there. I gave him every cent I had. We were a day
+and a night on the passage, and I had nothing to eat
+except some cold potatoes, which I picked from a barrel of
+fragments, and cold victuals. I went to the steward, or
+cook, and asked for something to eat, but he told me his
+orders were strict to give away nothing, and if he should
+do it, he would lose his place at once.</p>
+        <p>When the boat came to Cleveland it was in the night, and I
+thought I would spend the balance of the night in the boat.
+The steward soon came along, and asked if I did not know
+that the boat had landed, and the passengers had gone
+ashore. I told him I knew it, but I had paid the captain all the
+money I had, and could get no shelter for the night unless I
+remained in the boat. He was very harsh and unfeeling, and
+drove me ashore, although it was very cold, and snow on the
+ground. I walked around awhile, till I saw a light in a small
+house of entertainment. I called for lodging. In the morning,
+the Frenchman, who kept it, wanted to know if I would have
+breakfast. I told him no. He said then I might pay for my
+lodging. I told him I would do so before I left, and that my
+outside coat might hang there till I paid him.</p>
+        <pb id="clarke44" n="44"/>
+        <p>I was obliged at once to start on an expedition for raising
+<hi rend="italics">some cash.</hi> My resources were not very numerous. I took a
+<hi rend="italics">hair</hi> brush that I had paid three York shillings for, a short time
+before, and sallied out to make a sale. But the wants of every
+person I met seemed to be in the same direction with my own;
+they wanted <hi rend="italics">money</hi> more than hair brushes. At last I found a
+customer who paid me ninepence <hi rend="italics">cash,</hi> and a small balance in
+the shape of something to eat for breakfast. I was started
+square for that day, and delivered out of my present distress.
+But hunger will return, and all the quicker when a man don't
+know how to satisfy it when it does come. I went to a plain
+boarding house, and told the man just my situation, that I was
+waiting for the boat to return from Buffalo, hoping to get my
+baggage and money. He said he would board me two or three
+days and risk it. I tried to get work, but no one seemed inclined
+to employ me. At last I gave up in despair, about my luggage,
+and concluded to start as soon as possible for Oberlin. I sold
+my great coat for two dollars, paid one for my board, and with
+the other I was going to pay my fare to Oberlin. That night,
+after I had made all my arrangements to leave in the morning,
+the boat came. On hearing the bell of a steam boat, in the night,
+I jumped up and went to the wharf, and found my baggage;
+paid a quarter of a dollar for the long journey it had been
+carried, and glad enough to get it again at that.</p>
+        <p>The next morning I took the stage for Oberlin; found
+several abolitionists from that place in the coach. They
+mentioned a slave named Milton Clarke, who was living there,
+that he had a brother in Canada, and that he expected him there
+soon. They spoke in a very friendly manner of Milton, and of
+the slaves; so after we had had a long
+<pb id="clarke45" n="45"/>
+conversation, and I perceived they were all friendly, I made
+myself known to them. To be thus surrounded at once
+with friends, in a land of strangers, was something quite new
+to me. The impression made by the kindness of these
+strangers upon my heart, will never be effaced. I thought there
+must be some new principle at work here, such as I had not
+seen much of in Kentucky. That evening I arrived at Oberlin,
+and found Milton boarding at a Mrs. Cole's. Finding here so
+many friends, my first impression was that all the abolitionists
+in the country must live right there together. When Milton
+spoke of going to Massachusetts, “No” said I, “we better
+stay here where the <hi rend="italics">abolitionists</hi> live.” And when they
+assured me that the friends of the slave were more numerous
+in Massachusetts than in Ohio, I was greatly surprised.</p>
+        <p>Milton and I had not seen each other for a year; during that
+time we had passed through the greatest change in outward
+condition, that can <sic corr="befall">befal</sic> a man in this world. How glad we
+were to greet each other in what we then <hi rend="italics">thought</hi> a <hi rend="italics">free</hi> State,
+may be easily imagined. We little dreamed of the dangers
+sleeping around us. Brother Milton had not encountered so
+much danger in getting away as I had. But his time for
+suffering was soon to come. For several years before his
+escape, Milton had hired his time of his master, and had been
+employed as a steward in different steam boats upon the river.
+He had paid as high as two hundred dollars a year for his time.
+From his master he bad a written pass, permitting him to go up
+and down the Mississippi and Ohio rivers when he pleased.
+He found it easy therefore to land on the north side of the
+Ohio river, and concluded to take his own time for returning.
+He had caused a letter to be written to Mr. L., his pretended
+<pb id="clarke46" n="46"/>
+owner, telling him to give himself no anxiety on his account;
+that he had found by experience he had wit enough to take
+care of himself, and he thought the care of his master was not
+worth the two hundred dollars a year which he had been
+paying for it for four years; that on the whole, if his master
+would be quiet and contented, he thought he should do very
+well. This letter, the escape of two persons belonging to the
+same family, and from the same region, in one year, waked up
+the fears and the <hi rend="italics">spite</hi> of the slave holders. However, they let
+us have a little respite, and through the following winter and
+spring, we were employed in various kinds of work at Oberlin
+and in the neighborhood.</p>
+        <p>All this time I was deliberating upon a plan by which to go
+down and rescue Cyrus, our youngest brother, from bondage.
+In July 1842, I gathered what little money I had saved, which
+was not a large sum, and started for Kentucky again. As near
+as I remember I had about twenty dollars. I did not tell my plan
+to but one or two at Oberlin, because there were many slaves
+there, and I did not know but that it might get to Kentucky in
+some way through them sooner than I should. On my way
+down through Ohio, I advised with several well known friends
+of the slave. Most of them pointed out the dangers I should
+encounter, and urged me not to go. One young man told me to
+go, and the God of heaven would prosper me. I knew it was
+dangerous, but I did not then dream of all that I must suffer in
+body and mind before I was through with it. It is not a very
+comfortable feeling to be creeping round day and night for
+nearly two weeks together in a den of lions, where if one of
+them happens to put his paw on you, it is certain death, or
+something much worse.</p>
+        <pb id="clarke47" n="47"/>
+        <p>At Ripley, I met a man who had lived in Kentucky; he
+encouraged me to go forward, and directed me about the
+roads. He told me to keep on a back route not much traveled 
+and I should not be likely to be molested. I crossed
+the river at Ripley, and when I reached the other side, and
+was again upon the soil on which I had suffered so much, I
+<hi rend="italics">trembled, shuddered,</hi> at the thoughts of what might happen
+to me. My fears, my feelings overcame for the moment all
+my resolution, and I was for a time completely overcome
+with emotion. Tears flowed like a brook of water. I had
+just left kind friends; I was now where every man I met
+would be my enemy. It was a long time before I could
+summon courage sufficient to proceed. I had with me a rude
+map made by the Kentuckian whom I saw at Ripley.
+After examining this as well as I could, I proceeded. In the
+afternoon of the first day, as I was sitting in a stream to
+bathe and cool my feet, a man rode up on horseback, and
+entered into a long conversation with me. He asked me
+Some questions about my travelling, but none but what I
+could easily answer. He pointed out to me a house where
+a white woman lived, who he said had recently suffered
+terribly from a fright. Eight slaves, that were running
+away, called for something to eat, and the poor woman
+was sorely scared by them. For his part, the man said, he
+hoped they never would find the slaves again. Slavery
+was the curse of Kentucky. He had been brought up to
+work and he liked to work, but slavery made it disgraceful
+for any white man to work .From this conversation I
+was almost a good mind to trust this man, and tell him my
+story, but on second thought, I concluded it might be just as
+<hi rend="italics">safe</hi> not to do it. A hundred or two dollars for returning
+a slave, for a poor man, is a heavy temptation. At night
+<pb id="clarke48" n="48"/>
+I stopped at the house of a widow woman,—not a tavern
+exactly, but they often entertained people there. The next day
+when I got as far as Cynthiana, within about twenty miles of
+Lexington, I was sore all over and lame from having walked so
+far. I tried to hire a horse and carriage to help me a few miles.
+At last I agreed with a man to send me forward to a certain
+place, which he said was twelve miles, and for which I paid
+him, in advance, three dollars. It proved to be only seven miles.
+This was now Sabbath day, as I had selected that as the most
+suitable day for making my entrance into Lexington. There is
+much more passing in and out on that day, and I thought I
+should be much less observed than on any other day.</p>
+        <p>When I approached the city and met troops of idlers on
+foot and on horseback, sauntering out of the city, I was
+very careful to keep my umbrella before my face, as people
+passed, and kept my eyes right before me. There were many
+persons in the place, who had known me, and I did not
+care to be recognized by any of them. Just before entering
+the city, I turned off to the field, and laid down under
+a tree and waited for night. When its curtains were fairly
+over me, I started up, took two pocket handkerchiefs, tied
+one over my forehead, the other under my chin, and marched
+forward for the city. It was not then so dark as I
+wished it was. I met a young slave driving cows. He
+was quite disposed to condole with me, and said, in a very
+sympathetic manner, “Massa sick.” “Yes, boy,” I said,
+“Massa sick,—drive along your cows.” The next colored man I 
+met, I knew him in a moment, but he did not
+recognize me. I made for the wash-house of the man with
+whom Cyrus lived. I reached it without attracting any
+notice, and found there an old slave as true as steel. I
+<pb id="clarke49" n="49"/>
+inquired for Cyrus, he said he was at home. He very soon
+recollected me; and while the boy was gone to call Cyrus, he
+uttered a great many exclamations of wonder to think I should
+return.</p>
+        <p>“Good heaven, boy! what you back here for? What on <sic corr="earth">arth</sic>
+you here for, my son? O! I scared for you! They kill you, just
+as sure as I alive, if they catch you! Why, in name of Liberty,
+didn't you stay away, when you gone so slick!<sic corr="certain"> Sartin</sic>, I never
+did <sic corr="expect">'spect</sic> to see you again! ” I said, Don't be scared. But he
+kept repeating, “ I scared for you! I scared for you!” When I
+told him my errand, his wonder was somewhat abated, but still
+his exclamations were repeated all the evening. “What brought
+you back here?” In a few minutes Cyrus made his appearance,
+filled with little less of wonder than the old man had
+manifested. I had intended, when I left him about a year before,
+that I would return for him, if I was successful in my effort for
+freedom. He was very glad to see me, and entered with great
+animation upon the plan for his own escape. He had a wife,
+who was a free woman, and consequently he had a home. He
+soon went out, and, left me in the wash-room with the old man.
+He went home to apprize his wife, and to prepare a room for my
+concealment. His wife is a very active, industrious woman, and
+they were enabled to rent a very comfortable house, and at this
+time had a spare room in the attic, where I could be thoroughly
+concealed.</p>
+        <p>He soon returned, and said every thing was ready. I
+went home with him, and before ten o'clock at night I was
+stowed away in a little room that was to be my prison-
+house for about a week. It was a comfortable room; still
+the confinement was close, and I was unable to take exercise,
+<pb id="clarke50" n="50"/>
+lest the people in the other part of the house should hear. I
+got out and walked around a little in the evening, but suffered a
+good deal for want of more room to live and move in. During
+the day Cyrus was busy making arrangements for his departure.
+He had several little sums of money in the hands of the foreman
+of the tan-yard, and in other hands. Now it would not do to go
+right boldly up and demand his pay of every one that owed
+him; this would lead to suspicion at once. So he contrived
+various ways to get in his little debts. He had seen the foreman
+one day counting out some singular coin of some foreign
+nation; he pretended to take a great liking to that foreign
+money, and told the man, if he would pay him what was due him
+in <hi rend="italics">that</hi> money, he would give him two or three dollars. From
+another person he took an order on a store, and so, in various
+ways, he got in his little debts as well as he could. At night we
+contrived to plan the ways and means of escaping. Cyrus had
+never been much accustomed to walking, and he dreaded very
+much to undertake such a journey. He proposed to take a
+couple of horses, as he thought he had richly earned them, over
+and above all he had received. I objected to this, because, if we
+were caught, either in Kentucky or out of it, they would bring
+against us the charge of stealing, and this would be far worse
+than the charge of running away.</p>
+        <p>To all these propositions I firmly replied, “We must go on
+foot.” In the course of a week, Cyrus had gathered something
+like twenty dollars, and we were ready for our journey. A
+family lived in the same house with Cyrus, in a room below.
+How to get out in the early part of the evening, and not be
+discovered, was not an easy
+<pb id="clarke51" n="51"/>
+question. Finally, we agreed that Cyrus should go down and
+get into conversation with them, while I slipped out with his
+bundle of clothes, and repaired to a certain street, where he
+was to meet me.</p>
+        <p>As I passed silently out at the door, Cyrus was cracking
+his best jokes, and raising a general laugh, which completely
+covered my retreat. Cyrus soon took quiet and unexpected
+leave of his friends in that family, and leave also of his wife
+above—for a short time only. At a little past eight of the
+clock, we were beyond the bounds of the city. His wife did
+all she could to assist him in his effort to gain his inalienable
+rights. She did not dare, however, to let the slaveholders know
+that she knew any thing of his attempt to run away. He had
+told the slaves that he was going to see his sister, about
+twelve miles off. It was Saturday night when we left Lexington.
+On entering the town, when I went in, I was so intent upon
+covering up my face, that I took but little notice of the roads.
+We were very soon exceedingly perplexed to know what
+road to take. The moon favored us, for it was a clear, beautiful
+night. On we came, but at the cross of the roads what to
+do we did not know. At length I climbed one of the
+guide posts, and <hi rend="italics">spelled</hi> out the names as well as I could.
+We were on the road to freedom's boundary, and with a
+strong step we measured off the path; but again the cross
+roads perplexed us. This time we took hold of the sign
+post and lifted it out of the ground, and turned it upon one
+of its horns, and spelled out the way again. As we started
+from this goal, I told Cyrus we had not put up the
+sign post. He pulled forward, and said he guessed we
+would do that when we came back. Whether the sign
+board is up or down, we have never been there to see.</p>
+        <pb id="clarke52" n="52"/>
+        <p>Soon after leaving the city, we met a great many of the
+patrols, but they did not arrest us, and we ad no disposition
+to trouble them.</p>
+        <p>While we were pressing on by moon light, and sometimes in
+great doubt about the road, Cyrus was a good deal
+discouraged. He thought if we got upon the wrong road, it
+would be almost certain death for us, or something worse. In
+the morning we found that, on account of our embarrassment in
+regard to the roads, we had only made a progress of some
+twenty or twenty-five miles. But we were greatly cheered to find
+they were so many miles in the right direction. Then we put the
+best foot forward, and urged our way as fast as possible. In the
+afternoon it rained very hard, the roads were muddy and
+slippery. We had slept none the night before, and had been of
+course very much excited. In this state of mind and of body,
+just before dark we stopped in a little patch of bushes, to
+discuss the expediency of going to a house, which we saw at a
+distance, to spend the night.</p>
+        <p>As we sat there, Cyrus became very much excited, and
+pointing across the road, exclaimed, “Don't you see that animal
+there<sic corr="?">.</sic>” I looked, but saw nothing; still he affirmed that he saw a
+dreadful-looking animal looking at us, and ready to make a
+spring. He began to feel for his pistols, but I told him not to fire
+there; but he persisted in pointing to the animal, although I am
+persuaded he saw nothing, only by the force of his
+imagination. I had some doubts about telling this story, lest
+people would not believe me; but a friend has suggested to me
+that such things are not uncommon, when the imagination is
+strongly excited. The reader may see confirmation of this fact, by
+turning to a note at the end of this pamphlet.</p>
+        <pb id="clarke53" n="53"/>
+        <p>In travelling through the rain and mud this afternoon, we
+suffered beyond all power of description. Sometimes we found
+ourselves just ready to stand fast asleep in the middle of the
+road. Our feet were blistered all over. When Cyrus would get
+almost discouraged, I urged him on, saying we were walking
+for <hi rend="italics">freedom now.</hi> Yes, he would say, “Freedom is good, Lewis,
+but this is a <hi rend="italics">hard, h-a-r-d</hi> way to get it.” This he would say
+half asleep. We were so weak before night, that we several
+times fell upon our knees in the road. We had crackers with us,
+but we had no appetite to eat—<hi rend="italics">fears</hi> were behind us,  <hi rend="italics">hope</hi>
+before—and we were driven and drawn as hard as ever men
+were. Our limbs and joints were so stiff, that if we took a step
+to the right hand or left, it seemed as though it would shake us
+to pieces. It was a dark, weary day to us both.</p>
+        <p>At length I succeeded in getting the consent of Cyrus to go
+to a house for the night. We found a plain farmer's family. The
+good man was all taken up in talking about the camp-meeting
+held that day about three miles from his house. He only asked
+us where we were from, and we told him our home was in Ohio.
+He said the young men had behaved unaccountably bad at
+the camp-meeting, and they had but little comfort of it. They
+mocked the preachers, and disturbed the meeting badly.</p>
+        <p>We escaped suspicion more readily, as I have no doubt,
+from the supposition, on the part of many, that we were going
+to the camp-meeting. Next morning we called at the meeting,
+as it was on our way, bought up a little extra gingerbread
+against the time of need, and marched forward for the Ohio.
+When any one inquired why we left the meeting so soon, we
+had an answer ready: the young men behave so bad, we can
+get no good of the meeting.</p>
+        <pb id="clarke54" n="54"/>
+        <p>By this time we limped badly, and we were sore all over. A
+young lady whom we met, noticing that we walked lame, cried
+out, mocking us, “O my feet, my feet, how sore.” At about
+eleven o'clock we reached the river, two miles below Ripley.
+The boatman was on the other side. We called for him. He
+asked us a few questions. This was a last point with us. We
+tried our best to appear unconcerned. I asked questions about
+the boats, as though I had been there before; went to Cyrus
+and said, Sir, I have no change, will you lend me enough to
+pay my toll? I will pay you before we part. When we were
+fairly landed upon the northern bank, and had gone a few
+steps, Cyrus stopped suddenly on seeing the water gush out
+at the side of the hill. Said he, “Lewis, give me that tin cup.”
+What in the world do you want of a tin cup now? we have not
+time to stop. The cup he would have. Then he went up to the
+spring, dipped and drank, and dipped and drank; then he
+would look round and drink again. “What in the world,” said I,
+“are you fooling there for?” “O,” said he, “this is the first time I
+ever had a chance to drink water that ran out of the<hi rend="italics"> free</hi> dirt.”
+Then we went a little further, and he sat down on a log. I urged
+him forward. “O,” said he, “I must sit on this free timber a little
+while.”</p>
+        <p>A short distance further on, we saw a man who seemed to
+watch us very closely. I asked him which was the best way to
+go, <hi rend="italics">over</hi> the hill before us or <hi rend="italics">around</hi> it. I did this to appear to
+know something about the location. He went off without
+offering any obstacles to our journey. In going up the hill,
+Cyrus would stop and lay down and roll over. “What in the
+world are you about, Cyrus; don't you see Kentucky is over
+there?” He still continued to
+<pb id="clarke55" n="55"/>
+roll and kiss the ground; said it was a game horse that could
+roll clear over;—then he would put face to the ground, and roll
+over and over. “First time,” he said, “he ever rolled on <hi rend="italics">free</hi> grass.”</p>
+        <p>After he recovered a little from his sportive mood, we went
+Up to the house of a good friend of the slave at Ripley. We
+were weary and worn enough; though ever since we left the
+River, it seemed as though Cyrus was young and spry as a
+colt; but when we got where we could <hi rend="italics">rest,</hi> we found
+ourselves <hi rend="italics">tired.</hi> The good lady showed us into a good bed-room.
+Cyrus was skittish. He would not go in and lay down. “I
+am afraid,” said he, “of old mistress. She is too good—too
+good—can't be so—they want to catch us both.” So to pacify
+him, I had to go out into the orchard and rest there. When the
+young men came home, he soon got acquainted, and felt sure
+they were his friends. From this place we were sent on by the
+friends, from place to place, till we reached Oberlin, Ohio,—in
+about five weeks after I left there to go for Cyrus. I had
+encountered a good deal of peril; had suffered much from
+anxiety of feeling; but felt richly repaid in seeing another
+brother free.</p>
+        <p>We stopped at Oberlin a few days, and then Cyrus started
+for Canada. He did not feel exactly safe. When
+he reached the Lake, he met a man from Lexington who
+knew him perfectly; indeed, the very man of whom
+his wife hired her house. This man asked him if he was free. He
+told him yes, he was free, and he was hunting
+for brother Milton, to get him to go back and settle with
+the old man for his freedom. Putnam told him that was all right.
+He asked Cyrus if he should still want that house his wife lived
+in? “O yes,” said Cyrus, “we will notify
+<pb id="clarke56" n="56"/>
+you when we don't want it any more. You tell them I shall be down
+there in a few days. I have heard of Milton, and expect to have him
+soon to carry back with me.” Putnam went home, and when he found
+what a fool Cyrus had made of him, he was vexed enough. “A rascal,”
+he said, “I could have caught him as well as not.”</p>
+        <p>Cyrus hastened over to Canada. He did not like that country so
+well as the States, and in a few weeks returned.  He had already sent a
+letter to his wife, giving her an account of his successful escape, and
+urging her to join him as soon as possible. He had the pleasure of
+meeting his wife and her three children by a former husband, and they
+have found a quiet resting place, where, if the rumor of oppression
+reaches them, they do not feel its scourge, nor its chains. And there is
+no doubt entertained by any of his friends but he can take care of
+himself.</p>
+        <p>He begins already to appreciate his rights, and to maintain them as a
+freeman. The following paragraph concerning him was published in
+the Liberty Press about one year since.</p>
+        <q rend="italics" direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <head>PROGRESS OF FREEDOM.</head>
+                <head>SCENE AT HAMILTON VILLAGE, N. Y.</head>
+                <p>Mr. Cyrus Clarke, a brother of the well known Milton and Lewis
+Clarke, (all of whom, till within a short time since, for some
+twenty-five years were slaves in Kentucky,) mildly, but firmly
+presented his ballot at the town meeting board. Be it known that
+said Cyrus, as well as his brothers, are white, with only a sprinkling
+of the African—just enough to make them bright, quick, and
+intelligent, and scarcely observable in the color except by the keen
+and scenting slaveholder. Mr. Clarke had all the necessary
+qualifications of white men to vote.</p>
+                <p><hi rend="italics">Slave.</hi>—Gentlemen, here is my ballot, I wish to vote. (Board
+<pb id="clarke57" n="57"/>
+and bystanders, well knowing him, all were aghast—the waters were
+troubled—the slave legions were “up in their might.”)</p>
+                <p><hi rend="italics">Judge E.</hi>—You can't vote! Are you not, and have you not been a
+slave?</p>
+                <p><hi rend="italics">Slave.</hi>—I shall not <hi rend="italics">lie</hi> to vote. I am and have been a slave, so called;
+but I wish to vote, and I believe it my right and duty.</p>
+                <p><hi rend="italics">Judge E.</hi>—Slaves can't vote.</p>
+                <p><hi rend="italics">Slave.</hi>—Will you just show me in your books, constitution, or
+whatever you call them, where it says a slave can't vote?</p>
+                <p><hi rend="italics">Judge E.</hi>—(Pretending to look over the law, &amp;c., well knowing he
+was “used up.”) Well, well, you are a colored man, and can't vote
+without you are worth $250.</p>
+                <p><hi rend="italics">Slave.</hi>—I am as white as <hi rend="italics">you; </hi>and don't <hi rend="italics">you vote?</hi></p>
+                <p>(Mr. E. is well known to be very dark; indeed, as dark or darker
+than Clarke. The current began to set against Mr. E. by murmurs,
+sneers, laughs, and many other demonstrations of dislike.)</p>
+                <p><hi rend="italics">Judge E.</hi>—Are you not a <hi rend="italics">colored man?</hi> and is not your hair curly?</p>
+                <p><hi rend="italics">Slave.</hi>—We are both colored men; and all we differ is, that you
+have not the handsome wavy curl; you raise <hi rend="italics">Goat's wool,</hi> and I
+come, as you see, a little nearer <hi rend="italics">Saxony.</hi></p>
+                <p>At this time the fire and fun was at its height, and was fast
+consuming the judge with public opprobrium.</p>
+                <p><hi rend="italics">Judge E.</hi>—I challenge this man's vote, he being a colored man, and
+not worth $250.</p>
+                <p>Friends and foes warmly contested what constituted a colored man
+by the New York statute. The board finally came to the honorable
+conclusion that, to be a <hi rend="italics">colored</hi> man, he must be at least one half
+blood African. Mr. Clarke, the SLAVE, then voted, he being nearly full
+white. I have the history of this transaction from Mr. Clarke, in
+person. In substance it is as told me, but varying more or less from
+his language used.</p>
+                <closer><dateline>Paris, March 12, 1844.</dateline>
+<signed>J. THOMPSON.</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="clarke58" n="58"/>
+        <p>Martha, the wife of Cyrus, had a long story of the wrath of
+the slaveholders, because he ran away. Monday morning she
+went down in great distress to the overseer to inquire for her
+husband. She, of course, was in great anxiety about him<sic corr=".">,</sic> Mr.
+Logan threatened her severely, but she, having a little mixture
+of the Indian, Saxon and African blood, was quite too keen for
+them. She succeeded in so far lulling their suspicions as to
+make her escape, and was very fortunate in her journey to her
+husband.</p>
+        <p>Soon after the escape of Cyrus, the Goths and Vandals of
+Kentucky made an irruption into Ohio, going about like Satan,
+seeking whom they might devour. Their special object of
+attack, however, was brother Milton. In August 1842, Milton
+and myself went up to Madison, Lake <sic corr="C">c</sic>ounty, Ohio, to spend a
+few days. Milton went in a private conveyance with a widow
+lady named Cole, and her daughter. I went in the stage. Mrs.
+Cole and daughter spent their time at Dr. Merriam's. Milton and
+myself were the guests of a Mr. Winchester. We went to
+meeting with the family on the Sabbath, and in the evening
+gave some account of our sufferings while in bondage.
+<hi rend="italics">Postlewaite</hi> and McGowan, two pirates from Kentucky, were in
+the neighborhood at this time, waiting like beasts of prey to
+leap upon their victim.</p>
+        <p>Monday morning, my brother and myself, with two or three
+of Mr. Winchester's family, rode up to Dr. Merriam's to see the
+sick daughter of Mrs. Cole. Milton sat a few moments in the
+carriage, and the sick daughter of Mrs. Cole and a child of Dr.
+Merriam came out and wanted a ride. He had driven only a mile
+or two, when a close carriage met him, and turning directly
+across the road, several persons leaped out and stopped his horse.
+He had no
+<pb id="clarke59" n="59"/>
+suspicion who they were, and asked what they wanted. If they
+wanted money, he had but half a dollar, he told them, and they
+were welcome to that. They replied, “We do not want your
+money, but you.” Four men were now around him, and one of
+them ordered him to get out of the buggy—“Have you we will,
+dead or alive.”</p>
+        <p>As he jumped from the carriage, and struck the ground, they
+all leaped upon him, bent his head down to the ground, and
+bound him with a rope. The horse, which he left turned out of
+the road, upset the carriage, and tipped out the little girls; the
+sick one never recovered from the shock she received. Milton
+appealed to them to take care of the children, who were
+screaming in a frightful manner. The only reply was, that if they
+did not hold their tongues, they would cut their d—d throats.</p>
+        <p>After Milton was bound, he was carried to Centreville, before
+a magistrate called Page. The agents of Mr. Logan of Kentucky,
+had power of attorney to seize and bring home, wherever
+found, one Milton Clarke, the property of the said Logan.
+These man-hunters were provided with papers, by which they
+could identify him, and had also recommendations from some
+of the leading men in Kentucky. They employed a miserable
+toad-eater of a lawyer, who calls himself Robert Harper. This
+less than man was ready to betray innocent blood for less than
+thirty pieces of silver. The examination was continued before
+the magistrate for several hours. The result was, that Milton
+was delivered over to those whose tender mercies are cruel.
+Meanwhile, the friends of the slave had not been idle. They
+had procured two writs, one from Lake county, to arrest
+Postlewaite &amp; Co. as kidnappers, another from Ashtabula
+<sic corr="C">c</sic>ounty, to take the body of Milton Clarke.</p>
+        <pb id="clarke60" n="60"/>
+        <p>The road that lead from the place of trial was between the two
+counties. Great numbers were by this time gathered together.
+They so managed to throw obstructions in the way of the
+carriage, that it could make only a zigzag course until both writs
+were served, Milton was released and taken into Ashtabula
+county and permitted to go free, the kidnappers in great wrath
+were taken in an opposite direction, and after a while they
+were permitted to return empty handed to Kentucky.</p>
+        <p>We remained but a short time after this in Ohio. I spent a few
+days in New York; found there a great many warm friends,
+and in the autumn of 1843 1 came to old Massachusetts. Since
+that time I have been engaged a large part of the time in telling
+the story of what I have felt and seen of slavery.</p>
+        <p>I have generally found large audiences, and a great desire
+to hear about slavery. I have been in all the New England
+States except Connecticut. <sic corr="I have">Have</sic> held, I suppose, more than
+five hundred meetings in different places, sometimes two or
+three in a place. These meetings have been kindly noticed by
+many of the papers of all parties and sects. Others have been
+very bitter and unjust in their remarks, and tried to throw every
+possible obstacle in my way. A large majority of ministers
+have been willing to give notice of my meetings, and many of
+them have attended them. I find that most ministers say they
+are abolitionists, but truth compels me to add, that in talking
+with them, I find many are more zealous to apologize for the
+slave-holders, than they are to take any active measures to do
+away slavery.</p>
+        <p>Since coming to the free States, I have been struck with
+great surprise at the quiet and peaceable manner in which
+<pb id="clarke61" n="61"/>
+families live. I had no conception that <hi rend="italics">women</hi> could live
+without quarreling, till I came into the free States.</p>
+        <p>After I had been in Ohio a short time, and had not seen nor
+heard any scolding or quarreling in the families where I was, I
+did not know how to account for it. I told Milton, one day,
+what a faculty these women have of keeping all their bad
+feelings to themselves. I have not seen them quarrel with their
+husbands, nor with the girls, or children, since I have been
+here. “O,” said Milton, “these women are not like our women
+in Kentucky; they don't fight at all.” I told him I doubted that;
+I guess they do it somewhere—in the kitchen, or down cellar. 
+“It can't be,” said I, “that a woman can live, and not scold or
+quarrel.” Milton laughed, and told me to watch them, and see
+if I could catch them at it. I have kept my eyes and ears open
+from that day to this, and I have not found the place where the
+women get mad and rave like they do in Kentucky yet. If they do
+it here, they are uncommon sly ; but I have about concluded
+that they are altogether different here from what they are in the
+slave States. I reckon slavery must work upon their minds and
+dispositions, and make them ugly.</p>
+        <p>It has been a matter of great wonder to me also, to see all
+the children, rich and poor, going to school. Every
+few miles I see a school-house here; I did not know what it
+meant when I saw these houses, when I first came to Ohio. In
+Kentucky, if you should feed your horse only when you
+come to a school-house, he would starve to death.</p>
+        <p>I never had heard a church bell only at Lexington, in
+my life. When I  saw steeples and meeting houses so
+thick, it seemed like I had got into another world.
+Nothing seems more wonderful to me now, than the different
+<pb id="clarke62" n="62"/>
+way they keep the Sabbath there, and here. In the country, in
+summer, there the people gather in groups around the meeting
+house, <hi rend="italics">built of logs,</hi> or around in the groves where they often
+meet; one company, and perhaps the minister with them, are
+talking about the price of niggers, pork, and corn ; another
+group are playing cards: others are swapping horses, or horse-
+racing; all in sight of the meeting-house or place of worship.
+After a while the minister tells them it is time to begin. They
+stop playing and talking for awhile. If they call him right smart,
+they hear him out; if he is “no account,” they turn to their
+cards and horses, and finish their devotion in this manner.</p>
+        <p>The slaveholders are continually telling how poor the white
+people are in the free States, and how much they suffer from
+poverty—no masters to look out for them, When, therefore, I
+came into Ohio, and found nearly every family living in more
+real comfort than almost any slaveholder, you may easily see I
+did not know what to make of it. I see how it is now—every
+man in the free States <hi rend="italics">works;</hi> and as they work for themselves,
+they do twice as much as they would do for another.</p>
+        <p>In fact, my wonder at the contrast between the slave and
+the free States has not ceased yet. The more I see here, the
+more I <hi rend="italics">know</hi> slavery curses the masters as well as the slave. It
+curses the soil, the houses, the churches, the schools, the
+burying-grounds, the flocks and the herds; it curses man and
+beast, male and female, old and young. It curses the child in
+the cradle, and heaps curses upon the old man as he lies
+in his grave. Let all the people, then, of the civilized world get
+up upon Mount Ebal, and curse it with a long and bitter curse,
+and with a loud voice, till it withers and dies ; till the year of
+Jubilee
+<pb id="clarke63" n="63"/>
+dawns upon the South, till the sun of a FREE DAY sends a
+beam of light and joy into every cabin.</p>
+        <p>I wish here sincerely to recognize the hand of a kind
+Providence in leading me from that terrible house of bondage,
+for raising me up friends in a land of strangers, and for leading
+me, as I hope, to a saving knowledge of the truth as it is in
+Christ. A slave cannot be sure that he will always enjoy his
+religion in peace. Some of them are beaten for acts of devotion.
+I can never express to God all the gratitude which I owe him for
+the many favors I now enjoy. I try to live in love with all men.
+Nothing would delight me more, than to take the worst
+slaveholder by the hand, even Mrs. Banton, and freely forgive
+her, if I thought she had repented of her sins. While she, or
+any other man or woman is trampling down the image of God,
+and <hi rend="italics">abusing</hi> the life out of the poor slave, I cannot believe
+they are Christians, or that they ought to be allowed the
+Christian name for one moment. I testify against them now, as
+having none of the spirit of Christ. There will be a cloud of
+swift witnesses against them at the day of judgment. The
+testimony of the slave will be heard then. He has no voice at
+the tribunals of earthly justice, but he will one day be heard;
+and then such revelations will be made, as will fully justify the
+opinion which I have been compelled to form of slaveholders.
+They are a SEED of <hi rend="italics">evil-doers,</hi>—<hi rend="italics">corrupt</hi> are they —they have
+done abominable works.</p>
+      </div1>
+    </body>
+    <back>
+      <div1>
+        <pb id="clarke65" n="65"/>
+        <head>APPENDIX.</head>
+        <head>A SKETCH OF THE CLARKE FAMILY.</head>
+        <p>My mother was called a very handsome woman. She was
+very much esteemed by all who knew her;—the slaves looked
+up to her for advice. She died, much lamented, of the cholera,
+in the year 1833. I was not at home, and had not even the
+melancholy pleasure of following her to her grave.</p>
+        <p>1. The name of the oldest member of the family was Archy.
+He never enjoyed very good health, but was a man of great
+ingenuity, and very much beloved by all his associates,
+colored and white. Through his own exertions, and the
+kindness of C. M. Clay and one or two other friends, he
+procured his freedom. He lived to repay Mr. Clay and others
+the money advanced for him, but not long enough to enjoy for
+many years the freedom for which he had struggled so hard.
+He paid six hundred dollars for himself. He died about seven
+years since, leaving a wife and four or five children in
+bondage—the inheritance of the widow and poor orphans is,
+LABOR WITHOUT WAGES—WRONGS WITH NO
+REDRESS—SEPARATION FROM EACH OTHER FOR
+LIFE, and no being to hear their complaint,
+<pb id="clakre66" n="66"/>
+but that God who is the <hi rend="italics">widow's God and Judge.</hi>
+“Shall I not be avenged on such a nation as this?”</p>
+        <p>2. Sister Christiana was next to Archy in age. She was first
+married to a free colored man. By him she had several children.
+Her master did not like this connection, and her husband was
+driven away, and told never to be seen there again. The name
+of her master is Oliver Anderson—he is a leading man in the
+Presbyterian Church, and is considered one of the best among
+slaveholders. Mr. Anderson married Polly Campbell, at the time
+I was given to Mrs. Betsy Banton. I believe she and Mrs.
+Banton have not spoken together since they divided the slaves
+at the death of their father. They are the only two sisters now
+living of the Campbell family.</p>
+        <p>3. Dennis is the third member of our family. He is a free man
+in Kentucky, and is doing a very good business there. He was
+assisted by a Mr. Wm. L. Stevenson, and also by his sister, in
+getting his freedom. He never had any knowledge of our
+intention of running away, nor did he assist us in any manner
+whatever.</p>
+        <p>4. Alexander is the fourth child of my mother. He is the slave
+of a Dr. Richardson; has with him a very easy time; lives as
+well as a man can and be a slave; has no intention of running
+away. He lives very much like a second-hand gentleman, and I
+do not know as he would leave Kentucky on any condition.</p>
+        <p>5. My mother lost her fifth child soon after it was born.</p>
+        <p>6. Delia came next. Hers was a most bitter and tragical
+history. She was so unfortunate as to be uncommonly
+handsome, and when arrived at woman's estate, was considered a
+great prize for the guilty passions of the slaveholders.
+<pb id="clarke67" n="67"/>
+She was at this time the property of Joseph Logan,
+who had married one of the daughters of Mr. Campbell. On
+the death of his wife, he proposed to make a mistress of poor
+Delia. By the advice of her mother, she rejected every such
+proposal. Her mother urged her to die, rather than give herself
+up to him.</p>
+        <p>For her refusal, she was repeatedly and most cruelly
+whipped. One day, while beating her in a most terrible manner,
+my mother went out, (she was at this time the property of this
+same Logan,) and entreated him not to kill her child.
+The brute turned round and knocked her down, and beat
+out several of her teeth. Milton was standing by, and
+when he saw. this, he ran to the wood-house and got an axe,
+and was coming to cut this monster down. Mother was up,
+and met him just in time to keep him back; if he had attempted
+it, of course Logan would have killed him in a moment.</p>
+        <p>Logan never succeeded in his infernal purposes. Vexed and
+disappointed, he determined on revenge. Sister was sold to
+Warren Orford, a slave-dealer, carried down to New Orleans,
+and put upon the auction block. The bidding went on rapidly,
+till it was up to a thousand dollars; there seemed to be some
+hesitation then. She had been decked out in rich clothing, like
+a victim for the sacrifice. The auctioneer at this point took out
+his recommendations—“She is a member of the Baptist
+Church, in good standing, pious and exemplary, and
+<hi rend="italics">warranted</hi> never to have had connection with any man.”</p>
+        <p>The bidding was suddenly brisk, and she was knocked off
+at <hi rend="italics">sixteen</hi> hundred dollars. Fortunately, God had provided for
+her a humane master. She went immediately into the hands of
+a kind-hearted Frenchman, who emancipated her, and made
+her his lawful wife.</p>
+        <pb id="clarke68" n="68"/>
+        <p>In a few years her husband died, and left her a handsome
+property. She only visited Kentucky once after this, when she
+assisted Dennis in getting his freedom. She intended to go on,
+and, if possible, get the whole family free, as fast as she could.
+But death cut short all her purposes of kindness and sisterly
+affection. She is remembered by the whole family with a most
+melancholy and tender interest. She left no children, and the
+estate came properly to the brother who is free in Kentucky.
+But he has made very little exertion to get it, and probably
+would not be successful if he should.<ref targOrder="U" id="ref1" n="1" rend="sc" target="note1">*</ref></p>
+        <p>7. To No. 7, I, Lewis Clarke, respond, and of me you have
+heard enough already.</p>
+        <p>8. Milton comes next, and he is speaking for himself. He is
+almost constantly engaged in giving lectures upon the subject
+of slavery; has more calls usually than he can attend to.</p>
+        <p>9. Manda, the ninth child, died when she was about fifteen
+or sixteen years of age. She suffered a good deal from Joseph
+Logan's second wife.</p>
+        <p>10. Cyrus is the youngest of the family, and lives at
+Hamilton, New York.</p>
+        <note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1">
+          <p>* She left a writing saying she wished Milton to take her property,
+and use it for the family. He went down to New Orleans to get it, but
+being a <hi rend="italics">slave,</hi> he was told there he could not get the property.</p>
+        </note>
+      </div1>
+      <div1>
+        <pb id="clarke69" n="69"/>
+        <head>QUESTIONS AND ANSWERS.</head>
+        <p>The following questions are often asked me, when I meet
+the people in public, and I have thought it would be well to
+put down the answers here.</p>
+        <p>How many holidays in a year do the slaves in Kentucky
+have? They usually have six days at Christmas, and two or
+three others in the course of the year. Public opinion generally
+seems to require this much of slaveholders; a few give more,
+some less, some <hi rend="italics">none,</hi> not a day nor an hour.</p>
+        <p>How do slaves spend the Sabbath? Every way the master
+pleases. There are certain kinds of work which are respectable
+for Sabbath-day. Slaves are often sent out to salt the cattle,
+collect and count the pigs and sheep, mend fences, drive the
+stock from one pasture to another. Breaking young horses and
+mules to send them to market, yoking young oxen and training
+them, is proper Sabbath work. Piling and burning brush on the
+back part of the lot, grubbing brier patches that are out of the
+way, and where they will not be seen. Sometimes corn must be
+shelled in the corn-crib; hemp is baled in the hemp-house. The
+still-house must be attended on the Sabbath. In these and
+various other such like employments, the more avaricious
+slaveholders keep their slaves busy a good part of every
+Sabbath. It is a great day for visiting and eating, and the house
+servants often have more to do on that than on any other day.</p>
+        <p>What if strangers come along and see you at work?
+<pb id="clarke70" n="70"/>
+We must quit shelling corn, and go to play with the cobs, or
+else we must be clearing land on our own account. We must
+cover up master's sins as much as possible, and take it all to
+ourselves. It is hardly fair; for he ought rather to account for
+our sins, than we for his.</p>
+        <p>Why did you not learn to read? I did not 
+<hi rend="italics">dare</hi> to learn. I
+attempted to spell some words when a child. One of the
+children of Mrs. Banton went in and told her that she heard
+Lewis spelling. Mrs. B. Jumped up as though she had been
+shot. “Let me ever know you to spell another word, I'll take
+your <hi rend="italics">heart</hi> right out of you.” I had a strong desire to learn. But it
+would not do to have slaves learn to read and write. They
+could read the guide-boards. They could write passes for each
+other. They cannot leave the plantation on the Sabbath
+without a written pass.</p>
+        <p>What proportion of slaves attend church on the Sabbath?
+In the country not <hi rend="italics">more</hi> than <hi rend="italics">one in ten on an average.</hi></p>
+        <p>How many slaves have you ever known that could read? I
+never saw more than three or four that could properly read at
+all. I never saw but one that could write.</p>
+        <p>What do slaves know about the Bible? They generally
+believe there is somewhere a real Bible, that came from God;
+but they frequently say the Bible now used is master's Bible,
+most that they bear from it being, “Servants, obey your
+masters.”</p>
+        <p>Are families often separated? How many such cases have
+you personally known? <hi rend="italics">I never knew a whole family to live
+together, till all were grown up, in my life.</hi> There is almost
+always, in every family, some one or more
+<pb id="clarke71" n="71"/>
+keen and bright, or else sullen and stubborn slave, whose
+influence they are afraid of on the rest of the family, and such
+<sic corr="a">an</sic> one must take a walking ticket to the South.</p>
+        <p>There are other causes of separation. The death of a
+large owner is the occasion usually of many families being
+broken up. Bankruptcy is another cause of separation,
+and the hard-heartedness of a majority of slaveholders
+another and a more fruitful cause than either or all the
+rest. <hi rend="italics">Generally</hi> there is but little more scruple about separating 
+families than there is with a man who keeps sheep
+in selling off the lambs in the fall. On one plantation
+where I lived, there was an old slave named Paris. He was
+from fifty to sixty years old, and a very honest and apparently
+a pious slave. A slave-trader came along one day, gathering
+hands for the South. The old master ordered the waiter or
+coachman to take Paris into the back room, <hi rend="italics">pluck out</hi> all
+his grey hairs, rub his face with a greasy towel, and then
+had him brought forward and sold for a <hi rend="italics">young</hi> man. His wife
+consented to go with him, upon a promise from the trader that
+they should be sold together, with their youngest child which
+she carried in her arms. They left two behind them, who were
+only from four to six or eight years of age. The speculator
+collected his drove, started for the market, and before he left
+the State he <hi rend="italics">sold that infant child</hi> to pay one of his tavern
+bills, and took the balance in cash. This was the news which
+came back to us, and was never disputed.</p>
+        <p>I saw one slave mother, named Lucy, with seven children,
+put up by an administrator for sale. At first the mother and
+three small children were put up together. The purchasers
+objected: one says, I want the woman and the babe, but not
+the other children; another says, I want
+<pb id="clarke72" n="72"/>
+that little girl; and another, I want the boy. Well, says the
+Administrator, I must let you have them to the best
+advantage. So the children were taken away ; the mother and
+infant were first sold, then child after child—the
+mother looking on in perfect agony; and as one child after
+another came down from the auction block, they would run,
+and cling weeping to her clothes. The poor mother
+stood, till nature gave way; she fainted and fell, with her child
+in her arms. The only sympathy she received from most of the
+hard-hearted monsters who had riven her heart-strings
+asunder was, “She is a d—d deceitful bitch; I wish she was
+mine, I would teach her better than to cut up such shines as
+that here.” When she came to, she moaned <sic corr="woefully">wofully,</sic> and
+prayed that she might die, to be relieved from her sufferings.</p>
+        <p>I knew another slave named Nathan, who had a slave
+woman for a wife. She was killed by hard usage. Nathan then
+declared he would never have another slave wife. He selected
+a free woman for a companion. His master opposed it violently.
+But Nathan persevered in his choice, and in consequence was
+sold to go down South. He returned once to see his wife, and
+she soon after died of grief and disappointment. On his return
+South, he leaped from the boat, and attempted to swim ashore;
+his master, on board the boat, took a gun and deliberately shot 
+him, and he drifted down the current of the river.</p>
+        <p>On this subject of separation of families, I must plant one
+more rose in the garland that I have already tied upon the
+brow of the sweet Mrs. Banton. The reader cannot have
+forgotten her; and in the delectable business of tearing
+families asunder she of course would have a hand. A slave by
+the name of Susan was taken by Mrs.
+<pb id="clarke73" n="73"/>
+Banton on mortgage. She had been well treated where she was
+brought up, had a husband, and they were very happy
+together. Susan mourned in bitterness over her separation,
+and pined away under the cruel hand of Mrs. Banton. At
+length she ran away, and hid herself in the neighborhood of
+her husband. When this came to the knowledge of Mrs. B., she
+charged her husband to go for “Suke,” and never let her see
+his face unless she was with him. “No, said she, if you are
+offered a double price, don't you take it. I want my
+satisfaction out of her, and then you may sell her as soon
+as you please.” Susan was brought back in fetters, and Mr.
+and Mrs. B. both took their <hi rend="italics">satisfaction;</hi> they beat and
+tortured poor Susan till her premature offspring perished,
+and she almost sank beneath their merciless hands,
+and then they sold her to be carried a hundred miles farther
+away from her husband. Ah! slavery is like running the
+dissecting knife around the heart, among all the tender fibres
+of our being.</p>
+        <p>A man by the name of Bill Myers, in Kentucky, went to a
+large number of auctions, and purchased women about forty
+years old, with their youngest children in their arms. As they
+are about to cease bearing at that age, they are sold cheap.
+The children he took and shut up in a log pen, and set some
+old worn-out slave women to make broth and feed them. The
+mothers he gathered in a large drove, and carried them South
+and sold them. He was detained there for months longer than
+he expected, and winter coming on, and no proper provision
+having been made for the children, many of them perished with
+cold and hunger, some were frost bitten, and all were
+emaciated to skeletons. This was the only attempt that I ever
+knew, for gathering young children together, like a litter
+<pb id="clarke74" n="74"/>
+of pigs, to be raised for the market. The success was not such
+as to warrant a repetition on the part of Myers.</p>
+        <p>Jockey Billy Barnett had a slave-prison, where he gathered
+his droves of husbands, fathers and wives, separated from
+their friends, and be tried to keep up their spirits by employing
+one or two fiddlers to play for them, while they danced over
+and upon the torn-off fibres of their hearts. Several women
+were known to have died in that worse than Calcutta Black
+Hole of grief. They mourned for their children, and would not
+be comforted because they were not.</p>
+        <p>How are the slave cabins usually built? They are made of
+small logs, about from ten to twenty feet square. The roof is
+covered with splits, and dirt is thrown in to raise the bottom,
+and then it is beat down hard for a floor. The chimneys are
+made of cut sticks and clay. In the corners, or at the sides,
+there are pens made, filled with straw, for sleeping. Very
+commonly two or three families are huddled together in one
+cabin, and in cold weather they sleep together promiscuously,
+old and young. Some few families are indulged in the privilege
+of having a few hens or ducks around them, but this is not
+very common.</p>
+        <p>What amount of food do slaves have in Kentucky? They
+are not put on allowance; they generally have enough of corn
+bread, and meat and soup are dealt to them occasionally.</p>
+        <p>What is the clothing of a slave for a year? For summer he
+has usually a pair of tow and linen pants, and two shirts of the
+same material. He has a pair of shoes, a pair of woolsey pants,
+and a round jacket for winter.</p>
+        <p>The account current of a slave with his master stands about
+thus:</p>
+        <pb id="clarke75" n="75"/>
+        <p>
+          <figure id="ill1" entity="clark75">
+            <p>[Slave Financial Account]</p>
+          </figure>
+        </p>
+        <p>The account stands unbalanced thus till the great day of
+reckoning comes.</p>
+        <p>Now allow that one half of the slaves are capable of labor—
+that they can earn on an average one half the sum above
+named; that would give us $50 a year for 1,500,000 slaves,
+which would be <hi rend="italics">seventy-five millions</hi> as <hi rend="italics">the sum robbed</hi> from
+the slaves every year!! “<sic corr="woe">Wo</sic> unto him that useth his
+neighbor's service without wages.” <sic corr="woe">Wo</sic> unto him that buildeth
+his house by iniquity, “for the stone shall cry out of the wall,
+and the beam out of the timber shall answer it.” “Behold the
+hire of the laborers who have reaped down your fields, which
+is of you kept back by fraud, crieth; and the cries of them
+which have reaped are entered into the ears of the Lord of
+Sabaoth.
+<pb id="clarke76" n="76"/>
+Ye have lived in pleasure on the earth and been wanton;
+ye have nourished your hearts as in a day of slaughter.”</p>
+        <p>Have you ever known a slave mother to kill her own children?
+There was a slave mother near where I lived, who took her
+child into the cellar and killed it. She did it to prevent being
+separated from her child. Another slave mother took her three
+children and threw them into a well, and then jumped in with
+them, and they were all drowned. Other instances I have
+frequently heard of. At the death of many and many a slave
+child I have seen the two feelings struggling in the bosom of a
+mother—joy that it was beyond the reach of the slave
+monsters, and the natural grief of a mother over her child. In
+the presence of the master, grief seems to predominate; when
+away from them, they rejoice that there is one whom the
+slave-driver will never torment.</p>
+        <p>How is it that masters <hi rend="italics">kill</hi> their slaves, when they are
+worth so much money? They do it to gratify passion; this must
+be done, cost what it may. Some say a man will not kill a horse
+worth a hundred dollars, much less a slave worth several
+hundred dollars. A horse has no such <hi rend="italics">will</hi> of his own, as the
+slave has—he does not provoke the man as a slave does. The
+master knows there is contrivance with the slave to outwit him 
+—the horse has no such <hi rend="italics">contrivance.</hi> This conflict of the <hi rend="italics">two</hi>
+WILLS is what makes the master so much more passionate with
+his slave than with a horse. A slaveholder must be master on
+the plantation, or he knows the <hi rend="italics">example</hi> would destroy all
+authority.</p>
+        <p>What do they do with old slaves who are past labor?
+Contrive all ways to keep them at work till the last hour
+<pb id="clarke77" n="77"/>
+of life. Make them shell corn and pack tobacco. They
+hunt and drive them as long as there is any life in them.
+Sometimes they turn them out to do the best they can, or
+die. One man, on moving to Missouri, sold an old slave
+for one dollar, to a man not worth a cent. The old slave
+was turned out to do the best he could; he fought with
+age and starvation awhile, but was soon found, one morning,
+<hi rend="italics">starved</hi> to death, out of doors, and half eaten up by animals.
+I have known several cases where slaves were left to starve
+to death in old age. Generally they sell them South and
+let them die there; send them, I mean, before they get very old.</p>
+        <p>What makes them wash slaves in salt and water after they
+whip them? For two reasons; one is to make them smart, and
+another to prevent mortification in the lacerated flesh. I have
+seen men and women both washed after they had been cruelly
+beaten. <hi rend="italics">I have done it with my own hands.</hi> It was the hardest
+work I ever did. The flesh would crawl and creep and quiver
+under my hands. This slave's name was Tom. He had not
+started his team Sunday morning early enough. The neighbors
+saw that Mr. Banton had work done on the Sabbath. Dalton,
+the overseer, attempted to whip him. Tom knocked him down
+and trod on him, and then ran away. The patrols caught him,
+and he was whipped <hi rend="italics">three hundred</hi> lashes. Such a back I
+never saw—such work I pray that I may never do again.</p>
+        <p>Do not slaves often say that they love their masters very
+much? Say so? yes, certainly. And this loving master
+and mistress is the hardest work that slaves have to do.
+When any stranger is present we have to love them very
+much. When master is sick we are in great trouble.
+<pb id="clarke78" n="78"/>
+Every night the slaves gather around the house, and send up
+one or two to see how master does. They creep up to the bed,
+and with a very soft voice , inquire, “How is dear massa? O
+massa, how we want to hear your voice out in the field again.”
+Well, this is what they say up in the sick room. They come
+down to their anxious companions. “How is the old man?”
+“Will he die?” Yes! yes! he sure to go this time; he never whip
+the slave no more. “Are you sure?” “Will he die?” O yes! surely
+gone for it now. Then they all look glad, and go to the cabin
+with a merry heart.</p>
+        <p>Two slaves were sent out to dig a grave for old master. They
+dug it very deep. As I passed by I asked Jess and Bob what in
+the world they dug it so deep for. It was down six or seven feet.
+I told them there would be a fuss about it, and they had better
+fill it up some. Jess said it suited him exactly. Bob said he
+would not fill it up; he wanted to get the old man as near <hi rend="italics">home</hi>
+as possible. When we got a stone to put on his grave, we
+hauled the largest we could find, so as to fasten him down as
+strong as possible.</p>
+        <p>Who are the patrols? They are men appointed by the
+county courts to look after all slaves without a pass. They
+have almost unlimited power over the slaves. They are the
+sons of run-down families. The greatest scoundrel is always
+captain of the band of patrols ; they are the offscouring of all
+things, the refuse, the fag end, the ears and tails of slavery;
+the scales and fins of fish, the tooth and tongues of serpents;
+they are the very fool's cap of baboons, the echo of parrots,
+the wallet and satchel of pole-cats, the scum of stagnant
+pools, the exuvial, the worn out skins of slaveholders;
+they dress in their old clothes;
+<pb id="clarke79" n="79"/>
+they are emphatically the servants of servants, and slaves of
+the devil; they are the meanest and lowest and worst of all
+creation. Like starved wharf rats, they are out nights, creeping
+into slave cabins, to see if they have an old bone there;
+drive out husbands from their own beds, and then take their
+places. They get up all sorts of pretences, false as their lying
+tongues can make them, and then whip the slaves and carry
+a gory lash to the master for a piece of bread.</p>
+        <p>The rascals run me with their dogs six miles, one night, and I
+was never nearer dead than when I reached home that night. I
+only escaped being half torn to pieces by the dogs, by turning
+their attention to some calves that were in the road. The dogs
+are so trained that they will seize a man as quick as any thing
+else. The dogs come very near being as mean as their masters.</p>
+        <p>Cyrus often suffered very much from these wretches. He
+was hired with a man named Baird. This man was reputed to be
+very good to his slaves. The patrols, therefore, had a special
+spite toward his slaves. They would seek for an opportunity to
+abuse them. Mr. Baird would generally give his slaves a pass
+to go to the neighbors, once or twice a week if requested. He
+had been very good to Cyrus in this respect, and therefore
+Cyrus was unwilling to ask too often. Once he went out
+without his pass. The patrols found him and some other slaves
+on another plantation without any passes. The other slaves
+belonged to a plantation where they were often whipped; so
+they gave them a moderate punishment and sent them home.
+Cyrus, they said, they would take to the woods, and have a
+regular whipping spree. It was a cold winter night, the moon
+shining brightly. When they had got into the woods,
+<pb id="clarke80" n="80"/>
+they ordered him to take off his outside coat, then his jacket;
+then he said he had a new vest on; he did not want that
+whipped all to <sic corr="pieces">peices</sic>. There were seven men standing in a ring
+around him. He looked for an opening and started at full speed.
+They took after him, but he was too spry for them. He came to
+the cabin where I slept, and I lent him a hat and a pair of shoes.
+He was very much excited: said they were all around him, but
+they <sic corr="couldn't">could'nt</sic> whip him. He went over to Mr. Baird, and the
+patrols had got there before him, and had brought his clothes
+and told their story. It was now eight or nine o'clock in the
+evening. Mr. Baird, when a young man, had lived on the plantation
+of Mr. Logan, and had been treated very kindly by mother. He
+remembered this kindness to her children. When Cyrus came in,
+Mr. Baird took his clothes and handed them to him and told
+him, “Well, boy, they came pretty near catching you.” Cyrus
+put on his clothes, went into the room where the patrols were,
+and said, “Good evening, gentlemen. Why, I did not think the
+patrols would be out to-night,—I was thinking of going over
+to Mr. Reed's; if I had I should have gone without a pass; they
+would have caught me sure enough. Mr. Baird, I wish you
+would be good enough to give me a pass, and then I won't
+be afraid of these fellows.” Mr. Baird enjoyed the fun
+right well, and sat down and wrote him a pass, and the
+patrols started and bad to find the money for their peach
+brandy some where else.</p>
+        <p>There were several other times when he had but a
+hairbreadth escape for his skin. He was generally a little too
+shrewd for them. After he had outwitted them several times,
+they offered a premium to any one who would whip him.</p>
+        <pb id="clarke81" n="81"/>
+        <p>How do slaves get information of what is doing in the free
+States? In different ways. They get something from the waiters
+that come out into the free States and then return with their
+masters. Persons from the free States tell them many things;
+the free blacks get something; and slaves learn most of all from
+hearing their masters talk.</p>
+        <p>Don't slaves that run away return sometimes? Yes. There
+was one returned from Canada very sorry he had run away.
+His master was delighted with him—thought he had him sure for
+life, and made much of him. He was sent round to tell
+how bad Canada was. He had a sermon for the public—
+the ear of the masters, and another for the slaves. How
+many he enlightened about the best way to get there I don't
+know. His master at last was so sure of him, that he let him take
+his wife and children and go over to Ohio to a camp-meeting,
+all fitted out in good style, with horse and wagon. They never
+stopped to hear any preaching, till they heard the waves of the
+lakes lift up their cheerful voices between them and the
+oppressor. George then wrote an affectionate note to his
+master, inviting him to take tea with him in Canada, beyond the
+waters, the barrier of freedom. Whether the old people ever
+went up to Canada to see their affectionate children, I have not
+learned. I have heard of several instances very much like the
+above.</p>
+        <p>If the slaves were set free, would they cut the throats of their
+masters? They are far more likely to kill them if they don't set
+them free. Nothing but the hope of emancipation, and the fear
+they might not succeed, keeps them from rising to assert their
+rights. They are restrained, also, from affection for the children
+of those who so cruelly
+<pb id="clarke82" n="82"/>
+oppress them. If none would suffer but the masters themselves,
+the slaves would make many more efforts for freedom. And
+sooner or later, unless the slaves are <hi rend="italics">given free,</hi> they will take
+freedom at all hazards. There are multitudes that chafe under
+the yoke sorely enough. They could run away themselves, but
+they would hate to leave their families.</p>
+        <p>Did the slaves in Kentucky hear of the emancipation in the
+West Indies? They did, in a very short time after it took place.
+It was the occasion of great joy. They expected they would be
+free next. This event has done much to keep up the hopes of
+the slave to the present hour.</p>
+        <p>What do slaves think of the piety of their masters?
+They have very little confidence in them about any thing. As a
+specimen of their feelings on this subject, I will tell an anecdote
+of a slave.</p>
+        <p>A slave named George, was the property of a man of high
+standing in the church. The old gentleman was taken sick, and
+the doctor told him he would die. He called George, and told
+him if he would wait upon him attentively, and do every thing for
+him possible, he would remember him in his will: he would do
+something handsome for him.</p>
+        <p>George was very much excited to know what it might be ;
+hoped it might be in the heart of his master to give him his
+freedom. At last the will was made. George was still more
+excited. The master noticed it, and asked what the matter was.
+“Massa, you promise do something for me in your will. Poor
+niggar! what Massa done for George?” “O George, don't be
+concerned; I have done a very handsome thing for you, such
+as any slave
+<pb id="clarke83" n="83"/>
+would be proud to have done for him.” This did not satisfy
+George. He was still very eager to know what it was. At length
+the master saw it necessary to tell George, to keep him quiet
+and make him attend to his duty. “Well, George, I have made
+provision that when you die, you shall have a good coffin, and
+be put into the same vault with me. Will not that satisfy you,
+George ?” “Well, Massa, one way I am satisfied, and one way I
+am not.” “What, what,” said the old master, “what is the matter
+with that?” “Why,” says George, “I like to have good coffin
+when I die.” “Well, don't you like to be in the same vault with
+me and other rich masters?” Why yes, master, one way I like it,
+and one way I don't. “Well, what don't you like?” “Why I
+afraid, Massa, when de debbil come take you body, he make
+mistake, and get mine.”</p>
+        <p>The slaves uniformly prefer to be buried at the greatest
+possible distance away from master. They are superstitious,
+and fear that the slave-driver having whipped so much when
+alive, will, somehow, be beating them when dead. I was
+actually as much afraid of my old master when dead as I was
+when he was alive. I often dreamed of him too, after he was
+dead, and thought he had actually come back again to torment
+me more.</p>
+        <p>Do you think it was right for you to run away and not pay
+any thing for yourself? I would be willing to pay, if I knew who
+to pay it to. But when I think it over, I can't find any body that
+has any better right to me than myself. I can't pay father and
+mother, for they are dead. I don't owe Mrs. Banton any thing
+for bringing me up the way she did. I worked five or six years,
+and earned more than one hundred dollars a year for Mr. K.
+and family,
+<pb id="clarke84" n="84"/>
+and received about a dozen dollars a year in clothing. Who do I
+owe, then, in Kentucky? If I catch one of the administrators on
+here, I intend to sue him for wages and interest for six years'
+hard work. There will be a small bill of damages for abuse; old
+Kentucky is not rich enough to pay me for that.</p>
+        <p>Soon after you came into Ohio, did you let yourself to
+work? I did. Was there any difference in your feelings while
+laboring there, and as a slave in Kentucky?</p>
+        <p>I made a bargain to work for a man in Ohio. I took a job of
+digging a cellar. Before I began, the people told me he was bad
+pay; they would not do it for him. I told them I had agreed to
+do it. So at it I went, worked hard, and got it off as soon as
+possible, although I did not expect to get a cent for it; and yet I
+worked more readily and with a better mind than I ever did in
+Kentucky. If I worked for nothing then, I knew I had made my
+own bargain, and working with that thought, made it easier
+than any day's work I ever did for a master in Kentucky. That
+<hi rend="italics">thought</hi> was worth more than any pay I ever got in slavery.
+However, I was more fortunate than many thought I should be;
+through the exertions of a good friend I got my pay soon after
+the work was done.</p>
+        <p>Why do slaves dread so bad to go to the South—to
+Mississippi or Louisiana? Because they know that slaves are
+driven very hard there, and worked to death in a few years.</p>
+        <p>Are those who have <hi rend="italics">good</hi> masters afraid of being sold
+South? They all suffer very much for fear master's
+circumstances will change, and that he may be compelled to
+sell them to the “SOUL DRIVERS,” a name given to the dealers by
+the slaves.</p>
+        <pb id="clarke85" n="85"/>
+        <p>What is the highest price you ever knew a slave to sell
+for? I have known a man sold for $1,465. He was a waiter
+man, very intelligent, very humble, and a good house
+servant. A good blacksmith, as I was told, was
+once sold in Kentucky for $3,000. I have heard of some girls
+being sold in New Orleans for from $2,000 to $3,000. The
+common price of females is about from $500 to $700, when
+sold for plantation hands, for house hands, or for <hi rend="italics">breeders.</hi></p>
+        <p>Why is a black slave-driver worse than a white one? He
+must be very strict and severe, or else he will be turned out.
+The master selects the hardest-hearted and most unprincipled
+slave upon the plantation. The overseers are usually a part of
+the patrols. Which is the worst of the two characters or
+<hi rend="italics">officers</hi> is hard to tell.</p>
+        <p>Are the masters afraid of insurrection? They live in
+constant and great fear upon this subject. The least unusual
+noise at night alarms them greatly. They cry out,
+“What is that?” “Are the boys all in?”</p>
+        <p>What is the worst thing you ever saw in Kentucky? The
+worst thing I ever saw, was a woman stripped all naked, hung
+up by her hands, and then whipped till the blood ran down
+her back. Sometimes this is done by a young master or
+mistress to an aged mother, or even a grandmother. Nothing
+the slaves abhor as they do this.</p>
+        <p>Which is the worst, a master or a mistress? A mistress is
+far worse. She is for ever and ever tormenting. When the
+master whips it is done with; but a mistress will blackguard,
+scold and teaze, and whip the life out of a slave.</p>
+        <p>How soon do the children begin to exercise their authority?
+From the very breast of the mother. I have seen a
+<pb id="clarke86" n="86"/>
+child, before he could talk a word, have a stick put into his
+hand, and he was permitted to whip a slave in order to quiet
+him. And from the time they are born till they die, they live by
+whipping and abusing the slave.</p>
+        <p>Do you suffer from cold in Kentucky? Many people think
+it so warm there that we are safe on this score. They are much
+mistaken. The weather is far too cold for our thin clothing;
+and in winter, from rain, sleet and snow, to which we are
+exposed, we suffer very severely, Such a thing as a great coat
+the slave very seldom has.</p>
+        <p>What do they raise in Kentucky? Corn and hemp, tobacco,
+oats, some wheat and rye; SLAVES, mules, hogs and horses, for
+the Southern market.</p>
+        <p>Do the masters drink a great deal? They are nearly all
+<hi rend="italics">hard</hi> drinkers—many of them drunkards; and you must not
+exclude mistress from the honor of drinking, as she is often
+<hi rend="italics">drunk</hi> too.</p>
+        <p>Are you not afraid they will send up and catch you, carry you
+back to Kentucky? They may make the <hi rend="italics">attempt;</hi> but I
+made up my mind, when I left slavery, never to go back
+there and continue alive. I fancy I should be a load
+for one or two of them to carry back, any how. Besides,
+they well know that they could not take me out of any
+State this side of Pennsylvania. There are very few in
+New England that would sell themselves to help a
+slaveholder; and if they should, they would have to run
+their country—they would be hooted at as they walked
+the streets.</p>
+        <p>Now, in conclusion, I just want to say, that all the abuses
+which I have here related, are <hi rend="italics">necessary,</hi> if slavery must
+continue to exist. It is impossible to cut off these
+abuses and keep slavery alive. Now if you do not approve
+<pb id="clarke87" n="87"/>
+of these horrid sufferings, I entreat you to lift up your
+voice and your hand against the whole system, and, 
+with one united effort, overturn the abominations of
+centuries, and restore scattered families to each other;
+pour light upon millions of dark minds, and make a
+thousand, yea, ten times ten thousand abodes of
+wretchedness and <sic corr="woe">wo</sic>, to hail and bless you as angels
+of mercy sent for their deliverance.</p>
+      </div1>
+      <div1>
+        <argument>
+          <p>Before closing this pamphlet, I want to put in a few pieces,
+which give such an accurate description of Slavery, that I can
+testify to the truth of every word of it. Also, a few pieces of
+poetry, that have been read to me, and with which I have been
+particularly interested.</p>
+        </argument>
+        <head>WHAT IS SLAVERY?</head>
+        <div2 type="letter">
+          <p>John G. Whittier answers,—</p>
+          <p>The slave laws of the South tell us, that it is the conversion
+of men into articles of property. The transformation of
+sentient mortals into <hi rend="italics">“chattels personal.”</hi> The principle of a
+reciprocity of benefits, which, to some extent, characterizes all
+other relations, does not exist in that of master and slave. The
+master holds the plough, which turns the soil of his plantation,
+the horse which draws it, and the slave who guides it, by one
+and the same tenure. The profit of the master is the great end
+of the slave's existence. For this end he is fed, clothed, and
+prescribed for in sickness. He learns nothing, acquires nothing
+for himself. He cannot use his own body for his own benefit.
+<pb id="clarke88" n="88"/>
+His very personality is destroyed. He is a mere instrument—a
+means in the hands of another for the accomplishment of an
+end in which his own interests are not regarded—a machine
+moved, not by his own will, but another's. In him the lawful
+distinction between a <hi rend="italics">person</hi> and a <hi rend="italics">thing</hi> is annihilated. He is
+thrust down from the place which God and Nature assigned
+him, from the equal companionship of rational intelligences
+—a man herded with beasts—an immortal nature classed
+with the wares of the merchant!</p>
+          <p>The relations of parent and child, master and apprentice,
+government and subject, are based upon the principle of
+benevolence, reciprocal benefits, and the wants of human
+society—relations which sacredly respect the rights and
+legacies which God has given to all his rational creatures. But
+SLAVERY exists only by annihilating or monopolizing these
+rights and legacies. In every other modification of society,
+man's personal ownership remains secure. He may be
+oppressed—deprived of privileges—loaded with burdens—
+hemmed about with legal disabilities—his liberties restrained.
+But, through all, the right to his own body and soul remains
+inviolate. He retains his inherent, original possession of
+himself. Even crime cannot forfeit it—for that law which
+destroys his personality makes void its own claims upon him
+as a moral agent, and the power to punish ceases with the
+accountability of the criminal. He may suffer and die under the
+penalties of the law, but he suffers as a <hi rend="italics">man,</hi> he perishes as a
+<hi rend="italics">man,</hi> and not as a<hi rend="italics"> thing.</hi> To the last moments of his existence
+the rights of a moral agent are his; they go with him to the
+grave; they constitute the ground of his accountability at the
+bar of Infinite Justice—rights fixed, eternal, inseparable—
+<pb id="clarke89" n="89"/>
+attributes of all rational intelligences in time and eternity—the
+same in essence, and differing in degree only, with those of
+the highest moral Being—of God himself.</p>
+          <p>Slavery alone lays its grasp upon the right Of PERSONAL
+OWNERSHIP—that foundation right, the removal of which
+uncreates the man; a right which God himself could not take
+away, without absolving the being thus deprived of all moral
+accountability; and so far as that being is concerned, making
+sin and holiness, crime and virtue, words without
+significance, and the promises and sanctions of Revelation,
+dreams. Hence, the crowning horror of slavery, that which lifts
+it above all other iniquities, is not that it usurps the
+prerogatives of Deity, but that it attempts that which even He,
+who has said “all souls are mine,” cannot do, without breaking
+up the foundations of his moral government.—Slavery is, in
+fact, a struggle with the Almighty for dominion over his
+rational creatures. It is leagued with the Powers of Darkness, in
+wresting man from his Maker. It is Blasphemy, lifting brazen
+brow and violent hand to Heaven, attempting a reversal of
+God's laws, Man claiming the right to uncreate his brother; to
+undo that last and most glorious work, which God himself
+pronounced good, amidst the rejoicing of the hosts of Heaven!
+Man arrogating to himself the right to change, for his own
+selfish purposes, the beautiful order of created existences—to
+pluck the crown of an immortal nature, scarce lower than that
+of angels, from the brow of his brother—to erase the God-like
+image and superscription stamped upon him by the hand of
+his Creator, and to write on the despoiled and desecrated
+tablet, “A CHATTEL PERSONAL!”</p>
+          <p>This, then, is SLAVERY. Nature, with her thousand voices,
+cries out against it. Against it, Divine Revelation 
+<pb id="clarke90" n="90"/>
+launches its thunders. The voice of God condemns it, in the
+deep places of the human heart. The woes and wrongs
+unutterable which attend this dreadful violation of natural
+justice—the stripes—the tortures—the sunderings of
+kindred—the desolation of human affections—the
+unchastity and lust—the toil uncompensated—the
+abrogated marriage—the legalized heathenism—the burial
+of the mind—are but the mere incidentals of the first
+grand outrage—that seizure of the entire man—nerve,
+sinew, and spirit, which robs him of his body, and God
+of his soul. These are but the natural results, and outward
+demonstrations of slavery—the crystalizations from the
+CHATTEL PRINCIPLE.</p>
+          <p>It is against this system, in its active operation upon three
+millions of our countrymen, that the Liberty party is, for the
+present, directing all its efforts. With such an object, well may
+we be “men of one idea.” Nor do we neglect “other great
+interests,” for all are colored and controlled by slavery, and
+the removal of this disastrous influence would most
+effectually benefit them.</p>
+          <p>Political action is the result and immediate object of moral
+suasion on this subject. Action—action—is the spirit's means
+of progress, its sole test of rectitude, its only source of
+happiness. And should not decided action follow our deep
+convictions of the wrong of slavery? Shall we denounce the
+slaveholders of the States, while <hi rend="italics">we</hi> retain <hi rend="italics">our</hi> slavery in the
+District of Columbia? Shall we pray that the God of the
+oppressed will turn the hearts of “the rulers” in South
+Carolina, while <hi rend="italics">we,</hi> the rulers of the District, refuse to open
+the prisons, and break up the slave-markets on its ten miles
+square? God keep us from such hypocrisy! Everybody, now,
+<hi rend="italics">professes</hi> to be opposed
+<pb id="clarke91" n="91"/>
+to slavery. The leaders of the two great political parties are
+grievously concerned, lest the purity of the anti-slavery
+enterprise will suffer in its connection with politics. In the
+midst of grossest <hi rend="italics">pro</hi>-slavery <hi rend="italics">action,</hi> they are full of <hi rend="italics">anti</hi>-
+slavery<hi rend="italics"> sentiment. </hi>They love the cause, but, on the whole,
+think it too good for this world. They would keep it
+sublimated, aloft, out of vulgar reach or use altogether,
+intangible as Magellan's clouds. Every body will join us in
+denouncing slavery, <hi rend="italics">in the abstract,</hi>—not a faithless priest nor
+politician will oppose us;—abandon <hi rend="italics">action,</hi> and forsooth we
+can have an abolition millenium—the wolf shall lie down with
+the lamb—while SLAVERY IN PRACTICE clanks, in
+derision, its three millions of unbroken chains. The Clays,
+the Van Burens, the Athertons, are all “abolitionists in the
+abstract.” They have no fear of the harmless spectre of an
+abstract idea. They dread it only when it puts on the flesh
+and sinews of a practical reality, and lifts its right arm in the
+strength which God giveth to <hi rend="italics">do,</hi> as well as theorize.</p>
+          <p>As honest men, then, we must needs act; let us do so as
+becomes men engaged in a great and solemn cause. Not by
+processions and idle parades, and spasmodic enthusiasms, by
+shallow tricks, and shows, and artifices, can a cause like ours
+be carried onward. Leave these to parties contending for
+office, as the “spoils of victory.” We need no disguises, nor
+false pretences, nor subterfuges; enough for us to present
+before our fellow countrymen the holy truths of freedom, in
+their unadorned and native beauty. Dark as the present may
+seem, let us remember with hearty confidence that Truth and
+Right are destined to triumph. Let us blot out the word
+discouragement from the anti-slavery vocabulary. Let the
+enemies of freedom be discouraged;
+<pb id="clarke92" n="92"/>
+let the advocates of oppression despair; but let
+those who grapple with wrong and falsehood, in the name of
+God, and in the power of His truth, take courage. Slavery must
+die. The Lord hath spoken it. The vials of His hot displeasure,
+like those which chastised the nations in the Apocalyptic
+vision, are smoking, even now, above its “habitations of
+cruelty.” It can no longer be borne with by Heaven. Universal
+humanity cries out against it. Let us work, then, to hasten its
+downfall, doing whatsoever our hands find to do, “with all
+our might.”</p>
+          <closer><salute>Truly your friend,</salute>
+<signed>JOHN G. WHITTIER.</signed></closer>
+        </div2>
+        <div2>
+          <p>Hear what Cassius M. Clay says of slavery.</p>
+          <p>Cassius M. Clay, (nephew of Henry Clay,) has come out in
+a series of articles in the Lexington (Ky.) Intelligencer,
+denouncing slavery in unqualified terms—proving that it is the
+<hi rend="italics">worst</hi> evil the sun ever shone on—and concluded one of his
+articles as follows:</p>
+          <p>“Though no Athenian trumpeter may hurry through the
+assembled and terrified people in bitter anguish, crying aloud,
+‘Will no one speak for his country?’, yet from mute and
+unresisting suffering and down-trodden innocence there
+comes up a language, no less powerful, to awaken whatever
+of sympathy and manly indignation may be treasured up in
+the bosoms nurtured on Kentucky soil,—rich in associations
+every way calculated to foster all that is just, honest, and true,—
+without which, chivalry is a crime, and honor but an empty
+sound! For them, once more, then, I denounce those who
+would, by legislation
+<pb id="clarke93" n="93"/>
+or otherwise, fix the bond of perpetual slavery and the
+slave trade upon my native State. In the name of those
+who in all ages have been entitled to the first care and
+protection of men, I denounce it. In the name of them
+who, in '76, like those who sent back from Thermopylae
+the sublime message, ‘Go tell Lacedemon that we died
+here in obedience to her laws,’ illustrated by their blood
+the glorious doctrines which they taught, I denounce it.
+in the name of Christianity, against whose every lovely
+and soul-stirring sentiment it for ever wars, I denounce it.
+In the name of an advancing civilization, which, for more
+than a century, has with steady pace moved on, leaving
+the Cimmerian regions of slavery and the slave trade far
+in the irrevocable and melancholy past, I denounce it. In
+the name of the first great law, which at Creation's birth
+was impressed upon man, self-defence, unchangeable and
+immortal as the image in which he was fashioned; and in
+His name, whose likeness man was deemed not unworthy
+to wear, <hi rend="italics">I denounce slavery and the slave trade for ever.</hi>”</p>
+        </div2>
+      </div1>
+      <div1 rend="italics">
+        <argument>
+          <p>See <hi rend="italics">how</hi> they make their ministers, and what kind of
+ministers they make.</p>
+        </argument>
+        <head>SLAVERY AND CHRISTIANITY.</head>
+        <p><hi rend="italics">Sale of human beings for the benefit of Theological
+education.</hi>—The following notice of a public sale is taken
+from the Savannah Republican of March 3d, 1845. After
+describing the plantation which was to be sold, the notice
+adds:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <p>“Also, at the same time and place, the following negro
+<pb n="94"/>
+slaves, to wit: Charles, Peggy, Antonett, Davy, September,
+Maria, Jenney, and Isaac—levied on as the property of Henry
+T. Hall, to satisfy a mortgage <hi rend="italics">fi. fa.</hi> issued out of McIntosh
+Superior Court, in favor of the Board of Directors of the
+<hi rend="italics">Theological Seminary of the synod Of South Carolina and
+Georgia, </hi>vs. said Henry T. Hall. Conditions, cash.</p>
+                <closer>C. O'NEAL,<hi rend="italics"> Deputy Sheriff, M. C.”</hi></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>We do not quote this as anything new or strange, but only
+as<hi rend="italics"> illustrating</hi> a thing of common occurrence.—<hi rend="italics">Boston
+Recorder.</hi></p>
+      </div1>
+      <div1 rend="italics">
+        <p>This synod, we suppose, is Presbyterian, with which
+churches in the free States are in good fellowship relation.
+Take another case from Zion's Advocate.</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <head>
+                <hi rend="italics">Ministers, Hounds, and Runaway Negroes.</hi>
+              </head>
+              <p>The Home Missionary of the Alabama Association, writing
+to the Alabama Baptist, on the subject of ministerial support,
+attributes the unwillingness of the people to support their
+preachers, in part, to the teaching of the anti-missionary
+ministers. And he represents one of these riding through the
+country, with a train of about twenty hounds, and with a brace
+of pistols, and a Bowie knife projecting out of his pocket,
+showing a handle which would make a bludgeon, as his
+informant told him, “large enough to kill the d—l; and thus
+fully armed and equipped, he makes his excursions, <hi rend="italics">hunting
+runaway negroes!!</hi>”</p>
+              <p>The Missionary of the Alabama Association goes on to
+say:—“While it may be right and proper that some one should
+keep such dogs, and follow such a vocation, we think it does
+not fitly become the ambassadors of Christ. Let the churches,
+then, awake to the subject of <hi rend="italics">Ministerial support.</hi>”</p>
+              <pb id="clarke95" n="95"/>
+              <p>That is, so that their ministers may not be obliged to resort
+to <hi rend="italics">negro hunting</hi> for a living. Are not these Synods and
+Associations, “dear brethren?” Now we ask particular
+consideration to the following, which, if erroneous, we will
+thank any one to show to be so.</p>
+              <p>“The highest kind of theft, is that which steals men; and
+Slavery is nothing less than this. The church which steals
+them, or holds slaves, which is the same thing, is a thieving
+church. If that church is in loving fellowship with others, they
+together form a BROTHERHOOD OF THIEVES.”</p>
+            </body>
+          </text>
+        </q>
+        <p>Of the power of professors of religion over Slavery, Dr.
+Smith of Virginia thus testifies:—</p>
+        <q direct="unspecified">
+          <p>“I told him, (Dr. Bond,) that Southern Methodists
+concurred in making the laws, (perpetuating slavery,)
+voluntarily did so, as far as the system itself was concerned,
+and that in Virginia, particularly, they could not avail
+themselves of the benefit of his apology, because so strong is
+the non-slaveholding interest, that at any time when the
+membership of the church shall unite their votes with the
+non-slaveholders in western Virginia particularly, they are
+competent to overturn the whole system. But that we did not
+do so, because we considered it our solemn, Christian duty to
+sanction and sustain the system under its present
+unavoidable circumstances.”</p>
+        </q>
+        <p>A HARD CASE.—Last week a case was brought up before
+the Orphans' Court of this county, which must shock the
+sensibilities of every right-minded man. In 1839 a law was
+passed to prohibit free blacks from coming into
+<pb id="clarke96" n="96"/>
+this State from other States, whether to settle or not, under the
+penalty of twenty dollars for the first offence. If the negro be
+unable to pay the fine, he is to be committed to jail, and sold
+as a slave for life. The twenty dollars goes to the informer. In
+case the negro remains five days in this State after his first
+conviction, or return into it after his departure, he is liable to
+pay a fine of <hi rend="italics">five hundred dollars,</hi> one half to the informer; and
+on his inability to pay to be sold for life. After stating the
+above, we feel it necessary to assure our readers, that this is
+the forty-fifth year of the nineteenth century, and that this law
+exists in America, and not in any of the darkened countries of
+Europe!</p>
+        <p>Last week, under this law, a negro was brought before the
+Orphans' Court by a late corporation constable, for having
+come into this State, being a free negro. The statement of the
+poor old fellow—for he was old and verging to the limit of his
+years, with little of the strength of manhood left him—was, that
+he was removing his family from Virginia into Pennsylvania,
+having been set free for that purpose, and that he was now on
+his way through Maryland, simply passing through the State,
+with no thought of harm, no knowledge of the ferocious toils of
+the law which hung around him. He was sentenced to
+pay the fine, and the informer, having consented to remit
+one half, Mr. Bromett, one of our new Whig magistrates,
+generously and kindly undertook to raise the money by
+collection among the citizens of the town, to release the
+unfortunate old man. He was of course successful in his
+efforts, and had the exquisite enjoyment of winning blessings
+from a sorrowful heart, and sending the poor gray
+headed negro on his way rejoicing.—<date><hi rend="italics">Frederick (Md.)
+Examiner, April</hi> 16.</date></p>
+      </div1>
+      <div1>
+        <pb id="clarke97" n="97"/>
+        <head>SLAVEHOLDER'S PARODY.</head>
+        <lg type="verse">
+          <l>Come, saints and sinners, hear me tell,</l>
+          <l>How pious priests whip Jack and Nell,</l>
+          <l>And women buy, and children sell,</l>
+          <l>And preach all sinners down to hell,</l>
+          <l>And <hi rend="italics">sing</hi> of heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>They'll bleat and ba, dona like goats,</l>
+          <l>Gorge down black sheep, and strain at motes,</l>
+          <l>Army their backs in fine black coats,</l>
+          <l>And seize their negroes by their throats,</l>
+          <l>And <hi rend="italics">choke</hi> for heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>They'll church you, if you sip a dram,</l>
+          <l>And damn you if you steal a lamb,</l>
+          <l>Yet, rob old Tony, Doll and Sam,</l>
+          <l>Of human rights, and bread and ham;</l>
+          <l><hi rend="italics">Kidnapper's</hi> heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>They'll talk of heaven and Christ's reward,</l>
+          <l>And bind his image with a cord,</l>
+          <l>And scold and swing the lash abhorred,</l>
+          <l>And sell their brother in the Lord,</l>
+          <l>To <hi rend="italics">hand-cuffed</hi> heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>They'll read and sing a sacred song,</l>
+          <l>And make a prayer both loud and long,</l>
+          <l>And teach the right, and do the wrong,</l>
+          <l>Hailing the brother, sister throng,</l>
+          <l>With <hi rend="italics">words</hi> of heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>We wonder how such saints can sing,</l>
+          <l>Or praise the Lord upon the wing,</l>
+          <l>Who roar and scold, and whip and sting,</l>
+          <pb id="clarke98" n="98"/>
+          <l>And to their slaves and mammon cling,</l>
+          <l>In guilty conscience's union. </l>
+        </lg>
+        <lg type="verse">
+          <l>They'll raise tobacco, corn and rye,</l>
+          <l>And drive and thieve, and cheat and die,</l>
+          <l>And lay up treasures in the sky,</l>
+          <l>By making switch and cow-skin fly,</l>
+          <l>In hope of heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>They'll crack old Tony on the skull,</l>
+          <l>And preach and roar like Bashan bull,</l>
+          <l>Or braying ass, of mischief full,</l>
+          <l>Then seize old Jacob by the wool,</l>
+          <l>And <hi rend="italics">pull</hi> for heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>A roaring, ranting, sleek man-thief,</l>
+          <l>Who lived on mutton, veal and beef,</l>
+          <l>And never would afford relief,</l>
+          <l>To needy sable sons of grief,</l>
+          <l>Was <hi rend="italics">big</hi> with heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>Love not the world, the preacher said,</l>
+          <l>And winked his eye and shook his head,—</l>
+          <l>He seized on Tom, and Dick, and Ned,</l>
+          <l>Cut short their meat, and clothes, and bread,</l>
+          <l>Yet still<hi rend="italics"> loved </hi>heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>Another preacher, whining spoke</l>
+          <l>Of one whose heart for sinners broke,—</l>
+          <l>He tied old Nanny to an oak,</l>
+          <l>And drew the blood at every stroke,</l>
+          <l>And <hi rend="italics">prayed</hi> for heavenly union.</l>
+        </lg>
+        <lg type="verse">
+          <l>Two others ope'd their iron jaws,</l>
+          <l>And waved their children-stealing paws,</l>
+          <l>There sat their children in gew-gaws,—</l>
+          <l>By stinting negroes' backs and maws,</l>
+          <l>They <hi rend="italics">keep up</hi> heavenly union.</l>
+        </lg>
+        <pb id="clarke99" n="99"/>
+        <lg type="verse">
+          <l>All good from Jack another takes,</l>
+          <l>And entertains their flirts and rakes,</l>
+          <l>Who dress as sleek as glossy snakes,</l>
+          <l>And cram their mouths with sweetened cakes,</l>
+          <l>And this goes down for union.</l>
+        </lg>
+      </div1>
+      <div1>
+        <head>I AM MONARCH OF NOUGHT I SURVEY.</head>
+        <head>A PARODY.</head>
+        <lg type="verse">
+          <l>I am monarch of nought I survey,</l>
+          <l>My wrongs there are none to dispute;</l>
+          <l>My master conveys me away,</l>
+          <l>His whims or caprices to suit.</l>
+          <l>O slavery, where are the charms</l>
+          <l>That “patriarchs” have seen in thy face?</l>
+          <l>I dwell in the midst of alarms,</l>
+          <l>And serve in a horrible place.</l>
+        </lg>
+        <lg type="verse">
+          <l>I am out of humanity's reach,</l>
+          <l>And must finish my life with a groan;</l>
+          <l>Never hear the sweet music of speech</l>
+          <l>That tells me my body's my own.</l>
+          <l>Society, friendship and love,</l>
+          <l>Divinely bestowed upon some,</l>
+          <l>Are blessings I never can prove,</l>
+          <l>If slavery's my portion to come.</l>
+        </lg>
+        <lg type="verse">
+          <l>Religion! what treasures untold</l>
+          <l>Reside in that heavenly word!</l>
+          <l>More precious than silver or gold,</l>
+          <l>Or all that this earth can afford.</l>
+          <pb id="clarke100" n="100"/>
+          <l>But I am excluded the light</l>
+          <l>That leads to this heavenly grace;</l>
+          <l>The Bible is closed to my sight,</l>
+          <l>Its beauties I never can trace.</l>
+        </lg>
+        <lg type="verse">
+          <l>Ye winds, that have made me your sport,</l>
+          <l>Convey to this sorrowful land,</l>
+          <l>Some cordial, endearing report,</l>
+          <l>Of freedom from tyranny's hand.</l>
+          <l>My friends, do they not often send,</l>
+          <l>A wish or a thought after me?</l>
+          <l>O, tell me I yet have a friend,</l>
+          <l>A friend I am anxious to see.</l>
+        </lg>
+        <lg type="verse">
+          <l>How fleet is a glance of the mind!</l>
+          <l>Compared with the speed of its flight,</l>
+          <l>The tempest itself lags behind,</l>
+          <l>And the swift-winged arrows of light.</l>
+          <l>When I think of Victoria's domain</l>
+          <l>In a moment I seem to be there,</l>
+          <l>But the fear of being taken again,</l>
+          <l>Soon hurries me back to despair.</l>
+        </lg>
+        <lg type="verse">
+          <l>The wood-fowl has gone to her nest</l>
+          <l>The beast has lain down in his lair,</l>
+          <l>To me, there's no season of rest,</l>
+          <l>Though I to my quarter repair.</l>
+          <l>If mercy, O Lord, is in store,</l>
+          <l>For those who in slavery pine,</l>
+          <l>Grant me, when life's troubles are o'er,</l>
+          <l>A place in thy kingdom divine.</l>
+        </lg>
+      </div1>
+      <div1>
+        <pb id="clarke101" n="101"/>
+        <head>OUR COUNTRYMEN IN CHAINS.</head>
+        <lg type="verse">
+          <l>Our fellow countrymen in chains,</l>
+          <l>Slaves in a land of light and law!</l>
+          <l>Slaves crouching on the very plains</l>
+          <l>Where rolled the storm of Freedom's war!</l>
+          <l>A groan from Eutaw's haunted wood—</l>
+          <l>A wail where Camden's martyrs fell—</l>
+          <l>By every shrine of patriot blood,</l>
+          <l>From Moultrie's wall and Jasper's well.</l>
+        </lg>
+        <lg type="verse">
+          <l>By storied hill and hallowed grot,</l>
+          <l>By mossy wood and marshy glen,</l>
+          <l>Whence rang of old the rifle-shot,</l>
+          <l>And hurrying shout of Marion's men!</l>
+          <l>The groan of breaking hearts is there—</l>
+          <l>The falling lash—the fetter's clank!</l>
+          <l>Slaves—SLAVES are breathing in that air,</l>
+          <l>Which old De Kalb and Sumter drank!</l>
+        </lg>
+        <lg type="verse">
+          <l>What, ho!—our countrymen in chains!</l>
+          <l>The whip on WOMAN'S shrinking flesh!</l>
+          <l>Our soil yet reddening with the stains</l>
+          <l>Caught from her scourging, warm and fresh!</l>
+          <l>What! mothers from their children riven!</l>
+          <l>What! God's own image bought and sold!</l>
+          <l>AMERICANS to market driven,</l>
+          <l>And bartered as the brute, for gold!</l>
+        </lg>
+        <lg type="verse">
+          <l>Speak! shall their agony of prayer</l>
+          <l>Come thrilling to our hearts in vain?</l>
+          <l>To us, whose fathers scorned to bear</l>
+          <l>The paltry menace of a chain?</l>
+          <pb id="clarke102" n="102"/>
+          <l>To us, whose boast is loud and long</l>
+          <l>Of holy Liberty and Light—</l>
+          <l>Say, shall these writhing slaves of wrong,</l>
+          <l>Plead vainly for their plundered Right?</l>
+        </lg>
+        <lg type="verse">
+          <l>Shall every flap of England's flag</l>
+          <l>Proclaim that all around are free,</l>
+          <l>From “farthest Ind” to each blue crag</l>
+          <l>That beetles o'er the Western Sea?</l>
+          <l>And shall we scoff at Europe's kings,</l>
+          <l>When Freedom's fire is dim with us</l>
+          <l>And round our country's altar clings</l>
+          <l>The damning shade of Slavery's curse?</l>
+        </lg>
+        <lg type="verse">
+          <l>Just God! and shall we calmly rest,</l>
+          <l>The Christian's scorn—the Heathen's mirth—</l>
+          <l>Content to live the lingering jest</l>
+          <l>And by-word of a mocking Earth?</l>
+          <l>Shall our own glorious land retain</l>
+          <l>That curse which Europe scorns to bear?</l>
+          <l>Shall our own brethren drag the chain</l>
+          <l>Which not even Russia's menials wear?</l>
+        </lg>
+        <lg type="verse">
+          <l>Down let the shrine of Moloch sink,</l>
+          <l>And leave no traces where it stood;</l>
+          <l>No longer let its idol drink</l>
+          <l>His daily cup of human blood:</l>
+          <l>But rear another altar there,</l>
+          <l>To Truth, and Love, and Mercy given,</l>
+          <l>And Freedom's gift, and Freedom's prayer,</l>
+          <l>Shall call an answer down from Heaven!</l>
+        </lg>
+      </div1>
+      <div1>
+        <pb id="clarke103" n="103"/>
+        <head>EXTRACT</head>
+        <head>FROM CAMPBELL'S “PLEASURES OF HOPE.”</head>
+        <lg type="verse">
+          <l>And say, supernal Powers! who deeply scan</l>
+          <l>Heaven's dark decrees, unfathomed yet by man,</l>
+          <l>When shall the world call down, to cleanse her shame,</l>
+          <l>That embryo spirit, yet without a name,—</l>
+          <l>That friend of  Nature, whose avenging hands</l>
+          <l>Shall burst the Lybian's adamantine bands?</l>
+          <l>Who, sternly marking on his native soil</l>
+          <l>The blood, the tears, the anguish and the toil,</l>
+          <l>Shall bid each righteous heart exult, to see</l>
+          <l>Peace to the slave, and vengeance on the free!</l>
+        </lg>
+        <lg type="verse">
+          <l>Yet, yet, degraded men! th' expected day</l>
+          <l>That breaks your bitter cup, is far away;</l>
+          <l>Trade, wealth, and fashion, ask you still to bleed,</l>
+          <l>And holy men give Scripture for the deed;</l>
+          <l>Scourged and debased, no Briton stoops to save</l>
+          <l>A wretch, a coward; yes, because a slave!</l>
+        </lg>
+        <lg type="verse">
+          <l>Eternal Nature! when thy giant hand</l>
+          <l>Had heaved the floods, and fixed the trembling land,</l>
+          <l>When life sprung starting at thy plastic call,</l>
+          <l>Endless her forms, and man the lord of all!</l>
+          <l>Say, was that lordly form inspired by thee,</l>
+          <l>To wear eternal chains and bow the knee?</l>
+          <l>Was man ordained the slave of man to toil,</l>
+          <l>Yoked with the brutes, and fettered to the soil;</l>
+          <l>Weighed in a tyrant's balance with his gold?</l>
+          <l>No!—Nature stamped us in a heavenly mould!</l>
+          <l>She bade no wretch his thankless labor urge,</l>
+          <l>Nor, trembling, take the pittance and the scourge!</l>
+          <pb id="clarke104" n="104"/>
+          <l>No homeless Lybian, on the stormy deep,</l>
+          <l>To call upon his country's name, and-weep!</l>
+        </lg>
+        <lg type="verse">
+          <l>Lo! once in triumph, on his boundless plain,</l>
+          <l>The quivered chief of Congo loved to reign;</l>
+          <l>With fires proportioned to his native sky,</l>
+          <l>Strength in his arm, and lightning in his eye,</l>
+          <l>Scoured with wild feet his sun-illumined zone,</l>
+          <l>The spear, the lion, and the woods, his own!</l>
+          <l>Or led the combat, bold without a plan,</l>
+          <l>An artless savage, but a fearless man!</l>
+        </lg>
+        <lg type="verse">
+          <l>The plunderer came!—alas! no glory smiles</l>
+          <l>For Congo's chief on yonder Indian isles;</l>
+          <l>For ever fall'n! no son of nature now,</l>
+          <l>With freedom chartered on his manly brow!</l>
+          <l>Faint, bleeding, bound, he weeps the night away,</l>
+          <l>And when the sea-wind wafts the dewless day,</l>
+          <l>Starts, with a bursting heart, for evermore</l>
+          <l>To curse the sun that lights their guilty shore!</l>
+        </lg>
+        <lg type="verse">
+          <l>The shrill horn blew; at that alarum knell</l>
+          <l>His guardian angel took a last farewell!</l>
+          <l>That funeral dirge to darkness hath resigned</l>
+          <l>The fiery grandeur of a generous mind!</l>
+          <l>Poor fettered man! I hear thee whispering low</l>
+          <l>Unhallowed vows to Guilt, the child of <sic corr="Woe">Wo</sic>!</l>
+          <l>Friendless thy heart; and canst thou harbor there</l>
+          <l>A wish but death—a passion but despair?</l>
+        </lg>
+        <lg type="verse">
+          <l>The widowed Indian, when her lord expires,</l>
+          <l>Mounts the dread pile, and braves the funeral fires!</l>
+          <l>So falls the heart at Thraldom's bitter sigh!</l>
+          <l>So Virtue dies, the spouse of Liberty!</l>
+        </lg>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

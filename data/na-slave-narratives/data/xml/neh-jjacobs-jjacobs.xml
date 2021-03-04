@@ -1,0 +1,364 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY jjacosp SYSTEM "jjacosp.jpg" NDATA jpeg>
+<!ENTITY jjaco1 SYSTEM "jjaco1.jpg" NDATA jpeg>
+<!ENTITY jjacotp SYSTEM "jjacotp.jpg" NDATA jpeg>
+<!ENTITY jjacobk SYSTEM "jjacobk.jpg" NDATA jpeg>
+<!ENTITY jjacocv SYSTEM "jjacocv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title level="a"><emph>A True Tale of Slavery:</emph>
+Electronic Edition.</title>
+        <author>Jacobs, John S., 1815-1875</author>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Elizabeth S. Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc. and Elizabeth S. Wright</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2003</date></edition>
+      </editionStmt>
+      <extent>ca. 62K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2003.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title level="a" type="caption title">A True Tale of Slavery</title>
+            <title level="j" type="(Journal Title)">The Leisure Hour: A Family Journal of Instruction and 
+Recreation</title>
+            <author>Jacobs, John S., 1815-1875</author>
+          </titleStmt>
+          <extent>12 p. [85-87, 108-110, 125-127, 139-141]</extent>
+          <publicationStmt>
+            <pubPlace>London</pubPlace>
+            <publisher>Stevens and Co.</publisher>
+            <date>February 7, 14, 21 and 28, 1861</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">This Slave Narrative was published serially in <hi rend="italics">The Leisure Hour: A Family Journal of Instruction and Recreation</hi>, February 7, 14, 21, and 28, 1861, (Nos. 476-479), pp. 85-87, 108-110, 125-127, 139-141.</note>
+            <note anchored="yes">Jean Fagan Yellin has attributed this slave narrative to John Jacobs, Harriet Jacobs's brother. For Yellin's introduction to this narrative, see her edition of Harriet Jacobs's<hi rend="italics">Incidents in the Life of a Slave Girl</hi> Cambridge: Harvard UP, 2000. See also, p. 126 below.</note>
+            <note anchored="yes">Call number Cp326.4 T86  (Rare Books Collection, University of North Carolina at Chapel Hill)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. </p>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.
+ </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings </title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+        <language id="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Slavery -- North Carolina.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+            <item>Slavery -- United States.</item>
+            <item>Slaves -- United States -- Biography.</item>
+            <item>Slaves' writings, American.</item>
+            <item>African Americans -- North Carolina -- Biography.</item>
+            <item>Jacobs, Harriet A. (Harriet Ann), 1813-1897.</item>
+            <item>Fugitive slaves -- North Carolina -- Biography.</item>
+            <item>Jacobs, John S., 1815-1875.</item>
+            <item>United States.  Fugitive slave law (1850).</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2002-01-23, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2003-07-07, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright, </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2003-04-28, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2003-04-28, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="image">
+        <p>
+          <figure id="cover" entity="jjacocv">
+            <p>[Front Cover Image of the 1861 Volume of <hi rend="italics">The Leisure Hour: A Family Journal of Instruction and Recreatio</hi>n]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="image">
+        <p>
+          <figure id="spine" entity="jjacosp">
+            <p>[Spine Image of the 1861 Volume]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="image">
+        <p>
+          <figure id="title" entity="jjacotp">
+            <p>[Title Page Image of the 1861 Volume]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="image">
+        <p>
+          <figure id="ill1" entity="jjaco1">
+            <p>[Masthead Image of one February Issue of the 1861 Volume]</p>
+          </figure>
+        </p>
+      </div1>
+    </front>
+    <group>
+      <text>
+        <body>
+          <div1 type="installment">
+            <pb id="p85" n="85"/>
+            <head>[From The Leisure Hour: A Family Journal of Instruction and Recreation, No. 476—February 7, 1861]</head>
+            <head>A TRUE TALE OF SLAVERY.</head>
+            <div2 type="chapter">
+              <head>CHAPTER I.—SOME ACCOUNT OF MY EARLY LIFE.<ref targOrder="U" id="ref1" target="n1">*</ref></head>
+              <note id="n1" anchored="yes" target="ref1">
+                <p>* The writer of these autobiographical sketches has, since his escape from slavery, held positions of trust in free countries, and every statement may be relied on, although it is not thought advisable to publish names in full.</p>
+              </note>
+              <p>I WAS born in Edenton, North Carolina, one of the oldest States in the Union, and had four different owners in eighteen years. My first owner was Miss Penelope H——, the invalid daughter of an innkeeper. After her death I became the property of her mother. My only sister was given to a niece of hers, daughter of Dr. James R. N——, also of Edenton.</p>
+              <p>My father and mother were slaves. I have a slight recollection of my mother, who died when I was young, though my father made impressions on my mind in childhood that can never be forgotten. I should do my dear old grandmother injustice did I not mention her too. There was a great difference between her meekness and my father's violent temper, although, in justice to him, I must say that slavery was the cause of it.</p>
+              <p>To be a man, and not to be a man—a father without authority—a husband and no protector—is the darkest of fates. Such was the condition of my father, and such is the condition of every slave throughout the United States: he owns nothing, he can claim nothing. His wife is not his: his children are not his; they can be taken from him, and sold at any minute, as far away from each other as the human fleshmonger may see fit to carry them. Slaves are recognised as property by the law, and can own nothing except by the consent of their masters. A slave's wife or daughter may be insulted before his eyes with impunity. He himself may be called on to torture them, and dare not refuse. To raise his hand in their defence is death by the law. He must bear all things and resist nothing. If he leaves his master's premises at any time without a written permit, he is liable to be flogged. Yet, it is said by slaveholders and their apologists, that we are happy and contented. I will admit that slaves are sometimes cheerful; they sing and dance, as it is politic for them to do. I myself had changed owners three times before I could see the policy of this appearance of contentment. My
+<pb id="p86" n="86"/>
+father taught me to hate slavery, but forgot to teach me how to conceal my hatred. I could frequently perceive the pent-up agony of his soul, although he tried hard to conceal it in his own breast. The knowledge that he was a slave himself, and that his children were also slaves, embittered his life, but made him love us the more.</p>
+              <p>Up to this time our services had not been required, and the old lady to whom I belonged had paid little or no attention to how our time was spent. Our father, when working in or near the town, made our home his home.</p>
+              <p>I should state here that my father was owned by a Mrs. K——, a widow lady, who was, however, no relative of Mrs. H——, to whom I belonged.</p>
+              <p>Dr. N——, being related to the family of my owner, was permitted to take me from my father in my tenth year, and put me in his shop. He too well knew the value of knowledge, and the danger of communicating it to human “property,” to allow it to be disseminated among his slaves; and he therefore instructed his sons, who had charge of me, to see that I did not learn to write. Soon after this, my sister was taken into his house, but no interdict against the acquisition of knowledge, such as he had imposed upon me, could avail in her case. Our father had endeavoured to bestow upon both of us some rays of intellectual light, which the tyrant could not rob us of.</p>
+              <p>In the meanwhile, my father's young mistress married a rich planter, named C——, who lived in the neighbourhood of Edenton. Shortly afterwards the old lady died, and my father became Mr. James C——'s property. Being, as he was then considered, the best house-carpenter in or near the town, he was not put to field-work, although the privilege of working out, and paying his owner monthly, which he once enjoyed, was now denied him. This added another link to his galling chain—sent another arrow to his bleeding heart. My father, who had an intensely acute feeling of the wrongs of slavery, sank into a state of mental dejection, which, combined with bodily illness, occasioned his death when I was eleven years of age. He left us the only legacy that a slave father can leave his child, his whips and chains. These he had taught us to hate, and we resolved to seek for liberty, though we travelled through the gates of death to find it.</p>
+            </div2>
+            <div2 type="chapter">
+              <head>CHAPTER II.—A FURTHER ACCOUNT OF MY FAMILY, AND <lb/> OF MY NEW MASTER.</head>
+              <p>TIME passed swiftly on, and in due season death smote down Mrs. H——, my mistress. The hungry heirs ordered us slaves to mount the auction-block; and all of us, old and young, male and female, married and single, were sold to the highest bidder. Even my grandmother's grey hairs and many years' hard service in the public-house did not save her from the auctioneer's hammer. But, fortunately for her, she possessed a tried and trusty friend, in whose hands she placed the savings of thirty years, that he might purchase her and her son Mark. She had two other children, a son and a daughter, but they were owned by other parties.</p>
+              <p>They began to sell off the old slaves first, as rubbish. One very old man went for one dollar; the old cook sold for seventeen dollars. The prices varied from that to 1600 dollars, which was the price of a young man who was a carpenter. Dr. N—— bought me for a shop-boy. It would be in vain for me to attempt to give a description of my feelings while standing under the auctioneer's hammer: I can safely say that I shall not realize such feelings again.</p>
+              <p>The man whom my grandmother trusted to do her business for her acted very honourably. As soon as it could be done, after the sale, he procured her free papers and the bill of sale of her son, to show that he was her property by right of purchase. It may seem rather strange that my grandmother should hold her son a slave; but the law required it. She was obliged to give security that she would never be any expense to the town or state before she could come in possession of her freedom. Her property in him was sufficient to satisfy the law; he could be sold at any minute to pay her debts, though it was not likely this would ever be the case. They had a snug home of their own, but their troubles were not yet at an end.</p>
+              <p>My uncle Joseph, who was owned by Mr. J. C——, ran away about this time, and got as far as New York, where he was seen by Mr. S—— of Edenton, who had him taken and sent back to his master. He was heavily manacled, and lodged in gaol, where he remained most of the winter, and was then sold to go to New Orleans.</p>
+              <p>My uncle Mark, whom my grandmother had bought, was at that time steward on board of a packet or vessel of some kind, and some months after my uncle Joseph had been sold, my uncle Mark met him in New York. He had made his second escape. The vessel was about to sail, and they had but little time to spend with each other, though my uncle Joseph told him he had not come there to stop. His intention was to get beyond the reach of the stars and <hi rend="italics">stripes</hi> of America. Unwilling to trust his liberty any longer in the hands of a professed Christian, he purposed seeking safety in another hemisphere.</p>
+              <p>But to return to my subject. I left my sister in the doctor's family. Some six or eight years have passed since I was sold, and she has become the mother of two children. After the birth of her second child, she was sent to live on his plantation, where she remained for two or three months, and then ran away. As soon as she was gone, my aunt, the two children, and myself, were sent to gaol. My aunt was married, but happily her children were beyond the power of slavery. God had taken them to his rest.</p>
+              <p>The old doctor no doubt thought that this would be the means of bringing my sister back; but you will by-and-by see that she did not leave with the intention of returning. She had not yet been called to make her back bare for the lash; but she had gone to live on the doctor's plantation, where she daily expected it. Her mental sufferings were more than she could longer bear. With her it was, in the language of one of our fathers, “liberty or death.”</p>
+              <p>The doctor offered 100 dollars reward for her, and
+<pb id="p87" n="87"/>
+threatened to punish to the extreme penalty of the law, any person or persons found harbouring, or assisting her in any way to make her escape. He then wrote a letter to a gentleman by the name of T——, living in New York, who had formerly lived in North Carolina. I am not prepared to say that Mr. T—— took an interest in this letter. I rather believe he did not. But the news was soon circulated among the slave-catchers of the north, and they were sticking their unwanted faces in every coloured man's door, on account of my sister. The doctor pretended to sell me and the two children to a negro trader. In two or three weeks he received a letter from New York, stating (erroneously, as it turned out) that my sister was taken, and safely lodged in gaol. This called the old man from home. He had got to prove property and pay expenses. Now that the old doctor was gone, I had a good time. Mr. L——, the gaoler, was an old acquaintance of mine. Though he was a white man, and I a slave, we had spent many hours together in Mr. J——'s family. We had taken tea there.</p>
+              <p>To make my story short, and go back to the doctor—Mr. J—— had a very fine daughter, and we were very fond of each other. Mr. L—— had been a visitor of Mr. J——'s for many years. Now that he had me under lock and key, and knowing that it was not for any crime that I was there, he could not be otherwise than kind. He allowed me every indulgence. My friends, such as could come, could call and see me whenever they pleased, and stop as long as they liked; he would never turn the key on them. Sometimes he would give me the key on the inside. While the doctor had me here for safe keeping, I could have made my escape every day or night; but in the first place, if I had wanted to go, I would not have taken the advantage of Mr. L——'s kindness; in the second place, I saw no chance of bettering myself. I knew he would not get my sister, because she had not left town. My uncle-in-law, who was a seafaring man, had intended to take her to New York, but the doctor's threats frightened him so much, that he did not dare make the attempt.</p>
+              <p>While the old man was gone, I had a negro trader call with others to see me. His name was G——; he said he would buy me if the old doctor would sell me; I told him I thought he would—that he told me he intended to do so when he put me in gaol.</p>
+              <p>After some two weeks the doctor returned home without my sister. The woman that had been taken up and put in gaol was a free woman; but what could she do with the wretch who put her there? America is a free country, and a white man can do what he pleases with a coloured man or woman in most of the States. They may have a few friends now, who would not allow this if they knew it; but they are hated by the nation at large.</p>
+              <p>My aunt was taken out of gaol and sent home to the doctor's house; the children and myself were left in. The old man came to have a little talk with me about my sister.</p>
+              <p>“Well, John, I have not got Harriet, but I will have her yet. Don't you know where she is?”</p>
+              <p>“How can I know, sir? I have been in gaol ever since my sister left you. Mr. G—— was here while you were away, sir, and said that he wanted to buy me.”</p>
+              <p>“Buy you! I don't want to sell you.”</p>
+              <p>“You told me when you put me here that you did.”</p>
+              <p>“Yes, but not if you will go back to the shop and behave yourself. Mr. G—— has not got money enough to buy you.”</p>
+              <p>“I do not know how to behave differently from what I have done.”</p>
+              <p>“Your behaviour will do; but I am afraid you are going to run away from me.”</p>
+              <p>“I have not said anything about running away from you, sir.”</p>
+              <p>“I know that; but your sister is gone, and you will be going next.”</p>
+              <p>Up to this time I had heard nothing of my sister; but I felt sure that she was with her friends in Edenton.</p>
+            </div2>
+          </div1>
+        </body>
+      </text>
+      <text>
+        <body>
+          <div1 type="installment">
+            <pb id="p108" n="108"/>
+            <head>[From The Leisure Hour: A Family Journal of Instruction and Recreation, No. 477—February 14, 1861]</head>
+            <head>A TRUE TALE OF SLAVERY.</head>
+            <div2 type="chapter">
+              <head>CHAPTER III.—MY UNCLE'S TROUBLES—MY FURTHER EXPERIENCE <lb/> OF THE DOCTOR, AND OUR PARTING.</head>
+              <p>WHILE the events described in the foregoing chapter were transpiring, my uncle-in-law Stephen returned from sea. His master, Mr. B——, was owner of the vessel in which he sailed; and, although he had had several chances to make his escape from slavery, yet he had returned on every voyage. The doctor, who owned my aunt, forbad his going to see her, although they had lived together for twenty years, and had never been known to quarrel. It was most cruel that they should be separated, not for their own, but for another's acts. The doctor was inexorable; they were strictly interdicted from seeing each other. The only tie that bound my uncle to slavery was his wife, to whom he was truly attached. When their sacred union—a union holy in the sight of God, however desecrated by wicked men—was broken, he would not longer submit to the yoke. He took advantage of his next voyage to release himself from it, and he returned no more. His wife was dead to him—ay, worse than dead. “That which God hath joined together, let no man put asunder,” saith those Scriptures which the slaveholder professes to believe, but which he blasphemes day by day and hour by hour.</p>
+              <p>At the doctor's last visit to the jail, he described to me the wretchedness of the free people of colour in New York, and stated that they had not the comforts of his slaves, and how much better off we were than they. To this I said nothing. My mind was fully made up, that I must, in order to effect my escape, hide as much as possible my hatred to slavery, and affect a respect to my master, whoever he might be. The doctor and myself knew each other too well for me to hope to get away from him. I must change owners in order to do that. Secondly, I had made up my mind that, let the condition of the coloured people of New York be what it might, I would rather die a free man than live a slave. The doctor evidently did not want to sell me, neither did he want to run the risk of losing me. Not that he had any particular regard for me, but he could not replace me for the same money that a slave-trader would give for me.</p>
+              <p>Before he left the jail, he told me that he did not want to keep me in jail any longer, and would let me out at any time when I would get my uncle Mark to be security that I would not run away from him. When leaving, he told me to send for my uncle, and see if he would not do it for me. To all this I was dumb. I was in no particular hurry to get out of jail. I wanted a little time for serious reflection, and this was the only place where I could get an opportunity for it.</p>
+              <p>A few days passed, and he heard nothing from me. He saw my uncle, and told him that I wanted to see him at the jail. He accordingly came, and asked me if I wished him to become my security. I promptly told him no; that I wanted my liberty; that I would make good the first opportunity to secure it; that he might do as he pleased; but, God being my helper, I would die a free man. This satisfied my uncle at once, that he might as well take the money out of his pocket and pay for me as to become my security; and he thought, if I could get a chance to make my escape without bringing any expense on him, so much the better. Here we parted. The old doctor waited for an answer, but got none, which satisfied him that I no longer had a desire to make his shop my home.</p>
+              <p>There were two or three slaveholders in the town, that would give him more for me than he could get from a trader, but he would not sell me to any one in the town. Mr. S——, who afterwards bought me, came to the jail, and asked me if I would live with him if he bought me. I told him that I would; but the question was not asked how long.</p>
+              <p>I had been here just two months when Mr. S—— got a negro trader to buy the two children for my grandmother and me for himself. The doctor at first tried to bind the trader not to sell me to any one in the State; but this he would not agree to, saying that he sold his slaves wherever he could get the most for them; he finally agreed to take me out of town in irons, but to sell me the first chance he could get. The old man did not think that he had bargained for me before I was sold. This important part of the business being settled, we were sold, the two children for 500 dollars, I believe, and I for 900 dollars. The blacksmith's tools, handcuffs, and chain were all in readiness at the jail. The
+<pb id="p109" n="109"/>
+chain was thirty or forty feet long, with handcuffs every two or three feet. The slaves were handcuffed right and left on each side of the chain. In the gang there was one who was free by birth. He was born not more than fifty miles from Edenton. He had been put in jail here for some trifling offence; not being able to pay the fine, he was sold for six months or a year to William R——, a planter, who was so cruel to him that he ran away from him. He was caught, and, after being flogged, was put in irons and set to work. He attempted to cut the irons off, and being caught in the act, was sent to jail, and finally sold to a trader. I saw the irons that he had been made to work in; they were fetters for the ankles, weighing from fifteen to twenty pounds in weight.</p>
+              <p>Now we were all snugly chained up, the children in the cart, and the women walking behind; friends weeping, and taking a farewell shake of the hand—wives of their husbands, and parents of their children. I went with the gang as far as Mr. J. B. S——'s, the man that had my uncle taken in New York. Here the cart was stopped and the blacksmith's tools taken out, and Mr. L—— began to hammer away at my irons. When they were off, he told me to take the children and go home to Mr. S——; the children went to my grandmother, and I to Mr. S——, who had purchased me for a body servant; but, knowing the temper of the doctor, who would be angry at being outwitted, he sent me to his plantation, where I stopped for three months. During that time I was often in town of an evening to see my grandmother; and on two occasions he tried to trap me. What he would have done to me I know not; but up to the day that I left North Carolina, I never dared to trust myself in his power. Again and again he searched my grandmother's house for my sister, and at length he put my uncle Mark in jail. After a few days he was taken before the magistrate. The doctor could prove nothing against him, and yet the magistrate made my uncle pay the jail fees. Had my grandmother been destitute of friends, as many of the coloured people in the Slave States are, doubtless the doctor would have tried to extort from my uncle my sister's hiding-place. It was for this purpose he wanted to get hold of me, for, with oaths of the most dreadful kind, he told me he would butcher me. I had seen too much of his cruelty to doubt his purpose.</p>
+            </div2>
+            <div2 type="chapter">
+              <head>CHAPTER IV.—MY NEW MASTER'S PLANTATION—MY MEDICAL PRACTICE AMONG THE SLAVES—MY SISTER'S HIDING-PLACE.</head>
+              <p>DURING the three months that I was on the plantation, my master changed overseers. The last one was a member of a Christian church. He was particularly fond of two things, namely, singing hymns and flogging slaves; but he had been told to spare me from the lash. I could see that it went very much against his wishes to do so. Soon after this overseer came on the plantation, my master took me into town to live with him. He had one brother and a sister, who were both subject to fits, returning about every four weeks. When his brother Dr. M. E. S—— was sick with them, I stopped by him for a few days, until the illness was over. His sister died soon after I went to live with him. My work had never been very hard, neither had I known, as many do, the want of food; and as for the lash, from a boy I had declared that I would never carry its stripes upon my back. It is true my condition was much bettered with my new master; but I was happier only as I could see my chance for escape clearer. At length I grew sick of myself in acting the deceitful part of a slave, and pretending love and friendship where I had none. Unpleasant as it was thus to act, yet, under the circumstances in which I was placed, I feel that I have done no wrong in so doing; I did everything that I could to please my master, who treated me with as much kindness as I could expect from any one to whom I was a slave.</p>
+              <p>Having been so long with Dr. N——, my master thought me quite capable of visiting the sick slaves on the plantation. This part of my work caused the overseer much unpleasantness; he would sometimes want to give them oil, or something of the kind, saying they were not sick; at other times he would say they were well enough to go to work, and if they were too sick to work, they were too sick to eat. Knowing that he would not strike me for having my own way in what I was sent there for—to see if they were sick and give them what they needed—I took great pleasure in differing with him on all occasions when I thought my patient dangerously ill. My judgment in regard to such diseases as are most common on a plantation was considered very good for one of my age; so much so, that a young planter who was studying medicine at the time, offered my master one thousand five hundred dollars for me. The way I came to know this was thus: he asked me one day if I wanted to be sold. This woke up a little of the old feeling, and I had almost forgotten myself for a minute. “No, sir,” I said, “I am not anxious to be sold, but I know I have got to serve some one.” Here he made me a promise which I shall never forget, though it was not consoling to me. He said, “You shall not serve any one after me: I have been offered a very handsome price for you; but I don't want to sell you.” True, I was glad to hear him say that I should serve no one after him; this required a little consideration; he was but a few years older than me, and to wait for him to die looked to me too much like giving a man who was in want of his daily bread a cheque on the bank to be paid when he is dead. To have prayed for his death would have been wrong; to have killed him would have been worse; so, finally, I concluded to let him live as long as the Lord was willing he should, and I would get off as soon as possible. My pride would not allow me to let a man feed and clothe me for nothing; I would work the ends of my fingers off first.</p>
+              <p>I have said nothing about Mr. S——'s plantation slaves; I have only spoken of his treatment to me. I am willing to acknowledge kindness, even in a slaveholder, wherever I have seen it; but had he treated all of his slaves as he treated me, the probability is that they would have been of as little value to him as I was. Some may try to make
+<pb id="p110" n="110"/>
+out of this a case of ingratitude; but I do not feel myself under the slightest obligation to any one who holds me against my will, though he starved himself to feast me. Doubtless he meant to do me a good turn; but he put it off too far. I appreciated his kindness, and endeavoured to be as useful as I could.</p>
+              <p>At this time my condition was so much better than my sister's, that I had almost ceased to speak of leaving in the presence of my grandmother; for there is an inexpressible feeling in the breast of a woman who has lost child after child, whether it has been taken by force or by the hand of death, that makes her cling with tighter grasp to the last one. No doubt many of my readers can picture to themselves the force of the prayers and tears of a pious mother under such trials. My uncle Joseph was gone, she knew not where, and my sister was so closely pursued that they were obliged to hide her in the house between the roof and the ceiling. They are now beyond the reach of the slave power, or I would not dare to tell how this was done.</p>
+              <p>My grandmother's house had seven rooms—two upper rooms, and five on the lower floor: on the west side there was a piazza. On the east side there were two rooms, with a lobby leading to the centre of the house. The room on the left on entering the lobby was used as a store-room; the ceiling of this room was of boards, the roof was shingled; the space between the roof and ceiling was from three and a half to four feet in height, running off to a point. My uncle made a cupboard in one corner of this room, with the top attached to the ceiling. The part of the board that covered the top of the cupboard was cut and made into a trap-door; the whole of it was so small and neatly done that no one would have believed it to be what it was—the entrance to her hiding-place. Everything that she received was put in that little cupboard. One of the upper rooms was lathed and plastered; a hole was broken in the wall, through which she could speak to my uncle or grandmother; and, to prevent her losing the use of her limbs, the windows were sometimes closed that she might come down and walk about the room. When she was sick, I visited her, and gave her such medicines as she needed. After my uncle-in-law left, Uncle Mark knew of no one in whom to confide; he was suspected by the doctor, and narrowly watched wherever he went; and although he could hear nothing of her, he somehow seemed to think that she had not made her escape. During the short time that my sister was on the plantation, she saw one of the women so cruelly whipped that she died in a few days: it was done by James N——, the doctor's son. These are called isolated cases; but we shall never know the wrongs that have been perpetrated in the slave states of America, until the oppressor and the oppressed shall stand before the Judge of all the world. The doctor's wife was as anxious as himself to get my sister again, and made promises of handsome presents to the slaves if they would try to find out where she was, but to no effect. She remained in that strange place of concealment six years and eleven months before she could get away!</p>
+            </div2>
+          </div1>
+        </body>
+      </text>
+      <text>
+        <body>
+          <div1 type="installment">
+            <pb id="p125" n="125"/>
+            <head>[From The Leisure Hour: A Family Journal of Instruction and Recreation, No. 478—February 21, 1861]</head>
+            <head>A TRUE TALE OF SLAVERY</head>
+            <div2 type="chapter">
+              <head>CHAPTER V.—MY MASTER GOES TO WASHINGTON AS MEMBER OF CONGRESS—HE IS ENGAGED TO BE MARRIED—WEDDING TRIP TO CHICAGO—CANADA—NEW YORK—MY ESCAPE FROM SLAVERY.</head>
+              <p>THE latter end of the third year after I was sold, my master was elected Member of Congress. I was ordered to get ready for Washington. We were not many days on the way to this place, which I so much wanted to see. It is a very lively place during the Session, and much enjoyed by the slaves, their privileges being greatly extended. They get up balls and parties, and seem to be as happy as their masters. I have had the pleasure of meeting some of these slaves in the Northern States, with whom I have danced, whose happiness, like mine, ended with the ball.</p>
+              <p>I could tell many things I observed of the life of members of Congress when at Washington, but I refrain from mentioning more than one or two customs of social life.</p>
+              <p>I will say it is twelve o'clock. The ladies have taken breakfast. A visitor comes and rings the door-bell, and you, on answering it, tell her that the mistress is not in; the reply most invariably is, “Go and tell her who it is, and she will be in.” Just as well say, “Go and tell her she has lied, not knowing who has called to see her.” The same is the case of the gentlemen. Here is a bill before the House, the merits and demerits of which they have spent weeks in discussing; it is now to be voted on at such an hour. The sergeant-at-arms is sent out in search of the absent members; some of them are having a little game of cards—could not think of waiting until after four o'clock; the pay is just the same for playing cards as though they were making laws, only you must lie a little when the sergeant-at-arms calls, and say that you are not in. I could not bear this system of lying. I avoided answering these calls whenever I could.</p>
+              <p>After my master had been there a short time, he went to board with Mrs. P——, who had two young nieces here, to one of whom he was soon engaged to be married. As good luck would have it, this young lady had a sister living in Chicago, and no place would suit her like that to get married in,
+<pb id="p126" n="126"/>
+I admired her taste much. I wanted to go there too. My master could not do otherwise than give his consent to go there with her. The next question to be settled was about taking me with him into a free state. Near the time for him to leave, he told me that he intended to marry. I was pleased at this, and anxious to know who the fortunate lady might be. He did not hesitate to tell me what he intended to do, stating at the same time that he would take me with him if I would not leave him. “Sir,” said I, “I never thought that you suspected me of wanting to leave you.”</p>
+              <p>“I do not suspect you, John. Some of the members of the House have tried to make me believe that you would run away if I took you with me. Well, get my things all ready; we are to leave on the first day of next week; I will try you, any how.”</p>
+              <p>Everything was ready, and the hoped-for time came. He took his intended, and off we started for the West. When we were taking the boat at Baltimore for Philadelphia, he came up to me and said, “Call me Mr. Sawyer; and if anybody asks you who you are, and where you are going, tell them that you are a free man, and hired by me.”</p>
+              <p>We stopped two or three days at the Niagara Falls; from thence we went to Buffalo, and took the boat for Chicago; Mr. Sawyer had been here but a few days before he was taken sick. In five weeks from the time of his arrival here, he was married and ready to leave for home. On our return, we went into Canada. Here I wanted to leave him, but there was my sister and a friend of mine at home in slavery; I had succeeded in getting papers that might have been of great value to my friend. I had tried, but could not get anything to answer my purpose. I tried to get a seaman's protection from the English Custom-house, but could not without swearing to a lie, which I did not feel disposed to do.</p>
+              <p>We left here for New York, where we stopped three or four days. I went to see some of my old friends from home, who I knew were living there. I told them that I wanted their advice. They knew me, they knew my master, and they knew my friends also. “Now tell me my duty,” said I. The answer was a very natural one, “Look out for yourself first.” I weighed the matter in my mind, and found the balance in favour of stopping. If I returned along with my master, I could do my sister no good, and could see no further chance of my own escape. I then set myself to work to get my clothes out of the Astor House Hotel, where we were stopping; I brought them out in small parcels, as if to be washed. This job being done, the next thing was to get my trunk to put them in. I went to Mr. Johnson's shop, which was in sight of the Astor House Hotel, and told him that I wanted to get my trunk repaired. The next morning I took my trunk in my hand with me: when I went down, whom should I see at the foot of the steps but Mr. Sawyer? I walked up to him, and showed him a rip in the top of the trunk, opening it at the same time that he might see that I was not running off. He told me that I could change it, or get a new one if I liked. I thanked him, and told him we were very near home now, and with a little repair the old one would do. At this we parted. I got a friend to call and get my trunk, and pack up my things for me, that I might be able to get them at any minute. Mr. Sawyer told me to get everything of his in, and be ready to leave for home the next day. I went to all the places where I had carried anything of his, and where they were not done, I got their cards and left word for them to be ready by the next morning. What I had got were packed in his trunk; what I had not been able to get, there were the cards for them in his room. They dine at the Astor at three o'clock; they leave the room at four o'clock; at half-past four o'clock I was to be on board the boat for Providence. Being unable to write myself at that time, and unwilling to leave him in suspense, I got a friend to write as follows:—</p>
+              <q direct="unspecified">
+                <text>
+                  <body>
+                    <div1 type="letter">
+                      <head/>
+                      <p>“Sir—I have left you, not to return; when I have got settled, I will give you further satisfaction. No longer yours,</p>
+                      <closer>
+                        <signed>JOHN S. JACOB.”</signed>
+                      </closer>
+                    </div1>
+                  </body>
+                </text>
+              </q>
+              <p>This note was to be put into the post-office in time for him to get it the next morning. I waited on him and his wife at dinner. As the town clock struck four, I left the room. I then went through to New Bedford, where I stopped for a few months.</p>
+              <p>Thank God! I am now out of their reach; the old doctor is dead; I can forgive him for what he did do, and would have done if he could. The lawyer I have quite a friendly feeling for, and would be pleased to meet him as a countryman and a brother, but not as a master.</p>
+            </div2>
+            <div2 type="chapter">
+              <head>CHAPTER VI.—SENSATIONS OF FREEDOM—SELF-EDUCATION—A WHALING VOYAGE—I MEET MY SISTER, AND HEAR FROM HER ABOUT MY FRIENDS AT EDENTON—THE FUGITIVE SLAVE BILL.</head>
+              <p>ON arriving at New Bedford, I was introduced to Mr. William P——, a very fatherly old man, who had been a slave in Alexandria. For the first week or so I could not realize the great transformation from a chattel slave to a man; it seemed to me like a dream; but I soon began to feel my responsibility, and the necessity of mental improvement. The first thing, therefore, that I strove to do was to raise myself above the level of the beast, where slavery had left me, and fit myself for the society of man. I first tried this in New Bedford by working in the day and going to school at night. Sometimes my business would be such that I could not attend evening schools; so I thought the better plan would be to get such books as I should want, and go a voyage to sea. I accordingly shipped on board the “Frances Henrietta,” of New Bedford. This was a whaling voyage; but I will not trouble you with any fishing stories. I will make it short. After being absent three years and a half, we returned home with a full ship, 1700 barrels of sperm oil and 1400 of whale oil.</p>
+              <p>I had made the best possible use of my leisure hours on board, and kept the object that drove me from my friends and my home before me when on shore. I had promised myself, if what money I had coming to me would be an inducement to any one to bring my sister off from the south, that I would have her; but there was better news than that, in the bosom of an old friend, waiting to be delivered.
+<pb id="p127" n="127"/>
+The ship dropped her anchor, and the shore boats came off with friends of different persons on board, among whom was R. P——. He had scarcely spoken to me before he began to tell me about my sister; her coming to New Bedford in search of me, and her going back to New York, where, he told me, I should find her. This news was to me quite unexpected. I said, if my sister was free from her oppressor, I was a happy man. I hurried on shore, drew some money of the owners, and made my way to New York. I found my sister living with a family as nurse at the Astor House. At first she did not look natural to me; but how should she look natural, after having been shut out from the light of heaven for six years and eleven months! I did not wish to know what her sufferings were, while living in her place of concealment. The change that it had made in her was enough to make one's soul cry out against this curse of curses, that has so long trampled humanity in the dust.</p>
+              <p>After she had recovered a little from the surprise of seeing me, I began to speak of home. “Oh, brother,” she said, “grandmother was so disappointed in your stopping behind. Mr. S—— had written for them to make ready his house for his reception on such a day; grandmother got the news of it, and invited some of your old friends to come and spend the evening with you. Supper was all ready, and our ears were all intent to catch the first blast of the stage horn, when Uncle Mark left the room to go and meet you. The coach drove up to the tavern door, and the passengers had all got out, when Dr. W—— asked Mr. S—— what had become of you. He said the abolitionists had got you away from him in New York. When Uncle Mark returned, grandmother looked for awhile, and then asked, ‘Where is my child?’ ‘He is gone, mother; he left Mr. S—— in New York.’</p>
+              <p>“When she heard that you were gone, she wept like a child. Aunt Sue Bent was there, and on seeing grandmother's tears, said to her: ‘Molly, my child, this is no time for crying. Dry up those tears, fall upon your knees, and thank God that one more has made his escape from the house of bondage. I came here to see him, but I am glad he is not here. God bless the boy, and keep him from all harm.’</p>
+              <p>“This (continued my sister) increased my anxiety, and caused me to adopt new plans for my escape. I wrote a letter to the doctor, asking him if he would sell me to my grandmother. It was sent to New York, and there mailed for Edenton. The letter was received by the doctor, and answered by his son Caspar. He could now no longer doubt that I was gone, and resorted to a cunningly-devised artifice to bring me back. Part of his son's letter ran as follows:—‘Harriet, we are all glad to hear from you; and let me assure you, if our family ever did entertain anything different from the most friendly feelings for you, they exist no longer. We want to see you once more, with your old friends around you, made happy in your own home. We cannot sell you to your grandmother; the community would object to your returning to live in a state of freedom. Harriet, doubtless before this you have heard of the death of your aunt Betty. In her life she taught us how to live, and in her death she taught us how to die.’</p>
+              <p>“From that letter, my uncle saw that escape was my only hope, and that there was no time like the present for action. While everybody believed that I was in New York was the best time to get there. He accordingly made arrangements with the captain of a vessel running between New York and Edenton, for my passage to the former port.</p>
+              <p>“I had been here but a short time, when some of my friends sent for me to acquaint me of my danger. Mrs. T—— gave me a letter that Mr. T—— had received from Dr. N——. In that letter he said he wanted to catch me, to make an example of, for the good of the institution of slavery. But, brother, I have now fallen into new hands. Mary Matilda N—— is married to a northern man. He, too, is trying to find out where I am stopping in New York. I know not where to go, nor what to do.”</p>
+              <p>I could see my sister's danger, and well imagine her feelings. We selected Boston, Massachusetts, for our home, and remained there quietly for a few years. Massachusetts had so far precluded the slaveholders from her borders, as to make the hunted fugitive feel himself somewhat secure under the shadow of her laws. Her great men had not sold themselves to the slave power, and her little men had not learnt that they were slaves until after the passing of the Fugitive Slave Bill. From that hour I resolved to seek a home in some foreign clime.</p>
+              <p>Mrs.——, on hearing my intention to leave the north, sent for me. I called on her and was shown to her room by my sister, when the following conversation took place.</p>
+              <p>“John, I understand you intend to leave for some years.”</p>
+              <p>“I do, madam.”</p>
+              <p>“Then my business with you is with respect to your sister. She has spent many years in our family, and we are still desirous to have her remain with us. John, I know that the law is an absolute one, and that the prosecutors are deaf to the claims of justice and humanity; but I have resolved that Harriet shall not be taken out of my house. This I will promise you as a lady.”</p>
+              <p>A few months after the passing of the Fugitive Slave Bill, my sister was looking over the list of arrivals in one of the daily papers, when she saw the names of Mr. and Mrs. M—— of Edenton. She immediately made it known to Mrs.——, who sent her out of the house without a moment's delay. As the little girl that she had charge of at the time would not be separated from her, they were both sent off together. In due time Mr. M—— came rapping at the door, not as an honest man, but as a slave-catcher. The door being opened, he said to the woman, “Go and tell Harriet that I have got a letter for her; it is from her grandmother, and I have promised to deliver it to her myself.” The message was taken to Mrs.——, who informed him that my sister had left town, and that he could not see her. M—— saw that all of his plans were frustrated, and sold my sister for 300 dollars. She was paid for by her mistress and her friends, and is now living in safety.</p>
+            </div2>
+          </div1>
+        </body>
+      </text>
+      <text>
+        <body>
+          <div1 type="installment">
+            <pb id="p139" n="139"/>
+            <head>[From The Leisure Hour: A Family Journal of Instruction and Recreation, No. 479—February 28, 1861]</head>
+            <head>A TRUE TALE OF SLAVERY.</head>
+            <div2 type="chapter">
+              <head>CHAPTER VII.—CRUEL TREATMENT OF SLAVES—THE FUGITIVE SLAVE LAW—SLAVERY OPPOSED TO NATURAL RIGHTS AND TO CHRISTIANITY.</head>
+              <p>IN concluding this short statement of my experience of slavery, I beg the reader to remember that I am not writing of what I have heard, but of what I have seen, and of what I defy the world to prove false. There lived about two miles up a river emptying itself into the Albemarle Sound, a planter, whose name was Carabas. His plantation was called Pembroke. At his death his slaves were sold. I mention this because slaves seldom or ever have more than one name; their surname is most generally that of their first master. The person I am now about to allude to was known by the name of George Carabas. After the death of his own master, he was owned by Mr. Popelston: after that by young John Horton, who sold him to a negro trader.</p>
+              <p>George was chained in the gang with other slaves, and dragged from his wife and his friends. After a few days' travel on the road, by some means or other he made his escape, and returned back to that spot where he knew he could find one heart to feel for him, and in whom he could confide; but he had not been there long before the bloodthirsty negro-hunters got on his trail, one beautiful Sunday morning, about midsummer, while the church-bells were ringing. Four of the pursuers overtook poor George, and shot him dead.</p>
+              <p>“If he is outlawed,” they doubtless argued, “we only need show his head, and the reward is ours; but if he is not outlawed, what then? Why, they may try to make us pay for him; but we will not be fools enough to say that we shot him, unless we are to be paid for shooting him.” His body is put into a canoe, his head thrown in, which lies on his breast. These four southern gentlemen now return to the town, leaving the canoe to inquire how the advertisement reads. On finding that the reward was to be given to any one who would apprehend and confine him in any jail in the State, they saw that they could not publicly boast of their fiendish work.</p>
+              <p>Now, the question is, what had this man done that he should be so inhumanly butchered and beheaded? The crime that he had committed, and the only crime, was to leave the unnatural trader in slaves and the souls of men, to return to his natural and affectionate wife. Nothing is done to the murderers. They only made a blunder. Slaves are outlawed and shot with impunity, and the tyrant who shoots them is paid for it; but in this case George was not outlawed, so their trouble was all for nothing, and the glory only known to themselves.</p>
+              <pb id="p140" n="140"/>
+              <p>Tom Hoskins was a slave belonging to James N——, the son of Dr. N——. This slave was found just out of the town, in the scrub. He was shot in the back, and must have been killed instantly. There was no pay for this—only a feast of blood. Tom's crime was running away from one whom I know to be an unmerciful tyrant. Another was shot, but not killed. There were three brothers, William, James, and Josiah N——. I know not which of the three this slave belonged to. They had been out that day with their bloodhounds hunting slaves. They shot Sirus a little before dark. By some means or other he made his escape from them, and reached Dr. S——'s shop soon after dark. He was taken in, and as many of the shots taken out of him as they could get at, and his wounds dressed. This being done, Dr. S—— sent a despatch to Mr. C——, to let him know that the slave that they had shot had come in to him, and got his wounds dressed. As soon as they received this intelligence, they mounted their horses, and rode off in fiendish glee for town. They came up to the shop, hooting and yelling as if all Bedlam was coming. When they had reached the door, the first cry from them was, “Bring him out—finish him.” The doctor came out and said to them, “Gentlemen, the negro has given himself up to me, and I will be responsible for his safe delivery to you as soon as he is able to be moved from hence; but at present he is not.” Seeing that the doctor would not let them have him, they returned home.</p>
+              <p>The C——s were very rich; they owned a great many slaves, and shooting with them was common. They did not feel the loss of a slave or two; it was a common thing for them to offer fifty or a hundred dollars reward for a slave, dead or alive, so that there was satisfactory proof of his being killed.</p>
+              <p>Just at the back of the court-house and in front of the jail is a whipping post, where I have seen men and women stripped, and struck from fifteen to one hundred times and more. Some whose backs were cut to pieces were washed down with strong brine or brandy; this is done to increase pain. But the most cruel torture is backing; the hands are crossed and tied, then taken over the knee and pinned by running a stick between the arms and the legs, which tightens the skin and renders the slave as helpless as a child. The backing paddle is made of oak, about an inch and a quarter thick, and five by eight inches in the blade, with about twelve inches of a handle. The blade is full of small holes, which makes the punishment severer. I have seen the flesh like a steak. Slaves flogged in this way are unable to sit down for months.</p>
+              <p>I will give you but one case of flogging in detail; that will be of Agnes, the slave of Augustus M——. She was hired to John B——; she was some six months advanced in pregnancy at the time. Being in an unfit state for field labour, she could not do as much as other slaves. For this cause, B—— tied her up and commenced whipping her. With my own hands have I dressed her back, and I solemnly declare that she had not a piece of skin left on it as wide as my finger. She was a hired slave. Had B—— killed her at a single blow, her master could have punished B——, if he could have got white witnesses to certify to that effect, which is not likely; but she might have died in an hour after being cut down, and there was no law to harm him. It would have been death caused by moderate correction, which North Carolina does not punish a slaveholder for.</p>
+              <p>I know that the picture I have drawn of slavery is a black one, and looks most unnatural; but here you have the State, the town, and the names of all the parties. One who has never felt the sting of slavery would naturally suppose that it was to the slaveholder's advantage to treat his slaves with kindness; but the more indulgent the master the more intelligent the slave; the more intelligent the slave, the nearer he approximates to a man; the nearer he approximates to a man, the more determined he is to be a free man; and to argue that the slaves are happy, or can be happy while in slavery, is to argue that they have been brutalized to that degree that they cannot be considered men. What better proof do you want in favour of universal freedom than can be given? You can find thousands of ignorant men who will lay down their lives for their liberty; can you find one intelligent man who would prefer slavery?</p>
+              <p>The last thing that remained to be done to complete this hell on earth was done in 1850, in passing the Fugitive Slave Law. There is not a State, a city, nor a town left as a refuge for the hunted slave; there is not a United States officer but what has sworn to act the part of the bloodhound in hunting me down, if I dare visit the land of Stars and Stripes, the home of the brave, and land of the free. Yet, according to the American declaration of independence, it is a self-evident truth that all men are created by their Maker free and equal, and endowed with certain inalienable rights—life, liberty, and the pursuit of happiness. Where are the coloured man's rights to-day in America? They once had rights allowed them. Yes, in the days that tried men's souls they had a right to bleed and die for the country; but their deeds are forgotten, their swords and bayonets have been beaten into chains and fetters to bind the limbs of their children. The first man that was seen to fall in the revolutionary struggle for liberty, was a coloured man; and I have seen one of his brethren, who had fled from his whips and chains, within sight of that monument erected to liberty, dragged from it into slavery, not by the slave-owners of the south, for they knew not of his being there, but by northern men.</p>
+              <p>I cannot agree with that statesman who said, “What the law makes property, is property.” What is law, but the will of the people—a mirror to reflect a nation's character? Robbery is robbery; it matters not whether it is done by one man or a million, whether they were organized or disorganized; the principle is the same. No law, unless there be one that can change my nature, can make property of me. Freedom is as natural for man as the air he breathes, and he who robs him of his freedom is also guilty of murder; for he has robbed him of his natural existence. On this subject the Church and the State are alike. One will tell a lie, and the other will swear to it. The State says, “That which the law makes property is property.”
+<pb id="p141" n="141"/>
+The Church says that “organic sin is no sin at all;” both parties having reference to slavery. With a few exceptions, their politics and religion are alike oppressive, and rotten, and false. None but political tyrants would ever establish slavery, and none but religious hypocrites would ever support it. What says Matthew, 15th chapter, 8th and 9th verses: “This people draweth nigh unto me with their mouth, and honoureth me with their lips; but their heart is far from me. But in vain they worship me, teaching for doctrines the commandments of men.”</p>
+              <p>What is to be hoped of a people like this? They are full of lies and hypocrisy. Give me liberty amidst savages, rather than slavery with such professed Christians. No man should hold unlimited power over his fellow-man. From the repeated abuses of this power, he becomes the most brutal of the human species; and the more he himself has been abused, the more eager he is to abuse others. But slavery is unnatural, and it requires unnatural means to support it. Everything droops that feels its sting. Hope grows dimmer and dimmer, until life becomes bitter and burdensome. At last death frees the slave from his chains, but his wrongs are forgotten. He was oppressed, robbed, and murdered. Better would it be for the slaves, if they must submit to slavery, if the immortal part of them were blotted out. But, since God has breathed undying life into the soul of man, rather let us blot that out of existence which stands between man and his rights, God and his laws, the world and its progress. The Christian religion, that binds heart to heart and hand to hand, and makes each and every man a brother, is at war with it; and shall we, whose very souls it has wrung out, be longer at peace. If possible, let us make those whom we have left behind feel that the ground they till is cursed with slavery, the air they breathe poisoned with its venom breath, and that which made life dear to them lost and gone.</p>
+              <p>In conclusion, let me say that the experience of the past, the present feeling, and above all this, the promise of God, assure me that the oppressor's rod shall be broken. But how it is to be done has been the question among our friends for years. After the prayers of twenty-five years, the slaves' chains are tighter than they were before, their escape more dangerous, and their cup of misery filled nearer its brim. Since I cannot forget that I was a slave, I will not forget those that are slaves. What I would have done for my liberty I am willing to do for theirs, whenever I can see them ready to fill a freeman's grave, rather than wear a tyrant's chain. The day must come; it will come. Human nature will be human nature; crush it as you may, it changes not; but woe to that country where the sun of liberty has to rise up out of a sea of blood. When I have thought of all that would pain the eye, sicken the heart, and make us turn our backs to the scene and weep, I then think of the oppressed struggling with their oppressors, and have a scene more horrible still. But I must drop this subject; I do not like to think of the past, nor look to the future, of wrongs like these.</p>
+            </div2>
+          </div1>
+        </body>
+      </text>
+    </group>
+    <back>
+      <div1 type="image">
+        <p>
+          <figure id="back" entity="jjacobk">
+            <p>[Back Cover Image of the 1861 Volume]</p>
+          </figure>
+        </p>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

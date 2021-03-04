@@ -1,0 +1,2310 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY parkertp SYSTEM "parkertp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Recollections of  Slavery Times</emph>
+Electronic Edition.</title>
+        <author>Parker, Allen</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Image scanned by</resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Bethany Ronnberg and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>100K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and 
+personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Recollections of Slavery Times</title>
+            <author>Allen Parker</author>
+          </titleStmt>
+          <extent>96p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Worcester, Mass.</pubPlace>
+            <publisher>Chas. W. Burbank &amp; Co.</publisher>
+            <date>1895</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  Bd. Pam. 326.81 Z99D
+   (Rare Book, Manuscript, and Special Collections Library, Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Parker, Allen, b. ca. 1835.</item>
+            <item>African Americans -- North Carolina -- Chowan County --
+Biography.</item>
+            <item>Fugitive slaves -- North Carolina -- Chowan County --
+Biography.</item>
+            <item>Slaves -- North Carolina -- Chowan County --
+Biography.</item>
+            <item>Slaves -- North Carolina -- Social life and customs -- 19th
+century.</item>
+            <item>Slaves -- North Carolina -- Social conditions -- 19th
+century.</item>
+            <item>Slavery -- North Carolina -- History -- 19th century.</item>
+            <item>Slavery -- Southern States -- History -- 19th century.</item>
+            <item>Plantation life -- North Carolina -- History -- 19th
+centur</item>
+            <item>Slaves' writings, American -- North Carolina.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-07-21, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-02-04, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-02-02, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-01-19, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page">
+        <p>
+          <figure entity="parkertp"/>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">RECOLLECTIONS
+<lb/>
+OF
+<lb/>
+SLAVERY TIMES,</titlePart>
+        </docTitle>
+        <byline>BY
+</byline>
+        <docAuthor>ALLEN PARKER.</docAuthor>
+        <docImprint><pubPlace>WORCESTER, MASS.:</pubPlace>
+<publisher>CHAS. W. BURBANK &amp; CO., PRINTERS</publisher>
+<pubPlace>34 FRONT STREET.</pubPlace>
+<docDate>1895.</docDate></docImprint>
+      </titlePage>
+      <div1 type="dedication">
+        <pb id="parkervs" n="5"/>
+        <head>TO
+<lb/>
+My Mother</head>
+        <p>WHOSE EYES WERE NOT PERMITTED TO SEE THE<lb/>
+EMANCIPATION OF HER RACE, BUT WHO DIED A<lb/>
+SLAVE AND NOW LIES BURIED IN AN UNMARKED<lb/>
+AND NEGLECTED GRAVE ON THE OLD PLANTATION<lb/>
+IN THE SUNNY SOUTH, NEAR<lb/>
+WHERE SHE SPENT HER LIFE IN<lb/>
+UNPAID TOIL FOR OTHERS,<lb/>
+THIS LITTLE BOOK IS AFFECTIONATELY DEDICATED.</p>
+      </div1>
+      <div1 type="introduction">
+        <pb id="parker6" n="6"/>
+        <head>INTRODUCTION.</head>
+        <p>In presenting these pages to the public,
+but little explanation need be made, for
+they contain only the story of a slave, told
+as nearly as possible in his own words.
+One-third of a century has passed since
+slavery ceased forever in our land, and to
+the generation that has grown up in that
+time, it hardly seems possible that such an
+institution as slavery could have existed in
+this free land; but he who in these pages
+tells his simple story was only one of three
+millions of human beings who were bought
+and sold, kept in subjection and forced to
+labor without pay in order that their more
+fortunate white brethren and sisters might
+live in ease and luxury, and though he only
+saw slavery in its mildest form no one can
+read his story without a feeling of indignation
+that slavery should ever have been
+tolerated much less sanctioned by law.</p>
+        <signed>ED.</signed>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="parker7" n="7"/>
+        <head>RECOLLECTIONS
+<lb/>
+OF
+<lb/>
+SLAVERY TIMES.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <p>I WAS born in the town of Chowan on
+the Chowan River, in the northeastern
+part of North Carolina, only a short distance
+south of the Virginia line. My
+mother, whose name was Millie, was a
+slave formerly owned by one Peter Parker;
+and as children born in slavery
+followed the condition of their mother, I
+was of course claimed as Peter Parker's
+property, and have always gone by the
+name of Allen Parker.</p>
+          <pb id="parker8" n="8"/>
+          <p>My father's name was Jeff, and being
+owned by one William Ellick, he went by
+the name of Jeff Ellick, but as he had
+the misfortune to have been born without
+ears, he was often called “no-eared
+Jeff.” He did not live with my mother,
+as his master's plantation was some ten
+miles from the Parker plantation, but
+he generally came home Saturday nights
+and now and then would come to us in
+the night during the week, as a slave
+did not mind a walk of ten miles after
+his day's work if he could have a chance
+to see his loved ones.</p>
+          <p>I do not know exactly when I was
+born, for slaves keep no family records,
+and if any records of the ages of the
+slaves was kept by the Parker family I
+never knew of it. I suppose however
+that I must have been born sometime
+between 1835 and 1840. I do not remember
+my old master as his death <sic corr="occurred">occured</sic> when
+I was only a few months old. While he
+lived my mother was what was known as
+<pb id="parker9" n="9"/>
+a field hand. About two weeks after my
+birth, my mistress gave birth to a little
+girl whom she named Annie, and I have
+been told that my mistress often nursed
+me at her breast, in order that my mother
+might not be kept from her work
+in the field. When Mr. Parker died
+both my mother and myself became the
+property of the daughter Annie, in
+accordance with his last will and <sic corr="testament">testement</sic>.
+In his will my master provided that none
+of the slaves left by him should be sold
+but might be hired out, that is let to
+some person by the year.</p>
+          <p>Annie and her property were under
+the guardianship of <sic corr="Mr.">Mr</sic> Parker's brother 
+who was named James Skinner.</p>
+          <p>It was customary in those days for
+those having slaves to let, to take them
+to some prominent place, such as a point
+where two roads crossed, on the first day
+of the New Year, and at a given hour
+of the day the slaves would be put up at
+auction, and let to the highest bidders
+<pb id="parker10" n="10"/>
+for one year; there was generally quite a
+gathering on these occasions, both of
+slaves and of white people. It was always
+understood that a person hiring a
+slave must furnish board and clothes in
+addition to paying a certain sum of
+money per year, and also agreeing not to
+misuse the slave in any way that would
+injure his or her value. It was also
+understood that if a slave was not treated
+properly the person owning or having
+charge of the slave could take it away,
+in which case the money paid for the
+slave's hire for the year would be forfeited.</p>
+          <p>In <sic corr="accordance">acordance</sic> with this custom my
+mother was let out to a poor white, that
+is a farmer who did not own any slaves,
+and I being only a baby, went with her,
+and it was upon this farm which was near
+the Parker Plantation that my first
+experience of slave life began.</p>
+          <p>The country around Chowan was
+not very thickly settled, the land being
+<pb id="parker11" n="11"/>
+<sic corr="divided">devided</sic> up into farms or plantations, upon
+which was raised wheat, indian corn, rye,
+oats, peanuts, sweet-potatoes and sometimes
+rice. <sic corr="vegetables">Vegatables</sic> enough for home
+use were also raised. Most of the farmers
+owned hogs which were allowed to
+run wild in the woods where they fed
+upon acorns, nuts and roots. There were
+also horses, mules and some horned cattle
+all of which received full as good care
+as the slaves did.</p>
+          <p>The farm work was done by slaves,
+women working in the field as well as
+the men. Boys and girls were required
+to work as soon as they were able to do
+anything.</p>
+          <p>The slaves lived in log cabins.
+Single slaves who did not belong to slave
+families, lived in common with others
+and were fed from the main kitchen.
+Those who had families generally lived
+in small one-story log cabins. The walls
+of these cabins were made of rough logs,
+the spaces between the logs being filled
+<pb id="parker12" n="12"/>
+with clay; the roof was made of thin
+strips of wood split from clear, straight
+grained logs; these strips extended from
+the eaves to the ridge pole, and were
+laid over each other in such a manner as
+to make a fairly tight roof. If the roof
+did leak a little there was no danger of
+spoiling any nice furniture for the very
+good reason the slaves did not have any.</p>
+          <p>The fireplace was made of logs and
+was large enough to take in a log five or
+six feet long. On the fireplace was built
+a wooden chimney, made of sticks piled
+up cob-house fashion, and extending out
+through the roof some two or three feet.
+The sides of the chimney tapered inward
+as they went up, so that the hole
+was somewhat smaller at the top than
+at the bottom. When the woodwork of the
+fireplace was done, and the chimney built
+up as high as needed, the whole affair
+was plastered outside and in with wet
+clay, which finished the fireplace and
+chimney. The heat of the fire soon hardened
+<pb id="parker13" n="13"/>
+the clay and a chimney of this kind
+would last a long time.</p>
+          <p>This kind of masonry not only has
+the advantage of being cheap but it
+could be repaired without difficulty at
+any time, as the material cost nothing
+and was always at hand.</p>
+          <p>The door of the cabin was made of
+rough boards nailed together and was
+hung on heavy iron hinges like a barn-door.
+As the slaves had little to <sic corr="lose">loose</sic>,
+the door are seldom fastened on <sic>the</sic>
+the inside, but was kept shut by a latch
+that could be raised from the outside by
+means of a string; if those inside happened
+to want to fasten it they pull in the
+latch string. The windows had only
+wooden shutters which could be closed
+when desired, but this would of course
+leave the cabin in darkness.</p>
+          <p>When a fire was needed a few
+bricks, or stones were placed on the
+hearth to take the place of firedogs, on
+these was placed a huge back log, in
+<pb id="parker14" n="14"/>
+front of which was built a fire of small
+wood. At this fire all the family cooking
+was done.</p>
+          <p>The cooking utensils were few and
+all of the <sic corr="simplest">simplist</sic> kind. A long handled
+shallow iron skillet with long legs did
+duty as a spider in which to fry our salt
+pork, bacon and other meat, whenever
+we could get it. It was also sometimes
+used to bake “hoe cake” in. These hoe
+cakes, which formed a large part of the
+slave's bill of fare, were made of Indian
+meal, and water with a little salt and
+sometimes a quantity of pork fat was
+added. When the skillet was not at
+hand or was wanted for some other
+purpose, a “nigger hoe” that is a hoe used
+by the slave in the field, was placed
+handle down upon the floor, so that the
+under side of the hoe would be next to
+the fire. The angle that the iron part
+of the hoe made with the handle was
+such that when the handle was placed
+upon the floor the iron part would slant
+<pb id="parker15" n="15"/>
+back from the fire, thereby making a
+resting place for the cake. When one
+side of the cake was baked the other
+side was turned to the fire. From this
+style of cooking, the cake came to be
+called “hoe cake.”</p>
+          <p>The common allowance of a slave
+was four quarts of Indian meal and five
+pounds of salt pork, Sometimes one quart
+of molasses, per week, and all the sweet
+potatoes that they wanted. Whatever
+else they had, had to be earned by over
+work, or by selling a part of their allowance,
+or as it often happened by selling
+such supplies as could be stolen from the
+fields or storehouses upon the plantations.
+There could always be found a
+market among the poor whites, for whatever
+a slave had to sell, though the price
+paid was often very low, for the slave
+was in a measure at the mercy of the
+buyer. Generally the buyer knew or had
+reasons to suspect that the goods were
+stolen, and he also knew it was against
+<pb id="parker16" n="16"/>
+the law for him to buy goods of a slave
+without knowing that everything was
+all right. But he knew that the slave
+could not complain of him without getting
+into trouble himself, and feeling safe
+along that line he had only to suggest
+to the slave that he thought it would be
+well to consult the master in relation to
+the trade, this was of course the last
+thing the slave wanted to have done;
+for if his master found that he was selling
+stolen goods, a severe punishment
+was sure to follow, that is if the goods
+were stolen from the master's plantation,
+and of course the slave knew best as to
+the proper owner of the goods.</p>
+          <p>Men and women who were not married
+lived in the common quarters as I
+have said, but the men and women lived
+in separate cabins. On some plantations
+each slave had to do his or her own cooking,
+but on the others there was a cookhouse
+called the kitchen where not only
+the food for the master's family was cooked, 
+<pb id="parker17" n="17"/>
+but also the food of such slaves as
+did not live in families.</p>
+          <p>The kitchen was generally under
+the control of female slaves who did the
+cooking with the help of one or two more
+slaves and perhaps a boy to run errands.
+The woman in charge would most likely
+be called Aunt Dina, or Aunt somebody
+else, and was quite a personage upon the
+plantation, as she not only did the cooking
+but also looked out for the laundry
+work, and had the general charge of such
+of the slave children as did not live with
+their mothers, in separate cabins.</p>
+          <p>These children did not have any
+regular allowances but went to the
+kitchen for their meals.</p>
+          <p>The food being most commonly
+thick sour milk and hoe cake.</p>
+          <p>The milk would be poured into a
+trough something like a pig's trough.
+Then each child would be given a piece
+of hoe cake and an iron spoon and allowed
+to go to the trough and eat as much as
+they wanted.</p>
+          <pb id="parker18" n="18"/>
+          <p>Meat was sometimes given them, but
+not very often, and then it was only
+what would be called waste in most families.
+Good masters sometimes gave the
+children meat, generally pork, three
+times in a week.</p>
+          <p>Fat pork was thought to improve
+the looks of the children, by giving the
+skin an oily look.</p>
+          <p>Sometimes when the master had
+company, he would have the children
+all sent up to the mansion house so that
+he might show them off.</p>
+          <p>When this was to be done he would
+send word to Aunt Dina to have the
+children washed and put into clean shirts.
+When this was done Aunt Dina would
+take each child separately and grease its
+mouth so that the child would look as if
+they had been eating meat.</p>
+          <p>When they were all fixed according
+to Aunt Dina's idea of smartness they
+would be sent to the house, and told to
+stand in a row before the master, who
+<pb id="parker19" n="19"/>
+would point to them with about the same
+kind of pride that he would have in
+showing a flock of good sheep, or a lot
+of good hogs.</p>
+          <p>As to clothing a slave's outfit was
+far from being expensive. Until I was
+quite a large boy say 10 or 12 years old
+my only garment was a long shirt, made
+of heavy cotton cloth and reaching from
+my neck to just below my knees, no
+hat upon my head or shoes upon my
+feet. After I was thought to be old
+enough to take part in the field work, I
+had a regular allowance of clothing in
+common with the other slaves. This 
+allowance consisted of two shirts, two pairs
+of pants, two pair of shoes, one straw hat
+and two blankets per year. The shirts
+and pants being made of cotton ducking.
+This allowance would be considered
+rather small for a society young man in the
+North at the present time. The outfit
+of the women, like that of the men, was
+very simple and inexpensive, consisting
+<pb id="parker20" n="20"/>
+of two sheets, two blankets, two dresses,
+two pairs of shoes and now and then a
+cheap hat. It must not be understood
+however that slaves did not sometimes
+have other clothes, for the love of dress
+was just as strong with them as with
+those more fortunate with funds. They
+would often spend for dress the money
+they earned by overwork, and sometimes
+favorite slaves would have clothes
+given to them. In one way or another
+most of the slaves managed to have at
+least one suit that was a little better
+than the clothes that they wore every
+day, and some of them could dress very
+well when they went to meeting, or to
+the gatherings upon the plantations.</p>
+          <p>* * * * * * * * * * * * * * * * * </p>
+          <p>During the evenings in the Fall of
+the year until about Christmas the
+women would be required to spin cotton
+yarn, which one of the hands would weave
+into a <sic corr="coarse">course</sic> kind of cloth, which was
+<pb id="parker21" n="21"/>
+made into shirts, pants, dresses and so
+forth for the slaves.</p>
+          <p>When the slaves wanted to comb
+their hair they did not always go to
+wash as a fashionable young lady of
+today does, but would get a card such as
+some farmers use in carding cattle, and
+would card their hair with it.</p>
+          <p>It should be remembered that the
+negro does not have long hair like white
+people, but short curly hair commonly
+called wool.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker22" n="22"/>
+          <head>CHAPTER II.</head>
+          <p>IN the locality where I lived there was
+no attention paid to the ceremony of
+marriage by the slaves. In fact on many
+plantations many of the slaves were not
+married at all but herded together very
+much like cattle, living in common
+quarters. On other plantations, slaves
+were allowed to marry, though it often
+happened that the husband lived on one
+plantation and the wife and her children
+upon another, but even in this case there
+was seldom any marriage ceremony
+performed.</p>
+          <p>If a young slave took a fancy to
+marry a slave girl, he first obtained the
+consent of the girl herself, which, if he
+was good looking and belonged to a good
+family, was easily obtained, but if he
+<pb id="parker23" n="23"/>
+was a “no-account nigger” owned by a
+failed planter or let out to a poor white
+the case was different. After obtaining
+the girl's consent he would go to his
+master or mistress, and ask for permission
+to marry, and if he stood well with
+them he had no difficulty in getting
+their consent. He would get permission
+to go to the plantation where his
+girl lived to obtain the consent of her
+master. When he arrived at the plantation
+where his girl lived, he would go directly
+to the owner, or master as he was
+called, and with whom be was most likely
+acquainted, and who had perhaps been
+informed by the young slave's master of
+the intended visit and its object; when
+a conversation something like the following
+would take place:</p>
+          <p>“Hello Sam! Is that you?”</p>
+          <p>“Yes Massa, its me.”</p>
+          <p>“How is your Master and Mistress
+and the little folks?”</p>
+          <pb id="parker24" n="24"/>
+          <p>“Dey is all well Massa, cept Mistress
+hab got a sore foot.”</p>
+          <p>“Is that so Sam, how did it happen?”</p>
+          <p>“D'no, spects she hurt it in de garden.”</p>
+          <p>“Well Sam, when you go home give
+her my compliments, and tell her that I
+hope she will not be laid up long, but by
+the way Sam, what message did your
+Master send by you?”</p>
+          <p>“Did'nt send no message, sar, I
+comed myself.”</p>
+          <p>“What! You don't mean to say that
+you have run away Sam?”</p>
+          <p>“No sar, Massa told me as how I
+might come and see Massa Jones.”</p>
+          <p>“Well Sam, what is it, does your
+Master intend to hire you out next year
+and you want me to hire you?”</p>
+          <p>“No sar, Massa John don't let his
+niggers, he wants me hisself. But I
+comed to see you Massa cause I think
+that you yellar gal Sue is a right smart,
+good gal.”</p>
+          <pb id="parker25" n="25"/>
+          <p>“That so, Sam?”</p>
+          <p>“And I thought that perhaps, maybe,
+that seeing as you and Massa John was
+good friends, and being as I want no bad
+nigger at all, that maybe, possibly, you
+might consider to consent that me and
+she might be married.”</p>
+          <p>At this stage of the proceedings the
+“man” would look the “property” over as
+carefully as a farmer would a horse or a
+cow he intended to purchase, knowing as
+he did so, that, if the marriage was a
+desirable one, it would be for his interest
+to give his consent, for would not all the
+children that might be born to the couple
+be his own property, and could he not
+thus increase the value of his personal
+estate?</p>
+          <p>“Got any bad habits, Sam?”</p>
+          <p>“No sar.”</p>
+          <p>“Ever been whipped, Sam?”</p>
+          <p>“No sar.”</p>
+          <p>“Let me look at you, Sam?”</p>
+          <p>“Yes sar.”</p>
+          <pb id="parker26" n="26"/>
+          <p>Then Sam would be carefully looked
+over to see if he had any defects that
+would be objectional if transmitted to his
+offspring, then more questions would be
+asked.</p>
+          <p>“Well Sam, I like your looks, and I
+will think it over. You come and see me
+next week and I will tell you.”</p>
+          <p>“Can I see Sue, Massa?”</p>
+          <p>“Yes Sam, you can see her when she
+comes from the field.”</p>
+          <p>After spending some hours with his
+sweetheart, Sam would go home and at
+the end of the week would again get
+permission to go to the Jones Plantation,
+and upon arriving there he would as
+before, go at once to the master.</p>
+          <p>“Hello! Sam, you here again, what
+do you want this time?”</p>
+          <p>“Well Massa Jones, I comed to see
+as to what you thought about me and
+Sue getting married.”</p>
+          <p>“Get out you nigger.”</p>
+          <p>“But Massa told Sam to come,”</p>
+          <pb id="parker27" n="27"/>
+          <p>“How's that Sam?”</p>
+          <p>“Massa Jones told Sam to come in
+one week, and den Massa Jones tell Sam
+as how he can marry Sue or not.”</p>
+          <p>“O yes, I remember now, well Sam I
+have talked it over with Sue's Mistress
+and we have concluded to let you marry
+Sue, and I will have a cabin built down
+by the quarters and Sue can live there.”</p>
+          <p>“Thankie Massa.”</p>
+          <p>Sam would go again and find Sue and
+they would spend the evening together
+and from that time would be considered
+as man and wife. But each would continue
+a slave and must do his or her master's
+bidding no matter how much it might
+conflict with their own ideas of right and
+wrong.</p>
+          <p>In due time the cabin would be built
+and would be considered as the home of
+Sue, and also of Sam, whenever he could
+get permission of his master to leave the
+plantation or whenever he could manage
+to steal away without leave.</p>
+          <pb id="parker28" n="28"/>
+          <p>It should be remembered that no
+slave was allowed to be off the plantation
+after sunset, without a written pass from
+either his master or mistress.</p>
+          <p>In order to prevent the slaves from
+strolling about men were employed at public
+expense to patrol the roads and were
+instructed to whip every nigger found at
+large without a written pass.</p>
+          <p>A whipping of this kind meant thirty-nine
+lashes on the bare back.</p>
+          <p>These men were called by the slaves
+“Pattie Rollers.” (Patrolmen) and were of
+course hated as they deserved to be.</p>
+          <p>They were generally poor whites
+who did the work partly for the money
+they could get out of the business, and
+partly on account of the <sic corr="excitement">excitment</sic> there
+was in it.</p>
+          <p>They would go two, or three together
+mounted on horse-back, and generally
+accompanied by one or more dogs. They
+were also armed with guns, and carried
+great whips, made of raw-hide or leather.</p>
+          <pb id="parker29" n="29"/>
+          <p>If they found a slave in the road
+they would at once demand his pass which
+he was obliged to show when he would
+be allowed to go on, but if he did not
+have one he would do his best to keep
+out of the way of the “Pattie Rollers,” so
+that if they caught him at all it would be
+after quite a chase. If the slave was a
+good runner he would make straight for
+the home plantation. He would of course
+know the advantage, for being on foot he
+could take to the woods, which he was
+sure to do if hard pressed. Once in the
+woods he might be obliged to hide unless
+the “Pattie Rollers” had dogs with them,
+but even in that case he might manage
+to give them the slip, for if he came to
+a stream of water he would wade or
+swim across it, or he might walk in it for
+a little way, in either case the dogs
+would lose the scent when they got to
+the water, and unless they could see or
+hear him could not follow. In this way
+he often managed to evade his <sic corr="pursuers">persuers</sic>.</p>
+          <pb id="parker30" n="30"/>
+          <p>As soon as he found that he was
+not followed, he would go his way, or he
+might hide a while till he thought all danger
+was passed and then either go home,
+or continue on his way. In any case if
+he managed to get on to his master's
+plantation before he was caught, the
+“Pattie Rollers” were obliged to let him
+go.</p>
+          <p>If they caught him before he
+reached the home plantation, he would
+be tied to the nearest tree, what few
+clothes he had on would be taken off, and
+he would be given thirty-nine lashes on
+his bare back.</p>
+          <p>In spite of the danger of being
+caught the slaves were often out nights
+without passes.</p>
+          <p>* * * * * * * * * * * * * * * * * </p>
+          <p>The slave's love for his family was as
+strong as that of his white master for his,
+and he would be found in his wife's cabin
+as often as possible.</p>
+          <pb id="parker31" n="31"/>
+          <p>Of course all the children born in the
+slave's cabin were slaves like their father
+and mother. But there was this difference
+between the children of the master
+and the slave.</p>
+          <p>The white child inherited his father's
+name and property, but the child of the
+slave mother was by law considered the
+property of the mother's master even if
+the father was a free negro, or as it too
+often happened a free white man.</p>
+          <p>The slave children were called by
+the name of the master, and the father
+had but very little control over them
+while they were small and none at all
+when they were large enough to be of
+any use on the plantation.</p>
+          <p>* * * * * * * * * * * * * * * * * </p>
+          <p>On every plantation was a place
+where the slaves were buried when they
+died. For the slaves were very apt to die,
+as the master generally took more care
+of his cattle than of his slaves.</p>
+          <pb id="parker32" n="32"/>
+          <p>When a slave died, the body was
+placed in a rough box, carried to the
+grave and buried with less form as far as
+the master was concerned than would be
+given the burial of a pet dog.</p>
+          <p>There was not often any funeral service
+at all. Sometimes in the case of the
+death of a favorite the master's family
+would show some interest, but generally
+no more notice was taken of a slave's death
+<sic corr="than">then</sic> would be given to a valuable horse
+or cow. The master feeling that he had
+lost so much property that was more or
+less valuable.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker33" n="33"/>
+          <head>CHAPTER III.</head>
+          <p>WHEN I was a small child I lived
+with my mother, in different places.
+I remember that when I was about five
+years old we lived with a man by the
+name of Small, a name that fitted him
+very well for he was a very hard, mean
+man.</p>
+          <p>At this time I had a little sister and
+my mother would leave us in the cabin
+during the day, telling me to take care of
+sister.</p>
+          <p>She would get up at about six
+o'clock in the morning, get breakfast
+for the entire family, she being the only
+slave that the man Small hired.</p>
+          <p>After breakfast she would put the
+house in order and do all the chores and
+would then work in the field till about
+eleven o'clock, when she would return
+<pb id="parker34" n="34"/>
+and get dinner. If she happened to be
+at work near the cabin she would run in
+during the forenoon and feed the baby.</p>
+          <p>After dinner was over and the house
+again in order she would return to the
+field and work till about four o'clock.
+She would then return, get supper and
+do the chores for the night. Everything
+that she cooked was first weighed or
+measured out to her and she was expected
+to make it go just so far. No matter
+how hungry we children were, we could
+not have anything to eat till the white
+folks had got all they wanted, and then
+we could have what was left, and if there
+was not enough left we had to wait till
+mother cooked some more.</p>
+          <p>One day late in the fall Small got
+angry with mother and knocked her
+down, then getting over her he pounded
+her in the face with his fists, after which
+he left her on the cabin floor and went
+out. I was standing by my sister's cradle
+and saw it all but of course could not do
+<pb id="parker35" n="35"/>
+anything to help my mother. When she
+got up her face was covered with blood.
+As soon as she was able she ran away to
+the woods, leaving us children in the
+cabin, and we did not see her again for
+several weeks.</p>
+          <p>When my old mistress heard of the
+trouble, which she did in a very short
+time, she sent and got us, and although it
+was known where my mother was, she was
+not required to return till Christmas time<corr>.</corr>
+Small not only lost her labor during this
+time but was obliged to pay for her just
+the same as if she had been at work for
+him.</p>
+          <p>When the new year came round my
+mother was let out again to another man,
+but I stayed on the plantation with my
+sister. The next year my sister and I
+went with mother. We had a good place
+and stayed there three years.</p>
+          <p>The following year I was let out
+alone for my board and clothes, that is
+two shirts and two blankets. There was
+<pb id="parker36" n="36"/>
+no one in the family but the man and his
+wife. I had to pick up wood for the fire,
+do errands and help around the house
+what I could. Sometimes I had plenty
+to eat and sometimes almost nothing. I
+stayed there however until the latter part
+of the year, when one day the man and
+his wife went away on a visit leaving me
+locked up in the house with nothing to
+eat. How long they intended to stay I
+do not know, but it happened that my
+father had got leave to visit my mother,
+and on his way came to see me. When
+he found out how I was situated, he got
+into the house and took me out. Then
+taking me upon his back he carried me
+to my old mistress, who kept me with her
+until my mother was let the next year.</p>
+          <p>The next year I went with my
+mother to live with a man by the name
+of George Williams, who proved to be a
+very good master.</p>
+          <p>Williams had about five acres of
+land and kept a small store, he also had
+<pb id="parker37" n="37"/>
+a horse and cow, but had no slave except
+my mother. There I had a very good
+time though I had to do some work.
+There were several children on the place
+and a part of my work was to help take
+care of them.</p>
+          <p>My mother did the cooking, milked
+the cows and did the work on the farm.</p>
+          <p>When the white children went to
+school I used to carry their dinners to
+them at noon. I would get there before
+school was out sometimes and would hear
+them singing their geography lessons,
+and it was not long before I knew some
+of these lessons by heart, but of course
+a slave child was not supposed to need
+any education.</p>
+          <p>While we lived with Mr. Williams I
+had many good times playing with the
+other children for whatever the grown
+white people might think about the colored
+people, the little children did not
+know any difference when they were
+allowed to play with the slave children<corr>.</corr></p>
+          <pb id="parker38" n="38"/>
+          <p>I do not remember any game we
+played that was different from those I
+have seen the children in the north with
+the exception of a play we used to have
+with a little brown bug which we called a
+“Doodle Bug”</p>
+          <p>This bug as I remember it was
+about three quarters of an inch long,
+and spent most of its time so far as we
+know at the bottom of a hole in the
+ground, about half an inch in diameter
+and about two inches deep. When we
+wanted to play with the bug we would
+hunt around till we found what we
+called a Doodle Bug hole<corr>.</corr> Then one of us
+would get down on all fours and put his
+mouth near the hole and begin calling
+“Doodle, Doodle, Doodle,” after a while
+the bug would come out and play on the
+ground around the top of the hole. It
+would also allow itself to be taken into
+the hand, when we could play with it as
+long as we wished.</p>
+          <p>The children believed that they
+<pb id="parker39" n="39"/>
+must always call it Doodle or Mr. Doodle
+and that if they called it anything else it
+would not come out of its hole or allow
+itself to be handled. Be that as it was
+we used to get a great deal of amusement
+out of the Doodle Bug.</p>
+          <p>Sometimes we would catch two or
+three and put them together, and then
+watch them play.</p>
+          <p>On Sundays I used to drive the family
+to church. Now it happened that
+Mr. Williams had only one vehicle, and
+consequently that one had to do duty
+on any and all occasions. This vehicle
+was a two wheeled horse cart. The body
+was made of boards with stakes at the
+sides, and to these were fastened rails
+which ran all round the cart about three
+feet above the bottom. As we stood up
+in the cart the rails were very handy
+to take hold of.</p>
+          <p>Perhaps on Saturday I would use the
+cart to carry out manure in, and on Sunday
+I would brush it out and wash it a
+<pb id="parker40" n="40"/>
+little if it happened to be very dirty
+indeed.</p>
+          <p>Sunday after Sunday we all went to
+church in this cart, which was drawn by
+the single horse owned by Mr. Williams.</p>
+          <p>In those times father often visited
+us, and did what he could to make us all
+happy. Though of course we saw much
+less of him than most children see of
+their father.</p>
+          <p>At the end of our stay with Mr.
+Williams, I was separated from my
+mother, as it was considered that I was
+then able to earn my own way living
+and a little more.</p>
+          <p>So on the first of the following year
+I was let to a man by the name of Jacob
+Parker. I remained with him for two
+years, he paid five dollars the first
+and ten dollars for the second year, for
+my services in addition to my clothes.
+Up to this time the only garment had
+been the long shirt already spoken of,
+but this year I had a full regular outfit
+<pb id="parker41" n="41"/>
+consisting, as I have said, of two shirts
+two pair of pants, two jackets, two pairs
+of shoes, and two blankets.</p>
+          <p>At night I spread one of my blankets
+upon the floor over a board about
+eighteen inches wide and six feet long
+and laid <sic corr="down">dawn</sic> upon it covering myself
+with the other blanket using my coat for
+a pillow. In the morning I got up, picked
+up my blanket, put it one side and was
+ready for my day's work.</p>
+          <p>Mr. Parker was a common poor
+white who owned or hired no slaves. I
+being the only colored person on the
+place, but I got along pretty well with
+him, and did what I could to help.</p>
+          <p>The next two years I spent on the
+farm of John Cofell, another poor white<corr sic=",">.</corr></p>
+          <p>He had no slaves himself but his
+wife by some means became possessed
+of a single female slave, who with myself
+made up the list of servants. The women
+did the cooking, and helped in the field;
+my work was all out of doors.</p>
+          <pb id="parker42" n="42"/>
+          <p>Cofell was a hard man to work for
+and I was glad when I got through with
+him.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker43" n="43"/>
+          <head>CHAPTER IV.</head>
+          <p>As I was now getting to be a good
+sized boy, I began to take an interest in
+the things that interested the slaves
+in general and to take part in joys and
+sorrows of slave life.</p>
+          <div3 type="subchapter">
+            <head>COON HUNTING.</head>
+            <p>Although the slave's life was very far
+from being pleasant it was not without
+its pleasures and enjoyments, for our masters
+were willing we should enjoy ourselves
+after they had got all the work
+they thought they could out of us.</p>
+            <p>One of the diversions we had was
+coon hunting.</p>
+            <p>The coon is an animal a little larger
+than a large house cat, His fur is gray
+mixed with bluish white and brown. His
+full name is raccoon, but as the colored
+<pb id="parker44" n="44"/>
+people of the south were pretty well
+acquainted with him they generally called
+him “Coon.”</p>
+            <p>He lives on a mixed diet of meat,
+fish, <sic corr="vegetables">vegitables</sic>, and fruit, seeming to be
+equally fond of each.</p>
+            <p>In the fall of the year he is often
+found in the corn fields, where he feeds
+upon ripening corn, and like the squirrel
+not only eats it on the spot, but carries
+it away to his hole, which is generally in
+a hollow tree quite a distance from the
+cornfield.</p>
+            <p>This hole is the home of Mr. and
+Mrs. Coon and two or three little coons
+and they may be found there in the day-time
+provided you know where the hole
+is.  In the night-time both Mr. and Mrs.
+Coon and the little Coons, if they are big
+enough take long walks for their health,
+and it is then that they visit the cornfields
+and other places where they expect to find
+something to eat, as they only go out on
+dark nights, and they must keep a supply
+<pb id="parker45" n="45"/>
+of food in the hole, consequently they
+carry home a great deal of food. It was
+not claimed that the coons did a great
+amount of damage in the cornfields.</p>
+            <p>Sometimes Mr. Coon goes fishing
+and he generally is able to get a dinner
+of fish without much difficulty. If he
+finds that fish are scarce, he will turn his
+attention to his friends the frogs, of whom
+he is as fond as Frenchmen.</p>
+            <p>When he gets tired of fish and frogs
+he eats birds, and eggs, when he can get
+them, and he does not hesitate to visit
+hen coops if they are near.</p>
+            <p>Now it happens that the colored
+people are fonder of him than he is
+of them, so they go out in the night to
+see him, and to catch him if they can.</p>
+            <p>Two or three men or boys generally
+go together on a coon hunt, taking with
+them one or more dogs who are trained
+for this purpose, and are known as coon
+dogs.</p>
+            <p>The hunters started at about nine
+<pb id="parker46" n="46"/>
+o'clock in the evening, taking with them
+a number of pieces of fat pine. What is
+called fat pine comes from those parts
+of the hard pine tree that contain the
+greater amount of pitch. The pine is cut
+into pieces about eighteen inches long
+and then split so as to be <sic corr="conveniently">conveintly</sic> handled
+and is used for a torch. When the
+hunt was ready to start they go to the
+door of the cabin and call the dogs they
+happen to have. These dogs are sent
+out ahead and seem to know exactly
+what is expected of them.</p>
+            <p>After waiting about twenty or thirty
+minutes the hunters start out themselves
+and as they generally know about what
+course to take to follow after the dogs,
+listening for their cry. As soon as the
+dogs got upon the track of the coon they
+set up a peculiar cry well known to the
+hunters, who then follow on as fast as
+they can. Not only is the cry of the
+dogs heard by the hunter but also by the
+coon, who immediately begins to take
+<pb id="parker47" n="47"/>
+care of himself, which he does by running
+in the opposite direction from which the
+sound comes to him. As long as the dogs
+are at a distance he takes things easy,
+but as they come nearer he finds that it
+will not only take all his speed, but a
+large amount of cunning to keep clear of
+the dogs. Up to this time he has been
+running along on the ground; now he will
+jump into a tree and running along from
+branch to branch, and tree to tree, he
+will continue his course for some time
+without coming down to the ground.
+Suddenly he stops and jumps so as to
+strike the ground, not in the direction he
+has been running but as far as possible to
+one side, and in this way often reach a
+place of safety before the dogs again get
+upon his trail. Should he fail however
+he will soon try the same trick again,
+and if a stream of water be at hand he
+will try and get to the other side, and
+perhaps he may run in the water a little
+way and then turn aside for a new trail;
+<pb id="parker48" n="48"/>
+but if the dogs are well trained they are
+very apt to keep pretty near him, and at
+last he takes to a tree as a last resort,
+well knowing that the dogs cannot climb.
+Up he goes to a limb near the top of the
+tree. The dogs gather around the foot
+of the tree and set up another sort of a
+cry, which is also well understood by the
+hunters who come on as fast as possible.</p>
+            <p>When they get to the tree they find
+the dogs, but where is the coon. After
+looking into the tree for a few moments,
+one of the number volunteers to go up
+and find the coon. The rest stand holding
+the torches. After some hard climbing,
+the man in the tree gets where he
+can see the light shining in the coon's
+eyes, when he immediately calls out,
+“Here he is, I see him,” and as well as
+he can points out the location of the
+coon to those below. Pretty soon he
+reaches the end of the limb upon which
+the coon is seated, but the coon is too
+far out on the limb to be reached. But
+<pb id="parker49" n="49"/>
+the man wants the coon just as much
+as the coon wants to keep out of
+the way of the man. So a sort of
+race begins; the man going as far out
+on the limb as he can with safety, and
+the coon going out as far as the small
+limb would hold him. Then comes the
+end. The man braces himself and sees
+that he has a safe hold, and then begins
+to shake the limb. Now, although the
+the coon is almost as much at home on
+a tree as a monkey or a squirrel, he
+cannot hold to a very small limb a great
+while. He will then go back a little way
+toward the man as if to frighten him,
+but finding that it is of no use, goes
+back again and looks around. The shaking
+of the limb is continued, and finding
+that he cannot go down by the way he
+came up, he jumps to the ground, not
+straight down, but out at an angle from
+the trunk of the tree, so as to strike the
+ground at quite a distance from the foot
+of the tree. If he has a good hold he
+<pb id="parker50" n="50"/>
+will be able to accomplish this; if not,
+he may lose his hold and fall directly to
+the ground. In either case he will find
+that the dogs are on the lookout for him,
+and he must indeed be a wise coon if he
+succeeds in getting away. As soon as
+the dogs come up to him a fight ensues,
+in which the dogs always are the victors.
+In a few minutes the coon is dead, and
+the sport is over for the night.</p>
+            <p>The game is carried home dressed,
+the skin being carefully saved and dried
+in the sun, while the coon himself
+furnishes a good meal or two to his captors
+and their friends.</p>
+            <p>There is another animal known as the
+opossum, called by the colored people
+'possum. This animal is also used as
+food, and is hunted in about the same
+manner as the coon. The opossum has
+a long tail without any hair on it, but
+nevertheless, it is a very useful member.
+It is used as a sort of extra hand, the
+animal having full control of it, and
+<pb id="parker51" n="51"/>
+when pushed will use it to hang by from
+a branch of a tree.</p>
+            <p>The coon and opossum are very apt to
+fight each other, and it is not uncommon
+to see an opossum on a tree fighting a
+large coon.</p>
+            <p>The female has a pocket as pouch
+below her breast in which she covers
+her young when they are small. If an
+opossum is being chased and finds that
+he cannot got away, he will pretend to
+be dead, and no amount of poking or
+pounding will make him show any signs
+of life, but just as soon as he finds his
+enemy out of the way he will look
+around and if he finds that the course
+is clear he immediately becomes very
+much alive, and takes himself out of
+harm's way as soon as possible, and being
+a good runner it does not take him long
+to get to a safe place.</p>
+            <p>Where the colored people used to
+catch an opossum, one of them would
+pick him up and put his tail into the
+<pb id="parker52" n="52"/>
+cleft of a split stick, and putting the
+stick on the shoulder went carrying him
+home in the same manner as a bundle
+would be carried. When the opossum
+is killed his skin is not taken off, but he
+is put into a kettle of hot water and
+scalded till the hair comes off, as do the
+butchers of the hog, where he is treated
+in like manner, The opossum is generally
+cooked by being roasted in his skin,
+and when served with roasted sweet potatoes
+makes a fine dish that is much admired
+by the colored people.</p>
+            <p>The slaves believed that the wild
+game was intended for them, for while the
+master was enjoying his roast beef or
+lamb, he did not think that his slaves
+needed anything of the sort, but he had
+no objection to the slaves' having
+anything they could get to eat, provided
+they got it without any expense to their
+master.</p>
+            <p>Black bears were to be found in the
+woods, and though bear meat was
+<pb id="parker53" n="53"/>
+considered good eating, the slaves gave the
+bears a very wide berth, for in order to
+hunt him a gun was needed, and the
+slaves were not allowed to have any
+such weapons.</p>
+            <p>Once in a while wild turkeys would
+be caught in the woods. Panthers, wild
+cats, and foxes were somewhat common,
+but these were not meddled with by the
+slaves. There were several kinds of
+poisonous snakes in the woods and
+swamps, but it was not often that the
+slaves were bitten by them.</p>
+          </div3>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker54" n="54"/>
+          <head>CHAPTER V.</head>
+          <p>The slaves were unlearned, for in slavery
+times it was considered a crime
+to teach a slave to read, and it was not
+very often that a colored person could
+be found who could either read or write.
+But what they lacked in book knowledge
+was sometimes made up to them
+in traditions. These traditions were
+many of them curious and unreasonable,
+but, nevertheless, were believed implicitly
+by the colored people, and often-times
+the white people were more or less
+believers in the traditions and superstitions
+of the colored people.</p>
+          <p>It was very common for the white
+people to have their children cared for
+by colored women, whom the children
+used to call mammie, and not infrequently
+<pb id="parker55" n="55"/>
+would these women remain in the family
+year after year, caring for the children
+of one generation till they grew up, and
+their places filled by the children of the
+second, and sometimes of the third,
+generation. As these women had most
+of the care of the children from their
+earliest days, a very strong love always
+existed between the children and the
+colored mammies; and it is not strange
+that the children were more or less
+affected by the oft-repeated stories told
+them by these mammas, sometimes to
+amuse them and at other times to
+frighten them into good behavior.</p>
+          <p>As all the slaves believed in ghosts,
+the children, both black and white,
+were often told that unless they would
+be good, such and such a ghost would
+come and get them. One very tangible
+ghost was the Bogey man, who was supposed
+to have especial care of naughty
+children. Nearly all the children had a
+very fine belief in them until they were
+<pb id="parker56" n="56"/>
+grown up men and women. Sometimes
+their faith was strengthened by the sight
+of a frightful figure dressed in white,
+with an ugly looking face, which cut up
+strange capers, but it nevertheless took
+good care to keep out of harm's way,
+and also not to be seen at very near
+distance, so as to be recognized as one of
+the family slaves or field hands.</p>
+          <p>Another tradition was that concerning
+the owl, who the slaves considered their
+especial friend and protector. Now, the
+the colored man had some peculiar habits
+which would hardly be tolerated in good
+society. Not feeling that they were
+getting all that belonged to them, or, at
+least, all they wanted, they sometimes
+stole corn, wheat, peas, pork, mutton, or
+anything else they could eat, or that
+had a market value. What they wanted
+to eat was cooked in the cabin on the
+sly or in the night. Sometimes they
+were caught cooking the stolen food,
+which, of course, was different from their
+<pb id="parker57" n="57"/>
+regular allowance. Then they were
+questioned as to where they got it, and
+if they could manage to make the
+master believe that it did not come from
+his plantation, nothing was said; but
+those guilty were punished the next day.
+So the slaves soon became aware that
+the crime was not in the stealing, but in
+stealing from their own masters, and
+getting caught at it.</p>
+          <p>But when a slave had anything to
+sell, he had to be doubly careful. The
+very fact that he offered anything for
+sale was considered evidence that it was
+stolen. It was unlawful for a white man
+to buy anything of a slave unless he
+could give a good account of the source
+from which he got it; and as the masters
+themselves generally bought what the
+slaves had a right to sell, that is,
+whatever they raised by working over-time
+in their little yards, or, perhaps a hog
+or two and a few chickens they were
+allowed to keep, there was no occasion
+<pb id="parker58" n="58"/>
+for the slave to offer anything for sale
+anywhere else. But, for all this the
+slaves did have things to sell, and they
+well knew where to sell them. There
+was always some poor white who would
+either buy the goods or sell them for the
+benefit of the slaves—for a consideration.
+As this man generally lived at
+some distance from this plantation, the
+stolen goods would have to be taken to
+him secretly, and in the night, for the
+night was the slaves' holiday.</p>
+          <p>The slave would eat his supper and
+take a nap. He would keep very quiet
+until he thought that the “pattie rollers”
+(patrolman)had gone home, when he
+would quietly go to the place where he
+had hid his stores. Taking them in a
+bag, which he would throw over his
+shoulders, he would start for the house
+of the poor white.</p>
+          <p>And now the owl plays his part. As
+he sees or hears the man he is of course
+disturbed, and makes much noise; but
+<pb id="parker59" n="59"/>
+the slave believes that if he calls from
+the right side it is an omen of good luck,
+and understands the owl to say, “Hoo,
+hoo, hoo,” and goes about his business
+without fear of being caught. But
+should the owl say, “Hoo, hoo, hoo, ha,
+ha,” he believes that there is danger
+near, and hides himself at once, and
+will keep hid as long as the owl calls in
+that way. When it changes its tune to
+“Hoo, hoo, hoo,” the slave moves on,
+believing that the changed calls of the
+owl were intended for his benefit.</p>
+          <p>The slaves not only believed that the
+owl was their friend, and that his language
+was intended entirely for them,
+but also believed that this language was
+not understood by the white folks. For
+example, suppose a master having no
+overseers should send a number of slaves
+into the field to hoe corn, they might
+work well for a time, but as the day
+grew warm they would get tired, and
+perhaps stop to rest in the woods that
+<pb id="parker60" n="60"/>
+skirted the cornfield. The owl who
+might happen to be near, having become
+accustomed to their presence, would pay
+no attention to them, but if a white man
+entered the woods he would be likely to
+make a different noise from that of the
+slaves, and the owl would at once become
+aware that something had happened
+a little different from what had
+been going on, and would begin to cry,
+“Hoo, hoo hoo,” and the slaves would at
+once take this as a warning that somebody
+was near, and go to work again.
+If the owl cried “Hoo, hoo, hoo, ha, ha,
+ha,” they would know that somebody
+was very near, and would work with all
+their might, until very likely their master
+would come in sight, and seeing
+them doing their best, would have no
+fault to find. Consequently the slave
+believed that he did not know that the
+owl had told them of his coming.</p>
+          <p>The slaves, like some other laborers,
+would work only when obliged to, and
+<pb id="parker61" n="61"/>
+when the horn blew for dinner or supper,
+they were always ready to leave
+their work. The mules that were used
+to plow and cultivate, and other kinds of
+farm work soon learned to know the
+sound of the horn as well as the slaves,
+and would want to stop when they
+heard it; so that if the master came
+into the field and asked the slaves why
+they did not finish a certain piece of
+work before they went to dinner, or
+why they had left the plow in the middle
+of the furrow instead of going to the
+end, the slaves would reply that the
+mule heard the dinner horn and would
+not work any more until he had had
+his dinner.</p>
+          <p>There was always a kind of strife
+between master and slave, the master
+on the one hand trying to get all the
+work he possibly could out of the slaves
+at the least possible expense, and the
+slaves on their part trying to get out of
+all the work they could, and to take
+<pb id="parker62" n="62"/>
+every possible advantage of their master,
+naturally feeling that all they could get
+out of him was but a poor <sic corr="sustanence">sustenence</sic> for
+the work they did. And whenever anything
+in nature, such as the cry of an
+owl, a cloud over the moon, a rainy
+night, the barking of a dog, or any other
+circumstance seemed to aid them in
+carrying out their plans, they thought
+that it was intended especially for their
+benefit.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker63" n="63"/>
+          <head>CHAPTER VI.</head>
+          <p>BEING out of doors a great deal of the
+time, and having no books, they
+learned many things from the book
+of Nature, which were unknown to white
+people, notwithstanding their knowledge
+of books. And it often happened that
+the master would be guided by the slave
+as to the proper time to plant his corn,
+sow his grain, or harvest his crops, and
+many things of this kind, which were to
+the master a source of care and anxiety,
+seemed to come to the slave as it were
+by instinct and not often did they made
+mistake in their prophecies.</p>
+          <div3>
+            <head>MERRY-MAKING.</head>
+            <p>Christmas was the greatest holiday
+time that the slaves had; for coming as
+it did at a season when there was not
+as much to do as at other seasons, they
+<pb id="parker64" n="64"/>
+were allowed some time to enjoy themselves<corr>.</corr>
+On many plantations the slaves
+were allowed to have a full week to
+themselves. The holiday season began
+with Christmas eve, when the slaves
+generally had some sort of a meeting.
+Some of the people, especially the young
+factor, would have a dance in one of the
+cabins of the plantation.</p>
+            <p>One of the slaves would plan for a
+dance several weeks before the time and
+word would be sent, not only to the
+hands on the plantation, but also to the
+other plantations near by, and when the
+time came, quite a number would gather
+at the appointed time, which would be
+about eight o'clock as told by the <sic corr="evening">eveniug</sic>
+star, for the slaves had no watches or
+clocks, and consequently were obliged to
+depend upon the sun, moon, and stars and
+other things in nature to tell the time,
+except of course, that the hours of labor
+and meal times were regulated by the
+watch or clock of the master.</p>
+            <pb id="parker65" n="65"/>
+            <p>Sometimes there would be a supper
+at the gathering, in which case it would
+be eaten in the first part of the evening.
+This supper would consist of hominy, hoe
+cakes, sweet potatoes, bacon, lamb coon
+or 'possum, or any other kind of meat
+that could be obtained. Sometimes the
+meat would be given by the masters
+who might add also flour and molasses.</p>
+            <p>Sometimes the small twigs and young
+needles of the hard pine tree were used
+for tea. Coffee was made of corn or wheat
+burnt and pounded in a mortar if one was
+to be had, otherwise the corn would be
+put in a cloth and pounded with an axe
+or iron wedge<corr>.</corr> We also had apple
+juice (cider brand), old rye whiskey,
+sometimes called “old red eye,” and peach
+brandy. These liquors were allowed by
+the master if the slaves could buy them
+themselves from the money they earned
+by over work. Nearly every plantation
+had its own still, so that these liquors
+were both common and cheap.</p>
+            <pb id="parker66" n="66"/>
+            <p>After supper the room was cleared
+and made ready for the dance. If some
+slave could be found who had an old
+fiddle and could play it at all, he was
+called on to furnish music; if not, some
+one would take an old tin pan and use
+it like a tambourine. Two or three
+others “pat Jubo,” that is, would keep
+time by patting their knees with their
+hands, and to this primitive music the
+dance would go on hour after hour till
+nearly, if not quite, broad daylight. This
+would, however, be more or less singing
+of words that were often made on the
+spot.
+<q type="verse" direct="unspecified"><lg type="verse"><l>“I love my darlin', dat I do;</l><l>Don't you love Miss Susy, too?”</l></lg></q>
+These words would be sung over
+and over ago.</p>
+            <lg type="verse">
+              <l>“Sally's in de garden siftin' sand,</l>
+              <l>And all she want is a honey man.</l>
+              <l>De reason why I wouldn't marry,</l>
+              <l>Because she was my cousin</l>
+              <pb id="parker67" n="67"/>
+              <l>O, row de boat ashore, hey, hey,</l>
+              <l>Sally's in de garden siftin' sand.”</l>
+            </lg>
+            <p>Some slaves were good dancers,
+especially the young girls, some of whom
+could dance so steadily that if a glass of
+water were placed on their heads none
+of the water would be spilt. I have
+often seen a girl dance for ten minutes
+with a glass cup filled with water on her
+head without any of it being spilt.</p>
+            <p>If the next day was Sunday or was a
+holiday, the dance would <sic corr="continue">contiuue</sic> all
+night. The young men would dance all
+night till broad daylight, and then go
+home with the girls in the morning.</p>
+            <p>In some other cabin, perhaps on the
+same plantation, while the young people
+were dancing, the old ones would be
+holding a prayer “meetin'”, notice having
+been sent out as in the case of the
+dance. As none of the slaves could
+read, there were no books at these
+meetings. When the folks got together
+some one would begin with a prayer, or
+<pb id="parker68" n="68"/>
+perhaps with a hymn, in which he or
+she would be followed by all in the room,
+unless it happened that they did not
+know the piece, which was perhaps being
+made up as the singer went along.</p>
+            <p>Of course there were no musical conductors,
+but the slaves in part made up
+for this lack by keeping time with their
+feet and hands. These meetings would
+sometimes last all night, and the slaves,
+ignorant as they were, always enjoyed
+them.</p>
+            <p>The following hymn was one of the
+most popular, and was sure to be sung
+at these meetings:</p>
+            <lg type="hymn">
+              <l>“Roll Jordan roll, roll Jordan roll,</l>
+              <l>I want to be in de kingdom,</l>
+              <l>To heah ole Jordan roll.</l>
+              <l>You see dat falcon a-lighting,</l>
+              <l>You see dat falcon a-lighting,</l>
+              <l>To heah ole Jordan roll.</l>
+              <pb id="parker69" n="69"/>
+              <l>You see ole Massa Jesus a-coming,</l>
+              <l>You see ole Massa Jesus a-coming,</l>
+              <l>You see ole Massa Jesus a-coming,</l>
+              <l>To heah ole Jordan roll.</l>
+              <l>Roll Jordon roll, roll Jordan roll,</l>
+              <l>I want to go to Heaven when I die.</l>
+              <l>To heah ole Jordan roll.”</l>
+            </lg>
+            <p>As I have said before, slaves were
+very musical in their way, which, if not
+up to the modern ideas of music, was such
+that they derived very much enjoyment
+from it. At nearly all times one would
+hear the slaves singing snatches of old
+plantation songs, which for want of
+space I cannot print, but the following
+is a part of one of the best known
+songs:</p>
+            <lg type="hymn">
+              <l>“When I was a little pickanninny, playin' around
+de cabin door,</l>
+              <l>I was de happiest little darkey in de land,</l>
+              <pb id="parker70" n="70"/>
+              <l>Now I'm getting ole and feeble and my hair is
+turnin' gray,</l>
+              <l>And I am goin' back to Georgia, if I can.</l>
+              <l>Good ole Georgie, happy land!</l>
+              <l>Gwine to live and die in good ole Georgie
+land.”</l>
+            </lg>
+          </div3>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker71" n="71"/>
+          <head>CHAPTER VII.</head>
+          <p>THE following year after I left Cofell I
+went to work for Darias White who
+was a step son of my old master, and I
+continued to work for him three years.
+His business was to get out oak and hard
+pine lumber most of which was used in
+ship-building.</p>
+          <p>All the time I worked for White I
+drove team, and had charge of the mules
+and one horse. The horse was kept by
+my master for his own use. The mules
+were used entirely for teaming. Besides
+these he had a large number of oxen that
+were used for <sic corr="hauling">hawling</sic> the great logs out
+of the woods.</p>
+          <p>These logs were of the largest kind
+and were often one hundred feet or more
+in length. The but end of the log was
+<pb id="parker72" n="72"/>
+fastened to the axletree of an enormous
+pair of wheels, from the axletree projected
+a long tongue, to which was attached
+a single yoke of oxen. In front of this
+yoke of oxen there was sometimes as
+many as fifteen yoke of oxen one ahead
+of the other and all fastened by a chain
+to the end of the tongue. A team of this
+kind required about eight drivers. Each
+driver was seated on the yoke of one
+pair of oxen, and would drive that yoke
+and the yoke in front.</p>
+          <p>Instead of a whip such as is used in
+the north, the drivers would have a long
+slender birch rod, which when green
+would be almost as durable as a raw-hide.</p>
+          <p>The small end of the log was also
+hung between a large pair of wheels. To
+the tongue of which was fastened a rope
+from twelve to fifteen feet long with a
+<sic>a</sic> knot in the end. The end of this rope
+was given into the hands of a strong
+active negro, whose business it was to
+steer the logs. When everything was
+<pb id="parker73" n="73"/>
+ready the word to start would be given
+and away the logs went, the oxen pulling
+with all their might and the log drivers
+shouting at the top of their voices.</p>
+          <p>The man with the guiding ropes of
+the rear wheels sometimes on the logs
+sometimes on the ground at one side,
+and sometimes at the other side working
+with all his strength to keep the log in
+its place, and so the procession proceeded
+from the woods to the river bank, where
+the log would be left till enough were
+got together to ship to market.</p>
+          <p>Very often I had to drive oxen
+myself, though my business generally
+was to drive the mules, drawing grain
+and fodder for the oxen. Sometimes
+the mules would be hitched in front of
+the ox team. I liked this sort of work
+very well as it was not often hard, and
+there was a good deal of excitement about
+it.</p>
+          <p>Mr. White was a good master and
+took good care of his slaves, and was
+<pb id="parker74" n="74"/>
+never known to whip one. He generally
+had about forty hands in all. Often at
+the end of the year a slave who had done
+well, would receive a present of five or
+ten dollars from him.</p>
+          <p>He liked to see his slaves look well
+and they soon learned to keep clean and
+to look as respectable as possible.</p>
+          <p>Their clothes were of heavy white
+cotton cloth, which would be carefully
+washed each week, so that as they went
+to the woods on Monday morning, they
+would present quite a smart appearance.</p>
+          <p>Had all masters been like Darias
+White there would been far less
+trouble with the slaves, as under such
+masters they were generally happy and
+contented.</p>
+          <p>Many of the slaves camped in the
+woods through the entire lumber season.</p>
+          <p>A camp would be made of logs, bark
+and pieces of board, which would enclose
+the camp on three sides, on the fourth a
+large fire would be built at night, at
+<pb id="parker75" n="75"/>
+which we did our cooking. Every evening
+after supper had been disposed of the
+slaves would spend the time till bed time
+in singing and telling stories.</p>
+          <p>After I got through with Mr. White
+I went to live with Elisha Buck with
+whom I lived one year. Buck was a
+mean poor white who had a large farm,
+and owned some slaves, and I made the
+eighth hand on the farm. He did not
+treat us at all well, and it was not often
+that we had all we wanted to eat. One
+day while I lived on his place I went in
+company with another slave into the
+woods and caught a pig, which we
+knocked in the head with a large pine
+knot, which we called a lighted knot, but
+it so happened that the owner of the pig
+was in the woods, and hearing the pig
+<sic corr="squeal">squeel</sic> came to see what the matter was
+We did not get away before he saw us so
+he went directly to Buck and told him
+that two of his niggers had been stealing
+a pig. We were<sic corr="immediately"> immediatly</sic> called out
+<pb id="parker76" n="76"/>
+of the field by Buck, and he told the
+owner of the pig that he could give us
+a whipping, but that he could not strike
+us on the back, so we got about thirty-nine
+lashes each, and then were let go.</p>
+          <p>It did not do much good to either
+of us for on the following Sunday I went
+into the woods again and got another pig
+which I dressed in the night.</p>
+          <p>As I did not have every <sic corr="advantage">atvantage</sic> of
+a first-class slaughter house I was obliged
+to manage as best I could. Accordingly I
+built a fire and gave the pig a good singeing
+and while he was warm from the
+effects of the fire. I put him into water,
+and then scraped him with a case-knife
+and finally got him clean.</p>
+          <p>When he was properly dressed I
+carried him on my shoulder about three
+miles, and turned him over to a “poor
+white” who took him to a neighboring town
+the next day, and sold him for me. I got
+back to quarters before the hands were
+<pb id="parker77" n="77"/>
+called in the morning so that no one
+knew where I had been.</p>
+          <p>In due time the “poor white” gave
+me my share of the money he got for the
+pig. With this money I bought some
+cloth, which a white woman made into a
+coat and a pair of pants for me.</p>
+          <p>A few days afterwards I wore my
+new clothes to a “big meeting,” that is a
+meeting in the woods something like a
+camp meeting. Put the fact that they
+were paid for with stolen goods did not
+trouble me at all.</p>
+          <p>The negroes at the south seemed to
+think that everything that they could get
+hold of belonged to them.</p>
+          <p>In New England this code of morals
+would appear rather out of place. But
+if you consider that a strong able bodied
+slave was required to work a full year for
+his board and clothes. And not only this,
+but that he was expected to cook his own
+food after doing his day's work, and it will
+be remembered that the entire cost <sic corr="of">o</sic>
+<pb id="parker78" n="78"/>
+food furnished him was in most cases less
+than thirty dollars per year, and that the
+entire outfit in the shape of clothes cost
+less than twelve dollars per year, making
+a grand total of less than forty two dollars
+per year or three dollars and fifty cents
+per month. The slave could hardly be
+expected to feel the same regards for his
+master's rights as he would have done had
+he been a free man, properly treated and
+justly paid.</p>
+          <p>While I was living with this man
+my mother's health began to fail, and I
+frequently went to see her. As her
+friends gathered around her she would tell
+them that while she did not expect to live
+to see it she hoped that the time would
+soon come when all the slaves would be
+free.</p>
+          <p>The war of the rebellion had at this
+time been in progress some months, and
+although our masters tried to keep all
+matters relating to the war from their
+slaves, the slaves managed to get hold
+<pb id="parker79" n="79"/>
+of a good deal of news, and the idea was
+fast gaining ground, that in some way
+they were soon to be free. As the time
+went on my mother became weak and I
+obtained leave to be with her nights, and
+my father got leave to be with her three
+nights in a week and all day Sunday.
+At this time he lived about eight miles
+from my mother's cabin, and of course
+had to walk both ways every time he
+came to see her. Both my father and
+I were with mother when she died
+which took place about nine o'clock one
+August night.</p>
+          <p>She was buried in the same manner
+that most of the slaves were. A negro
+carpenter made a rough pine box, without
+lining, trimming, or paint. Her only
+<sic corr="shroud">shrowd</sic> was a white night-dress, yet the
+tender hands of her loved ones smoothed
+this out as carefully as if it had been of
+the finest satin. A few of the nearest
+friends and neighbors gathered round the
+<pb id="parker80" n="80"/>
+rough coffin to take a last look at the
+dear face, then the cover was nailed on,
+the coffin placed in a cart and carried
+to a little sandy knoll, and beneath the
+shade of a few stunted pines a shallow
+grave was dug, in which without ceremony
+the coffin was placed and the
+sandy earth heaped above it. Not a
+prayer was said nor a hymn sung for the
+white folks seemed to feel that the sooner
+the matter was over the more time the
+slaves would have for work, and the slaves
+—well they were not supposed to feel at
+all, they were only cattle. Nevertheless
+the form that now lies in that unmarked
+grave, far in the sunny south, was that of
+my mother, and my mother was just as
+dear to me, kind reader, as your mother is
+to you; and though she died a slave, and
+lies buried where I may never visit her
+grave, I hope by the grace of Him who
+died that that we might live, to meet her
+in that land where all shall be free, and
+<pb id="parker81" n="81"/>
+where there shall be no night nor any
+sorrow, and where there shall be none to
+oppress.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker82" n="82"/>
+          <head>CHAPTER VIII.</head>
+          <p>A short time after my mother died, I got
+tired of living with Burk and ran
+away to the woods. I would stay in the
+woods in the day time, and in the night
+I would go to the house of a poor white
+woman who had been a friend to my
+mother. After I had stayed away about
+a week I got tired of that sort of life
+and went back to Mr. Buck. When I
+got back Buck called two of his slaves,
+who helped him to tie me, and then he
+gave me a whipping on the legs with a
+cowhide. I did not run away again, and
+for a time he treated me better than he
+had done before.</p>
+          <p>As the years of my service drew to a
+close he grew more close, but at times
+was unkind to me. He did not try to
+<pb id="parker83" n="83"/>
+injure me again till the end of my service,
+not daring to touch me any more,
+while my term of service lasted. On the
+last day he came to me and said he was
+going to whip me. I said he should not
+and started to run. He ran after me,
+but did not catch me until I got on the
+old Parker Plantation. I then raised
+my hand and told him that he could not
+touch me<corr>.</corr>  He went to my mistress and
+told her that he wanted to whip me,
+but she informed him that as I had got
+through my term of service, he had
+nothing more to do with me, and so the
+matter ended.</p>
+          <p>My mistress, however, called me to
+her and told me to look out for myself
+for Mr. Buck, she said, would be likely
+to injure me if he got a chance when I
+was off that plantation.</p>
+          <p>The following January I was let to a
+man of the name of John Littlefield. He
+was a poor white who had two women
+slaves and a slave of his own. He was a
+<pb id="parker84" n="84"/>
+small farmer. I stayed with him some
+months, and being near the old
+plantation I saw my owners quite often.
+One day Miss Annie said to me, “Allen,
+if the war continues shall you run away
+or will you stay with me?” I told her
+that I did not want to leave her and
+would not run off to the Yankees, I
+was on good terms with Miss Annie for
+there was only a few days difference in
+our ages, I being the older, and we were
+both still young and did not feel the
+difference in our stations, it was true that
+she owned me but as she had up to
+this time had no care of her own property,
+she did not seem to <sic corr="realize">relize</sic> that I was her
+slave. And as I had <sic corr="always">slways</sic> been well <sic corr="treated">treeted</sic>
+by all the Parker family I had no feelings
+for any of them except love and respect.
+The plantation had always been my
+home when I was not out at work, either
+alone or with my mother so, that I felt as
+if in a measure I was one of the family<corr sic=",">.</corr></p>
+          <p>However in common with all the
+<pb id="parker85" n="85"/>
+Negroes I had <sic corr="imbibed">inbribed</sic> very strong yearning
+for freedom and was hoping that in
+some way my freedom would come to me.
+But up to the time of my mother's death
+I had no idea of running away to stay<corr sic=",">.</corr>
+But while I was with Littlefield we kept
+hearing more and more about the “Yankees”
+and the more we heard, the more
+uneasy we became. Many of the slaves
+from the plantation had been sent to
+Richmond for fear they would run away, but
+none of the Parker slaves had been sent
+off, nor had any of them ran away.</p>
+          <p>But as the summer months passed,
+those of us that were left on the plantation,
+felt more and more restless, for added
+to our increasing desire for liberty
+we could not help feeling the <sic corr="extra">xtra</sic>
+restraint that was put upon all the slaves in
+the vicinity to prevent them from running
+away.</p>
+          <p>The roads were patrolled and every
+effort was made to keep the slaves on
+the plantations at night, and it was very
+<pb id="parker86" n="86"/>
+hard to get a pass to leave home at all;
+but nevertheless we did manage to get
+away quite often and many conferences
+were hold, in which the doings of the
+“Yankees” were talked over, and ideas
+in <sic corr="relation">relacion</sic> to freedom exchanged by the
+slaves.</p>
+          <p>During the month of August<corr sic=".">,</corr> 1862
+slaves living on the adjoining plantation
+together with myself began to form plans
+of in some way getting to the “yankees”<corr>.</corr>
+We used to get together when we could
+and talk our plans over, but for a time
+did nothing else. But finally finding
+that lots of the slaves from the neighboring
+plantation were running away we
+concluded that we would take our chance,
+as soon as we could get any.</p>
+          <p>One day we heard a gun fire about
+four o'clock in the morning and upon
+gathering in the morning to see what the
+matter was we saw a United States gunboat
+out in the river. As this was by
+no means the first we had seen of Uncle
+<pb id="parker87" n="87"/>
+Sam's vessels we were not at all surprised
+and in fact for some days we had agreed
+that the next time a vessel came up the
+river we would try and get on board her.
+That night after it was quiet, my three
+friends, whose names were Joe, Arden
+and Dick all slaves of one Robert Felton
+came to see me. We talked the matter
+over and concluded to start that night.
+We waited till everything was quiet
+for as it happened there were no “pattie
+rollers” out that night; and then stole
+our way down to the river bank, where
+we knew there was a boat. We found
+the boat all right but it was fastened to
+a tree with a chain the ends being locked
+together. I told the other three men to
+get some sticks and march up and down
+the beach like soldiers while I took
+another stick with which I managed to
+pull out the staple that held the chain to
+the boat thereby leaving chain and lock
+fast to the tree where it may be yet for
+ought I know to the contrary. There
+<pb id="parker88" n="88"/>
+were some paddles in the boat, and we
+were not long in making use of them.
+Pushing out from the shore we bid goodbye
+to the old plantations and slave life
+forever. As we neared the boat we were
+hailed with, “Who are you?” We
+replied, “Friends,” and received the reply,
+“Advance, friends, and come alongside.”
+As we got alongside of the gunboat we
+were hailed again with, “Who are you?”
+and “where did you come from?” My
+friends said that they were from Rob.
+Felton's plantation, and I told them that
+I belonged to Miss Annie Parker. They
+then inquired if our owners were Union
+people or not, and we replied that they
+were not. The officer who had hailed
+us then reported what we said to the
+captain, but before he went away we
+told him that all wanted to go on board
+the vessel and stay. We asked him if he
+could not take us on board to let us
+know at once, so that we could got back
+home before morning. When the officer
+<pb id="parker89" n="89"/>
+came back he said he had orders from
+the captain to let us come aboard. We
+immediately accepted the invitation, and
+being very tired, were soon fast asleep
+on the deck of the vessel. In the morning
+we were told that we could stay on
+the boat. Accordingly, we let our boat
+drift, which, by the way, was only a
+cypress dug out, being made of a single
+log.</p>
+          <p>When it was light we found that we
+had been missed at home, for soon there
+was quite a number of men, armed with
+guns and accompanied by dogs, collected
+on the shore, but there was a wide
+step of water between us, and we did not
+feel very much alarmed. The captain
+watched them for a while, then ordered
+a gun loaded with a shell to be fired in
+that direction. The shell burst in the
+air, but our friends did not stay to see
+another fired. They seemed to remember
+very suddenly that they had something
+to do at home; at any rate, in a
+<pb id="parker90" n="90"/>
+very short time not a man or dog was to
+be seen.</p>
+          <p>The next night some of the sailors
+taking Joe as a pilot, went to the Felton
+plantation and got quite a lot of chickens,
+ducks and geese. A few nights
+afterward they went to the plantation
+again, and finding that Mr. Fulton was
+at home, they surrounded the house and
+took him prisoner  He was carried on
+board the vessel and kept there until
+she went to New Berne. The morning
+after he was taken prisoner his wife and
+two little children went to the vessel and
+asked to see him, which was permitted.
+But it chanced that before Mrs. Felton
+saw her husband she sighted Joe, to
+whom she used some very hard language,
+to say the least. Among other
+things she told him that if the south
+were successful they would kill all the
+negroes that ran away. Joe quietly
+informed her that as the south would not
+win, he thought he was safe enough.</p>
+          <pb id="parker91" n="91"/>
+          <p>It happened that Joe was a son of
+Mr. Felton, and his mother was one of
+Col. Felton's slaves. But the tables had
+turned; Joe remained on the vessel a
+free man, and Felton was a prisoner of
+war. A few months afterward Joe was
+accidentally drowned.</p>
+          <p>In a few days I embarked in the
+United Suites Navy and was placed on
+board a vessel that had been captured
+from the rebels. I served on this vessel,
+which was called “The Knockum,” and
+was used as an ammunition boat, for one
+year when I got my discharge. I then
+went to Beaufort, where I worked in a
+saw mill for some months. After that I
+went to sea again as steward on a sailing
+vessel, owned in Portland Me. We
+loaded with timber for Brooklyn, N. Y.,
+and after discharging our cargo, we
+sailed to Portland, at which place I left
+the vessel, and have never been South
+since.</p>
+          <p>After staying in Portland about a
+<pb id="parker92" n="92"/>
+week, I went directly to New Haven,
+Conn., where I had a cousin who had
+formerly been a slave in the Parker
+family, but had been purchased by an
+Alabama planter. When this planter
+died he left it in his will that my cousin
+should be free; he also left a sum of
+money with which she came north. I
+stayed with her for about a year, during
+which time I worked for a mason as hod
+carrier and general laborer. From New
+Haven I went to various places, staying
+but a short time in each<corr>.</corr>  I finally drifted
+to Worcester, where I have lived most
+of the time for the last thirty years.</p>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="text">
+        <pb id="parker93" n="93"/>
+        <head>SLAVE ADVERTISEMENTS.</head>
+        <p>The following advertisements were
+taken word for word from different issues
+of a South Carolina newspaper:</p>
+        <div2 type="chapter">
+          <head>BY JACOB CHAM &amp; SON,</head>
+          <p>At Probate Sale,</p>
+          <p>Joe, 50, competent butler.
+<lb/>
+Silvia, 35, excellent cook.
+<lb/>
+Charles, 21, Waiting man.
+<lb/>
+Sophia, 14.</p>
+          <p>The above family is well worth the
+attention of those wishing trusty negroes.
+They are to be sold to a city owner. For
+further particulars apply as above at
+24 BROAD STREET,
+Old State Bank.</p>
+          <pb id="parker94" n="94"/>
+        </div2>
+        <div2 type="chapter">
+          <head>UNDER DECREE IN EQUITY.</head>
+          <p>EXECUTION OF WHITESIDES VS. WILLIAMS.
+will be sold on
+WEDNESDAY, 28TH OF MAY, 1860,
+at 11 o'clock,
+On the Mart in Chalmer Street,
+the following thirteen valuable slaves, viz.,</p>
+          <list type="simple">
+            <item>Emanuel, aged 50, field hand and good hustler.</item>
+            <item>Hager, aged 30 years, cook and washer</item>
+            <item>Betty, aged 14 years.</item>
+            <item>James, aged 12 years.</item>
+            <item>Jack, aged 9 years.</item>
+            <item>Katy, aged 25 years, cook.</item>
+            <item>Anna, aged 4 years.</item>
+            <item>Jenkins, aged 18 months.</item>
+            <item>Mary, aged 16 years, waiting maid.</item>
+            <item>George, aged 17 years, horse boy.</item>
+            <item>Harriett, aged 60 years.</item>
+            <item>Sam, aged 5 years.</item>
+            <item>Betty, aged two years.</item>
+          </list>
+          <p>Terms: One-third cash; balance in
+one and two years, to be secured by
+bond, mortgage and two approved sureties.
+Purchasers to pay for papers.</p>
+          <closer><signed>JAMES TUPPER,</signed>
+Master in Equity.</closer>
+        </div2>
+        <div2 type="chapter">
+          <pb id="parker95" n="95"/>
+          <head>A REWARD OF 5 OR 20 DOLLARS.</head>
+          <p>Five Dollars will be paid
+for the apprehending of my
+negro man named Stephen,
+who, in looking out for a
+master from the 29th ultimo,
+has not returned to his duty, nor has he
+been heard of; is about 5 feet 8 inches
+high, stoutly built, well formed, speaks
+good English, and is inclined to be plausible;
+black complexion, small whiskers
+and a few white hairs in them. He is
+well-known about the city, has a free
+wife at Mr. Robert Anderson's market in
+King street. A reward of twenty dollars
+will be paid for proof to conviction that
+he is harbored by a white person or free
+person of any color.</p>
+          <p>A reward will also be paid for the
+apprehension of old limpy negro Fortune
+who for two months has been looking
+for a lost turkey. For further particulars
+<pb id="parker96" n="96"/>
+inquire at the corner of St. Philip
+and Six streets.</p>
+          <closer><signed>J. JOONIS.</signed>
+<dateline>Novr. 8, 1831.</dateline></closer>
+        </div2>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

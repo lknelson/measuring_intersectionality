@@ -1,0 +1,754 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd">
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph> Horrors of the Virginian Slave Trade and of the Slave-Rearing Plantations. The True Story of Dinah, an Escaped Virginian Slave, Now in London, on Whose Body Are Eleven Scars Left by Tortures Which Were Inflicted by Her Master, Her Own Father. Together with Extracts from the Laws of Virginia, Showing That Against These Barbarities the Law Gives Not the Smallest Protection to the Slave, But the Reverse:</emph>
+Electronic Edition.</title>
+        <author>Simpson, John Hawkins </author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Elizabeth S. Wright, and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.   140K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Horrors of the Virginian Slave Trade and of the Slave-Rearing Plantations. The True Story of Dinah, an Escaped Virginian Slave, Now in London, on Whose Body Are Eleven Scars Left by Tortures Which Were Inflicted by Her Master, Her Own Father. Together with Extracts from the Laws of Virginia, Showing That Against These Barbarities the Law Gives Not the Smallest Protection to the Slave, But the Reverse</title>
+            <author>John Hawkins  Simpson</author>
+          </titleStmt>
+          <extent>vii, [1], 64 p. </extent>
+          <publicationStmt>
+            <pubPlace>LONDON:</pubPlace>
+            <publisher>A. W. BENNETT, 5 BISHOPSGATE STREET WITHOUT.</publisher>
+            <date>1863.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  Humanities-Microforms Sc Micro R-4784 (r.1)  (The Schomburg Center for Research in Black Culture, New York Public
+Library)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. 
+The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>This electronic edition has been transcribed from a microfilm copy.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.
+ </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Slavery -- United States.</item>
+            <item>Slavery -- Virginia.</item>
+            <item>Slaves -- Virginia -- Biography.</item>
+            <item>African Americans -- Virginia -- Biography.</item>
+            <item>Fugitive slaves -- Virginia -- Biography.</item>
+            <item>Browne, Dinah Hope.</item>
+            <item>Plantation life -- Virginia.</item>
+            <item>Slavery -- Law and legislation -- Virginia.</item>
+            <item>Slave trade -- United States.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2003-11-12, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-09-18, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-08-23, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-08-16, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">HORRORS <lb/> OF THE <lb/> VIRGINIAN SLAVE TRADE <lb/> AND OF THE <lb/> SLAVE-REARING PLANTATIONS. 
+<lb/> <hi rend="italics">The True Story of Dinah, an Escaped Virginian Slave, </hi><lb/> NOW IN LONDON, <lb/> ON WHOSE BODY ARE ELEVEN SCARS <lb/> LEFT BY TORTURES WHICH WERE INFLICTED BY HER MASTER, <lb/> HER OWN FATHER. <lb/>TOGETHER WITH EXTRACTS FROM THE LAWS OF VIRGINIA, SHOWING THAT AGAINST <lb/> THESE BARBARITIES THE LAW GIVES NOT THE SMALLEST PROTECTION <lb/> TO THE SLAVE, BUT THE REVERSE.</titlePart>
+        </docTitle>
+        <byline>By</byline>
+        <docAuthor>JOHN HAWKINS SIMPSON, <lb/> Author of <lb/> ‘Poems of Oisin and Mayo Mythology,’ ‘Napoleon III, on England,’ &amp;c.</docAuthor>
+        <docImprint><pubPlace>LONDON:</pubPlace>
+<publisher>A. W. BENNETT, 5 BISHOPSGATE STREET WITHOUT.</publisher>
+<docDate>1863.</docDate>
+The right of translation is reserved.</docImprint>
+        <pb id="pii" n="verso"/>
+        <docImprint><pubPlace>LONDON </pubPlace> <publisher>PRINTED BY SPOTTISWOODE AND CO. <lb/> NEW-STREET SQUARE</publisher></docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="piii" n="iii"/>
+        <head>PREFACE.</head>
+        <p>I HAVE often heard men of generally good education say, ‘Why should not the South be independent, and recognized as such, just in the same way as, in 1776, the United States claimed, and, to the delight of all liberal-minded men, secured, separation from England?’</p>
+        <p>Whether the South will or will not become independent is a question that can be solved by Americans alone, no country having the smallest right to interfere in the struggle now being carried on. As to the recognition of the South <hi rend="italics">when</hi> independent, if that ever could be, I believe, or rather hope, that few who express themselves in language such as is above described, can be aware how utterly impossible it is for the Southern States to proclaim their independence, ‘just in the same way as, in 1776, the United States claimed, and, to the delight of all liberal-minded men secured, separation from England.’</p>
+        <p>That they may be able to reconsider their views I give a portion of the</p>
+        <pb id="piv" n="iv"/>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <head>DECLARATION OF INDEPENDENCE <lb/> OF <lb/> THE UNITED STATES.</head>
+                <opener>
+                  <dateline>(Signed on paper 4th July 1776.)</dateline>
+                </opener>
+                <p>It begins thus:—</p>
+                <p>‘When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and of nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.</p>
+                <p>‘We hold these truths to be self-evident: that all men are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness, &amp;c. &amp;c.’</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>The contrast between the ‘self-evident truths’ of Washington, Jefferson, and other men of that time, and the self-evident truths of the President and the Vice-President of the Confederation, both of them unflinching advocates of Slavery and of its future extension, is about as startling as any contrast can be, and the cry that comes from men here in England about the ‘glorious struggle for Southern Independence’ is disgusting indeed when it comes, as it very often does, from men who would not hesitate to deluge in blood either Scotland or Ireland, if either of those countries claimed independent government, and by force of arms endeavoured to secure it.</p>
+        <p>In the following pages I do not wish to be an indiscriminating
+<pb id="pv" n="v"/>
+advocate of the North, nor do I assert that all who are now waging, in America, uncompromising war against rebellious slave-owners have always been, or even now are, hostile to slavery in the abstract. But then, in England, do we not often see men advance in liberal and enlightened professions and actions also? Is it usual, would it be wise, after they have really advanced, to do nothing but remind them of their earlier and less advanced views, or else express doubts as to the goodness of the motives which led to the change? If we have any such doubts, the wise course is to take steps to guard against the possibility of a relapse.</p>
+        <p>It cannot be denied that, until immediately before the rebellion broke out, Southern or slave-owning interests were actively or passively, directly or indirectly, promoted by numbers of men in the North. But these Northern allies of the slave power have at last (in self-defence it is true) withdrawn their support, both active and passive; and it was brought about in this way:</p>
+        <p>When slave-owners, not content with unthreatened possession of their chattels in their own states, obtained from the highest tribunal in the United States (which Southern influence had filled with Southern lawyers) a decision, by which it was affirmed that slavery exists <hi rend="italics">ipso jure</hi> in all the territories, and that not even the settlers themselves could make it illegal,—by which also was recognised the right of the slave master to carry his slaves with him to any part of the Free States, and hold them there, any local law to the contrary notwithstanding—when the slave interest thus became outrageously aggressive—then, and then only, its northern colleagues withdrew their support.</p>
+        <pb id="pvi" n="vi"/>
+        <p>Slave-owners could no longer hope for a majority in the councils of the Federation: secession and, if need be, civil war were determined upon by the Southerners. Then a committee of thirty-three members of Congress, one representing each State, met, before the last presidential election, to consider the dangers which threatened the Union. All Southern grievances were put before that committee. THE PRINTED REPORT OF THAT COMMITTEE, extending to about forty pages, SETS FORTH NO FISCAL WRONGS ENDURED BY THE SOUTH, NO DEMANDS ON THE PART OF SOUTHERNERS FOR FREE TRADE: it is filled from beginning to end with the slave dispute in all its bearings. Southern men had no other complaints to make.</p>
+        <p>Again, the Emancipation Proclamation may not have been dictated by unmixed regard to the slave: it was only the exercise of a belligerent right—a right most distinctly recognized by the laws of nations, and repeatedly acted upon by their generals. But why should not we be glad if (as most people will admit, now that nearly a million slaves have been actually and practically freed under its protection) the Proclamation has turned out to be in the interest of the slave, although its aim and primary object were to injure a rebellious master?</p>
+        <p>If fetters are, in fact, being removed, and if that is what we think we should like to see done more and more, why should we say, over and over again, ‘You fellow there, who are now knocking off those fetters, remember you are paid for, or else you gain by, so doing: I'm wide awake, believe me; that is not what you have been doing all your life, so you need not ask me to say you are doing right now.’ Were we to hear a man speaking so, we might not question the
+<pb id="pvii" n="vii"/>
+accuracy of his judgment, but surely we should be right in thinking that joy for the slave's liberation was far from abounding in that man's heart.</p>
+        <p>Those who, only after mature study of history, of finance, and of military science, are of opinion that the South is <hi rend="italics">certain</hi> to be independent, cannot be blamed if they doubt that good is likely to result to the slave in the end: to those who so think I do not address the observations given just now.</p>
+        <p>From mixed motives, or passions, the North will fight till slavery, at any rate as an aggressive power, is crippled. Were the North to agree to terms by which this would not be secured, it would deserve to be overwhelmed with contempt and ridicule. Let us not, led by falsely-grounded sympathies or antipathies, refrain from protesting, at this important juncture against the BUYING AND SELLING OF SLAVES. Whatever else we may prefer to leave undone, surely we must all agree that this part of the slave system may and ought to be at once abandoned. By so protesting, we shall (and it may be needed after all) bring a strong moral pressure to bear on the North quite as much as, perhaps more than, upon the South.</p>
+        <p>The story of Dinah is written with no attempt at elegance of style. It took me five days to take notes from her word of mouth: those notes were answers to questions and cross-questions searching as I could make them. I have merely connected the answers as briefly as possible. My aim was, not to spin out a long tale, and not to introduce anything at all of an imaginary nature.</p>
+        <closer><signed>J.H.S.</signed>
+<dateline>LONDON: <date><hi rend="italics">December</hi>, 1863.</date></dateline></closer>
+      </div1>
+      <div1 type="contents">
+        <pb id="pviii" n="viii"/>
+        <head>CONTENTS.</head>
+        <list type="simple">
+          <item>PREFACE  . . . . . <ref target="piii" targOrder="U">iii</ref></item>
+          <item>CHAPTER I. Virginia  . . . . . <ref target="p1" targOrder="U"> 1</ref></item>
+          <item>CHAPTER II. Mr. Hope and his property  . . . . .  <ref target="p6" targOrder="U">6</ref></item>
+          <item>CHAPTER III. Di runs away to the woods, is brought back, flogged, and branded  . . . . . <ref target="p12" targOrder="U">12</ref></item>
+          <item>CHAPTER IV. Jessie, the consumptive girl, dies under the lash for praying  . . . . . <ref target="p19" targOrder="U">19</ref></item>
+          <item>CHAPTER V. Di is married to Jem Browne  . . . . . <ref target="p27" targOrder="U">27</ref></item>
+          <item>CHAPTER VI. Priscilla is sold to a Southern slave-dealer at the age of ten years  . . . . . <ref target="p31" targOrder="U">31</ref></item>
+          <item>CHAPTER VII. Di wonders whether her master can restore her dead child to life  . . . . . <ref target="p37" targOrder="U">37</ref></item>
+          <item>CHAPTER VIII. Mr. Hope strangles a child one year old  . . . . . <ref target="p41" targOrder="U">41</ref></item>
+          <item>CHAPTER IX. Wildshaw Hits Jem Browne a blow with a hammer, from the effects of which he dies in ten months  . . . . . <ref target="p46" targOrder="U">46</ref></item>
+          <item>CHAPTER X. Di escapes, autumn 1860  . . . . . <ref target="p50" targOrder="U">50</ref></item>
+          <item>APPENDIX  . . . . . <ref target="p63" targOrder="U">63</ref></item>
+        </list>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p1" n="1"/>
+        <head>HORRORS <lb/> OF <lb/> THE VIRGINIAN SLAVE TRADE.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I. <lb/> VIRGINIA.</head>
+          <p>THE area of Virginia is about 70,000 square miles, very nearly equal to England and Scotland united; its productions are more varied and its natural resources greater than those of most of the States; its climate is happy and its soil fruitful, its scenery romantic and lovely, and its rivers fine and numerous. Its mineral wealth is great; gold, copper, lead, iron, coal, salt, limestone, marls, marbles, granites, &amp;c. abound.</p>
+          <p>Its population, by the American census of 1860, was as follows:—</p>
+          <list type="simple">
+            <item>Whites . . . . . 
+1,041,613</item>
+            <item>Free Coloured. . . . . 
+57,579</item>
+            <item>Slaves
+. . . . .  490,887</item>
+          </list>
+          <p>This gives a population about one half that of London to a country nearly as large as England and Scotland united.</p>
+          <p>The EARLY COLONISTS OF VIRGINIA, in 1607, sought for gold. The first negro slaves were introduced there in 1630, and slavery was continually forced upon the colony, after the express request of its legislature that it should be discontinued. It is recited in the Constitution of 1776, and reaffirmed in the new instrument adopted in 1830, that George III. had
+<pb id="p2" n="2"/>
+prompted the rising in arms of ‘those very negroes whom, by an inhuman use of his negative, he had refused us permission to exclude by law:’ in 1778 the new state imposed heavy penalties on those who should import them.</p>
+          <p>We could expect no less from men who, two years earlier, had drawn up a ‘Declaration of Rights made by the Representatives of the good people of Virginia assembled in full and free convention,’ passed June 12, 1776. The <hi rend="italics">First</hi> Clause of which is—</p>
+          <p>‘That all men are by nature equally free and independent, and have certain inherent rights, of which, when they enter into a state of society, they cannot by any compact deprive or divest their posterity; namely, the enjoyment of life and liberty, with the means of acquiring and possessing property, and pursuing and obtaining happiness and safety.’</p>
+          <p>The <hi rend="italics">Fifteenth</hi> is—</p>
+          <p>‘That no free government, or the blessing of liberty, can be preserved to any people but by a firm adherence to justice, moderation, temperance, frugality, and virtue, and by a frequent recurrence to fundamental principles.’</p>
+          <p>The <hi rend="italics">Sixteenth and last</hi>—</p>
+          <p>‘That religion, or the duty which we owe to our Creator, and the manner of discharging it, can be directed only by reason and conviction, not by force or violence; and therefore all men are equally entitled to the free exercise of religion, according to the dictates of conscience; and that it is the mutual duty of all to practise Christian forbearance, love, and charity towards each other.’</p>
+          <p>Four out of the first five Presidents of the United States were men from Virginia; this shows that the framers of the clauses given above were practical men, and not mere dreamy philanthropists. Virginia seems to have commenced its career of independence under the guidance of able men influenced by the highest motives.</p>
+          <pb id="p3" n="3"/>
+          <p>Slave labour continued for some years profitable; afterwards, having exhausted the soil, it was found to have ‘eaten away its own profits, and the recolonization of the State by free settlers had actually begun, when suddenly came the prohibition of the African slave trade, and nearly at the same time the vast enlargement of the field for slave labour by the purchase of Louisiana; and these two events made slavery in Virginia again profitable, as a means of breeding slaves for exportation and sale to the South.’</p>
+          <p>The extension of the area over which slave labour might be introduced having thus, by making it pay to breed slaves for exportation, caused slavery to revive in Virginia, we find ever afterwards the highest families in Virginia living by this infamous traffic,—a SLAVE TRADE; a slave trade far more cruel than the African; an organized system carried on between Virginia and the slave-consuming states of the South and West.</p>
+          <p>Speaking of this internal slave trade, John Randolph, himself a slave-holder, said in Congress, ‘What are the trophies of this infernal traffic? the handcuff, the manacles, the blood-stained cow-hide.’</p>
+          <p>This slave trade was not the result of events unforeseen or undesired by the majority of the Virginians. In the debates of the Virginia Convention, in 1829, Judge Upshur said, ‘The value of slaves as an article of property depends much on the state of the market abroad. In this view, it is the value of land abroad, and not of land here, which furnishes the ratio. Nothing is more fluctuating than the value of slaves. A late law of Louisiana reduced their value 25 per cent. in two hours after its passage was known. If it should be our lot, as I trust it will be, to acquire the country of Texas, their price will rise again.’</p>
+          <p>After some years this was fulfilled, for we find that ‘between 1830 and 1840 the number of slaves in Virginia underwent an actual diminution; but in 1844 came the annexation of Texas, followed by an
+<pb id="p4" n="4"/>
+increased demand for slaves for the South, and in 1850 the slave population in Virginia was found to have increased.’—<hi rend="italics">Prof. Cairnes.</hi></p>
+          <p>However fatally injurious the rice-grounds of Georgia or the swamps of Mississippi may be to the human constitution, still the waste of slave life is repaired from the teeming preserves of Virginia and Kentucky.</p>
+          <p>We will now try to obtain an unexaggerated estimate of the number of slaves annually exported from Virginia, and we will take the report of the special committee of South Carolina, which committee was, in 1857, appointed to establish a case for re-opening the African slave trade, on the ground of the insufficiency of the supply from the slave-trading states in America. Therefore this committee would not be likely to over-state the number sent by internal traffic.</p>
+          <p>The conclusion arrived at by them was, ‘that for the decade of 1840 to 1850 the number of slaves exported from the Border States (of which nearly half came from Virginia) was 235,000. This will give an annual export of 23,500 slaves.’ Taking them at 700 dollars each (not too high for slaves in good working order) their value would be about 3,290,000<hi rend="italics">l.</hi> Virginia is thus seen yearly to export about 12,000 slaves, who regard the slave trader with greater horror than that with which the prowling kidnapper inspires their less wretched brethren in the wilds of Africa; and the yearly value of the Virginian slave trade to the slave-owners of that state (I write of the time before the war broke out) may be calculated at about 1,500,000<hi rend="italics">l.</hi> The season of the trade is generally from November to April; but local dealers, during the summer and autumn, buy up many at low prices, trim, shave, wash and fatten them, so that they may look sleek, and sell them to the traders at a great profit.</p>
+          <p>During November, December, January, February, and March, the negroes are daily sent South by water, or else by rail, in trains something like our cattle trains.</p>
+          <pb id="p5" n="5"/>
+          <p>The dealers sell them again in the South to considerable profit, and the agents to whom they are consigned inform their customers of their near or actual arrival by advertisements, of which this may be given as a specimen:—</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="section">
+                  <opener>In the <hi rend="italics">Memphis Eagle and Inquirer</hi>, November 13th, <lb/> 1852. </opener>
+                  <head> FIVE HUNDRED NEGROES WANTED.</head>
+                  <p>‘We will pay the highest cash prices for all good negroes offered. We invite all those having negroes for sale to call on us at our mart, opposite the lower steam-boat landing. We will also have a large lot of Virginia negroes for sale in the fall. We have as safe a gaol as any in the country, where we can keep negroes safe for those that wish them kept.</p>
+                  <closer>
+                    <signed>‘BOLTON, DICKINS, and Co.’</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>Since the war broke out, West Virginia has been made a separate state, and all children of slaves henceforth and for more than a year past born in it are born free.</p>
+          <p>I have given these scanty particulars about Virginia because it is the state in which the events occurred that are now to be related; the state, moreover, of which the capital is Richmond, the seat of the Secession government.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p6" n="6"/>
+          <head>CHAPTER II. <lb/> THE PLANTER AND HIS PROPERTY.<ref id="ref1" n="1" rend="sc" target="n1" targOrder="U">*</ref></head>
+          <note id="n1" n="1" rend="sc" place="foot" anchored="yes" target="ref1">
+            <p>* This is the true story of the escaped slave, having eleven scars on her body, referred to by the Rev. Newman Hall, in his speech lately at Exeter Hall, in the meeting at which the Rev. H. Ward Beecher gave his address.</p>
+          </note>
+          <p>ABOUT two miles from Petersburg, in the State of Virginia, lived a wealthy planter, to whom we will give the name Henry Hope. He had, at the time when our story begins, that is, more than thirty-three years back, a great number of slaves, probably not much less than four hundred. He was also a partner in a large warehouse in the town, where ready-made clothes were sold.</p>
+          <p>He was of middle height, somewhat bald, had heavy shoulders, and when he walked he rolled from side to side. He was a hard rider, fond of shooting and fishing, and, when he had been drinking freely, which he very often did, his language was of the coarsest, and his acts of the most brutal description.</p>
+          <p>The Mrs. Hope with whom we shall shortly become acquainted was his second wife; the first wife left him several children, and some of them were at school when he married a second time. His second wife was a tall fair lady of rather pleasing face and manners, and was generally kind to the children of her predecessor. She had not been long married, had as yet no children of her own, and in those days treated her household slaves with the gentleness which became her as being an English-born lady.</p>
+          <p>The ‘big house,’ as the slaves called it, was a large square building having several floors. Having
+<pb id="p7" n="7"/>
+entered the grounds through a pretty lodge gate, you drove up to the front door along an avenue shaded by many beautiful trees. Creepers of every kind covered the verandah which ran round the house; the lawn was wide, well kept, and adorned with a sparkling fountain, in the basin of which some Chinese ducks might generally be seen swimming and diving. Near to the fountain, at some distance from the house, were two wide-spreading trees, between which was hung the swing in which the romping girls used to enjoy themselves under the breezy shade.</p>
+          <p>An admirer of horses would have been pleased to see how well Mr. Hope lodged his handsome riding and carriage steeds, for the stables were neat in the extreme, and the pigeons and doves made the yard seem full of happy life by their wheelings and flutterings. The cow-yard was at a greater distance from the house, and was reached by following a path which wound through shrubberies gay with many colours and by the side of a gurgling brook, whose waters were darkened by over-hanging willows and other trees; beneath the shade of these might be found deep pools here and there, where bathers were wont to cool themselves at all hours during the hot weather.</p>
+          <p>Cotton and sugar were the principal crops of the plantation, and cocoa-nut trees were plentifully scattered over all its extent. Not very far from the house, in the rear, there was a long row of shanties, and between these shanties and the big house rose one stately oak, having great branches which nearly fell to the ground on every side.</p>
+          <p>The nearest neighbour the Hopes had was a young doctor, supposed to be from England, who had lately settled in a good house by the side of the highway, a few hundred yards farther from the town than the gate lodge which has already been mentioned, and on the other side of the road. He was a thin, delicate-looking man when he first came there in the hope
+<pb id="p8" n="8"/>
+of making a comfortable little fortune, with which to return to his native land. His name shall be Robert Durant; he was a bachelor, and a coloured woman kept his house for him.</p>
+          <p>Dinah, or Di as she was always called (the escaped slave whose sufferings are about to be set forth), was now about 13 years of age; her mother Priscilla died of consumption when Di was only six months old. She had been a black house servant, and her master was always looked upon by his own family as the father of her little girl, as also of another child which had died before the birth of Di.</p>
+          <p>When Priscilla died the baby was taken care of by its grandparents in their own shanty. The baby grew up to be a lively strong child, and at the age of ten was brought up to the big house to run errands and be useful in many ways. But she was not happy, for she was often beaten, and that severely, for very small faults. She remembers well the first time she was flogged with the cow-hide, how the blood trickled down her back on to the soil, how her breath seemed to go from her, and how great was the pain when her bleeding back was washed with brine to prevent mortification. She was thus flogged because she answered her master back again,<ref id="ref2" n="2" rend="sc" target="n2" targOrder="U">*</ref>
+<note id="n2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* ‘A negro shall be punished with stripes (not exceeding 39) if he use provoking language or menacing gestures to a white man.’—<hi rend="italics">Revised Code of Virginia,</hi> p. 754. It is to be remarked that this punishment is inflicted for disrespect to a white man, whether he be his master or a perfect stranger.</p></note> and it was then that she first wished she had a living mother.</p>
+          <p>She was often flogged for picking grapes or gooseberries when she felt hungry, as she often did feel whilst growing quickly. Another time she was cruelly flogged with the cow-hide for having unstitched a pair of her master's trousers, and then, using them as a pattern, cut out a new pair from fresh cloth. She had often before this asked to be taught to sew, but had been told she was too young.
+<pb id="p9" n="9"/>
+The flogging this time had been very severe, and the doctor had to rub her back with sweet oil. She thinks, but is not sure, that this beating was inflicted by order of a magistrate, she having a faint recollection of standing in a court-house, and being spoken to by a stranger.</p>
+          <p>One day when her master was going out to a ball, she had delayed (playing) in bringing his patent leather boots from her grandfather's shanty, where she had to clean them. In his passion her master kicked her on the right thigh, and the swelling and injury was so great she could not walk for many days, and Dr. Durant had to lance her thigh. She still has the marks of this, as well as of the floggings on her back.</p>
+          <p>The doctor could not see her suffer so much without trying to cheer her by telling her of England, where, he said, women were not beaten, but soldiers sometimes were; and he seems to have led her to look forward to going with him some day when he should be returning home. She was about 13 years old, to the best of her knowledge, when she began to think seriously about running away, she little knew whither. It seemed to her that the free country of which she had been told must be in those dark large woods far beyond the plantation on which she had been reared. There she fancied she should be safe from harm, should be able to eat enough (for the usual allowance of rice, molasses, and Indian corn did not satisfy her hunger at all times), and should, when the cold weather began, be welcomed in the happy houses which she doubted not were there in abundance.</p>
+          <p>On the other hand she dreaded the dogs of which she had heard the negroes tell fearful tales, of their untiring pursuit, of their never-failing power of smell. But as she had generally fed most of the dogs herself, she hoped they would, if they found her, not be savage to her; and she remembered having
+<pb id="p10" n="10"/>
+heard her master, not very long ago, read to his wife a letter about the safe escape of one of his slaves, together with his wife and seven children.</p>
+          <p>There was only one tie which at all bound her to the plantation, and that was friendship for a girl of her own age called Jessie. They had grown up side by side from early childhood. Jessie's mother was a quadroon girl, dead some time, and her father was a white man, so that she herself was quite white; her hair was long and of a deep brown shade, her eyes dark and flashing, and her cheeks were as rosy as those of any English maiden. She had a very high spirit, and whenever she had been flogged for childish tricks she would bite her arm till it bled, would roll over and over on the ground, or else rushing against a tree tear pieces out of the bark with her teeth.</p>
+          <p>Her work was at first in the fields; but for the two last years she had been too weak for out-door labour, so she was set to make clothes at her own shanty for the children of the slaves. The poor girl was evidently growing weaker, and suffered much from a cough, which her mistress was pained to hear. Di was sent to her friend with tarts, fruit, or any little things the girl might fancy. But though her mistress treated her kindly, she met with rough usage from the white overseer if her appointed task was not duly performed; indeed her strength was very uncertain, and some days she felt too listless to care to exert herself even with the certainty of punishment befalling her.</p>
+          <p>As the disease progressed her spirits failed her; she drooped her head and would seek for quiet places; her chief wish seemed to be that she might have rest. Vague ideas of prayer, caught up from some old negro at a camp-meeting, crossed her mind, and then she forgot how time fled whilst, on her knees beneath some tree, she prayed a simple fervent prayer that she might go to the land of peace. In this way she was absent from the usual calling over more than once, and was cuffed for praying, as it was deemed to be only an excuse for idleness.</p>
+          <pb id="p11" n="11"/>
+          <p>Two or three times when Di was out walking in the fields with the children, they had come upon her whilst praying or else lost in reverie. The girls would say to her, ‘Now, Jessie, we'll tell papa; you'll catch it;’ whilst the boys pulled her beautiful silky hair, spat in her face, and kicked her thighs and ankles.<ref id="ref3" n="3" rend="sc" target="n3" targOrder="U">*</ref></p>
+          <note id="n3" n="3" rend="sc" place="foot" anchored="yes" target="ref3">
+            <p>* Jefferson himself, born and bred a slave-owner, says,—‘The commerce between master and slave is a perpetual exercise of the most boisterous passions on the one hand, and degrading submission on the other. Our children see this, and learn to imitate it. The parent storms, the child looks on, catches the lineaments of wrath, puts on the same airs in the circle of smaller slaves, gives a loose to the worst passions, and thus nursed, educated, and daily exercised in tyranny, cannot but be stamped with its odious peculiarities.’</p>
+          </note>
+          <p>With all the slaves poor Jessie was a favourite for her gentleness now, as she had been in earlier years on account of her high spirits; though she associated as little as she could with the dark skins, she gave no offence by so doing; her manner did not seem to imply that they were her inferiors; rather it seemed to be a dignified assertion of her own natural rights against the tyranny of those of her own colour.</p>
+          <p>Di endured all cruelties as long as she could, but at last her yearning for freedom was so great that she made up her mind to escape on the very first opportunity. She tried to talk Jessie into the belief that she would get better if she were once quiet in the woods; but the consumptive girl only shook her head, saying, ‘I'll never be free till Jehovah calls me;’ then the two friends cried and sang plaintive songs about their wrongs and about hopes of a happier life in another land. Where that land was they knew not, nor did they think of Jehovah as of a God in our sense of the word; but they believed he was a stronger and a kinder man than their own master; and that he would take care of them if once they got to him.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p12" n="12"/>
+          <head>CHAPTER III. <lb/> DI RUNS AWAY TO THE WOODS: IS BROUGHT BACK, <lb/> FLOGGED, AND BRANDED.</head>
+          <p>DI's mind being now bent upon finding her way to the woods, she had not long to wait for an opportunity. One night the Hopes were giving a dance to which all their neighbours had been invited. Feasting and merry-making had been the order of the day. In dancing and drinking the evening hours had been uproariously passed, and many had fallen into a heavy sleep at midnight; whilst those who were still awake were either too drunk or too busy in the crowd of guests and their servants to observe the movements of any one; least of all would they watch the steps of a girl like Di, who was always running about the house as a house servant.</p>
+          <p>She went into a pantry and wrapped up in a cloth a good supply of cakes, bread and butter, and other eatables which had been handed about in the supper-room; these she took with her and escaped without any difficulty through the lodge, and away into the far woods.</p>
+          <p>It was the end of July or the beginning of August when she ran away, and the weather is often stormy at that season. She slept at the foot of a big tree that first night; but the second night she was out a terrible thunder storm rushed through the woods; and as she listened to the rending of boughs, and tried to keep the flashes of lightning from reaching her eyes, she was frightened into a wish that she had never left the plantation. She was wet and cold also, and felt lonely now that she had been many hours in vain looking for one of the friendly houses with which her fancy had filled these forests.</p>
+          <pb id="p13" n="13"/>
+          <p>However, when the storm passed away and the joyous sunrise brightened up those majestic trees which had seemed to her, during the storm, to have been tortured equally with herself; when the birds began to sing, and the rabbits and other little animals to hop about and feed, she also felt glad at heart. There still remained some of the cakes, and for several days she lived on these and on the willow berries, tea berries, blackberries, and nuts which were just beginning to turn ripe.</p>
+          <p>But when there had been no showers for some time she began to suffer from thirst. She could find no water fit to drink, and her strength began to fail when her last cake was eaten.</p>
+          <p>One afternoon she was so weary and so sleepy that she could walk no more. Sinking on the ground, under a shady tree, when half asleep she heard, far off, the sounds of horses and of jingling chains; but this did not alarm her in the least. She knew they were people in search of some one or other; that they were after herself she did not for one moment fancy. She believed she had got far away from her master's house, that she could not be carried back from those free woods, and that the chains she heard were chains ready for some criminal who had murdered, stolen, or set fire to houses and crops.</p>
+          <p>She could not keep her eyes open any longer, and her repose was sound; suddenly an animal bounded through the near thicket and rushed upon the sleeping girl, seizing her shoulder in his mouth and gently shaking her from side to side. When she had recovered from her first fright enough to look at her assailant, she uttered a cry of pleasure and surprise, for she saw her favourite dog Carlo, a large spotted hound. In her delight at meeting with an old friend, she put her arms round the dog's thick neck, patted his grave-looking head, smoothed his long silky ears, and kissed him, saying, ‘Carlo, you dear old thing, how glad I am you found me; you little thought to
+<pb id="p14" n="14"/>
+see me when you came hunting and romping in these woods.’</p>
+          <p>What words can describe the terror of the girl when, having caressed the hound for some time, looking up she saw the hateful face of Wildshaw, the white overseer? Next she saw her master scowling at her; in her fright she got up and grinned in an agony of fear in her master's face, standing with shaking knees before him.</p>
+          <p>Handcuffs were soon put on her; she was led between the jeering men straight to the court-house, and there left in a dark cell, with bread and water for the night.</p>
+          <p>The next day, about eleven o'clock, she was brought by the gaoler into the court-house and put into the prisoner's dock. The chief magistrate was reading a paper which lay before him; presently he looked up at her and asked ‘why she had run away, and what she wanted in the woods?’ ‘I wished to be free, and to live in a free house in the woods,’ answered Di. ‘No,’ said the justice, ‘that is nonsense, there are no free houses in the woods, and you would certainly have died of hunger if your master had not fortunately found you out. Now, what do you think you deserve? What do you think your master will do with you?’ Di cried, and said, ‘I don't think he will kill me.’</p>
+          <p>The magistrate then turned his eyes severely upon her, saying, ‘You are charged with theft; you took bread and butter and cake; you left the plantation carrying with you property which belonged to your master. You will be flogged with 24 lashes, then shut up in prison, and be punished when you come out; this will be a warning to you for the rest of your life, never to think of running away.’<ref id="ref4" n="4" rend="sc" target="n4" targOrder="U">*</ref></p>
+          <note id="n4" n="4" rend="sc" place="foot" anchored="yes" target="ref4">
+            <p>* By warrant of a justice a gaoler may confine in gaol a slave, ‘at the request of the master, as long as the justice and the gaoler concur in opinion that no public inconvenience will result from it, but no longer.’—See <hi rend="italics">Virginian Code,</hi> 1849, p. 257.</p>
+          </note>
+          <pb id="p15" n="15"/>
+          <p>She was led, handcuffed, by Wildshaw's assistant, a black man, accompanied by Mr. Hope and some of his friends, to a field near at hand. There she was stripped naked, then the handcuffs were taken off, her arms put round an oak tree, and her hands tied together; her feet were also fastened to the tree. The coloured overseer took the cow-hide and fiercely swinging it round his head brought it down upon her shoulders. It was of no use to scream; thick came the blows, and freely poured the blood, whilst her master, her father! calmly speculated on the preventive effects of this infernal torture.</p>
+          <p>As soon as the lash was laid aside, her back and loins were washed with brine or pickle from a tub which had been previously placed there. This was done to prevent mortification of the lacerated flesh. The agony which the girl then endured can only be faintly imagined by most.</p>
+          <p>From the tree she was again taken to the court-house; there she was shut up in a solitary cell by the gaoler, who asked, ‘how she liked the flavour of the pickle?’ He told her ‘he guessed he could tame her some time.’ Her hair was cut off and she was ordered to be kept in solitary confinement. When the gaoler brought her food, which he shoved through a slide in one of the door-panels, he seldom forgot to make some jeering remark, or else he would terrify her with hints about the punishment which yet awaited her.</p>
+          <p>It should have been told that before she was put into gaol her waist had been encircled with a steel belt, and her left arm was twisted behind her back and locked to the belt. Nothing was ever done to her back, which felt numb and stiff; her left arm became so dead and heavy that she sometimes tried with her right hand to wring it off. The iron made a festering sore on the inside of the left wrist, and I have myself seen the scar left by that wound.</p>
+          <p>Sadly passed the hours of the night for that wretched
+<pb id="p16" n="16"/>
+girl as she tried to lie still upon her cocoa-nut mattress. If she dozed, then the pain she felt in her arm, waist and back, seemed to give force to the terrors of some horrid dream, from which she would start, trembling in every limb. In those dark hours she could hardly distinguish her mental from her physical pains. The gnawing pain of her body nourished and gave intensity to tortures which her throbbing brain seemed to communicate to the whole of her frame. She became nearly mad from fear of what was to be done to her when her imprisonment should be over. Of one thing she felt sure, the least she should have to suffer would be to be burnt alive.</p>
+          <p>When she was thus weakened, the gaoler tried hard to make her say who had ever talked to her about a ‘free country,’ but she never allowed the name of the doctor to slip from her tongue.</p>
+          <p>After she had been five weeks in gaol she was led to her master by the gaoler. Mr. Hope asked him to fasten a thick bar of iron round her right ankle, and he did so. Jem Jones, a young negro blacksmith, was then ordered to heat two brands, one large and one small. She was taken under the two trees which grew on the lawn where the young ladies' swing was. Round the trees all the slaves had been ranged to witness this deed. Wildshaw held her hands, the black overseer pulled her cotton dress from her right shoulder, then, taking the large brand from Jones, he pressed it deep into the hissing flesh. She writhed in Wildshaw's grasp and cried piteously. The smaller brand was then given to the coloured overseer; he stooped down and pressed it hard upon her left instep. She became deadly sick; all around her seemed to be a black curtain, and she fainted away.</p>
+          <p>When she came to herself she was lying on the ground, her head in her grandmother's lap, whilst near her stood her master and mistress, her grand-father, and an old black woman, Dorcas, who used to take care of sick slaves. Her master was looking at
+<pb id="p17" n="17"/>
+her over her shoulder, her mistress was holding a bottle of smelling salts. She fainted again and again, but was at last supported, dragging the iron bar along the ground, to the door of her grandfather's shanty. A tub of water stood outside, into which she dipped her burning foot.<ref id="ref5" n="5" rend="sc" target="n5" targOrder="U">*</ref></p>
+          <note id="n5" n="5" rend="sc" place="foot" anchored="yes" target="ref5">
+            <p>* I have seen the brand on the left foot and the chain's mark round the right ankle. Her right shoulder is enlarged by the shoulder brand, and to this day she has much pain in it at change of weather.</p>
+          </note>
+          <p>For the first week or more that she was at her grandmother's shanty her agony of mind and body was so intense that, if the iron bar at her foot had not prevented it, she would have run out and thrown herself into the river. When a fortnight had passed she fell into a dangerous fever, and then the log was taken from her ankle, for she was so weak she could not have walked a hundred yards.</p>
+          <p>Her arm was helpless from the injury inflicted upon her shoulder, and had to be kept in a sling; the burns were treated with an ointment composed of balm of Gilead, cat-tail (a tall plant growing in marshy ground, of which mattresses are made), and hog's-lard.<ref id="ref6" n="6" rend="sc" target="n6" targOrder="U">**</ref></p>
+          <note id="n6" n="6" rend="sc" place="foot" anchored="yes" target="ref6">
+            <p>** This is the way in which Dinah described to me the ingredients of the ointment; she says it was a preparation in common use on Mr. Hope's plantation.</p>
+          </note>
+          <p>The shoulder healed too rapidly, and, in consequence, a gathering formed under her right arm; this the doctor lanced after it had been poulticed with a mixture of linseed and turnip.<ref id="ref7" n="7" rend="sc" target="n7" targOrder="U">***</ref><note id="n7" n="7" rend="sc" place="foot" anchored="yes" target="ref7"><p>*** She tells me she has still a scar the size of her thumb to testify to the truth of this part of her statement.</p></note> Mrs. Hope often sent her meal-gruel, grapes and peaches, but, to make her aware she was in disgrace, never came to see her; nor did her master enter the shanty, though he sometimes came as far as the door to find out when she would be fit for work, saying, ‘Well, Di, how do you get on? Do you think you will try again to run
+<pb id="p18" n="18"/>
+away?’ Should she ever attempt it, he promised he would ‘tar, feather, and burn her.’</p>
+          <p>Two lovely months of summer she passed in this state, and often did she wish her weary life was ended. When she could stand she was sent for to the big house again, to take care of the younger children. Her back was still numb, and her head felt so light, she fancied she was, at times, walking in the air.<ref id="ref8" n="8" rend="sc" target="n8" targOrder="U">*</ref><note id="n8" n="8" rend="sc" place="note" anchored="yes" target="ref8"><p>* She described the sensation in her head as being such that she for a long time fancied the town of Petersburg had been changed to a position the exact opposite of its previous place.</p></note> Mrs. Hope had just been confined, so did not send for her till she had been some time in the house. When her mistress, who was a fine looking woman, recovered, she often forgot to treat Di with the tenderness which her weak state of body claimed and would have received from any woman possessing ordinary feelings of humanity. For the most trivial mistake, sometimes for no fault at all, she would now and ever after beat her with a coarse towel steeped in water. She herself had often to be put into bed by Di in a state of helpless intoxication.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p19" n="19"/>
+          <head>CHAPTER IV. <lb/> JESSIE, THE CONSUMPTIVE GIRL, DIES UNDER THE <lb/> LASH, FOR PRAYING.</head>
+          <p>THE winter had passed away and the trees were coming into their first tender bloom, but no spring made glad the wintry heart of Di. A fresh grief was in store for her, of which no number of years can wipe away the memory.</p>
+          <p>Her friend Jessie, whose strength had been failing all through the cold months, had the progress of her disease quickened by the brutal acts of Wildshaw, whenever she, from weakness and consequent apathy, failed to fulfil her appointed task of clothes-making. At such times she was told she had been wasting her time in praying, or else she could have easily finished what she had been set to do.</p>
+          <p>Wildshaw and her master were determined that such a dangerous example should not be any longer set to the rest of the slaves, and were ever on the look-out to catch her on her knees. To their great satisfaction, they found her one day (she had been missed at the mid-day calling over) kneeling with her head resting against the trunk of the oak at the back of the house, the branches of which hung down so low that they formed a perfect screen.</p>
+          <p>Di remembers this was on Friday, or market day; she believes that Jessie was taken before a magistrate, but as she was herself sewing all the morning in the big house, she says only what was told her after the event. The flogging and death of her
+<pb id="p20" n="20"/>
+friend she saw with her own eyes, as is now to be described.<ref id="ref9" n="9" rend="sc" target="n9" targOrder="U">*</ref></p>
+          <note id="n9" n="9" rend="sc" place="note" anchored="yes" target="ref9">
+            <p>* It took me five hours to take down notes of this awful event, as the greatest care was necessary to separate what she had actually witnessed from what she knew merely by hearsay.</p>
+          </note>
+          <p>Mrs. Hope and Di were sitting in the upper front parlour about three in the afternoon, when, looking out of the window, they saw Jessie walking up the avenue, her hands tied together, between the white and the black overseers; several slaves followed them. Mrs. Hope was sitting in a rocking-chair when she caught sight of Jessie's stooping figure. Her heart was heavy at the idea of what was to befall the girl, whose declining state she had long known, and, to do her justice, pitied.<ref id="ref10" n="10" rend="sc" target="n10" targOrder="U">**</ref></p>
+          <note id="n10" n="10" rend="sc" place="foot" anchored="yes" target="ref10">
+            <p>** Mr. Hope often said to his wife in Di's hearing, that ‘nothing could be made of Jessie; she would only be a useless burden on the place; that she never would live to rear saleable children.’</p>
+          </note>
+          <p>Rising from her seat she went to the window, turned very pale, and often wiped her eyes with her handkerchief. What were the feelings of Di let any woman try to realize if she can. She was yet weak from the brutal tortures inflicted upon her in autumn, and knew full well she would have to see the cowhide plough up the frail back of her only friend.</p>
+          <p>Soon the plantation bell was sounded to call all the slaves and their children to see a practical warning by which they were to profit. Mr. Hope's youngest children were at the same time carefully locked in the nursery, with plenty of toys, so that they might see no sight the recollection of which could keep them awake; might hear no cry of distress which should echo through the hours of darkness.</p>
+          <p>When the bell rang, her mistress said, in a low tone, ‘Di, you must go out.’ The girl, with streaming eyes and palpitating heart, prayed that she might be allowed to stay where she was and finish her work. The answer was given in a sorrowful voice, ‘You must go; you know the rules.’</p>
+          <pb id="p21" n="21"/>
+          <p>Di let fall her work, tottered down the stairs, saw, without turning her eyes upon him, her master's beautiful horse tied to a post near the hall door, a white net thrown over his sweating coat to protect it from the bites of flies, went round to the back of the house, whither all the slaves were mutely hastening; crawled rather than walked to the grand oak-tree near which a group was forming; heard, as if sounded in her ears with a trumpet's loudest and shrillest note, the name of each slave called over by two men who were walking with fire-arms in their hands, one inside, the other outside the rapidly extending circle. Overhead the white pigeons, which had often been fed from Jessie's hand, wheeled round and round in the summer air, as though they too were filled with grief.</p>
+          <p>Di took the place pointed out to her. The ‘Stars and Stripes’ were waving in the air, gaily floating from a tall pole behind her, and the flag's shadow, now falling upon and now leaving the group of silent many-hued slaves, made upon her excited brain an impression such as the smoke from a witch's cauldron was wont to produce upon the minds of trembling inquirers into dark futurity. The waving of that flag's shadow to this day often seems to her a present reality, coming before her eyes just as a cry heard in a moment of breathless painful listening will seem again to fill the ear of one sitting even amid festive scenes.</p>
+          <p>When all were assembled the overseers stripped Jessie naked, then tied her hands to a bough of the tree above her head, and fastened her legs together, so that she might not lift them to break the force of the blows about to be rained upon her back and loins. Wildshaw took a cow-hide, or cat-o'-nine-tails, from his black subordinate, and placed himself by Jessie's side: the doctor—whether sent for or accidentally present is not known,—placed himself in front of her, whilst behind him again her master
+<pb id="p22" n="22"/>
+stood, not uttering a single word, looking sternly in Wildshaw's face, to see if he could detect the smallest sign of pity which might unnerve his arm.</p>
+          <p>‘Ready,’ said the coloured overseer; the forked cow-hide whistled in the air round Wildshaw's head, fell with a hissing sullen sound on Jessie's writhing back: ‘Oh! oh!’ shrieked wildly the consumptive girl, as she flung her head from side to side till it seemed as if her neck would break, and the second blow ploughed bloody furrows through her quivering flesh. ‘Will you ever pray again?’ roared Wildshaw, as the lash whistled and hissed round and round to give her a moment in which to answer; there was now only a low, pitiful, moaning sound struggling to escape in gasps from her bleeding mouth. ‘Why don't you pray to Jehovah? What good is he to you—d—n you?’ screamed Wildshaw, as the third blow fell, making this time a sound like a splash. The fourth blow flashed through the midst of a shower of curses and threats—but the moaning had ceases—the head fell backward—the cow-hide made cuts on a lifeless body, but the curses were caught by the Almighty's ear.</p>
+          <p>The planter's hand dropped. The doctor stepped forward; he raised the head, felt the pulses of the neck, removed his hand,—and back fell the heavy head. Not a word did Mr. Hope say, not a step did he stir. The slaves stood horrified, as if rooted in the ground. The doctor said to the master, ‘She is dead;’ the black overseer sung out, ‘It is all up now;’ Wildshaw looked in her face all aghast, and then whispered in the black man's ear.</p>
+          <p>Dr. Durant walked up and down with Mr. Hope for some time at a distance from the circle of slaves. They then came up to the overseers (who had been in the meantime watching the puffing out of the body till it seemed largely inflated with air), and told them to take her down from the three. This was done, the once pure-white beautiful figure, now gashed and
+<pb id="p23" n="23"/>
+distorted, was stretched out under the tree where she had prayed, where she had just now been murdered, and over it a cotton sheet was carelessly thrown, whilst a hole was being dug for it in the marsh.<ref id="ref11" n="11" rend="sc" target="n11" targOrder="U">*</ref></p>
+          <note id="n11" n="11" rend="sc" place="foot" anchored="yes" target="ref11">
+            <p>* It is perhaps superfluous to say that members of Mr. Hope's family were not buried in the spongy swamp where the bodies of slaves, however white, and of dogs, were huddled together.</p>
+          </note>
+          <p>The plantation bell clanged, and the slaves were sent off to their tasks.</p>
+          <p>How Di found her way back to the house she does not know, nor can she tell how many hours passed before she noticed anything around her. The first thing she remembers was seeing her mistress pacing up and down the back parlour, from which the tree might be seen under which Jessie's corpse was lying. The rocking-horses and other toys of the children were scattered about the room just as they had left them when they had been taken to another room, before the flogging began.</p>
+          <p>All that night the sound of horrid bells was ringing in Di's ears, and for several days she lay sick at her grandmother's shanty.</p>
+          <p>One evening, about a week after Jessie's death, she was standing at the door of the shanty, leaning against the door-post, her eyes following the swaying in the twilight of the boughs of the fatal oak, when, all of a sudden, she thought she saw the figure of her friend dart upright from the ground, and stand with its face towards the tree. Without a moment's thought she ran, frightened nearly to madness, up to the big house, screaming as she went, ‘Jessie, Jessie, Jessie!’ She flew across the hall, entered the first-floor parlour, where the family used to sit after dinner; with eyes nearly strained out of their sockets, she, wildly shouting, ‘Here comes Jessie! here comes Jessie!’ ran up to the couch where her master was lying with a handkerchief thrown over his face, put out her arms, and was about to shake him, when he,
+<pb id="p24" n="24"/>
+lifting his foot, gave her a kick under the chin, saying, at the same time, ‘If you don't get out of the house, I'll knock your brains out.’<ref id="ref12" n="12" rend="sc" target="n12" targOrder="U">*</ref><note id="n12" n="12" rend="sc" place="foot" anchored="yes" target="ref12"><p>* I have seen a scar under her chin, which she tells me is the mark of that kick.</p></note> Di slunk out of the room, but she was too much frightened to go to her grandmother's shanty, for she feared she should meet Jessie's ghost by the way. She sat down on the step of the hall door, and tried to stanch the blood which flowed from the wound which she had just received: she remained there till a servant came and led her back to her grandmother. Her mistress came once herself to dress the wound with plaister.</p>
+          <p>When she was lying at her grandmother's shanty, ill from the effects of fright as much as from bodily pains, she heard, from some of the slaves who came to see her, that her master had been several times up to the court-house; they were not sure upon what business he went. On her return to the big house Di was crossing the hall one day and saw a constable standing before the door; he was talking to her master's eldest son Edward and to Wildshaw, and showed them a paper at the same time that he asked to see Mr. Hope. That gentleman was riding over his plantation, but Wildshaw promised he would ‘before long come up and see the little account settled.’<ref id="ref13" n="13" rend="sc" target="n13" targOrder="U">**</ref></p>
+          <note id="n13" n="13" rend="sc" place="foot" anchored="yes" target="ref13">
+            <p>** I did all I could to find out the utmost that Dinah knows about the punishment, if any, which was inflicted upon these ruffians. She knows no more than the vague surmises which have just been given; she admits that she cannot be sure whether ‘the little account’ which the overseer promised to settle was a fine for the murder of her friend or for some other offence: she says also that for some weeks after Jessie's death her mind was so confused that she cannot recall distinctly the events which then happened. Of one thing she is quite certain, that neither Mr. Hope nor his overseer was imprisoned.</p>
+          </note>
+          <p>Several verdicts of Virginian juries, and decisions of judges in Virginian “Superior Courts,” which I have compared with the laws then in force, seem to
+<pb id="p25" n="25"/>
+supply proof enough of the probability of Dinah's statement as to the degree of notice which was taken of this particular case. Two amongst many cases may be given for the reader's satisfaction; they happened in 1851. Souther v. the Commonwealth of Virginia.</p>
+          <p>Souther was the owner of several negroes; one of them, Sam, was thus killed (see <hi rend="italics">Grattan's Reports,</hi> 1851):</p>
+          <q direct="unspecified">
+            <p>‘The negro was tied to a tree and whipped with switches September 1st, 1849. When Souther became fatigued with the labour of whipping, he called upon a negro man of his and made him cob Sam with a shingle. He also made a negro woman of his help to cob him; and, after cobbing and whipping, he applied fire to the body of his slave, about his back, belly, &amp;c. He then caused him to be washed down with hot water, in which pods of red pepper had been steeped. The negro was also tied to a log, and to the bed-post, with ropes, which choked him, and he was kicked and stamped by Souther. This sort of punishment was continued and repeated until the negro died under its infliction.’</p>
+          </q>
+          <p>The slave's offences, according to the master's allegation, were, getting drunk, and dealing with two persons—white men—who were present and witnessed the whole of the horrible transaction. The jury having given a verdict of murder in the second degree, Souther was in the Circuit Court of Hanover sentenced to five years' imprisonment. Against this he, as an injured man, appealed to the Superior Court, and Judge Field said in his decision:</p>
+          <q direct="unspecified">
+            <p>‘It has been decided by this Court, in Turner's case, that the owner of a slave, for the malicious, cruel, and excessive beating of his own slave, cannot be indicated;  * * *  it is the policy of the law  * * *  to protect the master from prosecution in all such cases, even if the whipping and punishment be malicious, cruel, and excessive.’</p>
+          </q>
+          <p>Souther did not get off his five years' imprisonment; the opinion of the court was he ought to have been hung at first; but he could not be tried again.</p>
+          <p>By the Act which came into force July 1, 1850 (this negro was killed in 1849), it seems that flogging
+<pb id="p26" n="26"/>
+to death would not be murder, for murder of the first degree is therein defined—‘Murder by poison, lying in wait, imprisonment, starving, or any wilful, deliberate, and premeditated killing, or in the commission or attempt to commit arson, rape, robbery, or burglary.’ The Act now in force leaves out ‘wilful and excessive whipping,’ which words were in the Act of 1849, by which Souther was tried.</p>
+          <p>It may easily be believed that the chances are very great that fatal flogging will escape punishment, when we consider that no slave can give evidence in a court, and that no slave ever sits upon a jury. In this case the flogging and ill-treatment were continued for 12 hours, and this satisfied the jury that there was no ‘deliberate and premeditated killing!!!’</p>
+          <p>The second case, reported in the ‘National Era, Washington, Nov. 6, 1851, was a trial of Colonel James Castleman and his son, of Clarke County, Virginia, for homicide. They, suspecting a slave of having stolen some articles, first violently flogged and then chained him by the throat; they left him thus, and when next seen he was dead in the chains. The colonel and his son were out on bail even at the time of trial; the jury at once acquitted the colonel, who was to be tried first, because they thought the slave might first have fainted, and then been strangled, in consequence of his inability to stand upright. The case against the son was withdrawn, of course. The colonel afterwards observed that ‘he was sorry the slave had died, as he had since found out he was quite innocent of any theft.’</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p27" n="27"/>
+          <head>CHAPTER V. <lb/> DI IS MARRIED TO JEM BROWNE.</head>
+          <p>As soon as Di was able to get about, she went to see where Jessie had been buried. (Before it was huddled into the swampy hole, the doctor had cut open her body, and, as he long afterwards told Di, found one lung entirely gone). On the grave she placed a flower-pot, in which grew a rose-tree, then in full bloom.</p>
+          <p>Her task was to attend to the little Hopes and to do needle-work, sometimes at the big house, sometimes at the grandmother's. The eldest daughter of the first Mrs. Hope was the one who looked most actively after domestic concerns, and at her hand Di always received kindness and sympathy as far as Annie Hope dared to show them. She was a tall slender girl, and had dark blue eyes and long brown hair; her temper was hasty, yet generous, and it is a pity that such a girl early acquired a habit of swearing fiercely when angry.</p>
+          <p>Very often Di was sent to the doctor for medicine, and he talked to her as frequently about her attempted escape; she was not disposed to tell him all her thoughts, because she feared he would repeat them to her master. Probably he would have done nothing of the sort; at this time and during many years his advice to her was not to try to run away, but to be as patient as she could be, and wait till he returned to England, when, he said, he would try to take her with him.</p>
+          <p>Summer came and went, autumn and winter passed, and nothing particular befell Di. In those months,
+<pb id="p28" n="28"/>
+Jones, the slave blacksmith, paid her hateful attentions, whilst, if she had a liking for any one, she thought Jem Browne the pleasantest young slave on the plantation. Nor had this mild partiality been unobserved by her master, who had a pretty keen eye for business.</p>
+          <p>One fine evening in the spring, when Jessie had been dead a year, as she was preparing supper for her grandmother in her shanty, she was told by a man-servant to ‘make haste, and get herself ready (tidy), as master wanted her at the big house directly.’</p>
+          <p>She washed her face, combed her hair, and was at the house in five minutes; rapping at the dining-room door, she walked into the room where the family was sitting over dessert; ladies and gentlemen, friends of the Hopes, were there also. Slaves, male and female, to make in all thirteen couples, were brought into the room, the females entering first.</p>
+          <p>As soon as the slaves had come into the room the party got up from dessert; one of the gentlemen, a magistrate, then took the hand of a girl and put it into that of a man, repeating the action till all were paired. Then one of the young ladies laid a broomstick in the doorway, and to each couple as they jumped over the stick, the magistrate said ‘You are man and wife.’ The ceremony was ended by the giving of a glass of strong spirits to each of the men, and they were ordered to dance and be merry.</p>
+          <p>Jem Browne and Di were thus married; he was four years older than herself, and a general favourite with all the slaves, so she did not feel inclined to complain, though she had been taken completely by surprise. Between Browne and Jones there was enmity from that day.</p>
+          <p>After her marriage she still acted as nurse and generally useful servant at the big house, but she was allowed to prepare her husband's simple meals at his shanty.</p>
+          <p>Now and then she went with other slaves to hear
+<pb id="p29" n="29"/>
+a service (of what sort I cannot gather from her description) in a room near the court-house; the first thing she remembers to have heard intelligibly, it seems to have been the last also, was—‘Slaves, obey your masters, and your days shall be long in the land.’ Young and artless slaves were encouraged to sing whatever hymns or songs they knew, and as those generally expressed their own genuine feelings on the ills of slavery, this congregational exercise was always held by Mr. Hope in high esteem.</p>
+          <p>Nine months after her marriage Di was flogged by her master's order for breaking several china cups; the cow hide was used and her back was torn; this time her hands were not tied above her head.</p>
+          <p>Priscilla was the name of the first child she had, born early in the summer of the year after her marriage. She nursed with her own baby one of Mrs. Hope's, born about the same time.</p>
+          <p>In her husband's lifetime Di had fifteen children; many of them however were born dead from the effects of ill-usage; four times she had twins. She was wet-nurse to thirteen of her master's children, and these children were, in early years, under her care, and used to follow her about everywhere, with one or two of her own; she would carry them sometimes one under each arm and another on her back.</p>
+          <p>There was a strong proof given of the affection which kind treatment almost always wins from the negro, in the case of an old slave woman on Mr.' Hope's plantation, who was a good many years older than her master. This happened just before the birth of Di's third child.</p>
+          <p>The yellow fever had one summer been fatal amongst the slaves, and at last attacked Mr. Hope himself. No one thought he would ever recover; his friends had been to see him, and he had made his will. In the evening of the day which his friends thought would be his last, his wife and several of his children were in the bedroom watching Di as she,
+<pb id="p30" n="30"/>
+sitting at the bed's head, fanned the invalid. A gentle tap was heard at the door; one of the girls went to the door to see who it was, and brought into the room an old negro woman, who had long been too old to do anything but knit. This aged female had been known, a few years before, as the head of camp-meetings in the neighbourhood, and was held to be a powerful prayer by those who understood such matters, but they were not many.</p>
+          <p>Silently the bent and dusky figure glided through the twilight to the bedside, and knelt down between Di and Mrs. Hope. This poor woman, herself not far from the grave, the swampy grave, the tears flowing down her sable cheeks, with upraised hands earnestly prayed Jehovah would send away the disease from the master at whose hands she had never received harsh treatment; she prayed long and, as Di believes, effectually: for Mr. Hope's illness seemed almost immediately to abate, and he was soon in his usual state of health.<ref id="ref14" n="14" rend="sc" target="n14" targOrder="U">*</ref></p>
+          <note id="n14" n="14" rend="sc" place="foot" anchored="yes" target="ref14">
+            <p>* Di does not know whether this old negro came of her own accord, but she does not in the least doubt that genuine kind feeling existed between the master and this aged slave. Instances are common of masters who, having been cruel in good health, flogging their slaves for praying, when dangerously ill have tremblingly besought their former victims to come and pray for their departing souls.</p>
+          </note>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p31" n="31"/>
+          <head>CHAPTER VI. <lb/> PRISCILLA IS SOLD TO A SOUTHERN SLAVE DEALER AT <lb/> THE AGE OF TEN YEARS.</head>
+          <q direct="unspecified">
+            <p>‘It is the slave dealer's business to tear men and women from their houses, friends, and hopes, to gratify the cupidity of slave-breeders who sell for money, and the spite of those who sell for malice. He fills his cart with children made orphans while their parents still live,—surrounds it with women who are widowed, not by nature, but by injustice—gathers behind it men fastened by handcuffs; and then follows his gang well armed, to flog the sullen or to shoot the violent. So he travels from Virginia, the slave-breeding State, to Louisiana and Texas, the slave-consuming States.’ <hi rend="italics">Hon. Baptist Noel.</hi></p>
+          </q>
+          <p>ONE fine evening in summer, when Priscilla was ten years old, Di was getting ready her husband's tea, her baby (the only child she then had except Priscilla) was playing before the door, when a female servant came from the house, and told Di to clean the child, and make it look smart, and take it up to her master.</p>
+          <p>Priscilla had been all the afternoon at the big house playing with Mr. Hope's younger children. Di was afraid her child had broken something, or done some childish mischief for which she was now about to receive punishment. On her way with the child she asked the cook, whom she met, just to call and tell Jem that she would be down again directly to give him his tea.</p>
+          <p>She went to the ground-floor parlour, knocked at the door, and led in her child. Mr. Hope and his eldest son Edward were talking to two strangers, a slave dealer and his assistant. The dealer was a tall stout man, with broad shoulders, very light fierce-looking eyes, and sandy-coloured hair and whiskers. Whisky and brandy decanters were on the table, and several boxes of cigars.</p>
+          <pb id="p32" n="32"/>
+          <p>‘Come here Di,’ said the dealer, ‘let me see how you can dance,’ and he began to whistle a lively tune. The mother said, ‘Sir, her name is not Di; she does not know who you are talking to.’</p>
+          <p>‘It makes no odds what her name is,’ replied the dealer, again whistling.</p>
+          <p>But nothing could induce the girl to leave her mother's side; she fixed her eyes steadily on those of the dealer, and clung to the skirts of her mother's dress. Mr. Hope then tried to get the child to dance to his whistling, but Priscilla would not listen to him either, though he tried and coaxed her as much as he could.</p>
+          <p>‘What have you been saying to the child?’ asked Mr. Hope.</p>
+          <p>Di, still unsuspecting, answered, ‘I said nothing at all to the child, for I did not know we should find any strangers here.’</p>
+          <p>The dealer began to praise the child's teeth, and said he thought she was a healthy looking girl, and he might just as well buy the mother at the same time. Mr. Hope told him he could not spare the mother yet; then turning to Di, he bade her leave the room, and take the child to its tea.</p>
+          <p>Poor Di's heart had sad misgivings now; but still she did not think it possible that her master would sell the playmate of his own children, who had been nursed at her breast.</p>
+          <p>Her husband was waiting for her, and was hungry; but all his appetite fled when he saw his wife crying bitterly as she led in the child—for he immediately feared the child must have done something for which it was about to be flogged. Di told him all that had happened, and said she did not after all know if Priscilla was or was not to be sold. Jem Browne, who had often seen such partings, asked if she thought the men would take away their darling at once; all she could say was, ‘I don't know.’</p>
+          <p>When the child had taken its supper, and was in
+<pb id="p33" n="33"/>
+bed, the same servant called again and told Di to go up to the house, as she was wanted to wait at table. She left her husband and went.</p>
+          <p>She found the same party still drinking in the same room. Her master told her to be quick and lay the tea things in the drawing-room. She did as she was told.</p>
+          <p>All the family was now seated round the tea-table, ladies and gentlemen. The youngest children only were not there, for they had been in bed long ago. Di made tea at a side-table, and handed it round, together with cakes, bread, and jam.</p>
+          <p>When she handed a cup to her master he said, ‘Di, your child is going, do you know? That gentleman is to take her.’ The mother's heart sank; she felt choked, and could hardly get out the words ‘No, sir, I did not know.’ She cried bitterly, and was told to go into the next room, where she remained crouching on the floor till the parlour bell rang for her to take away the tea things; this she did, sobbing and blinded with tears, and was then told to go to her shanty, but to ‘mind and be up again to wait at supper.’</p>
+          <p>Husband and wife sat, hand clasped in hand, looking at the sleeping girl. They could not talk, they could only weep; but they stifled their sobs, lest they should wake the child. They wished to strain her to their bosoms as they never wished before, but they would not do so, because she would wake and see how wretched they were.</p>
+          <p>Between ten and eleven Di went up to wait at supper. When that was over, ladies and gentlemen drank pretty freely of wine and spirits, whilst smoking, gambling, swearing, and dominoes were carried on fast and noisily. Di had to see that all the bed-rooms were ready, and at last her day's work was done.</p>
+          <p>No sleep that night closed the eyes of the wretched parents.</p>
+          <p>Early next morning poor Di was told that there
+<pb id="p34" n="34"/>
+was a bill posted on the entrance-gate, containing the names of the negroes, old and young, who were to be sold that day in Petersburg, by public auction. Priscilla's name was among those of Mr. Hope's slaves, thirteen in number, who have destined for the Southern market.<ref id="ref15" n="15" rend="sc" target="n16" targOrder="U">*</ref></p>
+          <note id="n16" n="16" rend="sc" place="foot" anchored="yes" target="ref15">
+            <p>* Dr. Bailey wrote in the ‘Era’ in 1847: ‘The Davises, in Petersburg, are the great slave dealers. They are Jews, who came to that place many years ago as poor pedlars. * * These men are always in the market, giving the highest price for slaves.’</p>
+            <p>The masters who have negroes for sale are told by advertisements, such as the following one, where they may find purchasers: it is a sample and by no means an extreme one, taken from ‘Rockingham Register,’ Nov. 13, 1846.</p>
+            <q direct="unspecified">
+              <text>
+                <body>
+                  <div1>
+                    <head>‘CASH FOR NEGROES.</head>
+                    <p>‘I wish to purchase a number of negroes, of both sexes and all ages, for the Southern market, for which I will pay the highest cash prices. Letters addressed to me at Winchester, Virginia, will be promptly attended.</p>
+                    <closer><signed>‘H. J. McDANIEL, <lb/> Agent for W. CROW.</signed>’</closer>
+                  </div1>
+                </body>
+              </text>
+            </q>
+          </note>
+          <p>When it was twelve o'clock Wildshaw came to fetch Priscilla. The child was not dressed, for her mother felt as if, in dressing her, she should be hastening and consenting to the loss of her darling. The overseer roughly told Di to get her ready. In vain he stormed and swore; no threat could make her do so. But the grandmother, who had felt keenly her own sorrows early in life, through the chilling effects of age in part, but still more from long experience of the hopelessness of all resistance, was able now, without having a muscle of her face disturbed, or shedding a single tear, with her withered hands to deck for the auction-block the child who, for ten years, had been like a dancing sunbeam in that lowly household.</p>
+          <p>The sobbing girl was seized by the hand. She bit the thumb of the unmanly ruffian who tore her away from her sheltering home; she screamed; she fell on
+<pb id="p35" n="35"/>
+her bare knees in the dust, and was dragged along. She almost choked as she turned back her head to her mother, crying longer and louder as each step took her further, ‘Mamma, mamma, oh! don't let them take me away.’ The poor mother started as if from a swoon, and darted wildly after her child.</p>
+          <p>Twelve other slaves, tied by ropes round their necks, were walking before them on the high road to Petersburg, and the black overseer with his cowhide was trying to stop the heart-rending cries of those who were in an hour to lose for ever, in this world, a husband, a wife, a father, a mother, a son, or a daughter.</p>
+          <p>As cattle to the market pens, so the ‘hands’ were driven up straight to the auction-block, over which waved the stars and stripes. Several slaves were sold singly or in lots; but when Priscilla was put on the platform for inspection, like a tigress robbed of her whelps, Di tore through the devilish group, bounded on to the platform and snatched her child away. Would that, like a tigress, she had had the power to stretch bleeding at her feet those monsters in human form, those cowardly ruffians whose representative men, ministers as well as politicians, appeal to Christ as not adverse to their organized slave system, who dare to appear in England, who dare to claim the sympathy of English gentlemen and even of English gentlewomen!<ref id="ref16" n="16" rend="sc" target="n17" targOrder="U">*</ref></p>
+          <note id="n17" n="17" rend="sc" place="foot" anchored="yes" target="ref16">
+            <p>* We must all remember how, some years ago at Cherbourg, Mr. Roebuck's sensitive nature was pained at the sight of a salute given on the cheek of our Queen by the Emperor of the French. Who does not call to mind the virtuous indignation with which Mr. Roebuck spoke of this greeting by one he was pleased to call a ‘perjurer’? By what process has this chivalrous gentleman been brought to be a clamorous advocate for the recognition by England of a Confederacy of Slave Dealers? How would he, so keenly alive (as he often tells us) to the dictates of honour and manhood, like to see our Queen, dear to the nation because of her great domestic virtues, holding out her hand to be kissed by the representative of States in which violence and cruelty are daily and hourly, by sanction of the law, rending asunder—and that for sordid gold—the most sacred ties of human nature? It is to be hoped that England's sons will sternly guard from such pollution the hand of England's Queen.</p>
+          </note>
+          <pb id="p36" n="36"/>
+          <p>Useless were the mother's struggles, powerless her appeals to absent humanity. Wildshaw wrung her arms to make her loose the child, and the auctioneer's assistant held her down whilst the sale went on. A dark pall seemed to be spread over the eyes of Di, and, mercifully, she did not hear the bids of the rival dealers.</p>
+          <p>When she recovered her senses there was no one near. Master and slaves, dealers and auctioneer, were all gone to the gaol, whither Di followed them. The door of the gaol was closed, but there was a sliding panel through which she saw men tying the lately-sold slaves in pairs by ropes to each other's feet.</p>
+          <p>She saw her lost darling in the crowd, and the child saw its mother, and screamed, ‘my mother, my mother!’ Again the poor woman fell down, and great drops of blood seemed to her to be falling from her heart, till it was cold, heavy, and lifeless. From that day to this, now twenty-three years, she has never seen or heard of her child. She believes she was sold for 500 dollars, and one of Mr. Hope's slaves told her she had been carried to South Carolina; but whenever, in after years, she asked her master if he knew where her child was, she was always told ‘not to be a fool, asking about what did not concern her.’</p>
+          <p>Wildshaw came the next morning with two glasses of brandy which he tried to make the desolate parents swallow, saying, ‘Master has sent this to you to set you right; and you are to get to work again at once.’ Of course they could not drink the spirits, so Wildshaw drank both glasses himself, and laughed as he promised ‘the master should know how nicely they took the good stuff he had sent them.’</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p37" n="37"/>
+          <head>CHAPTER VII. <lb/> DI WONDERS WHETHER HER MASTER CAN RESTORE <lb/> HER DEAD CHILD TO LIFE.</head>
+          <p>THREE years after the sale of Priscilla, Di was nursing a year-old girl of her own, and at the same time one of Mrs. Hope's, a few months younger. She was for the time living entirely at her master's house.</p>
+          <p>Her child had been sickly from the time of its birth, but it had lately been getting thinner with alarming rapidity. One evening, after it had been dangerously ill all the day, she was sitting in the nursery, looking anxiously at its pain-drawn features by the light of the summer moon which shone into the room; several children were quietly sleeping in their cots close by whilst this, Di's only one, was gasping out its life without uttering a cry. It died in its mother's arms so quietly at the last that she did not know it was actually dead till she felt its little body grow gradually stiff and cold.</p>
+          <p>She had often been told that her master was her only Jehovah; that he, and he only, had power over the lives of his slaves, and that he could destroy life at any distance he pleased. Firmly she believed that he had just now taken away her child's breath; she asked herself, ‘Will he restore my child to life again if I take the body with me, and beg of him to do so?’ She determined to try it at once, so clasping the cold form in her trembling arms, she stepped fearfully out of the nursery into Mr. Hope's bed-room, the door of which was open, and glided like a ghost to his side of the bed. She listened for some time to his breathing, which told her he was certainly asleep.
+<pb id="p38" n="38"/>
+She came as near as she dared, stooped, and put her hand close to his mouth to feel his breath, but she could not venture to wake him.</p>
+          <p>Suddenly the idea flashed across her mind, ‘Can he have killed the child even whilst he was asleep!’ She went back into the nursery, and laid the body on the bed, then sat down on the floor a prey to fear, grief, and painful doubt.</p>
+          <p>Her mind must have been nearly unhinged, for whilst she was thus sitting she fancied she heard a voice saying, ‘I took away the breath of your child; your master is not Jehovah.’ She rose and went again to her master's room, again listened to his breathing, again stooped to feel his breath, made sure he was still asleep, and went back to the nursery, trembling in every limb, in dread of the Great Unseen.</p>
+          <p>In this way the wretched woman passed the hours of an awful night; in one moon-lighted room were gently-sleeping healthy children, the cold body of a dead little girl, and a bereaved mother who dared not to ask for sympathy; in the next room the regular breathing of Mr. and Mrs. Hope could be distinctly heard. What pen can describe the utter loneliness of that shuddering, grieving, listening creature?</p>
+          <p>Before he got out of bed it was Mr. Hope's habit to have a cup of coffee, and Di, as usual, went in with it early the next morning. She was crying, and looked so miserable that her master said to her, ‘Why, what on earth is the matter with you now, Di?’ As she uttered not a word, he asked the same question again. This time she raised her eyes imploringly, gazed upon his face for a minute without stirring or making a sound, then clasped her hands convulsively together, threw herself on her knees by the side of his bed, and spoke with startling earnestness, ‘Oh, tell me, tell me, if you are Jehovah! When the child died you were asleep. Oh, tell me how did its breath go?’</p>
+          <p>He said, ‘that is not for you to know,’ but he looked
+<pb id="p39" n="39"/>
+at his wife, then at Di, then at his wife again, and whispered, ‘She is going crazy.’<ref id="ref17" n="17" rend="sc" target="n18" targOrder="U">*</ref></p>
+          <note id="n18" n="18" rend="sc" place="foot" anchored="yes" target="ref17">
+            <p>* Many who read this chapter will, I dare say, feel inclined to laugh at it; some to whom I have told the event just related have ridiculed the idea of its being possible that any negro woman at Di's age could have believed her master was Jehovah. But I, who heard her tell what she went through that night, and saw with what rapid transitions her face changed as she recalled all she then felt, I, for my part, can only say I firmly believe she has told the truth, and I have done my best to give as exact an idea as possible of what she said. Perhaps I ought to mention that she believes she actually did hear a voice, saying aloud, the words, ‘I took away the breath of your child; your master is not Jehovah.’ The reader will probably agree with me that it was only the vivid fancy of a mind then on the very verge of madness.</p>
+          </note>
+          <p>This is a suitable place for giving an extract from the ‘Code of Virginia, 1849.’ It accounts for any amount of ignorance.</p>
+          <p>‘If a white person assemble with negroes for the purpose of instructing them to read or write, he shall be confined to gaol not exceeding six months, and fined not exceeding a hundred dollars.’</p>
+          <p>Slave dealers and slave owners will tell us that this law was enacted in self-defence against the agitation caused by abolitionists, and that its object was to keep from their slaves all knowledge, which might become a mischievous power. Then, having enacted laws for the express purpose of maintaining ignorance, they come before the world as men who pity and care for the slave's helpless condition, and point to that ignorance, of their own creation, as a strong reason why liberty would only be a curse to him. They wish to keep their slaves free from the contaminating effects of an unshackled press; and, to do them justice, some powers in Europe, both spiritual and temporal, are actuated by the same spirit of consideration for the weakness of others.</p>
+          <p>In England, even, there is no difficulty in naming men—churchmen, and members of both Houses—who
+<pb id="p40" n="40"/>
+(generous, self denying men!) prefer to think for the people rather than that the people should have the trouble, in the midst of all their other troubles, to think for themselves.</p>
+          <p>If you seek for an instance of the hopeless depravity of human nature, you will, alas! find it everywhere to your hands in the fact that the objects of this paternal solicitude, as far as we can judge by their words and actions, seem to be both, on this continent and also in America, so utterly devoid of gratitude for all this great goodness, sympathy, and forethought, that they richly deserve to be left to shift for themselves.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p41" n="41"/>
+          <head>CHAPTER VIII. <lb/> MR. HOPE STRANGLES A CHILD ONE YEAR OLD.</head>
+          <p>IT is not my object to give a continuous life of the escaped slave, but rather to present incidents in that life, of such a startling description as to make the reader of this true, sad story put to himself or herself such questions as these—</p>
+          <p>1. Can such things be? Are they true?</p>
+          <p>2. If true, are they, as far as possible, prevented and punished by the laws of Virginia?</p>
+          <p>3. If the laws do not deal equal justice to white men and to black men, and if those laws permit the wholesale flogging and selling of human beings, involving the dissolution of all ties of relationship—can those laws be humane?</p>
+          <p>4. If not humane, can they by any possibility be Christian?</p>
+          <p>5. If these laws and customs are neither humane nor Christian laws and customs, WHAT ARE THEY? WHOSE WORKS ARE THEY?</p>
+          <p>6. These laws and customs being neither humane nor Christian, and therefore . . . . . . . (whatever the self-questioner may have decided as the proper answer to Question No. 5) . . . . . in what way am I to bear myself towards the framers and justifiers of these laws of the * * * * * ? Am I to be</p>
+          <list type="simple">
+            <item><hi rend="italics">a.</hi> An active sympathizer with them?</item>
+            <item><hi rend="italics">b.</hi> A passive spectator, indifferent?</item>
+            <item><hi rend="italics">c.</hi> Or am I to exert my social, political, intellectual, and moral influence, in order that the framers and justifiers of laws, which are the * * * * *'s, may be spurned from or silenced within our Justice-loving, Truth-loving, Freedom-loving island?</item>
+          </list>
+          <pb id="p42" n="42"/>
+          <p>7. If the self-questioner cannot at once answer Queries 5 and 6, I would suggest the 7th as possibly one more easy to reply to, viz.:—</p>
+          <p>What language would Christ have used if he had been present at the sale by auction of Di's little girl? He (be it remembered) who said, ‘Whosoever shall offend one of these little ones,’ &amp;c. &amp;c.? And what terms would He, if now on earth, apply to those ministers (of a Gospel which they call after His name) who boldly claim the sanction of the Bible for the present relations between master and slave, relations which empower the master to sell and to separate man and wife, father and daughter, mother and son, at any time he likes, and for ever? Surely it is a dreadful thing to have to say of our country that such questions as these are needful questions? Will any one reading them carefully over deny that they are needful, when he bears in mind that many educated men in England applaud the maxim that ‘American slavery is the best missionary agency, the hope of the African races’? When he sees, moreover, that the logical deduction to be drawn by such men, from such a maxim, is this, ‘We had better withdraw all our cruisers now in watch to catch slaveships, and heartily aid in the kidnapping of African men and women, with a view to their being sold to Southern planters, that so they may come under the influence of the mild, just, and Christian laws which are there in force for the protection and for the education in morals and religion of all those who, by virtue of their negro descent, are thus happily entitled to exceptional legislation.’</p>
+          <p>The criminal code of Virginia must be a satisfactory proof to their English advocates of the desire which white men in that state have to eradicate evil from the negro race, for from it we learn that there is only one crime, which, if committed by a white man, is punishable with death, whilst there are no less than 68 offences, the perpetration of which by a negro is to
+<pb id="p43" n="43"/>
+be expiated by loss of life! They must also gladly perceive the care with which white men by the revision of the Virginia Code, in 1851-52, have removed from the negro's mind one fruitful source of crime,—doubt as to the certainty of conviction and punishment,—whilst they have not been equally provident towards men of their own class and colour, as this extract will show (it has doubtless already won the admiration of Messrs. Lindsay, Roebuck, Beresford Hope, and others):—</p>
+          <q direct="unspecified">
+            <p>‘The county and corporation courts, consisting of five justices thereof at least, shall be courts of Oyer and Terminer for the trial of negroes charged with felony, except in the case of free negroes charged with felonious homicide, or an offence punishable with death. Such trial shall be on a charge entered on record stating the offence, <hi rend="italics">but without jury, or a presentment, information, or indictment.</hi>’</p>
+          </q>
+          <p>Again, no slave is allowed to give evidence in a court of justice; thus it is impossible for the much-cared-for race to be guilty of perjury. The white men have not been equally thoughtful for their own morality, for they have no law which takes away from the dominant class the power (some men call it a right) to bear testimony in a court; consequently, if such is the inclination of the individual, a white man can perjure himself whilst a slave cannot.</p>
+          <p>The legal condition of the slave being thus more favourable to the development of morality and true religion than that of his white master, we might naturally suppose that the authors of such excellent laws would not rest satisfied without they made it extremely difficult for a slave to free himself, or be freed from their wholesome restraint. And so we find it:—they actually venture to curb, entirely for the sake of the slave, any morbid philanthropy or democratic tendency which might from time to time arise in their own supreme class; thus—</p>
+          <p>‘Any white person who shall intermarry with a
+<pb id="p44" n="44"/>
+negro shall be confined in gaol not more than one year, and fined not exceeding 100 dollars.’—<hi rend="italics">Laws of Virginia,</hi> 1847-8, <hi rend="italics">Ch.</hi> cxcvi.</p>
+          <p>Again—</p>
+          <p>‘If the master shall permit his slave to hire himself out, it is made lawful for any person, and the duty of the Sheriff, &amp;c., to. apprehend such slave, &amp;c.; and the master shall be fined not less than 10 dollars nor more than 30, &amp;c.’—1<hi rend="italics">st Code of Virginia,</hi> 1849.</p>
+          <p>Again, to prevent the spread of immoral doctrine—</p>
+          <p>‘If a free person by speaking or writing maintain that owners have no right of property in their slaves, he shall be confined in gaol not more than one year, and fined not exceeding 500 dollars. He may be arrested and carried before a justice by any white person.’—<hi rend="italics">Code of Virginia,</hi> 1849.</p>
+          <p>Again—</p>
+          <p>‘Slaves hereafter emancipated shall forfeit their freedom by remaining in the commonwealth more than twelve months after they become actually free, and shall be reduced to slavery under such regulations as may be prescribed by law.’—<hi rend="italics">Virginia, Constitution of the State,</hi> 1851-2.</p>
+          <p>Having now suggested, as it was only fair I should, how much might be said in support of the views upon slavery as a missionary or civilizing agency held by such gentlemen as Messrs. Roebuck, Beresford Hope, Lindsay, and others, we will again go on with our story.</p>
+          <p>Four years after the event in Di's life last related, the slaves were one night, by permission, working on their own little vegetable plots; and as Jem Browne was thus out for the night, Di went to sleep in Phoebe Moore's shanty; this consisted of one room, in the middle of which, and across it, a curtain of printed calico hung from the roof to the floor. In the division furthest from the door slept Di, in that nearest the
+<pb id="p45" n="45"/>
+entrance Phoebe Moore was in bed with her two children, one three years the other one year old.</p>
+          <p>Phoebe was nearly white, rather good-looking, not quite so old as Di; her husband had been dead about a year.</p>
+          <p>While it was yet quite dusk in the morning, Mr. Hope entered Phoebe's shanty and, he not being aware that any one was in the other part of the room, began to be very abusive to her, in words and in actions both. Di heard him say, ‘If you don't do as I tell you I'll kill the baby.’</p>
+          <p>In a minute or two after this, Phoebe shrieked, ‘Oh! my baby, my baby; you have killed my baby.’ Di rushed from behind the curtain, and saw the youngest child lying on the bed, the master's hand grasping its throat. The two eyes were hanging outside of their sockets, and the tongue was forced out of the mouth, and drawn back under the chin.</p>
+          <p>Phoebe darted, undressed, out of the door, screaming. Di took hold of her master's hand, and forced it from the baby's throat. He then turned furiously upon her and hissed out rather than spoke the words—‘If you don't get out I'll serve you the same way.’</p>
+          <p>As she ran off towards her own shanty, she turned her head round to look for Phoebe, and saw her master at the door of her shanty give her two cuts with his ratan over the shoulders.</p>
+          <p>The child was buried at once in the swamp: the two women who saw the murder, being slaves, could give no evidence against the murderer, so he never heard anything more about it.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p46" n="46"/>
+          <head>CHAPTER IX. <lb/> WILDSHAW HITS JEM BROWNE A BLOW WITH A <lb/> HAMMER FROM THE EFFECTS OF WHICH HE DIES <lb/> IN TEN MONTHS.</head>
+          <p>THREE years after the murder of Phoebe Moore's baby, when Di had been twenty years married, Jem Jones the blacksmith and Jem Browne quarrelled one evening as they were gathering cocoa-nuts.</p>
+          <p>The next day they were ploughing water furrows in a field near the house, preparing the land for sowing cotton or rice. Jem Jones was yoked with a negro in one plough, and Jem Browne was yoked with a negro in another plough: the ploughs now and then came near each other.</p>
+          <p>Di was standing in her doorway when she heard her husband's voice, shouting, ‘Let go, let go,’ with a sound as though he were choking. She seized her husband's axe, ran into the field, and saw four men struggling on the ground; both the overseers were trying to separate them. Di saw that Jones, who was a large negro, was strangling her husband; she lifted the axe, and would have struck Jones had she not feared she might hurt her husband.<ref id="ref18" n="18" rend="sc" target="n21" targOrder="U">*</ref></p>
+          <note id="n21" n="21" rend="sc" place="foot" anchored="yes" target="ref18">
+            <p>* I could not ascertain the ground of dispute between Jones and Browne.</p>
+          </note>
+          <p>Wildshaw lost his temper, and, with a heavy hammer which he always carried about, hit Browne on the left collar bone: the bone was broken with a smashing sound, and a stream of blood spouted from his nose. He stood up and jumped about in agony; his left arm fell helpless to his side. He was unyoked, and led between the overseers. The doctor was
+<pb id="p47" n="47"/>
+directly sent for, and the master came down to see the harm which bad befallen one of his most useful slaves, the one who knew best how to take care of his horses.</p>
+          <p>Di was allowed to nurse her husband, but he never got up again from his bed of pain. Mr. Hope, trusting he would recover, sent him chicken broth, cigars, and other things he could fancy. He also spoke angrily to Wildshaw about the way in which he damaged his property.</p>
+          <p>Two days before Browne died he cautioned Di against Jones, saying, ‘He has caused my death, and will be the death of you also, if you don't mind.’ At this time Di was very ill indeed, close to her confinement of a child by her master, and was staying at the big house. She was too ill to be near her husband when he died, after lingering ten months, or to see him buried in the swamp.</p>
+          <p>Very soon after her husband's death in 1855, Di's little boy was born. He was quite white; his mother was at the same time wet nurse to one of Mrs. Hope's, a little girl. These children became much attached to each other.</p>
+          <p>Di lost her grandmother about this time. Dr. Durant took a young partner, as he was now getting into years.</p>
+          <p>Nothing worthy of remark happened during the year which followed Browne's death. The boy grew well; but Di was ceaselessly tormented by her master, who did all he could to force her to take Jones the blacksmith, or, if she would not have him, some one else, no matter who, if only she would not remain a widow.</p>
+          <p>She told Mrs. Hope about the persecution she endured, but that lady took not the smallest notice of her remarks, though they furnished her with just cause (according to English ideas) for complaint on her own account. As Mr. Hope's line of conduct was in accordance with sound Virginian business calculations,
+<pb id="p48" n="48"/>
+she, like a good wife as she thought herself, was inclined to favour rather than to disapprove what she heard, now not for the first time either, by any means.</p>
+          <p>One day, however, Mr. Hope made Di feel his anger on account of her tale bearing, by hurling a knife at her as she was waiting at table. The knife hit her over the right eyebrow, and the scar across it is still to be seen. Another day she was told to fill her master's glass: she held a jug of water in her right hand, and put out the left to take hold of his glass. The glass had gravy on it (Mr. Hope not having wiped his fingers), and she let it slip on to the table, but without breaking it or spilling any water. He lifted the knife with which he was eating, and cut a large gash on her left arm, just below the elbow, where a scar still remains an inch and a half long.</p>
+          <p>As may be supposed, Di had her thoughts set upon flight, but she wished to wait till her boy should be strong enough to go with her, so she bore with all her ill-usage as well as she could, and kept her ears and eyes open to learn things which might help her on her way to freedom.</p>
+          <p>She always dreaded the dogs more than anything, their powers of scent being so strong as almost to preclude all chance of escape; so her joy was great when she by accident found a means by which she felt sure she could overcome this danger. Her young mistress Annie was one day playing with Carlo (a grandson of the Carlo that found out Di when she ran away twenty-one years before), holding up bones, and then snatching them away, when she said to Di, ‘I say, Di, what splendid fun it will be to see Carlo's grins and sneezes if we put some cayenne pepper on to one of these bones.’ No sooner said than done. Carlo sneezed, and then ran off to bury his nose in the soil, and kept poking his nose and mouth deeper, deeper, and deeper into the cool ground. Thought Di, ‘There's a chance for me after all.’</p>
+          <p>The boy grew up a lively little fellow, and he was
+<pb id="p49" n="49"/>
+always treated by his master with great kindness, for whenever grapes or toys were given to the youngest children, an equal portion fell to Charlie's lot. Charlie was very fond of his foster-sister, little Law, as Laura, the youngest Hope, was called, and they were inseparable playmates. The boy was always ready to help the gentlemen; he brought their slippers, took off their boots, and struck the fuzees, which he held to their cigars. He danced and sang and amused them all.</p>
+          <p>When he was about five years old Mr. Hope often said he should soon have to sell him, together with other slaves he was disposing of, in order to raise money to educate his children, of whom he had a great number. Notwithstanding her experience, Di never believed that little Charlie would be sold away from the house, until one day when, after he had danced in the parlour before a stranger, Mr. Hope told her that Charlie was to be sent off to the South the next day.</p>
+          <p>In that moment of anguish she said, ‘I hope Jehovah will take him before he is sold from me.’</p>
+          <p>Two hours afterwards, the child was seized with fits of convulsions. Dr. Durant was sent for, and the child was, in the meantime, put into a warm bath. Mr. Hope told Di he believed ‘she had given her boy something to send him to Jehovah,’ which she, of course, denied. The doctor came, and seeing the child's fits were violent, asked if the child had not been put into too warm a bath; being satisfied on that point, he had Charlie put a second time into hot water. But it was of no use, for the child died before dawn, and was next day buried in the swamp.</p>
+          <p>This was in the fall of the year, when fruit was dropping ripe from the trees.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p50" n="50"/>
+          <head>CHAPTER X. <lb/> DI ESCAPES, AUTUMN 1860.</head>
+          <p>WHEN her child was dead, poor Di felt lonely; her master seeing her so, was more than ever anxious she should marry Jones the blacksmith; he himself was at this time walking with crutches, having worn out his strength by drinking.</p>
+          <p>About this time she heard much talk about soldiers going to fight; the papers were eagerly read by her master and his white overseer. They would often take the papers into the fields, and tell the slaves that ‘the red men were coming to kill them, and that the only chance was for them to fight for their master, and that they should be free men when once the war was over.’ The slaves said they would fight for them, for the field hands always fancied the men in the North were red men and eaters of men.<ref id="ref19" n="19" rend="sc" target="n22" targOrder="U">*</ref></p>
+          <note id="n22" n="22" rend="sc" place="foot" anchored="yes" target="ref19">
+            <p>* I give this simply as it was told me by the escaped slave. She being a house-servant knew that Northerners were not red men, for she had seen visitors in the house from the North; she tells me that the field hands all firmly believed they were to be killed by the red men. It must be remembered she speaks of their thoughts in 1860. Her own present opinion of the chances of emancipation is that the North will never be able to procure it for the slaves by fighting. I think it right to state this.</p>
+          </note>
+          <p>At last, Mr. Hope determined to sell Di; for, said he, ‘You are now of no service; my children are grown up, and you won't marry Jones, so there is no use my keeping you; you will be sold to-night to a trader.’<ref id="ref20" n="20" rend="sc" target="n23" targOrder="U">**</ref></p>
+          <note id="n23" n="23" rend="sc" place="foot" anchored="yes" target="ref20">
+            <p>** The escaped slave tells me most positively that in several cases on this plantation she has seen the overseer give to slaves who were too old to work and required attendance a dose of black juice which sent them to sleep, and that for ever. She says the slaves dreaded all mention of this black dose, when they had seen three or four sleep to wake no more after it had been poured down their throats. Though I am sure that this statement will make many persons disbelieve the whole of her story, still I think it proper not to withhold any information I possess which may assist others to draw their own conclusions as to the credibility of this history.</p>
+          </note>
+          <pb id="p51" n="51"/>
+          <p>The same evening a trader belonging to the neighbourhood came to the house, and Di was told she was to go with him the next day. She went upstairs, and described to Miss Annie the appearance of the man who was to take her. That young lady, without saying a word, went to a handsome desk, opened it, and took out a revolver with which she often practised; this she put into her pocket, told Di to follow her, and biting her lips all the way, went straight to the parlour where her father was bargaining with the trader and his assistant.</p>
+          <p>She flung the door open, and stepped like a queen through the room; her eyes flashed fire, and her nostrils were expanded like those of a spirited horse when snorting. In a tone of suppressed anger, she said to her father, ‘What is it that I hear you think of doing? Sell Di! sell her who has nursed all your children, and received only ill-treatment and brutality in return for her care! See her body all covered with scars! No; you shall never do this whilst I can defend her.’</p>
+          <p>Her father took her by the shoulders and began to push her towards the door, but she paid no attention to this, for her eye had now fallen upon the trader who was standing by, in amazement. She walked up to him, and, her figure drawn up to its full height, said in his face, whilst her right hand held the revolver in her pocket, ‘You villain, you! don't you fancy you are to have our Di; that you never shall.’</p>
+          <p>The trader said, ‘Really, ma'm, I have bought her with hard cash, and I'm not likely to lose her.’</p>
+          <p>She stamped her little foot indignantly on the floor,
+<pb id="p52" n="52"/>
+snorted, and raised the pistol, whilst she never took her eye off that of the big man who now cowered before her. ‘Say no more, Sir, or I'll blow out your brains; you villain! you coward! you cruel monster! we know what you have done to many poor girls already——’</p>
+          <p>By this time her hands were seized by her father and by her brother, who had just come into the room, he having heard angry voices as he went by the door.</p>
+          <p>She was taken upstairs, and locked in her own room, up and down which she paced like a caged tigress for some time, then flung herself on her face on the floor, thinking how she might best serve Di. At last she determined to appear resigned whenever anyone should come to speak to her, which happened before long. Her door was unlocked, and she went into the nursery where Di used to sleep, and told her she should herself sleep that night in the bed by the side of Di's. In the morning she meant to lie in bed, and thus prevent men from coming to take Di away from the room where was an undressed lady.</p>
+          <p>Mr. Hope, his son, and the trader sat drinking for a long time, but at last the house was quiet.</p>
+          <p>Then Di got out of bed, and by the light of the moon looked at her sleeping mistress, her generous defender. She longed to awake her, and tell her she was going to escape, but she thought it would only cause her to be for hours in a fright on her account. Then she wished to give her a parting kiss of gratitude and love. She stooped over her, but suddenly drew back, for she dreaded lest a kiss should awake her, and cause her to cry out so as to disturb the house.</p>
+          <p>She found the keys of the pantry, and took some small rolls, then she tied up in the end of her long cotton scarf a large quantity of red pepper, many pounds of which were always in a jar in the pantry. How she shuddered at the idea of sneezing. One other thing she thought of taking (she knew she could get it), a
+<pb id="p53" n="53"/>
+massive gold chain set with diamonds, a present to her master from the East Indies. This she knew to be very valuable, and imagined she should be better off with some money to pay her way when once she got to a free land; but her second thought was, ‘If they overtake me, and find this chain about me, they will certainly burn me alive;’ so she did not touch it.</p>
+          <p>And now she stepped gently into the hall; there in a rosewood kennel slept Carlo, who had often seen her about the house in the night, so she did not think he would bark, nor did he; he raised his long ears, and looked at her with his thoughtful eyes as she came up to pat his head and tell him to be quiet. She kissed him and glided towards the door; looking back she saw the dog half out of his kennel, evidently anxious to go with her. She looked steadily at the hound, shook her head gravely and earnestly signed to him to lie down. With a wistful look he dropped his nose between his paws, but still he gazed upwards at her all the time, and a big tear, as she imagined, was about to burst from his loving eye.<ref id="ref21" n="21" rend="sc" target="n24" targOrder="U">*</ref></p>
+          <note id="n24" n="24" rend="sc" place="foot" anchored="yes" target="ref21">
+            <p>* Di was very fond of Carlo, for she had nursed him as a pup on her breast at a time when it had been too sore for children to suck. This she did, by the doctor's order, to gain relief. Ever after she seems to have looked on Carlo as a dog of intelligence, superior to that of other dogs, and felt towards him as towards a foster child.</p>
+          </note>
+          <p>Then she stepped out into the full light of the moon, and walked leisurely down the avenue to the gate; there the keeper was sound asleep, so she passed out unhindered into the high road, along which she at first walked, then ran rapidly for a short time in the direction of the town. Leaving the road she crossed a number of fields, making towards the thickest woods she knew of, where she had been once or twice when the slaves had been permitted to go out for a holiday.<ref id="ref22" n="22" rend="sc" target="n25" targOrder="U">**</ref></p>
+          <note id="n25" n="25" rend="sc" place="foot" anchored="yes" target="ref22">
+            <p>** On these occasions the slaves made rude attempts at praying and singing, and these meetings were sometimes dispersed by a party of gentlemen coming suddenly upon them, and throwing, right into their midst, cows' horns filled with gunpowder, which were exploded by fuzees. Some slaves were maimed for life by such means.</p>
+          </note>
+          <pb id="p54" n="54"/>
+          <p>On her way she passed the lodges of many owners of plantations. When she got near the thickest part of the wood, she entered, and began to scatter some red pepper from her scarf behind her back; this she did for some time. All the first two days she was in a dense thicket, and tried to guide herself by the sun. As much as she could she lived on tea-berries, black-berries, huckle-berries, &amp;c. &amp;c., sparing her bread to the utmost.</p>
+          <p>She had not been more than three days walking through the woods, when all of a sudden, at noon, she was terrified by the sound of horses' feet in the distance. Looking round for a hiding place, she found an aged up-rooted tree, which had been decaying for years. It had been snapped in two by a tempest; the top part of it lay at some distance from the thick trunk, which the weight of the roots kept pointing upwards, so that the broken end was at a good height from the ground. The tree was hollow. Di climbed quickly up the trunk, to make sure she should be able to creep down it inside; got down again, and ran from the tree as hard as she could, in a direction leading away from the horses, strewing red pepper all the way. Making a large circle, she returned to the tree, strewing no pepper as she came back; then let herself down the hollow trunk, till her head was many feet lower than the entrance above.</p>
+          <p>Several hours passed before she heard any sound of horses or dogs. At last she heard what she thought were the sounds of dogs barking and sneezing as they passed at no great distance from the tree. The noise died away, and she stayed all the night in the tree, thirsty and cramped.</p>
+          <p>Early the next morning she heard dogs barking and sneezing, and her master rode near enough to
+<pb id="p55" n="55"/>
+the tree for her to catch the words: ‘D— her, if I catch hold of her she shall never walk again.’ It seemed to Di as though the tree were sinking deep into the ground, taking her down, down along with itself, and she expected each minute to see a hideous face peering in from over her head.</p>
+          <p>Fortunately they did not think of the tree. In it she lay hid all that day and all the next night. She had nothing to drink, and as her strength began to fail her, she kept all night long wondering whether it would not be better for her to go back. On the morning after the second night she had passed in the tree, as soon as looking upwards she saw the sun's rays gilding the tops of the trees over her head, she got out of the tree, weak, cramped, and painfully thirsty. However, the cheerful light and the water and berries which she soon found, gave her fresh courage, and she determined to go on with her journey.</p>
+          <p>For days and weeks she wandered on, sometimes in woods, sometimes through cleared fields; apples, sweet potatoes, and turnips formed a large portion of her food. The weather grew colder, and when thunderstorms raged in the forests she was ready to die from the effects of a fear which she never could master. At night she would make a fire, having got sparks from two pieces of flint, between which she held some dry pith of trees, then striking these flints with another the pith caught fire.</p>
+          <p>Often she wished to enter the houses near which she came to get apples, but always the dread lest the people should send her back restrained her. She crossed many streams. But one day when she came to a river running between two deep banks, she did not know what to do, for she felt too weak to attempt to swim. Soon, however, she saw a man fishing in a bark boat. She called out ‘Will you please take me over the river?’ He made signs to show that he should require something for doing so. Di shook her hands to show they were empty. He shook his
+<pb id="p56" n="56"/>
+head in return. At last she bethought herself of a ring which had been her husband's. When this she showed him, he shoved his boat to the shore at her feet. She stepped in and sat down, whilst he rowed her straight across, not speaking a word. When the boat reached the other shore he made noises which Di could not understand. She stepped out and climbed up the bank.</p>
+          <p>She had often heard of the rough men who lived in the woods, and was always afraid lest she should meet them. Whenever she saw any one she lay hidden till the danger of being stopped had passed away.<ref id="ref23" n="23" rend="sc" target="n26" targOrder="U">*</ref></p>
+          <note id="n26" n="26" rend="sc" place="foot" anchored="yes" target="ref23">
+            <p>* Vast districts in the Slave States, under the exhausting effects of slave industry, are every year surrendered to nature and relapse into wilderness. These deserts become ‘the resort of a numerous hoard of people, who, too poor to keep slaves, and too proud to work, prefer a vagrant and precarious life spent in the desert to engaging in occupations which would associate them with the slaves whom they despise. In the Slave States no less than 5,000,000 of human beings are now said to exist in this manner, in a condition little removed from savage life, eking out a wretched subsistence by hunting, by fishing, by hiring themselves out for occasional jobs, or by plunder. Combining the restlessness and contempt for regular industry peculiar to the savage with the vices of the <hi rend="italics">proletaire</hi> of civilized communities, these people make up a class at once degraded and dangerous; and constantly re-inforced as they are by all that is idle, worthless, and lawless among the population of the neighbouring States, form an inexhaustible preserve of ruffianism, ready at hand for all the worst purposes of Southern ambition. * * * From their ranks those filibustering expeditions are recruited which have been found so effective an instrument in extending the domain of the slave power: they furnish the ‘border ruffians,’ who in the colonization struggle with the Northern States contend with ‘Free-soilers' on the territories, and it is to their antipathy to the negroes that the planters securely trust for repressing every attempt at servile insurrection.’—<hi rend="italics">See Professor Cairnes' masterly work on ‘Slave Power.’</hi></p>
+          </note>
+          <p>She crossed the Shenandoah river, the Blue Ridge mountains, over rich plains, and through magnificent valleys, then passed the Potomac, half swimming, half floating, growing weaker and fainter each day, till at last, with scarcely a thread left upon her, she lay down in a lane almost covered over by trees. Her knees were bleeding; she was cold, hungry, and faint. At last she heard wheels and a voice. She cried out faintly. A man said to his comrade, ‘I hear a voice.’
+<pb id="p57" n="57"/>
+It was dusk, and she was crouching nearly naked behind a bush. She put up her hand, and it was grasped by a man, who said, ‘Who's here?’ Di said, ‘It's me.’ He said, ‘Who's me? I know you are a female by your voice.’ ‘A runaway slave.’ ‘From what plantation?’ he asked. Di told, and he said, ‘Come out.’ ‘I cannot, for I have no clothes,’ answered she.</p>
+          <p>The man sent for a horse cloth out of his gig. She was rolled up, put into the gig, and soon went to sleep, though she did not know whether the men were slave owners or not. They drove on till they came to their house. One of the men jumped down and ran before, to say a slave was coming. The good lady of the house came to the door, and two servants helped her out of the vehicle. They took her to a room on the ground floor, where a nice fire was burning, then gave her one spoonful of warm arrow-root. She soon felt faint; they put her into a warm bath, and tended her all the night.</p>
+          <p>In this kind Pennsylvanian family she remained four months, sick the whole of the time, spitting blood. When she got better they took her in the carriage to the house of a friend, a clergyman, with whom she remained four months, until March 1861. Whilst she was with this excellent family she several times went to church, having a double veil over her face.</p>
+          <p>With great difficulty the clergyman got her put on board a ship (I cannot make out where), closely veiled. She went first to Philadelphia, but did not land there; thence she sailed to New York, and remained concealed in the ship, which lay there four months. The same ship sailed with a cargo for Calcutta, and Di was engaged to wait on the captain's
+<pb id="p58" n="58"/>
+wife, who was confined on the voyage. All were very kind to her on board.</p>
+          <p>When the ship got to Calcutta, Di lived for four months (as she thinks) on board, and afterwards was for two months in an hotel. The landlady, she says, ‘did all she could to overwhelm her with kindness.’</p>
+          <p>The captain's wife recommended her to a lady, and she engaged Di to wait upon her on the voyage to England in a ship which carried soldiers. From this lady also she received the greatest kindness. They landed at Portsmouth early in the morning. There she received her wages, and the same evening reached London, in March 1863. She was robbed of all her money the first night, in a low lodging-house to which the cabman drove her.</p>
+          <p>In London she has lived ever since March, generally in the house of a poor woman (where I took down all this history), who has behaved like a sister to the penniless runaway slave. She has had needlework given her by some kind ladies, but the poor thing suffers often dreadfully from the terrible injuries she received during 25 years of a wretched life. So great is the pain, that at change of weather she cannot hold her needle, and for nights together she is kept awake by frightful dreams, in which she fancies she is being tortured over again.</p>
+          <p>She is quite willing to let one or two medical men examine and report upon the eleven scars on her person; she also will reply to questions put to her by two or three gentlemen and ladies who may wish to thoroughly investigate the case, as I doubt not will be done. But she is most anxious to be protected from mere idle curiosity, as well as from gross insult. From the latter she has by no means escaped, and that at the hands of one in London who should have known better.</p>
+          <p>My belief is, that all she has told me is quite true. My only fear is that I have failed to describe vividly
+<pb id="p59" n="59"/>
+enough this dreadful series of crimes and atrocities. I tried to the utmost by cross-examination to shake her evidence, but was unable to do so in the least. The real names of all the chief persons are in my possession, but I thought it best to refrain from making them public.</p>
+          <p>One thing astonished me more than I can say when taking notes, probably the same thing will have <sic corr="surprised">supprised</sic> the reader in several places, that a woman who has suffered as she has, should of her own accord tell some good traits of her master's character; facts which most women would have kept back, fearing lest the good that was shown to be in him should be urged as a witness against the statement of her own grievous wrongs.</p>
+          <p>I could easily fill pages with accounts of the horrible cruelties which Di has been practised upon female slaves, of which she too has had personal experience, but to do so would be of questionable utility in any case, whilst it would certainly cause this little book to be excluded from many a drawing-room to which I trust it may now find its way. When it is remembered that the whiter the slave is the greater is his or her market value, most of those who are at all acquainted with the working of this ‘peculiar institution’ will readily understand to how great an extent the ill-usage of female negroes is aggravated on slave-rearing plantations by the superior demand there is for white slaves.</p>
+          <p>It will be observed that I have nowhere in this book referred to the question of slavery, considered merely as compulsory and unpaid labour. My object in passing that by is to enable me to introduce with stronger effect some</p>
+          <div3 type="section">
+            <head>OBSERVATIONS OF A PRACTICAL NATURE.</head>
+            <p>Let me now make a few remarks on slavery. To those who advocate slavery as a beneficial institution I have
+<pb id="p60" n="60"/>
+not one word to say. The scathing reply of the Scotch Clergy to the address sent to them by Christian Ministers of all denominations in the Southern Confederacy may very properly be held applicable to those in Europe who hold the same views.</p>
+            <p>But there are hundreds of thousands who detest slavery with their whole souls, and yet cannot see that at the present crisis the cause of freedom to the slave would gain by any immediate expression of their feelings. They think (I do not say I at all agree with them) that the North is fighting for the Union and for the Union alone; that if the Union were once re-established, by conquest or by treaty, the slave question would be left to settle itself; and that it is therefore injudicious to say or do anything which may possibly, on which side soever victory finally remains, leave the slaves in the power of owners exasperated rather than awed by any present exhibition of English sympathy with slaves in the South. I know that this is one reason why thousands of most conscientious persons do violence to their own feelings by not now writing or speaking in behalf of the slave.</p>
+            <p>Thousands, again, equally honest in their convictions, not being aware of the gigantic growth, in late years, of the Southern slave power, nourished by a vast internal slave trade, think and say, ‘Slavery must be left to die out of itself; and we may trust, in the main, to the slave-owners, seeing that their own interests are promoted in treating their slaves with decent humanity, notwithstanding all “Uncle Tom's Cabin” tells us.’</p>
+            <p>The number of those who hold these views, men and women of high principles and generous sympathies often, is, I believe, incalculable. Incalculable also, as I believe, would be the benefit to mankind if those who are actuated by these motives, in England, France, and Germany, could be brought to proclaim
+<pb id="p61" n="61"/>
+to the world their adoption of a resolution to this effect:—</p>
+            <p>‘Resolved that, whether the North restores the Union, or whether the South proves itself hereafter strong enough to establish an Independent Confederation, whether the area and power of slavery be or be not contracted at the end of the war, the interests of mankind in general, and of the slaves in particular, cannot but be greatly promoted by our</p>
+            <p>‘DETERMINATION never at any time hereafter to receive and recognize a minister sent by a country calling itself a Christian country, in which any laws remain unrepealed by which a slave-owner is permitted to buy and sell slaves in order that they may be carried against their own will from the lands on which they were reared.’</p>
+            <p>Those who doubt the benefit to the slaves of immediate emancipation, will perceive in the alteration of the slave laws here suggested an undeniable improvement in the condition of the slave. His domestic ties will not be torn ruthlessly asunder in any state. Slave-rearing states will by degrees find it to be their interest to educate and free their slaves, they yearly becoming less valuable after the Southern Slave Trade is closed. Slave-consuming states (<hi rend="italics">i.e.</hi> slave importing, both from Border States and from Africa), unable to replace by purchase the frightful loss of human life which results from hard-driven labour in their cotton and rice swamps, will soon see that their prosperity depends very much upon the degree of consideration and kindness, tending to prolong life, with which their slaves are treated.</p>
+            <p>Advocates of emancipation can, without surrendering their own independent line of action, join cordially in such a resolution, because it is a step in their own direction.</p>
+          </div3>
+          <div3 type="section">
+            <head>‘THE ANTI-SLAVE SELLING SOCIETY’</head>
+            <p>Might be a suitable name for an association to be
+<pb id="p62" n="62"/>
+formed for the purpose of obtaining signatures in favour of such a resolution as has been somewhat roughly sketched out; and I hope that the plan which I have now ventured to propose will be adopted by philanthropists in numbers sufficient to silence for ever the voices of those who dare to proclaim that ‘Slavery is the best Missionary Agency, consistent with Christianity, and the great hope of the African races.’</p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <pb id="p63" n="63"/>
+      <div1 type="appendix">
+        <head>LORD BROUGHAM AND STATES' RIGHTS AND <lb/>SECESSION.</head>
+        <p>The ‘Anti-Slavery Reporter’ for December publishes the following correspondence between the Secretary of the British and Foreign Anti-Slavery Society and Lord Brougham, which explains itself:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="quoted letter">
+                <opener>
+                  <dateline>London, Nov. 11.</dateline>
+                </opener>
+                <p>‘My dear Lord,—The honorary secretaries of the Manchester Southern Club—a pro-slavery organisation got up in Manchester to promote the recognition of the Southern States—allege that you are in favour of “State rights”—that is, of the theory that each individual State of the American Union is absolutely independent, free, and sovereign, a theory by which it is sought to justify secession, rebellion, and civil war.</p>
+                <p>‘The following passage is quoted by these gentlemen in support of your assertion</p>
+                <p>‘“There is not , as with us, a Government only and its subjects to be regarded, but a number of Governments, of States having each a separate and substantive, and even independent existence, originally thirteen, now six-and-twenty, and each having a legislature of its own, with laws differing from those of the other States. It is plainly impossible to consider the constitution which professes to govern the whole Union—this federacy of States—as anything other than a treaty, of which the conditions are to be executed for them all; and hence there must be certain provisions made, which cannot be altered without universal consent, or a consent so general as to be deemed equivalent for all practical purposes to the consent of the whole.”</p>
+                <p>‘Whether a “Constitution,” defined by the late Daniel Webster to be the fundamental supreme law of a State, can, under any circumstance, be considered “a treaty,” it is not material to discuss; but if I understand the above passage, it conveys your opinion that, regarded even as “a treaty,” the “certain things” it confers, the “certain provisions” it makes, “cannot be altered” nor “annulled” without so general a consent of the parties to it, as to be practically equivalent to the consent of “all of them.” So far, therefore, from your opinion being in favour of this theory of so-called “State rights,” it is inferentially the very reverse, or I totally misapprehend your meaning.</p>
+                <p>‘Although I believe I might assert, without consulting you, that your words are not susceptible of any other interpretation, it is important I should have your confirmation of my views, to make public use of, if necessary. may I, therefore, solicit your explanation of the foregoing passage as soon as you can make it convenient to favour me with it?—I remain, my dear lord, yours most respectfully,</p>
+                <closer>
+                  <signed>‘L. A. CHAMEROVZOW.</signed>
+                  <salute>‘To the Right Hon. Lord Brougham.’</salute>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>Now, what says the noble and learned lord himself on this point? Let his lordship speak for himself:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="quoted letter">
+                <opener>
+                  <dateline>‘Paris, Meurice's Hotel, Rue de Rivoli,<lb/>Nov. 22, 1863.’</dateline>
+                </opener>
+                <p>‘My dear Mr. C.,—Your letter with the printed extract only reached me yesterday, as it went round by Cannes. I consider your construction of it perfectly sound and fair.—Very sincerely,</p>
+                <closer>
+                  <signed>‘H. BROUGHAM.’</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <trailer>PRINTED BY SPOTTISWOODE AND CO., NEW-STREET SQUARE, LONDON</trailer>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

@@ -1,0 +1,1381 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY eldridfp SYSTEM "eldridfp.jpg" NDATA jpeg>
+<!ENTITY eldridtp SYSTEM "eldridtp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Memoirs of Elleanor Eldridge:</emph>
+Electronic Edition.</title>
+        <author>Green, Frances H. (Frances Harriet), 1805-1878. </author>
+        <author>Eldridge, Elleanor,  1784-1845? </author>
+        <funder>Funding from the National Endowment for the Humanities and The Gladys Krieble Delmas Foundation
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Apex Data Services, Inc., Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca.     190K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Memoirs of Elleanor Eldridge</title>
+            <author>F. H. W.</author>
+            <author>Eldridge, Elleanor, 1784-1845? </author>
+          </titleStmt>
+          <extent>  128    p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>PROVIDENCE:</pubPlace>
+            <publisher>B. T. ALBRO—PRINTER,</publisher>
+            <date>1838.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number   326.92 e37m  (Rare Book, Manuscript, and Special Collections Library, Duke University)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.
+ </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Eldridge, Elleanor, 1784-1845?</item>
+            <item>African Americans -- Rhode Island -- Biography.</item>
+            <item>African Americans -- Rhode Island -- Social conditions -- 
+19th
+century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-12-15, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-12-12, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-12-05, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-11-27, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="frontispiece">
+        <p>
+          <figure id="frontis" entity="eldridfp">
+            <p>Eleanor Eldridge<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="eldridtp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">MEMOIRS <lb/> OF <lb/> ELLEANOR ELDRIDGE.</titlePart>
+        </docTitle>
+        <epigraph>
+          <lg type="">
+            <l>O that estates, degrees, and offices,</l>
+            <l>Were not derived corruptly! and that clear honor</l>
+            <l>Were purchased by the merit of the wearer!</l>
+            <l>How many, then, should cover, that stand bare?</l>
+            <l>How many be commanded, that command?</l>
+            <l>How much low peasantry would then be gleaned</l>
+            <l>From the true seed of honor? and how much honor</l>
+            <l>Picked from the chaff and ruin of the times,</l>
+            <l>To be new varnished?—</l>
+            <signed>
+              <hi rend="italics">Merchant of Venice.</hi>
+            </signed>
+          </lg>
+        </epigraph>
+        <docImprint><pubPlace>PROVIDENCE:</pubPlace>
+<publisher>B. T. ALBRO—PRINTER,</publisher>
+<docDate>1838.</docDate></docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="p3" n="3"/>
+        <head>PREFACE.</head>
+        <p>THIS little book is to be published for the express purpose of giving a helping hand to suffering and persecuted merit. And while its direct object is to render some little assistance to one who has been the subject of peculiar adversity and wrong, it may subserve a very important purpose, in bringing forward, and setting before the colored population, an example of industry and untiring perseverance, every way worthy their regard and earnest attention.—The numerous friends and patrons of poor Elleanor, are confident that the feeling and humane, to whom it gives the purest pleasure to alleviate misfortune, will cheerfully subscribe for her book, when they shall have received intimation of her singular claims upon their benevolence, both from her merit and her undeserved trials.</p>
+        <pb id="p4" n="4"/>
+        <p>Still further, it is believed that the colored people, generally, will be proud to assist in sustaining one, who is both an honor and an ornament to their race.</p>
+        <p>The writer of these Memoirs must here crave the indulgence of Elleanor's patrons. The work is prepared during a season of severe <sic corr="illness,">ilness,</sic> which has completely unfitted her for any exertion; and, in such a hurried manner, as to leave <hi rend="italics">no time for revision:</hi> so that many important collateral principles, which might have been diffused through the work, enhancing its value, through her weakness, and want of time, must be neglected.</p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p5" n="5"/>
+        <head>MEMOIRS OF <lb/> ELLEANOR ELDRIDGE.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <p>To give some idea of the high esteem in which the subject of the following narrative is held, and the strong interest her misfortunes have excited, a few, from the great number of recommendations in her possession, are selected: and it may be well to present them in the onset, that all may be satisfied of the entire worthiness of her character, and credibility of her statements. These certificates were all voluntarily given, by the several ladies whose names are subjoined.</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <p>Having employed Elleanor Eldridge to work for me, occasionally, during the last sixteen years, at white-washing, painting, papering, &amp;c. I can recommend her, as an honest, industrious, and faithful woman, who has been peculiarly unfortunate in the loss of her property, which she obtained by thirty years of hard labor. 
+<pb id="p6" n="6"/>
+She has been unremitting in her exertions, to save enough to support herself in declining age, and invested all her savings in real estate, which was cruelly taken from her, while performing her duty in another State, as will appear in the history of her life. Had she remained in her native State, this dire misfortune might have been averted.</p>
+                  <p>Elleanor has been truly unfortunate. She has suffered agony of body and mind. She has had every thing stripped from her, when she least expected it; and she was thrown upon the world, pennyless, after having cleared, on an average, more than one hundred dollars per annum, besides her support, during the thirty years above-mentioned, which, if placed at interest, annually, would have made her comparatively rich. She denied herself all, save the bare necessaries of life, to accomplish the desired end; yet she has been always ready to lend a helping hand to any of her relations who were needy, or in distress. She has been thro' life, and still is valuable to her numerous employers. She is a kind friend to those allied to her by the ties of blood; to whom, I believe, she never turned a deaf ear, or denied them relief which might be in her power to give.</p>
+                  <pb id="p7" n="7"/>
+                  <p>The object in publishing her life, is to help raise a sum of money which MUST BE PAID, or she never can clear her property from its present incumbrance. She may be found, daily at work, from sun-rise until sun-set, for good wages; yet she cannot accomplish the desired end, without the <sic corr="assistance">assistence</sic> of friends to humanity and justice. I hope a liberal public will patronise this work, for her sake, as well as that of her unfortunate race, who ought to be assisted rather than crushed, when they live a virtuous, industrious, and sober life, and not allowed to suffer wrongs, through their ignorance, that may be averted, by the timely assistance of the enlightened part of mankind.</p>
+                  <closer><signed>A. G. D.</signed>
+<dateline>Providence, July 19, 1838.</dateline></closer>
+                </div1>
+                <div1 type="letter">
+                  <p>WE, the undersigned, having known and employed Elleanor Eldridge to work for us during many years, recommend her as an uncommonly industrious woman—honest and faithful. We think her deserving to hold the property so dearly bought, with the hard labor of thirty years; and worthy a PREMIUM for her untiring 
+<pb id="p8" n="8"/>
+perseverance to make herself independent of charity, when sickness, or old age should disable her to pursue her accustomed avocations.</p>
+                  <closer>
+                    <signed>Anna Arnold,</signed>
+                    <signed>Anna Lockwood,</signed>
+                    <signed>Amey A. Arnold,</signed>
+                    <signed>Mrs. Elizabeth Elliot,</signed>
+                    <signed>Mrs. W. Rhodes,</signed>
+                    <signed>A. T. Lockwood,</signed>
+                    <signed>D. B. Lockwood,</signed>
+                    <signed>Mrs. E. G. Chandler,</signed>
+                    <signed>Mary T. Gladding,</signed>
+                    <signed>Mrs. H. Chandler,</signed>
+                    <signed>Mrs. H. Cushing.</signed>
+                  </closer>
+                </div1>
+                <div1 type="letter">
+                  <p>This may certify that I have been acquainted with Elleanor Eldridge thirty-five years.—Twelve years she lived with Captain Benjamin Greene, at Warwick Neck, and made his dairy. She was at our house a number of times, to visit our colored woman. I think her to be a very respectable woman. This may also certify that I agree to the forgoing statement of Anna Lockwood and others.</p>
+                  <closer><signed>Mrs. NANCY WEBB.</signed>
+<dateline>Providence, July 20, 1838.</dateline></closer>
+                </div1>
+                <div1 type="letter">
+                  <pb id="p9" n="9"/>
+                  <p>This is to certify that I have known Elleanor Eldridge for a number of years, and, during that time, I can truly say, that she has been a very industrious, prudent, and respectable woman; laboring early and late, to obtain, not only a <sic corr="livelihood,">livlihood,</sic> but a competency, that in her declining age she may not be dependant, upon the sympathies of a <hi rend="italics">cold, uncharitable</hi> world, nor a pauper on her native town; which course, I think, is highly <sic corr="praiseworthy.">praisworthy.</sic> And as she has been wrongfully used, in regard to her property, I think it calls loudly to those friends who have employed her, for many years, and whose labors have given satisfaction, to endeavor at this present crisis, to lend a helping hand to the wants of suffering humanity; which can be done by subscribing for the little work, which is to be published, giving the history of her life; or, by recommending her to the notice of the public, as one who ought to be encouraged, and patronised. She has worked for me during the last year at white-washing, and papering, which have been done in the neatest manner; and I can recommend her as one who can be trusted to do the most delicate work in those branches; not only from my own experience, 
+<pb id="p10" n="10"/>
+but reputation; I therefore would solicit, with others, the sympathies of the benevolent, in encouraging one who has literally obtained what little she possesses in the world, by the <hi rend="italics">sweat</hi> of her <hi rend="italics">brow.</hi> And if we by a little sacrifice, can render any service to one of our fellow beings, in the hour of affliction, we shall be abundantly recompensed, by the rich luxury of doing good; and answer in some degree, the design for which our Creator made us, <hi rend="italics">to do good,</hi> as we have opportunity. I cordially give the above recommendation, and hope that the plans devised by her friends to secure her property, may meet with abundant encouragement and success.</p>
+                  <closer><salute>Respectfully, yours,</salute>
+<dateline>July 28, 1838.</dateline>
+<signed>MARY B. ANNABLE.</signed></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p11" n="11"/>
+          <head>CHAPTER II.</head>
+          <p>It should not be considered essential to the interest and value of biography, that its subject be of exalted rank, or illustrious name. There is often a kind of ignus-fatuus light, playing around such names, calculated to dazzle and mislead, by their false lustre; until the eye can no longer receive the pure light of Truth, or the mind appreciate real excellence, or intrinsic worth. On the other hand, it often happens that, by lending our attention to the lowly fortunes of the indigent and obscure, important principles may be established, valuable truths elicited; and pure, and even lofty examples of virtue may be found. Then let no one turn with too much nicety from the simple story of the humble Elleanor, though it may contain few, or none, of the thrilling charms of poetry and passion.</p>
+          <p>Elleanor Eldridge, on the one hand, is the inheritress of African blood, with all its heirship of wo and shame; and the subject of wrong and banishment, by her Indian maternity on the other. Fully, and sadly, have these titles been redeemed. It seems, indeed, as if 
+<pb id="p12" n="12"/>
+the wrongs and persecutions of both races had fallen upon Elleanor.</p>
+          <p>She was born at Warwick, R. I., March 26, 1785. Her paternal grandfather was a native African. He was induced, with his family, to come on board an American slaver, under pretence of trade. With a large quantity of tobacco, prepared for barter, the simple-hearted African stepped fearlessly on board the stranger's ship, followed by his wife and little ones.</p>
+          <p>For some time he continued a friendly exchange of his staple commodity, for flannels and worsted bindings of gay and various colors. Already, in imagination, had his wife decorated herself with the purchased finery, and walked forth amid the villages, the envy and admiration of all the belles of Congo; and already had the honest African, himself, rivaled in splendor the princes of his land. Having finished his bargains, Dick, for that was the name of the Congo chieftain, proposed to return; but his hospitable entertainers would, on no account, allow him to depart without further attentions. Refreshments were handed freely about, with many little presents of small value. Then all the wonders of the ship, with 
+<pb id="p13" n="13"/>
+the mysteries of operating its machinery, were to be explained to the intelligent, but uninformed stranger; while appropriate curiosities were displayed before the wondering eyes of his wife and children. By these means the confidence of the simple Africans was completely won.</p>
+          <p>Gaily the little ones danced along the buoyant deck, hardly restrained by their watchful and anxious mother; while, ever and anon, they caroled sweet legends of their own sunny vales, blithe and careless as the sea-birds, which, even then, were skimming along the surface of the sea, ruffling the billowy tresses of the deep. Still the chief was detained; and still remained unsuspecting; until, to his utter horror, he found that his detainers, under pretence of illustrating some operation, had carefully weighed anchor, and were putting out to sea.</p>
+          <p>Vain were any attempt to depict the horrors of this scene- The African stood on the deck, with streaming eyes, stretching his arms out towards his own beautiful Congo; which lay, even then, distinctly visible, with the ruby light of sunset, stealing, like a presence of joy, through bower and vale, tinging the snowy 
+<pb id="p14" n="14"/>
+cups of a thousand lilies. There too was his own beloved Zaire, stealing away from the distant forests of mangrove and bondo,<ref targOrder="U" id="ref1" n="1" rend="sc" target="note1">*</ref><note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* We cannot conclude this account of the principal vegetable productions of Lower Guinea, without mentioning that colossus of the earth, the enormous baobab, or Adansonia digitata, which is here called aliconda bondo and mapou. It abounds throughout the whole kingdom of Congo; and is so large that the arms of twenty men cannot embrace it.—<hi rend="italics">Maltebrun, on the authority of Tuchelli.</hi></p></note> and flowing on within its lovely borders of tamarind and cedar, until, at last, it rushed into the arms of the Atlantic, troubling the placid bosom of the ocean with its tumultuous waters.<ref targOrder="U" id="ref2" n="2" rend="sc" target="note2">** </ref></p>
+          <note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2">
+            <p>** The river Congo, called by the natives Zaire, or Zahire, is three leagues wide at its mouth; and empties itself into the sea with so much impetuosity, that no depth can there be taken.</p>
+          </note>
+          <p>Again he caught a gleam of his palm-roofed home, with all its clustering vines, from the rich forests of Madeira; its beautiful groves of cocoa and matoba, and its wide fields of masanga,<ref targOrder="U" id="ref3" n="3" rend="sc" target="note3">*** </ref><note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3"><p>*** The masanga is a species of millet, highly pleasant both in taste and smell; the ears of which are a foot long, and weigh from two to three pounds.</p></note> luno,<ref targOrder="U" id="ref4" n="4" rend="sc" target="note4">****</ref><note id="note4" n="4" rend="sc" place="foot" anchored="yes" target="ref4"><p>*** The luno forms a very white and pleasant bread, as good as that made of wheat. It is the common food of Congo.</p></note> and maize; all waving richly
+<pb id="p15" n="15"/>
+beneath the bowing wind, rife with the promise of an abundant and joyful harvest. Beyond, in holy solitude, stood the tree of his worship, the sacred mironne,<ref targOrder="U" id="ref5" n="5" rend="sc" target="note5">*</ref><note id="note5" n="5" rend="sc" place="foot" anchored="yes" target="ref5"><p>*The mironne of the same genus, (of the enzanda) is an object of adoration to the negroes.</p></note> in its garments of eternal green, an apt emblem of the undying soul. He could almost see the tulip<ref targOrder="U" id="ref6" n="6" rend="sc" target="note6">** </ref><note id="note6" n="6" rend="sc" place="foot" anchored="yes" target="ref6"><p>** In every direction there are entire groves of tulips, of the most lively colors, intermixed with the tube-rose and hyacinth.</p></note> groves where his children played; could almost see the light garlands of tube rose and hyacinth, their sportive hands had wreathed; with the rich clusters of nicosso<ref targOrder="U" id="ref7" n="7" rend="sc" target="note7">*** </ref><note id="note7" n="7" rend="sc" place="foot" anchored="yes" target="ref7"><p>*** The nicosso grows in clusters of the form of a pineapple.</p></note> and tamba,<ref targOrder="U" id="ref8" n="8" rend="sc" target="note8">**** </ref><note id="note8" n="8" rend="sc" place="foot" anchored="yes" target="ref8"><p>****  The tamba is a species of bread fruit.—<hi rend="italics">Maltebrun.</hi></p></note> they had gathered for their evening banquet. He could almost hear the murmurs of the home returning bees, as they lingered in the sweet groves of orange and pomegranate; for despair had quickened the senses: and a thousand objects, with all their thronging associations, came rushing to the mind, in that one agonising moment, to quicken and aggravate its conceptions of eternal loss.</p>
+          <p>He stretched out his arms, and, in the agony
+<pb id="p16" n="16"/>
+of desperation, was about to leap into the sea, when his frantic wife, casting aside her screeching children, flung herself upon his bosom, and so restrained him. No sigh, no tear relieved him; but his bosom heaved convulsively; and the muscles and sinews became rigid, as if horror had absolutely taken away the power of thought, or motion. The wife was more violent. With the most fearful cries she flung herself at the captain's feet and embracing his knees, begged for mercy. Then successively she embraced her weeping children; and at last, sank exhausted into the arms of her husband. It was all in vain. They were chained, and ordered below; where the sight of hundreds of wretches, stolen, wronged, wretched as themselves, only showed them that they were lost forever.</p>
+          <p>No tongue can depict the horrors of that passage. No imagination can form even a faint outline of its sufferings. Physical torture wrought its work. Humanity was crushed within them; and they were presented for sale, more than half brutalized for the brutal market. Few minds ever rise from this state, to any thing of their former rigor. The ancestor 
+<pb id="p17" n="17"/>
+of Elleanor had one of these few; and though his pride was crushed, and his hopes forever extinguished, still he felt, and acted as a man.</p>
+          <p>But little more than the foregoing particulars is known to the subject of this narrative, concerning her ancestor, save that his African name was Dick; and that he had four children; one daughter Phillis; and three sons; Dick, George, and Robin; of whom the latter was her father.</p>
+          <p>At the commencement of the American Revolution, Robin Eldridge, with his two brothers, presented themselves as candidates for liberty. They were promised their freedom, with the additional premium of 200 acres of land in the Mohawk country, apiece.</p>
+          <p>These slaves fought as bravely, and served as faithfully, under the banner of Freedom, as if they had always breathed her atmosphere, and dwelt forever in her temple; as if the collar had never bowed down their free heads, nor the chain oppressed their strong limbs. What were toils, privations, distresses, dangers? Did they not already see the morning star of FREEDOM, glimmering in the east? Were they not 
+<pb id="p18" n="18"/>
+soon to exhibit one of the most glorious changes in nature? Were they not soon to start up from the rank of goods and chattels, into MEN? Would they not soon burst from the grovelling <sic corr="chrysalis;">crysalis;</sic> and, spreading out the wings of the soul, go abroad in the glad sun-shine, inhaling the pure air of liberty?</p>
+          <p>Oh, LIBERTY! what power dwells in the softest whisper of thy syllables, acting like magic upon the human soul! He who first woke thy slumbering echoes, was a magician more potent than ever dwelt in the halls of genii; for he had learned a spell that should rouse a principle of the soul, to whose voice, throughout the wide earth, every human spirit should respond; until its power should be coextensive with the habitations of mind, and coeternal with its existence.</p>
+          <p>These poor slaves toiled on in their arduous duties: and while they literally left foot-prints of blood, upon the rough flint, and the crusted snow; they carried a fire within their bosoms which no sufferings could extinguish, no cold subdue—the God-enkindled fire of liberty.—They counted their perils and their sufferings joy, for the blessed reward that lay beyond.—Most 
+<pb id="p19" n="19"/>
+dearly did they purchase and well they won the gift.</p>
+          <p>At the close of the war they were pronounced FREE; but their services were paid in the old Continental money, the depreciation, and final ruin of which, left them no wealth but the one priceless gem, LIBERTY.—They were free.—Having no funds, they could not go to take <sic corr="possession">posession</sic> of their lands on the Mohawk. And, to this day, their children have never been able to recover them; though, by an act of Congress, it was provided, that all soldiers' children who were left incapable of providing for themselves, should “inherit the promises” due to their fathers. The subject of this memoir, attracted by an advertisement to this effect, attempted to recover something for a young brother and sister; but with the success which too often attends upon honest poverty, struggling with adverse circumstances. Her efforts were of no avail.</p>
+          <p>The spirit of Robin Eldridge was not to be broken down. Before entering the army he had married Hannah Prophet; and he now settled in Warwick, near the Fulling-Mill; where, by his honest industry, and general good 
+<pb id="p20" n="20"/>
+character, he was always held in esteem. He soon became able to purchase land and build a small house; when he reared a large family, all of whom inherit their father's claims to the kindness and respect of those about them. He had, by this marriage, nine children; of whom Elleanor was the last of seven successive daughters. Of these children only five lived to mature age.</p>
+          <p>It may now be proper to look back a little, in order to glance at Elleanor's maternal ancestry. Her maternal grandmother, Mary Fuller, was a native Indian, belonging to the small tribe, or clan, called the Fuller family; which was probably a portion of the Narragansett tribe. Certain it is that this tribe, or family, once held great possessions in large tracts of land; with a portion of which Mary Fuller purchased her husband Thomas Prophet; who, until his marriage, had been a slave. Mary Fuller, having witnessed the departing glories of her tribe, died in extreme old age, at the house of her son, Caleb Prophet; being 102 years old. She was buried at the Thomas Greene burying place in Warwick, in the year 1780. Her daughter Hannah, as we have said 
+<pb id="p21" n="21"/>
+before, had been married to Robin Eldridge, the father of Elleanor.</p>
+          <p>Our heroine had the misfortune to lose her mother at the age of ten years; when she launched out boldly into the eventful life which lay before her, commencing, at once, her own self government, and that course of rigorous and spirited action, for which she has since been so much distinguished.</p>
+          <p>During her mother's life, it had often been her practice to follow washing, at the house of Mr. Joseph Baker, of Warwick; a daughter of whom, Miss Elleanor Baker, gave her own name to the little one she often carried with her; and always continued to take great interest in her little colored name-sake. Not long after the death of her mother, this young lady called on Elleanor, and invited her to come and reside with her, at her father's, offering her a home. She asked permission of her father, who consented, but with this remark, that she would not stay a week. The young heroine was not, however, to be so discouraged; but bravely collected herself, and began by making a definite BARGAIN with Miss Baker, before she consented to put herself under her protection; 
+<pb id="p22" n="22"/>
+evincing, by this single act, a degree of prudence and wisdom entirely beyond her years. She fixed her price at 25 cents per week, and agreed to work for one year.</p>
+          <p>It was Sunday evening, in the changeful month of April, when Elleanor, with her whole wardrobe contained in the little bundle she held, stood with the family group she was about to quit forever. Let not the proud aristocrat smile disdainfully, because the biographer of poor Elleanor lingers a moment here. Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.—The sundering of family ties is always painful; and I have often thought that among the poor it is eminently so. There is nothing which strengthens the bonds of love so much as MUTUAL SUFFERING.</p>
+          <p><q direct="unspecified"><lg type="poem"><l>“When joy has bound our hearts for years,</l><l>A sudden storm those hearts may sever;</l><l>But, Oh, the love that springs IN TEARS.</l><l>Through time and change, endures forever;”</l></lg></q>truly and beautifully says the poet. The ties, then, which unite families among the virtuous poor, are wrought from the deepest and strongest, 
+<pb id="p23" n="23"/>
+and holiest principles of our nature. They have toiled, and struggled, and suffered together; until bond strengthens bond, and heart is knit with heart, by the strongest and most endearing ties. The world beyond and above, may persecute, oppress, and wrong them; yet out of these very circumstances springs a sympathy stronger than the great and the fashionable ever know. In the little sanctuary of a common house, all may gather themselves together and cherish this boon as their best treasure. Exterior to home the poor have no hope, no pleasure, no ambition, no desires; all the bliss of life is concentrated within its charmed circle; and, of necessity, its power is strong.</p>
+          <p>Our young heroine, having walked several times through the standing group, went again to the little nook in the chimney, where neatly ranged on their little shelves, were her playthings; shells and pebbles from the beach, little baskets made by her own hand; rag babies and acorns gathered from the wood. She loved these things more dearly than the children of the rich love their gilded toys; for they were full of the pleasant associations of her early childhood. She looked at them a moment, 
+<pb id="p24" n="24"/>
+then turned and looked out of the window.—There was the little wood where she, with her happy brothers and sisters, had always played together, and in the bank close by the window, was her houses and ovens, with their sand pies and mud puddings, baking in clam and quahaug shells. She turned from the window, stooped to kiss the baby, that, with waddling steps, was trying to reach her favorite play-fellow; appearing to have an instinctive perception of something sad in the uncommon silence. The first to speak, for some minutes was the little brother then only five years old.</p>
+          <p>He sprung to his sister's arms, and clinging around her neck, cried “Dont go, Nelly! I play alone. I be tired. I cry!” and, suiting the action to the word, the poor little fellow burst into tears.</p>
+          <p>Elleanor swallowed, as well as she was able, the big lump that was rising in her throat, and comforted him with the promise of coming back soon.</p>
+          <p>“How long will be soon?” cried the child, still clinging to his sister, who was trying to disengage herself from him. “Will it be all night? Say Nelly?”</p>
+          <pb id="p25" n="25"/>
+          <p>She could not answer; but placing her hands silently in those of her two elder sisters, and pausing a moment before her father, she turned from the door, wiped the tears away with the corner of her short-gown, and ran along the road quite fast, to escape the earnest cries of her weeping brother.</p>
+          <p>The heart of childhood is always buoyant; and that of Elleanor was soon bounding lightly again; for ambitious projects were, even then, beginning to germinate in her young bosom.—She paused at a turn in the road, which gave her a last view of the cottage; and, looking back a moment she wiped another tear away; and resumed her walk. The distance was two miles; and Elleanor reached there before sunset. She was kindly received, even by the old dog and house cat; but she felt somewhat disinclined for society, and she soon begged permission to retire to her little bed; where her slumbers were soft and sweet, as if she had slept on a bed of down, garnished with the most splendid drapery. Blessed are the slumbers of the innocent! They are kindlier than balm; and they refresh and gladden the spirit of childhood, like ministerings from a better world.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p26" n="26"/>
+          <head>CHAPTER III.</head>
+          <p>The new relation into which Elleanor had entered, tended to produce mutual satisfaction to the parties sustaining it. Kindness and good feeling, on the part of employers, seldom fail to <sic corr="secure">seeure</sic> industry and fidelity, in that of the employed. When a mistress, and the several members of her family, manifest an interest in the welfare of their servants—when they show them that they are considered as human beings, belonging to the same great family of man—that the common rights of humanity are understood and regarded—that those who perform their servile labors are members of the same family, sustaining certain relations, and filling certain places (by no means unimportant ones) in the gradations of society—and are <hi rend="italics">not the mere <sic corr="instruments">instrnments</sic> of their own selfish gratification</hi>—created to administer to their pleasures; the interests of the serving and the served, generally become identified; and the heart quickens and strengthens the hands in the performance 
+<pb id="p27" n="27"/>
+of duty. Those who are governed by these principles know their weight and force; sorrowful it is to think, that the world will not also learn, that kind and judicious masters and mistresses, generally are blessed with efficient and faithful servants. I, by no means, intend to lay all the follies, vices, and crimes of servants at the door of their employers; but I am persuaded that the comforts, rights, and, more especially, the <hi rend="italics">moral health</hi> of domestics is shamefully neglected. Instead of being treated as accountable beings—as persons indeed, capable of independent thought, feeling, and action—susceptible alike of pleasure and pain, they are considered as the mere appendages of luxury; and being generally left to their own wayward courses, often sink into depravity and vice, when a little of kindness and good feeling, a little affectionate interest and judicious advice, might restrain and save them.—Let them who think lightly of these things, consider the immense value of a single human being! Were this considered, and acted upon, a reformation in the department of domestic service, would soon begin; and the blessings which would flow from it, would be greater
+<pb id="p28" n="28"/>
+than a superficial thinker might be made to believe <hi rend="italics">could</hi> proceed from such a source. But enough of this.</p>
+          <p>With the early dawn Elleanor was seen, dashing away the dews with her little bare feet, as she drove the cows to pasture; all the time singing blithely, as the birds themselves. She always had a provident eye on the poultry and the happiest art of finding their hiding-places. No hen's nest throughout all the varieties of place, stable, hay-loft, wood-pile, thicket, meadow, or out-building, escaped her searching eye. She won the confidence of her feathered friends so entirely, by her zealous attention to their wants, that she could, with all the <hi rend="italics">sang froid</hi> of her Indian character, cross the path of some sly old turkey, about starting to her nest, without exciting the least apprehension; and, with apparent listlessness and unconcern, watching all the artful doublings and windings of that wary foul, she would soon start, with a light step, to her chosen sanctum, and so make herself mistress of the poor turkey's secret <hi rend="italics">sans ceremonie.</hi> In such cases when she returned with her course apron laden with the mottled treasure, she always men such a warm smile, 
+<pb id="p29" n="29"/>
+as was, at once, a reward for the present, and incentive to the future. Not only the family, but every living creature about the house and farm, loved little Elleanor. The dog and cat, the horses, cows, pigs, sheep and poultry, all knew her light step, and in their several ways, manifested their love. And well they might; for when they were well, she fed them; and when they were sick, she nursed them; and she always took the kindest care of the young and helpless.</p>
+          <p>At the expiration of the year, Elleanor received her wages, and commenced a new term of service for 2s. per week.</p>
+          <p>The marriage, and consequent removal, of her young mistress, to whom she was tenderly attached, was a great trial to her; and for some time she was very melancholy and home-sick; but she recovered, at length, her usual degree of cheerfulness.</p>
+          <p>With this kind family she remained five years and nine months. During that time she learned all the varieties of house-work, and every kind of spinning; and in the last year she learned plain, double, and ornamental weaving, in which she was considered particularly 
+<pb id="p30" n="30"/>
+expert. This shews that our heroine has great mechanical genius; or, to speak phrenologically, that her “constructiveness,” “comparison,” and “calculation” are well developed. This double weaving, as it is called—i. e. carpets, old fashioned coverlets, damask, and bed-ticking, is said to be a very difficult and complicated process; and I presume there are few girls of fourteen, capable of mastering such an intricate business; and when we consider that she was entirely uneducated; that her powers had never been disciplined by any course of study, it seems really wonderful that she could enter into this difficult business, at that early age, with so much spirit and success. Yet she was, at the expiration of the year, pronounced a competent and fully-accomplished weaver.</p>
+          <p>In the commencement of her sixteenth year, Elleanor took leave of her kind patrons, and went to live next at Capt. Benjamin Greene's, at Warwick Neck, to do their spinning for one year.</p>
+          <p>At the expiration of the year she was engaged as dairy woman. It appears really wonderful that any person should think of employing a 
+<pb id="p31" n="31"/>
+girl, but just entering her seventeenth year, in this nice and delicate business. Yet so it was; and the event proves that their judgment was correct. Elleanor continued in this situation eight years. She took charge of the milk of from twenty-five to thirty cows; and made from four to five thousand weight of cheese annually. Every year our heroine's cheese was distinguished by A PREMIUM.</p>
+          <p>We acknowledge to the sentimentalist that these matters are not very poetical; but to the lover of truth, they are important, as giving a distinct idea of the capacity, which early distinguished our subject.</p>
+          <p>About the period of her nineteenth year, Elleanor became quite a belle; and her light foot in the dance, and her sweet voice in the song, made her an object of great interest among the colored swains. Sad indeed was the havoc which the sweet singing, and the more exciting movements of the dance, wrought among their too susceptible hearts!</p>
+          <p>Whether Elleanor, herself, ever yielded to the witching influence of the tender passion, remains in the Book of Mysteries to this day. Sometimes, with a low, quick breath—I could 
+<pb id="p32" n="32"/>
+almost imagine it a sigh—she would say, “There was a young man—I <hi rend="italics">had</hi> a cousin—He sent a great many letters—” but further our deponent saith not. Not a syllable more could I ever extract from her. I have asked her for the letters; which, being her veritable biographer, I had a right to do; but she always tells me they are in a great box, with all the accumulated weight of her household stuff resting upon them. Now, dearest reader, if I can ever extract aught further touching this delicate and pleasing subject, I will not fail to make you acquainted with it; or if I can, by any persuasion, get a peep at any letters from the cousin afore-mentioned, I hereby pledge myself that you too shall be advised of their contents.</p>
+          <p>And now, as darkness is closing fast around me, I beg leave to retire from your pleasant company; and so I wish you a very good evening.</p>
+        </div2>
+        <div2 type="text">
+          <pb id="p33" n="33"/>
+          <head>CHAPTER IV.</head>
+          <p>As was remarked in the preceding chapter, Elleanor, at this period, was a belle. During her residence at Capt. Greene's, it seems that her brother, Mr. George Eldridge, had been chosen Governor of the colored election; and was re-elected three successive years. As this title was, in imitation of the whites, invested with considerable dignity, it follows that Elleanor stood among her people, in the very highest niche of the aristocracy. She always accompanied her brother to these festivals, dressed in such style as became the sister of “His Excellency.” On some of these occasions she wore a lilac silk; on others a nice worked cambric; then again a rich silk, of a delicate sky blue color; and always with a proper garniture of ribbons, ornaments, laces, &amp; c.—I trust I have acquitted myself, with all honorable exactness, in regard to the dresses; seeing it is important to the world that it should be enlightened on this subject: and no fair reader 
+<pb id="p34" n="34"/>
+of marvellous tales, I am confident, would ever forgive me, should I neglect to say in what guise our heroine appeared abroad; for such a course would be entirely without precedent; and I feel no disposition to introduce a new system. Although I speak of Elleanor in this light, let no one think her story is fictitious; she is none the less a <hi rend="italics">heroine</hi> because it is <hi rend="italics">true.</hi></p>
+          <p>At the period to which we now refer, Elleanor was light-hearted, and free from shadow as the fairest morning; with the sweet sensations of a happy and benevolent nature quickening within her bosom, like spirits of joy, that tinged all she looked upon with the hues of their own lights and gladness,</p>
+          <lg type="poem">
+            <l>“But all that's bright must fade,</l>
+            <l>The fairest still the fleetest;</l>
+            <l>All that's sweet, is made</l>
+            <l>But to be lost when sweetest.”</l>
+          </lg>
+          <p>And so passed away the “dancing days” of Elleanor; bright as the morning rainbow, and like that, too, the presage of darkness and storms.</p>
+          <p>No doubt, my fair readers are in a state of highly wrought expectancy in regard to the 
+<pb id="p35" n="35"/>
+<hi rend="italics">affair du cæur,</hi> of which I barely hinted in the last chapter. Happy am I, to communicate the pleasing intelligence, of new arrivals from that quarter. To descend, at once, from the language of metaphor, to that of plain, sober fact, I rejoice to say that a portion of the correspondence, above alluded to, together with certain facts explanatory thereof, has been laid before me; and, in all confidence, as if the reader were my bosom friend, I hasten to fulfil the promise tendered in the last chapter.</p>
+          <p>I must beg leave to premise, dear reader, that you shall endeavor to be satisfied with the knowledge of these facts, making no single question concerning them; as I shall, in no wise, feel myself bound to explain any thing in regard to the circumstances by which I became possessed of them.</p>
+          <p>The manuscripts came to me in much the same order and connection, as that in which the Editor of SARTOR RESARTUS, found those of the lamented sage and philosopher, Teufelsdroch, when he found out the contents of the Bag Capricornus; when milk bills, love ditties, laundress' bills, poetry, with torn and yellow scrips of paper, containing all high and unimaginable 
+<pb id="p36" n="36"/>
+thoughts and reflections, came tumbling in a heap together. There may be, in deed, no further comparison between them: and it may be hinted, even, that Elleanor's documents want the pith and marrow contained in those of Teufelsdroch; but of this I am no bound to speak, since my province is not criticism, but narration.</p>
+          <p>Let us turn aside, then, for a short time, from the straight-forward path of history, into the pleasant regions of episode; where, as in a little grotto apart from the high road, we may indulge in an hour of repose; turning, meanwhile, to the simple story for amusement. Having thus so comfortably established ourselves, <sic corr="which">wich</sic> no evil-minded eaves-dropper to make us afraid; bend now, dear reader, thy most earnest and delicately adjusted eat; for I am going to tell thee A SECRET.</p>
+          <p>Let us come directly to the subject matter in point. Elleanor, when a buxom lassie of eighteen, by some means or other, became acquainted with a lad somewhat older than herself, whom we shall designate as Christopher G——, though whether this was the whole, or any part of his real name, or one chosen as a 
+<pb id="p37" n="37"/>
+screen, behind which to conceal the blushes of the sensitive Elleanor, is a subject upon which I have no liberty to speak. So this also may be passed over to the budget of MYSTERIES.—Let us, dear reader, remember the punishment of idle curiosity, as taught in the true and affecting history, <sic corr="yclept">yeclept</sic> “Blue Beard;” and, striving to be content with the facts in the case, seek not to lift the veil, which the sensibility of true love, and feminine delicacy, have alike conspired to draw.</p>
+          <p>This Christopher, I have found by a course of induction, the process of which has nothing to do with this story, to be the same true and veritable person, of whom Elleanor speaks so plaintively, and so pithily, when she said: “I HAD A COUSIN.” How much is told in those four little words. They are, of themselves, a history. They contain all the regular parts of a true epic; viz: beginning, middle, and end; together with outlines, circumstances, and decorations. We need only shut our eyes; and lo, as if the lamp of Aladelin were lighted in our presence, all the mysteries stand unveiled before us, in their true order and connection. But as every one of my readers may not be 
+<pb id="p38" n="38"/>
+gifted, in the highest degree, with the organs of ideality and “language,” I make no doubt they will prefer a translation to the original, especially as I am enabled to enrich that translation, with numerous notes, coming from a not-to-be-doubted source.</p>
+          <p>Certain it is that the youthful cousins, even in the very first interview, began to suspect, (or might have began to suspect, were not love blind, so that frequently he does not know his own image,) that there are dearer ties than those of consanguinity.</p>
+          <p>There was the due proportion of fear, hope, doubt, ecstacy, and moonlight; together with the proper infusion of sighs, tears, &amp;c., “for all such cases made and provided,” until, at length, the important and accustomed tender, was made, listened to—and—accepted. Thus far, all was well. There was the light of hope in the eye of Elleanor, and her footstep had the grace and buoyancy of joy.</p>
+          <p>Often did the lovers meet, (I feel myself justified in calling them so, since I find all the features of a most undoubted case,) and in the stillness of those beautiful solitudes, which surrounded them, they breathed their 
+<pb id="p39" n="39"/>
+vows; unlooked upon, save by the kind moon, and the gentle stars, which, I believe all will agree, are far the best witnesses on such occasions. In the silent grove, and by the solemn sea, they wandered for hours together, creating to themselves a world of fairy-like beauty, which the confidence of loving hearts, warmed and kindled into truth.</p>
+          <lg type="poem">
+            <l>“All lovely things grew lovelier. The flowers</l>
+            <l>Bloomed with more vivid brightness, and the grass</l>
+            <l>Caught a more pleasant greenness, than of yore.</l>
+            <l>The winds that bowed the forest, or breathed low,</l>
+            <l>With a sweet voice of sadness to the flowers,</l>
+            <l>Still spoke to their affections; while the moon</l>
+            <l>Grew kindlier, and came nearer to the heart,</l>
+            <l>Like the familiar presence of a friend.</l>
+            <l>The waters and the birds sang, aye, of love;</l>
+            <l>Or seemed to chant the story of <hi rend="italics">their</hi> loves;</l>
+            <l>While all the stars had feeling in their light,</l>
+            <l>Like the expressive eyes of sympathy.</l>
+            <l>Even in the holy silence of the wood,</l>
+            <l>When not a wind was breathing, a low voice</l>
+            <l>Came with a blessing to their conscious hearts;</l>
+            <l>For the sweet presence of undoubting Love,</l>
+            <l>Spake to the soul, and these was audible.”</l>
+          </lg>
+          <p>And were they poor? No. They had found that which the wealth of kings could not purchase—“the pearl of great price”—the gem 
+<pb id="p40" n="40"/>
+of LOVE—and it was safely treasured in the casket of faithful and all-believing hearts.</p>
+          <p>Then came the first parting, with the mutually reiterated vows of everlasting truth and remembrance; and the succeeding night of wakefulness and tears. But the shadow of absence had scarcely glanced over the fair heaven of Elleanor, when a sunbeam of a letter came: and all was bright again. The letter was as follows</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener><dateline>From Christopher G. to his Cousin.</dateline>
+<dateline>NEWPORT, March 27, 1805.</dateline>
+<salute><hi rend="italics">My dearest Cousin:</hi></salute></opener>
+                  <p>I have thought of you, almost with one thought, since I left. How strange it is that wherever I look I see nothing but my dear Ellen. I am well; but my heart is heavy; for I miss the dear eye that always looked on me in kindness; and I don't like to think there may be many weeks before I see you again.—When in Warwick I thought one week was a great while; but now I must learn to bear the pain of absence. I have lately been to the white Election; and I was astonished and disgusted with the behaviour I saw among the 
+<pb id="p41" n="41"/>
+whites. I think the white people ought to be very careful what they do, and try to set good examples for us to follow; for whatever they do, whether good or bad, the colored people are sure to imitate them. I am glad that you, my dear cousin, do not, like some of your companions, attempt to follow all the extravagant fashions of the white people. If we are ever to rise above our present condition, fine clothes will not enable us to do it.</p>
+                  <p>My mind remains the same that it was the last time I talked with you; so this is hoping you are well and happy.</p>
+                  <p>From your affectionate cousin, and true lover.</p>
+                  <closer>
+                    <signed>CHRISTOPHER G——.</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>This letter was “little; but 'twas all she wished;” and it passed directly from the heart to the memory; and there it is treasured, even to this day.</p>
+          <p>Next came the blissful first reunion of loving hearts, with the halcyon wing of Hope shedding the brightness of its plumage over them.</p>
+          <p>There are many  things fondly cherished in the history of love; but the first parting, and 
+<pb id="p42" n="42"/>
+the first reunion, are embalmed with the holiest tears of memory and hope: and their greenness is kept forever.</p>
+          <p>But we must not dwell too long amid these tender scenes, which, indeed, exert a kind of witchery over the heart, making it fain to linger.</p>
+        </div2>
+        <div2 type="text">
+          <head>CHAPTER V.</head>
+          <p>Now must we return again to the high way; and so most courteous reader, if you are rested from the toils which I have hitherto called you to endure, let us leave this pleasant subject for a while, for one of minor interest, if not of like importance.</p>
+          <p>At the age of nineteen, Elleanor was again called to mourn over the departure of another kind parent. She lost her father; and a sad loss it was to her; for Robin Eldridge had the art, which many white fathers have not, that of commanding, at once, respect and affection.</p>
+          <pb id="p43" n="43"/>
+          <p>As the deceased had left property, letters of administration were taken out; but it was soon found that the estate could not be settled, without some legal advices from a daughter, then residing in the north-western part of Massachusetts. In this crisis, what was to be done? The delays and difficulties attending a communication by mail, were of themselves sufficiently objectionable; and to hire a person to go there, would be a greater expense than the little estate would justify. At this point Elleanor came forward and offered her services, which were gladly accepted.</p>
+          <p>With a spirit worthy one of the nation of Miantonomies, she set off, on foot and alone, to make a journey of 180 miles. It may be asked where, at this period was the gallant Christopher?</p>
+          <p>Months had passed on, with variety of interest or feeling, until at length Christopher, like his immortal name-sake, went forth to try his fortune on the great deep. The farewell, “a word which hath been and must be,” was breathed, and listened to, with a feeling of sorrow they had not hitherto dreamed of: and the parting scene was over. Perhaps it was the 
+<pb id="p44" n="44"/>
+peculiar state of mind and feeling, induced by this event, which tempted Elleanor to try the excitement of new scenes. It is certain that all her familiar haunts wore an aspect of strange loneliness; and the gladliest things, even those which were wont to give her the greatest pleasure, grew sad and melancholy.</p>
+          <p>Elleanor had obtained leave of her kind mistress to be absent for a short time, and she returned home to make arrangements for her departure. The evening before she set off on her journey, Elleanor had completed all her preparations; and, with her sister, was sitting over a good fire; for the chilly evenings of September had begun; talking over the probable adventures of her pilgrimage, and the event of the business which was its occasion; receiving also kind messages from the friends she left, for those whom she expected to see, when her brother entered. Was there something peculiar in his appearance? Was there any thing marked or uncommon in his manner, that Elleanor trembled and turned pale? Or was it by the mysterious intuition of love, that she felt the approach of one of its <sic corr="revolutions;">revalutions;</sic> with a kind of electric sensibility, as steel is troubled at the coming 
+<pb id="p45" n="45"/>
+tempest, before a cloud can be discerned by the physical eye? I will not venture to account for the reason. With the fact only have I to do. Certain it is that Elleanor suddenly broke off the sentence she was speaking; and was seized with an inexplicable fit of trembling;—which in no wise abated, when her brother, as if with preconcerted moderation, put his hand in his pocket; and said, with an expression of unconcern, “Here—is—a—letter—from—”</p>
+          <p>“From Cristopher?” said his sister Fettina; pronouncing the name that hovered inaudibly on the lips of Elleanor.</p>
+          <p>“I believe so;” said he, producing a folded paper. “Here, Ellen, I suppose this belongs to you”</p>
+          <p>She took the letter; and here, even as if we were privileged to look over her shoulder, let us read it.</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>EAST GREENWICH, August 27, 1805.</dateline>
+                  </opener>
+                  <p>My dearest Ellen—I cannot go away without improving the present opportunity of saying a few words more to you. I have got a voyage from Providence, where I expect, to go in a few days. I hope you will not tremble for 
+<pb id="p46" n="46"/>
+me, and be unhappy every time the wind blows; for I shall then be far away from all the danger that you can know any thing about. I am going to the West Indies; and if I do my duty, and have tolerable luck, I shall be in a way to make something. Let us not think of troubles; for thinking of them beforehand will never make them lighter when they come. If God permit, I shall return in the course of a few months; and then we shall meet again, and be happy.—It may be wrong, but it seems to me that I almost feel a pleasure in this parting from you, for had it not been, I should not have guessed how dear I am to you. I am in good health; and hope these few lines will find you enjoying the same blessing. So, praying we shall meet again, no more at present; and I remain your best beloved, till death.</p>
+                  <closer>
+                    <signed>CHRISTOPHER G——.</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>There are some adventitious circumstances which minister so directly to the necessities of the occasion, as almost brings a conviction that they are providential. So Ellen, at this very point of time, when she would soon have been beyond its reach; in fact, in almost the only 
+<pb id="p47" n="47"/>
+hour <sic corr="when she">whe shen</sic> could have done so, for some months, received her cousin's letter; and it seemed, really, as if a special Providence smiled upon her love: and with this pleasant tho't she fell into a sweet slumber; when the spirits of Elysium came and ministered around her.</p>
+          <p>Before day-break our heroine was stirring.—She dressed herself in a coarse and rather old gown, and <sic corr="bonnet,">bonnte,</sic> to correspond with her pedestrian style of travelling; while she carefully wrapped another, and better suit, in a bundle; which the fair and romantic reader will remember, a heroine never fails to take.</p>
+          <p>But Elleanor was more provident, and, withal, more reasonable, than the fair Cherubina, when disgusted with the happiness of her own paternal home, she went in search of misfortunes; for she took only a guinea, fearing very justly, that if she had plenty of money she could not so soon fall into those amiable and <sic corr="irresistible">irresistibe</sic> distresses, she so often met with in the thrilling histories of romantic miseries, of every sort and fashion, which were her favorite reading; and which she never failed to weep over, with all suitable demonstrations of sorrow. Indeed she, like many others, put herself to 
+<pb id="p48" n="48"/>
+such expense of sympathy for these beings of the imagination, that she had none to bestow on REAL SUFFERING. Pardon this digression, dear reader. It was involuntary. I had began to say that Elleanor, unlike the heroine above alluded to, took the good substantial sum of sixty dollars; which she carefully concealed about her person, in case of sickness or accident. But being afraid to appear to have money, she solicited the kind charities of those among whom she passed; and only now and then, paid a few cents for a night's lodging.</p>
+          <p>The last letter of Christopher, with the talismanic charm of true love, went with her; and often, when she paused to rest by the way-side, she drew it forth; and dwelt with a sort of awe upon its mystic characters; with which her heart-quickened memory had associated all their true meaning; and, at such periods, many a thought, if thought could be visible, might have been seen winging its way far to the south-east, unchecked by the barriers of ocean.</p>
+          <p>Such was the dignity and general propriety of her carriage and behaviour, that she went on unmolested; accomplishing her journey safely 
+<pb id="p49" n="49"/>
+and honorably, as the Milesian nymph, of whom Moore has sweetly sung.</p>
+          <lg type="poem">
+            <l>“On she went; and her maiden smile</l>
+            <l>In safety lighted her round the green Isle;</l>
+            <l>And blessed forever is she who relied</l>
+            <l>Upon Erin's honor, and Erin's pride.”</l>
+          </lg>
+          <p>In the course of her journey she came one night to an Inn, where she found them preparing “entertainment” for a large company.—They were short of “help;” and very gladly availed themselves of our heroine's services, who entered into their arrangements, at once, with her accustomed spirit and success; acquitting herself of her duties in a very superior style.—At this house she remained during the next day and night; and when she left, her kind hostess furnished her with such provisions as she could carry.</p>
+          <p>At the end of five days Elleanor reached the house of her aunt, her mother's only sister, who resided in Adams. She with her family, was so much surprised to see Elleanor, she could <sic corr="scarcely">scarcly</sic> believe the evidence of her own senses. But when they found that it was even so, all were overjoyed. So they called in her sister, and all her cousins, and killed, not “the fatted calf;” 
+<pb id="p50" n="50"/>
+but what is better, a good fat turkey; and the happiness of that day was like the light of a summer sun, when there was no cloud on the the face of heaven.</p>
+          <p>And here, dear reader, it is fitting Elleanor should take a little rest, after her long and toilsome journey. So, with your permission, we will bid her adieu for the present.</p>
+        </div2>
+        <div2 type="text">
+          <pb id="p51" n="51"/>
+          <head>CHAPTER VI.</head>
+          <p>Our heroine visited all her relations, of whom there were many, all respectable, and well established in the world; and finally, as the cold weather had already commenced, she concluded to stay until spring. She found some of her old neighbors from Warwick there, who received her among them very cordially. She could not long remain idle; and she soon found plenty of business. She engaged herself as a weaver in the family of Mr. Brown; and subsequently, in the same business, to that of Mr. Bennett; where she remained till spring. This period was enlivened by many balls and parties, at all of which Elleanor took a conspicuous part. She, indeed, made quite a sensation among the colored beaux of Adams; but for reasons which my reader knows, and they did not, their advances met with such a cool return they durst not renew 
+<pb id="p52" n="52"/>
+the subject. Ah, dear reader! we may see by this, that Elleanor, though a belle, was no flirt. Great, indeed, was the wonder how she could be so entirely indifferent to attention, which the best among them were sighing for; and all enquired the reason; and none could give it: at least, none <hi rend="italics">did</hi> give any thing like the true reason, until an arrival from Warwick, brought another letter from Christopher, which, coming as it did all the way from the West Indies, the good people there looked upon it with much the same feelings with which we survey what is called a “moon stone,”—as a direct communication from another sphere. I said they looked <hi rend="italics">upon</hi> the letter, dear reader; but not a single one of them looked <hi rend="italics">into</hi> it, as we shall do, except her cousin, and bosom confidant, Ruth Jacobs. Here we have the letter.</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener><salute><hi rend="italics">From Christopher to his cousin.</hi></salute>
+<dateline>St. Pierre, Gaudaloupe, Nov. 20, 1800.</dateline></opener>
+                  <p>My own true love—Though I am now far—very far away from you, and the raging sea is now rolling between us; yet I think of you, if possible, more than I did when at home. I am in good health, which God grant may be the 
+<pb id="p53" n="53"/>
+happy case with you, and all the dear friends I have left. I have met with various misfortunes since I saw you. Once I have been pressed into the English service, and once cast away. But I have had the good fortune to escape from both these troubles; and when we meet, I will then speak more fully of these matters, than I have time to do at present. I must hasten to finish this, to send by our old neighbor, Mr.——, who is just going to sail for Providence. He will visit Warwick; and has promised to give this to you with his own hand. I should have been able to send you some present, if I had not met with the misfortunes above-mentioned. I expect to go from this port in a few days, to the island of—, where I intend to change my employment; and, as I hope, for the better. I advise you to keep up good spirits; for every thing that has passed from me to you, in the way of words, I consider sacred: and, if it please God that I return, all shall be fulfilled. You may expect to hear from me again soon; and in the mean time I rest—</p>
+                  <closer><salute>Your loving and true—</salute>
+<signed>CHRISTOPHER G——.</signed></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <pb id="p54" n="54"/>
+          <p>This letter was the gossip's wonder for the month to come. Wonders live more than nine days, amid the abundant nutriment and healthy air of the country; and it was the secret joy and pride of Elleanor, long, long after.</p>
+          <p>In the spring, having procured legally executed letters from her sister, investing her with the power of attorney to receive all goods, chattels, and monies, in her name, our heroine took leave of her kind employers and entertainers, and left Adams. She had the good fortune to get passage with Mr. Bennett as far as Northampton, whither he was going to market.</p>
+          <p>Finally, she reached home in health and safety; and, having accomplished the object of her errand, the estate was soon satisfactorily settled.</p>
+          <p>Elleanor returned to her service at Capt. Greene's.</p>
+          <p>No tidings of Christopher, since the letter received at Adam's, had been received for months; and it is not strange that sundry doubts, misgivings, and fears, of a very tender and interesting nature, occasionally weighed down the hitherto light heart of Ellen, with unwonted heaviness. However, no private feelings 
+<pb id="p55" n="55"/>
+of her own, lessened her attention to her several duties. It seemed, indeed, as if she sought to engross herself more completely than ever, with the bustle of business; for Ellen, though she knew it not, was a practical philosopher—at least, experience taught her one truth—that THE BEST REMEDY FOR SORROW IS OCCUPATION.</p>
+          <p>Weeks had rolled on since her return, and June had come, with its leafy bowers and its woodland music. On a pleasant evening, in that sweetest of all seasons, Elleanor, having finished the business of the day, walked out on a green, ostensibly to look at some pieces of cloth which were spread there to bleach; but really to indulge the feelings, which were so equally <sic corr="balanced">ballanced</sic> by joy and sorrow, that she could not have told whether she were most sad, or happy. The peaceful hour of twilight came on, when the heart instinctively gathers up its memories, and withdrawing the curtain of the past, snatches, as it were, some dying flower from the cold altar of Oblivion. The spirit of the hour was tenderness. From tenanted bough and peopled hive, came the low sweet murmur of bird and insect; while the soft bleating of 
+<pb id="p56" n="56"/>
+flocks, and the low of kine went up at intervals from fold and pasture. Even the grasshopper's note had lost its sharpness; and it went trilling <sic corr="along">alongth</sic> though his green fastnesses, as if a thousand spirits were touching the fibres of the grass, and drawing forth its hidden music.—Then there were momentary pauses of such deep and exquisite stillness, that the falling of the dew was almost audible, as it went forth on its ministry of love, to kiss the drooping flower, and invigorate the thirsty leaf.</p>
+          <p>Elleanor stood before the goodly pieces of linen, which were spun and woven by her own hand, and might have done honor to her art; but the vivid contrast of the whitened fabric, upon the beautiful ground of green, had no effect upon her eye; for she saw it not. She was wandering far away on the wing of thought, over isle and billow; and from that peaceful scene her spirit had flown away, and hung hovering over the tempestuous sea. Her heart had begun to feel that sickness, that cometh from “hope deferred.” For long months she had heard nothing of her cousin; and now, when there were none to know, or to mock her feelings, is it strange that yielding to the softness 
+<pb id="p57" n="57"/>
+of the scene, she could not check the burst of tenderness that sprung unbidden in her heart. She sat down upon a stone, and leaning her head upon her hand, presently the pent up tears burst from their confines, and she wept, With low and scarcely articulated tones, she unconsciously breathed the name that was dearest; and so absorbed—so completely wrapt was she, that she heard not an advancing step, and felt not conscious of the presence of another, until a low high responded to her own; and certain well remembered tones modulated to the syllables of her own name arrested her attention—</p>
+          <p>“Ellen!”</p>
+          <p>She looked up. It was no illusion. As if the very magic of her thought had drawn him there, her cousin Christopher was standing before her. “Ellen!” he repeated.</p>
+          <p>“Christopher!” was the low and deep response.</p>
+          <p>And here, dear reader the curtain drops;—since it is not meet that the sacred scene should be witnessed by the cold eye of a stranger.</p>
+        </div2>
+        <div2 type="text">
+          <pb id="p58" n="58"/>
+          <head>CHAPTER VII.</head>
+          <p>We come now suddenly to a gap of several years in the data of our manuscripts; though, without a doubt, there is none on the transcript kept by the memory of Ellen. There might be read, if the scroll could come before the eye, the record of many sad partings, and many glad returns; each, and all, giving an additional fibre, to the bonds of love, which like a vine, had clung from heart to heart, growing and strengthening while it united them.</p>
+          <p>We come now to the last letter which we are permitted to see.</p>
+          <q type="letter" direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener><dateline>From Christopher to his Cousin.</dateline>
+<dateline>ARCHANGEL, June 30, 1811.</dateline>
+<salute><hi rend="italics">Dear Ellen</hi>—</salute></opener>
+                  <p>I am very sorry I could not write to you before, on account of being pressed on board of a Man of War. I have suffered many 
+<pb id="p59" n="59"/>
+things; yet my chief trouble was the fear that I might never return to my dear Ellen, and be permitted to <sic corr="realize">realise</sic> all those sweet hopes, and earnest promises, I have so often indulged in. I have been to Dublin, and I expect to sail for England in the course of a month; and then I shall return home as quick as possible. My health is very good—thanks to God for it!—and may this find you, as well as it leaves me. You must not be uneasy about me, as I hope the time will not be long before I see you again.—Give my love to my cousins, and all enquiring friends. So no more at present, from your ever loving and affectionate</p>
+                  <closer>
+                    <signed>CHRISTOPHER G——.</signed>
+                  </closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+          <p>This Letter wrought its good work upon the half-desponding Elleanor. She went cheerfully again about her duties, while she kept all these pleasant sayings hid from those about her, secretly cherishing and pondering them in her heart.</p>
+          <p>Again was she happy in the blissful presence of him she loved; but her happiness was chastened by the anxieties which had stolen in, like shadows, upon the sun-light of her affections. 
+<pb id="p60" n="60"/>
+In remembering the solicitudes of the past, she drew a picture of the future; and involuntarily looked forward to another course of doubts and fears, which ever beset those who have friends upon the deep.</p>
+          <p>After a series of pleasant visits, which enlivened the period of Christopher's stay, he attended her to the Newport Election, where the gaieties of the present scene, could not illumine the coming sorrow, which already had cast its shadow before her: and she really felt it a relief to return home, where they arrived late on Saturday evening.</p>
+          <p>Little sleep had poor Elleanor that night; for the morrow was to be the day of parting: and she rose unrefreshed from her pillow. At an early hour her gallant was in attendance; and the day passed away in pleasant, but rather constrained conversation, with the family, and some cousins, who had assembled themselves on the occasion.</p>
+          <p>But in the evening, at an early hour, Christopher and Elleanor found themselves beneath the very oak, which had 
+been hitherto the scene of every parting. Twilight passed into evening. The moon rose, and the stars came forth; 
+<pb id="p61" n="61"/>
+yet still he lingered. The sorrowful thought of 
+separation was too strong—too deep for words; 
+but each looked upon the face of the other with 
+that earnest and solemn meaning, which tells of 
+the heart's acutest anguish. Never had the 
+thought of parting been so bitter. Again and 
+again did he attempt to go; until, at length,
+with desperate energy, he wrung her hand; and 
+turning away quickly, as if he would not trust 
+himself with another look, he was gone in a 
+moment. Elleanor sat down with a heaviness of 
+heart she had never before known; but tears 
+came not to her relief.</p>
+          <p>But we must not dwell on this interesting 
+episode. That “The course of true love never 
+<hi>did</hi> run smooth”—has become a truism almost; 
+and in the case of Elleanor, certainly it proved 
+true.</p>
+          <p>There was a long period of alternating hopes, 
+doubts, and distressing fears. Then came the 
+heart-rending intelligence, of shipwreck, and 
+death.</p>
+          <p>But the image of her first, and only love, was 
+shrined within the faithful heart of Elleanor.—In her loneliness she cherished it; and in 
+solitude poured out her tears upon its consecrated 
+altar.</p>
+          <pb id="p62" n="62"/>
+          <p>Elleanor remained at Capt. Greene's until 
+1812, being then twenty-seven years old. At 
+this time the death of Capt. G. occasioned 
+alterations in the family; so our heroine returned 
+home to live with her oldest sister Lettise, who 
+had been appointed by the Court of Probate, as 
+guardian to the younger children; and filled a 
+mother's place in the care of the whole family.</p>
+          <p>Elleanor now, with her sister, entered into a 
+miscellaneous business, of weaving, spinning,.
+going out as nurse, washer, &amp;c.—in all of 
+which departments she gave entire satisfaction; 
+and in no single instance, I believe, has failed 
+to make her employers friends. She also, with 
+her sister, entered considerably into the soap 
+boiling business, Of this article they every 
+year made large quantities, which they brought 
+to the Providence market, together with such 
+other articles as they wished to dispose of, or as 
+were, with suitable commissions, supplied by 
+their neighbors. By this time the earnings of 
+Elleanor had amounted to a sum sufficient to 
+purchase a lot and build a small house, which 
+she rented for forty dollars a year.</p>
+          <p>During the time of her residence with her 
+sister, being at work at Mr. Gordon Arnold's,
+<pb id="p63" n="63"/>
+she received the afflicting intelligence of the sudden death of one of her brother's children, and the extremely dangerous illness of another.</p>
+          <p>When she arrived at his house, she found that two children were already dead,—and a third lay apparently at the point of death; and indeed only lived till the next morning. A fourth child was seized with the same symptoms; but, after lingering for three weeks, recovered.—Thus three children were taken from the midst of health; and all in the space of forty-eight hours. It was supposed that they had eaten some poisonous substance, which they had found in a swamp where they often went, and had mistaken for birch. It was indeed a most distressed family; and Elleanor found it difficult to sustain them under their severe losses.</p>
+          <p>She remained with her sister three years;—and was then induced by another sister, who resided here, to come to Providence; where she soon arrived and commenced a new course of business, viz—white-washing, papering, and painting; which she has followed for more than twenty years, to the entire satisfaction of her numerous employers.</p>
+          <p>The above occupations she generally followed
+<pb id="p64" n="64"/>
+nine or ten months in the year; but commonly, during the most severe cold of winter, she engaged herself for high wages, in some private family, hotel, or boarding house. Two of these winters she worked at Mr. Jackson's;—and the two following at <sic corr="Governor">Govenor</sic> Taft's; and it is worthy of remark, and alike creditable to herself, and her employers, that ELLEANOR HAS ALWAYS LIVED WITH GOOD PEOPLE.</p>
+          <p>The next winter after this she went to New York, and worked for Miss Jane C——. She liked very much; and the succeeding winter also found her in New York. But at this time she had the misfortune to catch a severe cold occasioned by the damps of the the basement kitchen, which threw her into a malignant fever, of the typhus kind. The kind Miss C——treated her with the most generous and affectionate attention; indeed, as if she had been one of her own family. She had an excellent nurse provided, and two of the most skilful physicians the city afforded; with every delicacy that gives comfort to the chamber of the sick.</p>
+          <p>After remaining for some time in a state of the most imminent danger, the strength of a 
+<pb id="p65" n="65"/>
+vigorous constitution shook off the disease; and she began slowly to recover.</p>
+          <p>On the first of April she took leave of the benevolent Miss C——, and returned to Providence; when that lady, with a generosity almost unparalleled in this selfish world, after discharging all expenses, together with the nurse's and physicians' bills, PAID HER THE FULL AMOUNT OF HER WAGES FOR THE WHOLE TIME, as if she had always been in actual service.</p>
+          <p>It is always delightful to record, and to dwell upon; an instance of real generosity; and the single example of this excellent lady is worth folios of theory on this subject; for it comes home to the heart with the sweetest teachings of that charity, which is the very essence of the christian character; and, without which, indeed, to use the beautiful language of Paul:—“Though I speak as with the tongue of men, and of angels, I am become as sounding brass or a tinkling cymbal. And though I had the gift of prophecy, and understood all mysteries, and all knowledge; and though I have all faith so that I could remove mountains, and have not CHARITY, I am nothing.”</p>
+          <pb id="p66" n="66"/>
+          <p>Pleasant as the perfume distilled from roses, and indestructible as the purest gold, will be the memory of Jane C——; for it shall be written in the bosoms of many, and inscribed in burnished characters on the brightening tablet of Humanity. The very existence of disinterested benevolence has been made a doubt; but, with such instances in view, human nature feels itself exalted, and begins to learn its own divinity. Statues of brass shall perish and be forgotten; but the principles of goodness shall be caught from heart to heart, through countless generations; still living, and still blessing, age after age, undying as their ETERNAL SOURCE.</p>
+          <p>From the time when she was taken sick, it was three months before Elleanor could recommence her business. On her return to Providence she went to Miss C——'s father's, where she remained a week, being treated with the kindest attention. She then went to Warwick, where she staid until her health was so far reestablished as to admit of her commencing work; when she returned to Providence and resumed her accustomed routine of business.</p>
+          <p>Notwithstanding the great kindness of Miss C——, Elleanor refused to go out to New 
+<pb id="p67" n="67"/>
+York to live with her the succeeding winter; for she was afraid of being again sick, and subjecting her kind mistress to a new succession of troubles. The next winter, accordingly, she staid in town; and worked at Mr. Mathewson's for two dollars a week. At this place Elleanor was so well contented, that she lived there the succeeding winter. Then she went to Mr. Davis Dyer's, a small and very pleasant family. And here, dear reader, let us wait for the beginning of the next chapter.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p68" n="68"/>
+          <head>CHAPTER VIII.</head>
+          <p>I should have mentioned before, that about sixteen years ago, Elleanor, having six hundred dollars on hand, bought a lot, for which she paid one hundred dollars, all in silver money, as she has herself assured me. She then commenced building a house, which cost seventeen hundred dollars. This house was all paid for, with no encumbrance whatever. After it had been built three or four years; she built an addition on the east side, to live in herself; and subsequently one on the west side, to accommodate an additional tenant. This house rented for one hundred and fifty dollars per annum.—About this time there were two lots of land for sale, of which Elleanor wished to become the purchaser. Not having money enough she hired of a gentleman of Warwick, two hundred and forty dollars. For this she was to pay interest at the rate of ten per cent; and, by agreement, 
+<pb id="p69" n="69"/>
+so long as she could do so, she might be entitled to keep the money; i. e. she was to pay the interest, and renew the note annually.</p>
+          <p>Elleanor had completed her house, which with its two wings, and its four chimneys, wore quite an imposing aspect; and in the honest pride and joy of her heart, she looked upon it with delight; as well she might do, since it was all earned by her own honest labors, and afforded the prospect of a happy home, and a comfortable income in her old age. Attached to this house, and belonging to a Mrs.——was a gangway which Elleanor wished very much to obtain possession of, as she was entirely cut off from out door privileges, without it. She had hired it for five years; and had often spoken to Mrs.—in regard to the purchase. But what was her surprise to find, that just before the term of her lease had expired, Mrs.——had sold it. Mr. C——then, who owned the house and premises adjoining her own, came directly forward and offered to sell to Elleanor, and as she felt very anxious to secure the privilege of the gang-way, she finally determined to do so: although, by doing so, she was obliged to involve herself considerably. This 
+<pb id="p70" n="70"/>
+house, had been built by Mr. C——, who, being unable to pay for it, had given a mortgage of the premises. At this time Elleanor had five hundred dollars in her possession, which she had been wishing to dispose of to the best advantage. She finally came to a bargain with Mr. C——, agreeing to give two thousand dollars for the house. She paid the five hundred dollars down; and then gave a mortgage on the house to Mr. Greenold, for fifteen hundred dollars. This was to be paid in four years; which, if she had received the least indulgence, she might easily have done; or rather if she had not, in her own honesty of heart, been led to confide in the PROMISE of ONE, who had more regard for his PURSE, than for his HONOR, or his CHRISTIAN CHARACTER, as we shall soon see.</p>
+          <p>In September, 1831, Elleanor was again seized with the typhus fever, which left her in so low a state of health, that her friends and herself, feared she was falling into a decline. With a strong impression of this feeling upon her mind, she wished much to see her friends in Massachusetts again; and finally she persuaded her brother to accompany her on a journey thither.</p>
+          <pb id="p71" n="71"/>
+          <p>She went out to Warwick, and remained there six weeks, until she believed she had regained her health, so far as to undertake the journey; when she returned to Providence, and, with her brother George, made arrangements for her departure. Accordingly, in October, Elleanor having left all her affairs in a good train, with her brother, sat off for Adams.</p>
+          <p>For the first day she seemed somewhat invigorated with the ride, and the change of air and scene; but the unusual fatigue on the second and third days, quite overcame her.</p>
+          <p>They stopped for the night at Angell's tavern, in Hadley, where Elleanor found herself very ill. In the morning, her brother, finding she did not rise, tapped on her chamber door, and asked her if she felt well enough to pursue her journey. She replied that she was sick, and could not go any further that day. Her brother went to the land-lady, and requested permission to remain through the day, as his sister was too ill to proceed. From this circumstance—this trifling fact—sprang all the subsequent troubles of Elleanor. It so happened that there were two persons from Providence, within the hearing of George Eldridge, when he made the above 
+<pb id="p72" n="72"/>
+named request; and as they had some knowledge of his sister, they made their report, when they returned to Providence. This, she being very sick, like a gathering snow-ball, grew as it went the rounds of gossip, into exceedingly dangerous illness—the point of death; and finally by the simple process of accumulation, it was resolved into death itself. Who could have foreseen results so disastrous as those which followed, could have been occasioned by such a trifle. The reader will subsequently find, how all Elleanor's troubles sprang from the wanton carelessness of those, who so busily circulated the story of her death.</p>
+          <q direct="unspecified">
+            <lg type="verse">
+              <l>“What mighty oaks from little acorns grow.”</l>
+            </lg>
+          </q>
+          <p>and, what a lesson of caution should be drawn from this simple fact, and its consequences.—How careful ought we to be to speak nothing but the truth, even in regard to the most trifling circumstances; and not only so, but to be well assured that what we suppose to be true, is TRUTH, before we receive it as such.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p73" n="73"/>
+          <head>CHAPTER IX.</head>
+          <p>After resting a day Elleanor was able to continue her journey; and she arrived at its end without accident, or further difficulty, though considerably fatigued.</p>
+          <p>She found her friends all well, and delighted to see her once more. It soon came to pass that the eye of George Eldridge, rested with a very pointed expression of kindness on his cousin, Miss Ruth Jacobs, whom we have before had occasion to notice, as being the confidential friend of Elleanor. George Eldridge had been unhappy in a former matrimonial connection; and this circumstance heightened the interest which his sister felt in this second affair. Being anxious to promote it to the utmost, she yielded to his wishes, and consented to remain in Adams through the winter. Her brother soon found business at wood-cutting; and found also, what was better, that the gentle eye of his 
+<pb id="p74" n="74"/>
+cousin Ruth, could, by no means, look coldly upon him. This last, indeed, soon became no secret. The proposals were duly made, and frankly accepted; so the winter passed away, cheerily and happily, Elleanor spending the time among her numerous relations.</p>
+          <p>But when spring came, Elleanor's thoughts began to turn homeward. Her brother, however, shewed himself in no haste to quit the pleasant orbit of the amiable Ruth. But having been invited by Elleanor to accompany her home, Ruth determined to make a visit to R. Island; so, as they took the magnet along with them, there was no further difficulty. George Eldridge, with no inconsiderable degree of pride, seated himself between his sister and cousin Ruth, and turned towards home. Their journey thither was cheered by fine weather and pleasant chat; and all were happy; for the Janus, Fortune, had not shown her evil face to Elleanor.</p>
+          <p>On the evening of the third day they arrived at Elleanor's house, in Providence; and, after having laid off her travelling dress, our heroine prepared for supper.</p>
+          <p>It was just at dusk when she ran across the 
+<pb id="p75" n="75"/>
+street for bread. She stepped in at the door, as usual, and asked for bread. But the baker's boy, instead of supplying her, ran back into the entry, with an appearance of great alarm; and, having stood gazing at her a moment, with his arms extended in a horizontal line, and mouth and eyes laid open to their full extent, with the most querulous and misgiving tones, he called out: “Is that you Ellen?—Why I thought you was—dead!”</p>
+          <p>“No; I am not dead;” replied <sic corr="Elleanor,">Ellenor,</sic> “but I am hungry. Give me some bread, quick!”—and, supposing the boy was trying to hoax her, she stepped forward as she spoke.</p>
+          <p>The boy still retreated, and still holding out his hands, as if to ward off danger, he cried out: “Don't come any nearer!—don't Ellen, if you <hi rend="italics">be</hi> Ellen—cause—cause—I don't like dead folks!”</p>
+          <p>It was some time before Elleanor could assure the poor little fellow of her real, <hi rend="italics">bona fide</hi> bodily presence, so strongly was he impressed with the belief that she was actually “departed.” Her appearance too, coming in as she did, unannounced, at the dim, uncertain hour of twilight, must have had, to his excited imagination, 
+<pb id="p76" n="76"/>
+something really terrible in it. Had the boy reflected a moment, he would have seen that it was out of all rule, and entirely without precedent, for a ghost to cry for bread; but Jamie, like many of his species, was no philosopher.</p>
+          <p>This was the first that Elleanor knew of the story of her death; though she heard of it repeatedly during the evening, and the next morning. Her brother heard also at the hotel, where he went to put up his horse, that his sister's property had been attached, and was advertised to be sold, in consequence of a report concerning her death; but he did not mention it to Elleanor that evening, knowing her to be very much fatigued; and, as he expected to take her directly out to Warwick the next day, it seemed unnecessary; for then, and not till then, would she be able to see the gentleman; and, as he hoped, make some arrangements with him.—However, the time was not long before she heard of it; and, of course, she felt very disagreeably.</p>
+          <p>Two of their cousins, Jeremiah and Lucy Prophet, went out to Warwick with them; and they had anticipated a joyful occasion, on the arrival, and introduction, of the bride-elect; 
+<pb id="p77" n="77"/>
+but poor Ellen's trouble cast a damp upon the whole party.</p>
+          <p>As soon as the news of their arrival had gone about, the gentleman who had laid an attachment on Ellen's property, in order to procure the liquidation of the two hundred and forty dollar note before alluded to, came directly to see her; and that too altogether of his own accord. This gentleman was not the original creditor; who had deceased, leaving his brother as his sole heir.</p>
+          <p>The gentleman told Ellen what he had done; at the same time saying, that he should never have done it, had he not been told that she was dead. “But;” said he, “I am glad  you have returned, safe and well; and though I want the money, I WILL NEVER DISTRESS YOU FOR IT.”</p>
+          <p>Ellen had the simplicity to believe this, because the man—perhaps I ought to say GENTLEMAN—was a member of a church; and was CALLED a christian. Poor, simple-hearted, honest Ellen: she did not know then that she had met “the wolf in sheep's clothing!”</p>
+          <p>The above promise was given at the house of George Eldridge, in the presence of him, Ruth Jacobs, Jeremiah, and Lucy Prophet.—After 
+<pb id="p78" n="78"/>
+Mr.——had gone, these all spoke of his promise one to another, bidding Ellen be of good courage, as she could now have nothing to fear. THEY, also, it seems, were so very simple as to understand the gentleman's words as a promise, though probably HE intended them as only an expression of COURTESY.</p>
+          <p>I remember an anecdote, which though simple, is “a case in point.” A gentleman who had removed to the country, had for his neighbor a Frenchman, who had the national characteristic of exceeding  politeness. The gentleman kept no horse; and, as he took frequent walks about the country, his polite neighbor always remonstrated with him, in strong terms, begging that he would make him so very happy, as to use his horse—ALWAYS. This offer was so often repeated, that, at length, the gentleman determined he would avail himself of his neighbor's generosity; so one day he told him he should be very glad to have the loan of his horse, for a short ride.</p>
+          <p>“By no means;” replied the Frenchman.—“I have but von horse; an' him I vant—”</p>
+          <p>“But you have repeatedly offered him to me.”</p>
+          <p>“Ah! my dear neighbor,” replied the Frenchman, 
+<pb id="p79" n="79"/>
+with a very significant and sweet smile, “you's be most WELCOME TO DE COMPLIMEN.”</p>
+          <p>How much of that which assumes to be kindness, could it be reduced to its true analysis, would be found simply “A WELCOME TO THE COMPLIMENT.”</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p80" n="80"/>
+          <head>CHAPTER X.</head>
+          <p>Elleanor had given Mr.——a conditional promise that she would raise a hundred dollars for him in April; but it so happened that she could not  procure the money; and, relying on his promise of indulgence, which his his honor as a gentleman, and his christian character, alike conspired to strengthen; while, at the same time, his great wealth, or entire independence, placed him altogether above any temptation to uncharitableness.</p>
+          <p>In about a week she returned to Providence, satisfied that, in the withdrawal of his suit, Mr.——had fairly “buried the hatchet,” she commenced her summer's work with renewed vigor. This was the cholera season, which brought so much of terror with it, as to be long remembered. Ellen's usual business was somewhat modified by the prevailing sickness; and being a skilful and fearless person, she went 
+<pb id="p81" n="81"/>
+much among the sick; and by her zealous attentions to the wants of the suffering, she won the kindest regard of all who were so fortunate as to obtain her valuable services.</p>
+          <p>In August Mrs. T——, having a daughter who was pronounced to be either afflicted with, or liable to, the cholera, left town for her country residence, in Pomfret, Connecticut. She engaged Elleanor to accompany her in the capacity of nurse and attendant.</p>
+          <p>In order to make all secure before leaving town, Ellen paid up all that was due on the mortgage: but she did not pay Mr.——because she could not do so without great loss, and difficulty; and concerning this she felt no uneasiness, because there had been an express understanding between herself and the deceased Mr.——, that she should have the money so long as she could pay the interest of ten per cent on the note: and besides her well-known character for integrity and industry, seemed to secure the promise of indulgence, which had been voluntarily given.</p>
+          <p>Ellen's last step was to go round among her families, and request them to be careful and prudent in all things, making no disturbance, 
+<pb id="p82" n="82"/>
+and committing no trespass; and she assured them that if she heard any complaint from her neighbors, she should turn out the offenders, as soon as she returned.</p>
+          <p>Intent only upon her new duties, Elleanor then entered zealously into the service of Mrs. T.; and with that lady, and her family, left town for Pomfret, a distance of only thirty miles. The sickness of Mrs. T. and that of her family, rendered our heroine's activity and skill of peculiar value.</p>
+          <p>In about two months, the family of Mrs. T. having recovered, and the cholera panic having somewhat subsided, that lady determined to return to Providence. On arriving in the city, she stopped at the Franklin House, still retaining Ellen in attendance. The next morning after their arrival, a lady came in and told Mrs. T.——that the property of Elleanor was all attached, and sold; and to the latter, the sad intelligence was speedily announced; but she found it very difficult to believe a story, at once, so entirely opposed to all her convictions of right, and so fraught with distress and anguish to herself; yet, upon enquiry, she found that one half the truth had not been told.</p>
+          <pb id="p83" n="83"/>
+          <p>Mr.——, of Warwick, had attached and sold property, which a few months before had been valued at four thousand dollars, for the pitiful sum of two hundred and forty dollars.—Why he wished to attach so large a property, for so small a debt, is surprising enough; since Elleanor had then in her possession two house lots, and the little house and lot at Warwick; either of which would have been <sic corr="sufficient">snfficient</sic> to liquidate the debt. There seems to be a spirit of wilful malignity, in this wanton destruction of property, which it is difficult to conceive of as existing in the bosom of civilized man.</p>
+          <p>One after another, all the aggravating particulars came to the knowledge and notice of Ellen. In the first place, the attachment, as we have before said, was entirely disproportioned to the debt; which the general good character, integrity, and PROPERTY of the debtor, rendered perfectly secure. In the second place, the sheriff never legally advertised the sale, or advertised it all, as can be learned. In the third place, the auctioneer, having, doubtless, ascertained the comfortable fact, that the owner was a laboring colored woman, who was then away, leaving no friend to protect her rights, struck it 
+<pb id="p84" n="84"/>
+off, almost at the first bid; and at little more than one third its value; it being sold for only fifteen hundred dollars, which was the exact amount of the mortgage. In the fourth place, the purchaser, after seeing the wrongfulness of the whole affair, and after giving his word three successive times, that he would settle and restore the property for a given sum, twice meanly flew from his bargain, successively making larger demands. “Is not this a heinous crime; yea, an iniquity to be punished by the judges;” yet the chief actors in this affair, were all good and “HONORABLE men!” They shall learn that “He that loveth silver shall not be satisfied with silver; nor he that loveth abundance, with increase.”<ref targOrder="U" id="ref9" n="9" rend="sc" target="note9">*</ref><note id="note9" n="9" rend="sc" place="foot" anchored="yes" target="ref9"><p>* Ecclesiastes, v. 10.</p></note> They shall find that, “As a partridge sitteth on eggs, and hatcheth them not, so he that getteth riches, and not by RIGHT, shall leave them in the midst of his days:”<ref targOrder="U" id="ref10" n="10" rend="sc" target="note10">** </ref><note id="note10" n="10" rend="sc" place="foot" anchored="yes" target="ref10"><p>**  Jeremiah, xvii. 11,</p></note> and “Men shall clap their hands at him, and hiss him out of his place.”<ref targOrder="U" id="ref11" n="11" rend="sc" target="note11">*** </ref></p>
+          <note id="note11" n="11" rend="sc" place="foot" anchored="yes" target="ref11">
+            <p>***  Job, xxvii. 23.</p>
+          </note>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p85" n="85"/>
+          <head>CHAPTER XII.</head>
+          <p>Thus, as we have seen, was Ellen, in a single moment, by a single stroke of the hammer, deprived of the fruits of all her honest and severe labors—the labors of years; and, not only so, but actually thrown in debt for many small bills, for repairs and alterations on her houses, which she had the honor and honesty to discharge, even against the advices of some of her friends, after the property by which they had been incurred had been so cruelly taken away. Elleanor has traits of character, which, if she were a white woman, would be called NOBLE. And must color so modify character, that they are not still so?</p>
+          <p>On visiting the premises, sad, indeed was the sight which the late owner witnessed. The two wings of her first house, which she had herself built, with their chimneys, had been pulled down: and it seemed as if the spirit of Ruin 
+<pb id="p86" n="86"/>
+had been walking abroad. All her families had been compelled to leave, at a single week's notice; and many of them, being unable to procure tenements, were compelled to find shelter in barns and out-houses, or even in the woods. But THEY WERE COLORED PEOPLE—So thought he, who so unceremoniously ejected them from their comfortable homes; and he is not only a PROFESSED friend to their race, but “AN HONORABLE MAN.”</p>
+          <p>Let us return to the point where we left our story, and our heroine, at the Franklin House. Mrs. T. kindly furnished Ellen with her horse and chaise and advised her to go directly to Warwick, to see the gentleman on whose promise she had so confidently relied.</p>
+          <p>Mark his excuse. How noble—how manly it was! He told Ellen he was very sorry for what he had done; but that he never should have done it, <hi rend="italics">if the lawyer had not advised him to.</hi> He must have been a man of stern principle—of sterling independence, to perpetrate such an act, <hi rend="italics">because his lawyer advised him to.</hi> I pity the man whose invention is so poor—so miserable, that he could not fabricate a better falsehood. “Wo unto them that decree unrighteous 
+<pb id="p87" n="87"/>
+decrees, and that write grievances which they have prescribed, to TURN ASIDE THE NEEDY FROM JUDGEMENT and to TAKE AWAY THE RIGHT FROM THE POOR OF MY PEOPLE, that widows may be their prey, and they may ROB THE FATHERLESS. What will ye do in the day of visitation, and in the desolation which shall come from far? To whom will ye flee for help, and where will ye leave your glory?”<ref targOrder="U" id="ref12" n="12" rend="sc" target="note12">*</ref><note id="note12" n="12" rend="sc" place="foot" anchored="yes" target="ref12"><p>* Isaiah, x. 1, 2, 3.</p></note></p>
+          <p>After a time, a ray of hope dawned on the dark path of Ellen. She consulted Mr. Greene, the State's attorney, and found that she might bring forward a case of “Trespass and Ejectment,” against the purchaser of her property. She had hope to repudiate the whole sale and purchase, on the ground of the illegal or non-advertisement of the sale. This case was brought before the Court of Common Pleas, in January, 1837.</p>
+          <p>Of course, the whole success of it turned on the point of the sheriff's oath, in regard to the advertisement. When the oath was administered, the sheriff appeared strangely agitated, and many, then present in court, even the judge,
+<pb id="p88" n="88"/>
+thought it was the perturbation of guilt. Nevertheless he attested upon oath, that he had put up the notification in three public places;—viz. at Manchester's tavern bar-room, on the Court-house door in time of Court, and on Market square. There were three men who came prepared to take their oath, that the notice was never put up at Manchester's; thus invalidating that part of his testimony; but it was found that the oaths of common men could not be taken against that of the High Sheriff. So the case was decided against the plaintiff.</p>
+          <p>Ellen's next step was to hire two men, whom she fee'd liberally, to make enquiries throughout the city, in regard to those notifications.—They went about, two days, making all possible search for light in regard to the contested notifications, calling upon all those who frequented public places. But no person could be found, who had either seen them, or heard of their being seen. A fine advertisement, truly! And here, let me ask, why was not this sale advertised in the public papers? The same answer that has been given before, will suffice now. THE OWNER OF THE PROPERTY WAS A LABORING COLORED WOMAN. Is not this reply, 
+<pb id="p89" n="89"/>
+TRUTH as it is, a LIBEL on the character of those who wrought the work of evil?</p>
+          <p>Elleanor then brought an action against the sheriff, tending to destroy his testimony in the late case; and on the very day when it was to be laid before the court, Mr.——, the purchaser, came forward and told Ellen's attorney, that he would restore the property for twenty-one hundred dollars, and two years' rent. Ellen then withdrew her case, and set herself about procuring the money. This she raised; and it was duly tendered to Mr.——. But mark HIS regard for his word. He then said that Ellen had been so long<ref targOrder="U" id="ref13" n="13" rend="sc" target="note13">*</ref><note id="note13" n="13" rend="sc" place="foot" anchored="yes" target="ref13"><p>* She had great difficulty in obtaining it, as it was then the period of the greatest pressure; and it was next to impossible to get money at all. That Elleanor was able to procure twenty-one hundred dollars, upon her own credit, at such a time, in the space of six weeks, of itself shews the esteem in which she was held, as well as the energy and perseverance, for which she has always been remarkable.</p></note> in procuring the money, that he must have twenty-three hundred dollars.</p>
+          <p>The additional two hundred dollars were then raised, but the gentleman, in consequence of repairs and alterations, which he could have had no right to make, and require pay for, as
+<pb id="p90" n="90"/>
+the case stood, next demanded twenty-five hundred dollars, with six months' rent.</p>
+          <p>The suspended action had, in the mean time, been again brought forward; and was to have been tried before the Circuit Court. But so anxious was Ellen again to possess the property, that she once more withdrew her action, and came to the exorbitant terms of Mr.——. She again hired the additional two hundred dollars; and finally effected a settlement.</p>
+          <p>This conduct, on the part of the purchaser, requires no comment; for its meanness, not to say dishonesty, is self-evident in the simplest statement of the facts themselves. But this is not all. The sheriff had informed Mr.——, that he could sue Elleanor for house rent, as her goods had never been removed from the tenement she had occupied. This he actually did, and laid an attachment on her furniture, which was advertised to be sold at public auction: and it would have been, had not a gentleman who had the management of her business, gone forward and settled with Mr.——.</p>
+          <p>The whole affair, from beginning to end, in all its connections and bearings, was A WEB OF INIQUITY. It was a wanton outrage upon the 
+<pb id="p91" n="91"/>
+simplest and most evident principles of justice. But the subject of this wrong, or rather of this accumulation of wrongs, was a woman, and therefore weak—a COLORED WOMAN—and therefore contemptible. No MAN ever would have been treated so; and if A WHITE WOMAN had been the subject of such wrongs, the whole town—nay, the whole country, would have been indignant: and the actors would have been held up to the contempt they deserve!—The story would have flown upon the wings of the wind to the most remote borders of our land. Newspaper editors would have copied, and commented on it, till every spirit of honor, of justice, and of chivalry, would have been roused. At home benevolent SOCIETIES would have met, and taken efficient means to relieve the sufferer; while every heart would have melted in kindness, and every bosom have poured out its sympathy. Is this wrong the less a wrong, because the subject of it is weak and defenceless? By the common laws of HONOR, it is cowardice to strike the unarmed and the weak. By the same rule, HE WHO INJURES THE DEFENCELESS, ADDS MEANNESS TO CRIME.</p>
+          <p>Let us look more fully into the merits of this 
+<pb id="p92" n="92"/>
+case; and enquire how far Elleanor is entitled to the sympathies, and the charities of the humane. She has been industrious, and persevering in all her labors. Her moral character stands without reproach, fair as the fairest cheek of beauty. Though earnest and successful in the acquisition of money, she is not miserly, or parsimonious, when any kindness is called for, or good work is to be done. She gives freely to those who need; both to individuals, and societies. She subscribes for papers which she cannot read, in order to promote the circulation of truth, whether moral, or religious. Her losses are to be attributed, mainly,<ref targOrder="U" id="ref14" n="14" rend="sc" target="note14">*</ref><note id="note14" n="14" rend="sc" place="foot" anchored="yes" target="ref14"><p>* One of the chief causes, was her reliance upon what she considered THE WORD OF HONOR, of the Warwick gentleman; for, had she believed it <hi rend="italics">necessary,</hi> she could have raised the money, without a doubt.</p></note> to a want of knowledge in business, by which she became a prey to the wanton carelessness, if not the wilful and deliberate wickedness, of men, who SHOULD have been the very last to have seized the spoils of the weak.</p>
+          <p>Are there none to feel for her? Are there none to sustain, and encourage her? Thank God!—there are already a few—a few benevolent,
+<pb id="p93" n="93"/>
+and noble-minded women, who dare come forward and publicly DEFEND THE RIGHT, and DENOUNCE THE WRONG. May the bright and living spark of LOVE, which illumines their bosoms, kindle and expand itself, until, flying from heart to heart, and from soul to soul, all the friends of humanity will catch the sacred flame. It is pleasant to do good. The very act of generosity is its own reward. Then will not every reader of this little book, recommend it to the notice of the humane, and endeavor to promote its sale; not for its own sake, but for the sake of her, who depends upon its success, for deliverance from the difficulties in which she is involved. Ellen has yet a large debt to liquidate, before her estate is freed from its incumbrance. With a little timely help, together with her earnings, she may be able to do this.</p>
+          <p>The compiler of these memoirs feels bound to confess, that they are brought before the public in a very imperfect manner; but if their SUCCESS is proportioned to the earnest and zealous WISHES of the writer, poor Elleanor will have cause to rejoice. Inelegances and inaccuracies of style and language, are unavoidable necessities in the case; and if any are disposed 
+<pb id="p94" n="94"/>
+to find fault with the author's poor labor, let him remember that it was not undertaken for the desire of fame, or the love of money, but with the sole and single hope, of DOING GOOD. There is no personal animosity, on the writer's part, towards any to whom allusions may have been made. No names, in such cases, have been used; and if <hi rend="italics">notorious fact</hi> lay not bare the bosom, nor <hi rend="italics">conscience</hi> strike home the knife, there will be no reproach, and no wound.</p>
+          <p>And TO <sic corr="WHOMSOEVER">WHOMSOVER</sic> IT MAY <sic corr="CONCERN,">CONERN,</sic> I will say: “Seek ye out the Book of the Lord, and read.”</p>
+          <p>“Whatsoever ye would that men should do to you, do ye even so unto them.”</p>
+          <p>“Pure religion, and undefiled before God and the Father, is this; To visit the fatherless and the widow, in their affliction, and to keep UNSPOTTED FROM THE WORLD.”<ref targOrder="U" id="ref15" n="15" rend="sc" target="note15">*</ref><note id="note15" n="15" rend="sc" place="foot" anchored="yes" target="ref15"><p>* James 1, 27,</p></note></p>
+          <p>“Thus saith the Lord God; surely, because my flock became a prey, and my flock became meat to every beast of the field, because there was no shepherd, neither did my shepherds search for my flock; but the shepherds fed themselves;
+<pb id="p95" n="95"/>
+Therefore, O, ye shepherds! hear the word of the Lord. Thus saith the Lord God; Behold I am against the shepherds; and I will require my flock at their hands; neither shall the shepherds FEED THEMSELVES any more; for I will deliver my flock from their mouth, that they be no more meat for them.”<ref targOrder="U" id="ref16" n="16" rend="sc" target="note16">** </ref><note id="note16" n="16" rend="sc" place="foot" anchored="yes" target="ref16"><p>** <sic corr="Ezekiel">Exekiel</sic> 34, 8, 9, 10.</p></note></p>
+          <p>“Who shall ascend into the Hill of the Lord and who shall stand in his holy place? He that hath clean hands and a pure heart who hath not lifted up his soul unto vanity, nor SWORN DECEITFULLY.”<ref targOrder="U" id="ref17" n="17" rend="sc" target="note17">*** </ref><note id="note17" n="17" rend="sc" place="foot" anchored="yes" target="ref17"><p>*** Psalms 24, 3, 4.</p></note></p>
+          <p>“Let no man say when he is tempted, I am tempted of God; for God cannot be tempted of evil; neither tempteth he any man.”<ref targOrder="U" id="ref18" n="18" rend="sc" target="note18">**** </ref><note id="note18" n="18" rend="sc" place="foot" anchored="yes" target="ref18"><p>**** James 1, 13.</p></note></p>
+          <p>“Whoso KEEPETH HIS WORD, in him, verily, is the love of God perfected.”</p>
+          <p>“Thou hast sent widows away empty; and THE ARMS OF THE FATHERLESS HAVE BEEN BROKEN; for thou hast taken a pledge of thy brother for nought, and stripped the naked of his clothing.”</p>
+          <pb id="p96" n="96"/>
+          <p>“Neither thieves, nor COVETOUS, nor revilers, nor EXTORTIONERS, shall inherit  the kingdom of God.”</p>
+          <p>Of course, the edge and point of these quotations, will be determined by <hi rend="italics">individual circumstances.</hi> But they were spoken by the inspiration of Him, who is a God of justice, and by whom “ACTIONS are weighed.”</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p97" n="97"/>
+          <head>CHAPTER XIII.</head>
+          <p>Since writing the above, a passage in the life of Elleanor has come to my knowledge, which, I think, deserves particular notice; since it affords a happy illustration of one trait in her character, that of generosity, and noble self-sacrifice to the welfare of friends. It happened that her brother <sic corr="George">Geore</sic> Eldridge some time in the April of 1832, was, for an alleged crime, arrested and thrown into prison. He was accused of having horse-whipped, and of otherwise barbarously treating a man upon the highway. As soon as the report came to the knowledge of Elleanor, she determined to liberate him, at all hazards; because she felt assured, from all his previous course of conduct, and from his well-established character and habits, that he could not be guilty of the offence with which he was charged.</p>
+          <p>These views of Elleanor were strongly opposed 
+<pb id="p98" n="98"/>
+by her friends, who feared she might involve herself in some <sic corr="difficulty,">dificulty,</sic> and advised her to have nothing to do with the matter. But these objections could not satisfy such a mind as Elleanor's; and obeying alone the dictates of humanity, benevolence, and natural love, she generously committed herself to the guardianship of her brother's rights. This brother had a wife and family; and the consequence of being detained in prison, for six months, as he must have been, to await his trial in the spring, would have been, not only unpleasant, but distressing. Elleanor could allow of no such thing; for, of what use would her property be, if it could not purchase for her, the sweetest of all luxuries, that of relieving the distress of a friend?</p>
+          <p>Being at once resolved, she sent to a livery stable for the handsomest horse and chaise it afforded; for Ellen was determined to go in a style accordant with the dignity of her mission. On arriving at the Greenwich gaol, she found her brother in a state of great distress, in view of his long imprisonment, and the consequent affliction and suffering of his family. How delightful then to Ellen, was the consciousness of 
+<pb id="p99" n="99"/>
+power to relieve him! Was there any thing in the abstract possession of money, houses, or lands, that could, for one moment, be weighed against it? She thought not.</p>
+          <p>The business was soon settled. Elleanor gave bonds for five hundred dollars; liberated her brother, and took upon herself the whole management of his case.</p>
+          <p>The October following it was to have been brought forward; but, on account of the absence of some important witnesses, the defendant prayed that it might be continued to the spring term, the following April; which was granted. The trial was then suspended again on account of the illness of the defendant's advocate: and, finally, was tried the next October term; when the accused was honorably acquitted; as nothing could be proved against him, while, on the contrary, he was able to establish his entire innocence, by the fullest and clearest evidence. Elleanor managed this case entirely; and, on account of it, was subjected to considerable cost and trouble; but she never regretted having engaged in it, and would freely have expended much more, had it been necessary to effect her purpose.</p>
+          <pb id="p100" n="100"/>
+          <p>This was the first law suit in which our heroine has been engaged. She has since managed one for herself; yet not with equal success; and, with this experience in the law, she declares herself fully satisfied; and she has no desire to enter its mazes again.</p>
+          <p>Some of our young and romantic readers, may feel curious to know why Elleanor never married. When questioned on the subject, she says that she has determined to profit by the advice of her aunt, who told her never to marry, because it involved such A WASTE OF TIME; for, said she, “while my young mistress was courting and marrying, I knit five pairs of stockings.” This is the reply that Ellen generally gives; but as she has had several good offers, WE can look back to the records of the past, and think of a tenderer, and deeper reason.</p>
+          <p>But we must now give to the subject of these memories a parting blessing. Be not discouraged. All will yet be well. Is there not a voice of hope and peace, whispering within thee, “I have seen thy tears behold I will heal thee.”<ref targOrder="U" id="ref19" n="19" rend="sc" target="note19">*</ref><note id="note19" n="19" rend="sc" anchored="yes" target="ref19"><p>*2 Kings 20, 5.</p></note> “I will seek that which was lost; I will bind up that which was broken, and will
+<pb id="p101" n="101"/>
+strengthen that which was sick.”<ref targOrder="U" id="ref20" n="20" rend="sc" target="note20">** </ref><note id="note20" n="20" rend="sc" place="foot" anchored="yes" target="ref20"><p>** Ezekial 34, 16.</p></note> Thou shalt, indeed, escape “as a bird out of the snare of the fowlers; for the snare IS broken. Though thou hast eaten the bread of adversity, and drunk the waters of affliction, let thy soul be staid upon his promises,” of whom it is said: “He shall deliver thee in six troubles; yea, in seven shall no evil touch thee.”<ref targOrder="U" id="ref21" n="21" rend="sc" target="note21">*** </ref><note id="note21" n="21" rend="sc" place="foot" anchored="yes" target="ref21"><p>*** Job 5, 19.</p></note> He who disappointeth the designs of the crafty, shall lead thee forth beside the still waters of peace; and into thy grateful heart shall be poured the song of joy. How pleasant will be the sound of thy rejoicing, when it finds an echo in the heart of thy kind protectresses.</p>
+          <p>“Be strong and be of good courage; fear not, nor be afraid; for the Lord thy God, he it is that doth go with thee; he will not fail thee nor forsake thee.”<ref targOrder="U" id="ref22" n="22" rend="sc" target="note22">**** </ref><note id="note22" n="22" rend="sc" place="foot" anchored="yes" target="ref22"><p>**** Deuteronomy 31, 6.</p></note></p>
+          <p>And for all thy wrongs and sufferings, mayst thou reap blessings a hundred fold.</p>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="text">
+        <pb id="p103" n="103"/>
+        <head>APPENDIX.</head>
+        <p>The following pieces were handed to Elleanor, to publish in her book, as testimonies of the kind regard, and earnest wishes for her success, of the several ladies who presented them. And first we have an</p>
+        <q type="text" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="text">
+                <head>APPEAL TO STRANGERS—
+<lb/><hi rend="italics">In behalf of the subject of the Narrative <lb/>contained in this book.</hi></head>
+                <p>To purchase it in compassion and kindness to a stranger in distress, whose only hope rests on its sale, you are earnestly solicited. Your charity I trust will be rewarded by an approving heart, should you learn at a future, and perhaps not far distant day, that your liberal and willing hands have saved a human being, deserving a better fate, from poverty and distress. To those who know Elleanor an appeal is unnecessary—they have generously subscribed 
+<pb id="p104" n="104"/>
+for this work. But this alone will not relieve her, as the expenses of printing, binding, &amp;c., must be paid out of their subscription. Therefore, on strangers rests her only hope of worldly comfort. Let her not be disappointed, for the trifling sum she asks of each. Finally, in the words of scripture, “Execute ye judgment and righteousness; and deliver the spoiled out of the hands of the oppressor.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>Next we find a piece written by a little girl. It brings to notice one trait of Ellen's character, that of unwearying kindness to children, which never fails to win their innocent little hearts, and fill them with the warmest love.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>I write these few lines as a testimony of my good wishes for the welfare of Elleanor Eldridge, who worked, from time to time, in my father's family, long before, and ever since, I entered into life. She was always considered in our family as praise-worthy, for her good conduct, industry, and economy, as well as for her temperance and virtue. She may be considered as 
+<pb id="p105" n="105"/>
+a <hi rend="italics">pattern of morality,</hi> making no mockery of religion, which she never experienced. I never heard her make use of unbecoming words, or speak ill of any person. She would not have been so liable to impositions in the transaction of business, which were the original cause of the loss of her property, if she had been favored with a good education in early life, which, in mature years, she in vain endeavored to acquire. On the other hand if she had received an early education, her mind might have soared above a laborious life, and her useful labors lost to the world.<ref targOrder="U" id="ref23" n="23" rend="sc" target="note23">*</ref><note id="note23" n="23" rend="sc" place="foot" anchored="yes" target="ref23"><p>*This is rather an old fashioned sentiment. My kind little cousin will learn, one of these days, that education, instead of unfitting a person for the useful and necessary occupations of life, acts upon the mind as a DISCIPLINE, teaching it to sustain and strengthen itself, not only against the most heavy trials; but the most severe labors; so that the harder the lot, the greater would be the actual necessity of education. When all are educated—and, sooner or later, all must be—no honest occupation will be degrading: and the humblest pursuits will be invested with new dignity, while each one labors in the calling to which he is appointed.—ED.</p></note> As what is past cannot be recalled, I hope the public in pity for her misfortunes will liberally subscribe for the history of her life.</p>
+                <closer>
+                  <signed>M. W.</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p106" n="106"/>
+        <p>Here comes a scrap of <sic corr="poetry">poety</sic> to enliven us after the dull and uniform march of prose.</p>
+        <lg type="poem">
+          <head>THE AFRICAN'S APPEAL.</head>
+          <l>Why rejected? wherefore base?</l>
+          <l>Is our long degraded race?</l>
+          <l>Are we not of human kind?</l>
+          <l>Have we not the gift of mind?</l>
+          <l>Which learning can and doth improve,</l>
+          <l>A heart to feel! a heart to love.</l>
+          <l>And what's the tincture of the skin?</l>
+          <l>If all is pure and fair within.</l>
+          <l>It is the beauty of the MIND,</l>
+          <l>Pure, and holy, and refined,</l>
+          <l>That can raise the soul above</l>
+          <l>Earthborn cares, to Heaven above.</l>
+          <l>And must that culture be denied?</l>
+          <l>And must we toil to pamper pride?</l>
+          <l>And shall our hard earned labors fail,</l>
+          <l>And white men our dear rights assail?</l>
+          <l>Forbid it all the powers above!</l>
+          <l>Forbid it, Oh, thou God of Love.</l>
+          <closer>
+            <signed>E. C. J.</signed>
+          </closer>
+        </lg>
+        <pb id="p107" n="107"/>
+        <lg type="poem">
+          <head>HARD FATE OF POOR ELLEN. </head>
+          <docAuthor> BY A LADY OF PROVIDENCE.</docAuthor>
+          <lg>
+            <l>The weary day had sunk to rest,</l>
+            <l>Nature lay hushed in soft repose;</l>
+            <l>Evening rolled on, in sable vest—</l>
+            <l>The moon in dewy stillness rose.</l>
+          </lg>
+          <lg>
+            <l>Silent, I sat in musing mood,</l>
+            <l>Reflecting on frail life's short date;</l>
+            <l>Among mankind how few were good—</l>
+            <l>For wealth, what strife, and fierce debate.</l>
+          </lg>
+          <lg>
+            <l>A deep-drawn sigh fell on my ear;</l>
+            <l>A slow step lingered at my door—</l>
+            <l>I cried, “Come in,—you need not fear,”</l>
+            <l>To a lone female, sad and poor.</l>
+          </lg>
+          <lg>
+            <l>She said she'd labored <hi rend="italics">thirty years,</hi></l>
+            <l>In servile toil, had spent her prime:—</l>
+            <l>Through grief and care, and sweat, and tears,</l>
+            <l>To save against a needy time.</l>
+          </lg>
+          <lg>
+            <l>Of comforts, she, herself denied,—</l>
+            <l>Hoping, in time, to have a home;</l>
+            <pb id="p108" n="108"/>
+            <l>All her hard earnings, laid aside,</l>
+            <l>At length, the joyful time had come.—</l>
+          </lg>
+          <lg>
+            <l>A house and home, were now her own;</l>
+            <l>By honest industry, 'twas reared;</l>
+            <l>She dreamed of happiness, alone—</l>
+            <l>She knew no foes, no <hi rend="italics">fraud,</hi> she feared.</l>
+          </lg>
+          <lg>
+            <l>But, too secure, in evil hour—</l>
+            <l>The wily snare, for her, was laid,</l>
+            <l>Her absence, gave it <hi rend="italics">legal</hi> power,</l>
+            <l>Her home was seized, and she, betrayed!</l>
+          </lg>
+          <lg>
+            <l>Poor colored Ellen! now bereft</l>
+            <l>Of all on earth, she called her own;</l>
+            <l>Nought, but her honest HEART, is left,</l>
+            <l>To struggle in her grief alone.</l>
+          </lg>
+          <lg>
+            <l>Where is the man, could be so base—</l>
+            <l>Against the helpless and forlorn?</l>
+            <l>Let him, forever, hide his face!</l>
+            <l>If he would shun <hi rend="italics">deserved scorn.</hi></l>
+          </lg>
+          <lg>
+            <l>Sweet sympathy! O, shed one tear!</l>
+            <l>Humanity! pray lend your aid;</l>
+            <l>And, if you're not rewarded <hi rend="italics">here,</hi>—</l>
+            <l>In <hi rend="italics">heaven,</hi> you will be <hi rend="italics">over-paid.</hi></l>
+          </lg>
+          <closer>
+            <signed>S. P.</signed>
+          </closer>
+        </lg>
+        <div2 type="text">
+          <pb id="p109" n="109"/>
+          <head>TO THE PUBLIC, <lb/> IN BEHALF OF ELLEN.</head>
+          <p>“The Poor,” said our Saviour, “we have always with us.” While the situation and the wrongs of the distant Indian, and the Southern slave, is exciting so much <sic corr="commiseration,">commisseration,</sic> we ought not to lose sight of the oppressed and afflicted in our own immediate vicinity. The situation of poor Ellen, robbed of all her hard-earned property, by the chicanery of the law, is worthy of all compassion. To her moral character Ellen can bring the best of testimonials; and of her industry, enterprize, and untiring perseverance, in accumulating and husbanding her property, there is most incontrovertible proof.</p>
+          <p>It has been the constant complaint of all disposed to withhold aid to any of her color, that they are constitutionally and wilfully indolent, and averse to any kind of labor—that they are 
+<pb id="p110" n="110"/>
+not absolutely driven to; but surely no such complaint can be made of the subject of this Narrative. She had by unceasing application, in her humble and laborious employments, got together a sum sufficient to build her a house,<ref targOrder="U" id="ref24" n="24" rend="sc" target="note24">*</ref><note id="note24" n="24" rend="sc" place="foot" anchored="yes" target="ref24"><p>* The writer is laboring under a slight mistake. Elleanor had already built and PAID FOR one house in this city, besides her house in Warwick. It was the purchase of a second house which involved her.—ED.</p></note> with the exception of a small sum, which her industry would in a few years have enabled her to repay, where she borrowed it. But the remorseless creditor waits not for the debtor to be enabled to repay, but for the moment when under the shadow of the law, he may snatch all. This poor woman, ignorant of the technicalities and sinuosities of the law, reposed in the vain confidence, that others would be guided by the sense of justice, that she had imbibed herself; nor dreamed but that law and justice would go hand in hand. From this dream, however, she was compelled to awake, and find herself stripped of her property: The blow must have been dreadful, and to many, would have operated as a check to all further effort. Yet we see she does not despond; her reliance in Providence
+<pb id="p111" n="111"/>
+is not withdrawn, but knowing that Providence acts by means, and those means most generally, through the instrumentality of individual exertion, she is again preparing to renew her efforts. Whether this effort is to be crowned with success, remains with the public. Fifty cents is no great for any individual to bestow, and it is very sincerely hoped by the writer of this article, that the humble memoirs of the unfortunate and persevering woman who is the subject of this narrative will meet with a ready sale.</p>
+          <p>It is worthy of consideration, that if Ellen, with her limited improvements, and under all the disadvantages of colour, could achieve so much as she has, what she would have done if those disadvantages had not been in the way.</p>
+          <p>Finally, in befriending Ellen, we have the pleasure of assisting one who carries in her veins not only the blood of some of the Aborigines of our own State (the unfortunate and extinct race of the warlike Pequots)<ref targOrder="U" id="ref25" n="25" rend="sc" target="note25">** </ref><note id="note25" n="25" rend="sc" place="foot" anchored="yes" target="ref25"><p>** Probably Mrs. W. meant to say the Narragansetts.—The <sic corr="territory">teritory</sic> of the Pequot tribe lay chiefly in Connecticut. But Elleanor is descended from the noble race of Canonicus and Miantonomo, who were for a long time, the generous protectors and friends of Roger Williams.—HER fore-fathers, then, nourished and protected OURS. ED.</p></note> but of that
+<pb id="p112" n="112"/>
+much wronged and abused people, who have been sold into slavery on our Coasts, and although charity ought not to <hi rend="italics">expend itself</hi> upon one subject, it is our opinion that it ought to begin in our own neighborhood, and be exercised on those who come in our way before those who are at more remote distance, and who will not be in the way to be benefitted by our sympathies.</p>
+          <closer><signed>C. R. WILLIAMS.</signed>
+<dateline>Providence, October 19th, 1838.</dateline></closer>
+        </div2>
+        <div2 type="text">
+          <pb id="p113" n="113"/>
+          <head>TO ELLEN.</head>
+          <p>As God, in his providence, has put it into the hearts of some of your good friends, to publish a book, giving an account of your trials, and sufferings, in this vale of tears; trials which if rightly improved by you, and sanctified to you, will make you rich, in the kingdom of glory—rich in the enjoyment of those <hi rend="italics">durable riches,</hi> which can <hi rend="italics">never</hi> be <hi rend="italics">wrested</hi> from your grasp, by the hand of the covetous man, nor the oppressor. For you find by painful experience, that the <hi rend="italics">riches</hi> of <hi rend="italics">this world,</hi> take to themselves wings, and flee away. And that there is “nothing true <hi rend="italics">but heaven;</hi>” For the heart of man is deceitful above all things. When you most needed the hand of brotherly kindness extended towards you, and expected the words of friendship and affection from those who have professed humanity and friendship and love for your race, professing to teach them how they may enjoy the rights and privileges which an Indulgent Father has so richly lavished upon all his creatures, without regard to grade or color, you have been cruelly deceived even by those who have bowed themselves before the Altar of God, to supplicate the divine benediction upon you, and 
+<pb id="p114" n="114"/>
+to pray that the heart of the oppressor may be melted and the oppressed be suffered to go free. Have they not practically denied their faith, tempting the God of Heaven by their hypocrisy? I doubt not when you see this, you are ready to exclaim, there is no confidence in the flesh. But judge not of the blessed religion of Jesus, by the conduct of those who have proved recreant to their trust, for <hi rend="italics">pure religion,</hi> is that which will pity the <sic corr="Fatherless,">Fartherless,</sic> in their affliction, and labor to retrieve, the wrongs done to the Orphan.</p>
+          <p>But, in coming before the world to make known your trials, you find that mankind are not all alike, that there are hearts, that beat warm with sympathy for their fellow beings, and breasts that “the milk of human-kindness” hath warmed with love, and tenderness for abused innocence. But labor, my friend, to make a <hi rend="italics">practical improvement,</hi> of these afflictions, and make him your friend, that “sticketh closer than a brother.” Then, when trials press heavy, and friends forsake; when riches fade away, you may safely say, I know in whom I have trusted, and that he is able to keep that which I have committed to his trust, till the last great 
+<pb id="p115" n="115"/>
+rewarding day, when the oppressor and the oppressed, will both stand together and have justice, done by an impartial Judge, who knoweth the secrets of all hearts. God grant that it may be your, and my happy lot, to stand acquitted in that day.</p>
+          <lg type="poem">
+            <l>“This world is all a fleeting show,</l>
+            <l>For man's illusion given;</l>
+            <l>The smiles of joy, the tears of wo,</l>
+            <l>Deceitful shine, deceitful flow;</l>
+            <l>Their's nothing true but Heaven.”</l>
+            <closer>
+              <signed>M. A. *******</signed>
+            </closer>
+          </lg>
+        </div2>
+        <div2 type="text">
+          <head>THE SUPPLICATION OF ELLEANOR.</head>
+          <lg>
+            <l>Turn, gentle strangers! pass not by in coldness,</l>
+            <l>or in scorn;</l>
+            <l>Though YE are WHITE; no evil star hung o'er</l>
+            <l>your natal morn.</l>
+            <l>In beauty, and in pleasantness, your lives are</l>
+            <l>passing by,</l>
+            <l>Encircled with rich blessings, with affections</l>
+            <l>pure and high.</l>
+            <l>O, pause, and listen to my tale; for mercy's</l>
+            <l>tears are sweet;</l>
+            <l>And blessed is the intercourse, when Love and</l>
+            <l>suffering meet.</l>
+            <pb id="p116" n="116"/>
+            <l>My grandsire was an African—a chieftain in</l>
+            <l>his land;</l>
+            <l>And the rich earth abundance gave beneath his</l>
+            <l>fostering hand.</l>
+            <l>At eventide he sat him down beneath his sheltering</l>
+            <l>tree,</l>
+            <l>And blessed his smiling children with the kind</l>
+            <l>words of the free.</l>
+            <l>No care oppressed—no evil came—to mar his</l>
+            <l>happy lot;</l>
+            <l>But full-armed Plenty brought her gifts to his</l>
+            <l>vine-shadowed cot.</l>
+            <l>The orange and the hyacinth gave him their</l>
+            <l>richest bloom;</l>
+            <l>While his wide-spread masanga fields poured</l>
+            <l>forth their sweet perfumes</l>
+            <l>Like breathings from the Land of Hope, the</l>
+            <l>harvest promise came,</l>
+            <l>While all his pleasant vales were bright with</l>
+            <l>flowers without a name.</l>
+            <l>The hallowed TREE OF WORSHIP stood, with</l>
+            <l>its green vesture on;</l>
+            <l>And all that dwelt within its shadow blessed the</l>
+            <l>dark Mironne,</l>
+            <l>Then clustering blessings caught his eye, and</l>
+            <l>rose on every side—</l>
+            <l>How happy was my grandsire's heart at pleasant</l>
+            <l>even-tide!</l>
+            <l>But, like an evil ocean-bird, stole nigh the</l>
+            <l>stranger's barque:</l>
+            <l>And 'neath the shadow of its wings, that smiling</l>
+            <l>scene grew dark!</l>
+            <pb id="p117" n="117"/>
+            <l>Lured by the white man's promises, my grandsire</l>
+            <l>left the strand;</l>
+            <l>And never more did he return to bless his native</l>
+            <l>land</l>
+            <l>His wife and weeping little ones, in vain he</l>
+            <l>tried to save</l>
+            <l>The chain was fastened on his limbs—and he</l>
+            <l>became a slave.—</l>
+            <l>No tongue can tell—no heart conceive—how</l>
+            <l>deep that misery stung</l>
+            <l>Nor how within his struggling breast the tortured</l>
+            <l>nerves were wrung</l>
+            <l>Himself—his wife—his children—stood within</l>
+            <l>the brutal mart</l>
+            <l>And, as the hammer coldly fell, the iron reached</l>
+            <l>his heart</l>
+            <l>He died—and to those children left a heritage</l>
+            <l>of wrongs</l>
+            <l>And well that title, as his heir, to Elleanor belongs</l>
+          </lg>
+          <lg>
+            <l>My mother was of that dark race who owned</l>
+            <l>this noble land,</l>
+            <l>Before its waving forests bowed beneath the</l>
+            <l>Yengees' hand:</l>
+            <l>Free as the stirring winds they breathed—unconquered—</l>
+            <l>bold and true—</l>
+            <l>Her fathers to the Council fire their gathering</l>
+            <l>thousands drew.</l>
+            <l>Strong as the wrath of ocean storm awoke their</l>
+            <l>curbless ire;</l>
+            <pb id="p118" n="118"/>
+            <l>And as the lightning from the cloud burst forth</l>
+            <l>its hidden fire!</l>
+            <l>They knew no tyrant—feared no foe—their ardent</l>
+            <l>souls were free</l>
+            <l>As their own Narragansett waves, that sang of</l>
+            <l>Liberty.</l>
+            <l>When first your noble FOUNDER here a pleading</l>
+            <l>outcast came,</l>
+            <l>The “milk of human kindness” quenched their</l>
+            <l>wrathful spirits' flame—</l>
+            <l>No more abroad, a wanderer, was he compelled</l>
+            <l>to go;</l>
+            <l>For he was folded to the breast of MIANTONOMO.</l>
+            <l>And great CANONICUS sustained the exile's</l>
+            <l>drooping head:</l>
+            <l>And when your fathers famished here, my fathers</l>
+            <l>gave them bread.</l>
+            <l>The sad reverse I hasten by. The mighty are</l>
+            <l>laid low,</l>
+            <l>And o'er their dark, unhonored graves the feet</l>
+            <l>of strangers go.</l>
+          </lg>
+          <lg>
+            <l>The trump of liberty awoke. My father</l>
+            <l>caught the sound;</l>
+            <l>And though the heavy chain had bent his body</l>
+            <l>to the ground,</l>
+            <l>His soul responded to the call! His heart awoke</l>
+            <l>again!</l>
+            <l>And every fibre echoed back fair Freedom's</l>
+            <l>magic strain!</l>
+            <l>He felt within his bosom, throb the strong pulse</l>
+            <l>of the Free.</l>
+            <pb id="p119" n="119"/>
+            <l>When Hope to his <sic>entranc-ed</sic> ear had whispered—</l>
+            <l>“Liberty!”</l>
+            <l>No peril had the power to daunt—no suffering</l>
+            <l>to dismay,</l>
+            <l>So that the iron chain no more upon his bosom</l>
+            <l>lay.</l>
+            <l>What could he lose! He nothing had but a</l>
+            <l>poor, passing breath—</l>
+            <l>Away he hied, to win the prize of Liberty—or</l>
+            <l>death—</l>
+            <l>When terror, with a palsying touch, through</l>
+            <l>other bosoms ran,</l>
+            <l>He nobly battled for the right—TO CALL HIMSELF</l>
+            <l>A MAN!</l>
+            <l>He struggled—labored—suffered—with a still</l>
+            <l>unquailing heart,</l>
+            <l>Until our groaning country saw her hostile foes</l>
+            <l>depart.—</l>
+            <l>And what was his reward, who toiled so long</l>
+            <l>and ardently?</l>
+            <l>The STONE GEM was given back—the slave</l>
+            <l>again was free.</l>
+            <l>From ocean to far ocean now, through all our</l>
+            <l>glorious land,</l>
+            <l>The pinions of fair Liberty in beauteous light</l>
+            <l>expand!</l>
+            <l>O will ye not remember when, bright flashing</l>
+            <l>to the brim,</l>
+            <l>The cup of blessing runneth o'er, to give one</l>
+            <l>thought to HIM?</l>
+            <l>My father toiled—my father bled—these blessings</l>
+            <l>to obtain;</l>
+            <pb id="p120" n="120"/>
+            <l>But for the rights which YE possess, his children</l>
+            <l>cry in vain!</l>
+            <l>Wronged—persecuted—driven forth—behold,</l>
+            <l>alone I stand,</l>
+            <l>An alien, here, amid the light of my own native</l>
+            <l>land!</l>
+            <l>Alone! Ah! not alone, thank God! there are a</l>
+            <l>noble few,</l>
+            <l>Who understand and yield the claims, to truth</l>
+            <l>and justice due!</l>
+            <l>Kind Ladies! on your every head, a blessing</l>
+            <l>pure I crave;</l>
+            <l>For when I sank, discouraged—lone—your</l>
+            <l>hands were stretched to save!</l>
+            <l>O be the skies that bend above you, ever calm</l>
+            <l>and fair;</l>
+            <l>And never may your lips pour forth one poor</l>
+            <l>unanswered prayer!</l>
+            <l>May your Lives be a Book of Love where kindliest</l>
+            <l>things are writ;</l>
+            <l>And all affection's dearest bonds around them</l>
+            <l>closely knit.</l>
+            <l>May all your daughters be like gems in richest</l>
+            <l>casket set;</l>
+            <l>Your sons like noble pillars in some lofty palace</l>
+            <l>met.</l>
+            <l>I cannot speak the thoughts I feel—my words</l>
+            <l>are poor and rude;</l>
+            <l>But in this bosom ever lives the light of gratitude.</l>
+            <l>O, may our Heavenly Father still his choicest</l>
+            <l>blessings send;</l>
+            <pb id="p121" n="121"/>
+            <l>Above you may the hallowed skies in gladness </l>
+            <l>ever bend!</l>
+            <l>The INDIAN current of my blood, is living with </l>
+            <l>the thought</l>
+            <l>Of all the kind regard and care, which money </l>
+            <l>never taught!</l>
+            <l>Deep is the memory of love, within my bosom set,</l>
+            <l>And its true, NARRAGANSETT chords will never </l>
+            <l>—ne'er—forget!</l>
+          </lg>
+          <closer>
+            <signed>F. H. W.</signed>
+            <dateline>Providence, Nov. 7, 1838.</dateline>
+          </closer>
+        </div2>
+        <div2 type="text">
+          <head>THE EMANCIPATED.</head>
+          <lg>
+            <l>The queenly daughter of a mighty prince,</l>
+            <l>Ellura, woke to being—nursed and loved</l>
+            <l>With such a doating tenderness, that all</l>
+            <l>Which she but <hi rend="italics">seemed</hi> to wish—or hoped <hi rend="italics">might</hi></l>
+            <l>be—</l>
+            <l>Was done.—And she was lovely.—Genius</l>
+            <l>Had set upon her ebon brow his seal—</l>
+            <l>And breathed into her soul—and filled her eye</l>
+            <l>With the rich fulness of his living light.—</l>
+            <l>She read the book of Nature.—Stars and clouds,</l>
+            <l>The glorious sun—the calm and gentle moon—</l>
+            <pb id="p122" n="122"/>
+            <l>The cloud-capt mountain brow—vale, fount,</l>
+            <l>and stream—</l>
+            <l>The broad expanse of ocean, calm and still—</l>
+            <l>Or lashed anon by tempests—The blue sky,</l>
+            <l>In its serene repose—The song of birds—</l>
+            <l>The painted cup of flower or insect-wing—</l>
+            <l>The lightning's quivering flash, and vivid gleam;</l>
+            <l>The awful voice that spake from thunder clouds;</l>
+            <l>Were things familiar, where she saw, and heard,</l>
+            <l>The mysteries of living poesy.—</l>
+            <l>Nor these alone—the simplest things were</l>
+            <l>fraught</l>
+            <l>With interest, such as Genius, only, gives</l>
+            <l>To objects oft beheld. The common light—</l>
+            <l>A broken shell—the voice and wondrous touch</l>
+            <l>Of the invisible wind—pebbles, and grass,</l>
+            <l>And insects—yea, the very sands she trode—</l>
+            <l>Were marked as wonders.</l>
+          </lg>
+          <lg>
+            <l>Thus Ellura grew—</l>
+            <l>Delicate as the mimosa tree that sprang</l>
+            <l>Within her father's kraal. Gleesome, too,</l>
+            <l>And fleet and graceful as the young spring-bok</l>
+            <l>That fed from her soft hand. As a bright star</l>
+            <l>That shineth, singly, o'er the lone midnight,</l>
+            <l>So shone Ellura o'er the <sic corr="darkened">darkend</sic> soul</l>
+            <l>Of her tyrannic father. He—the king</l>
+            <l>Whose every word was law—whose will was </l>
+            <l>death—</l>
+            <l>Whose very life, repeated miracle—</l>
+            <l>Was led and governed, though he recked it not,</l>
+            <pb id="p123" n="123"/>
+            <l>By the sweet graces of his gentle child.</l>
+            <l>She was his light of life—his joy—his pride—</l>
+            <l>An oasis within his desert arms.</l>
+            <l>Her dream of life passed on—a dream it </l>
+            <l>was—</l>
+            <l>For nought within reality's dark sphere</l>
+            <l>Could match its fervid beauty.</l>
+            <l>One mild eve—</l>
+            <l>Ellura walked, as it had been her wont,</l>
+            <l>Along the breezy shore. The murmuring waves</l>
+            <l>Had come, with their sweet music, to her feet,</l>
+            <l>Winning her ready ear. The glorious stars</l>
+            <l>Drew upward her dark eye, that turned above,</l>
+            <l>With love as purely fervent, as she knew</l>
+            <l>Her soul had found its kindred spirits there.</l>
+          </lg>
+          <lg>
+            <l>And so profound her reverie was, a keel</l>
+            <l>Of stranger barque touched lightly the smooth</l>
+            <l>strand</l>
+            <l>Ere she was fairly roused. And when there</l>
+            <l>sprang</l>
+            <l>From thence a youth of gentle air and mien,</l>
+            <l>Ellura would have fled;—but first she stole</l>
+            <l>One truant look—and something—she scarce</l>
+            <l>knew,</l>
+            <l>Or why—or whence—told her there could not</l>
+            <l>be</l>
+            <l>Or wrong—or danger—just to speak one word</l>
+            <l>Of kindness to the stranger. So she paused—</l>
+            <l>Modest in Nature's pure simplicity—</l>
+            <l>And when the youth drew nigh, she bade him go,</l>
+            <pb id="p124" n="124"/>
+            <l>And she would give him food and resting-place</l>
+            <l>Beneath her father's roof-tree. Wondering,</l>
+            <l>He took the gentle hand that was held out,</l>
+            <l>With a sweet, modest, hospitable air:—</l>
+            <l>And so Ellura led the stranger youth</l>
+            <l>Unto the dwelling of her tyrant sire.</l>
+          </lg>
+          <lg>
+            <l>Three days he tarried. Then, with courteous </l>
+            <l>speech</l>
+            <l>Of many thanks, and promise of return—</l>
+            <l>He knelt before the monarch, and received</l>
+            <l>His parting words of blessing—kissed the brow</l>
+            <l>Of wondering Ellura—bade farewell:—</l>
+            <l>And, followed by the single-hearted sons</l>
+            <l>Of simple Africa, he parted thence.</l>
+          </lg>
+          <lg>
+            <l>Again 'twas eve—calm, silent, glorious eve!—</l>
+            <l>“Why doth he linger?” These few words were breathed</l>
+            <l>As low and plaintive as the sorrowing wind,</l>
+            <l>That, sighing, hovers o'er the few bright flowers—</l>
+            <l>Low murmuring tenderly—when it hath come</l>
+            <l>To bid farewell to Summer;—and a girl</l>
+            <l>Passed from within the shadow of a rock,</l>
+            <l>And stood alone upon th' untrodden beach</l>
+            <l>Of Western Africa.</l>
+          </lg>
+          <lg>
+            <l>Her jewelled arms</l>
+            <l>Were lifted—and her hands were firmly clasped</l>
+            <l>A moment, and her eye had scanned the waves—</l>
+            <l>It caught no trace of barque or coming sail</l>
+            <pb id="p125" n="125"/>
+            <l>Upon the far blue ocean; and her ear</l>
+            <l>Was bent intently; but it met no sound</l>
+            <l>Of waters gurgling at the dip of oar.</l>
+            <l>Ah! generous, trusting, simple-hearted girl!</l>
+            <l>Thou waitest, fondly, an expected guest—</l>
+            <l>The stranger youth is that expected one—</l>
+            <l>With a desponding thought she turned away</l>
+            <l>From the wide sea whose calmness mocked her</l>
+            <l>hopes.</l>
+            <l>A thin, transparent haze hung o'er the sky,</l>
+            <l>Like gentle melancholy visible—</l>
+            <l>Orion's coronet shone liquidly—</l>
+            <l>And the sweet Pleiades were looking down,</l>
+            <l>With sorrowing lustre, as if tear-drops shone</l>
+            <l>Within each starry eye—tears for the lost—</l>
+            <l>Their unforgotten sister who had gone,</l>
+            <l>Of erst, <hi rend="italics">their</hi> way of glory, making full</l>
+            <l>The circlet of their harmony. A strange,</l>
+            <l>Yet sweet profound of stillness hushed the</l>
+            <l>scene—</l>
+            <l>Ocean breathed quietly as if he dreamed—</l>
+            <l>And the wild sea-bird scarcely dipped her wing</l>
+            <l>As, hovering an instant o'er the deep,</l>
+            <l>She listened, pleased—then found her wave girt</l>
+            <l>nest,</l>
+            <l>A dashing oar—a step—Ellura heard</l>
+            <l>A moment—and th' <sic corr="embodying">embedying</sic> of her dreams</l>
+            <l>Stood visibly before her. One short cry</l>
+            <l>Of joyful recognition; and her heart</l>
+            <l>Was all too full for words. With gallant air</l>
+            <l>The stranger greeted her. Then, with fair</l>
+            <l>words</l>
+            <pb id="p126" n="126"/>
+            <l>That spake of many wonders, he had drawn</l>
+            <l>The simple, kind, confiding, gentle one</l>
+            <l>To visit his fair barque.</l>
+          </lg>
+          <lg>
+            <l>With a firm step</l>
+            <l>She went—the fond, devoted, generous girl—</l>
+            <l>And left her native land—forever left</l>
+            <l>Her father's tender arms—home—happiness—</l>
+            <l>And liberty. She turned to him whose eye</l>
+            <l>Had been to her a new-found sun, and knelt—</l>
+            <l>And prayed that he might take her back again</l>
+            <l>Unto her father. Then she clasped his knees,</l>
+            <l>With many tears, and looked up in his face</l>
+            <l>With such appealing confidence that aught</l>
+            <l>But stone had melted. But one icy look—</l>
+            <l>One mocking word—one cruel, cold repulse—</l>
+            <l>And, then, the <hi rend="italics">chain!</hi> Was there no other hand</l>
+            <l>Than thine, thou wretch! to clench that chain?</l>
+            <l>Or would</l>
+            <l>Thy dainty villainy do more than kill?</l>
+            <l>The horrid truth burst quick upon her mind—</l>
+            <l>And she was crushed. Withering at once, she </l>
+            <l>felt</l>
+            <l>The cruel pangs of death without its peace!</l>
+            <l>Then on her soul a heavy torpor fell—</l>
+            <l>And dark as heavy—without fear or hope—</l>
+            <l>Or sense of pain—or thought of the cold chains</l>
+            <l>That hung upon her limbs, or of the heaps</l>
+            <l>Of fettered wretches. Speechless—tearless—</l>
+            <l>cold—</l>
+            <l>Breathing, yet living not—she saw the shore</l>
+            <pb id="p127" n="127"/>
+            <l>Recede till it was vanished. One wild shriek</l>
+            <l>Burst from her cold, blue lips! She tore her </l>
+            <l>hair!</l>
+            <l>And wrung her fettered, bleeding, helpless</l>
+            <l>hands!</l>
+            <l>Then—madness crowned the work of treachery!</l>
+          </lg>
+          <lg>
+            <l>Two long years</l>
+            <l>Had gone since poor Ellura was a slave—</l>
+            <l>Since, bought and sold, she wore the fettered</l>
+            <l>limb.</l>
+            <l>Returning reason had but served to make</l>
+            <l>The captive more a captive, and perfect</l>
+            <l>The work of wretchedness. But when she</l>
+            <l>stood,</l>
+            <l>One pleasant night, with eye bent o'er the sea,</l>
+            <l>Whose other shore was her own native land—</l>
+            <l>And faithful Memory brought each dear loved</l>
+            <l>scene,</l>
+            <l>A flood of tears, which long had frozen round</l>
+            <l>Her icy heart, gushed upward:—and she wept—</l>
+            <l>For Slavery had bound her very tears—</l>
+            <l>But now they were unchained.</l>
+          </lg>
+          <lg>
+            <l>With a calm brow</l>
+            <l>She knelt upon the strand; and, with deep faith,</l>
+            <l>Prayed for deliverance—nor prayed in vain—</l>
+            <l>The sound of coming steps—a fearful cry—</l>
+            <l>Ellura sprang upon her feet—when lo!—</l>
+            <l>A wan, wild, haggard, hoary-headed man,</l>
+            <l>With outstretched arms whence broken fetters</l>
+            <l>hung,</l>
+            <pb id="p128" n="128"/>
+            <l>Clasped her unto his bosom! one low cry</l>
+            <l>Escaped her fixing lips—“My father! Oh!</l>
+            <l>My father!”—and she sank within his arms,</l>
+            <l>A breathless, senseless weight. “They come!</l>
+            <l>They come!!”</l>
+            <l>He cried; and grasping her, with lightning</l>
+            <l>speed</l>
+            <l>He reached a jutting cliff—triumphant turned</l>
+            <l>A look on his pursuers—sprang below,</l>
+            <l>With a wild shout, into the friendly deep,</l>
+            <l>That oped her arms and met him like a friend.</l>
+          </lg>
+          <lg>
+            <l>The craven ones who followed, struck with </l>
+            <l>awe,</l>
+            <l>Stood, palsied, on the beach. Anon two forms</l>
+            <l>Hovered an instant o'er the yawning waves—</l>
+            <l>And like the billow's swell a voice came up—</l>
+            <l>“To liberty—To liberty!—We're free!!”</l>
+          </lg>
+          <closer>
+            <signed>F. H. W.</signed>
+          </closer>
+        </div2>
+        <trailer>Finis.</trailer>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

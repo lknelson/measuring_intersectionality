@@ -1,0 +1,880 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY carysp SYSTEM "carysp.jpg" NDATA jpeg>
+<!ENTITY carytp SYSTEM "carytp.jpg" NDATA jpeg>
+<!ENTITY caryfp SYSTEM "caryfp.jpg" NDATA jpeg>
+<!ENTITY caryhp SYSTEM "caryhp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Sketch of the Life of the Rev. Lott Cary:</emph>
+Electronic Edition.</title>
+        <author>Gurley, Ralph Randolph </author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Sarah Reuning</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Chris Hill and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     60K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number DT631 .A84 1835        
+(Alderman Library, University of Virginia)</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Life of Jehudi Ashmun, Late Colonial Agent in Liberia.  With An Appendix, Containing Extracts from his Journal and Other Writings; With a Brief Sketch of the Life of The Rev. Lott Cary.</title>
+            <title type="half-title"> Sketch of the Life of the Rev. Lott Cary.</title>
+            <author>Ralph Randolph Gurley</author>
+          </titleStmt>
+          <extent>15 p.</extent>
+          <publicationStmt>
+            <pubPlace>Washington</pubPlace>
+            <publisher>James C. Dunn</publisher>
+            <date>1835</date>
+            <authority/>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Electronic edition has been  transcribed  from pages 147-160 of the Appendix to “Life of Jehudi Ashmun, Late Colonial Agent in Liberia.  With An Appendix, Containing Extracts from his Journal and Other Writings; With a Brief Sketch of the Life of The Rev. Lott Cary.”</p>
+        <p>All footnotes are moved to the end of a paragraph in which the reference occurs.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Carey, Lott, 1780-1828.</item>
+            <item>Ashmun, J. (Jehudi), 1794-1828.</item>
+            <item>African Americans -- Biography.</item>
+            <item>African Americans -- Colonization -- Liberia.</item>
+            <item>Slaves -- Virginia -- Richmond -- Biography.</item>
+            <item>Freedmen -- Virginia -- Richmond -- Biography.</item>
+            <item>African American missionaries -- Liberia -- Biography.</item>
+            <item>African American missionaries -- United States -- Biography.</item>
+            <item>Missions -- Africa.</item>
+            <item>Baptists -- Missions -- Liberia.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1999-12-10, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-09-28, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-09-19, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-01-01, </date>
+        <respStmt>
+          <name>Sarah Reuning</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="spine image">
+        <p>
+          <figure id="spine" entity="carysp">
+            <p>[Spine Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="caryfp">
+            <p>JEHUDI ASHMUN.<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="carytp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="half title page image">
+        <p>
+          <figure id="half" entity="caryhp">
+            <p>[Half-Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="cary147" n="147"/>
+        <head>SKETCH OF THE LIFE<lb/>
+OF THE<lb/>
+REV. LOTT CARY.</head>
+        <p>THE Rev. LOTT CARY was born a slave, near Richmond, Virginia, and was early
+hired out as a common laborer in that city, where, for some years, he remained, entirely
+regardless of religion, and much addicted to profane and vicious habits. But God was
+pleased to convince him of the misery of a sinful state, and in 1807, he publicly
+professed his faith in the Saviour, and became a member of the Baptist Church.</p>
+        <p>It is remarked by one who was intimately acquainted with his situation and character
+previous to his embarkation for Africa, “that his Father was a pious and much respected
+member of the Baptist Church—and his Mother, though she made no public profession
+of religion, died, giving evidence that she had relied for salvation upon the Son of God.
+He was their only child, and though he had no early instruction from books, the admonitions
+and prayers of his illiterate parents may have laid the foundations for his future usefulness.”</p>
+        <p>A strong desire to be able to read, was excited in his mind, by a sermon to
+which he attended soon after his conversion, and which related to our Lord's
+interview with Nicodemus; and having obtained a Testament, he commenced
+learning his letters, by trying to read the chapter in which this interview is recorded.
+He received some instruction, though he never attended a regular
+school. Such, however, were his diligence and perseverance, that he overcame
+all obstacles and acquired not only the art of reading, but of writing also.
+Shortly after the death of his first wife in 1813, he ransomed himself and two
+children for $850, a sum which he had obtained by his singular ability and
+fidelity in managing the concerns of the tobacco warehouse. Of the real
+<pb id="cary148" n="148"/>
+value of his services there, it has been remarked, “no one but a dealer in
+tobacco can form an idea. Notwithstanding the hundreds of hogsheads that
+were committed to his charge, he could produce any one the instant it was
+called for; and the shipments were made with a promptness and correctness,
+such as no person, white or black, has equalled in the same situation.”<ref targOrder="U" id="ref1" n="1" rend="sc" target="note1">*</ref></p>
+        <note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1">* It is said, that while employed at the warehouse, he often devoted his leisure time to
+reading, and that a gentleman, on one occasion, taking up a book which he had left
+for a few moments, found it to be “Smith's Wealth of Nations.”</note>
+        <p>As early as the year 1815, he began to feel a special interest in the cause of African
+Missions, and contributed probably more than any other person, in giving origin
+and character to the African Missionary Society established during that year in
+Richmond, and which has, for many years, collected and appropriated annually,
+to the cause of Christianity in Africa, from one hundred, to one hundred and fifty dollars.
+His benevolence was practical; and whenever and wherever good objects were to be
+effected, he was ready to lend his aid. He became a preacher several years before he
+left this country, and generally engaged in this service every Sabbath, among the colored
+people on plantations a few miles from Richmond.</p>
+        <p>A correspondent, from whom we have already quoted, observes, “In preaching,
+notwithstanding his grammatical inaccuracies, he was often truly eloquent. He had
+derived almost nothing from the schools, and his manner was of course unpolished,
+but his ideas would sometimes burst upon you in their native solemnity, and
+awaken deeper feelings than the most polished, but less original and inartificial discourse.”
+A distinguished Minister of the Presbyterian Church, said to the writer, “A sermon which
+I heard from Mr. Cary, shortly before he sailed for Africa, was the best extemporaneous
+sermon I ever heard. It contained more original and impressive thoughts, some of which
+are distinct in my memory, and never can be forgotten.”</p>
+        <p>Mr. Cary was among the earliest emigrants to Africa. For some time before
+his departure he had sustained the office of Pastor of a Baptist Church of
+colored persons in Richmond, embracing nearly eight hundred members, received
+from it a liberal support, and enjoyed its confidence and affection.—
+When an intelligent Minister of the same Church inquired, why he could determine
+to quit a station of so much comfort and usefulness, to encounter the dangers
+of an African climate, and hazard every thing to plant a Colony on a
+distant heathen shore? His reply was to this effect, “I am an African, and in
+in this country, however meritorious my conduct, and respectable my character,
+I cannot receive the credit due to either. I wish to go to a country where I
+shall be estimated by my merits, not by my complexion; and I feel bound to
+labor for my suffering race.” He seemed to have imbibed the sentiment
+of Paul, and to have great heaviness and continual sorrow in his heart, for his
+brethren, his kinsmen according to the flesh.</p>
+        <pb id="cary149" n="149"/>
+        <p>At the close of his farewell sermon in the First Baptist Meeting House in
+Richmond, he remarked in substance, as follows: “I am about to leave you
+and expect to see your faces no more. I long to preach to the poor Africans the
+way of life and salvation. I don't know what may <sic corr="befall">befal</sic> me, whether I may
+find a grave in the ocean, or among the savage men, or more savage wild
+beasts on the Coast of Africa; nor am I anxious what may become of me. I
+feel it my duty to go; and I very much fear that many of those who preach
+the Gospel in this country, will blush when the Saviour calls them to give an
+account of their labors in His cause, and tells them, ‘I commanded you to I go
+into all the world, and preach the Gospel to every creature;’ (and with the
+most forcible emphasis he exclaimed,) the Saviour may ask where have you
+been? what have you been doing? have you endeavored to the utmost of your
+ability to fulfil the commands I gave you, or have you sought your own
+gratification and your own ease, regardless of my commands?”</p>
+        <p>On his arrival in Africa he saw before him a wide and interesting field, demanding
+various and energetic talents, and the most devoted piety. His intellectual
+ability, firmness of purpose, unbending integrity, correct judgment,
+and disinterested benevolence, soon placed him in a conspicuous station, and
+gave him wide and commanding influence. Though naturally diffident and
+retiring, his worth was too evident, to allow of his continuance in obscurity.
+It is well known, that great difficulties were encountered in founding a settlement
+at Cape Montserado. So appalling were the circumstances of the first
+settlers, that soon after they had taken possession of the Cape, it was proposed
+that they should remove to Sierra Leone. The resolution of Mr. Cary was not to
+be shaken: he determined to stay, and his decision had great effect in persuading
+others to imitate his example. During the war with the native tribes, in November
+and December 1822, he proved to be one of the bravest of men, and lent
+his well directed and vigorous support to the measures of Mr. Ashmun during
+that memorable defence of the Colony. It was to him, that Mr. Ashmun was
+principally indebted for assistance in rallying the broken forces of the Colony,
+at a moment when fifteen hundred of the exasperated natives were rushing on
+to exterminate the settlement. In one of his letters, he compares the little
+exposed company on Cape Montserado at that time, to the Jews, who in rebuilding
+their City, “grasped a weapon in one hand, while they labored with the
+other:” but adds emphatically, “there never has been an hour or a minute,
+no, not even when the balls were flying around my head, when I could wish
+myself again in America.”</p>
+        <p>At this early period of the Colony, the emigrants were peculiarly exposed; the
+want of adequate medical attentions, and the scantiness of their supplies,
+subjected them to severe and complicated sufferings. To relieve, if possible, these
+sufferings, Mr. Cary availed himself of all information in his power, concerning the
+diseases of the climate, made liberal sacrifices of his property to assist the poor and
+distressed, and devoted his time, almost exclusively, to the destitute, the sick and
+the afflicted.</p>
+        <pb id="cary150" n="150"/>
+        <p>In December, 1823, Mr. Cary was unfortunately engaged in a transaction
+which inflicted a deep wound upon his conscience, and which but for his speedy
+and sincere repentance, might have left a lasting stain upon his reputation.
+He was one of those who appeared at that time to have lost confidence in the
+Society, and who ventured to throw off those restraints of authority, which
+though severe, were deemed absolutely necessary for the general safety of the
+settlers. In the ninth chapter of the Memoir of Mr. Ashmun, we have given
+some account of the origin and progress of that spirit of insubordination,
+which finally resulted in an abduction by a few individuals, of a portion of the
+public stores, in open violation of the laws. Mr. Cary had no small influence and
+share in this seditious proceeding. But there is reason to believe, that in this
+conduct, prejudice and passion were permitted to usurp the place of reason,
+rather than, that he deliberately sacrificed his integrity. In communicating
+the account of this disturbance to the Board, Mr. Ashmun remarks, “The
+services rendered by Lott Cary in the Colony, who has with very few, (and
+those recent exceptions,) done honor to the selection of the Baptist Mission Society,
+under whose auspices he was sent out to Africa, entitle his agency
+in this affair, to the most indulgent construction which it will bear.
+The hand which records the lawless transaction, would long since have been
+cold in the grave, had it not been for the unwearied and painful attentions of
+this individual—rendered at all hours—of every description—and continued
+for several months.”</p>
+        <p>No sooner had Mr. Ashmun issued a circular address, exhibiting the nature the
+offence in its true light, than Mr. Cary “came forward and deplored the part he
+had taken; he felt that he had inflicted on his character, usefulness, and peace,
+a wound that could not in this world be healed, and betrayed the great confidence
+reposed in him by his pious employers and patrons at home. He acknowledged
+frankly, that his influence had seduced others, and seemed to view the evil in all
+its extent. He told the Agent it was his wish hereafter to receive no more supplies
+from the Colonization Society, and live less enthralled with secular <sic corr="connections;">connexions;</sic>
+but professed his willingness to be useful in the way the Agent thought fit to propose.
+The latter then suggested to him the care of the liberated Africans. To this
+proposition he very promptly acceded, and it is believed, he will discharge the trust
+with fidelity and ability.”<ref targOrder="U" id="ref2" n="2" rend="sc" target="note2">*</ref></p>
+        <note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2">* Mr. Ashmun.</note>
+        <p>In the summer of 1824, the writer visited the Colony, and enjoyed, during the few days
+he remained there, frequent interviews with Mr. Cary. He appeared to welcome
+the return of Mr. Ashmun at that time. He entered most cordially into the views of the
+Agents in regard to the establishment of a new form of Government. He readily
+comprehended the principles upon which it was organized, and entirely approved
+them. Seldom has the writer met with an individual of a more active or reflecting
+mind. He appeared to realize
+<pb id="cary151" n="151"/>
+the greatness of the work in which he had engaged, and to be animated by
+a noble spirit of zeal and resolution in the cause of his afflicted and
+perishing brethren. His services as physician were invaluable, and were then and
+for a long time afterwards, rendered without hope of reward.</p>
+        <p>The Managers of the American Colonization Society, in the autumn of 1825, invited
+Mr. Cary to visit the United States, in expectation that his intelligent and candid
+statements concerning the condition and prospects of the Colony, and the moral wants of
+Africa, would exert a beneficial influence on the opinions of the people of color,
+as well as recommend the cause of the Society to the public regard. In the month of
+April, 1826, he made arrangements to embark for the United States, in the ship Indian
+Chief, and received from Mr. Ashmun testimonials of his worth and services. The
+following is extracted from a letter addressed by Mr. Ashmun, to the Managers
+of the Colonization Society:</p>
+        <p>“The Rev. Lott Cary, returning by the ‘Indian Chief,’ has, in my opinion, some claims
+on the justice of the Society or Government of the United States, or both, which merit
+consideration. These claims arise out of a long and faithful course of medical services
+rendered to this Colony, (the only such services deserving much consideration, if we
+except those of Dr. Ayres and Dr. Peaco, since the commencement of the settlement,
+in 1820.)</p>
+        <p>”Mr. Cary, it is well known, came to this country in the capacity of a Missionary, from
+a Society in Richmond; and has ever since, I believe, been in the receipt of a
+considerable salary from the Society, appropriated for the express and sole intention
+of putting him in a situation to devote his time and labors to the work of the Sacred Ministry.</p>
+        <p>“It is perhaps known to the Board, that Mr. Cary has declined serving in
+any civil office, incompatible with a faithful discharge of his sacred functions;
+and it may be added, that although one of the most diligent and active of men,
+he has never had the command of leisure or strength to engage in any Missionary
+duties, besides the weekly and occasional services of the congregation.
+More than one-half of his time has been given up to the care of our sick,
+from the day I landed in Africa, to the very moment of stating the fact. He
+has personally aided in every way, that fidelity and benevolence could dictate,
+in all the attentions which all our sick have in so long a period received. His
+want of science acquired by the regular study of Medicine, he has gone a long
+way towards supplying by an unwearied diligence which few regular physicians
+think it necessary—fewer superficial practitioners, have the motives
+for exercising.</p>
+        <p>“Several times have these disinterested labors reduced him to the verge of the grave.
+The presence of other physicians has, instead of affording relief, only redoubled the
+intensity of his labors, by charging the ordinary routine of his attentions to the sick
+with the exhibition of their own prescriptions.</p>
+        <p>“Mr. Cary has hitherto received no compensation, either from the Society or the
+Government, for these services. I need not add, that it has not been in
+<pb id="cary152" n="152"/>
+his power to support himself and family by any use he
+could make of the remnants of his time left him, after
+discharging the amount of duty already described. The
+Missionary Board of Richmond have fed, clothed and
+supplied the other wants of himself and family, while
+devoting his strength and time to your sick colonists,
+and Agents in this country. Justice seems to demand that
+he should be placed in a situation as an honest man,
+to refund the whole or a part of the fund thus engrossed, not to say
+<hi rend="italics">misapplied</hi>, to the Missionary Board.</p>
+        <p>“I beg leave also to state, that on the 15th of February,
+1826, I came into an agreement with Mr. Cary, to allow
+him a reasonable compensation for his medical services,
+devoted to the then sickening company of Boston emigrants.
+His time has from the date of that agreement, to the
+present hour, been incessantly occupied in attending
+upon the sick.”</p>
+        <p>Until near the time of the Indian Chief's departure from
+the Colony, Mr. Cary cherished the hope of embarking in
+her for America. But, as there was no other physician in
+the Colony, it was finally thought best for him to postpone
+his departure to another opportunity. By the return of
+that vessel he addressed the following letter to the
+Secretary of the Society:</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“<date><hi rend="italics">Monrovia, April</hi> 24<hi rend="italics">th</hi>, 1826.</date></dateline>
+                </opener>
+                <p>“REV. AND DEAR SIR: I received your letter sent to me by
+the order of the Board of Managers of the American
+Colonization Society; and I expected until a few days
+ago that the return of the Indian Chief, would have
+enabled me in all respects to have realized their wishes—
+But on a more minute examination of the subject, Mr.
+Ashmun and myself both were apprehensive that my leaving
+the Colony at present, would endanger the lives of a
+number of the inhabitants; Mr. Ashmun, however, has made
+a full statement to the Board, which I have no doubt will
+be satisfactory to them. I think that through the blessing
+of the Almighty, I shall be able to get the last expedition
+through the fever with very little loss: we have lost only
+three, the Rev. Mr. Trueman, from Baltimore, and two
+children belonging to the Paxton family. But the emigrants
+who came out in the Vine, have suffered very much; we lost
+twelve of them. The action of the disease was more powerful
+with them than is common—they unfortunately arrived
+here in the most sickly month in the year, February. I am
+strongly of the opinion, sir, that if the people of New
+England leave there in the winter, that the transition is
+so great, that you may count upon a loss of half at least.
+They may, in my estimation, with safety, leave in the months
+from April to November, and arrive here in good time; I
+think it to be a matter of great importance; therefore I
+hope, that you will regard it as such.</p>
+                <closer><salute>“I am respectfully yours,</salute>
+<signed>“LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>Although it was the purpose of Mr. Cary to devote himself
+to Missionary efforts in Africa, yet the necessity for his
+services in the Colony was so great, that he felt it his
+duty to deny himself much of the happiness which he anticipated
+<pb id="cary153" n="153"/>
+from endeavors to bring the Native Africans, to the
+knowledge and worship of the Living and True God. He was
+elected in September, 1826, to the Vice Agency of the
+Colony, and discharged the duties of that important office
+until his death. In his good sense, moral worth, public
+spirit, courage, resolution, and decision, the Colonial Agent
+had perfect confidence. He knew, that in times of difficulty
+or danger, reliance might be placed upon the energy and
+efficiency of Mr. Cary.</p>
+        <p>The following letter addressed to the writer by Mr. Cary
+in 1827, is in his own hand writing, and is marked by that
+simple, strong good sense, for which he was distinguished.
+We give it without the alteration, even of a letter.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“JUNE 16th, 1827.</dateline>
+<salute>“<hi rend="italics">To the Rev. R. R. Gurley.</hi></salute></opener>
+                <p>“REV. AND DEAR SIR, I transmit to you a few lines, which I
+trust, may find you well. The last emigrants that you sent
+out, has fared remarkably well, as it respects the disease;
+we have only lost two children. We have several cases of
+bad ulcers; and from seeing advertised in the Compiler of
+Richmond, a medicine called Swaim's Panacea, said to be a
+sure cure for ulcers; please try if possible to procure
+some, and send out, for we should have a very healthy
+inhabitants and present, but for the prevalence of that
+<sic corr="uncontrollable">uncontrolable</sic> disease. We are also in want of Salts,
+Castor-oil, Cream of Tartar, mignesea, and Mustard, as
+much as you can send well put up. I am greatly in hopes
+to be over the next spring, and try to wake up my colored
+friends in Virginia. We have a plan in contemplation which
+if accomplished will, I think insure my making one <sic corr="visit">vissit</sic>
+to America, that is, to purchase, or aid in the purchase
+of a vessel to run constantly from this, to America, to
+bring out our own supplies, emigrants, &amp;c. I hope sir,
+when such an attempt is made you will facilitate it all
+that you can.</p>
+                <p>“I think that you would be pleased with the improvements
+that we have made since you left if you were to make
+another <sic corr="visit">vissit</sic> to this country—both our civil and
+religious state I think has improved very much. No more
+but wishing that the blessing of the Lord may attend you,
+both in your public and private life, and the Board of
+Managers, in all their administrations.</p>
+                <closer><salute>“Yours, &amp;c.</salute>
+<signed>“LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>When compelled in the early part of 1828 to leave the Colony,
+Mr. Ashmun committed the administration of the Colonial
+affairs into the hands of the Vice Agent, in the full
+belief, that no interests would be betrayed, but that
+his efforts would be constantly and anxiously directed to
+the promotion of the public good. The following extracts
+are from the Journal of Mr. Cary, after the departure of
+Mr. Ashmun:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <p>“The Colonial Agent, J. Ashmun, Esq., went on board the
+brig Doris, March 26th, 1828, escorted by three companies
+of the military, and when taking leave he delivered a
+short address, which was truly affecting; never, I suppose,
+were greater tokens of respect shown by any community
+on taking leave
+<pb id="cary154" n="154"/>
+of their head. Nearly the whole (at least two-thirds) of
+the inhabitants of Monrovia, men, women, and children,
+were out on this occasion, and nearly all parted from him
+with tears, and in my opinion, the hope of his return
+in a few months, alone enabled them to give him up. He is
+indeed dear to this people, and it will be a joyful day
+when we are again permitted to see him. He has left a
+written address, which contains valuable admonitions to
+Officers, Civil, Military, and Religious. The Brig sailed
+on the 27th. May she have a prosperous voyage.</p>
+              </div1>
+              <div1>
+                <opener>
+                  <dateline>“THURSDAY, MARCH 27.</dateline>
+                </opener>
+                <p>“Feeling very sensibly my incompetency to enter upon the
+duties of my office, without first making all the Officers
+of the Colony well acquainted with the principal objects
+which should engage our attention, I invited them to meet
+at the Agency House on the 27th, at 9 o'clock, which was
+punctually attended to; and I then read all the
+instructions left by Mr. Ashmun without reserve, and
+requested their co-operation. I stated that it would be
+our first object to put the Jail in complete order,
+secondly to have our guns and armaments in a proper
+state, and thirdly to get the new settlers located on
+their lands; as this was a very important item in my
+instructions. This explanation will, I think, have a good
+effect; as by it the effective part of the Colony is put in
+possession of the most important objects of our present
+pursuit; and I trust through the blessing of the
+great Ruler of events, we shall be able to realize all
+the expectations of Mr. Ashmun, and render entire
+satisfaction to the Board of Managers, if they can
+reconcile themselves to the necessary expenses.</p>
+              </div1>
+              <div1>
+                <opener>
+                  <dateline>“MARCH 29.</dateline>
+                </opener>
+                <p>“From a note received from Mr. James, dated Millsburg, I
+learn that he visited King Boatswain, and that the new
+road from Boatswain's to Millsburg will
+shortly be commenced.—The Headmen expect, however, to
+be paid for opening the road. Messrs. James and Cook, who
+came down this evening, state, that the Millsburg Factory
+will be ready in a few days for the reception of goods, and
+wished consignments might be made early. But as I had been
+on the 27th paying off the kings towards the Millsburg lands,
+and found that one hundred and twenty bars came so far
+short of satisfying them, I thought best to
+see them together before I should attempt to make
+any consignments to that place.</p>
+              </div1>
+              <div1>
+                <argument>
+                  <p>[The following is a copy of a deed between Lott Cary, acting
+in behalf of the American Colonization Society, on the
+one part; and the after mentioned Kings, of the other part.]</p>
+                </argument>
+                <p>“KNOW all men by these presents: That we, Old King Peter,
+and King Governor, King James, and King Long Peter, do on
+this fourth day of April, in the year of our Lord one
+thousand eight hundred and twenty-eight, grant unto
+Lott Cary, acting Agent of the Colony of Liberia, in behalf
+of the American Colonization Society, to wit:</p>
+                <p>“All that tract of Land on the north side of St. Paul's river, beginning at
+<pb id="cary155" n="155"/>
+King James' line below the establishment called Millsburg
+Settlement, and we the Kings as aforesaid do bargain, sell,
+and grant, unto the said Lott Cary, acting in behalf of
+the American Colonization Society, all the aforesaid tract
+of Land, situated and bounded as follows: by the St. Paul's
+river on the South, and thence running an East Northeast
+direction up the St. Paul's river, as far as he, the said
+Lott Cary or his successor in the Agency, or Civil
+Authority of the Colony of Liberia, shall think proper to
+take up and occupy; and bounded on the West by King Jimmey's,
+and running thence a North direction as far as our power
+and influence extend. We do on this day and date, grant
+as aforesaid for the consideration [here follow the articles
+to be given in payment]; and will forever defend the
+same against all claims whatsoever.</p>
+                <closer><salute>“In witness whereof we set our hands and names:</salute>
+<signed>OLD X KING PETER,</signed>
+<signed>LONG X KING PETER,</signed>
+<signed>KING X GOVERNOR,</signed>
+<signed>KING X JAMES.</signed>
+</closer>
+                <closer><salute> “Signed in the presence of,</salute>
+<signed>ELIJAH JOHNSON,</signed>
+<signed>FREDERICK JAMES,</signed>
+<signed>DANIEL GEORGE.”</signed></closer>
+              </div1>
+              <div1>
+                <opener>
+                  <dateline>“JUNE 18, 1828.</dateline>
+                </opener>
+                <p>“I found it in order to preserve the frame of the second
+floors of the Government House, to have the frame and
+ceiling painted, which is now doing. I have also been
+obliged to employ another workman to make the blinds,
+or else leave the house exposed the present season, as——refused
+to do it under the former contract. On the 13th I visited
+Millsburg,<ref targOrder="U" id="ref3" n="3" rend="sc" target="note3">*</ref> to ascertain the prospects of that settlement;
+and can say with propriety, that according to the
+quantity of land which the settlers have put under
+cultivation, they will reap a good and plentiful crop.
+The Company's crop of rice and cassada is especially
+promising. The new settlers at that place have done well;
+having all, with two or three exceptions, built houses,
+so as to render their families comfortable during the
+season. They have also each of them a small farm, which
+I think after a few months will be sufficient to subsist
+them. But I find from a particular examination, that we
+shall be obliged to allow them to draw rations longer
+than I expected, owing to the great scarcity of country
+produce, the cassada being so nearly exhausted, that it
+is, and will be, impossible to obtain, until new crops
+come in, much to aid our provisions, unless by going
+some distance into the country. Therefore I think it
+indispensably necessary, in order to keep the settlers to
+their farming improvements, to continue their
+rations longer than I at first intended; as I consider
+the present too important a crisis to leave them to
+neglect their improvements, although it may add something
+to our present expenses.</p>
+                <note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3">* Mills &amp; Burgess.</note>
+                <p>“The people at Caldwell are getting on better with their
+farms than with
+<pb id="cary156" n="156"/>
+their houses. I think some of them are very slow, notwithstanding I have
+assisted them in building. The Gun House at Caldwell is done, and at present
+preparations are making for the fourth of July. I think that settlement generally, is
+rapidly advancing in farming, building, and I hope, in industry. Our gun carriages
+are done; the completion of the iron work alone prevents us from mounting them
+all immediately. We have four mounted, and I think we shall put them all in
+complete order by the end of the present week.</p>
+                <p>“Captain Russel will be able to give something like a fair account of the state
+of our improvements, as he went with me to visit the settlements on the 13th and
+14th, and seemed pleased with the prospect at Millsburg, Caldwell and the Half-way Farms.</p>
+                <p>“Mr. Warner, who has been engaged nearly the whole of the last twelve
+months on business of negotiating with the native tribes to the leeward, is at
+present down at Tippicanoe, the place which I mentioned in my former
+communications, as being a very important section of country, since it would
+connect our Sesters and Bassa districts together. He is not however now
+engaged in business of negotiation, but only in business of trade.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>In his letter to the lamented Mr. Ashmun, Mr. Cary states—</p>
+        <p>“Things are nearly as you left them; most of the work that you directed to be
+done, is nearly accomplished. The plasterers are now at work on the
+Government House, and with what lime I am having brought down the river, and
+what shells I am getting, I think we shall succeed.</p>
+        <p>“The Gun House in Monrovia and the Jail have been done for some weeks; the
+mounting of the guns will be done this week, if the weather permits.</p>
+        <p>“The Houses at the Half-way Farms are done; the Gun House at Caldwell
+would have been done at this time, had not the rain prevented, but I think it will
+be finished in three or four days. The public farm is doing pretty well. The
+Millsburg farms are doing very well. I think it would do you good to see that
+place at this time.</p>
+        <p>“The Missionaries, although they have been sick, are now, I am happy to
+inform you, recovered; and at present are able to attend to their business, and I
+regard them as entirely out of danger.</p>
+        <p>“I hope we shall be able to remove all the furniture into the new house in two
+or three weeks.”</p>
+        <p>June 25th, Mr. Cary writes—</p>
+        <p>“About three o'clock to-day, there appeared three vessels—two brigs and a
+schooner. The schooner stood into the Roads, and one of the brigs near in, but
+showed no colours until a shot was fired by Captain Thompson; when she
+hoisted Spanish colours, and the schooner the same. All their movements
+appeared so suspicious, that we turned out all our forces to-night.—About eight
+this evening it was reported that they were standing out of our Roads; and at
+sunset, that the schooner had come to anchor very near the “All Chance,” from
+Boston; and that the brig which had passed the Cape, had put about and was
+standing up, trying to double the Cape; and that the third vessel (a brig) was
+standing down for the Roads. The first mentioned brig showed nine
+<pb id="cary157" n="157"/>
+<hi rend="italics">ports</hi> a side. From all these circumstances I thought best to have Fort Norris
+Battery manned, which was immediately done by Captain Johnson. I also
+ordered out the two volunteer companies to make discoveries around the town,
+and the Artillery to support the guns, and protect the beach; which orders were
+promptly executed, and we stood in readiness during the night. At daylight the
+schooner lay at anchor and appeared to be making no preparations to
+communicate with us; I then ordered a shot to be fired at a little distance from
+her, when she sent a boat ashore with her Captain, Supercargo, and Interpreter.
+She reported herself the Joseph, from Havana, had been three months on the
+coast trading, but <hi rend="italics">not for slaves</hi>, had one gun, and twenty-three men. Also, that
+the brig was a patriotic brig in chase of her, and that through fear she had taken
+shelter under our guns. The Captain wished a supply of wood and water; but I
+told him I knew him to be engaged in the slave trade, and that, though we did not
+pretend to attempt suppressing this trade, we would not aid it, and that I allowed
+him one hour, and one only, to get out of the reach of our guns. He was very
+punctual, and I believe before his hour.”</p>
+        <p>Speaking of the celebration of the Fourth of July in the Colony, under date of
+the 15th July, Mr. Cary remarks—</p>
+        <p>“The companies observed strictly the orders of the day, which I think were so
+arranged as to entitle the officers who drew them up to credit. Upon the whole, I
+am obliged to say, that I have never seen the American Independence celebrated
+with so much spirit and propriety since the existence of the Colony; the guns
+being all mounted and painted, and previously arranged for the purpose, added
+very much to the grand salute. Two dinners were given, one by the Independent
+Volunteer Company, and one by Captain Devany.”</p>
+        <p>To the Secretary of the Society, July 19th, Mr. Cary writes—</p>
+        <p>“I have the honour to acknowledge the receipt of your letter, forwarded by
+Captain Chase of Providence, also your Report and Repository, directed to Mr.
+Ashmun, but owing to his absence, they have fallen into my hands; and permit me
+to say, that these communications are read with pleasure, and that nothing
+affords more joy to the Colony, than to hear of the prosperity of the
+Colonization Society, and that you have some hopes of aid from the General
+Government, which makes us more desirous to enlarge our habitation and extend
+the borders of the Colony.</p>
+        <p>“I must say, from the flattering prospects of your Society, I feel myself
+very much at a loss how to proceed, in the absence of Mr. Ashmun, with regard
+to making provisions for the reception of a large number of emigrants,
+which appears to be indispensably necessary. Therefore, after receiving your
+communication, we conceived the following to be the most safe and prudent
+course. <hi rend="italics">First</hi>, to make arrangements to have erected at Millsburg, houses to
+answer as receptacles sufficient to shelter from one hundred and fifty to two
+hundred persons. I have therefore extended the duties of Mr. Benson so as
+to embrace that object. I was led to this course from the following considerations.
+<hi rend="italics">First</hi>, from the productiveness of the Millsburg lands and the fewness
+<pb id="cary158" n="158"/>
+of their inhabitants. I know if Mr. Ashmun were present, it would be a
+principal object with him to push that settlement forward with all possible
+speed, and that for this purpose, he would send the emigrants by the first two or three
+expeditions to that place. I think that those from the fresh water
+rivers, if carried directly after their arrival here, up to Millsburg would suffer
+very little from change of climate. <hi rend="italics">Second</hi>, the fertility of the land is such a temptation
+to the farmer, that unless he possesses laziness in its extreme degree, he cannot
+resist it; he must and will go to work. <hi rend="italics">Thirdly</hi>, it is important to
+strengthen that settlement against any possible attack; and though we
+apprehend no hostilities from the natives, yet we would have each settlement
+strong enough to repel them.</p>
+        <p>“I am happy to say, that the health, peace and prosperity of the Colony, I think, is
+still advancing, and I hope that the Board of Managers may have
+their wishes and expectations realized to their fullest extent,
+with regard to the present and future prosperity of the Colony.”</p>
+        <p><hi rend="italics">July</hi> 17.—“If I could be allowed one suggestion to the Board of Managers,
+I would mention the importance of having here for the use of the Colony, a
+vessel large enough to run down as low as Cape Palmas. It would, I think
+be found to save a very great expense to the Society. She might occasionally run
+up also to Sierra Leone.</p>
+        <p>“Until we can raise crops sufficient to supply a considerable
+number of new comers every year, such an arrangement as will enable
+us to proceed farther to the leward than we have ever done, in order to procure supplies,
+will be indispensably necessary; as there we can procure Indian Corn, Palm
+Oil, and live stock. For these, neither the slave traders nor others, give
+themselves much. Corn can be bought there for from fifteen to twenty cents
+per bushel. Fifteen or twenty bushels which I bought of Captain Woodbury,
+I have been using instead of rice for the last two months. Besides, it can be ground
+into meal, and would be better than any that can be sent. Upon the
+supposed inquiry, will not the lands of the Colony produce Corn? they will
+produce it in abundance; but with the quantity of lands appropriated at present,
+and the means to cultivate them, each land-holder will, I think, be able
+to raise but little more than may be required by his own family, and consequently
+will have little to dispose of to new comers.<ref targOrder="U" id="ref4" n="4" rend="sc" target="note4">*</ref></p>
+        <note id="note4" n="4" rend="sc" place="foot" anchored="yes" target="ref4">* It has been resolved by the Board of Managers to increase the quantity of
+land allotted to each settler.</note>
+        <p>“Permit me to inform the Board, that proposals have been made by a number of very
+respectable citizens in Monrovia, to commerce a settlement near the head of the
+Montserado River, which would be a kind of farming-establishment; which, should it
+be the pleasure of the Board to approve, would be followed up with great spirit,
+and found to contribute largely towards increasing our crops, for the soil is very
+promising.”</p>
+        <p>But amid his multiplied cares and efforts for the Colony, he never forgot or
+<pb id="cary159" n="159"/>
+neglected to promote the objects of the African Missionary Society, for which
+he had long cherished the strongest attachment. His great object in emigrating to Africa,
+was to extend the power and blessings of the Christian Religion.
+Before his departure from Richmond, a little Church of about half a dozen
+members was formed by himself, and those who were to accompany him. He
+became the Pastor of this Church in Africa, and saw its numbers greatly increased.
+Most earnestly did he seek access to the Native Tribes, and endeavor
+to instruct them in the doctrines and duties of that religion, which in his own
+case, had proved so powerful to purify, exalt and save. In one or two instances
+hopeful conversion from heathenism, he greatly rejoiced; and many
+of his latest and most anxious thoughts were directed to the establishment of
+native schools in the interior. One such school, distant seventy miles from
+Monrovia, and of great promise, was established through his Agency, about a year
+before his death, and patronized and superintended by him until that mournful
+event. On this subject, by his many valuable communications to the Missionary
+Board, “he being dead yet speaketh” in language which must affect the heart of
+every true Christian disciple.</p>
+        <p>Mr. Cary was thrice married; about the year 1813, his first wife died, and
+soon afterwards he bought himself and two little children for $850.<ref targOrder="U" id="ref5" n="5" rend="sc" target="note5">*</ref> He lost his
+second wife shortly after his arrival in Africa, at Fourah Bay, near Sierra Leone.
+Of her triumphant death, he gives a touching account in his journal. His third
+wife died before him at Cape Montserado.</p>
+        <note id="note5" n="5" rend="sc" place="foot" anchored="yes" target="ref5">* The manner in which he obtained this sum of money to purchase himself and
+children, reflects much credit on his character. It will be seen from the salary he
+received after he was free, and which he relinquished for the sake of doing
+good in Africa, that his services at the warehouse were highly estimated, but of
+their real value no one except a dealer in tobacco can form an idea.
+Notwithstanding the hundreds of hogsheads that were committed to his charge,
+he could produce any one the instant it was called for; and the shipments were
+made with a promptness, and correctness, such as no person, white or black,
+has equalled in the same situation. For this correctness and fidelity, he
+was highly esteemed, and frequently rewarded by the merchant with a five
+dollar note. He was allowed also to sell for his own benefit, many small parcels
+of waste tobacco. It was by saving the little sums obtained in this way,
+with the aid of a subscription by the merchants to whose interests he had
+been attentive, that he procured this $850, which he paid for the freedom of
+himself and children. When the Colonists were fitted out for Africa, he defrayed
+a considerable part of his own expense.</note>
+        <p>For six months after the first departure of Mr. Ashmun, from the Colony,
+Mr. Cary stood at its head, and conducted himself with such energy and wisdom
+as to do honor to his previous reputation, and fix the seal upon his enviable fame.</p>
+        <p>On his death bed, Mr. Ashmun urged that Mr. Cary should be permanently
+appointed to conduct the affairs of the Colony, expressing perfect confidence
+in his integrity and ability for that great work. But, alas! he was suddenly
+and unexpectedly, and in a distressing manner, forced from life in all its vigor,
+into the presence of his final Judge.</p>
+        <pb id="cary160" n="160"/>
+        <p>The circumstances of this melancholy event were these. The Factory belonging to the Colony
+at Digby, (a few miles North of Monrovia,) had been robbed by the natives; and satisfaction being
+demanded, was refused. A slave trader was allowed to land his goods in the
+very house where the goods of the Colony had been deposited, and a letter of
+remonstrance and warning directed to the slave dealer, by Mr. Cary, was actually
+intercepted and destroyed by the natives. In this state of affairs, Mr. Cary considered
+himself solemnly bound to assert the rights and defend the property of the Colony. He
+therefore called out instantly, the military of the settlements, and commenced
+making arrangements to compel the natives to desist from their injurious and
+unprovoked infringements upon the territory and rights of the Colony. On
+the evening of the 8th of November, while Mr. Cary and several others were
+engaged in making cartridges in the old Agency house, a candle appears to have
+been accidentally upset, which caught some loose powder and almost
+instantaneously reached the entire ammunition, producing an explosion, which
+resulted in the death of eight persons. Six of the unfortunate sufferers survived
+until the 9th, and Mr. Cary and one other, until the 10th. The house
+(which was, however, of little value,) was entirely destroyed.</p>
+        <p>The tidings of Mr. Ashmun's death had not reached the Colony until after the decease
+of Mr. Cary. How unexpected, how interesting, how affecting
+the meeting of these two individuals, (so long united in Christian fellowship,
+in benevolent and arduous labors,) in the world of glory and immortality!</p>
+        <p>It has been well said of Mr. Cary, that “he was one of nature's noblemen;”
+had he possessed the advantages of education, few men of his age would have
+excelled him in knowledge or genius.</p>
+        <p>The features and complexion of Mr. Cary were altogether African. He was
+diffident, and showed no disposition to push himself into notice. His words were
+few, simple, direct, and appropriate. His conversation indicated rapidity and
+clearness of thought, and an ability to comprehend the great and variously-related
+principles of Religion and Government.</p>
+        <p>To found a Christian Colony which might prove a blessed asylum to his degraded
+brethren in America, and enlighten and regenerate Africa, was, in hi view,
+an object with which no temporal good, not even life could be compared. The
+strongest sympathies of his nature were excited in behalf of his unfortunate
+people, and the Divine promise cheered and encouraged him in his labors for their
+improvement and salvation. A main pillar in the Society and Church of Liberia has
+fallen! But we will not despond. The memorial of his worth shall never perish. It
+shall stand in clearer light, when every chain is broken, and Christianity shall have
+assumed her sway over the millions of Africa.</p>
+        <trailer>THE END.</trailer>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

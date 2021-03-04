@@ -1,0 +1,3177 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY branch104 SYSTEM "branch104.gif" NDATA gif>
+<!ENTITY branchcv SYSTEM "branchcv.gif" NDATA gif>
+<!ENTITY branchfp SYSTEM "branchfp.gif" NDATA gif>
+<!ENTITY branch25 SYSTEM "branch25.gif" NDATA gif>
+<!ENTITY branch31 SYSTEM "branch31.gif" NDATA gif>
+<!ENTITY branch35 SYSTEM "branch35.gif" NDATA gif>
+<!ENTITY branch45 SYSTEM "branch45.gif" NDATA gif>
+<!ENTITY branch59 SYSTEM "branch59.gif" NDATA gif>
+<!ENTITY branch64 SYSTEM "branch64.gif" NDATA gif>
+<!ENTITY branch72 SYSTEM "branch72.gif" NDATA gif>
+<!ENTITY branch74 SYSTEM "branch74.gif" NDATA gif>
+<!ENTITY branch78 SYSTEM "branch78.gif" NDATA gif>
+<!ENTITY branchtp SYSTEM "branchtp.gif" NDATA gif>
+<!ENTITY branch82 SYSTEM "branch82.gif" NDATA gif>
+<!ENTITY branch90 SYSTEM "branch90.gif" NDATA gif>
+<!ENTITY branch92 SYSTEM "branch92.gif" NDATA gif>
+<!ENTITY branch94 SYSTEM "branch94.gif" NDATA gif>
+<!ENTITY branch96 SYSTEM "branch96.gif" NDATA gif>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><hi rend="bold">Memoirs</hi> of a Southern Woman
+"Within the Lines": Electronic Edition</title>
+        <author>Branch,
+Mary Jones Polk</author>
+        <funder>Funding from the Library of Congress/Ameritech National Digital
+Library Competition  supported the electronic publication of this
+title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Heather Bumbalough</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Jill Kuhn</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Jill Kuhn and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1998</date></edition>
+      </editionStmt>
+      <extent>ca. 300K</extent>
+      <publicationStmt>
+        <publisher>University Library, UNC-Chapel Hill</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill,</pubPlace>
+        <date>1998.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the
+University of North Carolina
+at Chapel Hill. It may be used freely by individuals for research,
+teaching and personal use as long as this statement of availability
+is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number  C929.2 P76b 1912  
+(North Carolina Collection, UNC-Chapel Hill)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title><hi rend="bold">Memoirs</hi> of a Southern Woman
+"Within the Lines"</title>
+          <author>Branch, Mary Polk</author>
+          <imprint>
+            <pubPlace>Chicago, </pubPlace>
+            <publisher>The Joseph G.
+Branch Co.,</publisher>
+            <date>1912</date>
+          </imprint>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This electronic edition is a part of the University of North Carolina at Chapel Hill digital library, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been
+removed, and the trailing part of a word has been joined to the
+preceding line.</p>
+        <p>All quotation marks and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ”
+and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’
+and ‘ respectively.</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings </title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="fr">French</language>
+        <language id="la">Latin</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Branch, Mary Polk.</item>
+            <item>Polk family.</item>
+            <item>Women -- Tennessee -- Biography.</item>
+            <item>Women -- Tennessee -- Social life and customs.</item>
+            <item>Southern States -- Social life and customs.</item>
+            <item>Tennessee -- Social life and customs.</item>
+            <item>Tennessee -- History -- Civil War, 1861-1865 -- Personal
+narratives.</item>
+            <item>United States -- History -- Civil War, 1861-1865 -- Personal
+narratives, Confederate.</item>
+            <item>Southern States -- Genealogy.</item>
+            <item>Tennessee -- Genealogy.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1998-02-28, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1998-02-10, </date>
+        <respStmt>
+          <name>Jill Kuhn  </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1998-02-01, </date>
+        <respStmt>
+          <name>Heather Bumbalough </name>
+          <resp/>
+        </respStmt>
+        <item>finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cover" entity="branchcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece">
+        <p>
+          <figure id="frontis" entity="branchfp">
+            <p>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="branchtp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><hi rend="bold">MEMOIRS</hi>
+<lb/>
+OF A SOUTHERN WOMAN<lb/>
+“WITHIN THE LINES”</titlePart>
+          <titlePart type="subtitle">AND
+A GENEALOGICAL RECORD</titlePart>
+        </docTitle>
+        <docAuthor>By Mary Polk Branch</docAuthor>
+        <docImprint><publisher>THE JOSEPH G. BRANCH
+PUBLISHING CO.</publisher>
+<pubPlace>Publishers, Chicago</pubPlace></docImprint>
+        <titlePart type="verso">Copyright, 1912,<lb/>
+by
+<lb/>
+JOSEPH G. BRANCH.</titlePart>
+      </titlePage>
+      <div1 type="foreword">
+        <head>FOREWORD.</head>
+        <p>THIS little book is written for my children and the
+descendants of those whose lives are herein
+chronicled.</p>
+        <p>From its perusal may they learn still more to
+reverence the memory of their forefathers, and to prize
+the heritage left by them of noble and honorable lives.</p>
+        <p>To this record I have added my memories of the
+home of my youth, under Southern skies. Then later
+the experiences of a Southern woman during the Civil
+War, <hi rend="italics">“within the lines.”</hi></p>
+        <p>This long retrospect of mine, a retrospect of eighty
+years, portrays faithfully life in the South as it was in
+ante-bellum times, and afterward in her mourning
+vestments, the beautiful, heroic South.</p>
+        <p>I write with a loving hand as I pay this tribute to the
+past.</p>
+        <closer><signed><name>MARY POLK BRANCH.</name></signed><lb/>
+<dateline>December, 1911.</dateline></closer>
+      </div1>
+    </front>
+    <pb id="branch7" n="7"/>
+    <body>
+      <div1 type="text">
+        <head>MEMOIRS<lb/>
+OF A SOUTHERN WOMAN</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <head>IN ANTE-BELLUM DAYS.</head>
+          <p>My father, Dr. Wm. Julius Polk, was married to my
+mother, Mary Rebecca Long, at Mt. Gallant, Halifax
+County, North Carolina, in 1814.</p>
+          <p>Mt. Gallant was an estate, inherited by my mother,
+from her grandfather, Gen. Allen Jones. In 1828 they
+moved from North Carolina to Columbia, Tennessee,
+where five brothers had already preceded my father  - 
+making their homes on plantations near the town. My
+father was a devoted member of the Episcopal church,
+and noted for the purity and integrity of his character  - 
+his word being considered “as good as 
+his bond.”</p>
+          <p>He was elected again and again president of the
+First Bank, in Columbia, and for years trustee of the
+old St. Peter's church.</p>
+          <p>My mother was an able assistant in all good works,
+and the blameless lives of this old couple were
+marked by deeds of neighborly kindness, charity and
+hospitality, for which the South was so noted in ante-bellum days.</p>
+          <p>Their nearest neighbor was Bishop Otey, who lived
+on an adjoining place, called Ravencroft, and as both
+he and my father had a keen sense of humor, many a
+good joke had they at the expense of the other.</p>
+          <pb id="branch8" n="8"/>
+          <p>My mother and the bishop, both fine chess players,
+usually ended the evening with a hotly contested
+game of chess  -  the victor triumphant and the
+vanquished insisting that the battle should be
+renewed at a later day.</p>
+          <p>My mother was a woman of beauty and unusual
+courage. She needed it as she said farewell to her three
+soldier sons, and bade them do their duty. But she had
+higher attributes than courage  -  the charity which
+thinketh no evil, the love which includes the sinning
+and the sinless, recognizing the stumbling blocks that
+beset our path. All beautiful things appealed to her,
+flowers and poetry. She often recited verses that she
+had learned in her youth. She seemed to me to be a link
+connecting us to a far-off period, binding the present
+to the past. The rare courtesy of her manner, which
+told of her gentle breeding, combined with a slight
+formality, which, while very kindly, precluded any
+familiarity. As I have looked at her lovely old face I
+have thought her the embodiment of all the virtues of
+her race. In her ninetieth year she joined the great
+caravan, and now, with the husband of her youth, as
+much of her as <hi rend="italics">could</hi> die awaits the resurrection, at St.
+John's cemetery.</p>
+          <p>My father first rented the house owned by his
+cousin, then Governor of Tennessee, James K. Polk,
+afterwards President of the United States. Then he
+bought a home, which I owned later, at present the
+property of Mrs. Towler. At this house, at the dinner
+table, was first proposed the building of the Columbia
+Female Institute. Present upon this occasion was
+Bishop Otey and my
+<pb id="branch9" n="9"/>
+uncle, Leonidas Polk, who was afterwards bishop of
+Louisiana. The building was partly finished in 1836,
+and I was carried there by my nurse to be entered as a
+scholar.</p>
+          <p>Preparatory to the coming of the Rev. F. G. Smith,
+who was first principal, his assistant teacher taught
+the school in a room back of the old St. Peter's church.
+The church was the second house at the corner of
+Garden street next to the old Masonic hall. The lady
+whose portrait is at the Institute was Mrs. Shaw, of
+Philadelphia; her daughter, a beautiful young woman,
+taught music. She was engaged to be married to the
+Rev. Mr. Odenheimer, then pastor of St. Peter's church
+on Second street, in Philadelphia; afterwards he
+became Bishop Odenheimer, of New Jersey.</p>
+          <p>An event of those early days was a reception on the
+Institute grounds to President Andrew Jackson. He
+was on his way to visit his niece, Mrs. Lucias Polk, at
+“Hamilton Place,” accompanied by Paulding, the
+novelist. I do not know why he should have selected
+Paulding as a companion, as Paulding was not a
+politician. On the important occasion two little girls
+were chosen to present bouquets to the distinguished
+visitors. Accordingly, little Kittie Puryear, and I, in our
+best white frocks, and with our hair curled, presented
+them. One bouquet was given to General Jackson,
+mine to Paulding, who sent me a little poem in
+response. This was, I think, in 1840.</p>
+          <p>Two years later my cousin, Sarah Jackson Polk, and
+I were sent to a French school in New
+York  -  Madame Canda's  -  and afterwards to a
+<pb id="branch10" n="10"/>
+school in Philadelphia. This cousin, who married my
+mother's nephew, Robin ap C. Jones, was one of the
+loveliest characters I have ever known, and the dearest
+friend of my life. We went to Nashville on our way to
+Philadelphia, in our carriages, dining at Cartright's,
+near Springhill; stayed all night at a place a mile from
+Franklin, and next morning proceeded to Nashville, a
+distance of forty miles which now takes three hours to
+travel. There we took passage on a small stern-wheel
+boat  -  there was no stateroom, and we slept in a large
+ladies' cabin with berths piled one above another. Our
+party was composed of my uncle, Lucias Polk, his
+daughter (my cousin Sarah), Miss Dorothy Dix and
+myself.</p>
+          <p>Miss Dix, the noted philanthropist, had known my
+uncle in Nashville, where he occupied some public
+position, in the legislature, I think. Her visit to
+Nashville was to petition the legislature to build an
+asylum for the insane. She had visited every State for
+that purpose, traveling alone, yet, she said, had never
+met with the slightest discourtesy. She was from
+Boston, and had been engaged to be married, and her
+lover became insane. She visited him, found him in a
+cell with a rock floor; not a comfort; treated as though
+he were a criminal. She then began the crusade to
+which she devoted her life, and through her
+instrumentality asylums were built in many cities where
+before the insane had been confined in jails. I think
+through her efforts the asylum in Nashville was
+founded. This was about 1847.</p>
+          <p>She was charming in appearance, and her
+<pb id="branch11" n="11"/>
+sweet voice had a soothing effect upon maniacs. She
+often sang to them.</p>
+          <p>In Philadelphia we were invited to the homes of
+many of her friends, and introduced to some
+celebrities through her kindness, among others,
+Doctor Hare, and I had the pleasure of dancing with
+Weir Mitchell at his father's house.</p>
+          <p>After the return of my cousin and myself to
+Tennessee our lives were like most Southern girls of
+that period. Wealthy Southerners usually resided on
+their plantations, and visited friends in their carriages,
+many miles apart, staying two or three days. Some of
+these carriages were very handsome, and drawn by
+four horses, as were those of my uncles, George and
+Andrew.</p>
+          <div3 type="subchapter">
+            <head>The Old Southern Mammy.</head>
+            <p>In the “quarters,” as the negro cabins were called,
+there was usually a band, which played at night for the
+“white folks” to dance. “Old Master” always led off in
+the “Virginia Reel.” Negroes are always fond of music,
+and as they would play “Jim Crack Corn, I Don't Care,”
+or “Run, Nigger Run,” or “The Patrolers Will Catch
+You,” or some other especial favorite, they would
+become wildly excited and beat the tambourines over
+their heads.</p>
+            <p>Our nurses we always called “Mammy,” and it was
+not considered good manners to address any old
+negro man or woman otherwise than as “uncle” or
+“aunt,” adding the name whatever that might be  -  the
+surname was always the master's. We were taught to
+treat them with respect.</p>
+            <pb id="branch12" n="12"/>
+            <p>There was such a kindly feeling on both sides
+between the owners and their slaves  -  inherited
+kindly feelings. How could it be otherwise? Many
+were descendants of those who had served
+in the same family for generations  -  for instance, the
+nurse who nursed my children was the daughter of my
+nurse, and her grandmother had nursed my mother.
+My maid, Virginia (I can not recall the time when she
+was not my maid) was a very handsome young mulatto
+to whom I was especially attached. When she was
+married in her white dress and long veil flowing to her
+feet, the ceremony was performed in our back parlor,
+and Bishop Otey, the first bishop of Tennessee,
+officiated.</p>
+            <p>How great the pride the negroes felt in the wealth
+and importance of their owners, and interest indeed in
+all of their affairs, amusingly so, sometimes! I recall an
+old woman, coal black, a red bandanna handkerchief
+tied over her kinky locks, and great dignity of manner,
+she said to me: “Young missis should marry her
+cousin, Marse Tom, and keep our family likeness in
+our family.”</p>
+          </div3>
+          <div3 type="subchapter">
+            <head>Our Social Life.</head>
+            <p>Indeed, ours was a gay and free-from-care life. I can
+recall delightful summers at Old Point Comfort, and the
+Greenbrier White, in Virginia  -  winters in which I
+journeyed from my father's plantation, near Helena,
+Arkansas, to New Orleans.</p>
+            <p>There were palatial boats on the Mississippi river
+then, for there was no other way to reach
+<pb id="branch13" n="13"/>
+New Orleans. At each landing, often at night, lighted
+by the pine torches on the bank, the roustabouts
+would roll aboard the heavy bales of cotton, singing
+as they crossed the gangway their gay negro songs,
+often throwing piles of wood into the roaring furnace
+as they raced with some other boat, which they were
+trying to pass, amid shouts of triumph, or cries of
+defiance for the rival firemen.</p>
+            <p>At their nearest landing, planters would come
+aboard with their wives and daughters to do their
+annual shopping in the “city,” and the big boat
+would plow its way down the broad river with gay
+passengers laughing, dancing, singing, and many a
+love tale, told upon the guards until it rounded at the
+dock of delightful New Orleans  -  the city of camelias,
+cape jasmines and violets.</p>
+            <p>But sailing down the broad Mississippi was not
+always an unalloyed pleasure, sometimes there were
+terrible experiences.</p>
+            <p>I recall how my bright and beautiful cousin, Mary
+Brown Polk, and I started from Nashville on “The
+America,” for New Orleans.</p>
+            <p>After an evening of dancing and cards, we retired to
+our staterooms. It was quite late, and most of the
+passengers, including our chaperones, had already
+sought their berths.</p>
+            <p>All at once there was a cry of “Fire!” and looking
+out we saw a man dashing down the cabin, while the
+carpet rose beneath his feet from the gusts of March
+wind, while he cried to the sleeping passengers:
+“Fire!”</p>
+            <p>Hand in hand, my cousin and I ran to the
+<pb id="branch14" n="14"/>
+deck. Around us women were shrieking wildly, in every
+stage of undress. Men were getting from their trunks
+money and valuables, for the boat seemed doomed.</p>
+            <p>The angry river, lashed by the wind, bore upon its
+troubled surface bales of burning cotton, which burst
+as they were thrown into the water, and floated off
+like little boats afire, lighting the dark and threatening
+river. The pilot was ordered to land, threatened and
+implored, but he was obdurate. He kept the boat to the
+middle of the stream. He said: “The river has
+overflowed its banks from the heavy rains, and the boat
+would be burned before we could reach the landing.”
+He turned the boat so the wind swept through the deck,
+carrying the flames far from the guards, which were covered
+with wet blankets, so to the strong winds we owed
+our salvation.</p>
+            <p>When the morning came, lovely and calm, as it if to
+compensate for the terrors of the night, we floated on
+our way to New Orleans, the beautiful metropolis of
+the South.</p>
+            <p>At Greenville, Mississippi, a large party came on
+board, of young planters paying their annual visit to
+their commission merchants, or with their sisters and
+sweethearts, going to enjoy the gaieties of the city.</p>
+            <p>Formerly all families of any prominence in the South
+knew of each other, so we soon formed one party, and
+they added much to our enjoyment.</p>
+          </div3>
+          <pb id="branch15" n="15"/>
+          <div3 type="subchapter">
+            <head>Some Famous Beauties.</head>
+            <p>Patti was then on her first visit to New Or-
+leans. She was very young, and accompanied by her
+sister, Amalia Patti, whose husband, Strakosch,
+played their accompaniments for them. I remember
+how she pouted at some little thing that did not please
+her.</p>
+            <p>The most beautiful assemblage of women I
+have ever seen I then saw. There was Madame
+Yznaga; I had known her as a schoolmate as Ellen
+Clement. Her husband was a Cuban planter, and she
+owned plantations on the Yazoo River, which had
+taken her South. Her sympathies were strongly
+Southern, and I heard of her playing the banjo and
+singing Dixie songs when abroad during the war. She
+was the mother of the Duchess of Manchester, and
+grandmother of the young Duke, who married Miss
+Zimmerman, of Cincinnati.</p>
+            <p>Among the beauties was Miss Sallie Ward, of
+Louisville, with the soft warm coloring and blue eyes
+which Kentuckians often inherit from their Virginia
+ancestry.</p>
+            <p>Then the Tennesseans, a very different type,
+with clearly cut, regular features, brunettes, and slight,
+graceful forms, brilliant eyes, but not with the languor
+which characterized the creoles.</p>
+            <p>While admiring them, a gentleman said: “No one
+here compares with Madame Bienvenu,” and looking
+where I was directed I certainly saw a beautiful
+woman. I was told she was sixty, but it was beyond
+belief, although upon her shapely head were piled puffs
+of snowy hair.
+<pb id="branch16" n="16"/>
+Her large, velvety eyes had a lovely expression, her
+creamy-white skin with but little color, but her lips
+were crimson. Her neck and arms showed to
+advantage in the black velvet gown by contrast, and a
+single white camelia she wore as a bouquet de
+corsage. I admired her enthusiastically.</p>
+            <p>The next summer I went to the “Greenbrier White,”
+in Virginia, with my uncle, Andrew Polk, his wife and
+daughter, then a child, Antoinette Polk, afterward the
+Baronne de Charette. There could not have been a
+more delightful place. Brilliant belles from all over the
+South  -  gay cavaliers, chivalric and courteous. I recall
+my saying: “There is nothing more I wish for on earth;
+I am perfectly happy.”</p>
+          </div3>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER II.</head>
+          <p>It was on the morning of November 29, 1859, that
+Col. Joseph Branch and I were married at “Buena
+Vista,” my father's, afterwards my, home, at Columbia,
+Tennessee. Colonel Branch was finely educated,
+benevolent and honorable, and I may be excused for
+saying, handsome, though I have now no photograph
+of him.</p>
+          <p>Every advantage had been given him by his uncle,
+Governor Branch, of Florida, his guardian, who was
+Secretary of the Navy under Jackson. First he was
+sent to Chapel Hill, North Carolina; afterwards to
+Princeton, where he graduated as valedictorian, about
+1835, in a warm contest between a Northern and
+Southern champion. His
+<pb id="branch17" n="17"/>
+brother Laurence was salutatorian, afterwards
+Congressman for many years from North Carolina, and
+in the war brigadier-general. He was killed at
+Sharpsburg. The two brothers, after their
+matriculation, went to their uncle's home, “Live Oak,”
+in Tallahassee, and practiced law together.</p>
+          <p>Colonel Branch was very successful; a member of
+the legislature at twenty-one, and president of a bank,
+when he married his first wife, Annie Pillow Martin,
+amiable and vivacious. She died five years after her
+marriage, leaving two sons, George Martin and Henry.</p>
+          <p>Colonel Branch then left Florida and formed a
+partnership with his father-in-law, and their plantations
+were in the name of Martin and Branch. There were two
+plantations, seven miles long, in Desha and Arkansas
+Counties, Arkansas  -  the Davis and Dayton
+plantations. The Davis half-way encircled the lake,
+reflecting the white cabins and green trees of the
+“quarters” in the water. It was laid out in regular rows of
+houses with streets between, two hospitals  -  one for
+the men, one for the women  -  a nursery for the
+children, and two old women to take charge of them.</p>
+          <p>In approaching the place there was first a cotton
+field of one thousand acres, level as the floor, and at
+regular intervals sheds with lightning-rods attached in
+case of storms, and at each shed a cistern. A field of
+cotton would be one day white, the next day the
+blooms changing to pink, and presenting a beautiful
+appearance.</p>
+          <p>Upon these plantations were four hundred
+<pb id="branch18" n="18"/>
+slaves before mine came, given me by my father from
+his plantation near Helena, Arkansas.</p>
+          <p>Upon my arrival as a bride at the plantation I found
+the house servants drawn up in a line on the front
+porch to greet me, and the house brilliantly
+illuminated. Among them was “Aunt Beck,” a
+dignitary of great importance, my husband's nurse and
+then his cook. She was a privileged character. Colonel
+Branch's mother had left the children to the care of this
+devoted nurse on her deathbed, and her affection for
+them was boundless. As Governor Branch's cook in
+Washington, where he was Secretary of the Navy, she
+had also been their consoler in many an escapade.</p>
+          <p>She had no children of her own, and my husband
+and his brothers, orphans, she considered her own.
+They gave her her freedom when they were grown, but
+she scorned it and said she would never leave “Marse
+Joe,” my husband. Good and faithful woman! The
+bullet which killed her favorite broke her heart, and she
+lived but a short time afterwards.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER III.</head>
+          <p>After arriving at the plantation, I was startled late
+one night by the great bell of the “quarter” tolling. I
+ran to the front porch, and could see big fires lighted
+on the streets in the “quarter,” and could hear the
+women crying, “Two children were lost in the cane
+back of the plantation.”</p>
+          <p>The wild hogs in the canebrake were dangerous,
+and might attack and even devour the children. So a
+great fire, fed by pine knots, was
+<pb id="branch19" n="19"/>
+kept blazing all the night, as a guide. The bells on all
+the plantations around took up the alarm, and men on
+horseback came dashing up to know what was the
+trouble on the Branch plantation.</p>
+          <p>My husband and men with lighted torches went in
+search, but the children were not found until next
+morning, asleep under a cottonwood tree.</p>
+          <p>Every day we went out on our horses, riding
+through the canebrakes, bayous, down the turn rows
+of immense fields of cotton, to the ditches where Irish
+laborers were digging to drain the marshes  -  to the
+nurseries, to the hospital with fruit, or some delicacy
+for the sick.</p>
+          <p>In the evening we entertained ourselves with the
+piano and the library; among the books were many
+religious ones, for Colonel Branch was pious, and a
+member of the Episcopal church.</p>
+          <p>An innocent and ideal life!</p>
+          <p>We varied it in a few months by going to New
+Orleans and from thence to Cuba. At Matanzas we had
+quite an experience. We got on a car where the men
+were evidently going to a cock fight, each with a cock
+under his arm. They had seen our names upon the
+passport, which had excited their suspicion. Laurence
+Branch, Colonel Branch's brother, had introduced a bill
+in Congress very obnoxious to the Cubans  -  for the
+United States to buy Cuba for some millions, and,
+suspecting this to be the Branch, our interpreter, who,
+of course, spoke Spanish, had great trouble in keeping
+us from being mobbed by the angry crowd.</p>
+          <p>The summer after my marriage, 1860, I spent
+<pb id="branch20" n="20"/>
+in the East, and until then I had no idea of the feeling in
+the North against the South. My maid was soon
+enticed away at Niagara. From thence we went to the
+Continental Hotel, in Philadelphia. The hotel was filled
+with Southerners. A few evenings after our arrival a
+procession of a thousand men, bearing torches,
+stopped in front of the Continental, and were
+addressed from a platform in front of the hotel by
+Charles Frances Adams. I remember a part of his
+speech in which he said: “The North should be made a
+haven to the oppressed negro of the South,” and his
+other remarks were to the same purport.</p>
+          <p>We felt wantonly insulted, and for the first time I
+had a foreboding for the future, which grew stronger
+during our visit to the Greenbrier White Sulphur
+Springs, of Virginia, soon after. The “White” was
+different from what I had ever known it before. There
+was the “German” in the morning and the ball at night,
+but there was a tone of seriousness underneath it all.
+The young men, and the old, could be seen in groups
+discussing some point that was evidently exciting
+them.</p>
+          <p>We felt the gathering clouds that foreboded the
+coming storm. From White Sulphur we returned to our
+home in Tennessee. Everything there seemed
+beautifully peaceful and calm. Tennessee's first vote
+against secession was sixty thousand, as the old
+Whig party, which had great strength in Tennessee,
+was opposed to it, but when her sister States seceded,
+Tennessee went with them, and her best blood flowed
+freely in the cause.</p>
+          <pb id="branch21" n="21"/>
+          <p>Tennessee was a border State and she and Virginia
+bore the brunt of the war. It is stated that one-fifth of
+the dead of both armies was on Tennessee soil.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER IV.</head>
+          <p>Oh, the horrors of civil war! My mother was a
+Spartan mother, and she said to her four boys, “Go
+and do your duty.”</p>
+          <p>There was my gay and handsome brother, Tom,
+who left his wife and children; Lucius, whose name I
+can not write without a pang; Cadwalader, and Rufus.</p>
+          <p>Colonel Branch was in jail for a few days in
+Columbia, Tennessee, then exiled by General Negley
+with the penalty, if ever caught in federal lines, to be
+hung as a spy, and property confiscated.</p>
+          <p>In the meantime my mother and I were alone at
+Buena Vista. There were five hundred soldiers  -  a
+cavalry command  -  encamped about the place, but
+the officers were kind and placed pickets at the doors
+for our safety. Yet, notwithstanding, we had nightly
+alarms and the house often searched. I recall one
+occasion, as my mother and I were driving from
+Columbia, with many contraband articles, we were
+stopped by two pickets, who proceeded to search the
+carriage.</p>
+          <p>As one soldier picked up some trifling article of my
+mother's, she exclaimed, “Would you deprive me of
+that small pleasure?” The other soldier, at the same
+time, saw a pair of soldier's gauntlets, I intended for
+General Cleburne. He
+<pb id="branch22" n="22"/>
+looked at me, saw the terror in my face, a vision before
+me of Irving Block, in Nashville, where rebel women
+were confined, and then turning to the other soldier he
+winked at me and said, “Come away, there is nothing
+there, let these ladies go on.”</p>
+          <p>Many letters and supplies and these same gauntlets
+we carried to Florence, Alabama, to soldiers there. Of
+course, we ran a great risk, but we relied upon our
+coachman, who was very loyal to us, and secreted
+some of the letters upon his person.</p>
+          <p>A federal raid had just taken place in the country
+through which we passed, and houses, farms and
+fences burned, the fire still smouldering where food
+had been cooked. It became dark and our coachman
+was blind at night, and the road so covered with
+autumn leaves we lost our way. I walked in front,
+putting aside the leaves, to find traces of the road, and
+calling out, “Drive to the right, drive to the left.” At
+last I saw a fence and, following it up, we came to a
+substantial log house, and were barely in it before a
+cavalry company came dashing up, demanding if some
+of “Wheeler's soldiers were not there.” Fortunately for
+us, our host was a well-known Union man, and the
+house was not searched.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER V.</head>
+          <p>The few Union men were occasionally of great
+service to their friends and relations. My brother-in-
+law, Judge Russel Houston, for instance, whose
+brother, Governor Houston, of
+<pb id="branch23" n="23"/>
+Alabama, and all of his own and his wife's family were
+“secessionists,” stood very high among the federals
+(as Union men of his ability and social prestige in the
+South were very rare), and, in consequence, there was
+a great deal in his power.</p>
+          <p>My sister was very loyal to her husband, but
+natural feeling would assert itself. I recollect standing
+with her at a window, when a cavalry company of
+General Wheeler's, who had been burning bridges
+between Columbia and Nashville to prevent the
+approach of the enemy, came dashing through the
+town, closely pursued by a federal company. My
+sister, in her excitement, clasped her hands and
+exclaimed, “Oh, if they had but wings to fly!”</p>
+          <p>But amidst this gloom there were occasional flashes
+of sunlight. When the Confederates were in
+possession how gay it was, and the soldiers such
+toasts.</p>
+          <p>I recall General Armstrong's wedding  -  the officers
+in full uniform, and wearing the yellow scarf of the
+cavalry. The beautiful bride, a great-niece of President
+Polk's, a brunette, in contrast with the blonde
+appearance of her handsome husband.</p>
+          <p>Then the brilliant ball at Ashwood Hall, the
+gracious host and hostess, and Antoinette, their
+daughter, a young heroine of the Confederacy, who
+afterwards became the Baronne de Charette.</p>
+          <p>She was visiting me when I saw in front of my
+house, on the Hampshire pike, Maj. Hunter Nicholson
+dashing down the pike, pursued by cavalry in blue
+coats. I knew at once that
+<pb id="branch24" n="24"/>
+Columbia had been taken possession of by the
+Federals and I called to Antoinette Polk. She came
+down the steps, the gauntlets in her hand, and her hat
+with its long ostrich plume in the other, ran for her
+horse in the stable, dashed through the woods, to
+reach the Mount Pleasant pike, where Ashwood Hall,
+and the homes of her two uncles, each a mile apart,
+were situated. They were filled with soldiers who
+would be taken by surprise and captured, unless she
+reached them in time.</p>
+          <p>She gained the gate, which opened upon the pike,
+and as she did so, she saw approaching her three
+Federal soldiers, fast riders thrown out to capture
+prisoners, and then commenced a wonderful race. The
+horse was a young thoroughbred, and seemed to
+realize her peril. The last she saw of the cavalrymen
+they were digging their spurs into their horses' sides
+with their heads almost on a level with those of their
+horses. She gained the woods and was lost to their
+sight. On reaching Ashwood she roused the
+Confederate soldiers, and was taken almost fainting
+from her horse; the horse's mouth covered with blood
+and foam from its bit. The soldiers picked up a trophy,
+her long ostrich plume, which dropped from her hat,
+and returning showed it to the colonel, who said,
+“Why did you not shoot her in the back”?</p>
+          <p>Her father was Capt. Andrew Polk, a cavalry officer,
+who returned from the Kentucky campaign a helpless
+invalid, went abroad with his family, and died at
+Vevey.</p>
+          <p>This oldest daughter, of whom I have just
+<pb id="branch25" n="25"/>
+<figure id="ill2" n="2" entity="branch25"><p>ANTOINETTE POLK.<lb/>Baronne de Charette.</p></figure>
+<pb id="branch26" n="26"/>
+written, Antoinette, married the Baron de Charette,
+nephew of the Comte de Chambord, and colonel of the
+Pontifical Zouaves in the Garibaldi war.</p>
+          <p>The marriage was celebrated in Paris, with great
+<foreign lang="fr">éclat</foreign>. Among the splendid gifts was an aigrette of
+diamonds from the Pope, a diamond laurel wreath from
+the Zouaves, coronet from the Princess de Berri. The
+mother of General Charette's first wife, Duchess
+de Fitz-James, sent a magnificent present, and others,
+equally handsome, were given.</p>
+          <p>In 1884 they visited Canada, where they were
+received with great enthusiasm by the Catholics. The
+public receptions in Quebec and Montreal were grand
+ovations.</p>
+          <p>They had but one son, Antoine, who was recently
+married to Suzanne Hennin, of Kentucky. His title
+(having been given an estate, which carried the title
+with it), is Marquis de Charette.</p>
+          <p>It was just before this sortie of the Federals into
+Columbia, that I met General Van Dorn, the gallant
+cavalry commander, so handsome and gay. It was at a
+ball at Ashwood Hall given to the officers that I first
+met him. A few weeks later I attended his funeral. He
+was assassinated, and the procession passed to Rose
+Hill cemetery, from Columbia, where he was buried. Of
+course, the funeral was a military one, and I never shall
+forget the solemnity, the music, the blare of the
+trumpets, the powerful black horse that was led
+riderless, and on each side the inverted boots of the
+late gallant officer.</p>
+          <pb id="branch27" n="27"/>
+          <p>We had about this time an unexpected pleasure.
+Adelina Patti came to our little town, Columbia, to visit
+her brother Carlo, who was quite sick, and on a sick
+leave from the regiment in which he had enlisted, the
+“Second Tennessee.”</p>
+          <p>I had heard Patti some years before, when she was
+very young  -  I think about twelve. She sang then at a
+concert in New Orleans. Strakosch, who had married
+her older sister, accompanied them on the piano.</p>
+          <p>On this occasion, in Columbia, a long narrow room
+called “Hamner's Hall” was prepared for her, as she
+had consented to sing. During the war we had no oil
+for our lamps, and considered ourselves very
+fortunate to have home-made candles. Accordingly,
+the footlights were an array of tallow candles, with tin
+reflectors. When Patti entered, and saw the primitive
+arrangements, the lights, the hats of an antiquated
+style, which confronted her, it was beyond her to
+control her amusement; she hid her face behind a huge
+bouquet, and shook with laughter, while we, the
+audience, sat in indignant silence.</p>
+          <p>Soon after this, “Blind Tom” was in Nashville, and
+I, as secretary of the Hospital Association, wrote to
+his manager, requesting that he should give a concert
+in Columbia. We were trying in every way to get funds
+for the hospital and this proved very successful. Two
+gentlemen gave us a hundred dollars apiece.</p>
+        </div2>
+        <pb id="branch28" n="28"/>
+        <div2 type="chapter">
+          <head>CHAPTER VI.</head>
+          <p>How busy that hospital kept us! Knitting, making
+underwear, collecting supplies, sending boxes to the
+army. My mother was instrumental in organizing it, and
+was president until the close of the war. We not only
+ministered to our own wounded soldiers, but to many
+of the Federals, who were taken prisoners, had been
+wounded, or were sick, and brought to the hospital.</p>
+          <p>This reminds me of an incident that occurred. My
+two beautiful gray carriage horses had been seized
+soon after we were in Federal lines, and I wished to
+regain possession of them, so I asked the services of
+the provost marshal, a Union man, and near neighbor
+of ours, to accompany me to headquarters, which he
+did.</p>
+          <p>The officer in command asked me several questions,
+and among others about the hospital. I replied, “My
+mother is president, and we give every care and
+attention not only to our own soldiers, but also to the
+sick and wounded ‘Yankees.’ ”
+ At this he sprang up
+indignantly from his chair, and said, “Madam, I have
+seen you but ten minutes, and during that time you
+have twice insulted me. I wish you to understand I am
+from Ohio, and the soldiers also who are under my
+command. We are not “Yankees.” With this the
+interview was at an end, and there were no horses for
+me.</p>
+          <pb id="branch29" n="29"/>
+          <div3 type="subchapter">
+            <head>Shiloh</head>
+            <p>On April 6, 1862, the battle of Shiloh was fought,
+gained the first day, and lost the next day.</p>
+            <p>A Union man from Columbia was said to have
+brought the order from Grant to Buell to reinforce him.</p>
+            <p>So at night sixty thousand men waded Duck river in
+their forced march, and changed the defeat of the first
+day into a victory the second day. That terrible day!
+As I lay upon my sick bed I could hear the tramp of
+the mighty host, as they passed upon the turnpike.
+They swarmed over our house, and only the pleading
+of my mother kept them out of my sick room. In my
+delirium I would sing “He has fought his last fight. He
+has won his last battle”; words from an old song, I
+think called “Sir John Moore's Farewell.”</p>
+            <p>In that battle it was said “every man who could
+bear arms, of the name of Polk, fought.”</p>
+          </div3>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER VII.</head>
+          <p>My brother Lucius went into the battle as a first
+lieutenant. His regiment, the first Arkansas, was cut to
+pieces, the captain of the company made a prisoner,
+and left with but one officer. Lieutenant Polk took
+command and led the regiment for two days. The next
+day after the battle he was elected colonel by the men
+unanimously and appointed afterwards.</p>
+          <p>Of that heroic brother what could I not tell?
+There was never a nobler and more magnanimous
+<pb id="branch30" n="30"/>
+spirit, united to a tenderer and more merciful one  -  to
+write of him even in the “so long ago” sends a pang to
+my heart.</p>
+          <p>Lucius Polk was born in Salsburg, North Carolina,
+July 10, 1833, the family soon after moving to
+Tennessee. He enlisted at the commencement of the
+Civil War in Arkansas, where he owned a plantation,
+and was elected first lieutenant in Gen. Pat. Cleburne's
+company, in the regiment known afterwards as the
+“First Arkansas.”</p>
+          <p>Lieutenant Polk's first service was with the
+Arkansas troops at the capture of the arsenal at Little
+Rock, Arkansas. His first fight was at Shiloh, after
+which battle he was promoted colonel of the regiment.</p>
+          <p>When the Confederate army fell back from Corinth,
+he was ordered to cover the retreat, “if not a man be
+left.” He defended the bridge so gallantly, that he was
+<sic>complimented</sic> in General Cleburne's report (official
+report).</p>
+          <p>He was in the campaign in Kentucky, under Gen.
+Kirby Smith, and was wounded in the battle of
+Richmond, and six weeks later that of Perryville.
+Colonel Polk was then appointed brigadier-general, in
+command of Cleburne's old brigade.</p>
+          <p>He was in the two days' fight at Murfreesboro,
+Tennessee, where his uncle, General Leonidas Polk,
+was in command of one division of the army; at
+Chattanooga, where his brigade did valiant service, and
+in all the battles in the retreat from Tennessee.</p>
+          <p>His brigade brought up the rear in falling back from
+Missionary Ridge, General Cleburne
+<pb id="branch31" n="31"/>
+<figure id="ill3" n="3" entity="branch31"><p>GEN. LUCIUS E. POLK.</p></figure>
+<pb id="branch32" n="32"/>
+in command of the division, entrusting him with the
+charge of the rear guard.</p>
+          <p>In the ambuscade which he formed, by concealing
+his troops on each side at Ringgold's Gap, and then
+ordering a sortie, his brigade fought most gallantly,
+capturing two of the enemy's flags, and he was most
+highly <sic>complimented</sic> in the official reports of Generals
+Johnston and Hardee.</p>
+          <p>In the fight near Hope Church, in Georgia, he was
+desperately wounded and crippled for life.</p>
+          <p>In his official report of the battle of Chickamaugua,
+Gen. Joseph Johnston said, “But for the valor of Gen.
+Lucius Polk's brigade we could not have carried the
+day.”</p>
+          <p>General Polk did not long survive the war, and died
+at his residence in Maury County.</p>
+          <p>Of him could be said not only “the bravest of men,
+but the truest and most loyal.”</p>
+          <p>His two oldest sons, Rufus and Lucius, were in the
+Cuban and Philippine wars, and showed themselves
+worthy of their parentage.</p>
+          <p>The first, Rufus, was twice a Congressman from
+Pennsylvania (where he had married), and he was
+prominently mentioned for lieutenant-governor of
+Pennsylvania at the time of his death, at the early age
+of thirty-four.</p>
+        </div2>
+        <pb id="branch33" n="33"/>
+        <div2 type="chapter">
+          <head>CHAPTER VIII.</head>
+          <p>My brother had but one furlough  -  he was sent
+home after the campaign in Kentucky. We did not
+even know he was wounded (so difficult was it to get
+any intelligence from the army), when one morning he
+came limping into our sitting-room, the shadow of his
+former self, his head bound with bandages, and also
+shot in the foot. You can imagine how we felt!</p>
+          <p>After this came the battle of Murfreesboro, the two
+days' fight on the thirtieth of December and first of
+January, 1863. During the progress of the great battle
+which was fought there, my mother and I, and many
+others, went to the “Knob,” which overlooks
+Columbia, and with straining ears listened to the thud
+of the cannon forty miles distant.</p>
+          <p>My mother dispatched in haste, Oscar, a faithful
+servant, to ride across the country to Murfreesboro
+with bandages, liniments and supplies, for her sons
+who were in the battle.</p>
+          <p>The Confederate Army were encamped on Stone
+river  -  General Hardee commanding one corps, and
+Gen. Leonidas Polk, “The Fighting Bishop,” the other.
+I have a plan of the Battle of Murfreesboro which I
+prize highly. It is a topographic view of the ground
+upon which the two armies were posted, drawn by
+Captain Morris, chief engineer of Polk's Corps, for
+Lieutenant-General Polk. The original was destroyed
+<pb id="branch34" n="34"/>
+and I have the duplicate, sent by Captain Morris to
+me.</p>
+          <p>The position of the Federal troops under Roseerans
+ is given with division commanders and brigades, 
+as well as that of the Confederates.</p>
+          <p>Bragg commanding, and the two corps
+commanders, Lieutenants-General Polk and Hardee, in
+command of the right and left wings, encamped on
+Stone River, whose waters were tinged with blood
+after the battle.</p>
+          <p>The cemetery near Murfreesboro is filled with
+monuments to the dead of both armies.</p>
+          <p>Gen. Leonidas Polk's unique career came to a close
+at a later period at Pine Mountain, near the Kenesaw.</p>
+          <p>He was born at Raleigh, North Carolina, April, 1806.
+He commenced his education at Chapel Hill, North
+Carolina. He received his appointment as cadet to
+West Point in 1823  -  his father having been an officer
+in the Revolutionary War, was very desirous that his
+son should also add to the military traditions of the
+family  -  but, influenced by the eloquence and
+devotion of the chaplain at West Point, he became a
+member of the Episcopal Church and studied for the
+ministry.</p>
+          <p>In Richmond, Virginia, he first entered upon his
+church duties, and after a year's travel abroad,
+returned and made his home in Middle Tennessee
+upon a tract given him by his father. In 1838 the
+general convention made him missionary bishop of the
+Southwest, which embraced Arkansas, Indian
+Territory, Mississippi, Alabama, Louisiana and Texas.</p>
+          <pb id="branch35" n="35"/>
+          <p>
+            <figure id="ill4" n="4" entity="branch35">
+              <p>LEONIDAS POLK.<lb/>Bishop of Louisiana and General in the Confederate Army.</p>
+            </figure>
+          </p>
+          <pb id="branch36" n="36"/>
+          <p>Many amusing anecdotes are told of him at this
+period. He had a great amount of humor, and must
+have enjoyed them immensely.</p>
+          <p>Once, while on Red river, a planter wished his son
+baptized by an Episcopal minister, but the boy fought
+valiantly against it, unless his black chum, Jim, was
+also baptized. “Well,” said the bishop, 
+“Bring Jim in,
+and we will make a Christian of him, too.” It seemed
+many smallpox cases were reported on the plantations,
+and a dignified circle, invited to meet the bishop, were
+discussing vaccination when in burst Jim, wildly
+excited, “Master, master, you have Marse Tom
+baptized over again  -  it never tuk that ar time; he's out
+yonder cussin' the steers worse than ever, an he says
+he ain't gwine to stop fur nobody.” The ice melted,
+and the bishop turned and said, “Commentary on the
+doctrine of baptismal regeneration.”</p>
+          <p>The following anecdote I have never seen in print:
+In going down the Mississippi river at Natchez, where
+the boats would stop for a short time, there was a
+lunch-room near the wharf, the proprietor of which
+was a noted character. He prided himself upon
+knowing the occupation or profession of any man by
+his appearance, and would greet his guests
+accordingly, announcing them as they came into the
+dining-room: “Walk in, doctor,” 
+“Walk in, lawyer.”</p>
+          <p>On this occasion, as the bishop entered, he called
+out “Walk in, judge.” Excuse me, 
+said the host, “I
+should have said general.” “No, 
+not general? Now I
+<hi rend="italics">know</hi> I must be right, walk in, <hi rend="italics">bishop</hi>.”</p>
+          <pb id="branch37" n="37"/>
+          <p>“Why do you give me these titles?” said the
+bishop.</p>
+          <p>“Because,” replied mine host, “I know whatever
+profession you follow you are bound to be at the head
+of it ”</p>
+          <p>Indeed the bishop did look the born leader. Of
+majestic and very handsome appearance, a face full of
+determination, yet softened by great kindliness and
+good humor.</p>
+          <p>At one of the conferences, after the battle of
+Belmont, and the business of the flag of truce had
+been dispatched, the party adjourned to a simple
+lunch, provided by the Confederates. One of the
+officers, the gallant Buford (of the Twenty-seventh
+Illinois), raising his glass, proposed a toast to General
+Washington, the “Father of his country.” 
+General Polk,
+with a merry twinkle of his eye, quickly added, “And
+the first Rebel.” The Federal officers joined with
+excellent humor in the laughter which followed the
+sally, and drank the amended toast.</p>
+          <p>Never did the bishop neglect his religious services
+and the morning prayers. In a meeting in New Orleans,
+on his birthday anniversary, I read records of his
+death prepared by Colonel Hopkins, a member of his
+staff:</p>
+          <p>“On the morning of June 14, 1864, General Polk
+received an early message from General Johnston,
+with request to meet at Pine Mountain to make a
+<sic>reconnoissance</sic> of the position of the enemy. Morning
+prayers having been said by the general, as usual, and
+the frugal meal of those forced days of abstinence
+been disposed of, the general mounted his well-known
+roan,
+<pb id="branch38" n="38"/>
+‘Jerry,’ and rode alone, followed by
+ two of his staff and
+two men of the escort. During that lonely ride,
+contrary to his usual mien, the general seemed
+dispirited  -  possibly his thoughts were drifting to the
+loved flock of his far-away church, possibly to his
+plantation home, on the bayou, and possibly again to
+the fast-declining fortunes of the Confederacy, whose
+doom was already foreshadowed. To all appearances
+lost in thoughts of sadness, he led the way to the
+meeting place, where fate awaited him.</p>
+          <p>“Arriving at Pine Mountain, General Polk found
+Generals Hardee, Johnston and Jackson (of the
+cavalry) on the ground.</p>
+          <p>“The day was ideal, and the stillness of death was
+abroad, for both armies rested on their arms, facing
+each other, but ready at a moment's notice to rend the
+air with shot and shell.</p>
+          <p>“On this exposed position the group of generals
+had assembled  -  it was evidently a council of war;
+when suddenly a puff of smoke arose from the distant
+lines, and ere it had melted in the air a murmuring shot
+passed overhead. Warned by the artillerymen of the
+danger of their position, the group of generals sought
+shelter. Then came the second shot, lower, and better
+aimed, when, looking back from my place of safety, I
+saw General Polk alone, on the very crest of the hill,
+with arms crossed, and looking intently at his front.</p>
+          <p>“In an instant I was at his side, but, alas! too late,
+for at that very instant a solid shot was tearing its
+murderous way, with a hissing sound, through his
+chest, carrying his heart, and shattering
+<pb id="branch39" n="39"/>
+both his arms. Without a groan his great manly
+form, so full of honor and of love, tottered and fell,
+with his feet to the foe, and his face upturned to the
+sky above.”</p>
+          <p>The general's remains were taken to Marietta,
+Georgia, from thence to Augusta, where they now
+repose in St. Paul's Church, in the crypt beneath the
+chancel.</p>
+          <p>Shortly after this the army fell back, pursued by
+Sherman on his march to the sea.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER IX.</head>
+          <p>On December 15, 1864, I started for the plantation in
+Arkansas with my nurse and small family to see my
+husband.</p>
+          <p>Nashville was in Federal lines, but I had a permit to
+go to Memphis, via Louisville. There, through the
+influence of my brother-in-law, Judge Russel Houston,
+then of Louisville, whose handsome home in Nashville
+had just been burned to the ground to build Fort
+Houston, I was permitted to take with me many
+contraband articles.</p>
+          <p>I had a shoe trunk filled with sugar and medicines,
+and an overcoat for my husband, with tobacco in the
+pockets to give the provost marshal the impression
+that I was carrying an old, worn coat. These articles
+were sealed by the provost marshal to prevent
+inspection.</p>
+          <p>We embarked upon the Golden Eagle, a boat which
+on the trip before had carried negro soldiers. In
+consequence, we were fired upon all the way down
+the river, a flash from the bushes on the banks and a
+volley of shot. I was in the
+<pb id="branch40" n="40"/>
+pilot house, and it was the object to disable the pilot
+of our boat  -  the shot flew thick and fast around us.
+We all fell upon the floor, and lay trembling until the
+guerillas were out of sight.</p>
+          <p>At last we arrived at Memphis and changed our
+boat for the Commonwealth. The captain refused to
+take pay from a Southern woman, until I assured him I
+was well supplied with money.</p>
+          <p>Next we stopped at Helena, where General Buford,
+of Kentucky, who was in command and noted for his
+petty tyranny, refused to let me proceed farther. I
+pleaded, and then wept, but soon restrained my tears
+when I noticed the expression of his face.</p>
+          <p>I said, “I see, General, that this gives you pleasure,
+but as I hear that you are a dear lover of the negro
+race, let me go to the plantation and take medicine for
+your friends there.”</p>
+          <p>He was indignant, and replied, “Madam, my refusal
+was in kindness, as I was a West Pointer with your
+Uncle Leonidas, but now you return to Memphis on
+the first boat that lands here.”</p>
+          <p>The boat came in an hour. It had lashed to it, in tow,
+another steamboat filled with smallpox patients,
+soldiers whom they were sending to some hospital in
+the North. The odor was insufferable, although there
+were heavy tarpaulins on that side to exclude the air. I
+was terrified (as Laurence was sick, and soon broke
+out with an eruption which proved to be measles), but
+there was no appeal.</p>
+          <p>For seven weeks we were compelled to remain in
+Memphis at the Gayosa Hotel.</p>
+          <pb id="branch41" n="41"/>
+          <p>No one was allowed to pass the lines, to go out or
+to come in Memphis. I did not know the reason then,
+but knew afterward  -  Hood's army was advancing
+into middle <sic>Tennesee</sic>.</p>
+          <p>At last, on Christmas day, we were permitted to
+leave. I went with my aunt, Mrs. Andrew Polk, to
+headquarters to ask a pass to proceed down the river,
+my second attempt.</p>
+          <p>The general was absent, but the officer in command
+very sternly refused to give it to me, saying the
+general had left such orders in regard to all
+applications. I thought it hopeless, and was preparing
+sadly to leave, when, all at once, there was such a
+transformation, such a desire to assist, such kindness!</p>
+          <p>My astonishment was great. My aunt was a
+beautiful and charming woman, but that had no
+influence upon the officer at first. What was the
+magic? All at once a light broke upon me. I exclaimed:
+“I understand, you are a Mason, you have taken three
+degrees, and your father, Mr. Van Leer, was past
+grand master of the State!”</p>
+          <p>She laughed, but she neither affirmed nor
+disclaimed.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER X.</head>
+          <p>We arrived at Napoleon, Arkansas, which since has
+been swept away by the ever-encroaching river, on
+January 1, 1865. We were met there by Colonel
+Branch, with the carriage. Our meeting was joyful, yet
+tinged with a deep undercurrent of sadness, as you can
+realize everything was at that time. The battle of
+<pb id="branch42" n="42"/>
+Franklin had been fought and we felt that the
+Confederacy was doomed.</p>
+          <p>Colonel Branch had been ordered to make a cotton
+crop  -  to be gotten out as it best could be, to buy
+ammunition for the army. He was also ordered to
+supply the families of fifteen soldiers with meal. The
+plantation was uninjured, and looked strangely
+peaceful, but the serenity was soon disturbed.</p>
+          <p>On the third day after my arrival I was having a
+pleasant talk in my sitting-room, with an old
+gentleman, a neighbor, when the doors opening upon
+the front gallery were thrown simultaneously open,
+and blue-coated soldiers swarmed into the room.</p>
+          <p>One rushed to the old man, with a canteen of
+whisky. “Drink, I say!” and the old man drank,
+although he did not know but that it might have been
+poison, while the others commenced ransacking.</p>
+          <p>Realizing the absolute necessity of coolness, I
+arose, and said to the leader, apparently: “If you will
+control your men, I will supply what they demand,
+water, towels and food.”</p>
+          <p>“They are helping themselves,” he said, as a
+chicken flew past, followed by half a dozen soldiers in
+pursuit. He looked at me, and said: “I see that you are
+a woman of sense, so I will give you a little advice.
+Behave as you are doing now, and you will have no
+trouble. Here comes the captain now!”</p>
+          <p>Looking out I saw advancing down the road an
+officer at the head of a hundred cavalry. He behaved
+with great politeness, and remarked that
+<pb id="branch43" n="43"/>
+at the plantation above us (the Douglas), “the house
+had been set on fire three times, as the ladies had
+been so insulting to the soldiers that he had found
+difficulty in controlling them.”</p>
+          <p>They stayed two days, the men encamped upon
+the place, the officers in the house.</p>
+          <p>One of them picked up an album, and looking at a
+photograph, said: “Who is this?” I said: “General
+Pillow, an uncle of Colonel Branch's first wife.”</p>
+          <p>“And this?”</p>
+          <p>“That,” I said, “is General Leonidas Polk, the
+uncle of Colonel Branch's second wife. This,” I went
+on to say, as he turned another leaf, “is General
+Lucius Polk, my brother, and this, General Laurence
+Branch, killed at Sharpsburg.”</p>
+          <p>“What a nest of rebels!” he exclaimed, and closed
+the book in disgust.</p>
+          <p>I left soon after to weep and wring my hands in the
+retirement of my room, and then to appear composed
+and calm before the soldiers.</p>
+          <p>The place was left uninjured, and the captain
+allowed me to supply with money a wounded
+Confederate soldier, whom they had taken prisoner on
+an adjoining plantation, and send him off in my
+carriage. They also left a Choctaw pony for my boy,
+which no doubt they had stolen from some place
+lower down on the river. The squad first thrown out
+were the fast-riders, to take prisoners, before the main
+body, moving more slowly, could come.</p>
+        </div2>
+        <pb id="branch44" n="44"/>
+        <div2 type="chapter">
+          <head>CHAPTER XI.</head>
+          <p>But the Federal soldiers I did not fear at all, as I did
+the “Jayhawkers.” They were composed of roving
+bands from both armies, united for the purpose of
+plunder  -  calling themselves Confederates usually,
+but feared by friend and foe alike.</p>
+          <p>Our plantation, having a great deal of cotton hidden
+under the cabins, was a special object of attraction,
+and, when frustrated, of revenge. One night an attack
+was expected from one of these bands. My room had
+mattresses placed around the walls, to protect us from
+the shot, while my husband, the provost marshal, and
+several of our neighbors, who had come in for the
+purpose of self-protection, stood behind the trees,
+ready to fire, as the Jayhawkers approached. However,
+they heard in some way of the preparations, and made
+a detour.</p>
+          <p>On another occasion, three men took Colonel
+Branch out in the cane to kill him, and only the
+interference of one, a Kentuckian, saved him.</p>
+          <p>Once they came when I was alone, the only white
+woman in miles around, and demanded Colonel
+Branch. They asked the “time,” to see, I think, if I had
+a gold watch, and while, on pretense of ordering them
+a lunch, I contrived to send a message to Colonel
+Branch not to return to the house.</p>
+          <p>On such occasions “Aunt Beck,” who was a
+<pb id="branch45" n="45"/>
+<figure id="ill5" n="5" entity="branch45"><p>GEN. LAWRENCE BRANCH.</p></figure>
+<pb id="branch46" n="46"/>
+famous cook, and believed in the efficacy of a good
+lunch, would have one prepared in almost incredible
+time, ably assisted by the other servants. One would
+prepare the fried chicken, or cold ham, another the
+crisp lettuce salad, and these material comforts
+doubtless served me many a good turn.</p>
+          <p>In time of danger, how faithful these slaves were!
+What would have become of the women and children
+of the South if they had not been? No wonder the
+men of the South wished to raise a monument to
+immortalize the fidelity of the old “Southern Mammy!”</p>
+          <p>So late as last winter, nearly a half century since the
+slaves were freed, I received a letter, written in
+Chicago, from one of them.</p>
+          <p>It was from the daughter of Grandison, our dining-
+room servant, who wrote at the request of her father,
+who was on his deathbed. He said that he must “say
+farewell to my old mistress before he went.” He
+recalled to me the question of the Federal general to
+him: “How does the ex-slave feel toward his former
+owner?” and his reply, “Nothing but death can sever
+the tie between the old master and his ex-slave.” How
+many instances could I enumerate of their fidelity. To
+them I owe the preservation of my silver during the
+war. “Aunt Beck” and Colonel Branch's body-servant,
+Braxton, dug a hole at midnight on the banks
+of the lake. There was a massive breakfast service, and
+all the flat silver, spoons, forks, and the silver pitcher
+and waiter. These they enclosed in a trunk and buried
+in the sand.</p>
+          <pb id="branch47" n="47"/>
+          <p>There it remained for some years, until “peace” at
+last reigned. Then George, my husband's eldest son,
+was sent to Arkansas, to bring it up to our home in
+Tennessee, from which State it had been sent to
+Arkansas for preservation.</p>
+          <p>He stopped at the Gayosa, in Memphis, for two
+days, and with a boy's carelessness left the door of
+his room open, yet no one ever thought of disturbing
+the disreputable-looking old trunk, tied with ropes, in
+which the silver had been packed.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER XII.</head>
+          <p>The war had ended  -  the long agony was over, and
+again we met in our mother's home, in Columbia,
+Tennessee.</p>
+          <p>First came Lucius, bravest of the brave, on crutches.
+Next, Cadwalader, whose horse was shot from under
+him, and he left for dead on the battle-field at Prairie
+Grove. Next, Rufus, who spent his seventeenth
+birthday in a prison on Johnson's Island.</p>
+          <p>We met again, in the parlor, where, after the battle
+of Franklin, Generals Cleburne, Granberry and
+Stahl had been laid, before they were interred at St.
+John's churchyard.</p>
+          <p>A bloody handkerchief was over General Cleburne's
+face, but one of his staff took from his pocket
+an embroidered one, and said: “Cover his face with
+this; it was sent him from Mobile, and I think that he
+was engaged to the young lady.”</p>
+          <p>No wonder that it is said that the jingle of
+<pb id="branch48" n="48"/>
+spurs and the measured tread of a Confederate soldier
+is often heard in the hall of the old house at night!</p>
+          <p>We separated, for another battle  -  the battle for our
+daily bread, and with no resources, and the debt of
+five years, growing in interest, before us!</p>
+          <p>The men who were in that war have not been long-
+lived, as a rule. Sickness, hardship and wounds
+impaired their vitality. They worked with the same
+doggedness of purpose, uncomplaining and in
+silence, as did Lee, their great leader. But hope was
+gone  -  no longer there to vivify their souls.</p>
+          <p>Then came Reconstruction days. It would have
+been very different if the negroes had been left to
+themselves, and not listened to the 
+“carpet-baggers”
+who swarmed over the South, but by them they were
+incited to lawlessness and insult.</p>
+          <div3 type="subchapter">
+            <head>The Kuklux.</head>
+            <p>What could be done? There was no law! The
+Kuklux filled the needed want, and by thorough
+superstition awed the negroes into better behavior.</p>
+            <p>I have looked out in the moonlight, and seen a long
+procession wending their way slowly on the turnpike,
+in front of my house. Not a sound could be heard from
+the muffled feet of their horses, as in single file they
+moved in speechless silence  -  a spectral array
+clothed in white. No one knew who they were, whence
+they came, and what their object, but the negroes
+soon knew;
+<pb id="branch49" n="49"/>
+and if there were excesses in their new-found liberty,
+crimes committed by them, they knew there would be
+a speedy retribution by these spectral visitants.</p>
+            <p>They effected a great good, but as good is often
+attended with evil, lawless men, who did not belong
+to the regular organization, disguised themselves as
+Kuklux.</p>
+            <p>For instance, on my brother Lucius' plantation, one
+night he was aroused by negroes from the quarter,
+calling at his window, begging him to get up; that
+there was “A company of Kuklux at the quarter.” He
+went at once, and demanded what they wanted. They
+said: “One of the negroes on the place has done a
+great deal of mischief, and we have come to whip
+him.” My brother said: “I know him to be a good negro,
+and you can not whip him.” “But 
+we must!” “You can
+not,” said my brother; “if you do it will be 
+over my
+dead body, for I am his natural protector.” “Well,
+General, your life is too valuable to be given for this
+negro's, so, as we do not wish to kill you, we will go.”</p>
+            <p>Turgeneff, in his book, “The Fool's Errand,”
+in writing of the Kuklux, of whom he had heard and
+seen a great deal, when stationed for some time in
+the South immediately after the war, writes: “When
+complaints were first sent to the Government it
+ignored them, and in good humor from having
+subdued the Rebellion, treated the matter simply as
+pranks of school-boys playing ghosts to frighten the
+negroes, but when the representations became more
+serious,
+<pb id="branch50" n="50"/>
+it was forced to act, and orders were given to the
+governors of the different States to imprison and try
+any one who was accused of being a Kuklux.”</p>
+            <p>The governors complied willingly  -  all the good
+had been effected. The governors themselves had
+been Kuklux, and knew that they had been disbanded,
+but bound by such solemn oaths that to this day I can
+not find who were Kuklux.</p>
+          </div3>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER XIII.</head>
+          <p>My husband and I went to our beautiful home,
+“Buena Vista,” which had been my father's.</p>
+          <p>It was endeared to me by a thousand memories of
+childhood and girlhood. There had I been married, and
+there had my children been born. It was a large, old-
+fashioned brick house, on an elevation. On one side, a
+garden bordered with hedges of the microfilla rose,
+and its summer house and arbor festooned with
+wreaths of yellow jasmine  -  its garden beds in the
+old style, with borders of box, trimmed square.</p>
+          <p>In front of the house a climbing rose, twenty feet
+high, still hung from an oak, in which were embedded
+the bullets of the enemy. Upon the gallery had stood a
+Confederate soldier, a mere youth, who had fired from
+behind the pillars, until the boy fell dead, riddled with
+bullets.</p>
+          <p>In the joy of meeting, we tried to forget the past  - 
+and we were happy. My husband, big in heart as well
+as stature, and the four children, mere babies, and the
+father's delight in them. He was of so bright and
+sanguine a nature, it
+<pb id="branch51" n="51"/>
+was an inspiration to be with him. I leaning on him for
+love and protection! In my checkered life was it not a
+dream of heaven!</p>
+          <p>I carry it with me when days are dark, and turn to
+that picture of the past.</p>
+          <p>Two years of this ideal life passed, and a summons
+came from the plantation in Arkansas, and he must
+leave.</p>
+          <p>Colonel Branch left our home on November 11, 1867.
+I wished to go with him, but the care of the little
+children and the place prevented, and crippled by the
+war, our means were not what they had been.</p>
+          <p>I had a premonition of ill, as I gave him the farewell
+kiss.</p>
+          <p>Two days after he arrived at the plantation, he
+walked the main road to examine a bridge over the
+bayou, which needed repairs. As he stood there, a
+buggy with the physician on the place, Doctor
+Pendleton, in it, came up. Doctor Pendleton had
+charge of the hospitals of the two plantations.</p>
+          <p>He had been drinking heavily and was seeking a
+quarrel, so he called to Colonel Branch, making an
+insulting remark, and drew his pistol.</p>
+          <div3 type="subchapter">
+            <head>The Death of Colonel Branch.</head>
+            <p>My husband raised his hand and cried out: “I am
+unarmed”; but the fatal shot was fired, passing
+completely through his body. He fell upon the bank,
+partially paralyzed, and the negroes, rushing from the
+cotton-field, bore him to the house.</p>
+            <p>They filled his room, weeping, and crying
+<pb id="branch52" n="52"/>
+aloud, while his old nurse knelt beside him. He said:
+“Will no one write to my wife, and tell her 
+‘farewell’ for
+me.”</p>
+            <p>The crying of the negroes distressed him, so he
+said: “Let only a few come in at a time to bid me
+farewell.” This they did, and so he passed away.</p>
+            <p>The negroes were wild, they declared he should be
+avenged. Many of them had been in his family for
+generations, and some in mine. None had left during
+the war; this was two years afterward, and still all were
+there, faithful to the close.</p>
+            <p>They armed themselves with guns, anything with
+which they could kill, and started to Judge Fletcher's
+plantation, where Doctor Pendleton had just arrived.</p>
+            <p>The old judge had turned to him, and said: “If you
+killed Colonel Branch, get out of my house this
+moment,” when an overseer from our place, who was a
+Mason, and bound to give aid to another Mason (and
+Doctor Pendleton was one), came dashing through a
+short cut to the house, and cried out: “Go, for your
+life; the Branch negroes are on your track, and they
+will kill you, as sure as there is a God in heaven!”</p>
+            <p>Communication was very slow in those days, and a
+week had passed before I arrived at the plantation. I
+wished my husband to be interred in St. John's
+Cemetery, at Columbia, Tennessee.</p>
+            <p>I traveled on the Henry Ames, the boat on which I
+had gone down the river on my bridal trip eight years
+before, and on the anniversary. I had only heard that
+he was wounded, but as
+<pb id="branch53" n="53"/>
+we met each Arkansas River packet, the captain
+would call out through his speaking-trumpet: “How is
+Colonel Branch?” At last the answer came, “He is
+dead.”</p>
+            <p>Many years have passed since then, and my days
+glide serenely by, only speed more swiftly, as rivers
+hurry when they near their destination, the ocean's
+depths.</p>
+            <p>Only one great sorrow I have had, the loss of my
+beloved grandson, Laurence Winn, a boy of rare
+promise, a gifted and charming young boy who died
+just before his eighteenth birthday.</p>
+            <p>Nature never stands still, and we may think of him
+as still fairer grown, and brighter in his celestial home 
+-  and with this belief we should still our hearts, and
+say: “God knoweth best.”</p>
+            <p>I can not tear my thoughts from that past life and
+those I loved so much, and I sometimes feel that they
+are very near me, and I recall the words of Isaiah:
+“Seeing what a cloud of witnesses encompass us
+about.”</p>
+          </div3>
+          <div3 type="poem">
+            <head>“Seeing What a Cloud of Witnesses 
+Encompass Us About.”</head>
+            <lg type="stanza">
+              <l>My mother, may she be near me; may her sweet eyes
+<lb/> gaze in mine.</l>
+              <l>Does she watch and pray beside me, with a mother's<lb/> love divine?</l>
+              <l>Can He be near, my dearest? The world seemed a<lb/> dream of bliss,</l>
+              <l>When, alas! so soon he left me to the bitterness of<lb/> this.</l>
+            </lg>
+            <pb id="branch54" n="54"/>
+            <lg type="stanza">
+              <l>A witness, may be, my brother, with his wounds<lb/> a tale to tell</l>
+              <l>Of battle-fields where heroes fought and the conquered<lb/> banner fell.</l>
+              <l>Silent and grand, like sculptured knight, he waits in<lb/> his lowly bed,</l>
+              <l>The sound of the <foreign lang="fr">reveillé</foreign> to call soldier from the<lb/> dead.</l>
+            </lg>
+            <lg type="stanza">
+              <l>One may be the gifted boy with the blue, prophetic<lb/> eyes,</l>
+              <l>Which saw, beyond his blighted life, a rainbow in the<lb/> skies  -</l>
+              <l>The angels are around us, what may their mission<lb/> be?  -</l>
+              <l>These souls escaped from bondage, from earthly<lb/> shackles free?</l>
+            </lg>
+            <lg type="stanza">
+              <l>They come on silent wing through the blue realms of<lb/> space,</l>
+              <l>With a glory caught from Heaven, upon each radiant<lb/> face.</l>
+              <l>We feel their presence near us, and a rapture, as of yore,</l>
+              <l>Comes o'er us, as they whisper “Love is love forever<lb/> more.”</l>
+            </lg>
+            <lg type="stanza">
+              <l>God's messengers, sent to us in the silent hour of<lb/> prayer,</l>
+              <l>In whispers and in dreams  -  it may be in visions rare  -</l>
+              <l>They soothe us with the thought of that blessed land of<lb/> Peace,</l>
+              <l>Where tears shall never flow and all life's troubles<lb/> cease.</l>
+            </lg>
+            <lg type="stanza">
+              <l>The spirits are about us, but, alas, we cannot see,</l>
+              <l>For our vision's dim and blinded to Heaven's great<lb/> mystery.</l>
+              <l>But with dying eyes we'll see them, as we leave this<lb/> world of sin.</l>
+              <l>They'll ope' the gates of Paradise that we may enter in.</l>
+            </lg>
+          </div3>
+        </div2>
+      </div1>
+      <pb id="branch55" n="55"/>
+      <div1 type="text">
+        <head>A Genealogical Record.</head>
+        <p>1. General Thomas Polk married Susan Spratt. Said
+Thomas Polk was the son of William Polk, and his
+wife Priscilla Roberts, who was the son of John Polk,
+and his wife Joanna Knox, who was the son of Robert
+Polk, the emigrant, and his wife Magdalena Tasker,
+of Moening Hill, Ireland.</p>
+        <list type="simple">
+          <item>1732. Born in Carlisle, Pa.</item>
+          <item>1735-1793. Resided in Colony of North Carolina.</item>
+          <item>1769-1771. Member of Provincial Assembly of
+North Carolina.</item>
+          <item>1775. Colonel of Militia.</item>
+          <item>1775. Colonel of Second Battalion of Minute Men.</item>
+          <item>1775, May 20. Called the meeting in Mechlenberg
+County, and was a signer of the Mechlenberg Declaration of Independence.</item>
+          <item>1776. Colonel of the Fourth regiment of North Carolina
+troops; was at the battle of Brandywine, but not at battle of
+Germantown, being at that time in command of the escort of
+North Carolina troops (200) detailed to convey the Liberty
+Bell and guard to a place of safety at Bethlehem, Pa., the
+heavy baggage of the army, among which was the Liberty
+Bell. There were several hundred wagons. (From the official
+diaries of the Moravian church, Bethlehem, Pa., September 24, 1777.)</item>
+        </list>
+        <listBibl>
+          <bibl>Charles S. Keyser in his pamphlet, “Liberty Bell.”</bibl>
+          <bibl>Wheeler's History of North Carolina.</bibl>
+          <bibl>Life of Bishop Polk, pp. 65 and 68.</bibl>
+          <bibl>Jones' “Defense of North Carolina.”</bibl>
+          <bibl>Huttman's “Register of Officers in Colonial Army,”
+p. 36.</bibl>
+          <bibl>Trustee of Liberty Hall College. (History of North
+Carolina, Continental Line, H. H. Bellas.)</bibl>
+          <bibl>Wheeler's “Reminiscences of Eminent Carolinians,”
+pp. 200-256.</bibl>
+          <pb id="branch56" n="56"/>
+          <bibl>History of North Hampton County, Pennsylvania,
+1752-1877, Captain F. Ellis, historian.</bibl>
+          <bibl>Commissary General under Gates. (“Life of 
+Leonidas Polk.”)</bibl>
+        </listBibl>
+        <p>2. William Polk, son of Thomas Polk, and
+Susan Spratt. First wife Grizelda Gilchrist.
+Second wife Sarah Hawkins.</p>
+        <list type="simple">
+          <item>1758, July 9. Born in Mechlenberg County, North
+Carolina.</item>
+          <item>1834, January 14. Died in Raleigh, North Carolina.</item>
+          <item>1775, April 17. Second Lieutenant in a company
+commanded by Colonel Ezekiel Polk.</item>
+          <item>1775, December 22. Severely wounded at Canebrake, when
+only 16 years old. This was his only Colonial service.</item>
+          <item>1776, November 26. Appointed major of the Ninth
+continental battalion. From absence of the lieutenant-
+colonel of this regiment, the command of it devolved upon
+the major, and he marched with it to Georgetown, and
+thence to Trenton, where he joined the Grand Army under
+Washington, and was in the battles of Germantown (where
+he was wounded), Brandywine and Valley Forge, where he
+was shot in the shoulder, and at Germantown in the mouth.
+Here he became known as the young officer “who caught
+British bullets in his teeth.”</item>
+          <item>1812. He was appointed General in the United States
+Army in 1812, but declined on account of infirmities. Was
+nominated by Washington, and confirmed by United States
+Senate, as Supervisor of Internal Revenue for North
+Carolina, which office he held for seventeen years.</item>
+          <item>1824. He was one of the Commissioners to receive
+Lafayette. Member of the Order of Cincinnati.</item>
+        </list>
+        <div2 type="subchapter">
+          <head>Genealogy of the Jones Family.</head>
+          <p>Robin Jones married Sarah Cobb. Grandson of
+Robin Jones the emigrant. (From the Bible of
+<pb id="branch57" n="57"/>
+Isaac Cobb. “His Book.”) Robin Jones was born
+prior to 1700 in Sussex County, Va.</p>
+          <list type="simple">
+            <item>1750-1756. Lived in Northampton County, North
+Carolina.</item>
+            <item>1754-1755. Member of Colonial Assembly.</item>
+            <item>1761, March 20. Appointed Attorney General by order
+King and Council, an office he held until his death. Agent of
+Lord Granville, who was one of the Lord Proprietors.</item>
+            <item>1766. Died.</item>
+          </list>
+          <listBibl>
+            <bibl>Appleton's Encyclopedia.</bibl>
+            <bibl>Governor Debb's Dispatches.</bibl>
+            <bibl>Wheeler's Reminiscences, pp. 195-197.</bibl>
+            <bibl>Rolls Office of Colonial Records. London.</bibl>
+            <bibl>Register of Albemarle and Sussex Counties, p. 1.</bibl>
+          </listBibl>
+          <p>General Allen Jones, his wife, Rebecca
+Edwards. Son of Robin Jones and Sarah Cobb.</p>
+          <list type="simple">
+            <item>1739. Born in Halifax County, North Carolina.
+Died on his estate, Mt. Gallant, Roanoke River, North
+Carolina.</item>
+            <item>1774-1768. Member of Provincial Congress.</item>
+            <item>1775. Delegate to Newbern Convention.</item>
+            <item>1775. Member of Committee of Safety for Halifax
+County.</item>
+            <item>1776, April 23. Appointed one of the five Brigadier-
+Generals from North Carolina.</item>
+            <item>1779-1780. Member of Continental Congress that met in
+Philadelphia.</item>
+            <item>1776, April 4. Represented Northampton County in the
+Legislature.</item>
+            <item>1779. Member of Congress.</item>
+            <item>1784-1787. State Senator.</item>
+          </list>
+          <listBibl>
+            <bibl>Wheeler's Reminiscences, pp. 196-204.</bibl>
+            <bibl>Appleton's Biographical Encyclopedia. p. 482.</bibl>
+            <bibl>Jones' Defense of North Carolina, pp. 203-256-257.</bibl>
+            <bibl>Wheeler's History, Vol. I, pp. 65-68; Vol. 2, p. 206.</bibl>
+          </listBibl>
+        </div2>
+        <pb id="branch58" n="58"/>
+        <div2 type="subchapter">
+          <head>Genealogy of the Long Family.</head>
+          <p>Rebecca Jones, only daughter of General Allen Jones,
+married Lunsford Long, son of Colonel Nicholas Long.</p>
+          <list type="simple">
+            <item>1761. Colonel Nicholas Long married Mary 
+McKinnie.</item>
+            <item>1798. Died. Both buried at his estate, “Quanky,” North
+Carolina.</item>
+            <item>1774-1775. Member of Committee of Safety, and in
+Provincial Congress.</item>
+            <item>1776. Appointed by Provincial Congress Colonel of
+Minute Men. Afterwards Commissary General for the
+province of North Carolina.</item>
+            <item>1776. Deputy Quartermaster General, with rank of
+Colonel in the Continental Army.</item>
+          </list>
+          <listBibl>
+            <bibl>Jones' Defense of North Carolina.</bibl>
+            <bibl>Huttman's Register of Officers of Colonial Army.</bibl>
+            <bibl>Appleton's Biographical Encyclopedia, Vol. 3, pp.
+185-186.</bibl>
+            <bibl>Register of Officers of Continental Army. H. H. Bellas.</bibl>
+          </listBibl>
+        </div2>
+        <div2 type="subchapter">
+          <head>Barnaby McKinnie.</head>
+          <p>Barnaby McKinnie, father of Mrs. Nicholas Long,
+nee Mary McKinnie, a noted woman of her day.
+(“Women of the Revolution,” Mrs. Ellet.)</p>
+          <list type="simple">
+            <item>1688. Born.</item>
+            <item>1759. Died.</item>
+            <item>1734-1735 Member of the Colonial Assembly of
+North Carolina.</item>
+            <item>1746-1758. Justice of County Court. Appointed by
+Governor Johnstone.</item>
+            <item>Fourth sheriff of Warren County.</item>
+            <item>Patience McKinnie, daughter of Barnaby McKinnie,
+married Joseph Lane, son of governor of the first colony
+of North Carolina. Their daughter married Allen
+Gilchrist, descended from Martha Jones, who was a
+daughter of Robin Jones.</item>
+          </list>
+          <pb id="branch59" n="59"/>
+          <p>
+            <figure id="ill6" n="6" entity="branch59">
+              <p>Isaac Edwards,<lb/>North Carolina.<lb/>FAMILY COAT OF ARMS.</p>
+            </figure>
+          </p>
+        </div2>
+        <pb id="branch60" n="60"/>
+        <div2 type="subchapter">
+          <head>Edwards Line.</head>
+          <p>Colonel Nathaniel Edwards married Jane Eaton.</p>
+          <list type="simple">
+            <item>1713. John Edwards, father of Nathaniel, died in
+Brunswick County.</item>
+            <item>1709. Colonel Nathaniel Edwards, born in Brunswick County.</item>
+            <item>1770-1771. Member of Virginia House of Burgesses until
+his death in 1771.</item>
+            <item>1771. He vacated his seat by accepting the office of
+Secretary of State (deputy) for State of Virginia.</item>
+          </list>
+          <bibl>Records of Brunswick County. W. G. Stanard, of
+Richmond, Virginia.</bibl>
+        </div2>
+        <div2 type="subchapter">
+          <head>William Eaton.</head>
+          <p>William Eaton (father of Jane Eaton Edwards)
+married Mary Rives, of Albemarle County, Virginia.</p>
+          <p>Born in Essex County, England, and emigrated to
+Virginia. His estate in England was “Eaton Green.”
+Owned an immense property.</p>
+          <list type="simple">
+            <item>1754. Colonel Granville County Militia.</item>
+            <item>1757. Member of North Carolina Colonial Assembly.</item>
+            <item>1757. Died.</item>
+          </list>
+          <bibl>See Colonial Records, p. 162.</bibl>
+        </div2>
+        <div2 type="subchapter">
+          <head>Record Through Which I Became a 
+Colonial Dame.</head>
+          <list type="simple">
+            <item>1. General Thomas Polk, my great grandfather through
+my father.</item>
+            <item>2. Colonel William Polk, my grandfather.</item>
+            <item>3. Robin Jones, my great-great-grandfather. Founder of
+the family in America. Descent on both sides from him,
+making my father and mother cousins.</item>
+            <item>4. General Allen Jones, son of Robin Jones, my great-grandfather
+on my mother's side.</item>
+            <pb id="branch61" n="61"/>
+            <item>5. Colonel Nicholas Long, my great-grandfather through
+my mother's father, who was Lunsford Long.</item>
+            <item>6. Sir Barnaby McKinnie, father of Mrs. Nicholas Long.</item>
+            <item>7. Colonel Nathaniel Edwards, father of Mrs. Allen Jones.</item>
+            <item>8. William Eaton, father of Mrs. Nathaniel Edwards.</item>
+          </list>
+        </div2>
+        <div2 type="subchapter">
+          <head>Branch Line.</head>
+          <p>The first Branch of whom we know was Peter
+Branch, of Kent, England, who came over in the
+Castle, 1638, but died on the voyage. His will, made in
+favor of his ten-year-old son, John, is the first one
+recorded in Boston.</p>
+          <p>John married Mary Speed, and they became the
+proprietors of “Branch Island,” ten miles north of
+Plymouth Rock.</p>
+          <p>Peter, son of John and Mary Branch, married
+Hannah, daughter of Thomas Lincoln, “the Miller,”
+who was an ancestor of Abraham Lincoln.</p>
+          <p>Colonel John Branch, a soldier of the Revolution.
+He married Rebecca Bradford, a daughter of John and
+Patience Bradford.</p>
+          <list type="simple">
+            <item>1775. He was a “Terror to Tories”and a 
+distinguished soldier.</item>
+            <item>1775. Sheriff of Halifax County, North Carolina.</item>
+            <item>1781-1782 and 1787-1788. In the Senate.</item>
+            <item>1806, March 14. Died at Elkmark, N. C.</item>
+          </list>
+          <p>The Branch family responded to every call to arms
+and the defense of liberty. Among those who served
+from Connecticut for the relief of Boston in the
+“Lexington Alarm” was Sergeant Thomas Branch and
+Rufus Branch. When the signal came, announcing the
+approach of the British on Bennington, he dropped his
+sickle in
+<pb id="branch62" n="62"/>
+the field, mounted his horse and rode away to join
+Stark's forces. Many are the stories told of the bravery
+and wit of Rufus' wife. At the time of the battle of
+Bennington, several women gathered at her home,
+intending if the British were victorious to flee to the
+hills. Fear and consternation reigned. However, Mrs.
+Branch sat carding flax, declaring that she would not
+stir until she could see the color of the British eyes.
+During her husband's absence, with her daughters'
+help, she gathered wood for winter use, she harvested
+the wheat and butchered the pigs.</p>
+          <p>The descendants of John Branch, the
+Revolutionary soldier, were as follows:</p>
+          <list type="simple">
+            <item>John, Governor of North Carolina and Secretary of the
+Navy under President Jackson.</item>
+            <item>Patsy married Whittier.</item>
+            <item>Patience married Southall.</item>
+            <item>Joseph married Susan O'Bryan. 
+<lb/>
+Issue of Joseph Branch and Susan O'Bryan were Joseph,
+Henry, Susan, Lawrence, and James.</item>
+            <item>Joseph married, first, Annie Martin; second, Mary Jones
+Polk, of Tennessee. 
+<lb/>
+Descendants, George, Martin, and Henry.</item>
+            <item>Second marriage to Mary Jones Polk. Issue, Mary Polk, 
+married Dr. Winn.</item>
+            <item>Their descendants were Laurence Branch Winn and
+Mary Polk.</item>
+            <item>Laurence O'Bryan.</item>
+            <item>Lucia married J. W. Howards. Their descendants are
+Gerald and Laurence Branch.</item>
+            <item>Joseph Gerald.</item>
+            <item>Joseph Branch was a member of the Legislature of
+Florida at twenty-one, a successful lawyer and planter in
+Desha County, Arkansas, where he amassed a very large
+fortune. He was assassinated on his plantation, November
+22, 1867.</item>
+          </list>
+        </div2>
+        <pb id="branch63" n="63"/>
+        <div2 type="subchapter">
+          <head>Gerald Toole.</head>
+          <list type="simple">
+            <item>1737. Laurence Toole married Sabre Irvine.</item>
+            <item>1750. Sabre Toole, his wife, died. 
+<lb/>
+Their descendants were Mary, Elizabeth, Nancy,
+Laurence, Henry Irvine, Sabre, Jean, and Geraldus.</item>
+            <item>1757. Elizabeth married Geraldus O'Bryan.</item>
+            <item>1764. Geraldus O'Bryan died.</item>
+            <item>Sabre married Body.</item>
+            <item>Descendants of Geraldus and Elizabeth O'Bryan: Dennis
+and Laurence</item>
+            <item>1761. Laurence was born.</item>
+            <item>1786. Married Elizabeth Simpson.</item>
+            <item>1812. Laurence O'Bryan died.</item>
+            <item>Descendants of Laurence and Elizabeth Simpson were: 
+<lb/>
+Laurence Dennis, who married Barsha Gordon. 
+<lb/>
+Susan married Joseph Branch.</item>
+            <item>1825. Susan Simpson O'Bryan died.</item>
+            <item>Descendants of Joseph Branch and Susan O'Bryan:
+Henry, Joseph, Susan, Laurence, and James.</item>
+          </list>
+          <p>1. Joseph Branch, the second. Son of Joseph
+Branch and Susan O'Bryan. </p>
+          <list type="simple">
+            <item>Married, first, Annie Pillow Martin.
+<lb/>
+Their issue:<lb/>
+George Martin and Henry Lewis Branch.</item>
+            <item>Married, second, Mary Jones Polk.
+<lb/>
+Their issue:
+<lb/>
+<list type="simple"><item>1. Mary Polk married Dr. Chas. Ware Winn.
+<lb/>
+Issue: Laurence Branch Winn, Mary Polk Winn.</item><item>2. Laurence O'Bryan Branch.</item><item>3. Lucia Eugenia, married John William Howard.<lb/>
+Their issue: Gerald Branch Howard, Laurence Branch
+Howard.</item><item>4. Joseph Gerald Branch the third, Joseph Branch
+second, was a member of Legislature of Florida at
+twenty-one, a successful lawyer and planter in Desha
+County, Arkansas, where he amassed a very large fortune.
+He was assassinated on his plantation November 22, 1867.</item></list></item>
+          </list>
+          <pb id="branch64" n="64"/>
+          <p>
+            <figure id="ill7" n="7" entity="branch64">
+              <p>Branch<lb/>Family Coat of Arms.</p>
+            </figure>
+          </p>
+          <pb id="branch65" n="65"/>
+          <p>2. Laurence O'Bryan Branch, first. Son of Joseph
+Branch and Susan O'Bryan. Member of Congress from
+North Carolina, Speaker of the House for many years.
+Brigadier-General in Confederate Army. Killed at battle
+of Sharpsburg.</p>
+          <list type="simple">
+            <item>Married Nannie Blount.
+<lb/>
+Issue: Susan, Nannie, Laurence and Josephine.</item>
+            <item>Susan married Robert Jones.
+<lb/>
+Issue: Laurence Branch.</item>
+            <item>Nannie married ---- Jones.</item>
+            <item>Laurence married Miss Washerton.</item>
+            <item>Nannie married Burton Craig.</item>
+          </list>
+          <p>3. Susan, daughter of Joseph first and Susan
+O'Bryan.</p>
+          <list type="simple">
+            <item>Married General Robert Williams, of Florida.
+<lb/>
+Issue: Robert, married Jennie Sutton, of Louisiana.</item>
+          </list>
+          <p>4. James, youngest son of Joseph and Susan
+O'Bryan Branch.</p>
+          <list type="simple">
+            <item>Married Mary Watkins.
+<lb/>
+Issue: James, Joseph, Susan and Robert.</item>
+          </list>
+        </div2>
+        <div2 type="subchapter">
+          <head>Genealogy.</head>
+          <p>In the reign of King David, of Scotland, the vast
+feudal Barony of Pollock, in Renfrewshire, was held by
+the noble territorial King Fulbert, the Saxon. Upon the
+death of this monarch in 1153 Petreus succeeded, who
+assumed the surname of his vast hereditary estate of
+Pollock. According to the best authorities, the Lord
+Baron of this feudal kingdom was a man of eminent
+ability. He was the benefactor of the monastery
+Paisley. His donation was received by the Bishop of
+Glasgow prior to A. D. 1190.</p>
+          <pb id="branch66" n="66"/>
+          <p>This Petreus de Pollok was a law unto himself, and
+equal to the sovereign of the realm in wealth and
+power. He was the ancestor of a long line of warriors,
+and the forbear of knights who fought in the crusades.
+He was himself distinguished for deeds of prowess,
+and the subject of many a minstrel lay.</p>
+          <p>In addition to the vast Renfrewshire estates,
+Petreus de Pollok held the Barony of Rostis, in
+Aberdeenshire, during the reign of Malcolm IV., of
+Scotland. The latter lands he gave to his daughter,
+Maurick, who married Sir Norman de Leslie, and
+became ancestress of the Lords Rostis and Leslie.</p>
+          <p>On the death of Petreus de Pollok the ancient
+patrimonial estate of Pollok passed to his brother,
+Robert de Pollok, who was succeeded by his son of
+the same name.</p>
+          <p>Finally we come to a later Petreus, one of the
+persons of rank, who in the year of our Lord 1206 gave
+a forced submission to Edward I., of England, in the
+bond known as the “Ragsman” bond. He was
+succeeded by his son Robert de Pollok, who married
+Agnes, daughter of Sir John Maxwell, Lord of
+Carleverok.</p>
+          <p>Brecius de Pollok, who left a son, John de Pollok,
+designated in a charter by King James II., of Scotland
+(December 12, 1439), as <hi rend="italics"><foreign lang="la">“Nobiles vir Johannes de
+Pollok plies at heros Brecius.”</foreign></hi> From this famous
+noble sprang the illustrious line of that ilk. His
+successor was Charles de Pollok.</p>
+          <p>John de Pollok had a second son, Robert de Pollok,
+who received from King James II. the
+<pb id="branch67" n="67"/>
+great land grant in Veoius Scotia, in New Scotland, as
+Ireland was then called. He became Sir Robert de
+Pollok, of Ireland, whose eldest son, Robert de Pollok,
+inherited the estates in old Scotland, while the
+younger son, Robert, received the newly acquired
+lands in Ireland, with the title of Sir Robert de Pollok.</p>
+          <p>In the year 1640 Sir Robert, of Ireland, joined the
+Scotch Covenanters, whose commander-in-chief and
+Governor of Dunbarton castle was a relative of Sir
+Alexander Leslie, of the famous soldiers of that day.</p>
+          <p>Sir Robert was succeeded by his son Thomas. Sir
+Robert's second son, Robert Bruce Pollok, married the
+widow of Major Porter, of the English army. According
+to well-authenticated records, this lady's maiden name
+was Magdalen Tasker, of noble French descent, and
+heiress of “Moerning Hall,” in Ireland. She survived
+her husband, and died about 1724. Certain it is that in
+the year 1687 Robert Pollok had patented to him certain
+estates in “Dames quarter,” Somerset County,
+Maryland, which have descended in the family to the
+present generation, and a fact of more than passing
+interest is the will of Magdalen Tasker Pollok, made
+when ninety years old, in 1776, recorded in Somerset
+County, in which she devises to her son, Joseph, “My
+estate ‘Moerning Hall,’” in the kingdom of Ireland, and
+Barony of Ross, County of Donegal, and in the parish
+of Leford.</p>
+          <p>Of the eight children who emigrated to Somerset
+County, with Robert Bruce Pollok (Polk) and his wife
+Magdalen, the majority married;
+<pb id="branch68" n="68"/>
+and their descendants have included distinguished
+men, not only of Maryland, but all through the South
+and West. When, as in the case of Robert Pollok, we
+find a man of high position, with wife and children,
+and the records later disclose the fact that valuable
+estates were left behind in the mother country,
+imagination becomes active, and it is natural enough
+to picture the hasty flight of Protestants who would
+be condemned to death for loyalty to a principle.</p>
+          <p>With the change from Catholicism, in the year 1689,
+we find the names of Robert Polk and that of his son
+appear among the list of loyal subjects of King William
+and Queen Mary.</p>
+          <p>Robert Polk was said to be an elder in old Rehobeth
+church, claimed to be the oldest Presbyterian church
+in America. He brought with him from Ireland the
+family Bible, containing records of births and deaths.
+It was stained by the weather from being hidden in a
+tree. When it was read one of the family would stand
+on guard to watch for the Papists. This was after the
+“Reformation.” Robert Pollok's old home, “White
+Hall,” was standing until about sixty years ago, when
+it was burned. In it still, when it was burned, there was
+a clock brought from Londonderry, Ireland; also an old
+mahogany case that contained fifteen square bottles.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>The First Deeds to Land.</head>
+          <p>The first deeds of land we find recorded on the
+eastern shore of Maryland were from Lord Baltimore,
+date 1685: “To Robert Polk, Sr., ‘Polk's 
+Folly’; to John,
+‘Locust Hammock’; to
+<pb id="branch69" n="69"/>
+William, ‘Polk's Defense’; to Robert, Jr., 
+‘Bally Hook’; to
+Ephraim, ‘Clemmel’; to James, 
+‘James Meadow.’ ”</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Change of Name.</head>
+          <p>Why this change of name to Polk?</p>
+          <p>Tradition says that, being Presbyterians, and
+having been engaged in one of the many plots of that
+sect against Charles II., they fled to escape
+persecution, leaving off the last syllable of the name
+and changing it from Pollok to Polk. The name of
+Robert's estate, “Polk's Folly,” suggests 
+that Robert
+regretted leaving the old country; “Polk's 
+Defense,”
+that William was still rebellious. “White Hall”
+descended to William Polk, the second son of Robert
+and Magdalen, and from him to his descendant, Col.
+James Polk, naval officer of the port of Baltimore,
+under his kinsman, President Polk.</p>
+          <p>From this elder branch descend the children of
+Governor Lowe, who married Esther Polk, daughter of
+Col. James Polk. His daughter, Mary Polk, married Mr.
+Gorter, Belgiac Consul at Baltimore for many years.</p>
+          <p>Robert Polk, a grandson, took up lands in Dorchester 
+County about 1778. His son, Col. William
+Polk, was a member of the Delaware Council, and
+possessor of large estates known as “Polk's Defense,”
+which he inherited. In this home was born Truston
+Polk, Governor of Missouri, and representative of
+Missouri twice in the Senate.</p>
+          <p>Robert Polk, fifth son of the emigrant, married Miss
+Gillette. Their son, Capt. Robert Polk,
+<pb id="branch70" n="70"/>
+married Elizabeth, sister of the great artist, Peale
+(William Wilson). Their son, Charles Peale Polk,
+inherited the talent of his mother's family, and became
+a distinguished artist also.</p>
+          <p>“The Polk family, a family of heroes for four
+generations, are of Scotch-Irish descent. They are of
+very ancient lineage, tracing their descent back to
+Fulbert A. D. 1075.”  -  <hi rend="italics">Genealogical History. Col.
+Jones, 1899.</hi> Baltimore <hi rend="italics">Sun</hi>, of September 4, 1904.
+<hi rend="italics">American Magazine</hi>, April, 1896, and October,
+1897.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>John Polk.</head>
+          <p>From John Polk, the oldest son of Robert and
+Magdalen Tasker Polk, are descended the Polk family
+of North Carolina, who afterwards emigrated to
+Tennessee.</p>
+          <p>John married Johanna Knox (second wife). She
+died in 1777. William, only son of this marriage, moved
+to Carlisle, Pennsylvania. He married Priscilla Roberts.
+They had eight children (and with these he emigrated
+to Mecklenburg, North Carolina, in 1750), namely:
+Thomas, Charles, Ezekiel, Susa (married Alex. Brevard,
+Governor North Carolina), Margaret (married A.
+McRae).</p>
+          <p>Charles, the second son, was a soldier of the
+Revolution, member of the Assembly 1793 (Wheeler).
+He was noted for his daring and his love of a practical
+joke and gained the soubriquet of “Devil Charley.”
+One of the anecdotes told of him was that while
+Colonel Thompson's regiment encamped in a church in
+North Carolina, Captain Charlie played “Ghost.”
+Attired in white and rattling chains,
+<pb id="branch71" n="71"/>
+he sprang up through a trap door in the pulpit and put
+the regiment to flight.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Ezekiel Polk.</head>
+          <p>Ezekiel, the youngest son, was a signer of the
+Mecklenburg Declaration of Independence, and
+commanded a company in the Revolution. His son,
+Samuel, emigrated from North Carolina to Columbia,
+Tennessee, in 1796, the year before Maury was made
+into a county. He married Jane Knox, whose family
+also had been Covenanters. He was agent for his
+cousin, William Polk, for his lands in Tennessee, which
+were one hundred thousand acres. His oldest son was
+President James K. Polk, whose life is too well known
+for me to give a sketch of it here; his successful
+administration, his war with Mexico, the annexation of
+Texas, the acquisition of California, making territory as
+large as the thirteen colonial States, make his
+administration one of the most glorious recorded in
+our history.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>The Old Home of President Polk.</head>
+          <p>The old home in which President Polk lived is still
+to be seen in Columbia, Tennessee.</p>
+          <p>Samuel Polk left other descendants who have
+distinguished themselves. Col. William Polk, a man of
+great wit and humor, Consul to Italy. He left an only
+son, Tasker Polk, of North Carolina, a lawyer and
+journalist of decided ability.</p>
+          <p>Other descendants of Ezekiel Polk were General
+Neely, of Bolaivar, Tennessee; Col. Albert McNeil,
+and Edmund Polk, no one more prominent in
+Tennessee politics than he at the time of his early
+death.</p>
+          <pb id="branch72" n="72"/>
+          <p>
+            <figure id="ill8" n="8" entity="branch72">
+              <p>PRESIDENT JAMES K. POLK.<lb/>Taken in 1848.  Nashville, Tennessee.</p>
+            </figure>
+          </p>
+        </div2>
+        <pb id="branch73" n="73"/>
+        <div2 type="subchapter">
+          <head>Colonel Thomas Polk.</head>
+          <p>Colonel Thomas Polk, oldest son of John, married
+Susan Spratt.</p>
+          <list type="simple">
+            <item>1724. Born in Maryland.</item>
+            <item>1735-1793. Resided in colony of North Carolina.</item>
+            <item>1769-1771. Member of Provincial Assembly.</item>
+            <item>1775. Colonel of militia.</item>
+            <item>1775. Colonel of the 2d Battalion of Minute Men.</item>
+            <item>1776. April 15, commissioned to buy powder. Trustee of
+“Liberty Hall,” North Carolina.</item>
+          </list>
+          <p>He was colonel of the Mecklenburg district at the
+time of the “Mecklenburg Declaration of
+Independence,” of May 20, 1775, and “called the
+meeting.” The resolutions, read by him on the
+courthouse steps to an assembly of people, were
+drawn up by his son-in-law, Ephraim Brevard. I shall
+not enter into a discussion of this much-mooted
+Mecklenburg Declaration. I can not doubt the
+testimony, however, of these old God-fearing and
+truth-telling Presbyterians before the Legislature of
+North Carolina in 1800 to the effect that “they were
+present, and that the Declaration of 1775, May 20, was
+similar to that later one of 1776.”</p>
+          <p>John Simmonson, in giving his testimony before the
+legislature, relates this anecdote:</p>
+          <p>One aged man was asked  -  an old Scotchman  -  if he knew
+anything of the Mecklenburg Declaration. He replied, “Och,
+aye; Tam Polk declared independence lang syne, lang before
+anybody.”</p>
+          <p>At a few days later date, namely, May 31, 1775, several of
+these same patriots, among whom was Thomas Polk, signed
+the historical and undisputed “Resolves,” which
+are on file in
+the Rolls Office, London. These “Resolves”
+(says Bancroft)
+separated Mecklenburg from
+<pb id="branch74" n="74"/>
+<figure id="ill9" n="9" entity="branch74"><p>PRESIDENT POLK'S HOME IN COLUMBIA, TENN. </p></figure>
+<pb id="branch75" n="75"/>
+the English empire thirteen months before the Declaration 
+of Independence.</p>
+          <p>“This is glory enough for the Mecklenburg 
+Fathers and is a
+glory that can not be plucked from their brow.”  -  <hi rend="italics">James C.
+Welling.</hi></p>
+          <p>Colonel Polk, April 15, 1776, was in command of the
+escort of North Carolina troops (200), detailed to
+convoy and guard to a place of safety the heavy
+baggage of the army. Among the bells of Philadelphia
+which he had in charge was the “Liberty Bell.” There
+were several hundred wagons. We give extracts:</p>
+          <p>History of Philadelphia, 1609-1884:</p>
+          <p>“August, 1777. Colonel Flower, aided by carpenters; James
+Morrell, Francis Allison and Evans, took down the bells of the
+churches and public buildings. They were carried to Trenton,
+and thence to Bethlehem.”</p>
+          <bibl>History of North Hampton County, Pennsylvania, 1752-
+1757.  -  Capt. F. Ellis, historian:</bibl>
+          <p>“September 23, 1777. Seven hundred waggons, escorted by
+Colonel Polk, arrived at Bethlehem.</p>
+          <p>“The next day the train crossed the river and passed
+through the town to the place where the stores were to be
+deposited.</p>
+          <p>“While passing through the streets, one of the waggons
+which carried the Statehouse bell broke down and its load
+obliged to be transferred to another. Seven hundred waggons
+deposited their stores, proceeded to Trenton to remove a
+farther quantity of public property, which was stored there.</p>
+          <p>“The Statehouse bell, which was in the waggon which broke
+down in Bethlehem, had been taken down and carried away
+for safety when the British army approached the
+city.”  -  <hi rend="italics">From official diaries of the Moravian Church.</hi></p>
+          <p>“September 24, 1777. In the afternoon Colonels Polk and
+Thornburg arrived with seven hundred waggons containing the
+heavy baggage. They came directly from the camp and
+everything was unloaded to a place of safety and left in
+Bethlehem.</p>
+          <pb id="branch76" n="76"/>
+          <p>“A guard of two hundred men, who were encamped on the
+banks of the Lehigh, were left behind.”</p>
+          <p>Extract from another diary: “The heavy baggage of the
+entire army arrived directly from camp, guarded by two
+hundred men under Colonel Polk, of North Carolina. There
+were seven hundred waggons in train, everything was unloaded
+and brought to a place of safety. The waggons were ordered to
+Trenton in order to fetch the stores from that place also to
+Bethlehem. Among these stores were the bells of
+Philadelphia. The waggon containing the Statehouse bell
+broke down in the streets of Bethlehem so that the bell had to
+be unloaded; the other bells were taken away.”</p>
+          <listBibl>
+            <bibl>History of Philadelphia, 1609-1884, by J. 
+Thomas Scharf
+and Thompson Wescott.</bibl>
+            <bibl>Wheeler's “History of North Carolina.”</bibl>
+            <bibl>Thomas S. Keyser, in his pamphlet, “Liberty 
+Bell.”</bibl>
+            <bibl>“Life of Bishop Polk,” pp. 65-68.</bibl>
+            <bibl>“History of North Carolina Continental Line.” H. 
+H. Bellas.</bibl>
+            <bibl>Wheeler's “Reminiscences of Eminent North 
+Carolinians,”
+pp. 200-256.</bibl>
+            <bibl>“History of North Hampton County, 
+Pennsylvania,” 1752-
+1757, Capt. E. Ellis, historian.</bibl>
+          </listBibl>
+        </div2>
+        <div2 type="subchapter">
+          <head>Colonel William Polk.</head>
+          <list type="simple">
+            <item>1759. Oldest son of General Thomas Polk and Susan
+Spratt.</item>
+            <item>1824. Born January 18; died in Raleigh, North Carolina.</item>
+            <item>His first wife was Grizelda Gilchrist; second wife, Sarah
+Hawkins.</item>
+            <item>Issue of first marriage:
+<list type="simple"><item>Thomas Gilchrist, who married Mary Trotter.</item><item>William Julias Polk, married Mary Long.</item></list></item>
+            <item> Issue of second marriage:
+<list type="simple"><item>Lucias Junias, married Mary Easton; 
+second wife, Anne
+Irwin.</item><item>Leonidas Polk, married Frances Devereux.</item><pb id="branch77" n="77"/><item>Mary, married George Badger, Senator 
+from North Carolina.</item><item>Rufus King, married Sarah Jackson.</item><item>Susan Spratt, married Kenneth Raynor.</item><item>George, married Sallie Hilliard.</item><item>Andrew Jackson, married Rebecca Van Leer.</item></list></item>
+          </list>
+        </div2>
+        <div2 type="subchapter">
+          <head>Colonel William Polk.</head>
+          <p>Owning immense tracts of land in Tennessee  -  one
+hundred thousand acres  -  he states in his will, which
+was probated in Columbia, Tennessee, in 18--. This
+he divided among his eight children, the tracts being
+usually five thousand acres in extent. Upon these
+lands were located the homes of his children, when
+they left North Carolina and made their new homes in
+Maury County, Tennessee.</p>
+          <p>Their residences were a few miles apart, upon the
+Mount Pleasant road. This was afterwards made a
+turnpike, the work done by the slaves of the
+stockholders. These were Dr. William Polk (my father),
+his brother Lucias, General and Jerome Pillow, Evan
+Young and Peter Booker. This pike extended from
+Springhill to Clifton, on the Tennessee river.</p>
+          <p>“Hamilton Place,” the residence of
+General Lucias
+Polk, was built by my grandfather, who sent workmen
+from North Carolina in wagons, to prepare a home for
+his son and his bride, who was to be, Mary Eastin, the
+niece of Mrs. Andrew Jackson, the wife of the
+President.</p>
+          <p>The marriage took place at the “White
+House,” and
+was very pleasing both to General Jackson and my
+grandfather, who had been life-long friends.</p>
+          <pb id="branch78" n="78"/>
+          <p>
+            <figure id="ill10" n="10" entity="branch78">
+              <p>DR. WILLIAM J. POLK.	MRS. WILLIAM J. POLK.<lb/>Née Mary R. A. Long.</p>
+            </figure>
+          </p>
+          <pb id="branch79" n="79"/>
+          <p>“Ashwood Hall” was built by Bishop Polk, and later
+sold to his youngest brother, Andrew, who married
+Rebecca Van Leer. They were the handsomest couple I
+have ever seen. He was the captain of a cavalry
+company during the Civil War, but, disabled and a
+wreck, he went abroad, and both he and his wife are
+buried in a foreign country. “Ashwood Hall ” was,
+indeed, a stately home, situated in a grove of one
+hundred acres, dotted with sturdy oaks. Two large
+halls opened into each other, hung with beautiful
+paintings, and family portraits.</p>
+          <p>“Rattle and Snap” was the home of George Polk.
+The grounds were won under peculiar circumstances.
+My grandfather was playing a game of “beans” with
+the Governor of North Carolina and some others. They
+played for “scrip,” issued to them as Revolutionary
+soldiers. My grandfather won the game, located the
+land, and named it for the game “Rattle and Snap.” It
+was in middle Tennessee, then called the Territory of
+Franklin.</p>
+          <p>“West Brook” belonged to Rufus Polk, and was
+afterwards the home of my brother, General Lucius
+Polk, who married his cousin Sallie Moore, the only
+child of Rufus Polk.</p>
+          <p>Some of these homes were very handsome, built in
+colonial style, pillars on front porticoes, large halls,
+with rooms on each side, wings for billiard-rooms and
+libraries.</p>
+          <p>There were beautiful gardens and greenhouses, the
+lawns in front were extensive, and dotted with oaks for
+which Tennessee was so famed.</p>
+          <pb id="branch80" n="80"/>
+          <p>“Buena Vista,” my father's home, afterwards mine,
+no longer stands. Recognizing the beauty of its location
+and surroundings it was bought by the Government
+for an arsenal and barracks, afterwards converted into
+the “Columbia Military Academy.” Of course, the old
+gray brick house was replaced by a very handsome
+commandant's home. I was glad when it was torn
+down, such a reminder of the happy past, of the
+hospitality and the kindness which had characterized
+it. They who had made it were gone, and I could not
+bear to look at it.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Colonel William J. Polk.</head>
+          <p>Left Queens College, North Carolina, when he was
+sixteen years old, and entered the army as lieutenant in
+Colonel Thompson's (called old “Dangerfield”)
+regiment. He was detailed by Colonel Thompson with
+thirty men to watch some Tories in North Carolina.</p>
+          <p>He was led into an ambush by his guide, one
+Solomon Deason; was badly wounded in the shoulder,
+from which he did not recover in a year. “This was the
+first blood shed south of Lexington,” said Gen.
+Andrew Jackson, in a letter published in 1844, when
+James K. Polk was a candidate for the Presidency; also
+in an autobiography written by Colonel Polk for Judge
+Murphy, of North Carolina.</p>
+          <p>General Jackson was a small boy at school with
+Colonel Polk, at Charlotte, North Carolina. They were
+life-long friends in North Carolina and in Tennessee.</p>
+          <pb id="branch81" n="81"/>
+          <p>The marriage of Colonel Polk's son, Lucias, to Mary
+Eastin, the beautiful niece of Mrs. Jackson, which took
+place at the “White House,” was pleasing to them
+both.</p>
+          <p>Col. William Polk's record is certainly a brilliant one.
+He entered the service at the age of sixteen, was
+appointed major of the Ninth North Carolina
+Continental Battalion when eighteen.</p>
+          <p>At one time he followed the fortunes of Marion and
+Sumpter, and was aide to Carrol at Camden. At Eutaw
+his horse was killed under him; at the same time his
+brother fell. At Brandywine he was shot through the
+shoulder, and at Germantown through the mouth.</p>
+          <p>It was referring to this that at a ball, given in
+Philadelphia to the officers, a young belle inquired,
+when he was introduced to her: “Are you the young
+officer who, it is said, catches British bullets in his
+teeth?”</p>
+          <p>He was appointed in the United States army in the
+war of 1812, nominated by Madison and confirmed by
+the United States Senate, but on account of age and
+infirmities, declined. This honor was afterwards
+conferred on Gen. Andrew Jackson.</p>
+          <p>He was Supervisor of the Internal Revenue of North
+Carolina, a position which he held for seventeen years;
+one of the commissioners to receive General
+Lafayette in Raleigh in 1824; was a member of the
+Order of Cincinnati. Will Polk, of Louisiana, had the
+diploma, which was burned in a fire which destroyed
+Mr. Polk's residence, but Col. Cadwalader Polk has the
+certificate of membership.</p>
+          <pb id="branch82" n="82"/>
+          <p>
+            <figure id="ill11" n="11" entity="branch82">
+              <p>MRS. JAMES K. POLK.</p>
+            </figure>
+          </p>
+          <pb id="branch83" n="83"/>
+          <p>There is a tradition, I do not know if true, but it
+seems highly probable, that Colonel Polk suggested
+the name of Nashville, and Davidson
+County, having been by the side of Nash when he
+was killed, and also with Davidson, when he fell; and
+he was the first representative of Davidson County to
+the North Carolina Legislature.</p>
+          <p>There are many relics of interest left by Colonel
+Polk; among them the silver spoons, used at a
+breakfast which he gave to General Washington.
+There is also a mahogany table, with brass claws,
+which can seat fifty, used at a banquet, given in
+Raleigh to Lafayette. These are in the family of William
+Polk, of Louisiana, at his plantation, “Ashton.”</p>
+          <p>A miniature of Colonel Polk, beautifully painted, and
+set with brilliants, is owned by William Polk, of
+Tennessee. He was said to have been very striking in
+his appearance, six feet four inches in height, with a
+face full of dignity and command.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>The Jones Family.</head>
+          <list type="simple">
+            <item>1680. Robin Jones, “The 
+Emigrant.”</item>
+            <item>Robin Jones the second.</item>
+            <item>Robin Jones the third.</item>
+            <item>
+              <bibl>-  From Isaac Cobb's Bible, “His 
+Book,” 1703.</bibl>
+            </item>
+            <item>Issue: Sarah Cobb.</item>
+            <item>1737. Robin Jones the third married 
+Sarah Cobb.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>1. Allen, who married three times.</item><item>2. Wyley, married Mary Mumford.</item><item>3. Martha Cobb, married Dr. Thomas Gilchrist.</item></list></item>
+            <item>Robin married second wife, Mary Eaton, with whom he lived
+unhappily. He said in his will, “What he gave
+<pb id="branch84" n="84"/>
+her in lieu of dower was more than she deserved.” 
+Their only
+child, Elizabeth, married Benjamin Williams, Governor of
+North Carolina, August, 1781. </item>
+            <item>1762. Allen married first wife, Mary Haynes.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>Sarah, married Hon. William Davie, 
+United States Minister
+to France.</item><item>Martha Cobb, married Judge John Sitgreaves.</item><item>Mary, married General Thomas Eaton.</item></list></item>
+            <item>September, 1768. Allen Jones married 
+second wife, Rebecca
+Edwards.
+<lb/>
+Issue:
+<lb/>
+Rebecca Jones, married Lunsford Long.</item>
+            <item>Issue of Rebecca Jones and Lunsford Long:
+<list type="simple"><item>Rebecca, who married Col. Cadwalader Jones.</item><item>Mary, married Dr. William Polk.</item><item>Mrs. Allen Jones, nee Rebecca Edwards, was remarkable for
+her great beauty, and also noted for the beauty of her feet and
+high instep.</item></list></item>
+            <item>1776. Wyley Jones, married Mary Mumford.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>Ann Maria, married Joseph Littlejohn.</item><item>Sallie, married Governor Burton, of North 
+Carolina.</item><item>Patsey, married Hon. John W. Eppes, of 
+North Carolina.</item></list></item>
+            <item>Issue of Ann Maria and Joseph Littlejohn:<lb/>
+<list type="simple"><item>Mary, who married Lewis Williamson, of 
+Tennessee.</item><item>Sallie, married C. C. Cherry.<lb/>
+Issue, Lewis Cherry, a banker in Little Rock, Arkansas.</item></list></item>
+            <item>Third. Martha Cobb Jones, daughter of Robin, 
+married Thomas
+Gilchrist.
+<lb/>
+Issue:<lb/>
+<list type="simple"><item>Grizelda Gilchrist, married Col. William Polk.</item><item>Allen, married Dolly Lane, granddaughter of 
+Sir Ralph Lane,
+Colonial Governor of North Carolina.</item></list></item>
+            <item>From this marriage the Baxters, of Nashville, are 
+descended.</item>
+            <item>My father, through his mother, Grizelda Gilchrist, 
+was third
+in descent from Robin Jones.</item>
+            <item>My mother, through her mother, Rebecca Jones Long, was
+fourth in descent from Robin Jones.</item>
+          </list>
+          <pb id="branch85" n="85"/>
+          <p>My father, Dr. William Polk, and my mother, Mary
+Rebecca Long, were married in 1818, at “Mount
+Gallant,” Roanoke County, North Carolina.</p>
+          <p>This estate, “Mount Gallant,” was left by my
+mother's grandfather, Allen Jones, to my mother, his
+favorite grandchild. It was a grand old home for that
+period, situated on the Roanoke river, with two
+fisheries for herring, which came up the river from the
+sea. An orangery adjoined the house, and a long
+avenue bordered with trees led down to the public
+road.</p>
+          <p>A secret chamber, which had never been suspected,
+was found under the dining-room floor, on the day of
+my mother's marriage  -  the day when she took
+possession of the house, which had been closed for
+many years. A servant, in scrubbing the floor, found
+that it sank beneath her, and on investigation, a trap
+door was found and a room completely furnished with
+bed, chairs and table, with candle on it. It was
+supposed to have been constructed as a hiding place
+during the Revolution, General Allen Jones being a
+very prominent person at that time, having been
+appointed by the Provincial Congress one of the five
+brigadier-generals from North Carolina. He was a man
+of great ability, and large wealth. His daughter,
+Rebecca Edwards Long, having died at the birth of my
+mother, she and her sister, Rebecca, were taken to
+“Mount Gallant,” and lived with him until his death.</p>
+          <p>He told her much of the early history of the Jones
+family, and a legend of the first Jones
+<pb id="branch86" n="86"/>
+who came to America. He was a boatswain on a British
+vessel that came to the Colonies. On the return trip,
+when far out at sea, he leaped from the vessel, swam
+to shore, and married his sweetheart there, making his
+home afterwards in Suffolk County, Virginia.</p>
+          <p>The third in descent from him was Robin ap Robin
+Jones, my great-great-grandfather.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Robin ap Robin Jones.</head>
+          <p>He showed in his youth remarkable talent, was a
+pupil of the Reverend Wyley, rector of the church in
+Albemarle, Sussex County, Virginia, from 1736-39.
+Reverend Wyley wished him to have educational
+advantages that he could not give him, and advanced
+the money for him to go to England to be educated at
+Eton.</p>
+          <p>At that university he met and acquired the
+friendship of Lord Granville, one of the Lord
+proprietors, whose rule in the Colonies were
+overthrown later. He appointed him his agent, and
+afterwards, in 1761, Robin was appointed “Attorney
+for the Crown,” as appears in a dispatch from
+Governor Dobbs, in Rolls Office, London:</p>
+          <p>April 20, 1761. “The Tuscaroras will move this week from
+Bertie to New York. Mr. Jones, the Attorney-General,
+advanced $200 to account in bringing waggons and provisions,
+on the credit of their land.”</p>
+          <p>The colonial records of North Carolina show that he
+was a member of the Assembly 1754-55. Author of the
+bill to establish a Supreme Court, and appointed to
+prepare an address to the Governor on grievances.</p>
+          <pb id="branch87" n="87"/>
+          <p>He was a remarkable man in many ways. There was
+a lawsuit to be tried in which he was deeply interested.
+The trial was to take place on the same day surgeons
+had decided that an amputation of his leg was necessary.
+He was suffering from gout and his life hung in the
+balance, but he went to the courthouse, made a great
+speech, which gained his case, the amputation of the
+limb was performed two hours afterwards, and he died
+under the operation.</p>
+          <p>The heroism of my mother, his great-granddaughter,
+was quite equal to this. She was nearly ninety years
+old and blind; was suffering with such pain in her eyes
+that it was decided one must be taken out. She refused
+to take any anesthetic, as she wished to retain
+consciousness in case of death. One of the surgeons
+showed great feeling, and she said to him, “Do not be
+afraid, I do not dread the pain, I am ready,” and not a
+murmur or moan was heard.</p>
+          <p>One of the interesting stories my mother told me
+was of an early experience of my grandfather, Allen
+Jones. The schools were very inferior in the Colonies,
+and his father, Robin Jones, wished to give him the
+same advantages that had been bestowed on him, so
+Allen and his brother, Wyley, were fitted out with the
+best the Colony could afford, and sent to England.
+They were placed at the Alma Mater of their father,
+Eton, called the “nursery of the gentlemen of England.”
+Accordingly, the little boys were sent to Liverpool,
+where they were to be met and placed at school, under
+the charge of Lord Granville.</p>
+          <pb id="branch88" n="88"/>
+          <p>When the vessel landed, and they went on shore,
+there was no one to meet them, and their singular
+appearance soon drew a crowd. They were attired in
+blue broadcloth suits, trimmed with brass buttons, the
+long trousers, coats and long vests almost to their
+knees, like very diminutive men, amused the crowd
+very much, and the frightened children were much
+relieved when Lord Granville's housekeeper arrived
+and put them in his carriage.</p>
+          <p>I was also much interested in my mother's recital of
+the visit of John Paul Jones to her grandfather, which
+was not many years before her birth.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>John Paul Jones.</head>
+          <p>He went to Virginia to administer upon the estate of
+his brother, who had died the previous year, 1774.
+Halifax was then a notable and very gay place.</p>
+          <p>It so happened that the first congress of the then
+independent State of North Carolina met there. Paul
+was there and met the most prominent men among
+them, the Jones brothers, Allen and Wyley.</p>
+          <p>They were very much pleased with his bold, frank,
+sailorlike manner, and invited him to visit them, Allen
+at his home, “Mount Gallant,” and Wyley at the
+“Grove.” These homes were noted for their hospitality,
+and John Paul not only entered with zest into the
+sports of the day, but was much impressed with the
+political discussions between the two brothers, their
+views differing entirely.</p>
+          <pb id="branch89" n="89"/>
+          <p>He there met not only the great leaders of the day,
+but also their wives, some of them brilliant and
+cultured, their conversation elevating and instructive.
+He had access at their homes to the finest libraries,
+and to their halls, where hung pictures from England.</p>
+          <p>He remained at the homes of these two brothers for
+two years, and had the good fortune to meet there
+Joseph Hewes, of Edenton, who was a power in the
+politics of the time. He was a delegate to the First
+Provincial Congress, a signer of the Declaration of
+Independence. and was Chairman of the Committee on
+Naval Affairs.</p>
+          <p>The Jones brothers appealed to Hewes, and
+through his instrumentality, Congress gave to John
+Paul the position of lieutenant in the navy. It was said
+that the brothers also assisted him with funds. Before
+this John Paul had changed his name to Jones, saying
+to the brothers, “He would make them proud of it.”</p>
+          <p>This compliment was intended for the brothers, but
+also for Mrs. Wyley Jones, of whom he was a special
+admirer.</p>
+          <p>Why John Paul added <hi rend="italics">Jones</hi>
+to his name has been
+much discussed of late.</p>
+          <p>Mrs. A. L. Robinson, a great-granddaughter of Gen.
+Allen Jones, published not long since an account of
+Paul's friendship with Allen and Wyley Jones. The
+outline of his life is briefly told. John Paul, the son of a
+gardener, was born July 6, 1747, at Ardingland,
+Scotland. At the age of twelve he went to sea. The
+death of his brother in Virginia, whose heir he was, induced
+<pb id="branch90" n="90"/>
+<figure id="ill12" n="12" entity="branch90"><p>RUINS OF “THE GROVE.”<lb/>The historic old Halifax (N. C.) home of Wyley Jones, in which John Paul adopted<lb/>the name of “Jones.”</p></figure>
+<pb id="branch91" n="91"/>
+him to settle in America. This was in 1773. It
+was then he added to his name, and was thenceforth
+known as Paul Jones. This was done in compliment to
+one of the noted statesmen of that day. It appears
+before permanently settling in Virginia, moved by the
+restlessness of his old seafaring life, he wandered
+about the country, finally settling in North Carolina.
+There he became acquainted with two brothers,
+Wyley and Allen Jones. They were both leaders in
+their day and were much honored in their generation.</p>
+          <p>Allen Jones was orator, and silver-tongued. Wyley
+was the foremost man of his State. The home of the
+latter, “Grove,” near Halifax, was not only the resort of
+the cultured, but the home of the homeless, Mrs.
+Wyley Jones having sometimes twenty orphan girls
+under her charge. It was here that the young
+adventurer, John Paul, was first touched by those
+gentler influences, which changed not only his name
+but himself, from the rough and reckless mariner into
+the polished man of society, who was the companion
+of kings, and the lion and pet of Parisian salons. The
+kindness of the brothers found expression in the
+adoption of their name. The truth of this statement is
+not only attested by the descendants of Allen and
+Wyley Jones, but by the nephew and representative
+of Paul Jones, Mr. Lowden, of Charleston, South
+Carolina. In 1846 this gentleman was in Washington
+awaiting the passage of a bill by Congress awarding
+him the land claim of his uncle, Paul Jones, which had
+been allowed by the executive of Virginia, Hon.
+<pb id="branch92" n="92"/>
+<figure id="ill13" n="13" entity="branch92"><p>ALLEN JONES.	JOSEPH HEWES.	WYLEY JONES.</p></figure>
+<pb id="branch93" n="93"/>
+E. W. Hubard, then a member of Congress from
+Virginia, and who had in 1844 prepared a report on
+Virginia land claims, in which the committee endorsed
+that of Paul Jones. This naturally attracted Mr.
+Lowden to him, and learning that Mrs. Hubard was a
+descendant of Wyley Jones, he repeated to both Mr.
+Hubard and Mrs. Hubard the cause of his uncle's
+change in name, and added that among his pictures
+hung a portrait of Allen Jones.</p>
+          <p>Mrs. Ellet, in her “Women of the Revolution,”
+says, “The tone of public opinion in Halifax was very
+much influenced by three women, who were rendered
+prominent by the position of their husbands, and by
+their own talents, and example. They were Mrs. Wylie
+Jones, Mrs. Allen Jones and Mrs. Nicholas Long.
+Their husbands were men of cultivated minds, wealth
+and high consideration, having great influence in
+public councils.</p>
+          <p>The importance of the principles for which they
+contended was vindicated by the conversation and
+patriotic zeal of their wives rather than by their own
+efforts in striking appeals.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Col. Nicholas Long.</head>
+          <p>Col. Nicholas Long was commissary-general of all
+the forces raised in North Carolina, and superintended
+the preparation (in his own workshop, on his own
+premises) of implements of war and clothing for the
+soldiers. His wife was a most efficient coöperator; she
+possessed great energy and firmness, with mental
+power of no common order. Her praises were the theme
+of conversation among the old officers of the army.
+<pb id="branch94" n="94"/>
+<figure id="ill14" n="14" entity="branch94"><p>THE HOME OF WYLEY JONES.<lb/>The Patron of John Paul Jones.</p></figure>
+<pb id="branch95" n="95"/>
+She died about ninety years of age. Her maiden name
+was McKinnie  -  Mary McKinnie.</p>
+          <p>Mrs. Allen Jones was Miss Edwards, sister of Isaac
+Edwards, English secretary of Governor Tryon.</p>
+          <p>She had the reputation of being the most
+accomplished woman of the day, and was remarkable
+for the elegance and taste shown in all of her
+arrangements. She left an only daughter, Rebecca,
+who married Lunsford Long.</p>
+          <p>There is a punch-bowl in the museum at
+Washington's headquarters at Morristown, New
+Jersey, with this inscription on the card: “A punch-
+howl owned by General Washington. It was given to
+him by Mrs. Allen Jones, of North Carolina.” It was
+highly prized by him, and preserved in the family for
+four generations  -  it was cracked when hiding it from
+Tarleton's men.</p>
+          <p>When the army of Cornwallis passed through
+Halifax to Virginia, his officers were quartered in the
+town. Colonel Tarleton was quartered at the “Grove.”
+He had been wounded at Cowpens, in the hand, a
+sabre cut from Col. William Washington.</p>
+          <p>In speaking of Colonel Washington, Tarleton said:
+“He was an ignorant, illiterate fellow, scarcely able to
+write his name.” “Ah, colonel,” said Mrs. Jones,
+“you should know better, for you bear upon your
+person proof that he can make his mark.”</p>
+          <p>These incidents in regard to John Paul Jones, which
+I gathered from my mother's lips, are corroborated by
+many authorities  -  one, Fred
+<pb id="branch96" n="96"/>
+<figure id="ill15" n="15" entity="branch96"><p>AUTOGRAPH NOTE FROM JOHN PAUL JONES.<lb/>North Carolina Historical Collection.</p></figure>
+<pb id="branch97" n="97"/>
+A. Olds, of Raleigh, North Carolina; another, Cyrus
+Townsend, author of a “Life of Paul Jones,” in a very
+conclusive article of July 24, in <hi rend="italics">Munsey's Magazine</hi>. In
+a genealogical history, by Col. Cadawalader Jones, of
+South Carolina, I see the same facts given by him as I
+relate having heard from my mother. We are both
+descendants of the two grandchildren, who lived with
+Gen. Allen Jones.</p>
+          <p>Neither Allen Jones nor his brother Wylie left any
+male descendant. Consequently, we have no relatives
+who bear the name of Jones, through Robin, but
+through the marriage of his great-granddaughter,
+Rebecca Jones Long, to Maj. Cadwalader Jones, they
+bear the name of Jones. Wylie had a son who died
+very young from gout in his head, which it seems he
+must have inherited from “old Robin.”</p>
+          <p>General Allen also had a son, who died at the early
+age of eight. Governor Iredell, of North Carolina,
+in a letter published in a volume  -  I think it is
+called “Recollections of Eminent North Carolinians”  - 
+writes that while on a visit to Gen. Allen
+Jones, at “Mount Gallant,” he was seated on the porch
+when General Jones' little son, who was playing on the
+gallery, commenced screaming, with his hand upon his
+head. He suffered very much, and died in two hours. I
+have a miniature of this boy, a beautiful thing,
+intended to be worn with a black velvet as a bracelet.
+On the gold back of the locket is this inscription:
+“Robin Jones, 1778. Died aged eight. Too soon did
+heaven assert its claim, and called its own away.”</p>
+          <pb id="branch98" n="98"/>
+          <p>This, and some other relics, which my mother gave me, I very
+much prize. One is a gown, worn by an ancestress
+during the Revolution. It is of heavy brocade, with
+pink and white roses. The gored skirt is as narrow as
+the hobble skirts of to-day. It is trimmed with exquisite
+lace, “Point de Venise,” which hangs in tatters.</p>
+          <p>I have also a chair cover, blue, and embroidered with
+the first cotton brought to North Carolina, the work of
+Mrs. Allen Jones.</p>
+          <p>The portrait of Robin Jones was given to Mrs.
+Eppes, of Virginia, his granddaughter, and is now at
+the residence of Colonel Hubard, M. C., who married
+Mrs. Eppes' daughter.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>The Long Family.</head>
+          <p>Col. Nicholas Long, founder of the Long family in
+Halifax, was in his day one of the most important men
+on the Roanoke; he was a wealthy planter. His
+residence “Quankey,” near that old borough, had
+more than a State reputation; it was the headquarters
+of military affairs.</p>
+          <p>When General Washington visited the Carolinas, he
+and his staff stopped with Colonel Long for several
+days. Colonel Long came to North Carolina about 1750
+from eastern Virginia. He had a daughter, Lucy, who
+married William H. Battle, Assistant Justice of the
+Supreme Court of North Carolina. Their son, Kemp
+Plummer Battle, was formerly president of the
+University of North Carolina.</p>
+          <p>Col. Nicholas Long married Mary McKinnie,
+<pb id="branch99" n="99"/>
+daughter of John McKinnie, in August, 1761. It
+appears from a deed, dated 1751, that John McKinnie
+had four children: Mary, Patience, Barnaby and
+Martha.</p>
+          <p>Nicholas Long, the oldest son of Nicholas Long and
+Mary McKinnie, was a gallant soldier in the
+Revolution. He and Major Hogg had the celebrated
+race after Tarleton with Colonel Washington. It is
+related of him that two British cavalrymen pursued
+him. He wheeled and sought safety in flight; they
+opened fire and in the hot pursuit were separated.
+Observing this, he suddenly turned and dispatched
+both with his sabre. He married Rebecca Hill in 1778
+and moved to Georgia.</p>
+          <p>Mary Long married Bassett Stith, Virginia, 1790.
+McKee, in his “Life of Judge Iredell,” says, “Thomas
+Iredell visited Halifax in July, 1790. A letter from him
+gives a characteristic account of the gay and opulent
+borough.” “The divine Miss Polly Long” had just
+been married to Basset Stith, a Virginia beau. The
+nuptials were celebrated by twenty-two consecutive
+dinner parties in as many different houses; the dinner
+being regularly succeeded by dances, and all
+terminated by a grand ball. Miss Wallace, an heiress,
+Miss Lucas, and Miss Hooper were the belles of the
+occasion.</p>
+          <p>Lunsford Long, another son, married Rebecca,
+daughter of Gen. Allen Jones, 1794. They had two
+daughters: Rebecca, who married Col. Cadwalader
+Jones (the same name, but different family), and my
+mother, Mary, who married Dr. William Polk.</p>
+          <pb id="branch100" n="100"/>
+          <p>“Quankey” the home of the Longs, on Quankey
+creek, was well known as a seat of great hospitality,
+and as it was a large and delightful home, Mrs. Long
+continued to reside in it after the death of her
+husband. She was left there alone, her children having
+all married and moved away with their families, so she
+was pleased to take charge of a young lady,
+presumably a relative, a sister of Sir Peyton Skipwith,
+named Miss Richmond. This Miss Richmond
+afterwards married Lemuel Long.</p>
+          <p>Mrs. Long was noted for her benevolence. She took
+for charity several of the poor young girls of the
+neighborhood to teach them to spin and embroider
+and the accomplishments of the day.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>The Haunted House.</head>
+          <p>The story that is told, and which is well known by all
+in that section, was this: “As the old lady sat one
+night with her distaff before her, surrounded by her
+girls, they were startled by the fall seemingly of an
+immense wardrobe, which was in the apartment above.
+Mrs. Long, carrying a candle in her hand, and each girl
+bearing a light, proceeded up the long stairway to
+investigate  -  but not an article out of its place, and
+not a human being in the house but themselves. After
+this each night the same unaccountable noises were
+heard. Everything was done to put an end to these
+sounds. At one time it was thought it might proceed
+from the cellar, where empty wine casks had stood,
+and their iron hoops hung upon the wall. Then a large
+tree was cut down, that overhung the house, but all in
+vain. When the old lady
+<pb id="branch101" n="101"/>
+breathed her last, it was said by those who
+surrounded her, that a long wailing cry was heard.</p>
+          <p>After Mrs. Long's death some member of the family
+continued to reside in the house, until at last worn out
+with trying to ferret the mystery, it was sold and went
+into other hands.</p>
+          <p>Fifty years after this occurrence I left my home in
+Tennessee to visit relatives in North Carolina. As I
+passed over the bridge at “Quankey creek,” I asked
+the conductor to point out to me the old home. “I can
+show you the site,” he said, “but the house was torn
+down long ago. One person after another tried to live
+in it, but left frightened, so after being left vacant for
+some years, it was torn down.”</p>
+          <p>And so ended the weird experiences of the haunted
+house.</p>
+          <p>Mrs. Long ended her long and eventful life in her
+ninetieth year, and was buried in the family graveyard
+at “Quankey.”</p>
+          <p>Of the lovely old couple of whom I will now write I
+feel it to be a pious duty, my father and my mother.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Dr. William Polk.</head>
+          <list type="simple">
+            <item>Dr. William Polk, my father, married my 
+mother, Mary
+Rebecca Long, at Mt. Gallant, North Carolina, about 1818.</item>
+            <item>Afterwards moved to Buena-Vista, Tennessee, in 1834.</item>
+            <item>Issue:
+<list type="simple"><item>1. Grizelda Gilchrist, married Russel 
+Houston, Chief
+Attorney of the Louisville&amp; Nashville Railroad for fifty
+years.</item><item>2. Allan Jones, married first, Mary Clendenin; 
+second, 
+Anna Clark Fitzhugh.</item><item>3. Thomas Gilchrist, married Lavinia Wood.</item><pb id="branch102" n="102"/><item>4. Mary Jones, married Joseph Branch.</item><item>5. Lucius Eugene, married Sallie Polk (his cousin).</item><item>6. Cadwalader, married Carrie Lowry.</item><item>7. Rufus Julias, married Cynthia Martin.</item></list></item>
+            <item>
+              <list type="simple">
+                <item>1. Issue of Grizelda and Russel Houston:<lb/>
+<list type="simple"><item>Allen, married Mattie Belle Shreve, of Louisville.</item><item>Lucia, married George Hull, of New York (her daughter,
+Grizelda, married Richard Pierson Hobson).</item><item>Elise, married Theodore Presser, of Philadelphia.</item></list></item>
+                <item>2. Issue of Allen and first wife, Mary Clendenin:
+<lb/>
+Mary Polk, married Frank Hemphill, of Alabama.</item>
+                <item>Issue of Allen and second wife, Anna Fitzhugh:<lb/>
+<list type="simple"><item>1. Susan, married Woodie Kessee, of Helena, Arkansas.</item><item>2. Anna Lee, married Sam Pepper, of Memphis.</item><item>3. Grizelda, married Thompson Hargreves, of Helena,
+Arkansas.</item><item>4. Robin Jones.</item></list></item>
+                <item>3. Thomas, married Lavinia Wood.
+<lb/>
+Issue:<lb/>
+<list type="simple"><item>Mary, married Willie Littlejohn.</item><item>Caroline, married Ham Homer.</item><item>Zell, married Joe Sterling.</item></list></item>
+                <item>4. Mary Jones married Joseph Branch.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>Mary Polk, married Dr. Chas. W. Winn.</item><item>Lawrence Branch.</item><item>Mary Polk.</item><item>Lawrence, St. Louis, Missouri.</item><item>Lucia, married Mr. John William Howard, of Tennessee.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>Gerald Howard.</item><item>Lawrence Branch.</item><item>Joseph Gerald Branch, of Chicago, Illinois.</item></list></item></list></item>
+                <item>5. Lucius, married Sallie Moore Polk.
+Issue:
+<list type="simple"><item>Rufus, Member of Congress, from 
+Pennsylvania, married
+Isabel Greer.</item><item>Rebecca, married Scot Harlan.</item><item>William Julius, married Willie Glass.</item><pb id="branch103" n="103"/><item>Lucius ----.</item><item>James Knox.</item></list></item>
+                <item>6. Cadwalader, married Carrie Lowry.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>William, married Lula Donnell.</item><item>Annie, married Chris Agee.</item><item>Cadwalader, married Lucile Greenfield.</item><item>Nina, married Will Coolidge.</item><item>Edmund, married Miss Wood.</item></list></item>
+                <item>7. Rufus, married Cynthia Martin.
+<lb/>
+Issue:
+<lb/>
+<list type="simple"><item>Eugene, Little Rock, Arkansas.</item><item>Rufus.</item><item>William Julius, married Sarah Chambers.</item><item>Charles, married Nannie Lee.</item></list></item>
+              </list>
+            </item>
+          </list>
+          <p>Four of these sons were soldiers in the Civil War:
+Thomas Gilchrist, an aide to General Tappan; Gen.
+Lucius Eugene, of whom I shall write later; Colonel
+Cadwalader, who was first with Jackson in Virginia,
+afterwards in the western army under General Price;
+promoted for gallantry from second lieutenant to
+colonel. At the battle of Prairie Grove he was left for
+dead on the field, taken to the Federal Hospital, and a
+month afterwards liberated in an exchange of
+prisoners. Capt. Rufus Julius, of whom Sam Watkins
+speaks in his book “Company H,” as
+being “beautiful
+as a girl,” was a prisoner on his eighteenth birthday at
+Johnson's Island. He was in the last skirmish of the
+war in Alabama.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>St. John's Church.</head>
+          <p>Although most of these homes of the Polks have
+been burned, or passed into other hands, there still
+stands sacred to memories of the past St. John's
+Church. It was built in 1837 by the
+<pb id="branch104" n="104"/>
+<figure id="ill16" n="16" entity="branch104"><p>ST. JOHN'S CHURCH, ASHWOOD, TENNESSEE.<lb/>Built in 1838 by the Polk family.</p></figure>
+<pb id="branch105" n="105"/>
+Polk brothers, the site given by Andrew (the
+youngest), the font by their sister, the handsome gate
+at a later period by Van Leer Polk. It is called “the most
+historic church in Tennessee.” During the Civil War it
+was used alternately as a hospital by the conflicting
+armies, whichever was in control at the time.</p>
+          <p>The church was much mutilated by the troops under
+Buell as they passed down the pike in front of it to
+reinforce Grant at Shiloh. They broke the bell and the
+window glasses, hacked the organ, blowing the pipes
+as they marched, and taking the beautifully
+embroidered altar cloths as saddle-blankets. The
+portraits of Bishops Polk and Otey, which were in the
+vestry room, had been moved, fortunately, to the
+Columbia Institute for safe-keeping.</p>
+          <p>The church from time to time has been opened for
+services since the War, but is usually closed. The Polk
+family, most of whom live in different States, send
+funds to keep it in repair. It is to Col. Harry Yeatman,
+however, that they are chiefly indebted for its care. He
+was an officer on Gen. Leonidas Polk's staff, and
+married his niece, Mary, a daughter of Gen. Lucius
+Polk, Sr., and lived at “Hamilton Place” for many years,
+until his tragic death two weeks ago.</p>
+          <p>What different scenes have been enacted in this old
+church! In earlier days brides in their white attire stood
+before its altar, and infants were brought to be
+christened at the font. There came a later day when
+soldiers fought around its walls, and the dead and
+dying were piled upon its floor.</p>
+          <pb id="branch106" n="106"/>
+          <p>Among the dead who were buried there were
+Generals Cleburne, Stahl and Granberry, and at a later
+day, Gen. Lucius Eugene Polk, who never recovered
+from the wounds he received during the war.
+Generations of those who died earlier are buried there  - 
+representatives of the old-time South. The ideal
+Southern gentleman, with his courtesy and chivalry,
+the gracious gray-haired matron, their surroundings as
+well as their heredity developed their characteristics of
+loyalty, truthfulness, courtesy and courage.</p>
+          <p>Other graves are there which also tell a story of the
+past. It is of another race who were born slaves.
+Between them and their owners was an inherited bond
+of affection  -  responsibility on the one hand, and on
+the other of service and faithfulness.</p>
+        </div2>
+        <div2 type="subchapter">
+          <head>Mammy Sue.</head>
+          <p>I recall among these graves a monument which
+bears this inscription: “Sacred to the memory of
+Mammy Sue, the faithful nurse of George and Sallie
+Polk's eight children.”</p>
+          <p>In the morning the services in the church were for
+the masters, in the afternoon their daughters taught
+the children of the other race, and all knelt together in
+prayer.</p>
+          <p>In the cemetery are two white monuments exactly
+alike. My father, on his deathbed, believing the
+separation from his beloved wife to be very brief,
+ordered them, but my mother's was not put in place
+until her death twenty years afterward.</p>
+          <p>This church of many memories stands in a
+<pb id="branch107" n="107"/>
+cemetery of seven or eight acres, surrounded by a
+stone wall.</p>
+          <p>The large oak trees and the carpet of blue grass
+make it a lovely spot, but the doors of the church are
+closed, the windows unopened, the iron gate in front
+locked. Sometimes a long procession winds through it,
+as the body of one who has passed away in some far-off
+State is borne, to be laid to rest beside his forefathers.</p>
+          <p>But in the distance is heard the sound of the
+automobile and the roll of heavy wagons upon the
+pike, and we realize the brightness of the world
+without and the busy life which surrounds the old
+church with its story of the past.</p>
+        </div2>
+      </div1>
+      <trailer>THE END.</trailer>
+    </body>
+  </text>
+</TEI.2>

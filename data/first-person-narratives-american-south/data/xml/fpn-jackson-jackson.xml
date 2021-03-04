@@ -1,0 +1,2453 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY jackson48 SYSTEM "jackson48.gif" NDATA gif>
+<!ENTITY jacksontp SYSTEM "jacksontp.gif" NDATA gif>
+<!ENTITY jacksonvs SYSTEM "jacksonvs.gif" NDATA gif>
+<!ENTITY jacksoncv SYSTEM "jacksoncv.gif" NDATA gif>
+]>
+<TEI.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>The Experience of a Slave in South Carolina: 
+Electronic edition.</title>
+        <respStmt>
+          <resp>Scanned text is corrected and encoded by</resp>
+          <name id="ns">Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition,
+<date>1996.</date></edition>
+      </editionStmt>
+      <extent>ca. 150K.</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC - CH.</publisher>
+        <pubPlace>University of North Carolina at Chapel
+Hill,</pubPlace>
+        <date>1996.</date>
+        <availability status="unknown">
+          <p>This work is the
+property of the University of North Carolina 
+at Chapel Hill. 
+It may be used freely by individuals for research, teaching and personal
+use as long as this statement of availability is included in the
+text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number E445 .S7 J32  (Wilson
+Annex, UNC-CH)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl><title>The Experience of a Slave in South Carolina.</title>
+<author id="jaj">By John Andrew
+Jackson.</author><imprint><pubPlace>London:</pubPlace><publisher>PRINTED BY PASSMORE &amp; ALABASTER, WILSON STREET,
+FINSBURY.</publisher><date>1862.</date></imprint></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part
+of the UNC-CH digitization 
+project Documenting the 
+American South.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Running 
+titles on each page of the text have not been preserved.</p>
+        <p>Any hyphens occurring in line breaks have been removed.</p>
+        <p>All quotation marks, ampersand and dollar signs have been transcribed
+as entity references.</p>
+        <p>All single right and left quotation marks are
+encoded as ’ and ‘ respectively.</p>
+        <p>All double right and
+left quotation marks are encoded as 
+” and “ respectively.</p>
+        <p>Indentation in all poems' lines has not been preserved.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st
+edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Jackson, John Andrew.</item>
+            <item>Slaves -- South Carolina -- Biography.</item>
+            <item>Slavery -- South Carolina.</item>
+            <item>Slaves' writings, American -- South Carolina.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="jacksoncv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="jacksontp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">THE <emph>EXPERIENCE OF A SLAVE</emph> IN
+<emph>SOUTH CAROLINA.</emph></titlePart>
+        </docTitle>
+        <byline>BY</byline>
+        <docAuthor>JOHN ANDREW JACKSON.</docAuthor>
+        <docImprint><pubPlace>London:</pubPlace>
+<publisher>PRINTED BY PASSMORE &amp; ALABASTER, WILSON STREET, FINSBURY.</publisher>
+<date>1862.</date>
+<seg>ENTERED AT STATIONERS' HALL.</seg></docImprint>
+      </titlePage>
+      <div1 type="verso image">
+        <p>
+          <figure id="verso" entity="jacksonvs">
+            <p>FAC-SIMILE OF THE GIMLET WHICH I USED TO BORE A HOLE IN THE DECK OF THE VESSEL. (SEE PAGE 27.) <lb/>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="preface">
+        <head>PREFACE.</head>
+        <p>IN aiming to arrest the attention of the reader, ere he 
+proceeds to the unvarnished, but ower true tale of John
+Andrew Jackson, the escaped Carolinian slave, it might
+be fairly said that “truth was stranger than fiction,” and
+that the experience of slavery produces a full exhibition
+of all that is vile and devilish in human nature.</p>
+        <p>Mrs. Stowe, as a virtuous woman, dared only allude to
+some of the hellish works of slavery—it was too foul to
+sully her pen; but the time is come when iniquity should
+no longer be hid: and that evil which Wilberforce and
+Clarkson exposed, and of which Wesley said it was “the
+sum of all human villainies,” must now be laid bare in
+all its hellish atrocities.  The half has not yet been told;
+but appalling as are the statements made, yet when the
+fiercest organized effort to extend the monster evil of
+North-American slavery is being made, every patriot is
+called on to sympathize over the woes and sufferings
+of human kind, and plead for freedom and liberty.</p>
+        <p>Cowper long ago told his fellow-countryman that</p>
+        <lg type="para">
+          <l>“Skins may differ, but affection</l>
+          <l>Dwells in
+white and black the same.”</l>
+        </lg>
+        <p>Therefore, kind reader, we
+ask your sympathy, while you
+peruse some of the iniquities perpetrated upon a suffering
+race, and that too often by men and women calling themselves
+Christians, and using a religious cloak to screen
+their monstrous, foul, and cruel acts.</p>
+        <p>Shrink not, gentle reader,
+when those fearful atrocities
+are brought before your notice.  Such narratives as
+Jackson's are wanted to arouse the people. The evil is
+afar off, and interested parties say, “Don't believe it; it
+is false, or it is exaggerated.”  Not so; the worst cannot
+be told.  You cannot speak out, or tell a fraction of the
+<pb id="jackiv" n="iv"/>horrid scenes enacted, where every child and
+feeble woman
+is at the brutal mercy of brutalised man; where marriage
+is a fiction, and five millions of people live practically in
+a state of unrecognised whoredom and polygamy.</p>
+        <p>Would that English
+mothers and English daughters
+could feel as they ought for those whose virtue and
+honour, whose life and liberty, may be purchased by any
+libertine wretch, who has the “almighty dollar” in plenty
+in his pocket.  Let us but think of our sisters, our wives,
+our children, and thank God with them, that</p>
+        <lg>
+          <l>“I was not born a little slave</l>
+          <l>To labour in the
+sun;</l>
+          <l>To wish I was but in my grave,</l>
+          <l>And all my labour
+done.”</l>
+        </lg>
+        <p>Many an English reader, knowing that every year we
+pay a million of money as interest for the twenty millions
+by which the freedom of West Indian slaves was purchased, 
+and spend nearly another million to keep down
+the slave trade of America, Cuba, and Brazil, are very
+earnest in declaring their abhorrence of American slavery,
+and, like the <hi rend="italic">Times,</hi> finds fault with President Lincoln's
+government for not putting an end to slavery by proclamation, 
+thinking that our British hands are quite clean.
+But they forget the share that England has had in the
+bondage of the human race.  Liverpool and Bristol for
+years was the seat of the African slave trade; and, once
+upon a time, G. F. Cooke, the actor, on the boards of a
+Liverpool theater, when displeased with his audience for
+hissing him, turned fiercely on them, and told them that
+Liverpool was paved with the blood of the negro slaves;
+and in 1862 it is not quite clear of the same, vide the
+<hi rend="italic">Nightingale Slaver.</hi></p>
+        <p>Three hundred years ago Sir John Hawkins procured
+the first cargo of Negroes from the coast of Guinea, and
+took them to Hispaniola, and so profitable was his trip
+that a new expedition was soon prepared, of which Queen
+Elizabeth shared the profits.  This royal patronage of the
+slave trade was further extended under other reigns, and,
+<pb id="jackv" n="v"/>on the 10th of December, 1770, our good King George
+issued a proclamation under his own hand, commanding
+the Governor of Virginia, “upon pain of the highest displeasure, 
+to assent to no law by which the importation of
+slaves shall be in any respect prohibited and
+obstructed.”</p>
+        <p>Before we then heartily condemn the United
+States, let
+us remember that when they would not have slavery, it
+was forced upon them by the English Government.</p>
+        <p>When in 1645 the
+ship of one Thomas Keyser and
+James Smith brought a cargo of negroes to Boston, they
+were heavily fined and compelled to return those negroes
+again to Africa.  Noble men were they of Massachusetts;
+and despite the Irish and rowdy element of Boston and
+Portland, yet noble men are they at the present hour.
+There the fugitive slave has liberty and protection.</p>
+        <p>Virginia, long
+the battle ground of freedom during
+the old war, as well as the new one, often spoke out nobly
+against slavery.  Her patriots, like Jefferson, though
+himself a slaveholder, yet steadily resented the influence
+of that growing evil.  At that time, Franklin spoke
+through the press, and memorials from all the States
+were sent to King George.  The king was inexorable;
+and while the English judges declared that when a slave
+set his foot on the soil of England he was free, yet the
+monarch stood in the path of humanity, and became the
+pillar of the American Slave Trade.</p>
+        <p>England gave America slavery.
+England by the use
+of her cotton, has mainly helped to continue it; and let
+but English sympathy be withdrawn from the South, and
+soon slavery there must fall.  It lies with Christian men
+and women to expose its evils, denounce its cruelties, lay
+open its horrors, and spare not its infamous immoralities. 
+Truly there is a God that judgeth the earth.  There is
+wanted fact upon fact to enlighten the English public,
+when its <hi rend="italic">leading papers</hi> palliate and excuse the
+atrocities
+of the South. They would ignore the existence of four
+millions out of the twenty who live and breathe beyond
+<pb id="jackvi" n="vi"/>the Atlantic under the stars and stripes.  Christian
+England should stand to a man opposed to those who
+would kill every slave found with arms in hand, or away
+from his master's plantation; who have no scruples in
+brutalizing, burning, flaying, flogging, scourging, and
+shooting the wives and daughters of their runaway
+slaves.</p>
+        <p>Every sickening brutality is practised upon the hapless
+men and women, without hope of any redress; surely
+these injustices cry to heaven for vengeance.  How long,
+Lord, how long.  Stonewall Jackson may, with the courage
+and piety of a Cromwell, but without his rightful cause,
+carry the war into Maryland, and Pope and M'Clellan be
+driven back to the Free States; but yet with one burst
+of freedom, even Dr. Mackay shall re-echo from Washington 
+to the “Times” of to-morrow, his favorite phrase:</p>
+        <lg>
+          <l>“There's a good time coming, boys,</l>
+          <l>Wait a little
+longer.”</l>
+        </lg>
+        <p>The day of escape from bondage will come to all, as it
+has to some; and surely their cry will be heard, and the
+refrain so long sung by the Negroes of the South:</p>
+        <lg>
+          <l>“O let my people go,”</l>
+        </lg>
+        <p>be answered from heaven, perhaps even with a slaughter
+as great as that of the “smart Egyptians,” when they
+came onward with all the panoply of their chariots and
+horsemen to the Red Sea, there to sink amid the waters.
+Then sang Miriam:</p>
+        <lg>
+          <l>“Sound the loud timbrel o'er Egypt's dark sea,</l>
+          <l>Jehovah
+hath triumph'd, his people are free.”</l>
+        </lg>
+        <closer><signed>                        W. M. S.</signed>September 20, 1862.</closer>
+      </div1>
+    </front>
+    <body>
+      <pb id="jack7" n="7"/>
+      <div1 type="main">
+        <head>THE EXPERIENCE OF A SLAVE
+			       IN
+SOUTH CAROLINA.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <head>MY BIRTH AND TRAINING.</head>
+          <p>I was born in South Carolina. My grandfather was 
+stolen from Africa. My father learned the African method 
+of curing snake bites, and was in consequence, called Dr. 
+Clavern.  My mother's name was Betty. I had five brothers 
+and five sisters.  Of these, two brothers and two 
+sisters were dead when I left the plantation.  My earliest 
+recollection was of my mistress, whom I feared above all 
+persons, as she used every means in her power to spite 
+me.  The reason for this was as follows:—When I was 
+about ten years old, I and her son were digging for hickory 
+root to amuse ourselves with, when he, seeing that I was 
+obtaining mine quicker than he, kicked me on the nose, 
+upon which I wiped the blood upon him.  He ran and 
+informed his mother, who whipped me on my naked back, 
+to console her son, till the blood ran down.  After that, 
+she always hated not only me but my family, and would 
+even stint my mother's allowance; and since then, I had 
+many whippings through her influence.</p>
+          <p>My mistress had four daughters, viz.:—Anne, Eliza, 
+Jane, and Martha.  Of Anne, the eldest, I knew but 
+little, as she married when I was very young, and went to 
+another plantation.  Eliza, the next, was the worst of the 
+three.  She used to whip me almost as much as my mistress.  
+Of Jane, the next, I also knew but little, as she 
+married a minister named Brailly, when I was very young; 
+but, as far as I know, she was the best of the three.  
+Martha, the youngest, was very bad.  I will give a specimen 
+<pb id="jack8" n="8"/>
+of her abilities.  One day, as she was returning from 
+a walk in the garden, she saw my youngest brother, 
+William, walking in the yard, and, from pure mischief, 
+she picked some horse nettles, and, coming up to him, (he 
+was quite naked) began to sting him with them, and, as 
+he ran away, she ran after him, and kept up with him, 
+stinging him on the sides and back, till at last he fell 
+down through pain; nevertheless, she kept on stinging 
+him, without any intermission; at last he got up and 
+began running, and by that time I got up to him, (I was 
+about ten years of age, and he being between five and 
+six) and I cried out to him, “Run faster, William, run 
+faster,” whereupon she turned upon me, and I being able 
+to run faster than she, I escaped her, and by that means 
+my brother William effected his escape.  When William 
+got home, he was covered with large lumps all over his 
+body.  When she was married she had my sister whipped 
+to death.  The circumstances were as follows:—</p>
+          <p>My sister was religious, and perhaps it stung her conscience, 
+or it might have been for some other reason; but, 
+at all events, she ordered my sister to leave off praying, 
+and as she discovered my sister did not obey her commands, 
+she asked her husband, Gamble M'Farden (a 
+member of the Salem Brick Church, who was, if possible, 
+worse than herself, and she was a member also) to give her 
+a hundred lashes, and he took her and hung her up by the 
+hands to the beef gallows, (an apparatus on which they 
+hang oxen when they skin them) and called his negro slave 
+Toney, and ordered him to give her a hundred lashes, and 
+he commenced beating her incessantly; he then remonstrated 
+with his master, because she fainted, and his brutal 
+master, (who, though a member of a Christian church, was 
+notwithstanding, equal to the devil himself) coolly ordered 
+him to bring a pail of water and throw over her, to revive 
+her; and when she came to, he ordered him to continue, 
+which Toney did; but at length made a pause, and told 
+his master that he had given her fifty lashes, but the 
+brutal answer was, “Give me the whip, and I will give her 
+the other fifty,<corr resp="NS">”</corr> which he did.  She died at
+the end of 
+three weeks, leaving two children, a boy and girl, who, 
+with my father, I now hope to buy.  My mistress also had 
+four sons, James, Robert, Thomas, and Mack.  James 
+English, a member of Brick Church, was as bad as any of 
+them; he was married when I was little.  I worked on his 
+<pb id="jack9" n="9"/>plantation once, driving oxen, and I will relate
+what I saw 
+there.  A slave named Jack, was taken sick while working 
+on the plantation, and he laid himself down in the fence 
+corner.  When his master came, he saw him lying down, 
+and he told him to get up immediately and go on working.  
+Jack replied, “O massa, I'm so sick.”  “Get up immediately, 
+you lazy varmint,” replied his master, and he 
+commenced whipping him till he got up; but as soon as 
+his master was off that field, he lay down again.  The 
+slaves, seeing his master returning, told him he had better 
+get up, as master was coming, but he could not, and when 
+the master returned he began to whip him again; but 
+seeing, he could not get up, he went to the house and 
+brought a tumblerful of castor oil, and forced him to drink 
+it, and then said, “Now get up, you rascal, or I will whip 
+you,” and made him continue his work; but his conscience 
+smote him, and he sent for a doctor, and upon his certificate 
+allowed him to return home.  I cannot leave off 
+without relating another incident about him.  On one 
+occasion there were a hundred negroes to be sold, and James 
+English went to buy.  Among the negroes to be bought 
+there was one named Willis; when he was put on the 
+block, and the bidding began.  James English began to bid, 
+and Willis, seeing him bidding, jumped down from the 
+auction-block.  The auctioneer said, “Why do you jump 
+down, you rascal?”  He replied, “Because that man, 
+(pointing to James English) is bidding for me.”  “Why 
+do you not want him to bid for you?”  “'Cause he's the 
+baddest massa 'tween this an' hell fire.”  This scene was
+repeated twice, but James English at length bought him; 
+and he went towards the plantation till within three miles 
+of it, when the negroes of another plantation again told 
+him that there was not a worse master in the whole district.  
+His fears returning, afresh, he fled to the woods, but 
+hunger compelled him to return.  When he got back he 
+was put into irons, and taken out next morning and hung up, 
+and received a hundred lashes; and when the stripes were 
+partially healed, they gave him twenty-five lashes every 
+other morning as long, as they thought he could bear it.</p>
+          <p>Afterwards, James English was taken ill, but such were 
+his savage propensities, that he got out of bed and dressed 
+himself; and took his whip and went into the cotton field, 
+and commenced quarrelling with a slave named Old 
+George, on the plea that he did not pick cotton fast 
+<pb id="jack10" n="10"/>
+enough.  I will repeat his words: “Never mind, you old 
+rascal, when I get better I'll give you sixty lashes,—never 
+mind, you old rascal you.”  But from that time he began 
+to get worse, and went home and sent for the doctor, Mr. 
+Miller.  The following conversation then took place:—
+“Doctor, I am very sick, can you help me?” The doctor, 
+after feeling his pulse, replied, “I can't save you.”
+“Why, 
+doctor?”  “You have mortification in the head.”  He did 
+not believe this, and sent for Dr. Hainsworth.  When Dr. 
+Hainsworth came, he said also, “I can't save you, you 
+will die in a few days.”  His terror on hearing this announcement 
+was extreme.  He prayed the doctors to save 
+his life, but in vain.  In five days that terrible hour drew 
+nigh, and his agony and death struggles were such that he 
+required to be held down.  Thus ended the life of a member 
+of a Christian Church.  When the tidings of his death 
+reached the negroes, they were overjoyed, and especially 
+Willis, who went round to every hut, and shook hands 
+with every negro, saying, “How d'ye do, brudder, de devil 
+is dead an' gon' to hell, an' Old George got clear of his 
+sixty lashes.”  Of Robert, the next brother, I knew 
+nothing, as he died when very young.  Thomas, the next, 
+was, if possible, worse than James.  He was also a member 
+of Mount Zion Chapel.  He was articled to a lawyer.  
+While studying the law, he used to whip the negroes on the 
+plantation exceedingly.  I will give you an instance of it.  
+He had just bought a new whip, and wished to try it, and, 
+seeing me go by, he called me and told me to bring him 
+some water to wash his hands in.  I went and got it 
+as quickly as possible.  When I brought it to him, he 
+said, “You have been too slow, now pull off your jacket,” 
+and he then commenced whipping me, having first shut 
+both doors, but I pushed open one of them and ran.  I 
+was then between ten and twelve years of age.  He ran 
+after me, and soon caught me, and whipped me again till 
+the blood ran.  When a young man, he went to Tennessee, 
+and married.  The lady's name was Livinia.  At his marriage 
+his father gave him twelve negroes.  He had then a 
+son named West, and after ten years he returned to South 
+Carolina.  His father bought him a plantation five miles 
+from his own, and gave him another slave girl as a nurse 
+for his boy.  The boy was very cross, and his mother 
+asserted that the girl pinched the baby, which was not 
+true.  This girl was continually being whipped upon that 
+<pb id="jack11" n="11"/>
+false accusation, so that at length she ran away and went 
+back to her old plantation.  But the master tied a rope 
+round her neck and sent her back to his son, who immediately 
+ordered two flat irons to be put on the fire, and had 
+her laid down on a log, and made three negroes, by the 
+names of Frank, Save, and Peter hold her down.  He 
+then took the first iron and pressed it to her body on one 
+side; and when he removed it the skin stuck to it.  He 
+repeated the same with the other iron, on the other side 
+of the body.  She then left him, and started that night 
+for the old plantation: her pain was so great that she 
+was all night going that little distance.  The old master, 
+on seeing the burns, declared she should not go back any 
+more.  The following conversation took place when Thomas 
+came to see his father: “Thomas, did you burn this girl 
+so?”  “Yes, pa, I did, because she ran away.”  “Well, 
+you shan't have her any more.”  But, in this case, Thomas 
+was a true son of his father, and the old proverb remained 
+unshaken, viz., “The chip off the old block don't fall far 
+from the stump.”  About this time he became a minister.  
+He preached his first sermon in Mount Zion Chapel, and 
+the negroes flocked to hear him, and were so overjoyed to 
+think that now he had experienced true religion, he would 
+be more merciful to them, but he was the same devil still.  
+He owned a slave whose name was January, who could 
+not pick cotton as fast as the other negroes.  For this 
+reason, this minister of religion gave him from twenty-five 
+to one hundred lashes, and fifty blows with the paddle, 
+which so frightened the negro that he ran away into the 
+woods; but was caught, and again whipped, and put into 
+the stocks, and was taken out every other morning, and 
+received twenty-five lashes for a time, and then put to 
+work with a lock and chain round his neck.  At that time, 
+his son West was overseer and whipping the negroes for 
+his father.  At that time I left slavery he often whipped 
+the slaves severely.  In the Southern States of America, 
+any negro found out at night after nine o'clock, without a 
+pass, is liable to be taken up and receive thirty-nine 
+lashes; and it is a common amusement for young men to 
+go out at night in parties patrolling.  This minister, 
+Thomas English, one night joined a party, and they came 
+upon a slave named Isaac, on Dr. Grag's plantation, and 
+they gave chase, but he outran them, and this minister 
+was leading them on, shouting at the top of his voice, 
+<pb id="jack12" n="12"/>
+with horrid oaths, “Catch the rascal.”  We will now 
+pass on to Mack, the youngest brother, he was worse 
+than either of the others, and was the one who kicked 
+me when I was digging for hickory root.  He had not 
+finished his schooling, before he was put to oversee his 
+father's plantation.  He used to whip the slaves more 
+than his father.  Among the atrocities which he committed, 
+he knocked my mother down with the butt of his 
+whip, while I stood by feeling as if I had been struck 
+myself, when he suddenly turned round and said, “Go on 
+with your work, you <del resp="jaj">-----</del> rascal.”  His whip
+spared 
+neither old nor young.  This youth ordered every negro 
+to pick one cwt. of cotton each day—which was almost impossible
+for them to do—and on their not presenting that 
+amount of cotton at the machine, he gave them from 
+twenty-five to fifty lashes each; so that during the cotton-
+picking season, the place was filled with screams of agony 
+every evening.  There was a slave named Isaac, who 
+could not pick cotton so fast as the others, and the consequence 
+was, that he was flogged every night by this youth.  
+This tyrant was going to give him fifty lashes again one 
+evening, on the scaffold where they weigh the cotton, 
+about ten feet high; and Isaac jumped down in the dark 
+on a snaggy stump and ruined his feet, and could not work 
+for more than a month.  He used often to call the negroes 
+up at midnight to screw cotton, and to move fences in the 
+sweet potatoe fields.</p>
+          <p>The time of killing hogs is the negroes' feast, as it is 
+the only time that the negroes can get meat, for they are 
+then allowed the chitterlings and feet; then they do not 
+see any more till next hog-killing time.  Their food is a
+dry peck of corn that they have to grind at the hand-mill 
+after a hard day's work, and a pint of salt, which they 
+receive every week.  They are only allowed to eat twice 
+a-day.  Mack English once tied down a slave named Old 
+Prince, and gave him one hundred lashes with the whip, 
+and fifty blows with the paddle, because he could not work 
+fast enough to please him.  A slaveholder named Mr. 
+Wilson, having died in debt, my master bought two of his 
+slave girls, named Rose and Jenny.  Jenny was forced 
+to have Adam who was already married; also her 
+sister Rose was married to March, before she came on 
+our plantation.  Mack English, having turned a wishful 
+eye on Rose, wrapped himself up in his big cloak, 
+and went to the nigger-house in the night, and called a
+<pb id="jack13" n="13"/>
+slave named Esau, and told him to tell Rose to come to 
+him as he wanted her.  She sent back to say, “I'm 
+nursing my baby and can't come.”  “Go and tell her I 
+don't care about her baby, she must come,” answered 
+Mack, “and if she does not come, I'll give her twenty-five 
+lashes to-morrow morning.”  “Go and tell him, Esau, my 
+husband will be coming, and I can't come,” answered 
+she.  The next morning he tied her up and cut her naked 
+back all over; the further particulars are too revolting to 
+tell.</p>
+          <p>We will now relate his death.  He went with his father 
+one summer to the White Sulphur Springs.  There he 
+was taken ill, and death took place in five days.  His 
+death-bed was a scene of heartrending agony.  He swore, 
+and he cursed, he shrieked “Murder! Murder!! Murder!!!  
+Pa, you stand here and see all these doctors 
+hunching and punching me. Murder! Murder!!” Then, 
+as he expired, he shrieked with fearful agony, “God to 
+blast.”  This I heard from Old Bob, the carriage driver, 
+who was his nurse till his death.  The following conversation 
+I overheard when his father returned:—“Wife, our 
+son is dead and gone to hell.”  “Hush! hush! talking
+so before the niggers.”  “Well, he is, he died cursing and 
+swearing.”  Just then, Mack's playmate, named Davey 
+Wilson, entered and inquired for him.  “Your playmate 
+is dead and gone to hell,” was the answer he received.  
+His wife immediately replied, “Hush! hush! shut your 
+mouth, you old fool, what are you telling him that for.”  
+Davey Wilson went and told his mother, who told the 
+minister, Mr. Reed, of Mount Zion Church, who preached 
+a sermon to the young about his death.  After that, none 
+of the English's family attended Mount Zion Chapel.  
+When he went to the White Sulphur Springs, I prayed 
+that I might never see him again, and thus was my prayer 
+signally answered.  I remembered when he and his father 
+both whipped me at the same time, about sunrise, on my 
+naked back, and then made me work till twelve o'clock 
+without eating anything.  I also remember that when he 
+was going to the springs, he said, “When I get back, my 
+father will give me the Creek Swamp plantation and fifty 
+niggers, and then I will buy a cowhide whip, well corded, 
+five feet long, and I'll make all the niggers take Ephraim 
+by force, and tie him to an oak tree, and I'll make Adam 
+give him one of the hardest hundred lashes that ever man 
+put on nigger.”  I, myself, was willed to that tyrant, but God 
+<pb id="jack14" n="14"/>
+had willed me to myself.  Surely the words of the Psalmist 
+came true in this case: “They search out iniquities; they 
+accomplish a diligent search; both the inward thought of 
+every one of them, and the heart, is deep.  But God shall 
+shoot at them with an arrow; suddenly shall they be 
+wounded.”</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER II.</head>
+          <head>REMINISCENCES OF MY OLD MASTER.</head>
+          <p>We will now speak about my old master, the father of
+those whom I have spoken of in the above chapter.  He
+was originally a Quaker in North Carolina, United States,
+but he came to South Carolina and married a lady who 
+had a few slaves.  He then set up a liquor store on the
+Creek Swamp plantation, where he sold to the white
+people in the daytime, and at night traded with the slaves. 
+He told the slaves round about to steal cotton and bring
+it to him, and he would give them whisky for it; but if
+their masters caught them, they were not to say that they
+were bringing it to him.  The consequence was, that some
+slaves brought one cwt. to him, for which he gave them one
+gallon of whiskey.  The cwt. of cotton was worth fourteen 
+dollars, or about £2 18s. 4d. in English money, and
+the gallon of whisky was worth one dollar, or about 4s. 2d.;
+but the slaves did not know this, and so they were cheated. 
+Others who brought a half-cwt., received half-a-gallon, and
+so on.  This he continued for a long time, until for fear of
+being betrayed, he put a stop to it.  This method of getting
+rich is very common among the slaveholders of South
+Carolina.  He afterwards became very rich, and owned
+two plantations, where he hired different overseers to whip
+his niggers, and he himself whipped them too.  He used
+to work them till nine o'clock at night, and in the winter
+season he blew the horn at midnight, and put them to
+killing, hogs, and cutting down pine trees, and threshing
+wheat and oats.  He also had a mill on a “branch,” and
+on the other side there is a Church called the Rock
+Church; he and other masters, made their slaves go to
+hear the Rev. Mr. Glen preach on such texts as “Servants
+ obey your masters,”—“Thou shalt not steal,”—
+“He that
+knew his master's will and did it not, shall be beaten with
+many stripes.”  But, after a while, Mr. Glen did not insist 
+sufficiently on that doctrine, and therefore, they drove
+<pb id="jack15" n="15"/>
+him away, and different “circuit riders” took his place.  
+These circuit riders are a rascally set.  The following is 
+an instance of their wickedness: one of them, as he was 
+riding along the road by the cotton fields where the slaves 
+were working, saw a female slave named Matilda, who 
+pleased him, and he told her to meet him at such a place.  
+She did so; and when he had accomplished his vile purpose, 
+he gave her a dollar, which turned out to be a 
+bad one.  He often preached at St. Luke's Church on Lynch's 
+Creek.  If the pastors do such things, what will the masters 
+and their sons do? But, to return to my master; he 
+could not bear any one of the negroes to finish his task 
+before sunset; if any did, he would set them such a heavy 
+task next day, that it would be impossible for him to finish 
+it, and then he would give him fifty lashes, which sometimes 
+would cause him to fly to the woods; and when he 
+returned, he would receive one hundred lashes, and fifty 
+blows with the paddle.</p>
+          <p>A negro woman of the plantation, called my mother 
+names, and thereupon my mother and this woman went 
+to fighting; and when my master heard of it, he tied my 
+mother up and gave her ninety lashes, but did not touch 
+the other woman, (called Nancy) as she was his favourite; 
+and there was my mistress looking on and saying, “That's 
+right, put it to her, cut her all to pieces.”  Among other 
+things, the mule I had to plough with was a very vicious 
+one, and used sometimes to kick the plough out of my 
+hands.  Once, as the mule was kicking, my master came 
+into the field, and said that I spoiled the mule; he then 
+at once tied me up and gave me fifty lashes.  One morning, 
+as he was going to whip me again, I started off for the 
+swamp, and he set five dogs after me, and said, “Suboy! 
+suboy! catch him!” When the dogs came level with me, 
+I clapped my hands also, and said, “Suboy! suboy! catch 
+him!” as if both my master and I were in chase of a fox 
+or hare ahead of us, and, upon that, the dogs went before 
+me and were soon out of sight, and so I got away.  About 
+this time, my master went to the White Sulphur Springs, 
+and hired a man named Burl Quiney, to oversee the plantation 
+during his absence.  There was a nigger-driver named 
+Old Peter.  Mrs. English told Burl Quiney that he should 
+give the first slave that he took up to whip, a pretty good 
+hiding to scare the whole plantation, for that they were a 
+set of niggers never conquered by any overseer that had 
+<pb id="jack16" n="16"/>
+ever been there.  She said so, supposing that I or another 
+slave named Isaac—whom she hated as much as she did 
+me—would be the first to be made an example of.  But it 
+turned out differently.  The task of Old Peter, the nigger-
+driver, was to see that all the negroes had their proper tasks.  
+When Burl Quiney rode along, he noticed one of the females 
+and said, “Peggy, you shall not do so much work 
+as the rest of the girls to-day.”  So he moved the stake 
+back, so that she should do only three tasks instead of 
+four—the allotted quantity to each slave.  This was done 
+that she should have time to meet him in the evening.  After a 
+time, Old Peter coming along and seeing the stake moved, 
+enquired, “Who moved that stake?” “Massa Burl 
+Quiney,” said Peggy, “because I have the cows to milk.”  
+Old Peter answered, “Massa makes you do as much as 
+the rest, so I'll move the stake back.”  When Burl Quiney 
+came that way and found the stake moved back again, he 
+asked Peggy who moved it? “Uncle Peter,” said Peggy.  
+“How dare he move a stake from where a white man put 
+it?  Where is he?” said Burl Quiney.  “At the other end 
+of the field,” replied Peggy.  He then rode up to him and 
+said, “Peter, haul off your jacket, sir! how dare you 
+move that stake?” “Massa always makes that girl do as 
+much as the rest,” replied Old Peter.  Now, the example 
+was to be made of Old Peter, the favourite slave of my 
+mistress.  He cut his back with a lash in which wire was 
+interwoven.  That evening, old Peter went to the house, 
+and told his mistress that Burl Quiney had cut his back 
+to pieces, because he told Peggy to do as much as the 
+other slaves.  “Did he want her to do less?” enquired 
+Mrs. English.  “Yes, ma'am.”  “What for?”
+“I don't 
+know,” said he.  But still, old Peter <hi rend="italic">did</hi>
+know, but dared 
+not tell his mistress.  When Burl Quiney went to supper, 
+Mrs. English said to him, “Mr. Quiney, I did not mean 
+that you should whip Old Peter!”  “You made no distinction,
+madam, but told me that the first one I took up 
+to whip I was to make an example of, to frighten the 
+whole plantation.”  Next morning, when the horn was 
+blown, Burl Quiney looked anxiously for Old Peter, intending,
+to give him another whipping for telling his mistress
+what he did; but he did not make his appearance.  
+So Burl Quiney hastened down to the nigger-house, and 
+there found Old Peter lying sick from the effects of the 
+whipping of the previous day.  Burl Quiney then said,
+<pb id="jack17" n="17"/>
+“Peter, did you not hear the horn blow?”  “Yes, sir, 
+but I am sick!”  “Out with you, sir, or I'll make you 
+sicker than that before I have done with you.”  So he 
+hauled him out, and kicked and beat him all the way to 
+the field.  When he got him there, he said, “Now, sir, 
+haul off your jacket, I am going to give you one hundred 
+lashes!”  The old man would not.  He then kicked him 
+in the stomach several times, and knocked him down with 
+the butt end of his whip, and said, “Now, cross your hands, 
+sir.”  And he kicked him, and he cried out to the slaves, 
+“Run here, this man is going to kill me!”  The slaves immediately 
+surrounded him; but Burl Quiney seeing, them do 
+so, said, “Why do you come round me? go off to your work!”  
+And he ran off a short distance; but we all surrounded 
+him again like blackbirds, and would not go away, because 
+we thought we should frighten him from the old man.  Old 
+Peter's daughter went to her mistress, and told her to come 
+and stop Burl Quiney from beating papa; and as she was 
+coming, the slaves cried out to her, “Come on quickly, 
+missus; Burl Quiney is going to kill Uncle Peter!”  She 
+answered, “What can I do? go away from there, you 
+niggers, that man will have you all hung and burnt!”  
+Then, Burl Quiney tied his hands and tied him to a tree, 
+and gave him one hundred lashes; he then ordered him to 
+do his duty, but the poor old nigger-driver was unable.  
+Two slaves, named Isaac and Prince, took him on a hand-
+barrow to the nigger-house; but Burl Quiney went down 
+and ordered him into the field.  He was forced out by the 
+cowhide.  When he got to the field, he lay down, and 
+Burl Quiney whipped him up, and again made him discharge 
+his duties; but he lay down again, and was again 
+whipped up with a horrid oath.  At twelve o'clock, the 
+horn was again sounded for the negroes to go home to 
+breakfast. But, to return to Old Peter; he was carried 
+home on a mule to the nigger-house, never again to come 
+out of it.  He died three days after.  A coroner's inquest 
+was held upon the body, and also a post mortem examination, 
+and Dr. Gray found that one of his bowels was ruptured.  
+The jury returned the following verdict: “Burl 
+Quiney, overseer to Mr. English, did wilfully cause the 
+death of the deceased by whipping with the cowhide.”  
+But Burl Quiney answered, “Yes, gentlemen, but Mrs. 
+English was the cause of it.”  Mrs. English exclaimed, 
+“You are a liar, sir!”  The Rev. Thomas English here
+<pb id="jack18" n="18"/>
+said, “Sir, if you say that <sic>ma</sic> was the instigation of your 
+killing that old nigger, you are a liar, and the truth is not 
+in you!” Burl Quiney was then committed to jail; and 
+on taking him to Sumpterville prison, all three mounted, 
+Burl Quiney having a much better horse than either of 
+the other two.  When, therefore, Quiney bade the others 
+“Good night,” he put spurs to his horse and was soon out 
+of sight.  During the inquest, Thomas English said, “Let 
+this be an example to you niggers;” but I (Jackson) said 
+in my mind, “No, let it be an example to you and your 
+mother.”</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER III.</head>
+          <head>MY MISTRESS.</head>
+          <p>MY mistress was a native of South Carolina; she was
+mean to everybody but her own family; she used to say
+that the bran flour was too good for the slaves to eat.  The
+sight which most delighted her eyes, was to see a slave
+whipped.  John Durant had a large plantation of slaves
+on Lynch's Creek, which he willed to John Ashmore, his
+nephew.  The uncle was drunk one night, and it was
+understood that John Ashmore tied a silk handkerchief
+round his uncle's neck and strangled him, in order to take
+possession of the property, which he did.  He took liberties
+among the female slaves.  Three brothers of the deceased,
+Alex Durant, Davy Durant, and Dr. Durant, believed that
+John Ashmore had murdered their brother, and they sued
+him for the property.  The lawsuit was progressing when
+I left, and some of the negroes were sold to carry it on;
+but it is most likely John Ashmore won it, as he engaged
+the best lawyer in Sumpterville, named Lawyer Moses. 
+I bought of one of the slaves, who was leaving, a little
+sow pig, for which I gave three yards of cloth, and took
+it to Wells' plantation, where my wife lived, and she raised
+it there and it increased to twenty pigs.  My mistress
+found out that my wife had some hogs; one of the
+slaves informed of me. “Is it Jackson's wife?” said she,
+“they are his hogs then, and he feeds them on my plantation.” 
+ She then called my mother: “Old Bet, where
+does Jackson get food for his hogs?”  “They live on the
+acorns, ma'am.”  “You are a liar, they feed on my corn,”
+said she; “I will order Ransom Player (the overseer) to
+give him one hundred lashes and kill all his hogs, the
+<pb id="jack19" n="19"/>
+unlawful rascal.”  He killed one, but I hid the others 
+until I sold them, but I was forced to sell them against my 
+will.  A poor man named Daniels, determined to get these 
+hogs by stratagem.  He asked me what I would take for 
+them, and he told me he would give me twenty dollars.  
+We killed some out of the drove, and for those which were 
+left he offered me thirteen dollars; but I did not sell them 
+for a long time because I knew he would not pity me.  He 
+told me if I did not sell them to him, the first time he 
+caught me when patrolling, he would whip me; but I did 
+not mind that either; but when my mistress kept tormenting 
+me about them, I told Daniel he might have 
+them for thirteen dollars, to get rid of the fuss.  He said, 
+“Well, you must bring me a written permission to sell 
+them, before I can buy them.”  I said, “My mistress hates 
+the Daniels' family and won't give me a permission.”  
+“Well, Jack, get your wife Louisa to get an order from 
+her owners.”  My wife got it, so I went one evening, as I 
+was afraid he was not going to give me the money, and 
+said, “Now, Mr. Daniels, if you have the thirteen dollars 
+ready I have the order.”  He replied, “Well, let me see 
+it.”   “No, you put the money in my hand first.”  Daniel 
+replied, “No, I can't do that until I see the order.”  
+“Well, if you don't give me the thirteen dollars will you 
+give me the order back?” He said, “Yes.”  “But have 
+you the money with you ?”  “Oh ! Yes,” replied Daniels.  
+I then handed him the order.  He then read it, and said, 
+“Well, this is as good in my pocket as ten dollars.  Now, 
+Jackson, if you interfere with those hogs I'll prosecute 
+you—they are my hogs now.”  “But you promised to 
+give me the thirteen dollars.”  “Ah! by George I havn't 
+got it.”  “Why, you told me you had.”  “Well, so I 
+have if you can change a one hundred dollar bill.”  “But 
+I have no money, I thought you were going to give me 
+some, and then fearing you would'nt I wanted the money 
+first.”  Now, these Daniels were considered to be great 
+liars.  They were once had up before the magistrate for 
+stealing Alex Durant's long-tailed sow; they were tried and 
+sentenced to be whipped in the same manner as a slave; but 
+Lawyer Moses got him out of it.  But, to return to the 
+hogs they were about to steal from me.  Daniels told me 
+to bring my wife Louisa, and he would pay her, which I 
+did.  He then put us off, telling us to come next week, 
+and so on, week after week, till we found out it was no 
+<pb id="jack20" n="20"/>
+use, for he did not intend to pay us.  The last time I went, 
+on going to the gate, the dogs were barking furiously, and 
+the old father came out, and said, with a horrid oath, 
+“Who is that?”  “It's me,” said I.  “What
+do you 
+want?”  “I have brought Louisa for the money.”
+“Well,” said he, 
+“my son ain't at home.”  I stood there in the 
+dark, when the son came out and said, “Where is she?” 
+I said, “Here I am.”  “Have you got your wife with 
+you?”  “Yes.”  “Well, I ain't got the money
+yet.”  We 
+went away sorrowfully; he never paid us a cent of the 
+money.</p>
+          <p>My mistress's expressed opinion was this, “Never to 
+give the niggers any meat; for where she was brought up 
+a dry peck of corn and a pint of salt was all that was 
+allowed to niggers per week.”  My master, her husband, 
+did as she said, so that we were often on the verge of 
+starvation.  Nevertheless, she had a favourite dog, which 
+she called “Old Rip,” of the mastiff breed, which she 
+continually fed with meat that we would have given anything 
+to possess.  She would tie the female slaves, who 
+did the domestic work, to trees or bedposts, whichever 
+was handiest, and whip them severely with a dogwood or 
+hickory switch, for the slightest offence, and often for nothing 
+at all apparently, but merely for the purpose of 
+keeping up her practice.  She would also make her 
+daughters whip them, and thus she brought up her children 
+in the way they should not go, and in consequence, when 
+they were old they did not depart from it.  Through her 
+my mother got many a hundred lashes.  Since my escape 
+I heard of the death of my mother.  My mistress had two 
+household gods, viz., her bunch of keys, in which she 
+manifested a peculiar interest, and her brandy bottle, 
+which she consulted with a frequency which was most 
+alarming, especially as when she was drunk it was her 
+invariable practice to attack the cook (one Ann Dolly) 
+most unmercifully with the broomstick.</p>
+        </div2>
+        <div2 type="chapter">
+          <head>CHAPTER IV.</head>
+          <head>MY YOUTHFUL DAYS.</head>
+          <p>MY first employment was that of a scarecrow in the corn
+fields.  I was driven into the field at the earliest dawn of
+day, and I did not leave the field till sunset.  My food
+was a cake made by mixing Indian meal with water and 
+<pb id="jack21" n="21"/>
+a little salt, and which was then baked in the ashes.  This 
+I had to take to the field to subsist on during the day.  
+When I was older I had to manage the plough.  Being 
+young, I had not sufficient strength to hold the plough 
+steadily; in consequence of which, my master used to 
+follow me from end to end of the field, beating me over 
+the head with a cowhide.  On our way across the field 
+one of the leashes happening to touch the mule, it kicked 
+the plough from my hand, for which my master stripped 
+me totally naked, and beat me till my back was covered 
+with blood.  My brothers, and indeed, all of my age 
+shared the same fate with me.  The horses were usually 
+turned out at night into the field, and it was my duty to 
+bring them home before daylight.  The horses, however, 
+apparently anxious to escape the hard work imposed on 
+man and beast alike, had hid themselves in a wood which 
+abounded with rattlesnakes.  This caused me great fear 
+as I was barefooted.  After a hard hunt I succeeded in 
+finding them.  However, on my arrival home, I was tied 
+up and beaten severely by both my master and son at the 
+same time.  I was also ox-driver, and in that capacity, I 
+was sent to Wilson's Steam Saw Mill for planks, on various 
+occasions.  When the account was rendered, my master 
+was surprised at the number of planks he had used, and 
+to escape paying for the whole, he declared that I had 
+fetched the planks for myself, which was a diabolical 
+falsehood.  I wanted no planks, and had I wanted them, 
+I should not have got them in that way, as I should have 
+been sure to have been found out.  Nevertheless, to carry 
+conviction that his word was true, he took me before Mr. 
+Wilson's house, and stripped me, and gave me fifty lashes.</p>
+          <p>About this time, I fell in love with a slave girl named 
+Louisa, who belonged to a Mrs. Wells, whose plantation 
+was about a mile off.  Mrs. Wells was a comparatively 
+kind mistress.  Shortly after, I married Louisa.  Do not 
+let the reader run away with the idea that there was any
+marriage ceremony, for the poor slaves are debarred that
+privilege by the cruel hand of their fellow-man.  My
+master was exceedingly angry when he heard of my marriage, 
+because my children would not belong to him, and
+whenever he discovered that I had visited my wife's plantation 
+during the night, I was tied up and received fifty
+lashes.  But no man can be prevented from visiting his wife,
+and the consequence was, that I was beaten on the average,
+<pb id="jack22" n="22"/>
+at least every week for that offence.  I shall carry these
+scars to my grave.  My wife had two children, one of 
+whom died.  But we were soon separated, as her owner 
+removed to Georgia, and we were parted for ever.</p>
+          <p>Our clothes were rags, and we were all half naked, and 
+the females were not sufficiently clothed to satisfy common 
+decency.</p>
+          <p>I will now refer to the “American Camp-Meeting,” 
+which is held in tents, and is a gathering of both black 
+and white Methodists for worship and prayer. It is continued 
+day by day for a week; but the blacks can only 
+attend during Saturday night and part of Sunday, having 
+to be at work again early on Monday morning.  These 
+meetings are infested by a set of white people, who are 
+libertine scoundrels, and attend for the purpose of seizing 
+and carrying off by force, for their own vile purposes, the 
+most beautiful slave girls they can see.  On the father's 
+interfering to save their daughters, they only receive a 
+shower of blows on the head with hickory sticks.  I often 
+saw this with my own eyes, and not daring to say a word.  
+One of these wretches, John Mulder by name, having 
+seized a negro's wife, on their way to the camp-meeting, 
+and threatening the husband's life with a pistol, was 
+knocked down senseless by the enraged husband with a 
+stick.  In consequence of which, a Lynch law was made that 
+no negro should carry a stick. It is no wonder that this is 
+the case, for “if the blind lead the blind, they will both 
+fall into the ditch;” and the Methodist ministers there are 
+notorious for their villainy.  As an instance of the truth of 
+this, I may mention the case of the Rev. Thomas English, 
+of whom we have already spoken, and indeed I could give 
+many instances too vile to speak about.  It was the custom 
+among them when conducting the Lord's Supper, to have 
+the white people partake first, and then say to the negroes—“Now, all you niggers that are humble and obedient 
+servants to your masters, can come and partake.”  The 
+negroes said among themselves “There is no back kitchen 
+in heaven;” but if they had been overheard, they would 
+have been whipped severely.  I fear this case will be an 
+example of the truth of our Lord's saying, “The first shall 
+be last and the last first.”</p>
+          <p>We were now put to picking cotton.  This is not so 
+pleasant a job as might be imagined.  The whole field is 
+covered with “stinging worms,” a species of caterpillar.  
+<pb id="jack23" n="23"/>
+At the setting of the sun each slave had to bring one 
+hundred weight of cotton, which many of the weaker 
+slaves could not do.  In consequence of this, each night 
+there were two hours' whipping at the “ginning house.”  
+The masters would not even allow them their usual night's 
+rest.  They made them pack cotton before daylight, and 
+as soon as twenty bales were picked they were sent off to 
+Charleston.  The cotton plant is planted in April or May, 
+and the cotton is picked out of the pods in August.  The 
+heat of that month raises large bumps on the slaves backs; 
+besides, the frequent infliction of the whip and the lash is 
+almost intolerable.  One slave, named “Old Prince,” because 
+he could not do sufficient work, was continually 
+being beaten.  On one occasion, he received fifty lashes, 
+and fifty blows with the paddle—a paddle is a board six 
+inches broad, and eight inches long, with twelve 
+gimlet holes in it; each of these holes raised a blister 
+every time a blow was inflicted, which rendered it extremely 
+painful—in a few days the skin all peeled off his 
+lacerated body.  At this time we were under the control 
+of Burl Quiney, who murdered Old Peter, as related before.  
+He also murdered four negroes belonging to James Rambert.  
+Wherever he was overseer, he succeeded in murdering 
+one or more negroes.  He used to make the negroes 
+shuck corn till past midnight, and they had to rise with the 
+sun next morning, to their day's work.  They are not 
+allowed a change of clothes, but only one suit for summer, 
+and the perspiration is so great that they smell rank; thus 
+they are robbed of comfort and cleanliness by the cruelty 
+and avarice of their masters.  They wear no shoes, and 
+they had to work in “the New Ground,” a place infested 
+by snakes and scorpions, and they were often bitten by 
+snakes, while 6,000,000 of lazy white men are riding about 
+calling negroes lazy, whilst they are the laziest.</p>
+        </div2>
+        <div2>
+          <head>CHAPTER V.</head>
+          <head>MY ESCAPE.</head>
+          <p>A SLAVE on a neighbouring plantation had a pony; it 
+being discovered by his mistress, she ordered the overseer, 
+the Rev. P. Huggin, to kill it.  Meanwhile, I went in the 
+night and purchased it of the slave with some fowls.  As 
+my master had just then gone out of his mind I could 
+keep it with greater impunity, so that at length I went to 
+<pb id="jack24" n="24"/>
+a camp meeting on it.  My mistress' grandson saw me on 
+it, and told Ransom Player, the overseer, and my mistress 
+ordered him to give me one hundred lashes, and to kill 
+the pony.  When he attempted to tie me I resisted and 
+fled, and swam across a mill pond, which was full of alligators, 
+and so escaped the whipping.  I went to work 
+next day, and kept a look out for them.  My mistress 
+hearing of it, said to the overseer, Mr. Player, “You can't 
+whip that nigger yourself, wait till Rev. T. English, and 
+Mr. M'Farden, and Mr. Cooper, are here, and then you can 
+catch him in the barn.” The last two were her sons-in-law.  
+I kept the pony hid in the woods till Christmas.</p>
+          <p>We all had three days' holiday at Christmas, and I, 
+therefore, fixed upon that time as most appropriate for <sic corr="my">m</sic> escape.  I may as well relate here, how I became acquainted 
+with the fact of there being a Free State.  The “Yankees,” 
+or Northerners, when they visited our plantations, used to 
+tell the negroes that there was a country called England, 
+where there were no slaves, and that the city of Boston was 
+free; and we used to wish we knew which way to travel to 
+find those places.  When we were picking cotton, we used 
+to see the wild geese flying over our heads to some distant 
+land, and we often used to say to each other, “O that we 
+had wings like those geese, then we could fly over the 
+heads of our masters to the ‘Land of the free.’”  I had 
+often been to Charleston—which was 150 miles distant 
+from our plantation—to drive my master's cattle to market, 
+and it struck me that if I could hide in one of the 
+vessels I saw lading at the wharfs, I should be able to get 
+to the “Free country,” wherever that was.  I fixed, as I 
+said before, on our three days' holiday at Christmas as 
+my best time for escape.  The first day I devoted to bidding 
+a sad, though silent farewell to my people; for I did not even dare
+to tell my father or mother that I was going, 
+lest for joy they should tell some one else.  Early next 
+morning, I left them playing their “fandango” play.  I 
+wept as I looked at them enjoying their innocent play, and 
+thought it was the last time I should ever see them, for I 
+was determined never to return alive.  However, I hastened 
+to the woods and started on my pony.  I met many white 
+persons, and was hailed, “You nigger, how far are you 
+going?”  To which I would answer, “To the next plantation, 
+mas're;” but I took good care not to stop at the next 
+plantation.  The first night I stopped at G. Nelson's 
+<pb id="jack25" n="25"/>
+plantation.  I stopped with the negroes, who thought I 
+had got leave during Christmas.  Next morning, before 
+day, I started on for the Santé River.  The negro who 
+kept that ferry, was allowed to keep for himself all the 
+money he took on Christmas day, and as this was Christmas 
+day, he was only too glad to get my money and ask 
+no questions; so I paid twenty cents, and he put me and 
+my pony across the main gulf of the river, but he would 
+not put me across to the “Bob Landing;” so that I had 
+to wade on my pony through a place called “Sandy Pond” 
+and “Boat Creek.”  The current was so strong there, that 
+I and my pony were nearly washed down the stream; but 
+after hard struggling, we succeeded in getting across.  I 
+went eight miles further, to Mr. Shipman's hotel, where 
+one Jessie Brown, who hired me of my master, had often 
+stopped.  I stayed there until midnight, when I got my 
+pony and prepared to start.  This roused Mr. Shipman's 
+suspicions, so he asked me where I belonged to.   I was 
+scared, but at length, I said, “Have you not seen me here 
+with Jesse Brown, driving cattle?”  He said, “Yes, I 
+know Jesse Brown well.  Where are you going?”  I 
+answered, “I am going on my Christmas holiday.”  This 
+satisfied him.  I was going to take a longer holiday than 
+he thought for.  I reached Charleston by the next evening.  
+There I met a negro, who allowed me to put my pony in 
+his master's yard, his master being out of town at the time.  
+It is the custom there, for the masters to send their slaves 
+out in the morning to earn as much money as they can, 
+how they like.  So I joined a gang of negroes working on 
+the wharfs, and received a dollar-and-a-quarter per day, 
+without arousing any suspicion.  Those negroes have to 
+maintain themselves, and clothe themselves, and pay their 
+masters two-and-a-half dollars per week out of this, which, 
+if they fail to do, they receive a severe castigation with a 
+cat-o'-nine-tails.  One morning, as I was going to join a 
+gang of negroes working on board a vessel, one of them 
+asked me if I had my badge? Every negro is expected to 
+have a badge with his master's name and address inscribed 
+on it.  Every negro unable to produce such badge when 
+asked for, is liable to be put in jail.  When I heard that,
+I was so frightened that I hid myself with my pony, which 
+I sold that night for seven-and-a-half dollar, to a negro.  
+I then bought a cloak from a Jewish lady, who cheated 
+me and gave me a lady cloak instead of a man's, which,
+<pb id="jack26" n="26"/>
+however, answered my purpose equally well.  I then got 
+seven biscuit-loaves of bread, and a bottle of water which 
+I put in my pocket, and I also bought a large gimlet and 
+two knives.  I then found I had over ten dollars left of 
+what I had earned.  I then went to the wharf early in the 
+morning with my cloak on, and underneath all my rattletraps.  
+A few days previously, I had enquired of a mulatto 
+negro, for a vessel bound for Boston.  I then went on 
+board and asked the cook, a free negro, if his vessel was 
+bound for Boston? To which he replied, “Yes.”  “Can't 
+you stow me away?” said I.  “Yes,” said he, “but
+don't 
+you betray me!  Did not some white man send you here 
+to ask me this?” “No.”  “Well,” answered
+he, “don't 
+ you betray me! for we black men have been in jail ever 
+since the vessel has been here; the captain stood bond for 
+us yesterday and took us out.”  “What did they put you 
+in jail for?” said I.  “They put every free negro in jail 
+that comes here, to keep them from going among the 
+slaves.  Well, I will look out a place to stow you away, 
+if you are sure no white man has sent you here.”  So I 
+went the next morning to ask him to redeem his promise.  
+I went on board, and saw him lighting a fire in his galley, 
+so I said to him, “Now I am ready for you to stow me 
+away.”  “Walk ashore, I will have nothing to do 
+with you; I am sure some white person sent you here.”  I said 
+“No, no one knows it but me and you.”  “I don't believe 
+it,” said he, “so you walk ashore;” which I did.  But 
+as I looked back, I saw him go into the galley again and 
+shut the door, so I went on board the vessel again, and 
+crept stealthily on tiptoe to the hatch.  I stood there 
+fearing and hoping—fearing lest the cook should come 
+out of the galley, and hoping, that the mate or captain 
+would come from the cabin, and order me to take off the 
+hatch.  Presently the mate came out of the cabin, and I 
+asked him if I should take off the hatch.  He thinking 
+that I was one of the gang coming to work there, told me 
+I might.  So I immediately took off the hatch, and descended.  
+The gang soon came down; they asked me, “Are 
+you going to work here this morning?”  I said, “No.”  
+“Arn't you a stevedore ?” I said, “No.”  “I know better, 
+I know by that cloak you wear.  Who do you belong 
+to?”  I answered, “I belong to South Carolina.”  It was 
+none of their business whom I belonged to; I was trying
+to belong to myself.  Just then they were all ordered on 
+<pb id="jack27" n="27"/>
+deck, and as soon as I was left, I slipped myself between 
+two bales of cotton, with the deck above me, in a space 
+not large enough for a bale of cotton to go; and just then 
+a bale was placed at the mouth of my crevice, and shut 
+me in a space about 4-ft. by 3-ft., or thereabouts.  I then 
+heard them gradually filling up the hold; and at last the 
+hatch was placed on, and I was left in total darkness.  I 
+should have been stifled for want of air, but by the providence 
+of God, a board in the partition between the sailors' 
+sleeping place and the hold where I was, was broken out, 
+so that the air came through there.  Next morning, I heard 
+the sailors singing their farewell songs, and soon after, the 
+vessel began to rock from side to side.  I then began to 
+feel that I was indeed, now upon my journey from slavery 
+to freedom, and that I soon should be able to call myself 
+FREE, and I felt so happy, and rejoiced so in my heart; 
+but all these feelings were rudely stopped by a feeling of 
+sickness, and the more the vessel went, the sicker I got, 
+till I felt as miserable as I was happy before.  I then began 
+to bore with my gimlet, and after a long time, I was 
+able to bore two holes in the deck with great labour, 
+through which I could see the sailors passing and repassing 
+overhead.  By this time I found that my water was 
+exhausted, and I began to feel all the horrors of thirst.  I 
+felt that I could  with pleasure have drank the filthiest 
+water in my native swamp.  I cast my eyes up through 
+the gimlet holes and saw the stars, and I thought that 
+God would provide for me, and the stars seemed to be put 
+there by Him to tell me so; and then I felt that He would 
+care for me as He did for Jonah in the whale's belly, and 
+I was refreshed.  Next morning, I saw through the holes, 
+a man standing over them with his arms folded, apparently 
+in deep thought, so I called out, “Pour me some water 
+down, I am most dead for water.”  He, however, looked 
+up instead, and persisted in examining the rigging, apparently
+thinking the voice came from there, so I cut a 
+splinter and pushed it through the hole to attract his attention; 
+as soon as he caught sight of it, he ran away and 
+called to the captain, “Run here, captain, there is a ghost 
+aboard!”  The captain came and knelt down and examined 
+the holes, and asked me how I came there? I 
+said, “I got stowed away.”  He asked me if some white 
+man did not stow him away to get him in trouble?  I assured 
+him he was mistaken, as I stowed myself away. 
+<pb id="jack28" n="28"/>
+The cook said, “Cap'n, there was one wanted me to stow 
+him away at Charleston, but I would not.”  “Cook, you 
+should have told me that,” said the captain. “Boys, get 
+the chisel and cut him out.”  As soon as I was out, I saw 
+the cook preparing to wash his hands, and I seized upon 
+the water and drained it to the last drop.  It was nearly 
+half-a-gallon.</p>
+          <p>The vessel continued her journey to Boston.  The captain 
+persisted that some white man had placed me there 
+to get him into trouble; and said he would put me into 
+the first vessel he met, and send me back; however, he 
+met no vessel, and we gradually approached Boston.  At 
+last the pilot came on board and I was sent into the forecastle 
+to prevent his seeing me, and we soon arrived at 
+Boston.  At nine o'clock on the evening of the l0th of 
+February, 1847, I landed at Boston, and then indeed I 
+thanked God that I had escaped from hell to heaven, for 
+I felt as I had never felt before—that is, <hi rend="italic">master of
+myself,</hi>
+and in my joy I was as a bouncing sparrow.  Three sailors 
+named Jim Jones, Frank, and Dennis, took me to the 
+sailor's boarding house, kept by one Henry Forman, 
+Richmond-street, and I became his servant, and worked 
+for him, and received my board as payment.  About June 
+I left him, and went to Salem, and worked for James 
+Brayton, Samuel Pittman, and many others, in the tan yards.  
+I received a dollar-and-a-half per day, out of which I saved 
+one hundred dollars in the course of a year, which I put 
+in the savings bank.  I used often to work at sawing wood 
+during the night, and it did not seem such a hardship as 
+when I did the same in South Carolina.  Why? Because 
+I felt that I was free, and that I worked because I wished; 
+whilst in South Carolina I worked because my master 
+compelled me.  This <hi rend="italic">fact</hi> is, in my mind, more
+satisfactory 
+than twenty theories, as to the superiority of free 
+labour over slave labour.  When I was a slave we were 
+employed the whole of the day in breaking and hauling 
+home the corn, and then when night came on we were not 
+allowed to snatch an instant's sleep until we had shucked 
+the whole of the corn brought in during the day; so that 
+it was generally between one and two o'clock in the morning 
+before we were allowed to rest our wearied bodies.  As 
+soon as dawn appeared we were roused by the overseer's 
+whip, for we were so exhausted that the horn failed to 
+rouse us as usual; and then we would discovered that the 
+<pb id="jack29" n="29"/>
+rats had actually eaten a part of our feet.  As the slaves 
+are not allowed boots or shoes (except for a short time in 
+the winter), the combined action of the frost at night, and 
+the heat during the day, harden the feet; so that the outside 
+skin at last cracks, and is very painful to the negroes.  
+This outside skin is called “dead skin,” and the slaves cannot
+<hi rend="italic">feel</hi> the rats eating it until their teeth touch the more 
+tender part of the feet.  During the day, that part of the 
+foot which has been skinned by the rats is very tender and 
+causes great pain.  The presence of rats in our houses 
+brought venomous snakes, who frequented them for the 
+purpose of swallowing the rats, and who sometimes bit 
+the negroes, and then my father's power of curing snakebites 
+was called into play.  On one occasion there was a 
+sale of slaves near, and a man came to the auction to purchase 
+a slave girl.  He fixed on one who pleased him, and 
+took her into a neighbouring barn and stripped her <hi rend="italic">start
+naked,</hi> for the purpose of examining her, as he would a 
+horse, previous to buying her.  The father and mother of 
+the girl were looking through the window and keyhole and 
+various crevices, with many other slaves, who saw all 
+that passed.  He ultimately purchased her for his own 
+vile purposes, and when he had several children by 
+her, sold both her and her children.  Marriage in the slave 
+States among the slaves is absolutely “Nil.”  There was 
+on one plantation, a slave about thirty years of age and six 
+feet high, named Adam.  He had a wife on neighbouring 
+plantation belonging to Mr. Hancock.  My master bought 
+a young slave girl about fourteen years old, named Jenny 
+Wilson, and he then ordered Adam to leave his present 
+wife and take Jenny.  Adam, after having some hundreds 
+of lashes for obstinately persisting in loving his 
+wife, at last consented, but not so Jenny, who was in love 
+with me and I with her.  But she was at last compelled 
+to obey her master by the bloody cowhide.  My master 
+served nearly all his male slaves in the similar manner.  One 
+of his slaves, however, named Abraham, was unusually 
+obstinate, and would not give up his wife.  At last my 
+master, in despair, sent him to his son-in-law's plantation, 
+Gamble M'Farden, who was an inveterate drunkard, and 
+who murdered my sister Bella, as related elsewhere.  He 
+ordered Abraham not to go up to see his wife any more; 
+but Abraham loved his wife too much to be parted from 
+her in that manner, so he went fifteen long miles once 
+<pb id="jack30" n="30"/>
+every fortnight, on the Saturday night, for the pleasure 
+of seeing his wife for a short time.  He was found out, and 
+whipped to death by that drunkard Mr. M'Farden.  My 
+brother Ephraim did not escape; he was compelled to 
+leave his wife and marry the house girl.</p>
+          <p>But I am wandering.  While I was at Salem, I heard 
+from Mr. Forman, that Anderson, my old slave-driver, had 
+called for me.  I will give some incidents that will illustrate 
+his character.  He was brought up among the negroes, 
+and was so familiar with negro habits, that he possessed 
+unusual facilities for getting them into trouble.  He was 
+hired for the purpose of subduing me and another slave 
+named Isaac, but fortunately my escape saved me from 
+experiencing his tender mercies.</p>
+          <p>In the adjacent swamp there was an abundance of wild 
+turkeys, the sight of which greatly tantalized the negroes, 
+as they had no gun to shoot them with.  On one occasion 
+my father, old Doctor Clavern; had made a pen to catch 
+the wild turkeys with.  This soon came to the ears of 
+Anderson, and he immediately sought out my father, and 
+accosted him with “Old Doc. Clave., where is your turkey 
+pen?” “In the swamp, massa.”  “Tell me where it is? 
+turkeys are too good for niggers.”  “I can't exactly tell 
+where it is, massa.”  “Then I will find out and destroy 
+it; for turkeys are too good for niggers.”  He fully carried 
+out his threat; for soon afterwards he discovered the pen, 
+and destroyed it.  When he next met with my father, he 
+said, “Old Doc. Clave., does you catch turkeys now?”  
+“No, massa Anderson; somebody spoil my pen.”  “'Twas 
+I spoiled it, you rascal, so that you should not catch turkeys 
+any more.”  This may serve to show his badness of disposition.  
+On another occasion, I had made a fish trap in 
+the stream which ran through the swamp.  Anderson 
+heard of it, and organized a party to proceed to the swamp, 
+and search for it.  After a long search they succeeded in 
+discovering it, and took all the fish out, and destroyed it, 
+for the simple reason that “fish was too good for niggers.”
+Owing to his having been brought up among negroes, he 
+was perfectly familiar with their peculiarities of dialect, 
+&amp;c.  If he suspected that any negroes had fresh meat, 
+obtained as narrated above, he would sneak to the nigger 
+houses in the dead of night, and say, in their peculiar manner, 
+“Brudder, ope' t' door; I want to 'peak to you for a 
+minnit.”  This would deceive the negroes, and they would 
+<pb id="jack31" n="31"/>
+open the door, expecting to see another negro, when, to their 
+amazement and confusion, it would be  “Neddy Anderson,” 
+as he was called.  “O you rascals!” he would say, “you got 
+fresh meat here; you steal it;” and next day they would have 
+so many lashes for daring to eat meat, or whatever it might 
+be.  He was accustomed to be hired to whip negroes, and 
+he used to revel in this (to him) delightful occupation.  
+He would sneak about during the night, for the purpose 
+of catching negroes wandering from their plantations, so 
+that he might have the pleasure of whipping them.  I 
+heard since my escape, of my mother's death, and that she 
+died under him.  I therefore cannot but conclude that my 
+mistress who hated her, incited him to whip her in particular, 
+and that, horrible to think of, she must have died 
+under his lash.  I believe, also, that my youngest brother, 
+Casey, must have fallen a victim to his cruelty; for I have 
+heard of his death also, and that Anderson had given him 
+some severe whippings.  Had I sufficient space I could 
+fill a volume with instances of his wickedness and cruelty.  
+But, to proceed—he was so anxious to catch me that he 
+followed me to Boston—at least, I believe, from the 
+description given by Mr. Forman, that it was he; but fortunately 
+I had gone to Salem, which is 15 miles from Boston.  
+Mr. Forman did not tell Anderson where I was, but merely 
+told him that there was no such person as Jackson there.  
+Anderson said, “I know better, here is the letter he wrote 
+home, wishing to know what he can buy his father and 
+mother for, and I now want to see him.”  This incensed 
+the sailors, who said, “Here are the slave-hunters, hunting 
+for niggers,” and drove them from the house.  Mr. Forman 
+wrote to me at Salem, to warn me not to come to Boston, 
+as they were hunting for me there.  I remained at Salem, 
+and worked in the tan yard there, turning the splitting 
+machine, until I had saved one hundred dollars.  Since 
+my escape I have saved about one thousand dollars of my 
+own earnings, for the purpose of purchasing my relatives.  
+I was in correspondence with some gentlemen in America, 
+through my friend the Rev. C. H. Spurgeon, for that purpose, 
+when the present war interrupted and broke up my 
+hopes and plans.  If this war obviates the necessity of 
+buying my people, by freeing the negroes, (as I hope and 
+pray to God it will, and as I believe it will) I shall then, 
+if God pleases, devote my money in building a Chapel in 
+Canada, for escaped slaves; or wherever my old fellow-
+<pb id="jack32" n="32"/>
+labourers are located.  Though “absent in the body,” my 
+whole heart is with my fellow-sufferers in that horrible 
+bondage; and I will exert myself until the last of my 
+relatives is released.  On one occasion I saw my brother 
+Ephraim tied up and blindfolded with his own shirt, and 
+beaten with fifty lashes before his own wife and children, 
+by a wretch named Sam Cooper, because he was falsely 
+accused of having stolen a yard of bagging.  Fathers! 
+think of being tied up and stripped before your wife and 
+children, and beaten severely for nothing at all; and then 
+think that it is a daily, nay, hourly, occurrence in the Slave 
+States of America, and you will begin to have some idea 
+of what American slavery is.  But to proceed with my 
+life.  Just as I was beginning to be settled at Salem, that 
+most atrocious of all laws, the “Fugitive Slave Law,” was 
+passed, and I was compelled to flee in disguise from a 
+comfortable home, a comfortable situation, and good wages, 
+to take refuge in Canada.  I may mention, that during my 
+flight from Salem to Canada, I met with a very sincere 
+friend and helper, who gave me a refuge during the night, 
+and set me on my way.  Her name was Mrs. Beecher 
+Stowe.  She took me in and fed me, and gave me some 
+clothes and five dollars.  She also inspected my back, 
+which is covered with scars which I shall carry with me 
+to the grave.  She listened with great interest to my story, 
+and sympathized with me when I told her how long I had 
+been parted from my wife Louisa and my daughter Jenny, 
+and perhaps, for ever.  I was obliged to proceed, however, 
+and finally arrived in safety at St. John's, where I met my 
+present wife, to whom I was married lawfully, and who was 
+also an escaped slave from North Carolina.  I stayed there 
+some time and followed the trade of whitewasher, and at 
+last I embarked for England.  When I arrived at Liverpool, 
+I proceed to Scotland, where I met with true friends of 
+abolition.  I lectured in most of the Free Churches there, 
+including Dr. Candlish's, Dr. Guthrie's, and Mr. Alexander 
+Wallis's.  I lectured twice in Dr. Candlish's Church.  
+I then proceeded to Aberdeen, where I lectured to crowded 
+audiences; and I then fell in with more friends, until I 
+met with the Rev. Mr. Barker, of Huddersfield, who 
+directed me to the Rev. C. H. Spurgeon, who received me 
+and my wife into his Church as members, and who has 
+been my firm friend and adviser ever since.  I am now 
+only anxious for the war to end with freedom to the 
+<pb id="jack33" n="33"/>
+oppressed, (for I firmly believe that will be its ultimate 
+issue) and then I will revisit the old scenes of oppression, 
+and read the Bible to those to whom it has long been a 
+sealed Book.  May God hasten this happy consummation. </p>
+        </div2>
+        <div2>
+          <head>CHAPTER VI.</head>
+          <head>AMERICAN BUTTERFLY AND SLAVERY.</head>
+          <p>A bad man called Old Ben Calo, who was nearly seven 
+feet high, used to go about ditching for different slaveholders, 
+far too lazy to work on his own plantation in 
+the Pine Woods.  On one occasion, he wanted me to steal 
+from my master a bushel of corn for him, which I refused 
+to do.  This annoyed him very much, and, in the course 
+of time, he came to my white people and told them that 
+he saw me the night before on a horse, and that he believed 
+me to be trading with Tom Hancock.  This he did to gain 
+their favour.  They then asked him how he knew it was 
+me.  “I know it was him,” he replied.  “It might have 
+been a white man,” said they.  “No; I am sure it was 
+Jackson, for I waited some time for him to return on this 
+side of the branch.  After I had started to go home, I 
+heard the noise of horses' feet coming behind.  As he approached, 
+I gave him the road, and ordered him to stop; 
+he disregarded this and galloped by.  I then pulled the 
+trigger of my gun three times to shoot him, but it would 
+not fire, because he bewitched it.”  Foolish man—if what 
+he said was true—God alone preserved my life that night.  
+Ben Calo is not the only man who acts, so deceitfully; 
+there are scores whom I might mention.  One more instance 
+I will mention here of a man named Squire Sanders; he 
+lived in South Carolina, Sumpter District; he had been in 
+the habit for a long time of trading secretly with slaves, 
+which trading he, of course, found very profitable; and he 
+encouraged them to steal cotton, corn, etc.  He was at last 
+suspected of having received stolen property.  Thereupon, 
+James Laws and another slaveholder, at once hit on the 
+following plan to find him out: they placed a basket of 
+cotton on the head of one of their own slaves, named Job.  
+Previous to this, however, a negro from the same plantation, 
+named Alex, ran ahead on purpose to inform Squire 
+Sanders that his master was coming that night to test his 
+honesty, and begged him not to purchase anything, of any 
+slave that might come to him.  “Well, my boy,” said the 
+<pb id="jack34" n="34"/>
+Squire joyfully, “if I find this to be true, I will make you 
+a present of five dollars.”  Between ten and eleven o'clock, 
+Job arrived, followed at a distance by his master on horseback.  
+The dogs began to bark, and Squire Sanders came 
+out to enquire what was the matter.  “Who's that?” he 
+asked.  “James Law's Job,” was the answer.  “What do 
+you want?”  “I have some cotton for you.”  “Have 
+you got an order from your master to bring me cotton 
+this time of night?”  “No, sir,” said Job.  “How dare you 
+bring me cotton here without an order? go along back,
+and to-morrow I will see your master about this.”  James 
+Law then returned, convinced in his own mind that the 
+Squire was an honest man, and did not trade with slaves.  
+And Alex received his five dollars.  So the Squire went 
+on trading as usual; but he adopted the plan of having 
+the cotton taken to one of the negro-houses, and received 
+by Abraham, a negro.  This I know to be the truth.</p>
+          <div3 type="part">
+            <head>THE AMERICAN BUTTERFLY.</head>
+            <p>The character of the slaveholder, is to work his slaves 
+very hard so that they may not get up in the night to raise 
+an insurrection, or carry off cotton or corn to other masters 
+who trade with slaves at night.  “The harder we work 
+them,” say they, “the sounder they will sleep until we 
+blow the horn to put them to work next day.”  The butterfly, 
+and bumble bee, and the mosquito-hawk, fly from 
+blossom to blossom through the cotton fields, enjoying 
+the glorious liberty which is denied to the slaves.  A circumstance 
+occurred in the cotton fields, during a very 
+heavy thunderstorm, which I think is worthy of notice 
+here.  The thunder and lightning was terrific, frightening 
+the most hardened.  One old negro sinner named Munday, 
+who was ploughing in the field, and who was swearing 
+fearfully, was struck dead by the lightning.</p>
+            <p>The lightning once
+burnt a space of ground in the cotton 
+fields, and nothing afterwards ever grew on that spot.</p>
+            <p>We will now
+turn to the hawk and the owl.  The hawk 
+snatches away chickens from the hen during the day, and 
+the owl steals them at night, yet the slave is not allowed 
+to have a gun to shoot them.  I went one Sunday to see 
+my old aunt, and I came back through my master's pasture, 
+three miles in length and about the same in width, 
+killing snakes and scorpions as I went along, until I came
+<pb id="jack35" n="35"/>
+up to a region where the great storm—which we call a 
+hurricane—had torn up the pine trees by the roots.  On 
+one of these trees there was a large head, which frightened 
+me; it had large dreadful-looking eyes, which turned as 
+I walked on.  I afterwards discovered this to be an owl, 
+not able to fly; but the head was quite as large as a full- 
+grown owl's.  I succeeded in killing this, but not until I 
+had a sharp fight with the old ones, who were overhead, 
+and who followed me quite half a mile, knowing I 
+had taken their young one.  The slaveholders live upon 
+their slaves just as the hawk and owl live upon the hen 
+and chicken.</p>
+            <p>The Methodists and Independents hold slaves, as also 
+do the Baptists. </p>
+          </div3>
+        </div2>
+        <div2>
+          <head>CHAPTER VII.</head>
+          <head>THE NEGRO SONGS.</head>
+          <p>I fear that this chapter will prove to many rather uninteresting; 
+but at the same time, there are many who, I am 
+quite sure, would wish to know what <hi rend="italic">are</hi> the songs
+with 
+ which the negroes beguile their leisure hours.  The following 
+is one of them, and a great favourite among the 
+negroes. </p>
+          <lg>
+            <head>A SPIRITUAL HYMN.</head>
+            <l>“O Shepherd, wha' thou bin all day,</l>
+            <l>O Shepherd, wha' thou bin all day,</l>
+            <l>O Shepherd, wha' thou bin all
+day,</l>
+            <l>You promised my Jesus to mind these lambs,</l>
+            <l>And he pays
+you at the coming day.</l>
+            <l>O children, he pays you at the coming day,</l>
+            <l>O children, he pays
+you at the coming day,</l>
+            <l>O children, he pays you at the coming day.</l>
+          </lg>
+          <lg>
+            <l>O Shepherd,
+the lambs all gone astray,</l>
+            <l>O Shepherd, the lambs all gone astray,</l>
+            <l>O Shepherd, the lambs all gone astray,</l>
+            <l>You promised my Jesus to
+mind these lambs,</l>
+            <l>And he pays you at the coming day.</l>
+            <l>O
+children, he pays you at the coming day,</l>
+            <l>O children, he pays you at the coming day,</l>
+            <l>O children, he pays
+you at the coming day.</l>
+          </lg>
+          <lg>
+            <l>Did you ever see such a carriage
+roll,</l>
+            <l>Did you ever see such a carriage roll,</l>
+            <l>Did you ever see such a carriage roll,</l>
+            <l>And it rolls like judgment day.</l>
+            <l>O children, it rolls like judgment day,</l>
+            <l>O children, it rolls like judgment day,</l>
+            <l>O children, it rolls like judgment day.</l>
+            <pb id="jack36" n="36"/>
+            <l>The fore-wheel roll by the grace of God,</l>
+            <l>The fore-wheel roll by the grace of God,</l>
+            <l>The fore-wheel roll by the grace of God,</l>
+            <l>And the hind-wheel roll by faith.</l>
+            <l>O children, the hind-wheel
+roll by faith,</l>
+            <l>O children, the hind-wheel roll by faith,</l>
+            <l>O
+children, the hind-wheel roll by faith.</l>
+          </lg>
+          <lg>
+            <l>It roll for me and
+it roll for you,</l>
+            <l>It roll for me and it roll for you,</l>
+            <l>It roll for me and it roll
+for you,</l>
+            <l>And it roll for the whole world round.</l>
+            <l>O children, it roll for the whole world round,</l>
+            <l>O children, it roll for the whole world round,</l>
+            <l>O children, it roll for the whole world round.</l>
+          </lg>
+          <lg>
+            <l>Did you
+ever hear such a trumpet ring,</l>
+            <l>Did you ever hear such a trumpet ring,</l>
+            <l>Did you ever hear such a
+trumpet ring,</l>
+            <l>All it ring like judgment day.</l>
+            <l>O children, it
+ring like judgment day,</l>
+            <l>O children, it ring like judgment
+day,</l>
+            <l>O children, it ring like judgment day,</l>
+          </lg>
+          <lg>
+            <l>It ring for me and it roll for you,</l>
+            <l>It ring for me and it roll for you,</l>
+            <l>It ring for me and it roll
+for you,</l>
+            <l>And it ring for the whole world round.</l>
+            <l>O children,
+it ring for the whole world round,</l>
+            <l>O children, it ring for the
+whole world round,</l>
+            <l>O children, it ring 
+for the whole world
+round.</l>
+          </lg>
+          <lg>
+            <l>My Jesus he put on the long white robe,</l>
+            <l>My Jesus he put on the long white robe,</l>
+            <l>My Jesus he put on the
+long white robe,</l>
+            <l>And he sail thro' Galilee</l>
+            <l>O children, he
+sail thro' Galilee,</l>
+            <l>O children, he sail thro' Galilee,</l>
+            <l>O
+children, he sail thro' Galilee</l>
+          </lg>
+          <lg>
+            <l>He sail for me and he sail for you,</l>
+            <l>He sail for me and he sail
+for you,</l>
+            <l>He sail for me and he sail for you,</l>
+            <l>And he sail for
+the whole world round.</l>
+            <l>O children, he sail for the whole world
+round,</l>
+            <l>O children, he sail for the 
+whole world round,</l>
+            <l>O children, he sail for the whole world
+round.”</l>
+          </lg>
+          <p>This hymn is a great favourite with the slaves, and is sung
+by them while they clap their hands to keep time.  
+Probably the reason for the number of repeats, is because 
+they have no books allowed them; and indeed, they cannot 
+read, and therefore, on hearing a single line sung by the 
+white people, these poor slaves cannot prize it too much, 
+as is shown by their singing it over and over. </p>
+          <pb id="jack37" n="37"/>
+          <p>The following is a favourite hymn of the poor
+negroes
+in the dusk of eventide, or on the dark night, after work:</p>
+          <lg>
+            <l>“We shall hear the trumpet sounding</l>
+            <l>'Fore the break of
+day,</l>
+            <l>We'll take the wings of th' morning,</l>
+            <l>And fly away to my
+Canaan land,</l>
+            <l>Bright angels shall come to bear my soul</l>
+            <l>To my
+rosen, rosen<ptr targOrder="U" id="ptr1" n="1" resp="auth" target="note1"/>
+Lamb.”</l>
+          </lg>
+          <note id="note1" n="1" rend="sc" resp="auth" place="foot" anchored="yes" target="ptr1">rosen, probably a corruption of risen.</note>
+          <p>This hymn was
+often to me a sweet solace after a hard 
+day's work under the horrible tyranny of slavery.  It 
+used to refresh us to think that heaven was so near, and 
+that soon we should be there.</p>
+          <p>The following is perhaps, not quite so intelligible as the 
+previous one:—</p>
+          <lg>
+            <l> “Oh, me an' my wife we'er hand in
+hand,</l>
+            <l>And all our children in one band—</l>
+            <l>They honour the
+Lamb.</l>
+            <l>Oh, silver slippers on my feet,</l>
+            <l>We'll slip and slide
+thro' paradise,</l>
+            <l>And honour the Lamb.”</l>
+          </lg>
+          <p>It must be remembered that these hymns are composed 
+of fragments of hymns, which we had heard sung at the 
+meeting-houses and camp-meetings of the white men.  
+Under these circumstances, it is indeed wonderful that 
+they are as intelligible as they are.  A few more may, perhaps, 
+be acceptable to the reader.  This one we used to 
+sing when in some such spirit as was David of old, when 
+he indicted that interesting Psalm, beginning “Truly God 
+is good to Israel.”  (lxxiii.)</p>
+          <lg>
+            <l>“Old Satan told me to my face</l>
+            <l>He'd drag my kingdom down;</l>
+            <l>But Jesus whispered in my ears</l>
+            <l>He'd build it up again.</l>
+          </lg>
+          <lg>
+            <l>CHORUS.</l>
+          </lg>
+          <lg>
+            <l>Oh, we'll walk and talk 'bout Jesus,</l>
+            <l>Glory, hallelujah!</l>
+            <l>Oh, we'll walk and talk 'bout Jesus,</l>
+            <l>Glory to my soul.”</l>
+          </lg>
+          <p>We used to sing this when we had seen the wicked in 
+high places, and the servants of God suffering injustice.  
+But when we had sung this we considered the end, and 
+saw that they were set in slippery places.  Our hymns
+were all we could get of real spiritual food, and yet they 
+were blest by God to the conversion of many, and to the 
+<pb id="jack38" n="38"/>
+building up of his saints.  “Truly out of the mouths of 
+babes and sucklings hath he perfected praise.”</p>
+          <p>After we had sung one of these songs, we would kneel 
+down, and one of us would offer prayer, and then we 
+would spring up and strike up a new song—one of joy 
+and gladness:—</p>
+          <lg>
+            <l>“Oh, what a happy day</l>
+            <l>When the Christian people meet,</l>
+            <l>They shall meet to part no more.</l>
+          </lg>
+          <lg>
+            <l>Tracks I see and I'll
+pursue</l>
+            <l>The narrow way to heaven I view,</l>
+            <l>Jesus, my all, to heaven is gone,</l>
+            <l>He whom I fix my hopes upon.</l>
+          </lg>
+          <lg>
+            <l> CHORUS.</l>
+            <l>Oh, what a
+happy day, &amp;c., &amp;c.”</l>
+          </lg>
+          <p>It will be seen more particularly from the foregoing, 
+that the negroes compose their songs chiefly from snatches 
+of hymns which they hear sung by the white people, 
+interpolated, it is true, with now and then a line of the 
+original.  Judge them not harshly, gentle reader, for their 
+plagiarism, if such it may be called, for were you in their 
+position, we doubt if you could do better.</p>
+          <p>As perhaps these slave
+songs may be interesting to the 
+reader, I will give two or three more, with which I will 
+conclude:—</p>
+          <lg>
+            <l>“I want to go where Moses gone,</l>
+            <l>Glory, hallelujah!</l>
+            <l>I want to go to the promised land,</l>
+            <l>Glory, hallelujah!</l>
+            <l>Sweet milk and honey overflows,</l>
+            <l>Glory, hallelujah!”</l>
+          </lg>
+          <p>These lines would be repeated with great energy, the 
+hallelujah being sometimes in the middle of the line, instead 
+of in its legitimate position; thus:—</p>
+          <lg>
+            <l>“I want to go, hallelu', hallelu',</l>
+            <l>Where Moses gone, hallelu', hallelu', hallelu'.’</l>
+          </lg>
+          <p>The following may show our feelings with regard to 
+death:—</p>
+          <lg>
+            <l>“Death, O death, O where are you
+going?</l>
+            <l>Oh hallelu', hallelu', hallelujah!</l>
+            <l>I'm coming for some
+of your souls,</l>
+            <l>Oh hallelu', hallelu', hallelujah!</l>
+          </lg>
+          <p>We feared not death, but would rather welcome it with 
+songs, for we, ignorant as we are, felt that we should 
+receive the “Crown of Life.”</p>
+          <pb id="jack39" n="39"/>
+          <p>It is remarkable to notice that, although the poor 
+negroes are but very little acquainted with the Sacred 
+Scriptures, yet the Almighty, apparently to show man the 
+futility of attempting to keep the mind of his fellow-man 
+in ignorance of Him, has imparted to the poor despised 
+one a species of subtlety in acquiring religious knowledge, 
+which may appear to those who are not personally 
+acquainted with the fact, extraordinary and impossible.  
+If God so honour the negro, and if He works for his deliverance 
+from bondage as He has been doing, ought we to 
+be idle ? Surely if we stand calmly by, and see our 
+brother murdered, shall not we be guilty of his blood?  
+Some have blamed “Abolitionists” for over-zealousness; 
+but surely no one could be too zealous for the destruction 
+of a system which works, or can work, as described in 
+these pages.  “Let us be up and doing, for the night 
+cometh when no man <hi rend="italic">can</hi> work.”</p>
+          <lg>
+            <l>“Oh, early in the morning,</l>
+            <l>Early in the
+evening,</l>
+            <l>Then we'll shout glory, glory, in my soul.</l>
+          </lg>
+          <lg>
+            <l>Old fathers, can't you ride and tell?</l>
+            <l>Bless the Lord, we'll
+rise and tell,</l>
+            <l>Then we'll shout glory, glory, in my
+soul.”</l>
+          </lg>
+          <p>This the slaves sing to keep time while picking cotton in 
+the field under the burning sun; soon after, the whiplash 
+falls on their backs by their drunken masters and 
+overseers, till the blood runs down.  And still they say 
+that the slaves are better off than the working people in 
+free countries, which is as big a lie as ever was told.</p>
+          <p>A man by
+the name of Stevondecause, in South Carolina, 
+kept a storehouse at the cross road, over the mill branch.  
+There he sold liquor and other things to the white people 
+at daytime; he enticed the negroes to steal at night cotton 
+and corn, and other things, for which he gave them liquor 
+and one thing or another; and he steals it from them by 
+not giving them what it is worth, and tells them to go and 
+steal more, and not let their masters see them.  And when 
+he got rich enough to buy niggers himself, he stopped 
+trading with the others.  He went across Black River 
+Swamp, where he bought  plantation, and was one of the 
+worst masters that ever lived.  He was afraid to let any of 
+his niggers leave his plantation at night, and told them if 
+they did he would whip them; and why, because it takes a 
+rough to catch a rough, and he is afraid they will steal 
+<pb id="jack40" n="40"/>
+his cotton, as he got other master's niggers to steal for 
+him to make him rich.  Mr. Neddy Anderson, and William 
+Miles, and Stevondecause, are very bad men—more like 
+beasts than men—they used to go about all the plantations 
+on Sunday nights, and frighten the negroes that used to 
+come together to hold prayer-meetings, chasing them here 
+and there, and whipping as many as they could catch 
+without a pass.  Mr. Anderson spends a great deal 
+of his time in plaiting whips to whip the negroes with; 
+my mistress hired him as overseer to come and flog all the 
+negroes, and me in particular, after Christmas, because I 
+had a black pony.  But she gave us three days at Christmas, 
+and I have not been home since; for I and the pony 
+gave them leg-bail for security, and thank God, got safe 
+to a Free State.</p>
+          <p>Two negroes were being taken away from their families 
+in chains to the new countries, on the way there, the master 
+stopped for dinner at one of the planter's houses, 
+while the slaves were fastened to a tree.  After dinner, he 
+sent for his horse to be brought.  The horse would not let 
+the slave put the bridle on him, he bit at him.  “Master,” 
+said the slave, “I can't catch your horse, he bites.”  “Oh, 
+well, I'll go.”  he went, and said, “What are you about,
+sir?” and rubbing him down behind, and lifting one of his 
+hind feet, the horse kicked his brains out.  The slaves were 
+then let loose and sent back.</p>
+          <p>The Rev. Mr. Reed, minister of Mount
+Zion Church, 
+South Carolina, when his wife wanted him to whip her slave 
+girl, he said, “I can't, I am a minister of the gospel.”  
+“Well, other ministers whip their niggers, and you can 
+whip yours, too.”  “No, I can't.”  “Well, I will send 
+her to Mr. Sam. Wilson, and have her whipped.”  So she 
+sat down and wrote a few lines, and she called her slave 
+girl to her and said, “Here, Madam Manda, take this letter 
+to Mr. Wilson.”  Which was five miles from her 
+house.  When he broke open the letter, he read, “Please 
+give the bearer fifty lashes on the bare back, well put on.”  
+The girl looked astonished, and thought she had committed 
+some crime, and said, “Please massa, don't whip 
+me, mistress gave me this letter to give you.”  He said, “I 
+don't care, I am going to give you fifty lashes.”  After she 
+was flogged, she returned to her cruel mistress, who examined 
+her back, and said, “Right good for you; I'm 
+glad, I long wanted you whipped.”  A drunken slave-
+<pb id="jack41" n="41"/>
+holder, by the name of Old Billy Dunn, whipped one of 
+his negroes to death, and dug a hole in the field, and
+threw him in without coffin or anything of the kind, just as
+dogs are buried; and in the course of time, the niggers 
+ploughed up the bones, and said, “Brudder, this the place 
+where Old Billy Dunn buried one of his slaves that was 
+flogged to death.”</p>
+          <p>I, John Andrew Jackson, once a slave in the United 
+States, have seen and heard all this, therefore I publish it.</p>
+          <closer>
+            <signed>J. A. JACKSON.</signed>
+          </closer>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1>
+        <head>ANTI-SLAVERY SONGS</head>
+        <div2>
+          <head>FLIGHT OF THE BONDMAN,</head>
+          <head>DEDICATED TO WILLIAM W. BROWN, 
+<hi rend="italic">And Sung by the Hutchinsons.</hi></head>
+          <byline>BY ELIAS SMITH</byline>
+          <l>     AIR—Silver Moon.</l>
+          <lg>
+            <l>From the crack of the rifle and baying of hound,</l>
+            <l>Takes the poor panting bondman his flight;</l>
+            <l>His couch through the day is the cold damp ground,</l>
+            <l> But northward he runs through the night.</l>
+          </lg>
+          <lg>
+            <l>CHORUS.</l>
+          </lg>
+          <lg>
+            <l>O God, speed the flight of the desolate
+slave,</l>
+            <l>Let his heart never yield to despair;</l>
+            <l>There is room 'mong our hills for the true and the brave,</l>
+            <l>Let
+his
+lungs breathe our free northern air!</l>
+          </lg>
+          <lg>
+            <l>Oh, sweet to the
+storm driven sailor the light,</l>
+            <l>Streaming far o'er the dark swelling wave;</l>
+            <l>But sweater by far 'mong the lights of the night,</l>
+            <l>Is the star of
+the north to the slave.</l>
+            <l>O God, speed, &amp;c.</l>
+          </lg>
+          <lg>
+            <l>Cold
+and bleak are our mountains, and chilling our winds,</l>
+            <l>But warm as the soft southern gales</l>
+            <l>Be the hands and the hearts which the hunted one finds,</l>
+            <l>'Mong
+our
+hills and our own winter vales.</l>
+            <l>O God, speed, &amp;c.</l>
+          </lg>
+          <lg type="para">
+            <l>Then list to the 'plaint of the heart-broken
+thrall,</l>
+            <l>Ye blood-hounds go back to your lair;</l>
+            <l>May a free northern soil soon give freedom to <hi rend="italic">all,</hi></l>
+            <l> Who shall breathe in its pure mountain air.</l>
+            <l>O God, speed,
+&amp;c.</l>
+          </lg>
+        </div2>
+        <div2>
+          <pb id="jack42" n="42"/>
+          <head>THE BEREAVED MOTHER.</head>
+          <l>             Air—Kathleen O'More.</l>
+          <lg type="para">
+            <l>Oh, deep was the anguish of the slave mother's heart,</l>
+            <l>When called from her darling for ever to part;</l>
+            <l>So grieved that lone mother, that heart-broken mother,</l>
+            <l>In sorrow and woe.</l>
+          </lg>
+          <lg>
+            <l>The lash of the master her deep sorrows mock,</l>
+            <l>While the child of her bosom is sold on the block;</l>
+            <l>Yet loud shrieked that mother, poor heart-broken mother,</l>
+            <l>In sorrow and woe.</l>
+          </lg>
+          <lg>
+            <l>The babe in return, for its fond mother cries,</l>
+            <l>While the sound of their wailing together arise;</l>
+            <l>They shriek for each other, the child and the mother,</l>
+            <l>In sorrow and woe.</l>
+          </lg>
+          <lg>
+            <l>The harsh auctioneer, to sympathy cold,</l>
+            <l>Tears the babe from its mother and sells it for gold;</l>
+            <l>While the infant and mother loud shriek for each other,</l>
+            <l>In
+sorrow and woe.</l>
+          </lg>
+          <lg>
+            <l>At last came the parting of mother and child,</l>
+            <l>Her brain
+reeled with madness, that mother went wild;</l>
+            <l>Then the lash could not
+smother the shrieks of that mother,</l>
+            <l>Of sorrow and woe.</l>
+          </lg>
+          <lg>
+            <l>The child was borne off to a, far distant clime,</l>
+            <l>While the mother was left in anguish to pine;</l>
+            <l>But reason departed, and she sank broken-hearted,</l>
+            <l>In sorrow and
+woe.</l>
+          </lg>
+          <lg>
+            <l>That poor mourning mother of reason bereft,</l>
+            <l>Soon ended her sorrows and sank cold in death;</l>
+            <l>Thus died that slave mother, poor heart-broken mother,</l>
+            <l>In sorrow and woe.</l>
+          </lg>
+          <lg>
+            <l>O list ye kind mothers, to the cries of the slave;</l>
+            <l>The parents and children implore you to save;</l>
+            <l>Go! rescue the mothers, the sisters and brothers,</l>
+            <l>From sorrow and woe.</l>
+          </lg>
+        </div2>
+        <div2>
+          <head>THE YANKEE GIRL.</head>
+          <lg type="para">
+            <l>She sings by her wheel at that low cottage
+door,</l>
+            <l>Which the long evening shadow is stretching before,</l>
+            <l>With a music as sweet as the music which seems</l>
+            <l>Breathed
+softly and faintly in the ear of our dreams.</l>
+          </lg>
+          <lg>
+            <l>How brilliant and mirthful the light of her eye,</l>
+            <l>Like a star glancing, out from the blue of the sky</l>
+            <l>And lightly
+and freely her dark tresses play </l>
+            <l>O'er a brow and a bosom as lovely as they.</l>
+          </lg>
+          <pb id="jack43" n="43"/>
+          <lg>
+            <l>Who comes in his pride to that low cottage
+door—</l>
+            <l>The haughty and rich to the humble and poor?</l>
+            <l>'Tis the great Southern planter—the master who waves</l>
+            <l>His whip
+of dominion o'er hundreds of slaves.</l>
+          </lg>
+          <lg>
+            <l>'Nay, Ellen, for shame! Let those Yankee fools spin,</l>
+            <l>Who
+would pass for our slaves with a change of their skin; </l>
+            <l>Let them
+toil as they will at the loom or the wheel,</l>
+            <l>Too stupid for shame
+and too vulgar to feel.</l>
+          </lg>
+          <lg type="para">
+            <l>But thou art too lovely and precious a gem </l>
+            <l>To
+be bound to their burdens and sullied by them—</l>
+            <l>For shame, Ellen,
+shame!—cast thy bondage aside,</l>
+            <l>And away to the South, as my
+blessing and pride.</l>
+          </lg>
+          <lg>
+            <l>O come where no winter thy footsteps can wrong,</l>
+            <l>But when
+flowers are blossoming all the year long;</l>
+            <l>Where the shade of the
+palm-tree is over my home,</l>
+            <l>And the lemon and orange are white in
+their bloom.</l>
+          </lg>
+          <lg>
+            <l>O come to my home, where my servants shall all</l>
+            <l>Depart at thy
+bidding and come at thy call;</l>
+            <l>They shall heed thee as mistress with
+trembling and awe,</l>
+            <l>And each wish of thy heart shall be felt as a
+law.'</l>
+          </lg>
+          <lg>
+            <l>O could ye have seen her—that pride of our girls—</l>
+            <l>Arise and cast back the dark wealth of her curls,</l>
+            <l>With scorn
+in her eye which the gazer could feel,</l>
+            <l>And a glance like the
+sunshine that flashes on steel:</l>
+          </lg>
+          <lg>
+            <l>“Go back, haughty Southron! thy treasures of gold</l>
+            <l>Are
+dim with the blood of the hearts thou hast sold;</l>
+            <l>Thy home may be
+lovely, but round it I hear</l>
+            <l>The crack of the whip and the footsteps
+of fear!</l>
+          </lg>
+          <lg>
+            <l>And the sky of thy South may be brighter than ours,</l>
+            <l>And
+greener thy landscapes, and fairer thy flowers;</l>
+            <l>But, dearer the
+blast round our mountains which raves,</l>
+            <l>Than the sweet sunny zephyr
+which breathes over slaves</l>
+          </lg>
+          <lg>
+            <l>Full low at thy bidding thy negroes may kneel,</l>
+            <l>With the iron
+of bondage on spirit and heel;</l>
+            <l>Yet know that the Yankee girl sooner
+would be</l>
+            <l>In <hi rend="italic">fetters</hi> with <hi rend="italic">them,</hi> than in freedom with <hi rend="italic">thee!</hi>”</l>
+          </lg>
+        </div2>
+        <div2>
+          <head>THE SLAVES SONG.</head>
+          <l>                                          AIR—Dearest May.</l>
+          <lg>
+            <l>Now, freemen, listen to my song, a story I'll relate,</l>
+            <l>It
+happened in the valley of the old Carolina State:</l>
+            <l>They marched me
+to the cotton field, at early break of day,</l>
+            <l>And worked me there
+till late sunset, without a cent of pay.</l>
+          </lg>
+          <lg>
+            <l>CHORUS. </l>
+          </lg>
+          <lg>
+            <l>They worked me all the day,</l>
+            <l>Without a bit of pay,</l>
+            <l>And
+believed me when I told them</l>
+            <l>That I would not run away.</l>
+          </lg>
+          <pb id="jack44" n="44"/>
+          <lg>
+            <l>Massa gave me a holiday, and said he'd give me more,</l>
+            <l>I
+thanked him very kindly, and shoved my boat from shore;</l>
+            <l>I drifted
+down the river, my heart was light and free,</l>
+            <l>I had my eye on the
+bright north star, and thought of liberty.</l>
+          </lg>
+          <lg>
+            <l>They worked me all the day,</l>
+            <l>Without a bit of pay,</l>
+            <l>So I
+took my flight in the middle of the night,</l>
+            <l>When the sun was gone
+away.</l>
+          </lg>
+          <lg>
+            <l>I jumped out of my good old boat and shoved it from the
+shore,</l>
+            <l>And travelled faster that night than I had ever done
+before;</l>
+            <l>I came up to a farmer's home, just at the break of
+day,</l>
+            <l>And saw a white man standing there, said he, “You are
+run away.”</l>
+          </lg>
+          <lg>
+            <l>They worked me all the day,</l>
+            <l>Without a bit of pay,</l>
+            <l>So I
+took my flight in the middle of the night,</l>
+            <l>When the sun was gone
+away.</l>
+          </lg>
+          <lg>
+            <l>I told him I had left the whip, and baying of the hound,</l>
+            <l>To
+find a place where man was man, if such there could be found,</l>
+            <l>That
+I heard in Canada, all men were free</l>
+            <l>And that I was going there in
+search of liberty.</l>
+          </lg>
+          <lg>
+            <l>They worked me all the day,</l>
+            <l>Without a bit of pay,</l>
+            <l>So I
+took my flight in the middle of the night,</l>
+            <l>When the sun was gone
+away.</l>
+          </lg>
+        </div2>
+        <div2>
+          <head>YE HERALDS OF FREEDOM.</head>
+          <lg>
+            <l>Ye heralds of freedom, ye noble and brave,</l>
+            <l>Who dare to
+insist on the rights of the slave,</l>
+            <l>Go onward, go onward, your cause
+is of God,</l>
+            <l>And he will soon sever the oppressor's strong rod.</l>
+          </lg>
+          <lg>
+            <l>The finger of slander may now at you point,</l>
+            <l>That finger will
+soon lose the strength of its joint;</l>
+            <l>And those who now plead for
+the rights of the slave,</l>
+            <l>Will soon be acknowledged the good and the
+brave.</l>
+          </lg>
+          <lg>
+            <l>Though thrones and dominions, and kingdoms and powers, </l>
+            <l>May
+now all oppose you, the victory is yours;</l>
+            <l>The banner of Jesus will
+soon be unfurled,</l>
+            <l>And he will give freedom and peace to the
+world.</l>
+          </lg>
+          <lg>
+            <l>Go under his standard, and fight by his side,</l>
+            <l>O'er mountains
+and billows you'll then safely ride;</l>
+            <l>His gracious protection will
+be to you given,</l>
+            <l>And bright crowns of glory he'll give you in
+heaven.</l>
+          </lg>
+        </div2>
+      </div1>
+      <div1>
+        <pb id="jack45" n="45"/>
+        <head>TESTIMONIALS IN FAVOUR OF JOHN ANDREW
+JACKSON, A FUGITIVE SLAVE.</head>
+        <div2>
+          <p>“I am very happy to say that Mr. Jackson is a member
+of my Church, and is well worthy of all confidence and 
+regard.</p>
+          <closer><date> April 12th, 1860. </date>
+<signed>C. H. SPURGEON.”</signed></closer>
+        </div2>
+        <div2>
+          <p>“We, the undersigned, bear testimony to the truth of 
+Mr. Jackson's statements, being satisfied regarding these 
+either by personal investigation of his case, or by the evidence
+of those who have done so, and on whose veracity 
+we can depend.  The credentials he carries with him are 
+attested by parties of the very highest respectability in 
+Edinburgh.  We therefore commend him to the kind 
+sympathies of every friend of the slave, not only on account 
+of his exposure and denunciation of slavery in 
+general, but his very laudable object of raising funds to 
+procure the deliverance of his father and two children of 
+a murdered sister from bondage.</p>
+          <closer><signed>MEREAMLER WALLACE, 
+Minister, East Campbell 
+   Street N. P. Church, Glasgow.</signed><signed>WILLIAM BRUCE, Minister, 
+U. P. Church, Edinburgh.</signed><signed>WM. GRAHAM, Minister,
+Newhaven.</signed><signed>ROBT. NELSON, Deacon, St. John's Free
+Church.</signed><signed>THOS. NELSON, Printer, etc.</signed>
+<signed>W. J. DUNCAN, Banker.”</signed></closer>
+        </div2>
+        <div2>
+          <opener>
+            <dateline>“18, Coates Crescent,
+					  Edinburgh, <date>7th May,
+1857.</date></dateline>
+          </opener>
+          <p>Mr. Jackson, on producing what seemed to me sufficient 
+testimonials, and particularly a strong one from Mrs. 
+Beecher Stowe, was allowed to deliver two lectures in my 
+Church.  These lectures were, I have reason to know, 
+very creditable to him.  I have no doubt of his being 
+entitled to countenance and support in his laudable
+undertaking.</p>
+          <closer>
+            <signed>THOS. CANDLISH, D.D.,
+				     Minister of Free St.
+George's.</signed>
+            <signed>JAMES GRANT, 7, Gilmore
+Place.”</signed>
+          </closer>
+        </div2>
+        <div2>
+          <pb id="jack46" n="46"/>
+          <opener>
+            <dateline>“Resermere Presbyterian Manor,
+ Loanhouse, Edinburgh, 18th May, 1857.</dateline>
+          </opener>
+          <p>From testimonials produced by Mr. Jackson, given by 
+Mrs. Beecher Stowe and others, I was convinced of the 
+truth of his case, gave him the use of my Church for 
+public lectures on two occasions, and felt happy in affording 
+him hospitality for two nights.  From all I have seen 
+and heard, it gives me pleasure to testify my conviction 
+that he is entitled to cordial sympathy and encouragement 
+in the laudable object he has in view—the deliverance of
+some relations from that estate of bondage from which 
+he himself has in the good providence of God
+escaped.</p>
+          <closer><salute>I can cordially unite with the above,
+from</salute>
+<signed>WM. ANDERSON, Minister of the gospel. </signed><signed>DAVID
+GUTHRIE, Minister of the Free
+ Church, Tibetson.”</signed></closer>
+        </div2>
+        <div2>
+          <opener>“Glasgow, October 15, 1857.</opener>
+          <p>At a meeting of the Joint Committees of the “Glasgow 
+New Association for the Abolition of Slavery,” the certificates 
+of John Andrew Jackson, a fugitive slave, having 
+been examined and considered satisfactory, it was unanimously 
+agreed to vote him two guineas towards the object of his
+mission.</p>
+          <closer>
+            <signed>JOHN SMITH,
+Treasurer.”</signed>
+          </closer>
+        </div2>
+        <div2>
+          <p>“J. A. Jackson having called on me and shown his 
+testimonials, I took him to a lady, Miss Griffith, who was
+visiting this town on anti-slavery business, and who has 
+resided several years in America.  She examined him 
+very closely, and was fully satisfied that his representations 
+of himself are correct.  I believe implicit reliance 
+may be placed in his truthfulness and honesty.</p>
+          <closer><signed><name>RICHD. SKINNER,</name>
+Minister of Ramsden Street Chapel,</signed>
+<dateline><date>March 25th, 1858.</date>
+Huddersfield.”</dateline></closer>
+        </div2>
+        <div2>
+          <pb id="jack47" n="47"/>
+          <p>Samuel Fessenden, a gentleman well known in the 
+United States, with whom Mr. Jackson lived some time, 
+gave him this character:—</p>
+          <p>“This may certify that I have known Mr. John Andrew 
+Jackson more than five years; I believe him to be a reliable 
+man for integrity and truth.  His history, which is 
+very thrilling, may be relied on, as he relates it.  He is 
+anxious to redeem his father and two children of a sister 
+in slavery.  He has a claim on your sympathies.</p>
+          <closer>
+            <signed>SAMUEL
+FESSENDEN.”</signed>
+          </closer>
+        </div2>
+        <div2>
+          <opener>“Boston, April 30th, 1856</opener>
+          <p>Be it known that
+we know John Andrew Jackson, a
+coloured man, to be industrious and honest; said Jackson 
+worked in Salem, Mass., having worked for us at different 
+times during the years of 1847-8-9, and 50.  We further 
+state that we believe said John Andrew Jackson was 
+formerly a slave, and that his word may be relied upon, as
+we think him a man of integrity and truth.</p>
+          <closer>
+            <signed>SAMUEL HIGBEE, North Street.</signed>
+            <signed>JOHN GILMER.”</signed>
+          </closer>
+        </div2>
+        <div2>
+          <p>“Be it known to whom it may concern, that I went with 
+the above John Andrew Jackson and saw Mrs. Foreman, 
+in Richmond Street, Boston, and she fully corroborated 
+his statement in reference to his being a slave; also said 
+her son had been on board the vessel, and seen the spot 
+where the said John Andrew Jackson was cut out, according 
+to his statement; I would further add, that I know 
+the above gentlemen, Samuel Higbee and John Gilmer, to 
+be men of character and highly respectable, and that their 
+statement may be fully relied upon.</p>
+          <closer>
+            <signed>G. W. COCHRANE, 60 &amp; 70, Read
+St.”</signed>
+          </closer>
+        </div2>
+        <div2>
+          <pb id="jack48" n="48"/>
+          <p>Mr. Jackson lectured twice in the Rev. Mr. Candlish's 
+Church, Edinburgh, when the rev. gentleman took the 
+chair; he also lectured in almost all the Churches in 
+Edinburgh and Glasgow, and he lectured all the way 
+through to London, where he still continues to lecture on
+slavery, and endeavours to bring in the gospel of our 
+Lord Jesus Christ; he is now waiting to see how the conflict 
+in America will end; and if it please God that the
+slaves get their freedom, his intention is to go and preach 
+the gospel among them as long, as he lives.</p>
+        </div2>
+        <div2>
+          <p>I am happy to say, that since writing the foregoing, 
+President Lincoln has issued his proclamation, that “On
+January 1st, 1863, all slaves within any State, or part of a
+State, the people whereof shall then be in rebellion against
+the Federal Government, shall be then, thenceforward, and
+for ever <hi rend="italic">free.</hi>”—J. A. J.</p>
+        </div2>
+        <div2 type="illustration">
+          <p>
+            <figure id="ill1" entity="jackson48">
+              <p>[Illustration]</p>
+            </figure>
+          </p>
+        </div2>
+        <closer>PASSMORE &amp; ALABASTER,
+Printers, Wilson Street, Finsbury.</closer>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

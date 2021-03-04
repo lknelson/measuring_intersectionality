@@ -1,0 +1,1827 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY mallor24 SYSTEM "mallor24.jpg" NDATA jpeg>
+<!ENTITY mallor30 SYSTEM "mallor30.jpg" NDATA jpeg>
+<!ENTITY mallor38 SYSTEM "mallor38.jpg" NDATA jpeg>
+<!ENTITY mallortp SYSTEM "mallortp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Old Plantation Days:</emph>
+Electronic Edition.</title>
+        <author>Col. W. Mallory  </author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Fiona Mills</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by </resp>
+          <name>Fiona Mills</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text 
+encoded by</resp>
+          <name id="ns"> Susan Huffman and Natalia 
+Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.   150  K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of availability
+ is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number    E444 .M23     
+(Rare Book Collection, UNC-CH)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Old Plantation Days</title>
+          <author>Mallory, Col.
+W.</author>
+          <imprint>
+            <pubPlace>[Hamilton, Ontario]: </pubPlace>
+            <publisher>S. n.</publisher>
+            <date>[1902?]</date>
+          </imprint>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Pages 41-48 are missing from the original copy.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ 
+and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation 
+in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text 
+using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Mallory, William, b. 1826.</item>
+            <item>African Americans -- Southern States -- Biography.</item>
+            <item>Blacks -- Canada -- Biography.</item>
+            <item>Slaves -- Southern States -- Biography.</item>
+            <item>Slaves -- Southern States -- Social conditions -- 19th
+century.</item>
+            <item>Fugitive slaves -- Southern States -- Biography.</item>
+            <item>Slavery -- Poetry.</item>
+            <item>African American missionaries -- Africa.</item>
+            <item>United States -- History -- Civil War, 1861-1865 --
+Afro-Americans.</item>
+            <item>United States -- History -- Civil War, 1861-1865 -- Participation,
+Afro-Americans.</item>
+            <item>Zulu (African people) -- South Africa -- History -- 19th
+century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1999-06-21, </date>
+        <respStmt>
+          <name>Celine Noel and Steve Kelley </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-05-03, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and 
+final proofing.</item>
+      </change>
+      <change>
+        <date>1999-02-19, </date>
+        <respStmt>
+          <name>Susan Huffman </name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML 
+encoding</item>
+      </change>
+      <change>
+        <date>1999-01-29, </date>
+        <respStmt>
+          <name>Fiona Mills </name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="mallortp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">OLD PLANTATION DAYS</titlePart>
+        </docTitle>
+        <docEdition>THIRD EDITION</docEdition>
+        <docAuthor>COL. W. MALLORY<lb/>
+EX-SLAVE</docAuthor>
+      </titlePage>
+      <div1 type="introduction">
+        <pb id="mallory1" n="1"/>
+        <head>INTRODUCTORY.</head>
+        <p>In presenting this small book to the public, I am only
+endeavoring to place before my readers a portrayal of the daily
+happenings in the life of a slave.</p>
+        <p>The events here described are true in every particular, and
+will all bear the search-light of truth. Many people are to-day
+living who can vouch for the authenticity of every event of
+importance mentioned within the covers of this book.</p>
+        <p>I also desire in this way to express my thanks to the
+Canadian public, and Hamiltonians in particular, for the many
+proud positions to which they have elevated me, and for the
+consideration and kindness with which I have invariably been
+treated by Canadians as a people.</p>
+        <p>Trusting that my efforts to lay bare the treatment of the
+colored man during his period of bondage may be met with the
+encouragement and reward commensurate with the sufferings the
+negro, as a race, endured, I have the honor to subscribe myself,</p>
+        <closer>
+          <signed>COL. WM. MALLORY <hi rend="italics">(ex-slave)</hi>
+<lb/>
+AUTHOR.</signed>
+        </closer>
+      </div1>
+      <div1 type="verse">
+        <pb id="mallory2" n="2"/>
+        <lg type="poem">
+          <head>THE PERSECUTED NEGRO.</head>
+          <lg type="stanza">
+            <l>In the dark dens of the dismal swamp</l>
+            <l>The hunted negro lay;</l>
+            <l>He saw the fire of the midnight camp,</l>
+            <l>And heard at times the horses' tramp</l>
+            <l>And a bloodhound's distant bay.</l>
+          </lg>
+          <lg type="stanza">
+            <l>Where Will-o'-the-Wisps and glow-worms shine</l>
+            <l>In bulrush and in brake,</l>
+            <l>Where waving mosses shroud the pine,</l>
+            <l>And the cedar grows, and the poisonous vine</l>
+            <l>Is spotted like the snake.</l>
+          </lg>
+          <lg type="stanza">
+            <l>Where hardly a human foot could pass,</l>
+            <l>Or a human heart would dare;</l>
+            <l>On the quaking turf of the green morass</l>
+            <l>He crouched in the rank and tangled grass</l>
+            <l>Like a wild beast in his lair.</l>
+          </lg>
+          <lg type="stanza">
+            <l>A poor old slave, infirm and lame;</l>
+            <l>Great scars deformed his face;</l>
+            <l>On his forehead he bore the brand of shame,</l>
+            <l>And the rags that hid his beaten frame</l>
+            <l>Were a picture of disgrace.</l>
+          </lg>
+          <lg type="stanza">
+            <l><sic corr="All">Oll</sic> things above were bright and fair—</l>
+            <l>All things were glad and free—</l>
+            <l>Little squirrels darted here and there,</l>
+            <l>And wild birds filled the echoing air</l>
+            <l>With songs of liberty.</l>
+          </lg>
+          <lg type="stanza">
+            <l>On him alone was the doom of pain</l>
+            <l>From the morning of his birth;</l>
+            <l>On him alone the curse of Cain</l>
+            <l>Fell, like the hail on the garnered grain,</l>
+            <l>And struck him to the earth.</l>
+          </lg>
+        </lg>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="mallory3" n="3"/>
+        <head>Col. Wm. Mallory's Escape<lb/>
+From Slavery.</head>
+        <p>In the year 1826, on a plantation in North Carolina, I, ex-slave
+Col. William Mallory, first saw the light of day. For seven years I
+was allowed to remain with my parents, brothers and sisters, and
+was then sold to a Frenchman from Virginia by the name of
+LeBlanc. He was a half-brother to Simon Legree, whose character
+has been so well portrayed by Mrs. Harriet Beecher-Stowe in her
+story of “Uncle Tom's Cabin.” From the day I was sold to LeBlanc
+up to the present—a lapse of sixty-two years—I have neither seen
+nor heard of any of my relatives, and there are many more men and
+women now under the protection of the British flag who have been
+forced to undergo the same cruel separation from parents and
+relatives through the same accursed cause—slavery.</p>
+        <p>My first knowledge of slavery came to me when I was a little
+toddler. A white man was brought to me by my parents, and I was
+told by them that he was my master. As time passed on I thought it
+was strange that I should have to call him master, and I thought it
+stranger still that he should be allowed to whip the negroes till the
+blood flowed.</p>
+        <p>I remained with Mr. LeBlanc until the marriage of his daughter, on
+which occasion I changed owners and became the property of the
+son-in-law, Mr. Susten Allen, a member of the White House at
+Washington. For fourteen years I remained with them, being assigned
+to the position of body-servant to my master, who, like many others
+at that time, was too lazy and indolent to wait upon himself. During
+my stay with Mr. <sic corr="Allen">Allan</sic> I attended every session held at the White
+House, and in my capacity as body-servant was admitted to the
+House on all occasions. It was there I first heard of Canada as
+a land where slavery was unknown, and where the negro could
+live free and untrammeled.</p>
+        <pb id="mallory4" n="4"/>
+        <p>I had no education, and no opportunity was given me of
+procuring any. All that could be learned by the average slave was
+that which could be gathered from listening to and treasuring up
+the scraps of conversation we could overhear when our owners
+were talking together. Having heard so much of this grand
+country which lay to the north, I became imbued with the
+resolution to improve the first opportunity and try to find my way
+to it and freedom.</p>
+        <p>Many acts of brutality on the part of my master and his
+overseers occurred during the fourteen years I stayed with Mr.
+Allen, and one in particular impressed itself on my mind and
+showed to me the vital necessity of escaping to freedom if I ever
+wished to call my life my own. On one broiling hot day in
+midsummer my master called a poor slave out of the cane-field,
+and for no appreciable cause had an overseer shave his head and
+afterwards flog him with his blacksnake whip. After the flogging a
+tight-fitting cap, lined with tar and pitch, was placed on the poor
+fellow's head, and he was compelled to stand in the hot, torturing
+sun until he fell to the ground. A few strokes of the lash not
+serving to revive him, an examination was made, when it was
+found that the poor slave was dead. His lifeless body was coolly
+kicked into a corner of the fence and left there until sundown,
+when some of his fellows were sent to give him a hurried and
+unblest burial.</p>
+        <p>Another poor slave was whipped until he couldn't stand
+because my master caught him in the act of prayer; and a white
+man, caught teaching the slaves to read and pray, was shot down
+like a dog.</p>
+        <p><sic corr="A">O</sic>policeman, a “guardian of the peace,” was what may be
+called the public whipper. He received a fee of fifty cents per head
+for every man, woman, boy or girl he flogged. This fee was in
+addition to his regular salary as a constable, and he found
+constant employment.</p>
+        <p>I have seen children taken from their parents with as little
+compunction as one would exhibit in taking the calf from the
+cow. I have seen the young woman sold to the
+<pb id="mallory5" n="5"/>
+buyer, and he in turn would traffic in her charms; the young man
+taken from his wife and sold to a buyer from a distant part of the
+States; and one old woman's son was taken from her, tied by a
+rope around his neck to the pommel of his new owner's saddle,
+and compelled to leave his poor old mother, probably never more
+to see her alive.</p>
+        <p>Hundreds of acts of equally brutal a nature could be told had
+I the inclination to indulge in a recital of all the horrible events I
+saw during the days of my captivity, but my book is not intended
+to deal with the lives of slaves at large, but purely a personal
+narrative.</p>
+        <p>Late in the fall of the year 1860 the opportunity of escaping—
+so long watched and patiently waited for—offered itself, and in
+company with three other slaves I started upon my perilous
+journey. Necessity compelled that our road should be far removed
+from the highways, as large handbills, offering rewards for our
+capture, were freely distributed, and to be seen meant to be taken
+and returned to our former homes and punished terribly as an
+example to the other hands on the plantation and as a warning of
+the fate that awaited any who desired to take their liberty out of
+the hands of their oppressors.</p>
+        <p>We three travelled continually onward towards Canada and
+freedom, sometimes being hounded from swamp to swamp and
+bush to bush, and frequently being compelled to ford and swim
+streams in our efforts to throw the dogs off our tracks. On one
+occasion, about three months after having started on the hunt for
+that God-given gift—Liberty, we were nearly overtaken by a pack of
+hounds, and were compelled to strike out across country and
+each man shift for himself. Having been in my youth a remarkably
+rapid runner, I soon left my companions far behind, and I cannot
+say whether they escaped, were captured, or died from starvation
+and exposure.</p>
+        <p>I was now forced to continue my way alone, and under those
+circumstances was it to be marvelled at that the country through
+which I passed should appear, to my eyes, to be
+<pb id="mallory6" n="6"/>
+the most dismal on the face of the earth? To add to my sufferings
+and discomfort I had to encounter the rigors of winter weather.
+The ice, sleet and snow were unknown quantities to the slave,
+who had never before ventured so far north from the place of his
+birth, and the experience was by no means a pleasant one,
+unprovided as I was with clothing suitable for cold weather. My
+means of subsistence consisted of everything that I could in any
+way obtain, and many a meal have I had from men of my own
+nationality who endangered their own safety in order to appease
+the pangs of hunger which assailed me.</p>
+        <p>One night, after having journeyed all day long, I saw a house
+standing by itself in a small clearing, and after having taken a
+close survey of the surroundings and having seen nothing of an
+alarming nature, I made bold to go to the door and ask for
+something to eat. A white man answered my summons at the door,
+and on making known my wants he invited me to enter his house
+and rest myself while he procured me something to eat, at the
+same time telling me he was an Abolitionist and a friend to
+all colored men. The only other occupant of the place at
+that time was the little child of the man, a girl about three
+years of age. The man busied himself preparing my
+meal, and my attention being taken up by the antics of the child,
+my entertainer managed, unknown to me, to send word to a couple
+of slave hunters who were in his neighborhood, that there was an
+escaping slave at his house. Imagine my surprise, when, after
+having watched the child at play for some time, I accidentally
+raised my eyes towards the front door, to see the doorway filled
+by the forms of the two slave-hunters with rifles levelled at my
+breast, and at the same time hear a stern command to remain where
+I was on peril of my life.</p>
+        <p>Quicker than thought was my action. Not waiting to
+reply to them, I suddenly reached forward and raised the
+little child from the floor, and holding her between my body
+and the rifles of my pursuers, I backed to the rear door of
+the house, darted into the yard, dropped the child to the
+<pb id="mallory7" n="7"/>
+ground, and ran for the woods at top speed, but, unfortunately,
+I did not escape unhurt, one of the marksmen being kind
+enough to leave his card in the shape of a wound along the tips
+of my fingers, where his rifle bullet hit me.</p>
+        <p>After dodging and doubling about the bush for a long time
+they gave up the search for me, and I was enabled to procure
+some rest in a clump of bushes, which afforded me a safe
+hiding-place. Soon after entering my retreat I heard a
+sound somewhat resembling a cough, and, peering out from the
+bushes, I saw a colored woman who appeared to be trying to find
+something or somebody. After having watched her actions for
+some time, I determined to make my presence known to her, with
+the result that I found I was the one she was searching for.
+Her name was Taylor, and she was the wife of
+the man who owned her. Their place of residence was near
+enough to where I had been betrayed <sic corr="and so">an dso</sic> nearly captured to
+allow of them hearing the rifle shots, and surmising that some
+poor slave may be running away, she set out from home to
+endeavor to be of some assistance.</p>
+        <p>I was afraid of another trap, but became assured after a
+time that I had nothing to fear from Mrs. Taylor. She and her
+daughter, a fine, grown young woman, took me to the house,
+bound up my wounds, hid me in an out-of-the-way
+place, fed, clothed and cared for me till I was in fit condition to
+take the road again and shift for myself.</p>
+        <p>Previous to starting out from the plantation of Mr. Allen I
+had secured a revolver which at times stood me in good stead,
+and to which I was fortunate enough to cling through
+all my vicissitudes, and which trusty weapon I still possess.</p>
+        <p>After leaving the hospitable roof of the Taylor family my way led
+along the banks of a small river, and as I was fortunate
+enough to secure a boat which some one had left moored to a
+tree, I was able to proceed much more comfortably upon my
+journey. For some nights I followed the river course, being
+compelled to secrete my boat in the daytime and betake
+myself to the bush or some hole in the rocks until night made
+it safe for me to stir abroad again. One day
+<pb id="mallory8" n="8"/>
+soon after leaving Taylor's house, I was terrified to see a small
+boat, containing three men, coming down stream and heading
+directly for the spot in which my best friend at that time—my
+boat—was hidden. In a few minutes they again appeared to view
+with my boat in tow, and I was again reduced to the necessity of walking.
+On the following Saturday night I resumed my tramp as soon as
+darkness settled down. I followed the river bank, keeping a sharp
+lookout for means of conveyance by water, as it left no trail, and I
+was soon favored by fortune in the shape of another boat which I
+unhesitatingly confiscated to my own use.</p>
+        <p>In the morning (Sunday) I left my boat and struck off through
+the country on foot. I was now in the State of Pennsylvania. I
+walked on all day, and at night I was near the borders of <sic corr="Pittsburgh">Pittsburg.</sic>On going to a farmhouse I found some kind friends in the persons
+of the farmer and his family. Their name was Butler, and as Mr. B.
+was fond of music he asked me could I play an instrument.
+Fortunately I could play a little on the violin, and as there
+happened to be one in the house I was enabled, in a small
+measure, to repay him for his kindness to me. He insisted on my
+remaining all night, and after a sleep in a comfortable bed, he gave
+me a hearty breakfast and I again resumed my tramp much
+refreshed. I travelled all day Monday, meeting with no hindrances,
+and at night I again found shelter.</p>
+        <p>On the Tuesday morning I passed through a small village
+and chanced to meet two men on horseback. They stopped me
+and wanted to know who I was and where I was going. I gave a
+fictitious name and stated that I was going on an errand. My
+questioner wasn't disposed to credit my story, and charged me
+with being a runaway slave. I denied the soft impeachment and
+offered to go back with them to the village to prove the truth of
+my story. My little scheme to deceive them wouldn't work, and
+one of the men dismounted in order to secure me, but the sight of
+a dirk in the hands of a powerful young colored man induced him
+to remount his horse and gallop off towards the village. I was
+<pb id="mallory9" n="9"/>
+now in rather a hazardous position, for my late interlocutor would
+certainly rouse the villagers and a chase would be the result. I
+made use of my abilities as a runner, and soon found shelter in a
+nearby swamp. As it was the springtime of the year, and I was
+well towards the north, the waters of the swamp were none too
+warm, and a cold drizzling rain did not add any to my comfort. For
+the greater portion of the day I was compelled to wade waist deep
+in muck, water and ice, and my sufferings were excruciating in the
+extreme. I had no food, and at night I left the swamp and found my
+way to a farmhouse, where I procured something to eat.</p>
+        <p>By this time I thought it passably safe to travel by day and
+rest at night, and I took advantage of any shelter that offered
+itself. Before I got far from the village previously mentioned, I one
+night took refuge in a barn and made myself a bed in the hay-loft.
+Soon after composing myself to rest, a man entered the barn with
+his team, fixed the horses for the night and ascended the steps of
+the loft in order to throw down some hay for the animals. In
+groping around in the dark for the fodder he accidentally grasped
+me by the leg. I thought it was all up with me, but luckily I
+managed to escape from the barn and again entered the swamp.
+The farmer soon aroused the neighborhood, and as soon as the
+dogs could be loosed they were set upon my trail. By this time I
+had secured a good headway in the swamp, and could hear the
+noise of my pursuers and the baying of the hounds behind me.
+They followed me across the morass, for I couldn't throw the dogs
+off my scent. Seeing a barn in a clearing I made for it, and decided
+to leave my fate to Providence.</p>
+        <p>My pursuers soon arrived at the building and were going
+farther into the swamp when one of the men suggested that the
+barn be searched. Accordingly, one of the dogs was sent in, and
+after sniffing about for a while he went out without discovering
+me. They were about to go on again when another man suggested
+that “Bull” be sent in, and if any one was in the building he
+would rout him out. “Bull” entered,
+<pb id="mallory10" n="10"/>
+stayed sniffing about for a time and then retired. My pursuers
+were then satisfied that no one was in the building, and they
+departed to continue the search elsewhere.</p>
+        <p>I continued to hide in barns and outhouses for some weeks
+longer, and many hazardous ventures and hairbreadth escapes—
+which I hope to relate fully in a future work I am contemplating—
+fell to my lot before I at last got into the hands of the
+Abolitionists, who conducted me, by means of the “Underground
+Railway” to Canada, where I could freely and gladly sing:</p>
+        <lg type="stanza">
+          <l>I've<hi rend="italics">won</hi> my way to Canada,</l>
+          <l>That free and happy land;</l>
+          <l>No more in cruel slavery</l>
+          <l>Need William Mallory stand.</l>
+          <l>Fare-the-well, old master,</l>
+          <l>That's enough for me!</l>
+          <l>I'm <hi rend="italics">here</hi>, in dear old Canada,</l>
+          <l>Where colored men are free.</l>
+        </lg>
+        <lg type="hymn">
+          <l>I will not have the driver's lash</l>
+          <l>Raised high above my head;</l>
+          <l>I will not have a peck of corn</l>
+          <l>Dealt out to me for bread;</l>
+          <l>For God, in His great goodness,</l>
+          <l>Came down to Calvary</l>
+          <l>And bore the burdens of the Cross</l>
+          <l>To set His people free.</l>
+          <l>Fare-the-well, old master,</l>
+          <l>That's enough for me!</l>
+          <l>I'm <hi rend="italics">here</hi> in dear old Canada,</l>
+          <l>Where colored men are free.</l>
+        </lg>
+        <p>Soon after crossing the line into Canada I found employment
+on different farms and gardens, and eventually arrived at
+Hamilton, in which city I decided to remain. About this time Mr.
+Abraham Lincoln was nominated and elected to the Presidency of
+the United States. Hardly had the
+<pb id="mallory11" n="11"/>
+election been ratified when the fire of sedition, which had been for
+years smouldering and quietly spreading over the Southern
+States, burst out in all its fury.</p>
+        <p>Victory for the North in the Presidential campaign had been
+agreed upon by the Southerners as the signal for immediate
+action, and the result was that this great nation became embroiled
+in a disastrous conflict. <sic corr="As">Os</sic> discussion grew warmer and warmer,
+President Lincoln saw that slavery—which was the root of the
+trouble—would have to be abolished in order to bring the matter to a focus.
+Accordingly, he caused to be released from bondage some three
+thousand of slaves in the District of Columbia, and, in addition,
+offered freedom to all colored men who would join and serve in
+the Northern Army. He, by this means, instituted the measure of
+Emancipation, which brought the dispute to its real issue—a fight
+for or against slavery.</p>
+        <p>The proclamation offering freedom to the negroes was issued
+in 1863, and the result was that fourteen millions of slaves in the
+Northern States were set at liberty. Many of them immediately
+entered the army and contributed not a little to the ability of the
+North to carry on the war.</p>
+        <p>On the day he signed the proclamation, President Lincoln,
+after hours of hand-shaking with visitors to the White House,
+remarked: “My signature looks a little tremulous, but my
+resolution is firm. I told the Southerners that if they did not return
+to their allegiance and cease murdering our soldiers I would strike
+at the pillar of their strength. The promise shall be kept, and not
+one word will I ever recall.”</p>
+        <p>On the surrender of Richmond the President visited that city,
+and it was then that his tender heart was gladdened, for he saw
+some of the first signs of the benefits of his proclamation
+regarding emancipation. Hardly had his presence in the city
+become known before hordes of freed negroes thronged about
+him with wild eyes of delight, endeavoring to express in their
+simple way their thanks to the deliverer. In 1864 the colored men
+of Baltimore presented him with a beautifully bound copy of the
+Bible. The book
+<pb id="mallory12" n="12"/>
+was edged with a band of pure gold, and a massive plate of the
+same precious metal adorned each cover. On the front plate was
+engraved the figure of Lincoln in the act of removing the shackles
+from the limbs of a slave, and at his feet was a scroll with the word
+“Emancipation” engraved thereon. On the back plate was
+inscribed the following:</p>
+        <p>“Presented to Abraham Lincoln, President of the United
+States, the friend of universal freedom, from the loyal colored
+people of Baltimore, as a token of respect and gratitude.”</p>
+        <p>But a terrible calamity was impending. While all the North
+was rejoicing over the return of peace, and celebrating the
+anniversary of the fall of Sumter, the assassination of Lincoln was
+consummated. John Wilkes Booth was the unhappy assassin, and
+he chose this occasion as the most fitting opportunity of carrying
+out his fell purpose. The President was at Ford's theater, attending
+the performance, in company with his family and some friends,
+when this fiendish assassin, by a scheme, secured admission to
+the President's box, placed a <sic corr="pistol">uistol </sic>to the back of Lincoln's head
+and pulled the trigger. Soon the dread news was made public, but
+of all the grief-stricken people none were more cast down than the
+<sic corr="negroes">egroes</sic>—for whom it might truthfully be said Abraham Lincoln
+died. That night thousands of freed slaves walked the streets,
+wringing their hands and expressing their despair by loud cries of
+distress.</p>
+        <p>It was desired by many that Lincoln be laid to rest in
+Washington, but other opinion prevailed, and he was interred in
+Illinois. In that State, in one of the cemeteries of Springfield—the
+town in which many of his most happy days were spent—the body
+of the good President lies.</p>
+        <p>On the next page will be found a poem to the memory of
+Abraham Lincoln. It has been composed by me, and I take this
+opportunity of presenting it to the public, at the same time placing
+on record my small tribute to the memory of the man whose
+glorious career was so fearfully ended by the hand of the grim
+monster—Death.</p>
+        <pb id="mallory13" n="13"/>
+        <lg type="verse">
+          <head>IN MEMORIAM.</head>
+          <lg type="stanza">
+            <l>Celestial Choir, enthroned in realms of light;</l>
+            <l>Columbia's scenes of glorious toils I'll write.</l>
+            <l>While Freedom's cause her anxious breast alarms</l>
+            <l>She flashes dreadful in refulgent arms.</l>
+            <l>See mother Earth her offspring bemoan,</l>
+            <l>And nation gaze at scenes before unknown.</l>
+          </lg>
+          <lg type="stanza">
+            <l>Famed by thy valor, for thy virtues more,</l>
+            <l>Hear every tongue thy guardian aid implore!</l>
+            <l>Proceed, great chief, with Virtue on thy side;</l>
+            <l>Thy every action let the goddess guide.</l>
+            <l>A crown, a mansion, and a throne that shine</l>
+            <l>With gold unfading, Lincoln, be thine!</l>
+          </lg>
+          <lg type="stanza">
+            <l>From this low vale of sorrow and of strife,</l>
+            <l>With honors laden, and in full of time,</l>
+            <l>To realms of joy and heights of bliss sublime</l>
+            <l>Great Lincoln has winged his raptur'd way</l>
+            <l>And walks with Angels in the blaze of day.</l>
+          </lg>
+        </lg>
+        <pb id="mallory14" n="14"/>
+        <p>When the American war of the Rebellion broke out I
+returned to the States and took up arms on behalf of my poor,
+downtrodden race, and against the slave owners and men of the
+South. The first battle in which I was engaged was the famous
+battle of Bull's Run, where I took my place in the ranks as a private
+and bore my share of the brunt of battle. There had been a great
+deal of opposition to the use of colored men as troops, and it was
+not until July, 1862, that that objection was removed. It was then
+that Congress authorized the employment of colored men as
+soldiers, and from that time until the close of the war Victory
+seemed to follow the colored troops.</p>
+        <p>The History of the American War mentions time and again
+the gallant conduct and undaunted <sic corr="mien">mein</sic> maintained by the
+colored regiments during this terrible period of strife, when the
+hand of brother was lifted against brother, and when father and
+son opposed each other on the bloody field of battle. At the close
+of the year 1862 the number of colored troops in the field was one
+hundred and fifty thousand.</p>
+        <p>At this time I secured my promotion to the rank of Colonel,
+and had an opportunity of showing my ability at the battle of
+Vicksburg. After the battle we pressed on towards New Orleans,
+which city was captured, thus opening up the Mississippi River
+district. At New Orleans we were hemmed in on all sides for a long
+time, but after a series of sharp skirmishes with the enemy we were
+relieved from our unpleasant predicament. On leaving the vicinity
+of New Orleans we were engaged in a number of minor battles
+with the Confederate troops. No fighting of any importance fell to
+my lot after that until the great battle of Gettysburg took place.</p>
+        <p>In that great affair one hundred thousand men bore arms for
+the North, and the Confederate army was represented by a force
+of ninety-seven thousand men, two hundred and eighty cannons
+and a large contingent of cavalry. It was at this fight that I had the
+honor of assisting in the capture of two thousand five hundred
+Confederate troops and
+<pb id="mallory15" n="15"/>
+twelve stands of colors. The loss to both sides was great—two
+thousand eight hundred and thirty-four men on the side of
+Freedom giving up their lives that day, thirteen thousand seven
+hundred and thirty-three men were wounded, and six thousand
+two hundred and forty-three were reported missing—in all, making
+a grand total of twenty-three thousand two hundred and ten men
+who shed their blood that the flag of Freedom should float
+proudly over the nation. The Confederate loss was estimated at
+twenty-eight thousand men, five thousand of whom were killed,
+and the remaining twenty-three thousand wounded and missing.</p>
+        <p>This great and decisive battle practically ended the war. Such
+sights as I saw on that memorable day will never be effaced from
+my memory, and I lay claim to the great honor of being the only
+Black Colonel who assisted to gain the great victory won on the
+field of America's Waterloo—Gettysburg.</p>
+        <lg type="stanza">
+          <l>Hail! bright auspicious day;</l>
+          <l>Long shall America</l>
+          <l>Thy praise resound.</l>
+          <l>Joy to our native land—</l>
+          <l>Let every heart expand—</l>
+          <l>For Lincoln is at hand</l>
+          <l>With glory crowned!</l>
+        </lg>
+        <lg type="stanza">
+          <l>Hushed by the din of arms!</l>
+          <l>Henceforth the olive's charms</l>
+          <l>Shall war preclude.</l>
+          <l>These shores a head shall own—</l>
+          <l>Unsullied by a throne—</l>
+          <l>Our much lov'd Lincoln,</l>
+          <l>The great, the good.</l>
+        </lg>
+        <p>The last struggle in connection with the war occurred in the
+month of May following the Battle of Gettysburg. The fight was
+short, sharp and decisive, and took place on the Rio Grande near
+Santiago. Soon afterward we received our honorable discharge
+from further military duty. We had
+<pb id="mallory16" n="16"/>
+taken part in an honorable struggle for supremacy, honorably had
+we conducted ourselves, and honorably were we rewarded with
+the consciousness that we had assisted in liberating millions of
+our brethren from bondage and had freed them forever from the
+hand of the oppressor and the whiplash of slavery. It is no
+wonder that Victory perched upon our standards and that
+white-winged Peace could at last fold her wings and rest over the whole
+nation.</p>
+        <lg type="verse">
+          <head>POEM BY EX-SLAVE WM. MALLORY.</head>
+          <lg type="stanza">
+            <l>On Canada's happy shore I stand</l>
+            <l>And cast a wistful eye</l>
+            <l>On Britain's fair and happy land,</l>
+            <l>Where my possessions lie.</l>
+          </lg>
+          <lg type="stanza">
+            <l>Sweet fields this side the American States</l>
+            <l>Lay stretched in living green;</l>
+            <l>Behind the slaves the devil stood,</l>
+            <l>While Niagara rolled between.</l>
+          </lg>
+          <lg type="stanza">
+            <l>But tremulous negroes start and shrink</l>
+            <l>To get on Canada's shore;</l>
+            <l>They knew the Queen was on their side—</l>
+            <l>And that for ever more.</l>
+          </lg>
+          <lg type="stanza">
+            <l>She reigns over the black—the white,</l>
+            <l>She helped to set them free,</l>
+            <l>And now they're at their liberty,</l>
+            <l>They cry—“God Bless the Queen!”</l>
+          </lg>
+          <lg type="stanza">
+            <l>Millions of slaves in the cane and cotton fields</l>
+            <l>Sent up their prayers to God,</l>
+            <l>That He might free them from their chains</l>
+            <l>And the overseers' cruel rod.</l>
+          </lg>
+        </lg>
+        <p>At the close of the war I returned to Canada and resumed my
+residence in Hamilton. Bringing back with me some hard-earned
+money, I invested in a piece of property
+<pb id="mallory17" n="17"/>
+on John street south, where for a number of years I carried on a
+business in hay, straw and wood. I became interested in the
+welfare of the colored race as a nation, and wished to forward their
+spiritual as much as their physical welfare. I have always held a
+prominent position in the Church, and about twenty years ago I
+was appointed by Bishop Nazareh as a missionary. I have served
+in that capacity under the three succeeding bishops—Disney,
+Hawkins, and our present Bishop C.O. Washington.</p>
+        <p>Some years ago a number of colored missionaries organized
+an expedition to Africa, and I was honored by receiving an
+appointment as a member of the mission band. On our way to
+Africa the vessel stopped for a time at the Grand Canary Islands,
+and I, with a companion, had the extreme pleasure of seeing the
+splendors contained within the of the world-famous Roman
+Catholic Cathedral there situate. Our guide was one of the priests
+connected with the Cathedral, and he very kindly spent
+considerable time showing us everything of importance in and
+about the sacred edifice.</p>
+        <p>Our mission to Africa is being prosecuted with great vigor,
+and the natives of that benighted country are rapidly becoming
+Christianized through the efforts of missionaries of our own color.</p>
+        <p>The success of our work in Africa caused me on my return
+home to endeavor to enlist the sympathies of my brethren in this
+great work of evangelization, and with that end in view I issued
+the following
+<q type="manifesto" direct="unspecified"><text><body><div1 type="manifesto"><head>MANIFESTO.</head><opener><salute>“<hi rend="italics">To the Colored People of Canada:</hi>—</salute></opener><p>“The time has come when we should put our shoulders to<lb/>
+“the wheel and go forward and assist in Christianizing<lb/>
+“and evangelizing the colored people of dark Africa. If<lb/>
+“Africa is to be civilized, it must be done by our own race.<lb/>
+“Now this can be done by educating our race so they will go<lb/>
+“forward as if to the cry of battle; when we will take our
+<pb id="mallory18" n="18"/>
+“Bibles in our hands, as we did in the days gone by of<lb/>
+“slavery, when we shouldered our muskets and fought for<lb/>
+“freedom. We have lawyers, doctors and ministers in our<lb/>
+“ranks. Then, why not assist the white people in doing<lb/>
+“this great and noble work? I propose raising money for<lb/>
+“the purpose of sending some of our own race to that<lb/>
+“country, and I ask for your co-operation, as well as your liberal<lb/>
+“and hearty support.”</p></div1></body></text></q></p>
+        <p>Previous to my trip to Africa the Northwest <sic corr="Rebellion">Rebellian</sic> broke
+out and I immediately placed myself in communication with the
+Minister of Militia, Sir Adolph Caron, whose letter to me relative
+to the matter I still have in my possession.</p>
+        <p>Quite recently I evolved a missionary scheme for the
+elevation of my race, and in connection with that scheme I was
+presented to Sir Oliver Mowat, while the Legislature
+was in session at Toronto. Hon. J.M. Gibson, member for
+Hamilton, was the gentleman who kindly presented me to
+Ontario's Premier, who heartily endorsed my missionary
+scheme and assisted it in a pecuniary way.</p>
+        <p>Soon afterwards I went to Ottawa, and through the
+medium of Mr. Alex. McKay and Mr. Ryckman—members
+for Hamilton—I was presented to the late Sir John Thompson,
+Premier of Canada. He also took a favorable view of my scheme,
+and assisted financially and otherwise. Before leaving Ottawa I
+was invited to address the House, and was fortunate enough to
+be able to hold the attention of my audience from the
+commencement to the close of my speech.</p>
+        <p>On the death of Sir John Thompson I lost a friend of
+inestimable value. He, in conversation with me, expressed great
+interest in my welfare, and told me that on his return from England
+he wished me to call on him, as he had never before had an
+opportunity of conversing with a man who actually had gone
+through the trials and tribulations incidental to the life of a slave.</p>
+        <p>The photo-engraving on the front of the cover of this book
+is a correct representation of myself when presented to
+<pb id="mallory19" n="19"/>
+the honorable gentlemen mentioned above, and also as when I
+<sic corr="addressed">addresses</sic> the House on that occasion.</p>
+        <p>Among other pleasant memories in the time when Sir John A.
+Macdonald was returned to power. I was appointed on a
+deputation to confer with Sir John, at the Royal Hotel, on the <sic corr="ways">wals</sic>
+and means to secure his re-election, which end was gained, and he
+remained in power from that time till he passed way from earth.</p>
+        <p>When the Prince of Wales came to Canada and visited
+Hamilton I was appointed Marshal for the day, in company with
+four white citizens; and when Princess Louise came to Hamilton I
+was again distinguished by being appointed a Marshal, and later
+in the day I was again highly honored by being presented to Her
+Royal <sic corr="highness">Highnes</sic> by the late Judge Sinclair and John Calder, Esq. Her
+Highness graciously extended her hand to me and conversed with
+me relative to my race and its well-being. I told her I had been a
+slave, but had escaped, and had won freedom under the British
+flag. She congratulated me on my escape, and expressed deep
+regret that a race, represented by such an intelligent man as I,
+should ever have been enslaved.</p>
+        <p><sic corr="All">Oll</sic> of this only goes to show that the colored man, by
+honesty, industry and sobriety, combined with self-respect, may
+hold up his head and move on terms of equality with the white
+people in this fair country of Canada.</p>
+        <div2 type="section">
+          <head>NOTES AND INCIDENTS.</head>
+          <p>During my period of servitude with Mr. Allen my abilities as
+a runner were often called into requisition in order to assist my
+master in levying <sic corr="tribute">tributte</sic> on the pockets of other
+planters. Many a time have I been called to get out on the road
+and run a couple of hundred yards against a champion from some
+other plantation, and never—up to the time of my escape
+<sic corr="from bondage">fro mbondage</sic>—was I headed by an opponent. My record
+as a pedestrian was added to on the occasion of the
+Battle of Bull's Run, when it was reported that <hi rend="italics">I actually
+outrun the bullets!</hi></p>
+          <pb id="mallory20" n="20"/>
+          <p>The name of the famous battle should be changed from “Bull's Run”
+to “Everybody's Run,” for on that day Northerners and Southerners run
+and didn't know what they were running for or where they were running
+to.</p>
+          <p>I once heard a gentleman say that he had been told by a colored man
+that he would rather be enslaved than free. I say there's a large mansion
+on Hamilton Mountain already fitted up for the reception of him, or any
+other colored man, who would wish to again bear the burdens and suffer
+from the brutality of slavery and slave-owners. I would rather exist on
+one meal a day, as a free man, than live in luxury in bondage.</p>
+          <p>I have heard it remarked by white men that a colored man couldn't
+go into business the same as his white brethren. Look in the States! The
+black man is to be found in Congress (a representative from both races),
+in drug stores, wood and lumber dealers, judges, lawyers, doctors,
+professors in colleges and universities, ministers of the gospel, and many
+negroes—in both Canada and the United States—have been the
+recipients of high distinctions at the hands of the white man.</p>
+          <p>The best organ ever made in Canada was built in Kingston, Ont.,
+and the maker was a negro.</p>
+          <p>Amongst the sad pictures of slave life that may be presented to my
+readers, the saddest was that of slave women pleading with their masters
+(and erstwhile husbands) not to sell their children. Some of the children
+<sic corr="sold">cold</sic> by their combined owner and father could hardly be distinguished
+from the white people. All pleadings were in vain. Either the father had
+no regard for his offspring, or he had a heart of adamantine properties.
+No man with one grain of soul could
+<pb id="mallory21" n="21"/>
+sell his own flesh and blood! Was it not the acme of cruelty to rob a
+female of that priceless jewel—virtue—and then tear from her already
+bleeding heart that which would serve, in a measure, to sear over the
+wounds inflicted on her by her ruthless owner? Can such dastardly acts
+go unpunished? I tell you these men will all be rewarded for their deeds
+and misdeeds, and full measure for measure will be extracted from each
+and every one of these miscreants on the last great day when the trumpet
+shall sound and the grave give up its dead.</p>
+          <p>During the war the regiment with which I was connected was
+ordered to Georgia. While <hi rend="iyalics">en route</hi> I was appointed as scout to the
+expedition, and on one of my excursions for signs of the enemy I fell in
+with my former owner, Mr. Allen. He was hiding from his pursuers,
+and taking compassion on him, I assisted him to escape. Since the
+close of the war I have seen him once, when he assured me that if slavery
+days were ever again to return to the States, and he should ever again
+become an owner, the slaves on his plantation should be ruled with
+the rod of mercy, and that harshness and cruelty would be unknown
+quantities within his domain.</p>
+          <p>Some people treat my race with respect, while others have the old
+feeling that was rampant in the South, but every honest colored man and
+woman deserves the respect and proper consideration due any gentleman
+or lady.</p>
+          <p>The course of procedure followed out in making a good negro-hunter
+out of a dog in the South was about as follows: They would take
+a hound pup of any breed—the larger the <sic corr="breed">bread </sic>the better for
+the purpose—shut him up closely and not let him see a negro
+until he was old enough to be “sicked on” to any desired object. Then he
+was made to chase the slaves “in fun,” and if he caught his man he was
+rewarded with pieces of raw meat. The slave used in the training
+<pb id="mallory22" n="22"/>
+process would be compelled by the dog's trainer to resort to all
+the artifices that an escaping slave could use to throw a dog off
+the scent, such as climbing trees, walking in water, doubling on
+his own track, etc., in order that the dog might become thoroughly
+proficient in his business. The dog's reward was always a liberal
+supply of raw meat, while the poor slave's reward was invariably
+an application of rawhide for not running more swiftly.</p>
+          <p>The Stars and Stripes is the emblem of America. The stars are
+all right, but the stripes have been most infernally excruciating to
+millions of my brethren.</p>
+          <p>John Brown died endeavoring to liberate the slaves. His work
+did not stop the work of liberation, for God raised up thousands
+who only waited for the opportunity of doing something in that
+cause.</p>
+          <p>I could name several Presidents with whom I was personally
+acquainted, but I merely make mention of the name of Lincoln, as
+he was the one who liberated four millions of slaves—my
+brethren—when the Constitution of the United States declared that
+we were a free and independent race.</p>
+        </div2>
+        <div2 type="section">
+          <head>WAR AVERTED.</head>
+          <head>Colonel Mallory Makes a New York Railway Official Take
+Back Water.</head>
+          <p>Col. Mallory is back in Hamilton again. After lecturing in St.
+Catharines he paid a visit to Washington in company with a
+colored friend to see about a pension. On returning to New York,
+it is said, Col. Mallory thought it would be a good idea to have a
+ride on the elevated railway,
+<pb id="mallory23" n="23"/>
+and with that end in view presented himself at the ticket office and
+procured the necessary pasteboards without the agent seeing his
+hands or face. Col. Mallory and his friend took seats.</p>
+          <p>Shortly afterwards the conductor put in an appearance.</p>
+          <p>“You can't travel in this car,” said he.</p>
+          <p>“Why not?” asked Mallory.</p>
+          <p>“Because colored people are not permitted to ride.”</p>
+          <p>“I bought my ticket, and I intend to stay where I am,”
+replied the Colonel.</p>
+          <p>“You'll have to get out!”</p>
+          <p>“I am not going to get out.”</p>
+          <p>“I will put you off!”</p>
+          <p>“I dare you to anything of the kind.”</p>
+          <p>“I could throw off half a dozen like you!”</p>
+          <p>“You'd better pause before you act. If you throw me from
+this car my fall will shake the British Empire and involve two great
+nations in war. I am a subject of Queen Victoria, so you had better
+beware!”</p>
+          <p>The superintendent of the line happened to be on board, and
+hearing the rumpus he stepped into the car.</p>
+          <p>Mallory explained the position to him, and that official
+“called down” the conductor and gave Mallory and his friend
+passes over the whole system.</p>
+          <p>It is a dangerous thing to fool with Mallory when lie is on
+his diplomatic travels.</p>
+        </div2>
+        <div2 type="section">
+          <head>COLONEL MALLORY GETS A WATCH.</head>
+          <p>At the regular meeting of Mount Albion Lodge of
+Freemasons the brethren presented to Col. Wm. Mallory a
+handsome gold watch as a mark of recognition for the gallant
+stand which the Colonel has always taken in the interests of the
+African race, both here and in foreign lands, wherever their rights
+are assailed. The Colonel was much affected by the presentation,
+and hopes somehow, sometimes and somewhere to prove his
+gratitude by acts as well as words.</p>
+          <pb id="mallory24" n="24"/>
+          <p>
+            <figure id="ill1" entity="mallor24">
+              <p>Colonel Mallory Making His Escape From Slavery.</p>
+            </figure>
+          </p>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory25" n="25"/>
+          <head>How Col. Mallory's Father
+Fought Boers.</head>
+          <head>Thrilling Story of a Battle Between The Zulus and Boers
+Many Years Ago.</head>
+          <p>Yesterday Col. Mallory was in a reminiscent mood, and he
+gave a few friends a short account of his father and the manner in
+which he came to America. The Colonel's statement, in substance,
+was as follows:</p>
+          <p>Some of my friends were pleased to be amused because I
+offered my services to the government to fight the Boers in South
+Africa. Well, I have nothing to be ashamed of, and nothing to
+<sic rend="apologize">apologise</sic> for on that account. Any man may rightly offer his
+services to the government which protects him; and, even if I am
+getting old, I am not sure but there is a little fight left in the old
+man yet.</p>
+          <p>But I had another reason for offering to go to <sic corr="Africa">Ofrica</sic>, the
+land of my fathers, to fight against those who robbed my people
+of their land, destroyed them as a tribe, and made me a slave. The
+story is a long one; but I can give the main points of it in a few
+words. In the early years of the last century my father was the
+chief of a small band belonging to the great Zulu nation, which
+controlled early all the territory from the Zambesi to the Orange
+River, and from the Indian ocean to the great Kalahari desert. The
+Zulus were not civilized, as white men understand the word. They
+were hunters and warriors. They lived according to the light they
+had; they observed the traditions and customs of their fathers;
+and they asked only that the white man should
+<pb id="mallory26" n="26"/>
+leave them alone in the condition in which it had pleased the Great
+Father of the white man and the black man to place them. But the
+Dutch settlers in the Cape Colony were not willing to leave them
+alone. Those settlers had more land of their own than they could
+use for their crops and their cattle; but still they were not satisfied.
+They looked away to the north and they coveted the fertile plains
+of the Zulu nation. With them to desire a thing was to acquire a
+right to it. In their eyes the Zulus, who had lived in that country
+from immemorial times, had no right which a white man was bound
+to respect; and so they gathered their young men and started
+northward to kill and rob the Zulus, who had never done them any
+wrong.</p>
+          <p>But just at that time it was not prudent for them to provoke a
+conflict. The great Tshaka had made of the Zulus one nation and
+had an army able to sweep the Boers into the sea. He desired,
+however, to be at peace with the whites and he sent the chief
+(Sotobi) and <sic corr="my">wy</sic> father to Cape Town to treat with the governor
+and have it arranged that the Boers should not invade his
+territories. The British authorities were, however, not prepared to
+treat with Tshaka. They had not long been in possession of Cape
+Colony; there was no English population there; they did not fully
+understand the strength of Tshaka nor appreciate his designs;
+and they made it impossible for the envoys to reach Cape Town.
+And so the two chiefs turned back. Sotobi went directly to
+Tshaka's capital to report the failure of his mission, while my
+father turned westward to join his band on the bank of a river near
+the northern boundary of what was lately the Transvaal Republic,
+and is now a British Colony. This was not the settled home of the
+band, but a temporary hunting camp. According to custom a light
+wall of thorny shrubs had been built around the kraal as a <sic corr="defense">defence</sic>
+against beasts and bands of marauders.</p>
+          <p>As my father, accompanied only by one faithful friend,
+reached a hill overlooking this valley, he was astonished to see
+that white men were firing with muskets and hunting
+<pb id="mallory27" n="27"/>
+rifles at the kraal. The Zulus made no reply, because the Young
+men of the party were absent on a hunt, and because they had no
+firearms. They were armed only with the primitive weapons of the
+South African warriors and hunters.</p>
+          <p>For a few minutes my father was unable to decide what he
+ought to do. His first impulse was to dash upon the assailants. But
+this, <sic corr="as">is</sic> was evident, would accomplish nothing but his own death.
+Then he saw the party of Zulu hunters returning from the chase.
+He, therefore, made a wide detour to avoid the Boers, and
+succeeded in joining this party. Quickly throwing aside their game
+the hunters prepared for a counter attack upon the Boers. As they
+reached the summit of the hill they perceived that the white men
+had crawled up to the barrier of the kraal, and had set the thorns
+on fire. Under cover of the smoke my father and his companions
+descended the hill and made a determined rush upon the
+besiegers. They were brave men; but the men they met were brave
+also. Besides, the Boers had a decided advantage in numbers, and
+carried firearms. The battle did not last long. One by one the Zulus
+fell until not one was left. By this time the frail fortification of the
+camp was consumed, and the Boers, rushing in, destroyed all who
+could offer any resistance. Those who were too old to be valuable
+or so young as to need care were killed; the rest were carried
+away into slavery. Before departing the Boers examined the fallen,
+and among these were two or three who were only stunned or not
+badly wounded, and these they took with them. Among these was
+my father. When he was in part recovered from his wounds they
+set him to work; but he was a most intractable servant. Neither
+blows nor chains could tame. Several times he tried to escape; and
+more than once he fought with his captors. At length he was
+taken, with a number of others, to the coast in Portuguese territory
+and sold to a captain of a Spanish slaver. This man landed his
+cargo at Charleston, South Carolina, and my father was sold to a
+man named Hezekiah Spruel, who lived near Raleigh, North
+Carolina. He was
+<pb id="mallory28" n="28"/>
+thousands of miles from his home; his wife and children were
+dead; his band was destroyed; hope died within him, and he
+accepted his fate. He married again, and I was the third of his
+children, born about the year 1825.</p>
+        </div2>
+        <div2>
+          <head>COL. MALLORY'S HERO BROTHER.</head>
+          <p>Before the Civil War in the United States there was a great
+fire in Charleston, South Carolina. A great part of the city was
+destroyed, and the whole of it was in danger. The flames from the
+burning buildings were swept by <sic corr="the">e</sic> wind toward other buildings,
+and blazing boards were carried long distances, in many cases
+setting fire to houses far from the actual conflagration. One of
+these brands was carried to the spire of St. Michael's Cathedral,
+which is about 400 feet high, the highest in America, and it
+appeared as if the noble edifice was doomed to destruction. But at
+the critical moment a man was seen to emerge from the spire a
+short distance above the roof of the church and to climb up and
+up until he reached the spot, threw down the burning board, and
+with his hands extinguished the blaze which had been started.
+Thus the sacred structure was saved from destruction. On his
+return to the earth this man was found to be a slave, and in
+gratitude to him for his great service he was set free, and he
+remained a respected and useful citizen of Charleston for many
+years. <sic corr="A">O</sic> beautiful poem was written to commemorate the event.</p>
+          <p>The late Rev. Father Hinchey met with this poem in the
+course of his reading, and making inquiry into the matter
+<pb id="mallory29" n="29"/>
+learned that the name of the colored hero was Mallory. He
+thereupon called upon Col. Wm. Mallory, of this city, and asked
+him if he had any knowledge of the Mallory of Charleston. The
+Colonel told him that many years ago he and an elder brother were
+slaves in Louisiana, and from that State they started toward
+Canada in the hope of gaining their freedom. After many
+adventures and great suffering William succeeded in crossing the
+<sic corr="Detroit">Ietroit</sic> river at Malden, and he has been a citizen of Hamilton
+during the greater part of the time that has since passed. But the
+elder brother was captured and taken back, and the Colonel has
+received no certain information of him since. But he has reason to
+think that the man who <sic corr="saved">seved</sic> St. Michael's Cathedral was his
+long-lost brother; and, though the latter is now dead, the Colonel is
+writing to Charleston to get further information on the subject. He
+was advised by Father Hinchey to do so some time before the
+reverend gentleman's death. It would be strange if he should learn
+that, of the two men who set out on the search for freedom from
+the swamps of Louisiana, the one should find success in Canada
+and the other by heroically saving a church from destruction.</p>
+          <pb id="mallory30" n="30"/>
+          <p>
+            <figure id="ill2" entity="mallor30">
+              <p>Col. Mallory's Brother Saving St. Michael's.</p>
+            </figure>
+          </p>
+          <div3 type="letter">
+            <pb id="mallory31" n="31"/>
+            <opener><dateline>Hamilton, Ont., September 3rd, 1902.</dateline>
+<salute>My Dear Colonel Mallory:</salute></opener>
+            <p>I have caused <sic corr="inquiries">enquiries</sic> to be made as to the name of the
+“Slave” who was known as “The Hero of St. Michael's
+Cathedral, Charleston, South Carolina,” and I find that he was well
+known around Charleston, that he was celebrated for many feats
+of strength and agility, not the least of which was the saving of
+that Catholic Cathedral in Charleston. That his name was Mallory,
+and I have not the least doubt but that he was a brother of your
+own, as he was said to hail from the same place where you told me
+you were born. He would probably be an elder brother of yours.</p>
+            <closer><salute>Yours very truly,</salute>
+<signed>M. MALONE.</signed></closer>
+          </div3>
+          <div3>
+            <head>HOW HE SAVED ST. MICHAEL'S.</head>
+            <p>The following poem about St. Michael's Church, Charleston,
+South Carolina, will be familiar to many, as it has often been
+recited by readers. The “Slave” therein referred to has been for
+many years a resident of this city, and is seen daily on our streets.</p>
+            <lg type="stanza">
+              <l>Do you beg for a story, my darling, my brown eyed Leopold; </l>
+              <l>And you Alice with a face like morning and curling locks of gold;</l>
+              <l>Then come if you will, and listen, stand close beside my knee,</l>
+              <l>To a tale of a Southern city, proud Charleston on the sea.</l>
+            </lg>
+            <pb id="mallory32" n="32"/>
+            <lg type="stanza">
+              <l>It was long ago, my children, ere ever the signal gun</l>
+              <l>That blazed about Fort Sumpter had waked the North as one;</l>
+              <l>Long ere the wondrous pillar of battle, cloud and fire,</l>
+              <l>Had marked where the unchained millions marched on to their
+hearts desire.</l>
+            </lg>
+            <lg type="stanza">
+              <l>On the roofs and glittering turrets, that night, as the sun went
+down,</l>
+              <l>The mellow glow of the twilight shone like a jewelled crown;</l>
+              <l>And, bathed in the living glory, as the people lifted their eyes,</l>
+              <l>They saw the pride of the city, the spire of St. Michael's rise.</l>
+            </lg>
+            <lg type="stanza">
+              <l>High over the lesser steeples, tipped with the golden ball,</l>
+              <l>That hung like a radiant planet caught in its earthward fall,</l>
+              <l>First glimpse of hope to the sailor who made the harbor round,</l>
+              <l>And last slow-fading Vision dear to the outward bound.</l>
+            </lg>
+            <lg type="stanza">
+              <l>The gently gathering shadows shut out the waning light;</l>
+              <l>The children prayed at their bedsides as you will pray tonight;</l>
+              <l>The noise of the Buyer and Seller from the busy mart had gone,</l>
+              <l>And in dreams of a peaceful morrow, the city slumbered on.</l>
+            </lg>
+            <lg type="stanza">
+              <l>But another light than sunrise aroused the sleeping street,</l>
+              <l>For a cry was heard at midnight, and the rush of tramping feet,</l>
+              <l>Men stared in each other's faces through mingled fire and smoke,</l>
+              <l>While the frantic bells went clashing, clamorous stroke on stroke.</l>
+            </lg>
+            <lg type="stanza">
+              <l>By the glare on her blazing tree the houseless mother fled,</l>
+              <l>With the babe she pressed to her bosom shrieking in nameless
+dread,</l>
+              <l>While the fire-king's battalions scale wall and capstone high,</l>
+              <l>And planted their flaming banners against an inky sky.</l>
+            </lg>
+            <pb id="mallory33" n="33"/>
+            <lg type="stanza">
+              <l>From the death that raged behind them, and the crash of ruin
+loud,</l>
+              <l>To the great square of the city, were driven the surging crowd,</l>
+              <l>Where firm in all the tumult unscathed by the fiery flood,</l>
+              <l>With its heavenward pointed finger the church of St. Michael
+stood.</l>
+            </lg>
+            <lg type="stanza">
+              <l>But even as they gaze upon it, there arose a sudden wail,</l>
+              <l>A cry of horror, blended with the roaring of the gale,</l>
+              <l>On whose scorching wings, up driven, a single flaming brand</l>
+              <l>Aloft on the touring steeple clung like a bloody hand.</l>
+            </lg>
+            <lg type="stanza">
+              <l>“Will it fade?” The whisper trembled from a thousand whitening
+lips;</l>
+              <l>Far out on the lurid harbor they watched it on the ships,</l>
+              <l>A baneful gleam that brighter and ever brighter shone,</l>
+              <l>Like a flickering, trembling Will-o'-wisp to the steady beacon
+grown.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Uncounted gold shall be given to the man whose brave right
+hand</l>
+              <l>For the love of the perilled city plucks down yon burning brand;”</l>
+              <l>So cried the Mayor of Charleston, that the people heard;</l>
+              <l>But they looked, each one at his fellow, and no man spoke a word.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Who is it that leans from the belfry with face <sic corr="upturned">uptprned</sic> to the sky,</l>
+              <l>Clings to a column and measures the dizzy spire with his eye;</l>
+              <l>Will he dare it, the hero undaunted, that terrible sickening height,</l>
+              <l>Or will the hot blood of his courage freeze in his veins at the sight?</l>
+            </lg>
+            <lg type="stanza">
+              <l>But see! He has stepped on the railing; he clings with his feet and
+hands;</l>
+              <pb id="mallory34" n="34"/>
+              <l>And firm on the narrow projection, with the belfry beneath him, he
+stands,</l>
+              <l>Now once, and once only they cheer him, a single tempestuous
+breath,</l>
+              <l>And there falls on the multitude gazing a hush like the stillness of
+death.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Slow-steadily mounting, nuheading aught save the goal of
+the fire,</l>
+              <l>Still higher and higher, an atom, he moves on the face of the spire,</l>
+              <l>He stops! Will he fail? Lo! for answer, a gleam like a meteor's
+track,</l>
+              <l><sic corr="And">Ond</sic> hurled on the stones of the pavement, the red brand lies
+shattered and black.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Once more the shouts of the people have rent the quivering air;</l>
+              <l>And at the church door the mayor and council wait, their feet on
+the stair;</l>
+              <l>And the eager throng behind them press for a touch of his hand,</l>
+              <l>The unknown saviour, whose daring could compass a deed so
+grand.</l>
+            </lg>
+            <lg type="stanza">
+              <l>But why does a sudden tremor seize on them while they gaze?</l>
+              <l>And what meaneth that stifled murmur of wonder and amaze?</l>
+              <l>He stood at the gate of the temple he had perilled his life to
+save;</l>
+              <l>And the face of the hero, my children, was the sable face of a
+slave.</l>
+            </lg>
+            <lg type="stanza">
+              <l>With folded arms he was speaking, in tones that were not loud,</l>
+              <l>And his eyes, a blaze in their sockets, burnt into the eyes of the
+crowd;</l>
+              <l>“You may keep your gold; I scorn it; but answer me, ye who can,</l>
+              <pb id="mallory35" n="35"/>
+              <l>If the deed that I have done before you was not the deed of a
+man?”</l>
+            </lg>
+            <lg type="stanza">
+              <l>He stepped but a short space backwards; and from all the women
+and men</l>
+              <l>There were only sobs for answer; and the mayor called for
+a pen,</l>
+              <l>And the great seal of the city, that he might read who ran,</l>
+              <l>And the slave who saved St. Michael's went out of its door a
+Man.</l>
+            </lg>
+            <p>P. S.—St. Michael's Church, Charleston, spire is nearly 400
+feet high and is the highest steeple in <sic corr="America">Amreica.</sic></p>
+          </div3>
+        </div2>
+        <div2>
+          <head>COLONEL MALLORY.</head>
+          <p>As Col. William Mallory is about to issue a new and <sic corr="enlarged">enlarger</sic>
+edition of his autobiography, it may not be amiss to glance at the
+life and adventures of a man who has been a citizen of Hamilton
+for more than forty years.</p>
+          <p>Born near Raleigh, North Carolina, William was, at the age of
+seven, sold to a Louisiana planter, and taken to the estate of his
+purchaser, below Baton Rouge. Here he remained until the year
+1859, when he resolved to try to gain his freedom, and in this
+venture he was fortunate enough to succeed, with some
+assistance from the “under-ground railroad.” He crossed the
+<sic corr="Detroit">detroit</sic> river at Malden, and soon afterward came to Hamilton,
+where with short periods of absence he has since resided.
+</p>
+          <pb id="mallory36" n="36"/>
+          <p>He has always been active in politics. His first political work
+was done in the days when Sir Allen Macnab sought the
+suffrages of the people; and he was afterwards a supporter of the
+Hon. Isaac Buchanan. When Sir John Macdonald announced
+the National Policy as that which he desired for Canada, the
+colonel took the stump, and, both on the platform and in other
+ways, he rendered good service to the cause. Since that time he
+has been an active worker in the political field.</p>
+          <p>He has always been looked upon as a representative of his
+race. When the Prince of Wales (now King Edward the Seventh)
+visited Hamilton in 1861, Col. Mallory was one of the marshals;
+and he was a member of the committee which welcomed the
+Princess Louise to this city. The Princess kindly conversed with
+the colonel for a considerable time, and expressed her
+astonishment that so intelligent a man could ever have been held
+in slavery. Again, when the Duke of York came to Hamilton the
+colonel was selected to represent the colored citizens on the
+reception committee.</p>
+          <p>He has sent copies of his former pamphlet to Sir John
+Macdonald, to Sir Wilfrid Laurier, to Sir Oliver Mowat, to the
+present King, to Queen Victoria and to His Holiness the Pope.
+From <sic corr="many">may</sic> of these he has flattering letters of thanks.</p>
+          <p>The colonel has always been held in high esteem in Hamilton
+for his integrity and for the missionary work he has done for his
+race; and he has received many marks of esteem and recognition,
+among them a valuable watch from the Masonic body, of which
+he was the Master.</p>
+          <p>A large number of the best-citizens of Hamilton have
+subscribed for the new edition of his autobiography, which is
+now in the printer's hands, and will shortly be issued.</p>
+        </div2>
+        <div2>
+          <pb id="mallory37" n="37"/>
+          <head>THE TWO MALLORYS.</head>
+          <p>A few days ago the Spectator called attention to the daring
+feat of a colored man named Mallory, who gained his freedom by
+saving from destruction the Cathedral of St. Michael, in
+Charleston, South Carolina; and it was then explained that the
+matter was called to the attention of Col. William Mallory, of this
+city, by the late Father Hinchey. It is rather singular that Father
+Hinchey read, almost at the same time, the <sic corr="poem describing">poe mdescribing</sic> the
+Charleston incident, and a local paragraph telling how Col. Mallory
+had saved the life of a child in this city. This affair happened on
+the 12th of August, last year. A team of frightened horses was
+plunging down the market square, and a little girl, the daughter of
+John White, was in their course, when the colonel, at great
+personal risk, ran to her rescue, and carried her safely to the store
+of C. H. Peebles. That gentleman says to the colonel: “I can say
+that Col. Mallory snatched a child from in front of a team of horses
+that were running away in front of our store; and, I believe, saved
+her life.”</p>
+          <p>Col. Mallory has secured a copy of the poem describing the
+saving of St. Michael's Cathedral, and will shortly have it
+published.</p>
+        </div2>
+        <div2>
+          <pb id="mallory38" n="38"/>
+          <p>
+            <figure id="ill3" entity="mallor38">
+              <p>Colonel Mallory Rescuing the Daughter of Mr. and Mrs. John White.</p>
+            </figure>
+          </p>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory39" n="39"/>
+          <head>COL. MALLORY, LIFE SAVER.</head>
+          <opener><dateline>Hamilton, September 12th.</dateline>
+<salute>Col. William Mallory, Hamilton:</salute></opener>
+          <p>Dear Sir,—I desire to express my gratitude to you for saving
+my child on August 13th. The little girl was in danger of being
+crushed by a runaway team, when you, at the imminent hazard of
+your own life, rushed in, seized the horses, and dragged the child
+from almost under their feet. For this heroic act I trust that you
+will receive your reward. I have offered you a sum of money for
+your good deed; but this you have refused. I can now only tender
+you my heartfelt thanks, ask for you the approval of your fellow-citizens
+and pray that the blessing of heaven shall rest upon you.</p>
+          <closer>
+            <signed>MR. and MRS. JOHN WHITE.</signed>
+          </closer>
+        </div2>
+        <div2>
+          <p>On the occasion of the visit of the Duke of Cornwall and
+York to Hamilton, Col. Mallory presented to His Royal Highness a
+copy of his book entitled “The Key to Slavery.” The Colonel has
+received the following gracious reply:
+</p>
+          <p>“The private secretary to the Duke of Cornwall and York is
+desired to thank Col. W. Mallory for the copy of his pamphlet,
+‘The Key to Slavery,’ which he has been good enough to offer for
+His Royal Highness' acceptance.”
+<date>October 12th, 1901.</date></p>
+        </div2>
+        <div2>
+          <pb id="mallory40" n="40"/>
+          <head>COLONEL MALLORY TO THE FRONT.</head>
+          <p>EDITOR HERALD,—The plan as proposed by the temperance
+people to do away with the liquor traffic I consider entirely wrong. I
+have always thought so, and now I am prepared to prove it. I admit it is
+an unnecessary evil but we have the remedy in our own hands if we
+would only take it. We have asked the two Governments if they would
+give us Prohibition, and now they turn around and ask us if we want it. I
+am prepared to take the platform any day and prove my statements.</p>
+          <closer>
+            <salute>COL. WM. MALLORY.</salute>
+          </closer>
+        </div2>
+        <div2>
+          <head>TO EVANGELIZE GEORGIA.</head>
+          <head>Col. Mallory Thinks That Country Most Needs the Missionary.</head>
+          <p>Col. Mallory is in town again. He has been in the land of the free,
+from the slavery of which he escaped many years ago. For a long time
+the evangelization of darkest Africa has been the Colonel's pet scheme,
+but recent developments in the land where he spent his slavery days, in
+Georgia, have convinced him that there is no place in the world where the
+missionary is as badly needed as in Georgia. Hanging, without trial, he
+thinks, would not be tolerated even in Africa, so he purposes devoting
+the rest of his life to the evangelization of Georgia—and is out with a
+request for the needful.—<hi rend="italics">Hamilton Times.</hi></p>
+          <lg>
+            <l>I had a banjo made of gold,</l>
+            <l>And all the strings was twine,</l>
+            <l>And all the tune that I could play</l>
+            <l>Was “I wish that girl was mine.”</l>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory49" n="49"/>
+          <lg type="hymn">
+            <head>10. Heavenly Land Up Yonder.</head>
+            <lg type="stanza">
+              <l>There's a heavenly land up yonder,</l>
+              <l>There's a heavenly land up yonder,</l>
+              <l>There's a heavenly land up yonder,</l>
+              <l>O when shall I get there.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Led Him away to Pilate's bar,</l>
+              <l>When shall I get there.</l>
+              <l>They could not condemn Him thar,</l>
+              <l>When shall I get there.</l>
+            </lg>
+            <lg type="stanza">
+              <l>There's a heavenly land up yonder, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Pilate says wash my hands,</l>
+              <l>When shall I get there.</l>
+              <l>I find no fault in this just man,</l>
+              <l>When shall I get there.</l>
+            </lg>
+            <lg type="stanza">
+              <l>There's a heavenly land up yonder, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Jews and the Romans in one band,</l>
+              <l>When shall I get there.</l>
+              <l>Crucified the Son of Man,</l>
+              <l>When shall I get there.</l>
+            </lg>
+            <lg type="stanza">
+              <l>There's a heavenly land up yonder, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Crucified the Son of Man,</l>
+              <l>When shall I get there.</l>
+              <l>He rose and went to heaven again,</l>
+              <l>When shall I get there.</l>
+            </lg>
+            <lg type="stanza">
+              <l>There's a heavenly land up yonder, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory50" n="50"/>
+          <lg type="hymn">
+            <head>17. De Massa ob de Sheepfol'.</head>
+            <lg type="STANZA">
+              <l>De massa ob de sheepfol'</l>
+              <l>Dat guards de sheepfol' bin,</l>
+              <l>Looks out in the gloomerin' meadow</l>
+              <l>Where the long night rain begins,</l>
+              <l>“So he calls to the hirelin shepherd:</l>
+              <l>Is my sheep is dey all come in.”—<hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh de massa guards de sheepfol' bin,</l>
+              <l>And he wants to know is my sheep come in,</l>
+              <l>And he calling, calling, calling softly, softly,</l>
+              <l>calling for dem all to come agadderin' in.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Oh den says de hirelin shepherd,</l>
+              <l>Der's some dey's black and thin,</l>
+              <l>And some dey is poor old wedders</l>
+              <l>Dat can't come home again.</l>
+              <l>“Dey is lost and good fa nuffin,</l>
+              <l>And the rest dey is all brung in.”  - <hi rend="italics"> Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>Den de massa ob de sheepfol'</l>
+              <l>Dat guards de sheepfol' bin,</l>
+              <l>Goes down in the gloomerin' meadow</l>
+              <l>Where the long night rain begins,</l>
+              <l>So he lets down the bars of the sheepfol'</l>
+              <l>Calling softly come in, come in.”—<hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>Then up thro' the gloomerin' meadow</l>
+              <l>Thro' the cold night rain and wind,</l>
+              <l>Then up thro the gloomerin' rain path</l>
+              <l>Where the sleet falls piercing thin,</l>
+              <l>The poor lost sheep of the sheepfol'</l>
+              <l>Dey all comes agaddering in.—<hi rend="italics">Repeat.</hi></l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory51" n="51"/>
+          <lg type="hymn">
+            <head>28. RUN, MARY, RUN!</head>
+            <lg type="stanza">
+              <l>CHO.—Run, Mary, run, run Mary run, 0 run Mary
+run,</l>
+              <l>I know the other world is not like this.—<hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>Fire in the east and fire in the west,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Bound to burn the wilderness,</l>
+              <l>I know the other world is not like this.
+<hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Run, Mary, run, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Swing, low, chariot in the east,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Let God's children have some peace,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Swing, low, chariot in the west,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Let God's children have some rest,</l>
+              <l>I know the other world is not like this.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Run, Mary, run, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Swing, low, chariot in the north,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Give me the gold without the dross,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Swing, low, chariot in the south,</l>
+              <l>I know the other world is not like this.</l>
+              <l>Let God's children sing and shout,</l>
+              <l>I know the other world is not like this</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Run, Mary, run, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory52" n="52"/>
+          <lg type="hymn">
+            <head>29. My Lord Delivered Daniel.</head>
+            <lg type="stanza">
+              <l>CHO.—My Lord delivered Daniel, my Lord delivered
+Daniel,</l>
+              <l>My Lord delivered Daniel, why can't He
+deliver me.—<hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>Some say that John the Baptist</l>
+              <l>Was nothing but a Jew,</l>
+              <l>But the Bible doth inform us</l>
+              <l>That he was a preacher too.</l>
+              <l>Yes, he was!</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—My Lord delivered Daniel, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Oh, Daniel cast in the lions' den</l>
+              <l>He prayed both night and day,</l>
+              <l>The angel came from Galilee</l>
+              <l>And locked the lion's jaws.</l>
+              <l>That's so!</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—My Lord delivered Daniel, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <lg type="hymn">
+            <head>30. Steal Away to Jesus !</head>
+            <lg type="stanza">
+              <l>CHO.—Steal away, steal away, steal away to Jesus,</l>
+              <l>Steal away, steal away home I ain't got long to
+stay here.—<hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>My Lord calls me, He calls me by the thunder,</l>
+              <l>The trumpet sounds within my soul</l>
+              <l>I hain't got long to stay here.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Steal away, steal away, etc,</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory53" n="53"/>
+          <lg type="hymn">
+            <head>32.  Sinner You'd Better Get Ready!</head>
+            <lg type="stanza">
+              <l>CHO.—Oh! sinner you'd better get ready, ready, my
+Lord, ready.</l>
+              <l>Oh! sinner you'd better get ready, for the time
+is a coming when a sinner must die.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Oh! sinner man you'd better pray,</l>
+              <l>Time is a coming when a sinner must die.</l>
+              <l>For it looks like judgment every day,</l>
+              <l>Time is a coming when a sinner must die.</l>
+              <l>I heard a lumbering in the sky,</l>
+              <l>Time is a coming when a sinner must die.</l>
+              <l>It made me think my time was nigh,</l>
+              <l>Time is a coming when a sinner must die</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh! sinner you'd better, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Heard of my Jesus, many one said,</l>
+              <l>To move poor sinners' sins away.</l>
+              <l>I'd rather pray myself away</l>
+              <l>Than to lie in hell and burn one day.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh! sinner you'd better, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>I think I heard my mother say</l>
+              <l>'Twas a pretty thing to serve the Lord,</l>
+              <l>But when I get to heaven I'll be able for to tell,</l>
+              <l>Oh! how I shunn'd that dismal hell.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh! sinner you'd better. etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory54" n="54"/>
+          <lg type="hymn">
+            <head>48.  My Lord is Writing All the Time.</head>
+            <lg type="stanza">
+              <l>Come down, come down, my Lord come down,</l>
+              <l>My Lord's writing all the time.</l>
+              <l>And take me up to wear the crown,</l>
+              <l>My Lord's writing all the time.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh, He sees all I do, He hears all I say,</l>
+              <l>My Lord's writing all the time.  - <hi rend="italics"> Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>When I was down in Egypt's land</l>
+              <l>I heard some talk of promised land.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh, He sees all I do, etc</l>
+            </lg>
+            <lg type="stanza">
+              <l>O Christians you had better pray,</l>
+              <l>For Satan's round you every day.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Oh, He sees all I do, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <lg type="hymn">
+            <head>44.  He's the Lily of the Valley.</head>
+            <lg type="stanza">
+              <l>CHO.—He's the lily of the valley, O my Lord,</l>
+              <l>He's the lily of the valley, O my Lord.  - <hi rend="italics"> Repeat</hi></l>
+              <l>King Jesus in His chariot, O my Lord,</l>
+              <l>With four white horses side by side, O my Lord.</l>
+            </lg>
+            <lg type="stanza">
+              <l>What kind of shoes are those you wear? O my Lord,</l>
+              <l>That you can ride upon the air, O my Lord.</l>
+              <l>These shoes I wear are Gospel shoes, O my Lord,</l>
+              <l>And you can wear them if you choose, O my Lord.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—He's the lily of the valley, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory55" n="55"/>
+          <lg type="hymn">
+            <head>45.  Bright Sparkles in the Churchyard.</head>
+            <lg type="stanza">
+              <l>May the Lord, He will be glad of me,</l>
+              <l>May the Lord, He will be glad of me,</l>
+              <l>May the Lord, He will be glad of me,</l>
+              <l>In the heaven He'll rejoice.</l>
+              <l>In the heaven once, in the heaven twice, in the
+heaven He'll rejoice.  - <hi rend="italics">Repeat.</hi></l>
+            </lg>
+            <lg type="stanza">
+              <l>Bright sparkles in the churchyard</l>
+              <l>Give light unto the tomb,</l>
+              <l>Bright summer, spring's over,</l>
+              <l>Sweet flowers in their bloom.—<hi rend="italics">Repeat.</hi></l>
+              <l>My mother once, my mother twice, my mother she'll
+rejoice.</l>
+              <l>In the heaven once, in the heaven twice, in the heaven
+she'll rejoice.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Mother rock me in the cradle all the day,</l>
+              <l>Mother rock me in the cradle all the day,</l>
+              <l>Mother rock me in the cradle all the day,</l>
+              <l>All the day. all the day, O rock me in the cradle all
+the day.—<hi rend="italics">Repeat.</hi></l>
+              <l>Oh, mother don't you love your darling child?</l>
+              <l>Oh, rock me in the cradle all the day.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Mother rock me in the cradle,</l>
+              <l>Mother rock me in the cradle,</l>
+              <l>Mother rock me in the cradle all the day.  - <hi> Repeat.</hi></l>
+              <l>All the day, all the day, oh, rock me in the cradle all
+the day.</l>
+              <l>You may lay me down to sleep my mother dear,</l>
+              <l>Oh, rock me in the cradle all the day.—<hi>Repeat.</hi></l>
+            </lg>
+          </lg>
+        </div2>
+        <div2 type="section">
+          <pb id="mallory56" n="56"/>
+          <lg type="hymn">
+            <head>54.  Way Ober Yonder on the Hilltop!</head>
+            <lg type="stanza">
+              <l>There's gwine to be a glorious time by-and-by,</l>
+              <l>Way ober yonder on the hilltop!</l>
+              <l>Where the moon shines bright in the cloudless sky,</l>
+              <l>Way ober yonder on the hilltop!</l>
+            </lg>
+            <lg type="stanza">
+              <l>At that great camp meeting we'll work no more, we'll</l>
+              <l>play a little tune upon the old banjo, and de bells</l>
+              <l>keep a ringing on the golden shore.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Way ober yonder where de children am a
+singing,</l>
+              <l>And de bells dey keep ringing,</l>
+              <l>Way ober yonder on the hilltop.</l>
+            </lg>
+            <lg type="stanza">
+              <l>Take de narrow little railroad smooth and straight,</l>
+              <l>Way ober yonder on the hilltop!</l>
+              <l>If you trabble by the broad gauge you'll sure to be late,</l>
+              <l>Way ober yonder on the hilltop!</l>
+            </lg>
+            <lg type="stanza">
+              <l>You fashionable people with your pomp and pride, all</l>
+              <l>painted up and powdered and your hair all dyed like</l>
+              <l>the label on the bottle, you'll be left outside.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Way ober yonder, etc.</l>
+            </lg>
+            <lg type="stanza">
+              <l>When Gabriel blows his silver horn,</l>
+              <l>Way ober yonder on the hilltop!</l>
+              <l>Get you ready for to trabble in the early morn,</l>
+              <l>Way ober yonder on the hilltop!</l>
+            </lg>
+            <lg type="stanza">
+              <l>But you needn't come along if you don't look neat,</l>
+              <l>you must throw dem worldly shoes from off your feet,</l>
+              <l>or dey'll never let you walk up in the golden streets.</l>
+            </lg>
+            <lg type="stanza">
+              <l>CHO.—Way ober yonder, etc.</l>
+            </lg>
+          </lg>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

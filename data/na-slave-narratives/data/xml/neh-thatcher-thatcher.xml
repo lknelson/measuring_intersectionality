@@ -1,0 +1,478 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd">
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Memoir of Phillis Wheatley, a Native African and a Slave:</emph>
+Electronic Edition.</title>
+        <author> Thatcher, B. B. (Benjamin Bussey), 1809-1840 </author>
+        <funder>Funding from the National Endowment for the Humanities
+supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, 
+<date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.     60K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use 
+as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Memoir of Phillis Wheatley, a Native African and a Slave</title>
+            <author>B. B. THATCHER.</author>
+          </titleStmt>
+          <extent> 36 p.</extent>
+          <publicationStmt>
+            <pubPlace>BOSTON:</pubPlace>
+            <publisher>PUBLISHED BY GEO. W. LIGHT, Lyceum Press, 3 Cornhill. NEW YORK:—MOORE AND PAYNE, CLINTON HALL; LEAVITT, LORD AND CO., BROADWAY.</publisher>
+            <date>1834</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">This electronic edition has been transcribed from a photocopy supplied by John Hay Library, Brown University.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>This electronic edition has been transcribed from a photocopy supplied by John Hay Library, Brown University.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered typographical errors have been preserved, and appear in red type.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 
+1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African American poets -- Biography.</item>
+            <item>African American women poets -- Biography.</item>
+            <item>Slaves -- Massachusetts -- Boston -- Biography.</item>
+            <item>Wheatley, Phillis, 1753-1784.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-11-05, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-03-05, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, 
+</resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-02-26, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-01-31, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><hi rend="italics">Memoir</hi><lb/> OF <lb/>PHILLIS WHEATLEY, 
+<lb/>A <lb/> Native African and a Slave.</titlePart>
+        </docTitle>
+        <byline>BY</byline>
+        <docAuthor>B. B. THATCHER.</docAuthor>
+        <docImprint><pubPlace>BOSTON:</pubPlace>
+<publisher>PUBLISHED BY GEO. W. LIGHT, <lb/> Lyceum Press, 3 Cornhill. </publisher><pubPlace>NEW YORK:—MOORE AND PAYNE, CLINTON HALL; <lb/> LEAVITT, LORD AND CO., BROADWAY.</pubPlace>
+<docDate>1834.</docDate></docImprint>
+        <pb id="p2" n="verso"/>
+        <docImprint>
+          <docDate>Entered according to Act of Congress, in the year 1834, <lb/> By GEO. W. LIGHT, <lb/> In the Clerk's Office of the District Court of Massachusetts.</docDate>
+        </docImprint>
+      </titlePage>
+      <div1 type="section">
+        <pb id="p3" n="3"/>
+        <head>TO THE PUBLIC.</head>
+        <p>THE Publisher, in presenting the following Memoir to the public, ventures to call the attention of its readers to the motives with which it has been prepared, and to the design in the execution of which it has been intended as the first step.</p>
+        <p>The Publisher now entertains the project of a series of similar publications; and embraces, with great pleasure, this occasion of announcing to that large and increasing portion of the community who are benevolently interested in the condition and prospects of our colored brethren, that he has been able already to effect such arrangements as will enable him, as he confidently trusts, to render these publications equally instructive and interesting to all of this class of readers, and especially to the young, without giving just cause of dissatisfaction or displeasure to any. It is intended, as far as possible, to avoid every subject of a controversial nature, and to concentrate the efforts of those concerned, wholly, upon the grand object of presenting anecdotes and traits of the history, biography, capacity and condition of the race of which we speak, to the consideration of the friends of that race, and to the study of the youthful intellect, in such a manner as to promote, as far as may be, clear, unprejudiced and enlightened views of the whole subject.</p>
+        <p>Of the various subjects which will be treated of in this series, it is unnecessary to speak more particularly, as
+<pb id="p4" n="4"/>
+these will be left for the most part to the judgment and taste of the respective writers, with no other restriction than may seem to be implied by the principles above stated. In addition to the individual who has furnished the first of the course, the Publisher is happy to announce that he has secured the services of several distinguished authors, both male and female, and he trusts that their established character will be deemed to furnish a sufficient guaranty of the faithful and able performance of so much of his plan, at least, as shall depend upon their contributions.</p>
+        <p>The Publisher would suppose it a work of supererogation to point out the benefits which may be reasonably expected to arise from these publications in their effect on the young. It must be, under circumstances now existing in the country, that a curiosity will be felt by this class in the subjects which these essays will discuss. How desirable is it that such curiosity should be gratified by aliment which shall be, not only unexceptionable in regard to its influence on both the heart and the head, but shall possess also the merit of conveying information of a valuable kind, selected, simplified, and prepared with especial reference to the taste and necessities of this numerous and important class of readers. Such an end, it is confidently hoped, will be attained by the series of which this Memoir is the commencement.</p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p5" n="5"/>
+        <head>MEMOIR.</head>
+        <p>NOT a great many of the younger readers of this little book may know much about Slavery, though they have all heard and read, of course, that such a thing exists, and that even in the southern and western parts of our own country. I do not intend here to discuss the nature of it, or the circumstances that gave rise to it in the first instance, or the effect it is believed to have on the country and the people in and among which it is found. All these matters are more proper for another place. My object is simply to call the attention of those who feel an interest in the condition and character of the African race, to some particulars respecting individuals of that race, who have, at different times, been slaves in different parts of this country, and whose characters were quite too interesting to be passed over by the historian in utter silence.</p>
+        <pb id="p6" n="6"/>
+        <p>Of these, the most remarkable is PHILLIS WHEATLEY, as she has been commonly called. What her African name was, never has been ascertained, for she was but about seven years old when she was brought, in a slave-ship, with many other slaves, from that country to this. The vessel in which she came, sailed into <hi rend="italics">Boston harbor,</hi> in the year 1761, that is, seventy-three years ago. Soon afterwards, the whole <hi rend="italics">‘cargo,’</hi> as the language was in those times, was offered for sale; and no doubt advertised in the Boston newspapers, for any of my readers who may happen, in the course of their lives, to look up the Boston papers of that day, will find almost all of them, from week to week, more or less filled with advertisements of slaves; sometimes singly, and sometimes in ‘lots;’ sometimes naming them and sometimes not—to be sold, perhaps, or wanted to buy, or to be given away, or run away—in a word, advertisements in all forms, much as they appear now-a-days wherever slavery exists, and very much as they appear in the Boston papers of these times respecting <hi rend="italics">cattle</hi> and <hi rend="italics">sheep.</hi> I have seen, in one of the old Boston papers of 1764, which 
+<pb id="p7" n="7"/>
+is now before me as I write, a ‘likely negro boy’ published in this way to be sold, in the same advertisement with ‘<hi rend="italics">a black moose,</hi> about three months old.’ Here is another, which I copy from the same paper:</p>
+        <p>‘Cesar, a negro fellow, noted in town by having no legs, is supposed to be strolling about the country. If he can be brought to the printers for one dollar, besides necessary expenses, it shall be paid.’</p>
+        <p>One gentleman in the same paper, informs his customers and the public, that he has just opened his goods for sale in <hi rend="italics">Cornhill,</hi> near the Post Office, where he will sell them hard ware, by wholesale and retail, for ready money; and then he goes on to say that ‘<hi rend="italics">a good price will be given for a likely negro boy,</hi> from 16 to 20 years of age, if he can be well recommended.’</p>
+        <p>It was not many years after this, however, that slavery came to an end in Massachusetts. The last I have heard of it from any of the old people who lived in those times, is a story which an aged gentleman told me, a few days since, of his going, in the year 1777 (two years 
+<pb id="p8" n="8"/>
+after the revolutionary war commenced) from Andover, in this state, to Haverhill. He passed by a small house, near the road-side, where he saw several black children, male and female, playing in the sunshine near the door-way. They were healthy and happy-looking children, though rather poorly clad, and without shoes on; but one of them, a girl, about thirteen years old, struck the fancy of the gentleman, who stopped his horse to look at them, as likely to make very good ‘help’ for his wife, in Cambridge. He knocked at the door, and a woman, who appeared to be the mother of the family, came out. He entered into a conversation with her respecting the child with which he was best pleased, and proposed to <hi rend="italics">purchase</hi> her. The mother made no objection, except on the score of the price, and this did not continue long, for she soon agreed to sell her daughter for <hi rend="italics">eight dollars</hi>—to be given up whenever the gentleman, after consulting his wife about the purchase, should choose to send for her. He went home, and there the matter rested, for his wife had become tired of slaves, and she induced him to give up the bargain.</p>
+        <pb id="p9" n="9"/>
+        <p>I mention this incident to remind my readers how short a time it is, comparatively, since respectable people, in Massachusetts,—where we now boast so much of our freedom and our regard for the equal rights of all men—were concerned in this business of buying and selling the African like so many cattle in the stalls of a cattle-show. We have abundant reason to be grateful to a merciful Providence, that while many other sections of our own country, as well as others, are to this day afflicted with the evils of Slavery, <hi rend="italics">we</hi> are, as we think, much more pleasantly situated. Neither are there now any slaves in Vermont, Maine, or New Hampshire; and there are very few, indeed, in Rhode-Island and Connecticut—less than a hundred in both those States. In Indiana and Illinois, they have none. In Ohio there never were any; and the number still remaining in Pennsylvania, New York, Delaware and New Jersey is quite small.</p>
+        <p>To return to our little African—she was found out and purchased soon after the advertisement of her appeared (in 1761) by Mrs. Wheatley, the wife of Mr. John Wheatley, a 
+<pb id="p10" n="10"/>
+highly respectable citizen of Boston. This lady is another instance to show that it had not yet become altogether disgraceful, among decent people, to buy and sell their fellow-men in the market, to serve their convenience. Mrs. Wheatley had several slaves already—acting, as they generally did in Massachusetts, as house-servants; but these were getting rather advanced in life, and she wished to obtain one more active and docile, whom she could herself educate in such a manner, as to make her a suitable companion for herself in her old age. It is very evident, such being the good lady's feelings, that the little slave could not have fallen into better hands, if she must be sold. Mrs. Wheatley, on the other hand, was much pleased with the appearance of the child, though the poor thing had nothing to recommend it to her notice, or to any body's, but the meekness and modesty of her manners, and her intelligent and comely features. Her only garment at this time, was  a piece of dirty carpet placed around her like what is called a ‘fillibeg.’ The lady preferred her, nevertheless, to the older females, whom she found her with, and having paid her
+<pb id="p11" n="11"/>
+master the price agreed on, conveyed the half-clad stranger home with herself in a chaise.</p>
+        <p>At this period she is supposed, as I said before, to have been about seven years old, being in the act of shedding her front teeth. How much of the English language she could speak, does not appear; probably not a great deal, nor with much ease, for she had enjoyed no opportunity of learning it, that we hear of, excepting the very limited one she must have had, if she had any, in the course of her passage from the shores of Africa to those of this country, and the little stay she made with her master and her fellow-slaves after that time, and previous to her being purchased by Mrs. Wheatley. Very likely it is owing to this circumstance—her inability to speak the language with much ease or clearness—that we hear scarcely anything of her early history in Africa. It has never been known what part of that continent she came from, to what tribe or kingdom she belonged, what relatives or friends she left behind or sailed with; and everything else of that kind is equally a matter of uncertainty. No doubt, before she had learned enough of the 
+<pb id="p12" n="12"/>
+English language to tell her humble history to her new friends—or so much of it as she then remembered—she forgot that little, and very soon found, in the midst of new society, and in a country full of strange sights and sounds, that her mind had become filled with a multitude of new impressions which rapidly crowded out the old.</p>
+        <p>The little girl who had now received the name by which she has been since known, PHILLIS WHEATLEY, being taken into the family of her mistress, and treated with exemplary kindness, soon began to show very plain indications of the character and talent which a few years after became so decided and so distinguished. Mrs. Wheatley's daughter undertook to teach her writing and reading, and the little girl's disposition to imitate what she had seen in others, in regard to the former of these accomplishments, had already made itself manifest in her childish endeavors to describe letters and figures of different kinds, on some of the walls about the house, and upon other <hi rend="italics">stationary</hi> of like sort, with a piece of chalk or charcoal. She was not, at this time, left to associate much 
+<pb id="p13" n="13"/>
+with the other servants or slaves of her own color or condition, in the dwelling of her mistress, but was kept almost constantly about her person.</p>
+        <p>I remarked that nothing of the early history of Phillis could be gathered from her lips. One circumstance alone, it might have been said, she remembered; and that was, her mother's custom of <hi rend="italics">pouring out water before the sun at his rising.</hi> This, no doubt, was a custom of the tribe to which she belonged, and was one of their religious rites. That the child should retain the memory of this apparently trifling incident, when she forgot almost everything else, is not, perhaps, very remarkable. It is one which would be quite as likely to make an impression on the mind of a child, as a much more important event. One writer, who has treated of the life of Phillis, says in relation to this subject, very properly—‘We cannot know at how early a period she was beguiled from the hut of her mother; or how long a time elapsed between her abduction from her first home and her being transferred to the abode of her benevolent mistress, where she must have felt like 
+<pb id="p14" n="14"/>
+one awaking from a fearful dream. This interval was, no doubt, a long one; and filled, as it must have been, with various degrees and kinds of suffering, might naturally enough obliterate the recollection of earlier and happier days. The solitary exception which held its place so tenaciously in her mind, was probably renewed from day to day through this long season of affliction; for, every morning, <hi rend="italics">when the bereaved child saw the sun emerging from the wide waters, she must have thought of her mother, prostrating herself before the first golden beam that glanced across her native plains.</hi>’</p>
+        <p>The opportunities of learning became greater to Phillis as she advanced in life. Her friends, who had already taken a deep interest in her improvement, were encouraged, both by the rapid advances she made, and the warm gratitude which their efforts excited, to increased exertions in her favor. She had begun also, to attract the attention of the society of the city, out of the family of her mistress; and, as the fame of her talent and virtue extended itself, she received favors from several of the literary characters of the day, in the shape of books 
+<pb id="p15" n="15"/>
+and other aids to her education. Her own desire of knowledge increased, as such desire generally does, with every gratification. She made considerable progress in belle-lettres; and then she acquainted herself, in a good degree, with the Latin tongue, evidence of which acquirements may be frequently observed in her poems.</p>
+        <p>Of the place she had by this time, in consequence of her amiable traits of character, no less than of her extraordinary intellectual exhibition, obtained in the family, and especially in the affection of her excellent mistress, some idea may be formed from the following incident, which is referred to by the writer I have already borrowed from.</p>
+        <p>‘It is related that, upon the occasion of one of the visits she was invited to pay to her neighbors, the weather changed during the absence of Phillis; and her anxious mistress, fearful of the effects of cold and damp upon her already delicate health, ordered Prince (also an African and a slave) to take the chaise, and bring home her <hi rend="italics">protegee.</hi> When the chaise returned, the good lady drew near the window, as it approached 
+<pb id="p16" n="16"/>
+the house, and exclaimed—‘Do but look at the saucy varlet—if he has n't the impudence to sit upon the same seat with <hi rend="italics">my Phillis!’</hi> And poor Prince received a severe reprimand for forgetting the dignity thus kindly, though perhaps to him unaccountably, attached to the sable person of ‘my Phillis.’<ref id="ref1" n="1" rend="sc" target="note1" targOrder="U">*</ref><note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* See Memoir prefixed to the Poems lately republished in Boston.</p></note></p>
+        <p>The prejudice so common in those times against colored people, even more than now, which this anecdote indicates in the mind of Mrs. Wheatley, may be readily pardoned for the sake of the kindness which the good lady manifested in favor of the more fortunate servant of the two.</p>
+        <p>It would have been no very wonderful thing, under these circumstances of partiality, and perhaps sometimes flattery, if the mind of the young favorite had been influenced more than it should be by the compliments she constantly received. That it was not so influenced, so far as we can ascertain, and that, on the contrary, she can scarcely be said to have known
+<pb id="p17" n="17"/>
+or, at least, to have shown, what pride and vanity were—is a circumstance highly indicative of the excellent good sense which was among her most obvious natural endowments. It is said, that when, as I have already intimated was often the case, she was invited, with or without the other members of the family of Mrs. Wheatley, to visit individuals of wealth and distinction, she always declined the seat offered her at their board, and, requesting that a side-table might be laid for her, dined modestly apart from the rest of the company. This was, no doubt, the wisest, as well as most modest course she could take. However illiberal, and unchristian might be the prejudice, which many people entertained in those days, and which many are not rid of, against their fellow citizens—or at least fellow-<hi rend="italics">men</hi>—who are ‘guilty of a skin not colored like their own,’ it was peculiarly amiable in Phillis to be content, according to the admonition of the holy apostle, with the condition wherein she was placed by Providence; and it was equally prudent in her, not to increase the evils of that condition by permitting such trifles, as they must have appeared to
+<pb id="p18" n="18"/>
+a mind like hers, to make her unhappy for a single moment. Her modesty admirably contrasted with her merit, and powerfully increased its charms.</p>
+        <p>The earliest attempt in poetical composition, by Phillis, which has been preserved—though she probably made many at an earlier date—is the little poem intended to express her loyal <sic corr="acknowledgments">acknowledgements</sic> to the King, (George III,) on occasion of the Repeal of the Stamp Act—an event of intense interest in all the American Colonies. It shows a degree of grammatical correctness, and a propriety of sentiment and feeling, which certainly do not disgrace the literary character of a slave at the age of fourteen years—for the piece was written in 1768. It is as follows:</p>
+        <lg type="poem">
+          <lg>
+            <l>Your subjects hope, dread Sire, the crown</l>
+            <l>Upon your brows may flourish long,</l>
+            <l>And that your arm may in your God be strong,</l>
+            <l>Oh! may your sceptre numerous nations sway,</l>
+            <l>And all with love and readiness obey.</l>
+          </lg>
+          <lg>
+            <l>But how shall we the British king reward?</l>
+            <l>Rule thou in peace, our father and our Lord!</l>
+            <l>Midst the remembrance of thy favors past,</l>
+            <l>The meanest peasants most admire <hi rend="italics">the last.</hi></l>
+            <pb id="p19" n="19"/>
+            <l>May George, beloved by all the nations round,</l>
+            <l>Live with heaven's choicest, constant blessings
+crowned.</l>
+            <l>Great God! direct and guard him from on high,</l>
+            <l>And from his head let every evil fly;</l>
+            <l>And may each clime with equal gladness see</l>
+            <l>A monarch's smile can set his subjects free.</l>
+          </lg>
+        </lg>
+        <p>In the year 1769 or 1770, Phillis was received as a member of the church worshipping in the Old South Meeting House, which for several years, while she attended there, was under the pastoral charge of the excellent Dr. Sewell. He died in 1769, and the following poem, written by Phillis on that occasion, will sufficiently illustrate both the character of the subject, and the feelings with which the amiable author regarded that melancholy event. It shows also an evident improvement in her style:</p>
+        <lg type="poem">
+          <lg>
+            <l>Ere yet the morn its lovely blushes spread,</l>
+            <l>See Sewell numbered with the happy dead.</l>
+            <l>Hail, holy man! arrived the immortal shore;</l>
+            <l>Though we shall hear thy warning voice no more,</l>
+            <l>Come, let us all behold, with wistful eyes,</l>
+            <l>The saint ascending to his native skies:</l>
+            <l>From hence the prophet winged his rapturous way,</l>
+            <l>To the blest mansions in eternal day.</l>
+          </lg>
+          <pb id="p20" n="20"/>
+          <lg>
+            <l>Then, begging for the Spirit of our God,</l>
+            <l>And panting eager for the same abode,</l>
+            <l>Come, let us all with the same vigor rise,</l>
+            <l>And take a prospect of the blissful skies;</l>
+            <l>While on our minds Christ's image is impressed,</l>
+            <l>And the dear Saviour glows in ev'ry breast.</l>
+            <l>Thrice happy saint! to find thy heaven at last,</l>
+            <l>What compensation for the evils past!</l>
+          </lg>
+          <lg>
+            <l>Great God! incomprehensible, unknown</l>
+            <l>By sense, we bow at thine exalted throne.</l>
+            <l>Oh, while we beg thine excellence to feel,</l>
+            <l>Thy sacred Spirit to our hearts reveal,</l>
+            <l>And give us of that mercy to partake,</l>
+            <l>Which thou hast promised for the Saviour's sake!</l>
+          </lg>
+          <lg>
+            <l>“Sewell is dead.” Swift-pinioned Fame thus cried.</l>
+            <l>“Is Sewell dead?” my trembling tongue replied.</l>
+            <l>Oh, what a blessing in his flight denied!</l>
+            <l>How oft for us the holy prophet prayed!</l>
+            <l>How oft to us the word of life conveyed!</l>
+            <l>By duty urged my mournful verse to close,</l>
+            <l>I for his tomb this epitaph compose.</l>
+          </lg>
+          <lg>
+            <l>“Lo, here, a man, redeemed by Jesus' blood,</l>
+            <l>“A sinner once, but now a saint with God.</l>
+            <l>“Behold, ye rich, ye poor, ye fools, ye wise,</l>
+            <l>“Nor let his monument your heart surprise;</l>
+            <l>“'T will tell you what this holy man has done,</l>
+            <l>“Which gives him brighter lustre than the sun.</l>
+            <l>“Listen, ye happy, from your seats above.</l>
+            <l>“I speak sincerely, while I speak and love.</l>
+            <l>“He sought the paths of piety and truth,</l>
+            <l>“By these made happy from his early youth.</l>
+          </lg>
+          <pb id="p21" n="21"/>
+          <lg>
+            <l>“In blooming years that grace divine he felt,</l>
+            <l>“Which rescues sinners from the chains of guilt.</l>
+            <l>“Mourn him, ye indigent, whom he has fed,</l>
+            <l>“And henceforth seek, like him, for living bread;</l>
+            <l>“Ev'n Christ, the bread descending from above,</l>
+            <l>“And ask an int'rest in his saving love.</l>
+            <l>“Mourn him, ye youth, to whom he oft has told</l>
+            <l>“God's gracious wonders, from the times of old.</l>
+            <l>“I, too, have cause, this mighty loss to mourn,</l>
+            <l>“For he, my monitor, will not return.</l>
+            <l>“Oh, when shall we to his blest state arrive?</l>
+            <l>“When the same graces in our bosoms thrive?”</l>
+          </lg>
+        </lg>
+        <p>Since we are making extracts from these exceedingly interesting compositions—the POEMS OF A SLAVE—we will add another, written the next year after the last, that is, in 1770, on occasion of the decease of the Rev. Mr. Whitefield, the celebrated Methodist clergyman, an eminently distinguished man in his time, and whose memory is even to this day much cherished by many persons of advanced age, who listened to his eloquent exhortations from the Boston Pulpits and the Boston Common. Vast multitudes of hearers thronged around him wherever he preached, in England, (which was his native land) or in this country, and great numbers of these were impressed by his appeal to their 
+<pb id="p22" n="22"/>
+consciences and hearts, as Phillis seems to have been, in a manner which they never afterwards could forget. She alludes with great propriety, as it will be seen, ‘to the <hi rend="italics">music</hi> of his tongue,’ for his voice was one of the most agreeable and powerful with which a public speaker was ever gifted. She says, too, very beautifully,
+<q type="verse" direct="unspecified"><lg type="verse"><l>Thou, moon, hast seen, and all the stars of light,</l><l>How he has wrestled with his God by night;</l></lg></q>referring to those frequent occasions, on which the devoted clergyman had retired to the fields and woods, in the solitude of midnight as well as amid the glare of the noon-day, to commune on his knees with that Being, to the advancement of whose kingdom, on earth, he consecrated the energies of his body and his mind. Mr. Whitefield died during one of his numerous visits to this country, at Newburyport, where his grave, with the inscription on the marble, may still be seen:</p>
+        <lg type="poem">
+          <l>Hail, happy saint! on thine immortal throne,</l>
+          <l>Possest of glory, life, and bliss unknown;</l>
+          <l>We hear no more the music of thy tongue;</l>
+          <l>Thy wonted auditories cease to throng.</l>
+          <l>Thy sermons in unequalled accents flowed,</l>
+          <l>And ev'ry bosom with devotion glowed;</l>
+          <pb id="p23" n="23"/>
+          <l>Thou didst, in strains of eloquence refined,</l>
+          <l>Inflame the heart, and captivate the mind.</l>
+          <l>Unhappy, we the setting sun deplore,</l>
+          <l>So glorious once, but ah! it shines no more.</l>
+        </lg>
+        <lg>
+          <l>Behold the prophet in his towering flight!</l>
+          <l>He leaves the earth for heaven's unmeasured height,</l>
+          <l>And worlds unknown receive him from our sight.</l>
+          <l>There Whitefield wings with rapid course his way,</l>
+          <l>And sails to Zion through vast seas of day.</l>
+          <l>Thy prayers, great saint, and thine incessant cries,</l>
+          <l>Have pierced the bosom of thy native skies.</l>
+          <l>Thou, moon, hast seen, and all the stars of light,</l>
+          <l>How he has wrestled with his God by night.</l>
+          <l>He prayed that grace in ev'ry heart might dwell;</l>
+          <l>He longed to see America excel;</l>
+          <l>He charged its youth that ev'ry grace divine</l>
+          <l>Should with full lustre in their conduct shine.</l>
+          <l>That Saviour, which his soul did first receive,</l>
+          <l>The greatest gift that ev'n a God can give,</l>
+          <l>He freely offered to the num'rous throng,</l>
+          <l>That on his lips with list'ning pleasure hung.</l>
+        </lg>
+        <lg>
+          <l>“Take him, ye wretched, for your only good,</l>
+          <l>“Take him, ye starving sinners, for your food;</l>
+          <l>“Ye thirsty, come to this life-giving stream,</l>
+          <l>“Ye preachers, take him for your joyful theme;</l>
+          <l>“Take him, my dear Americans, he said,</l>
+          <l>“Be your complaints on his kind bosom laid;</l>
+          <l>“Take him, ye Africans, he longs for you;</l>
+          <l>“Impartial Saviour is his title due?</l>
+          <l>“Washed in the fountain of redeeming blood,</l>
+          <l>“You shall be sons, and kings, and priests to God.”</l>
+        </lg>
+        <pb id="p24" n="24"/>
+        <lg>
+          <l>Great Countess,<ref id="ref2" n="2" rend="sc" target="note2" targOrder="U">*</ref>
+ we Americans revere <note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* 
+The Countess of Huntingdon, to whom Mr. Whitefield was chaplain.</p></note>
+</l>
+          <l>Thy name, and mingle in thy grief sincere;</l>
+          <l>New England deeply feels, the orphans mourn,</l>
+          <l>Their more than father will no more return.</l>
+        </lg>
+        <lg>
+          <l>But though, arrested by the hand of death,</l>
+          <l>Whitefield no more exerts his lab'ring breath,</l>
+          <l>Yet let us view him in the eternal skies,</l>
+          <l>Let every heart to this bright vision rise,</l>
+          <l>While the tomb safe retains its sacred trust,</l>
+          <l>Till life divine re-animates his dust.</l>
+        </lg>
+        <p>Of the excellent kindness of feeling, as well as talent and propriety of sentiment, which is manifested in these poems, I need not speak. It is time, however, to call the attention of my readers to the sequel of the history of the authoress.</p>
+        <p>Her constitution was always frail, and her health at no time firm. Early in 1773, it became decidedly worse than it had been before, and so much so that her fond friends, and especially Mrs. Wheatley, became alarmed on her account. Her physician recommended a sea voyage, and this according with the opinion of the family who were most interested
+<pb id="p25" n="25"/>
+in her welfare, she was induced to avail herself of the opportunity of visiting England, offered her by the departure of a son of her mistress, who was about sailing on a mercantile engagement. She went with him in the summer of  the same year, being now about nineteen years of age. The writer of the notice to which I have before referred, has the following remarks, in reference to this short but interesting visit:</p>
+        <p>‘Phillis was well received in England, and was presented to Lady Huntingdon, Lord Dartmouth, and many other individuals of distinction; but, says our informant, “not all the attention she received, nor all the honors that were heaped upon her, had the slightest influence upon her temper or deportment. She was still the same single-hearted, unsophisticated being.” During her stay in England, her poems were given to the world, dedicated to the Countess of Huntingdon, and embellished with an engraving, which is said to have been a striking representation of the original. It is supposed that one of these impressions was forwarded to her mistress, as soon as they were struck off; for a grand niece of Mrs. Wheatley's
+<pb id="p26" n="26"/>
+informs us that, during the absence of Phillis, she one day called upon her relative, who immediately directed her attention to a picture over the fire-place, exclaiming—“See! look at my Phillis! does she not seem as though she would speak to me!”</p>
+        <p>‘Phillis arrived in London so late in the season, that the great mart of fashion was deserted. She was therefore urgently pressed by her distinguished friends to remain until the Court returned to St. James's, that she might be presented to the young monarch, George III. She would probably have consented to this arrangement, had not letters from America informed her of the declining health of her mistress, who <sic corr="entreated">intreated</sic> her to return, that she might once more behold her beloved protegee.</p>
+        <p>‘Phillis waited not a second bidding, but immediately re-embarked, and arrived in safety at that once happy home, which was so soon to be desolate.’</p>
+        <p>Mrs. Wheatley died in 1774, and her husband and daughter not long afterwards, leaving our African orphan once more almost desolate. After spending a short time with one of the 
+<pb id="p27" n="27"/>
+friends of Mrs. Wheatley, she now took an apartment, and lived alone. The Revolution was at this period fast coming on, and the general discouragement and distress which it brought with it, were already beginning to be felt among all classes. Phillis no doubt, must have borne, though in silent fortitude, her share of the troubles of the times.</p>
+        <p>At this period of destitution, Phillis received an offer of marriage from a respectable colored man of Boston, named Peters, who kept a grocery in Court Street, and was a man of very handsome person and manners, (as our writer informs us,) wore a wig, carried a cane, and quite acted out ‘<hi rend="italics">the gentleman.</hi>’ In an evil hour he was accepted; and he proved utterly unworthy of the distinguished woman who honored him by her alliance. He was unsuccessful in business, and failed soon after their marriage; and, though an intelligent man, he is said to have been both too proud and too indolent to apply himself to any occupation below his fancied dignity. Hence his unfortunate wife suffered much from this ill-omened union.</p>
+        <pb id="p28" n="28"/>
+        <p>After the Revolution broke out, and Boston was besieged by the enemy, the distress which I have before alluded to very increased, and multitudes of the inhabitants took the earliest opportunity to find an asylum somewhere in the country towns. Phillis accompanied her husband to Wilmington, and lived there several years, during which we hear scarcely anything of her, excepting that she became the mother of three children, in as many years, of whose subsequent history still less has been ascertained. Some time after the evacuation of the city, she returned, and there resided several weeks with a niece of Mrs. Wheatley's, a widow of considerable wealth. During this period, Phillis, who seems to have exerted herself to the utmost, to make the best of her circumstances, taught a small day-school; and at the end of it, her husband having also come in from the country, and reclaimed her society, she and her little family accompanied him to the lodgings he had provided in town.</p>
+        <p>From this date we learn but little of her, and it may reasonably be inferred from this circumstance, as well as from the general state of 
+<pb id="p29" n="29"/>
+those times, that she partook largely of the suffering which pervaded the whole community, and particularly its poorer classes.</p>
+        <p>In noticing this condition of things, the writer of the latest memoir of Phillis has the following just remarks:</p>
+        <p>‘The depreciation of the currency added greatly to the general distress. Mr. Thacher, for example, in his History of Plymouth, tells us of a man who sold a cow for forty dollars, and gave the same sum for a goose! We have ourselves heard an elderly lady relate, that her husband, serving in the army, forwarded her in a letter fifty dollars, which was of so little value when she received it, that she paid the whole for a quarter of mutton, so poor and so tough, that it required great skill and patience, in the culinary department, to render it fit for the table. “In this condition of things,” observes the lady, whom we have more than once referred to, and to whom we expressed our surprise at the neglect and poverty into which Phillis was suffered to decline, “people had other things to attend to than prose and poetry, and had little to bestow in charity, when their own children were clamorous
+<pb id="p30" n="30"/>
+for bread.” Poor Phillis was left to the care of her negligent husband.’</p>
+        <p>I may take this occasion to add to the above illustration of the worth of the ‘Continental Money,’ the fact, which I have heard from an old gentleman, that he once paid between ten and eleven hundred dollars in that currency for a tolerable <hi rend="italics">load</hi> of <hi rend="italics">wood,</hi> and I believe he thought himself doing pretty well by the bargain!</p>
+        <p>The close of the history of Phillis is even sadder than any of its previous pages. She died in the year 1780, having lost two of her children, and suffered in her own person the united pains of sickness, privation, exposure and fatigue, to an extent which is melancholy to contemplate even for a moment. No stone now tells the stranger where rest the ashes of the BOSTON SLAVE OF THE REVOLUTION.</p>
+        <p>Yet she is not forgotten. The character of Phillis is too remarkable, and her brief career too extraordinary, to be overlooked by the friends of virtue or the admirers of genius. Her memory  will be cherished, in many a benevolent heart, long after the proud names of those who, perhaps, despised her, and her 
+<pb id="p31" n="31"/>
+humble merits, alike, shall be buried in the dust of oblivion.</p>
+        <p>If any reader has, perchance, in the perusal of this slight tribute to her worth, felt the idea suggesting itself to his prejudice, that the country or the complexion of the subject of my Memoir might have been a sufficient reason for omitting to notice her at all, I cannot, perhaps, make a more suitable admonition to such a mind than in the language of her own:</p>
+        <lg type="poem">
+          <l>'T was mercy brought me from my pagan land,</l>
+          <l>Taught my benighted soul to understand</l>
+          <l>That there's a God—that there's a Saviour too:</l>
+          <l>Once I redemption neither sought nor knew.</l>
+          <l>Some view our sable race with scornful eye—</l>
+          <l>‘Their color is a diabolic dye.’</l>
+          <l>Remember, Christians, Negroes black as Cain</l>
+          <l>May be refined, and join the angelic train.</l>
+        </lg>
+        <p>In regard to the poetry of Phillis, it will be observed, by those who examine her works, that she has written, almost wholly, upon occasional subjects, apparently on those of mere feeling, suggested to her by the occurrence of some event in which her own sympathies were deeply interested. The subjects, accordingly, 
+<pb id="p32" n="32"/>
+are quite as illustrative of her own heart and mind, as the style is. When this circumstance is considered, in connection with the fact that she was born, and brought up, to her eighth year, a complete barbarian in a barbarous land; that at that period she was made a slave; that in this condition, and at this age she commenced the business of self-education; that she had to contend through life with all these circumstances, added to the prejudice commonly entertained against persons of her color, and much of the time, too, with its most trying personal sufferings—it must be admitted that her compositions furnish abundant proof of a degree of native genius which is exceedingly rare among persons of any race, class or condition. Some of them show also that she had contrived, by some means, not only to make herself familiar with the Holy Scriptures, which seem to have been her favorite authority and study, but to have read and remembered not a little of ancient and modern profane history, geography, astronomy, poetry, and other matters of the kind, of which in her times it was considered no disgrace, certainly, for ladies, (not
+<pb id="p33" n="33"/>
+to say gentlemen) of a much higher standing in society, to be much more uninformed. Few of them, we presume, would have been unwilling to acknowledge their claims to the following, had they written it—the first lines of an address to the Earl of Dartmouth, a leading English statesman, (under George III,) to whom Phillis was introduced in that country:</p>
+        <lg type="poem">
+          <l>
+            <hi rend="italics">Hail, happy day! when, smiling like the morn,</hi>
+          </l>
+          <l>
+            <hi rend="italics">Fair Freedom rose, New England to adorn:</hi>
+          </l>
+          <l>The northern clime, beneath her genial ray,</l>
+          <l>Dartmouth! congratulates thy blissful sway:</l>
+          <l>Elate with hope, her race no longer mourns,</l>
+          <l>Each soul expands, each grateful bosom burns,</l>
+          <l>While in thine hand with pleasure we behold</l>
+          <l>The silken reins, and Freedom's charms unfold.</l>
+          <l>Long lost to realms beneath the northern skies,</l>
+          <l>She shines supreme, while hated faction dies:</l>
+          <l>Soon as appeared the Goddess long desired,</l>
+          <l>Sick at the view she languished and expired;</l>
+          <l>Thus, from the splendors of the morning light,</l>
+          <l>The owl, in sadness, seeks the shades of night.</l>
+        </lg>
+        <p>We will conclude our extracts from these Poems, (the whole of which have been recently republished in one small volume,) with the Lines addressed to Harvard University, at Cambridge, which, it will be seen, contain 
+<pb id="p34" n="34"/>
+an allusion to the early history of the authoress, plainly indicative of the feeling with which she recalled so much as she knew of it:</p>
+        <lg type="poem">
+          <lg>
+            <l>While an intrinsic ardor prompts to write,</l>
+            <l>The Muses promise to assist my pen.</l>
+            <l>'T was not long since, I left my native shore,</l>
+            <l>The land of errors and Egyptian gloom:</l>
+            <l>Father of mercy! 't was thy gracious hand</l>
+            <l>Brought me in safety from those dark abodes.</l>
+          </lg>
+          <lg>
+            <l>Students, to you 't is given to scan the heights</l>
+            <l>Above, to traverse the <sic corr="ethereal">etherial</sic> space,</l>
+            <l>And mark the systems of revolving worlds.</l>
+            <l>Still more, ye sons of science, ye receive</l>
+            <l>The blissful news by messengers from heaven,</l>
+            <l>How Jesus' blood for your redemption flows.</l>
+            <l>See him, with hands outstretched upon the cross!</l>
+            <l>Immense compassion in his bosom glows;</l>
+            <l>He hears revilers, nor resents their scorn.</l>
+            <l>What matchless mercy in the Son of God!</l>
+            <l>He deigned to die, that they might rise again,</l>
+            <l>And share with him, in the sublimest skies,</l>
+            <l>Life without death, and glory without end.</l>
+          </lg>
+          <lg>
+            <l>Improve your privileges while they stay,</l>
+            <l>Ye pupils; and each hour redeem, that bears</l>
+            <l>Or good or bad report of you to heaven.</l>
+            <l>Let sin, that baneful evil to the soul,</l>
+            <l>By you be shunned; nor once remit your guard:</l>
+            <l>Suppress the deadly serpent in its egg.</l>
+            <l>Ye blooming plants of human race divine,</l>
+            <l>An Ethiop tells you, 't is your greatest foe;</l>
+            <pb id="p35" n="35"/>
+            <l>Its transient sweetness turns to endless pain,</l>
+            <l>And in immense perdition sinks the soul.</l>
+          </lg>
+        </lg>
+        <p>Several reflections are suggested by the facts of the preceding memoir, too obvious to be overlooked by any reader who is willing to derive benefit or pleasure from even the humblest source.</p>
+        <p>One is, that genius is not limited, by the Creator of man, to any color, country, or condition. The darkest skin may cover the brightest intellect, as well as the warmest heart. This consideration should serve to allay that ungenerous contempt, which is still but too commonly entertained, unworthy as it is of a liberal mind, towards a class of our fellow men whose chief <hi rend="italics">fault</hi> it seems to be, that they have been made, in their ignorance and heathenism, the victims of the avarice of the civilized world.</p>
+        <p>Another is, that determination and perseverance, under favor of Providence, are sufficient to accomplish almost anything. Phillis has immortalized herself by her poems; and yet she commenced her literary career a savage and slave, ignorant of the merest rudiments of the language in which she afterwards wrote, 
+<pb id="p36" n="36"/>
+and for some time using, in her awkward efforts to give vent to her rising conceptions, no better materials than charcoal or a piece of chalk! Surely, no man, woman, or child, in whatever circumstances, has occasion, after this, to be discouraged in an honest exertion to add to his own usefulness and the happiness of the world around. The lowliest being that lives—let him but rely meekly on God's blessing, and upon his own best use of the faculties which that good Being has given him—need not despair of doing something to render the memory of his name precious to some one heart, at least, that shall mourn for him long after the frail remains of his mortal body shall be mixed with the common dust from which it sprung. If any reader of mine, then, shall ever give way for a moment to a feeling of despondence, or of distrust of the goodness of an overruling Providence, let me advise him to think of the POOR BOSTON SLAVE, and murmur and doubt no more.</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

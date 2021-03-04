@@ -1,0 +1,291 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY hethtp SYSTEM "hethtp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>The Life of Joice Heth, the Nurse of Gen. George Washington, (the Father of Our Country,) Now Living at the Astonishing Age of 161 Years, and Weighs Only 46 Pounds:</emph>
+Electronic Edition.</title>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name>David Faflik</name>
+        </respStmt>
+        <respStmt>
+          <resp>Image scanned by</resp>
+          <name>Natalia Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Lee Ann Morawski  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca.   30  K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> The Life of Joice Heth, the Nurse of Gen. George Washington, 
+(the Father of Our Country,) Now Living at the Astonishing Age of 161 Years, 
+and Weighs Only 46 Pounds</title>
+          </titleStmt>
+          <extent>  12    p.</extent>
+          <publicationStmt>
+            <pubPlace>New York</pubPlace>
+            <publisher>Printed for the Publisher</publisher>
+            <date>1835</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  A 1835 .L554  
+ (Special Collections, University of Virginia Library)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>This electronic edition has been created by Optical
+Character Recognition (OCR). OCR-ed text has been compared against the
+original document and corrected.  The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Heth, Joice, d. 1836.</item>
+            <item>Washington, George, 1732-1799.</item>
+            <item>African Americans -- Virginia -- Biography.</item>
+            <item>Slaves -- Virginia -- Biography.</item>
+            <item>Slavery -- Virginia -- History.</item>
+            <item>Slavery -- Kentucky -- History.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-02-06, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-12-20, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-12-19, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-11-16, </date>
+        <respStmt>
+          <name>David Faflik</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="hethtp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">THE LIFE
+<lb/>
+OF
+<lb/>
+JOICE HETH,
+<lb/>
+THE NURSE OF
+<lb/>
+GEN. GEORGE WASHINGTON,
+<lb/>
+<hi rend="italics">(The Father of Our Country,)</hi>
+<lb/>
+NOW LIVING AT THE ASTONISHING
+<lb/>
+Age of 161 Years,
+<lb/>
+AND
+<lb/>
+WEIGHS ONLY 46 POUNDS,</titlePart>
+        </docTitle>
+        <docEdition>Price Six Cents.</docEdition>
+        <docImprint><pubPlace>New York</pubPlace>
+<publisher>PRINTED FOR THE PUBLISHER.</publisher>
+<docDate>1835.</docDate></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="heth3" n="3"/>
+        <head>THE
+<lb/>
+LIFE OF JOICE HETH.
+<lb/>
+THE NURSE OF WASHINGTON.</head>
+        <p>JOICE HETH, the subject of this short memoir, was born on the Island of Madagascar, on the Coast of Africa, in the year One Thousand Six Hundred and Seventy-four. Of her parents little or nothing is known, save what she herself relates of them, in which her recollections are so indistinct, that but very little can be satisfactorily learnt. </p>
+        <p>At the age of fifteen, she was cruelly torn from the bosom of her parents and her native land by one of those inhuman beings, who, in those days, to enrich themselves, made merchandize of human flesh.</p>
+        <p>She was imported into America, and sold as a slave to Thomas Buckner, an extensive planter of Virginia. She remained with him several years, when she came into the Washington family, who were then living on an extensive domain, called the Chotank Plantations. About this time, or soon after, she was
+<pb id="heth4" n="4"/>
+married to a slave named Peter, belonging to Mrs. Atwood, a relative of the family of Washington, and living the next door neighbor.</p>
+        <p>In this condition she lived until she became the mother of fifteen children, being the property of Augustine Washington, the father of George Washington, (or little Georgy, as she now calls him,) and was the first person to put clothes on the unconscious infant, who was destined in after days to lead our heroic fathers on to glory, to victory, and to freedom.</p>
+        <p>In the meant time she made a public profession of religion, and about the year Seventeen Hundred and Twenty, was baptized in the Potomac River, and became a member of the Baptist Church.</p>
+        <p>By her trusty and faithful discharge of such duties as were assigned to her, she gained the full confidence of all the family, and was treated by them more as an hired servant than a slave. To her was entrusted the whole care and management of both the nursery and kitchen. At the age of fifty-four years she was formally sold and transferred, by a regular bill of sale, for the price of thirty-three pounds, to Mrs. Atwood, who was the then owner of Peter, her husband. This was not done so much on account of the value of the services which she might render, as to accommodate her in the enjoyment of the constant company of her helpmate, (Peter,) who was also at this time something in years, and a favorite domestic servant. By this arrangement, they were permitted to be constantly
+<pb id="heth5" n="5"/>
+together, both employed in the lighter services in and about the house.</p>
+        <p>At the decease of Mrs. Atwood, she fell into the hands of Mr. Boling, he being one of the heirs to the estate. Some years after, Mr. Boling emigrated to Kentucky, and settled in the town of Paris, Bourbon county. He took with him Joice and her husband, who then, from the infirmities of old age, were unable to do much labor; they, however, being old domestic servants, were kindly provided for during the life of Mr. Boling. Soon after his death, died Peter, her husband, at a very advanced age, leaving Joice a single and only witness of the events of the preceding century.</p>
+        <p>From that time she was followed by legal succession, the branches of the family down to the present time.</p>
+        <p>Some of the time since, according to her own story, she has been very much neglected, laying for years in an outer building, upon the naked floor. In speaking of her past condition, she expresses great thankfulness, that Providence should so kindly provide the comforts of life, and make infinitely better her condition as she approaches towards the close of it.</p>
+        <p>She would not return to her former residence on any account, and is highly pleased with the idea of her remaining as she is, until death may finally close this mortal scene with her. She has a nurse, whose sole and only business it is to dress, feed, and take care
+<pb id="heth6" n="6"/>
+of her, who is very kind and attentive, and leaves nothing undone which could make her more comfortable and happy. Her diet consists of a little weak tea and corn bread, with rare cooked eggs, which is served her three or four times a day. Coffee made very sweet is her drink between meals, which is given her as often as she asks for it. She seems extremely fond of animal food, frequently asking for it; and when denied it, telling her the doctors say it is not good for her, she will make as a quick and spirited reply; “I guess I have lived long enough to know what is good for me, as well as the doctors; if I had minded them I should have been dead long ago.”</p>
+        <p>She says that she has never in her life taken any medicine, nor never will.</p>
+        <p>Her greatest temporal enjoyment seems to be contained in her pipe and tobacco, the use of which for the last one hundred and twenty years has been constant. Her general health has been perfectly good, her pulse ranging from sixty-five to seventy; full, strong, and perfectly regular. She is, in her intellect, uncommonly bright; hears and understands perfectly all conversation in her presence; is cheerful and animated in her conversation, when not wearied by company. She takes great interest in conversing with pious persons, upon the subject of religion. She will repeat and sing psalms for hours together, while alone, that were commonly learnt and sung a century and a half ago; converses freely about death, and is willing to
+<pb id="heth7" n="7"/>
+meet it, often saying, “Oh! that the Lord would in his mercy and goodness receive me home quickly.”</p>
+        <p>She has certificates in her possession from some of the oldest and most respectable planters in the section of country where she has lived for the last sixty or seventy years, who without any hesitation give her a most excellent character for truth, honesty, and exemplary piety.</p>
+        <p>The following are some of the certificates she has with her, which she values very highly, and nothing gives her greater trouble than to be informed they will be taken from her:</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>“This may certify, that I was born and have always lived in Bourbon county, Kentucky; that I am now sixty-seven years of age, and ever since my remembrance I have known Joice Heth, the colored woman, now visiting Cincinnati, as being one hundred and sixty-one years old. I have no doubt but this is her correct age, for as early as I can remember, she was totally blind from age, and so infirm as to be unable to do any labor. She was always called in our neighborhood, Aunt Joice Heth. She has ever been celebrated for her piety, and I believe no reward or threat could be offered which would induce her to tell a falsehood. She always since my remembrance was fond of relating anecdotes concerning George Washington, whose nurse she always claimed to be, and I never doubted it myself, or heard it doubted by others.”</p>
+                <closer>
+                  <salute>
+                    <hi rend="italics">Signed in the presence of, &amp;c.</hi>
+                  </salute>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="heth8" n="8"/>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>“This shall certify that I, the subscriber, was born in the town of Paris, in the state of Kentucky. My age is seventy-one years on the 17th of February, 1835. I have ever known Joice Heth, the old colored woman. When I first remember Aunt Joice, as we called her, she was totally blind and unable to work, which must have been fifty-five years ago. It was always understood that Joice was the nurse of George Washington, and slave of his father. She is very religious and honest, and I believe the most implicit confidence may be put in her word, for nothing in my opinion would tempt her to utter a falsehood.”</p>
+                <closer>
+                  <salute>
+                    <hi rend="italics">Signed, &amp;c.</hi>
+                  </salute>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>Within the last two or three years, she has travelled through many the States, visited most of the principal cities, and been seen by multitudes, with perfect wonder and astonishment; no one doubting on seeing her, but that she is what she herself claims to be, the nurse of Washington and 161 years of age.</p>
+        <p>The most learned and scientific men in this country have visited her, and after conversing with and examining her, all without exception, declare her to be the greatest curiosity in the world.</p>
+        <pb id="heth9" n="9"/>
+        <p>In giving the foregoing brief sketch of the life and character of Joice Heth, the writer of this has but one single motive, and that is of charity towards the descendants of this living monument of antiquity.</p>
+        <p>She has outlived all her descendants save five, and they are her great grand-children, who are now held in bondage by a respectable gentleman of Kentucky, who has generously offered to set them free on being paid two-thirds they cost him. This work, together with what may be collected from exhibition, after deducting expenses, is expressly for that purpose, and will be immediately done whenever there can be realized the sum to do it. Two of them are said to be uncommonly intelligent and active, quick to learn, and great favorites of their master. In consequence of his partiality towards them, they have been instructed to read, and have acquired by their assiduous application upon the Sabbath, a knowledge of the scriptures, of which they are very fond to learn. It is designed that they shall be instructed in the glorious truths of the gospel, so as to become fully qualified to teach their poor unfortunate race the true way to future happiness.</p>
+        <p>If such should be the case, the writer of this little work would feel himself amply compensated for all his labor, by the happy reflection of having been instrumental, through the favor of the Lord, in opening a new channel through which might flow freely and effectually to those unfortunate beings, the glorious
+<pb id="heth10" n="10"/>
+blessings derived from the knowledge of the gospel.</p>
+        <p>Persons are now engaged in collecting facts relative to the history of this old woman, which will be published as soon as they can be authentically gathered. </p>
+      </div1>
+      <div1 type="text">
+        <argument>
+          <p>The following are notices, which some of the public journals have taken of her:—</p>
+        </argument>
+        <div2 type="text">
+          <head>
+            <hi rend="italics">From the New-York Sun.</hi>
+          </head>
+          <p><hi rend="italics">Joice Heth.</hi>—The arrival at Niblo's Garden, of this renowned relic of the olden time, has created quite a sensation among the lovers of the curious and the marvellous; and a <hi rend="italics">greater object of marvel and curiosity has never presented itself for their gratification.</hi> From the length of her limbs and the size of the bones, it is probable that she was a large, stout woman, in her day; but now, she comes up exactly to one's idea of an animated mummy. Her weight is said to be less than fifty pounds. Her feet have shrunk to mere skin and bone, and her long attenuated fingers more resemble the claws of a bird of prey than human appendages. The presumed date of her birth is 1674—which would make her age, at the present time, upward of 161!!—Notwithstanding her burden of years and infirmities, she is lively, and seems to retain all her senses wonderfully. Her hearing is almost as acute as that of any person of middle age.</p>
+        </div2>
+        <div2 type="text">
+          <pb id="heth11" n="11"/>
+          <head>
+            <hi rend="italics">From the New-York Evening Star.</hi>
+          </head>
+          <p>The “old one” has arrived, and crowds of ladies and gentlemen have visited her at Niblo's. She is lively, and answers every question cheerfully. From the bill of sale of the old lady from Gen. Washington's father, <hi rend="italics">we can have no doubt that she is</hi> 160 <hi rend="italics">years of age.</hi> Her appearance is very much like an Egyptian mummy just escaped from the Sarcophagus.</p>
+        </div2>
+        <div2 type="text">
+          <head>
+            <hi rend="italics">From the New-York Morning News.</hi>
+          </head>
+          <p><hi rend="italics">Joice Heth.</hi>—This living <hi rend="italics">mummy,</hi> on whose head 161 winters have sprinkled their snows, is now exhibiting at Niblo's Garden. She was born in the year 1674, during the reign of Charles the 2d of England, and Louis 14th of, France, and independently of her great age, she is an object of curiosity and interest to the American public, as having been the nurse of the great Washington.</p>
+        </div2>
+        <div2 type="text">
+          <head>
+            <hi rend="italics">From the New-York Commercial Advertiser.</hi>
+          </head>
+          <p><hi rend="italics">Antediluvians.</hi>—We venture to state, that since the flood, a like circumstance has not been witnessed equal to one which is about to happen this week. Old Joice Heth, whom we mentioned on Friday, holds a drawing-room at Niblo's this day; which is to be continued
+<pb id="heth12" n="12"/>
+till Saturday. Ancient or modern times furnish no parallel to the great age of this <hi rend="italics">woman.</hi> Methuselah was 969 years old when he died, but nothing is said of the age of his <hi rend="italics">wife.</hi> Adam attained nearly the age of his antiquated descendant. It is not unlikely that the sex in the olden time were like their daughters at the present day—unwilling to tell their age. Joice Heth is an exception; she comes out boldly, and says she is rising 160.</p>
+        </div2>
+        <div2 type="text">
+          <head>
+            <hi rend="italics">From the Providence Daily Journal.</hi>
+          </head>
+          <p>Joice Heth, the nurse of Washington, will pass a few days in this city next week. She has been several weeks in New-York, and been visited by thousands of ladies and gentlemen. Joice Heth was born in the island of Madagascar, on the east coast of Africa, in the year 1674, and has consequently now arrived at the astonishing age of <hi rend="italics">one hundred and sixty-one years.</hi> She weighs but forty-six pounds, and yet is very cheerful and interesting, converses freely, sings numerous hymns, relates many interesting anecdotes of the <hi rend="italics">boy</hi> Washington, <hi rend="italics">the red coats,</hi> &amp;c., and, when speaking of her young master, George Washington, says, <hi rend="italics">she raised him.</hi></p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

@@ -1,0 +1,716 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY hoppcv SYSTEM "hoppcv.jpg" NDATA jpeg>
+<!ENTITY hoppfp SYSTEM "hoppfp.jpg" NDATA jpeg>
+<!ENTITY hopp18 SYSTEM "hopp18.jpg" NDATA jpeg>
+<!ENTITY hopp30 SYSTEM "hopp30.jpg" NDATA jpeg>
+<!ENTITY hopp32 SYSTEM "hopp32.jpg" NDATA jpeg>
+<!ENTITY hopptp SYSTEM "hopptp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Narrative of the Life of Thomas Cooper:</emph>
+Electronic Edition.</title>
+        <author>Hopper, Isaac T. (Isaac Tatem), 1771 - 1852 </author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Sarah Reuning</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Sarah Reuning</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Fiona Mills and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     80K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of availability is 
+included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number E444.C66 H6 (Rare Book Collection, University of 
+North Carolina at Chapel Hill)</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Narrative of the Life of Thomas Cooper.</title>
+          </titleStmt>
+          <editionStmt>
+            <edition/>
+          </editionStmt>
+          <extent>    36  p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>New York</pubPlace>
+            <publisher>Published by Isaac T. Hopper</publisher>
+            <date>1832</date>
+            <authority/>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ 
+and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines 
+has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using 
+Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Cooper, Thomas, d. ca. 1821.</item>
+            <item>African Americans -- Maryland -- Biography.</item>
+            <item>Fugitive slaves -- Maryland -- Biography.</item>
+            <item>Slaves -- Maryland -- Biography.</item>
+            <item>Slavery -- Maryland -- History -- 18th century.</item>
+            <item>African American clergy -- Biography.</item>
+            <item>Methodist Church -- Clergy -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-04-05, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-10-12, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-10-12, </date>
+        <respStmt>
+          <name>Fiona Mills</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-10-05, </date>
+        <respStmt>
+          <name>Sarah Reuning</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="hoppcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="hoppfp">
+            <p>The 
+master mounted on his horse driving John before him. pp. 
+7 8.<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="hopptp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">NARRATIVE
+<lb/>
+OF
+<lb/>
+THE LIFE
+<lb/>OF
+<lb/>
+THOMAS COOPER.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>NEW-YORK:</pubPlace>
+<publisher>PUBLISHED BY ISAAC T. HOPPER,</publisher>
+<pubPlace>No. 386, Pearl-street.</pubPlace>
+<docDate>1832.</docDate></docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="hopper4" n="4"/>
+        <head>PREFACE.</head>
+        <p>Many of the circumstances related in the following narrative,
+came under the immediate notice of the writer; the others he had
+from a source which he believes authentic; and however romantic
+many of them may appear, he fully believes them to be correct. He
+was well acquainted with Thomas Cooper, and his family, and can
+testify to his sobriety and general good character, while he resided
+in Philadelphia and its neighbourhood. Thomas was a man of
+more than ordinary talents, and, considering his very limited
+opportunities, they appear to have been well cultivated.</p>
+        <closer>
+          <signed>THE AUTHOR.</signed>
+        </closer>
+      </div1>
+      <div1 type="preface">
+        <p>Entered according to the Act of 
+Congress, in the year 1832, by
+ISAAC T. HOPPER, in the office of the Clerk of the Southern
+District of New-York.</p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="hopper5" n="5"/>
+        <head>NARRATIVE, &amp;c.</head>
+        <p>THOMAS COOPER, the subject of the following narrative,
+was of African descent, and was born a slave in the state of
+Maryland, where he continued to reside until he was about
+twenty-five years old. During his servitude, he experienced many
+hardships, being scantily clothed and fed, and compelled to
+labour very hard, and was obliged to lodge in a little hut, which
+was so open, that it did not shelter him from the cold in winter; but
+although his body was held in cruel bondage, his mind was free,
+and he frequently put up his prayers in secret, to his merciful
+Creator, for deliverance from his sufferings; believing that all are
+the work of one Almighty hand,
+<pb id="hopper6" n="6"/>
+who hath placed them in various situations, and that he was
+disposed to extend equally his care and protection to all.</p>
+        <p>About the year 1800, Notly, (for this was his name while a slave,)
+left his master's service, and went to Philadelphia, and hired with
+M —&amp; E — , who kept a lumber yard, in which he was employed;
+here he conducted with fidelity and industry, and soon gained the
+confidence and esteem of his employers.</p>
+        <p>After some time he married a respectable woman of his own
+colour; they lived together several years in much harmony
+and affection, and were esteemed,
+by their neighbours and acquaintances,
+as orderly and industrious people, until
+a person who had gained the confidence
+of John Smith, (for upon his arrival in
+Philadelphia, he had assumed this name,)
+<pb id="hopper7" n="7"/>
+betrayed him, by informing his master where he was to be found.
+This man soon after came to Philadelphia, and had poor John
+arrested and carried before one of the Aldermen of that city, and
+upon proof that he was a slave, an order was granted to convey
+him back to Maryland.</p>
+        <p>His employers were humane men, and greatly commiserating his
+condition, and sympathising with his wife and children, offered to
+pay a large sum of money for his freedom, that he might be
+restored to them; but no entreaties would avail with his cruel
+master, he was deaf to the voice of pity, and poor John was
+handcuffed, and a rope fastened to each arm across his back,
+to which another was tied, one end of which, the master held in
+his hand; and, mounting his horse,
+<pb id="hopper8" n="8"/>
+rode off, driving John before him. All this took place in the
+presence of his wife and children, who witnessed the horrid
+transaction with the utmost distress.</p>
+        <p>While they were fastening the fetters upon John, he was
+engaged in talking to his wife. He counselled her to take care
+of their children, whom, he said, he wished to remember their
+father; expressing a hope, that by industry and frugality, she
+would be able to keep them at school, until they were old
+enough to be put out, when he wished them placed with
+persons of good character and industrious habits; and he
+cautioned her against indulging them in idleness, saying, that he
+wished her to remember his advice, as it was not likely that they
+would ever meet again. </p>
+        <pb id="hopper9" n="9"/>
+        <p>He then addressed his children, saying, “you will now have no
+father to take care of you; be good children, obey your mother,
+and be sure that you never do any thing to grieve her; don't play
+in the street, or with naughty children—be industrious and
+faithful, in whatever you are set about.”</p>
+        <p>He continued his speech until his master raised his whip, when
+he set out on his journey—his wife and children wept bitterly;
+and, although he manifested great sensibility, he retained his
+composure.</p>
+        <p>John and his wife, by industry and frugality, had acquired a little
+property: they lived in their own house, and had been, for several
+years, enjoying as much comfort as their hearts could desire; but
+in an instant, as it were, all their hopes
+<pb id="hopper10" n="10"/>
+seemed blasted, and they parted in the deepest anguish and
+despair, not expecting ever to see each other's faces again.</p>
+        <p>The writer of this was present at the examination before the
+Alderman, he saw John fettered, and torn from the bosom of his
+wife and children.</p>
+        <p>The circumstances of the case were well calculated to awaken
+feelings of sympathy and tenderness; and at this distant period,
+his sensibility is excited at the recollection of the distressing
+scene; it made impressions which time cannot remove, as long
+as memory lasts.</p>
+        <p>John's wife was now left with four small children to provide for,
+and he was conveyed, in the manner above described, to the city
+of Washington, and there offered for sale to persons who
+bought slaves on speculation, to be transported
+<pb id="hopper11" n="11"/>
+to Georgia, or some other southern market. But even in
+Washington, where slavery is tolerated by the laws, there were
+those who could not, with indifference, behold inhumanity
+like that which this poor slave was doomed to endure, and they
+rebuked his master for his cruelty. This was very unexpected to
+John, and inspired him with a determination to make an effort to
+regain his liberty; for his feelings were acute, and his affections
+warm, although his skin was black.</p>
+        <p>Manacled as he was, he made out to trip up his master's heels,
+and he fell to the ground. John then ran to the woods; but in a
+few hours, he was pursued by his avaricious master, with a
+company he had collected to assist him, and it was not long
+before he was discovered
+<pb id="hopper12" n="12"/>
+concealed in the bushes. As soon as he found that he was seen by
+his pursuers, he ran into a swamp, where he was hunted like a fox,
+until the darkness of the night released him from the chase.</p>
+        <p>He then made the best of his way to the house of a man of his
+own colour, whose sympathy was excited on seeing an innocent
+fellow-being bound with irons and cords, like the worst of
+criminals. This man was an old acquaintance, and knowing
+John's integrity, soon found means to rid him of his fetters, and
+he once more felt himself at liberty. His friend and benefactor
+hastened to set before him the best his table afforded, and after
+taking a hearty meal, for he had eaten but little since he left
+Philadelphia, he again set out for that city; but the journey
+appeared very hazardous,
+<pb id="hopper13" n="13"/>
+as he had several rivers to cross, and expected persons would be
+stationed at the bridges to arrest him; he, however, determined
+to make the attempt.</p>
+        <p>He knew it would not be safe to be
+seen, and therefore hid himself in the
+bushes during the day, and pursued
+his journey in the night. After suffering
+much with hunger and fatigue, he arrived
+safely in Philadelphia, and went immediately
+to see his distressed family; it was
+a joyful meeting: but John well knew
+that he would be again pursued, and could
+not be safe to remain long under his own
+roof; accordingly he left his family, and
+went to the house of a respectable citizen, well
+known as the black man's
+friend, and whom we shall call Philo
+Christian; here he was kindly entertained.</p>
+        <pb id="hopper14" n="14"/>
+        <p>The yellow fever was then in the city,
+and the family had removed into the country, except a coloured
+woman, who remained in the house to attend upon Philo, whose
+engagements required that he should be mostly in the city
+during the day, and not unfrequently during the night also.</p>
+        <p>John was placed in an upper room, the door of which was kept
+fastened. He had been in this place but a very little time,
+before his master, with two constables, came in pursuit of him;
+and Philo being absent, they proceeded to search the house; and,
+on coming to the door of the room where John was, and finding
+it fast, they demanded entrance.</p>
+        <p>In a little time Philo came home, and being informed by the
+coloured woman
+<pb id="hopper15" n="15"/>
+what was taking place, he immediately
+went up stairs, and found the intruders
+consulting how they should gain admittance. Philo
+instantly ordered them out of his house, upon which
+one of the officers replied, “this gentleman's slave is in
+your house, and if you do not immediately deliver him up,
+we will get a warrant from the Mayor to search it.” He again
+requested them to leave his house, and added, “the Mayor
+dare not grant a search-warrant for my house.” They then
+withdrew, and in a few minutes the officer returned, with a
+message from the Mayor, requesting to see him. Philo
+promptly waited upon the Mayor who lived near by, when the
+following dialogue took place.</p>
+        <p><hi rend="italics">Philo.</hi>—Hast thou business with me?</p>
+        <pb id="hopper16" n="16"/>
+        <p><hi rend="italics">Mayor</hi>.—Yes, this gentlemen, (alluding to John's master, who
+was present.) says, his slave is in your house ; is it so?</p>
+        <p><hi rend="italics">Philo</hi>.—I think thou hast just informed me, that this man says
+he <hi rend="italics">is</hi> dost thou not believe him?</p>
+        <p><hi rend="italics">Mayor</hi>.—Well, but I wish<gap reason="damaged page"/>formed by you, whether <gap reason="damaged page"/>
+house or not.</p>
+        <p><hi rend="italics">Philo</hi>.—I think the Mayor, upon little reflection, will see, that
+he has no authority to ask me this question, and of course, I am
+not bound to answer it; if he is in my house, and this man can
+make it appear, I am liable to a very heavy penalty, and no man
+is bound to inform against himself; and the conduct of these
+people has not been so civil that I feel myself under any
+obligations of courtesy to satisfy them. Hast thou further business
+with me?</p>
+        <pb id="hopper17" n="17"/>
+        <p><hi rend="italics">Mayor</hi>.—Did you say that I dare not
+grant a warrant to search your house?</p>
+        <p><hi rend="italics">Philo</hi>.—Indeed I did, and now repeat
+ it, neither thou nor any
+other magistrate in this city; without intending any disrespect
+to those in authority; I am a man of reputation, I am not a
+suspicious character.</p>
+        <p><hi rend="italics">Mayor</hi>.—(Smiling) I don't know that,
+ I am inclined to think,
+in the present case, you are.</p>
+        <p><hi rend="italics">Philo</hi>.—Hast thou any thing 
+further to say to me?</p>
+        <p><hi rend="italics">Mayor</hi>.—I believe not.</p>
+        <p><hi rend="italics">Philo</hi>.—Farewell.</p>
+        <p>The avarice of his master, together with his desire for revenge,
+induced him to pursue every stratagem that he could devise to
+re-capture poor John; and among others, the following was
+resorted to:—one of the party procured a suit
+<pb id="hopper18" n="18"/>
+of clothes, such as are worn by plain Friends—a hat with a
+round crown and broad brim, and a plain coat. Thus attired, he
+made his way to John's house; upon entering, he saw his wife,
+bathed in tears, sitting in their once peaceful and happy cottage,
+with her children round her, the youngest by her side, looking its
+mother in the face, and, by its gestures, seeming to inquire the
+cause of her grief.</p>
+        <p>But all this had no effect to soften the heart of this man, whose
+object was lucre, as a reward for apprehending the unhappy
+fugitive. With affected sympathy and kindness, he inquired
+where John was to be found, saying, that his master was in
+pursuit of him, and he wished to see him, in order to assist him,
+in getting out of the way: but this artifice, although ingenious,
+and must have
+<pb id="hopper19" n="19"/>
+<figure id="ill3" entity="hopp18"><p>Constable in quest of John. p.18</p></figure>
+<pb id="hopper20" n="20"/>
+been attended with some expense and trouble, proved
+unsuccessful; for the woman was on her guard, and declined
+giving him any information, but referred him to her friend
+Philo Christian, as the most suitable person to advise with in the
+case. He became greatly enraged at this disappointment, and gave
+vent to his anger in profane wicked language; declaring, as he
+withdrew, that he would have John, if he was to be found upon
+the face of the earth.</p>
+        <p>John remained under the protection of his friend about a week;
+during most of this time, persons were seen lurking about the
+premises watching for him, but at length they disappeared.
+Supposing they had concealed themselves, a person was procured,
+who, some little time after dark in the evening, suddenly
+ran out of
+<pb id="hopper21" n="21"/>
+the house, where John was; but he had proceeded but a short
+distance, before the apprehensions, which were entertained, that
+the enemy was in ambush, were realized, for they suddenly rushed
+from their hiding places, and seized upon the man that was
+running.</p>
+        <p>Finding that they were mistaken in the person, they released
+him; but John's friend made application to the Mayor, had them
+arrested, and compelled them to enter into bonds for their
+good behaviour. The next evening, the same person went out as
+before, and was not interrupted; the following evening John left
+his hiding-place, and got safely into New-Jersey.</p>
+        <p>Here he hired with a farmer, and, although he was within about
+eight miles of his home, he was in exile from it; he
+<pb id="hopper22" n="22"/>
+remained in this situation several months, during which time, by
+his good conduct, he gained the confidence and esteem of the
+family where he resided. It was their practice on first day
+afternoons, to collect together and read portions of the scriptures,
+and other religious books, and John was permitted to sit with
+them; which he esteemed a great <sic corr="privelege">priviledge</sic>,
+ and often expressed
+his gratitude for the favour; he was also permitted to take his
+meals at the same table with the family. Instead of being elated
+by this familiarity, it made him more humble.</p>
+        <p>After it became known that John had returned to Philadelphia,
+the person who had betrayed him, became greatly alarmed; and
+his fears so wrought upon his imagination, that he frequently
+dreamed
+<pb id="hopper23" n="23"/>
+that he saw John in his house, with a knife in one hand, and a
+torch in the other, and that he was about to kill him and burn his
+house; and he would sometimes cry out in his sleep, and start up
+in his bed; so true is the saying, that, “wickedness condemned by
+her own witness is very timorous, and being pressed with
+conscience always forecasteth grievous things.” But he had no
+cause to fear, John had no desire to revenge the wrong that had
+been done him, for he had learned, that it was not right to render
+evil for evil, but contrawise, blessing.</p>
+        <p>His affliction was great at being obliged to live separated from his
+wife and children, for whose welfare he felt a deep interest: at
+length he ventured to rent a small house, in a retired situation,
+<pb id="hopper24" n="24"/>
+not far distant from the village of Haddonfield. He now hoped to
+be permitted to enjoy the comforts of domestic life unmolested,
+and yet, he was in constant fear of the man-stealers; this often
+interrupted his slumbers in the night, and even when at his work,
+he would startle at the rustling of the leaves; so that he passed his
+days in fear, and his nights were constantly seasons of terror.</p>
+        <p>After some months, the place of his retreat was again discovered,
+and his master came to Philadelphia, with the intention to
+proceed to New Jersey to arrest him. John's friend Philo heard
+of this circumstance, and immediately apprised him of his danger.
+He had already suffered much, and now finding himself again
+pursued, was driven almost to despair, and determined to resist
+by violence. The morning after receiving
+<pb id="hopper25" n="25"/>
+the information, that his master had discovered his place of
+residence, and was coming to arrest him, he rose early, loaded
+his gun, and, with a determined resolution, prepared to defend
+himself.</p>
+        <p>It was not long before he beheld his master, with two other
+persons, advancing along a lane towards his house; he placed
+himself in his door, and, upon their near approach, he called
+out, “don't cross that fence, for the first man does, I will shoot
+him.” So unexpected a salutation, coming from a man with a
+gun in his hand, struck them with terror, and they soon turned
+back to procure assistance.</p>
+        <p>In the meantime John went to Philadelphia, which was within
+about five or six miles of his home, and informed, his friend Philo
+of what had transpired; his
+<pb id="hopper26" n="26"/>
+friend reasoned with him on the great impropriety and
+inconsistency, with the christian character, of putting the life
+of a human being in jeopardy. John seemed to be convinced of
+the correctness of the views of his friend, and therefore resolved
+again to fly for safety; and, with the advice of Philo, concluded
+to remove his family to Boston, in hopes of finding an asylum
+there, where he might live in peace.</p>
+        <p>A vessel was then lying in the river Delaware, which was
+expected to sail for that place in a few days; and the merchant
+who had charge of her, pitying his distress, offered him a
+passage free of expense, which he gratefully accepted; and,
+although he had never been at sea before, he made himself useful,
+and fully compensated the captain for his passage, by his labour.</p>
+        <pb id="hopper27" n="27"/>
+        <p>His friends freely gave him certificates of his good character,
+which he found very useful in procuring employment among
+strangers, and in a few days, after he arrived in Boston, he hired
+with a lumber merchant of that place. Now finding himself in
+circumstances to provide for his family, his employer at his
+request, wrote to Philadelphia, desiring them to come to him;
+his wife accordingly disposed of their property in that city,
+and took the money she received for it, with her children to
+Boston, where she again met her husband.</p>
+        <p>About the time of his leaving New Jersey, he changed his name
+from John Smith, to that of Thomas Cooper, and by this name he
+was always afterwards known.</p>
+        <p>He often noticed and greatly lamented,
+<pb id="hopper28" n="28"/>
+the bad conduct of the people of his own colour, as well as that of
+those of a different complexion. And, with a view of making
+himself more useful, he joined in religious communion with the
+Methodists, and in a short time became a popular preacher
+among them, and visited some of the West India Islands, as a
+minister.</p>
+        <p>After his return from the West Indies, he made a similar visit to
+Nova Scotia. In these places it is said, he was very useful, not
+only by his exhortations, but by his pious example; his religion
+being that of the heart, and not of the head only, his preaching
+had much effect on his hearers.</p>
+        <p>Not long after his return from those visits, he concluded to go to
+Africa, the birth place of his fathers, and, for this purpose took
+shipping with his family,
+<pb id="hopper29" n="29"/>
+and safely arrived in London, the metropolis of Great Britain. He
+was received with much kindness by a number of philanthropists,
+who were made acquainted with him, and the object of his visit,
+and his children were placed at school, at the expense of a
+Friend in London, well known as a benevolent man, and a friend
+of the afflicted. Thomas Cooper soon became a man of much
+note, and preached to large congregations in that city. While there,
+he made a selection of hymns, which were published in a large
+duodecimo volume, and his friends had his likeness placed in the
+book, as a frontispiece.</p>
+        <p>After remaining about a year and a half in London, a passage
+was procured for him and his family, to Africa, as appears by a
+note in the hands of the publisher,
+<pb id="hopper30" n="30"/>
+of which the following is a copy
+viz:—</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>J ——  
+A ——  , informs his friend
+Thomas Cooper, that he has this day
+paid for the passage of T. C. and family
+to Sierra Leone, per the Echo, Captain
+Row. The vessel is not expected to sail till the third
+week in this month.</p>
+                <closer><dateline>34, Gracechurch-street.
+<date>10<hi rend="italics">mo</hi>. 3<hi rend="italics">d</hi>, 1818.”</date></dateline><signed>THOMAS COOPER,</signed>
+Borough.</closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>Thomas Cooper remained in London rather more than a month
+after the date of the above note.</p>
+        <p>When about to take his departure from London, for Sierra Leone,
+he had a meeting, at which, it is said, there were several thousand
+persons. On this occasion the following advertisement was
+published in hand bills, viz:—</p>
+        <pb id="hopper31" n="31"/>
+        <p>
+          <figure id="ill2" entity="hopp30">
+            <p>Thomas Cooper's farewell address to his friends in London. p. 30.</p>
+          </figure>
+        </p>
+        <pb id="hopper32" n="32"/>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <p>
+                  <figure id="ill1" entity="hopp32">
+                    <p>THE<lb/>
+REV. T. COOPER,<lb/>
+<lb/>
+THE AFRICAN,
+<lb/>
+Will preach his
+<lb/>
+FAREWELL SERMON,
+<lb/>
+TO HIS FRIENDS IN THIS QUARTER,
+<lb/>
+ON
+<lb/>
+TUESDAY NEXT,
+<lb/>
+NOVEMBER 3d, 1818.<lb/>
+<hi rend="italics">At half past 6 o'clock in the Evening,</hi>
+<lb/>
+AT THE MEETING IN
+<lb/>
+BROWN'S LANE,
+<lb/>
+SPITALFIELDS,
+<lb/>
+PREVIOUS TO HIS DEPARTURE ON
+<lb/>
+HIS MISSION TO AFRICA
+<lb/>
+<lb/>Bertrand, Printer, 22, Green-street, Bethnal Green.
+</p>
+                  </figure>
+                </p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="hopper33" n="33"/>
+        <p>Soon after this meeting, Thomas, with his wife and children,
+sailed for Africa, and arrived at Sierra Leona, after enduring
+many hardships on the passage, in consequence of tempestuous
+weather.—They were cordially received by the inhabitants, his
+fame having reached there before him.</p>
+        <p>How different now were his feelings, from what they were,
+when in his own country. There, in continual dread of being
+torn from his family and friends, and of being reduced to the
+most degrading and abject slavery; now, enjoying,
+without fear of molestation, the sweets of liberty, in the bosom
+of his family, and among his friends, who rejoiced in having such
+an acquisition to their colony. He immediately entered upon the
+object of his mission, and had
+<pb id="hopper34" n="34"/>
+meetings among the people—all classes flocking to hear him.</p>
+        <p>But this happy state was of but short duration, for Thomas had not
+been more than two or three years in Africa, before he was taken
+ill with the fever, which has so often proved fatal to strangers in
+that hot climate, and fell a victim to it. His wife and children, by
+this afflicting, event, were again left destitute, and that too, in a
+land of strangers; but with the consoling reflection, that it was a
+dispensation of Providence, which had bereaved them of a
+husband, a father, a protector, and a friend; and although, the
+separation was painful, yet the survivors had comfort in
+the reflection, that he was now gone to a state of happiness,
+where the voice of the oppressor is heard no more.</p>
+        <pb id="hopper35" n="35"/>
+        <p>Perhaps few men have ever lived, who
+experienced greater changes in their condition
+in life, than the person whose
+history we have been writing; we have
+seen him a poor menial, suffering for the
+want of food and raiment, exposed to
+cold, and writhing under the lash of the
+tyrannical slave driver; again, we see
+a minister of religion, pleading with the
+people to forsake the evil of their ways
+and <sic corr="showing">shewing</sic> in his life, and by his own
+example, how far superior a life of virtue
+and integrity is, to that of vice and crime.
+The consequences of the latter, are always
+disgrace and misery; while the sure reward of
+the former, is the favour and applause of the wise and good,
+and in the end quietness and assurance forever.</p>
+        <pb id="hopper36" n="36"/>
+        <p>After the death of Thomas Cooper,
+his wife and children returned to London,
+and from there to Philadelphia.</p>
+        <lg type="poem">
+          <l>“Judge not the Lord by feeble sense,</l>
+          <l>But trust him for his grace;</l>
+          <l>Behind a frowning Providence,</l>
+          <l>He hides a smiling face.</l>
+        </lg>
+        <lg>
+          <l>“His purposes will ripen fast,</l>
+          <l>Unfolding every hour;</l>
+          <l>The bud may have a bitter taste,</l>
+          <l>But sweet will be the flow'r.”</l>
+        </lg>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

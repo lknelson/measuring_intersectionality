@@ -1,0 +1,761 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY nichofp SYSTEM "nichofp.jpg" NDATA jpeg>
+<!ENTITY nicho33a SYSTEM "nicho33a.jpg" NDATA jpeg>
+<!ENTITY nicho33b SYSTEM "nicho33b.jpg" NDATA jpeg>
+<!ENTITY nicho60a SYSTEM "nicho60a.jpg" NDATA jpeg>
+<!ENTITY nicho60b SYSTEM "nicho60b.jpg" NDATA jpeg>
+<!ENTITY nicho17 SYSTEM "nicho17.jpg" NDATA jpeg>
+<!ENTITY nicho45a SYSTEM "nicho45a.jpg" NDATA jpeg>
+<!ENTITY nicho45b SYSTEM "nicho45b.jpg" NDATA jpeg>
+<!ENTITY nicho72a SYSTEM "nicho72a.jpg" NDATA jpeg>
+<!ENTITY nicho72b SYSTEM "nicho72b.jpg" NDATA jpeg>
+<!ENTITY nicho53 SYSTEM "nicho53.jpg" NDATA jpeg>
+<!ENTITY nichotp SYSTEM "nichotp.jpg" NDATA jpeg>
+<!ENTITY nicho85 SYSTEM "nicho85.jpg" NDATA jpeg>
+<!ENTITY nichovs SYSTEM "nichovs.jpg" NDATA jpeg>
+<!ENTITY nichocv SYSTEM "nichocv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Brief Sketch of the Life and Labors of Rev. Alexander Bettis. Also an Account of the Founding and Development of the Bettis Academy:</emph>
+Electronic Edition.</title>
+        <author>Nicholson, Alfred William, 
+1861-</author>
+        <funder>Funding from the National Endowment for the Humanities and The Gladys Krieble Delmas Foundation
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Ellen Decker </name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Apex Data Services, Inc, Elizabeth S. Wright and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, 
+<date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.  140K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Brief Sketch of the Life and Labors of Rev. Alexander Bettis. Also an Account of the Founding and Development of the Bettis Academy</title>
+            <title type="cover"> Rev. Alexander Bettis</title>
+            <author>Alfred W. Nicholson</author>
+          </titleStmt>
+          <extent>92 p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Trenton, S. C.</pubPlace>
+            <publisher>Published by the Author</publisher>
+            <date>1913</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number   922.6 B565N  (Divinity School Library, Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African American Baptists -- South Carolina -- Biography.</item>
+            <item>African American clergy -- South Carolina -- Biography.</item>
+            <item>African Americans -- Education -- South Carolina.</item>
+            <item>African Americans -- South Carolina -- Biography.</item>
+            <item>African Americans -- South Carolina -- Religion.</item>
+            <item>Bettis Academy (Aiken County, S.C.)</item>
+            <item>Bettis, Alexander, 1836-1895.</item>
+            <item>Nicholson, Alfred William, 1861-</item>
+            <item>Slavery -- South Carolina -- History -- 19th century.</item>
+            <item>Slaves -- South Carolina -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-11-19, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-01-09, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-01-05, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-01-29, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="nichocv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece image">
+        <p>
+          <figure id="frontis" entity="nichofp">
+            <p>REV. ALEXANDER BETTIS<lb/>[Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="nichotp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso image">
+        <p>
+          <figure id="verso" entity="nichovs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">BRIEF SKETCH <lb/> OF THE <lb/> LIFE AND LABORS <lb/> OF <lb/> REV. ALEXANDER BETTIS</titlePart>
+          <titlePart type="subtitle">Also an Account of the Founding <lb/> and Development of <lb/> THE BETTIS ACADEMY</titlePart>
+        </docTitle>
+        <byline>BY</byline>
+        <docAuthor>ALFRED W. NICHOLSON</docAuthor>
+        <docImprint><pubPlace>Trenton, S. C.</pubPlace>
+<publisher>Published by the Author</publisher>
+<docDate>1913</docDate></docImprint>
+        <pb id="nicho2" n="verso"/>
+        <docImprint>
+          <publisher>COPYRIGHTED IN 1913 <lb/> BY ALFRED W. NICHOLSON.</publisher>
+        </docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="nicho3" n="3"/>
+        <head>PREFACE.</head>
+        <p>All circumstances considered, the Negro race has made, and through its leaders is now making, history most creditably. A defect, from which the race suffers much, arises out of the fact that so little effort has been made to record and preserve the creditable history which the race has already made. These things ought not so to be. For the day will come when the future historian, observing our advancement, will desire to know the sources, the quality and quantity of the causes, that have combined to determine the trend of our civilization, and have conspired to develop and bring to pass the flattering attainments which are yet to be racially ours. And when that time comes—and come it will—the ante bellum Negro of force and character will then receive a consideration much greater than is now considered is due him. When this type of Negro shall more nearly come into his own, nowhere in this Southland will a character be found more worthy and deserving of consideration than the man who is the subject of this sketch.</p>
+        <p>As truly as God called Moses to lead the 
+<pb id="nicho4" n="4"/>
+children of Israel at that most critical period of their history—as truly as Paul was divinely chosen to stand on Mar's Hill and confound, by unanswerable arguments, the skepticism and atheism of that day, so truly have events shown that our subject was guided by a Higher Power in his leadership among the negroes of Edgefield and Aiken counties, South Carolina. Upon what other hypothesis can the quantity and quality of the work he accomplished be explained?</p>
+        <p>Himself denied the advantages of education, why should he, in the face of strenuous opposition, have so labored for educational advantages among his people, that a Christian institution of learning came into existence, and yet exists, to lift up a standard of religious excellence and civic righteousness? Denied the training by which logicians are trained, how else can we explain how he became possessed of such persuasive arguments, that thousands of people abandoned their ways of sin, and became active, sacrificing workers in the effort to have others know Him whom to know is life eternal? With no insight into human nature, and no knowledge of the laws of cause and effect greater than that which 
+<pb id="nicho5" n="5"/>
+slavery taught, how and by what means did he become such a sane and safe leader and adviser of his people, contributing so largely to the amelioration of race friction, and the establishing of peace and harmony, at a time when race prejudice gave promise of doing its worst?</p>
+        <p>To answer these questions no effort is here and now made. Our aim will be rather to show how great a debt of gratitude, both the white and colored people owe this most unique character, and how they can best liquidate that debt by helping to foster the Bettis Academy, which is so pregnant with opportunities of furthering the same altruistic lines, the work for the uplift and betterment of all the people which was so well begun by Mr. Bettis.</p>
+        <p>For that purpose and to that end this brief sketch of the life and career of the Rev. Alexander Bettis, and an account of the founding and development of Bettis Academy is here given.</p>
+        <closer>
+          <signed>A. W. Nicholson.</signed>
+        </closer>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="nicho6" n="6"/>
+        <head>REV. ALEXANDER BETTIS.</head>
+        <p>In ante bellum days, during slavery, there lived not far from Trenton, in Edgefield county, South Carolina, an aristocratic, cultured and very wealthy family of white people whose name was Bettis. They owned a negro man of unadulterated African extraction, who by permission of his owners, became the father of a child by a negro woman who belonged to and lived on the plantation of Colonel John Fair. The child was named Jack, and although he was the property of Col. Fair, he ultimately chose for his paternal inheritance the name of Bettis. During slavery, as well as in the after years of freedom, he was known as Jack Bettis.</p>
+        <p>Now the Widow Jones, whose plantation was near Trenton, had among her negro slaves a beautiful mulatto girl whose father was not a negro. The girl was known as Annis Jones. By the consent of the owners concerned, Annis Jones became the wife of Jack Bettis. Of this union there was born, August 4, 1836, a little negro boy, the frequency and volume of whose lusty yells gave ample evidence of the
+<pb id="nicho7" n="7"/>
+fact that he did not then have, and likely would never have, the consumption. To this their first offspring, the fond, admiring parents gave the name Alexander. And though it was the custom for the negroes to have the name of their owner, and though this diminutive Alexander was the property of the Widow Jones, yet his indulgent owner allowed him to be known as Alexander Bettis.</p>
+        <p>It is worthy of record that when the kind-hearted Widow Jones saw, for the first time, her newly acquired property, the diminutive Alexander, the child gave abundant evidence of the soundness of his lungs and thereby caused his mistress to remark, facetiously, “He shall be a Baptist preacher, and shall lead many negroes to serve the Lord.” How prophetic! Little did she dream that the diminutive bundle of flesh she then tenderly handled, was destined in his day and time to be a gospel power in the land; a moral, religious, educational and civic leader of his people; a man well meriting, and to whom would be unreservedly given, the confidence, esteem and praise of even the wealthy, cultured white people. But that such an unpromising, though desirable, condition would obtain, the following 
+<pb id="nicho8" n="8"/>
+narrative is intended to, and will unquestionably show.</p>
+        <p>As soon as he could walk well, little Alex. would make frequent visits from his mother's humble cabin to the “big house,” where his mistress lived and, in which, as a housegirl his mother was regularly employed.</p>
+        <p>It is not out of place to state here and now that during the days of slavery there were an innumerable host of wealthy, cultured white women who gave their slaves a love and care that were well nigh paternal. To this class of humane women, the owner of young Alex. belonged, and in the matter of kindness to her slaves she had few equals and absolutely no superior. In fact, so marked were the kindness and indulgence shown by her to her slaves, they were often referred to as “the Widow Jones' free niggers.” And the whole truth will not have been told were the fact not stated that at no time was her authority ever questioned, or her commands responded to with disobedience or even indifference. And when freedom had come—even until the angels had borne her spirit to its eternal, heavenly home, the relation of Widow Jones and her former slaves remained 
+<pb id="nicho9" n="9"/>
+practically unchanged. They remained the loving dependents, and she the generous, indulgent benefactor.</p>
+        <p>It was to the loving concern and care of such a mistress, rather than to the teachings of his mother, that the excellent training of young Alexander was due. And here is reason to believe that his aptitude, his ready responsiveness and his well nigh worshipful obedience increased and sustained his owner's interest in. him. For, it is a fact that while the lad had early learned how to teach a sleepy-eyed Georgia mule the geometrical fact that a straight line is the shortest distance between two given points, and while his manipulation of an ordinary hoe was truly scientific yet, for the most part, his service, during his boyhood was rendered in and around “the big house” in which his mistress lived. And because of certain traits which the lad manifested his mistress gave him the name of “honest Aleck,” which name clung to him throughout his long and eventful life.</p>
+        <p>Though it was, at the time, against the laws of the State of South Carolina for a slave to be taught to read, yet young Aleck, while still a mere child, had actually learned to read and, 
+<pb id="nicho10" n="10"/>
+incredible as it may seem, it was his kindhearted mistress who taught him to do so. Although the lad was never able to write, yet it was the fact that he was able to read that contributed so largely to his recognition as a leader for and among the people immediately after Emancipation. Little did that kind-hearted white woman have occasion to think that the training she was giving her insignificant slave was preparing him to be a veritable leader for his people, when, because the restraints of slavery had been removed, leadership would be sadly needed by them. Truly</p>
+        <q direct="unspecified">
+          <lg type="poem">
+            <l>“God moves in a mysterious way </l>
+            <l>His wonders to perform.”</l>
+          </lg>
+        </q>
+        <p>But such was the case. For by recognizing the lad's unusual abilities, and by allowing her kind disposition to give expression to itself in the giving of special training to him, she was preparing thereby a mighty factor for the glory of God through the uplift and betterment of the lowly negro, and she was developing, moreover, a positive protection to her own people through the gratitude this trained negro ever had for his mistress and, because of her, all of her class. For when the untutored host of negroes 
+<pb id="nicho11" n="11"/>
+would likely have confused the term liberty with license, and been easily influenced to believe that “might makes right,” it was the thoughtful negro whose gratitude, to former master or mistress, caused him to interpose in behalf of the white people. And why, one would be tempted to ask, do not the white people of the South today read the negro's gratitude as expressed in his fidelity in the hours of temptation during the past, and make sure of his fidelity in the ordeals that are yet to come by increasing the occasions for his gratitude through and because of justice and increased kindness shown in the present? A sane and righteous answer to that question, put into vigorous living, would settle for the best good and contentment of all the white people and all the negroes each and every ill growing out of the question of race. What enabled Christ to say, “And I, if I be lifted up, will draw all men unto me?” Was it not the concern shown for even his enemies, causing him to pray for rather than abuse them? Anyway, the principle thus exhibited on the cross and the negro's responsiveness to kindness, racially speaking, combine to convince even a casual observer that the Southern white people
+<pb id="nicho12" n="12"/>
+have nothing to lose by materially concerning themselves in the negro's mental, moral and religious uplift, and general prosperity. The life of the subject of this sketch emphatically teaches that fact.</p>
+        <p>Augusta, Ga., which was about 25 miles from the plantation of Widow Jones, was the market place for that entire neighborhood. To this, honest Aleck was often sent by his owner and, with her permission, by various neighbors on errands both to sell and to buy. On all such occasions, in each and every case, the lad's judgment was considered proverbial, his honesty unquestionable. Finally, though a slave, he was entrusted with a team, and empowered to go forth, get orders for and deliver and receive payment for the fine grade of lumber which was the output of the mammoth saw mill on the plantation of his owner. These trips often caused him to go across Georgia into more distant parts of Florida. His business sagacity, at all times, proved satisfactory to his owner, and she had, on no occasion, any reason to feel that she had misnamed him when she called him “Honest Aleck.”</p>
+        <p>The draft which the war was making on the white men of the South caused their number 
+<pb id="nicho13" n="13"/>
+to be so materially lessened that Mrs. Jones found it convenient to make “Honest Aleck” practically manager of her vast saw mill interests, and overseer of her various plantations. In that capacity he  served so faithfully and well that freedom made no change in the service he was rendering his owner. In fact, he continued so to serve until that last, long sleep, from which no rude awakening ever comes, had claimed his mistress for its own.</p>
+        <p>Talk about home mission work. While the world has not as yet awakened to the fact, perhaps it will one day come into a realization that the most stupendous and unselfish mission work of which there is any record was that which the white women of the South—women of wealth and culture—did in the lowly cabins, to give the untutored, not over receptive mind of the humble slave, a working knowledge of the true, yet invisible God, and of His Christ.</p>
+        <p>Among the class of noble, heroic women, the Widow Jones occupied no insignificant place. And among her slaves, to whom she gave instruction in matters religious, his aptitude and earnestness having warranted it, none received more attention than did “Honest 
+<pb id="nicho14" n="14"/>
+Aleck.” As a result of her earnestness he, in early manhood, came into a realization of sins pardoned and soon afterwards was baptized into membership in the aristocratic First Baptist Church (white) of Edgefield, C. H.</p>
+        <p>Though a slave, his regular and punctual attendance at appointed worship, his quiet, unobtrusive attentive demeanor, his general integrity and reputation for truthfulness and honesty, gained for him a conspicuous place in the knowledge of the preponderant white membership, and among the negroes generally he was well nigh reverenced. In consequence, when, during the war, it was deemed advisable to have a negro exhorter for the slaves, in that section in which Widow Jones' plantation was located, the Rev. Dr. Luther Gordon, pastor of the Baptist church, recommended to the church that “Honest Aleck” be set apart to the gospel ministry, and licensed to preach. Without hesitation or quibble the recommendation was adopted, and the license unanimously granted. And he at once began to preach. Such were the white people's confidence in his honesty of purpose, sincerity, and common-sense that they encouraged rather than hindered their slaves to attend whenever and wherever 
+<pb id="nicho15" n="15"/>
+“Honest Aleck” would hold services. Well worth recording, and wonderful to relate, it was not an infrequent occurrence for a number of the slave owners to be found at the services conducted by “Honest Aleck.” And invariably they gave most respectful hearing to his wonderful, yet simple, religious epigrams, so well suited to the needs and understanding of the humble negro auditor.</p>
+        <p>Now there is no such thing as chance, except in novels and other books which people of shallow minds write for people of minds more shallow to read. Things do not just happen so. The life of races and the trend of nations obviously teach that fact—and the further fact that, even though slow and imperceptible it may be, the prayer, “Thy kingdom come,” is daily being more nearly realized and tends to give undoubted assurance that the kingdoms of this world shall become the kingdoms of our God, and that our Christ shall be lord of lords and king of kings. History which concerns us witnesseth as it shown by the following:</p>
+        <p>The white race, already the dominant race on earth, had occasion to desire surroundings more congenial for the fuller realization of its 
+<pb id="nicho16" n="16"/>
+conception of liberty. It longed for, sought after and both found and peopled a new land—the American continent. In time the negro came also, without having his wishes consulted in the matter or without requiring him to pay the expense of his transportation. And why should it strain the imagination to account for this seeming contradiction in putting thus together the admittedly dominant and most progressive race with the most backward and unprogressive race of all history. Subsequent events undeniably furnish an answer:</p>
+        <p>The white race needed the enlarged soul and broader humanitarianism which the fostering care of ignorant dependents would give. The negro needed a practical, working knowledge of God, the true, eternal—a knowledge of the English language, and the information which a knowledge of that language would bring—needed habits of industry, thrift, economy—a knowledge of tools, machinery and skill in their manipulation. He needed these and their allied benefits. Whether we condemn or apologize for American slavery, it confessedly served a far-reaching purpose, and ultimately unspeakable good—good to the negro in that, through the sufferings, hardships and rigid
+<figure id="ill1" entity="nicho17"><p>MAIN SCHOOL BUILDING, CHAPEL AND RECITATION ROOMS</p></figure><pb id="nicho17" n="17"/>
+discipline of the system, he received thereby far more than he gave—good to the white man in that though he lost much that was transient, he gained far more that was advantageous and lasting.</p>
+        <p>True, purely mercenary motives caused the white man to introduce and foster the iniquitous system whose termination found him poorer, by far, than he would have been had no such system been introduced. The time and the circumstances under which the system was fostered, and especially its forceful and drastic termination, have all combined to give the American people predominance over all other nations in matters of equity, justice, liberty and the pursuit of happiness. Are we not far enough removed from the days of American slavery to see that He who makes the wrath of men to praise Him permitted the mercenary motives of the white man to introduce and foster the system and, in consequence, to reap, in harmony with divine law, full measure of what he had sown? For, for every dollar that was gained through and by means of the negro as a slave, five times as much was consumed in the expense and outcome of the war. For every drop of blood 
+<pb id="nicho18" n="18"/>
+which was drawn from the negro's back, unmercifully lacerated by the overseer's lash, an equal quantity or more was given, because of the system, from the veins of America's most chivalrous. For every heart ache caused by separation of mother, father, child or other loved ones on account of the auction block, heart aches in increased numbers and quality were experienced by the American white people, through and because of the separations caused by the war.</p>
+        <p>When will the negro—when will the white man learn from the facts of American slavery the lessons which are so applicable to our conditions of the present day? When will the negro learn that ignorance and weakness, as well as wickedness, on his part must be racially atoned for? When will the white man learn that his superior education and moral, religious and civic ideals place upon him obligations of sympathy, patience, tolerance, justice and helpfulness to and for the less fortunate negro?</p>
+        <p>As a Christian nation, it should be realized by negro and white man that, by failure to contribute the fulfilment of an obligation, due an individual, his own, or the other race, one may 
+<pb id="nicho19" n="19"/>
+delay though he cannot ultimately prevent the realization of the prayer, “Thy kingdom come.” For to its realization, the sovereignty of God, and the deity of Christ are pledged.</p>
+        <p>No unfounded optimism but some recent facts strengthen the belief and fortify the assurance that even now, though slowly but nevertheless surely that prayer, more and more, is being realized. Witness:</p>
+        <p>Sixty years ago, in South Carolina, in any white church of any denomination, men of deep piety and positive Christian life would stand in the sacred rostrum and preach to men and women of culture, piety and moral ideals, that human slavery was right. This view they would augment with the fact that Abraham, Job and other Biblical characters, whose lives were approved, held slaves. And it was further argued that slavery was rampant when Christ was on earth, that there were often slaveholders among the crowds he at times addressed, that had the system been in defiance of divine law Christ would have spoken against it, a thing he did not do. But Christ had said, “Whatsoever ye would that men should do to you, do ye even so to them.” It is manifestly true that no one would desire to be 
+<pb id="nicho20" n="20"/>
+held a slave. It is therefore obviously true that no one could morally hold a slave. It was this truth, in the last analysis, that brought freedom about. But today in any white pulpit, anywhere in South Carolina, any minister who would dare assert that human slavery is right would find himself repudiated as a minister of the gospel. Why? Because God's will is more nearly being done on earth.</p>
+        <p>Sixty years ago it was a law in South Carolina that were a negro to be caught making effort to learn to read, his master was required to cut off both his thumbs so that the given negro would be deterred from such immoral pursuits, and other negroes would be duly warned thereby. Today the grandchildren of those very lawmakers are serving as school commissioners in all parts of the State and are issuing certificates to negro men and women to enable them to be paid out of the public treasury for teaching to read the grandchildren of the ones whose fingers were cut off for desiring to learn. Account for the change! Why Christian civilization is advancing. God's will is more nearly being done on earth. The truth is gradually dawning upon the thoughtful white people that ignorance is a 
+<pb id="nicho21" n="21"/>
+curse and a hindrance to any community, be the ignorance in black skin or a white one. An increasingly large number of negroes are themselves convinced, and are daily convincing others, that the salvation and hope of the race is to be found in the strenuous upholding of law and order and in the fulfillment of all the conditions of a sober, industrious law-abiding citizen. To the leaders of both races, the truth is becoming more nearly apparent that the best good of each is wrapped up in the common interests of both. An advanced civilization, progress and prosperity await the grasping of this conception by a larger number of negroes—by a larger number of white people.</p>
+        <p>Such conditions being necessary that results so desirable may obtain, it is indeed wonderful that the subject of our sketch, with such limited advantages, should have comprehended such far-reaching truth and have done so much towards impressing the conviction upon others, and all at the time in which his work for the most part was done.</p>
+        <p>Freedom came. And with it there was a general rearrangement of things. But “Honest Aleck,” with a rare loyalty, remained on 
+<pb id="nicho22" n="22"/>
+the plantation of his mistress and continued to look after and further her interests.</p>
+        <p>To the reader who does not already know, the following explanation concerning negro religious worship will not be without interest:</p>
+        <p>It is a fact, and there seem to be psychological as well as physical reasons for it, “that warm climates are highly conducive of emotionalism. The native African had for countless generations been resident in one of the warmest climates on earth. In his native land he, like all tribes, however ignorant, worshipped a god,” but it was a god of his own creation, an image of wood or of stone. His method of worship was to sing, chant, dance, cavort around his god. The African was suddenly seized and brought to America, where, though a slave, he was taught by the earnest Christian white women of the South concerning the true, the living God. Under this helpful instruction, the slave changed the object of his worship, but not the method. In consequence while he was allowed to attend, and was even encouraged to become a member of, the church which his owners attended, still his religious nature was unsatisfied. There was not enough “spirit” or enough fervor and emotionalism. 
+<pb id="nicho23" n="23"/>
+He attended the church of his master, but it was the plantation prayer meeting, where he could sing loud and shout much, that gave him the greater enjoyment.</p>
+        <p>So when freedom came, that desire for emotional demonstration in his worship was yet one of the negro's dominant characteristics. Even to this day it exists, the graveyard and the school-room being the only effective cure. In consequence, while as a rule the white people did not require on even request the negro to sever his connection with the white church, yet, except in isolated cases, it was one among the first things he chose to do.</p>
+        <p>Seventeen negroes of the white Baptist churches in the section contiguous to Edgefield, C. H., procured their letters and earnestly requested “Brer” Bettis to be their spiritual leader. In order to do so, he went before the association to which the church of which he was a member belonged, and requested that they ordain him for the work of the gospel ministry. They promptly refused to do so. At the next annual session he made the same request, and in the same like manner was refused, the committee to whom the matter was submitted reporting: “The matter of conducting 
+<pb id="nicho24" n="24"/>
+prayer meetings may be entrusted to some negroes, but we cannot afford to have them ‘mommick’ up the gospel—a thing they cannot help doing if empowered to preach.” And though the committee's report was adopted, it was not unanimously done. The preachers who were of the locality from which Bettis came, and in which he had lived and preached, were very much in favor of ordaining him. In consequence, after the association had adjourned, the Rev. Josiah Matthias, the Rev. Samuel Murphy, the Rev. John Mealing and the Rev. Joseph Tolbert, a negro preacher of Augusta, who had but recently been ordained by the white Baptists of Georgia, these four met at a point ten miles west of Trenton, with Bettis and the seventeen negroes above referred to, organized the Mt. Canaan Baptist Church. Then at the request of this newly organized church, they proceeded to ordain Bettis to the gospel ministry. A meeting out under the open heavens, on the very spot where he now lies buried, the ordination took place. The Mt. Canaan Church immediately chose for its pastor the Rev. Alexander Bettis.</p>
+        <p>The Rev. A. Bettis was the only ordained negro Baptist preacher at that time in the 
+<pb id="nicho25" n="25"/>
+whole of Edgefield, Saluda, Greenwood and Aiken counties. As there was a general disposition among the negroes to withdraw from the white churches and worship God under their own vine and fig tree, the Rev. Bettis was kept exceedingly busy organizing churches and ordaining men to preach to the churches so organized. Because of a scarcity of ordained preachers, he was the pastor of as many as ten churches at one and the same time, preaching at any one of them as often as by his own appointment he could arrange to do so. In  all, Mr. Bettis organized more than forty churches, serving four of them continuously from the time of their organization until his death. These four churches were Mt. Canaan, Shaw's Creek, Jeter and Pleasant Grove respectively. A brief sketch of each of these is given elsewhere. And be it remembered that while Mr. Bettis narrowed his services officially to the above mentioned four churches, yet by common consent he was, until his death, in some way related to each church he organized. The idea seemed to prevail throughout the realm of churches that a funeral had not been properly preached nor a marriage ceremony properly performed unless it were done by the
+<pb id="nicho26" n="26"/>
+Rev. A. Bettis. So in addition to his own pastoral work, he was kept going continually, preaching at funerals, performing marriage ceremonies, assisting in revival meetings, lecturing, etc. To accomplish his itinerancy he kept two buggies and two excellent horses continuously busy.</p>
+        <p>Although the Rev. Bettis could read, as has been said, he never learned to write. Still he understood and appreciated the importance of education, so while giving much labor to the work of organizing churches, he organized an educational union, the membership of which should be composed of the pastors and representatives of the different Baptist churches, the purpose of which would be to raise money with which to foster education within the bounds of the union. The union was to meet on Saturday before every fifth Sunday in the year. It finally had fifteen ordained ministers among its membership and $300 in the treasury. Rev. A. Bettis was moderator; Rev. G. A. Morgan, secretary; Austin Jones, treasurer.</p>
+        <p>At a meeting of the union at China Grove the ministers strenuously advocated the division of the money on hand among themselves 
+<pb id="nicho27" n="27"/>
+for the purpose of enabling them to go to school. This Bettis as strenuously opposed. He held that they should instead establish a school which the union should maintain and to which the young people generally should have access. Over this difference confusion ensued, during which Mr. Bettis yelled above the dim, “All you who favor establishing a school with this money instead of wasting it on us preachers who are already on the verge of the grave, I want you to meet me tomorrow at the Pleasant Grove Church.” The secretary remained with the China Grove faction. The moderator and treasurer were next day at Pleasant Grove Church, where the Mt. Canaan Educational Union was duly organized. Action was then and there taken by which 27 acres of land at $3.00 per acre was bought for the purpose of establishing and maintaining thereon an academy. The balance of the money on hand was set aside for the purchase of lumber for the erection of necessary buildings.</p>
+        <p>At the same time, seeing the need of having somebody sufficiently trained and in sympathy with the work to carry it on when it should have been launched, he caused a number 
+<pb id="nicho28" n="28"/>
+of the more promising young men to be chosen, sent away to and supported in some of the higher and better schools then extent for the education of negroes.</p>
+        <p>Prominent among these was Hampton Matthias and Alfred W. Nicholson, who were sent to the Schofield School at Aiken and later to the Atlanta University, at Atlanta, Ga.</p>
+        <p>In the meantime, Mr. Bettis had been sued by the former Educational Union. But without employing or even consulting a lawyer, he easily won the case, having shown conclusively that there had been no “misappropriation of funds,” as was charged.</p>
+        <p>On the following Fourth of July (1881), according to arrangements previously made, a vast crowd assembled on the academy ground. Trees were then and there cut to make a clearing, upon which site a building was to be erected; money for the furtherance of the project was raised by voluntary contributions, and confidence in the undertaking was greatly revived, so much so that in the following six months a school building admirably suited to its proposed needs had been erected, which building was dedicated January 1st, 1882. On that day also the school was formally opened.</p>
+        <pb id="nicho29" n="29"/>
+        <p>Ever since then, this anniversary and other occasions bring large crowds to the academy, but it is understood and a fact widely known that the Fourth of July and the first day of January are big days at the academy. And the people do come! From eight to ten thousand is the usual attendance, a representative number of the best white people of the section invariably being present. It is well known that profanity, drunkenness, or rowdyism in any form, to any degree, would not for a moment be tolerated. In consequence, there is none.</p>
+        <p>On these above-mentioned occasions able speakers, both white and colored, are secured. All these addresses, to which respectful attentive hearing is given, are delivered on subjects whose purpose it is to be racially helpful along the line of thrift, economy, appreciation of opportunities, progress and general uplift. On each and on every one of these occasions a rally in some manner is conducted for the raising of money with which to carry on the work of Bettis Academy. Their poverty considered, a predominance of a lack of any schooling themselves taken to account, the readiness with which their meager contributions 
+<pb id="nicho30" n="30"/>
+are given, and other considerations, make these rallies both wonderful and encouraging. For it is of and among these people that the support of the school has thus far, except in a few isolated cases, been due. Small wonder, then, that the institution in its growth penetrates into so many of the vital needs of the people that the requirements for maintenance at present are increasingly in excess of the financial and intellectual ability of its constituency.</p>
+        <p>Right here it might be mentioned how great was the foresight of Rev. Alexander Bettis. He early organized a Board of Trustees and chartered the school under such conditions and restrictions that have made impossible, and will ever make impossible, any perversion of its finances or of its policy. For denominationalism the school may cease to stand, but for the highest moral and Christian ideals the school must ever strive and contend, or cease to exist.</p>
+        <p>The Rev. Alexander Bettis was, until the time of his death, president of the academy, and it can, in all truth, be said that he was no figure head. For though he was pastor of four churches, widely separated, with a membership 
+<pb id="nicho31" n="31"/>
+combined of approximately 10,000 souls, with the attendant following, he allowed no emergency, no inclemency of weather, to interfere with his being present each and every Monday morning during the school term, at which time he delivered what eventually became to be known as his Monday morning talks. Wonderful to relate, the students would, if necessary, make any reasonable sacrifice or forego any ordinary inducement for pleasure in order to be present at one of these “Monday morning talks.” Men have been known to stop their mules in the field while ploughing, and women, with the hoe or at the wash tub, to desist in order to spend the hour at the academy during the delivery of the “Monday morning talks.” They were events in the life of the school.</p>
+        <p>Far from the fact will the reader be if he allows himself to believe that the Rev. Alexander Bettis was a resonant voiced orator. The reverse was true. A stammering, impediment of speech was his. But cool, calm, epigrammatic, profound, with obvious earnestness and undoubted sincerity, he spoke from the depths of his very soul to the inmost soul of his hearers. That was his style. The art of pandering 
+<pb id="nicho32" n="32"/>
+to the whims or catering to the prejudice of the people was wholly foreign to his nature. Hypocrisy in any form was to him most odious. He deemed it was his duty—in which duty he delighted—to “lift up a standard for the people.”</p>
+        <p>As in his talks, so was the Rev. Alexander Bettis as a preacher. He preached not over the heads of, but to, his hearers. He preached not about Julius Caesar, Socrates, Napoleon, Voltaire, Herbert Spencer or Shakespeare. He “preached Christ, His death and resurrection,” and what these meant or could mean to man, the sinner. The known vices and shams existing among the people he lashed unmercifully and forcefully offered the consideration of the nobler, the better way. “Peace on earth and goodwill to all men” found an utterance in each and every sermon. Excitement, shouting, hallelujahs, which were then so large a part of negro worship—as even now it is unfortunately too much so—were condemned and discouraged by him. And unmerciful was he in his scathing denunciation of the “whangdoodle” preacher who, by the cadence of a tuneful voice, strove to produce such demonstrations.</p>
+        <p>
+          <figure id="ill2" entity="nicho33a">
+            <p>REBECCA HALL, BETTIS ACADEMY <lb/>Girls' Dormitory</p>
+          </figure>
+        </p>
+        <p>
+          <figure id="ill3" entity="nicho33b">
+            <p>MARTHA HALL, BETTIS ACADEMY <lb/> Boys' Dormitory</p>
+          </figure>
+        </p>
+        <pb id="nicho33" n="33"/>
+        <p>In addition to his duties as executive head of the academy, he was the disciplinarian of the institution. Only one punishment was necessary for any teacher to inflict. It was to inform the given pupil that he or she would be reported to Mr. Bettis. And it should be stated that for all his work at and in behalf of the academy, he never asked for and never received one cent payment.</p>
+        <p>The Rev. Alexander Bettis had a constructive mind, and as an organizer of and among the negro Baptists the record, even now, is yet his as the following facts will show:</p>
+        <p>The Storm Branch Association was the first negro Baptist association organized in South Carolina. Mr. Bettis was largely instrumental in its organization and was its first, and, up to the time he withdrew, its only treasurer. But  as the Storm Branch Association covered a territory equal in area to one-third of the State of South Carolina, Mr. Bettis, for concentration of effort, took the more than forty churches he had organized and other churches in Aiken and Edgefield counties, and organized the Mt. Canaan Baptist Association, of which he was the first and, until his death, the only moderator. He then officially severed his 
+<pb id="nicho34" n="34"/>
+connection with the Storm Branch Association, but not until he had counted out and turned over the $360.67 which as treasurer he had in hand.</p>
+        <p>It was the Rev. Alexander Bettis' belief that church organizations of any kind should be far more than mutual admiration societies, or occasions for a general good time, the renewing of acquaintances and the pleasant exchange of Christian courtesies. To him always “the field was ripe to harvest.” In order to be doing something in accordance with the needs of the people he organized an Educational Union whose avowed purpose it was to raise money with which to further the cause of education within the bounds of the union. Connected with this union there were in all sixteen ordained Baptist preachers. As the other fifteen preachers differed with Mr. Bettis on how the money which had been raised should be used, they contending that it be divided pro rata among themselves that they might go to school, and he contending that it should be used for the education of those who were coming on the stage of life, and not for those who were passing off of it, he drew out and organized the Mt. Canaan Union, and later Mt. 
+<pb id="nicho35" n="35"/>
+Canaan Union No. 2. It is to these two unions that the present efficiency and the maintenance of Bettis Academy has for the most part been due.</p>
+        <p>It was Mr. Bettis who, in the council of Baptists, first suggested the advisability of organizing a Baptist State Convention. Among the plans he suggested for that purpose was the wisdom of further dividing the Storm Branch Association into smaller bodies, delegates from which forming a nucleus, the desired organization might be affected. The suggestion materialized into realization. The delegates assembled at Aiken, and the convention was organized with the Rev. J. Watts as president and the Rev. Alexander Bettis was vice president.</p>
+        <p>It came to pass that Baptist leaders elsewhere in the State, borrowing the ideas and plans of Mr. Bettis, influenced some who had already participated in the organization at Aiken, to meet with them in Sumter, and there was organized another Baptist State Convention. As these last organizers hastily obtained a charter for their organization, it necessitated the Bettis crowd to give the first convention a new name. This they did. They called it the Baptist 
+<pb id="nicho36" n="36"/>
+Home Mission State Convention of South Carolina, and under that name it has existed and now exists.</p>
+        <p>Two facts are worth remembering. They are that to the Rev. Alexander Bettis was due the organization of the first Baptist State Convention, and that while he refused to be its first president, he was, nevertheless, the dominating force in it. Because he was not in sympathy with the manner in which the Sumter Convention was organized, and because he always considered that organization to be too prodigal in the use of money, he would never affiliate with it, although he was the indirect cause of its existence.</p>
+        <p>The power for good Mr. Bettis was as a pastor cannot easily be stated. A few facts may, however, be related: The purity of his own life, his honesty, his veracity were never questioned by any who knew him. And these things he expected and required in those who had membership in the churches of which he was the pastor. A reputation of sexual laxity, failure to pay honest debts, inveracity, would not be tolerated by him. In fact, were it reported to him that a deacon in any of his churches owed a debt, and at the time it was 
+<pb id="nicho37" n="37"/>
+due had failed to pay it, that man could no longer be a deacon until he either had paid the debt or put it in shape that was satisfactory to the person concerned. People learned to know that any lapses of conduct of one of Rev. Alexander Bettis' members would be made right if they but appealed to him. As occasion arose, he was appealed to by white people and colored people alike. Thus it was that many a petty case, and even graver ones, never reached the trial justices or the courts. At his usual services it was no uncommon thing to see two or three thousand people assembled, and on special occasions at the academy from eight to twelve thousand, and no disorder prevailed. Were any ruffian to begin any misbehavior, it was at once reported to Mr. Bettis, and he immediately ordered some men to seize the embryonic disturbance maker, upon whom with his buggy whip he would then and there inflict a whipping wholly commensurate with the offense. “Was he never sued,” you may ask, “for thus taking the law into his own hands?” No, never! It was a fact, and became to be known as a fact, there was not in Edgefield or Aiken counties a magistrate who would issue a warrant for, or a constable
+<pb id="nicho38" n="38"/>
+who would serve a warrant upon, the Rev. Alexander Bettis for whipping an obstreperous negro. In consequence of the above-mentioned facts, at all the meetings with which the Rev. Alexander Bettis had to do, good behavior was assured. So firmly was that standard set and that idea fixed that even today at any church of which he was pastor or at any gathering at the academy the same rule of excellent behavior obtains. Though he be dead, the standards of the Rev. Alexander Bettis remain the ideals of his own and subsequent generations. Wonderful!</p>
+        <p>In taking the leadership among the untutored members of his race, just emerged from slavery, unaccustomed to the unrestraint of freedom, and in setting before them ideals of life and action, upon which no improvement even to this day has been found necessary, it must not be forgotten how crude were the means at his disposal. What, for instance, was a church—the place where he must indoctrinate these humble people? It was only a large brush harbor, the seats improvised logs, the pulpit the back of an old chair, behind which he stood, the hymnbook and Bible of the preacher being the only ones present, the vast 
+<pb id="nicho39" n="39"/>
+majority of the people having neither one or the other at home.</p>
+        <p>To this strenuous labor, amid these uninviting surroundings, he remained unmoved and unmovable, even though the comparative ease, the honor and emoluments of office could and would have been his for the taking. For at this time he could have had any political office within the gift of Edgefield or Aiken counties.</p>
+        <p>As a pastor, he received no salary. The people saw his needs and lovingly provided for them. Had his suit become thread bare? Then somewhere, in a manner unostentatious, a box would be given him and next Sunday the pastor would be seen to have on a new suit of clothes. Had his buggy become dilapidated? Then, while he was in church his old buggy would be stolen away and a brand new buggy would be in its place. In this way and divers others the pastor's wants were supplied. But the Rev. Alexander Bettis was not money hungry. He was no gospel grafter. When money was given him, as it often was, he would get in his buggy and go hunting the sick and needy of his flocks and administer to their needs. Like his Master, “he went about doing good.”</p>
+        <pb id="nicho40" n="40"/>
+        <p>In no way, however, did the purity of heart, honesty of purpose, unselfishness, common-sense, equipoise and other admirable qualities of which any man might well be proud show to better advantage than was shown in his own conduct and in the teachings he gave his people during the trying days of Reconstruction, when the judgment of many an eminent man was weighed and found sadly wanting.</p>
+        <p>In those days some mistakes of far-reaching consequences were made by the white people—and many were made by the colored people—mistakes which even now invite censure, merit sympathy, and for which circumstances considered in the fuller light of Christian charity much can well be forgiven. Even more, except as a disagreeable historical fact, entirely forgotten. Both sides feeling, as perhaps they did, that they were more sinned against than sinning—much may now be condoned that was then loudly condemned. Consider the following:</p>
+        <p>The untutored negro, having no preparation for his guidance as a free man other than that which slavery had taught him, is suddenly given the right to go where and when he pleases—to be his own undisputed boss. In 
+<pb id="nicho41" n="41"/>
+his untrained condition, to confuse license with liberty was easy. He was but human. His enormous and undreamed of privileges were entrancingly delightful, thoroughly intoxicating. With his inheritance of citizenship, designing men, whose purpose was not to help him, but for their own aggrandisement, to use him, preyed upon his ignorance, credulity and fear and taught him to believe that the Republican party, because of unadulterated love, pure and simple, at a great cost, secured his emancipation and, at a still greater cost, existed primarily for securing his continued freedom—that to and for him the party was the ship—all else was the sea—that the Democratic party had striven mightily against his emancipation, and that its continued existence was solely and only for the purpose of securing his re-enslavement. For reasons, historically known, the Southern white people were then as now, uncompromising Democrats. And the resentment which the war and the attendant outcome had developed in their bosom, consciously or unconsciously, expressed itself in a well-defined antipathy for the negro. Thus the two races between whom mutual love and confidence had long existed, though living
+<pb id="nicho42" n="42"/>
+among and with each other were veritable aliens in any common purpose and, in not a few cases, pronounced enemies. And it is, or ought to be, a well known fact that, in any given area, but little progress can be realized, when next door neighbors are at enmity against each other. Such for years was the fate of the South.</p>
+        <p>The negro in his enthusiasm, occasioned by his freedom and citizenship, was far more concerned about putting his man in the Senate than he was about putting money of his own in the bank; the holding of an office concerned him more than did the owning of land; his conceptions magnified the privileges of citizenship, while his sense of its responsibilities was most distant. Political campaigns were conducted, not by arguments in regard to the science and principles of government, but rather by depicting the horrors of slavery and the greater horrors that would follow the defeat of the “pahtee;” ignorance filled the offices, directed by mercenary intelligence; and government existed not for the benefit of the governed, but for the filling of the pockets of the intelligent mercenaries. Education, which Northern benevolence made possible for the 
+<pb id="nicho43" n="43"/>
+negro was, for the most part, looked upon by him merely as an open sesame to the realms in which the degrading necessity of manual labor was unknown and unknowable.</p>
+        <p>The Southern white man made no effort to appeal to the negro's remembrance of the mutual love, confidence and understanding that had once existed between them, nor did he attempt by any interest shown in the negro's uplift and general improvement to give promise of a better state of things. His resentment, and the impassable line of unwarranted fears of social equality made such impossible. For lack of manifested interest in the negro at the psychological period, he allowed the negro to believe him to be an insidious, designing enemy, and then with much pent-up resentment blamed him for believing so.</p>
+        <p>Being impotent at the ballot box, and an ineffectual factor in the government, the proud spirit and intelligence of the Anglo-Saxon found a way, as he considered it, for self-protection and for the preservation of his civilization. In consequence, the Ku Klux came into existence. And in this case, unerring as the laws of cause and effect, confusion became worse confounded. The negro's fears were 
+<pb id="nicho44" n="44"/>
+enlarged and alienation from the white man was increased. Wrong cannot fight wrong.</p>
+        <p>The purpose intended here is not to magnify any ill or condone any wrong that then existed. If, however, the Blue and the Gray can now march side by side in reunions, and a Confederate veteran can deliver an oration at Gettysburg, ought not the negro and the Southern white man, with calmness and without passion, look the past in the face and read the lesson it has for them both?</p>
+        <p>With aliens and ignorance in control of their government, it must be admitted that inspired by fears of things actual and imaginary—prompted by motives of self-preservation and the preservation of their civilization, the Southern white people had powerful motives for rash action in which the end sought seemed to justify the means employed. But was there not a better way?</p>
+        <p>Are not the more thoughtful negroes learning that the race must begin at the bottom and not at the top?—that to be identified with and to be a part of the progress of progressive America, they must, with trained brain and skilled hands and scientific methods, be a recognized and essential factor in that progress?
+<figure id="ill4" entity="nicho45a"><p>JETER CHURCH <lb/>
+Rev. Thomas Key, Pastor</p></figure>
+<figure id="ill5" entity="nicho45b"><p>OFFICIAL BOARD OF JETER CHURCH</p></figure>
+<pb id="nicho45" n="45"/>
+Are not the more thoughtful white people beginning to understand that it is to the best interest of the white man, as well as to the negro, that, under Christian influences, the negro be given a helping hand in his acquirement of a trained brain and skilled hands? Does not a broad patriotism—even civilized selfishness demand it? Can our Christian civilization refuse less? Have not schools for negroes, like the Bettis Academy, justified, by results, their maintenance?</p>
+        <p>The sober common sense exhibited by the Rev. Alexander Bettis during the days of Reconstruction is well shown by the following:</p>
+        <p>Regardless of what ills, abuses or wrongs were done to him or to any member of his race, he never sought nor counseled retaliation. On any and all occasions, he delighted to teach that two wrongs could never make one right.</p>
+        <p>On one occasion, at one of the churches of Rev. Alexander Bettis, the Rev. Thos. Sease, an old-time preacher, preached a sermon from the text “the Lord has delivered his sheep out of the hands of the enemy and placed them in the care of Moses.” His treatment of his theme was such that some white people who 
+<pb id="nicho46" n="46"/>
+were present easily believed that his references were such that they were likely to stir up race hostilities. Anyway, that very night, at “the hands of parties unknown,” the Rev. Thomas Sease experienced that long, last sleep from which no rude awakening ever comes. To kill the Rev. Alexander Bettis, it was also planned, and a crowd, as he afterwards learned, lay in wait for him at a point in the road along which he must pass. How wonderful are the ways in which Providence protects His own! It chanced—or was it mere chance?—that Mr. Bettis' horse, had become sick, and he had borrowed a horse, upon which he rode unrecognized past the crowd awaiting him. Being thus baffled it was later agreed to go to the home of Bettis, take him out and “do him up,” as they significantly termed it. They did come, and when they told the humble preacher their mission, he calmly replied, “Gentlemen, I perceive that some of you have come quite a distance. I know you are tired and must be hungry; permit me to have supper made ready for you.” And calling his wife, Winnie, he requested her to prepare supper at once for the gentlemen. While supper was being prepared he turned to the men who had thus invaded
+<pb id="nicho47" n="47"/>
+his home and said, “Gentlemen, you ought never do anything upon which you cannot ask God's blessing. And while supper is being prepared, let us all bow and pray with me that God will bless whatever we may do tonight.” They bowed. Bettis prayed. Supper was served and eaten, after which the men departed, but not without assuring the preacher that they would never bother him nor would they knowingly allow anybody else to do so. Never again did the Klu Klux, or white people, in any other way, meddle or interfere with the Rev. Alexander Bettis.</p>
+        <p>In addition to his constant preaching of “Peace on earth, good will to men,” two incidents among many may well be mentioned:</p>
+        <p>When Rev. John Hammonds, a negro preacher of great influence, was getting up emigrants to go to Arkansas, he went all over the section in which the Rev. Alexander Bettis was the spiritual leader. He so vividly depicted and magnified the wrongs of the colored people that when he put before them Arkansas as a land of Utopia, and reiterated the special inducements which the emigration agency, for which he was working, enabled him to offer, the people became wild with their discontent 
+<pb id="nicho48" n="48"/>
+and a general exodus to Arkansas was agreed to. Had it been carried out lack of laborers would have rendered thousands of acres of land in Aiken and Edgefield counties valueless. The Rev. Alexander Bettis, from pulpit and from house to house, proclaimed that “the negro need not hope to succeed anywhere this side of heaven without work, and that if he will act right, behave himself and be honest and industrious, as he ought to be, these white people here will prove to be as good as any people anywhere on earth.” So successfully did he thus teach, that he made the general exodus a failure.</p>
+        <p>At another time when the Rev. Alexander Bettis showed his common sense and good will towards the white people was on the occasion of the “Ned Tennant Riot.” Briefly stated the facts were these:</p>
+        <p>The military companies of South Carolina were, during that period, composed of colored men. In Edgefield county “Ned Tennant,” an untutored negro, was the captain of a company. Some white people had done something to Ned Tennant, to retaliate for which he had the drum beat to assemble the militia. They came, as many as three companies assembled. 
+<pb id="nicho49" n="49"/>
+The rumor was somehow put in circulation that promiscuous and general destruction of the whites was talked and agreed on, that many who did not belong to the militia were rashly in sympathy with the extermination of the whites, and were planning to assist in the effort proposed of doing so. It was then that the Rev. Alexander Bettis appeared on the scene as a most potent factor. He made all of those who were members of his churches come out of the companies. He so rode, pleaded with and persuaded his own people that white and colored accepted his proposals for the termination of the riot. And, in consequence, without the shedding of blood, the riot was ended.</p>
+        <p>As a result of this riot, and the fact that in the rural sections in these counties, the beating of the drum was the means of assembling large crowds of colored people together—a thing the white people, not without reason, feared—the law was made among them that among the negroes there must not, on any occasion, be any drum beating. Still at all the gatherings at the academy there was beating of the drum. No one <sic corr="interfered">interferred</sic> with it there or anywhere 
+<pb id="nicho50" n="50"/>
+else if the one beating it could prove that the Rev. Alexander Bettis told him to do so.</p>
+        <p>In the grave, the Rev. Alexander Bettis sleeps. Already his body has turned to dust. But he has taught a lesson to the colored people and a lesson to the white people that each could, with profit, afford to learn. As to the colored people: He has taught them that by thrift, economy, unselfishness and education they can command and, ultimately demand, the respect, confidence and esteem of the white people, and in prosperity live at peace among them. For training the negro youth to a realization of that fact the Bettis Academy stands and is strenuously laboring. As to the white people: He has shown that his mistress was, in the days of slavery, kind to him and because of her kindness gave him some training, even teaching him to read; that it was this training and the ability to read that caused him to become a leader among his people; that it was love for and gratitude to his mistress that prevented him from growing sour or nursing any resentment against the white people, but rather to seek for the best interest of the whites, even while working for the highest and most lasting good of his own race. Since Bettis Academy 
+<pb id="nicho51" n="51"/>
+was brought into existence to teach the principles which the life of Alexander Bettis emphasized, since it has been successfully teaching and will ever teach those principles, the white people can well afford to levy tax upon the gratitude of the negro of tomorrow, even as Mrs. Jones, the mistress of Bettis, was able to levy it for her good and the good of her people, from that negro of yesterday. Plainly speaking, the negro should take advantage of the opportunities which Bettis Academy gives, and the white people should generously aid Bettis Academy to have such advantages to give. Were these things done, the Peace on Earth, Good Will to Men, which the Rev. Alexander Bettis both lived and preached, would, in the largest measure, be realized.</p>
+      </div1>
+      <div1 type="section">
+        <pb id="nicho52" n="52"/>
+        <head>MR. BETTIS AS A CHURCH <lb/> ORGANIZER.</head>
+        <p>In all the Rev. Alexander Bettis brought into existence and organized more than forty Baptist churches. Being the first and at that time the only negro Baptist preacher in Edgefield and Aiken counties, it fell to his lot to be the pastor of each and every church he organized, until there had come forward and he had ordained a man whom he deemed worthy to assume and carry on the pastoral work. How did Mr. Bettis manage to serve so many churches at one and the same time? one may ask. He went to them when he could, their preaching day being whatever Sunday he might appoint at the given church. Having ordained sufficient preachers to carry on the work, he concentrated his energies upon the pastoral care of four of them, and of these he remained pastor until his death. Upon the four he stamped his ideals of missionary and educational efforts. So thoroughly was this done, and so well did he instill his ideas and standards into his deacons that even unto this day these four churches, under the leadership of
+<figure id="ill6" entity="nicho53"><p>MT. CANAAN CHURCH AND ITS OFFICIAL BOARD <lb/> Rev. H. L. Ryans, Pastor</p></figure><pb id="nicho53" n="53"/>
+those deacons, make possible the continuance of the Bettis Academy. These four churches are Mt. Canaan, Shaw's Creek, Jeters and Pleasant Grove.</p>
+        <div2 type="section">
+          <head>THE MT. CANAAN CHURCH.</head>
+          <p>On the very day in 1868 that the Rev. Alexander Bettis was ordained to preach, and at the very same place—his grave being on the very spot on which he kneeled when being ordained—the Mt. Canaan Church was organized with a membership of 17 persons. Being the only negro church for miles and miles around, negroes generally withdrew their membership from the white churches and brought it there. In three years' time it had a membership of more than 2,000. And notwithstanding the fact that 1,000 members were withdrawn at one time to form another church, the membership at the time the Rev. Alexander Bettis died was 2,400. Today it is reputed to be more than 2,700.</p>
+        </div2>
+        <div2 type="section">
+          <head>JETER'S CHURCH.</head>
+          <p>In 1870, ten miles southwest of Edgefield C. H., there was a white Methodist church, in which, due to the small attendance, services 
+<pb id="nicho54" n="54"/>
+had ceased to be held. Seizing the opportunity it offered, Mr. Bettis purchased it, and organized therein a Baptist church. By a series of revival efforts he greatly added to its membership; so much that at the time of his death it was, and has since remained, one of the largest churches in the county. It has a membership of 1,300 at present.</p>
+        </div2>
+        <div2 type="section">
+          <head>SHAW'S CREEK CHURCH.</head>
+          <p>In 1871 the Shaw's Creek Church was organized with 1,000 members. It came about this way: About five miles from Trenton, the Rev. Alexander Bettis frequently preached at a point, which they called Arbor's Stand, to the members of Mt. Canaan who lived in that section, and who, on account of the great distance to Canaan, could not regularly attend appointed worship there. Whenever there were any converts at this point they had to come to Canaan to be baptized. In consequence, wisdom seemed to dictate the organization of a church at the Arbor's Stand. With 1,000  members, belonging to Mt. Canaan, it was done. The present membership is 2,500.</p>
+          <pb id="nicho55" n="55"/>
+          <p>It was in 1869 that the white people's church four miles north of Edgefield, on account of the scarcity of the white people—especially white Baptists, for it was a Baptist church—was sold. The Rev. Alexander Bettis bought it, and organized therein the Pleasant Grove Baptist Church. This church also grew rapidly, and when Mr. Bettis died, it was in membership, influence and financially one of the strongest churches in Western Carolina. Today it has a membership of 1,500.</p>
+        </div2>
+      </div1>
+      <div1 type="section">
+        <pb id="nicho56" n="56"/>
+        <head>TESTIMONIALS.</head>
+        <head>Estimate of the Character of Rev. Alexander <lb/> Bettis by Prominent Southern Men.</head>
+        <p>When it is remembered that the Rev. Alexander Bettis could read somewhat, but could write none at all, not even his name, and when it is further remembered that the major portion of his life's work was done at a time, in South Carolina, when race antipathy was greatest; when prejudice, engendered and intensified by politics, was most unreasoning, blind and bitter, the fact that he so labored and wrought among his own ignorant people as to turn their aims and efforts in the right direction, in which even now they continue to go with accelerated speed, stamp him, it must be admitted, as an extraordinary man. And when it is borne in mind that he stemmed the tide of adverse sentiment among his own people; defied the all-powerful political bosses of that day; refused to allow his name to be even used in connection with positions of honor and emoluments most desirable, which positions he could easily have had, had he but turned aside from his labors as an humble 
+<pb id="nicho57" n="57"/>
+minister of the gospel, and ceased so strenuously to preach the doctrine of “peace on earth, good will towards men” he commands, though in the grave, our admiration and wonder. That, for the part he played, at the time he played it, in the affairs of South Carolina, the negroes are indebted no little cannot be denied. That for his common sense, honesty of purpose, unselfishness and uprightness of heart, the Southern white people owe him much, must be admitted. In consequence, fitting indeed are the appended testimonials of the eminent men who turn aside to testify to the worth of an humble negro.</p>
+        <p>Concerning the Rev. Alexander Bettis, the Hon. B. R. Tillman, formerly Governor of and now United States Senator from South Carolina, says:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>Washington, D. C., <date>July 10th, 1913.</date></dateline>
+<salute><name>“Prof. A. W. Nicholson,</name></salute>
+“Trenton, South Carolina.</opener>
+                <p>“My Dear Sir: Replying to yours of July 8th. Rev. Alexander Bettis, who founded the academy over which you preside, was in many respects a remarkable man. Born a slave, without any opportunity to go to school, he educated himself sufficiently to become a leader among the negroes, who respected him very highly indeed.</p>
+                <pb id="nicho58" n="58"/>
+                <p>“He wielded great influence over his race, and as far as I ever knew that influence was always exerted for good. I have never heard any one speak ill of him in my life, and I believe his life was devoted to the work of trying to elevate and humanize and civilize and educate the negroes. If there were more men like him among the negroes there would not be so much crime.</p>
+                <closer><salute>“Very respectfully,</salute>
+<signed><name>“B. R. TILLMAN.”</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <div2 type="letter">
+          <p>The Rev. Richard Carroll, who as preacher, lecturer and humanitarian, is undoubtedly the most widely and favorably known negro in South Carolina, says:</p>
+          <p>“Serving, as I did, at one time, in the general or field work of the colored Baptist denomination in South Carolina, I frequently visited, as it was my duty to do, the associations and other annual bodies which had been organized by the Rev. Alexander Bettis, and over which, at that time, he presided. As none of these bodies would consent to hear any representative of anything to which he did not favor the giving of a hearing, and as he had had a difference with the leaders, prior to, or at the organization of, the Baptist State Convention, it chanced that of all the general workers I was the only one to whom a hearing, in that locality, was granted. The privilege of being heard at these annual gatherings was not only mine, but I enjoyed also his urgent invitation 
+<pb id="nicho59" n="59"/>
+to visit any and all of his churches whenever I chose or my convenience would allow. To take advantage of these I was in no way slow. For the man more than interested me. In fact, the better to study him, I once spent more than three whole days in his home, as his guest, with no other object in view. So it was in that way I really came to know the real Rev. Alexander Bettis, whose acquaintance I consider myself most fortunate to have acquired.</p>
+          <p>“With utmost candor and sincerity most profound, I do not hesitate to say that circumstances considered, his lack of training and environment taken into account, he was, to my mind, the most remarkable man I ever knew. And regardless of those hindrances, he was, and at any time, among any race, would have been a most remarkable man. That he was a veritable leader among men must be admitted. That he was a Moses to and for his race cannot be denied. In time of war, he would have made an excellent general; in fact, an officer of any kind in which great talent for organizing and marshaling large forces was required. He was ‘a mighty man in Israel!’</p>
+          <p>“Quick, accurate, philosophical in thought, seriously earnest, unquestionably honest, thoroughly conscientious, wholly unselfish, absolutely void of any bellicose spirit, with an unconquerable repugnance, an all consuming hatred to any and all kinds of shams and hypocrisy, he demanded and commanded the respect, if not admiration, of all who knew him.</p>
+          <p>“He had a most wonderful knowledge of human 
+<pb id="nicho60" n="60"/>
+nature. He somehow just knew men. At a glance, he would form his opinion of a man, which opinion he would, upon more intimate acquaintance, have no occasion either to enlarge or modify.</p>
+          <p>“To all institutions which did not have for their primal purpose the education of the people, and the glory of God, he was unalterably opposed. As he saw it, he was the bitter foe of any and all secret societies. He claimed, on the one hand, that people, whose doings were right, had no cause to make a secret of them. On the other, he claimed that poor negroes, to whom school houses and churches were such an immediate and positive need, could ill afford to be squandering money in the building of society halls and in paying society dues.</p>
+          <p>“While there is a psychological reason for the fact that people who themselves are uneducated least feel the need of an education and are least concerned about advancing the cause of education, he was a notable exception to the rule. With him the education—Christian education—of his people was a consuming passion.</p>
+          <p>“As a preacher he had none of the negro's native oratorical fervor. For the gospel moan and negro ‘pulpit whang-doodle’ he had profound contempt, and was most unscathing in his denunciation of it. He believed in his soul that the Christian religion could and would settle to the best good and contentment of all concerned each and every real or imaginary human wrong. For that reason he continued to be an humble minister of the gospel among his lowly people, even though at one time he
+<figure id="ill7" entity="nicho60a"><p>PLEASANT GROVE CHURCH <lb/> Rev. W. H. Oliphant, Pastor</p></figure>
+<figure id="ill8" entity="nicho60b"><p>OFFICIAL BOARD OF PLEASANT GROVE CHURCH</p></figure>
+<pb id="nicho61" n="61"/>
+could easily have had any political office within the gift of either Edgefield or Aiken county.</p>
+          <p>“As a preacher, too, he was simple, clear, concise—epigrammatic, illustrative in style. A child could easily follow and appreciate his discourse. Like his Master, who when He preached taught the people, was Bettis.</p>
+          <p>“For the founding of the Bettis Academy and other constructive work the negroes of Edgefield and Aiken counties owe him a debt of everlasting gratitude. For refusing to be selfish, for counselling peace and good will to and for all men, when the angry passions of race hatred and political prejudice threatened South Carolina with consequences more dire than were the ravages of the Civil War, the white people too are none the less indebted to him. And since the Bettis Academy was founded to carry out, and is successfully carrying out, the principles for whose triumph he strove, in what better way could the colored people, the white people, any who glory in civic righteousness and the furtherance of the Christian religion, make effort to pay that debt than by helping to maintain and perpetuate the work of Bettis Academy?</p>
+          <p>“To my mind, as truly as the mantle of Elijah fell upon Elisha, so to a large, a very large degree, have the high ideals and lofty conceptions of Bettis fallen to and are now being worked out by A. W. Nicholson, in his work at the Bettis Academy. The Rev. Alexander Bettis believed in and trusted Nicholson as he believed in and trusted no other man, and well he might have. For Nicholson is a man of 
+<pb id="nicho62" n="62"/>
+spotless life, practical, earnest, unselfish, honest—a man of much wisdom and a great measure of common sense. Like Bettis, his life is given to the effort to life up a standard for the people.</p>
+          <p>“In conclusion, the Rev. Alexander Bettis was a tower of strength, a preacher whose sermons for effectiveness and lasting good far surpassed the sermons of the average negro college graduate of today; he sought not his own, but the glory of God through the uplift and betterment of the people. He was mighty in word and deed.</p>
+          <closer>
+            <signed>
+              <name>“RICHARD CARROLL.”</name>
+            </signed>
+          </closer>
+        </div2>
+        <div2 type="letter">
+          <opener>
+            <dateline>“Columbia, S. C.”</dateline>
+          </opener>
+          <p>The Hon. John Gary Evans, formerly Governor of South Carolina, says:</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>“Spartanburg, S. C., <date>July 26, 1913. </date></dateline>
+                    <salute><name>“Prof. A. W. Nicholson,</name>
+“Trenton, S. C.</salute>
+                  </opener>
+                  <p>“Dear Sir: I am in receipt of your letter asking me for an expression of opinion as to the character of Alex. Bettis and I cheerfully comply.</p>
+                  <p>“Alex. Bettis, or Brother Bettis, as he was called by the negroes and most white people who knew him, was one of the most remarkable negroes of his age. He was one of the best negroes I ever knew. As a minister he preached the true gospel and principles of Christ as he understood them. As a man and leader he stood for all that was best, and his influence 
+<pb id="nicho63" n="63"/>
+was for the betterment and general uplifting of his race. Alex had no education; he could read the Bible a little, and write poorly, an ex-slave, he seemed to realize that before his people could expect anything they must gain the confidence of the white land owners among whom they lived and were dependent. With this end in view, he established on the line of Aiken and Edgefield counties, South Carolina, an academy and gave it his name. It was the first industrial school for negroes in the State, and has done great good for the race.</p>
+                  <p>“Alex believed that the best friend to his race was the intelligent Southern white man, and he taught his students to be faithful and honest and to live in peace with their benefactor, the good white man.</p>
+                  <p>“After my admission to the bar in Augusta, Ga., I returned to South Carolina and opened an office in Aiken, S. C. Alex. Bettis was one of my first clients. He knew my uncle in Edgefield, and came to me to help me along as it were, and I appreciated it. One of my first cases was the defense of two Edgefield negro boys charged with murdering an old miser and hermit named Bettis. I immediately went to Alex, and he knew all parties well. He told me that the boys were not guilty, as they were members of his church and he would help me. He did so and we proved a complete alibi by reputable white men, and the jury promptly returned a verdict of not guilty. The real murderer, a white man, was never brought to justice, although Alex furnished me with evidence that I believe would have convicted him, but before we could indict him, he fled the State. 
+<pb id="nicho64" n="64"/>
+This man was the principal prosecutor of the negro boys.</p>
+                  <p>“Alex Bettis reminded me very much of Abraham Lincoln. He reached his followers and bound them to him by expressions of simple common sense rules of conduct. He bore himself always with great dignity, and had he received the education that Booker Washington did, he would have gained the title of foremost man of his race, as he was sincere and honest. The leaders of the white men in Old Edgefield had great respect for Alex during reconstruction days, and whenever a conflict seemed imminent between the races, he always worked for peace and good order.</p>
+                  <p>“Alex was brave and fearless and his association with the good men of old Edgefield moulded his character after theirs. He acquired their virtues and shunned their vices, becoming a scion of a civilization that can never be equalled and 'tis pity 'tis dead.</p>
+                  <closer><salute>“Truly yours,</salute>
+<signed><name>“JOHN GARY EVANS.”</name></signed></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+        </div2>
+        <div2 type="section">
+          <p>Hon. J. W. DeVore, Judge of the Eleventh Circuit, South Carolina, says:</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener><dateline>“Edgefield, S. C., <date>July 9th, 1913.</date></dateline>
+<salute><name>“A. W. Nicholson, Esq.,</name>
+“Trenton S. C.</salute></opener>
+                  <p>“Dear Sir: “I have yours, without date, in regard to Rev. Alexander Bettis. In reply am  forced to say: I do not recall having seen Rev. Bettis but once. I never at any time talked 
+<pb id="nicho65" n="65"/>
+or conversed with, hence I know nothing of him from my own personal knowledge.</p>
+                  <p>“I do know, however, he had the general reputation among his own (colored) race of being a man devoted to Christianity, long ways above the average, in Christian knowledge, among the ablest ministers of the gospel, of his race, and did all he could for the uplift and betterment of his race, in every way.</p>
+                  <p>“He had the general reputation among the white people of being a man who wielded great influence over his race, and exerted himself and his energy in keeping and maintaining good and friendly feeling between the two races, always being opposed to and discouraging friction of every kind.</p>
+                  <p>“Based on hearsay, I regard Rev. Alexander Bettis, deceased, as having been one of the most useful men of his time, for the purposes and along the line suggested here.</p>
+                  <closer><salute>“Yours respectfully,</salute>
+<signed><name>“J. W. DeVORE.”</name></signed></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+        </div2>
+        <div2 type="section">
+          <p>Mr. James L. Quimby, president of the Bank of Graniteville, S. C., says:</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <p>“ ‘A prophet is not without honor save in his own country’ could not have been said of the Rev. Alexander Bettis, the founder of Bettis  Academy in South Carolina, for he was honored and respected by all well-meaning people, white or colored, who knew him; and considering the great opposition to negro schools by a large number of white persons so soon after the emancipation of the slaves, he was signally
+<pb id="nicho66" n="66"/>
+successful in his efforts to establish this school at that time.</p>
+                  <p>“Nothing but his native ability, honesty of purpose, indefatigable energy and the confidence of his white friends could have enabled him to accomplish what he did, and leave behind him an institution which is proving so great a blessing to his race.</p>
+                  <p>“I knew him well from about the time he began the work of his school until his death, and it was a pleasure to count as my friend a man who seemed to me to have been divinely called, who heeded the call, and like the Apostle Paul, gave his life to the work.</p>
+                  <p>“It is exceedingly fortunate that his mantle has fallen upon one whom he had a hand in training, and who is so well equipped for such a responsible work.</p>
+                  <p>“President A. W. Nicholson, like his predecessor, has his heart, mind and energy in the work, is succeeding and has the confidence of all who know him.</p>
+                  <closer><signed><name>“JAS. L. QUIMBY.”</name></signed>
+<dateline>“Graniteville, S. C.”</dateline></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+        </div2>
+        <div2 type="section">
+          <p>S. McG. Simkins, Esq., the well-known attorney of Edgefield, South Carolina, thus expresses himself about Mr. Bettis:</p>
+          <q direct="unspecified">
+            <text>
+              <body>
+                <div1 type="letter">
+                  <opener>
+                    <dateline>“Edgefield, S. C., <date>Aug. 15th, 1913. </date></dateline>
+                    <salute><name>“Prof. A. W. Nicholson,</name>
+“Trenton, S. C.</salute>
+                  </opener>
+                  <p>“Dear Sir: You ask that I give my estimate of the life and character of the late Rev. Alexander
+<pb id="nicho67" n="67"/>
+Bettis, which I take pleasure in very briefly doing. I had no personal acquaintance with him, and therefore what I say is from general reputation, one of the very best, if not the best way to judge a man, such a rule being laid down by the common law, which is said to be and is the perfection of human reason. From the reputation given him by both white and black he was a man of the highest honor and strict integrity and of strong intellectuality, and possessed an unusual amount of ‘good horse common sense,’ which he used with great and telling effect in directing his people in the right path, and trying to bring them to a realization of the importance of living sober, upright and industrious lives, thereby gaining for themselves the respect and confidence of their fellow men, and advancing their material condition. He was conspicuous as an organizer, and as far as I know or ever heard of, no man ever approached him in the influence he exerted over his people, and it was all for the good. He absolutely eschewed politics, and unlike many leaders of his race, never incited them to take interest or action along that line. He was not only an organizer, but a man of determined and restless energy, all of which is amply verified by the work he did for his people in a material way, the Bettis Academy, of which he was the founder and for many years the promoter, being a living example of the fact. During the writing of this I have asked several white citizens of Edgefield who knew him, what manner of man was the Rev. Alexander Bettis, and the reply in each instance was ‘that he was the best and most
+<pb id="nicho68" n="68"/>
+influential negro that ever lived in Edgefield county.’</p>
+                  <closer><salute>“Very respectfully</salute>
+<signed><name>“S. McG. SIMKINS.”</name></signed></closer>
+                </div1>
+              </body>
+            </text>
+          </q>
+        </div2>
+        <div2 type="in memoriam">
+          <head>IN MEMORIAM.</head>
+          <p>On his grave, at Mt. Canaan Church, on the very spot on which he kneeled when the holy hands of ordination were laid upon his head, a monument, expressive of the love and gratitude of the people to and for the Rev. Alexander Bettis, stands. On its four sides are the following inscriptions:</p>
+          <p>“In memory of the Rev. Alexander Bettis, Born August 4, 1836, whose soul made meet for glory May 13, 1895, resting in the silent grave at Mt. Canaan, near Bettis Academy, in Edgefield Co., S. C. There deposited in hope of a joyful resurrection to eternal life and glory.”</p>
+          <p>“Like his Master, was by some disliked; Like Him by many others loved and prized; But theirs shall be the everlasting crown, Not whom the world but Jesus Christ will own.</p>
+          <lg type="verse">
+            <l>“His work is done;</l>
+            <l>His race is run;</l>
+            <l>And he has heard</l>
+            <l>That loving welcome,</l>
+            <l>‘Servant, well done!’ ”</l>
+          </lg>
+          <pb id="nicho69" n="69"/>
+          <p>“He was a man eminent in piety; of a humane, benevolent and charitable disposition. His zeal in the cause of God was singular; his labors indefatigable, and his success, preaching the gospel, remarkable and astonishing.”</p>
+          <p>“Rev. Bettis was founder of Bettis Academy; was its president thirteen years, until he died; was pastor of four churches, and moderator of the Mt. Canaan Association from its organization until his death; moderator of Mt. Canaan Union Meetings, and president of the Home Mission Baptist State Convention.”</p>
+        </div2>
+      </div1>
+      <div1 type="bettis academy">
+        <pb id="nicho70" n="70"/>
+        <head>BETTIS ACADEMY</head>
+        <p>About five miles from Vancluse, a village, and three miles from Sunny Brook, a flag station, both on the Southern Railroad, between Columbia, S. C., and Augusta, Ga.—out in the open country, set on high ground in an oak grove of surpassing beauty, and surrounded by well cultivated farms, owned and controlled by negroes, there will be found a group of five excellent buildings, admirably suited to their purpose, and five less pretentious ones, some, not all of the group, being painted. This is Bettis Academy.</p>
+        <p>As the school is near the boundary line of Aiken and Edgefield counties, it is about equidistant from the cities of Edgefield and Aiken.</p>
+        <p>With the late Rev. Alexander Bettis acting as leader, the school originated with the colored people themselves, and through a more or less effective organization of the local colored Baptist churches, has been well maintained by them, with the meager aid of the public school fund, for more than 25 years.</p>
+        <p>When Mr. Bettis saw his strenuous advocacy of the establishment of a school was about to bear fruit, he wisely foresaw this: 
+<pb id="nicho71" n="71"/>
+That to carry the project to success, the work must be placed only in the hands of those whose sympathy and loyalty were assured. In accordance with the principle that it is wisdom to get the cage for the bird before you get the bird, he chose to prepare teachers for the school before the school was yet a reality. Accordingly, he influenced and prevailed upon some of his stronger churches to select from their number some apt young man or young men who should be sent away to school, and whose expenses should be borne by the given church in which the membership rested. Prominent among the young men thus selected and chosen was Hampton Matthias and Alfred W. Nicholson. It was Mr. Bettis' plan that these two young men should go to school until the academy had started; then each should alternate the other as principal of the academy and in attendance at school, each successive year.</p>
+        <p>Both Matthias and Nicholson attended the Schofield School at Aiken, and later the Atlanta University, Atlanta, Ga., where they both took high rank in all that appertains to school life.</p>
+        <p>January 1st, 1882, the first school building 
+<pb id="nicho72" n="72"/>
+at Bettis Academy was dedicated and the school formally opened. According to the arrangements mentioned above, the first principal was Hampton Matthias, who  had improved his opportunities at Aiken and Atlanta so well as to be admirably fitted for the position. He died very early, but not, however, before he had impressed his own high character upon the school, and secured for it the excellent name that it has ever borne.</p>
+        <p>Matthias was succeeded by his companion and friend, Alfred W. Nicholson, who for more than twenty-eight years has presided over and directed the affairs of the institution, and seen it gradually advance to its present place of influence and usefulness.</p>
+        <p>The school had no sooner opened than it was seen that something must be done to provide a shelter for pupils coming from a distance, who could not go home to get their meals and to spend their nights. So in the second year of the school's existence, a large hall was erected for the use of the girls, and before the end of another year a two-room house had been erected for the boys. The girls' hall, which at first was an open one, remained without partitions until 1905, when it was taken
+<figure id="ill9" entity="nicho72a"><p>SHAW'S CREEK CHURCH <lb/>Rev. F. A. Weaver, Pastor</p></figure>
+<figure id="ill10" entity="nicho72b"><p>OFFICIAL BOARD OF SHAW'S CREEK CHURCH</p></figure>
+<pb id="nicho73" n="73"/>
+down and rebuilt, in its present form, with separate rooms, each to be occupied by four girls.</p>
+        <p>It has been the custom for the boarding students to bring with them from their homes what ever furniture they need, and also the unprepared food for their tables. And by a kind of spontaneous co-operation, the occupants of each house, under competent supervision, have carried on their simple housekeeping, with the result that their expenses are far less and their knowledge of practical, economical housekeeping proportionately enlarged. A clear spring in a valley near by affords an abundant supply of pure water; and there, under the open sky, with kettles suspended over a log fire, by means of a pole, and with tubs set on benches conveniently arranged they have, under competent supervision, their natural laundry.</p>
+        <p>The simple life here lived, and by no means different from that lived by the pupils at their own homes, except that at every step they have competent instructors to correct and direct, gives this school a power for good, not easily estimated, in the production of “home-makers.” The neat, cleanly, sanitary, though 
+<pb id="nicho74" n="74"/>
+humble homes, over which the academy has for miles around exerted an influence, bear silent but indisputable evidence of that fact. It cannot be too strongly emphasized that the training at Bettis Academy, and the atmosphere there are not designed nor do they serve to put the pupil out of harmony with his or her home life, but rather to increase appreciation for the simple life, and to give a vision of usefulness and contentment, with training sufficient and character determined to make that vision a wholesome realization. Such has Bettis Academy been. And anyone who will carefully read the life, work and methods of that earnest, practical man, Prof. A. W. Nicholson, about whom Prof. John R. Wilson elsewhere in this volume tells, will be convinced, that as long as he has the management and direction of the affairs of the institution in hand, while accurate scholarship will be required and rigid discipline will be enforced, yet a proper grasp of the meaning and purpose of life, and a thorough mastery of the art of getting much out of life by putting much into life will constitute the primary effort or basal endeavor.</p>
+        <p>The immeasureable helpfulness of the academy 
+<pb id="nicho75" n="75"/>
+can somewhat be grasped by an appreciation of the <sic corr="following">follownng</sic> facts:</p>
+        <p>It is the school, for the most part, of the negroes generally, for a section of county larger than Rhode Island. For several miles immediately surrounding the school the land, except in isolated cases, is owned by negroes, who by strict adherence to progressive and scientific methods of farming, have demonstrated that much land which could easily have been bought for $5 per acre twelve years ago, could not now be bought for $50 per acre.</p>
+        <p>Influenced by the teachings of the institution, there has existed and now exists an association whose endeavor it is to buy up land in large tracts, divide them into farms as desired, and, for a reasonable amount to be paid within a reasonable time, sell them to people of thrift and character whose presence would be an actual asset to the community.</p>
+        <p>A feature, of no small importance, tending to show the intimate connection of the academy with the ordinary life of the people, is the autumnal fair that is held each November at the academy, the ground adjacent being fenced and provided with a barn and stalls, erected especially for that purpose. In this way, as in 
+<pb id="nicho76" n="76"/>
+other ways, the academy readily becomes a veritable center for education in farming, stock raising and the various pursuits belonging to the upbuilding of the country home, and in the rural mode of living. With not a few, the effort to exhibit the best breed of stock and the best yield, in quantity and quality, from a given area of land, has become a wholesome passion, somewhat contagious, as is evidenced by the increased results each year. A number of farmers, in the immediate territory <sic corr="continguous">contigous</sic> to the school, in their highly wrought zeal to be abreast of the times in best results on the farm, are carrying on experiments with choice seeds secured from the United States Bureau of Plant Industry and, under the supervision of the principal of the academy, intelligently follow instructions furnished by it.</p>
+        <p>Industrial training, to a limited extent, is given at the academy. There are other features which President Nicholson is adding, and will add as he gets the means with which to do so.</p>
+        <p>Instruction of this kind is of peculiar value to the young people for whom this school sets the pace for and standards of life. Their eager desire to make the most of any or all opportunities 
+<pb id="nicho77" n="77"/>
+of the kind makes it the more to be regretted that, for lack of means with which to furnish it, any opportunity should be denied them. The place the academy occupies in the life of the territory in which it is situated makes the following additional industrial features well nigh imperative: Cooking, house-keeping, care of sick, prevention of disease. While something, even now, is being done along these lines, yet the training to be satisfactorily efficient must necessarily be systematic. To have it so means not as yet in hand must be had.</p>
+        <p>While the training received at the academy has caused many hundreds of young women to become intelligent, contented home-makers in the rural homes, and while it has caused an equal number of young men to regard farming as a profession and so to dignify it as such that they are contented to make it their life's vocation, it must not be inferred that the literary training is a side issue. Such is by no means the case.</p>
+        <p>Evidence of the intellectual, moral and religious training of the institution is found in the large number of those who have gone out from its influence and held, with credit to 
+<pb id="nicho78" n="78"/>
+themselves, and satisfaction to those concerned, positions as teachers and in other callings. An utterance of Mr. F. A. Peters, who for several years has been employed by the State Board of Education to conduct summer normal schools for the benefit of colored teachers, will here bear repeating. He said:</p>
+        <q direct="unspecified">
+          <p>“At each session, pupils trained at Bettis Academy formed a large percentage of the enrollment, and at Edgefield they were about two-thirds of the school of over two hundred. All were teaching or intending to teach, and were studious, energetic, earnest.”</p>
+        </q>
+        <p>The following extract appearing in the Sunlight from the pen of Mr. Henry W. Wilbur, of Philadelphia, under the caption “A Word From the North” will also bear repeating:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>“The writer is thoroughly convinced that there are few schools in the South for the education of the negro doing better work, or more deserving of assistance than Bettis Academy. In addition to the service it performs in the line of education which can be imparted in the school room, this institution, with the constructive labor of Principal Nicholson and his assistants, is the centre of a general impulse and uplift in the community. The problem of economic success for the negro on land has the strongest possible support from Mr. Nicholson. With the negro a successful farmer, 
+<pb id="nicho79" n="79"/>
+and owner of his farm in fee simple, the respect which is instinctively felt towards men who make good is bound to go out to the colored man of this type.</p>
+                <p>“Bettis is unique in more ways than one. For the larger part of the institution's life this school has been supported by the colored people of the vicinity. In fact the aggregate help from the outside has been relatively small. Having been in existence for nearly a generation, Bettis long ago passed its experimental point. It has been a fine sample of applied self-help in the negro's struggle upward. For this reason it deserves much more help and sympathy from the outside than it has ever received. No mistake can possibly be made in helping Bettis Academy with even a lavish hand. The splendid economies here; the large amount of work, the self-sacrificing dimes and quarters the colored people have put into Bettis have done, makes the investment of bunches of dollars, by those who can afford it, a sane and safe use of money.</p>
+                <p>“Under the leadership of Mr. Nicholson the colored men in the vicinity of Trenton have bought and are paying for several thousand acres of land, and are helping to create more mutual confidence and respect between the races.</p>
+                <p>“The school farm is becoming more and more a sample of better agriculture. Its possibilities can be increased many times by intelligent use of high-grade fertilizer and careful tillage. The latter is already there. The fertilizer is hard to get; and more direct assistance 
+<pb id="nicho80" n="80"/>
+in this particular is important. The Pennsylvania Society for Improving the Condition of the African Race is gathering and dispensing a fertilizer fund for the benefit of colored school farms, and has helped Bettis a little. It hopes to do more next year.</p>
+                <p>“We advise and urge everybody to help Bettis Academy.</p>
+                <closer>
+                  <signed>
+                    <name>“HENRY W. WILBUR,</name>
+                  </signed>
+                  <dateline>“140 N. 15th Street.”<lb/>
+“Philadelphia, Pa.”</dateline>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>The facts in regard to Bettis Academy will not have been fully given were a statement of its actual and pressing needs to be omitted. Briefly enumerated they are:</p>
+        <p>$500 with which to paint the main building and teachers' hall.</p>
+        <p>$500 with which to erect a sewing room.</p>
+        <p>$500 with which to inaugurate systematic training in cooking, housekeeping, care of sick, prevention of disease.</p>
+        <p>$500 with which to inaugurate a department—not of theology—but of Bible training especially adapted to the needs of the negro preacher, whose preparation has been and is so out of proportion to his responsibilities and opportunities.</p>
+        <p>$300 with which to erect a kitchen to one of the halls for girls.</p>
+        <pb id="nicho81" n="81"/>
+        <p>Thus $2,300 will enable Bettis Academy fully to meet the demands which the growth of which (it is the cause) now makes upon the institution, and will enable it to set in motion additional influences for good, the total effect of which the Judge of all the earth alone can properly estimate.</p>
+        <p>Will not the reader, moved by a sense of responsibility to Him whose stewards we are, ponder these things and then do something, even though small, towards meeting these needs, which will mean so much to the honor and glory of our God?</p>
+        <p>The whole truth has not as yet been told. $2,300, with what the people, through their unions, association and annual rally will be able to do for themselves, will enable the school to meet the demands made upon it for the next school years, 1913-1914. But after then what? “Aye, there's the rub.” In this connection two things are fundamentally true:</p>
+        <p>It is no compliment to the promise of a robust manhood on the part of a boy, were that boy to find sufficient and satisfactory this year the clothes that were worn by him the year before. Similarly, a school such as Bettis Academy, which, existing among a growing 
+<pb id="nicho82" n="82"/>
+race, must stimulate that growth and intellectually meet the requirements which additional attainments make necessary. Again: In the maintenance of an educational institution, it requires on the part of those responsible for its continued existence, not only the possession of the money required, but also more than an ordinary amount of mental training. It is not the man who most needs schooling that sets the most value upon a school in the community. These things being unquestionably true, to one who will give a moment's reflection to the conditions which now obtain at Bettis Academy, this much must be evident: That the greatest work inaugurated by the Rev. Alexander Bettis was to lead an ignorant and poverty-stricken people to found an institution of learning; while the herculean work performed by his successor consisted in so stimulating these poor and ignorant people that they have by their combined small gifts not only kept the school in existence, but while not adequate yet to an appreciable degree have met the requirements of its growth. Since the history of all the institutions of learning whose existence is substantial and whose perpetuation is assured shows that such desired
+<pb id="nicho83" n="83"/>
+culmination was secured not through the sum total of small contributions of the many, but rather by the large contributions of the few, it ought to occasion no surprise when it is here and now stated that the actual and crowning need of Bettis Academy at present is AN ENDOWMENT FUND, which, to be adequate, should amount to $100,000.</p>
+        <p>Since the policy of Bettis Academy has been to develop in the negro self-reliance, thrift, economy, respect for and obedience to law; to harmonize his life with conditions that are rather than to indulge in Utopian dreams; to recognize rather than contend against the advantages of superior intellect and wealth; to believe that the best good of the white people in America, especially the ones immediately around him, must ultimately be his own best good, to believe as firmly as he does that he will and must one day die, that the Christian religion can and will settle to the best good and real contentment of all concerned each and every ill between individuals and races, and since that policy so rigidly adhered to has proven and is proving most satisfactory in results, the statement is unequivocally made that the institution has proven a blessing to 
+<pb id="nicho84" n="84"/>
+the negroes, and, though different in kind, no less a blessing to the white people of South Carolina, especially those of Edgefield and Aiken counties. The statement is further made, not rashly, but from sane premises whose inevitable conclusion cannot be avoided, that nowhere in America would $100,000 given in the name of Christ and for His glory contribute more far-reaching desirable and lasting benefits to the white race and to the negro.</p>
+        <p>This endowment fund must be had. The glory of God and the best interest of the two races demand it. Northern white people, Southern white people and negroes alike should desire to perpetuate an institution of this character. Who will make the first gift—a nucleus for the raising of the desired amount?</p>
+      </div1>
+    </body>
+    <back>
+      <div1 type="image of author">
+        <p>
+          <figure id="ill11" entity="nicho85">
+            <p>ALFRED W. NICHOLSON</p>
+          </figure>
+        </p>
+      </div1>
+      <pb id="nicho85" n="85"/>
+      <div1 type="section">
+        <head>SKETCH OF PROF. ALFRED W. NICHOLSON <lb/> President of Bettis Academy</head>
+        <note anchored="yes">
+          <p>Prepared by Professor John R. Wilson, A. M., D. D., formerly Corresponding Secretary of the Education Board of the National Convention of Colored Baptists of America.</p>
+        </note>
+        <p>When the Rev. Alexander Bettis, of blessed memory, had decided with a firmness that can know no defeat to establish an institution of learning, peculiarly adapted to the needs of the negroes of Edgefield and Aiken counties and the contiguous territory, he foresaw the wisdom of having prepared, when the school should have been established, some teachers in sympathy with and suited to the peculiar needs of the school. In consequence, he successfully prevailed upon his churches to choose from their midst some young men to be sent away to school, and whose expenses would be guaranteed by the given church.</p>
+        <p>At the Pleasant Grove Baptist Church, Alfred W. Nicholson was the lad chosen. He was sent to the Schofield Normal School at Aiken, S. C. Not because he was a member of the church or even, at that time, a professed Christian, for he was neither one. He was 
+<pb id="nicho86" n="86"/>
+chosen because of his faithfulness to and aptitude shown in the Sunday School, his quiet demeanor, his well known integrity and his general reputation for thrift, honesty and truthfulness.</p>
+        <p>At Aiken, young Nicholson in no way disappointed those through whose generosity he had gone and was supported there. In the allotted time he had completed the prescribed course, graduating to the satisfaction of his benefactors, to the honor of the school and with credit to himself.</p>
+        <p>To Atlanta University at Atlanta, Ga., he was then sent. Here his energy, earnestness and studious habits attracted attention and rated him among the foremost students of the institution. Having at this time embraced the Christian religion, he became a leader in all the religious organizations of the university.</p>
+        <p>When he had reached the advanced years of his college course and was giving no little thought to such subjects as “After graduation, what?” he received the information that he must come at once and take charge of the principalship of the Bettis Academy. He came, and at once gave evidence of the fact that the occasion for the man and the man for the occasion 
+<pb id="nicho87" n="87"/>
+had met. Due to his zeal the school prospered, and the growth of the institution and the name of Nicholson came to be and were interchangeable terms.</p>
+        <p>There were few men who possessed the ability to estimate properly, to the degree which the Rev. Alexander Bettis did, the real character of an individual. And yet, in all things, he had implicit confidence in the honesty and judgment of young Nicholson. He trusted him as he did no other man.</p>
+        <p>In consequence, at the death of the Rev. Alexander Bettis, the management of the school was given wholly into the hands of Mr. Nicholson. They trusted and have trusted him even as Mr. Bettis did. And without friction, to the satisfaction of the trustees and the people alike, he has brought the school from obscurity to a place among the foremost of negro schools.</p>
+        <p>While at Schofield, Mr. Nicholson had met and cultivated the acquaintance of Miss Edna Cohen, a young woman whose excellent culture, <sic corr="innate">inate</sic> refinement and rare beauty were but in harmony with the charms of her high moral and religious ideals. About this time, these two, whom truly God had joined together, 
+<pb id="nicho88" n="88"/>
+became one. And it is true—a fact which more than pleases Prof. Nicholson to acknowledge—that his remarkable success in connection with the academy has, in no small measure, been due to the loving sympathy, hearty co-operation and excellent judgment which his wife has ever given him.</p>
+        <p>The potency of the academy in the uplift and betterment of the people has been due to the fact that Prof. Nicholson has made it more than a place where lessons from books are taught and recited. The school has been made to concern itself about any and everything which would forward the improvement of the people. It has been made to be a veritable “light that is set on a hill.”</p>
+        <p>The wisdom of owning land, methods of procedure by means of which the ownership of land could be had, methods by which two stalks of corn would be made to grow where previously only one or perhaps none had grown, the profitable raising of stock, the moral and religious betterment of the whole people as well as the students—about these and related subjects the work of the academy has been concerned. And the wheel within a 
+<pb id="nicho89" n="89"/>
+wheel, so to speak, has been and is Prof. A. W. Nicholson.</p>
+        <p>Under his leadership, more negroes, in the neighborhood of the academy, own their own farms than is true of any other given area in all South Carolina. And his great power for good is derived from the fact that the increasing years but increase the confidence of the people, white and colored alike, in his moral purity, Christian zeal, integrity, honesty, unselfishness and soundness of judgment.</p>
+        <p>To meet some pressing needs of the institution which its growth makes imperative right now, and for which $5,000 would be adequate, Prof. Nicholson is strenuously laboring. And yet he has a greater effort before him, the magnitude of which would stagger him were not his faith in God, his confidence in the existence of practical Christianity and his thorough knowledge of the far-reaching importance of the matter to furnish him the determination to accomplish it. It is this: He has launched an effort to make it assured that the institution will be perpetuated, and will continue to teach and practice the principles and policies which now make it a safe and most helpful 
+<pb id="nicho90" n="90"/>
+and far-reaching seat of learning. To do this an endowment of $100,000 must be raised.</p>
+        <p>Since it is well-known that among those who are blessed with this world's goods there has ever been and may yet be found those who are willing and desirous to honor the Lord with their substance. To all such who are willing to spend and be spent to help bring the Kingdom of God on earth, Bettis Academy and its work affords an open avenue for giving. In this way they may honor God, by assisting in the uplift and betterment of a submerged race, whose ignorance must ever be a hindrance to good government and social order. It cannot be doubted that Prof. Nicholson will ultimately succeed in his undertaking. To all disposed to assist it may be stated as a striking fact that nowhere else in America does a dollar “given in His name,” carry with it assurance of better return in far-reaching results than a dollar spent for the glory of God, through the uplift and betterment of the negroes in this section of South Carolina.</p>
+        <closer><signed>JOHN R. WILSON.</signed>
+<dateline>Columbia, S. C.</dateline></closer>
+      </div1>
+      <div1 type="index">
+        <pb id="nicho91" n="91"/>
+        <head>INDEX.</head>
+        <list type="simple">
+          <item>Bettis Academy, land for bought, 27; first building dedicated, 28; chapter about, 70 to 84; pictures of buildings facing, 17 and 33; home life at, 73, 74; results of training in, 76, 77; statement of financial needs, 80 to 84.</item>
+          <item>Bettis, Rev. Alexander, portrait of, frontispiece; his birth, 6; has charge of owner's lumber business, 12; licensed to preach, 14; becomes leader of new church, 23; ordained as minister, 24; pastor ten churches, 25; organized educational union, 26; accused and acquitted of misappropriation of funds, 28; his Monday morning talks, 31; vice president Baptist State Convention, 35; his moral standards, 36, 37; suppresses disorder, 37; preached without salary, 39; prays with would-be assassins, 46, 47; stops a negro exodus, 48; breaks the Tennant riot, 48, 49; as church organizer, 52 to 55; testimonials to his character, 56 to 67; in memoriam, 68, 69.</item>
+          <item>Carroll, Rev. Richard, testimonial by, 58 to 60.</item>
+          <item>Cohen, Edna, meets A. W. Nicholson at Schofield Institute, 87; marriage, 88.</item>
+          <item>De Vore, Hon. J. W., testimonial by, 64, 65.</item>
+          <item>Gary, Ex-Gov. John Evans, testimonial by, 62 to 64.</item>
+          <item>Gordon, Dr. Luther, recommends Alexander Bettis for the ministry, 14.</item>
+          <item>Hammond, Rev. John, plans negro exodus, 47.</item>
+          <item>Illustrations, Rev. Alexander Bettis, frontispiece; main building, Bettis Academy, facing, 17; Rebecca Hall and Martha Hall, Bettis Academy, facing, 33; Jetter Church and official board, facing 45; Mt. Canaan Church and official board, facing, 53; Pleasant Grove Church and official board, facing, 61; Shaw's Church and official board, facing, 73; Alfred W. Nicholson, facing, 85.</item>
+          <item>Jetter Church, reference to, 25; organization of, 53, 54; picture of church and official board, facing, 45.</item>
+          <item>Jones, Austin, treasurer educational union, 26.</item>
+          <item>Jones, the widow, owner of Alexander Bettis, 6; references to, 7, 8, 13, 14, 51.</item>
+          <item>Matthias, Hampton, selected by Alexander Bettis for principal of Bettis Academy, 28; at Schofield Institute and Atlanta University, 28 and 71; reference to death, 72.</item>
+          <pb id="nicho92" n="92"/>
+          <item>Matthias, Rev. Josiah, helps organize Mt. Canaan Church, 24.</item>
+          <item>Mealing, Rev. John, one of Mt. Canaan's organizers, 24.</item>
+          <item>Morgan, Rev. G. A., secretary educational union, 26.</item>
+          <item>Mt. Canaan Church, account of organization, 53; pictures of church and official board, facing, 53.</item>
+          <item>Nicholson, A. W., portrait of, facing, 85; selected by Mr. Bettis as principal of Bettis Academy, 28; at Schofield Institute and Atlanta University, 28; at Atlanta, 86; marriage, 88; becomes professed Christian, 86; becomes principal of Bettis Academy, 72; his effectiveness as teacher and leader, 88; sketch of, 85 to 92.</item>
+          <item>Nicholson, Mrs. A. W., valuable assistant to her husband, 88.</item>
+          <item>Peters, F. A., commends Bettis Academy, 78.</item>
+          <item>Pleasant Grove Church, organization of, 54; pictures of church and official board, facing, 61.</item>
+          <item>Quimby, James L., testimonial by, 65, 66.</item>
+          <item>Sease, Rev. Thomas, alarms white people, 46.</item>
+          <item>Shaw's Creek Church, organized, 54; picture of church and official board, facing, 73.</item>
+          <item>Simkins, S. McG., testimonial by, 66 to 68.</item>
+          <item>Tillman, Senator B. R., testimonial by, 57, 58.</item>
+          <item>Tolbert, Rev. Joseph, helps organize Mt. Canaan Church, 24.</item>
+          <item>Wilbur, Henry W., article by, 78 to 80.</item>
+          <item>Wilson, Prof. John R., chapter by, 85 to 90.</item>
+        </list>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

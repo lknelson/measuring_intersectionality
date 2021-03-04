@@ -1,0 +1,393 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY straktp SYSTEM "straktp.jpg" NDATA jpeg>
+<!ENTITY strakvs SYSTEM "strakvs.jpg" NDATA jpeg>
+<!ENTITY strakcv SYSTEM "strakcv.jpg" NDATA jpeg>
+<!ENTITY strakfp SYSTEM "strakfp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Reflections on the Life and Times of Toussaint L'Overture, the Negro Haytien, Commander-In-Chief, of the Army, Ruler Under the Dominion of France, and Author of The Independence of Hayti:</emph>
+Electronic Edition.</title>
+        <author>Straker, D. Augustus (David Augustus), d. 1908.</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Melissa Meeks and Elizabeth S. Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Matthew Kern and Elizabeth S. Wright</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2003</date></edition>
+      </editionStmt>
+      <extent>ca. 62K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2003.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="cover"> Reflections on the Life and Times of Toussaint L'Overture, the Negro Haytien, Commander-In-Chief, of the Army, Ruler Under the Dominion of France, and Author of The Independence of Hayti.</title>
+            <title type="title page"> Reflections on the Life and Times of Toussaint L'Overture, the Negro Haytien, Commander-In-Chief, of the Army, Ruler Under the Dominion of France, and Author of The Independence of Hayti.</title>
+            <title type="caption"> Reflections on the Life and Times of Toussaint L'Overture.</title>
+            <author>D. AUGUSTUS STRAKER</author>
+          </titleStmt>
+          <extent>48 p., 1 ill.</extent>
+          <publicationStmt>
+            <pubPlace>Columbia, S.C.</pubPlace>
+            <publisher>Charles A. Calvo, Jr., Printer and Bookbinder</publisher>
+            <date>1886</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">JWJ Zan T649 W886s (Beinecke Rare Book and Manuscript Library, Yale University)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. </p>
+        <p>The text has been encoded using the recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>This electronic edition has been transcribed from a microfilm supplied by the Beinecke Rare Book and Manuscript Library, Yale University.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings </title>
+            <edition/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Generals -- Haiti -- Biography.</item>
+            <item>Haiti -- History -- Revolution, 1791-1804.</item>
+            <item>Haiti -- History.</item>
+            <item>Revolutionaries -- Haiti -- Biography.</item>
+            <item>Slavery -- Haiti -- History.</item>
+            <item>Toussaint Louverture, 1743?-1803.</item>
+            <item>Blacks -- Haiti -- Biography.</item>
+            <item>Slaves -- Haiti -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2003-12-04, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2003-03-08, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2002-05-30, </date>
+        <respStmt>
+          <name>Matthew Kern</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2002-01-31, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="strakcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1>
+        <p>
+          <figure id="frontis" entity="strakfp">
+            <p>[Frontispiece Image]<lb/>TOUSSAINT L'OVERTURE.</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="straktp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso image">
+        <p>
+          <figure id="verso" entity="strakvs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">REFLECTIONS <lb/> ON THE <lb/> LIFE AND TIMES <lb/> OF <lb/> TOUSSAINT L'OVERTURE, <lb/> THE NEGRO HAYTIEN, <lb/> COMMANDER-IN-CHIEF OF THE ARMY, RULER UNDER <lb/> THE DOMINION OF FRANCE, <lb/> AND AUTHOR OF THE <lb/> INDEPENDENCE OF HAYTI.</titlePart>
+        </docTitle>
+        <byline>BY</byline>
+        <docAuthor>D. AUGUSTUS STRAKER, ESQ., <lb/> FORMER DEAN AND PROFESSOR OF THE LAW DEPARTMENT OF <lb/> ALLEN UNIVERSITY, COLUMBIA, S. C.</docAuthor>
+        <pb id="pii" n="ii"/>
+        <docImprint>
+          <docDate>COPYRIGHT, 1886, <lb/> BY D. AUGUSTUS STRAKER.</docDate>
+        </docImprint>
+        <docImprint>
+          <pubPlace>COLUMBIA, S. C. </pubPlace>
+          <publisher> CHARLES A. CALVO, JR., <lb/> PRINTER AND BOOKBINDER, </publisher>
+          <docDate> 1886.</docDate>
+        </docImprint>
+      </titlePage>
+      <div1 type="dedication">
+        <pb id="piii" n="iii"/>
+        <p>Dedicated to the memory of my esteemed friend, the Right Rev. William Fisher Dickerson, D. D., late Bishop of the African Methodist Episcopal Church, whose work and energy in the intellectual, spiritual and moral advancement of his race are enshrined in the heart of the</p>
+        <closer>
+          <signed>Author.</signed>
+        </closer>
+        <pb id="piv" n="iv"/>
+      </div1>
+      <div1 type="preface">
+        <pb id="pv" n="v"/>
+        <head>PREFACE.</head>
+        <p>In presenting this little book to the public for its perusal, I beg leave to distinctly disclaim the purpose of attempting to offer to the reader a history of the life of the eminent negro chief Toussaint L'Overture. It is my purpose only to endeavor to perpetuate the memory of a man of the African race, whose talents, patriotism, statesmanship, virtue and ability are the just pride of the negro race. In the language of Bishop Holly, in his memoriam of Major Martin R. Delany, in the <hi rend="italics">A. M. E. Review,</hi> October, 1886, “We are not even justified in troubling the memory of the dead by citing their good examples, unless it has for its object the stimulation of those who survive, to follow their glorious footsteps, to imitate their holy examples.” May this be the effect upon the minds of those who occupy similar relationship to the negro race, in reading these brief reflections on the life of him who was a good example to the entire race which survives him. My effort is an humble supplement of the great American orator, Wendell Phillips, who, in his lecture on Toussaint, said his effort was to convince you (his hearers) that the negro blood, instead of standing at the bottom of the list, is entitled, if judged either by its great men or its masses, either by its courage, its purpose or its endurance, to a place as near ours (the Anglo-Saxon) as any other blood known in history.”</p>
+        <p>Again, I offer these brief views of the Haytien Chief Toussaint L'Overture, as I aforesaid, to perpetuate his memory; for although his fame is undying, and the lustre of his name undiminished, yet we find the strange incident of omitting to record the noble deeds of this great negro by modern historians. Like Crisup Attucks, the name of Toussaint L'Overture
+<pb id="pvi" n="vi"/>
+seldom appears accompanied by any record of their noble deeds in the past, by the historians of the present day. I will not charge this to envy or jealousy; but it nevertheless teaches the lesson that in a large measure the negro must be himself his own historian. It is a duty which must be enlarged by our men of letters. Let an abler pen than mine follow up these humble lines, and keep fresh in the memory not only of the negro race, but of the civilized world, the deeds of him who taught the world that he was a man, in spite of the belief of his inferiority because of his color.</p>
+        <p>Let the lisping child learn to love and praise the greatest man of the negro race that ever lived. In song and in prose let us keep fresh his deeds of courage and his bravery, so that by reading the same the negro's soul may be inspired, and that he may emulate his virtues.</p>
+        <p>Let the veil of charitable criticism pass over these lines herein offered, and believe me, dear reader, that they are penned only in love and affection for my hero, and in just pride of him, as one of the noblest descendants of Africa, our fatherland.</p>
+        <closer><signed>AUTHOR.</signed>
+<dateline>Columbia, S. C.</dateline></closer>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="pvii" n="vii"/>
+        <head>REFLECTIONS ON THE LIFE AND TIMES <lb/> —OF— <lb/> TOUSSAINT L'OVERTURE.</head>
+        <p>The life of a great and good man is always profitable to be reviewed, and especially so when that life was occupied in deeds of self-sacrifice and patriotism.</p>
+        <p>The Anglo-Saxon has been untiring in preserving the deeds of virtue and patriotism of his race. Their poets have sung and their historians recorded the names of those illustrious men and women whose deeds are fit example, and of whom they have a just pride. To the English, Alfred the Great, Oliver Cromwell and Wellington are men whose deeds create a pride and patriotism just and undying. To the American, the names of Washington, Lincoln and Grant; and their deeds are inscribed upon the tablets of their memory with unfading impress. The reason for this is that these men have done noble
+<pb id="p8" n="8"/>
+deeds for their country and exhibited the capacity of their race. In the school and at the fireside at home, the youth is presented with the lesson of the lives of these great men, for the purpose of inspiring them with a noble emulation and a just pride in the achievements of such men of their own race. The deeds of the ancient men of valor, as we remember, were kept fresh in the memory and a spirit of emulation encouraged by the songs of the bards as they would travel from house to house and from village to village. Grecian history keeps in our memories to-day Marathon and Salamis, and the noble deeds of the Pass of Thermopylæ. The names of Wallace and Bruce give a reviving spirit to every Scotchman. Tennyson has immortalized in song the “Charge of the Light Brigade,” and now the question presents itself, have the descendants of Africa anything worthy of record, or has there been a negro who can claim a place in history or in the hearts of his race of people for his virtue and noble deeds? I think so, and I challenge contradiction when I say that no one can lay claim to a higher place on the pinnacle of fame for noble deeds, true patriotism, statesmanship,
+<pb id="p9" n="9"/>
+virtue and bravery among men, than Toussaint L'Overture, the subject of my discourse.</p>
+        <p>Hayti, the birthplace of Toussaint L'Overture, may be regarded as that spot on the face of the earth on which the negro has successfully shown his capacity and reached the highest achievements in the field of battle, in the art of war, and in the mode of self-government, equally with his Anglo-Saxon brother. This will more fully appear in the life of him who gave liberty to the Haytien slave and established a government based upon the equality of the rights of man. Hayti was discovered by Christopher Columbus. The natives at the time of discovery were in a semi-barbarous condition, and, like other people when away from the theatre of civilized life, possessed of no mental cultivation; and, largely unacquainted with the industries and modes of civilized life, they became an easy prey to the pale-faced adventurer, who uncharitably represented the Haytiens to the Spanish Court as “a people of feeble understanding.”</p>
+        <p>Mere ignorance in a people deprived of the means of acquiring knowledge through books and the means of contact with the
+<pb id="p10" n="10"/>
+civilized portion of the world is no just criterion of their intellectual capacity. It is, therefore, a false philosophy, as well as a contemptible prejudice, which imputes to the negro intellectual incapacity. True philosophy, it is said, disdains to adopt those prejudices against a race which have no better foundation than a diversity of color; but bases her judgment upon substantial, evidence of the deeds and power of a people, in accordance with the measure of their opportunity. I therefore offer this philosophical test, wherewith to measure the negro by those who assert his inferiority to all other races.</p>
+        <p>Soon after the discovery of Hayti by Christopher Columbus the natives began to feel, despite their kindness and faithfulness to the stranger in their country, the iron heel of the merciless invader. Spanish tyranny and oppression were to be felt in every Haytien household. The natives were robbed of their goods and massacred in defending their property, seized by the Spanish banditti, who invested their shores. The method of civilization sought to be introduced by the Spaniards among the Haytiens
+<pb id="p11" n="11"/>
+was one of continual plunder and oppression. This became intolerable and led to the battle of Vegal Real, between the natives and their oppressors. The Spaniards were victorious, and new cruelties were imposed on the natives. Some were condemned into the mines, and others sent into Spain as slaves. Thus the pretended civilizing methods of the Spaniards soon assumed the true garb of the unholy traffic of the slave trade, and the Haytiens clearly saw that the white man was not their true and interested friend for their good. They resisted him as best they could, and, not being able to meet him with force of arms, nor with money, they sought to starve the oppressor by tearing up the roots of all vegetables and retiring from all labor. This incensed the Spaniards, who pursued the natives to their fastnesses and trained their dogs to hunt and devour them, so that we see that the boasted Anglo-Saxon not only invaded Hayti, but reduced its inhabitants into slavery, plundered their possessions, shed their blood in war, taxed them for their existence, but also taught their beasts to devour them. These persecutions and oppressions led to several wars between the natives and
+<pb id="p12" n="12"/>
+their invaders, who afterwards included not only the Spaniards, but the English and French people. Hayti was a desirable possession; hence the English and French were in frequent contests to secure the Island from the control of the Spaniards. In the midst of revolutions, opportunities favorable to the development of human talent and character. Our heroes and patriots are in such times born. Nature brings forth her best and strongest to defend truth and punish error. It was so when slavery oppressed an innocent people in the West Indies. God arose for the abolition of slavery in the West Indies, Clarkson, Wilberforce and Lord Mansfield. It was even so in America when slavery blackened the moral firmament of our country and the cries of the fugitive slave and the slave in fetters and chains went up to heaven. Then God arose the noble band of Abolitionists, Lovejoy, Wendell Phillips, Sumner, and out of the family of the oppressed race itself he lifted up Fred Douglass as a sword against slavery. We find it even so in Hayti. In Santo Domingo during the struggle for liberty and independence, which the great powers of Spain, France and England sought
+<pb id="p13" n="13"/>
+to deny the Haytiens, there arose a man with a heart pregnant with heroism, with a soul brimful of patriotism, and with strength of arms and skill capable of wielding a sword in defense of his race, the equal of the white warrior or statesman, and having withal wisdom enabling him to govern wisely and well. This man was Toussaint L'Overture. His birthplace, like that of all great men, has been a matter of dispute since his death. He is said by some to have been born in Africa; but those whose information is most reliable accredit his birth in the year 1745, on the plantation of Count De'Noe, in the Northern province of Santo Domingo, not far from Cape Francois. Although born a slave, and denied every advantage which freedom bestows, yet Toussaint betrayed at an early age traits of character portraying a great man, possessed of a noble soul and an independent spirit. He was benevolent, always manifesting a great kindness of disposition, even towards the brute creation. He was of a patient temper, a faculty most useful, as well to a military commander as to a statesman. So remarkable were these traits of character that the super-intendent on the plantation where Toussaint
+<pb id="p14" n="14"/>
+worked as a slave granted him, it is said, unusual privileges, among these the opportunity to learn to read and write, which he did, making also fair progress in arithmetic.</p>
+        <p>These early acquirements in education were to Toussaint L'Overture powerful allies in his contest for the liberties of his brethren. Indeed, in all spheres of life knowledge is power. This advantage in education which Toussaint had over his fellow slaves seems to have been appreciated by those over him, as we find that he held the advanced position of postillion to his master. This primary education served him most in after days when he had improved his knowledge and undoubtedly aided him to compete with statesmen of renown in England and France, not only on the battle field but also in matters of government. He was, by the power of his education, as Milton, the poet, declares, “fitted to perform justly and skillfully and magnanimously all the offices, both public and private, of peace and war. It enabled him as a citizen to know the beginning and the end and reason of political society, so that in a dangerous fit of the commonwealth, as all are subject to at some time or other, he may not become such
+<pb id="p15" n="15"/>
+a poor shaken and uncertain reed, of such a tottering conscience, as many show in political crises, instead of being pillars of state.”</p>
+        <p>When the insurrection of 1791 took place Toussaint <sic corr="L'Overture">l'Overture</sic> was yet a slave on his master's plantation. The cruelty with which the slave owner treated the negro slaves in Hayti was intolerable, and indescribable, and the inclination of the Haytien slave to be free had now resolved itself into a determination to be both free and independent at the cost of a revolution. They had reached the point where it was either liberty or death for them. Columbus, when he discovered the island, found the natives free, but ignorant and superstitious. Soon the horde of foreign invaders, by reason of their superior intelligence and force of arms, placed the natives in an involuntary servitude. In this oppressed condition the natives looked around them for a leader, a Moses, who could deliver them from the oppression of the slave owner. Knowing Toussaint's unblemished character, his bravery and his intelligence, they naturally looked to him for deliverance. He had felt the sting of the lash and knew all about the horrors of slavery; nor was his heart slow to beat in response
+<pb id="p16" n="16"/>
+to his brethren's call. He loved them; he believed that God did not make his race to suffer except as they suffered themselves to be oppressed. Toussaint therefore determined that he and his brethren should be free, and he knew it could only be done by shedding the blood of the slave owner, and otherwise reducing his power. The natives then began to kill men and women and to burn their property, But amidst this bloody strife for liberty Toussaint in his compassion remembered the kind treatment of the super-intendent on his master's plantation, and in gratitude he aided him to escape to America before the natives commenced hostilities against the white race, giving him a large quantity of sugar and other provisions for his support. Was not this an exhibition of a noble spirit in an untutored negro? Did not this show an exalted character not to be tarnished through oppression?</p>
+        <p>After this Toussaint began the work of liberating himself and brethren from slavery by force of arms, in which contest he was stoutly resisted by French arms. Hayti was at this time under the dominion of the French, who had wrested the island from the hands
+<pb id="p17" n="17"/>
+of the Spaniard and partially emancipated the slaves.</p>
+        <p>In this struggle Napoleon had watched the bravery of Toussaint L'Overture, and regarded him as a soldier of the highest ability and courage. He therefore placed him at the head of the Haytien army and appointed him Commander-in-Chief of the colony. In his administration he had to contend not only with foes without but dissensions within. There was a class of people in Hayti who were disloyal to the French government and also gave aid and support to the English, who attempted to invade the island and take it from the control of the French Government. Toussaint espoused the cause of the French Government, because, although the effort made by him to liberate himself and brethren from bondage did not wholly secure both their liberty and independence, it gave rise to France being made to see the horrors of slavery, and, through the noble work of philanthropists, to ultimately emancipate the slaves in Hayti and to place their control under one of their own race. Moreover the Republic of Hayti was the child of France by adoption, and Toussaint having received a
+<pb id="p18" n="18"/>
+commission from the French Government regarded himself as trustee for the same. He therefore endeavored to preserve a faithfulness to those who had trusted him, for it is a maxim concerning him that <hi rend="italics">he</hi> never broke his word. In his management of the contending factions of French and English adherents in the colony he exhibited ability as a statesman and skill as a diplomat, to the end of averting popular fury against France, for although French laws were undoubtedly oppressive towards the natives, yet Toussaint wisely saw little difference between French and English oppression.</p>
+        <p>The Commissioners sent out by France to inquire into the civil troubles found Toussaint L'Overture in general command. It is said that he so conducted the affairs of the colony as to protect the liberty and property of every citizen. His impartial dealing, and benevolence, which he exercised towards all men, mingling mercy with justice, yet firm in duty, gave him great influence and secured for him the great respect which the most exalted who came in contact with him generously paid him. In instance of his benevolence, it may be mentioned that at one time
+<pb id="p19" n="19"/>
+when four Frenchmen who had committed the heinous offense of deserting the army were tried and sentenced to die, Toussaint, on hearing of the orders, commanded that the soldiers be brought to church the following Sunday, and when that part of Divine service was reached in regard to mutual forgiveness, this negro General and commander of the Haytien army went with these culprits, leading them to the front of the altar, where, after endeavoring to impress them with the enormity of their offense, he ordered them to be discharged. How noble this act of a negro towards the race of his oppressors can better be conceived than described, except in the language of Blair, who says: “That the greatest man on earth can no sooner commit an injury than a good man can make himself greater by forgiving it.” Toussaint L'Overture, as the governor of men, knew well how to temper the most severe justice with mercy, and, in his exercise of such mercy, Nature, as if desirous that so bright and excellent a production of her works should be set in the noblest mould, had bestowed on the Haytien chief all bodily accomplishments, vigor of limb, dignity of
+<pb id="p20" n="20"/>
+motion, symmetry in shape, an open countenance and a noble soul.</p>
+        <p>Another circumstance which showed the nobility of soul and the integrity of manhood in Toussaint was his conduct with the British General, Maitland. After numerous battles with the English, in which Toussaint L'Overture had met Albion's bravest sons and conquered them, completely driving them off, even from the possessions in Hayti which they had obtained when the island was under French management exclusively, so as to drive them entirely out of Hayti, a treaty was proposed by the English General in command, General Maitland. He proposed an interview with Toussaint. General Roumè, of the French army, learning of this proposal, thought he saw an opportunity to serve France and distinguish himself even at the cost of honor. He recommended to Toussaint L'Overture, that on Maitland's coming to see him about arranging the terms of treaty, he should detain him as a prisoner. Toussaint had previously informed General Maitland of his readiness to receive him and hear his proposals. The English General was nevertheless informed of Roumè's proposed treachery by some of Maitland's
+<pb id="p21" n="21"/>
+friends. He therefore entered on his mission to Toussaint with great apprehension. <sic corr="On ">O </sic>entering, the English General was courteously received by the Haytien chief in his camp, and before any further ceremonies commenced Toussaint L'Overture showed Maitland Roumè's letter requesting him, Toussaint, to detain Maitland as a prisoner of war, and also showed him his, Toussaint's, reply. He then assured General Maitland that he was safe within the Haytien camp, and said to him: “Sir, I am incapable of baseness.” To Roumè he replied: “What, have I not passed my word to the British General? How can you suppose that I will cover myself with dishonor by breaking it? His reliance in my good faith leads him to put himself in my power, and I should be ever infamous if I were to act as you advise me. I am faithfully devoted to the Republic, but will not serve it at the expense of my conscience and my honor.”</p>
+        <p>What true greatness of spirit, and of steady inflexible virtue! Toussaint L'Overture had a mind superior to fear, of uniform rectitude and integrity, which no bribe could seduce, nor terror overawe. Toussaint never broke
+<pb id="p22" n="22"/>
+his word, a virtue now lost among many who are in public station and whose word ought to be relied on.</p>
+        <p>Is it strange when we reflect on the virtues of this great and truly noble negro that his fame should remain undimmed by time and his virtues untarnished? Not only did he earn, by his good works, his justice and his benevolence, the praise of the times in which he lived, but men still delight to tell of his virtues the civilized globe o'er. I believe the name of Toussaint L'Overture is enrolled in the book of good deeds kept in the archives of Heaven. As an executor and administrator of the laws by which he ruled the people of Hayti he has earned the title of “just and wise.”</p>
+        <p>Although the opportunities for an education were few, yet Toussaint showed remarkable aptitude and ability, and was largely informed in knowledge and literature. He was learned, it is said, in the laws of nations, and the arts of peace as well as war. He doubtless felt that he was destined not only to govern, but to uplift his people. His chief aim was the prosperity of his country. He endeavored to promote industry among the people, especially
+<pb id="p23" n="23"/>
+in the cultivation of the soil, the keystone of the prosperity of every country. He paid strict attention to the interests of the laboring classes, and required that the planters who employed the farm hand should pay him just wages, and to secure this laws were enacted which secured to the laborer not only just and adequate compensation, but protection in payment for labor. This course of administration, which secured to the laboring class the foundation stone of all progress and prosperity, produced in Hayti, during the administration of Toussaint L'Overture, great prosperity among the people, so much so that it is recorded “that the crops during his administration exceeded those which preceded him by one-third more.” And why? May we not assert that this was inevitable and uniform where free labor takes the place of slave labor? It is so in the Southern States of America, where the statistics show that more cotton has been produced since the emancipation of the negro slave than before, and the progress of this section is in ratable proportion. Freedom develops both mind and matter.</p>
+        <pb id="p24" n="24"/>
+        <p>Toussaint also effected great political changes in Hayti. Discrimination in offices of trust was no longer known, and some of the highest places in the administration of public affairs were filled by men of color of the lately emancipated race. Commerce flourished and the Black Republic promised a great future under the rule of the Negro Chief.</p>
+        <p>The year 1801 found Santo Domingo an independent colony, working out her destiny among the independent States of the world. Through the bravery of Toussaint in war, and his skill as a General on the battle field, he drove from Hayti the pale-face oppressor of England, France and Spain. By his wisdom and judgment as a ruler he had placed his country upon a footing of equality with other governments, and proved the capacity of the negro in self government. But just as the day of hope appeared for Hayti a dark cloud arose, perhaps as a lesson, perhaps as a trial.</p>
+        <p>The independence of Hayti was not secured through the good feeling of France, but through her inability to conquer Hayti while Toussaint lived, added to which was a combination of circumstances facilitating Haytien independence. France was at this period surrounded
+<pb id="p25" n="25"/>
+by foes. England had her hand at the throat of the French Empire. Napoleon Bonaparte was endeavouring to crush the nations of the earth. Great was the hostility of all civilized powers against France. This condition of affairs disenabled Napoleon Bonaparte from slaking his ambition in conquering and subduing Hayti; yet he never ceased to keep rankling in his breast enmity towards Toussaint <sic corr="L'Overture">l'Overture</sic>, who had been the only obstacle to the Empire's securing the subjection of the Black Republic. In truth and fact the great French General Bonaparte, who had subdued the most powerful nations of the earth, and who had made kingdoms to tremble at his frown, yet feared the Haytien chief and negro soldier Toussaint <sic corr="L'Overture">l'Overture</sic>. He was unwilling to meet him face to face on the battle field, as the experience of the past had taught him how futile such an endeavour would be. But when hostilities had ceased between France and the other powers of Europe. Napoleon's insatiate ambition was revived towards Hayti. Regarding the Haytien General with an eye of suspicion, hatred and jealousy, and resting in the belief that he was born destined to conquer the world, and
+<pb id="p26" n="26"/>
+die without having met a successful opponent, yet seeing a most powerful one in the negro General Toussaint L'Overture, he contemplated a plan to restore France to her former sovereignty and control over Hayti. In order to accomplish this purpose, a fleet of twenty-six ships of war was collected in the harbors of Brest and L'Orient, commanded by Rochefort, with twenty-five thousand, the flower of the French soldiery, who encamped in Hayti. At the head of the French army was General Le Clerc, the brother-in-law of Napoleon Bonaparte. He was assisted by some of the most experienced Generals in France.</p>
+        <p>The appearance of this fleet and army gave general alarm to the Haytiens. It was evident that such was a menace to freedom and the independence of Hayti. Toussaint L'Overture it is recorded kept his eye upon the French fleet and army, but counselled moderation, enjoining his followers to receive the visitors with respect. Meanwhile Toussaint made due preparations. Le Clerc dispatched three divisions of his forces. To the city of Santo Domingo he sent General Kersevar. Rear-Admiral Labouche was sent to Port-au-Prince. Captain Majon, who was under General
+<pb id="p27" n="27"/>
+Rochambeau, went to Marcenello Bay, and General Le Clerc himself proceeded to Cape François. Ignorant of the true inward purpose of the French, and the Haytiens seeing the French soldiers land on their shores, took them for friends and ran towards the shore to meet them, when the French soldiers fell upon them and generally massacred them. On the next day following this massacre, General Christopher, the next in command of the Haytien army, sent his Aide-de-Camp on board the French ship in command to inquire the cause of this unwarranted attack upon the Haytiens. It is said that evasive answers were given him by Le Clerc and an impression was endeavoured to be made that the mission of the French was one of peace. How strange the method used by the French in showing their peaceable intent toward the Haytiens? But Toussaint L'Overture was not thus to be deluded by these false pretenses or statements. He at once announced that the French had come to take away their liberty. Le Clerc failing to deceive Toussaint, as he quickly saw, and being too great a coward to meet him on the battle field, resorted to a plan of treachery almost too shameful for recital.</p>
+        <pb id="p28" n="28"/>
+        <p>Toussaint had two sons in France at the time Le Clerc attempted to invade Hayti. These young men were receiving their education. Le Clerc recommended to Bonaparte that they should be retained by him as hostages of the enemy. Napoleon Bonaparte sent Toussaint's sons to him in Hayti, thinking he would deepen his grief by their presence and condition, and thus compel him to deliver up the island ere he witnessed the sacrifice of his children. This was a most dastardly and cowardly act on the part of Napoleon Bonaparte, and proved him to be a man of accident in his conquest, and not the brave soldier reputed of him. But he did not fully appreciate nor understand the manhood and patriotism of Toussaint L'Overture. In that casket of ebony, dear reader, there was a pearl not to be found in the black heart of the ambitious French Emperor. Toussaint was not only a brave man, but a virtuous man and a patriot. He saw in the allegiance he owed his country and the love for his race and brethren in Hayti a duty broader and higher even than that he owed the beloved offspring of his body. He so loved his country and his race that he was willing to give his beloved children
+<pb id="p29" n="29"/>
+as a sacrifice in their behalf. The negro chief met his children, it is said, with emotions too big for utterance. He clasped them in his arms. Picture the scene! A devoted father, in the presence of his two sons, whom he had sent to France to receive such an education as he was unable to receive, and on whom his greatest hopes rested, attempted to be kept as hostages by the enemy of his country and the assailant of his liberty, the liberty of his brethren in Hayti and the freedom and independence of his country!</p>
+        <p>But France, the mother country of Hayti, and to whose government Toussaint L'Overture, the negro chief in Hayti, had but lately shown such filial allegiance and patriotism in the contest between France and England, refusing the overtures of Great Britain, forgetting all gratitude, as well as justice, sent her cold-blooded emissary with the cup of indescribable bitterness, and demanded of Toussaint that he should drink it or play traitor to his race and country. Bonaparte had instructed Coisson, his emissary, to declare to Toussaint that the liberty of the blacks should not be invaded, and to offer Toussaint himself great fortune, and to say that Bonaparte acknowledged
+<pb id="p30" n="30"/>
+his power, his bravery and his skill as a General. In listening to these persuasions, Toussaint was moved to tears, which mantled the cheek of the brave soldier. His sons were also moved to tears. To all this was super-added the entreaties of Toussaint's wife, the beloved of his bosom, who besought him to let his conscience spare to her her children. It is said Toussaint looked upon his children, then upon his wife several times alternately; then, clasping his children once more in his arms, said to the messenger of Bonaparte, “Take back my children, since it must be so. I will be faithful to my brethren and my God.” Was there ever a nobler act of man, a greater patriotism shown? If so, history fails to record it. By this conduct Toussaint L'Overture placed his name higher on the pinnacle of true grandeur of soul than any man known to the writer, and on the last day, when shall appear the names of true patriots, <hi rend="italics">his</hi> name shall be inscribed in letters of heavenly flame as the just, wise and benevolent commander of Hayti and the noblest patriot that ever lived. I place Toussaint L'Overture far above Cæsar, who lacked the one essential to make him a patriot—namely, the unselfish love of
+<pb id="p31" n="31"/>
+country. Cæsar was marked for his ambition, which secured him the dictatorship of Rome but cost him his life. I place Toussaint L'Overture above our own Washington. George Washington delivered his country from a political thraldom. Toussaint L'Overture, from a physical bondage. Washington entered the struggle for American liberty and independence, aided by education, race <hi rend="italics">prestige</hi> and a civilized adherence. Toussaint was surrounded by an unlettered, poor and semi-civilized people.</p>
+        <p>But let us return to Napoleon Bonaparte and his plans for subjugating the Black Republic. Failing to make Toussaint L'Overture a party to his country's subjugation and the degradation of his brethren and his race, Napoleon declared him without the protection of the law. For what crime? Was he a felon or traitor to his country? No; but because he refused to aid in the enslavement of his brethren in Hayti, and insisted that as a free and independent people they had a right to local self-government at least. This right, coupled with the right of freedom, Toussaint had always fought the French and Spaniards for in behalf of his brethren. On the battle
+<pb id="p32" n="32"/>
+field and in the councils of peace, he had proved his equality with the boasting Anglo-Saxon for government and the knowledge of self-defense for his country. This Napoleon Bonaparte had seen and acknowledged, yet kept a rancor and jealousy slumbering against Toussaint, and only awaited an opportunity when he could crush so strong a rival. As a compromise, Toussaint accepted Le Clerc's proposals of suspension of hostilities, and retired to his home to watch the fruits of peace assured by Le Clerc. Napoleon regarded this time as his opportunity, and, knowing that Toussaint was unprepared for immediate defense, relying as he was on the good faith of Le Clerc's promise that the blacks should not be disturbed, planned and attempted the most diabolical plot that ever stained the annals of history. This was the capturing of the Haytien chief unawares and imprisoning him. The details of this foul deed I will relate further on. I will now briefly describe, as recorded by others, how Toussaint became ruler of Hayti, while his brethren still suffered from the oppression of the French Government.</p>
+        <pb id="p33" n="33"/>
+        <p>After the landing of the French troops, already referred to, under the control of General Le Clerc, and after frequent encounters between the Haytiens and the French, the former led by Toussaint L'Overture, and the latter by the flower of the French army, Le Clerc found the Haytien troops superior soldiers to his French “braves,” and Toussaint L'Overture every inch his equal as a General. He therefore gave up his plan of subjugating Hayti by force of arms and issued a proclamation declaring amnesty to all. This promise, on the part of General Le Clerc gave satisfaction to all but Christophe, who was somewhat incredulous of the French General's promise, and demanded, as a token of good faith, the recognition and retention of his station and that of other officers of rank in the Haytien army. This request, it is said, was reluctantly granted, but ultimately a peace was concluded with Toussaint, in which he was declared General-in-Chief of the Haytien army, under the sovereignty of France. It was after this treaty was made that Toussaint retired to his plantation, which I have before mentioned, relying upon the good faith in
+<pb id="p34" n="34"/>
+which the treaty was thought to have been made.</p>
+        <p>For this cause Toussaint L'Overture has not escaped the shaft of the super-critical, who regarded it as a disgraceful compromise of Haytien rights. I do not think so, but regard it as good statesmanship. It was in the interest of the welfare of his country, as he had a right to suppose. He was put in a position where he could protect the rights of his countrymen and secure their advancement. It was easy to foresee that, although the Haytiens were brave and good soldiers, their country was poor in itself, and at that stage could not long maintain an independence secured by force of arms only. A just protection by France was advantageous. Its association upon terms of liberty and equality with the Haytiens secured its progress. It was therefore, to my mind, the highest wisdom in Toussaint L'Overture to accept the treaty offered by France. Does any one believe that had Great Britain at any time offered to the American Colonies their right of representation upon the basis of taxation, that Washington would not have averted the bloodshed
+<pb id="p35" n="35"/>
+which flowed in securing American independence?</p>
+        <p>In the Declaration of Rights, as declared by the first Continental Congress in America, among other things, it is asserted that the Colonies were entitled to a free and exclusive power of legislation, * * subject to the negative of their sovereign.” This the American Colonies would have been satisfied with, and, had the British Parliament promised it, who would have called Washington traitor for accepting it under so solemn a form as a treaty? Was not the Compromise Bill of 1820, in which the Abolitionists—most of them, at least—consented, and such men as Senator Sumner and others, who were the undoubted friends of the slave in America, accepted, a greater compromise of human rights than the treaty of France with Toussaint L'Overture? Reformations even secured by force must be maintained by prudence, wisdom and moderation, as our civil war has clearly shown.</p>
+        <p>To return to our theme, it is said that when the treaty was concluded, Le Clerc, speaking at the time to Toussaint L'Overture, said to him, “You, General, and your troops, will be regarded and treated as the rest of my army.
+<pb id="p36" n="36"/>
+With regard to yourself, you desire repose and you deserve it. After a man has sustained for several years the burden of the government of Santo Domingo, I apprehend he <sic corr="needs repose">needsrepose</sic>. I leave you at liberty to return to which of your estates you please.” This proffer was apparently frank enough to inspire confidence in a man who regarded his word as his honor and thought every other man should. The French Government had declared liberty and equality before the law for all the inhabitants of Santo Domingo. This was all Toussaint L'Overture fought for, all he asked for himself and his countrymen. It was not for fame that he struggled in peace or fought for in war. Neither was it for riches, nor even for revenge, for, as I have already shown, from the commencement of the struggle for liberty Toussaint showed a spirit both of benevolence and forgiveness, even between master and slave. Toussaint, therefore, resting in the belief that liberty was secured the Haytien and his inalienable rights made sacred, retired to a small plantation bearing the name of L'Overture. There, in the bosom of his remaining family, he dwelt, as he thought, in peace and quiet, and rid of the burden of warfare,
+<pb id="p37" n="37"/>
+though oppressed and afflicted in the grief of the loss of his two sons, whom the French had kept as hostages, and who had never been heard of since their return to France. While enjoying this apparent tranquillity, a plot, as I have already mentioned, was begun for his captivity. Such treachery never before nor since, to my knowledge, has ever stained the annals of civilization. About the middle of May, in the dead of the night, the Creole, frigate, supported by the Hero, a seventy-four gun ship of war, it is recorded, stood near Giovannes, which was situated near the plantation of Toussaint. Small boats with soldiers were landed, and proceeded at dead of night to the house of the Haytien General.</p>
+        <p>Toussaint was at home with his family, and at that time <sic corr="wrapped">wrapt</sic> in sleep, all unconscious of his approaching fate, when Brunet, Brigadier General of the French army, and Ferrai, Aide-de-Camp to Le Clerc, entered the bedchamber of the Haytien chief with a file of soldiers and demanded that Toussaint and his family should regard themselves as prisoners and should go on board the ship. In this act of base treachery and ingratitude, France had put to shame the deepest dishonor and
+<pb id="p38" n="38"/>
+inhumanity. Let us reflect? Who is it that is like a dog captured? It is the hero and the brave soldier who had put to retreat England and France's best Generals, but was now the derision of every “pelting petty officer” of France. Resistance to this course was useless, and although the act was contrary to the principles of civilized human warfare, yet Toussaint yielded, leaving his cause to be vindicated by future time. This vindication came. It appeared and was evident when England defeated France at the battle of Waterloo and Napoleon Bonaparte was put in exile át St. Helena. Who doubts that in Napoleon's confinement a remorse gnawed his conscience for his base treachery to the Haytien chief, and he saw in his fate the table of events inverted as to his power. Did the God of vengeance forget this brutal and unkind act aimed in degradation of a race of people? No; for it is to be remembered that after many years we find the descendant of Napoleon Bonaparte entering the battle field to fight against that race for which Toussaint L'Overture was sacrificed. In the Zulu war, in which England was engaged against the forefathers of the brave Toussaint, he was avenged. Africa
+<pb id="p39" n="39"/>
+laid in death the grandson of Napoleon in this war, and when in the prime of life and amidst his fairest hopes. It was the punishment of the “sins of the father even unto the third and fourth generation.”</p>
+        <p>Toussaint, as we have said, submitted to his fate, but requested that his feeble wife and harmless children might be suffered to remain at home; but even this humane request was denied. Toussaint was then taken to Brest and placed in the castle of Joux. His family was removed to Bayonne and doubtlessly murdered, as they disappeared from the land of the living and were never heard of. Toussaint was subsequently removed to Besançon and there immured in a cold, damp and gloomy dungeon, where he died in the year 1803 from the want of proper sustenance and the ordinary attentions of life.</p>
+        <p>Thus ended the life of the greatest negro that ever lived before or since his time. Great as a statesman, as a soldier and patriot, Toussaint L'Overture must be admitted as one of the greatest soldiers that ever lived, inasmuch as he could not be subdued or conquered by Napoleon Bonaparte, who, by his military skill and genius, had conquered well nigh all Europe.
+<pb id="p40" n="40"/>
+The rearing of the two men required different results. Napoleon Bonaparte was reared and trained in the best military schools of France. Wealth was at his command and an innumerable army of devoted braves, comprising many French Generals of note, who were always ready to obey his nod. Not only did Napoleon Bonaparte have a disciplined army in battle against Toussaint L'Overture, but he had a vast country whose resources were great. Nay, more, the French General, Napoleon Bonaparte, was of a race which had hundreds of years in the scale of advancement in proportion to those struggled for by the Haytien chief and those of his race in Hayti for whom he fought.</p>
+        <p>Toussaint L'Overture was born of low estate and reared amidst the obscurity and dense darkness of slavery: He taught himself to read and write and compute numbers. Upon this small foundation, by diligence and perseverance, he raised an educational superstructure and wisdom which enabled him to successfully compete with Napoleon Bonaparte in the battle field, and to so repulse him and his braves, and to compel the French General of reputed honor and bravery (?) to
+<pb id="p41" n="41"/>
+resort to treachery as the only means of subduing the negro chief. This strategy of Napoleon Bonaparte was such as the most savage and barbarous people never have exceeded. It is said by some critics of late that young Napoleon, who was killed in the Zulu war by the Africans, was foully murdered, in that the enemy stealthily attacked him while in camp and killed him. By others this is disputed, and Napoleon is said to have been arrowed in his back while fleeing, as was proved by the locality of his wounds. Enough to say that if either method was adopted neither fell out of the method of civilized warfare exercised by a people semi-civilized. It cannot be said that the Zulu Africans treacherously murdered the young Napoleon as did his grandfather, Napoleon Bonaparte, the brave hero and soldier, Toussaint L'Overture.</p>
+        <p>It is to be wondered at when we think how one negro, by his courage and skill and bravery, did overthrow and defeat in battle the machinations of the most skillful Generals of Spain, England and France, and did deliver from a cruel bondage his race of people in Hayti. With a brave heart and an honest purpose, and a disposition not to longer
+<pb id="p42" n="42"/>
+brook, nor suffer, himself, nor witness his brethren suffer the oppression of slavery, he went forth like David of old to battle against his enemies. He had not the army of an Alexander the Great, nor a Julius Cæsar, aided by wealth and civilization; he had only the recruits of Hayti's negroes, who became strong, each man being equal to ten, in the holy warfare of endeavoring to free themselves from the horrors of human slavery.</p>
+        <p>Not only was Toussaint L'Overture distinguished as a soldier, but he was a statesman of no mean capacity. In his effort to emancipate his brethren from the dominion in which first the Spaniards and then the French held them, he encountered great and various opposition. The intercourse of the Aryan race with that of the Hamite, when the purpose is chiefly gold or power, is never beneficial to the latter. Its tendency is to degrade the one, and enervate its energies, while it tends to give influence and power to the other. This was clearly seen in the baneful effects which Spanish slavery had upon many of the Haytiens, who gave trouble to Toussaint in his work of emancipation. The bloodhound and the lash are not the most ennobling
+<pb id="p43" n="43"/>
+teachers of manhood. To the contrary, they dwarf and weaken the moral 
+faculties of man. But it was under such a condition that Toussaint 
+L'Overture commenced the work of the emancipation of his race of people in 
+Hayti. To mould and make effective such crude material needed the keenest 
+power of statesmanship. Toussaint quickly saw the various elements he had 
+to deal with. It was not only Spanish and French treachery, but it was 
+also human ignorance on the part of the natives. There was also the 
+element of class distinction, based on color, as existed among the 
+Haytiens themselves, with which Toussaint had to contend. The mulatto 
+class was frequently found undermining his works because of jealousy, and 
+sowing the seed of dissension in order to defeat his plans. It is to my 
+mind a question whether the amalgamation of the two races, black and 
+white, is not unfortunate and disadvantageous, for the reason that it 
+establishes a middle class, owing its origin to two separate races, and in 
+matters of race opposition, we generally find that it must be either 
+neutral or play the part of the traitor, which it did in the time of 
+Toussaint L'Overture in his work of emancipation in
+<pb id="p44" n="44"/>
+Hayti. It is, perhaps the reason also for many of the social peculiarities 
+of this middle class of people, notable even to-day, which the ethnologist 
+may be able to define, and whose peculiar work it is, and hence I leave it 
+and its mystery to such hands.</p>
+        <p>Against the labors of Toussaint L'Overture to secure the freedom of his 
+brethren stood not only the wealth of France, but her ability in the halls 
+of legislation. This body of people strove the mightiest to so mix and 
+confuse its legislation, in what it pleased to term a modified form of 
+emancipation of the Negro slave in Hayti, as to obscure the most 
+enlightened sight of statesmanship. It took, therefore, no ordinary amount 
+of statesmanship to guide the Haytien slave amidst the diversified plans 
+proposed by England's flattery, Spain's treachery and France's ambition. 
+But these blandishments were quickly detected by Toussaint, and the 
+counterfeit easily distinguished from the genuine law of right. I do not 
+forget at this time the noble work of the band of philanthropists in 
+France, "Les Amis des Noirs," whom God has singularly raised up first in 
+England in the persons of Clarkson and Wilberforce, then in
+<pb id="p45" n="45"/>
+the French Cortes, for the freedom of the Haytien slave, as also our own 
+noble band of abolitionists, Summer, Wendell Phillips. Frederick Douglas, 
+Garrison and the host of others who labored likewise for the emancipation 
+of the American Negro from slavery.</p>
+        <p>Concerning the administration of public affairs in Hayti by this Negro, 
+whose works we delight to record, the English people have acknowledged 
+that it was one which placed the Republic upon the basis of prosperity. 
+The Haytien people were governed by just laws; agriculture and commerce 
+prospered, and the whole country so advanced as to compel France, though 
+reluctantly, to declare the independence of Hayti. For a people who can 
+vie in the civilization of the age with another in the pursuits of 
+industry and prove themselves capable of self-government cannot be held in 
+subjection, but must be recognized as equals. Vattell, in his "Law of 
+Nations," says: "Nations * * * are societies of men united together for 
+the purpose of promoting their mutual safety and advantage by the joint 
+efforts of their combined strength." To this status none will deny that 
+the Haytien negro Toussaint
+<pb id="p46" n="46"/>
+L'Overture, brought the Haytien country and compelled France and the other nations of the world to so recognize it, even until today. Toussaint L'Overture then was the first and only negro who has ever governed a nation of people of his own race.</p>
+        <p>But L'Overture was no more distinguished for his soldierly ability and his statesmanship than for his patriotism. Patriotism is defined as “love of country.” True patriotism is marked for its self-sacrifice. Truly, then, the self-sacrifice of Toussaint L'Overture entitles him to this cognomen. He saw the suffering of his race in cruel bóndage. He recognized that tampering with an evil gave it strength. He saw the Spanish bloodhound pursue his fellow man and eat his flesh at the command of the heartless slave owner. He recognized the evasions of the law in the modified emancipation which was granted the Haytiens by the French Government, which, although it took the chains and fetters from the body of the Haytien slave, still unjustly oppressed him by its laws. I say Toussaint saw all this; and while if he had inclined to the allurements of either England or France he would have sold his country for gold or power, he
+<pb id="p47" n="47"/>
+preferred to give his life, and that of his dear children and wife, in sacrifice for his brethren's good and the good of his country. He was a true patriot because he sacrificed himself for the good of others.</p>
+        <p>Such in brief was the life of Toussaint L'Overture. It merits approval. It is no wonder that of such a man the great American orator, Wendell Phillips, said: “Fifty years hence, when truth gets a hearing, the muse of history will put Phocion for the Greek and Brutus for the Roman, Hampden for England, Fayette for France, choose Washington as the bright consummate flower of our earlier civilization, and John Brown the ripe fruit of our noonday; then, dipping her pen in the sunlight, will write in the clear blue, above them all, the name of the soldier, the statesman, the martyr, Toussaint L'Overture.”</p>
+        <p>Faultless perfection is not an attribute of mortal man. Yet it is no rhetorical exaggeration to say that the talents and virtue of this great negro, Toussaint L'Overture, place him far above the praise ascribed usually to men of honor and merit. Although born a slave, and having no advantage in education
+<pb id="p48" n="48"/>
+or exalted contact in society, he yet showed a culture irreproachable. In no situation in life was he afraid of doing his duty, or ashamed to do it with firmness and constancy. True to the God whom he worshipped, and to the faith he professed, full of affection for his brethren, faithful to his friends, generous to his enemies, self-denying, zealous for public interest, magnanimous without being proud, humble without being mean, just without being harsh, manly in his feelings, simple in manners, reliable in his word, he died a bright example to the statesman, the soldier, the patriot, and the ruler. His memory is the proudest heritage of a once down-trodden and oppressed race of people. Toussaint L'Overture died lacking nothing in the extenuation of the just. Of him let us say:</p>
+        <lg type="verse">
+          <l>“Who noble ends by noble means obtain,</l>
+          <l>Or failing, smiles in exile or in chains,</l>
+          <l>Like good Aurelius, let him sigh or bleed,</l>
+          <l>Like Socrates—that man is great, indeed.”</l>
+        </lg>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

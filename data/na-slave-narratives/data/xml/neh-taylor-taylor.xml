@@ -1,0 +1,773 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY taylotp SYSTEM "taylotp.jpg" NDATA jpeg>
+<!ENTITY taylovs SYSTEM "taylovs.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Biography of Elder Lott Cary, Late Missionary to 
+Africa. With an Appendix on the Subject of Colonization, by J.H.B. 
+Latrobe:</emph> Electronic Edition.</title>
+        <author>Taylor, James B. (James Barnett), 1804-1871 </author>
+        <funder>Funding from the National Endowment for the Humanities
+supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Melissa Graham </name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, 
+<date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.     150K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use 
+as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Biography of Elder Lott Cary, Late Missionary to 
+Africa. With an Appendix on the Subject of Colonization, by J.H.B. 
+Latrobe</title>
+            <author>J. B. Taylor</author>
+          </titleStmt>
+          <extent>vii, 9-108 p.</extent>
+          <publicationStmt>
+            <pubPlace>BALTIMORE:</pubPlace>
+            <publisher>ARMSTRONG &amp; BERRY.  J. W. Woods, print.</publisher>
+            <date>1837.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call Number 1837 TAYL, Pitts Theology Library, Emory University</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African American Baptists -- Clergy -- Biography.</item>
+            <item>African American missionaries -- Liberia -- Biography.</item>
+            <item>African American missionaries -- United States -- Biography.</item>
+            <item>African Americans -- Colonization -- Liberia.</item>
+            <item>American Colonization Society.</item>
+            <item>Baptists -- Missions -- Liberia.</item>
+            <item>Carey, Lott, 1780-1828.</item>
+            <item>Freedmen -- Virginia -- Richmond -- Biography.</item>
+            <item>Missionaries -- Africa -- Biography.</item>
+            <item>Missions -- Africa.</item>
+            <item>Richmond African Baptist Mission Society.</item>
+            <item>Slaves -- Virginia -- Richmond -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-11-16, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-03-05, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, 
+</resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-02-20, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-01-31, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="taylotp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso">
+        <p>
+          <figure id="verso" entity="taylovs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">BIOGRAPHY <lb/> OF <lb/> ELDER LOTT CARY, <lb/> LATE MISSIONARY TO AFRICA.</titlePart>
+        </docTitle>
+        <byline>By</byline>
+        <docAuthor>J. B. TAYLOR, <lb/> Pastor of the Second Baptist Church, Richmond, Va.</docAuthor>
+        <docEdition>With an Appendix on the subject of Colonization,
+<lb/>By 
+<lb/>J. H. B. LATROBE, Esq. <lb/> President of the Maryland State Colonization Society.</docEdition>
+        <docImprint><pubPlace>BALTIMORE:</pubPlace>
+<publisher>ARMSTRONG &amp; BERRY. <lb/> J. W. Woods, print.</publisher>
+<docDate>1837.</docDate></docImprint>
+        <pb id="pii" n="verso"/>
+        <docImprint>
+          <docDate>COPY-RIGHT SECURED, ACCORDING TO LAW.</docDate>
+        </docImprint>
+      </titlePage>
+      <div1 type="contents">
+        <pb id="piii" n="iii"/>
+        <head>CONTENTS.</head>
+        <list type="simple">
+          <item>Preface, . . . . . <ref targOrder="U" target="pv">5</ref></item>
+          <item>Lott Cary's birth—early history—removal to Richmond—vicious character—conversion, . . . . . <ref targOrder="U" target="p10">10</ref></item>
+          <item>Taught to read—interesting circumstances connected therewith, . . . . . <ref targOrder="U" target="p11">11</ref></item>
+          <item>Begins preaching—makes great advances in knowledge, . . . . . <ref targOrder="U" target="p12">12</ref></item>
+          <item>Unequalled abilities for business, . . . . . <ref targOrder="U" target="p13">13</ref></item>
+          <item>Purchases his freedom—second marriage—salary—ambition to be useful, &amp;c. . . . . . <ref targOrder="U" target="p14">14</ref></item>
+          <item>His feelings aroused for the spiritual condition of Africa—formation of the Richmond African Missionary Society, . . . . . <ref targOrder="U" target="p15">15</ref></item>
+          <item>Struggles between worldly advantages and duty, . . . . . <ref targOrder="U"><hi rend="italics">ib.</hi></ref></item>
+          <item>Determines to remove to Africa—correspondence relating thereto, . . . . . <ref targOrder="U" target="p17">17</ref></item>
+          <item>Is patronized by the American Colonization Society and recognized as a missionary by the Baptist General Convention—instructions from their Board, . . . . . <ref targOrder="U" target="p21">21</ref></item>
+          <item>Farewell sermon in Richmond, . . . . . <ref targOrder="U" target="p23">23</ref></item>
+          <item>Ordained and set apart, along with Collin Teage, as missionaries to Africa, and their correspondence relating thereto, . . . . . <ref targOrder="U" target="p25">25,</ref> <ref targOrder="U" target="p26">26</ref></item>
+          <pb id="piv" n="iv"/>
+          <item>Departure for, and arrival in, Africa, . . . . . <ref targOrder="U" target="p27">27</ref></item>
+          <item>Letter from, . . . . . <ref targOrder="U" target="p32">32</ref></item>
+          <item>Sickness and trials—death of his wife, and letter concerning, . . . . . <ref targOrder="U" target="p33">33</ref></item>
+          <item>Appointed health officer, . . . . . <ref targOrder="U" target="p35">35</ref></item>
+          <item>Letter from, . . . . . <ref targOrder="U" target="p36">36</ref></item>
+          <item>Opinion of him by the General Agent, . . . . . <ref targOrder="U" target="p37">37</ref></item>
+          <item>Kind feelings and charities to the emigrants . . . . . <ref targOrder="U" target="p39">39</ref></item>
+          <item>His participation in some acts of insubordination, . . . . . <ref targOrder="U" target="p40">40</ref></item>
+          <item>Letter from, . . . . . <ref targOrder="U" target="p42">42</ref></item>
+          <item>Becomes physician for the colony, . . . . . <ref targOrder="U" target="p44">44</ref></item>
+          <item>Interesting letters from, . . . . . <ref targOrder="U" target="p46">46</ref></item>
+          <item>Account of native man John, . . . . . <ref targOrder="U" target="p48">48</ref></item>
+          <item>Requested by the American Colonization Society to visit the United States, and letter from the governor, Mr. Ashmun, . . . . . <ref targOrder="U" target="p57">57</ref></item>
+          <item>Disappointed in his visit, and letters concerning it, . . . . . <ref targOrder="U" target="p61">61</ref></item>
+          <item>Resolutions of the Baptist General Convention, . . . . . <ref targOrder="U" target="p65">65</ref></item>
+          <item>Elected Vice-agent of the colony, . . . . . <ref targOrder="U" target="p66">66</ref></item>
+          <item>Letters from, . . . . . <ref targOrder="U" target="p67">67</ref>, <ref targOrder="U" target="p72">72</ref></item>
+          <item>Acting Governor of the colony, . . . . . <ref targOrder="U" target="p74">74</ref></item>
+          <item>Extracts from his Journal, . . . . . <ref targOrder="U" target="p75">75</ref></item>
+          <item>Copy of deed with the African kings, . . . . . <ref targOrder="U" target="p78">78</ref></item>
+          <item>Celebration of the 4th July, . . . . . <ref targOrder="U" target="p84">84</ref></item>
+          <item>Extracts from his letters, . . . . . <ref targOrder="U" target="p85">85</ref></item>
+          <item>His death—further account of, . . . . . <ref targOrder="U" target="p92">92</ref></item>
+          <item>Tribute to his memory by the Richmond African Missionary Society, . . . . . <ref targOrder="U" target="p93">93</ref></item>
+          <item>A summary of his character, . . . . . <ref targOrder="U" target="p95">95</ref></item>
+          <item>Appendix . . . . . <ref targOrder="U" target="p99">99</ref></item>
+        </list>
+      </div1>
+      <div1 type="preface">
+        <pb id="pv" n="v"/>
+        <head>PREFACE.</head>
+        <p>THAT Africa has peculiar claims on the sympathies of the Christian world, is beginning to be admitted by many who have hitherto remained idle spectators of her degradation and misery. It may well occasion surprise and regret, that these claims have been so long disregarded. Difficult indeed will it be to make full amends for the injuries she has received from civilized nations, yet some atonement may be given by pouring upon her dark shores the light of divine truth, and aiding her to rise and occupy that position to which she is fairly entitled.</p>
+        <pb id="pvi" n="vi"/>
+        <p>One of the most effectual means of elevating the moral condition of Africa, is to be found in the encouragement of intelligent and pious colored men to locate in different portions of her wide-spread territory. Though white men may and ought to enter this field, yet the indications of Providence, thus far, have been in favor of making our colored brethren the chief instruments in this labor of love.</p>
+        <p>The author of the following pages has indulged the hope that in presenting the memoir of Lott Cary, he might, in more respects than one, render service to this important object. If he shall awaken among the benevolent, in general, a new interest on behalf of Africa, or rouse any of his colored brethren, in particular, to feel an obligation to labor for her salvation, he will be amply compensated in preparing this work for the press. It is his ardent desire, and prayer to God, that Africa may be saved—nor is he alone in cherishing these feelings. Thousands, in every section 
+<pb id="pvii" n="vii"/>
+of our country, are supplicating the Divine throne on her behalf. May that time speedily come, when her deserts shall rejoice and blossom as the rose.</p>
+      </div1>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="p9" n="9"/>
+        <head>BIOGRAPHY.</head>
+        <p>THAT God is no respecter of persons, is a truth as well established, as it is grateful to the generous mind. No complexion or condition is thrown beyond the pale of divine benevolence, for in Christ Jesus “there is neither Greek, nor Jew, barbarian, Scythian, bond nor free.” While the riches of redeeming love may be shared alike by all, there is also a very equitable distribution of intellectual endowments among all classes of men. Like the pure gold buried amidst baser metals, the mind, vigorous in itself, may be allowed by him who gives it existence to remain undeveloped and unimproved—or, under most unfavorable circumstances, he may wake to action, energies which for a time have lain dormant, and exhibit to an admiring 
+<pb id="p10" n="10"/>
+world, the spectacle of intellectual and moral greatness, unaccompanied by the tinsel of wealth, or the polish of education. Such an exhibition is furnished in the subject of this sketch.</p>
+        <p>Lott Cary was born a slave about the year 1780, thirty miles below the city of Richmond, in the county of Charles City. His father was an eminently pious member of the Baptist denomination, and his mother, although unconnected with any church, gave pleasing evidence that she had passed from death unto life. He was their only child. From the character which his parents sustained, no room is left to doubt that they endeavored to bring him up in the fear and admonition of the Lord.</p>
+        <p>Nothing can be learned of his early history. Whether in the days of childhood and youth, he exhibited indications of vigorous intellect, or of special seriousness on eternal realities, is not known. In the year 1804, he was removed from his native county to the city of Richmond, and employed  as a common laborer in the Shockoe tobacco warehouse. At that time he had become rather dissipated in his habits, being frequently intoxicated, and allowing himself to indulge in profane swearing. He became increasingly vicious for 
+<pb id="p11" n="11"/>
+two or three years after his settlement in Richmond. But the reign of iniquity was cut short by the interposing hand of omnipotent grace. Having been led to the discovery of his ruined condition as a rebel against the skies, he turned to the Lord with full purpose of heart, and rejoiced in Christ Jesus as the Saviour of sinners. An immediate and remarkable change was discovered in his life. He whose tongue was wont to profane the name of the Most High, was now taught to address him in accents of prayer and praise. He was baptized by Elder John Courtney, and joined the first Baptist church in the city of Richmond in the year 1807.</p>
+        <p>At this time he was exceedingly ignorant, not knowing even the alphabet. The circumstances which led to the improvement of his mental powers were somewhat remarkable. They were doubtless under the superintendence of an invisible agent, who, in his wonder working power and mercy, designed to effect great results by means of this illiterate slave. He often chooses “the weak things of the world to confound the things that are mighty, and base things of the world, and things which are despised, <hi rend="italics">hath God chosen;</hi> yea, and things which are not, to bring 
+<pb id="p12" n="12"/>
+to nought things that are, that no flesh should glory in his presence.” Being a regular attendant on the ministry of Elder Courtney, he heard his pastor deliver a discourse on one occasion, on the conversation between Christ and Nicodemus, and became so deeply interested in the rich truths contained in that portion of the sacred pages, that he determined to become qualified to read it for himself. Accordingly he procured a Testament, and commenced learning his letters in the chapter referred to, nor did he rest satisfied until he had accomplished his purpose. Some assistance was rendered by young gentlemen, at the warehouse, and in a short time he was able with distinctness to read the third chapter of John. He soon afterwards learned to write.</p>
+        <p>About this period he began to hold meetings among the colored people of Richmond, and to exhort them to flee the wrath to come. After a sufficient trial of his capacity to be useful as a public speaker, the church encouraged him to exercise his gifts in preaching the gospel. Not only did he labor among those of his own color in the city of Richmond, but in all the surrounding country. He now applied himself diligently to the improvement of his mind, and for several years 
+<pb id="p13" n="13"/>
+made advances in knowledge. His leisure time at the warehouse was employed in reading, and it is said that a gentleman on one occasion taking up a book which he had left for a few moments, found it to be “Smith's Wealth of Nations.” While thus engaged in storing his mind with valuable information, he was kindly assisted by two or three benevolent individuals, who took a lively interest in his prosperity. While an increasing interest in the work of preaching the gospel was cherished, he became more and more respected, and useful in his services at the warehouse. A brother who was intimately acquainted with him, states “that his services at the warehouse were highly estimated, but of their real value no one except a dealer in tobacco can form an idea. Notwithstanding the hundreds of hogsheads that were committed to his charge, he could produce any one the instant it was called for; and the shipments were made with a promptness and correctness, such as no person, white or black, has equalled in the same situation. For this correctness and fidelity, he was highly esteemed and frequently rewarded by the merchant with a five dollar note. He was allowed, also, to sell for his
+<pb id="p14" n="14"/>
+own benefit, many small parcels of waste tobacco.”</p>
+        <p>In the year 1813, having by rigid economy accumulated a considerable sum, with the assistance of the merchants to whose interests he had been devoted, he purchased the freedom of himself and two children, for $850. He had previously lost his first wife by death, and about the year 1815, was married a second time. He now received a regular salary, which from time to time was increased; until the year before he left the warehouse, it amounted to $800 per annum. During this period, he also made frequent purchases and shipments of tobacco, on his own account: in one instance to the number of twenty-four hogsheads.</p>
+        <p>In his history thus far, the ennobling influence of the gospel is pre-eminently seen. Not only is he snatched as a brand from the fire of perdition, but his whole moral and intellectual character became most astonishingly elevated. He began to feel the true dignity of his station, as a redeemed sinner, and to be inspired with a holy ambition to make his influence beneficially felt in this apostate world.</p>
+        <p>Some time about the year 1815, he was, to a 
+<pb id="p15" n="15"/>
+great extent, instrumental in awakening among his colored brethren in the city of Richmond, a lively interest on behalf of the spiritual condition of Africa. This was shortly after the formation of the Baptist General Convention. Missionary intelligence was at different times placed within his reach; and his own heart becoming affected by the miserable condition of the heathen world, he soon communicated something of his own feelings to those by whom he was surrounded. This resulted in the origination of the Richmond African Missionary Society, which for several years contributed from one hundred to one hundred and fifty dollars for the African mission. But he was not satisfied with these efforts. The solemn responsibility of carrying, in person, the words of everlasting life, was most deeply felt by him. The word of the Lord was like fire in his bones, and it could not be resisted. The struggle between worldly advantage, and an imperious sense of duty, was long and desperate. On the one hand, he was comfortably settled in his native state; was the possessor of a small farm, and, high in the confidence of his employers and the public generally, was receiving for his services a handsome salary; beside, he was the object of universal <sic corr="affection,">afection,</sic>
+<pb id="p16" n="16"/>
+as a preacher among the people of his own color; they exercised almost unbounded confidence in him. On the other hand, the facilities for laboring in Africa, were far from being numerous; the climate was sickly, and there was a strong probability that he would early fall a victim to the African fever. But none of these things moved him; he was willing to leave all, and to venture all for Christ, and for the sake of those who were perishing for lack of vision, in a far distant land. When a ministering brother inquired, why he could determine to quit a station of so much comfort and usefulness, to encounter the dangers of an African climate, and hazard every thing to plant a colony on a distant heathen shore;—his reply was to this effect: “I am an African, and in this country, how. ever meritorious my conduct, and respectable my character, I cannot receive the credit due to either. I wish to go to a country where I shall be estimated by my merits, not by my complexion; and I feel bound to labor for my suffering race.” He seemed to have imbibed the sentiment of Paul, and to have great heaviness and continual sorrow in his heart, for his brethren, his kinsmen according to the flesh. When it was ascertained by his employers, that he was contemplating a removal
+<pb id="p17" n="17"/>
+to Africa, they offered to raise his salary to $1000, if he would remain in this country. But this inducement had no influence in changing his views of duty.</p>
+        <p>Early in the year 1819, the Journal of Messrs. Mills and Burgess, in their exploring agency for the American Colonization Society, on the coast of Africa, was published; and, also, several letters from colored residents at Sierra Leone, inviting the free colored people of the United States to come and join them. These produced an immediate determination in Lott Cary and Collin Teage, to remove to Africa. The following extract of a letter, written by Mr. William Crane to Rev. O. B. Brown, of Washington city—then a member of the board of managers of the American Colonization Society, and also of the board of the Baptist General Convention—was the means of their becoming connected with both these bodies. It is dated</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“Richmond, March 28th, 1819.</dateline>
+                </opener>
+                <p>“You will probably recollect, that I introduced you to two of our colored brethren in this place, who are accustomed to speak in public: one named Collin Teage, the other Lott Cary. Ever since
+<pb id="p18" n="18"/>
+the missionary subject has been so much agitated in this country, these two brethren, associated with many others, have been wishing they could, in some way, aid their unhappy kindred in Africa; and I suppose you have heard of their having formed a missionary society for this sole purpose. Some letters published in No. VI. of the Luminary, have served to awaken them effectually. They are now determined to go themselves to Africa; and the only questions with them are, in what way will it be best for them to proceed? and what previous steps are requisite to be taken? They think it necessary to spend some time in study first. They both possess industry and abilities, such as, with the blessing of Providence, would soon make them rich. It is but two or three years since either of them enjoyed their freedom; and both have paid large sums for their families. They now possess but little, except a zealous wish to go and do what they can. Brother Lott has a wife and several little children. He has a place a little below Richmond, that cost him $1500, but will probably not sell for more than $1000, at this time. Brother Collin has a wife, a son of fourteen years of age, and a daughter of eleven, for whom he has paid $1300, and has scarcely any thing
+<pb id="p19" n="19"/>
+left. Both their wives are Baptists; their children, amiable and docile, have been to school considerably; and I hope, if they go, will likewise be of service. Collin is a saddler and harness maker. He had no early education. The little that he has gained, has been by chance and piece-meal. He has judgment, and as much keenness of <sic corr="penetration">penetraation</sic> as almost any man. He can read, though he is not a good reader, and can write so as to make out a letter. The little knowledge he has of figures, has been gained by common calculations in business. Lott was brought up on a farm; and for a number of years has been chief manager among the laborers in the largest tobacco warehouse in this city. He has charge of receiving, marking, and shipping tobacco; and the circumstance that he receives $700 a-year wages may help you to form an estimate of the man. He reads better than Collin, and is, in every respect, a better scholar. They have been trying to preach about ten or eleven years, and are both about forty years of age.</p>
+                <p>“They would be glad to receive the patronage of some public body, and wish advice how to proceed. I had thought of addressing the Corresponding Secretary on their behalf, for the patronage
+<pb id="p20" n="20"/>
+of the American Baptist Mission Society; but again thought, that the Colonization Society might be pleased with taking them under their care, and that their mission might bear a more imposing aspect under the auspices of this society than it would with the Baptists alone. But should they go under the Colonization Society, they would still feel themselves attached to the mission cause, and would wish some connexion with the general board. We are desirous of your thoughts upon the subject. In a little time they can be ready to engage. They would go to Sierra Leone, but will submit that to the decision of their patrons. It would, I suppose, be somewhere between the tropics, on the western coast. Their object is to carry the tidings of salvation to the benighted Africans. They wish to be where their color will be no disparagement to their usefulness. I suppose the funds of our African Mission Society here, after their next meeting, on Monday after Easter, will probably amount to six hundred dollars, which I believe the society will be willing to appropriate to the aid of their brethren, should they go. Brother Bryce will also write to you on this subject.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>On the presentation of this letter, they were 
+<pb id="p21" n="21"/>
+immediately received as emigrants by the board of the Colonization Society, and at the meeting of the board of the Baptist General Convention, in April, they were both recognized as their missionaries; a variety of obstacles, however, prevented their departure till January, 1821. The year 1820 was devoted to study with a view to their future usefulness in Africa. The following brief extract from the instructions of the board of the convention, deserves a place here.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“Philadelphia, Jan. 6, 1821.</dateline>
+                </opener>
+                <p>“The board of managers of the General Convention of the Baptist denomination in the United States, to their colored brethren Collin Teage and Lott Cary, present the assurance of their sincere and affectionate esteem. They have heard with pleasure, that, by a vessel about to sail from Norfolk to the coast of Africa, an opportunity is presented for accomplishing those benevolent desires which, for many months past, you have been led to entertain. At the same time, they possess a deep anxiety for your preservation, in a country where so many colonists have recently found a grave. They most fervently commend you to the gracious protection of that God in
+<pb id="p22" n="22"/>
+whose hand your breath is, and whose are all your ways. May you make the Lord your refuge, even the Most High your habitation. It is a source of much encouragement, that you will be able to collect useful information from the experience of your predecessors; and it is hoped that, by the advice of your brethren who have already reached the shores of your forefathers, you will be enabled to adopt the most prudent measures for the health and safety of yourselves and families.</p>
+                <p>“The board earnestly recommend, what they cheerfully anticipate, that your conduct before your fellow passengers on the ocean, be pious and exemplary. Endeavor to secure their good will by every office of kindness; and, above all, cherish and discover a solemn concern for their everlasting salvation. Arrived in Africa, you will find much that will require patience, and prudence, and mutual counsel. You will have to bear with prejudices, that have descended on the minds of the inhabitants, after having been cherished for ages, and to <sic corr="instill">instil</sic> the sacred truths of the gospel with meekness and wisdom. While your conduct shall be without blame, the board advise you, in your ministry, to dwell much on the doctrine
+<pb id="p23" n="23"/>
+of the cross, a doctrine which has been found in every age of the church of Christ, the power of God.</p>
+                <p>“They pray that the grace of our Lord Jesus Christ may be with you, with your families, and with all who sail or settle with you; and that the American Colonization Society, and all its sister institutions, may be rendered instrumental in diffusing literary, economical, and evangelical light, from the Mediterranean to the Cape of Good Hope, and from the Atlantic to the Red Sea and Indian Ocean.</p>
+                <closer><salute>“By order of the board,</salute>
+<signed>WM. STAUGHTON, Cor. Sec'y.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>Within a few days after the reception of this letter, an opportunity of sailing for the field of their labors occurred. Elder Cary delivered a farewell <sic corr="sermon">sermom</sic> in the meeting house of the First Baptist church, Richmond. It was a melting season. His auditors hung with intense earnestness upon his parting words, many of them sorrowing that they should see his face no more. His discourse was founded on Romans viii, 32. “He that spared not his own Son, but delivered him up for us all, how shall he not with him also, 
+<pb id="p24" n="24"/>
+freely give us all things.” His sermon was well arranged throughout, was entirely clear of the senseless rant too common with many pious colored preachers. He spoke with a deep sense of the weighty character he had assumed—and enlarged particularly, with amazing pathos on the freeness of the salvation disclosed in his text. He urged as an example worthy the imitation of men, the amazing love of God in not withholding his own Son, when a race of miserable sinners were exposed to the curse of his violated law, and dwelt much on the disinterested and immeasurable sacrifice which the Father of spirits had made. It is to be regretted that portions of this discourse could not have been preserved, as it is said by those who were present, that it contained many touches of the true sublime. In the close of his sermon he remarked in substance: “I am about to leave you, and expect to see your faces no more. I long to  preach to the poor Africans the way of life and salvation. I don't know what may befall me, whether I may find a grave in the ocean, or among the savage men, or more savage wild beasts on the coast of Africa; nor am I anxious what may become of me. I feel it my duty to go, and I very much fear, that many of those who
+<pb id="p25" n="25"/>
+preach the gospel in this country, will blush when the Saviour calls them to give an account of their labors in his cause, and tells them, ‘I commanded you to go into all the world, and preach the gospel to every creature;’ and with the most thrilling emphasis, looking round on his audience, he exclaimed, the Saviour may ask, where have you been? where have you been? what have you been doing? have you endeavored to the utmost of your ability to fulfil the commands I gave you? or have you sought your own gratification, and your own ease, regardless of my commands?”</p>
+        <p>Collin Teage, who was for many years frequently associated with him in preaching, in and about Richmond, and whose opinion may deserve some weight, was in the habit of saying soberly, that he considered his brother Cary, the greatest preacher he was in the habit of hearing. They were both publicly ordained and set apart as missionaries to Africa, in the First Baptist church in Richmond, of which church they were both members. A few days before he sailed he wrote, in conjunction with Elder Collin Teage, to the corresponding secretary of the board, as follows:</p>
+        <pb id="p26" n="26"/>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Richmond, January 11th, 1821.</dateline>
+<salute>“Rev. and dear sir,</salute></opener>
+                <p>We have no other way to express our gratitude to the board but through you. We feel very much rejoiced that we have now to communicate to you, that our long beclouded prospect of getting to Africa, has opened upon us. We expect to leave here with our families to-morrow morning on our way to Norfolk, there to remain but a very few days, before we shall hoist our sails for Africa in the brig Nautilus, with our bibles, and our utensils, and our hopes in God our Saviour.</p>
+                <p>“But we must not omit to beg that the board will receive our thanks for the assistance we have received from them, and particularly for the very kind letters we have received from you this day; and we are happy to inform them that through their favor, and the kindness and assistance of our friends here, we think we are supplied with what may be necessary for our comfort for some time, more especially, as we understand, that provisions are supplied by government. We expect to write to you when we arrive at our destined place, and will always be grateful to you for any communications
+<pb id="p27" n="27"/>
+you may send us. Yours, in the bonds of the gospel,</p>
+                <closer><signed>LOTT CARY,</signed>
+<signed>COLLIN TEAGE.”</signed>
+<salute>“Rev. Dr. Staughton.”</salute></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>On the 23rd of January, with his companions, he sailed in the Nautilus for the coast of Africa. In bidding farewell to his beloved friends the morning he left Richmond, he manifested a tenderness of spirit united with a dignity of manner, becoming one who was to sustain the character of a missionary of the cross. The step he was about to take was not to promote his own aggrandizement; nor was he influenced by some sudden impulse of feeling. He had counted the cost. He actually made a sacrifice of all his worldly possessions, and was prepared to meet even bonds and death, in carrying out the purpose of his heart. All this he indicated when he gave the parting hand to those he was no more to behold this side the grave. There was a moral sublimity in the spectacle—which left an impression on some hearts never to be erased. They reached their destination after a passage of forty-four days—the following letter addressed to Dr. Staughton refers 
+<pb id="p28" n="28"/>
+to their safe arrival and the prospects of the mission.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Free Town, March 13th, 1821.</dateline>
+<salute>“Rev. and dear sir,</salute></opener>
+                <p>I am happy that an opportunity is now afforded, to inform the board through you, that we all arrived safe in Africa. We had a long passage of forty-four days, yet we were wonderfully preserved by the great ruler of the winds and seas. Our captain informed us that he was never so long out with less apparent danger. I suppose we had as much sea sickness as common, but no deaths, except a child about a year old, the youngest child of Mrs. Coker. It is not common to see a ship's crew as orderly during a long passage, as those on board of the brig Nautilus. You must know, that any captain having on board, men, women, and children, has a great deal to encounter; and unless he has the fear of God or his own credit at heart, he will follow the too common habits among seamen. But notwithstanding captain Blair had his beckets lost, and the men, women, and children in his way, I must say, that from his lips, I never heard one word of profane swearing during the passage. He often received
+<pb id="p29" n="29"/>
+things more like a Christian than a seafaring captain, I hope the board will pray for him.</p>
+                <p>I am truly sorry that the hopes of the board, cannot be realized, as to our missionary labors, for, as it pleased you to have us connected with the Colonization Society, and the agents of the society upon their arrival here, finding their prospects of getting lands very gloomy, so much so, that they disowned us as colonists; and the government's agent had captured Africans, for whom he was bound, by the laws of the United States, to procure a place, in order to settle them or until there can be a more permanent settlement obtained, the agent received us as laborers and mechanics, to be settled with them, in order to make preparation for the reception of others; we are therefore bound to the government's agent. He has rented a farm, and put us on it, and we must cultivate it for our support, and for the support of these Africans; and pay as much of the rent as we can. And as this obligation will last until lands are purchased by the agents of the Colonization Society, I am greatly afraid it will not end soon; and until it does end, our mission labors will be very few. Jesus Christ our Saviour when he came on his mission into this world, was often found
+<pb id="p30" n="30"/>
+with a broad axe in his hand; and I believe a good many corn field missionaries would be a great blessing to this country, that is if they were not confined to the field by the law and by necessity. We are bound by both. I converse very freely with you on this subject, because with me, it is a very important one, and because of the interest which the board has taken in this mission. Africa suffers for gospel truth, and she will suffer, until missionaries can be sent, and settled in different parts of her continent.</p>
+                <p>“I have not been able to write any information relative to the state of the country, which can be of much use to the board. I intend taking a small excursion in the country, but cannot promise when that will be, as the rains will set in soon, my wife is sick, and we are desirous to get a small crop on the way, as early as possible. These things I presume will be a sufficient preventive to my leaving home for six months to come. I however have the promise of some friends to take me down as far as the Bagroo, as soon as I am ready to go. I believe that just over on the Bullom side is a beautiful field for <sic corr="missionary">miss onary</sic> labors, among the Mandingoes, and that labors might be extended at once to advantage, because there is a regular
+<pb id="p31" n="31"/>
+trade carried on with the natives of that country, and the people of this place. They have not only acquired some knowledge of the English language, but some of their habits also: and as they are dependant on this place for trade, any traveller or any settler among them, would be perfectly safe, so long as they fear that the injuring of the missionary or settler would have a tendency to interrupt their trade with this place. A missionary, therefore, settled among them, would have every means in his hands, and would have a right, under the blessing of God, to expect a rapid spread of gospel truth. It is strange that a subject of so much importance, and which appears to be so practicable, should be so much neglected. If you intend doing any thing for Africa you must not wait for the Colonization Society, nor for government, for neither of these are in search of missionary ground, but of colonizing grounds; if it should not sow missionary seeds, you cannot expect a missionary crop. And, moreover, all of us who are connected with the agents, who are under public instructions, must be conformed to their laws whether they militate against missionary operations or not.</p>
+                <p>“I have been wonderfully blessed, as to my
+<pb id="p32" n="32"/>
+health: for I have not had a day's sickness since I left America. But my wife left America sick; she has not had her health since, and it is very doubtful with me, how her sickness will terminate. My children are all very well. Please, sir, to make my respects to the board.</p>
+                <p>“Before we left the United States, we formed ourselves into a church, consisting of seven members. We adopted the constitution of the Sansom street church. This little body, small as it is, has appointed Lord's day, 22d, to commune.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>This letter was written a short time subsequent to his arrival on the coast of Africa. At this period, the American Colonization Society possessed no territory; and although their agents, who sailed in the Nautilus, were <sic corr="authorized">authorised</sic> to purchase the most eligible site, and commence a settlement immediately, they were unsuccessful until the close of the year 1821. A permanent location as at length made at Cape Montserado, some time in the year 1822. During these intervening months, Lott Cary, with the other colonists, remained at Sierra Leone. Here he was subjected to many severe trials. Before he left America, he had expended all his property in the outfit. The Baptist Board of Missions, beside one hundred
+<pb id="p33" n="33"/>
+dollars for books, appropriated two hundred dollars for the use of Collin Teage and himself. This sum was soon exhausted during the severe sickness and trials they experienced. Such were his necessities while at Sierra Leone, that he was compelled to learn the coopering business, and make tubs, buckets, &amp;c. which he sold at Freetown, for the support of his family. But, as a minister of Jesus Christ, he was not inactive. He was not only useful among the colonists, but succeeded in establishing a mission among the Mandingoes, a tribe to which he alludes in the foregoing letter. Here it is hoped some good was done. The severest affliction through which he was brought, during his stay at the English settlement, was the illness and death of his wife. Her health was delicate when they left America, and she continued to decline, until she was removed to a better world. She died at Fourah bay. Concerning her last moments, he writes in the following most affecting strain:</p>
+        <p>“During her illness, (as I had concluded that unless there was a very great change, she would die,) I endeavored to keep her mind up, by frequent conversation on divine things. I often questioned her about the state of her mind; but I always
+<pb id="p34" n="34"/>
+found her steadfast on the rock Christ. The day before she died, (in the afternoon,) she called me to her bed side, and said that she should die; I said to her, it is not hard work for the child of God to die, when Jesus Christ, his Son, is with him. I asked her respecting the state of her mind, or where was her confidence; she calmly replied, it is in Jesus Christ, and then repeated, “I am not afraid to trust my Master; I am not afraid to die.” I observed to her, that the few years we had been together, had been spent in love and peace, and now I am about to sustain the greatest loss I can sustain in this world, except my own soul; but yet do not be unhappy on my account: for, seeing the afflictions which you have already gone through, and believing you will be freed from them all—I freely give you up into the hands of your best beloved. And, by this time, we both were in a flood of tears, which shortened our conversation. She left the world with uncommon serenity. A few minutes before she died, she lay very much composed, and my three children were in the room, as usual: she requested them to retire, and shut the door, which they did; but my oldest daughter, Fanny, being very anxious to know the meaning of it, returned in a few minutes,
+<pb id="p35" n="35"/>
+and found her without a struggle or a groan, breathing her last in the arms of death, and fell peaceably asleep in the arms of Jesus—before our daughter could get information to any of the people.”</p>
+        <p>Though he had the most abundant reason to believe that she slept in Jesus, and was happily removed from a world of vexation and sin, to brighter and holier climes; still, the separation was most painfully felt. In a land of strangers, with a family of children growing up around him, he seemed indeed to be bereft of earthly supports and consolations. Had he not been divinely sustained, he must have sunk beneath the pressure of calamities so numerous and heavy. The Lord, however, was his portion, and he could rejoice in him.</p>
+        <p>When a purchase had been made at Cape Montserado, some time during the year 1822, he removed thither with his family, and became one of the most spirited and active members of that little community. He was, in the earliest organization of the colony, appointed health officer and government inspector. Here a new field of action was opened, and still heavier trials awaited him. In assisting to form the colony at the Cape, he found it in a most exposed condition, with tribes 
+<pb id="p36" n="36"/>
+of hostile savages, seeking the earliest opportunity to exterminate the settlers. He now saw it necessary to throw in the whole weight of his influence and example, to sustain the infant colony. To him, more than any other man, is to be attributed its salvation. Fear seems not for a moment to have entered his bosom, nor did he utter a single sentiment expressive of desire to return. On the contrary, his spirits were buoyant with a hope amounting almost to assurance, that God would prosper the work of his hands. At all times he was cheerful, and happy. Even amid the most perilous season in the history of the colony, he thus writes to a friend in America, describing Cape Montserado: “It is a delightful spot, and has the best water, I believe, to be found on all the coast of Africa. Here I expect to spend my days. You will be pleased to let as many of the brethren see this, as you can.</p>
+        <p>“My health has been very good, until some time in last April. I was taken the second day of the palaver with the fever, which continued very severe for about five days, but I have not lost a day's work since that time. If you think of coming out, you need not fear, for you will find as fine a spot as ever your eyes beheld; the 
+<pb id="p37" n="37"/>
+best for fish that I ever saw. It is certainly a beautiful place. You can see as far as the organ of vision will allow, over the face of the country, on one side, and on the other, to the sea.</p>
+        <p>“My love to all the brethren and friends, and tell them to remember me at all times in their prayers, and pardon me for not writing to them personally, for I have not time; our work is almost like building the walls of Jerusalem. We have to carry our axes all day, and our muskets all night. I can write no more at present, only wishing that your souls may prosper in the Lord. My love to all. I have never turned my face towards America as yet. Farewell, the Lord protect you and yours.”</p>
+        <p>In giving a short sketch of his life, the general agent of the American Colonization Society furnishes a tribute of praise to his conduct on this trying occasion, which  was, no doubt, richly merited. He says, “On his arrival in Africa, he saw before him a wide and interesting field, demanding various and energetic talents, and the most devoted piety. His intellectual ability, firmness of purpose, unbending integrity, correct judgment, and disinterested benevolence, soon placed him in a conspicuous station, and gave him wide 
+<pb id="p38" n="38"/>
+and commanding influence. Though naturally diffident and retiring, his worth was too evident, to allow of his continuance in obscurity. It is well known that great difficulties were encountered in founding a settlement at Cape Montserado. So appalling were the circumstances of the first settlers, that soon after they had taken possession of the Cape, it was proposed that they should remove to Sierra Leone. The resolution of Mr. Cary was not to be shaken; he determined to stay, and his decision had great effect in persuading others to imitate his example. During the war with the native tribes, in November and December, 1822, he proved to be one of the bravest of men, and lent his well directed, and vigorous support to the measures of Mr. Ashmun, during that memorable defence of the colony. It was to him that Mr. Ashmun was principally indebted for assistance in rallying the broken forces of the colony, at a moment when fifteen hundred of the exasperated natives were rushing on to exterminate the settlement. In one of his letters he compares the little exposed company on Cape Montserado at that time, to the Jews, who, in rebuilding their city, ‘grasped a weapon in one hand, while they labored with the other;’ but adds, emphatically,
+<pb id="p39" n="39"/>
+‘there never has been an hour, or a minute, no, not even when the balls were  flying around my head, when I could wish myself again in America.’”</p>
+        <p>At this early period of the colony, the emigrants were peculiarly exposed; the want of adequate medical attentions, and the scantiness of their supplies, subjected them to severe and complicated sufferings. To relieve, if possible, these sufferings, Mr. Cary availed himself of all information in his power, concerning the diseases of the climate, made liberal sacrifices of his property to assist the poor and distressed, and devoted his time almost exclusively to the destitute, the sick, and the afflicted.</p>
+        <p>It becomes the duty of the biographer to mention a circumstance which is here stated in the language of the individual referred to above:—“He was one of those who appeared at that time to have lost confidence in the Society, and who ventured to throw off those restraints of authority, which, though severe, were deemed absolutely necessary for the general safety of the settlers. In the ninth chapter of the memoir of Mr. Ashmun, we have given some account of the origin and progress of that spirit of insubordination, 
+<pb id="p40" n="40"/>
+which finally resulted in an abduction, by a few individuals, of a portion of the public stores, in open violation of the laws. Mr. Cary had no small influence and share in this seditious proceeding. In communicating the account of this disturbance to the board, Mr. Ashmun remarks, ‘The services rendered by Lott Cary in the colony, who has, with very few (and those recent) exceptions done honor to the selection of the Baptist Missionary Society, under whose auspices he was sent out to Africa, entitle his agency in this affair, to the most indulgent construction it will bear. The hand which records the lawless transaction, would long since have been cold in the grave, had it not been for the unwearied and painful attentions of this individual, rendered at all hours, of every description, and continued for several months.’”</p>
+        <p>The mutinous proceedings to which allusion is here made, were the result of peculiarly critical circumstances. He was compelled, to some extent, to act the part of a mediator between the exasperated colonists, who considered themselves injured, and Mr. Ashmun, the governor. While, for the moment, he might seem to act injudiciously, he possessed too much noble and generous feeling to be guilty of a dishonorable act. Moreover, 
+<pb id="p41" n="41"/>
+the accounts of these transactions, as far as we have seen them, have come from only one of the parties concerned. We have heard from a source to be relied on, that Mr. Cary justified, generally, the course he had pursued—and while we cherish the highest regard for the memory of the excellent Ashmun, as well as for Mr. Gurley, his biographer, we feel assured that if Mr. Cary's statement could now be obtained, it would very much vary the complexion of the whole affair. During Mr. Cary's residence in Richmond, his character, among the most respectable merchants of the city, was entirely above suspicion. And he had given ample proof, as Mr. Ashmun declared, that he cherished the most ardent devotion to the colony, and would sooner have sacrificed life itself than jeopardized its interests. As soon as Mr. Ashmun had issued a circular, addressed to the colonists, Lott Cary came forward and gave his pledge to aid in sustaining the authority of the agent and the majesty of the laws.</p>
+        <p>Notwithstanding the unsettled state of the colony, and the active part he was compelled to take in its general interests, he never forgot the appropriate duties of the minister and missionary. 
+<pb id="p42" n="42"/>
+He labored to promote the spiritual interest of the church at Monrovia, and to give instruction in the rudiments of the gospel to the re-captured Africans who had been taken from the slave ships, and placed for protection in the colony. The following letter, written about this time to Mr. Wm. Crane, (who, from the commencement of his ministry, had been his principal adviser and friend,) will indicate his spirit, and the degree of success which had thus far followed his labors.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Monrovia, August 16th, 1823.</dateline>
+<salute>“Dear brother,</salute></opener>
+                <p>I have just time to let you know that I am well, by the Cyane, as she leaves here this evening. I wrote to you by the Fidelity. Our Sunday school, and missionary school, both go on and prosper: although our number is not as great as it has been.</p>
+                <p>“I have made a visit up to Grand Cape Mount; and, while there, lost no time in endeavoring to determine what was the prospect of getting a school on the way among them. They are very desirous that I shall establish a school there. I
+<pb id="p43" n="43"/>
+think, if the board<ref targOrder="U" id="ref1" n="1" rend="sc" target="note1">*</ref><note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* He alludes here to the Board of the Richmond African Baptist Missionary Society, of which Mr. C. was Cor. Sec'y.</p></note> will support a school one year, after that time it may be conducted with very little expense: and all I am waiting for is books, and the opinion of the board on the subject. Please lose no time in getting books sent on for this object, for that is the largest field for labor on this part of the coast. Any man, whose heart is set fully on the work, may find a rich field there. There is a young man here that promises well; him I expect to send up after I get it established.</p>
+                <p>Our little church has been wonderfully blessed of late. I baptized two yesterday; one the Sunday before; and three the Sunday before that.</p>
+                <p>If the Board of Missions ever intend to send a missionary to Africa, now is the time, and Grand Cape Mount is the place. I have the king's letter; and he has my promise for a teacher. He knows that I look to you to enable me to perform it. May the Lord protect us both. I hope to come to your next annual meeting. Yours,</p>
+                <closer>
+                  <signed>LOTT CARY.”</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>There are no materials on hand furnishing information concerning the efforts of Elder Cary
+<pb id="p44" n="44"/>
+in the mission field during the year 1824. But the providence of God seems to have opened for him, about this time, a new sphere of usefulness. He became the physician of the colony. Although he had previously administered to the sick in many instances, yet now he became their only dependance. On the 13th of Feb. 1824, the ship Cyrus arrived from the United States with one hundred and five emigrants, in good health. But, within four weeks, all were smitten with disease. “Astonishing,” says Mr. Ashmun, “that in this atmosphere there should exist causes, so universal in their operation, as, amongst all the varieties of age, sex, and habit, not to leave one in the whole number without disease, and that in less than four weeks.” It was said, in this deplorable state of things, that the only individual who could act the part of a physician, was Lott Cary, whose skill resulted entirely from his good sense, observation, and experience. He had gained much knowledge of the human frame and of medicine, from scientific practitioners, who had, at various times, visited the colony. His attentions were rendered successful in the restoration of almost the whole number.</p>
+        <p>During this summer, the agent of the American 
+<pb id="p45" n="45"/>
+Colonization Society, made a visit to Liberia, and, as he says, “enjoyed, during the few days he remained there, frequent interviews with Mr. Cary. He appeared to welcome the return of Mr. Ashmun at that time. He entered most cordially into the views of the agents in regard to the establishment of a new form of government. He readily comprehended the principles upon which it was organized, and entirely approved of them. Seldom has the writer met with an individual of a more active or reflecting mind. He appeared to realize the greatness of the work in which he had engaged, and to be animated by a noble spirit of zeal and resolution in the cause of his afflicted and perishing brethren. His services as physician were invaluable, and were then, and for a long time afterwards, rendered without hope of reward.”</p>
+        <p>The following letters, addressed to Mr. William Crane, are highly interesting. They exhibit the spirit of their author, in connection with his missionary labors. His heart did not become secularized by the numerous and pressing worldly duties devolving on him in his endeavors to sustain the colony and to promote its prosperity. The cause of his divine Master, and the eternal welfare 
+<pb id="p46" n="46"/>
+of his fellow men, were at all times objects of paramount importance.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Monrovia, (Africa,) Jan. 16th, 1825.</dateline>
+<salute>“Dear brother,</salute></opener>
+                <p>I am glad that an opportunity is afforded to hand you a few lines, which leave me and mine in good health; and, I hope, may find you enjoying the blessings of a favorable Providence. I have not much (but still something, I think) worth communicating. Since I wrote you last, the Lord has in mercy visited the settlement, and I have had the happiness to baptize nine hopeful converts; besides, a number have joined the Methodists. The natives are more and more friendly; their <sic corr="confidence begins">confidencebegins</sic> to awaken. They see that it is our wish to do them good, and hostilities have ceased with them. I have daily applications to receive their children, and have ventured to take three small boys; to find clothes, and pay for their attendance at the day school—two from Grand Cape Mount, and one from Little Bassa; the two former are very promising, but the other is slow to learn, yet a fine boy. Two of them, I was obliged to send home, ten days ago,
+<pb id="p47" n="47"/>
+in consequence of sores, which they had; but they will return as soon as they are cured; and, in order to establish my confidence in their returning, they refused to take their clothes with them. Our Sunday school still goes on, with some hopes that the Lord will ultimately bless it to the good of numbers of the untutored tribes. The natives attend our Lord's day worship, quite regularly. We have commenced bringing out our timbers for the building of our meeting house, and have got all the large timbers on the ground, but we shall want boards, shingles, nails, window glass, &amp;c. of which you will please to collect what you can, and send out. Please make my respects to the board, and accept of the same for yourself and family.</p>
+                <closer><salute>“I am yours, very dearly,</salute>
+<signed>LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Monrovia, (Liberia,) Africa, April 4th, 1825.</dateline>
+<salute>“Very dear brother,</salute></opener>
+                <p>I have a short, but very interesting communication to make to you. The 13th of March, being the Lord's day, was blessed to us as a day of good news from a far country. [It was on this 
+<pb id="p48" n="48"/>
+day that the Hunter arrived, with sixty colonists from America.] Early in the morning, the church met to hear the relation of a poor heathen, who was led to believe that God, for Christ's sake, had pardoned his sins. His name is John—he came all the way from Grand Cape Mount, about eighty miles, down to Cape Messurado, to be baptized, having heard that here was a people who believed in Christ, and practised baptism. He stated that about three years ago, he had spent three or four months in Sierra Leone, being sent there by his father, to learn English. During his continuance there, he got about three months' schooling; and it was so ordered, that he made an opportunity to go to church, and it pleased the Lord to direct some word from the mouth of old Hector Peters, to his idolatrous heart. The following is his own relation, without being asked any questions: ‘When  me bin Sa'Lone—me see all man go to church house—me go too—me be very bad man too. Suppose a man can cus (curse) me—me can cus 'im too—suppose a man can fight me—me can fight 'im too. Well, me go to church house—the man speak, and one word catch my heart, (at the same time laying his hand on his breast)—I go to my home—my heart be very
+<pb id="p49" n="49"/>
+heavy, and trouble me too—night time come, me fear me can't go to my bed for sleep, my heart trouble me so—something tell me, go, pray to God; me fall down to pray: no, my heart be too bad, I can't pray—I think so—I go die now—suppose I die—I go to hell—me be very bad man—pass all, pass all turror (other) man—God be angry with me—soon I die—suppose man cus me this time—me can't cus 'im no more—suppose man fight me—me can't fight 'im no more—all the time my heart trouble me—all day, all night—me can't sleep—by and by my heart grow too big, and heavy—think to night me die—my heart so big—me fall down this time—now me can pray—me say, Lord, have massy—then light come in my heart—make me glad—make me light—make me love the Son of God—make me love every body.’</p>
+                <p>“This is his own relation, without being asked any questions, and I have no time now, to give you either the questions or answers. He appeared to be strong in the faith of the Son of God. He received his impressions about three years ago, at Sierra Leone—and while there, he got the knowledge of his letters—after about three months advantage of schooling, his relations called
+<pb id="p50" n="50"/>
+him from Sierra Leone to Grand Cape Mount where he now lives. He however took along with him a spelling book, and he continued praying, and trying to spell—and, providentially, one of the men belonging to our settlement, went on a trip up there in a boat, the boat got lost, and he himself carried ashore by the waves, and fell into the hands of this native man, John—who treated him with a great deal of hospitality; and all he charged or asked him for, was a Testament, which he fortunately had, and gave him. It would seem, in the course of events, as if he was sent there on purpose to carry the word of God, to this man. Since that time, which has been about a year ago, he learnt to read the bible without any teacher, except the Spirit of God. He has learnt to read middling correctly, and he has read and meditated on the different subjects of religion, until he found it was his duty to be baptized, when he came down to our place for that purpose, and gave the relation which I have given you above. I must now say, what was I, that I could withstand God? But I thought, in order for a more public notice of his baptism, it was best to postpone it to the next Lord's day, which was the 20th, and was a day which should ever
+<pb id="p51" n="51"/>
+be remembered at Cape Messurado. In the morning, the native Sunday school met, and your valuable present of clothes, books, &amp;c. were opened and laid before the children, with tears of gratitude to God, and thanks to you. Our teachers and assistants set to, and in a few minutes the face and appearance of our school was changed—having eighteen boys neatly dressed, and wearing every appearance of civilized and improved children. When we turned out our school, and marched them through our streets, and returned to church, it appeared to me as if the restoration and salvation of this ruined and degraded people had commenced. After preaching, in the morning, I baptized the native man John; and after preaching in the afternoon, we had the honor to break bread in the house of God, with our newly arrived brethren from America, and our newly baptized brother. I need not tell you, for you know it was a day of joy and gladness. The church made up a contribution, and neatly dressed our heathen brother John, gave him an extra suit of clothes, gave him fourteen bars, (a bar is equal to seventy-five cents,) and he went on his way rejoicing. We also gave him three bibles, and two hymn books.</p>
+                <pb id="p52" n="52"/>
+                <p>Dear brother—tell the board [the board of the Richmond African Missionary Society; of which, when it was established in 1814, and till he went to Africa, he was a most prominent member] to be strong in the Lord, and in the power of his might: for the work is going on here and prospers in his hands; that the Sunday school promises a great and everlasting blessing to Africa; and on the next Lord's day there will be a discourse on the subject of missions, with a view to get on foot, if possible, a regular school for the instruction of native children. Tell them they have my grateful acknowledgments for the liberal appropriations which they have made, which have been well and duly applied by brother J. Lewis. I send on to you several curiosities for the benefit of the board of the Richmond African Baptist Mission Society. The health of the settlement is much as common. Improvements would have been very great, provided the inhabitants could have procured nails, lumber, &amp;c. Our meeting house, indeed, is obliged to remain entirely still, for the want of these things.</p>
+                <closer><salute>“Very respectfully, yours,</salute>
+<signed>LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p53" n="53"/>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <head>LETTER TO THE BOARD.</head>
+                <opener><dateline>“Monrovia, (Liberia,) Africa, June 15th, 1825.</dateline>
+<salute>“Very dear patrons,</salute></opener>
+                <p>I know that it will be a source of much gratification to you to hear, that on the 18th day of April, 1825, we established a missionary school for native children. We began with 21, and have increased since up to the number of 32; and as I knew it to be the great object which the society had in view, I felt that there was no risk in furnishing them with a suit of clothes, each. Upon the credit of the board, I purchased 165 yards of domestic, of brother J. Lewis, which the board will please to pay to his order. We teach from eleven in the morning, until two in the afternoon, that being as much time as I can spare at present. You will see from the list, that Grand Cape Mount will soon be a field for missionary labor, as that nation is most anxious for improvement. I wrote to the king, some time in May, to send me five or six girls to school; and have since received an answer, informing me that their mothers, and all, were in the Grigory bush, and their girls with them, of course, and when they returned I should have them. According to their
+<pb id="p54" n="54"/>
+custom, they have to remain six months. I intend writing to him again on the subject, and as soon as in the judgment of the board, they can support such an establishment, to get up a school there. To furnish clothes and books, for the children, and support a teacher, is what the board would have to do. I think that after one or two years, such an establishment would be of no expense to the board; but that they would very gladly support a school themselves. I wish the board would deliberate on the subject, and write by the first opportunity, as I expect to go up the next dry season; and I probably might succeed in getting on the way such a school; and appoint some one of our young men to take charge of it. The assortment of books, which have been hitherto sent out, has not been adapted to the nature of our infant schools, as we found but very few of them that contained the first principles. You will please to improve our supply of school books, such as the American, or Webster's spelling book. I have some hope of meeting you in your next annual meeting, if the Lord will. We are told to expect great things, and attempt great things. You must know, that it is a source of much consolation to me, to hear the word of God read by
+<pb id="p55" n="55"/>
+those native sons of Ham, who a few months ago were howling in the devil's bush. May the Lord direct and protect you in all your movements.—Amen.</p>
+                <closer><salute>“Yours, &amp;c.</salute>
+<signed>LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <head>LETTER TO MR. CRANE.</head>
+                <opener><dateline>“Monrovia, (Liberia,) Africa, June 15, 1825.</dateline>
+<salute>“Dear sir,</salute></opener>
+                <p>The arrival of the Fidelity, gives me an opportunity to hand you a few lines, which, I hope, may find you in good health. Nothing very interesting has taken place since I wrote you last, only that among the last emigrants that came out, there has been some considerable sickness and death, the precise account I cannot give at this time. I do believe, that the sickness on new comers hitherto has been greatly increased in consequence of the very unfavorable season of the year in which they leave America. You know that they have long been accustomed to have their system prepared for the summer heat; but to leave in the winter, and be suddenly introduced into a warm climate, it is natural to conclude that they will be sooner attacked, and that
+<pb id="p56" n="56"/>
+it will generally terminate more seriously. Send them out in the fall, and I think that the sickness will be very light, and, in some constitutions, altogether avoided. Please to use your influence to have a physician sent out, as I must, of necessity, quit the practice of medicine. It occasions a greater consumption of time than I can possibly afford. We begin now to get on with our farms and buildings middling well. I have a promising little crop of rice and cassada, and have planted about 180 coffee trees this week a part of which, I expect, will produce the next season, as they are now in bloom. I think, sir, that in a very few years, we shall send you coffee of a better quality than you have ever seen brought into your market. We find that the trees, of two species, abound in great quantities on the capes, both of the large and small green coffee, of which I will send you a specimen by the first opportunity. The Sunday school goes on and prospers, we have now on the list forty, but only about thirty-three attend regularly, two of them can read in the New Testament quite encouragingly, George and John, from Grand Cape Mount. In addition to that, I have got under way a regular day school. We began with twenty-one, and now
+<pb id="p57" n="57"/>
+have on our list thirty-two. This is called the Missionary School, because established in the name of the African Missionary Society. My respects to all the brethren and friends.</p>
+                <closer><salute>“Yours, with respect,</salute>
+<signed>LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>In the fall of 1825, Elder Cary was requested by the board of the American Colonization Society, to visit the United States. It was thought that he was well qualified to give such facts as would strengthen the hands of those who had been laboring to sustain the colony, and beside, that his influence among the free colored population of this country would be favorable to their migration to the land of their fathers. On his intelligence and judgment, as a representative from the colony, the board placed much reliance. Definite arrangements were made for his departure in the Indian Chief, April, 1826. From Mr. Ashmun, governor of the colony, were received the warmest testimonials of moral character and usefulness. The following is an extract from a letter addressed to the board of the Colonization Society.</p>
+        <p>“The Rev. Lott Cary, returning by the ‘Indian Chief,’ has, in my opinion, some claims on the 
+<pb id="p58" n="58"/>
+justice of the society, or government of the U. States, or both, which merit consideration. These claims arise out of a long and faithful course of medical services, rendered to this colony (the only such services deserving much consideration, if we except those of Dr. Ayres, and Dr. Peaco) since the commencement of the settlement in 1820.</p>
+        <p>“Mr. Cary, it is well known, came to this country in the capacity of a missionary, from a society in Richmond, and has ever since, I believe, been in the receipt of a considerable salary from the society, appropriated for the express and sole intention of putting him in a situation to devote his time and labors to the work of the sacred ministry.</p>
+        <p>“It is, perhaps, known to the board, that Mr. Cary has declined serving in any civil office, incompatible with a faithful discharge of his sacred functions; and it may be added, that, although one of the most diligent and active of men, he has never had the command of leisure, or strength, to engage in any missionary duties, besides the weekly and occasional services of the congregation. More than one half of his time has been given up to the care of our sick, from the day I 
+<pb id="p59" n="59"/>
+landed in Africa to the very moment of stating the fact. He has personally aided, in every way that fidelity and benevolence could dictate, in all the attentions which all our sick have in so long a period received. His want of science, acquired by the regular study of medicine, he has gone a long way towards supplying by an unwearied diligence, which few regular physicians think it necessary, and fewer superficial practitioners, have the motives for exercising.</p>
+        <p>“Several times have these disinterested labors reduced him to the verge of the grave. The presence of other physicians has, instead of affording relief, only redoubled the intensity of his labors, by changing the ordinary routine of his attentions to the sick, with the exhibitions of their own prescriptions.</p>
+        <p>“Mr. Cary has hitherto received no compensation, either from the society or the government, for these services. I need not add, that it has not been in his power to support himself and family by any use he could make of the remnants of his time, left him after discharging the amount of duty already described. The missionary board of Richmond have fed, clothed, and supplied the other wants of himself and family, while devoting 
+<pb id="p60" n="60"/>
+his strength and time to your sick colonists, and agents in this country. Justice seems to demand that he should be placed in a situation as an honest man, to refund the whole or a part of the sum thus engrossed, not to say misapplied, by the missionary board.</p>
+        <p>“I beg leave also to state, that on the 15th of Feb. 1826, I came into an agreement with Mr. Cary, to allow him a reasonable compensation for his medical services, devoted to the then sickening company of Boston emigrants. His time from the date of that agreement to the present hour, has been incessantly occupied in attending upon the sick.”</p>
+        <p>To visit America, was an object very near to the heart of Cary. He longed to confer in person with the friends of the mission in Richmond and other places, and to wake up, by personal representations and appeals, the dormant energies of many of his colored brethren who he believed possessed talents to labor efficiently in Africa as teachers and preachers. It was not his desire to remain, himself, in this country. No earthly consideration would have successfully tempted him to abandon his chosen and loved employments in Africa. To her he had given himself and all 
+<pb id="p61" n="61"/>
+he had, and he could not retrace his steps. The wish he cherished once more to see this country, and the wish of the colonization board to see him were not gratified. His attentions as physician could not be dispensed with, and he cheerfully yielded to the claims of duty. By the vessel in which he expected to sail he wrote the following letters to friends in Virginia.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“Monrovia, April 24, 1826.</dateline>
+                  <salute>“Dear brother,</salute>
+                </opener>
+                <p>Your letters and all the articles you mentioned, arrived safe, and were very thankfully received. I expected, until Friday last, that the return of the ship would have enabled me to present personal thanks to you; but the agent was of opinion that I had better defer it a little longer. I am of the same opinion, as the last emigrants have not as yet got entirely over the fever, and my services cannot be dispensed with without very great risk; but I hope that, if not before, I shall see you next spring, if the Lord permit.</p>
+                <p>We dedicated our meeting-house last October; it was four weeks from the time we raised it to the time it was dedicated. It is quite a comfortable house, thirty by twenty feet, and ceiled
+<pb id="p62" n="62"/>
+inside nearly up to the plates, with a decent pulpit, and seats. I feel very grateful to you for your services, and to the brethren and friends for their liberal contributions. We may say, that ‘hitherto the Lord has helped us,’ therefore we have gone on middling well. We have no particular revival at present, but still we labor in hope that the Lord will, in answer to prayer, yet favor Zion. Our native schools still go on under hopeful circumstances. I think the slave trade is nearly done in our neighborhood. The agent, with our forces, has released upwards of one hundred and eighty from chains, since the first of October, which has added greatly to our strength. If the colored people of Virginia do not think proper to come out, the Lord will bring help to the colony from some other quarter, for these recaptives are ready to fight as hard for the protection of the colony, as any of the rest of the inhabitants. I mention these circumstances that you may look through them to the time foretold in prophecy; i.e. Ethiopia shall stretch out her hands unto God. We have very few meetings but that some of the native born sons of Ham are present, and they begin to learn to read and sing the praises of God. I should think that among your large
+<pb id="p63" n="63"/>
+population of colored people, if the love of themselves did not bring them out, the love of God would, for here is a wide and extensive missionary field.</p>
+                <p>“My respects to all. Please let the colored brethren in your church hear this letter read. Farewell.</p>
+                <closer><salute>“Very respectfully, yours,
+<lb/>In the bond of Christian affection.</salute>
+<signed>LOTT CARY.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Monrovia, April 22, 1826.</dateline>
+<salute>“Dear brother,</salute></opener>
+                <p>I received your letter of the 29th Jan. 1826, and read its contents with much interest. I expected, until yesterday, that the return of the ship Indian Chief would enable me to converse with you face to face, but it is thought best for the good of the settlement, that I should not leave at present, as the one hundred and fifty persons brought over by Dr. Peaco have not got over the fever yet, but it has been very favorable with them. We have lost only three, the Rev. Mr. Moses Freeman from Baltimore, and two young children; the rest of that expedition are getting on well.
+<pb id="p64" n="64"/>
+The expedition from Boston suffered very much, the loss was greater in proportion than common, and among the rest we have to lament the loss of Mr. Charles L. Force, the printer. We feel truly grateful to the great preserver of the lives of his people, that in answer to prayer, he has spared the useful life of brother Holton. His case was an alarming one; but his recovery has been rapid. He has preached for us once since his recovery, and perhaps will to-morrow. He still resides with me, and perhaps will, until the agent completes a room for him.”</p>
+                <p>Thus it would appear that Lott Cary's medical services were indispensable to the welfare of the colony, since no other man possessed such practical knowledge of the diseases of the climate, and the precise remedies adapted to their removal. At one time, during the year 1825, when Mr. Ashmun was reduced to the lowest extremity by sudden illness, he observes: “The prescriptions of our excellent and experienced assistant physician, the Rev. Lott Cary, under the blessing of divine Providence, so far succeeded as to afford complete relief, only leaving me in a very emaciated and enfeebled state, about the end of the first week in July.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p65" n="65"/>
+        <p>At the meeting of the board of the Baptist General Convention, which took place in 1825, a report on the African mission was adopted, of which, evidencing the confidence of the convention, the following is a part:</p>
+        <p>“The committee reported:</p>
+        <p>“1. That intelligence has been received, through the medium of brother Crane, of Richmond, by means of a letter from Lott Cary, that the prospects of success are truly animating. The natives, in Liberia, have laid aside the spirit of hostility; they have become convinced that the colonists are their sincere and disinterested friends. Lott Cary informs us, that he has baptized several of the Africans, and that preparations are making at Monrovia, for putting up a Baptist meeting house; for the completion of which, he humbly, but importunately, solicits the aid of the friends of the kingdom of the Redeemer in America.</p>
+        <p>“2. That your committee contemplate the labors and pious deportment of Lott Carey with entire satisfaction, and are happy to find that his virtuous deportment has secured to him the high approbation of the American Colonization Society.</p>
+        <p>“3. That Lott Carey has not only endeavored 
+<pb id="p66" n="66"/>
+to render himself useful as a minister of the gospel of Christ, but has opened a small school, for the instruction of the children of the natives, and has received ample demonstrations of their respect and attachment.”</p>
+        <p>Such were the indefatigable labors of this man of God, and such the varied and important services he rendered to the colony, that it will not be a subject of surprise that he should occupy an elevated place in the esteem of this growing and prosperous community. In the selection of a suitable individual to fill the office of vice-agent, all eyes were directed to him. He was elected to that office in September, 1826. No man in the colony was so well qualified to sustain this position, for he had not only been familiar with all the painful changes through which, from the first, it had passed—but he possessed, in an eminent degree, the intrepidity, foresight, prudence, and firmness, which were requisite to sustain the government, and secure the welfare of the people. “In his good sense,” says Mr. Gurley, “moral worth, public spirit, courage, resolution, and decision, the colonial agent had perfect confidence. He knew that in times of difficulty or danger, reliance might be placed upon the energy and efficiency of Mr. Cary.”</p>
+        <pb id="p67" n="67"/>
+        <p>The following letter, addressed to Mr. William Crane, will give pleasing evidence of his abiding spirituality of mind and his deep interest in the prosperity of the Redeemer's kingdom, amidst his pressing official duties in the colony.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline>“Monrovia, Dec. 20, 1827.</dateline>
+<salute>“Very dear brother,</salute></opener>
+                <p>The United States sloop of war Ontario on her way to America, having arrived in our harbor to-day, and intending to proceed in a few days to the United States, I gladly embrace the opportunity to send you a few lines by her. As it has not been very long since I wrote you  a full account, I shall only at present give a short statement of the most important changes that have taken place since my last communication. One event, I am exceedingly glad to inform you of, is the establishment of the school at Big Town, Grand Cape Mount, on the 10th November. About thirty men were sent, at my request, by the king of Grand Cape Mount, for the purpose of removing brother Revey's books, &amp;c. up, in order to commence the establishment of our long talked of school; and, through the blessing of a kind Providence I made the necessary arrangements
+<pb id="p68" n="68"/>
+in time to set off on the 13th, and reached there on the 15th, after a rather fatiguing journey. We were received very cordially. We could do nothing more that evening than shake the king's hand, and inform him that I came on business of importance, and wished an opportunity might be afforded on the day following to have an interview with his majesty, which he granted very cheerfully. I accordingly waited on him next day, and stated the object of our mission; he would not give a decisive answer until he had convened his head men, which he did on Saturday the 17th; and after a few hours' palaver, it terminated in the unanimous consent of the king and all the head men, not only to permit the establishment of a school, but to protect it to the uttermost.</p>
+                <p>I then requested them to select a suitable house for the school room, and promised, if they required it, that I would pay rent for the house; but they said that they did not wish me to pay for a house. About five o'clock, P. M. they informed me that they had made a selection of a house and wished me to go and examine it, which you may judge I did without delay—it is a room nearly fifteen by thirty feet. I found that notwithstanding it was then late in the afternoon we
+<pb id="p69" n="69"/>
+could make arrangements to have worship in it on the ensuing Lord's day, which we did, and I had the honor to address a very attentive audience twice, through brother John. After service I informed the congregation that I should need their assistance on the following day in preparing seats, &amp;c., and they turned out like men, and performed more labor by eight o'clock than I expected to have accomplished in the whole day. We got seats prepared for about sixty children by four o'clock, and gave notice that as the school would be organized on the day following at nine o'clock, A. M., all persons wishing to have their children instructed were requested to come at that time and have them entered, and the number received was thirty-seven. I read and explained a short set of regulations which I had drawn up; and, as I had the king and his head men present, I got them to sing the articles of agreement in the presence of the whole congregation. For twelve months I think that the school will, of course, be expensive. The present arrangement is: I agree to allow brother Revey twenty dollars per month, and find him provisions, washing, &amp;c. If these expenses can be defrayed for one year, I think that they may be greatly reduced at the expiration
+<pb id="p70" n="70"/>
+of that time. If you think it worth while, please to lay the subject before the board. After my return from Cape Mount I thought it best to relinquish our school operations here, from a conviction that your little society could not support both: so we have to get on the best we can at present with our Sunday school alone. I do wish you could so manage it as to procure forty suits of clothing for boys and girls. Surely they can be raised upon some condition or other: they are bound in the school regulations to clothe their children as soon as practicable, but I am afraid that it will be too long, first, therefore do your best. Please to tell the board to be strong in the Lord and the power of his might, for it seems as if the great floodgate is about to be opened upon this part of Africa; one missionary arrived here in the Ontario and he informs me that there are four others following close after him. He is all the way from Germany or Switzerland—of the Lutheran denomination. I do not know what to say, but I must say, O American Christians! Look this way! come this way! and help, if you cannot come! Send help for the Lord's sake! help Africa's sons out of the devil's bush into the kingdom of God; the harvest is already white. The
+<pb id="p71" n="71"/>
+heathen in our vicinity are so very anxious for the means of light that they will buy it—beg it—and, sooner than miss of it, they will steal it. To establish this I will mention a circumstance which actually took place in removing our school establishment up to C. M. I had upwards of forty natives to carry our baggage, and they carried something like two hundred and fifty bars; a part of them went on four days beforehand, and had every opportunity to commit depredations, but of all the goods that were sent and carried there, nothing was lost except fifteen spelling books, five of them we recovered again. I must say that I was almost pleased to find them stealing books, as they know that you have such a number of them in America, and that they can, and no doubt will, be supplied upon better terms. I am very much in want of paper. I cannot say much about my intended visit to America, owing to the bad health of my wife, and my own not being very good; but if it please the Lord to improve her health I shall not regard my own. I send on to you a copy of the missionary's letter, and also a copy of the school grant, given by the people of Cape Mount. A few days before I
+<pb id="p72" n="72"/>
+left for Cape Mount, I baptized the man George belonging there.</p>
+                <closer>
+                  <signed>LOTT CARY.”</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>The next letters to brother Crane, were written a few months subsequently, in which he refers to the sickness of his companion. Mention of his third marriage has not been made in this memoir, as the precise time when it occurred is not known. The following are extracts from these communications.</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“Monrovia, March 5, 1828.</dateline>
+                </opener>
+                <p>“I did not expect to have written to the board by this conveyance, because I expected to have visited them this spring; but inevitable circumstances prevented me. The illness of my wife is a difficulty of all others that I cannot get over—she has the consumption of the inflammatory kind. I have used my skill to the uttermost with her, and availed myself of the advice of every physician that has visited us for several months past, but all has hitherto been in vain; I have twice attempted to carry her through a mercurial course of medicine, but have in both instances been obliged to stop it—I now leave the event to Providence.</p>
+                <p>I received from our teacher a written communication
+<pb id="p73" n="73"/>
+four days ago. He states that the progress of our school is very much impeded at present, in consequence of the burial of old king Peter who has been dead about four years. This interruption I apprehend will continue six or eight weeks. I requested him to vacate his school and come down to our annual meeting on Easter Sunday. He informed me that the Mandingoes are trying their influence against us to interrupt, and stop, if possible, the progress of our school; but the Lord I trust will not let them succeed. If you could find a good young man to join brother Revey it would be a very great accession; indeed it is a fine healthy place. I wrote you to try and procure a number of suits of clothes, of which I would again remind the board—they will please apply a part of their means to that object. I am very anxious to have the children who attend school distinguished from the rest; you will hereafter have but one object to keep in view, that is the pay and support of the young brother, who I think deserves the confidence of the board.</p>
+                <p>Please to tell the board that I feel confident in saying to them, that their labors have hitherto been blessed; though they are too remote to see the benefits that have resulted to the inhabitants
+<pb id="p74" n="74"/>
+of these benighted regions, yet they are clearly perceptible. The most I have been able to do, has been to endeavor to weed in the field, and take up ground to be occupied by them, that I have done, as I before informed them; they will therefore exert all the power and influence they possess to occupy and plant those fields: if they are regularly attended two or three years, I think then you will have pleasure without expense.</p>
+                <closer>
+                  <signed>LOTT CARY.”</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>In the early part of the year 1828, Mr. Ashmun left Liberia for the United States, having received from his physician a written opinion that in this consisted the only hope of restoration to health. The entire government of the colony devolved on Lott Cary in the absence of the governor. “I was enabled,” says Mr. Ashmun, “to arrange the concerns of the colony, with Mr. Cary, even to the minutest particulars; and I have the greatest confidence that his administration will prove satisfactory in a high degree to the board, and advantageous to the colony.” Mr. Gurley in reference to his administration, states, that “for six months after the first departure of Mr. Ashmun, from the colony, Mr. Cary stood at 
+<pb id="p75" n="75"/>
+its head, and conducted himself with such energy and wisdom, as to do honor to his previous reputation, and fix the seal upon his enviable fame.</p>
+        <p>“On his death bed Mr. Ashmun urged that Mr. Cary should be permanently appointed to conduct the affairs of the colony, expressing perfect confidence in his integrity and ability for that great work.”</p>
+        <p>A new and highly responsible trust was now committed to his hands. Nor was he unequal to the task. His powers of mind and valuable qualities of heart seem to have been increasingly developed in this new emergency and with the entire confidence of the board to which he was accountable, and the community under his government; he applied himself diligently to the prosecution of duty. A few extracts from his journal and letters will no doubt be read with deep interest, as they evince his practical good sense, and fitness for the station he occupied.</p>
+        <p>“The colonial agent, J. Ashmun, Esq., went on board the brig Doris, March 26th, 1828, escorted by three companies of the military, and when taking leave, he delivered a short address, which was truly affecting; never, I suppose, were greater tokens of respect shown by any community on 
+<pb id="p76" n="76"/>
+taking leave of their head. Nearly the whole (at least two-thirds,) of the inhabitants of Monrovia, men, women, and children, were out on this occasion, and nearly all parted from him with tears, and, in my opinion, the hope of his return in a few months, alone enabled them to give him up. He is indeed dear to this people, and it will be a joyful day, when we are again permitted to see him. He has left a written address, which contains valuable admonitions to officers, civil, military, and religious. The brig sailed on the 27th. May she have a prosperous voyage.”</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“Thursday, March 27.</dateline>
+                </opener>
+                <p>“Feeling, very sensibly, my incompetency to enter upon the duties of my office, without first making all the officers of the colony well acquainted with the principal objects which should engage our attention, I invited them to meet at the agency house on the 27th, at 9 o'clock, which was punctually attended to; and I then read all the instructions left by Mr. Ashmun without reserve, and requested their co-operation. I stated that it would be our first object to put the jail in complete order; secondly, to have our guns and armaments in a proper state; and thirdly, to get the new settlers located on their lands; as this 
+<pb id="p77" n="77"/>
+was a very important item in my instructions. This explanation will, I think, have a good effect; as by it the effective part of the colony is put in possession of the most important objects of our present pursuit; and, I trust, through the blessing of the great ruler of events, we shall be able to realize all the expectations of Mr. Ashmun, and render entire satisfaction to the board of managers, if they can reconcile themselves to the necessary expenses.</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“March 29.</dateline>
+                </opener>
+                <p>“From a note received from Mr. James, dated Millsburg, I learn that he visited king Boatswain, and that the new road from Boatswain's to Millsburg, will shortly be commenced.—The head men expect, however, to be paid for opening the road. Messrs. James and Cook, who came down this evening, state, that the Millsburg factory will be ready in a few days for the reception of goods, and wished consignments might be made early. But as I had been on the 27th paying off the kings towards the Millsburg lands, and found that one hundred and twenty bars came so far short of satisfying them, I thought best to see them together, before I should attempt to make any consignments to that place.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p78" n="78"/>
+        <p>[The following is the copy of a deed between Lott Cary, acting in behalf of the American Colonization Society, on the one part; and the after mentioned kings, on the other.]</p>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>“Know all men by these presents: That we, Old King Peter, and King Governor, King James, and King Long Peter, do, on this fourth day of April, in the year of our Lord, one thousand eight hundred and twenty-eight, grant <sic corr="unto">nto</sic> Lott Cary, acting agent of the colony of Liberia, in behalf of the American Colonization Society, to wit:</p>
+                <p>“All that tract of land on the north side of St. Paul's river, beginning at king James' line below the establishment called Millsburg Settlement, and we, the kings as aforesaid, do bargain, sell, and grant, unto the said Lott Cary, acting in behalf of the American Colonization Society, all the aforesaid tract of land, situated and bounded as follows: by the St. Paul's river on the south, and thence running an east northeast direction up the St. Paul's river, as far as he, the said Lott Cary, or his successor in the agency, or civil authority of the colony of Liberia, shall think proper to take up and occupy; and bounded on the west by king Jimmey's, and running thence a north direction as far as our power and influence extend. We 
+<pb id="p79" n="79"/>
+do on this day and date, grant as aforesaid for the consideration </p>
+                <closer><salute>“In witness whereof we set our hands and names:</salute>
+<signed>“OLD X KING PETER,</signed><signed>LONG X KING PETER,</signed><signed>KING X GOVERNOR,</signed><signed>KING X JAMES.</signed><salute>“Signed in the presence of,</salute><signed>ELIJAH JOHNSON,</signed><signed>FREDERICK JAMES,</signed><signed>DANIEL GEORGE.”</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>“June 18, 1828.</dateline>
+                </opener>
+                <p>“I found it necessary, in order to preserve the frame of the second floors of the government house, to have the frame and ceiling painted, which is now doing. I have also been obliged to employ another workman to make the blinds, or else leave the house exposed the present season, as——refused to do it under the former contract. On the 13th I visited Millsburg, to ascertain the prospects of that settlement; and can say with propriety, that according to the quantity of land which the settlers have put under cultivation,
+<pb id="p80" n="80"/>
+they will reap a good and plentiful crop. The company's crop of rice and cassada is especially promising. The new settlers at that place have done well; having all, with two or three exceptions, built houses, so as to render their families comfortable during the season. They have also each of them a small farm, which I think after a few months will be sufficient to subsist them. But I find from a particular examination, that we shall be obliged to allow them to draw rations longer than I expected, owing to the great scarcity of country produce, the cassada being so nearly exhausted, that it is, and will be, impossible to obtain, until new crops come in, much to aid our provisions, unless by going some distance into the country. Therefore I think it indispensably necessary, in order to keep the settlers to their farming improvements, to continue their rations longer than I at first intended; as I consider the present too important a crisis to leave them to neglect their improvements, although it may add something to our present expenses.</p>
+                <p>“The people at Caldwell, are getting on better with their farms, than with their houses. I think some of them are very slow, notwithstanding I have assisted them in  building. The gun house,
+<pb id="p81" n="81"/>
+at Caldwell, is done; and, at present, preparations are making for the fourth of July. I think that settlement, generally, is rapidly advancing in farming, building, and, I hope, in industry. Our gun carriages are done; the completion of the iron work alone prevents us from mounting them all immediately. We have four mounted, and I think we shall put them all in complete order by the end of the present week.</p>
+                <p>“Captain Russel will be able to give something like a fair account of the state of our improvements, as he went with me to visit the settlements on the 13th and 14th, and seemed pleased with the prospect at Millsburg, Caldwell and the Half-way Farms.</p>
+                <p>“Mr. Warner, who has been engaged nearly the whole of the last twelve months, on business of negotiating with the native tribes to the leeward, is at present down at Tippecanoe, the place which I mentioned in my former communications, as being a very important section of country, since it would connect our Sesters and Bassa districts together. He is not, however, now engaged in business of negotiation, but only in business of trade.”</p>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>In his letter to the lamented Mr. Ashmun, Mr. 
+<pb id="p82" n="82"/>
+Cary states: “Things are nearly as you left them; most of the work that you directed to be done, is nearly accomplished. The plasters are now at work on the government house, and with what lime I am having brought down the river, and what shells I am getting, I think we shall succeed.</p>
+        <p>“The gun house in Monrovia, and the jail, have been done for some weeks; the mounting of the guns will be done this week, if the weather permits.</p>
+        <p>“The houses at the Half-way Farms, are done; the gun house at Caldwell would have been done at this time, had not the rain prevented; but I think it will be finished in three or four days. The public farm is doing pretty well. The Millsburg farms are doing very well. I think it would do you good to see that place at this time.</p>
+        <p>“The missionaries, although they have been sick, are now, I am happy to inform you, recovered; and at present are able to attend to their business, and I regard them as entirely out of danger.</p>
+        <p>“I hope we shall be able to remove all the furniture into the new house, in two or three weeks.”</p>
+        <p>June 25th, Mr. Cary writes:—“About three o'clock to-day there appeared three vessels—two 
+<pb id="p83" n="83"/>
+brigs and a schooner. The schooner stood into the roads, and one of the brigs near in, but showed no colors until a shot was fired by Captain Thompson; when she hoisted Spanish colors, and the schooner the same. All their movements appeared so suspicious, that we turned out all our forces to night. About eight this evening, it was reported that they were standing out of our roads; and at sunset, that the schooner had come to anchor very near the “All Chance,” from Boston; and that the brig which had passed the cape, had put about and was standing up, trying to double the cape; and that the third vessel (a brig) was standing down for the roads. The first mentioned brig showed nine <hi rend="italics">ports</hi> aside. From all these circumstances, I thought best to have Fort Norris Battery manned, which was immediately done by Captain Johnson. I also ordered out the two volunteer companies to make discoveries around the town, and the artillery to support the guns, and protect the beach; which orders were promptly executed, and we stood in readiness during the night. At daylight the schooner lay at anchor and appeared to be making no preparations to communicate with us; I then ordered a shot to be fired at a little distance from her, when she
+<pb id="p84" n="84"/>
+sent a boat ashore with her captain, supercargo, and interpreter. She reported herself the Joseph, from Havana, had been three months on the coast trading, but <hi rend="italics">not for slaves,</hi> had one gun, and twenty-three men. Also, that the brig was a Patriotic brig in chase of her, and that through fear she had taken shelter under our guns. The captain wished a supply of wood and water; but I told him I knew him to be engaged in the slave trade, and that, though we did not pretend to attempt suppressing this trade, we would not aid it, and that I allowed him one hour, and one only, to get out of the reach of our guns. He was very punctual; and, I believe, before his hour.”</p>
+        <p>Speaking of the celebration of the fourth of July, in the colony, under date of the 15th July, Mr. Cary remarks: “The companies observed strictly the orders of the day, which I think were so arranged as to entitle the officers who drew them up to credit. Upon the whole, I am obliged to say, that I have never seen the American Independence celebrated with so much spirit and propriety since the existence of the colony; the guns being all mounted and painted, and previously arranged for the purpose, added very much to the grand salute. Two dinners were given, one by 
+<pb id="p85" n="85"/>
+the Independent Volunteer Company, and one by captain Devany.”</p>
+        <p>To the secretary of the Society, July 19th, Mr. Cary writes: “I have the honor to acknowledge the receipt of your letter, forwarded by captain Chase, of Providence; also, your Report and Repository, directed to Mr. Ashmun, but owing to his absence, they have fallen into my hands; and permit me to say, that these communications are read with pleasure, and that nothing affords more joy to the colony, than to hear of the prosperity of the Colonization Society, and that you have some hopes of aid from the general government, which makes us more desirous to enlarge our habitation and extend the borders of the colony.</p>
+        <p>“I must say from the flattering prospects of your society, I feel myself very much at a loss how to proceed, in the absence of Mr. Ashmun, with regard to making provisions for the reception of a large number of emigrants, which appears to be indispensably necessary. Therefore, after receiving your communication, we conceived the following to be the most safe and prudent course. <hi rend="italics">First,</hi> to make arrangements to have erected at Millsburg, houses to answer as receptacles sufficient to shelter from one hundred and fifty to two 
+<pb id="p86" n="86"/>
+hundred persons. I have therefore extended the duties of Mr. Benson, so as to embrace that object. I was led to this course from the following considerations. <hi rend="italics">First,</hi> from the productiveness of the Millsburg lands and the fewness of their inhabitants. I know if Mr. Ashmun were present, it would be a principal object with him to push that settlement forward with all possible speed, and that for this purpose, he would send the emigrants by the first two or three expeditions to that place. I think that those from the fresh water rivers, if carried directly after their arrival here, up to Millsburg, would suffer very little from change of climate. <hi rend="italics">Secondly,</hi> the fertility of the land is such a temptation to the farmer, that unless he possesses laziness in its extreme degree, he cannot resist it; he must and will go to work. <hi rend="italics">Thirdly,</hi> it is important to strengthen that settlement against any possible attack; and though we apprehend no hostilities from the natives, yet we would have each settlement strong enough to repel them.</p>
+        <p>“I am happy to say, that the health, peace, and prosperity of the colony, I think is still advancing, and I hope that the board of managers may have their wishes and expectations realized to their 
+<pb id="p87" n="87"/>
+fullest extent, with regard to the present and future prosperity of the colony.”</p>
+        <p><hi rend="italics">July</hi> 17.—“If I could be allowed one suggestion to the board of managers, I would mention the importance of having here for the use of the colony, a vessel large enough to run down as low as Cape Palmas. It would, I think, be found to save a very great expense to the society. She might occasionally run up also to Sierra Leone.</p>
+        <p>“Until we can raise crops sufficient to supply a considerable number of new comers every year, such an arrangement as will enable us to proceed farther to the leeward, than we have ever done, in order to procure supplies, will be indispensably necessary; as there we can procure Indian corn, palm oil, and live stock. For these, neither the slave traders, nor others, give themselves much. Corn can be bought there for from fifteen to twenty cents per bushel. Fifteen or twenty bushels, which I bought of captain Woodbury, I have been using instead of rice, for the last two months. Besides, it can be ground into meal, and would be better than any that can be sent. Upon the supposed inquiry, will not the lands of the colony produce corn?—they will produce it in abundance; but, with the quantity of lands appropriated at 
+<pb id="p88" n="88"/>
+present, and the means to cultivate them, each land-holder will, I think, be able to raise but little more than may be required by his own family, and consequently, will have little to dispose of to new comers.<ref targOrder="U" id="ref2" n="2" rend="sc" target="note2">*</ref><note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* It has been resolved by the board of managers to increase the quantity of land allotted to each settler.</p></note></p>
+        <p>“Permit me to inform the board, that proposals have been made by a number of very respectable citizens in Monrovia, to commence a settlement near the head of the Montserado river, which would be a kind of farming establishment; which, should it be the pleasure of the board to approve, would be followed up with great spirit, and found to contribute largely towards increasing our crops, for the soil is very promising.”</p>
+        <p>The following letter was addressed to the secretary of the American Colonization Society, under date of May 7th, 1828: “There have been no very important changes either in the state or face of the colony, since Mr. Ashmun left, except by the rapid progress of the farming establishments, and the Half-way Farms, Caldwell, and Millsburg. As I visited all those establishments during Friday and Saturday, the second and third of May, I am happy to say, that the prospect for
+<pb id="p89" n="89"/>
+crops, the present season, is tenfold, and that I think these settlements will be beyond the reach of suffering, before the close of the present season.</p>
+        <p>“About six of the families that commenced at Millsburg, very late in March, are nearly housed, and some of them have two acres, at least, of land, in order for planting.</p>
+        <p>“I have judged it best to help them a little, in getting their houses erected, and in planting, and to furnish them with seeds and tools, which they had not;—and, as soon as their farms are planted, it is my intention to stop altogether issuing rations to all who are able to earn wages, or subsist themselves, and only feed the poor women and children, in a way, if possible, to get them safe through the rainy season; before which time, I trust his honor, Mr. Ashmun, will return. As to the new settlers in Caldwell, I have found it necessary to do rather more than for those at Millsburg, as the latter have lands more easy to clear, and the timber for erecting their houses, is more convenient. There are several families, which have made astonishing progress. Those sent out by colonel B in particular, have cleared land sufficient, if they can possibly succeed in getting it planted, to render their families entirely comfortable, 
+<pb id="p90" n="90"/>
+by the close of the ensuing season; and, I trust, with the little help that I am now giving them, that they will be comfortably housed on their own lands in two or three weeks.”</p>
+        <p>The secretary of the American Colonization Society, in referring to the missionary spirit by which Elder Cary was actuated, employs the following language: “But, amid his multiplied cares and efforts for the colony, he never forgot or neglected to promote the objects of the African Missionary Society, for which he had long cherished the strongest attachment. His great object in emigrating to Africa, was to extend the power and blessings of the Christian religion. Before his departure from Richmond, a little church of about half a dozen members, was formed,<ref targOrder="U" id="ref3" n="3" rend="sc" target="note3">*</ref><note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3"><p>* The members were L. Cary and wife, Collin Teage and wife, and son Hillary Teage, and Joseph Langford and wife.</p></note> who were to accompany him. He became the pastor of this church, in Africa, and saw its numbers greatly increased. Most earnestly did he seek access to the native tribes, and endeavor to instruct them in the doctrines and duties of that religion, which, in his own case, had proved so powerful to purify, exalt, and save. In one or two instances
+<pb id="p91" n="91"/>
+of hopeful conversion from heathenism, he greatly rejoiced; and many of his latest and most anxious thoughts were directed to the establishment of native schools in the interior. One such school, distant seventy miles from Monrovia, and of great promise, was established through his agency, about a year before his death, and <sic corr="patronized">patronised</sic> and superintended by him until that mournful event. On this subject, by his many valuable communications to the missionary board, ‘he being dead yet speaketh’ in language which must affect the heart of every true Christian disciple.”</p>
+        <p>It now becomes the biographer's painful duty to approach the tragic scene, which terminated the life and labors of this useful man. To our weak perceptions, this event seems mysterious. That he should have passed through the midst of war and pestilence, unhurt, and then by a sudden disaster be hurried out of the world, is to us most unaccountable. He was cut off, too, in the midst of his usefulness, and in the vigor of his days. But while “clouds and darkness” hang over this providence, it is a pleasing reflection, that “justice and judgment are the habitation of God's throne, mercy and truth go before his face.” The first intelligence of his death, was communicated by 
+<pb id="p92" n="92"/>
+Dr. Randall, in the following extract: “On my arrival here, I was much shocked to find, that the vice agent, Mr. Cary, had been killed, a few weeks before, by the accidental explosion of gunpowder. His death was a great loss to our cause, as he had much influence with his people, both here, and in the United States; an election for his successor had taken place.”</p>
+        <p>The circumstances of this melancholy event, in the words of Mr. Gurley, were these: “The factory belonging to the colony at Digby, (a few miles north of Monrovia,) had been robbed by the natives; and satisfaction being demanded was refused. A slave trader was allowed to land his goods in the very house where the goods of the colony had been deposited, and a letter of remonstrance and warning directed to the slave dealer, by Mr. Cary, was actually intercepted and destroyed by the natives. In this state of affairs, Mr. Cary considered himself solemnly bound to assert the rights and defend the property of the colony. He therefore called out instantly, the military of  the settlements, and commenced making arrangements to compel the natives to desist from their injurious and unprovoked infringements, upon the territory and rights of the 
+<pb id="p93" n="93"/>
+colony. On the evening of the 8th of November, while Mr. Cary, and several others were engaged in making cartridges in the old agency house, a candle appears to have been accidentally upset, which caught some loose powder, and almost instantaneously reached the entire ammunition, producing an explosion, which resulted in the death of eight persons. Six of these unfortunate persons survived until the 9th, and Mr. Cary, and one other, until the 10th.”</p>
+        <p>When the mournful news of Lott Cary's death reached the United States, a deep sensation was produced among the friends of the Liberian colony, and especially among many of his brethren, who had become familiar with his self-denying toils in a distant land.</p>
+        <p>The following tribute to the memory of this man of God, is extracted from the proceedings of the Richmond African Missionary Society at their annual meeting in 1829.</p>
+        <p>“The loss which has thus been sustained cannot, in our estimation, be easily repaired. This excellent man seems to have been raised up by divine Providence for the special purpose of taking an active part in the management of the infant settlement. His discriminating judgment, his 
+<pb id="p94" n="94"/>
+honesty of heart, and decision of character, qualified him eminently for this service. But especially in his relation to your society is his death to be sincerely lamented. It will be recollected that he was the principal instrument in the origin of this society, and for several years acted as its recording secretary. A little more than eight years ago, he received his appointment, and sailed, as missionary, in company with brother Teage, for the land of their forefathers. His exertions as a minister in that land have been of the most devoted and untiring kind. In the communications which have been received by the board, he seemed to possess the most anxious concern for the salvation of the perishing multitudes around him. Through his instrumentality a considerable church has been collected together, which seems to be in a prosperous and growing condition. Sabbath and week day schools have been instituted for the instruction of native children and the children of the colony, which have proved eminently useful. We were looking forward with confidence to the more perfect consummation of our wishes, when that moral desert should rejoice and blossom as the rose; but God has seen fit to cross our expectations, in calling
+<pb id="p95" n="95"/>
+from his station this laborious missionary. It becomes us to bow with submission to the stroke, and to realize the saying of the apostle, ‘how unsearchable are his judgments and his ways past finding out.’ Although we were not permitted to receive his dying testimony to the truth, we have the fullest assurance that our loss is his unspeakable and eternal gain.</p>
+        <p>In closing this memoir it will not be doing violence to truth, to say, that Lott Cary was among the most gifted men of the present age. Appropriately was it remarked that “he was one of nature's noblemen.” Under more favorable circumstances, he would have been on a level with the most intellectual and honored of his race. He possessed a mind of no ordinary grade. This was evinced from the period of his employment at the warehouse in Richmond, to his elevation as presiding officer in the colony of Liberia. There was a clearness and vigor of thought enabling him to combine and compare ideas, and to reach with ease, the best and most rational conclusion. If opportunity had allowed, he would have excelled in mathematical knowledge. It will be remembered by the reader that the meridian of life was nearly reached before he became 
+<pb id="p96" n="96"/>
+acquainted with the alphabet of his own language.</p>
+        <p>As a speaker he was interesting and instructive. It was stated by one who knew him well and sometimes heard him in the city of Richmond, that in “preaching, notwithstanding his grammatical inaccuracies, he was often truly eloquent. He had derived almost nothing from the schools, and his manner was of course unpolished, but his ideas would sometimes burst upon you in all their native solemnity, and awaken deeper feelings than the most polished, but less original discourses.” His sermons were not merely ebullitions of zeal without knowledge; they were full of sentiment. He was himself accustomed to think, and in simplicity and godly sincerity he gave utterance to the truth. Many testimonials to the power of his address might be furnished. A Baptist minister of intelligence who heard his farewell address was almost overpowered by the violence of feelings which it occasioned. He afterwards stated that he believed he had never listened to such a discourse. A minister of distinction connected with the Presbyterian church, stated “a sermon which I heard from Mr. Cary shortly before he sailed for Africa, was the best 
+<pb id="p97" n="97"/>
+extemporaneous discourse I ever heard. It contained more original and impressive thoughts, some of which are distinct in my memory and never can be forgotten.”</p>
+        <p>One of the chief excellencies of his character, consisted in his unbending integrity. He aimed most conscientiously to discharge his duty, whatever might be the consequences. And the benevolence of his heart continually inclined him to seek happiness in dispensing good to others. His labors as a missionary, in Africa, were performed for the most part gratuitously, as the funds appropriated by the African Missionary Society of Richmond, and the board of the general convention were employed in compensating teachers, and otherwise supporting the schools. We see him when almost all around are either sick or dying, visiting from house to house, not only administering consolation as a servant of Christ, but in the character of physician and nurse. These services too, were performed without the prospect of compensation.</p>
+        <p>In his death the colony, and Africa herself, lost a devoted friend. His memory doubtless will long be revered by the Liberians, and generations yet unborn will have reason to call him blessed.</p>
+      </div1>
+    </body>
+    <back>
+      <div1 type="appendix">
+        <pb id="p99" n="99"/>
+        <head>APPENDIX. </head>
+        <head> A BRIEF ACCOUNT OF AFRICAN COLONIZATION.</head>
+        <p>AT an early period in the history of this country, and while the several states were then colonies of the king of Great Britain, a vessel loaded with slaves came to Virginia. The scarcity of labor induced the planters to purchase them, and the purchase being found to be profitable, the importation of slaves from Africa increased, until slavery became one of the institutions of the land. After the war of the revolution, and when the present constitution of the United States went into operation, in the year 1789, that instrument provided, in effect, that the importation of slaves into this country should not be permitted after the year 1808. Still later, the Congress of the United States have passed laws declaring the slave-trade to be piracy; holding, in other words, those engaged in it to be enemies of the human race, whom it is the duty of all men to take and destroy.
+<pb id="p100" n="100"/>
+Notwithstanding this, the slave-trade between Africa and America had continued so long, that immense numbers were brought into the United States, the descendants of whom we see every day around us. Many of these people are free, but the greater portion of them are still held in slavery. Their condition here is an unfortunate one, and is regretted by all who have the true happiness of their fellow beings, or the good of their country, at heart. Those who are slaves work for others and not for themselves. They look upon their children, as they grow up, with the knowledge that they too are slaves. All the roads to wealth are closed to them; and though they are taken care of, and clothed, and fed,—yet that is the sum of their expectations. Those who are free, labor, it is true, and may acquire property, for themselves; but all the avenues to distinction are closed against them. They have no voice in making the laws by which they are governed, and cannot hope to participate in administering them. The cause of this is the prejudice, arising from the difference of color between them and the white population of the country, and their origin. There are some who pretend to say, that the prejudice against the colored race is unjust, and that it will wear away; and that
+<pb id="p101" n="101"/>
+the white and colored races will live in America as one people, marrying together, and dividing power and place. These persons, when they are sincere, are idle and mischievous visionaries; who reason against the experience of ages, and against all the facts of history, and against the observations of every day. They are laboring under an unfortunate error. Those who are not sincere, are bad men, with evil designs, and who would rejoice in the prevalence of strife and disorder. It is now many years since slavery was introduced into this country, and, at this day, if there is one fact connected with our history and condition more certain than another, it is this—<hi rend="italics">That the presence of the colored race in the United States is an evil, whether considered with reference to themselves, or to the white population; and that the best interests of both indicate the necessity of a separation; and that slavery, which all admit to be injurious to the true happiness and permanent prosperity of the country, where it exists, and deplorable to the slave, can only be abated by emigration accompanying emancipation.</hi> To argue these points would far exceed our present limits; we state them as the firm convictions of the great body of the colonizationists.</p>
+        <pb id="p102" n="102"/>
+        <p>With a view of providing a place to which the free people of color of the United States might emigrate, together with such emancipated slaves as might desire to do so, and where they could lay the foundations of a free government, administered by themselves, the American Colonization Society was formed in the year 1816, at the immediate suggestion of the Rev'd Robert Finley of New Jersey. The subject of colonizing the free people of color had been entertained by many wise and benevolent men, for years before, and several places had been proposed. Africa was, however, finally adopted, as the most appropriate, for reasons that at once suggest themselves. In the first place, the colored people of the United States came from thence originally; and in the next, by restoring them to this continent, not only would the immediate purposes of colonization be accomplished, but colonization would become the means of civilizing and christianizing an immense people, who otherwise appeared to be beyond the pale of these great blessings.</p>
+        <p>In 1818, the Rev. Messrs. Samuel J. Mills and Ebenezer Burgess visited the coast of Africa to acquire information as to the proper site for a colony. On their return to the United States, 
+<pb id="p103" n="103"/>
+Mr. Mills died. In February, 1820, the ship Elizabeth sailed from New York with the Rev'd Samuel Bacon, agent for the United States, John P. Bankson, assistant agent, and Dr. Samuel A. Crozer, agent of the American Colonization Society. Congress had passed a law for the restoration to their own country of Africans recaptured from the slave ships, and the agents of the government and the American Colonization Society united for the purpose of establishing a settlement for their respective objects. Along with the agents, were eighty-eight colored emigrants. The site first selected was Sherbro island, and here the expedition by the Elizabeth landed. The selection proved most unfortunate, and the three agents and twenty-four of the emigrants died in a few weeks. As might have been anticipated, this greatly discouraged the friends of the undertaking. Early in the year 1821, however, the brig Nautilus conveyed to Africa Messrs. J. B. Winn and Ephraim Bacon, agents of the United States, and the Rev'd Joseph R. Andrus, principal, and Mr. Christian Wiltberger, assistant, agents of the American Colonization Society, with a small number of emigrants. In this vessel, the Rev'd Lott Cary, the subject of the preceding memoir, took passage as an emigrant.
+<pb id="p104" n="104"/>
+The emigrants by this expedition were settled, for the time being, at Foura Bay, where they were joined by the remnant of the expedition by the Elizabeth, from Sherbro Island. Mr. and Mrs. Bacon returned to the United States before long; and Mr. Andrus and Mr. and Mrs. Winn were soon after added to the list of martyrs to the cause of Africa. Mr. Wiltberger was now chief agent, which office he continued to discharge until the arrival of Dr. Eli Ayres, who had received the appointment from the Board of Managers. In December, 1821, the United States schooner Alligator arrived at Sierra Leone, and her commander, Robert F. Stockton, Esq. accompanying Dr. Ayres to Cape Mesurado, a purchase of a small island in the mouth of the Mesurado river, and a valuable tract of land, including the Cape itself, was effected. Hither the emigrants were removed, and took up their abode on the island. Sickness again assailed them, and at one time it was proposed to abandon the project, and return to Sierra Leone. They nobly refused to do this, however, and, the two agents having left them to return to the United States, the emigrants remained at their infant settlement, under the temporary government of one of their number, Elijah Johnson. On the
+<pb id="p105" n="105"/>
+20th June, 1822, the Rev. Jehudi Ashmun, a name now forever nobly identified with Africa and colonization, sailed from Baltimore in the brig Strong, with fifteen recaptured Africans and and thirty-five colonists; and on the 9th of August following, landed at Cape Mesurado. The whole number of the emigrants, including those carried out by the Strong, amounted to but one hundred and thirty, thirty-five of whom were capable of bearing arms. Mr. Ashmun at once devoted himself to placing the colony in a state of defence, which was called for by a threatened attack from the natives. He had scarcely succeeded in doing this, before he was assaulted, on the 11th November, by a force of from six to nine hundred men. These were repulsed with great loss on the part of the natives, and with the loss of fifteen killed, wounded, and missing on the part of the colonists, several of whom were women and children. On the 30th November, the attack was renewed, and again resulted in victory to the colonists. From this period, the colony at Cape Mesurado may be said to have dated its permanent establishment, and has continued, under the administration of Ashmun and his successors, to increase in numbers and prosperity, and to spread its settlements,
+<pb id="p106" n="106"/>
+until Caldwell, Millsburg, Edina, New Georgia, and the Junk settlement, have been added to Monrovia. The towns here enumerated have been mainly founded by the inhabitants of Monrovia in the first instance, and have been increased from time to time, by emigration from the United States. Their population is now upwards of three thousand, whose chief reliance for support heretofore has been on trade with the natives and with vessels visiting the coast.</p>
+        <p>In 1830, the state of Maryland appropriated $200,000 to the colonization cause within her own limits, and the Orion and the Lafayette sailed with emigrants from Baltimore to Cape Mesurado. Circumstances connected with the expedition by the last named vessel, induced the Maryland State Colonization Society, which had for some time acted upon the principle of appropriating its funds to the use of Maryland emigrants, to separate from the parent society, and to found a colony for itself; and accordingly, the brig Ann sailed from Baltimore in December, 1833, and in the month of February, Dr. Hall, who went out as the first governor, succeeded in purchasing Cape Palmas and the surrounding country, and established there the town of Harper, the first settlement of Maryland in Liberia. Prosperity has thus far attended 
+<pb id="p107" n="107"/>
+the Maryland colony in an extraordinary degree. The population is about two hundred and fifty, who devote themselves exclusively to agricultural pursuits. The present agent is John B. Russwurm who has been appointed permanently, and who is a man of color. The system pursued by the Maryland society is that of independent state action, which it contends, and urges its experience as proving, is best adapted to the condition of public feeling in the United States on the subject of slavery, and best calculated to promote the ends of colonization.</p>
+        <p>About the same time that the Maryland society founded its colony, the state societies of Pennsylvania and New York, which differ from the Maryland society in their mode of action, only in their nominal dependence on the American Colonization Society, established a settlement at Bassa Cove, and relying upon the hope and belief that their own dispositions towards the natives would be reciprocated, determined not to arm the emigrants. Quarrels however, as was to have been expected, took place between the settlers and natives; blood was drawn; and the neighboring chief, attacking the defenceless settlement, killed many of its people, and drove the remnant to take refuge with their neighbors at Edina. Unappalled 
+<pb id="p108" n="108"/>
+by this distressing occurrence, the societies of Pennsylvania and New York, with noble energy, re-established their settlement—armed their people, and a happy and thriving community now rewards their most praiseworthy and disinterested labors. To their late excellent agent, Thomas Buchanan, Esq., much of the success of the restored settlement is to be attributed.</p>
+        <p>The state societies of Mississippi and Louisiana have purchased a territory and are about founding a settlement at the mouth of Sinou river; and the state society of Virginia will probably, ere long, follow their example.</p>
+        <p>Colonization has become an authentic design. It is admitted now on all hands to be practicable. It is one of the noblest charities of the age. It frees one country from a stain and a crying evil. It restores to another the descendants of its children, rich in the glorious treasures of Christianity and civilization—nor can the success that has, in the main attended it, be better accounted for, when compared with the early settlement of this country, than by using the words of the founder of the society, the Rev. Robert Finley—who replied to all the ridicule that was heaped upon him while he advocated it, by saying, “I know this scheme is from God.”</p>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

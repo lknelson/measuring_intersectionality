@@ -1,0 +1,421 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY fredetp SYSTEM "fredetp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Autobiography of Rev. Francis Frederick, of Virginia: </emph>
+Electronic Edition.</title>
+        <author>Frederick, Francis, b. 1809?</author>
+        <respStmt>
+          <resp>Text transcribed by </resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by </resp>
+          <name>Elizabeth S. 
+Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Tampathia Evans and Elizabeth S. Wright</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2003</date></edition>
+      </editionStmt>
+      <extent>ca. 73K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2003</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Autobiography of Rev. Francis Frederick, of Virginia</title>
+            <title type="caption"> Autobiography of Rev. Francis 
+Frederick</title>
+            <author>Frederick, Francis, b. 1809?</author>
+          </titleStmt>
+          <extent>40 p.</extent>
+          <publicationStmt>
+            <pubPlace>Baltimore</pubPlace>
+            <publisher>J. W. Woods, Printer</publisher>
+            <date>1869.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number E207.L2 A43 1835 (The John Work Garret Library, Johns Hopkins University )</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. </p>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>This electronic edition has been transcribed from a microfilm supplied by The John Work Garret, Johns Hopkins University.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- Biography.</item>
+            <item>Slavery -- Kentucky.</item>
+            <item>Slaves -- Kentucky -- Biography.</item>
+            <item>Slaves' writings, American.</item>
+            <item>Slaves -- Virginia -- Biography.</item>
+            <item>African Americans -- Religious life.</item>
+            <item>Underground railroad.</item>
+            <item>Fugitive slaves -- Kentucky -- Biography.</item>
+            <item>Frederick, Francis, b. 1809?</item>
+            <item>Plantation life -- Kentucky.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2003-06-06</date>
+        <respStmt>
+          <name> Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item>revised TEIHeader and created catalog record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2003-02-19,</date>
+        <respStmt>
+          <name> Elizabeth S. Wright </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2002-05-23,</date>
+        <respStmt>
+          <name> Tampathia Evans</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML 
+encoding</item>
+      </change>
+      <change>
+        <date>2002-01-31</date>
+        <respStmt>
+          <name> Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title image">
+        <p>
+          <figure id="title" entity="fredetp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">AUTOBIOGRAPHY <lb/> OF <lb/> REV. FRANCIS FREDERICK, <lb/> OF <lb/> VIRGINIA.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>BALTIMORE,</pubPlace><publisher>. . . . J. W. WOODS, PRINTER, <lb/> No. 12 SOUTH STREET.</publisher>
+<docDate>1869.</docDate></docImprint>
+        <pb id="p2" n="2"/>
+        <docImprint>Entered <sic corr="according">acoording</sic> to Act of Congress, in the year A. D. 1869, by FRANCIS FREDERICK, in the Clerk's Office of the District Court of the United States, for the District of Maryland.</docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="p3" n="3"/>
+        <head>PREFACE.</head>
+        <p>The Author of this Work has made it his special aim to present to the minds and understanding of those of his own race, a short and brief account of his life, and events connected therewith, that from its pages they may learn the great principles that will move them forward in the race of life, and that they may look up, although their way be rugged and rocky, and the storms of life come swiftly and suddenly, for the richness of His grace, whose aid and mercy will eyer be with those who strive to walk in the narrow path of life. The history here set forth, it is true, is not the story of a great monarch, or bloody warrior, but the plain and unvarnished statement of a transition from Slavery to Freedom, from a child to manhood, as it were, in a day; entering at once upon all its responsibilities and cares, and not knowing whither to turn or in what direction to move. When at last the thought that can only make men great indeed, namely, of striving to do what is honest and right, came into the mind of the Author and has enabled him to present to the public in general this plain little book, hoping that it may meet with their approval and patronage, thereby rewarding an honest endeavor to present to the minds of the young as well as the old, how human life is made up, and how Freedom may be made a blessing to all who will follow the way that leads to life eternal and right. If this end should be accomplished, then the Author will feel fully rewarded for all the cares, trials and troubles this little volume may have cost.</p>
+      </div1>
+      <div1 type="contents">
+        <pb id="p4" n="4"/>
+        <head>CONTENTS.</head>
+        <list type="simple">
+          <item>CHAPTER I. <lb/> Birth place—Manner of living among the slaves—Amusing incidents connected with my early boyhood in Virginia <ref targOrder="U" target="p5">5</ref></item>
+          <item>CHAPTER II. <lb/> At twelve years of age leaves Virginia and goes to Kentucky—Description of the journey—Arrival at the new plantation in Mason County—Promoted to the position of assistant cook and waiter—First lessons in the English language—Evil result of curiosity <ref targOrder="U" target="p8">8</ref></item>
+          <item>CHAPTER III. <lb/> Misconduct—Reproof and punishment—The task, and how it was accomplished—The robber, and how we served him—Scuffle between master and slave—How I, by my own ingenuity, separated them—Favor asked and granted—Foolish pride displayed—Taking lessons in courting—Speaking grammar <ref targOrder="U" target="p12">12</ref></item>
+          <item>CHAPTER IV. <lb/> Death of my old master—A pious lady's visit to the kitchen—A full description of a party given by Sookey and Thomas <ref targOrder="U" target="p18">18</ref></item>
+          <item>CHAPTER V. <lb/> A talk about Kentucky—A slave wedding <ref targOrder="U" target="p26">26</ref></item>
+          <item>CHAPTER VI. <lb/> My escape to Canada—Interesting account of what happened on the way—How I learned to read, &amp;c <ref targOrder="U" target="p32">32</ref></item>
+          <item>CHAPTER VII. <lb/> A voyage to Europe—Description of the places I visited—A summary account, showing how I was enabled to go from place to place—My return to America, and how I have been employed since <ref targOrder="U" target="p36">36</ref></item>
+          <item>CHAPTER VIII. <lb/> A principle of action laid down—Travels through England, Scotland, Ireland and Wales—Making his home in Bristol—Complimented with a farewell meeting in Bristol—Return to the United States—Employed as a Colporter in Baltimore <ref targOrder="U" target="p38">38</ref></item>
+        </list>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p5" n="5"/>
+        <head>AUTOBIOGRAPHY <lb/> OF <lb/> Rev. FRANCIS FREDERICK.</head>
+        <div2 type="chapter">
+          <head>CHAPTER I.</head>
+          <argument>
+            <p>BIRTH PLACE—MANNER OF LIVING AMONG THE SLAVES—AMUSING INCIDENTS CONNECTED WITH MY EARLY BOYHOOD IN VIRGINIA.</p>
+          </argument>
+          <p>I was born in Fauquier County, “Old Virginia,” about the year 1809. My master's house, a frame one, was beautifully situated upon a gently rising slope, skirted by a small stream emptying into a deep rivulet, called “Cedar Run.” We slaves lived in huts built of rough logs, male and female eating, sleeping and living promiscuously in the same room; the women, however, exhibited a degree of modesty and delicacy truly surprising.</p>
+          <p>My mother and father were both slaves, but worked for different masters. They had nine children, two boys and seven girls—the children of slaves were always the property of their mother's master. My remembrance extends back to the period of my eighth or ninth year, although a few striking incidents will now and then occur to my mind, which happened when I was somewhat younger. I am not able to say now, whether I possessed many good qualities when a child, but one thing I can distinctly remember of possessing, and that was a very good appetite. I was not, however, particularly concerned about the quality of the food I received, so long as the quantity proved sufficient.</p>
+          <pb id="p6" n="6"/>
+          <p>One day my mother was baking some short cake, an article of which I was very fond, when my cousin, a boy of my own age, came in and we were each given a piece of the cake. Mine I quickly dispatched, but my cousin reserving his until mine had disappeared, began tantalizing me in a spirit of childish mischief, by holding his up before me, at the same time making various remarks upon the excellent quality of “his piece of cake.” This conduct had the effect of exciting my appetite to such a degree, that I could not withstand the temptation to seize the poor child's cake, and devour it also, which no sooner had I done, than down he dropped upon the ground, screaming and carrying on as though he were in the last agonies. For this I received the first “striking impression,” upon my back, that I had done wrong.</p>
+          <p>On another occasion, shortly after, whilst wrestling with one of the other children, I threw and severely hurt him, for which I was promised another flogging when my uncle returned. Not relishing the previous one a great deal, I thought I would try to escape this time by feigning sleep. Crawling into my bed, consisting of a pile of straw, I covered myself up and began to snore as loud as I could. Presently I heard my uncle come in; my grandmother then told him what I had done, and what she had promised me for so doing.</p>
+          <p>“Where is he?” said my uncle, “I'll give it to him.”</p>
+          <p>One of the women replied, “He is in bed asleep.”</p>
+          <p>“He is not asleep,” said another voice.</p>
+          <p>“Why de poor chile is asleep, jus lissen how he snores,” said the first voice, evidently one who sympathized with me. She was followed by the whole party joining in a regular discussion on the subject of my being asleep or not, some wanted me whipped and some were averse to it, which I abruptly ended
+<pb id="p7" n="7"/>
+by thoughtlessly exclaiming that, “I was asleep;” my uncle seemed to think otherwise though, for he immediately took me out of bed and gave me my second “striking impression.” I do not think these floggings did me much good though, for I could mention many more instances wherein the spirit of mischief possessing me whilst a child, was the cause of my poor back receiving many a stripe; but as I grew up I began to experience the difference in these whippings given by relatives for childish offences, and the blows from the cruel cutting lash, powerfully laid on by heartless wretches who were well paid for doing this brutal work. Oh! what a shudder will creep over me now, after having, through the mercy of God, enjoyed so many years of blessed freedom, when I think of the many inhuman brutal scenes I witnessed whilst in bondage.</p>
+          <p>My grandmother was an exceedingly pious woman. I do not remember of ever having met any one who possessed more faith in God, or whose heart held more of His holy love than did hers; in looking back at this remote date, her conduct fills me with admiration; when troubles came, or when she had been whipped, she would speak calmly of “her home far away beyond the clouds, where there would be no more whipping, and she would be at rest.” This seemed to be her sole comfort in the hour of trial; her good life was a subject of conversation among all who knew her, and when on her deathbed, many white ladies stood around her, for she had taught even them many a truthful lesson in her lifetime. Her sons and daughters were around her also, receiving her dying blessings, and listening to her good advice. I was not present when she died, but they said her last hours were calm and happy, as though she had a foretaste of what was in store for her hereafter.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p8" n="8"/>
+          <head>CHAPTER II.</head>
+          <argument>
+            <p>AT TWELVE YEARS OF AGE LEAVES VIRGINIA AND GOES TO KENTUCKY—DESCRIPTION OF THE JOURNEY—ARRIVAL AT THE NEW PLANTATION IN MASON COUNTY—PROMOTED TO THE POSITION OF ASSISTANT COOK AND WAITER—FIRST LESSONS IN THE ENGLISH LANGUAGE—EVIL RESULT OF CURIOSITY.</p>
+          </argument>
+          <p>When I was about twelve years of age, my master determined to give up his plantation in Virginia, and remove to Kentucky. Such a change required a great deal of labor, and in due time all necessary preparations being accomplished, we set out on our journey, with several wagons, and a sorrowful cavalcade we were, too, the sobbing women, wailing children, and men whose stony looks expressed nothing but despair; torn forever from their kindred, and that word expressed all the poor slave had at that time to love and live for.</p>
+          <p>Our route lay across the Alleghany mountains, whose lofty summits appeared long before we reached them. My master, by the use of his glass, had told us two or three days before that the mountains were near. After awhile we approached and began crossing them, through what appeared to be a long, winding valley; on each side huge blueish looking rocks hung as though liable at any moment to fall and crush us.</p>
+          <p>Our food consisted of Indian meal mixed with water and baked on griddles, together with salt herrings; the water which flowed in perfect torrents down the mountain sides, in some places served us
+<pb id="p9" n="9"/>
+for drink. The wild scenery, the lofty peaks far above the clouds, in many places, the huge over-hanging rocks, and hundreds of other wonderful specimens of nature's handiwork, filled me with wonder and amazement. At night we were compelled to keep large fires burning to prevent being attacked by the wolves, and other wild animals, which at that time infested the mountains in large numbers, their howlings sounded terrible to me, but they did not molest us.</p>
+          <p>When we arrived at Wheeling we took boats for Maysville, Kentucky. My master had bought a large plantation in Mason county, about twenty miles from Maysville. When we arrived there we found a great deal of uncultivated land belonging to the farm, and the first thing we did, was to clear this land and then sow blue grass seed for the cattle to feed upon. The neighboring planters directed my master how to manage his new estate.</p>
+          <p>I was now made a house slave. My duties were to wait on the table and help in the kitchen. I was extremely glad of this <hi rend="italics">promotion,</hi> as it afforded me a better chance of obtaining good food. I shall never forget my first day in the kitchen, having discovered some bread in the pantry, I took piece after piece, and skimming the fat from the top of the boiling pot with them, I made such a meal as I had never had in my life before, overjoyed at being placed in a situation where I could satisfy my appetite.</p>
+          <p>My mistress now undertook to correct my pronunciation, for I was a dreadful murderer of the English language, and for this purpose she called me to her one day and said: “Now Francis I want to make you a ladies man; to be such, you must in the first place be very polite to the ladies, and then you must speak as I do, and not say “dis and dat and soforth.” She then gave me a lesson by speaking several words
+<pb id="p10" n="10"/>
+and making me repeat them after her. After some days of training she thought she had made me sufficiently proper and polite to deliver a message for her, so calling me to her: “Francis,” said she, “go and tell Mrs. — that she will oblige me by calling upon me at half past twelve o'clock to-morrow.” After making me repeat this a dozen times, she told me to go, and away I went still repeating the message until I met a gentleman on the road who stopped me and asked me what I was talking about? This so frightened me that I forgot every word of the message and without making any reply to the man's inquiry, I turned and ran back to my mistress, telling her I had forgotten what to say, but I did not tell her the cause. “Just as I thought,” said she, then the teaching recommenced and after a score of repetitions this time, I again started, determined that no one should hear me. I whispered the words all the way until I reached the lady's house, where, I hurriedly delivered the message two or three times over without stopping.</p>
+          <p>Seeing some cotton one day drying before the fire, my curiosity became aroused to know whether it would burn or not, so, for the purpose of satisfying myself, I lit a splinter and touched it to the cotton, thinking that if it did burn I could easily put it out. In an instant the whole pile was in a blaze, and in about one minute every one about the house were in the kitchen, trying to extinguish the flames, which they succeeded in doing with much difficulty. I told my mistress that a spark had fallen upon it causing it to ignite, and this story seemed to satisfy her at the time.</p>
+          <p>Some weeks afterwards my mistress called me into her room, and gave me some treacle and bread, and asked me if it was sweet? “Yes, missis,” I replied, “we are very good friends now aint we?”
+<pb id="p11" n="11"/>
+“Yes Francis,” said she, “but don't friends always tell one another the truth?” “Yes missis,” said I. “Well then, Francis,” she added, fixing her eyes fully upon mine: “Did you not set fire to the cotton?” “Ye-ye-yes missis,” I stammered, taken entirely by surprise. “Now you shall have a good whipping for telling me a lie, and one for setting fire to the cotton also,” she said; and sure enough I was flogged right soundly.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p12" n="12"/>
+          <head>CHAPTER III.</head>
+          <argument>
+            <p>MISCONDUCT—REPROOF AND PUNISHMENT—THE TASK AND HOW IT WAS ACCOMPLISHED—THE ROBBER AND HOW WE SERVED HIM—SCUFFLE BETWEEN MASTER AND SLAVE—HOW I, BY MY OWN INGENUITY, SEPARATED THEM—FAVOR ASKED AND GRANTED—FOOLISH PRIDE DISPLAYED—TAKING LESSONS IN COURTING—SPEAKING GRAMMAR.</p>
+          </argument>
+          <p>One morning my mistress' sister was engaged in writing a letter, when I, peeping over her shoulder, thought to myself what pretty marks she was making, and wondered if I could not do the same; just as this idea came into my head she arose from the table and went to breakfast, as soon as she was out of sight, I seated myself, took the pen and finished with grotesque characters the line she had left half finished, and kept on to the line below, leaving off on that just where she had stopped on the line above. I was viewing my work and thinking that it looked better and more distinct than the other, when in walked the lady, who, on seeing what I had done began to beat me most unmercifully, she continued laying on the lash with all her strength until my back was severely cut.</p>
+          <p>A day or two after this my mistress called me into her room and talked to me kindly, telling me it was wicked for me to do such things as those for which I had been flogged. I was surprised at what she said, as I did not understand in what the wrong consisted. I merely mention this little incident, to show how grossly ignorant I was whilst in slavery.</p>
+          <p>One day my mistress set me to picking some wool, she placed me in a room where a portrait of my master's
+<pb id="p13" n="13"/>
+brother hung, and told me I must work quickly, as my master's brother, (meaning the portrait,) would watch me.</p>
+          <p>Believing what she told me, I worked fast and hard until I became very thirsty, I endured the thirst as long as I could, and then went up to the picture and putting my hand to my head said: “Please massa may I get a drink,” receiving no answer, I went to work again and had to go without water until my mistress came. It was several days before I found out the deception practiced upon me, and when I had done so, I received a severe flogging for it.</p>
+          <p>One night while my master was away from home, I was sleeping on a mat near the foot of my mistress' bed, I was awakened by my mistress, who told me to go to the window and look out as she thought some one was trying to break into the house. I went to the window, looked out and saw a man climbing up a ladder which he had placed under the window of the room in which we were sleeping: “Wait missis,” I said, a sudden idea entering my mind, “I'll fix him;” so taking the poker I put it in the fire and waited for him to make his appearance above the window. My mistress was very much frightened and trembled in every limb. Presently the robber's head appeared, then his arm, and the window was cautiously raised. My mistress and myself had kept ourselves concealed all this time, but just as the man was about to enter I noiselessly seized the poker, heated by this time almost red hot, and in a moment was at the window and had thrust it up his sleeve: “Oh! Lord,” he cried, and with another yell of pain instantly threw himself from the top of the ladder and disappeared, no doubt thinking he had met with rather a warm reception. My mistress was delighted with my <hi rend="italics">plan of ejection,</hi> so quickly devised, and for a long time took great pleasure in relating the
+<pb id="p14" n="14"/>
+adventure to our visitors, so that I was looked upon as quite a hero.</p>
+          <p>Another little incident happening shortly after, tended a great deal to attach my mistress to me; it was this. My grandfather having been sent to the mill for some meal, took a little too much strong drink on the way, and the consequence was the loss of the meal, it having fallen from the back of the horse, was devoured by some pigs whilst my grandfather had gone for some one to help him up with it.</p>
+          <p>On returning home he was questioned about the meal and replied that the pigs had eaten it. “Then,” said my master, “I will give you a whipping.”</p>
+          <p>“You had better try it on,” said my grandfather.</p>
+          <p>At this they both laid hold of each other and began scuffling for the mastery. I looked on in great distraction for awhile, but at last ran and seized a bowl of water and dashed it all over them. This novel plan had the effect of putting an end to the struggle for the time being, his anger then turned toward me, and seizing a horsewhip he threatened to kill me for what I had done, but I escaped <sic corr="punishment">punishishment</sic>, by the intercession of my mistress, because I had saved the limited amount of hair in my master's head from the fingers of my grandfather.</p>
+          <p>The next day my mistress said to me: “Francis why did you throw that water on your master and your grandfather?”</p>
+          <p>“Why missis,” I said, “dont you know dat when de ladies and gemmen come to see you, and dey bring dere dogs wid em, de dogs always cum in de kitchen and get to fitein, and den granfadder he always trows water on em to part em?” I thought you knowed dat we always parted dogs dat way.”</p>
+          <p>My mother gave me a very severe whipping one day for having hurt one of my sisters in play, this made me very angry, and I determined to try to have
+<pb id="p15" n="15"/>
+her whipped too, and as I thought I might bring this about by feigning death, I threw myself down on the floor and began to groan terribly. My mistresses' sister, and two young lady visitors ran in, perceiving that I breathed with difficulty, and in their fright, imagining that I was cold, they really thought I was dying, and ran and brought my mistress into the kitchen; she looked very serious at first, but commanding them all to stand aside she approached, and, unseen by me stuck a pin into me; the effect was magical; with a loud yell that I actually believe could have been heard half a mile, I sprang to my feet, and in so doing sent a black woman who had been rubbing me, sprawling on the floor. Some took to their heels instantly, but the greater portion of my audience burst into loud fits of laughter, my mistress being among this number. “Well,” said she, “I never saw such an artful nigger in all my life.”</p>
+          <p>At this period I had a tolerably good time of it, being employed in the kitchen helping to cook, or waiting at the table, and, listening to the conversation going on, I learned many things of which the field hands were entirely ignorant.</p>
+          <p>Having been made cook I had quite a good time of it, and took particular pains sending up the dinners in first rate style, exerting myself to the utmost to please as I had a favor to ask about that time, and knew that the best way to get at their hearts was through their stomachs. This favor I wanted granted was the loan of an old fashioned watch, that I had seen hanging about the house, and as there were three or four more stylish ones there, I thought they would not refuse to loan it. I asked my mistress to intercede for me in regard to the watch and she said, “very well Francis, be a good fellow, manage the dinners well, and you can have it.” In a short time
+<pb id="p16" n="16"/>
+the watch was in my possession, and the first Sunday after I had obtained it, off I went to the chapel, having made myself as spruce as I possibly could. On my way, every time I passed any one I pulled out my watch for the purpose of displaying it.</p>
+          <p>When I arrived at the chapel, I marched with dignified strides up into the gallery, and looked down upon my fellow negroes, who were without watches, as though they were far below me in point of dignity. During the sermon I was continually pulling the watch out, and at last catching the eye of the preacher, he paused and looking at me said:</p>
+          <p>“Ah! that must be a very good negro, very good indeed; I see he has a watch; pray, (looking stead-fastly at me,) can you tell me what time it is?”</p>
+          <p>I looked hastily at my watch, and replied, “five o'clock.” Instantly there was a loud laugh throughout the whole chapel; for it was only half past twelve. My mistress ridiculed me when I went home, and said she could actually teach me nothing; and my fellow slaves made me a perpetual butt for their jokes.</p>
+          <p>The fact of the matter was, I knew no more about the watch than it did of me.</p>
+          <p>I now became possessed with a mania for big words, and in my capacity as waiter, I had an excellent chance of indulging this mania. One day I overheard a young lady, who was visiting at our house, say to my mistress, “I expect my intended here in a few days, and I wish you would have everything put in order to receive him.” I paid particular attention to this language, and thought to myself, when he comes I'll be on hand to hear what he says, and then I'll know how to court the black girls when I go out.</p>
+          <p>Two or three days after this, the young gentleman arrived, and I was on the alert to catch his mode of
+<pb id="p17" n="17"/>
+addressing the young lady. I was rewarded for my trouble, by hearing him say, as I thought, “Miss, I admire your beauty, I respect your virtue, and adore your ingenuity; I love you because I cannot help it.” I repeated this over and over until I had it perfect, and felt very proud at the thought of having something to say to the black girls, which would make me appear a very paragon of learning among them, I imagined. I made a great mistake though, the next time I undertook to listen for big words. A gentleman who was talking to some ladies, observed in the course of the conversation, that he had paid particular attention to grammar in his schooldays. I heard him say this, and listened eagerly for something else; pretty soon I heard him make use of the word characteristic, but this I misconstrued into <hi rend="italics">cutting up sticks,</hi> and thought surely that was the way he pronounced it, I was very much delighted with this addition, as I thought, to my fund of knowledge.</p>
+          <p>Shortly after I concluded to go and see some of the girls, and at the house, or hut rather, where I called, they were having a little jollification; marching boldly up to one of the girls I knew, and who was seated beside a black man, I told her, with an air of importance, that I could speak grammar.</p>
+          <p>“Can you?” she said, “What is it?”</p>
+          <p>“Why,” said I, it is <hi rend="italics">“cutting up sticks.”</hi> With a look of astonishment at what she considered my profound learning, she pushed the poor fellow who had been sitting by her side, before I came in, away, remarking that, “she was going to sit with her friend, who could speak grammar.” It was sometime before I found out my mistake.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p18" n="18"/>
+          <head>CHAPTER IV.</head>
+          <argument>
+            <p>DEATH OF MY OLD MASTER—A PIOUS LADY'S VISIT TO THE KITCHEN—A FULL DESCRIPTION OF A PARTY GIVEN BY SOOKEY AND THOMAS.</p>
+          </argument>
+          <p>I was about twenty-eight or thirty years of age, when my old master died. He was upwards of seventy, and prior to his last illness, he had been a very healthy man, and even that was only of a few days duration.</p>
+          <p>My young master was about twenty-four or twenty-five years of age when he took charge of the plantation.</p>
+          <p>One day, an elderly lady, who was visiting my mistress, came into the kitchen, and after speaking to me awhile on some unimportant subjects she took a small bible from her pocket, and asked me if I would like to hear her read about our Lord and Saviour Jesus Christ. I replied in the affirmative, when she told me I must not let my mistress know of it or she would drive her from the house.</p>
+          <p>She then read a portion of scripture which tells us that all who forget God shall be turned into hell. There was such an evident sincerity about the good old lady, and her manner was so kind, that every word she either read or spoke to me went directly to my heart. Here was truth presented to me by one whose only possible object could be to do me good.</p>
+          <p>I listened eagerly to every word that fell from her lips. She told me if I believed on the Lord Jesus Christ, I should be saved. That God was no <sic corr="respecter">respector</sic> of persons, that He loved <hi rend="italics">all</hi> his people black as
+<pb id="p19" n="19"/>
+well as white. She said if I loved God, and showed it by my conduct, He would love me, and at last take me to heaven, to live with Him forever. That the gospel was commanded by our Saviour to be preached to <hi rend="italics">all</hi> people; and that Jesus died for the sins of all men, that they, through Him, might have everlasting life in those beautiful mansions above, prepared by our Heavenly Father, for those who do his will, and with many such encouraging words, she left me, promising that when she came again to give me a spelling book, that I might learn to read the Holy Book of God myself.</p>
+          <p>At night I turned over in my mind every word of what I had heard; and I firmly resolved from that time forward to put my trust in God, and to learn as much as I possibly could about Jesus.</p>
+          <p>The good lady, true to her promise, brought me the spelling book, and told me to lay it aside, and at every visit she would teach me one word at a time, until I was able to read. I hid it in the pastry room, where my mistress' sister soon after found it. She asked me what I was doing with such a book, and said she had a great notion to break my head with it, and if she ever found me with another one, she would make my master give me one hundred lashes.</p>
+          <p>When the good lady, who had given me the book, heard what had become of it, she was very much grieved.</p>
+          <p>It cannot be truthfully asserted that we are incapable of understanding, if we are taught. I myself am a living witness against such an absurdity; after my forty-sixth year I learned to read and write. No, no, stupidity is not the cause of our ignorance, but the lack of opportunity to learn when in bondage. Not-withstanding we all suffered much neglect, yet in some instances, those in authority manifested much forbearance towards the offending slaves.</p>
+          <pb id="p20" n="20"/>
+          <p>I knew a planter whose name and merits I wish to hold in remembrance; his name was Franklin, and he owned above one hundred slaves, and cultivated principally tobacco and hemp. He was a bachelor, his overseer was named Thomas, who possessed some portion of his master's kindness. Thomas' wife sookey attended to household matters, and to those two were entrusted the care of the whole place when their master was absent, which often occurred, he being away three or four months at a time.</p>
+          <p>Now Mr. Franklin had often been told that while he was away there were pretty goings on at his house, and that the place was always full of “niggers” helping themselves freely to his eatables; and wishing to find out whether this really was the case, he informed Thomas and his wife that he intended going away for some months, and ordered them to pack up his things. He had previously concealed an old ragged suit of clothes in his carriage. So when every thing was ready off he started; and shortly after Sookey sent round to her friends the announcement that her master had gone away, and that a party was to be given that evening; this had the effect of bringing some forty or fifty to the house, as soon as it became dark, who filled both the drawing room and parlor. The conversation was of the most animated description, and to a stranger would have been exceedingly amusing.</p>
+          <p>About eleven o'clock, a knock was heard at the door, which on being opened, revealed an old white man in the garb of a beggar. In answer to the inquiry as to what he wanted, he requested leave to enter and warm himself. “Oh, no,” said Sookey, who had opened the door, “you can't come to-night, as I have a large party of friends here, and”—here she was interrupted by Thomas, who came to the door, dressed in one of the best suits he could find in
+<pb id="p21" n="21"/>
+the house, and, with his thumbs stuck in his waistcoat arm holes, insisted upon letting the “poor old beggar man,” enter and warm himself by the kitchen fire. The old man immediately availed himself of Thomas' kindness, and seated himself by the fire.</p>
+          <p>One of the women now approached, and asked him where he lived. “Not far from here,” replied he. “Old man,” said another, walking up to him with the air of a queen, “is dese de best clothes you got?” “Yes marm,” said he. “Well, if we didn't gib all our work fur noting, we'd gib you some better clothes, but we don't git anyting fur working, massa gits it all,” continued the woman. After a great many remarks of various kinds on the appearance of the “old beggar man,” during which the whole company promenaded in couples before him, putting on some of the most remarkable and grotesque airs imaginable. Most of the women had taken dresses belonging to their mistresses to wear, on this occasion, and every now and then a scene of dire confusion would occur by the men treading on these dresses and tearing them.</p>
+          <p>After awhile the liquors were brought out and many were the remarks passed upon them by the company.</p>
+          <p>“Well,” said one, “dis is surely de best brandy I ever did drink.” “I don't know 'bout dat brandy,” said another, “but dat gin is about as good as anyting I know of.”</p>
+          <p>“Now for my part I tink dat old rye is jus' as good as anything,” was the opinion of another. And thus it went on each one speaking for whatever liquor accorded best with his taste.</p>
+          <p>After this followed the supper, which had been delayed some time on account of several of the young women, who were to act as waiting maids, refusing to enter the dining room, having become indignant
+<pb id="p22" n="22"/>
+at the idea of the beggar sitting at the table with the company. This difficulty was settled finally by one of the women, who took some interest in the old man, proposing to send something to him in the kitchen. So they all seated themselves and having said grace in the following words: “O, Lord bress dat good master of Thomas and Sookey's, dat manages so well to lebe so many good tings to set before us, and, hoping dat he 'turn home all right,” they responded, Amen. After which they began a vigorous assault upon the good things before them. Having satisfied their appetites somewhat, the conversation broke out afresh, relating to almost everything imaginable. The different qualities of their masters and mistresses were freely discussed, and were praised or condemned according to the treatment received at their hands.</p>
+          <p>One man protested that his young master was the smartest man in the country, because he was going to be married in two or three weeks, and said he, “How do you tink it was brought about?” “Why de young lady was praising massa's hoss, an he say to her. How would you like its master?” an dat was de way de work commenced. “Why de young lady might have praised all de gemmen's hosses in de neighborhood. an she woul'nt had been asked dat same question, because, you see, my massa has got more approbranchen (apprehension) den all de gemmen in de country.”</p>
+          <p>“Well,” said another, “if I had such a massa as Thomas and Sookey hab got I'd tink myself well off. “An I hab seen,” said another, “jes as good massas and missesses, when dey get into debt, sell dere slaves too.”</p>
+          <p>“Yes,” said one of the women, “my massa and missus bofe very good, but massa he got in debt an I see him dis two or tree month dodging away from
+<pb id="p23" n="23"/>
+de sheriff, an he's sold all de hemp, an all de tobacco, an all de wheat, and now he jes sold all de fat pigs an tree or four beeves an de waiter, he told me dat half de debt aint paid yet. So every morning I get down on my knees and kiss all my little chilurn before I go in de field, 'cause dey might sell 'em while I'm dar. I'd never see dem any more.”</p>
+          <p>“Jes gib me my freedom, and pay me for my work, so I couldn't be sold from my family, an I'll work for my massa from daylight till dark, and nebber lebe de old plantation,” said another, signs of approval greeted these last remarks, from all assembled.”</p>
+          <p>“Now Uncle Harry,” said one of the women, “you perfess to be a christian, an what do you tink of my massa, who whipped me for goin to a prayer meetin widout askin him, and when I do ask him he always refuses, well, since he whipped me I seen him take de Lord's supper, I was sittin in de gallery an when I thought of de oaths I heard comin from his mouth while he was whipping me, an den to look down an see him takin de Lord's supper. Why I had to turn my head away.”</p>
+          <p>“Well,” said Uncle Harry, “if what you say is true, hell is full of such christians as him.”</p>
+          <p>Here another woman began to tell how her master whipped her, when she was interrupted by another, who said, “Now, Uncle Harry, half de times dat she gets whipped, she deserves it, cause when her master call her an ugly old devil—although she knows dat dere's not an uglier white man in Kentucky den he is—she talks right back to him.” All the slaves then spoke up and said she was wrong, and couldn't expect anything else for talking back to her master.</p>
+          <p>At this point one of the men expressed a fear that the “ole beggar man” might be listening to them. “Oh, let de ole man alone,” exclaimed one of the women, “white folks is as good as black folks, as long as dey behave demselves.”</p>
+          <pb id="p24" n="24"/>
+          <p>“Well,” said another, “Uncle Harry, my missus is a berry bad one; she was up in de garret to-day, and dat is about as near to heben as she will ever git. But I will gib de debble his due, for she chains de debble up all day Sunday, but I tell you she lets him out mighty quick on Monday morning.”</p>
+          <p>“Now,” said Uncle Harry, “you all talking bout your bad massas and missesses, so much, you ought not to mind what dey do, but as I have so often told you, you ought to be good christians yourselves, and I want you all to pray to de Lord to give us all such massas as Thomas' and Sookey's.”</p>
+          <p>The beggar was now called in, and given some of the good things, after which he reseated himself by the fire, and began pulling off his shoes, for the purpose of warming his feet.</p>
+          <p>Now Mr. Franklin had met with an accident some years before, to one of his feet, which Sookey had attended. After it had healed, it left a large scar, and Sookey now going to the old man with the intention of hurrying his departure, discovered on one of his feet a scar that caused her heart to leap almost out of her body. She knew the moment her eyes rested upon that scar, that the seeming beggar was none other than her own master, Mr. Franklin. This fact was soon told to the assembled slaves, and then ensued a scene of indescribable confusion. Hats were seized without regard to ownership, and the house was cleared in a moment. The most surprising feature of this stampede was, that those who five minutes previous were staggering under the effects of the liquor they had drunk, found not the slightest difficulty in leaving the scene of their jollification.</p>
+          <p>Mr. Franklin, after having attired himself in a more becoming suit, sent for Thomas and Sookey; told them to put things to rights and he would say no more about it, but a day or two after in a conversation
+<pb id="p25" n="25"/>
+with a gentleman, he said he had visited a great many theatres, but the performance of none had pleased him half as well as did “that nigger spree.”</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p26" n="26"/>
+          <head>CHAPTER V.</head>
+          <argument>
+            <p>A TALK ABOUT KENTUCKY—A SLAVE WEDDING.</p>
+          </argument>
+          <p>Our plantation was abundantly supplied with fruit, the greater portion of which we preserved and stowed away in the cellar for winter use. Some of the apples we would convert into apple butter, the rest, together with the peaches were carried to the distillery and made into apple and peach brandy. The pulp left in the troughs, was thrown out into the yard where the pigs would devour it, resulting in a great many of them becoming dreadfully intoxicated. This was always a source of great amusement to the children, who would gather around to witness the curious antics made by drunken pigs. They would, after eating a quantity of this pulp, stagger about for a while and drop down at last, grunting continually until the effects of the liquor had worn off. But one fact connected herewith, from which even we might learn a good lesson, is, that after a pig becomes drunk on this pulp two or three times, he will never touch it again.</p>
+          <p>The principal produce of Kentucky is flax, hemp, tobacco and excellent wheat, except when destroyed by insects, which owing to the shortness of the winter, and want of frost is often the case. Large tracts of land are cultivated in Indian corn, which is the principal article of food for the negroes. I, while cook for my master, learned to cook this article in ten different ways.</p>
+          <p>There are large patches of cotton also raised in Kentucky, nor must I forget to mention the excellent crops of sweet potatoes. Many of the slaves
+<pb id="p27" n="27"/>
+were allowed to keep the small ones for seed, which they sold in the spring of the year, and thus managed to have a little money, with which to purchase a few necessaries for themselves.</p>
+          <p>We used to make a very pleasant drink by mixing the juice of cherries with whiskey, this we called cherry bounce. There were large quantities of fruit grown upon the plantation; the slaves were allowed, as a general thing, to appropriate as much to their own use as they wanted.</p>
+          <p>From the beginning of June to the middle of October the heat is very intense, caused by so little rain falling during that time. I remember seeing water sell at four cents a cup, at two camp meetings in Flemming County, the heat having dried up all the springs around, it had to be brought from a distance of three or four miles. The winters vary a great deal. One winter the ice will come floating down the river in pieces, the next it will be frozen so hard that hundreds of teams can cross and re-cross at the same time.</p>
+          <p>During the winter months the planters keep up a succession of evening parties. There seems to be nothing but fiddling and dancing. I have seen ladies carried out of the room in fainting conditions, resulting from dancing. They seem to live in the winter time for nothing else but pleasure.</p>
+          <p>The woods of Kentucky are filled with birds of almost every imaginable color, and most melodious note. There are a great many buzzards, and it is wonderful to see them perched upon the boughs of the trees by hundreds. When they discover a dead animal, if its eyes still remain, they will watch the eagles descend and pick them out, as they appear to be afraid of it so long as its eyes are visible. But after they are out, they alight in a body and soon leave nothing but the bones. They are not easily
+<pb id="p28" n="28"/>
+frightened at the presence of man, since he rarely disturbs them on account of their being such excellent scavengers in clearing the ground of all dead animal matter.</p>
+          <p>Then there is a species of fowl living on the water, black as jet in color, about the size of a wild duck, they are called the water witch. They allow you to approach very near, but if you attempt to strike them they will disappear beneath the surface of the water with the rapidity of lightning, to reappear at a safe distance from you. In short, the state of Kentucky, is as beautiful as the eye of mortal man would wish to behold, and as I once heard a gentleman remark. “All but the spirit of man is divine.”</p>
+          <p>Before coming to that part of my life, where I was enabled by the kind mercy of God, to throw off forever those dreadful chains which kept my soul in heathenish ignorance, and my body in constant torture, I will describe a slave wedding, of which I was an eye-witness.</p>
+          <p>The man's name was Jerry, that of his intended was Fanny. In the first place Jerry had to get the consent of Fanny's master and mistress, whether or not he could have Fanny. On presenting himself he was asked if he really loved Fanny, to which he replied, “Yes indeed marm.”</p>
+          <p>“How do you know you love her Jerry?” asked the lady.</p>
+          <p>“Because since me lub Fanny me lub everyting on de plantation, de hosses and all de tings, dey all seem better den anybody elses since me lub me Fanny.” After a few more words Mr. and Mrs. Ord consented to let Jerry have Fanny, “But,” said Fanny's mistress, “we don't whip Fanny, Jerry, and you must not whip her either.”</p>
+          <p>Jerry, bowing low, said, “No missus, if Fanny nebber get a whipping untill I gib her one she'll nebber
+<pb id="p29" n="29"/>
+git one.” “Well Jerry,” said Fanny's mistress, “you must get January's Tom or Morton's Gilbert (these were two black men who were authorized to marry the slaves,) to marry you two weeks from this night, and tell your master and mistress we will give Fanny a supper, and shall be very glad to see them, since we are going to have a great many white ladies and gentlemen here.”</p>
+          <p>On the night appointed, Jerry accompanied by January's Tom made his appearance at Fanny's master's. He had on a pair of black trowsers, a little too large in the legs, a coat fitting very well all to the tails, which were long; some one had given him a white waistcoat and a white cravat, which was only a little less stiff than its wearer; a pair of white gloves completed his attire.</p>
+          <p>Fanny's mistress had dressed her in white muslin, she had on a pair of light shoes, her head being decked with white and red artificials. Her bridesmaid was attired somewhat similar. The happy pair were seated in the middle of a large kitchen; Fanny had a very pleasant countenance, and was admired very much by her friends, but most of all by Jerry.</p>
+          <p>After awhile the parson was called for, at the sound of that dignified title, up jumped Tom. “It is time,” said Fanny's mistress, “for you to begin the ceremony.”</p>
+          <p>“Yes marm,” said Tom.</p>
+          <p>Now Tom could not read a word, but he had learned the marriage service by heart, from his master's grandson, and as luck or mischief would have it, the book was laid upside down.</p>
+          <p>He now commenced with the book in his hand, inverted, as he had picked it up, as though he were actually reading the service. The ladies were infinitely amused at this, but Tom thought the laughter was caused by the couple he was joining in the
+<pb id="p30" n="30"/>
+holy bonds of matrimony. After the happy pair were pronounced man and wife, Jerry was told to salute his bride, but being a field hand he was totally ignorant of the meaning of the word salute, but, on being told it meant kiss his wife, he seized her round the neck and made the room resound with the smacks he gave her.</p>
+          <p>Fanny's master then asked Jerry to tell the company how he got his wife. “Ladies and gemmen,” said Jerry, “me will tell you how me come to see Fanny. Me went to see Mr. Marshall's Charlotte for two years, and she promised to hab me, and me promised to bring her a straw bonnet, but de grubs eat all my truck patch, (a piece of ground allotted by good masters for the slaves' own use.) Me went to see Charlotte on de Sunday after, and she say, “whers dat bonnet?” Me told her de reason me didn't get it, and she say, “you worthless nigger, you can't hab me,” and she run de fork in my arm, and me run home and tink de debble must be in dat gal.</p>
+          <p>Me went to see good many gals after dat, but didn't like any until me see Fanny, but she hab me come see her a good while afore she say she marry me. Me tell her me lub her better den all the people in de world. She said if she could belebe dat, shed hab me. Me told her me treat her kind and treat all our children kind, but when me said dat she run away and me didn't see her any more for two or tree weeks, but de next time me saw her, she said shed hab me, and dat made me happy.” Thus ended Jerry's interesting account of his courtship.</p>
+          <p>Then came the supper, at which about a hundred of Fanny's and Jerry's friends sat down. Fanny being a house servant, presided at the table with considerable tact. Jerry was called upon to give a toast, when he arose and said:</p>
+          <p>“Me can't talk much, but me will do as well as
+<pb id="p31" n="31"/>
+me can, it is my heart will be talking to you. Me hope Fanny's master and mistress will nebber come to want, and me hope all de family, when dey die, will go to heben. And me hope Fanny and myself nebber will be parted from each other, or our children, (at the last word all laughed heartily.) For twenty years after their wedding, I knew this happy pair, with a dutiful family of sons and daughters around them. A kind Providence had granted Jerry's prayer. A good master and mistress were vouchsafed them on the same plantation.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p32" n="32"/>
+          <head>CHAPTER VI.</head>
+          <argument>
+            <p>MY ESCAPE TO CANADA—INTERESTING ACCOUNT OF WHAT HAPPENED ON THE WAY—HOW I LEARNED TO READ, &amp;c.</p>
+          </argument>
+          <p>By the kindness of the good friend who had first conveyed to me a true knowledge of religion, I had become acquainted with a gentleman, a perfect christian, and, having been flogged one day, I went to him to show him the condition of my back. He asked me what I wanted to do. I told him I wanted him to get me away to Canada. Oh, what a delightful word that was to us poor slaves. It was like speaking of some heavenly country. There was much in the name to us. Never did tempest tossed mariner long so much for a haven as did we for that land of the free.</p>
+          <p>When I mentioned Canada to the gentleman, he sat silent for some minutes, then said:</p>
+          <p>“Now if I promise to get you safely away from here, you must not mention a word of it to any one, not even to your mother or sisters, for if you do all will be betrayed.”</p>
+          <p>I solemnly assured him I would not say a word to any one.</p>
+          <p>“Well,” said he, “come to me on Friday night, about ten or eleven o'clock, I will wait until you come, don't bring any clothes, but bring what money you can get.”</p>
+          <p>After assuring him that I would obey him in every respect, I went home and passed an anxious day. I walked out to my poor old mother's hut, and saw her and my sisters. Oh, how I longed to tell them
+<pb id="p33" n="33"/>
+and bid them farewell. I hesitated several times when I thought I should never see them more, and turned back to look at my poor old mother. I knew she would be flogged, old as she was, if I succeeded in getting off. I thought of the torture she would suffer, and the distress she would feel when she found that I had left her forever. At length I banished these thoughts, and walked rapidly away, I arrived at my kind benefactor's house, a little after eleven, who immediately conveyed me to his friends in Maysville, who, in their turn started me on my journey to the land of freedom.</p>
+          <p>On I went from one station to another, everywhere being received and lodged as though I were a chosen guest. Even if it was after midnight, all in the house, from the aged grandmother to the little children, would get up and crowd around me, listening to my sorrows and shedding alternately tears of joy and grief at my escape, and the pangs I endured.</p>
+          <p>How shall I, who up to my forty-sixth year was an illiterate slave, find words wherein to express my eternal gratitude, to those who so kindly assisted me. He who reigns above, will, I am sure, reward them for their goodness.</p>
+          <p>I prayed as I passed along in the day, and laid awake in the silent hours of the night pouring blessings upon the heads of my benefactors.</p>
+          <p>I arrived at last at a large station of the “underground railway,” about one hundred and sixty miles from the banks of the Ohio river. But my mind was not yet at rest. Two or three nights in succession I dreamed that I was recaptured by my master, all the details of the capture were so vividly depicted in my dreams, that I could scarcely believe when awake, that they were merely visions of the night.</p>
+          <p>At this large station I remained over winter. from November until May. I had by this time felt pretty
+<pb id="p34" n="34"/>
+sure of my safety. I had the range of a large house where there was a family consisting of eleven persons. Some were grown up men and women and some young children, who became very much attached to me, and who insisted on my learning to read. When I would tell them I was too old they would assure me I was not, and protested that they could teach me. One day little Johnny, who was a fine boy, about twelve years of age, and his sister Charlotte, about ten, stood beside me with a book containing the alphabet in large letters, of which they succeeded after awhile in teaching me the first letter. This they continued day after day, until finally my pretty little instructors had the satisfaction of hearing me recite the alphabet without their aid, and they were as proud of their success as though it had been some noble achievement, and so it was, for it opened the gates of knowledge, and displayed to me a new world, part of which I could make my own My little instructors still kept on, and whilst many men and women would have lost their temper scores of times, they continued as patient and gentle as lambs, persevering until I was able at last to read the first chapter of John. May God bless those dear children, but for whom I might have remained to this day in total ignorance.</p>
+          <p>About the middle of May, I was sent to Sandusky city, on the border of Lake Erie. I shall never forget the prayers offered up for me by the master of the house, where I had been so long staying, nor the pain it gave me to part from my dear young friends. They would willingly have kept me there always, they said, but I knew although there was not much danger, there was risk if I staid. I heard my friends bargain with the captain of a steamer to take me across the lake. I heard him say, “Have you only one? I wish you had one hundred, I would gladly
+<pb id="p35" n="35"/>
+take them over.” He was a noble generous hearted man.</p>
+          <p>I was landed from the steamer, at some town in Michigan, the name of which I forgot. The mate took me to a house where they said they would forward me on to Canada.</p>
+          <p>I was passed on to Louistown, on Lake Ontario, to be sent across to Toronto, on Lake Erie, and although we had a rough trip, I was not sick, for my mind seemed so elated at the thought of having the blessed boon of freedom so near my grasp, that I felt nerved for anything, and could almost have bounded out of the boat, so nearly crazed was I with joy. As the boat approached the shore, I gazed upon the people until I thought they would certainly think me wild, and at last thanks be to God forever, I stepped off the boat with my feet upon free British soil—Toronto.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p36" n="36"/>
+          <head>CHAPTER VII.</head>
+          <argument>
+            <p>A VOYAGE TO EUROPE—DESCRIPTION OF THE PLACES I VISITED—A SUMMARY ACCOUNT, SHOWING HOW I WAS ENABLED TO GO FROM PLACE TO PLACE—MY RETURN TO AMERICA, AND HOW I HAVE BEEN EMPLOYED SINCE.</p>
+          </argument>
+          <p>After a voyage of ten days from Canada, and after anxiously watching for the first glimpse of the shores of England, we entered the river Mersey, and were soon in view of the thousand lights of Liverpool, this being the morning of the eleventh day.</p>
+          <p>From thence I proceeded to Bolton, Manchester, and from thence to Birmingham, Worcester, Bristol and Plymouth. Here I remained for the space of one year, gradually gaining the friendship and sympathy of all with whom I came in contact. I received a recommendation from the Rev. W. R. Noble of Plymouth, to Rev. Wm. Rose, of Bristol, by whom I was advised to proceed to Cornwall, the great mining district of West England, where I had an opportunity of examining, and was greatly interested in the mining operations, many of which are carried on at a depth of two hundred fathoms below the surface of the earth.</p>
+          <p>Upon my return to Bristol, I was directed to proceed to London, the great metropolis of England, where I had the pleasure of visiting the Great National Exhibition, then being held at Westminster, also the great Crystal Palace, at Sydenham, and the Zoological Gardens, containing almost every species of known animals. After visiting these places, I also viewed Madam Tussaud's great gallery of wax figures, containing among others the life size figures of
+<pb id="p37" n="37"/>
+Mary Queen of Scots, Queen Elizabeth, &amp;c. From thence I went through Oxford and Regent Streets, two of the most celebrated thoroughfares of London, to Charing Cross, and from thence to the Parliament House.</p>
+          <p>In addition to these, the following places will well repay a visit during the stay of a stranger in London: Hyde Park, containing the site of the former Crystal Palace, and the artificial river Serpentine; London Bridge, together with the immense East India warehouses, in the intermediate neighborhood; the London Monument and St. Paul's Cathedral.</p>
+          <p>Proceeding down the river Thames, you pass Graves End, Greenwich, the home of invalid sailors, and many points of less importance. I must not forget to mention the famed Tunnel, under the river Thames, which by many has been counted as one of the wonders of the world.</p>
+          <p>From London I went to York, and from there to New Castle, upon the Tyne, this being next to Birmingham and Manchester, the great manufacturing district of England; from there to Glasgow, Scotland, known as one of the greatest seaports in Great Britain.</p>
+          <p>Edinburg, the capital of Scotland, I found to be a beautiful city, but with less of the bustle and activity of the seaport towns. Leaving here I proceeded to Dundee, another of the seaports of Scotland, and was very kindly received. I addressed quite a number of the factory operatives here twice a week.</p>
+        </div2>
+        <div2 type="chapter">
+          <pb id="p38" n="38"/>
+          <head>CHAPTER VIII.</head>
+          <argument>
+            <p>A PRINCIPLE OF ACTION LAID DOWN—TRAVELS THROUGH ENGLAND, SCOTLAND IRELAND AND WALES—MAKING HIS HOME IN BRISTOL—COMPLIMENTED WITH A FAREWELL MEETING IN BRISTOL—RETURN TO THE UNITED STATES—EMPLOYED AS A COLPORTER IN BALTIMORE.</p>
+          </argument>
+          <p>In the last chapter, I left my reader at Dundee in Scotland. But it may prove interesting to those who have followed me in my various stages from the United States to Canada, and from thence to England, and my various journeys, to know how I got along, and by what means I succeeded in making my travels. When I arrived in Canada, I at once thought, what am I to do, and what course am I to pursue? When all of a sudden, the thought came into my mind, as though a voice had spoken it, and said, “Act honestly, be polite, and do what good you can.” With these motives in view, I commenced to lecture to the children, from place to place, telling them how I got along while in slavery, and what opportunity my race had for improvement. At the instance of many good kind English friends, I was induced to embark for England. Landing at Liverpool, from here I proceeded to Manchester, and lectured to the operatives there. I then went to Birmingham, from thence to Bristol, where I made my home. I then started on my journey to Scotland, going to Glasgow and Edinburgh, I found them to be large and fine cities. Glasgow having water communication and a fine commerce, while Edinburgh is situated in the mountains, and is a large and beautiful city; it was summer when I arrived here, and the balmy breezes, and the pure air from the mountains made it most delightful to live in. The next place of interest I visited was Dundee,
+<pb id="p39" n="39"/>
+where I left my reader in the last chapter. This is quite a flourishing town, and here money was plentiful, every one seeming satisfied with their condition. After working hard, addressing the operatives, and doing all that I could, I went to Aberdeen; here I had a pleasant stay, and was very cordially received, and I shall never forget the cordiality and kindness with which the people of Scotland received and welcomed me.</p>
+          <p>From Scotland I proceeded to my home in Bristol once more, but after a brief stay I took up my journey for Wales, and arrived in the fine city of Swansea, on the channel of Bristol, from here I went to Cardigan, on the Tievy river, this city is quite a manufacturing town, and the population quite thrifty. I then went into the north of Wales, but here I found the people only spoke the Welsh language, so in lecturing, I had to employ an interpreter, but although my travels and stay in Wales, I was met by the kindest feelings of welcome.</p>
+          <p>My next thought was to take a trip to Ireland, which I did, landing in Dublin, and here as in Scotland and Wales, I was met by a most hearty welcome and great kindness; so that I felt myself at home as much in Ireland as in England, Scotland, or Wales. I found that the people were greatly amused in seeing me hold fast with both hands while riding in an Irish jagger wagon, as they never took hold, but set on the seat with their faces to the sides, without the least fear whatever. Here I found splendid buildings, and Dublin one of the largest and finest cities on the Island. After a short stay here I took the cars for Belfast, the second city in Ireland; which has the most extensive linen manufactories in the world, and has a very extensive commerce; here, also, as in the other places visited, great kindness was shown me. After a stay of nearly two months, in one the most beautiful Islands in the
+<pb id="p40" n="40"/>
+world, always green, and the climate delightful, I embarked for England once more: landing at Liverpool and proceeding to my home in Bristol.</p>
+          <p>After consultation with my many friends in Bristol, about returning to America, and trying to make myself useful among my race there, they thought it a good idea, and I prepared at once to return to my native shores; but my Bristol friends took it into their heads to give me a farewell meeting before I left them, and I was complimented with a meeting at which there was nearly or quite two thousand persons present. With such kindness, and my heart full of joy at the prospect of going home, I took up my journey once more for Liverpool; from there I set sail for home, landing in Quebec, Canada. After looking into the condition of my race there, I went thence to Boston; after a short stay in the states, I returned to Canada. After doing what was in my power for their general welfare, I came to New York city. I was employed by the New York American Association as a <hi rend="italics">colporter</hi> in Baltimore, and I came to the latter place, and worked among my race, and through the blessing of God many, very many have found our Saviour, and become better men and women. With this Association I continued until the funds of the Society were exhausted, and since which time I have been striving, with what means I could raise from my many kind friends in Baltimore, to try and improve my race, and to teach them a knowledge of God as it is in our Lord and Saviour Jesus Christ: And here, let me say, no small degree of my success is owing to the kindness and interest shown to me by the people of the four British Islands, and for all this I am most thankful to my Heavenly Father, who has spared and watched over me, in all my trials and journeys, and through whose mercy and love I have been enabled to do whatever good I have accomplished.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

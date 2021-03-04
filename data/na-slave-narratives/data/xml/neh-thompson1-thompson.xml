@@ -1,0 +1,2081 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY thompfp1 SYSTEM "thompfp1.jpg" NDATA jpeg>
+<!ENTITY thompfp2 SYSTEM "thompfp2.jpg" NDATA jpeg>
+<!ENTITY thompht SYSTEM "thompht.jpg" NDATA jpeg>
+<!ENTITY thomptp SYSTEM "thomptp.jpg" NDATA jpeg>
+<!ENTITY thompcv SYSTEM "thompcv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Sketches of the History, Character, and Dying Testimony, of Beneficiaries of the Colored Home, in the City of New-York:</emph>
+Electronic Edition.</title>
+        <author>Thompson, Mary W.</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name>Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Carlene Hempel and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca. 160K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>©  This work is the property of the 
+University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for 
+research, teaching and personal use as long as this statement 
+of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number E185.93 N56 T4 1851 
+(Davis Library, UNC-CH)</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page">Sketches of the History, Character, 
+and Dying Testimony, of Beneficiaries of the Colored Home, in the 
+City of New-York.</title>
+            <title type="cover">Broken Gloom.</title>
+            <title type="half-title page">Broken Gloom.</title>
+            <author>Thompson, Mary W.</author>
+          </titleStmt>
+          <publicationStmt>
+            <pubPlace>New York</pubPlace>
+            <publisher>John F. Trow, Printer, 49, 51, amp; 53 Ann-St.</publisher>
+            <date>1851</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American 
+South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ 
+and ‘ respectively.</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using 
+Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject 
+Headings </title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Older African Americans -- Institutional care -- New York (State) -- New York.</item>
+            <item>Older African Americans -- Medical care -- New York (State) -- New York.</item>
+            <item>Older African Americans -- New York (State) -- New York.</item>
+            <item>African Americans -- Medical care -- New York (State) -- New York.</item>
+            <item>African Americans -- New York (State) -- New York.</item>
+            <item>Colored Home (New York, N.Y.)</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2004-11-18,</date>
+        <respStmt>
+          <name> Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-03-26, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-03-19, </date>
+        <respStmt>
+          <name>Carlene Hempel</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-03-14, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cover" entity="thompcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="half-title">
+        <p>
+          <figure id="half" entity="thompht">
+            <p>[Half-Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece">
+        <p>
+          <figure id="frontis1" entity="thompfp1">
+            <p>Broken Gloom.<lb/>[1st Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="frontispiece">
+        <p>
+          <figure id="frontis2" entity="thompfp2">
+            <p>FRONT VIEW OF THE COLORED HOME.<lb/>[2nd Frontispiece Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="thomptp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">SKETCHES
+<lb/>
+OF THE
+<lb/>
+HISTORY, CHARACTER, AND DYING TESTIMONY,
+<lb/>
+OF
+<lb/>
+BENEFICIARIES
+<lb/>
+OF
+<lb/>
+THE COLORED HOME, IN THE CITY OF NEW-YORK.</titlePart>
+        </docTitle>
+        <byline>PREPARED BY</byline>
+        <docAuthor>MARY W. THOMPSON,</docAuthor>
+        <docEdition>AND PUBLISHED FOR THE BENEFIT OF THE INSTITUTION.</docEdition>
+        <docImprint><pubPlace>NEW YORK:</pubPlace>
+<publisher>JOHN F. TROW, PRINTER, 49, 51 &amp; 53 ANN-ST.</publisher>
+<docDate>1851.</docDate></docImprint>
+      </titlePage>
+      <div1 type="poem">
+        <lg type="poem">
+          <l rend="indent1"><hi rend="italics">Darkness</hi>, 
+which might be <hi rend="italics">felt</hi>,</l>
+          <l rend="indent2">Hung o'er that dreary land,</l>
+          <l rend="indent1">Where Afric's sable children dwelt</l>
+          <l rend="indent2">Amidst its glittering sand.</l>
+          <l rend="indent1">Those shadows there, might still</l>
+          <l rend="indent2">Have direful influence shed,</l>
+          <l rend="indent1">O'er grove, and glen, and towering hill,</l>
+          <l rend="indent2">Deepening in awful dread,</l>
+          <l rend="indent1">Had not Almighty Power,</l>
+          <l rend="indent2">With beams of light Divine,</l>
+          <l rend="indent1">Broke through the gloom, in <hi rend="italics">Mercy's</hi> hour,</l>
+          <l rend="indent2">In radiance there to shine.</l>
+        </lg>
+      </div1>
+      <div1 type="contents">
+        <pb id="thompson3" n="3"/>
+        <head>CONTENTS.</head>
+        <list type="simple">
+          <item>Preface, . . . . . <ref target="thompson5" targOrder="U">5</ref></item>
+          <item>Introductory 
+Remarks, . . . . . <ref target="thompson9" targOrder="U">9</ref></item>
+          <item>Biographical Sketches:—</item>
+          <item>Hercules Schureman, . . . . . <corr><ref target="thompson17" targOrder="U">17</ref></corr></item>
+          <item>Jonathan Skinner, . . . . . <ref target="thompson19" targOrder="U">19</ref></item>
+          <item>Tommy Warner, . . . . . <ref target="thompson20" targOrder="U">20</ref></item>
+          <item>Blind Sopha, . . . . . <ref target="thompson21" targOrder="U">21</ref></item>
+          <item>Amy Jordan, . . . . . <ref target="thompson22" targOrder="U">22</ref></item>
+          <item>Judy Richards, . . . . . <ref target="thompson25" targOrder="U">25</ref></item>
+          <item>Abigail Dobson, . . . . . <ref target="thompson28" targOrder="U">28</ref></item>
+          <item>Edward, . . . . . <ref target="thompson30" targOrder="U">30</ref></item>
+          <item>Phillis Douglas, . . . . . <ref target="thompson31" targOrder="U">31</ref></item>
+          <item>Betsey Johnson, . . . . . <ref target="thompson33" targOrder="U">33</ref></item>
+          <item>Phebe Spalding, . . . . . <ref target="thompson35" targOrder="U">35</ref></item>
+          <item>Old Sarah Henry, . . . . . <ref target="thompson36" targOrder="U">36</ref></item>
+          <item>Eliza Didymus, . . . . . <ref target="thompson37" targOrder="U">37</ref></item>
+          <item>Poor Johnny, . . . . . <ref target="thompson39" targOrder="U">39</ref></item>
+          <item>Catherine Queen, . . . . . <ref target="thompson40" targOrder="U">40</ref></item>
+          <pb id="thompson4" n="4"/>
+          <item>Katy Schenck, . . . . . <ref target="thompson41" targOrder="U">41</ref></item>
+          <item>Margaret Simpson, . . . . . <ref target="thompson48" targOrder="U">48</ref></item>
+          <item>Diana, . . . . . <ref target="thompson48" targOrder="U">48</ref></item>
+          <item>Minutes of Chaplain, . . . . . <ref target="thompson50" targOrder="U">50</ref></item>
+          <item>Serena Johnson, . . . . . <ref target="thompson52" targOrder="U">62</ref></item>
+          <item>Diana Rayner, . . . . . <ref target="thompson52" targOrder="U">52</ref></item>
+          <item>Sarah Robinson, . . . . . <ref target="thompson53" targOrder="U">53</ref></item>
+          <item>Blind Diana, . . . . . <ref target="thompson53" targOrder="U">53</ref></item>
+          <item>Incidents, . . . . . <ref target="thompson54" targOrder="U">54 to 56</ref></item>
+          <item>Sketches from Mrs. R.'s Report, . . . . . <ref target="thompson64" targOrder="U">64</ref></item>
+          <item>Peter Bensé, . . . . . <ref target="thompson67" targOrder="U">67</ref></item>
+          <item>Concluding Remarks, . . . . . <ref target="thompson73" targOrder="U">73</ref></item>
+          <item>Condensed Statement of the Colored Home, . . . . . 
+<ref target="thompson75" targOrder="U">75</ref></item>
+          <item>Managers' Names, &amp;c., . . . . . 
+<ref target="thompson77" targOrder="U">77</ref></item>
+        </list>
+      </div1>
+      <div1 type="preface">
+        <pb id="thompson5" n="5"/>
+        <head>PREFACE.</head>
+        <p>THE design of this little book is to make known more
+extensively the character of the Institution on whose behalf
+these pages speak,—to prove its usefulness in carrying out the
+plan of benevolence in pursuance of which it was originally
+established, and which, in its operations thus far, has fully
+proved its utility and advantages, showing itself worthy the
+patronage and support of a benevolent and Christian public.</p>
+        <p>The Institution not only provides protection and a peaceful
+home for the respectable, worn-out colored servants of both
+sexes of our city, by sheltering and sustaining them during the
+lingering days of declining life, but furnishes them in their last
+moments the consolations of religion.</p>
+        <pb id="thompson6" n="6"/>
+        <p>It also relieves the Alms-House and the community of
+another portion of colored persons, who, being sick or diseased,
+hopeless and helpless, have no means to provide for
+themselves, and who would necessarily, otherwise, become a
+burden upon society. These latter, by an arrangement entered
+into with the commissioners, are received into this Home for a
+season, or until they are healed of their sicknesses and able to
+resume employment—thus they are rescued from much
+suffering and destitution, being cared for, instructed in the right
+way, lifted up from degradation and wretchedness, and encouraged
+to habits of industry and propriety.</p>
+        <p>The Managers contemplate, so soon as their means will
+justify them, erecting a chapel, or a building with chapel
+accommodations, and school-room, for the instruction of the
+inmates who choose to avail themselves of the privilege of
+learning to read and write. They have also accommodation
+rooms for workshops, where the inmates of the Home, not
+incapacitated by illness or infirmities, may be taught some
+handicraft which may be a source of profit to them after leaving
+the Institution, enabling them to support themselves by their
+industry.</p>
+        <pb id="thompson7" n="7"/>
+        <p>We have commenced this work in faith; trusting that
+the public will contribute to our aid to enable us to carry
+out our plans of operation. The enterprise certainly commends
+itself to the judgment and liberality of our humane citizens, to
+whom we look for encouragement, sincerely trusting we
+shall not be disappointed.</p>
+        <closer><signed>M. W. T.</signed>
+<dateline>NEW-YORK, 1851.</dateline></closer>
+      </div1>
+      <div1 type="introduction">
+        <pb id="thompson9" n="9"/>
+        <head>INTRODUCTORY REMARKS.</head>
+        <p>THE original cause of all suffering is sin. It is this that
+has “<hi rend="italics">brought death into the world, 
+with all our woe</hi>.”
+The fact is established by the experience of every age.</p>
+        <p>To the Christian, the sufferings of this life, however
+painful and severe, are not worthy to be compared with
+the glory that shall be revealed. Having passed through
+all its sorrows, its toils, and its deprivations, he rejoices
+when
+<q type="verse" direct="unspecified"><lg type="verse"><l rend="indent1">“The 
+soft peace-march beats</l><l rend="indent2">Home! brothers, Home!”</l></lg></q></p>
+        <p>Notwithstanding the suffering which all are called to
+endure, while passing through this vale of tears—some
+more, some less—it is yet pleasant to
+<pb id="thompson10" n="10"/>
+know, that much of this anguish and misery can be
+alleviated, soothed, and made more endurable, by the
+exercise of sympathy and kindness. For the true
+illustration of these Christian virtues, and to confirm us in
+our devotion, we have a perfect pattern for our imitation
+in Christ, <hi rend="italics">who bore our sins in His own body on the tree</hi>.
+Thus, having the embodied testimony of Him, whose
+earthly pilgrimage was, that “<hi rend="italics">He went about doing
+good</hi>,” Christians are bound to carry out the Divine
+intention bequeathed by Him whose mission was <hi rend="italics">mercy</hi>,
+and whose precepts and example are obligatory on all
+who profess to be His followers.</p>
+        <p>Jesus left no duty unfulfilled: nor may His children
+leave undone the work that He hath given them to do.
+They are to imitate Him in all His imitable perfections;
+not that 'tis possible that their devotion can ever equal
+His, nor that they can thereby make themselves
+meritorious in the sight of God: nay—but because He hath
+commanded us to tread in His foot-prints, and taught,
+that “herein is His Father glorified, that we bear much
+fruit,” is the heart that from love to Him desires His glory,
+impelled to pray, and toil, and struggle, that by its
+obedience Christ may be glorified, and wretched men be
+blest.</p>
+        <p>Christian sympathy is no dull, inoperative principle;
+no bidding “Be ye warmed and clothed,” the
+<pb id="thompson11" n="11"/>
+while it shutteth up its bowels of compassion; it is not
+satisfied with a mere knowledge of its duty; but
+awakened at the cross, where it is made immeasurably a
+debtor. As Jesus did, it seeks the poor, the destitute, the
+suffering, that it may minister to their necessities and
+sorrows, and, if possible, assuage their woes.</p>
+        <p>Jesus sought the wretched and lost; His mercy was
+extended to all ranks and conditions of men; none were
+too humble for His eye of kingly love—none too depraved
+and fallen for His compassion. His presence, though He
+was the King of kings, won to His healing lip and hand
+the sorrow-stricken and the poor. The worst of sinners,
+despairing of every other source of relief, knew so well
+from His own lips His heavenly mercy; that despite the
+crimson guilt that would have driven them from His
+spotless purity, they had no power to resist the gentle
+kindness that drew them to His feet, but came and sought
+and found forgiveness. Whoever came, believing in Him,
+received the blessing, and none were ever sent unblessed
+away. The sick and suffering were healed of their
+maladies; the suppliant, bowed together by the spirit of
+infirmity—by a word from His merciful lips became loosed,
+till she stood erect before Him. The captive He set free;
+He made the lame man leap as an hart, and the tongue
+<pb id="thompson12" n="12"/>
+of the dumb to sing. The accused, condemned by men,
+was forgiven, freed from condemnation by His tender
+word of pity, “<hi rend="italics">Neither do I condemn thee; go, and sin no
+more</hi>.” The blind, who heard of His approach, lifted their
+piercing cry at His coming; He touched with His finger
+their sightless balls, and forthwith there fell from their
+eyes as it had been scales; and in the breaking of the
+glory of the light of heaven on their unprisoned senses,
+they ran, and leaped, and followed Jesus. The sorrowing
+mother, sister, friend, mourning in bitterness of grief the
+departed, received again to their embrace the loved ones
+who had been enshrouded for, or had lain in, the grave —
+“<hi rend="italics">Maid, 
+arise</hi>!<sic corr="quote not necessary">’</sic><ref id="ref1" n="1" rend="sc" target="note1" targOrder="U">*</ref> 
+“<hi rend="italics">Young man, I say unto thee, 
+arise</hi>!”<ref id="ref2" n="2" rend="sc" target="note2" targOrder="U"><corr>** </corr></ref>
+“<hi rend="italics">Lazarus, come 
+forth</hi>!”<ref id="ref3" n="3" rend="sc" target="note3" targOrder="U">***</ref> 
+and the dead lived again to
+manifest His praise and glory.</p>
+        <p>How is this spirit of Jesus Christ to be developed
+toward the wretched and impoverished children of
+Africa?</p>
+        <p>We do not deem it necessary to discuss the point,
+that the formation of the head and brain make the man or
+woman what they are; we leave this for the philosopher
+and man of science. But we <hi rend="italics">do</hi> believe, that much
+depends upon the arrangement
+<note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* 
+Luke viii. 54.</p></note>
+<note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>** 
+Luke vii. 14.</p></note>
+<note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3"><p>***  
+John xi. 43.</p></note>
+<pb id="thompson13" n="13"/>
+and strength of the physical system; its immediate
+connection with circumstances and advantages; its
+occupations, means, and disposition for improvement.
+This is evident amongst the white population which flock
+to our shores. Many of them are miserable outcasts from
+their own country, where they knew little else than
+poverty and woe; and who, seeking relief from the
+burdens that oppressed them, have come to the land of
+<hi rend="italics">light, liberty</hi>, and <hi rend="italics">enterprise</hi>. 
+Here, they are taken by the
+hand, treated as human beings, placed upon the same
+level with ourselves, and made fellow-citizens, and
+cheered with the hope, not only of rising to notice and
+consideration, but, sharing every civil blessing we enjoy,
+are, in due time, even suffered to be competitors to
+exalted place and honor.</p>
+        <p>It is this that constitutes us a noble and
+magnanimous nation, the result of the principles of that
+glorious Constitution, that causes us to stand out in
+bright and bold relief upon the list of the nations of the
+world—a <hi rend="italics">free, generous</hi>, sympathizing, independent and
+happy people. None who come to our shores are turned
+away; we open our <hi rend="italics">hearts</hi> and bid them welcome; we
+open our <hi rend="italics">hands</hi> and relieve the suffering and wretched
+exile, and give him a <hi rend="italics">home</hi>, and bestow upon 
+<hi rend="italics">him</hi>
+blessings, who never knew till now what blessings were.</p>
+        <pb id="thompson14" n="14"/>
+        <p>The foregoing remarks are not to be considered as
+irrelevant to our purpose, nor do we ask to have the same
+broad principles carried out toward those for whom these
+pages do especially plead, to wit, the infirm and poor of
+our colored population. The providence of God, as also
+the usages and order of society, seems to have placed
+these in a different sphere from those who are made of
+fairer dust, and who are born and placed under happier
+auspices; they are of a different <hi rend="italics">caste</hi>; but we would
+speak of them as human beings, possessing <hi rend="italics">immortal
+spirits</hi>, sensible of their accountability to God; we
+believe them to be endowed with minds capable of
+intellectual culture, and of giving glory to God, by a
+sincere and humble profession of faith in Christ; and by
+an unpretending and Christian deportment.</p>
+        <p>Of their seeming inferiority, incapabilities, and other
+humiliating considerations, much might be said in
+vindication and defence, from the position in which they
+have ever been held, since their introduction among
+civilized communities; taught from the beginning to view
+themselves as constituted by nature of an inferior order,
+subject to the will, and to labor for their superiors. This
+being ingrafted upon their minds from the very start,
+they come to believe it a truth to which they are bound to
+yield with all submission; and until they are brought to
+<pb id="thompson15" n="15"/>
+colonize themselves in a region separate and distinct
+from those who cannot, and will not consider them as
+equals, nor admit them to the participation of
+constitutional privileges and rights, they must for ever
+remain in a state of vassalage, or marked distance from
+us.</p>
+        <p>Time, and judicious legislation will eventually bring a
+change; when the colored of our race will be elevated to
+their proper position and standard. <hi rend="italics">Liberia</hi> is a witness
+of this, in the growing success of its efforts, and in the
+judicious management of her rulers.</p>
+        <p>But, while time and effort are working these changes,
+much can be done to improve and advance the moral
+culture and <sic corr="physical">physicial</sic> condition of those to whom we
+allude, whom Providence has thrown upon our charities;
+and who, from imperative circumstances, must remain in
+our midst. We can show them that we care for them, and
+for their comfort and welfare, and make them happier in
+their depressed situation.</p>
+        <p>The following facts will confirm this opinion.</p>
+        <closer>
+          <signed>M. W. T.</signed>
+        </closer>
+      </div1>
+    </front>
+    <body>
+      <div1>
+        <pb id="thompson17" n="17"/>
+        <head>SKETCHES.</head>
+        <div2 type="sketch">
+          <head>HERCULES SCHUREMAN</head>
+          <p>WAS one of the earliest inmates of the Colored Home;
+he was a man of unusual size, about six feet four inches—
+large muscular frame, indicating great physical strength.
+He was over 100 years of age when he entered the Home,
+and for some time after was confined to his bed by
+sickness and infirmities. Yet he was happy and cheerful,
+in finding, as he remarked, “such a resting-place as this,
+for the remainder of his pilgrimage.” And still more happy
+did he seem in the anticipation that when his days on
+earth should be ended, he should be permitted to glorify
+in heaven the Saviour whom he loved to serve.</p>
+          <p>In his person, old Hercules was dignified, and his
+manner and language such, as to command respect and
+attention. He was once a slave, but in
+<pb id="thompson18" n="18"/>
+early life, by his industry and good conduct, purchased
+his freedom, became a minister of the Gospel in the
+Methodist connection, and for more than <hi rend="italics">fifty years</hi> he
+preached Christ, and proclaimed to his dying fellow-men,
+the grace of God which bringeth salvation, and “<hi rend="italics">that
+liberty wherewith Christ maketh his people free</hi>.” He
+was well instructed in the Scriptures; and although
+unskilled in human learning, nature had endowed him
+with great mental abilities, combined with a most retentive
+memory, which being enriched and sanctified by the
+Divine Spirit, made him truly a remarkable man.</p>
+          <p>“I have never been more impressed with the fact,”
+remarks Mrs. A., one of the Managers, “than when, at
+the social meetings at the Home, this aged disciple of
+more than a century would pour forth the desires of his
+soul in a strain of fervent prayer, which for strong
+figurative language I never heard equalled.” He died in
+the faith in which he had lived; and, “<hi rend="italics">like a shock of
+corn fully ripe</hi>,” has, we trust, been gathered into the
+heavenly garner. His age was 105.</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson19" n="19"/>
+          <head>JONATHAN SKINNER</head>
+          <p>WAS another disciple of Christ to whom it has been the
+privilege of this Institution to “<hi rend="italics">give 
+a cup of cold water</hi>.”
+He also was a Methodist minister. His age 87. He was
+amongst the earliest of the beneficiaries of the Home. It is
+to be regretted that something of his early history was
+not obtained; but enough of his pious labors were
+witnessed to rank him among the most useful servants of
+God.</p>
+          <p>As long as his strength would permit, he went from
+one sick bed to another, praying for, and encouraging
+the penitent to hope and trust in <hi rend="italics">Him</hi> who sent His
+Gospel to the poor.</p>
+          <p>To none could the language of the poet be more
+justly applied—
+<q type="poem" direct="unspecified"><lg type="verse"><l>“Prayer is the Christian's vital breath,</l><l>The Christian's native air;</l><l>His watchword at the gate of death,</l><l>He enters heaven with prayer.”</l></lg></q></p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson20" n="20"/>
+          <head>TOMMY WARNER</head>
+          <p>WAS a native of Western Africa, and when he had
+nearly reached the period of manhood, was taken from
+his native land, and brought to the West Indies as a
+slave; from thence he was transported to the South,
+where he remained for many years. He <sic corr="afterwards">af-afterwards</sic> came
+to the city of New-York, and previous to his entering the
+Colored Home (1844) was for sixteen years an inmate of
+the City Alms-House. He died in January, 1847, aged
+about <hi rend="italics">one hundred years</hi>.</p>
+          <p>He was a most exemplary person in his general
+character, exceedingly amiable in disposition, of retiring
+habits, having but little intercourse with those about him.
+The only person to whom he appears to have formed any
+particular attachment, was “Old Henry,” who two years
+was his room-mate. Henry died about six months before
+Tommy; after which Thomas said but little, nor took
+much notice of passing events. When spoken to on the
+subject of Henry's death, his general remark was, “I think
+he gone home; I think the Lord help him up;” at the same
+time making a motion with both his hands expressive of
+his views. He wished to be buried near
+<pb id="thompson21" n="21"/>
+his friend Henry, and as a space had been left by his
+side for this purpose, his desire was gratified.</p>
+          <p>It was on the Sabbath that Thomas was buried. At 12
+o'clock, the inmates, male and female, assembled in the
+hall, filling that large space almost to overflowing, while a
+deep seriousness pervaded the assembly. “<hi rend="italics">Jerusalem,
+my happy home</hi>!” was selected by one of the inmates
+as a hymn of which he was particularly fond: it was sung.
+The funeral service was then read, followed by
+appropriate remarks. Thomas needed no eulogy, for all
+knew and loved him. Followed by five of the oldest
+female inmates, and all the old men who could walk, he
+was conveyed to his final resting-place, and laid by the
+side of his friend Henry. The reflection is a pleasant one,
+that all his wants on earth were supplied—all his wishes to
+the utmost gratified.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>BLIND SOPHA.</head>
+          <p>SHE was brought from Africa when about seventeen
+years of age. After passing a long life of accumulated
+sufferings, she was eventually sent to our alms-house,
+where she lingered four years. Of the
+<pb id="thompson22" n="22"/>
+name of her master we are uninformed; but she often
+spoke with much affection of him.</p>
+          <p>A more emaciated frame was seldom seen; having
+been previously accustomed to the best food, the change
+of diet in advanced age was trying to her system, and
+she wasted away without apparent disease. Yet she
+never complained or asked for any thing. While at the
+alms-house, on receiving her weekly allowance, her
+broken thanks were mostly accompanied with tears.
+<ref id="ref4" n="4" rend="sc" target="note4" targOrder="U">*</ref></p>
+          <p>One of the committee giving her some refreshment
+before her death, she placed her hand in hers. Sopha
+raised it to her lips, kissed it many times, and said, “God
+bless you, Missy. Sopha never eat more. Oh, God will
+bless you, dear Missy.” Soon after, she calmly departed.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>AMY JORDAN</head>
+          <p>WAS a slave by birth, born in the State of Virginia. She
+twice worked for and paid the amount required for her
+freedom—once to her mistress, who died before
+<note id="note4" n="4" rend="sc" place="foot" anchored="yes" target="ref4"><p>*
+ Previous to establishing “the Home,” the managers
+procured accommodations for their pensioners at the Alms-House, 
+where they were visited and attended to by them.</p></note>
+<pb id="thompson23" n="23"/>
+making out her free papers, and then again she
+worked and paid the same amount to the children; or, as
+she termed it, “once to her <hi rend="italics">old mistress</hi>, 
+and once to her
+<hi rend="italics">young master</hi>.” She had one child, a son, 
+who in his early
+life was taken from her and sold into bondage, and
+carried into a distant part of the country, since which time
+she had never heard of him. After overcoming a
+succession of obstacles, she at length found herself in a
+free city, where she lived, supporting herself by honest
+industry, until her health and strength failed; she then
+sought admission into the Alms-House. After the
+purchase of the building occupied as the “Colored
+Home,” she was one of the first inmates, where she
+continued in infirm health until she entered into her final
+rest.</p>
+          <p>Amy was baptized by immersion at Norfolk, Va.,
+twenty-two years before her death. She was an
+exemplary Christian. Her views of the Gospel plan were
+clear and Scriptural. Her sickness was long and
+protracted; she suffered much in consequence, yet she
+was never heard to complain, or manifest impatience,
+though her views of the “better land” were of such a
+happy cast, that she often longed to be gone, looking to
+her Heavenly Home with increased delight as her end
+drew near.</p>
+          <p>During her lingering days, she frequently spoke
+<pb id="thompson24" n="24"/>
+of her son, and it awakened feelings of deep sympathy to
+hear her relate the circumstances of this painful
+separation, for he was her “<hi rend="italics">only child</hi>;” 
+and she often
+spoke of him with maternal tenderness; ever manifesting
+under all her trials a spirit of forgiveness to those who
+had deprived her of this joy of her life, and exhibiting a
+temper and disposition that would adorn human nature in
+any situation. She never spoke with bitter or revengeful
+feelings; but displayed, as far as she was able, the spirit
+of her Divine Master, by her gentleness, humility, and
+forgiveness.</p>
+          <p>As death approached, and she appeared to be fast
+sinking, her kind physician, Dr. F., urged her to take
+some medicine. She said, “Oh no, doctor, let me be
+gone, I long to be at <hi rend="italics">Home</hi>,—I 
+will do as you say, but I
+want to be away, my blessed Master waits for me; oh
+<hi rend="italics">precious, glorious</hi> Master!” 
+And such were her longings
+and talk, until death closed the scene. Her faith seemed
+remarkably bright, and her confidence in her Lord's
+promises unwavering, sure, and steadfast. “How
+unlike,” says Dr. F., “the dying words of the skeptical,
+yet intellectual and accomplished Charles Lamb, ‘I am
+unwilling to leave this beautiful spot called earth, I am
+unwilling to part from its green fields, its refreshing
+shades, and verdant lawns, for that unknown land that
+men 
+<pb id="thompson25" n="25"/>
+call heaven,’ ”&amp;c. What a contrast with the faith of this
+humble child of Africa!—Her last words were: 
+“<hi rend="italics">Christ is
+near me; I want nothing more</hi>.” Her age was 76.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>JUDY RICHARDS</head>
+          <p>WAS another of the most worthy pensioners of the
+Colored Home. She was an inmate of but one year, when
+she was called to take possession of her promised
+inheritance. During the short period she was an inmate,
+she rendered herself an object of peculiar interest to all
+from the strength of her gratitude and affection toward
+those from whom she received favors, as well as from the
+high attainments which she had made in Christian
+knowledge and experience. She was an enlightened
+Christian, and her whole walk was consistent with her
+high and holy calling. Her time was mostly spent in
+reading the Scriptures, or in religious conversation with
+the sick and dying. Humility was a prominent feature in
+her Christian character; and many who sought interviews
+with her, felt that it was to their own edification in
+spiritual things, rather than that of “imparting any
+spiritual gift;” and those of
+<pb id="thompson26" n="26"/>
+the managers who were in the habit of visiting her for
+this purpose, will not soon forget the affectionate
+cordiality with which she welcomed them, and the fervor
+with which she implored the Divine blessing to rest
+upon them. The writer of the Sixth Annual Report says,
+“It was always refreshing to enter into religious
+conversation with her; and gladly would we have sat at
+her feet to hear her discourse in simple eloquence of the
+preciousness of <hi rend="italics">her</hi> Jesus, as 
+it always pleased her to
+call Him.” Toward the latter period of her life her mind
+became somewhat harassed with doubts in reference to
+her personal acceptance with Christ; and she seemed for
+a time to be enveloped in thick darkness. On one
+occasion she said to a young friend, “Can't you say
+something to comfort me? Something about Christ?”
+The reply was, “Aunt Judy, I feel as if I ought to come to
+you for instruction.” She said, “Oh, but my Jesus is not
+nigh me! He is a great way from me, and I want you to
+help me find Him.”</p>
+          <p>Her soul was burdened for several weeks, during
+which time she observed many seasons of fasting and
+special prayer. She repeatedly gave directions to those
+who prepared her food, to make no provision for her
+breakfast; nor was the cause of her abstinence known
+until some time afterwards. Thus evincing that her
+fasting was not that of “the
+<pb id="thompson27" n="27"/>
+Pharisee, who appears unto men to fast.” Finding no relief
+from this occasional abstinence, she at length devoted
+three days to special humbling of her soul before God,
+during which time she took scarcely food enough to
+sustain her animal frame. At last the powers of nature
+yielded under this excessive mortification, and the
+physician was called in to see her. He rebuked her
+imprudence, reminding her that at her advanced age she
+could not endure so long abstinence. Her reply showed
+the power with which the adversary had plied his
+temptations, as well as her own determined resolution to
+resist to the last. “This kind,” she said, “goeth not out,
+but by prayer and fasting.”</p>
+          <p>She at length found the peace she had been seeking;
+and enjoyed to the last hour of her life a holy serenity of
+soul and an unfaltering reliance on her Saviour. But her
+aged frame had received a shock from which it could not
+recover, and she continued gradually to decline till the
+second of September, 1845, when death came as an angel
+of mercy to deliver her from her infirmities. During the last
+week of her life there was a constant looking forward to
+her joyful reward. Often in the night her companions were
+awakened from their sleep by her exclamations, such as,
+“Only at the feet of Jesus I wish to lie! I feel to lay
+very close
+<pb id="thompson28" n="28"/>
+at his feet!”—and by her singing hymns descriptive of the
+happiness of the heavenly state. Her last words were,
+“Praise the Lord! I am on my journey 
+<hi rend="italics">home</hi>!” Aunt Judy
+was 90 years of age, and had been a professing Christian
+60 years.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>ABIGAIL DOBSON</head>
+          <p>WAS a native of the West Indies. Came to this country in
+her early years, and to the city of New York, about the
+year 1806. She had lived in the family of Captain Conger.
+Her mother, she stated, was a servant in the family. Abby
+was quite aged, but cannot exactly say how old, but she
+“remembered <hi rend="italics">Mr. 
+Washington's wars</hi>.” In 1812 she
+became afflicted with an inflammation of her eyes, which
+in the following year resulted in the total loss of her
+sight; and from that time until the day of her death she
+was never able to distinguish between the light of day
+and midnight darkness. She entered the N. Y. Alms-House in 1813, 
+from whence she was transferred to the
+Colored Home in 1844; where she closed her life, after
+much suffering, on the 3d of February, 1847, leaving the
+clearest
+<pb id="thompson29" n="29"/>
+evidence that the change was to her one of joy and not of
+sorrow. She had been for some time a consistent member
+of the Amity Street Baptist Church, and was exemplary as
+a Christian, mild and amiable in her intercourse with those
+around her, patient under suffering, with a constant
+looking forward to the “rest which remaineth for the
+people of God.” She had no particular disease; nature
+seemed gradually to give way, and she sunk to sleep as a
+little child. The chaplain, in one of his reports, speaking
+of an interview he had with her, says: “On inquiring the
+state of her mind, she expressed herself as happy in the
+midst of her afflictions. Sometimes distressing doubts
+obscured her prospects. ‘But,’ said I, ‘you can trust in
+the Lord Jesus Christ, can you not?’ ‘Yes,’ was her
+answer; ‘I do; I can say with Job, “Though He slay me,
+yet will I trust in Him.” The Saviour comforts me, and the
+hope of being with Christ revives me, rejoices my soul.’ In
+regard to the probable result of her sickness she said, ‘I
+have no will of my own—my Master's will is mine. The
+Lord is my shepherd, I shall not want.’ When prayer was
+proposed, she said, ‘I greatly desire you should pray for
+me; pray that I may be faithful to the end; pray that I may
+have clearer evidence of my interest in Christ, and that He
+would strengthen me to do and to suffer to the end.’ ”</p>
+          <pb id="thompson30" n="30"/>
+          <p>To this the physician adds—“She was unconscious
+for some hours before she breathed her last.
+Her last words to me were, ‘I thank my Master, I feel no
+pain.’ ”</p>
+          <p>All who approached her she welcomed with a
+cheerful smile. Devout and constant in prayer, she bore
+in remembrance before her Father's throne all she held
+dear on earth. During the sickness of any of the
+Managers, it seemed to be her comfort continually to
+commend them to her covenant-keeping God.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>EDWARD.</head>
+          <p>THE Chaplain remarks of this young lad: “My attention
+was drawn to one sitting in the corner of the room,
+reading the Memoir of J. B. Taylor. Near him lay a Bible
+and a hymn-book, which gave rise to the following
+conversation: ‘Well, Edward, what do you think of the
+Bible?’ ‘The Bible? It is my main guide.’ ‘And what do
+you think of its author, Jesus Christ?’ ‘He is a precious
+<hi rend="italics">Saviour</hi>! I feel him to be so.’ ‘But 
+he afflicts you, does he
+not?’ ‘Yes; but no matter for
+<pb id="thompson31" n="31"/>
+that; these light afflictions, which are but for a moment,
+are working for me an exceeding and eternal weight of
+glory.’ ‘And how, Edward, do you expect to get to
+heaven? and what will you do when you get there?’ ‘I
+shall get to heaven through Jesus Christ; and I shall
+there give God all the glory, and continually praise Him.’ 
+”</p>
+        </div2>
+        <div2 type="sketch">
+          <head>PHILLIS DOUGLAS</head>
+          <p>HAD been a slave in the State of New Jersey, and at the
+early age of twelve years chose God as the guide of her
+youth, who she said had not forsaken her in her old age.
+She was very aged when she came to the Home; was a
+paralytic and deprived of the use of her hands. Yet she
+manifested a great desire to be useful. In the days of her
+youth, and when in bondage, she used to pray that she
+might be free and become a missionary. The first part of
+her prayer was answered some years ago; and her
+second request was answered when she became a
+beneficiary of the Colored Home. Being able to read, and
+fully appreciating the privilege, she determined to impart
+her knowledge to the young who
+<pb id="thompson32" n="32"/>
+were inmates, and to others of her aged companions who
+were disposed to learn. She took great pleasure in this
+employment, teaching them their catechism, and learning
+them to sing hymns. Wonderful was her success, and
+rich her reward in this labor of love. One of the aged
+women, who had passed her threescore years without
+learning a letter, became her pupil, and in the course of a
+month, with a stammering but exulting tongue, she read
+the pages of God's Word. And there is much reason to
+believe, also, that the prayers and counsels of Phillis,
+accompanied by the power of Divine truth, have resulted
+in salvation to this precious soul. It may truly be said of
+her, “She has done what she could.”</p>
+          <p>A few hours before the death of Old Phillis, she
+remarked: “I cannot tell how much I have suffered from
+head to foot, but it is nothing compared with the love of
+God in my soul. I would willingly suffer it all over again,
+to enjoy the peace of God which comforts me.” She
+rejoiced in the prospect of the rest in heaven.</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson33" n="33"/>
+          <head>BETSEY JOHNSON.</head>
+          <p>THIS remarkable woman attained the patriarchal age of
+one hundred and fourteen years, and although her eye
+became dim and her physical force abated, yet the eye of
+her soul gazed with increasing clearness upon the
+realities of the eternal world, and her spiritual energies
+waxed stronger and stronger, as the number of her days
+diminished.</p>
+          <p>Although she was unable to read, yet so retentive
+was her memory, that she could repeat extensively from
+the Scriptures and from Dr. Watts's Hymns. She appears
+to have lived until she was about ninety-four years old,
+before she was brought to a knowledge of the truth as it
+is in Jesus, when she illustrated the sincerity of her
+profession by a consistent walk and conversation. In the
+midst of all her infirmities and sufferings, she exhibited to
+all around her indubitable marks of a Christian temper;
+and when the messenger of death approached (who had
+long lost his terrors to her), she called for the inmates of
+the Home, and with her dying breath solemnly charged
+them to meet her in Heaven; then in the triumph of faith
+she breathed out her soul in the arms of her Redeemer.</p>
+          <pb id="thompson34" n="34"/>
+          <p>Betsey was a pure native of Africa, and in her earliest
+life was brought to one of the West India islands. From
+thence she was taken to Virginia, about the period she
+used to call the “<hi rend="italics">Old War</hi>,” 
+before the Revolution.
+During the War of our Independence she remained in the
+Southern States, frequently changing owners. She often
+spoke of one of her young mistresses, whom she
+tenderly loved; and probably from her she learned the
+first lessons of religious truth. She remembered well most
+of the incidents of the Revolution, and the names of many
+of the most prominent characters of those days were
+familiar to her. During that period she married (being
+probably about thirty-five), and had several children.</p>
+          <p>Her piety was of a most interesting character. She
+seemed to feel, that all the various trying circumstances
+through which she had been called to pass, were
+intended for her eternal good. Her mind, at times,
+appeared to rise above this earth, and her spiritual
+contemplations were of a most delightful character. She
+had been for a number of years a member of the Spring-street 
+Presbyterian Church, under the pastoral charge of
+the Rev. Dr. Patten, and was highly esteemed for her
+consistency by the members of that congregation.</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson35" n="35"/>
+          <head>PHEBE SPALDING.</head>
+          <p>SHE was an aged pilgrim. She died suddenly of cholera,
+after three hours' illness. But although
+suddenly came the messenger, he found her not
+unprepared, nor unsupported in that period of bodily
+agony. She called her companions around her bed to tell
+them of her happiness, said her “Saviour was
+near, and the angels around to carry her home.” After a
+paroxysm of pain, she said: “Precious Saviour, stand by
+me!” and thus passed quietly away.</p>
+          <p>The evening before her death, she came into the
+room, clapping her hands, and joyfully exclaiming,
+“Glory! Glory!” “What is the matter?” inquired
+the physician, surprised at so much noise in a time of
+such dismay; (for they were falling around on every side,
+the worst days of the cholera.) “Why,” she replied,
+“Thomas L—has expressed a hope: I think he will only live
+a few hours.” Thomas, however, recovered and lived;
+but before morning, Phebe had entered the eternal world.</p>
+          <p>She was anxious in life to be useful, and occupied her
+time in teaching her old companions to read the
+Scriptures; and her patience and zeal in this
+<pb id="thompson36" n="36"/>
+duty were most interesting. She never expressed herself
+weary, but only laid aside her book when her pupils
+became fatigued.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>OLD SARAH HENRY</head>
+          <p>WAS born in New Rochelle, <sic corr="Westchester">Wescthester</sic> County; had
+lived in the family of Mr. William Post; said she “<hi rend="italics">was
+married on the day that the Asia fired on the city</hi>.” She
+was in the Home several years, and died at the age of 90
+years. She always received the visits of the managers
+with a smile of welcome: “I am always so glad to see my
+people” (as she termed the ladies of the Institution). On
+one occasion of these visits, she said: “Here I am yet,
+bless the Lord! waiting patiently for my precious Saviour
+to call me home; He knows the best time, I feel no will of
+my own; I feel satisfied to lay here upon my sick bed;
+and try, when I am in pain, to think, Oh how glorious will
+be that home, where there is no more pain—no suffering—
+no <hi rend="italics">sin</hi>; I long for it; but I am willing to wait till my Saviour
+sees fit to call me. Here there is no rest—no peace; all in
+this world is like a cobweb, the least wind breaks
+<pb id="thompson37" n="37"/>
+it, and if any thing strikes against it, it goes to pieces; so
+is the peace of this world broken: but where my Saviour
+is, <hi rend="italics">there</hi> is rest and peace.” Thus was this aged saint
+always gentle, submissive, and apparently contented
+and happy. She has gone to her heavenly rest.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>ELIZA DIDYMUS</head>
+          <p>WAS, for two years previous to her decease, an inmate of
+the Female Hospital of the Institution, with consumption.
+Her case was in many respects peculiar, sometimes
+greatly improving, so that she was able to walk about,
+and then relapsing into a delirium, from excessive debility.
+She would thus remain for several days; but her
+wanderings of mind were all of a pleasant character; she
+was straying amidst delightful gardens, or where the
+sounds of sweet music could be heard; or she was
+among early friends, and pleasing associations. Ever
+thankful for favors, she remembered them with the
+warmest gratitude.</p>
+          <p>During the few last months of her life she was much
+exercised on religious subjects, and, for some
+<pb id="thompson38" n="38"/>
+weeks before her death, seemed happy; at times joyfully
+longing to be gone. To the managers she was strongly
+attached, and each week longed for the visiting day, that
+she might once more see them, and thank them for all
+their kindness. Of one of them, in particular, who
+frequently visited her, read and conversed with her, she
+was very fond. “My dear Mrs. N.,” she would say, “I
+<hi rend="italics">must</hi> see her once more, she has been 
+so kind to me.” One
+morning she thought herself drawing near her end, but
+expressed a wish to live to see the physician; at 11 o'clock
+he arrived, and shortly after seeing her, finding her very
+low, he told her that she was apparently about to depart.
+“And is it so?” she exclaimed; “Is the time at length
+arrived?” Joy beamed in her countenance; and she
+reached out her hand in farewell to all.</p>
+          <p>At her request Mr. B. engaged in religious exercise,
+and such was the solemnity of the scene that all were
+affected to tears. “Let me meet you all again,” she said;
+“<hi rend="italics">Farewell, farewell, all</hi>!” 
+And so departed.</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson39" n="39"/>
+          <head>“POOR JOHNNY,”</head>
+          <p>AS he was familiarly called, was a little colored boy,
+who came to the Home in 1846. He was about 13
+years of age, and had been from his earliest life a
+victim of scrofulous disease. About this period it
+had settled in his right hip-joint, which rendered it
+difficult for him to walk even with the help of
+crutches. He was a great favorite of the entire
+household, and a pet with all his physicians; and
+as long as he could walk, was in the habit of coming
+to the doctor's table to receive whatever had been set
+aside for his dinner. He was of a meek and gentle
+spirit, and grateful for every mark of attention
+shown him, so that it was a pleasure to do him
+kindness. The last year of his life he was almost
+entirely confined to his bed, and for months his
+body was racked with pain too distressing for words
+to describe; even the changing of his clothing was
+torture to his emaciated limbs, which were covered
+with sores; but he was a pattern of patience. That
+dark skin covered one of the most amiable and
+engaging spirits ever witnessed. Not a murmur escaped
+him; quiet, and bearing his afflictions with a submission
+that astonished the beholder; though young,
+<pb id="thompson40" n="40"/>
+he seemed at this early age to have deep religious
+impressions, and to be sustained by grace, and to look
+forward with joyful prospect to death, as a gain to the
+child of God. His love and affection for all around him
+was extremely affecting; sharing with them the little
+dainties that were occasionally brought to him by friends.
+At length, worn out by his sufferings—in the morning of
+his life—one day, at early dawn, he calmly fell asleep
+without a sigh or a groan. His end was peace. His death,
+we think, was gain.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>CATHARINE QUEEN.</head>
+          <p>WE are unable to give her early history. But she had
+been some years at the Home. Her age was 97. For a long
+time she was very infirm and helpless. She died in May,
+1850. Some of the managers spent much time by the side
+of her bed, reading the Scriptures and conversing with
+her. This she greatly enjoyed, and always received it with
+great thankfulness. Catharine was of a thoughtful and
+contemplative turn, and always in so happy a state of
+mind, as made it a pleasure to visit her
+<pb id="thompson41" n="41"/>
+room. Her remarks were of a character indicative of deep
+humility and entire submission to the will of her
+Heavenly Father; observing, that He knew what was for
+her good; and “although at times,” said she, “I suffer
+greatly from pain, yet never more than for my good.”
+Occasionally she seemed impatient to be gone, yet again
+would check herself, and say—“It was not right; it is my
+duty to wait the will of God.”</p>
+          <p>“Aunt Queen,” and “Aunt Katy Schenck,” as they
+were familiarly termed, were room-mates, their beds were
+contiguous, and they appeared to have a kind regard for
+each other. Intimate friends in the latter days of their
+pilgrimage, by death they were not long divided; their
+society was pleasant, cheerful, instructive, and shed a
+lustre on the holy religion they so humbly professed.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>KATY SCHENCK.</head>
+          <p>“I WOULD like to tell you many things,” said she one
+day to one of the reading committee (Mrs. T.), “but I will
+do it some other time.” She was requested to relate what
+she had to say, <hi rend="italics">now</hi>. “Well,
+<pb id="thompson42" n="42"/>
+I will give you a little of my history. I was born in
+Monmouth, New Jersey, in the family of Gerrit
+Vandeveer, where I lived until I was thirty years old. He
+was a kind and good master, gave me plenty to eat, and
+treated me well; our house was within three miles where
+<hi rend="italics">the great battle was fought</hi>, and I might have seen it if I
+had been a mind to. I was very wicked in my early life, but
+I was industrious and worked hard.”</p>
+          <p>“When I was about twelve years old, I had strong
+convictions of sin, but resisted them, and strove to get rid
+of them by carelessness, and endeavored to drive religion
+from my thoughts; but I could not, although I gave
+myself to loose and wicked company. After a while my
+convictions left me, and I continued on in my wicked
+ways until I was seventeen; then the Lord took hold of
+me again, but I was determined to resist, and I fought
+against Him with all my might; and how long do you think
+I fought against the Lord;” said she, looking earnestly in
+my face, “<hi rend="italics">why, till I was twenty-eight 
+years old</hi>;” and
+even then the devil seemed determined that I should
+serve <hi rend="italics">him</hi>, and not the <hi rend="italics">Lord</hi>. 
+But I worked on in my
+duties, and tried to serve God with all my might. Oh how
+my mind did strive, I cannot tell you, but it is fresh in my
+memory.”</p>
+          <pb id="thompson43" n="43"/>
+          <p>“One day, when my mind was thus dreadfully
+distressed, I was going a milking, but I felt so
+wretched, I did not know what to do; it seemed that hell
+was ready to receive me—it was evening—I fell upon my
+knees—I prayed, <hi rend="italics">Lord, have mercy
+upon me and help me</hi>! All at once, I looked up, and I
+thought I saw heaven open, and it appeared to me the
+Lord was stooping down and lifted me up; and these
+words came to me: ‘<hi rend="italics">Thy people shall be willing in the
+day of Thy power</hi>.’ I stood still—I felt such a change!
+I hardly knew what I was doing—I could not milk,
+I could do nothing but rejoice—I shouted aloud, and
+ran home, telling all my folks how happy I was. They
+did not know what to think; they asked me if I was crazy.
+I went to bed, but I could not sleep for my happiness.
+I felt now that the Lord had fast hold of me, and I was
+safe. I was now willing and desirous
+to serve God, and I went on my way rejoicing.”</p>
+          <p>“Thus in this graphic language did this old
+Christian woman describe the struggles connected
+with her conversion. And I could have lingered to have
+heard more of her subsequent history, but
+my duties directed me onward.</p>
+          <p>“Not long after the above, I again,” continues
+Mrs. T., “visited this old servant; she was sick and in
+bed. I found her very feeble, and remarked,
+<pb id="thompson44" n="44"/>
+I had come to read to her, if she was able, and would like
+to hear me. She replied, she ‘would be very glad to hear
+me.’</p>
+          <p>“I read one of Burder's sermons to the aged, entitled,
+‘<hi rend="italics">Peace in Death</hi>.’ During my reading, she frequently
+interrupted me with remarks both forcible and strong.
+After I had concluded reading, I said, ‘You are very sick,
+and very old. We are all liable to sickness, and it is
+appointed that we all must die! The <hi rend="italics">young</hi> sometimes
+depart in early life; but aged persons cannot expect to live
+much longer, but it matters not, so long as they die
+peaceful and happy; and now I have been reading to you
+about a <hi rend="italics">good old man</hi>, of whom you have doubtless
+often read in the Bible, good old Simeon. You remember
+his history, do you not?’ She quickly replied, ‘What? old
+Simeon and Anna? Yes, indeed!’ and raising herself upon
+her bed, she commenced such a strain of eloquence as
+completely astonished me. I was silent, and waited to
+listen to her; I had gone to be her instructor and consoler;
+but she was my teacher, and I felt I could linger at her
+side, for it was good to be there. She had raised herself
+upon her bed—‘Simeon,’ said she, ‘was a good man, he
+was waiting for the salvation of God, and when he took
+the blessed Jesus in his arms, he was convinced that it
+was <hi rend="italics">the Saviour</hi>
+<pb id="thompson45" n="45"/>
+he held there, and he said, “<hi rend="italics">Now lettest thou thy servant
+depart in peace, for mine eyes have seen thy salvation</hi>.”
+Now I feel just as Simeon did; I am ready to depart when
+God shall see fit. I am a poor, helpless sinner, I can do
+nothing—indeed there is nothing for me to do, for my
+Saviour has done all; and I am just waiting for Him to call
+me home. I lay here upon my bed, and I <hi rend="italics">think</hi>, 
+and <hi rend="italics">think</hi>;
+I don't say <hi rend="italics">nothing</hi>, but I feel as 
+<hi rend="italics">Mary</hi> did—I don't tell all I
+feel, but I keep it in my heart; I am an ignorant woman,
+and cannot express myself very well; but I trust I have
+been taught in the school of Christ, and have learned of
+Him. I used to go to Sunday school; I learned much there,
+and I bless God I ever went.’</p>
+          <p>“I was fearful she would fatigue herself, and
+reminded her of her weakness; she replied, ‘I would like
+to tell you many things,’ and proceeded: ‘Well, I would
+say that the Lord has taught me many things, and I have
+tried to teach others; I may say (and I would speak it
+without pride), <hi rend="italics">I have preached the Gospel</hi>, that is, I
+have tried to speak for God, when I had a good chance. I
+must tell you a little story: I was at one time travelling in a
+vessel on the Ohio river; I had said something to
+someone about religion; the captain of the boat and his
+wife began to ridicule and abuse me; there were
+<pb id="thompson46" n="46"/>
+also several young men on board who were going to
+some college, and they likewise joined with the captain
+and his wife, and tried to make sport of me, taunting me
+for my complexion, making many foolish speeches, such
+as they thought would hurt my feelings. I said nothing
+for a while, but waited until they had ceased; then I
+turned to them and said, ‘Gentlemen, have you got
+through with your speeches?’ They replied, ‘Yes.’ ‘Well,’
+I said, ‘now it is my turn.’ ‘Go on,’ 
+said they. ‘Well, you are
+on your way to College, aint you?’ ‘Yes.’ ‘Well, you need
+schooling, but you'll never complete your education till
+you get it in the school of Christ; and, if you don't get it
+there, and die in your sins, you will <hi rend="italics">perish for ever</hi>! You
+have tried to make sport of me, and you think you are
+fine gentlemen, but I tell you, you aint hurt my feelings; I
+feel sorry for you, <hi rend="italics">because</hi> I think you don't know any
+thing you ought to know, and are not “wise unto
+salvation.” ‘I talked on,’ said she, ‘and when I was done, a
+young Englishman turned to me and said, ‘Mother,
+where did you get your learning, and who told you all
+these things? did you get it from the priest?’ I said ‘No! I
+learned it in the school of Christ, and from His blessed
+word the <hi rend="italics">Bible</hi>; and I tell you, if you don't go to that
+school, but die in your sins and <hi rend="italics">ignorance</hi>,
+<pb id="thompson47" n="47"/>
+you will never get to heaven. Whether what I said did
+them any good, or made an impression on them, I don't
+know, but they teased me no more, and on the rest of the
+way were very civil and polite; I thought they seemed to
+have felt what I said, and I prayed God they might.’ ”</p>
+          <p>This old disciple was a lively Bible Christian, and
+generally speaking, was of a good and cheerful temper. In
+conversing of the new Home then being built, to one of
+the Managers, she remarked, “it will be very nice, but it
+must not make us forget the home in the heavens, the
+building not made with hands, built upon a sure
+foundation; for this new Home we are to have built for us
+here, must finally crumble and fall to the ground; but that
+in the heavens will last as long as God himself.” So rich
+was her experience,—so interesting her conversation;
+something so attractive about her, so cheerful, and she
+had so many pleasant things to say, all savoring of
+Christian piety, of God's goodness and mercy to sinners,
+His condescension and kindness, especially towards
+herself; that it was pleasant to linger by her side.</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson48" n="48"/>
+          <head>MARGARET SIMPSON</head>
+          <p>WAS born in North Hampton, eastern shore of
+Maryland; came to New-York in her childhood, and lived
+in the family of the widow Townsend many years; says
+she has worked hard all her life, and has fairly worn out
+in service. She came to the Home in 1844. And although
+very feeble, tried to do what she could to make herself
+useful, by assisting in some of the household affairs, She
+was “thankful that she had so good a home in her last
+days.”</p>
+        </div2>
+        <div2 type="sketch">
+          <head>DIANA.</head>
+          <head>FROM MRS. T.'S REPORT.</head>
+          <p>IN one of the wards of the Hospital, where I had gone to
+read and converse with the sick, lay Diana, (a young
+woman,) very low—scarcely able to give utterance to her
+words. Her mind was dark and ignorant, she “knew her
+heart was unchanged” (I use her own words), “but
+believed that Christ was able to save her, an hoped he
+would.” I
+<pb id="thompson49" n="49"/>
+read to her the 51st Psalm, and a suitable tract. She
+listened attentively, and I saw the tears fill her eyes. On
+my leaving her, she thanked me for the interest I felt for
+her. Alas! what Christian can visit such scenes—witness
+the darkness of ignorance, and hear the simple, earnest
+expressions of hope, coming from untaught lips, and not
+feel a deep interest in the objects which excite it; and
+strive faithfully to discharge a Christian's duty to the
+helpless and ignorant around him?</p>
+          <p>In the same room was Catharine——, also a young
+woman of pleasing countenance. She greeted me with a
+smile. On my addressing some words to her, she replied,
+“I am very weak and feeble; I do not expect to get well—
+indeed, I have no wish to stay in this world; I am still
+young, but I have seen enough to know that it is a world
+of sin and trial; and if it should please my Heavenly
+Father to take me away from it, why I am willing to go; yet
+I would be patient and wait His time. I thank Him that I
+was ever brought to this place, it is a good Home, and I
+have a great many mercies and comforts; I can read, and I
+take great satisfaction in reading the Bible and other good
+books; I bless God I ever came here.”</p>
+          <p>“I have always derived,” remarks Mrs. T., in her
+Report, “great satisfaction from visiting this young
+<pb id="thompson50" n="50"/>
+person; she is so mild, humble, pleasant and cheerful
+amid her pains, and unmurmuring under her afflictions.”
+She rests now from all these; and we trust, “sleeps in
+Jesus.”</p>
+        </div2>
+        <div2 type="sketch">
+          <head>FROM THE MINUTES OF THE CHAPLAIN.</head>
+          <p>THE Chaplain remarks—“Among those of the beneficiaries
+was Phebe Green; she has recently been called to her
+heavenly home. Her exemplary deportment for a long time
+gave satisfactory evidence that her name had been
+written in the book of life.</p>
+          <p>“In her last moments she was not alone, for the
+Saviour on whom she relied was with her, and the arms of
+everlasting love carried her safely through the trying
+conflict. She died with the name of Jesus on her lips,
+exclaiming, ‘<hi rend="italics">Come, Lord Jesus, 
+come quickly</hi>.’ The 27th
+Psalm, which was read to her, seemed to afford her sweet
+and refreshing views of the Redeemer, in whom she
+reposed her confidence, and through whose merits alone
+she hoped for salvation.”</p>
+          <p>“As I approached the couch of a dying youth,
+calling me by name, he earnestly requested that prayer
+might be offered in his behalf, remarking
+<pb id="thompson51" n="51"/>
+that his ‘time was short.’ Prayer was offered, and his
+immortal spirit commended to Him who hears the feeblest
+breathings of the penitent; and who can save even at the
+eleventh hour those who confide in the merits of the Lord
+Jesus. He died in about two hours after.”</p>
+          <p>“Another individual, Carter,—who was far advanced in
+life, and while in health was a constant attendant on the
+public service of God; her seat was seldom vacant, and
+her whole soul seemed absorbed in the truths which were
+uttered. Previous to her last illness, she would
+occasionally repair to the room of a pious female for the
+purpose of religious conversation, and to listen to the
+reading of the sacred Scriptures. When assailed by the
+disease which closed her earthly pilgrimage, her mind was
+peaceful, and her heart filled with universal love. On the
+day preceding her <sic corr="dissolution">disolution</sic>, 
+she exclaimed with
+emphasis, ‘<hi rend="italics">Oh, I want to go to Heaven</hi>!’ 
+On being asked
+why she wished for heaven? she replied, ‘Because God is
+there.’ She was habitually prayerful, and her consistent
+Christian deportment has furnished ample testimony to
+those who knew her best, that she was truly a ransomed
+soul, and, we trust, has reached that world of purity,
+where sin and suffering are unknown.”</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson52" n="52"/>
+          <head>SERENA JOHNSON</head>
+          <p>HAD long been confined to her room by infirmity and
+disease. On inquiring of her what was the present state of
+her mind, she replied, “<hi rend="italics">I am still at the feet of Jesus,
+every day begging for mercy; I
+think I shall be ready, through Jesus Christ, when death
+comes; I lean on Him, I depend on Him, I can do nothing
+without Him. I hope He will keep me in the hollow of His
+hand, and close by His bleeding side. The prayers of
+God's people lift me up—make my heart warm</hi>.” “She
+loves the society and conversation of Christians, and
+feels neglected, if in her solitude a few moments are not
+spent with her in prayer. Such was the simple testimony
+which this poor and ignorant colored woman gave of the
+power of religion on her own heart.”</p>
+        </div2>
+        <div2 type="sketch">
+          <head>DIANA RAYNER.</head>
+          <p>“I WELL remember her as my guide in months past to
+the various apartments of the sick, infirm, and
+<pb id="thompson53" n="53"/>
+anxious. She always evinced that sympathy and love for
+others which characterized Christian benevolence. We
+trust she sleeps in Jesus—and will hereafter awake in His
+likeness.”</p>
+        </div2>
+        <div2 type="sketch">
+          <head>SARAH ROBINSON.</head>
+          <p>As she gradually declined in health, no cloud seemed
+to obstruct her spiritual vision. She patiently and
+submissively waited for her release from sin
+and suffering, and appeared to have a foretaste of
+heaven in her soul.</p>
+        </div2>
+        <div2 type="sketch">
+          <head>BLIND DIANA.</head>
+          <p>“ON approaching the bed of Blind Diana, she
+immediately recognized my voice, greeted me cordially,
+and spoke of the inward peace she experienced,
+and the implicit confidence she felt in the. Saviour;
+‘His will,’ said she, ‘is my will, and I am still waiting for
+Him.’ This poor blind one seems to take hold on Christ by
+intelligent faith and hope,
+<pb id="thompson54" n="54"/>
+and the consciousness that He is her friend, seems to
+mitigate her sufferings, and enable her joyfully to
+anticipate the change which is approaching. Such
+examples of patient, Christian submission, are cheering to
+the pious heart, and eminently worthy of imitation.</p>
+          <p>“Few of the pensioners interest me more than Blind
+Diana; never have I seen any thing like impatience or
+dissatisfaction with the dispensations of Divine
+Providence towards her; on the contrary, sweet
+submission to the Divine will marks her whole
+deportment. ‘Do not the days seem long,’ said I, ‘as you
+can neither read nor work?’ ‘Oh no!’ was her prompt
+reply, ‘for though blind, I can <hi rend="italics">think</hi> 
+of my precious
+Saviour, and converse with Him. I have in Him something
+to lean upon, and no one knows how much comfort I
+have in my Saviour. It is all well, whatever He is pleased
+to lay upon me—<hi rend="italics">I shall be at home by and by</hi>!’
+Such is the uniform state of her mind; calm, peaceful,
+‘looking unto Jesus, the author and finisher of her faith.’
+She now, we trust, beholds with unsealed eyes, and
+unobstructed vision, the refulgent glory of heaven.”</p>
+          <p>“In the Female Department I was addressed by one
+who lay sick and low. She greeted me cordially. I had
+scarcely commenced conversation,
+<pb id="thompson55" n="55"/>
+when the tears started in her eyes, and she exclaimed:
+‘I feel that I am a poor sinner, but God is kind
+and good to me in my afflictions, and I can trust in
+Him.’</p>
+          <p>“Every successive month affords encouragement
+to believe that the Divine Spirit is graciously operating
+on some of the objects of this Christian charity.
+Our religious services are marked by seriousness
+and devout attention, and by many we are cordially
+greeted as messengers of good tidings to the poor
+and the perishing.</p>
+          <p>“I have repeatedly conversed and prayed with
+those who are confined by sickness and infirmity to
+their rooms, and listened with much pleasure, as they
+testified from their own experience to the faithfulness and
+love of their Redeemer, and witnessed their sweet
+submission to the Divine will.</p>
+          <p>“A beautiful and affecting illustration of the power
+and influence of Evangelical faith was recently
+presented, in the case of one far advanced in life,
+and an invalid. It appears, that at a very early
+age religious impressions were made on her mind
+by a relative of her mistress, who sang the <hi rend="italics">Ten
+Commandments</hi> in verse, and who told her that
+‘He who gave us those Commandments would be
+her <hi rend="italics">friend</hi>, if she would trust in Him.’ This simple
+truth was received into a good and honest heart;
+<pb id="thompson56" n="56"/>
+<hi rend="italics">she believed</hi>, and it was counted to her for
+righteousness. ‘I have always, since that time,’ said she,
+‘trusted in Him, and I will <hi rend="italics">still</hi> trust.’ 
+She requested prayer,
+‘that God would do with her just as He pleased;’ she was
+‘willing to suffer all He could lay upon her.’ Her simple
+and unaffected manner, accompanied with tears of
+gratitude for what God had done for her, was most
+affecting, and well calculated to magnify the grace of
+God, as exhibited in one more than fourscore years of
+age, and near her Heavenly Home.</p>
+          <p>“Another aged woman always greets me cordially
+and with childlike simplicity; speaks feelingly of her
+dependence on God, and of the preciousness of the
+Saviour to her soul, and is never willing to have me leave
+her without offering prayer. She thinks much of Jesus
+Christ, and appears to rest her hope of salvation
+confidently on His merits alone.</p>
+          <p>“Passing by another of these aged and afflicted
+servants of God, who for successive months has been an
+invalid and confined to her bed and room, she said:
+‘<hi rend="italics">Jesus is near and precious</hi>! If the whole of New-York
+were offered me for Christ, I would not accept it: His will
+is my will; if He afflicts, <hi rend="italics">it is all right</hi>.’</p>
+          <p>“One, sick and blind, on recognizing my voice,
+extended her emaciated hand to welcome me.</p>
+          <pb id="thompson57" n="57"/>
+          <p>“Here was presented an impressive instance of
+patient submission, which might have shamed many of
+the professed followers of the Saviour. She is cheerfully
+anticipating the change which must ere long take place.
+Death to her seems divested of his terrors, as she reclines
+sweetly on the arm of Infinite Benevolence. She is indeed
+‘a living epistle, known and read of all;’ and her Christian
+example commands the respect and admiration of even
+the impenitent around her.</p>
+          <p>“Another case has interested me much. She, too, is
+one of God's afflicted people, but happy in the
+consciousness that her peace is made with God. She
+longs to be gone, but is submissive to the will of Heaven.
+‘<hi rend="italics">Glorious prospects</hi>!’ she says, 
+‘are opening to my view;
+and why one so poor, ignorant, useless, and unworthy,
+should be continued, is incomprehensible.’ I endeavored
+to explain the mystery, that perhaps it was that she might
+show to those around her the efficacy of the blessedness
+of that religion which gives peace and consolation amidst
+the sharpest trials. This seemed a new idea, and one that
+afforded pleasant reflection; and she reiterated the
+sentiment, ‘<hi rend="italics">All the days of my appointed time will I wait
+till my change come</hi>.’</p>
+          <p>“My attention was called by a colored man, who
+conducted me to the sick-bed of one in the male
+<pb id="thompson58" n="58"/>
+department. He was very ill, though able to converse; and
+seemed deeply concerned for his soul. It appeared, from
+his own voluntary confession, that he had been
+notorious for his impiety. Profane, rancorous in his
+opposition to religion and the friends of religion, he had
+carefully sought to shun their influence, and to close his
+ear against the truth. It was apparent that the Holy Spirit
+was striving with him, for he hesitated not to express his
+penitence for sin, and requested me to pray for him.</p>
+          <p>“On a subsequent visit, I found him more composed;
+and light seemed breaking into his benighted mind.
+Alluding to his former antipathy to Christians, he said he
+now felt very different; he loved to have them near him,
+and to hear their conversation and prayers. He felt he
+could give himself to the Lord Jesus Christ, and believed
+that, though a great sinner, God could forgive him for
+Christ's sake. When asked what I should pray for, he
+said, ‘That my associates may seek their salvation and
+come to Jesus Christ.’ This unexpected and ingenuous
+concern for others seemed to furnish some cheering
+evidence that, ‘though he was once blind, he now saw.’
+A short time before his death, he said to one who had
+formerly in vain attempted to converse with him in
+reference to his soul, ‘The time was when I hated you
+and your religious conversation,
+<pb id="thompson59" n="59"/>
+but now I love you as a Christian.’ His end was full of
+comfort and hope, and we feel encouraged to believe he
+was indeed ‘<hi rend="italics">a brand plucked out of 
+the fire</hi>.’ ”</p>
+          <p>“After one of our religious services, an aged invalid
+approached me with tears. On asking the cause of her
+solicitude, she replied, that ‘though a professor of
+religion, she had been neglectful of prayer, and other
+Christian duties, and consequently had lost that sweet
+sense of forgiveness she once enjoyed.’ I endeavored to
+impress her mind with the sinfulness and ingratitude of
+neglecting her soul; and urged her to look to Him who
+invites the wanderer to return and obtain forgiveness.”</p>
+          <p>“On one occasion I was much interested by the
+conversation of two individuals, who had been
+unavoidably prevented from attending service. One of
+them remarked, with an expression of countenance and
+an emphasis which indicated truth and honesty—‘Though
+not always with you, I <hi rend="italics">can</hi> and do pray for you.’ In
+another apartment, one remarked, that before he came to
+the Home, ‘<hi rend="italics">he knew not that he had an 
+immortal soul</hi>,
+but supposed that at death he should be like the beasts
+that perish, but since he had heard the Gospel, his views
+had been entirely changed.’ He now
+<pb id="thompson60" n="60"/>
+converses intelligently in regard to the plan of salvation.”</p>
+          <p>“A poor inmate severely afflicted with cancer has
+recently deceased. Her coffined remains were conveyed
+to the chapel on the Lord's Day, and from thence by her
+relations to the place of interment. She continued to the
+last hour of her life steadfast in the faith of the Gospel,
+and has left to surviving friends the cheering hope, that
+her end was peace. This event furnished an opportunity
+to speak to the assembled inmates of the necessity and
+importance of habitual preparation for death and
+judgment, which we endeavored to improve.”</p>
+          <p>“On inquiring of a sick man with whom I had been
+conversing, if he desired prayer should be offered in his
+behalf; with tears starting in his eyes he emphatically
+exclaimed, ‘Oh yes! I want faith to throw myself right on
+the Lord Jesus Christ.’ ”</p>
+          <p>“Another, who was a poor victim of consumption,
+expressed himself as being happy in the prospect of
+death, and desired that prayer should be offered, ‘<hi rend="italics">that he
+might get safe home</hi>.’ ”</p>
+          <p>“In the male department is a man about 30 years old.
+About one month since he was led to see himself as lost
+and ruined by sin, and to look to Christ as his only
+refuge. He seems like one newborn into the kingdom of
+grace, and to have adopted
+<pb id="thompson61" n="61"/>
+the resolution of Joshua— ‘As for me, I will serve the
+Lord.’ ”</p>
+          <p>“A female, whose attention has recently been
+arrested, voluntarily came to me, to tell me what God had
+done for her soul. She also appears humble, penitent, and
+much impressed with the love of Christ in dying for
+sinners. Speaking of her interest in the spiritual welfare of
+the unconverted, she remarked, ‘she now loved them
+better than ever, and prayed that God would open their
+eyes to see their lost condition.’ Her simple and
+unaffected manner, and her deep feeling, carried
+conviction to the mind that the blessed Spirit had indeed
+begun a good work which He would carry onward to
+maturity.</p>
+          <p>“Two aged women have also expressed deep
+concern for their spiritual welfare, and appear to feel that
+they have too long neglected salvation, and that it is
+high time to give the subject immediate attention.”</p>
+          <p>“At the close of one of our religious services, I was
+informed that an aged inmate, very ill, was desirous to
+see me. She was 87 years of age, and for 70 of that
+number had professed religion. As I approached her
+bedside, extending her withered had, she exclaimed, ‘<hi rend="italics">Oh,
+I am happy! I am ready to go to my heavenly home at
+any time</hi>;
+<pb id="thompson62" n="62"/>
+<hi rend="italics">the Saviour is precious; I would not give up the hope I
+have of an interest in Him for millions of worlds</hi>! I have
+always found Him faithful to His word; but when I get
+yonder’ (raising her eyes towards heaven), ‘that will be
+best of all.’ This old person has always been one of the
+most regular attendants upon religious worship, and her
+exemplary deportment has uniformly evinced the sincerity
+of her profession and her ripeness for heaven.”</p>
+          <p>“A few days since, I was requested to visit one in the
+hospital, on whom a surgical operation was about to be
+performed. Seating myself by his bedside, I had scarcely
+commenced conversing with him, when I discovered that
+his mind was awake to the subject of religion, and that he
+was anxious for instruction: his sins appeared before him
+in fearful magnitude, and all hope of pardon seemed to
+have fled. He imagined he had sinned beyond the
+possibility of forgiveness. He, however, listened with
+evident interest, as I endeavored to preach to him the
+blessed Gospel of the Son of God, and unfold the fulness
+and freeness of salvation through Christ Jesus. After
+conversing and praying with him, I took my leave of him,
+promising to see him again shortly.</p>
+          <p>“On the following Thursday I repaired to his
+bedside, and found him extremely feeble, in
+<pb id="thompson63" n="63"/>
+consequence of the operation to which he had submitted,
+and that he could converse but little. On this occasion, I soon
+perceived that a great change had taken place in his
+experience—the clouds had dispersed, and he now
+joyfully received the good news that Jesus Christ came
+to seek and to save the lost; and that whoever believeth
+on Him, should not perish, but have everlasting life. He
+remarked, ‘that he thought he had given himself to the
+Saviour, and that he could now rely on Him for salvation.
+Yesterday,’ said he, ‘was a sweet day, for it was
+impressed upon my mind, that if I would believe on
+Christ, He would save my soul. He makes me happy, <hi rend="italics">He
+is indeed precious to my soul</hi>. I wish I was able to talk,
+but I am too weak.’ His view of the plan of salvation
+appears Scriptural, and I cannot but hope he has made
+his peace with God.”</p>
+          <p>“The triumphs of Divine grace,” concludes the
+Chaplain, in one of his Reports to the Managers, “which
+we are permitted to witness among these poor ignorant
+subjects of your charity, seem often to consecrate the
+place, and call forth involuntarily the exclamation of the
+poet—
+<q type="verse" direct="unspecified"><lg type="verse"><l>‘The chamber where
+ the good man meets his fate,</l><l>Is privileged beyond the common walks of life,</l><l>—quite on the verge of heaven.’</l></lg></q>
+<pb id="thompson64" n="64"/>
+And we are constrained to feel that the self-denying
+effort in which this Society is engaged, is eminently
+approved of God. And may we not hope that some bright
+gems, that will adorn the Saviour's crown, will be
+gathered from those who have been the humble
+pensioners of your bounty? ‘Cast thy bread upon the
+waters; for thou shalt find it after many days.’</p>
+        </div2>
+        <div2 type="sketch">
+          <head>MRS. R.'S STATEMENT.</head>
+          <p>Mrs. R., of the Reading Committee, in speaking
+of the readiness with which the inmates listened to
+religious instruction, states:—</p>
+          <p>“It is a delightful occupation, and not unworthy the
+follower of Jesus, to sit in the society of such as when He
+was on earth He delighted to meet and to bless—the poor,
+the sick, the lame, and the blind; and to dispense, not
+indeed like Him the words which gave the body healing;
+but those of spiritual comfort and hope. It is truly
+gratifying to find so many among those whom the world
+overlooks as poor and ignorant, ‘rich in faith,’ and wise
+unto salvation. They cannot, in some instances, read—nor
+can they in words of burning eloquence explain
+<pb id="thompson65" n="65"/>
+how the love of God has operated to work in them a
+return of that love—but they have the witness within.
+‘<hi rend="italics">Jesus is precious, very precious</hi>.’ 
+‘<hi rend="italics">The Lord has taken
+sin from the soul</hi>,’ are expressions testifying their
+experimental knowledge of the justifying and sanctifying
+grace of God.</p>
+          <p>“One on her death-bed said to me: ‘Jesus is with me
+all the time—when I awake in the night, it seems as if His
+arms were around me, and all the day He continues near
+me.’ These expressions prove nothing in themselves,
+except, as in the case of these persons, supported by the
+tenor of the daily life—but they come with a power which
+no human eloquence can give.”</p>
+          <p>It is certainly very encouraging to the hearts of the
+Reading Committee to receive so kind a welcome from
+those poor creatures, who <hi rend="italics">know</hi> that we come to minister
+to their spiritual rather than their bodily wants. Many
+among them seem to be sensible of the importance of
+being able to read the Scriptures, and are diligent
+scholars at the feet of those of their number who were
+more fortunate in early life, and obtained this
+accomplishment. One woman, of perhaps 70 years, began
+to learn her alphabet, and in about <hi rend="italics">one</hi> month, such was
+her application and zeal, that, with the aid of occasional
+prompting, she learned to read several chapters in St.
+John's Gospel. “One aged
+<pb id="thompson66" n="66"/>
+woman (continues Mrs. R.) excited my interest by her
+contentment of spirit. I ventured to ask her the cause of
+her cheerfulness. ‘Oh,’ said she, ‘I live in hope of a better
+place when I leave this one; I take comfort in thinking of
+Heaven. I know my kind Master, who has carried me so
+far on my way towards it, will not desert me in my old
+age. His grace <hi rend="italics">has</hi> been, and I trust ever will be, my
+support on the way.’ Again: ‘A girl, to whom my attention
+was directed, had been brought to the home a few weeks
+since in the last stage of consumption. Although her
+bodily health was hopelessly gone, she had recourse to
+the Physician of souls, and found recovering grace at the
+last hour—grief for sin, and anxiety for pardon, for many
+days overcame and swallowed up her bodily sufferings.
+A short time before her death she seemed to find spiritual
+comfort, and she finally breathed her last, with her song
+of triumph on her lips. These and other instances show
+the incalculable benefit of this Institution to the souls of
+that neglected class who come under its care.”</p>
+        </div2>
+        <div2 type="sketch">
+          <pb id="thompson67" n="67"/>
+          <head>PETER BENSÉ</head>
+          <p>OR “<hi rend="italics">Peter Polite</hi>,” as he 
+was familiarly called at the
+Home, on account of his suavity of manner and
+respectful demeanor toward every one.</p>
+          <p>To his superiors he always observed a marked
+deference, while to his associates and familiars he was
+courteous and pleasant. His address and manner
+appeared to belong to the school of Louis XIV.</p>
+          <p>We do not feel authorized to make any special record
+of him as a decided Christian character; but, from his
+general conduct and moral deportment while an inmate of
+the Home, we have reason to hope that he was not
+unmindful of his eternal interests; and trust that he
+found mercy of the Lord in the day of his extremity. The
+varied and singular events of his changeful life, make him
+worthy a passing notice in this brief history: we therefore
+give a short sketch of him, as obtained from verbal
+conversation occasionally had with him by the resident
+physician, Dr. J. D. Fitch, to whom he appeared pleased
+to communicate some of the past scenes and
+circumstances connected with his early life.</p>
+          <p>His statement was, that he was born in one of
+<pb id="thompson68" n="68"/>
+the West India islands, and that at a very early age he
+was taken by a gentleman to England, with whom he lived
+in the city of London until he was probably twenty years
+old. He then accompanied some public functionary (name
+not recollected) as <hi rend="italics">valet</hi>, to the 
+Court of St. Petersburgh.
+In that city he remained until he was probably thirty-five
+years old. While there, he frequently accompanied his
+master to court, where, from his complexion, he was
+viewed somewhat as a curiosity, and was treated by
+members of the royal family with marked kindness and
+favor. He spoke of the Empress Catharine with strong
+expressions of respect and esteem, and even of affection,
+on account of her great kindness and attention to him. On
+one occasion, when his master's duties required him to be
+absent for some weeks from St. Petersburgh, at the
+special request of the Empress he was permitted to
+remain at the Palace Royal until his return; where he
+served not only as ‘<hi rend="italics">valet</hi>’—but, 
+having considerable taste
+as a <hi rend="italics">coiffeur</hi>, he was frequently employed in that capacity
+by the Royal Household.</p>
+          <p>Among other reminiscences mentioned by Peter, he
+stated, that he was either in or near the palace at the time
+of the assassination of the Emperor Paul in 1801. He
+seemed quite familiar with the principal occurrences of
+that eventful period—and while relating them manifested
+deep feeling and interest.</p>
+          <pb id="thompson69" n="69"/>
+          <p>During his residence in St. Petersburgh, he married a
+young native Russian woman, by whom he had two sons.
+About this time, (probably about 1810,) his master was
+recalled home. After bidding adieu to his wife and
+children, he entered with his master on board of an
+English vessel then awaiting them at one of the Russian
+seaport towns. He remarked it was a severe trial for him to
+part with his family—but he left them with the
+determination of returning to them whenever
+circumstances would permit him so to do.</p>
+          <p>While on their way to England, and on the coast of
+France, their vessel was taken by a French cruiser, and
+carried into Brest; from thence he, with his master, were
+conveyed prisoners to Paris. He stated that his master,
+although held a prisoner, was, by the order of Napoleon,
+treated with great attention, and allowed to visit and
+receive visits from many distinguished individuals
+residing in Paris. Among these were Marshals Ney and
+Soult.</p>
+          <p>On one occasion his master was invited to dine with
+the latter; Peter accompanied, and waited on him at table,
+this being customary. There were many prominent
+characters present, who flourished during the career of
+the Emperor Napoleon. He remained in Paris until after
+peace, and after the
+<pb id="thompson70" n="70"/>
+entrance of the allied armies; leaving it just after Napoleon
+had departed for Elba.</p>
+          <p>During his stay in Paris, which was three or four
+years, he had frequent opportunities of seeing the
+Emperor both at Reviews and at the Palace Royal, as
+attendant on persons connected with the families of Soult
+and Ney. He was in London at the visit of the Emperor of
+Russia and King of Prussia to the Prince Regent, and
+appeared familiar with all the gay scenes of that period.
+He saw the Prince Regent on horseback ride around Hyde
+Park, accompanied by Royal personages; and he was at
+London during the coronation of George IVth, assisting
+as <hi rend="italics">coiffeur</hi> to his master, who attended on that august
+occasion. He frequently, in his relation of the events of
+his life, mentioned many of the circumstances attending
+the all-exciting subjects of that day. He related many
+things connected with the trial of Queen Caroline,
+consort of George IV.; had frequent opportunities of
+seeing her; and his sympathies were great on her behalf.</p>
+          <p>Amidst all the changing vicissitudes of his
+wandering life, Peter remarked that he never forgot his
+wife and children, but constantly looked forward to the
+time when he should again return to them. When in
+London the last time, he received information in some
+way, that his family had gone to the
+<pb id="thompson71" n="71"/>
+United States and had landed in New-York, expecting to
+meet him there. On this intelligence, he obtained
+permission of his master to go and join them. He
+immediately left England and proceeded to America, full
+of hope and anticipated happiness of again clasping to
+his bosom the wife of his youth, and his children. But ah!
+how sad was his disappointment! On arriving in New-York, all his 
+inquiries respecting them were unsuccessful,
+and he could gain no information whatever respecting
+them. His continued efforts incurred expenses, and his
+little fund becoming exhausted,—poor and dispirited he
+sought the situation of a waiter, still determined, so soon
+as he could raise the means, to go back to St.
+Petersburgh, and seek his family.</p>
+          <p>The accomplishment of this hope he never realized.
+Anxieties, and the infirmities of age broke down his
+health—his means of sustenance failed—and in this day of
+his emergencies (1841), he came to the <hi rend="italics">Colored Home</hi>,
+seeking there within its walls a refuge and a resting-place.
+Here he remained until his decease, which
+occurred in June 1848, being as was supposed about
+ninety-three years old.</p>
+          <p>Peter Bensé was remarkable for his fluency of
+expression,—he spoke with the French accent. His memory
+was remarkably retentive; in which there seemed but one
+defect; there appeared to be a perfect
+<pb id="thompson72" n="72"/>
+vacuum in his mind as to the time which had elapsed
+since he separated from his wife and children; and when
+within a few days of his death his spirits revived, and he
+spoke cheerfully of the hope of again meeting them;
+associating always the idea that he should find them as
+youthful and juvenile as when he parted from them—
+although nearly half a century had passed away.</p>
+          <p>Among the articles which he considered of great
+value, were notes of recommendation from many
+distinguished personages both in England and France;
+and most particularly, a large parchment, on which was
+written his passport in the Russian language. His
+appearance when walking in the street was dignified;
+carrying in his hand a large <hi rend="italics">brass-headed</hi> cane, the
+companion of many years. His head was covered with full
+bushy hair, which, being whitened by age, had much the
+appearance of a wig.</p>
+          <p>Alas! poor <hi rend="italics">Bensé</hi>. Heaven had decreed that you
+should never meet again on earth the loved ones of your
+earlier days. May the hope be realized in that land of joy
+and gladness, where sorrow, disappointment, and parting
+are never known.</p>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div1 type="conclusion">
+        <pb id="thompson73" n="73"/>
+        <head>CONCLUDING REMARKS.</head>
+        <p>IT would extend the limits of these pages too far,
+and time would fail us, to tell of <hi rend="italics">all</hi> those who have
+found the Home but a pleasant stage in their journey
+through this weary world to their final resting-place;
+and who have died in faith in a certain hope
+of finding a “better country, even a heavenly;
+wherefore God is not ashamed to be called <hi rend="italics">their</hi>
+God, for He hath prepared for them a city.”</p>
+        <p>In the foregoing instances we see that the minds of
+these sable ones were as susceptible of those feelings
+which dignify and elevate human nature as those of
+others; and the humble, grateful expression of their sense
+of God's mercy to them through Christ, as sincere and
+lively as ever emanated from those who may have been
+highly cultivated, or placed in more enlightened society
+under greater advantages.</p>
+        <p>The influence of grace upon the heart is the same in
+its effects upon all classes; as far as changing the will
+and temper is concerned. It humbles pride, and subdues
+the will; it changes the heart of man, and brings him to
+view himself in his true character; a poor, wretched
+sinner, exposed to
+<pb id="thompson74" n="74"/>
+the just displeasure of a Holy God whom he has
+offended.</p>
+        <p>When he becomes sensible of this, he is willing to be
+saved on God's terms. And this is the same, whether in
+the son of a prince, or untutored, unlettered child of
+obscurity, whatever be his complexion or circumstances.
+He who “made of one blood all nations of men,” careth
+alike for all. The Saviour died for sinners—that whoever
+believeth on Him, should not perish, but have everlasting
+life. The redemption of the soul is <hi rend="italics">precious</hi>.</p>
+        <p>Can we, then, be too earnest in seeking it both in
+ourselves and others?—can we do too much to cause
+“the abundant grace by the thanksgiving of many, to
+redound with glory to God?” Led of His Spirit and His
+Providence; and blessed as we have in this effort been of
+Him; is it possible that we can do too much for Jesus?—
+for Jesus, who for us endured the cross, despising the
+shame!</p>
+        <closer>
+          <signed>M. W. T.</signed>
+        </closer>
+      </div1>
+      <div1 type="appendix">
+        <pb id="thompson75" n="75"/>
+        <head>CONDENSED STATEMENT OF THE COLORED
+HOME—ITS ORIGIN, &amp;c.</head>
+        <p>THE Colored Home of the city of New-York originated in
+the liberality of <hi rend="italics">one</hi> Christian lady—Miss Jay, daughter of
+the late distinguished and venerable John Jay, of New-York.</p>
+        <p>The sum of One Thousand Dollars was paid over by
+Miss Jay, to a few ladies who convened at the residence
+of her sister, Mrs. Maria Bauyer, in the autumn of 1839.
+The sum appropriated was especially designed for the
+relief of the <hi rend="italics">sick and respectable Colored Aged</hi>.</p>
+        <p>This was the origin of the Colored Home. In the year
+1845, the Society was incorporated by the State
+Legislature, under the title of “<hi rend="italics">The 
+Society for the Support of
+the Colored Home</hi>.” A petition was also presented to the
+Legislature for the repeal of certain acts passed March
+11th, 1839, and May 26th, 1841 (which appropriated
+<pb id="thompson76" n="76"/>
+$10,000 for a State Hospital in the city of New-York),
+asking a transfer of the money therein named to the Colored
+Home.</p>
+        <p>These acts were repealed, a new act framed, and the money
+aforesaid was transferred to the Managers of the Colored
+Home, to be applied to the erection of a permanent building on
+the real estate belonging to the said Home in the city of New-York,
+ for the relief and support of disabled Colored Sailors, and
+other infirm and destitute colored people.</p>
+        <p>With a view to more extensive usefulness, the Society made
+arrangements with the Commissioners of the Alms-House, to
+receive into the Institution, at a very low rate, all colored
+paupers of the city, reserving the right to reject such applicants
+as the resident physician should medically pronounce unfit
+patients for the Colored Home.</p>
+        <p>In 1848, the Society purchased 44 lots of ground lying on
+Sixty-Fifth-street, between Avenue A and First Avenue; upon
+which the Managers have recently erected a suitable building. It
+consists of two distinct divisions or wings, for the
+accommodation of the male and female departments, each 100
+by 26 feet, separated by a ground plot of 100 feet, the whole
+forming an open square.</p>
+        <p>At the first meeting, in 1839, after the adoption of
+<pb id="thompson77" n="77"/>
+the constitution, twelve individuals were proposed and
+received as objects worthy of relief.</p>
+        <p>During the year 1847, the statistics show that the
+Institution had, during that period, under its care nearly <hi rend="italics">one
+thousand</hi> persons; a large proportion of whom were from the
+Alms-House.</p>
+        <p>The Colored Home is conducted in a careful and judicious
+manner.</p>
+        <p>The following persons at present constitute its Board of
+Officers and Managers:—</p>
+        <list type="simple">
+          <head>OFFICERS:</head>
+          <item>MRS. MARY ANN WELLS, <hi rend="italics">First Directress</hi>.</item>
+          <item>MRS. SAMUEL J. BEEBEE, <hi rend="italics">Second Directress</hi>.</item>
+          <item>MRS. WILLIAM W. CHESTER, <hi rend="italics">Recording Secretary</hi>.</item>
+          <item>MRS. N. E. RUSSELL, <hi rend="italics">Corresponding Secretary</hi>.</item>
+          <item>MRS. JOHN HARPER, <hi rend="italics">Treasurer</hi>.</item>
+        </list>
+        <list type="simple">
+          <head>MANAGERS:</head>
+          <item>Mrs. P. G. Arcularius,</item>
+          <item>Mrs. C. B. Noon,</item>
+          <item>Mrs. Thomas D. Moore,</item>
+          <item>Mrs. Harvey Peet,</item>
+          <item>Mrs. Edward Stone,</item>
+          <item>Mrs. Col. Thompson,</item>
+          <item>Mrs. B. B. Atterbury,</item>
+          <item>Mrs. E. M. De Peyster,</item>
+          <item>Mrs. Washington Roosevelt,</item>
+          <item>Mrs. E. B. Goddard,</item>
+          <item>Mrs. J. D. Fitch,</item>
+          <item>Mrs. E. D. Willis,</item>
+          <item>Mrs. John A. Livingston,</item>
+          <item>Mrs. F. S. Winston,</item>
+          <item>Mrs. J. W. Smyth,</item>
+          <item>Miss Sarah Bunce,</item>
+          <item>Miss M. Beebee,</item>
+          <item>Miss M. C. De Peyster,</item>
+          <item>Miss Elizabeth Clarkson Jay,</item>
+          <item>Miss A. Hamilton,</item>
+          <item>Miss C. Murray.</item>
+        </list>
+        <pb id="thompson78" n="78"/>
+        <list type="simple">
+          <head>ADVISERS:</head>
+          <item>W. W. Chester, Esq.,</item>
+          <item>John Jay, Esq.,</item>
+          <item>W. G. Bull, Esq.,</item>
+          <item>James D. Fitch, M. D.,</item>
+          <item>John Harper, Esq.,</item>
+          <item>Stephen Cambrelling, Esq.,</item>
+          <item>John A. Bunting, Esq. </item>
+          <item><hi rend="italics">Chaplain</hi>—REV. CHARLES C. DARLING.</item>
+          <item><hi rend="italics">Steward</hi>—JAMES BEATTY.</item>
+          <item><hi rend="italics">Matron</hi>—ANN M. BEATTY.</item>
+          <item><hi rend="italics">Teacher</hi>—SARAH BEATTY.</item>
+        </list>
+        <list type="simple">
+          <head>MEDICAL DEPARTMENT:</head>
+          <item><hi rend="italics">Resident Physician</hi>—JAMES D. FITCH, M. D.</item>
+          <item><hi rend="italics">Assistant Physician</hi>—Dr. H. K. OLMSTED.</item>
+        </list>
+        <list type="simple">
+          <head>MEDICAL COUNCIL:<lb/>
+HONORARY MEMBERS.</head>
+          <item>J. Cheeseman, M. D.</item>
+          <item>Thomas Cock, M. D.</item>
+        </list>
+        <list type="simple">
+          <head>PHYSICIANS:</head>
+          <item>J.  W. Francis,</item>
+          <item>T.  M. Markoe, M. D.</item>
+          <item>George Wilkes, M. D.</item>
+        </list>
+        <list type="simple">
+          <head>SURGEONS:</head>
+          <item>Willard Parker, M. D.</item>
+          <item>G.  A. Sabine, M. D.</item>
+          <item>J. K. Rodgers, M. D.</item>
+        </list>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

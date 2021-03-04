@@ -1,0 +1,643 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY elizacv SYSTEM "elizacv.jpg" NDATA jpeg>
+<!ENTITY elizatp SYSTEM "elizatp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Memoir of Old Elizabeth, a Coloured Woman:</emph>
+Electronic Edition.</title>
+        <author>Elizabeth, 1765?-1866</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Lee Ann Morawski</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Lee Ann Morawski</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Bethany Ronnberg  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>50KB</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Memoir of Old Elizabeth, a Coloured Woman.</title>
+          </titleStmt>
+          <editionStmt>
+            <edition/>
+          </editionStmt>
+          <extent>19  p.</extent>
+          <publicationStmt>
+            <pubPlace>Philadelphia</pubPlace>
+            <publisher>Collins Printer.</publisher>
+            <date>1863</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number     E Pam 12mo #117    
+(Rare Book, Manuscript, and Special Collections Library, Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Old Elizabeth, b. 1766.</item>
+            <item>African Americans -- United States -- Biography.</item>
+            <item>African American Methodists -- United States --
+Biography.</item>
+            <item>Methodist women -- United States -- Biography.</item>
+            <item>Slaves -- Maryland -- Biography.</item>
+            <item>African Americans -- Religion.</item>
+            <item>Slavery -- Maryland -- History -- 18th century.</item>
+            <item>Slaves' writings, American.</item>
+            <item>Society of Friends.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-06-12, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-11-16, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-11-10, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-11-05, </date>
+        <respStmt>
+          <name>Lee Ann Moraswki</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cv" entity="elizacv"/>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="tp" entity="elizatp"/>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">MEMOIR 
+<lb/>
+OF
+<lb/>
+OLD ELIZABETH,</titlePart>
+          <lb/>
+          <titlePart type="main">A
+<lb/>
+COLOURED WOMAN.</titlePart>
+        </docTitle>
+        <epigraph>
+          <lg type="verse">
+            <l>“There is neither Jew nor Greek, there is neither bond nor free, there</l>
+            <l>is neither male nor female, for ye are all one in Christ Jesus.”</l>
+          </lg>
+          <bibl>GAL. iii. 25.</bibl>
+        </epigraph>
+        <docImprint><pubPlace>PHILADELPHIA:</pubPlace>
+<publisher>COLLINS, PRINTER,</publisher><pubPlace> 705 JAYNE STREET,</pubPlace>
+<docDate>1863</docDate></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="chapter">
+        <pb id="eliza3" n="3"/>
+        <head>MEMOIR, &amp;C.</head>
+        <p>In the following Narrative of “OLD ELIZABETH,” which
+was taken mainly from her own lips in her 97th year, her 
+simple language has been adhered to as strictly as was 
+consistent with perspicuity and propriety.</p>
+        <p>I was born in Maryland in the year 1766. My 
+parents were slaves. Both my father and mother were 
+religious people, and belonged to the Methodist 
+Society. It was my father's practice to read in the 
+Bible aloud to his children every sabbath morning. 
+At these seasons, when I was but five years old, I often 
+felt the overshadowing of the Lord's Spirit, without 
+at all understanding what it meant; and these
+incomes and influences continued to attend me until 
+I was eleven years old, particularly when I was alone, 
+by which I was preserved from doing anything that 
+I thought was wrong.</p>
+        <p>In the eleventh year of my age, my master sent 
+me to another farm, several miles from my parents, 
+brothers, and sisters, which was a great trouble to 
+me. At last I grew so lonely and sad I thought I 
+should die, if I did not see my mother. I asked the
+<pb id="eliza4" n="4"/>
+overseer if I might go, but being positively denied,
+I concluded to go without his knowledge. When I
+reached home my mother was away. I set off and
+walked twenty miles before I found her. I staid
+with her for several days, and we returned together.
+Next day I was sent back to my new place, which
+renewed my sorrow. At parting, my mother told
+me that I had, “nobody in the wide world to look to
+but God.” These words fell upon my heart with
+<sic corr="ponderous">pondrous</sic> weight, and seemed to add to my grief.
+I went back repeating as I went, “none but God in
+the wide world.” On reaching the farm, I found
+the overseer was displeased at me for going without 
+his liberty. He tied me with a rope, and
+gave me some stripes of which I carried the marks
+for weeks.</p>
+        <p>After this time, finding as my mother said, I had
+none in the world to look to but God, I betook 
+myself to prayer, and in every lonely place I found an
+altar. I mourned sore like a dove and chattered forth
+my sorrow, moaning in the corners of the field, and
+under the fences.</p>
+        <p>I continued in this state for about six months, feeling 
+as though my head were waters, and I could do
+nothing but weep. I lost my appetite, and not 
+being able to take enough food to sustain nature, I 
+became so weak I had but little strength to work; still
+I was required to do all my duty. One evening, 
+<pb id="eliza5" n="5"/>
+after the duties of the day were ended, I thought I
+could not live over the night, so threw myself on a
+bench, expecting to die, and without being prepared
+to meet my Maker; and my spirit cried within me,
+must I die in this state, and be banished from Thy
+presence forever? I own I am a sinner in Thy sight,
+and not fit to live where thou art. Still it was my
+fervent desire that the Lord would pardon me. Just
+at this season, I saw with my spiritual eye, an awful
+gulf of misery. As I thought I was about to plunge
+into it, I heard a voice saying, “rise up and pray,”
+which strengthened me. I fell on my knees and
+prayed the best I could the Lord's prayer. Knowing 
+no more to say, I halted, but continued on my
+knees. My spirit was then <hi rend="italics">taught</hi> to pray, “Lord,
+have mercy on me—Christ save me.” Immediately
+there appeared a director, clothed in white raiment.
+I thought he took me by the hand and said, “come
+with me.” He led me down a long journey to a fiery
+gulf, and left me standing upon the brink of this
+awful pit. I began to scream for mercy, thinking I
+was about to be plunged to the belly of hell, and 
+believed I should sink to endless ruin. Although I
+prayed and wrestled with all my might, it seemed
+in vain. Still, I felt all the while that I was 
+sustained by some invisible power. At this solemn 
+moment, I thought I saw a hand from which hung, as
+it were, a silver hair, and a voice told me that all
+<pb id="eliza6" n="6"/>
+the hope I had of being saved was no more than a 
+hair; still, pray, and it will be sufficient. I then 
+renewed my struggle, crying for mercy and salvation, 
+until I found that every cry raised me higher and 
+higher, and my head was quite above the fiery pillars. 
+Then I thought I was permitted to look straight 
+forward, and saw the Saviour standing with His hand 
+stretched out to receive me. An indescribably 
+glorious light was <hi rend="italics">in</hi> Him, and He said, “peace, peace, 
+come unto me.” At this moment I felt that my sins 
+were forgiven me, and the time of my deliverance 
+was at hand. I sprang forward and fell at his feet, 
+giving Him all the thanks and highest praises, crying, 
+Thou hast redeemed me—Thou hast redeemed 
+me to thyself. I felt filled with light and love. At 
+this moment I thought my former guide took me 
+again by the hand and led me upward, till I came to 
+the celestial world and to heaven's door, which I saw 
+was open, and while I stood there, a power
+surrounded me which drew me in, and I saw millions 
+of glorified spirits in white robes. After I had this 
+view, I thought I heard a voice saying, “Art thou 
+willing to be saved?” I said, Yes Lord. Again I was 
+asked, “Art thou willing to be saved in my way?”
+I stood speechless until he asked me again, “Art 
+thou willing to be saved in my way?” Then I heard 
+a whispering voice say, “If thou art not saved in the 
+Lord's way, thou canst not be saved at all;” at which
+<pb id="eliza7" n="7"/>
+I exclaimed, “Yes Lord, in thy own way.” Immediately 
+a light fell upon my head, and I was filled 
+with light, and I was shown the world lying in wickedness, 
+and was told I must go there, and call the 
+people to repentance, for the day of the Lord was at 
+hand; and this message was as a heavy yoke upon 
+me, so that I wept bitterly at the thought of what I 
+should have to pass through. While I wept, I heard 
+a voice say, “weep not, some will laugh at thee,
+some will scoff at thee, and the dogs will bark at 
+thee, but while thou doest my will, I will be with 
+thee to the ends of the earth.<corr>”</corr></p>
+        <p>I was at this time not yet thirteen years old. The 
+next day, when I had come to myself, I felt like a 
+new creature in Christ, and all my desire was to see 
+the Saviour.</p>
+        <p>I lived in a place where there was no preaching, 
+and no religious instruction; but every day I went out 
+amongst the hay-stacks, where the presence of the 
+Lord overshadowed me, and I was filled with sweetness 
+and joy, and was as a vessel filled with holy oil. 
+In this way I continued for about a year; many 
+times while my hands were at my work, my spirit 
+was carried away to spiritual things. One day as I 
+was going to my old place behind the hay-stacks to 
+pray, I was assailed with this language, “Are you 
+going there to weep and pray? what a fool! there 
+are older professors than you are, and they do not
+<pb id="eliza8" n="8"/>
+take that way to get to heaven; people whose sins 
+are forgiven ought to be joyful and lively, and not 
+be struggling and praying.” With this I halted and 
+concluded I would not go, but do as other professors 
+did, and so went off to play; but at this moment 
+the light that was in me became darkened, and the 
+peace and joy that I once had, departed from me.</p>
+        <p>About this time I was moved back to the farm 
+where my mother lived, and then sold to a stranger. 
+Here I had deep sorrows and plungings, not having 
+experienced a return of that sweet evidence and 
+light with which I had been favoured formerly; but 
+by watching unto prayer, and wrestling mightily 
+with the Lord, my peace gradually returned, and 
+with it a great exercise and weight upon my heart 
+for the salvation of my fellow-creatures; and I was
+often carried to distant lands and shown places where 
+I should have to travel and deliver the Lord's message.
+Years afterwards, I found myself visiting 
+those towns and countries that I had seen in the 
+light as I sat it home at my sewing,—places of 
+which I had never heard.</p>
+        <p>Some years from this time I was sold to a 
+Presbyterian for a term of years, as he did not think it 
+right to hold slaves for life. Having served him 
+faithfully my time out, he gave me my liberty, 
+which was about the thirtieth year of my age.</p>
+        <p>As I now lived in a neighborhood where I could
+<pb id="eliza9" n="9"/>
+attend religious meetings, occasionally I felt moved to
+speak a few words therein; but I shrank from it—so great
+was the cross to my nature.</p>
+        <p>I did not speak much till I had reached my forty-second
+year, when it was revealed to me that the message which
+had been given to me I had not yet delivered, and the time
+had come. As I could read but little, I questioned within
+myself how it would be possible for me to deliver the
+message, when I did not understand the Scriptures.
+Whereupon I was moved to open a Bible that was near me,
+which I did, and my eyes fell upon this passage, “Gird up
+thy loins now like a man, and answer thou me. Obey God
+rather than man,”&amp;c.  Here I fell into a great exercise of
+spirit, and was plunged very low. I went from one religious
+professor to another, enquiring of them what ailed me; but
+of all these I could find none who could throw any light
+upon such impressions. They all told me there was nothing
+in Scripture that would sanction such exercises. It was
+hard for men to travel, and what would women do? These
+things greatly discouraged me, and shut up my way, and
+caused me to resist the Spirit. After going to all that were
+accounted pious, and receiving no help, I returned to the
+Lord, feeling that I was nothing, and knew nothing, and
+wrestled and prayed to the Lord that he would fully reveal
+His will, and make the way plain.</p>
+        <pb id="eliza10" n="10"/>
+        <p>Whilst I thus struggled, there seemed a light from
+heaven to fall upon me, which banished all my desponding
+fears, and I was enabled to form a new resolution to go on
+to prison and to death, if it might be my portion: and the
+Lord showed me that it was His will I should be resigned
+to die any death that might be my lot, in carrying his
+message, and be entirely crucified to the world, and
+sacrifice <hi rend="italics">all</hi> to His glory that was then in my possession,
+which His witnesses, the holy Apostles, had done before
+me. It was then revealed to me that the Lord had given me
+the evidence of a clean heart, in which I could rejoice day
+and night, and I walked and talked with God, and my soul
+was illuminated with heavenly light, and I knew nothing
+but Jesus Christ, and him crucified.</p>
+        <p>One day, after those things, while I was at my work, the
+Spirit directed me to go to a poor widow, and ask her if I
+might have a meeting at her house, 
+which was situated in one of the lowest and worst
+streets in Baltimore. With great joy she gave 
+notice, and at the time appointed I appeared there
+among a few coloured sisters. When they had all
+prayed, they called upon me to close the meeting,
+and I felt an impression that I must say a few words;
+and while I was speaking, the house seemed filled
+with light; and when I was about to close the meeting, 
+and was kneeling, a man came in and stood till
+<pb id="eliza11" n="11"/>
+I arose. It proved to be a watchman. The sisters became so
+frightened, they all went away except the one who lived in
+the house, and an old woman; they both appeared to be
+much frightened, fearing they should receive some
+personal injury, or be put out of the house. A feeling of
+weakness came over me for a short time, but I soon grew
+warm and courageous in the Spirit. The man then said to
+me, “I was sent here to break up your meeting. Complaint
+has been made to me that the people round here cannot
+sleep for the racket.” I replied, “a good racket is better than
+a bad racket. How do they rest when the ungodly are
+dancing and fiddling till midnight? Why are not they
+molested by the watchmen? and why should we be for
+praising God, our Maker? Are we worthy of greater
+punishment for praying to Him? and are we to be
+prohibited from doing so, that sinners may remain
+slumbering in their sins?” While speaking these few words
+I grew warm with <hi rend="italics">heavenly</hi> zeal, and laid my hand upon
+him and addressed him with gospel truth, “how do sinners
+sleep in hell, after slumbering in their sins here, and crying,
+‘let me rest, let me rest,’ while sporting on the very brink of
+hell? Is the cause of God to be destroyed for this purpose?” 
+Speaking several words more to this amount, he turned
+pale and trembled, and begged my pardon, acknowledging
+that it was not his wish to interrupt us, and that
+<pb id="eliza12" n="12"/>
+he would never disturb a religious assembly again. He then
+took leave of me in a comely manner and wished us
+success. After he was gone, I turned to the old sisters who
+by this time were quite cheered up. You see, said I, if the
+sisters had not fled, what a victory we might have had on
+the Lord's side; for the man seemed ready to give up under
+conviction. If it had not been for their cowardice, we might
+have all bowed in prayer, and a shout of victory had been
+heard amongst us.</p>
+        <p>Our meeting gave great offence, and we were forbid
+holding any more assemblies. Even the elders of our
+meeting joined with the wicked people, and said such
+meetings must be stopped, and that woman quieted. But I
+was not afraid of any of them, and continued to go, and
+burnt with a zeal not my own. The old sisters were zealous
+sometimes, and at other times would sink under the cross.
+Thus they grow cold, at which I was much grieved. I
+proposed to them to ask the elders to send a brother, which
+was concluded upon.</p>
+        <p>We went on for several years, and the Lord was with us
+with great power it proved, to the conversion of many
+souls, and we continued to grow stronger.</p>
+        <p>I felt at times that I must exercise in the ministry,
+but when I rose upon my feet I felt <sic corr="ashamed">ashmed</sic>, and so
+I went under a cloud for some time, and endeavoured
+<pb id="eliza13" n="13"/>
+to keep silence; but I could not quench the
+Spirit. I was rejected by the elders and rulers, as
+Christ was rejected by the Jews before me, and
+while others were excused in crimes of the darkest
+dye, I was hunted down in every place where I 
+appointed a meeting. Wading through many sorrows,
+I thought at times I might as well be banished from
+this life, as to feel the Almighty drawing me one
+way, and man another; so that I was tempted to
+cast myself into the dock. But contemplating the
+length of eternity, and how long my sufferings would
+be in that unchangeable world, compared with this, if I
+endured a little longer, the Lord was pleased to deliver me
+from this gloomy, melancholy state in his own time;
+though while this temptation lasted I roved up and down,
+and talked and prayed.</p>
+        <p>I often felt that I was unfit to assemble with the 
+congregation with whom I had gathered, and had sometimes
+been made to rejoice in the Lord. I felt that I was despised
+on account of this gracious calling, and was looked upon
+as a speckled bird by the ministers to whom I looked for
+instruction, and to whom I resorted every opportunity for
+the same; but when I would converse with them, some
+would cry out, “You are an enthusiast;” and others said,
+“the Discipline did not allow of any such division of the
+work;” until I began to think I surely must be wrong.
+Under this reflection, I had another gloomy
+<pb id="eliza14" n="14"/>
+cloud to struggle through; but after awhile I felt much
+moved upon by the Spirit of the Lord, and meeting with an
+aged sister, I found upon conversing with her that she
+could sympathize with me in this spiritual work. She was the
+first one I had met with, who could fully understand my
+exercises. She offered to open her house for a meeting,
+and run the risk of all the church would do to her for it.
+Many were afraid to open their houses in this way, lest
+they should be turned out of the church.</p>
+        <p>I persevered, notwithstanding the opposition of those
+who were looked upon as higher and wiser. The meeting
+was appointed, and but few came. I felt much
+backwardness, and as though I could not pray, but a
+pressure upon me to arise and express myself by way of
+exhortation. After hesitating for some time whether I would
+take up the cross or no, I arose, and after expressing a few
+words, the Spirit came upon me with life, and a victory was
+gained over the power of darkness, and we could rejoice
+together in His love.</p>
+        <p>As for myself, I was so full I hardly knew whether I was
+in the body, or out of the body—so great was my joy for the
+victory on the Lord's side. But the persecution against me 
+increased, and a complaint was carried forward, as was 
+done formerly against Daniel, the servant of God, and 
+the elders came out
+<pb id="eliza15" n="15"/>
+with indignation for my holding meetings contrary to
+discipline—being a woman.</p>
+        <p>Thus we see when the heart is not inspired, and the
+inward eye enlightened by the Spirit, we are incapable of
+discerning the mystery of God in these things. Individuals
+creep into the church that are unregenerate, and after they
+have been there awhile, they fancy that they have got the
+grace of God, while they are destitute of it. They may have
+a degree of light in their heads, but evil in their hearts;
+which makes them think they are qualified to be judges of
+the ministry, and their conceit makes them very busy in
+matters of religion, judging of the revelations that are
+given to others, while they have received none
+themselves. Being thus mistaken, they are calculated to
+make a great deal of confusion in the church, and clog the
+true ministry.</p>
+        <p>These are they who eat their own bread, and wear their
+own apparel, having the form of godliness, but are
+destitute of the power.</p>
+        <p>Again I felt encouraged to attend another and 
+another appointment. At one of these meetings, some
+of the class-leaders were present, who were 
+constrained to cry out, “Surely the Lord has <hi rend="italics">revealed</hi>
+these things to her” and asked one another if they
+ever heard the like? I look upon man as a very
+selfish being, when placed in a religious office, to
+presume to resist the work of the Almighty;
+<pb id="eliza16" n="16"/>
+because He does not work by man's authority. I did 
+not faint under discouragement, but pressed on.</p>
+        <p>Under the contemplation of these things, I slept but little,
+being much engaged in receiving the revelations of the
+Divine will concerning this work, and the mysterious call
+thereto.</p>
+        <p>I felt very unworthy and small, notwithstanding the Lord
+had shown himself with great power, insomuch that
+conjecturers and critics were constrained to join in praise to
+his great name; for truly, we had times of refreshing from the
+presence of the Lord. At one of the meetings, a vast number
+of the white inhabitants of the place, and many coloured
+people, attended—many no doubt from curiosity to hear what
+the old coloured woman had to say. One, a great scripturian,
+fixed himself behind the door with pen and ink, in order to
+take down the discourse in short-hand; but the Almighty
+Being anointed me with such a portion of his Spirit, that he
+cast away his paper and pen, and heard the discourse with
+patience, and was much affected, for the Lord wrought
+powerfully on his heart. After meeting, he came forward and
+offered me his hand with solemnity on his countenance, and
+handed me something to pay for my conveyance home.</p>
+        <p>I returned, much strengthened by the Lord's power, to go
+on to the <sic corr="fulfillment">fulfilment</sic> of His work, although I was again
+pressed by the authorities of
+<pb id="eliza17" n="17"/>
+the church to which I belonged, for imprudency; and so
+much condemned, that I was sorely tempted by the
+enemy to turn aside into the wilderness. I was so
+embarrassed and encompassed, I wondered within myself
+whether all that were called to be mouth piece for the Lord,
+suffered such deep wadings as I experienced.</p>
+        <p>I now found I had to travel still more extensively in the
+work of the ministry, and I applied to the Lord for direction.
+I was often <hi rend="italics">invited</hi> to go hither and thither, but felt that I
+must wait for the dictates of His Spirit.</p>
+        <p>At a meeting which I held in Maryland, I was led to
+speak from the passage, “Woe to the rebellious city,”&amp;c. After the meeting, the people came where I was, to take me
+before the squire; but the Lord delivered me from their
+hands.</p>
+        <p>I also held meetings in Virginia. The people there would
+not believe that a coloured woman could preach. And
+moreover, as she had no learning, they strove to imprison
+me because I spoke against slavery: and being brought up,
+they asked by what authority I spake? and if I had been
+ordained? I answered, not by the commission of men's
+hands: if the Lord had ordained me, I needed nothing
+better.</p>
+        <p>As I travelled along through the land, I was led at
+different times to converse with white men who
+<pb id="eliza18" n="18"/>
+were by profession ministers of the gospel. Many of them,
+up and down, confessed they did not believe in revelation,
+which gave me to see that men were sent forth as ministers
+without Christ's authority. In a conversation with one of
+these, he said, “You think you have these things by
+revelation, but there has been no such thing as revelation
+since Christ's ascension.” I asked him where the apostle
+John got his revelation while he was in the Isle of Patmos.
+With this, he rose up and left me, and I said in my spirit, get
+thee behind me Satan.</p>
+        <p>I visited many remote places, where there were no
+meeting houses, and held many <sic corr="glorious">glorions</sic> meetings, for the
+Lord poured out his Spirit in sweet effusions. I also
+travelled in Canada, and visited several settlements of
+coloured people, and felt an open door amongst them.</p>
+        <p>I may here remark, that while journeying through the
+different states of the Union, I met with many of the Quaker
+Friends, and visited them in their families. I received much
+kindness and sympathy, and no opposition from them, in
+the prosecution of my labours.</p>
+        <p>On one occasion, in a thinly settled part of the country,
+seeing a Friend's meeting house open, I went in; at the
+same time a Friend and his little daughter followed me. We
+three composed the meeting. As we sat there in silence, I
+felt a 
+<pb id="eliza19" n="19"/>
+remarkable overshadowing of the Divine presence, as much so
+as I ever experienced any where. Toward the close, a few
+words seemed to be given me, which I expressed, and left
+the place greatly refreshed in Spirit. From thence I went to
+Michigan, where I found a wide field of labour amongst my
+own colour. Here I remained four years. I established a
+school for coloured orphans, having always felt the great
+importance of the religious and moral <hi rend="italics">agri</hi>culture of children,
+and the great need of it, especially amongst the coloured
+people. Having white teachers, I met with much
+encouragement.</p>
+        <p>My eighty-seventh year had now arrived, when suffering
+from disease, and feeling released from travelling further in
+my good Master's cause, I came on to Philadelphia, where I
+have remained until this time, which brings me to my 
+ninety-seventh year. When I went forth, it was without purse or
+scrip,—and I have come through great tribulation and
+temptation—not by any might of my own, for I feel that I am
+but as dust and ashes before my almighty Helper, who has,
+according to His promise, been with me and sustained me
+through all, and gives me now firm faith that he will be with
+me to the end, and, in his own good time, receive me into
+His everlasting rest.</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

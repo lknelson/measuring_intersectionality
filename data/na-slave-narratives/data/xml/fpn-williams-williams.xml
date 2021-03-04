@@ -1,0 +1,3005 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY willitp SYSTEM "twilliam.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Narrative of James Williams, an American Slave: 
+Electronic Edition.</title>
+        <author>James Williams, 1805-?</author>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="la">Lee Altman </name>
+        </respStmt>
+        <respStmt>
+          <resp>First-level TEI-conformant encoding by </resp>
+          <name>Christopher Gwyn </name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-conformant encoding finished  by</resp>
+          <name id="ns">Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1997.</date></edition>
+      </editionStmt>
+      <extent>ca. 300K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1997.</date>
+        <availability status="unknown">
+          <p>This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number  E444 .W743 1838</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Narrative of James Williams, an American Slave; Who was for Several Years a Driver on a Cotton Plantation in Alabama.</title>
+          <author>James Williams </author>
+          <imprint>
+            <pubPlace>New York: </pubPlace>
+            <publisher>Published by the American Anti-Slavery Society</publisher>
+            <date>1838</date>
+          </imprint>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South, or,  The Southern Experience in 
+19th-century America.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been removed, and the trailing part of a word has been joined to the preceding line.</p>
+        <p>All quotation marks, ampersand and dollar signs have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell checkers.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings,</title>
+            <edition> 21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Williams, James, b. 1805.</item>
+            <item>Slavery -- Alabama.</item>
+            <item>Slaves -- Alabama -- Biography.</item>
+            <item>Fugitive slaves -- United States -- Biography.</item>
+            <item>Slaves' writings, American -- Alabama.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1997-01-28, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project editor, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1996-12-20, </date>
+        <respStmt>
+          <name>Christopher Gwyn</name>
+          <resp/>
+        </respStmt>
+        <item>finished first-level TEI-encoding</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="willitp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage type="main">
+        <titlePart type="main">NARRATIVE OF <emph rend="bold">JAMES WILLIAMS,</emph> AN AMERICAN SLAVE,</titlePart>
+        <titlePart type="subtitle">WHO WAS FOR SEVERAL YEARS A DRIVER ON A COTTON PLANTATION IN ALABAMA</titlePart>
+        <epigraph>
+          <p>”Oh the slave, who toils from the rising sun to sundown  -  who labors in the cultivation of a crop whose fruits he may never reap  -  who comes home at nightfall weary, faint, and sick of heart, to find in his hut creatures that are to run in the same career with himself,  -  will you not tell him of a period when his soil shall be at an end? Will you not give him a hope for his children”?</p>
+          <p>
+            <hi rend="italics">Speech of O'Connell. London, 1833.</hi>
+          </p>
+        </epigraph>
+        <docImprint><pubPlace>NEW YORK:</pubPlace>
+<publisher>PUBLISHED BY THE AMERICAN ANTI-SLAVERY SOCIETY,</publisher>
+<address><addrLine>NO. 143 NASSAU STREET.</addrLine></address>
+<pubPlace>BOSTON:</pubPlace>
+<publisher>ISAAC KNAPP, 25 CORNHILL</publisher>
+<docDate>1838.</docDate></docImprint>
+        <titlePart type="verso">Stereotyped at GEO. A. &amp; J. Curtis's</titlePart>
+        <titlePart type="verso">Type &amp; Stereotype Foundry.  -  Boston.</titlePart>
+      </titlePage>
+      <div1 type="preface">
+        <head rend="bold">PREFACE.</head>
+        <div2 type="part">
+          <p>”AMERICAN SLAVERY,” said the celebrated John
+Wesley,” is the <hi rend="italics">vilest</hi> beneath the sun! ”  Of the
+truth of this emphatic remark no other proof is 
+required than an examination of the statute books
+of the American slave states.  Tested by its own 
+laws, in all that facilitates and protects the hateful process of converting a man into a ”<hi rend="italics">chattel
+personal;”</hi> in all that stamps the law-maker and
+law-upholder with meanness and hypocrisy, it 
+certainly has no present rival of its ” bad eminence ;” and we may search in vain the history
+of a world's despotism for a parallel. The civil
+code of Justinian never acknowledged, with that
+our democratic despotisms, the essential equality,
+of man. The dreamer in the gardens of Epicurus recognized neither in himself, nor in the slave
+who ministered to his luxury, the immortality of
+the spiritual. nature. Neither Solon nor Lycursus taught the inalienability of human rights.
+<pb id="williamsiv" n="iv"/>
+The Barons of the Feudal System, whose maxim
+was emphatically that of Wordsworth's robber,</p>
+          <lg type="poem">
+            <l>”That he should take who had the power,</l>
+            <l>And he should keep who can,”</l>
+          </lg>
+          <p>while trampling on the necks of their vassals, and
+counting the life of a man as of less value than
+that of a wild beast, never appealed to God for
+the sincerity of their belief that all men were created 
+equal.  It was reserved for American slave-
+holders to present to the world the hideous anomaly 
+of a code of laws, beginning. with the emphatic 
+declaration of the inalienable rights of all
+men to life, liberty, and the pursuit of happiness,
+and closing with a deliberate and systematic denial 
+of those rights, in respect to a large portion
+of their countrymen ; engrossing on the same
+parchment the antagonist laws of liberty and
+tyranny. The very nature of this unnatural
+combination has rendered it necessary that
+American slavery, in law and in practice, should
+exceed every other in severity and cool atrocity.
+The masters of Greece and Rome permitted their
+slaves to read and write, and worship the gods
+of paganism in peace and security, for there was
+nothing in the laws, literature, or religion of the
+<pb id="williamsv" n="v"/>
+age to awaken in the soul of the bondman a just
+sense of his rights as a man. But the American
+slave-holder cannot be thus lenient. In the excess 
+of his benevolence, as a political propagandist, 
+he has kindled a fire for the oppressed of
+the old world to gaze at with hope, and for
+crowned heads and dynasties to tremble at; but
+a due regard to the safety of his ” peculiar institution” 
+compels him to put out the eyes of his
+own people, lest they too should see it. Calling
+on all the world to shake off  the fetters of oppression, 
+and wade through the blood of tyrants to
+freedom, he has been compelled to smother in
+darkness and silence the minds of his own bondmen, 
+lest they too should hear and obey the summons, 
+by putting the knife to his own throat.
+Proclaiming the truths of Divine Revelation, and
+sending the Scriptures to the four quarters of the
+earth, he has found it necessary to maintain
+heathenism at home by special enactments, and
+to make the second offence of teaching his slaves
+the message of salvation punishable with <hi rend="italics">death!</hi></p>
+          <p>What marvel then that American slavery, even
+on the <hi rend="italics">statute book,</hi> assumes the right to transform
+<pb id="williamsvi" n="vi"/>
+moral beings into brutes;<ptr id="ptr1" n="1" target="note1" targOrder="U"/>  -  that it legalizes
+man's usurpation of Divine authority: the substitution of the will of the master for the moral
+government of God;  -  that it annihilates the
+rights of conscience; debars from the enjoyment
+of religious rights and privileges by specific enactments; and enjoins disobedience to the Divine
+Lawgiver;  -  that it discourages purity and chastity, encourages crime, legalizes concubinage; and,
+while it places the slave entirely in the hands of
+his master, provides no real protection for his life
+or his person.</p>
+          <p>But it may be said, that these laws afford no
+certain evidence of the actual condition of the
+slaves: that, in judging the system by its code,
+no allowance is made for the humanity of individual
+ masters. It was a just remark of the celebrated 
+Priestley, that  <hi rend="italics">”no people ever were found
+to be better than their laws, though many have
+been known to be worse.”</hi> All history and common experience confirm this. Besides, admitting
+that the legal severity of a system may be softened
+  <note id="note1" n="1" place="foot" anchored="yes" target="ptr1"> *The <hi rend="italics">cardinal principle</hi> of slavery, that a slave is not
+to be ranked among sentient beings, but among things,
+as an article of Property, a chattel personal, obtains as
+undoubted law, in all the slave states. (Judge Stroud's
+sketch of Slave Laws, p. 22.)</note>
+<pb id="williamsvii" n="vii"/> in the practice of the humane, may it not also
+be aggravated by that of the avaricious and cruel?</p>
+          <p>But what are the testimony and admissions of
+slave-holders themselves on this point? In an
+Essay published in Charleston, S. C., in 1822,
+and entitled ”A Refutation of the Calumnies
+circulated against the Southern and Western
+States,” by the late Edwin C. Holland, Esq., it
+is stated, that ”all slave-holders have laid down
+non-resistance, and perfect and uniform <hi rend="italics">obedience</hi>
+to their orders, as fundamental principles in the
+government of their slaves ;” that this it is ”a <hi rend="italics">necessary</hi> result of the relation,” and <hi rend="italics">”unavoidable”</hi>
+Robert J. Turnbull, Esq., of South Carolina, in
+remarking upon the management of slaves, says,
+” The only principle upon which any authority
+over them (the slaves) can be maintained is <hi rend="italics">fear,</hi>
+and he who denies this has little knowledge of
+them.” To this may be added the testimony of
+Judge Ruffin, of North Carolina, as quoted in
+Wheeler's Law of Slavery, p. 247. ” The slave,
+to remain a slave, must feel that there is <hi rend="italics">no appeal from his master.</hi> No man can anticipate the
+provocations which the slave would give, nor the
+consequent wrath of the master, prompting him
+<pb id="williamsviii" n="viii"/>
+to BLOODY VENGEANCE on the turbulent
+traitor, a vengeance <hi rend="italics">generally</hi> practiced with impunity by reason of its <hi rend="italics">privacy</hi>.”</p>
+          <p>In an Essay on the ” improvement of negroes
+on plantations,” by Rev. Thomas S. Clay, a
+slave-holder of Bryan County, Georgia, and printed 
+at the request of the Georgia Presbytery, in
+1833, we are told, ”that the present economy of
+the slave system is <hi rend="italics">to get all you can</hi> from the
+slave, and give him in return <hi rend="italics">as little as will barely 
+support hint in a working condition!</hi>”  Here,
+in a few words, the whole enormity of slavery is
+exposed to view: ”to <hi rend="italics">get all you can</hi> from the
+slave”  -  by means of whips, and stocks and irons
+  -  by every device for torturing the body, without
+destroying its capability of labor; and in return
+give him as little of his coarse fare as will keep
+him, like a mere beast of burden, in a <hi rend="italics">”working
+condition.”</hi> This is slavery, as explained by the
+slave-holder himself.</p>
+          <p>Mr. Clay further says: <hi rend="italics">”Offences against the
+master</hi> are more severely punished than violations
+of the law of God,  a fault which affects the
+slave's personal character a good deal. As examples 
+we may notice, that <hi rend="italics">running away</hi> is more
+<pb id="williamsix" n="ix"/>
+severely punished than adultery.”  ”He (the
+slave) only knows his master as lawgiver and
+executioner, and the <hi rend="italics">sole object of punishment</hi>
+held up to his view, is to make him <hi rend="italics">a more obedient 
+and profitable slave.”</hi></p>
+          <p>Hon. W. B. Seabrook, in an address before the
+Agricultural Society of St. Johns, Colleton, published 
+by order of the Society, at Charleston, in
+1834, after stating that, ”as Slavery exists in
+South Carolina, the action of the citizens should
+rigidly conform to that state of things,” and that
+”no <hi rend="italics">abstract opinions of the rights of man</hi> should
+be allowed in any instance to modify the <hi rend="italics">police
+system of a plantation,”</hi> proceeds as follows: <hi rend="italics"><hi rend="italics">”He</hi>
+(the slave) <hi rend="italics">should be practically treated as a slave,</hi></hi>
+and thoroughly taught the true cardinal principle
+on which our peculiar institutions are founded,
+viz., that to his owner he is bound by the law of
+God and man; and that no human authority can
+sever the link which unites them. The great
+aim of the slave-holder, then, should be to keep
+his people in strict <hi rend="italics">subordination</hi>. In this, it may
+in truth be said, lies his <hi rend="italics">entire duty.”</hi>  Again, in
+speaking of the punishments of slaves, he remarks:
+”If to our army the disuse of THE LASH has been
+<pb id="williamsx" n="x"/>
+prejudicial, to the slave-holder it would operate to
+deprive him of the MAIN SUPPORT of his authority.
+For the first class of offences, I consider imprisonment in THE STOCKS<ptr id="ptr2" n="2" target="note2" targOrder="U"/> at night, with or without
+hard labor lay day, as a powerful auxiliary in the
+cause of <hi rend="italics">good</hi> government.” ”<hi rend="italics">Experience</hi> has
+convinced me that there is no punishment to
+which the slave looks with more horror, than that
+upon which I am now commenting, (the stocks,)
+and none which has been attended with happier
+results.”</p>
+          <note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ptr2">*Of the nature of this punishment in the stocks,
+something may be learned by the following extract of a
+letter from a gentleman in Tallahasse, Florida, to the
+editor of the Ohio Atlas, dated June 9, 1835: ”A
+planter, a professor of religion, in conversing upon the
+universality of whipping, remarked, that a planter in
+G------, who had whipped a great deal at length got
+tired of it, and invented the following <hi rend="italics">excellent</hi> method
+of punishment, which I sail practised while I was paying him a visit. The negro was placed in a sitting position, with his hands made fast above his head, and his
+feet in the stocks, so that he could not move any part
+of the body.  The master retired, intending to leave 
+him till morning, but we were awakened in the night
+by the groans of the negro, which were so doleful that
+we feared he was dying.  We went to him, and found 
+him covered in a cold sweat, and almost gone.  He 
+could not have lived an hour longer.  Mr. ------ found
+the ‘stocks’ such an effective punishment, that it almost
+superseded the whip.”</note>
+          <p>There is yet another class of testimony quite
+as pertinent as the foregoing, which may at any
+<pb id="williamsxi" n="xi"/>
+time be gleaned from the newspapers of the slave
+states  -  the advertisements of masters for their
+runaway slaves, and casual paragraphs, coldly relating cruelties, which would disgrace a land of
+Heathenism. Let the following suffice for
+specimen:</p>
+        </div2>
+        <div2>
+          <opener><salute><hi rend="italics">To the Editors of the Constitutionalist;</hi></salute>
+                         <dateline>AIKEN, S. C., <date>Dec. 20, 1836.</date></dateline></opener>
+          <p> I have just returned from an inquest I held over the 
+dead body of a negro man, a runaway, that was shot
+near the South Edisto, in this District, (Barnewell,) on
+Saturday morning last.  He came to his death by his
+own recklessness.  He refused to be taken alive; and
+said that other attempts to take him had been made,
+and he was determined that he would not be taken.
+When taken, he was nearly naked  -  had a large dirk or
+knife, and a heavy club.  He was, at first, (when those
+who were in pursuit of him found it absolutely necessary,) shot at with small-shot, with the intention of
+merely crippling him.  He was shot at several times,
+and at last he was so disabled as to be compelled to
+surrender.  He kept in the run of a creek in a very 
+dense swamp all the time that the neighbors were in 
+pursuit of him.  As soon as the negro was taken, the 
+best medical aid was procured, but he died on the same
+evening.  One of the witnesses at the inquisition stated
+that the negro boy said that he was from Mississippi,
+and belonged to so many persons he did not know who
+his master was: but again he said his master's name 
+was <hi rend="italics">Brown</hi>.  He said his own name was Sam; and
+when asked by another witness who his master was, he
+muttered something like Augusta or Augustine.  The
+boy was apparently above 35 or 40 years of age  -  about 
+six feet high  -  slightly yellow in the face  -  very long
+beard of whiskers  -  and very stout built, and a stern
+countenance; and appeared to have been run away a
+long time.   </p>
+          <signed><name> WILLIAM H. PRITCHARD</name>
+             Coroner, (Ex officio,)  Barnwell Dist., S.C.</signed>
+          <trailer>The Mississippi and other papers will please copy
+the above.  -  <hi rend="italics">Georgia Consitutionalist.</hi></trailer>
+        </div2>
+        <pb id="williamsxii" n="xii"/>
+        <div2>
+          <p>$100 REWARD.  -  Ran away the subscriber,
+living on Herring Bay, Anne Arundel Co., Md., on Saturday, 28th January, Negro man Elijah, who calls him.
+self Elijah Cook; is about 21 years of age, well made,
+of a very dark complexion, has an impediment in his
+speech, and <hi rend="italics">a scar on his left cheek bone, apparently occasioned by a shot. </hi></p>
+          <signed>J. SCRIVENER.</signed>
+          <closer>[Annapolis (Md.) Rep., <date>Feb. 1837.</date></closer>
+        </div2>
+        <div2>
+          <p>$40 REWARD.  -  Ran away from my residence, near
+Mobile, two negro men, Isaac and Tim. Isaac is from
+25 to 30 years old, dark complexion, scar on the right
+side of the head, and also one on the right side of the
+body, occasioned by BUCK SHOT. Tim is 22 years old,
+dark complexion, scar on the right cheek, as also another
+on the back of the neck. Captains and owners of
+steamboats, vessels, and water crafts of every description, are cautioned against taking them on board, under
+the penalty of the law, and all other persons against
+harboring or in any manner favoring the escape of said
+negroes, under like penalty. </p>
+          <signed>SARAH WALSH.</signed>
+          <closer> Mobile, Sept. 1.</closer>
+          <closer>[Montgomery (Ala.) Advertiser, Sept. 29, 1837.</closer>
+        </div2>
+        <div2>
+          <p>$200 REWARD.  -  Ran away from the subscriber,
+about three years ago, a certain Negro man named Ben,
+(commonly known by the name of Ben Fox.) He is
+about 5 feet 5 or 6 inches high, chunky made, yellow
+complexion, and has but one eye. Also, one other negro by the name of Rigdon, who ran away on the 8th
+of this month. He is stout made, tall, and very black,
+with large lips.</p>
+          <p>I will give the reward of one hundred dollars for each
+of the above negroes, to be delivered to me or confined
+in the jail of Lenoir or Jones County, or <hi rend="italics">for the killing
+of them so that I can see them.</hi> Masters of vessels, and
+all others, are cautioned against harboring, employing,
+or carrying them away, under the penalty of the law.</p>
+          <signed>W. D. COBB.</signed>
+          <closer>Lenoir Co.,  N. C.,  November 12, 1836.</closer>
+        </div2>
+        <div2>
+          <p>BROUGHT TO JAIL.  -  In Irwinton, Wilkinson
+County, (Ga.) 16th Nov. 1837, a negro man by the
+name of JACOB, who says he belongs to Heritan Middleton, in Henry County, Alabama. He says he was hired
+<pb id="williamsxiii" n="xiii"/>
+to John Webb, near West Point, in this State. He is
+about 6 feet high, dark complexion, and slow in speaking. There are no marks discoverable, <hi rend="italics">only</hi> he is VERY
+BADLY SHOT <hi rend="italics">in the right side and right hand.</hi> The owner
+or owners are requested to come forward, prove property, pay charges, and take him away.</p>
+          <signed>S. B. MURPHEY, Jailer.</signed>
+          <closer>Milledgville, Jan. 2, 1838.      [Georgia Journal. </closer>
+        </div2>
+        <div2>
+          <opener>[From the Clinton (Miss.) Gazette, July 23, 1836.]</opener>
+          <p>WAS COMMITTED to the jail of Covington County,
+on the 26th day of June, 1836, by G. D. Gere, Esq., a
+negro man, who says his name is JOSIAH, and says he
+belongs to John Martin, an Irishman, living in the State
+of Louisiana, on the west side of the Mississippi river,
+twenty miles below Natchez. Josiah is 5 feet 8 inches
+high, heavy built, copper color, his back <hi rend="italics">very much scarred</hi>
+with the <hi rend="italics">whip</hi>, and BRANDED on the thigh and hips in
+<hi rend="italics">three</hi> or <hi rend="italics">four</hi> places; thus, (I. M.) or (J. M.;) the M. is
+very plain, but the I. or J. is not plain: the rim of his
+right ear has been bit or cut off. He is about 31 years
+of age, had on, when committed, pantaloons made of
+bed ticking, cotton coat, and an old fur hat very much
+worn. The owner of the above described negro is requested to comply with the requisitions of the law in
+such cases made and provided.</p>
+          <signed>J. L. JOLLEY, Sheriff, C. C.</signed>
+          <closer> Williamsburgh, June 28, 1836.</closer>
+        </div2>
+        <div2>
+          <p>WAS COMMITTED to jail, a negro man, who says
+that his name is HARRY. Said boy is about 30 years
+old, light complexion and bald head; has a scar on his
+left knee; also, one on his forehead, and one on his
+right hand;<hi rend="italics"> he is very much marked with the whip.</hi> The
+owner, &amp;c.</p>
+          <signed> B. W. HATCH, Jailer.</signed>
+          <closer> [Port Gibson (Mi.,) Correspondent, Sept. 16, 1837.</closer>
+        </div2>
+        <div2>
+          <p>$50 REWARD.  -  Ran away from the subscriber, a
+negro fellow named Dick, about 21 or 22 years of age,
+dark mulatto, has many scars on his back from being
+<hi rend="italics">whipped</hi>. The boy was purchased by me from Thomas
+L. Arnold, and absconded about the time the purchase
+was made. </p>
+          <signed>JAMES NOE.</signed>
+          <closer>[Sentinel and Expositor, Vicksburg, (Mi.,) Oct. 10, 1837.</closer>
+        </div2>
+        <pb id="williamsxiv" n="xiv"/>
+        <div2>
+          <opener>[From the New Orleans Bee, Oct. 28, 1837.]</opener>
+          <p>$10 REWARD.  -  Ran away, on the 9th of October,
+CAROLINE, aged about 38 years; had a collar on with
+one prong turned down. </p>
+          <signed>T. CUGGY,</signed>
+          <closer>Gallatin st., between Hospital and Barracks.</closer>
+        </div2>
+        <div2>
+          <p>$25 REWARD.  -  For the black woman, Betsey, who
+left my house in the Faubourg, McDonnough, about the, 
+12th inst., when she had on her neck an iron collar; has
+a mark on her neck and is about 20 years of age.</p>
+          <signed>CHARLES KERNIN.</signed>
+          <closer> [New Orleans paper, March, 1837.</closer>
+        </div2>
+        <div2>
+          <p>$50 REWARD.  -  Ran away from Murot's Plantation,
+near Baton Rouge, about two months ago, the negro
+man Manuel. Description  -  black, 5 feet 4 inches high,
+about 30 years old, one scar on the forehead, and <hi rend="italics">much 
+marked with irons.</hi></p>
+          <closer>[New Orleans Bee, May 27, 1837.</closer>
+        </div2>
+        <div2>
+          <p>COMMITTED to the jail of Pike County, a man
+about twenty-three or four years old, who calls his name
+John. The said Negro has a clog of iron on his right
+foot which will weigh 4 or 5 pounds. The owner is requested, &amp;c.</p>
+          <signed>B. W.  HODGES, Jailer.</signed>
+          <closer>[Montgomery (Alabama) Advertiser, Sept. 29,1837.</closer>
+        </div2>
+        <div2>
+          <p>$100 REWARD.  -  Ran away from the subscriber, six
+weeks ago, two negro men, one a tall fellow, stoops considerably 
+in walking; when spoken to fiercely, looks as
+if he would sink into the earth. The other is a short
+stumpy fellow, of a very black or almost blue color,
+large cheeks, has a scar over one eye; also, <hi rend="italics">one on his
+leapfrog the bite of a dog,</hi> and a burn on his body from a
+piece of <hi rend="italics">hot iron</hi>, in the shape of a T!</p>
+          <signed>JOHN A. DILLAHUNTY.</signed>
+          <closer>[New Orleans Bee, Feb. 8, 1837.</closer>
+        </div2>
+        <div2>
+          <p>“A Negro who had absconded from his master,
+and for whom a reward was offered of $100, has
+been apprehended and committed to prison in Savannah, 
+Georgia. The editor who states the
+<pb id="williamsxv" n="xv"/>
+fact, adds, with as much coolness as though there
+were no barbarity in the matter, that he did not
+surrender until he was considerably <hi rend="italics">maimed by
+the dogs<ptr id="ptr3" n="3" target="note3" targOrder="U"/></hi> that had been set on him,  -  desperately
+fighting them, one of which he cut badly with a
+sword.”</p>
+          <note id="note3" n="3" place="foot" anchored="yes" target="ptr3">*In regard to the use of bloodhounds, for the recapture 
+of runaway slaves, we insert the following from
+the New York Evangelist, being an extract of a letter
+from Natchez, (Miss.) under date of January 31, 1835:
+“An instance was related to me in Clairborne County, 
+in Mississippi.  A runaway was heard about the house
+in the night.  The hound was put upon his track, and 
+in the morning was found watching the dead body of
+the negro.  The dogs are trained to this service when
+young.  A negro is directed to go into the woods and
+secure himself upon a tree.  When sufficient time has
+elapsed for doing this, the hound is put upon his track.
+The blacks are compelled to worry them until they 
+make them their implacable enemies; and it is common
+to meet with dogs which will take no notice of whites,
+though entire strangers, but will suffer no blacks beside
+the house servants to enter the yard.”</note>
+          <closer>
+            <hi rend="italics">New York Commercial Advertiser, June 8, 1827.</hi>
+          </closer>
+        </div2>
+        <div2>
+          <p>From the foregoing evidence on the part of
+slave-holders themselves, we gather the following
+facts:</p>
+          <p>1. That perfect obedience is required of the
+slave  -   that he is made to feel that there is no appeal from his master.</p>
+          <p>2. That the authority of the master is only
+maintained by fear  -  a <hi rend="italics">“reign of terror.”</hi></p>
+          <pb id="williamsxvi" n="xvi"/>
+          <p>3. That ”the economy of slavery is to <hi rend="italics">get all
+you can</hi> from the slave, and give him in return
+as little as will barely support him in a working
+condition.”</p>
+          <p>4. That runaway slaves may be shot down with
+impunity by any white person.</p>
+          <p>5. That masters offer rewards for <hi rend="italics">”killing”</hi>
+their slaves, <hi rend="italics">”so that they may see them!”</hi></p>
+          <p>6. That slaves are branded with hot irons, and
+very much scarred with the whip.</p>
+          <p>7. That <hi rend="italics">iron collars</hi>, with projecting prongs,
+rendering it almost impossible for the wearer to
+lie down, are fastened upon the <hi rend="italics">necks of women.</hi></p>
+          <p>8. That the LASH is the MAIN SUPPORT of the
+slave-holder's authority; but, that the <hi rend="italics">stocks</hi> are
+”a powerful auxiliary” to his government.</p>
+          <p>9. That runaway slaves are chased with dogs  -  
+men hunted like beasts of prey.</p>
+          <p>Such is American Slavery in practice.</p>
+          <p>The testimony thus far adduced is only that
+of the slave-holder and wrong-doer himself: the
+admission of men who have a direct interest in
+keeping ought of sight the horrors of their system. 
+It is, besides, no voluntary admission.
+Having ”framed iniquity by law,” it is out of
+<pb id="williamsxvii" n="xvii"/>
+their power to hide it. For the recovery of their
+runaway property, they are compelled to advertise 
+in the public journals, and, that it may be
+identified, they are under the necessity of describing 
+the marks of the whip on the backs of women,
+the iron collars about the neck, the gun-shot
+wounds, and the traces of the branding-iron.
+Such testimony must, in the nature of things, be
+partial and incomplete. But for a full revelation
+of the secrets of the prison-house, we must look
+to the slave himself. The Inquisitors of Goa
+and Madrid never disclosed the peculiar atrocities
+of their “hall of horrors.” It was the escaping
+heretic, with his swollen and disjointed limbs,
+and bearing about him the scars of rack and fire,
+who exposed them to the gaze and abhorrence of
+Christendom.</p>
+          <p>The following pages contain the simple and
+unvarnished story of an AMERICAN SLAVE,  -  of
+one whose situation, in the first place, as a favorite 
+servant in an aristocratic family in Virginia, 
+and afterwards as the sole and confidential
+driver on a large plantation in Alabama, afforded
+him rare and peculiar advantages for accurate
+observation of the practical workings on the system. 
+<pb id="williamsxviii" n="xviii"/>His intelligence, evident candor, and grateful 
+remembrance of those kindnesses which in a
+land of slavery made his cup of suffering less
+bitter; the perfect accordance of his statements
+(made at different times and to different individuals<ptr id="ptr4" n="4" target="note4" targOrder="U"/>) one with another, as well as those statements 
+themselves, all afford strong confirmation
+of the truth and accuracy of his story. There
+seems to have been no effort, on his part, to make
+his picture of slavery one of entire darkness  -  he
+details every thing of a mitigating character which
+fell under his observation; and even the cruel deception 
+of his master has not rendered him unmindful 
+of his early kindness.</p>
+          <p>The Editor is fully aware that he has not been
+able to present this affecting narrative in the simplicity 
+and vivid freshness with which it fell from
+the lips of the narrator. He has, however, as
+<note id="note4" n="4" rend="sc" anchored="yes" target="ptr4"> *The reader is referred to JOHN G. WHITTIER, of 
+Amesbury, Mass., or to the following gentlemen, who
+have heard the whole or part of his story from his
+own lips: Emmor Kimber, of Kimberton, Pa., Lindley
+Coates, of Lancaster Co., do.; James Mott, of Philadelphia, 
+Lewis Tappan, Elizur Wright, Jun., Rev. Dr.
+Follen, and James G. Birney, of New York.  The latter
+gentleman, who was a few years ago a citizen of Alabama, 
+assures us that the statements made to him by
+James Williams were such as he had every reason to 
+believe, from his own knowledge of slavery in that
+State.</note>
+<pb id="williamsxix" n="xix"/>
+closely as possible, copied his manner, and in
+many instances his precise language. THE SLAVE
+HAS SPOKEN FOR HIMSELF. Acting merely as his
+amanuensis, he has carefully abstained from comments of his own.<ptr id="ptr5" n="5" target="note5" targOrder="U"/></p>
+          <p>The picture here presented to the people of
+the free states is, in many respects, a novel one.
+We all know something of Virginia and Kentucky slavery. 
+We have heard of the internal
+slave trade  -  the pangs of separation  -  the slave
+ship with its ”cargo of despair,” bound for the
+New Orleans market  -  and the weary journey of
+the chained Coffle to the cotton country. But
+here, in a great measure, we have lost sight of
+the victims of avarice and lust. We have not
+studied the dreadful economy of the cotton plantation, 
+and know but little of the secrets of its
+unlimited despotism.</p>
+          <p> But in this narrative the scenes of the plantation rise 
+before us, with a distinctness which approaches reality. We hear 
+the sound of the horn
+at daybreak, calling the sick and the weary to
+  <note id="note5" n="5" rend="sc" place="foot" anchored="yes" target="ptr5">*As the narrator was unable to read or write, it is
+quite possible that the orthography of some of the names
+of individuals mentioned in this story may not be entirely correct. For instance, the name of his master
+may have been either Larrimer or Larrimore.</note>
+<pb id="williamsxx" n="xx"/>
+toil unrequited. Woman, in her appealing delicacy 
+and suffering, about to become a mother, is
+fainting under the lash, or sinking exhausted beside 
+her cotton row. We hear the prayer for
+mercy answered with sneers and curses. We
+look on the instruments of torture, and the corpses
+of murdered men. We see the dogs, reeking
+hot from the chase, with their jaws foul with human 
+blood. We see the meek and aged Christian,
+scarred with the lash, and bowed down with toil,
+offering the supplication of a broken heart to his
+Father in Heaven for the forgiveness of his brutal 
+enemy. We hear, and from our inmost hearts
+repeat, the affecting interrogatory of the aged
+slave, <hi rend="italis">”How long, Oh Lord! How long!”</hi></p>
+          <p>The Editor has written out the details of this
+painful narrative with feelings of sorrow. If
+there be any who feel a morbid satisfaction in
+dwelling upon the history of outrage and cruelty,
+he at least is not one of them.  His taste and
+habits incline him rather to look to the pure and
+beautiful in our nature  -  the sunniest side of humanity  -  
+its kindly sympathies  -  its holy affections  -  
+its charities and its love. But it is because he has seen that all which is thus beautiful
+<pb id="williamsxxi" n="xxi"/>
+and excellent in mind and heart perishes in the
+atmosphere of slavery; it is because humanity
+in the slave sinks down to a level with the brute,
+and in the master gives place to the attributes of
+a fiend  -  that he has not felt at liberty to decline
+the task. He cannot sympathize with that abstract and delicate philanthropy which hesitates
+to bring itself in contact with the sufferer, and
+which shrinks from the effort of searching out
+the extent of his afflictions. The emblem of
+Practical Philanthropy is the Samaritan stooping
+over the wounded Jew. It must be no fastidious
+hand which administers the oil and the wine, and
+binds up the unsightly gashes.</p>
+          <p>Believing, as he does, that this narrative is one
+of truth; that it presents an unexaggerated picture of slavery as it exists on the cotton plantations of the South and West, he would particularly invite to its perusal those individuals, and
+especially those professing Christians at the North,
+who have ventured to claim for such a system
+the sanction and approval of the religion of Jesus
+Christ. In view of the facts here presented, let
+these men seriously inquire of themselves, whether, in advancing such a claim, they are not uttering 
+<pb id="williamsxxii" n="xxii"/>
+a higher and more audacious blasphemy than
+any which ever fell from the pens of Voltaire and
+Paine. As if to cover them with confusion, and
+leave them utterly without excuse for thus libelling 
+the character of a just God, these developments
+ are making, and the veil rising, which for
+long years of sinful apathy has rested upon the
+abominations of American Slavery. Light is
+breaking into its dungeons, disclosing the wreck
+of buried intellect  -  of hearts broken  -  of human
+affections outraged  -  of souls ruined. The world
+will see it as God has always seen it; and when
+He shall at length make inquisition for blood, and
+His vengeance kindle over the habitations of cruelty, with a destruction more terrible than that of
+Sodom and Gomorrah, His righteous dealing will
+be justified of man, and His name glorified among
+the nations, and there will be a voice of rejoicing
+in Earth and in Heaven. ALLELUIA! THE PROMISE IS FULFILLED!  -  FOR THE SIGHING OF THE
+POOR AND THE OPPRESSION OF THE NEEDY, GOD
+HATH RISEN!</p>
+          <p>It is the earnest desire of the Editor that this
+narrative may be the means, under God, of awakening 
+in the hearts of all who read it a sympathy 
+<pb id="williamsxxiii" n="xxiii"/>
+for the oppressed which shall manifest itself
+in immediate, active, self-sacrificing exertions for
+their deliverance; and, while it excites abhorrence 
+of his crimes, call forth pity for the oppressor. 
+May it have the effect to prevent the avowed 
+and associated friends of the slave from giving
+such an undue importance to their own trials and
+grievances, as to forget in a great measure the
+sorrows of the slave. Let its cry of <sic>wo</sic>, coming,
+up from the plantations of the South, suppress
+every feeling of selfishness in our hearts. Let
+our regret and indignation at the denial of the
+right of petition be felt only because we are
+thereby prevented, frown pleading in the halls of
+Congress for the ”suffering and the dumb.”
+And let the fact, that we are shut out from half
+the territory of our country, be lamented only
+because it prevents us from bearing personally to
+the land of slavery the messages of hope for the
+slave, and of rebuke and warning for the oppressor.</p>
+          <closer><hi rend="italics"> New York, 24th 1st. mo.,</hi>
+  1838.</closer>
+        </div2>
+      </div1>
+    </front>
+    <body>
+      <pb id="williams25" n="25"/>
+      <head>NARRATIVE</head>
+      <p>I WAS born in Powhatan County, Virginia, on
+the plantation of George Larrimore, sen., at
+place called Mount Pleasant, on the 16th of May,
+1805. My father was the slave of an orphan
+family whose name I have forgotten, and was under
+the care of a Mr. Brooks, guardian of the
+family. He was a native of Africa, and was
+brought over when a mere child, with his mother.
+My mother was the slave of George Larrimore,
+sen. She was nearly white, and is well known
+to have been the daughter of Mr. Larrimore himself.
+She died when myself and my twin brother
+Meshech were five years of age. I can
+scarcely remember her. She had in all eight
+children, of whom only five are now living. One,
+a brother, belongs to the heirs of the late Mr.
+Brockenbrough, of Charlottesville; of whom he
+hires his time, and pays annually $120 for it.
+He is a member of the Baptist church, and used
+to preach occasionally. His wife is a free woman
+                                                   <pb id="williams26" n="26"/>
+from Philadelphia and being able to read and
+write, taught her husband. The whites do not
+know that he can write, and have often wondered
+that he could preach so well without learning.
+It is the practice when a church is crowded to
+turn the blacks out of their seats. My brother
+did not like this, and on one occasion preached a
+sermon from a text, showing that all are of one
+blood. Some of the whites who heard it said
+that such preaching would raise an insurrection
+among the negroes. Two of them told him that
+if he would prove his doctrine by Scripture, they
+would let him go, but if he did not, he should
+have nine and thirty lashes. He accordingly
+preached another sermon, and spoke with a great
+deal of boldness. The two men who were in
+favor of having him whipped left before the sermon
+was over, those who remained acknowledged
+that he had proved his doctrine, and
+preached a good sermon, and many of them came
+up and shook hands with him. The two opposers,
+Scott and Brockley, forbid my brother, after
+this, to come upon their estates. They were both
+Baptists, and my brother had before preached to
+their people. During the cholera at Richmond,
+<pb id="williams27" n="27"/>
+my brother preached a sermon, in which he compared
+the pestilence to the plagues which <sic>afflict-</sic>
+the Egyptian slave-holders, because they would
+not let the people go. After the sermon some of
+the whites threatened to whip him. Mr. Valentine,
+a merchant on Shocko Hill, prevented them;
+and a young lawyer named Brooks said it was
+wrong to threaten a man for preaching the truth.
+Since the insurrection of Nat. Turner he has not
+been allowed to preach at all.</p>
+      <p> My twin brother was for some time the property
+of Mr. John Griggs, of Richmond, who
+sold him, about three years since, to an Alabama
+cotton planter, with whom he <sic>staid</sic> one year,
+and then ran away; and in all probability escaped
+into the free states or Canada, as he was seen
+near the Maryland line. My other brother lives
+in Fredericksburg, and belongs to a Mr. Scott, a
+merchant, formerly of Richmond. He was sold
+from Mr. Larrimore's plantation because his wife
+was a slave of Mr. Scott. My only sister is the
+slave of John Smith, of King William. Her
+husband was the slave of Mr. Smith, when the
+latter lived in Powhatan County, and when he
+removed to King William she was taken with
+her husband.</p>
+      <pb id="williams28" n="28"/>
+      <p>My old master, George Larrimore, married
+Jane Roane, the sister of a gentleman named
+John Roane, one of the most distinguished men
+in Virginia, who in turn married a sister of my
+master. One of his sisters married a Judge
+Scott, and another married Mr. Brockenbrough,
+of Charlottsville. Mr. Larrimore had three children; George, Jane, and Elizabeth. The former
+was just ten days older than myself; and I was
+his playmate and constant associate in childhood.
+I used to go with him to his school, and carry his
+books for him as far as the door, and meet him
+there when the school was dismissed. We were
+very fond of each other, and frequently slept together.
+He taught me the letters of the alphabet,
+and I should soon have acquired a knowledge
+of reading, had not George's mother discovered
+her son in the act of teaching me. She took him
+aside and severely reprimanded him. When I
+asked him, not long after, to tell me more of what
+he had learned at school, he said that his mother
+had forbidden him to do so any more, as her father
+had a slave who was instructed in reading
+and writing, and on that account proved very
+troublesome. He could imitate the hand-writing
+of all the neighboring planters, and used to write
+<pb id="williams29" n="29"/>
+passes and certificates of freedom for the slaves,
+and finally wrote one for himself, and went off to
+Philadelphia, from whence her father received 
+from him a saucy letter, thanking him for his
+education.</p>
+      <p> The early years of my life went by pleasantly.
+The bitterness of my lot I had not yet realized
+Comfortably clothed and fed, kindly treated by
+my old master and mistress and the young ladies,
+and the playmate and confidant of any young
+master, I did not dream of the dark reality of
+evil before me.</p>
+      <p> When he was fourteen years of age, master
+George went to his uncle Brockenbrough's, at
+Charlottsville, as a student of the University.
+After his return from college, he went to Paris
+and other parts of Europe, and spent three or
+four years in study and travelling. In the mean
+time I was a waiter in the house, dining-room
+servant, &amp;c. My old master visited and received
+visits from a great number of the principal families
+in Virginia. Each summer, with his family,
+he visited the sulphur springs and the mountains.
+While George was absent, I went with him to
+New Orleans, in the winter season, on account
+of his failing health. We spent three days in
+<pb id="williams30" n="30"/>
+Charleston, at Mr. McDuffie's, with whom my
+master was on intimate terms. Mr. McDuffie 
+spent several days on one occasion at Mt. Pleasant.
+He took a fancy to me, and offered my
+master the servant whom he brought with him,
+and $500 beside, for me. My master considered
+it almost an insult, and said, after he was gone,
+that Mr. McDuffie needed money, to say the
+least, as much as he did.</p>
+      <p>He had a fine house in Richmond, and used to
+spend his winters there with his family, taking
+me with him. He was not there much at other
+times, except when the Convention of 1829, for
+amending the State Constitution, was held in
+that city. He had a quarrel with Mr. Neal, of
+Richmond Co., in consequence of some remarks
+upon the subject of slavery. It came near terminating
+in a duel. I recollect that during the:
+sitting of the Convention any master asked me,
+before several other gentlemen, if I wished to be
+free and go back to my own country. I looked
+at him with surprise, and inquired what country.</p>
+      <p>”Africa, to be sure,” said he, laughing.</p>
+      <p>I told him that was not my country  -  that I
+was born in Virginia.</p>
+      <p> ”Oh yes,” said he,” but your father was born
+<pb id="williams31" n="31"/>
+in Africa.” He then said that there was a place
+on the African coast called Liberia, where a great
+many free blacks were going; and asked me to
+tell him honestly whether I  would prefer to be
+set free on condition of going to Africa, or live
+with him and remain a slave. I replied that I
+had rather be as I was.</p>
+      <p>I have frequently heard him speak against
+slavery to his visitors. I heard him say on one
+occasion, when some gentlemen were arguing in
+favor of sending the free colored people to Africa,
+that this was as really the black man's country
+as the white's, and that it would be as humane to
+knock the free Negroes, at once, on the head, as
+to send them to Liberia. He was a kind man to
+his slaves. He was proud of them, and of the
+reputation he enjoyed of feeding and clothing
+them well. They were, as near as I can judge,
+about 300 in number. He never to my knowledge
+sold a slave, unless to go with a wife or
+husband, and at the slave's own request. But all
+except the very wealthiest planters in his neighborhood
+sold them frequently. John Smoot, of
+Powhatan Co., has sold a great number. Bacon
+Tait<ptr id="ptr6" n="6" target="note6" targOrder="U"/> used to be one of the principal purchasers.
+<note id="note6" n="6" anchored="yes" target="ptr6">*Bacon Tait's advertisement of ” new and commodious
+buildings” for the keeping of negroes, situated at
+the corner of 15th and Carey streets, appears in the
+Richmond Whig of Sept. 1835.  -  EDITOR.</note>
+<pb id="williams32" n="32"/>
+He had a jail at Richmond where he kept them.
+There were many others who made a business
+of buying and selling slaves. I saw on one occasion,
+while travelling with my master, a gang of
+nearly two hundred men fastened to a single
+chain. The women followed unchained and the
+children in wagons. It was a sorrowful sight.
+Some were praying, some crying, and they all
+had a look of extreme wretchedness. It is an
+awful thing to a Virginia slave to be sold for the
+Alabama and Mississippi country. I have known
+some of them to die of grief, and others to commit
+suicide, on account of it. Sometimes, when
+slaves are to he sold, they go to the rich planters
+in their vicinity and beseech them to purchase
+them. It is no uncommon thing for those planters
+to whom they thus apply, to give orders for their
+concealment somewhere on the plantation, and,
+after they are advertised as runaways, to offer to
+buy them, and run the risk of finding them. In
+this way they get them for a fourth part of their
+value After the bargain is made, the slaves
+come back to their old masters, ask pardon for
+running away, and are turned over to their new
+owners. Mr. Larrimore employed his overseer
+<pb id="williams33" n="33"/>
+in obtaining six slaves in this way, of Stephen
+Ransdell, of Caroline County.</p>
+      <p>In my seventeenth year, I was married to a
+girl named Harriet, belonging to John Gatewood,
+a planter, living about four miles from Mt. Pleasant. She was about a year younger than myself
+  -  was a tailoress, and used to cut out clothes
+for the hands.</p>
+      <p>We were married by a white clergyman named
+Jones; and were allowed two or three weeks to
+ourselves, which we spent in visiting and other
+amusements.</p>
+      <p>The field hands are seldom married by a clergyman.
+They simply invite their friends together,
+and have a wedding party.</p>
+      <p>Our two eldest children died in their infancy;
+two are now living. The youngest was only two
+months old when I saw him for the last time. I
+used to visit my wife on Saturday and Sunday
+evenings.</p>
+      <p>My young master came back from Europe in
+delicate health. He was advised by his physicians
+to spend the winter in New Orleans, whither
+he accordingly went, taking me with him. Here
+he became acquainted with a French lady of one
+<pb id="williams34" n="34"/>
+of the first families in the city. The next winter
+he also spent in New Orleans, and on his third
+visit, three years after his return from Europe, he
+was married to the lady above mentioned. In
+May he returned to Mt. Pleasant, and found the
+elder Larrimore on his sick bed, from which he
+never rose again. He died on the 14th of July.
+There was a great and splendid funeral, as his
+relatives and friends were numerous.</p>
+      <p>His large property was left principally in the
+hands of his widow until her decease, after which
+it was to be divided among the three children. In
+February, Mrs. Larrimore also died. The administrators
+upon the estate were John Green, Esq.,
+and Benjamin Temple.</p>
+      <p>My young mistresses, Jane and Elizabeth, were
+very kind to the servants. They seemed to feel
+under obligations to afford them every comfort and
+gratification, consistent with the dreadful relation
+of ownership which they sustained towards them.
+Whipping was scarcely known on the estate; and,
+whenever it did take place, it was invariably
+against the wishes of the young ladies.</p>
+      <p> But the wife of master George was of a disposition
+entirely the reverse. Feeble, languid, and
+<pb id="williams35" n="35"/>
+inert, sitting motionless for hours at her window,
+or moving her small fingers over the strings of
+her guitar, to some soft and languishing air, she
+would have seemed to a stranger incapable of
+rousing herself from that indolent repose, in which
+mind as well as body participated. But, the
+slightest disregard of her commands, and sometimes
+even the neglect to anticipate her wishes,
+on the part of the servants, was sufficient to awake
+her. The inanimate and delicate beauty then
+changed into a stormy virago. Her black eyes
+glowed and sparkled with a snaky fierceness, her
+full lips compressed, and her brows bent and darkened.
+Her very voice, soft and sweet when speaking
+to her husband, and exquisitely fine and melodious
+when accompanying her guitar, was at
+such times shrill, keen, and loud. She would
+order the servants of my young mistresses upon
+her errands, and if they pleaded their prior duty to
+obey the calls of another would demand that
+they should be forthwith whipped for their insolence.
+If the young ladies remonstrated with her,
+she met them with a perfect torrent of invective
+and abuse. In these paroxysms of fury she always
+spoke in French, with a vehemence and
+volubility which strongly contrasted with the
+<pb id="williams36" n="36"/>
+calmness and firmness of the young ladies. She
+would boast of what she had done in New Orleans,
+and of the excellent discipline of her father's slaves.
+She said she had gone down in the night to the
+cell under her father's house, and whipped the
+slaves confined there with her own hands. I had
+heard the same thing from her father's servants at
+New Orleans when I was there with my master.
+She brought with her from New Orleans a girl
+named Frances.  I have seen her take her by the
+ear, lead her up to the side of the room, and beat
+her head against it.  At other times she would
+snatch off her slipper and strike the girl on her
+face and head with it. </p>
+      <p>She seldom manifested her evil temper before
+master George.  When she did, he was greatly
+troubled, and he used to speak to his sisters about
+it. Her manner towards him was invariably that
+of extreme fondness.  She was dark complexioned,
+but very beautiful; and the smile of welcome
+with which she used to meet him was peculiarly
+fascinating. I did not marvel that he loved her;
+while at the same time, in common with all the
+house servants, I regarded her as a being possessed
+with an evil spirit,  -  half woman, and half fiend.</p>
+      <p>Soon after the settlement of the estate, I heard
+<pb id="williams37" n="37"/>
+my master speak of going out to Alabama. His
+wife had 1500 acres of wild land in Greene County,
+in that State, and he had been negotiating for
+500 more. Early in the summer of 1833, he commenced
+making preparations for removing to that
+place a sufficient number of hands to cultivate it.
+He took great pains to buy up the wives and husbands
+of those of his own slaves who had married
+out of the estate, in order, as he said, that his hands
+might be contented in Alabama, and not need
+chaining together while on their journey. It is always
+found necessary by the regular slave-traders,
+in travelling with their slaves to the far South, to
+handcuff and chain their wretched victims, who
+have been bought up as the interest of the trader
+and the luxury or necessities of the planter may
+chance to require, without regard to the ties sundered
+or the affections made desolate by these infernal
+bargains. About the 1st of September, after
+the slaves destined for Alabama had taken a final
+farewell of their old home, and of the friends they
+were leaving behind, our party started on their
+long journey. There were in all 214 slaves, men,
+women, and children. The men and women travelled
+on foot  -  the small children in the wagons,
+<pb id="williams38" n="38"/>
+containing the baggage, &amp;c. Previous to my departure,
+I visited my wife and children, at Mr.
+Gatewood's. I took leave of them with the belief
+that I should return with my master, as soon as he
+had seen his hands established on his new plantation.
+I took my children in my arms and embraced
+them; my wife, who was a member of the Methodist church, implored the blessing of God upon me
+during my absence, and I turned away to follow
+my master.</p>
+      <p>Our journey was a long and tedious one, especially
+to those who were compelled to walk the
+whole distance. My master rode in a sulky, and
+I, as his body servant, on horseback. When we
+crossed over the Roanoke, and were entering upon
+North Carolina, I remember with what sorrowful
+countenances and language the poor slaves looked
+back for the last time upon the land of their nativity.
+It was their last farewell to Old Virginia.
+We passed through Georgia, and, crossing the
+Chattahooche, entered Alabama. Our way for
+many days was through a sandy tract of country,
+covered with pine woods, with here and there the
+plantation of an Indian or a half-breed. After
+crossing what is called Line Creek, we found large
+<pb id="williams39" n="39"/>
+plantations along the road, at intervals of four or
+five miles. The aspect of the whole country was
+wild and forbidding, save to the eye of a cotton
+planter. The clearings were all new, and the
+houses rudely constructed of logs. The cotton
+fields were skirted with an enormous growth of
+oak, pine, and bass wood. Charred stumps stood
+thickly in the clearings, with here and there a
+large tree girdled by the axe and left to decay.
+We reached at last the place of our destination.
+It was a fine tract of land, with a deep rich soil.
+We halted on a small knoll, where the tents were
+pitched, and the wagons unladen. I spent the
+night with my master at a neighboring plantation,
+which was under the care of an overseer named
+Flincher.</p>
+      <p>The next morning my master received a visit
+from a man named Huckstep, who had undertaken
+the management of his plantation as an overseer.
+He had been an overseer on cotton plantations
+many years in Georgia and North Carolina. He
+was apparently about forty years of age, with a
+sunburnt and sallow countenance. His thick shock
+of black hair was marked in several places with
+streaks of white, occasioned, as he afterwards told
+<pb id="williams40" n="40"/>
+me, by blows received from slaves whom he was
+chastising.</p>
+      <p>After remaining in the vicinity for about a week,
+my master took me aside one morning, told me he
+was going to Selma, in Dallas County, and wished
+me to be in readiness, on his return the next day,
+to start for Virginia. This was to me cheering
+news. I spent that day and the next among my
+old fellow-servants who had lived with me in Virginia.
+Some of them had messages to send by
+me to their friends and acquaintances. In the
+afternoon of the second day after my master's departure,
+I distributed among them all the money
+which I had about me, viz., fifteen dollars. I noticed
+that the overseer Huckstep laughed at this
+and called me a fool; and that whenever I spoke
+of going home with my master, his countenance
+indicated something between a smile and a sneer.</p>
+      <p>Night came; but, contrary to his promise, my
+master did not come. I still, however, expected
+him the next day. But another night came, and
+he had not returned. I grew uneasy, and inquired
+of Huckstep where he thought my master was.</p>
+      <p> ” On his way to old Virginia,” said he, with a
+malicious laugh.</p>
+      <pb id="williams41" n="41"/>
+      <p>”But,” said I, ”master George told me that he
+should come back and take me levity him to Virginia.”</p>
+      <p>”Well, boy,” said the overseer, ”I'll now tell
+ye what master George, as you call him, told me.
+You are to stay here and act as driver of the field
+hands. That was the order. So you may as
+well submit to it at once.”</p>
+      <p>I stood silent and horror-struck. Could it be
+that the man whom I had served faithfully from
+our mutual boyhood, whose slightest wish had
+been my law, to serve whom I would have laid
+down my life, while I had confidence in his integrity
+  -  could it be that he had so cruelly and
+wickedly deceived me? I looked at the overseer.
+He stood laughing at me in my agony.</p>
+      <p>”Master George gave you no such orders,” I
+exclaimed, maddened by the overseer's look and
+manner.</p>
+      <p>The overseer looked at me with a fiendish grin.
+”None of your insolence,” said he, with a dreadful oath. ”I never saw a Virginia nigger that I
+couldn't manage, proud as they are. Your master
+has left you in my hands, and you must obey my
+orders. If you don't, why, I shall have to make
+<pb id="williams42" n="42"/>
+you ‘<hi rend="italics">hug the widow there</hi>,’” pointing to a tree, to
+which I afterwards found the slaves were tied
+when they were whipped.</p>
+      <p>That night was one of sleepless agony. Virginia,
+the hills and the streams of my birth-place;
+the kind and hospitable home; the gentle-hearted
+sisters, sweetening with their sympathy the sorrows
+of the slave; my wife, my children  -  all that
+had thus far made up my happiness, rose in contrast
+with my present condition. Deeply as he
+has wronged me, may my master himself never
+endure such a night of misery!</p>
+      <p>At daybreak, Huckstep told me to dress myself
+and attend to his directions. I rose, subdued and
+wretched, and at his orders handed the horn to the
+headman of the gang, who summoned the hands to
+the field. They were employed in clearing land
+for cultivation, cutting trees, and burning. I was
+with them through the day, and at night returned
+once more to my lodgings to be laughed at by the
+overseer. He told me that I should do well, he
+did not doubt, by and by, but that a Virginia driver
+generally had to be whipped a few times himself
+before he could be learned to do justice to the
+slaves under his charge. They were not equal to
+<pb id="williams43" n="43"/>
+those raised in North Carolina, for keeping the
+lazy hell-hounds, as he called the slaves, at work.</p>
+      <p>And this was my condition! a driver set over
+more than one hundred and sixty of my kindred
+and friends, with orders to apply the whip unsparingly
+to every one, whether man or woman,
+who faltered in the task, or was careless in the
+execution of it, myself subject at any moment to
+feel the accursed lash upon my own back, if feelings
+of humanity should perchance overcome the
+selfishness of misery, and induce me to spare and
+pity.</p>
+      <p>I lived in the same house with Huckstep; a
+large log house, roughly finished, where we were
+waited upon by an old woman, whom we used to
+call aunt Polly. Huckstep was, I soon found, inordinately
+fond of peach brandy; and once or
+twice in the course of a month he had a drunken
+debauch, which usually lasted from two to four
+days. He was then full of talk, laughed immoderately
+at his own nonsense, and would keep me
+up until late at night listening to him. He was
+at these periods terribly severe to his hands, and
+would order me to use up the cracker of my whip
+every day upon the poor creatures who were toiling
+in the field; and in order to satisfy him, I used
+<pb id="williams44" n="44"/>
+to tear it off when returning home at night. He
+would then praise me for a good fellow, and invite
+me to drink with him. He used to tell me at such
+times that if I would only drink as he did I should
+be worth a thousand dollars more for it. He would
+sit for hours with his peach brandy, cursing and
+swearing, laughing and telling stories full of obscenity
+and blasphemy. He would sometimes
+start up, take my whip, and rush out to the slave
+quarters, flourish it about and frighten their inmates,
+and often cruelly beat them. He would
+order the women to pull up their clothes, in Alabama
+style, as he called it, and then whip them
+for not complying. He would then come back
+roaring and shouting to the house, and tell me
+what he had done; if I did not laugh with him,
+he would get angry and demand what the matter
+was. Oh! how often have I laughed, at such
+times, when my heart ached within me; and how
+often, when permitted to retire to my bed, I found
+relief in tears!</p>
+      <p>He had no wife, but kept a colored mistress in
+a house situated on a gore of land between the
+plantation and that of Mr. Goldsby's. He brought
+her with him from North Carolina, and had three
+children by her.</p>
+      <pb id="williams45" n="45"/>
+      <p>Sometimes, in his fits of intoxication, he would
+come riding into the field, swinging his whip, and
+crying out to the hands to strip off their shirts and
+be ready to take a whipping; and this too when
+they were all busily at work. At another time,
+he would gather the hands around him and fall to
+cursing and swearing about the neighboring overseers.
+They were, he said, cruel to their hands,
+whipped them unmercifully, and in addition starved
+them. As for himself, he was the kindest and
+best fellow within forty miles; and the hands ought
+to be thankful that they had such a good man for
+their overseer.</p>
+      <p>He would frequently be very familiar with me,
+and call me his child; he would tell me that our
+people were going to get Texas, a fine cotton country,
+and that he meant to go out there and have a
+plantation of his own, and I should go with him
+and be his overseer.</p>
+      <p>The houses in the ” negro quarters ” were constructed
+of logs, and from twelve to fifteen feet
+square; they had no glass, but there were holes to
+let in the light and air. The furniture consisted
+of a table, a few stools, and dishes made of wood,
+and an iron pot, and some other cooking utensils.
+The houses were placed about three or four rods
+<pb id="williams46" n="46"/>
+apart, with a piece of ground attached to each of
+them for a garden, where the occupant could raise a
+few vegetables. The ”quarters” were about three
+hundred yards from the dwelling of the overseer.</p>
+      <p>The hands were occupied in clearing land and
+burning brush, and in constructing their houses,
+through the winter. In March we commenced
+ploughing, and on the first of April began planting
+seed for cotton. The hoeing season commenced
+about the last of May. At the earliest dawn
+of day, and frequently before that time, the laborers
+were roused from their sleep by the blowing of
+the horn. It was blown by the headman of the
+gang, who led the rest in the work and acted under
+my direction, as my assistant.</p>
+      <p>Previous to the blowing of the horn the hands
+generally rose and eat what was called the ”morning's
+bit,” consisting of ham and bread. If exhaustion
+and fatigue prevented their rising before
+the dreaded sound of the horn broke upon their
+slumbers, they had no time to snatch a mouthful,
+but were hurried out at once.</p>
+      <p>It was my business to give over to each of the
+hands his or her appropriate implement of labor,
+from the tool-house, where they were deposited at
+night. After all had been supplied, they were
+<pb id="williams47" n="47"/>
+taken to the field, and set at work as soon as it
+was sufficiently light to distinguish the plants from
+the grass and weeds. I was employed in passing
+from row to row, in order to see that the work was
+well done, and to urge forward the laborers. At
+12 o'clock the horn was blown from the overseer's
+house, calling the hands to dinner, each to his own
+cabin. The intermission of labor was one hour and
+a half to <sic>hoers</sic> and pickers, and two hours to the
+<sic>ploughmen</sic>. At the expiration of this interval the
+horn again summoned them to their labor. They
+were kept in the field until dark, when they were
+called home to supper.</p>
+      <p>There was little leisure for any of the hands on
+the plantation. In the evenings, after it was too
+dark for work in the field, the men were frequently
+employed in burning brush, and in other labors,
+until late at night. The women, after toiling in
+the field by day, were compelled to card, spin, and
+weave cotton for their clothing, in the evening.
+Even on Sundays there was little or no respite
+from toil. Those who had not been able to work
+out all their task during the week were allowed
+by the overseer to finish it on the Sabbath, and
+thus save themselves from a whipping on Monday
+<pb id="williams48" n="48"/>
+morning. Those whose tasks were finished frequently employed most of that day in cultivating
+their gardens.</p>
+      <p>Many of the female hands were delicate young
+women, who in Virginia had never been accustomed
+to field labor. They suffered greatly from
+the extreme heat and the severity of the toil. Oh!
+how often have I seen them drawing their weary
+limbs frown the cotton field at nightfall, faint and
+exhausted. The overseer used to laugh at their
+sufferings. They were, he said, Virginia ladies,
+and altogether too delicate for Alabama use; but
+they must be made to do their tasks notwithstanding.
+The recollection of these things even now is
+dreadful. I used to tell the poor creatures, when
+compelled by the overseer to urge them forward
+with the whip, that I would much rather take their
+places and endure the stripes than inflict them.</p>
+      <p>When but three months old, the children born
+on the estate were given up to the care of the old
+women who were not able to work out of doors.
+Their mothers were kept at work in the field.</p>
+      <p>It was the object of the overseer to separate me
+in feeling and interest as widely as possible from
+my suffering brethren and sisters. I had relations
+<pb id="williams49" n="49"/>
+among the field hands, and used to call them my
+cousins. He forbid my doing so, and told me if I
+acknowledged relationship with any of the bands I
+should be flogged for it. He used to speak of them
+as devils and hell-hounds, and ridicule them in
+every possible way; and endeavored to make me
+speak of them and regard them in the same manner.
+He would tell long stories about hunting and
+shooting ” runaway niggers,” and detail with great
+apparent satisfaction the cruel and horrid punishments
+which he had inflicted. One thing he said
+troubled him. He had once whipped a slave so
+severely that he died in consequence of it, and it
+was soon after ascertained that he was wholly innocent
+of the offence charged against him. That
+slave, he said, had haunted him ever since.</p>
+      <p>Soon after we commenced weeding our cotton,
+some of the hands, who were threatened with a
+whipping for not finishing their tasks, ran away.
+The overseer and myself went out after them, taking
+with us five bloodhounds, which were kept on
+the estate for the sole purpose of catching runaways.
+There were no other hounds in the vicinity,
+and the overseers of the neighboring plantations
+used to borrow them to hunt their runaways. A
+<pb id="williams50" n="50"/>
+Mr. Crop, who lived about ten miles distant, had
+two packs, and made it his sole business to catch
+slaves with them. We used to set the dogs upon
+the track of the fugitives, and they would follow
+them until, to save themselves from being torn in
+pieces, they would cling into a tree, where the
+dogs kept them until we came up and secured
+them.</p>
+      <p>These hounds, when young, are taught to run
+after the negro boys; and being always kept confined
+except when let out in pursuit of runaways,
+they seldom fail of overtaking the fugitive, and
+seem to enjoy the sport of hunting men as much
+as other dogs do that of chasing a fox or a deer.
+My master gave the sum of $500 for his five dogs,
+a slut and her four puppies.</p>
+      <p>While going over our cotton picking for the last
+time, one of our hands, named Little John, ran
+away. The next evening the dogs were started
+on his track. We followed them awhile, until we
+knew by their ceasing to bark that they had found
+him. We soon met the dogs returning. Their
+jaws, heads, and feet, were bloody. The overseer
+looked at them and said “he was afraid the dogs
+had killed the nigger.” It being dark, we could
+<pb id="williams51" n="51"/>
+not find him that night. Earlier the next morning
+we started off with our neighbors, Sturtivant and
+Flincher, and after searching about for some time,
+we found the body of Little John lying in the midst
+of a thicket of cane. It was nearly naked, and
+dreadfully mangled and gashed by the teeth of the
+dogs. They had evidently dragged it some yards
+through the thicket: blood, tatters of clothes, and
+even the entrails of the unfortunate man, were
+clinging to the stubs of the old and broken cane.
+Huckstep stooped over his saddle, looked at the
+body, and muttered an oath. Sturtivant swore it
+was no more than the fellow deserved. We dug a
+hole in the cane-brake, where he lay, buried him,
+and returned home.</p>
+      <p>The murdered young man had a mother and two
+sisters on the plantation, by whom he was dearly
+loved. When I told the old woman of what had
+befallen her son, she only said that it was better
+for poor John than to live in slavery.</p>
+      <p>Late in the fall of this year, a young man, who
+had already run away several times, was missing
+from his task. It was four days before we found
+him. The dogs drove him at last up a tree, where
+he was caught, and brought home. He was then
+<pb id="williams52" n="52"/>
+fastened down to the ground by means of forked
+sticks of wood selected for the purpose, the longest
+fork being driven into the ground the other
+closed down upon the neck, ankles, and wrists.
+The overseer then sent for two large cats belonging to the house. These he placed upon the naked shoulders of his victim, and dragged them suddenly by their tails downward. At first they did
+not scratch deeply. He then ordered me to strike
+them with a small stick after he had placed them
+once more upon the back of the sufferer.  I did so;
+and the enraged animals extended their claws,
+and tore his back deeply and cruelly as they were
+dragged along it. He was then whipped and
+placed in the stocks, where he was kept three days.
+On the third morning, as I passed the stocks, I
+stopped to look at him. His head hung down
+over the chain which supported his neck. I spoke,
+but he did not answer. <hi rend="italics">He was dead In the stocks!</hi>
+The overseer on seeing him seemed surprised,
+and, I thought, manifested some remorse. Four
+of the field hands took him out of the stocks and
+buried him; and every thing went on as usual.</p>
+      <p>It is not in my power to give a narrative of the
+daily occurrences on the plantation. The history
+<pb id="williams53" n="53"/>
+of one day was that of all. The gloomy monotony of our slavery was only broken by the overseer's periodical fits of drunkenness, at which
+times neither life nor limb on the estate were secure from his caprice or violence.</p>
+      <p>In the spring of 1835, the overseer brought me
+a letter from my wife, written for her by her
+young mistress, Mr. Gatewood's daughter. He
+read it to me. It stated that herself and children
+were well  -  spoke of her sad and heavy disappointment
+in consequence of my not returning
+with my master, and of her having been told by
+him that I should come back the next fall.</p>
+      <p>Hope for a moment lightened my heart, and I
+indulged the idea of once more returning to the
+bosom of my family. But I recollected that my
+master had already cruelly deceived me, and
+despair again took hold on me.</p>
+      <p> Among our hands was one whom we used to
+call Big Harry. He was a stout, athletic man,
+very intelligent, and an excellent workman; but
+he was of a high and proud spirit, which the
+weary and crushing weight of a life of slavery
+had not been able to subdue. On almost every
+plantation at the South you may find one or more
+individuals whose look and air show that they
+<pb id="williams54" n="54"/>
+have preserved their self-respect as <hi rend="italics">men;</hi>  -  that
+with them the power of the tyrant ends with the
+coercion of the body  -  that the soul is free, and
+the inner man retaining the original uprightness
+of the image of God. You may know them by
+the stern sobriety of their countenances, and the
+contempt with which they regard the jests and
+pastimes of their miserable and degraded companions,
+who, like Samson, make sport for the keepers
+of their prison-house. These men are always
+feared as well as hated by their task-masters.
+Harry had never been whipped, and had always
+said that he would die rather than submit to it.
+He made no secret of his detestation of the overseer.
+While most of the slaves took off their
+hats, with cowering submission, in his presence,
+Harry always refused to do so. He never spoke
+to him except in a brief answer to his questions.
+Master George, who knew and dreaded the indomitable
+spirit of the man, told the overseer, before
+he left the plantation, to beware how he attempted
+to punish him. But the habits of tyranny in which
+Huckstep had so long indulged had accustomed
+him to abject submission on the part of his subjects,
+and he could not endure this upright and
+unbroken manliness. He used frequently to curse
+<pb id="williams55" n="55"/>
+and swear about him, and devise plans for punishing
+him on account of his impudence, as he
+called it.</p>
+      <p>A pretext was at last afforded him. Some time
+in August of this year there was a large quantity
+of yellow unpicked cotton lying in the gin house.
+Harry was employed at night in removing the
+cotton seed, which had been thrown out by the
+gin. The rest of the male hands were engaged
+during, the day in weeding the cotton for the last
+time, and in the night in burning brush on the
+new lands clearing for the next year's crop. Harry
+was told one evening to go with the others and
+assist in burning the brush. He accordingly
+went; and the next night a double quantity of
+seed had accumulated in the gin house; and,
+although he worked until nearly two o'clock in
+the morning, he could not remove it all.</p>
+      <p>The next morning the overseer came into the
+field, and demanded of me why I had not whipped
+Harry for not removing all the cotton seed. He
+then called aloud to Harry to come forward and
+be whipped. Harry answered somewhat sternly
+that he would neither be struck by overseer nor
+driver; that he had worked nearly all night, and
+had scarcely fallen asleep when the horn blew to
+<pb id="williams56" n="56"/>
+summon him to his toil in the field. The overseer
+raved and threatened, but Harry paid no farther
+attention to him. He then turned to me and
+asked me for my pistols, with a pair of which he
+had furnished me. I told him they were not
+with me. He growled an oath, threw himself on
+his horse, and left us. In the evening I found
+him half drunk and raving like a madman. He
+said he would no longer bear with that nigger's
+insolence, but would whip him if it cost him his
+life. He at length fixed upon a plan for seizing
+him, and told me that he would go out in the
+morning, ride along by the side of Harry and talk
+pleasantly to him, and then, while Harry was
+attending to him, I was to steal upon him and
+knock him down, by a blow on the head from
+the loaded and heavy handle of any whip. I was
+compelled to promise to obey his directions.</p>
+      <p>The next morning, when we got to the field, I
+told Harry of the overseer's plan, and advised
+him by all means to be on his guard and watch
+my motions. His eye glistened with gratitude.
+“Thank you, James,” said he; “I'll take care
+that you don't touch me.”</p>
+      <p>Huckstep came into the field about ten o'clock.
+He rode along by the side of Harry, talking and
+<pb id="williams57" n="57"/>
+laughing. I was walking on the other side.
+When I saw that Harry's eye was upon me, I
+aimed a blow at him, intending, however, to miss
+him. He evaded the blow and turned fiercely
+round with his hoe uplifted, threatening to cut
+down any one who again attempted to strike him.
+Huckstep cursed my awkwardness, and told Harry
+to put down his hoe and come to him. He refused
+to do so, and swore he would kill the first
+man who tried to lay hands on him. The cowardly
+tyrant shrunk away from his enraged bondman,
+and for two weeks Harry was not again
+molested.</p>
+      <p>About the first of September the overseer had
+one of his drunken fits. He made the house literally
+an earthly hell. He urges me to drink,
+quarrelled and swore at me for declining, and
+chased the old woman round the house with his
+bottle of peach brandy. He then told me that
+Harry had forgotten the attempt to seize him, and
+that in the morning we must try our old game
+over again.</p>
+      <p>On the following morning, as I was handing to
+each of the hands their hoes from the tool-house,
+I caught Harry's eye. “Look out,” said I to him;
+“Huckstep will be after you again to-day.” He
+<pb id="williams58" n="58"/>
+uttered a deep curse against the overseer and
+passed on to his work. After breakfast Huckstep
+came riding out to the cotton field.  He tied his
+horse to a tree and came towards us.  His sallow
+and haggard countenance was flushed, and his
+step unsteady.  He came up by the side of Harry
+and began talking about the crops and the weather.
+I came at the same time on the other side,
+and in striking at him beat off his hat. He sprang
+aside and stepped backwards. Huckstep, with a
+dreadful oath, commanded him to stop, saying
+that he had determined to whip him, and neither
+earth nor hell should prevent him. Harry defied
+him, and said he had had always done the work allotted
+to him, and that was enough; he would
+sooner die than have the accursed lash touch him.
+The overseer staggered to his horse, mounted him
+and rode furiously to the house, and soon made his
+appearance, returning, with his gun in his hand.</p>
+      <p>“Yonder comes the devil!” said one of the
+women whose row was near Harry's.</p>
+      <p>“Yes,” said another, “he's trying to scare
+Harry with his gun.”</p>
+      <p>“Let him try as he pleases,” said Harry, in his
+low, deep, determined tones. “He may shoot me,
+but he can't whip me.”</p>
+      <pb id="williams59" n="59"/>
+      <p>Huckstep came swearing on. When within a
+few yards of Harry he stopped, looked at him
+with a stare of mingled rage and drunken imbecility,
+and bid him throw down his hoe and come
+forward. The undaunted slave refused to comply,
+and, continuing his work, told the drunken
+demon to shoot if he pleased. Huckstep advanced
+within a few steps of him when Harry raised his
+hoe and told him to stand back.  He stepped back
+a few paces, levelled his gun, and fired. Harry
+received the charge in his breast, and fell instantly
+across a cotton row. He threw up fix hands
+wildly and groaned, “Oh Lord!”</p>
+      <p>The hands instantly dropped their hoes. The
+women shrieked aloud. For my own part, I
+stood silent with horror. The cries of the women
+enraged the overseer. He dropped his gun, and
+snatching the whip from my hand, with horrid
+oaths and imprecations, fell to whipping them,
+laying about him like a maniac. Upon Harry's
+sister he bestowed his blows without mercy, commanding
+her to quit her screaming and go to
+work. The poor girl, whose brother had thus
+been murdered before her eyes, could not wrestle
+down the awful agony of her feelings, and the
+<pb id="williams60" n="60"/>
+brutal tormentor left her without effecting his object.
+He then, without going to look of his victim,
+told four of the hands to carry him to the
+house, and, taking up his gun, left the field.
+When we got to the poor fellow, he was alive, and
+groaning faintly. The hands took him up, but
+before they reached the house he was dead. Huckstep
+came out and looked at him, and, finding him
+dead, ordered the hands to bury him. The burial
+of a slave in Alabama is that of a brute: no coffin,
+no decent shroud, no prayer.  A hole is dug, and
+the body thrown in without further ceremony.</p>
+      <p>From this time the overseer was regarded by
+the whole gang with detestation and fear  -  as a
+being to whose rage and cruelty there were no
+limits. Yet he was constantly telling us that he
+was the kindest of overseers  -  that he was formerly
+somewhat severe in managing his hands,
+but that now he was, if any thing, too indulgent.
+Indeed he had the reputation of being a good
+overseer and an excellent manager when sober.
+The slaves on some of the neighboring plantations
+were certainly worse clothed and fed, and
+more frequently and cruelly whipped, than ours.
+Whenever we saw them they complained of overworking
+<pb id="williams61" n="61"/>
+and short feeding. One of Flincher's
+and one of Sturtivant's hands ran away while I
+was in Alabama, and, after remaining in the woods
+awhile, and despairing of being able to effect their
+escape, resolved to put an end to their existence
+and their slavery together. Each twisted himself
+a vine of the muscadine grape, and fastened one
+end around the limb of an oak, and made a noose
+in the other. Jacob, Flincher's man, swung himself
+off first, and expired after a long struggle.
+The other, horrified by the contortions and agony
+of his comrade, dropped his noose, and was retaken.
+When discovered two or three days afterwards,
+the body of Jacob was dreadfully torn and
+mangled by the obscene buzzards, those winged
+hyenas and <sic>goules</sic> of the Southwest.</p>
+      <p>Among the slaves who were brought from Virginia,
+were two young and bright mulatto women,
+who were always understood throughout the plantation
+to have been the daughters of the elder Larrimore,
+by one of his slaves. One was named
+Sarah and the other Hannah. Sarah, being in a
+state of pregnancy, failed of executing her daily
+allotted task of hoeing cotton.  I was ordered to
+whip her, and on my remonstrating with the overseer,
+<pb id="williams62" n="62"/>
+and representing the condition of the woman,
+I was told that my business was to obey orders,
+and that if I was told “to whip a dead nigger I
+must do it.” I accordingly gave her fifty lashes.
+This was on Thursday evening. On Friday she
+also failed through weakness, and was compelled
+to lie down in the field. That night the overseer
+himself whipped her. On Saturday the wretched
+woman dragged herself once more to the cotton
+field. In the burning sun, and in a situation which
+would have called forth pity in the bosom of any
+one save a cotton-growing overseer, she struggled
+to finish her task. She failed  -  nature could do no
+more  -  and, sick and despairing, she sought her
+cabin. There the overseer met her and inflicted
+fifty more lashes upon her already lacerated back.</p>
+      <p>The next morning was the Sabbath. It brought
+no joy to that suffering woman. Instead of the
+tones of the church bell summoning to the house of
+prayer, she heard the dreadful sound of the lash
+falling upon the backs of her brethren and sisters
+in bondage. For the voice of prayer she heard
+curses; for the songs of Zion obscene and hateful
+blasphemies. No Bible was there with its consolations
+for the sick of heart. Faint and fevered,
+<pb id="williams63" n="63"/>
+scarred and smarting from the effects of her cruel
+punishment, she lay upon her pallet of moss,
+dreading the coming of her relentless persecutor,
+who, in the madness of one of his periodical fits
+of drunkenness, was now swearing and cursing
+through the quarters,  -  the demon of that Sabbathless
+hell.</p>
+      <p>Some of the poor woman's friends on the evening
+before had attempted to relieve her of the task
+which had been assigned her, but exhausted nature
+and the selfishness induced by their own miserable
+situation did not permit them to finish it; and the
+overseer, on examination, found that the week's
+work of the woman was still deficient. After
+breakfast, he ordered her to be tied up to the limb
+of a tree, by means of a rope fastened round her
+wrists, so as to leave her feet about six inches from
+the ground. She begged him to let her down
+for she was very sick.</p>
+      <p>“Very well!” he exclaimed, with a sneer and a
+laugh; “I shall bleed you then, and take out some
+of your Virginia blood. You are too proud a miss
+for Alabama.”</p>
+      <p>He struck her a few blows. Swinging thus by
+her arms, she succeeded in placing one of her feet
+<pb id="williams64" n="64"/>
+against the body of the tree, and thus partly supported herself, and relieved in some degree the
+painful weight upon her wrists. He threw down
+his whip, took a rail from the garden fence, ordered
+her feet to be tied together, and thrust the rail between
+them. He then ordered one of the hands
+to sit upon it. Her back at this time was bare,
+but the strings of the only garment which she wore
+passed over her shoulders and prevented the full
+force of the whip from acting on her flesh. These
+he cut off with his penknife, and thus left her entirely naked. He struck her only two blows, for
+the second one cut open her side and abdomen
+with a frightful gash. Unable to look on any longer
+in silence, I entreated him to stop, as I feared he
+had killed her. The overseer looked at the wound,
+dropped his whip, and ordered her to be untied.
+She was carried into the house in a state of insensibility,
+and died in three days after.</p>
+      <p>During the whole season of picking cotton, the
+whip was frequently and severely plied. In his
+seasons of intoxication, the overseer made no distinction
+between the stout man and the feeble and
+delicate woman  -  the sick and the well. Women
+in a far advanced state of pregnancy were driven
+<pb id="williams65" n="65"/>
+out to the cotton field. At other times he seemed
+to have some consideration, and to manifest something
+like humanity. Our hands did not suffer for
+food  -  they had a good supply of ham and cornmeal;
+while on Flincher's plantation the slaves
+had meat but once a year, at Christmas.</p>
+      <p>Near the commencement of the weeding season
+of 1835, I was ordered to whip a young woman,
+a light mustee, for not performing her task. I told
+the overseer that she was sick. He said he did
+not care for that; she should be made to work. A
+day or two afterwards, I found him in the house
+half intoxicated. He demanded of me why I had
+not whipped the girl; and I gave the same reason
+as before. He flew into a dreadful rage, but his
+miserable situation made him an object of contempt
+rather than fear. He sat shaking his fist at me
+and swearing for nearly half an hour. He said he
+would teach the Virginia lady to sham sickness;
+and that the only reason I did not whip her was
+that she was a white woman, and I did not like to
+cut up her delicate skin. Some time after I was
+ordered to give two of our women, named Hannah
+and Big Sarah, 150 lashes each, for not performing
+their tasks.  The overseer stood by until he
+<pb id="williams66" n="66"/>
+saw Hannah whipped, and until Sarah had been
+tied up to the tree. As soon as his back was turned
+I struck the tree instead of the woman, who, understanding
+my object, shrieked as if the whip at
+every blow was cutting into her flesh. The overseer
+heard the blows and the woman's cries, and,
+supposing that all was going on according to his
+mind, left the field. Unfortunately the husband
+of Hannah stood looking on, and, indignant that
+his wife should be whipped and Sarah spared, determined
+to revenge himself by informing against
+me.</p>
+      <p>Next morning Huckstep demanded of me whether
+I had whipped Sarah the day before; I replied
+in the affirmative. Upon this he called Sarah forward
+and made her show her back, which bore no
+traces of recent whipping. He then turned upon
+me and told me that the blows intended for Sarah
+should be laid on my back. That night the overseer,
+with the help of three of the hands, tied me
+up to a large tree  -  my arms and legs being clasped
+round it, and my body drawn up hard against it by
+two men pulling at my arms, and one pushing.
+against my back. The agony occasioned by this
+alone was almost intolerable. I felt a sense of
+<pb id="williams67" n="67"/>
+painful suffocation, and could scarcely catch my
+breath.</p>
+      <p>A moment after I felt the first blow of the overseer's
+whip across my shoulders. It seemed to cut
+into my very heart. I felt the blood gush and run
+down my back.. I fainted at length under the torture,
+and on being taken down my shoes were
+filled with the blood which ran from the gashes in
+my back. The skin was worn off from my breast,
+arms, and thighs, against the rough bark of the
+tree. I was sick and feverish, and in great pain,
+for three weeks afterwards; most of which time I
+was obliged to lie with my face downwards, in
+consequence of the extreme soreness of my sides
+and back. Huckstep himself seemed concerned
+about me, and would come frequently to see me,
+and tell me that he should not have touched me
+had it not been for “the cursed peach brandy.”</p>
+      <p>Almost the first person that I was compelled to
+whip, after I recovered, was the man who pushed
+at my back when I was tied up to the tree. The
+hands who were looking on at that time all thought
+he pushed me much harder than was necessary;
+and they expected that I would retaliate upon him
+the injury I had received. After he was tied up,
+<pb id="williams68" n="68"/>
+the overseer told me to give him a severe flogging,
+and left me. I struck the tree instead of the man.
+His wife, who was looking on, almost overwhelmed
+me with her gratitude.</p>
+      <p>At length one morning, late in the fall of 1835,
+I saw Huckstep and a gentleman ride out to the
+field. As they approached, I saw the latter was
+my master. The hands all ceased their labor, and
+crowded around him, inquiring about old Virginia.
+For my own part, I could not hasten to greet him.
+He had too cruelly deceived me. He at length
+came towards me, and seemed somewhat embarrassed.
+“Well, James,” said he, “how do you
+stand it here?” “Badly enough,” I replied. “I
+had no thought that you could be so cruel as to go
+away and leave me as you did.” “Well, well, it
+was too bad, but it could not be helped; you must
+blame Huckstep for it.” “But,” said I, “I was
+not his servant; I belonged to you, and you could
+do as you pleased.” “Well,” said he, “we will
+talk about that by and by.” He then inquired of
+Huckstep where Big Sarah was. “She was sick
+and died,” was the answer. He looked round
+among the slaves again, and inquired for Harry.
+The overseer told him that Harry undertook to
+<pb id="williams69" n="69"/>
+kill him, and that, to save his life, he was obliged
+to fire upon him, and that he died of the wound.
+After some further inquiries, he requested me to go
+into the house with him. He then asked me to tell
+him how things had been managed during his absence.
+I gave him a full account of the overseer's
+cruelty. When he heard of the manner of Harry's
+death, he seemed much affected and shed tears.
+He was a favorite servant of his father's. I showed
+him the deep scars on my back; occasioned by the
+whipping I had received. He was, or professed to
+be, highly indignant with Huckstep; and said he
+would see to it that he did not lay hands on me
+again. He told me he should be glad to take me
+with him to Virginia, but he did not know where
+he should find a driver who would be so kind to
+the hands as I was. If I would stay ten years, he
+would then give me a thousand dollars, and a piece
+of land to plant on my own account. “But,” said
+I, “my wife and children.” “Well,” said he, “I
+will do my best to purchase them, and send them
+on to you.” I now saw that my destiny was fixed,
+and that I was to spend my days in Alabama, and
+I retired to my bed that evening with a heavy
+heart.</p>
+      <pb id="williams70" n="70"/>
+      <p>My master <sic>staid</sic> only three or four days on the
+plantation. Before he left, he cautioned Huckstep
+to be careful and not strike me again, as he would
+on no account permit it. He told him to give the
+hands food enough, and not over-work them, and,
+having, thus satisfied his conscience, left us to our
+fate.</p>
+      <p> Out of the two hundred and fourteen slaves
+who were brought out from Virginia, at least one-third
+of them were members of the Methodist and
+Baptist churches in that State. Of this number
+five or six could read. They had been torn away
+from the care and discipline of their respective
+churches, and from the means of instruction, but
+they retained their love for the exercises of religion,
+and felt a mournful pleasure in speaking of
+the privileges and spiritual blessings which they
+enjoyed in Old Virginia. Three of them had been
+preachers, or exhorters, viz. Solomon, usually
+called uncle Solomon, Richard, and David. Uncle
+Solomon was a grave, elderly man, mild and
+forgiving in his temper, and greatly esteemed
+among the more serious portion of our hands.
+He used to snatch every occasion to talk to the
+lewd and vicious about the concerns of their souls,
+<pb id="williams71" n="71"/>
+and advise them to fix their minds upon the Savior,
+as their only helper. Some I have heard
+curse and swear in answer, and others would say
+that they could not keep their minds upon God
+and the devil (meaning Huckstep) at the same
+time: that it was of no use to try to be religious  -  
+they had no time  -  that the overseer wouldn't let
+them meet to pray  -  and that even uncle Solomon,
+when he prayed, had to keep one eye open all the
+time, to see if Huckstep was coming. Uncle
+Solomon could both read and write, and had
+brought out with him from Virginia a Bible, a
+hymn-book, and some other religious books, which
+he carefully concealed from the overseer.  Huckstep
+was himself an open infidel as well as blasphemer.
+He used to tell the hands that there was
+no hell hereafter for white people, but that they
+had their punishment on earth in being obliged to
+take care of the negroes. As for the blacks, he
+was sure there was a hell for them. He used
+frequently to sit with his bottle by his side, and
+his Bible in his hand, and read passages and comment
+on them, and pronounce them lies. Any
+thing like religious feeling among the slaves irritated
+him. He said that so much praying and singing
+<pb id="williams72" n="72"/>
+prevented the people from doing their tasks,
+as it kept them up nights, when they should be
+asleep. He used to mock, and in every possible
+way interrupt the poor slaves, who, after the toil
+of the day, knelt in their lowly cabins to offer their
+prayers and supplications to Him whose ear is
+open to the sorrowful sighing of the prisoner, and
+who hath promised in his own time to come down
+and deliver. In his drunken seasons he would
+make excursions at night through the slave-quarters,
+enter the cabins, and frighten the inmates,
+especially if engaged in prayer or psalm-singing.
+On one of these occasions he came back rubbing
+his hands and laughing. He said he had found
+uncle Solomon in his garden, down on his knees,
+praying like an old owl, and had tipped him over
+and frightened him half out of his wits. At another
+time he found uncle David sitting on his
+stool with his face thrust up the chimney, in order
+that his voice might not be heard by his brutal
+persecutor. He was praying, giving utterance to
+these words, probably in reference to his bondage:
+  -  “<hi rend="italics">How long, oh Lord, how long?</hi>” “As long
+as my whip!” cried the overseer, who had stolen
+<pb id="williams73" n="73"/>
+behind him, giving him a blow. It was the sport
+of a demon.</p>
+      <p>Not long after my master had left us, the overseer
+ascertained for the first time that some of the
+hands could read, and that they had brought books
+with them from Virginia. He compelled them to
+give up the keys of their chests, and on searching
+found several Bibles and hymn-books. Uncle
+Solomon's chest contained quite a library, which
+he could read at night by the light of knots of the
+pitch-pine. These books he collected together,
+and in the evening called uncle Solomon into the
+house. After jeering him for some tinge, he gave
+him one of the Bibles and told him to name his
+text and preach him a sermon. The old man was
+silent. He then made him get upon the table,
+and ordered him to pray. Uncle Solomon meekly
+replied that “forced prayer was not good for
+soul or body.” The overseer then knelt down
+himself, and in a blasphemous manner prayed
+that the Lord would send his spirit into uncle
+Solomon, or else let the old man fall from the
+table and break his neck, and so have an end of
+“nigger” preaching. On getting up from his
+knees he went to the cupboard, poured out a glass
+<pb id="williams74" n="74"/>
+of brandy for himself, and brought another to the
+table. “James,” said he, addressing me, “uncle
+Solomon stands there, for all the world, like a
+Hickory Quaker. His spirit don't move; I'll see
+if another spirit won't move it.” He compelled
+the old preacher to swallow the brandy, and then
+told him to preach and exhort, for the spirit was in
+him. He set one of the Bibles on fire, and after
+it was consumed mixed up the ashes of it in a
+glass of water, and compelled the old man to drink
+it, telling him that as the spirit and the word were
+now both in him, there was no longer any excuse
+for not preaching. After tormenting the wearied
+old man in this way until nearly midnight, he
+permitted him to go to his quarters.</p>
+      <p>The next day I saw uncle Solomon, and talked
+with him about his treatment. He said it would
+not always be so  -  that slavery was to come to an
+end, for the Bible said so  -  that there would then
+be no more whippings and fightings, but the lion
+and the lamb would lie down together, and all
+would be love. He said he prayed for Huckstep
+  -  that it was not he, but the devil in him, who behaved
+so. At his request, I found means to get
+him a Bible and a hymn-book from the overseers
+<pb id="williams75" n="75"/>
+room, and the old man ever afterwards kept them
+concealed in the hen-house.</p>
+      <p>The weeding season of 1836 was marked by repeated
+acts of cruelty on the part of Huckstep.
+One of the hands, Priscilla, was, owing to her delicate
+situation, unable to perform her daily task.
+He ordered her to be tied up against a tree, in the
+same manner that I had been. In this situation
+she was whipped until <hi rend="italics">she was delivered of a dead
+infant at the foot of the tree!</hi> Our men took her
+upon a sheet and carried her to the house, where
+she lay sick for several months, but finally recovered.
+I have heard him repeatedly laugh at the
+circumstance.</p>
+      <p>Not long after this, we were surprised,. one
+morning about ten o'clock, by hearing the horn
+blown at the house.  Presently aunt Polly came
+screaming into the field. “What is the matter,
+Aunty?” I inquired. “Oh <sic>Lor</sic>!” said she, “old
+Huckstep's pitched off his horse and broke his
+head, and is e'en about dead.”</p>
+      <p>“Thank God!” said Little Simon;“the devil
+will have him at last.”</p>
+      <p>“God-<sic>amighty</sic> be praised!” exclaimed half a
+dozen others.</p>
+      <p>The hands, with one accord, dropped their hoes,
+<pb id="williams76" n="76"/>
+and crowded round the old woman, asking questions: “Is he dead?” “Will he die?” “Did
+you feel of him  -  was he cold?”</p>
+      <p>Aunt Polly explained, as well as she could, that
+Huckstep, in a state of partial intoxication, had
+attempted to leap his horse over a fence, had fallen
+and cut a deep gash in his head, and that he was
+now lying insensible.</p>
+      <p>It is impossible to describe the effect produced
+by this news among the hands. Men, women,
+and children shouted, clapped their hands, and
+laughed aloud. Some cursed the overseer, and
+others thanked the Lord for taking him away.
+Little Simon got down on his knees, and called
+loudly upon God to finish his work, and never let
+the overseer again enter a cotton field. “Let him
+die, Lord,” said he, “let him die; he's killed
+enough of us. Oh, good Lord, let him die and
+not live.”</p>
+      <p>“Peace, peace! it is a bad spirit,” said uncle
+Solomon; “God himself willeth not the death of
+a sinner.”</p>
+      <p>I followed the old woman to the house, and
+found Huckstep at the foot of one of those trees, so
+common at the South, called the Pride of China.
+His face was black, and there was a frightful contusion
+<pb id="williams77" n="77"/>
+on the side of his head. He was carried
+into the house, where, on my bleeding him, he
+revived. He lay in great pain for several days,
+and it was nearly three weeks before he was able
+to come out to the cotton fields. </p>
+      <p>On returning to the field, after Huckstep had
+revived, I found the hands sadly disappointed to
+hear that he was still living. Some of them fell
+to cursing and swearing, and were enraged with
+me for trying to save his life. Little Simon said
+I was a fool; if he had bled him he would have
+done it to some purpose. He would, at least, have
+so disabled his arm that he would never again try
+to swing a whip. Uncle Solomon remonstrated
+with Simon, and told me that I had done right.</p>
+      <p>The neighboring overseers used frequently to
+visit Huckstep, and he, in turn, visited them. I
+was sometimes present during their interviews,
+and heard them tell each other stories of horseracing,
+negro huntings, &amp;c. Some time during
+this season, Ludlow, who was overseer of a plantation
+about eight miles from ours, told of a slave
+of his, named Thornton, who had twice attempted
+to escape with his wife and one child.  The first
+time he was caught without much difficulty, chained
+<pb id="williams78" n="78"/>
+to the overseer's horse, and in that way brought
+back. The poor man, to save his wife from a beating,
+laid all the blame upon himself, and said that
+his wife had no wish to escape, and tried to prevent
+him from attempting it. He was severely
+whipped; but soon ran away again, and was again
+arrested. The overseer, Ludlow, said he was determined to put a stop to the runaway, and accordingly had resort to a somewhat unusual method
+of punishment.</p>
+      <p>There is a great scarcity of good water in that
+section of Alabama; and you will generally see a
+large cistern attached to the corners of the houses
+to catch water for washing, &amp;c. Underneath this
+cistern is frequently a tank from eight to ten feet
+deep, into which, when the former is full, the water
+is permitted to run. From this tank the water is
+pumped out for use. Into one of these tanks the
+unfortunate slave was placed, and confined by one
+of his ankles to the bottom of it, and the water was
+suffered to flow in from above. He was compelled
+to pump out the water as fast as it came in, by
+means of a long rod or handle connected with the
+pump above ground. He was not allowed to begin
+until the water had risen to his middle. Any
+<pb id="williams79" n="79"/>
+pause or delay after this, from weakness and exhaustion,
+would have been fatal, as the water would
+have risen above his head. In this horrible dungeon,
+toiling for his life, he was kept for twenty-four
+hours without any sustenance. Even Huckstep
+said that this was too bad; that he had himself
+formerly punished runaways in that way, but
+should not do it again.</p>
+      <p>I rejoice to be able to say that this sufferer has
+at last escaped, with his wife and child, into a free
+State. He was assisted by some white men, but
+I do not know all the particulars of his escape.</p>
+      <p>Our overseer had not been long able to ride about
+the plantation, after his accident, before his life was
+again endangered. He found two of the hands,
+Little Jarret and Simon, fighting with each other,
+and attempted to chastise both of them. Jarret bore
+it patiently, but Simon turned upon him, seized a
+stake or pin from a cart near by, and felled him to
+the ground. The overseer got up, went to the
+house, and told aunt Polly that he had nearly been
+killed by the “niggers,” and requested her to tie up
+his head, from which the blood was streaming.
+As soon as this was done, he took down his gun,
+and went out in pursuit of Simon, who had fled
+to his cabin, to get some things which he supposed
+<pb id="williams80" n="80"/>
+necessary previous to attempting to escape from
+the plantation.  He was just stepping out of the
+seer when he met the enraged overseer with his
+gun in his hand.  Not a word was spoken by 
+either.  Huckstep raised his gun and fired.  The 
+man fell without a groan across the door-still.  He
+rose up twice on his hands and knees, but died in
+as few minutes.  He was dragged off and buried.
+The overseer told me that there was no other way 
+to deal with such a fellow.  It was Alabama law,
+if a slave resisted, to shoot him at once.  He told
+me of a case which occurred in 1834, on a plantation
+about ten miles distant, and adjoining that
+where Crop, the negro hunter, boarded with his 
+hounds.  The overseer had bought some slaves at
+Selma, from a drove or coffle passing through that
+place.  They proved very refractory.  He whipped
+three of them, and undertook to whip a fourth,
+who was from Maryland.  The man raised his
+hoe in a threatening manner, and the overseer fired
+upon him.  The slave fell, but instantly rose up 
+on his hands and knees, and was beaten down
+again by the stock of the overseer's gun.  The
+wounded wretch raised himself once more, drew
+a knife from the waistband of his pantaloons, and,
+catching hold of the overseer's coat, raised himself
+<pb id="williams81" n="81"/>
+high enough to inflict a fatal wound upon the latter.
+Both fell together, and died immediately
+after.</p>
+      <p>Nothing more of special importance occurred
+until July, of last year, when one of our men, 
+named John, was whipped three times for not performing
+his task.  On the last day of the month, 
+after his third whipping, he ran away.  On the
+following morning, I found that he was missing at
+his row.  The overseer said we must hunt him
+up; and he blew the “nigger horn,” as it is called,
+for the dogs.  This horn was only used when we
+went in pursuit of fugitives.  It is a cow's horn,
+and makes a short, loud sound.  We crossed Flincher's
+and Goldsby's plantations, as the dogs had
+got upon John's track, and went off barking in that
+direction, and the two overseers joined us in the
+chase.  The dogs soon caught sight of the runaway,
+and compelled him to climb a tree.  We 
+came up; Huckstep ordered him down, and secured
+him upon my horse by tying him to my back.
+On reaching home he was stripped entirely naked
+and lashed to a tree.  Flincher then volunteered
+to whip him on one side of his legs and Goldsby
+on the other.  I had, in the mean time, been ordered
+<pb id="williams82" n="82"/>
+to prepare a wash of salt and pepper, and wash 
+his wounds with it.  The poor fellow groaned, 
+and his flesh shrunk and quivered as the burning
+solution was applied to it.  This wash, while it
+adds to the immediate torment of the sufferer, facilitates the cure of the wounded parts.  Huckstep
+then whipped him from his neck down to his 
+thighs, making the cuts lengthwise of his back.
+He was very expert with the whip, and could 
+strike, at any time, within an inch of his mark.  
+He then gave the whip to me and told me to strike
+directly across his back.  When I had finished, the
+miserable sufferer, from his neck to his heels, was
+covered with blood and bruises.  Goldsby and
+Flincher now turned to Huckstep, and told him
+that I deserved a whipping as much as John did;
+that they had known me frequently disobey his
+orders, and that I was partial to the “Virginia ladies,”
+and didn't whip them as I did the men.
+They said that if I was a driver of theirs they would
+know what to do with me.  Huckstep agreed with 
+them; and after directing me to go to the house
+and prepare more of the wash for John's back, he
+called after me, with an oath, to see to it that I had
+some for myself, for he meant to give me, at least,
+<pb id="williams83" n="83"/>
+two hundred and fifty lashes.  I returned to the
+house, and, scarcely conscious of what I was doing,
+filled an iron vessel with water, put in the salt
+and pepper, and placed it over the embers.</p>
+      <p>As I stood by the fire watching the boiling of
+the mixture, and reflecting upon the dreadful torture
+to which I was about to be subjected, the 
+thought of <hi rend="italics">escape</hi> flashed upon my mind.  The
+chance was a desperate one, but I resolved to attempt
+it.  I ran up stairs, tied my shirt in a handkerchief,
+and stepped out of the back door of the
+house, telling aunt Polly to take care of the wash
+at the fire until I returned.  The sun was about
+one hour high, but, luckily for me, the hands, as
+well as the three overseers, were on the other side
+of the house.  I kept the house between them and
+myself, and ran as fast as I could for the woods. 
+On reaching them I found myself obliged to proceed
+slowly, as there was a thick undergrowth of
+cane and reeds.  Night came on; I straggled forward
+by a dim starlight, amidst vines and reedbeds.
+About midnight the horizon began to be
+overcast, and the darkness increased, until, in the
+thick forest, I could scarcely see a yard before me.
+Fearing that I might lose my way and wander
+<pb id="williams84" n="84"/>
+towards the plantation, instead of from it, I resolved
+to wait until day.  I laid down upon a 
+little hillock and fell asleep.</p>
+      <p> When I awoke it was broad day.  The clouds 
+had vanished, and the hot sunshine fell through
+the trees upon my face.  I started up, realizing
+my situation, and darted onward.  My object was
+to reach the great road by which we travelled
+when we came out from Virginia.  I had, however,
+very little hope of escape.  I knew that a hot pursuit
+would be made after me, and what I most
+dreaded was that the overseer would procure
+Crop's bloodhounds to follow my track.  If only 
+the hounds of our plantation were sent after me,
+I had hopes of being able to make friends of them,
+as they were always good-natured and obedient to
+me.  I travelled until, as near as I could judge,
+about ten o'clock, when a distant sound startled
+me.  I stopped and listened.  It was the deep bay
+of the bloodhound, apparently at a great distance.
+I hurried on until I came to a creek about fifteen
+yards wide, skirted by an almost impenetrable
+growth of reeds and cane.  Plunging into it, I
+swam across and ran down by the side of it a
+short distance, and, in order to baffle the dogs,
+<pb id="williams85" n="85"/>
+swam back to the other side again.  I stopped in
+the reed-bed and listened.  The dogs seemed close
+at hand, and by the loud barking I felt persuaded
+that Crop's hounds were with them.  I thought of
+the fate of Little John, who had been torn in pieces
+by the hounds, and of the scarcely less dreadful
+condition of those who had escaped the dogs only
+to fall into the hands of the overseer.  The yell
+of the dogs grew louder.  Escape seemed impossible.
+I ran down the creek with a determination
+to drown myself.  I plunged into the water
+and went down to the bottom, but the dreadful
+strangling sensation compelled me to struggle up
+to the surface.  Again I heard the yell of the
+bloodhounds, and again desperately plunged down
+into the water.  As I went down I opened my
+mouth, and, choked and gasping, found myself
+once more struggling upward.  As I rose to the
+top of the water and caught a glimpse of the sunshine
+and the trees, the love of life revived in me.
+I swam to the other side of the creek, and forced
+my way through the reeds to a large bass-wood
+tree, and stood under one of its lowest limbs, ready,
+in case of necessity, to spring up into it.  Here,
+panting and exhausted, I stood waiting for the dogs.
+<pb id="williams86" n="86"/>
+The woods seemed full of them.  I heard a bell 
+tinkle, and, a moment after, our old hound Venus
+came bounding through the cane, dripping wet
+from the creek.  As the old hound came towards 
+me, I called to her as I used to do when out hunting
+with her.  She stopped suddenly, looked up at
+me, and then came wagging her tail and fawning
+around me.  A moment after the other dogs came
+up hot in the chase, and with their noses to the 
+ground.  I called to them, but they did not look 
+up, just came yelling on.  I was just about to spring
+into the tree to avoid them, when Venus, the old
+hound, met them, and stopped them.  They then 
+all came fawning and playing and jumping about
+me.  The very creatures whom a moment before 
+I had feared would tear me limb from limb, were
+now leaping and licking my hands, and rolling on
+the leaves around me.  I listened awhile in the
+fear of hearing the voices of men following the
+dogs, but there was no sound in the forest save the
+gurgling of the sluggish waters of the creek, and 
+the chirp of black squirrels in the trees.  I took 
+courage and started onward once again, taking the
+dogs with me.  The bell on the neck of the old 
+dog I feared might betray me, and, unable to get
+<pb id="williams87" n="87"/>
+it off her neck, I twisted some of the long moss
+of the trees around it, so as to prevent its ringing.
+At night I halted once more with the dogs by my
+side.  Harassed with fear, and tormented with
+hunger, I laid down and tried to sleep.  But the
+dogs were uneasy, and would start up and bark at
+the cries or the footsteps of wild animals, and I
+was obliged to use my utmost exertions to keep
+them quiet, fearing that their barking would draw
+my pursuers upon me.  I slept but little, and as
+soon as daylight started forward again.  The next
+day towards evening I reached a great road, which,
+I rejoiced to find, was the same one my master
+and myself had travelled on our way to Greene
+County.  I now thought it best to get rid of the
+dogs, and accordingly started them in pursuit of a
+deer.  They went off, yelling on the track, and I
+never saw them again.  I remembered that my
+master told me, near this place, that we were in
+the Creek country, and that there were some Indian
+settlements not far distant.  In the course of
+the evening I crossed the road, and, striking into a
+path through the woods, soon came to a number
+of Indian cabins.  I went into one of them and
+begged for some food.  The Indian women received
+me with a great deal of kindness, and gave
+<pb id="williams88" n="88"/>
+me a good supper of venison, corn-bread, and
+stewed pumpkin.  I remained with them till the
+evening of the next day, when I started afresh on
+my journey.  I kept on the road leading to Georgia.
+In the latter part of the night I entered into
+a long low bottom, heavily timbered, sometimes
+called Wolf Valley.  It was a dreary and frightful
+place.  As I walked on, I heard on all sides the
+howling of the wolves, and the quick patter of their
+feet on the leaves and sticks, as they ran through
+the woods.  At daylight I laid down, but had 
+scarcely closed my eyes when I was roused up by
+the wolves snarling and howling around me.  I
+started on my feet and saw several of them running
+by me.  I did not again close my eyes during
+the whole day.  In the afternoon, a bear with her 
+two cubs came to a large chestnut tree near where
+I lay.  She crept up the tree, went out on one of 
+the limbs, and broke off several twigs trying to 
+shake down the nuts.  They were not ripe enough
+to fall, and, after several vain attempts to procure
+some of them, she crawled down the tree again
+and went off with her young.</p>
+      <p>The day was long and tedious.  As soon as it
+was dark I once more resumed my journey; but
+fatigue and the want of food and sleep rendered
+<pb id="williams89" n="89"/>
+me almost incapable of further effort.  It was not
+long before I fell asleep, while walking, and wandered
+out of the road.  I was wakened by a bunch
+of moss which hung down from the limb of a tree
+and met my face.  I looked up and saw, as I 
+thought, a large man standing just before me.  My
+first idea was that some one had struck me over
+the face, and that I had been at last overtaken by
+Huckstep.   Rubbing my eyes once more, I saw
+the figure before me sink down upon its hands
+and knees; another glance assured me that it was
+a bear, and not a man.  He passed across the road
+and disappeared.  This adventure kept me awake
+for the remainder of the night.  Towards morning
+I passed by a plantation, on which was a fine 
+growth of peach-trees, full of ripe fruit.  I took as
+many of them as I could conveniently carry in my
+hands and pockets, and, retiring a little distance
+into the woods, laid down and slept till evening,
+when I again went forward.</p>
+      <p> Sleeping thus by day and travelling by night, 
+in a direction towards the North star, I entered
+Georgia.  As I only travelled in the night-time, I
+was unable to <sic>recognise</sic> rivers and places which I
+had seen before, until I reached Columbus, where
+I recollected I had been with my master.  From
+<pb id="williams90" n="90"/>
+this place I took the road leading to Washington,
+and passed directly through that village.  On
+leaving the village, I found myself, contrary to my
+expectation, in an open country, with no woods in
+view.  I walked on until day broke in the east.
+At a considerable distance ahead, I saw a group
+of trees, and hurried on towards it.  Large and
+beautiful plantations were on each side of me, from
+which I could hear dogs bark, and the driver's 
+horn sounding.  On reaching the trees, I found
+that they afforded but a poor place of concealment;
+on either hand, through its openings, I could see
+the men turning out to the cotton fields.  I found
+a place to lie down between two oak stumps, 
+around which the new shoots had sprung up thickly,
+forming a comparatively close shelter.  After
+eating some peaches, which since leaving the Indian
+settlement had constituted my sole food, I
+fell asleep.  I was waked by the barking of a dog.
+Raising my head and looking through the bushes,
+I found that the dog was barking at a black squirrel who was chattering on a limb almost directly
+above me.  A moment after, I heard a voice speaking to the dog, and soon saw a man, with a gun 
+in his hand, stealing through the wood.  He passed
+close to the stumps, where I lay trembling with
+<pb id="williams91" n="91"/>
+terror lest he should discover me.  He kept his
+eye, however, upon the tree, and, raising his gun,
+fired.  The squirrel dropped dead close by my
+side.  I saw that any further attempt at concealment would be in vain, and sprang upon my feet.
+The man started forward on seeing me, struck at
+me with his gun, and beat my hat off.  I leaped
+into the road, and he followed after, swearing he
+would shoot me if I didn't stop.  Knowing that
+his gun was not loaded, I paid no attention to him,
+but ran across the road into a cotton field where
+there was a great gang of slaves working.  The 
+man with the gun followed, and called to the two
+colored drivers, who were on horseback, to ride
+after me and stop me.  I saw a large piece of
+woodland at some distance ahead, and directed
+my course towards it.  Just as I reached it, I
+looked back and saw my pursuer far behind me,
+and found, to my great joy, that the two drivers
+had not followed me.  I got behind a tree, and
+soon heard the man enter the woods and pass me.
+After all had been still for more than an hour, I
+crept into a low place in the depth of the woods,
+and laid down amidst a bed of reeds, where I again
+fell asleep.  Towards evening, on awaking, I
+<pb id="williams92" n="92"/>
+found the sky beginning to be cloudy, and before
+night set in it was completely overcast.  Having 
+lost my hat, I tied an old handkerchief over my
+head, and prepared to resume my journey.  It
+was foggy and very dark, and, involved as I was 
+in the mazes of the forest, I did not know in what
+direction I was going.  I wandered on until I
+reached a road, which I supposed to be the same
+one which I had left.  The next day the weather
+was still dark and rainy, and continued so for
+several days.  During this time I slept only by 
+leaning against the body of a tree, as the ground
+was soaked with rain.  On the fifth night after
+my adventure near Washington, the clouds broke
+away, and the clear moonlight and the stars shone
+down upon me.</p>
+      <p>I looked up to see the North star, which I supposed
+still before me.  But I sought it in vain in
+all that quarter of the heavens.  A dreadful 
+thought came over me that I had been travelling
+out of my way.  I turned round and saw the
+North star, which had been shining directly upon
+my back.  I then knew that I had been travelling
+away from freedom, and towards the place of my
+captivity, ever since I left the woods into which I
+<pb id="williams93" n="93"/>
+had been pursued on the 21st, five day before.
+Oh, the keen and bitter agony of that moment! I
+sat down on the decaying trunk of a fallen tree,
+and wept like a child.  Exhausted in mind and 
+body, nature came at last to my relief, and I fell
+asleep upon the log.  When I awoke it was still
+dark.  I rose and nerved myself for another effort
+at freedom.  Taking the North star for my guide,
+I tuned upon my track, and left once more the
+dreaded frontiers of Alabama behind me.  The
+next night, after crossing a considerable river, I
+came to a large road crossing the one on which I
+travelled, and which seemed to lead more directly
+towards the North.  I took this road, and the next
+night after I came to a large village.   Passing 
+through the main street, I saw a large hotel which
+I at once recollected.  I was in Augusta, and this
+was the hotel at which my master had spent several
+days when I was with him on one of his
+southern visits.  I heard the guards patrolling the
+town cry the hour of twelve; and, fearful of being
+taken up, I turned out of the main street, and got
+upon the road leading to Petersburg.  On reaching
+the latter place, I swam over the Savannah
+river into South Carolina, and from thence passed
+into North Carolina.</p>
+      <pb id="williams94" n="94"/>
+      <p>Hitherto I had lived mainly upon peaches, which
+were plenty on almost all the plantations in Alabama
+and Georgia; but the season was now too
+far advanced for them, and I was obliged to resort
+to apples.  These I obtained without much difficulty
+until within two or three days' journey of the
+Virginia line.  At this time I had had nothing to
+eat but two or three small and sour apples for
+twenty-four hours, and I waited impatiently for
+night, in the hope of obtaining fruit from the orchards
+along the road.  I passed by several plantations,
+but found no apples.  After midnight, I 
+passed near a large house, with fruit-trees around
+it.  I searched under and climbed up and shook 
+several of them to no purpose.  At last I found a
+tree on which there were a few apples.  On shaking
+it, half a dozen fell.  I got down, and went 
+groping and feeling about for them in the grass, 
+but could find only two; the rest were devoured by
+several hogs, who were there on the same errand
+with myself.  I pursued my way until day was
+about breaking, when I passed another house.
+The feeling of extreme hunger was here so intense,
+that it required all the resolution I was master of
+to keep myself from going up to the house and 
+breaking into it in search of food.  But the thought
+<pb id="williams95" n="95"/>
+of being again made a slave, and of suffering the 
+horrible punishment of a runaway, restrained me.
+I lay in the woods all that day without food.  The
+next evening, I soon found a large pile of excellent
+apples, from which I supplied myself.</p>
+      <p>The next evening I reached Halifax Court 
+House, and I then knew that I was near Virginia.
+On the 7th of October, I came to the Roanoke,
+and crossed it in the midst of a violent storm of
+rain and thunder.  The current ran so furiously
+that I was carried down with it, and with great
+difficulty, and in a state of complete exhaustion,
+reached the opposite shore.</p>
+      <p>At about 2 o'clock, on the night of the 15th, I
+approached Richmond; but not daring to go into
+the city at that hour, on account of the patrols, I
+lay in the woods near Manchester, until the next 
+evening, when I started in the twilight, in order to
+enter before the setting of the watch.  I passed
+over the bridge unmolested, although in great fear,
+as my tattered clothes and naked head were well
+calculated to excite suspicion; and, being well acquainted
+with the localities of the city, made my 
+way to the house of a friend.  I was received with
+the utmost kindness, and welcomed as one risen
+from the dead.  Oh, how inexpressibly sweet were
+<pb id="williams96" n="96"/>
+the tones of human sympathy, after the dreadful
+trials to which I had been subjected, the wrongs 
+and outrages which I witnessed and suffered!
+For between two and three months I had not
+spoken with a human being, and the sound even
+of my own voice now seemed strange to my ears.
+During this time, save in two or three instances,
+I had tasted of no food except peaches and apples.
+I was supplied with some dried meat and coffee,
+but the first mouthful occasioned nausea and faintness.
+I was compelled to take my bed, and lay 
+sick for several days.  By the assiduous attention
+and kindness of my friends, I was supplied with
+every thing which was necessary during my sickness.
+I was detained in Richmond nearly a month.
+As soon as I had sufficiently recovered to be able
+to proceed on my journey, I bade my kind host
+and his wife an affectionate farewell, and set forward
+once more towards a land of freedom.  I 
+longed to visit my wife and children in Powhatan
+County, but the dread of being discovered prevented
+me from attempting it.  I had learned from
+my friends in Richmond that they were living
+and in good health, but greatly distressed on my
+account.</p>
+      <pb id="williams97" n="97"/>
+      <p>My friends had provided me with a fur cap, and 
+with as much lean ham, cake, and biscuit as I
+could conveniently carry.  I proceeded in the same
+way as before, travelling by night and lying close
+and sleeping by day.  About the last of November
+I reached the Shenandoah river.  It was very cold;
+ice had already formed along the margin, and in
+swimming the river I was chilled through; and
+my clothes froze about me soon after I reached 
+the opposite side.  I passed into Maryland, and
+on the 5th of December stepped across the line
+which divided the free state of Pennsylvania from
+the land of slavery.</p>
+      <p>I had a few shillings in money, which were given
+me at Richmond, and after travelling nearly twenty-four
+hours from the time I crossed the line, I
+ventured to call at a tavern and buy a dinner.
+On reaching Carlisle, I inquired of the <sic>ostler</sic> in a
+stable if he knew of any one who wished to hire
+a house-servant or coachman.  He said he did 
+not.  Some more colored people came in, and, 
+taking me aside, told me that they knew that I was
+from Virginia, by my pronunciation of certain
+words  -  that I was probably a runaway slave  -  but
+that I need not be alarmed, as they were friends,
+<pb id="williams98" n="98"/>
+and would do all in their power to protect me.  I
+was taken home by one of them, and treated with
+the utmost kindness; and at night he took me in
+a wagon, and carried me some distance on my way 
+to Harrisburg, where he said I should meet with
+friends.</p>
+      <p>He told me that I had better go directly to Philadelphia,
+as there would be less danger of my being
+discovered and retaken there than in the country,
+and there were a great many persons there
+who would exert themselves to secure me from the
+slave-holders.  In parting he cautioned me against
+conversing or stopping with any man on the road,
+unless he wore a plain, straight collar on a round 
+coat, and said “thee” and “thou.”  By following 
+his directions I arrived safely in Philadelphia,
+having been kindly entertained and assisted on my
+journey by several benevolent gentlemen and ladies,
+whose compassion for the <sic>wayworn</sic> and hunted
+stranger I shall never forget, and whose names
+will always be dear to me.  On reaching Philadelphia,
+I was visited by a large number of the
+Abolitionists, and friends of the colored people,
+who, after hearing my story, thought it would not
+be safe for me to remain in any part of the United
+<pb id="williams99" n="99"/>
+States.  I remained in Philadelphia a few days,
+and then a gentleman came on to New York with
+me, I being considered on board the steam-boat,
+and in the cars, as his servant.  I arrived at New
+York on the 1st of January.  The sympathy and
+kindness which I have every where met with
+since leaving the slave states, has been the more
+grateful to me because it was in a great measure
+unexpected.  The slaves are always told that if
+they escape into a free state they will be seized
+and put in prison until their masters send for
+them.  I had heard Huckstep and the other overseers
+occasionally speak of the Abolitionists, but I
+did not know or dream that they were the friends
+of the slave.  Oh, if the miserable men and women,
+now toiling on the plantations of Alabama, could
+know that thousands in the free states are praying
+and striving for their deliverance, how would the
+glad tidings be whispered from cabin to cabin, and
+how would the slave-mother, as she watches over
+her infant, bless God, on her knees, for the hope
+that this child of her day of sorrow might never
+realize, in stripes, and toil, and grief unspeakable,
+what it is to be a slave!</p>
+    </body>
+    <back>
+      <pb id="williams100" n="100"/>
+      <div1>
+        <head>NOTE BY THE EDITOR.</head>
+        <p>THE reader may perhaps feel a curiosity to
+know something further of James Williams, and
+whether he has found a place of security from the
+hunters of human chattels at the South. He came
+to New York on the 1st of the 1st mo., 1838.
+He was taken to the house of a true friend of the
+oppressed, where he was received and entertained
+with much sympathy and kindness. While in
+this city he Divas visited lay a large number of gentlemen, who were deeply interested in his narrative. An accurate and striking sketch of his face
+vas made by an eminent artist, the engraving of
+which, by PATRICK REASON, a colored young gentleman of this city, is prefixed to this volume.
+He had, however, been in his asylum but a few
+days, when information was received that two
+white men were in pursuit of him, accompanied
+by a colored man, who knew James, and would be
+able at once to <sic>recognise</sic> him. The informant
+stated that they had been as far as Boston, and
+<pb id="williams101" n="101"/>
+had just returned to this city. After consultation,
+his friends came to the conclusion that he would
+not be safe in any part of the United States, and
+that, in the present unsettled state of the Canadas,
+it would be best to send him to England. He
+accordingly sailed for Liverpool, with the best
+wishes and sympathies of all who had an opportunity of hearing his story.</p>
+        <p>It is with deep humiliation and sorrow that eve
+are thus compelled to proclaim to the world, that
+even the nominally free states of America afford
+no protection to the man of color, escaping from a
+land of slavery. Even the soil which is yet
+greener for the blood of the revolutionary sacrifice
+  -  the plains of Lexington and Saratoga  -  may not
+be trodden in safety by the scarred and toil-worn
+fugitive from Southern Slavery. Rome had her
+temples where the slave could flee and be secure,
+for the master dared not violate his sanctuary.
+But America has no place too sacred for the profaning presence of slavery. It pervades the whole
+land,  -  an active and almost omnipresent despotism. The weary stranger may be plucked away
+from the domestic fireside, or dragged from the
+very horns of the altars of religion. The whole
+<pb id="williams102" n="102"/>
+constabulary and municipal force of the country,
+the entire civil and military authority, are pledged,
+by the constitution itself, to aid the master in recovering his runaway slaves. Judges, sheriffs,
+constables, and citizens of the free states, are
+bound by the constitutional law of the land to
+hunt men like wild beasts, for no other crime than
+that of preferring freedom to bondage. Better
+would it be to forego, at once, this mockery of
+freedom, and wear the acknowledged chains of
+slavery ourselves, than thus to stand ready at the
+beck of our masters to howl in the track of the
+fugitive, in concert with the trained bloodhounds
+of the South.</p>
+      </div1>
+      <pb id="williams103" n="103"/>
+      <div1 type="appendix">
+        <head>APPENDIX.</head>
+        <div2>
+          <p>IN our prefatory remarks we adduced only the testimony of inveterate and determined advocates of slavery.
+In corroboration of the facts stated by James Williams,
+we offer now the testimony of several gentlemen, who
+are natives of the South, or have been residents in that
+section of the country.</p>
+        </div2>
+        <div2>
+          <head>DISCUSSION IN LANE SEMINARY, 2D Mo., 1834.</head>
+          <p>A member from Alabama, speaking of the cruelties
+practiced upon the slaves, said  -  “At our house it is so
+common to hear their screams from a neighboring plantation, that we think nothing of it. The overseer of this
+plantation told me one day he laid a young woman over
+a log, and beat her so severely that she was soon after
+delivered of a dead cold. A bricklayer, a neighbor of
+ours, owned a very smart young negro man, who ran
+away, but was caught. When his master got him home,
+he stripped him naked, tied him up by his hands, in plain
+sight and hearing of the academy and the public green,
+so high that his feet could not touch the ground; then
+tied them together, and put a long board between his
+legs to keep him steady. After preparing him in this
+way, he took a paddle, bored it full of holes, and commenced beating him with it. He continued it leisurely all day. At night his flesh was literally pounded to
+a jelly. It was two weeks before he was able to walk.
+No one took any notice of it; no one thought any wrong
+was done.”</p>
+        </div2>
+        <pb id="williams104" n="104"/>
+        <div2>
+          <head> TESTIMONY OF JOHN RANKIN,</head>
+          <argument>
+            <p>
+              <hi rend="italics">A native of Tennessee, educated there, and for a number of
+  years a preacher in slave states  -  now pastor of a church
+  in Ripley, Ohio.</hi>
+            </p>
+          </argument>
+          <p>“In some parts of Alabama, you may see slaves in tile
+Cotton fields without so much as even a <hi rend="italics">single rag</hi> upon
+them, shivering before the chilling blasts of mid-winter.
+Indeed, in every slave-holding State <hi rend="italics">many slaves suffer
+extremely,</hi> both while they labor and while they sleep,
+<hi rend="italics">for want of clothing</hi> to keep them warm.  Often they are
+driven through frost and snow without either stocking or
+shoe, until the path they tread is dyed with the blood that
+issues from their frost-worn limbs!  And when they return to their miserable huts at night, they find not there
+the means of comfortable rest; but <hi rend="italics">on the cold ground
+they must lie without covering, and shiver while they slumber.</hi></p>
+          <p>“In connection with their extreme sufferings, occasioned by want of clothing, I shall notice those which 
+arise from want of food.  As the making of grain is 
+the main object of their <sic>mancipation</sic>, masters will sacrifice as little as possible in giving them food.  It <hi rend="italics"/>
+happens that what will <hi rend="italics">barely keep them alive</hi> is all that
+a cruel avarice will allow them.  Hence, in some instances, their allowance has been reduced to a <hi rend="italics">single
+pint of corn each</hi> during the day and night; and some
+have no better allowance than a small portion of cotton
+seed!!  And in some places the best allowance is a peck
+of corn each during the week, while perhaps they are not
+permitted to taste meat so much as once in the course
+of seven years, except what little they may be able to
+steal!  <hi rend="italics">Thousands of them are pressed with the gnawings
+of cruel hunger during their whole lives.</hi></p>
+          <p>“Many poor slaves are stripped naked, stretched and 
+tied across barrels or large bags, and <hi rend="italics">tortured with the
+lash during hours, and even whole days, until their flesh is
+mangled to the very bones.</hi>  Others are stripped and hung
+up by their arms, their feet are tied together, and the end
+of a heavy piece of timber is put between their legs in
+order to stretch their bodies, and so prepare them for the
+torturing lash  -  and in this situation they are often
+whipped until their bodies are covered <hi rend="italics">with blood and
+mangled flesh, </hi>and in order to add the greatest keenness
+<pb id="williams105" n="105"/>to their sufferings, their wounds are washed with <hi rend="italics">liquid
+salt!</hi>  And some of the miserable creatures are permitted to hand in that position until they actually <hi rend="italics">expire</hi>;
+some die under the lash, others linger about for a time, 
+and at length die of their wounds, and many survive, 
+and endure again similar torture.  These bloody scenes
+are <hi rend="italics">constantly exhibiting in every slave-holding country  -  
+thousands of whips are every day stained with African blood!</hi>
+Even the poor <hi rend="italics">females</hi> are not permitted to escape these
+shocking cruelties.”  -  <hi rend="italics">Rankin's Letters, pages</hi> 57, 58.</p>
+        </div2>
+        <div2>
+          <head>TESTIMONY OF ASA A. STONE,</head>
+          <argument>
+            <p>
+              <hi rend="italics">A Theological Student, who resided near Natchez, Mississippi, 
+when he published the following statement, dated
+  24th 5th mo., 1835.</hi>
+            </p>
+          </argument>
+          <p>“No one here thinks that the slaves are seldom over-
+driven and under-fed.  Every body knows it to be one
+of the most <hi rend="italics">common occurrences.</hi>  No planter of intelligence
+and candor denies that slaves are very generally badly
+treated in this country.  <hi rend="italics">I wish to be understood now at
+the commencement, that, intending to do that my statements shall be relied on, and knowing that, should you see
+fit to publish this communication, they will come to this country, where their correctness may be tested by comparison with
+real life, I make them with the utmost care and precaution.</hi>
+But those which I do make are made without the least
+apprehension of their being controverted.... In the 
+first place, with respect to labor.  The <hi rend="italics">time</hi> of labor is
+first to be noticed.  It is a general rule on all regular 
+plantations that the slaves rise in season in the morning
+to <hi rend="italics">be in the field as soon as it is light enough for them to see
+to work,</hi> and remain there until it is <hi rend="italics">so dark that they cannot see.</hi>   This is the case at all seasons of the year; so
+that during the summer they are in the field at least
+<hi rend="italics">fifteen hours.</hi>  This does not include the time spent in
+going and returning; that must be done while it is too
+dark to suffer them to work, even if the field, as is frequently the case, is a mile distant.  It is literally true,
+what one of them remarked to me the other day, that
+“they never know what it is to sleep till daylight.”</p>
+          <p>.... Their suppers they have to prepare and eat after 
+they return home, which, at this season of the year,
+takes them until nine o'clock: so that, without leaving a
+<pb id="williams106" n="106"/>
+<hi rend="italics">moment</hi> of time for any other purpose, they can have but
+seven hours' sleep before four in the morning, when they
+are called.... On almost every plantation, the hands 
+suffer more or less from hunger at some seasons of almost every year.  On the majority of plantations, the
+feeding supplies the demands of nature tolerably well,
+except in the winter, and at some other occasional times.
+There is always a <hi rend="italics">good deal of suffering</hi> on them from
+hunger in the course of the year.  On many plantations,
+and particularly in Louisiana and among the French
+planters, the slaves are in a condition of <hi rend="italics">almost utter
+famishment</hi> during a great portion of the year.  Let a 
+man pass through the plantations where they <hi rend="italics">fare the
+best,</hi> and see fifty or sixty hands, men and women, sitting down on the furrows where their food-cart happens
+to overtake them, and making their meal of a bit of corn-
+bread and water, and he will think it is rather hard fare.
+This is not <sic>unfrequently</sic> the case on plantations where 
+they are considered well fed.....</p>
+          <p>“I will now say a few words about treatment and
+condition in general.  That floggings are very common
+and severe, appears from what has already been said.
+I must now say that flogging for all offences, including
+deficiencies in work, are <hi rend="italics">frightfully common</hi>, and <hi rend="italics">most
+terribly severe</hi>.</p>
+          <p>“<hi rend="italics">Rubbing with salt and red pepper is very common after
+a severe whipping.</hi>  The object, they say, is primarily to
+<hi rend="italics">make it smart;</hi> but add, that it is the best thing that can
+be done to prevent mortification and make the <hi rend="italics">gashes</hi>
+heal.”</p>
+        </div2>
+        <div2>
+          <head>TESTIMONY OF THE PRESBYTERIAN SYNOD OF KENTUCKY,</head>
+          <argument>
+            <p>
+              <hi rend="italics">A large majority of whom are or have been slave-holders.</hi>
+            </p>
+          </argument>
+          <p>“This system licenses and produces <hi rend="italics">great cruelty.</hi></p>
+          <p>“Mangling, imprisonment, starvation, every species
+of torture, may be inflicted upon him, (the slave,) and 
+he has no redress.</p>
+          <p>“There are now in our whole land two millions of 
+human beings, exposed, defenceless, to every insult, and
+every injury short of maiming or death, which their
+fellow-men may choose to inflict.  <hi rend="italics">They suffer</hi> all that
+can be inflicted by wanton caprice, by grasping avarice,
+by brutal lust, by malignant spite, and by insane anger.
+Their happiness is the sport of every whim and the prey
+<pb id="williams107" n="107"/>
+of every passion that may occasionally or habitually
+infest the master's bosom.  If we could calculate the
+amount of <sic>wo</sic> endured by the ill-treated slaves, it would
+overwhelm every compassionate heart  -  it would move
+even the obdurate to sympathy.  There is also a vast
+sum of suffering inflicted upon the slave by humane 
+masters, as a punishment for that idleness and misconduct which slavery naturally produces.     *   *   *</p>
+          <p>“<hi rend="italics">Brutal stripes,</hi> and all the varied kinds of personal 
+indignities, are not the only species of cruelty which
+slavery licenses.   *   *   *   Brothers and sisters,
+parents and children, husbands and wives, are torn
+asunder, and permitted to see each other no more.
+These acts are daily occurring in the midst of us.  The
+shrieks and agony often witnessed on such occasions proclaim with a trumpet tongue the iniquity and
+cruelty of our system.   *   *   *   <hi rend="italics">There is not a 
+neighborhood</hi> where these hear-rending scenes are not
+displayed.  <hi rend="italics">There is not a village or road</hi> that does not
+behold the sad procession of manacled outcasts, whose
+chains and mournful countenances tell that they are
+exiled by force from all that their hearts hold dear.”  -  </p>
+          <trailer><hi rend="italics">See Address of Synod to Churches, in</hi> 1835, <hi rend="italics">page</hi> 12.</trailer>
+        </div2>
+        <div2>
+          <head>TESTIMONY OF THE MARYVILLE (TENNESSEE) INTELLIGENCER, 
+OF THE 4TH OF 10TH MO., 1835.</head>
+          <p>The Editor, in speaking of the sufferings of the slaves
+which are taken by the internal trade to the Southwest,
+says:</p>
+          <p>“Place yourself in imagination, for a moment, in
+their condition : with <hi rend="italics">heavy galling chains</hi> riveted upon
+your person; <hi rend="italics">half-naked, half-starved;</hi> your back <hi rend="italics">lacerated</hi> with the ‘knotted whip;’  travelling to a region 
+where your <hi rend="italics">condition through time will be second only to
+the wretched creatures in Hell.</hi></p>
+          <p>“This depiction is not visionary.  Would to God that 
+it was.”</p>
+        </div2>
+        <div2>
+          <head>TESTIMONY OF COLONEL WILLIAM KEYES,</head>
+          <argument>
+            <p>
+              <hi rend="italics">A native of Rockbridge County, Virginia, where he resided
+  about thirty years  -  now well known and greatly respected
+  in southern Ohio.</hi>
+            </p>
+          </argument>
+          <p>“In that part of Virginia where I resided, (the valley,) so far as relates to food, clothing, and labor, slaves
+<pb id="williams108" n="108"/>
+may be said to be well used, when compares with the
+<hi rend="italics">barbarity</hi> of their treatment farther south, or wherever
+they are held in large numbers; yet, even where I lived,
+though few slaves comparatively were held, <hi rend="italics">many</hi> acts
+of <hi rend="italics">atrocious cruelty</hi> were perpetrated.  I have seen <hi rend="italics">aged,
+gray-headed slaves stripped, tied up, and whipped with a
+cowhide,</hi> forty or fifty lashes, for no fault but absence for
+a few minutes too long when wanted.  Such thins I call
+cruelty, but they pass among slave-holders <hi rend="italics">for nothing.</hi>”</p>
+          <trailer><hi rend="italics">Dated Hillsborough, Ohio, 1st of 1st mo.,</hi> 1835.</trailer>
+        </div2>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

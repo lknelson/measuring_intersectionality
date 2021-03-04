@@ -1,0 +1,847 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd">
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>A Family Redeemed from Bondage; Being Rev. Edmond Kelley, (the Author,) His Wife, and Four Children:</emph>
+Electronic Edition.</title>
+        <author>Kelley, Edmond, b. 1817</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>Apex Data Services, Inc., Elizabeth S. Wright  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2001</date></edition>
+      </editionStmt>
+      <extent>ca. 60K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> A Family Redeemed from Bondage; Being Rev. Edmond Kelley, (the Author,) His Wife, and Four Children</title>
+            <author>Rev. Edmond Kelley</author>
+          </titleStmt>
+          <extent> 19 p.</extent>
+          <publicationStmt>
+            <pubPlace>NEW BEDFORD:</pubPlace>
+            <publisher>PUBLISHED BY THE AUTHOR, Corner of Cedar and Middle Streets.</publisher>
+            <date>1851</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">This electronic edition has been transcribed from a photocopy supplied by the American Antiquarian Society. </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African American Baptists -- Correspondence.</item>
+            <item>African American clergy -- Correspondence.</item>
+            <item>African American missionaries -- Correspondence.</item>
+            <item>African Americans -- Correspondence.</item>
+            <item>Baptists -- Clergy -- Correspondence.</item>
+            <item>Kelly, Edmund, b. 1818 -- Correspondence.</item>
+            <item>Slavery -- Tennessee -- History -- 19th century.</item>
+            <item>Slaves -- Emancipation -- Tennessee.</item>
+            <item>Slaves -- Tennessee -- Biography.</item>
+            <item>Slaves' writings, American.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-10-23, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-03-06, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-02-26, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-01-21, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc., </name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">A FAMILY <lb/> REDEEMED FROM BONDAGE; </titlePart>
+          <titlePart type="sub">BEING <lb/> REV. EDMOND KELLEY, <lb/> (THE AUTHOR,) <lb/> HIS WIFE, AND FOUR CHILDREN.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>NEW BEDFORD:</pubPlace>
+<publisher>PUBLISHED BY THE AUTHOR, <lb/> Corner of Cedar and Middle Streets.</publisher>
+<docDate>1851.</docDate>
+</docImprint>
+        <pb n="verso"/>
+        <docImprint>
+          <date>Entered according to Act of Congress, in the year 1851, by<lb/>
+Edmond Kelley, <lb/>
+in the Clerk's Office of the District Court of the District of Massachusetts.
+</date>
+        </docImprint>
+        <docImprint>Printed by Damrell and Moore, <lb/>
+16 Devonshire Street.</docImprint>
+      </titlePage>
+      <div1 type="section">
+        <pb id="pxxx2" n="3"/>
+        <head>INTRODUCTION.</head>
+        <p>It will be remembered that I stated in my circulars for subscriptions, that I contemplated publishing all the facts relative to the purchase of my family, including the letters from various churches, provided they did not object to their being published.</p>
+        <p>I would say that while many of the friends who aided me, and those who are disposed to give me further assistance, seem to approve of my publishing the facts, yet I have met many objections to having the letters printed, on account of their having been written in haste. These objections I consider valid; for that reason I have concluded to omit publishing the letters referred to. Another reason is, the number of subscribers is so small, that to publish an expensive book would tend to involve me deeper in debt than I am at present, ($865.) If a large number should subscribe, the sale of the book will tend to forward the contemplated object; if not, I shall not make anything on the work. I presume the friends who subscribed for it, did it merely to forward the object, and not with a view of being compensated to the value of their money. If, however, any of the subscribers are dissatisfied with what they have received, and will inform me of it, I will forward their money to them.</p>
+        <closer>
+          <signed>EDMOND KELLEY.</signed>
+        </closer>
+      </div1>
+    </front>
+    <pb id="p5" n="5"/>
+    <body>
+      <div1 type="section">
+        <head>A FAMILY REDEEMED.</head>
+        <p>As many of the churches and friends, in responding to my petition for assistance, to enable me to redeem my family from slavery, have requested me to furnish them with a sketch of my history, I shall cheerfully do so, including the letters of correspondence and the letters from the several churches, and others, and the amount contributed by them.</p>
+        <p>I was born June 10, 1817, the slave of widow Ann White, of Columbia, Maury County, Tennessee, but was afterwards transferred to her daughter Nancy. I experienced religion in 1838, and was baptized the 14th day of May, in the same year. I was married to Miss Paralee Walker, Sept. 15th, 1839. On the 19th of May, 1842, I was licensed to preach the gospel. The following is a form of the license.</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <salute>To any regular Baptist Church, greeting:—</salute>
+                </opener>
+                <p>This is to certify that brother Edmond Kelley has been regularly authorized by the Baptist Church, Columbia, Tenn., to exhort and preach wherever he may have liberty to do so. This church also affectionately recommends him as a member whose conduct has always been exemplary and well ordered, and prays that his services among his colored brethren may prove acceptable, and by being blessed of the great Head of the Church, tend to the building up of our holy Zion.</p>
+                <closer>
+                  <dateline>Done by order of the church, this <date>19th day of May, in the year of our Lord 1842.</date></dateline>
+                  <signed>
+                    <name>CHAS. A. FULLER, </name>
+                    <hi rend="italics">Clerk.</hi>
+                  </signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>I was then ordained to the work of the ministry Oct. 1, 1843, the following being the form of the ordination certificate:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>By request of the church in Columbia, Tenn., the undersigned were called to act as a Presbytery for the ordination of brother Edmond Kelley (a colored man) to the work of the ministry. After full examination and approval as to his Christian experience, call to the ministry,
+<pb id="p6" n="6"/>
+and views of doctrine, he was set apart as an Evangelist, by prayer and the imposition of our hands, in the presence of the church in Nashville, the 1st day of October, 1843.</p>
+                <closer><signed><name>R. B. C. HOWELL, </name><hi rend="italics">Pastor, &amp;c.</hi></signed>
+<signed><name>SILAS WEBB.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>I then became pastor of the First Baptist Church (composed of colored persons,) in the town of Columbia, and remained their pastor until 1845, when, in compliance with the request of the people and the Concord Baptist Association, of which I was a member, I became a missionary under that body. The same year that Association resolved to purchase my freedom according to the following extract from their proceedings:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <p>Whereas we have learned that Edmond Kelley, an ordained Baptist Minister of this Association, in whose piety and zeal we have entire confidence, who we believe possesses ministerial gifts and knowledge of the Scriptures, with ability to enforce their precepts, is likely to be sold, therefore</p>
+                <p>Resolved,—That it is important for this Association to raise a fund, and purchase him to preach to the colored population of this country, under the direction of this body.</p>
+                <p>Resolved,—That a Committee of three be appointed to raise the funds and purchase said E. Kelley, to be held in trust by said Committee and their successors, as the property of this Association.</p>
+                <p>Resolved,—That we request the churches of this Association, and throughout the State, as well as all benevolent persons, to aid us in this praiseworthy design.</p>
+                <closer>
+                  <signed>
+                    <name>R. W. JANUARY, </name>
+                    <hi rend="italics">Clerk.</hi>
+                  </signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>There were some objectionable features in the above resolves, which will be sufficient to account for the reason why I was not purchased by the Association. However, I continued to labor under the patronage of that body until the last of the year 1846, paying my owner ten dollars per month for my time. In 1846 the estate that claimed me became insolvent, and my owner, fearing she might lose the debt, urged me to leave the State, as will be seen by the following letters which were addressed to me at Louisville, Kentucky.</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">Robertson City, Tenn., </hi>
+                      </addrLine>
+                    </address>
+                    <date>
+                      <hi rend="italics">Nov. 27th, 1846.</hi>
+                    </date>
+                  </dateline>
+                </opener>
+                <p>EDMOND KELLEY,—Sir: Your letter came to hand this morning, and I hasten to answer it. I received a letter from Nancy White, giving me the power to give you a pass to go anywhere in the United States to preach; this and the papers from the church will be a sufficient permit to go undisturbed. I will have to go to Springfield to have the pass
+<pb id="p7" n="7"/>
+fixed right, and then you shall have it. You had better write to me of your whereabouts occasionally.</p>
+                <p>Nancy's letter says all are in moderate health; your family are all well. Look out for the pass soon.</p>
+                <closer><salute>In haste, yours, &amp;c.</salute>
+<signed><name>H. ROBERTSON.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline><address><addrLine><hi rend="italics">Springfield, Tenn.,</hi></addrLine></address><date><hi rend="italics"> Jan. 2d,</hi></date> 1847.</dateline>
+                </opener>
+                <p>EDMOND KELLEY,—Sir: Enclosed you will find a pass to go any and every where to preach, &amp;c. I received a letter from Columbia a few days ago, and your people are all well, and they do not want you to come home until they direct you to do so. I have taken pains to fix your pass so you will not be bothered or perplexed. You must write to me from time to time to give me your whereabouts, so I will know where a letter would reach you, &amp;c. Betty and the children are all well. My family have been sick ever since you left.</p>
+                <closer><salute>Yours respectfully,</salute>
+<signed><name>H. ROBERTSON.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>The following is the form of the pass alluded to in the foregoing letters:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>State of Tennessee, Robertson County.</addrLine>
+                    </address>
+                  </dateline>
+                </opener>
+                <p>Know all men by these presents, that I, Hugh Robertson, of the County and State aforesaid, by virtue of a power of Attorney to me executed on the 15th day of November, 1846, by Nancy White, of the County of Maury, and State aforesaid, do hereby authorize and permit a mulatto boy, Edmond Kelley, a Baptist preacher, to go to any State in the United States of America, and to preach, and to remain when and where he pleases until he is called for by the owner, or myself as her Attorney in fact. This the 4th day of January, 1847.</p>
+                <closer>
+                  <signed><name>NANCY WHITE. </name> By her Attorney, <name>HUGH ROBERTSON.</name></signed>
+                </closer>
+              </div1>
+              <div1 type="letter">
+                <opener>
+                  <dateline>State of Tennessee, Robertson County.</dateline>
+                </opener>
+                <p>Personally appeared before me, Joseph E. Winfield, Clerk of the County Court for said County, Hugh Robertson, the maker of the within-named pass or permit, with whom I am personally acquainted, and who acknowledged that he executed the same for the purposes therein contained. In testimony whereof, I have hereunto set my hand and affixed the seal of my office this 4th day of January, 1847.</p>
+                <closer>
+                  <signed>J. E. WINFIELD, <hi rend="italics">Clerk.</hi></signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>In compliance with their request, I left Louisville and went to Ohio, from thence to New York, and while there received the following letter from the Rev. Dr. Howell:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">Nashville,</hi>
+                      </addrLine>
+                    </address>
+                    <date><hi rend="italics">July 6th,</hi> 1847.</date>
+                  </dateline>
+                </opener>
+                <salute>Rev. EDMOND KELLEY,—</salute>
+                <p><hi rend="italics">Dear Brother,</hi> — Yours of the 28th ult. is before me. I saw in a New
+<pb id="p8" n="8"/>
+York paper, a few weeks ago, some reference to you. I could not then account for your being in that city. I am glad to receive information upon that subject. You will probably receive a good deal of attention in the eastern cities, and in Ireland, should you go there. Do not permit any thing of this kind to puff you up. Your humility, modesty, and self-diffidence, form now the greatest attractions you possess. If you lose these you will be shorn of your strength. Make it a point to act, to feel, and preach, and pray, and live, exactly as you formerly did in Columbia. The Lord preserve you from the snares in the midst of which you now walk.</p>
+                <closer><salute>Yours truly,</salute>
+<signed>R. B. C. HOWELL.</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>From New York I then proceeded to Boston, where I received the following letter:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">Nashville, Tenn.,</hi>
+                      </addrLine>
+                    </address>
+                    <date>
+                      <hi rend="italics"> August 28.</hi>
+                    </date>
+                  </dateline>
+                </opener>
+                <p>REV. E. KELLEY,—Your letter of the 18th inst. is before me. You are in Boston, you assure me, by the instructions and requirement of your mistress. This being the case, I do not, of course, object. I trust you will seek to be eminently religious and useful. And I recommend you to commence instantly, under the instruction of some of our ministers there,—Stow, or Neale, or some other,—a regular course of study which shall embrace a thorough training in at least English, and theology. Call upon one of these brethren, and show him this letter.</p>
+                <p>The money in the hands of Bro. Avent, the Treasurer of our Association, was collected for your purchase, and placed there by the order of the Association. It will, I suppose, require an order of the body to pay it over; and as it has no Executive Board, I do not see but that we shall have to wait until the next meeting, which will occur, I believe, in August. I will, however, as soon as I can, see about it. I shall be glad if, as the money was collected to purchase <hi rend="italics">you,</hi> no difficulty arises in diverting it to the purchase of your <hi rend="italics">wife</hi> and <hi rend="italics">children.</hi> I wish sincerely the purchase had been made, and the whole affair arranged, without your leaving Tennessee. I trust the enterprise will be prudently prosecuted, and that you may soon obtain your wife and children.</p>
+                <closer><salute>Yours truly, &amp;c.,</salute>
+<signed><name>R. B. C. HOWELL.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>In September, 1848, I received an invitation to visit New Bedford, where I preached for the Second Baptist Church for one month, at the expiration of which time I became their pastor, and while there received a copy of the Minutes of the Concord Baptist Association, containing the report of the Committee respecting the funds mentioned in the preceding letter, which is as follows:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <head>Report of the Committee on the Correspondence with Edmond Kelley.</head>
+                <p>“That the funds in the hands of your Treasurer is $77.90, collected to purchase him, are not now eligible to the end, since he, as he informs us, by command of his mistress, is now in Massachusetts, and, as he says, does not intend to return. The money cannot now, of course, be applied
+<pb id="p9" n="9"/>
+to the purchase of his freedom, the object for which it was given by the donors. We cheerfully propose the following resolution:—</p>
+                <p><hi rend="italics">Resolved,</hi> That the sum of money in the hands of the Treasurer, be returned to the original donors, provided they call for it by the first day of November next; and if any money be not called for, it be appropriated to the beneficiary of this Association at Union University.</p>
+                <closer><salute>Respectfully submitted,</salute>
+<signed><name>JAMES AVENT, </name><hi rend="italics">Chairman.</hi></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>N. B.—The Committee could not appropriate the money to the purchase of my family, because it was collected to effect my purchase, but could take the same money and apply it to the support of a beneficiary at Union University.</p>
+        <p>At the time of my leaving home, my family consisted of a wife and four children; who were owned by Mr. James Walker, a wealthy farmer in Columbia. After coming to the Eastern States, I felt an anxiety that my family should share with me that freedom which belongs to all men. I therefore made an effort to raise the money and purchase their freedom, but was advised by the brethren to suspend my efforts, as Mr. Walker's obligations were only verbal, and not in writing. So a friend addressed to Mr. Walker a letter upon the subject. The following is the reply:—</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>Columbia,</addrLine>
+                    </address>
+                    <date><hi rend="italics">Feb. 24,</hi> 1850.</date>
+                  </dateline>
+                </opener>
+                <p>REV. EDMOND KELLEY,—SIR: Yours of the 12th inst. addressed to my wife, has been handed to me. You respectfully ask for information that I am willing to give you. In the first place, if they were offered for sale here at the present prices of such servants, they would command in each $2,800. No price, however, could be offered by any one that would induce me to permit them to be the slaves or servants of any but my own family. To part with them, with certain knowledge that they were to be free, and their condition bettered, is a matter I might take into consideration. But it is useless to do so until you inform me you can command $2,800, to be applied to that object.</p>
+                <p>Dolly, the mother of your wife, was my nurse, took the tenderest care of me when I was an orphan child. The attachment which this has produced on my part, and on the part of my wife and children to her and her children and their children, and their treatment, is altogether different from what is ordinarily termed <hi rend="italics">slavery.</hi> Although they occupy the position of servants to me and my family, they in reality, in the tie of affection and regard for their comfort and happiness which exists, are not <hi rend="italics">slaves</hi> at all. They, <hi rend="italics">if they are colored,</hi> stand next in my affections to my own wife and children and children's children. The affection I believe to be mutual. Now, if you could command the means to pay for and emancipate them, could you provide for and place them in a happier and more comfortable condition than they now are, and have every guarantee of remaining? This is the question to be considered and satisfactorily answered before I will take the matter into consideration. I much doubt
+<pb id="p10" n="10"/>
+your ability to make the change you desire beneficial to them, if I were even voluntarily to emancipate them. This I shall not do, for the simple reason that I believe doing so would not benefit them, if there were no other reason. But I have other reasons. My family are accustomed to and must have servants. Servants to whom they are attached, and who are truly attached to them, are invaluable. Servants who are raised up in a family, perfectly honest and upright, attached to those who are their owners and protectors, are a necessary part of a family, not conveniently dispensed with, not calculated to promote the happiness and welfare of either owner or servants, unless under the existence of unusual circumstances.</p>
+                <p>I never blamed you for exercising the natural right of securing your freedom if you could. This was your natural right, and in exercising it you committed no offence against your God, whose approbation alone is to be looked to. But in doing this, have you made yourself happier and in better circumstances than you would have been here? Perhaps you have, but the effect may be different if you could accomplish what you wish in relation to your wife and children. Their situation may be, and probably is, entirely different from what yours was. They are in no danger of being sold, uncertain to whom.</p>
+                <p>If you have the means of raising $2,800 for the emancipation of your wife and children, and can satisfy me that you have the further ability of providing a comfortable support for them, and will inform me of the fact, I will take the matter into consideration. If you cannot do this, and have the means to furnish me with to purchase whatever claim may be upon your labor and services here, and have <hi rend="italics">you emancipated,</hi> my attachment to your wife and children would make me take much trouble to accomplish any wish you may have to live here a free man with your wife and children <hi rend="italics">nominally slaves.</hi></p>
+                <closer><salute>Yours, &amp;c.,</salute>
+<signed><name>JAMES WALKER.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">Columbia,</hi>
+                      </addrLine>
+                    </address>
+                    <date> <hi rend="italics">July</hi> 27, 1850.</date>
+                  </dateline>
+                </opener>
+                <p>Rev. EDMOND KELLEY,—Sir: I did not reply to a letter sometime since received from you, for the reason that my daughters, Annie and Paralee, were both then at New Orleans. I wished to see both of them before I gave a positive answer. Your letter to your sister was shown to me yesterday, and upon consulting with my wife, and talking with Paralee, we have concluded that if you can raise the money required, Paralee and all her children, except Dolly, <hi rend="italics">may go free.</hi> The reason why I cannot give a positive promise as to Dolly, I will explain to you. When Dolly was a small child, years ago, I gave her to Annie as her own, to raise her up as she chose. She is very fond of her and has raised her more like she was her child than as a servant. She will not yet consent to part with her, and without her consent I cannot promise to let her go. My wife and myself, however, both think that if the rest go, Dolly ought to go with them—that it will even make Annie happier to let Dolly go, than to keep her. We will both use all our persuasion to get her to agree to let Dolly go, and I hope her affection for Dolly will make her consent, before you can make the necessary money arrangements. If Annie should not finally agree, I will make a fair and liberal deduction on this account.</p>
+                <pb id="p11" n="11"/>
+                <p>We will part with Paralee and her children with great reluctance. No price that could be mentioned would induce me to sell her as a slave to any body; but allowing her and her children for a consideration to become free is altogether a different matter. I cannot refuse it. You may therefore rely with perfect certainty that your wishes will be accomplished if you can raise the necessary amount of money.</p>
+                <p>After I have more time to consult with Annie I will write you further in relation to Dolly. We will have to come to some understanding how they are to be got to you, if the arrangement is made. It will do for you to make the payment agreed on to my son, J. Knox Walker, Washington city.</p>
+                <closer><salute>Yours, &amp;c.,</salute>
+<signed><name>JAMES WALKER.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline><address><addrLine><hi rend="italics">Columbia,</hi></addrLine></address> <date><hi rend="italics">July</hi> 29, 1850.</date></dateline>
+                </opener>
+                <p>Rev. EDMOND KELLEY,—Sir: Annie has reflected correctly upon the case of Dolly sooner than I expected. If the rest go she cannot be so selfish as to keep Dolly for her own personal gratification. Therefore, if you can raise the $2800, and pay it over to J. Knox Walker, at Washington city, or to me here, Paralee and all her children may go to you.</p>
+                <p>I do not know the best way to get them to you, but suppose I could, if expenses were provided, send them to Philadelphia in care of some friend, where you could meet and take charge of them.</p>
+                <closer><salute>Yours, &amp;c.,</salute>
+<signed><name>JAMES WALKER.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>It will be recollected that at the Boston Baptist Association of 1850, Dr. Sharp and Professor Ripley were appointed to correspond with Mr. Walker, and request him to lower the price of my family. The following letter I received from them, containing Mr. Walker's reply:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">Newton Centre, </hi>
+                      </addrLine>
+                    </address>
+                    <date><hi rend="italics">Oct.</hi> 22, 1850.</date>
+                  </dateline>
+                </opener>
+                <p>Rev. EDMOND KELLEY,—Dear Brother. This day I received Mr. Walker's reply to the letter sent him by Dr. Sharp and myself. However much to be regretted is the conclusion it presents, I presume you have prepared yourself for it. I trust you will exercise due Christian patience and submission.</p>
+                <p>It is in these words:</p>
+                <q direct="unspecified">
+                  <text>
+                    <body>
+                      <div1 type="enclosed letter">
+                        <opener>
+                          <dateline><address><addrLine><hi rend="italics">Columbia,</hi></addrLine></address> <date><hi rend="italics">Oct.</hi> 13, 1850.</date></dateline>
+                        </opener>
+                        <p>Sirs: I have received yours postmarked Boston, Oct. 4, in reply to which I have to say that I have no disposition to reduce the price of Edmond Kelley's wife and children. If I were disposed to sell them as servants here I could get more money for them, and they are daily increasing in value. No consideration would induce me to sell them to remain in slavery.</p>
+                        <p>If Edmond Kelley can raise the sum of money required by me in any short time, they may go to him. If he cannot raise it without much delay, I wish he would cease writing to them or me, raising in them hopes that cannot be realized.</p>
+                        <p>I do not promise to take even $2800 at any future period, but withdraw the offer unless it is accepted by him or his friends at an early day.</p>
+                        <closer><salute>Respectfully,</salute>
+<signed><name>JAMES WALKER.</name></signed></closer>
+                      </div1>
+                    </body>
+                  </text>
+                </q>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p12" n="12"/>
+        <p>The following is the form of the circulars which were sent to the different churches and friends, together with the subsequent hymn.</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="circular">
+                <head>TO THE FRIENDS OF HUMANITY.</head>
+                <p>This is to certify that the Rev. EDMOND KELLEY, who has been preaching the Gospel successfully in New Bedford two years and upwards, has learned that he can obtain the freedom of his family from slavery; a wife and four <sic corr="children">chlldren</sic>, by the payment of two thousand and eight hundred dollars, in cash.</p>
+                <p>We the undersigned clergymen of New Bedford, Mass., having examined the case of our brother EDMOND KELLEY, are prepared to express our strongest confidence in the merits of his claims upon the hearty sympathy and liberality of our Christian friends and the public generally.</p>
+                <list type="simple">
+                  <item>MOSES G. THOMAS,</item>
+                  <item>JOHN WEISS,</item>
+                  <item>MOSES CHASE,</item>
+                  <item>ALBERT G. MORTON,</item>
+                  <item>JOHN HOBART,</item>
+                  <item>JOHN GIRDWOOD,</item>
+                  <item>GEORGE L. PRENTISS,</item>
+                  <item>MOSES HOW,</item>
+                  <item>HERVEY SULLINGS,</item>
+                  <item>GARDNER DEAN,</item>
+                  <item>S. J. HORTON,</item>
+                  <item>THOS. J. McNUTTY.</item>
+                  <item>JAMES TAYLOR,</item>
+                  <item>ISAAC SMITH,</item>
+                  <item>B. COOK,</item>
+                  <item>A. ELDRIDGE,</item>
+                  <item>A. KENT.</item>
+                </list>
+                <p>To the above, the following names of eminent Baptist Clergymen in Massachusetts have been obtained: —<name>WM. H. SHAILER,</name> <name>ROLLIN H. NEALE,</name> <name>NATHANIEL COLVER,</name> <name>JOSEPH BANVARD,</name> <name>DANIEL SHARP,</name> <name>T. F. CALDICOT,</name><name> JOHN BLAIN,</name><name> WILLIAM HAGUE,</name> <name>BARON STOWE,</name> <name>PHARCELLAS CHURCH.</name></p>
+              </div1>
+              <div1 type="circular">
+                <head>THE TAUNTON BAPTIST ASSOCIATION TO WHOMSOEVER <lb/> IT MAY CONCERN.</head>
+                <p>WHEREAS, the family of our brother, Rev. EDMOND KELLEY, an esteemed and worthy member of this Association, are now held in slavery, and as he has now an opportunity of purchasing their freedom, therefore</p>
+                <p><hi rend="italics">Resolved,</hi> That we commend him, his wife and four children to the sympathies and confidence and liberal contributions of all who fear God and love Freedom.</p>
+                <p><hi rend="italics">Resolved,</hi> That a copy of this resolution be given to Brother KELLEY, signed by the Moderator and Clerk of the Association, which contributed one hundred dollars.</p>
+                <closer><signed><name>ANDREW POLLARD, </name><hi rend="italics">Moderator.</hi></signed>
+<signed><name>HENRY G. STEWART, </name><hi rend="italics">Clerk.</hi></signed></closer>
+              </div1>
+              <div1 type="letter">
+                <p>Dear friends, suppose you were placed in my situation, or that of my family, and we were placed in your situation, what would ye that I should do for you? “Therefore all things whatsoever ye would that men should do to you, do ye even so to them, for this is the Law and the Prophets.”—Matt. vii, 12.</p>
+                <p>For the encouragement of those who may feel disposed to give something
+<pb id="p13" n="13"/>
+to the above named object, the following passages of Scripture have been adduced.</p>
+                <p>“Cast thy bread upon the waters, for thou shalt find it after many days.”—Eccles. xi, 1.</p>
+                <p>“He that giveth unto the poor shall not lack.”—Proverbs, xxviii, 27.</p>
+                <p>“He that hath pity upon the poor, lendeth unto the Lord; and that which he hath given will he pay him again.”—Prov. xix, 17.</p>
+                <p>“But this I say, he which soweth sparingly, shall reap also sparingly: and he which soweth bountifully, shall reap also bountifully.</p>
+                <p>“Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.”—2 Cor. xi, 6, 7.</p>
+                <p>“And whosoever shall give drink unto one of these little ones, a cup of cold water only, in the name of a disciple, verily I say unto you, he shall in no wise lose his reward.”—Matt. x, 42.</p>
+              </div1>
+              <div1 type="letter">
+                <p>Dear Brother, you see from Mr. Walker's reply I have no time to visit the churches and friends as I intended to do. I ask you, in the name of God and humanity, to act as Agent for me, and read this Circular to your church and congregation, and solicit donations for me as soon as you can, that I may save my family from perpetual bondage. Any sum, much or little, will be thankfully received, sent me at 157 Elm Street, New Bedford. I am doing what I can; it now requires $2200.</p>
+                <p>I also append the Certificates of the Ministers of New Bedford, as to how I have lived since I became Pastor of the Second Baptist Church in New Bedford.</p>
+                <closer><salute>Respectfully, yours,</salute>
+<signed><name>E. KELLEY.</name></signed></closer>
+              </div1>
+              <div1 type="hymn">
+                <head>TO THE FRIENDS OF THE SLAVE.</head>
+                <p>EDMOND KELLEY, OF TENNESSEE,</p>
+                <p>Appeals to your generosity and sympathy, and hopes to be aided, by your liberality, in realizing the means necessary to redeem his wife and four children from slavery.</p>
+                <p>Whatsoever ye would that men should do to you, do ye even so to them.—Matt. vii, 12.</p>
+                <lg type="verse">
+                  <lg>
+                    <l>Sad thoughts come o'er me stealing</l>
+                    <l>And gloom is on my brow;</l>
+                    <l>The loved ones of my bosom!</l>
+                    <l>Where are my kindred now?</l>
+                  </lg>
+                  <lg>
+                    <l>This is the land of freedom;—</l>
+                    <l>Her seal is on its sod;</l>
+                    <l>'Tis blazoned on her charter,</l>
+                    <l>In sight of men and God.</l>
+                  </lg>
+                  <lg>
+                    <l>But hark! what sighs are floating</l>
+                    <l>On ev'ry southern gale!</l>
+                    <l>I hear the clank of fetters—</l>
+                    <l>I hear the bitter wail.</l>
+                  </lg>
+                  <lg>
+                    <l>Sad thoughts come o'er me stealing,</l>
+                    <l>And gloom is on my brow;</l>
+                    <l>The loved ones of my bosom!</l>
+                    <l>Where are my kindred now?</l>
+                  </lg>
+                  <pb id="p14" n="14"/>
+                  <lg>
+                    <l>Oh God! that voice of wailing!</l>
+                    <l>Was it an idle dream?</l>
+                    <l>For oft I hear it sounding</l>
+                    <l>The whip's harsh strokes between!</l>
+                  </lg>
+                  <lg>
+                    <l>And still in visions wand'ring,</l>
+                    <l>I'm standing by <hi rend="italics">her</hi> side;</l>
+                    <l>Where, lost to hope and freedom,</l>
+                    <l>Yet toileth my slave-bride.</l>
+                  </lg>
+                  <lg>
+                    <l>And oft the lash is falling</l>
+                    <l>Upon her bleeding back:</l>
+                    <l>While vain is her imploring</l>
+                    <l>To men who pity lack.</l>
+                  </lg>
+                  <lg>
+                    <l>And there my babes are trembling</l>
+                    <l>Beneath a tyrant's eye,</l>
+                    <l>And asking for their father</l>
+                    <l>With many a bitter sigh.</l>
+                  </lg>
+                  <lg>
+                    <l>“Oh, will he ne'er be coming,</l>
+                    <l>To take us by the hand,</l>
+                    <l>And lead us from our bondage,</l>
+                    <l>To Freedom's happy land?”</l>
+                  </lg>
+                  <lg>
+                    <l>Oh! must I hear my loved ones</l>
+                    <l>Thus <sic corr="hopelessly">hoplessly</sic> complain?</l>
+                    <l>Oh! must I hear them pleading</l>
+                    <l>For liberty in vain?</l>
+                  </lg>
+                  <lg>
+                    <l>Sad thoughts come o'er me stealing</l>
+                    <l>And gloom is on my brow;</l>
+                    <l>The loved ones of my bosom!</l>
+                    <l>Where are my kindred now?</l>
+                  </lg>
+                </lg>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>At the time when these Circulars and the ballads were sent to the several churches I had in my possession six hundred dollars which I had collected for the same object. The reason why this urgent appeal was made to the churches and friends was, the time given to me to raise the sum was short; and I take pleasure in saying that many of the ministers to whom these Circulars were sent interested themselves and laid our case before their churches, and took up collections to enable me to accomplish the object.</p>
+        <p>The amount collected in this way, and what I obtained by individual application, amounted to $2300. The time having now nearly expired for the money to be paid over to Mr. Walker's agent in New York, I hired the sum of $865 and placed it in the hands of Mr. J. Grinnell, of New Bedford, who obtained the consent of Mr. Minturn, of New
+<pb id="p15" n="15"/>
+York, to make the purchase of Mr. J. Knox Walker, of Tennessee, Mr. Minturn being much interested in the object himself, went to see Mr. Walker, and made the necessary arrangements with him, as the subsequent reports will show. It will be seen that, besides the $2800, I had to defray all their expenses, which was $365, making in all $3165.</p>
+        <p>I was compelled to resign my charge of the Second Baptist Church, New Bedford, May 1st, 1851, in order to secure the freedom of my family from slavery.</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">New York, </hi>
+                      </addrLine>
+                    </address>
+                    <date><hi rend="italics">April</hi> 26, 1851.</date>
+                  </dateline>
+                </opener>
+                <p>MY DEAR FRIEND, — I wrote you yesterday, and gave you advice by telegraph that I had completed the arrangements with Mr. J. Knox Walker, for the purchase of the freedom of Paralee Kelley and family, and I now enclose a copy of the contract, the original of which, duly signed by Mr. Walker, I return here to put in possession of the messenger, who is to proceed to Tennessee to convey the family to New Bedford.</p>
+                <p>As I informed you yesterday, the firm of Adams &amp; Co. offer to send their messenger for a charge of three dollars per day for his time, and all the actual expense of transportation, &amp;c. This is, I think, as favorable as could be expected, and Mr. Walker is of the opinion that they are the best parties to arrange with. I had hoped to despatch the messenger <hi rend="italics">to-day,</hi> but he is in Philadelphia, and cannot be here until Monday, when I trust he will start. They say that he is a very suitable person.</p>
+                <p>I trust you will find all these arrangements satisfactory, and I assure you that it is a great pleasure to me to bear any instrumentality in so benevolent an object.</p>
+                <closer><salute>I am your sincere friend,</salute>
+<signed><name>ROB'T B. MINTURN.</name></signed>
+<signed><hi rend="italics">Joseph Grinnell, Esq.</hi></signed>
+<dateline>Mr. Walker sails to-day for New Orleans.</dateline></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="document">
+                <head>(Copy.)</head>
+                <p>These presents witness, that with the view of the emancipation of Paralee, wife of Edmond Kelley, Dolly Ophelia, Robert Edmond, William Dempsey, and Alfred, her four children, the said five persons now being slaves in Tennessee, it is hereby agreed by J. Knox Walker, on behalf of himself and his father, James Walker, owners of the said five slaves, and Robert B. Minturn in behalf of Joseph Grinnell and others of the city of New Bedford, in the State of Massachusetts, in manner following, namely:</p>
+                <p>1. That the said five slaves are agreed to be sold for Two Thousand Eight Hundred Dollars for the whole five to the said Joseph Grinnell and others, which said five persons shall be delivered as soon as these presents can be forwarded to Columbia in Tennessee, to such person or in such manner as the said Robert B. Minturn may request: that the
+<pb id="p16" n="16"/>seller warrants that the title hereby made shall perfectly convey the said slaves to the said Robert B. Minturn, for the purpose of their emancipation: and that all further proper deeds or instruments on behalf of the sellers shall be made and executed so as fully to carry out the said purposes of these presents.</p>
+                <p>2. The said Robert B. Minturn agrees with the said J. Knox Walker, simultaneously with the said delivery, he will pay to him the said twenty-eight hundred dollars, by draft at one day's sight, on the firm of Grinnell, Minturn &amp; Co., of New York, which drafts they agree to accept on presentation, signing this agreement to show their assent to this engagement.</p>
+                <p>3. The said Robert B. Minturn hereby agrees to bear all the expenses of the said five persons from the time of their said delivery, and to assume all the liability of owners or purchasers of the said persons until they shall be brought out of the State of Tennessee, and emancipated according to law, and to hold the said prior owners harmless and indemnified.</p>
+                <p>Witness our hands and seals at New York this twenty-sixth day of April, A. D. 1851.</p>
+                <closer>
+                  <salute>Witness to all <lb/> the signatures,</salute>
+                  <signed>
+                    <name> W. H. SWAN.</name>
+                  </signed>
+                  <signed>
+                    <name> FRS. HATHAWAY,</name>
+                  </signed>
+                </closer>
+                <closer>
+                  <signed>(Signed,) J. KNOX WALKER. [SEAL.]</signed>
+                  <signed>JAMES WALKER, by Attor. [SEAL.]</signed>
+                  <signed>J. KNOX WALKER.</signed>
+                  <signed>ROBERT B. MINTURN. [SEAL.]</signed>
+                  <signed>GRINNELL, MINTURN &amp; Co. [SEAL.]</signed>
+                  <signed><hi rend="italics">James</hi> interlined instead of Robert before signature. <lb/> J. KNOX WALKER.</signed>
+                  <salute>Witness to signature,</salute>
+                  <signed>
+                    <name> FRS. HATHAWAY.</name>
+                  </signed>
+                </closer>
+                <closer>Mr. James Walker or Mrs. Walker will deliver the persons above named to Mr. who will present this paper, and also take the receipt of Mr. for the said persons, and hold it until I reach Columbia.<signed>J. KNOX WALKER.</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="document">
+                <head>(Copy.) </head>
+                <opener><dateline><address><addrLine><hi rend="italics"> Philadelphia,</hi></addrLine></address><date> <hi rend="italics">April</hi> 29, 1851.</date></dateline>
+<salute>Messrs. GRINNELL, MINTURN &amp; Co., <hi rend="italics">New York.</hi></salute></opener>
+                <p><hi rend="italics">Gentlemen:</hi> Mr. Dunning informs us you wish a person to send to Columbia, Tenn. for a confidential purpose. If Mr. Dunning suits you we shall be pleased to have the opportunity of obliging you by permitting him to go. He is faithful and determined, minds his own business, and will execute to the letter any commission with which he is entrusted, or give a good reason for failure. He will receive any assistance he may require from our office on the route.</p>
+                <closer><salute>Very respectfully,</salute>
+<signed>(Signed,) <name> ADAMS &amp; Co.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <pb id="p17" n="17"/>
+                <head>(Copy.)</head>
+                <opener><dateline><address><addrLine> <hi rend="italics">New York,</hi></addrLine></address><date> <hi rend="italics">April</hi> 30, 1851.</date></dateline>
+<salute>Messrs. GRINNELL, MINTURN &amp; Co.</salute></opener>
+                <p><hi rend="italics">Gentlemen:</hi> As we would prefer our names should not appear in the business of transporting the negroes from Columbia, you will please to make the negotiation with Mr. John Dunning for compensation for services, and other details, and we guarantee that any money advanced to him to perform the commission referred to, will be satisfactorily accounted for.</p>
+                <closer><salute>Respectfully yours,</salute>
+<signed>(Signed,)  <name>ADAMS &amp; Co.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">New York,</hi>
+                      </addrLine>
+                    </address>
+                    <date><hi rend="italics">May</hi> 1, 1851.</date>
+                  </dateline>
+                </opener>
+                <p>DEAR FRIEND,—I have your favor of the 29th ultimo, and am glad to find that you approve of the measures taken in respect to the family of E. Kelley.</p>
+                <p>Mr. Dunning, the messenger of Adams &amp; Co., has started for Tennessee, and I have directed him to deliver the people on his arrival here, to “Monroe's Express,” to be conveyed to New Bedford.</p>
+                <p>I inclose a copy of my instructions to Mr. Dunning, and Adams &amp; Co.'s guarantee for his fidelity, and I remain,</p>
+                <closer><salute>Most truly your friend,</salute>
+<signed>ROB'T B. MINTURN.</signed>
+<signed><hi rend="italics">Hon. Joseph Grinnell.</hi></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics"> New York,</hi>
+                      </addrLine>
+                    </address>
+                    <date> <hi rend="italics">April</hi> 30, 1851.</date>
+                  </dateline>
+                </opener>
+                <p>MR. JOHN DUNNING,—DEAR SIR: Herewith we hand you an agreement made with Mr. J. Knox Walker of Columbia, Tenn., for the transfer of Paralee, wife of Edmond Kelley, Dolly Ophelia, Robert Edmond, William Dempsey, and Alfred, her four children, and an order from Mr. Walker to deliver the said five persons to yourself; and we request that you proceed immediately to Columbia by the most expeditious route, present the agreement and order to the parties to whom it is addressed, take charge of the said five persons, and give a receipt for them upon receiving from Mr. Walker the necessary documents guaranteeing their freedom. You will then return directly to New York by way of the Ohio River, and on your arrival here, deliver the said persons to the agent of Monroe's Express, to be forwarded to New Bedford to the care of Mr. Joseph Grinnell. It is understood we are to allow you for your personal services, three dollars per day, and that the expenses of living and transportation for yourself and for the persons be paid by us.</p>
+                <p>We would here say, that the freedom of these persons has been purchased by subscription, by the Hon. Joseph Grinnell and others, citizens of New Bedford,—and we commend them to your best attention, that the benevolent design of these gentlemen may be efficiently carried out.</p>
+                <p>Trusting you will perform the business economically and expeditiously as possible, we are,</p>
+                <closer><salute>Respectfully yours,</salute>
+<signed>(Signed)  <name>GRINNELL, MINTURN &amp; Co.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p18" n="18"/>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <head>(Copy.) </head>
+                <opener>
+                  <dateline> <address><addrLine><hi rend="italics">New York,</hi></addrLine></address><date><hi rend="italics">April</hi> 30, 1851.</date></dateline>
+                </opener>
+                <p>MESSRS. GRINNELL, MINTURN &amp; Co.—Gentlemen: I hereby agree to proceed on the first day of May to Columbia, Tenn., by the most expeditious route, for the purpose of transporting to New York five persons, transferred by J. Knox Walker to Hon. Joseph Grinnell and others, according to the articles of agreement between said parties, which I have this day received from you, and to take charge of said persons and transport them to New York agreeable to your letter of instructions to me of this date. I also agree to accept three dollars per day in full for my personal services, you paying the expenses of living and transportation; and I have this day received from you three hundred dollars, to be appropriated toward defraying said expenses, and which I will account to you for on my return to New York.</p>
+                <closer><salute>Respectfully yours,</salute>
+<signed>(Signed)  <name>J. DUNNING.</name></signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>My family arrived at New York, May 29, as will be seen by the following communication:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">New York,</hi>
+                      </addrLine>
+                    </address>
+                    <date><hi rend="italics">May</hi> 29, 1851.</date>
+                  </dateline>
+                </opener>
+                <p>MR. EDMOND KELLEY,—Dear Sir: This is to let you know that your family have arrived all safe and sound. They will leave here this afternoon for New Bedford. They will proceed by the way of the Fall River Route.</p>
+                <closer>
+                  <salute>Yours truly,</salute>
+                  <signed>
+                    <name>R. B. MINTURN.</name>
+                  </signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <p>They all arrived in New Bedford May 30th, bringing with them the following document:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>
+                    <address>
+                      <addrLine>
+                        <hi rend="italics">Columbia, </hi>
+                      </addrLine>
+                    </address>
+                    <date><hi rend="italics">May</hi> 17<hi rend="italics">th</hi>, 1851.</date>
+                  </dateline>
+                </opener>
+                <p>Know all men by these presents, that we, James Walker and his wife Jane Maria Walker, have this day delivered to John Dunning, agent of Robert B. Minturn, (under an agreement entered into in the city of New York on the 26th day of April, 1851, between J. Knox Walker, and as attor. in fact for said James Walker, and Robt. B. Minturn, and Grinnell, Minturn &amp; Co.,) a negro woman, named Paralee, the wife of Edmond Kelley, and her four children, Dolly Ophelia, Robert Edmond, William Dempsey, and Alfred. The said Paralee and her four children are by agreement to be taken by the said John Dunning to the said Edmond Kelley in the State of Massachusetts, to be there emancipated. In consideration of the sum of twenty-eight hundred dollars, agreed to be paid by said Robert B. Minturn, and Grinnell, Minturn &amp; Co., and the further agreed stipulation that the said Paralee and her four children are to be emancipated and be free persons of color according to the laws of Massachusetts, the said Paralee and her children are delivered as aforesaid</p>
+                <closer>
+                  <salute>Given under our hands and seals.</salute>
+                  <signed><name>JAMES WALKER.</name> [SEAL.]</signed>
+                  <signed><name>JANE M. WALKER. </name>[SEAL.]</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <pb id="p19" n="19"/>
+                <opener>
+                  <dateline>State of Tennessee,
+<lb/>Maury County.</dateline>
+                </opener>
+                <p>Personally appeared before me, William E. Erwin, Clerk of the County Court of Maury County, the within named James Walker and Jane M. Walker, with whom I am personally acquainted, and who acknowledge that they executed the within deed for the purposes therein contained and expressed.</p>
+                <p>In testimony whereof I have hereunto set my name and affixed the seal of my office at office in Columbia this 17th day of May, 1851.</p>
+                <closer>
+                  <signed>WM. E. ERWIN, <hi rend="italics">Clerk.</hi></signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener>
+                  <dateline>State of Tennessee, <lb/>Maury County.</dateline>
+                </opener>
+                <p>I, James M. White, Chairman, and presiding Justice of the County Court of Maury County, do hereby certify that William E. Erwin, whose name appears officially signed to the foregoing certificate, is and was at the time he signed the same, Clerk of the County Court of Maury County, duly elected and qualified, and that all his official acts are entitled to full faith and credit, and that his foregoing certificate and attestations are in due form of law.</p>
+                <p>In testimony whereof I have hereunto set my name and affixed my seal at office in Columbia this the 19th day of May, A. D., 1851.</p>
+                <closer><signed>JAMES M. WHITE. [SEAL.]</signed>
+<dateline>Chairman of the County Court of Maury County.</dateline></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

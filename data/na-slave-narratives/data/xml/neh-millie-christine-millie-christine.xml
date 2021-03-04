@@ -1,0 +1,277 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY millitp SYSTEM "millitp.jpg" NDATA jpeg>
+<!ENTITY millicv SYSTEM "millicv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph rend="bold">The History of the Carolina Twins: “Told in Their Own Peculiar Way” by “One of Them”:</emph>
+Electronic Edition.</title>
+        <author>Millie-Christine, 1851-1912.</author>
+        <funder>Funding from the University Library supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Risa Mulligan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Sarah Ficke, and Elizabeth S. Wright</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2005</date></edition>
+      </editionStmt>
+      <extent>ca. 30K</extent>
+      <publicationStmt>
+        <publisher>University Library</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2005.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> The History of the Carolina Twins: “Told in Their Own Peculiar Way” by “One of Them.” </title>
+            <author>Millie-Christine, 1851-1912.</author>
+          </titleStmt>
+          <extent> 22 p.</extent>
+          <publicationStmt>
+            <pubPlace>[Buffalo]</pubPlace>
+            <publisher>Buffalo Courier Printing House</publisher>
+            <date>[18--?]</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number VCCB S653h  (North Carolina Collection, University of North Carolina at Chapel Hill)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original. </p>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings </title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- North Carolina -- Biography.</item>
+            <item>Conjoined twins -- North Carolina -- Biography.</item>
+            <item>Millie-Christine, 1851-1912.</item>
+            <item>Millie-Christine, 1851-1912.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2006-06-29, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2005-06-14, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2004-12-17, </date>
+        <respStmt>
+          <name>Sarah Ficke</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2004-11-30, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover">
+        <p>
+          <figure id="cover" entity="millicv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="millitp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">THE HISTORY <lb/> OF THE <lb/> CAROLINA TWINS.</titlePart>
+          <titlePart type="subtitle">TOLD IN “THEIR OWN PECULIAR WAY” BY “ONE OF THEM.”</titlePart>
+        </docTitle>
+        <docImprint>SOLD BY THEIR AGENTS FOR THEIR (THE TWINS) SPECIAL <lb/> BENEFIT, AT 25 CENTS.
+<publisher>PUBLISHED AT THE <lb/> BUFFALO COURIER PRINTING HOUSE.</publisher></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="p5" n="5"/>
+        <head>HISTORY OF THE CAROLINA TWINS.</head>
+        <p>WE are, indeed, a strange people, justly regarded both by scientific and ordinary eyes as the greatest natural curiosities the world has ever had sent upon its surface. Physicians who have examined us say our formation—or rather malformation—is much more remarkable than the physical condition of the Siamese Twins.</p>
+        <p>We made our <hi rend="italics">entree</hi> into this breathing world in 1852. Our coming in such “questionable shape” created as great a <hi rend="italics">furore</hi> in the cabin, as our appearance has since, wherever we have been. “Old Aunt Hannah,” a faithful nurse, whose specialty was to be around and to discharge the first hospitalities to new comers of our complexion, couldn't for “de life or soul of her” tell whether
+<pb id="p6" n="6"/>
+we was a “young nigger” or “something else.” But the “something else” soon gave unmistakable evidences that it could <hi rend="italics">viva voce</hi> intimate a desire for maternal comforts, just as well as the best developed young African on the premises. So our mother and the rest of the family came to the conclusion that “a child was born.”</p>
+        <p>Our parents were named Jacob and Menemia, and at the time of our birth were part of the family of a Mr. McCoy. Shortly afterwards we and our parents changed owners, and were taken to Anson county, North Carolina. There we became separated from our parents, and after a few more transfers in the way of ownership, became the property of Mr. James P. Smith, who gave for us, two strange lumps of humanity, the sum of $6,000. He, with a goodness of heart, which in after life developed itself in more ways than one towards us, ascertained where our parents were, went to their owners, purchased them, and all our little brothers and sisters, thus bringing a long separated family together, and the making of more than one heart rejoice in gladness.</p>
+        <p>When we were infants, not much more than fifteen months old, Mr. Smith yielding to the
+<pb id="p7" n="7"/>
+advice of a number of his friends and well wishers, made arrangements for starting upon an exhibition tour through the Gulf States, intending to show us at all the principal cities and towns. Our local fame was communicated to the press generally throughout the South, and soon the “South Carolina Twins,” or “double headed girl,” became a magnet of attraction to the lovers of the curious in nature.</p>
+        <p>Perhaps it would not be improper to remark here, <hi rend="italics">en passant,</hi> that Mr. Smith was not in those days a practical “showman,” but being a “Southern gentleman from the country,” was very liable to be imposed upon. A speculator, one of those “smart” men, ever ready to take all undue advantage of his fellow man, came to Mr. Smith at New Orleans, and made a proposition to become our exhibitor. This man had a persuasive address, spoke as one having authority, and great influence with the “press and the public,” so the consequences were Mr. Smith hired the fellow to exhibit us, rather to “put us properly before the public.” The man was to get a per centage of the receipts, Mr. S. to bear all the expenses. For a while things worked agreeably, until one day
+<pb id="p8" n="8"/>
+Mr. S. was called to his home in North Carolina to attend to some pressing business. Taking advantage of the absence of our kind master and guardian, the man absolutely kidnapped us, stole us from our mother, and bore us far away from friends, kindred, or any one who had <hi rend="italics">a right</hi> to feel an interest in us. The man who took us away could not, or rather <hi rend="italics">did not dare</hi> to publicly exhibit us, but gave private exhibitions to scientific bodies, thus reaping quite a handsome income off of “two little black girls” whom he had stolen away.</p>
+        <p>Finally, when we had been thus dragged over the country for nearly two years, the one who had surreptitiously became our custodian, disposed of us to another speculator, who was unacquainted with the fact that we were <hi rend="italics">originally</hi> and then the legal property of Mr. Smith. He took us to Philadelphia and placed us in a small Museum in Chestnut street, near Sixth, then under the management of Col. Wood, who is, we believe, somewhat known as a showman.</p>
+        <p>While there, a party saw us, and hearing that we were born South, came to the conclusion to get possession of us. He went to the authorities
+<pb id="p9" n="9"/>
+and said we were slaves, brought into a free State, where we were unjustly deprived of our liberty. He prayed the Court to exercise jurisdiction in the premises, take us away from the party who held us, and to appoint a guardian for us. This dodge did not work well, for the man who had us spirited us away before the necessary papers could be served, and in a few hours we were upon the basins of the broad Atlantic <hi rend="italics">en route</hi> for Europe.</p>
+        <p>By this time Mr. Smith had gained tidings of us, and in company with his Attorney, Luke Blackmar, Esq., of Salisbury, and a friend, J. Vestal, Esq., came North to reclaim us. He and his friends arrived in the city of New York the day after the Baltic sailed with us. Friends who took an interest in Mr. Smith's misfortunes, told him that all attempts to claim us as his property would prove futile in England; but that no one could restrain us, provided our parents claimed us as then infant children. Quick as thought he acted upon the suggestion, started for our home in the “Old North State,” got our mother Menemia, and was soon <hi rend="italics">en route</hi> for “Merrie England,” where he and our mother shortly arrived in safety.</p>
+        <pb id="p10" n="10"/>
+        <p>Mr. Smith was not long in discovering our whereabouts. The fact of our being in England was soon known, as the parties who had carried us there thought that they could, any where out of the United States, show us with impunity. They influenced a colored woman, under the promise of a rich reward, to testify upon oath that she was our mother; but the woman, anticipating the enormity of the crime, ran away; not until, however, she had received in advance a portion of the wages of sin. Another woman yielded to the temptation of gold, and did in open court perjure her soul, and swear that she had given us birth. But her carefully told and well rehearsed <hi rend="italics">lie</hi> would not stand the close scrutiny of the Ministers of Law, who listened to the plain and well-told narrative of our mother, who evinced a mother's tenderness for <hi rend="italics">us,</hi> her little deformities, and imparted a pathos to those utterances when she, in a natural unassuming way, begged for the custody of her children, from whom she had so long been separated, but from whom she could never feel estranged. The law vindicated itself, and gave us to our mother.</p>
+        <p>As soon as the decision was made manifest, then
+<pb id="p11" n="11"/>
+those who had stolen us the last time endeavored to prevail upon our mother to <hi rend="italics">hire</hi> us to them, offering her a large sum to allow us to travel over the country, and to go upon the continent. This she refused to accede to, until some outside parties succeeded in inducing Mr. Smith to consent to some co-partnership arrangement, by which both he and us would be the recipients of fine receipts. Mr. S. then consented to mother's signing a three years' agreement, the effects of which we need not here give. But, suffice it to say, that soon the cloven foot of the man who wanted us, showed itself; he tried to vitiate the contract, so as to get things his own way, and thus deprive us of our rights. He abused our mother, and applied the most revolting epithets. He threatened the life of Mr. Smith, and refused to allow us to receive the attention and luxuries which children of tender age require. Our mother got afraid, and begged our good master to assist her and us children to reach the shores of our own beloved America. He yielded to her prayers and entreaties, and determined to set us free from a bondage so repulsive. Becoming familiar with the running time of all the railway trains, and becoming cognizant
+<pb id="p12" n="12"/>
+of the exact time when the steamer would leave her dock at Liverpool, he made all arrangements for a speedy departure. Getting a trusty cabman to come to our lodgings, where all our things were in readiness, we were at the depot in London before any one surmised our intentions. The steam cars moved, and after a rapid journey (for steam cars do travel in England) we arrived at the Americanized city of Liverpool just half an hour before the steamer Atlantic was ready to leave her docks.</p>
+        <p>With grateful hearts we turned our backs upon Albion's shore, not but that the people treated us well enough, and would have paid liberally to have seen us; still, we had enemies there who we thought would injure our master and protector, and act in bad faith toward us.</p>
+        <p>There are many things of interest we missed seeing in England, on account of the brief time we had to stay there. Perhaps, now, that we are “grown up girls,” and like the rest of the sex, with tongues, and a knowledge of their use, we may go across the water once more. A gentleman who called to see us when we were on exhibition in Baltimore, told us that the “double
+<pb id="p13" n="13"/>
+headed girl” was often inquired after, and that he thought we would prove a “good card” there. At present our business relations are such that we feel in duty bound to stay at home.</p>
+        <p>We might, could we feel disposed, tell many anecdotes of our travels, but we think a simple <sic corr="narrative">narative</sic> of ourselves is all that at present those of our patrons who buy our little book will require.</p>
+        <p>But our visit to the Queen and the Royal Family at “Osbourne House,” we shall never forget. Her Majesty had, “signified her pleasure” to have us brought before her. Our good mother wrapped us up in real southern style to shield us from the heavy fogs of London. We nor she did not comprehend the glory of the errand we were bent upon, only she knew that a grand and good lady wanted to see us. When we arrived, the pomp and circumstances of the surroundings dazzled our young eyes, and we wondered what was to be done with us. But we can say that “Victoria was a woman” for she talked tenderly to us, and to our mother, and when we left we bore away abundant tokens of her good feeling and queenly liberality. A great many artists boast of having been before the Queen. Perhaps they have, and
+<pb id="p14" n="14"/>
+employed great diplomacy to get there. But with us the case was different. Poor little monstrosities, and black babies at that; we were sent for, and that without any influence at court to gain for us a Royal summons.</p>
+        <p>When we arrived home again at New York, Mr. Smith took us under his cloak and carried us on the Ferry Boat to Jersey City, where he got us on the cars and never stopped until we reached the Monumental City, where we felt safe from pursuit.</p>
+        <p>There we rested for a few days under the hospitable roof of Barnum's Hotel and then left for our own dear home. It was a joyous night when we arrived there and found our “white ma,” Mrs. Smith, waiting to secure us. Of course we then did not appreciate her worth for we were babies when we left her; but we soon learned to regard her with the most tender feelings. She taught us our first precepts of religion, and assumed the duties of preceptress, our ideas of a Deity were very imperfect. We had heard the Supreme Being alluded to, but not in tones of love and reverence, but to give force to some angry expression. She gradually imparted to us such ideas as our crude minds could comprehend, until such times
+<pb id="p15" n="15"/>
+as we could begin to understand the fundamental principles of the doctrine of the established church of England. Now, although we do not wish to speak Pharisaical, we think we can safely call ourselves really Christian children. Mrs. S. instructed us to read and write, to sing and dance, and thus while being able to enjoy ourselves, and to employ our time usefully, to contribute in no small degree to the amusement of those who called to see us.</p>
+        <p>In 1860 we were in New Orleans when the domestic political troubles commenced. Mr. Smith, who had heavy responsibilities resting upon him, was obliged to withdraw us from public life and take us home. Shortly after that, he was taken ill, and after a few weeks' suffering died, leaving his widow to look after his people and the estate. We were old <sic corr="enough">enongh</sic> then to mourn the loss of our good master, who seemed to us as a father, and we here would render a grateful tribute to his memory, by saying that he was urbane, generous, kind, patient-bearing, and beloved by all. We trust, in fact believe, that he has gone to that heaven we have heard him so often describe to us, when he would impress upon our minds the
+<pb id="p16" n="16"/>
+necessity of leading a good life in the hope of gaining a blessed immortality hereafter.</p>
+        <p>Master had always been liberal to others, and had, upon frequent occasions, lost heavily in business transactions. These circumstances and the results of the war, left us and his widow and children to a certain extent in straightened circumstances. The only alternative was for us to again go upon exhibition, and by our humble efforts contribute to the happiness and comforts of the surviving members of our late master's family. We are <hi rend="italics">interested</hi> pecuniarily in the “show,” and are daily receiving and putting away our share of the proceeds. None can mistake our determination in remaining under the guardianship of Mrs. Smith. Our object is two-fold: <hi rend="italics">We can trust her,</hi> and what is more, we feel grateful to her and regard her with true filial affection. We will not go with any one else; where she goes there will we go; where she tarries there will we halt. We shall endeavor to imitate that deep devotion which Ruth evinced toward Naomi.</p>
+        <p>Having thus spoken of ourselves and given you a very plain, and perhaps, a very uninteresting autobiography, we will give you a few extracts
+<pb id="p17" n="17"/>
+from letters and opinions which have been uttered and expressed relative to us:</p>
+        <p>The editor of the Louisville <hi rend="italics">Journal</hi> said, “The exhibition of these remarkable twins is characterized by the peculiar delicacy, modesty and ingeniousness of these <hi rend="italics">young girls</hi> themselves. Nothing occurs nor can occur offensive to the most fastidious sense of propriety, or refined taste.” Mr. Prentice, we have always heard, could say pleasant as well as very witty and cunning things. We thank him for the handsome manner in which he has thought proper to speak of us.</p>
+        <p>“Brick Pomeroy,” of the LaCrosse <hi rend="italics">Democrat,</hi> came to one of our <hi rend="italics">levees</hi> last winter, and shortly after our secretary received a paper from Wisconsin which contained the subjoined: “We have seen the Carolina Twins, or the ‘Double-headed Girl’ as they are styled on the bills. We can in truth say we were pleased with them, particularly with the manner in which they conversed. They are not impudent, but they are not foolishly retiring. They sing well, in fact excellent; and dance divinely, considering the manner in which their limbs and body are constructed. They know they are a curiosity, and feel anxious that the
+<pb id="p18" n="18"/>
+public should appreciate their attractiveness. We have no hesitation in declaring them to be the most extraordinary exhibition of a peculiar and “indissoluble union” we have ever witnessed. The Siamese twins in the way of strange formation cannot bear any comparison to them.”</p>
+        <p>That editor fully knows how we feel in regard to the public. We wished to be viewed as something entirely void of humbug—a living curiosity—not a sham gotten up to impose upon and deceive the people. We are indeed a strange freak of Nature, and upon the success of our exhibition does our happiness and the well doing of others depend. We have been examined most scrutinizingly by too many medical men to be <hi rend="italics">regarded</hi> as humbugs by any one. Still there are many persons who will not believe anything, no matter how strong the facts may be presented to them. If there be any such who have been to see us, and into whose hands this little book of ours may chance to fall, we beg most respectfully to offer them some medical testimony of a most positive and unmistakable character.</p>
+        <pb id="p19" n="19"/>
+        <q type="letter" direct="unspecified">
+          <text>
+            <body>
+              <div1 type="letter">
+                <opener><dateline><name type="place">PHILADELPHIA,</name><date> May 30th, 1866.</date></dateline>
+<salute>MRS. JAMES P. SMITH:</salute></opener>
+                <p><hi rend="italics">Madam:</hi>—A number of medical gentlemen having been invited to examine the North Carolina Twins now upon exhibition at the Assembly Buildings, say they found a thorough fusion of the lower portion of the trunk, osseous and fleshy; the two spinal columns uniting together at the base, forming but one large bone common to both.</p>
+                <p>The limbs and upper part of each trunk and the heads are perfectly separate, as though belonging to a distinct individuality, forming the most interesting monstrosity, morally and physically considered, on record. Among the gentlemen who are willing to allow their names to appear and give tone to the above statements are:</p>
+                <closer><signed>DR. S. H. DICKSON, <lb/> Professor Practice of Medicine, Jefferson Medical College.</signed>
+<signed>DR. ELLERSHE WALLACE, <lb/> Professor of Obstetrics, Jefferson Medical College.</signed>
+<signed>DR. JOHN B. BIDDE, <lb/> Professor Materia Medica, Jefferson Medical College.</signed>
+<signed>DR. J. AITKIN MEIGS, <lb/> Lecturer Summer School.</signed>
+<signed>DR. WILLIAM H. PANCOAST, <lb/> Demonstrator of Anatomy and Lecturer Summer School.</signed></closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="p20" n="20"/>
+        <p>All these gentlemen are well known, not only in Philadelphia, but throughout a great portion of the country, and it is not at all probable that they could be deceived, and it is still more unlikely that they would lend their countenance to an imposition.</p>
+        <p>Although we speak of ourselves in the plural we feel as but <hi rend="italics">one person;</hi> in fact as such we have ever been regarded, although we bear the names Millie and Christina. One thing is certain, we would not wish to be severed, even if science could effect a separation. We are contented with our lot, and are happy as the day is long. We have but <hi rend="italics">one heart,</hi> one feeling in common, one desire, one purpose.</p>
+        <p>The song we sing, we have so often been requested to give copies of, that we have concluded to insert it in our book. We must admit that, as a literary production, it has not much merit, but it conveys a good idea of our feelings.</p>
+        <pb id="p21" n="21"/>
+        <lg type="poem">
+          <lg type="stanza">
+            <l>It's not modest of one's self to speak,</l>
+            <l>But daily scanned from head to feet</l>
+            <l>I freely talk of everything—</l>
+            <l>Sometimes to persons wondering.</l>
+          </lg>
+          <lg type="stanza">
+            <l>Some persons say I must be two,</l>
+            <l>The doctors say this is not true;</l>
+            <l>Some cry out humbug, till they see,</l>
+            <l>When they say, great mystery!</l>
+          </lg>
+          <lg type="stanza">
+            <l>Two heads, four arms, four feet,</l>
+            <l>All in one perfect body meet;</l>
+            <l>I am most wonderfully made,</l>
+            <l>All scientific men have said.</l>
+          </lg>
+          <lg type="stanza">
+            <l>None like me, since days of Eve,</l>
+            <l>None such perhaps will ever live,</l>
+            <l>A marvel to myself am I,</l>
+            <l>As well to all who passes by.</l>
+          </lg>
+          <lg type="stanza">
+            <l>I'm happy, quite, <sic corr="because">beeause</sic> I'm good;</l>
+            <l>I love my Savior and my God.</l>
+            <l>I love all things that God has done,</l>
+            <l>Whether I'm created <hi rend="italics">two</hi> or <hi rend="italics">one.</hi></l>
+          </lg>
+        </lg>
+        <pb id="p22" n="22"/>
+        <p>Those who are in attendance upon us can, perhaps, give the public some information that we have overlooked. Hoping our little book will be found well worth the money, we conclude our plain unvarnished tale.</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

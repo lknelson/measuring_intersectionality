@@ -1,0 +1,254 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY mounttp SYSTEM "mounttp.jpg" NDATA jpeg>
+<!ENTITY mountcv SYSTEM "mountcv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Sketches of the Life of Joseph Mountain, a Negro, Who Was Executed at New-Haven on the 20th Day of October, 1790, For a Rape, Committed on the 26th Day of May Last [The Writer of This History Has Directed That the Money Arising From the Sales Thereof, After Deducting the <sic corr="Expense">Expence</sic> of Printing, &amp;c. Be Given to the Unhappy Girl, Whose Life Is Rendered Wretched by the Crime of the Malefactor.]:</emph>
+Electronic Edition.</title>
+        <author>Mountain, Joseph, 1758-1790</author>
+        <editor role="editor">Ed. by David Daggett, 1764-1851</editor>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed  by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Matthew Kern  and Elizabeth S. Wright</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2003</date></edition>
+      </editionStmt>
+      <extent>ca. 49K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2003.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="cover page"> Sketches of the Life of Joseph Mountain</title>
+            <title type="title page"> Sketches of the Life of Joseph Mountain, a Negro, Who Was Executed at New-Haven on the 20th Day of October, 1790, For a Rape, Committed on the 26th Day of May Last [The Writer of This History Has Directed That the Money Arising From the Sales Thereof, After Deducting the <sic corr="Expense">Expence</sic> of Printing, &amp;c. Be Given to the Unhappy Girl, Whose Life Is Rendered Wretched by the Crime of the Malefactor.]</title>
+            <author>Joseph Mountain, 1758-1790</author>
+            <editor role="editor">David Daggett, 1764-1851</editor>
+          </titleStmt>
+          <extent>19,  [1] p.</extent>
+          <publicationStmt>
+            <pubPlace>NEW - HAVEN:</pubPlace>
+            <publisher>Printed and Sold by T. &amp; S. GREEN.</publisher>
+            <date>1790.</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number  JWJ Zan M864 790S  (Beinecke Rare Book and Manuscript Library, Yale University)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been entered using double-keying and verified against the original.</p>
+        <p> 
+The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>All footnotes are inserted at the point of reference within paragraphs.</p>
+        <p>This electronic edition has been transcribed from a microfilm supplied by Beinecke Rare Book and Manuscript Library, Yale University.</p>
+        <p>The long s, which was used routinely in eighteenth-century English printing, but which looks like an f to today's reader, has been printed as an s in the text of this electronic edition.</p>
+        <p>Catchwords on every page of the original have not been preserved. </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2003-, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2003-02-19, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright </name>
+          <resp/>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2002-05-28, </date>
+        <respStmt>
+          <name>Matthew Kern</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2002-01-31, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing the text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="mountcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title image">
+        <p>
+          <figure id="title" entity="mounttp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Sketches<lb/>of the Life of<lb/>Joseph Mountain.</titlePart>
+        </docTitle>
+        <byline>Compiled by</byline>
+        <docAuthor> David Daggett.</docAuthor>
+        <docImprint>
+          <pubPlace>New Haven, </pubPlace>
+          <docDate>1790.</docDate>
+        </docImprint>
+        <pb id="p1" n="1"/>
+        <docTitle>
+          <titlePart type="main">SKETCHES <lb/> OF THE <lb/> LIFE <lb/> OF <lb/> Joseph Mountain, <lb/> A NEGRO, <lb/> Who was executed at New-Haven <lb/> on the 20th Day of October, 1790, <lb/> For a Rape, <lb/> Committed on the 26th Day of May last.<lb/>[<hi rend="italics">The writer of this history has directed that the money arising from the sales thereof, after deducting the <sic corr="expense">expence</sic> of printing, &amp;c. be given to the unhappy girl, whose life is rendered wretched by the crime of the malefactor.</hi>]</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>NEW - HAVEN:</pubPlace>
+<publisher>Printed and Sold by T. &amp; S. GREEN.</publisher></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p2" n="2"/>
+        <p>I JOSEPH MOUNTAIN, was born on the 7th day of July, A. D. 1758, in the house of Samuel Mifflin, Esq. of Philadelphia, father of the present Governor of Pennsylvania. My father, Fling Mountain, is a Molatto, and now lives at Philadelphia. My mother is a Negro and was a slave till she was twenty-one years of age.—She now lives at Reading, in Pennsylvania.</p>
+        <p>The first seventeen years of my life were spent in Mr. Mifflin's family.—As a servant in the house I acquired the reputation of unusual sprightliness and activity. My master was industrious to instruct me in the Presbyterian religion which he professed, teach me to read and write, and impress my mind with sentiments of virtue. How grossly these opportunities have been neglected, the following story will too fully evince.</p>
+        <p>In the 17th year of my age, on the 17th of <gap reason="tear in page" extent="5 characters"/> 1775, with my master's consent. I entered on board ship <gap reason="tear in page" extent="4 characters"/>Chalkley, commanded by Joseph Spain, and owned by Messi'rs James and Drinker of Philadelphia, and on the 20th of May following we arrived in the Downs. I soon quitted the vessel, and in four days was strolling the streets of London in quest of amusements. In this situation, the public will easily conceive, I could not long remain an idle spectator. It will not be surprizing to find me speedily initiated in practices disgraceful to human nature, and destructive of every moral virtue. Unfortunately for me, a scene began to open which will close only in the shadow of death.</p>
+        <p>One day, at an ale-house in London, I accidentally became acquainted with one Francis Hyde, originally from Middlesex, and one Thomas Wilson, of Staffordshire in England. They were travelling the country, with a hand organ and various other musical instruments, pretending to great art in numerous performances, and
+<pb id="p3" n="3"/>
+really possessing surprizing knowledge in every species of juggling. This was their employment in the day time, for the purpose of executing more effectually the principal business of their lives, viz.<ref id="ref1" n="1" rend="sc" target="n1" targOrder="U">*</ref><note id="n1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* The reader will note, that when we use the term <hi rend="italics">foot-pad,</hi> we mean him who robs on foot only; <hi rend="italics">highway-man</hi> intends one who robs on horse back.</p></note>highway robbery. They soon found me susceptible of almost any impressions, and neither incapable of, nor averse to, becoming a companion in their iniquity. We all sat out from London about 8 o'clock in the evening after I had joined them, each armed with a hanger and a brace of pistols. We had also suitable dresses and a dark lanthorn. Our landlord, who kept tavern at the sign of the black horse, at Charing-cross, furnished us with every requisite for the expedition. His name was William Humphrys. The plan this evening was to attack the mail-coach, which would start at 12 o'clock at night, from the ship tavern, between Woolwich and Graves-end, about 9 miles from London.</p>
+        <p>We were on the spot at the hour agreed upon, and disguised ourselves for the adventure. Hyde and Wilson were dressed in white frocks and boots, with their faces painted yellow to resemble Molattoes. Mountain was dressed in the same manner, with the addition of a large tail wig, white gloves and a black mask over his face. When the stage arrived, I started, and caught the leading horses by their bridles, while Hyde and Wilson each presented a brace of pistols in at the coach window, and demanded of the passengers their money. There were four gentlemen and one lady in the coach. They denied having any money. Wilson said, “Deliver, or death.” They then gave us a bank note of 501. one other of 201. and about 60 guineas in cash. We then retired to an unfrequented place, shifted our dresses, and prepared to prosecute our journey to Chatham in the county of Kent.</p>
+        <p>In the day time, Hyde and Wilson commonly played upon their instruments, and performed various seats of slight of hand, as tho' that was their sole occupation. We were also very particular in making observations upon
+<pb id="p4" n="4"/>
+all travellers, to learn if they might be <hi rend="italics">touched;</hi> (for that was our word for <hi rend="italics">robbed.</hi>)</p>
+        <p>In four days after the former robbery, we met a Capt. Hill at the foot of Rochester bridge near Chatham—He was a captain of the marines, and we had seen him in the day time at Brumpton barracks, about half a mile from the bridge. We walked directly before his horse. Wilson asked him the time of night. He made no reply. Hyde then caught the bridle. I, his left hand, and Wilson presented a pistol to his breast, and said, “Deliver, or death.” He assured us that he had no money worth taking. Wilson said, “then give us your watch,” which he did. The watch was gold, and valued at 50 guineas. We then walked off about 300 rods towards Graves-end, and immediately tacked for Rochester, where we lodged at the mariner's inn. There was a great <hi rend="italics">hue and cry</hi> for us; but the pursuers, supposing from Capt. Hill's information, we had gone for Graves-end, entirely mistook our rout. The next morning we took post-chaise for London, where we arrived about 6 o'clock in the evening. Our booty was delivered to a broker whom we constantly employed. He was a Jew, and lived in St. Katherine's Row, near Tower-Hill, and his name was William Moses. There were also other brokers in different parts of England, with whom we had constant communication, and who were perfectly acquainted with our modes of acquiring property. After such a jaunt we thought it adviseable to recruit ourselves by rioting on our spoils.</p>
+        <p>In a few days, it was concluded that I should go alone, and attempt to “touch” some gentlemen who frequented the plays at Covent Garden; this, considering my age and inexperience, was thought rather a bold stroke. Being villain enough to attempt any thing, I did not hesitate; but posted myself agreeably to direction. My efforts, however, were wholly unsuccessful, and I returned empty. The next night I was placed at London bridge, while Hyde stood at Black-fryars, and Wilson at Westminster.
+<pb id="p5" n="5"/>
+At half past 11 o'clock I met a Captain Duffield, and asked him the time of night. He told me. I said, “You know my profession; deliver or death.” He stepped back to strike me with his cane; I cocked my pistol, and told him to deliver instantly, or death should be his portion. He then threw me his purse, which contained about 10 guineas, and a silver watch, which was valued by our broker at 6l. Hyde, the same night, obtained about 40 guineas of Sir John Griffing. Wilson about 30 of a Mr. Burke; and each a watch, one gold, the other pinchbeck. The next day we saw advertisements, describing the robberies, and offering rewards for the perpetrators.</p>
+        <p>The next night, with little difficulty, I robbed Hugh Lindsly of 16 guineas, and a gold ring. Hyde, on the same evening, took from Lord John Cavendish about 20 guineas, and Wilson robbed William Burke of 11 guineas.</p>
+        <p>We now concluded to remain in London for a while, as <hi rend="italics">gentlemen of pleasure.</hi>—The repeated robberies had furnished us with cash in abundance, and we indulged in every species of debauchery. We gambled very deeply at dice, cards and billiards. Hyde and Wilson were very expert at this business, and would almost invariably swindle a stranger out of his money.</p>
+        <p>In March 1776, we went to the city of York, about 200 miles from London. Here we continued several weeks, waiting some favourable opportunities to rob at the plays; but none presented. We went from York to New-Market, to attend the famous races which took place about the first of June. There we found Lord Gore of Richmond, and Lord Tufton of Sheffield in Yorkshire: We were much perplexed to invent the most advantageous made of “touching” them. It was at length concluded to attack them at their lodgings, which were at an inn very large and greatly frequented by various classes of people. About 7 o'clock in the evening, while the attendants of those gentlemen were in the kitchens and stables, we entered the front door, and having bribed
+<pb id="p6" n="6"/>
+the porter with a few guineas, were immediately let into the room. Lords Gore and Tufton were sitting over a table at a dish of coffee, and reading news-papers. We instantly presented our pistols, and demanded their money, Lord Tufton delivered us one bank note of 100l. and three others of 50l. each. Lord Gore delivered us about 100 guineas, and two gold mourning rings. We quitted New-Market next morning, and went in the stage to York, where Wilson presented his bills for payment. Unfortunately for us, Lord Tufton, immediately after the robbery, dispatched his servant to the bank, with orders to stop those bills, if offered. The bills were accordingly stopped, and Wilson arrested, and sent to New-Market to be examined before a justice of the peace. Upon his examination he procured Hyde to swear that he was riding from New-Market to York with Wilson, and that he saw him pick up a pocket book containing those bills. The coachman, having been previously bribed, swore to the same fact. Upon this testimony, Wilson was acquitted. I was not sent for as a witness at this examination, as I understood Lord Robert Manners was then in New-Market, and would probably attend the trial. The reason why I did not wish to meet his Lordship's eye, was, that on the night before we left London, I made a most daring attack upon him. He was walking unarmed, near Hounslow Heath, attended by his foot-man. I met him, presented my pistol, and he gave me 75 guineas, two gold watches, and two gold rings.—Hyde and Wilson were near at hand; but they did not discover themselves, leaving me “to play the hero alone.”</p>
+        <p>In the latter end of June we again met at the old rendezvous in London and divided our plunder. The property which I then had on hand enabled me to live very freely for some months. My time was spent in that round of dissipation which was the necessary attendant upon so vicious a character, and which was tolerably well supported by the stock of cash in my own possession, and that of my broker.</p>
+        <pb id="p7" n="7"/>
+        <p>I now resolved to quit this course of life which I had hitherto pursued with so much success. Accordingly I entered on board the brig Sally, as Cook, and made two voyages in her to Lisbon. Upon my return, after exhausting my pay, I made another voyage, in the Fanny, Capt. Sinclair, to Kingston, in Jamaica; which being finished in nine months, I again visited London, and concluded to relinquish the seafaring business for the present. At the old place of resort I became acquainted with one Haynes and Jones, both of Yorkshire. They were partially initiated in the science of <hi rend="italics">foot-pads.</hi> They soon proposed that I should resume my profession, and join them. My former mode of life, tho' singularly vicious, yet possessed many charms in my view. I therefore complied with their request; at the same time doubting, if they were possessed of sufficient courage and skill for companions to one who had served under experienced masters, and who considered himself at the head of the profession. Our first object was to assail the Newcastle stage, which would be in Tottenham-Court road at 8 o'clock in the evening. We were on the spot in season, and Mountain addressed them thus: “My lads, 'tis a hazardous attempt—for God's sake make a bold stroke.” Upon the arrival of the coach at half past 7 o'clock, four miles from London, I seized the bridles of the two foremost horses. Jones and Haynes went to the coach door, and said, “Deliver or death.” Lord Garnick and several others were passengers: His Lordship said, “Yes, yes, I'll deliver,” and instantly discharged a pistol at Jones, the contents of which entered his left shoulder: upon which he and Haynes made their escape. The coachman was then directed to “drive on”—He replied, “There is a man who yet holds the leading horses.”—Lord Garnick then fired at me, but without damage; upon which I discharged my pistol at the coach, but without effect. Jones was so badly wounded, that Haynes and I were obliged to carry him into London upon our shoulders. We were soon overtaken by two highway
+<pb id="p8" n="8"/>
+men, who had assaulted Lord Garnick about 15 minutes before our engagement, one of whom was badly wounded. The next day we saw an advertisement offering a reward of 60 guineas for the detection of the robbers, and informing, that it was supposed three were killed. This specimen of the enterprize of my new associates convinced me, that they were not adepts in their <hi rend="italics">occupation,</hi> and induced me to quit their society.</p>
+        <p>The business which now seemed most alluring to me, was that of <hi rend="italics">highway-men.</hi> Considering myself at the head of foot-pads, I aspired for a more <hi rend="italics">honorable</hi> employment, and therefore determined to join myself to the gang of highway men, whose rendezvous were at Broad St. Giles's, up Holborne, at the sign of the Hampshire hog, and kept by a William Harrison, a native of the Isle of Man. Harrison was the support, the protector and the landlord of this whole company. The horses and accoutrements were kept and furnished by him, and occasionally supplied to adventurers. He enquired my name, and finding that I was Mountain who was confederate with Hyde and Wilson, he readily admitted me to the fraternity. He asked if I dared take a jaunt alone; and finding me willing for any thing, he quickly furnished me with equipments proper for the expedition. Mounted on a very fleet horse, and prepared with proper changes of dress, I sat out for Coventry, about 90 miles from London. I made great dispatch in travelling, and about 10 o'clock the night after my departure, I met Richard Watts coming out of a lane about two miles from Coventry. I rode up to him, and enquired if he was not afraid of highway-men? He replied, “No, I have no property of value about me.” I then told him that I was a man of the profession, and that he must deliver or abide the consequences. Upon this he gave me his gold watch: I insisted on his money, and cocked my pistol, threatening him with instant death. He perceived that resistance and persuasion were equally unavailing, and threw me his purse containing 13 half guineas and some
+<pb id="p9" n="9"/>
+pocket-pieces. The gold watch was valued at 40 guineas. I then ordered him back down the lane, accompanied him thither, and fled with the greatest haste into an adjacent wood: Here I shifted my own and horse's dress, leaving them in a bye place, rode directly to a neighbouring town, and there put up for the night. Thence I took my course for Newcastle in Devonshire, about 270 miles north of London, and thence to Warrington in Lancastershire. Here about 7 o'clock in the evening I met with a gentleman who appeared an object of plunder. I asked him the time of night; he drew his watch, and told me the hour. I observed “You have a very fine watch.” He answered, “Fine enough.” “Sir, 'tis too fine for you—you know my profession—deliver.” He drew back; I caught his bridle with one hand, presented a pistol with the other, and said, “Deliver, or I'll cool your porridge:” He handed me a purse of 8 guineas, and a gold watch valued at 301. sterling. To compleat the iniquity, and exhibit the extent of my villainy, I then took a prayer-book from my pocket, and ordered him to swear upon the solemnity of God's word, that he would make no discovery in twelve hours: He took the oath: I quitted him, and heard nothing of the matter till the next morning about 10 o'clock, when I saw a particular detail of the transaction in the news-papers.</p>
+        <p>Liverpool was my next stage. Here I tarried two days making observations for evening adventures. On the night of the second day I robbed Thomas Reevs of 6 guineas, and a gold watch worth about 301. sterling. To insult him in his distress, after committing the fact, I pulled off my hat, made a low bow, wished him good night, and sat out for Lancaster in company with the stage. It occurred to me, that riding as a guard to the stage would secure me against suspicion. Accordingly I accompanied it to Lancaster, and there put up at the “swan and two necks.” Here I continued three days, waiting a favourable opportunity to exercise my profession. On the third evening at 8 o'clock, I stopped a Col.
+<pb id="p10" n="10"/>
+Pritchard, took from him a gold watch valued at 44 guineas, a purse of 30 guineas, 3 gold rings, and a pair of gold knee-buckles worth about 61. The knee-buckles appeared so tempting, I told Pritchard, I could not avoid taking them. At 11 o'clock I left Lancaster, and having rode about one mile from town, I stopped, pulled off my hat, and bid them “good-bye.”</p>
+        <p>My course was now for Manchester, where I put up for about 24 hours at the “bull's-head.” The evening following, about 11 miles from Manchester, I “touched” a Quaker. It was nearly 9 o'clock when I met him. I enquired if he was not afraid to ride alone. He answered, No. I asked him his religion; he replied “I am a Friend.” I observed, “You are the very man I was looking for—you must deliver your money.” He seemed very unwilling, and said, “Thou art very hard with me.” I replied, “You must not <hi rend="italics">thou</hi> me.” He then gave me his plain gold watch, 6 guineas, and four bank notes of 20l. each. I then presented a prayer-book, and demanded an oath that he would make no discovery in 8 hours: He refused an oath, alledging that it was contrary to his religion, but gave his word that my request should be complied with. I then dismissed him, returning the bank notes, and took a circuitous rout for London. The guineas which I had obtained in this jaunt, I concealed and carried in the soles of my boots, which were calculated for that purpose, and effectually answered it. The mare which I rode was trained for the business: she would put her head in at a coach window with the utmost ease, and stand like a stock against any thing. She would travel also with surprizing speed. Upon my arrival at Harrison's, (having been gone eleven days) I gave a faithful narrative of my transactions, and produced the plunder as undeniable proof. I never shall forget with what joy I was received. The house rang with the praises of Mountain. An elegant supper was provided, and he placed at the head of the table. Notwithstanding the darkness of his complexion, he was complimented
+<pb id="p11" n="11"/>
+as the first of his profession, and qualified for the most daring enterprizes.</p>
+        <p>Fatigued with such a jaunt, and fearing left too frequent adventures might expose me, I determined on tarrying a while at home. My horse was given to another, and he directed to seek for prey. After one month's absence he returned with only 16 guineas, and was treated accordingly by the gang. He was inadequate to the business, and was therefore ordered to tarry at home, just to visit the play-houses, &amp; <hi rend="italics">sharp it</hi> among people who might easily be choused of their property. Each took his tour of duty in course; some succeeded; others, from misfortune or want of spirit, were disgraced. One young fellow of the party was about this time detected at Guilford in Surry, tried, condemned and executed. He made no discovery, tho' we all trembled. A plan was now in agitation to dispatch two or three of the gang to Portsmouth, to attack some of the navy officers: It was finally adopted, and one Billy Coats, a Londoner, and Mountain were selected as the most suitable for the expedition. We mounted our horses on the next morning, and reached Portsmouth that day, a distance of more than 70 miles. We took lodgings at an inn kept by a rich old miser. We were soon convinced that he had cash in plenty, and that it “was our <hi rend="italics">duty</hi> to get it;” but the difficulty was what plan should be concerted. At length, by a stratagem which was deeply laid and faithfully executed, we plundered the old man's house of about 300 guineas, and 501. sterling in shillings and six-pences. There was a very great clamour raised the next morning. The house was surrounded with the populace. The old fellow was raving at a great rate for his loss of money. I was a spectator of this collection, and now perfectly remember the chagrin of the old man and his wife. We remained at Portsmouth two days, and then returned to London richly laden, and received the applause of our companions. The three following months I spent in frequenting alehouses, defrauding and cheating with false dice, and 
+<pb id="p12" n="12"/>
+practising every species of imposition which ingenuity could invent, or the most depraved heart execute.</p>
+        <p>In the beginning of June 1780, I joined the mob headed by Lord George Gordon. This mob was the result of a dispute between the Papists and Protestants. It was a matter of the most sovereign indifference to me, whether the rebellion was just or unjust: I eagerly joined the sport, rejoicing that an opportunity presented whereby I might obtain considerable plunder in the general confusion.—Lord Gordon represented to us in a speech of some length, the open attempts upon the Protestant religion, and the manner in which the petitions of the injured had been treated by parliament. He exhorted us all to follow him to the house of commons, and protect him while he should present, with his own hand, the parchment roll, containing the names of those who had signed the petition, to the amount of about 120,000 protestants. His speech was answered with loud huzzas, and repeated assurances of our zeal to support him and his cause. The whole body of us, in number about 50,000, left St. George's fields, and marched directly for the parliament house: We were in four separate divisions. A most tremendous shout was heard from all quarters, upon our arrival before both houses. Lord Gordon moved that he might introduce the petition; but the house would not consent that it should be then taken up. The mob became greatly inflamed: they insulted several members of the house of lords, who narrowly escaped with their lives. Several gentlemen of parliament reprobated the conduct of Lord George in the severest terms; and Col. Gordon, a relation of his Lordship, threatened him with instant death the moment any of the rioters should enter the house. At length, when the question was put in the house of commons, in defiance of the menaces of the mob, only fix out of two hundred voted for the petition. The rioters now dispersed themselves into various parts of the city, destroying and burning the chapels of Roman Catholics and their houses. The five succeeding days were
+<pb id="p13" n="13"/>
+employed in demolishing the houses of Sir George Saville, in burning Newgate, and relieving about 300 persons confined in it, (some under sentence of death) in setting fire to King's-bench and Fleet-prisons, and in innumerable other acts of violence and outrage towards those who were in the opposition. The bank was twice assailed, but was too well guarded for our attempts. On the 7th day we were over-powered by superior force, and obliged to disperse. During this confusion, I provided for myself, by plundering, at various times, about 5001. sterling.</p>
+        <p>After leading a life of such dissipation for five or six years, an incident occurred which caused me, for some time, to abandon my former pursuit, and settle down in tolerable regularity. I became acquainted with a Miss Nancy Allingame, a white girl of about 18 years of age. She was possessed of about 500l. in personal property, and a house at Islington.<ref id="ref2" n="2" rend="sc" target="n2" targOrder="U">*</ref><note id="n2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* The reader will please to recollect, that Negroes are considered in a different, point of light in England, from what they are in America. The blacks have far greater connection with the whites, owing to the idea which prevails in that country, that there are no slaves.</p></note>It may appear singular to many, that a woman of this description should be in the least interested in my favor; yet such was the fact, that she not only endured my society, but actually married me in about six months after our first acquaintance. Her father and friends remonstrated against this connexion; but she quitted them all, and united herself to me. My whole residence with her was about three years; during which time I exhausted all the property which came into my possession by the marriage. We then separated, and she was received by her father.</p>
+        <p>In June 1782, having joined Hyde and Wilson, we determined to quit England, and see if the French gentlemen could bear “touching.” We accordingly crossed at Dover, and at Dunkirk about 7 o'clock in the evening robbed a gentleman of about 200 French crowns. We then proceeded to Paris by the way of Brest. On the second evening after our arrival in this city, we robbed Count Dillon, on his return from the plays, of a gold
+<pb id="p14" n="14"/>
+watch and 12 French guineas. The next day, about 1 o'clock in the afternoon, we attacked Governor Du Boyer, at his country seat about four miles from Paris, and took from him about 200l. in bank bills. Hyde and Wilson performed this, while I lay about 250 yards distant.</p>
+        <p>Dispatch in travelling, after such bold adventures, became very necessary. We immediately quitted Paris, and rode all night for Havre-de-Grace, where we arrived the evening of the next day. Here we found an advertisement, which prevented our changing the notes, and induced us to burn them.</p>
+        <p>Bayonne was the next object of our pursuit. At this place Hyde robbed two gentlemen in one night; Wilson one, and Mountain one—the whole of that evening's plunder amounted to about 500l. sterling. France now became dangerous, and therefore we pushed with all possible expedition for Spain, and arrived at Madrid, the capital, in a few days. The regulations of this city were such, that we were obliged to quit the object of our pursuit. The city was strongly walled in, and most <sic corr="scrupulously">scurpulously</sic> guarded. The gates were shut every evening at 8 o'clock, and every man compelled to be in his own habitation. After spending several months in rioting on our booty, we went to Gibraltar. We bribed the Spanish centinel, and entered the British lines. We appeared before the English commander, General Elliott, and informed him we were Englishmen, and mechanics by profession. The fleet commanded by Lord Howe, arrived there on the fourth day after us. Gen. Elliott consented that we should enter on board the fleet as seamen. Accordingly I joined myself to the Magnificent of 74 guns, commanded by Capt. John Elverston; Hyde entered the Victory, Lord Howe; and Wilson a 74 gun snip, whose name I do not recollect. This was in the fall of the year 1782. I never saw Hyde and Wilson again till since the peace took place between England and the United States. I tarried on board the Magnificent about three months, during which time we had an
+<pb id="p15" n="15"/>
+engagement with the French and Spanish fleets. We drove them out of the Straits, sunk their junk ships with hot shot, and captured the St. Michael, a Spanish ship of 74 guns. The Magnificent sailed with the fleet for Spithead, where, directly after my arrival, I made my escape from her by bribing the centinel with 5 guineas, &amp; swimming three quarters of a mile to the Isle of Wight. From this place I went to London by the way of Plymouth. The landlord at the old place of resort received me very cordially.</p>
+        <p>The business of robbing again solicited by attention, and in the fall of the year 1783, as I was walking in Wapping, in quest of plunder, I accidentally fell in company with my old companions, Hyde and Wilson. They had remained in the sea service ever since we left Gibraltar. We concluded it adviseable to join ourselves to the gang at Harrison's, and resume our occupations. Holland now appeared an object worth attention. In November 1783, we went to Oftend, and thence to Amsterdam. On the road thro' Holland, we knocked an old Dutchman down, and took from him 1100 guilders. The next day about 4 o'clock in the morning, Hyde attacked a merchant, and obtained about 100 guilders; and the evening following, we robbed four gentlemen of about 150l. sterling, and three silver watches of small value, we continued living very freely at Amsterdam 4 weeks, without effecting any thing: during which period we were preparing to assail a bank. At length, by the help of various instruments, we entered it about 1 o'clock at night. We found an iron chest which we could not open. We brought away two bags of gold, containing about 1100l. sterling. We buried them about 2 miles distant, and suffered them to remain there two months. The noise, relative to the robbery having by this time subsided, we took our money, entered on board a vessel bound for England, and were safely back in London in the spring of the year 1784. To invest our cash, &amp;c. in real property, and quit a course of life attended with so
+<pb id="p16" n="16"/>
+much fatigue and hazard, was thought the most eligible plan. In pursuance of this idea, Hyde bought him an house and lot about 4 miles from London. My share was joined with Hyde's. Wilson purchased him a situation at Cherry-garden-stairs. Each kept an house for the reception of gamblers, swindlers and foot-pads.</p>
+        <p>The rioters who were concerned in Lord Gordon's rebellion were now daily arrested, tried and executed. Knowing myself deeply concerned in this mob, and supposing it probable that Mountain's turn might come next, I quitted London, went on board an European vessel, and made a voyage to Grenada. From this period till August 1789, I was employed as a sailor; during which time I made two voyages to the Coast of Guinea, and brought cargoes of Negroes to Jamaica; one voyage to Greenland; one to Leghorn and Venice; three to Philadelphia, and one to St. Kitts. Upon my return from voyages, I frequently went from Liverpool to London, and put up at Hyde's or Wilson's. In October 1786, we committed a burglary upon the house of General Arnold, who then resided in London. We entered his house about 2 o'clock at night, with a dark lanthorn, and, from a bureau in the room where the General and lady were asleep, we stole about 150l. sterling in cash, and a pair of stone shoe buckles.</p>
+        <p>In the month of August 1789, I left New-York in the Briton, with a cargo of bread and flour owned by Mr. John Murray, jun. of New-York, and went to Bilboa in Spain. The vessel proved leaky, and was sold. Being discharged, I entered on board the brig Aunt, commanded by Capt. Thomas Moseley, and owned by William Gray, of Boston, sailed from Bilboa the 7th day of March, and arrived in Boston the 2d of May last. On the 14th of the same month I quitted Boston on foot for New-York. On my journey, at East-Hartford, I stole five dollars from the cabin of a sloop lying in Connecticut river. I was immediately apprehended, carried before George Pitkin, Esq. and adjudged to be whipped
+<pb id="p17" n="17"/>
+ten stripes. The sentence was executed forthwith, and I dismissed. This was the first time I was ever arraigned before any court. No event in my antecedent life produced such mortification as this; that a highway-man of the first eminence, who had robbed in most of the capital cities in Europe, who had attacked gentlemen of the first distinction with success; who had escaped King's-bench prison and Old-Bailey, that he should be punished for such a petty offence, in such an obscure part of the country, was truly humiliating. On the Saturday evening following I arrived at New-Haven. The Wednesday following, being the 26th of May, about two o'clock in the afternoon, I sat out for New-York: At the distance of one mile, I met the unhappy girl whom I have so wantonly injured. She was in company with an elder sister, and going into New-Haven. I began a conversation with them, and attempted, by persuasion, to effect my purpose. They were terrified at my conduct, and endeavoured to avoid me. Upon this I seized the eldest girl; she, however, struggled from me. I then caught the younger, and threw her on the ground. I have uniformly thought that the witnesses were mistaken in swearing to the commission of a <hi rend="italics">Rape:</hi> That I abused her in a most brutal and savage manner—that her tender years and pitiable shricks were unavailing—and that no exertion was wanting to ruin her, I frankly confess. However I may attempt to palliate this transaction, there can be no excuse given for me; unless intoxication may be plead in mitigation of an offence. It was a most cruel attack upon an innocent girl, whose years, whose entreaties must have softened an heart not callous to every tender feeling. When
+<pb id="p18" n="18"/>
+her cries had brought to her assistance some neighbouring people, I still continued my barbarity, by insulting her in her distress, boasting of the fact, and glorying in my iniquity. Upon reflection, I am often surprized that I did not attempt my escape; opportunity to effect it frequently presented before I was apprehended. Yet, by some unaccountable fatality, I loitered unconcerned, as tho'my conduct would bear the strictest scrutiny. The counsel of heaven determined that such a prodigy in vice should no longer infest society. At four o'clock I was brought before Mr. Justice Daggett for examination. The testimony was so pointed, that I was ordered into immediate confinement, to await the approaching session of the Superior Court.</p>
+        <p>On the 5th of August, last, I was arraigned before the Bar of the Superior Court. My trial was far more favourable than I expected. There was every indulgence granted me which I could have wished; and the court, jurors and spectators appeared very differently from those I have seen a Old-Bailey. The jury had little hesitation; indeed the most compassionate hearer of this cause could have only pronounced me <hi rend="italics">Guilty.</hi> I beheld with astonishment the lenity of the Court, and am sure that in a country where such a sacred regard is had to the liberty of the subject, no man's life can be unjustly taken from him. On the Tuesday following, the Chief Justice pronounced Sentence of Death against me. I thought myself less moved with this pathetic address than either of the court, or any spectator; and yet, I confess, I was more affected by it, than by any thing which had previously happened in my life. On the next Sabbath I attended
+<pb id="p19" n="19"/>
+meeting. The address of the Rev. Dr. Dana on that day and the subsequent advice and admonitions which I have received from the Clergy of this and other places, were calculated to awaken every feeling of my heart. Much gratitude is due from me to those gentlemen who have exhibited such a tender concern for my immortal interest.</p>
+        <p>It now remains that I <hi rend="italics">die</hi> a death justly merited by my crimes. “The cries of injured innocence have entered the ears of the Lord of Sabaoth, and called for vengeance.” If the reader of this story can acquiesce in my fate and view me “stumbling on the dark mountains of the shadow of death,” with composure, he will yet compassionate a soul stained with the foulest crimes, just about to appear unimbodied before a God of infinite purity.</p>
+        <closer>
+          <signed>
+            <hi rend="italics">Joseph Mountain.</hi>
+          </signed>
+        </closer>
+      </div1>
+    </body>
+    <back>
+      <div1 type="section">
+        <pb id="p20" n="20"/>
+        <p><hi rend="italics">THE writer of the foregoing narrative assures the public, that the facts related were taken from the mouth of the culprit. In no instance has any fact been substantially altered, or</hi> in the least <hi rend="italics">exaggerated.</hi></p>
+        <p><hi rend="italics">On the 28th of September the writer applied to</hi> Joseph, <hi rend="italics">to learn if he persisted in affirming the truth of the foregoing story. By the direction of the criminal his name was then set to this history, and he declared, in presence of the subscribing witnesses,<gap reason="tear in page" extent="6 characters"/> contained nothing but the truth.</hi></p>
+        <closer><signed>JOSEPH PECK.</signed>
+<signed>SAMUEL PUNDERSON</signed></closer>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

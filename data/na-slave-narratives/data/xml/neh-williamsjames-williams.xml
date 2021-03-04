@@ -1,0 +1,1103 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY williatp SYSTEM "williatp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>A NARRATIVE OF EVENTS,</emph>
+<emph>SINCE THE FIRST OF AUGUST, 1834, By James Williams, an Apprenticed Labourer in Jamaica:</emph>
+Electronic Edition.</title>
+        <author>Williams, James, b. ca. 1819</author>
+        <funder>Funding from the National Endowment for the Humanities  supported 
+the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Image scanned by</resp>
+          <name>Carlene Hempel</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Carlene Hempel and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca. 80K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of 
+availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number F1881.W72 1837b
+(Davis Library, UNC-CH)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+<title>A Narrative of Events,</title><title>Since the First of 
+August, 1834</title><author>Williams, James</author><imprint><pubPlace>London</pubPlace><publisher>J. Rider</publisher><date>1834</date></imprint></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the 
+American South, Beginnings to 1920.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ 
+and ‘ respectively.</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using 
+Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl><title>Library of Congress Subject 
+Headings, </title>
+<edition>21st edition, 1998</edition></bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Williams, James, b. ca. 1819.</item>
+            <item>Blacks -- Jamaica -- Biography.</item>
+            <item>Slaves -- Emancipation -- Jamaica.</item>
+            <item>Apprentices -- Jamaica -- Biography.</item>
+            <item>Slavery -- Jamaica -- History.</item>
+            <item>Slavery -- Jamaica -- History -- 19th century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1999-03-10,</date>
+        <respStmt>
+          <name> Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-02-25, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-02-15, </date>
+        <respStmt>
+          <name>Carlene Hempel</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-02-08, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="williatp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">A NARRATIVE OF EVENTS,</titlePart>
+          <titlePart type="main">SINCE THE FIRST OF AUGUST, 1834,</titlePart>
+        </docTitle>
+        <byline>By</byline>
+        <docAuthor>JAMES WILLIAMS
+<lb/>
+AN APPRENTICED LABOURER IN JAMAICA.</docAuthor>
+        <docImprint><pubPlace>LONDON:</pubPlace>
+<publisher>PRINTED BY J. RIDER, 14, BARTHOLOMEW CLOSE.</publisher></docImprint>
+        <docEdition>PRICE SIXPENCE.</docEdition>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="narrative">
+        <pb id="williams1" n="1"/>
+        <head>NARRATIVE, &amp;c.</head>
+        <p>I AM about eighteen years old. I was a slave belonging
+to Mr. Senior and his sister, and was brought up at the place
+where they live, called Penshurst, in Saint Ann's parish, in
+Jamaica.</p>
+        <p>I have been very ill treated by Mr. Senior and the magistrates
+since the new law come in. Apprentices get a great deal more
+punishment now than they did when they was slaves; the master
+take spite, and do all he can to hurt them before the free come;—I
+have heard my master say, “Those English devils say we to be
+free, but if we is to free, he will pretty well weaken we, before the
+six and the four years done; we shall be no use to ourselves
+afterwards.”</p>
+        <p>Apprentices a great deal worse off for provision than before-time;
+magistrate take away their day, and give to the property;
+massa give we no salt allowance, and no allowance at
+Christmas; since the new law begin, he only give them two
+mackarel,—that was one time when them going out to job.</p>
+        <p>When I was a slave, I never flogged,—I sometimes was switched,
+but not badly; but since the new law begin, I have been flogged
+seven times, and put in the house of correction four times.</p>
+        <p>Soon after 1st August, massa tried to get me and many
+<pb id="williams2" n="2"/>
+others punished; he brought us up before Dr. Palmer, but
+none of us been doing nothing wrong, and magistrate give we
+right.</p>
+        <p>After that, Mr. Senior sent me with letter to Captain Connor, to
+get punished, but magistrate send me back—he would not punish
+me, till he try me; when I carry letter back to massa, he surprise to
+see me come back, he been expect Captain Connor would put me
+in workhouse. Capt. Connor did not come to Penshurst; he left the
+parish. Massa didn't tell me what charge he have against me.</p>
+        <p>When Dr. Thompson come to the parish, him call one
+Thursday, and said he would come back next Thursday, and hold
+court Friday morning. He come Thursday afternoon, and get
+dinner, and sleep at Penshurst, and after breakfast, all we
+apprentices called up. Massa try eight of we, and Dr. Thompson
+flog every one; there was five man, and three boys: them flog the
+boys with switches, but the men flog with the Cat. One of the men
+was the old driver, Edward Lawrence; Massa say he did not
+make the people take in pimento crop clean; he is quite old—head
+quite white—<sic corr="haven't">havn't</sic> got one black hair in it, but Dr. Thompson
+ordered him to be flogged; not one of the people been doing any
+thing wrong; all flog for trifling, foolish thing, just to please the
+massa.</p>
+        <p>When them try me, massa said, that one Friday, I was
+going all round the house with big stone in my hand, looking
+for him and his sister, to knock them down. I was mending
+stone wall round the house by massa's order; I was only a
+half-grown boy that time. I told magistrate, I never do such
+thing, and offer to bring evidence about it; he refuse to hear
+me or my witness; would not let me speak; he sentence me
+to get 39 lashes; eight policemen was present, but magistrate
+make constable flog at first; them flog the old driver first
+and me next; my back all cut up and cover with blood,—I
+could not put on my shirt—but massa say, constable not
+flogging half hard enough, that my back not cut at all;—Then
+the magistrate make one of the police take the Cat to flog the
+other three men, and him flog most unmerciful. It was Henry
+James, Thomas Brown, and Adam Brown that the police flog.
+<pb id="williams3" n="3"/>
+Henry James was an old African; he had been put to watch
+large corn-piece—no fence round it—so the cattle got in and
+eat some of the corn—he couldn't help it, but magistrate flog
+him for it. After the flogging, he got quite sick, and begin
+coughing blood; he went to the hot-house,<ref targOrder="U" id="ref1" n="1" rend="sc" target="note1">*</ref> but got no
+attention, them say him not sick.—He go to Capt. Dillon to complain
+about it; magistrate give him paper to carry to massa, to warn him
+to court on Thursday; that day them go to Brown's Town,
+Capt. Dillon and a new magistrate, Mr. Rawlinson,
+was there. Capt. Dillon say that him don't think that Henry James
+was sick; he told him to go back, and come next Thursday, and he
+would have doctor to examine him; the old man said he did not
+know whether he should live till Thursday; He walk away, but
+before he get out of the town, he drop down dead—all the place
+cover with blood that he puke up. He was quite well before the
+flogging, and always said it was the flogging bring on the sickness.</p>
+        <p>Same day Henry James dead, massa carry me and Adam
+Brown before magistrate; he said I did not turn out sheep till
+nine o'clock on Wednesday morning; I told magistrate the sheep
+was kept in to be dressed, and I was eating my breakfast before
+dressing them; but Capt. Dillon sentence me and Adam Brown to
+lock up in the dungeon at Knapdale for ten days and nights; place
+was cold and damp, and quite dark—a little bit of a cell, hardly
+big enough for me to lie full length; them give we pint of
+water and two little coco or plantain a day;—hardly able to stand
+up when we come out, we was so weak; massa and misses said
+we no punish half enough; massa order we straight to our work,
+and refuse to let we go get something to eat.</p>
+        <p>The week after we let out of dungeon, Mr. Rawlinson come to
+Penshurst, and tell some of the people he not done with we yet
+about the sheep; we only put in dungeon for warning, and he
+would come back next Thursday, and try we again for it; He did
+come Thursday about four o'clock, and send call us, when we
+come, him and massa and misses was
+<note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1"><p>* Hospital.</p></note>
+<pb id="williams4" n="4"/>
+at dinner—we sent in to say we come—them said, Never mind till
+morning. We know this magistrate come to punish we for nothing,
+so we go over to Capt. Dillon at Southampton, to complain; he
+write paper next morning to police-station, and policeman took us
+home. Mr. Rawlinson gone already, and Misses said he left order
+that we to lock up every night, and keep at work in day-time, till he
+come back—but police say no, Capt. Dillon order that we not to
+punish till he try we himself on Thursday, at Brown's Town;—Them
+took us there, but Capt. Dillon did not come, but send paper for the
+other magistrate to try it, and said them couldn't try us for the same
+thing again. Mr. Rawlinson said it was not the same thing; Mr.
+Senior said, No, we had been insolent to him; we call constable to
+give evidence, and he said we not insolent; Then magistrate say to
+Mr. Senior, “You mean insolence by manner.” Massa answer,
+“Yes, that is what I mean, insolence by manner”—it was magistrate
+self that put massa up to say this;—Then the magistrate sentence
+us to get twenty lashes apiece, which was given in front of
+courthouse by police; the punishment was very severe—both of us
+fainted after it—we lie down on the ground for an hour after it, not
+able to move; A free man in the place sent some rum and camphor
+to bring we round. We went home that night, and went into
+hospital—them would hardly receive us, we stop there that night
+and Friday, lock up all day and night, and no feeding; Saturday
+morning massa turned both of us out—we back all sore, quite raw,
+and we not able to stoop.</p>
+        <p>Ten days after the flogging at Brown's Town, Mr. Rawlinson
+come again to Penshurst on the Monday, and slept
+there. Next morning massa brought me up, and said that after
+the last punishment, when we get home, I did not turn out
+the horses and cows that night. I told magistrate I was sick
+with the flogging, and went to the hot-house, but Mr.
+Rawlinson order me twenty-five lashes for it; Mr. Senior said, Let
+it be done on the place;—Magistrate said yes, and ordered
+constable, William Dalling, to do it. I begg'd magistrate
+not to flog me again, as the other flogging not well yet, but
+<pb id="williams5" n="5"/>
+no use, he wouldn't hear me, but rode away from the place. Massa
+said he have no Cat, but he would find some switches to do it
+with; I was flogged with lancewood switches upon the old
+flogging—it tear off all the old scabs, and I not able to lie down on
+my back for two or three week after—was made to work with my
+back all sore.</p>
+        <p>About a month after the last flogging, massa said to me
+one day, that he would send for magistrate, and oblige him
+to do his duty, that all the gates in the pasture was down,
+and I never told him, and that I took up too much time to
+get in two turn of food for the horses; I said I couldn't do
+more than I was doing, I had too many things to do—first
+thing in the morning I had to blow shell, then to go to
+pasture and get in milking cow, and to milk them—then had to
+look over the sheep and cows, and all the stock, and to dress
+them that have sores—then to get them altogether, and give
+to one little boy to take them to pasture; at nine o'clock
+go to breakfast for half an hour, then have to go mend gaps
+in the stone wall, after that have to take two asses and a
+bill, to cut bread-nut food for the horses—had to climb the
+high trees to cut the bread-nut—then to chop it up, and load
+the two asses and take it home, and to come back for another
+load:—This finish between four and five, and by that time the
+little boy bring in all the cattle. I have to look over them
+and to turn them into different pastures, then have to go and
+get a bundle of wood for the watch-fire, and after that to
+supper the horses in the stable at night; they don't allow me
+to go to negro-houses—obliged to keep watch all night, sleeping
+in the kitchen, and to answer all call; Massa said I was
+only four years apprentice, and don't entitle to any time—that
+only one day in a fortnight due to me to work my ground
+and feed myself.</p>
+        <p>Massa never give me food; he allow me every other Sunday to
+work my ground, and sometimes, he let me change it for another
+day. Magistrate say that was all the time the law allow.</p>
+        <p>As to the gates being down, massa go through them every
+day himself and see it; but he say I ought to have told him,
+<pb id="williams6" n="6"/>
+and he will make magistrate punish me for it; him swear
+vengeance against me.</p>
+        <p>Mr. Rawlinson come on a Friday evening, and I was to
+have take next day for my day; but massa send me word that
+me not to take the day, as he want to bring me before the
+magistrate; I was frightened and didn't go next morning: Then
+I heard that magistrate said as I take the day against orders, when
+him and me meet he would settle it: I was quite frightened when I
+hear this, and I go away to Spanish Town to see the governor—but
+didn't see him, as he was up in the mountain: I go back to Saint
+Ann's, and hide in the woods about Penshurst and Knapdale; I
+stop about seven weeks, and then go back to Spanish Town; I
+went to Mr. Ramsay, and he gave me paper to Mr. Emery, the
+Captain of Police, at St. Ann's—I met him on the road—he took me
+and put me in dungeon at Carlton—was kept there from
+Wednesday till Friday morning, then policeman came and took me
+to Brown's Town, and put me in cage till next day; then Mr.
+Rawlinson had me handcuffed and sent me to Penshurst,
+and put me in dungeon for ten days before he try me.</p>
+        <p>On the eleventh day Mr. Rawlinson came and slept there
+that night; next morning he had me brought out, and asked
+me about the running away, and I told him I go away
+because I was frightened when I hear how him and massa
+threaten me; then he sentenced me to St. Ann's Bay workhouse,
+for nine days, to get fifteen lashes in going in—to
+dance the treadmill morning and evening, and work in the
+penal gang; and after I come back from the punishment, I
+must lock up every night in dungeon till he visit the property
+again, and I have to pay fifty days out of my own time for the time
+I been runaway.</p>
+        <p>Then they handcuff me to a woman belonging to Little-field, to
+send to the workhouse; she have little child carrying on her
+back, and basket on her head, and when she want to give
+pickaniny suck, she obliged to rest it on one hand to keep it to the
+breast, and keep walking on; police don't stop to make her suckle
+the child. When we get to the workhouse, that same evening they
+give me the fifteen lashes; the flogging
+<pb id="williams7" n="7"/>
+was quite severe and cut my back badly; Then they put
+collar and chain upon my neck, and chain me to another man. Next
+morning they put me on the tread-mill along with the others: At
+first, not knowing how to dance it, I cut all my shin with the steps;
+they did not flog me then—the driver shewed me how to step, and I
+catch the step by next day; But them flog all the rest that could not
+step the mill, flogged them most dreadful. There was one old
+woman with grey head, belong to Mr. Wallace, of Farm, and she
+could not dance the mill at all: she hang by the two wrists which
+was strapped to the bar, and the driver kept on flogging her;—she
+get more than all the rest, her clothes cut off with the Cat—the
+shoulder strap cut with it, and her shift hang down over that side— 
+then they flog upon that shoulder and cut it up very bad; but all
+the flogging couldn't make she dance the mill, and when she come
+down all her back covered with blood. They keep on putting her
+on the mill for a week, and flog her every time, but when they
+see she could not dance it, they stop putting her on; if they no
+been stop, they would have kill her.</p>
+        <p>There was about thirty people in the workhouse that time,
+mostly men; nearly all have to dance the tread-mill morning and
+evening; six or eight on the tread-mill one time, and when them
+done, another spell go on, till them all done; every one strap to the
+bar over head, by the two wrists, quite tight; and if the people not
+able to catch the step, them hang by the two wrist, and the
+mill-steps keep on batter their legs and knees, and the driver with the
+cat keep on flog them all the time till them catch the step. The
+women was obliged to tie up their clothes, to keep them from tread
+upon them, while they dance the mill; them have to tie them up so
+as only to reach down to the knee, and half expose themself; and
+the man have to roll up their trowsers above the knee, then the
+driver can flog their legs with the cat, if them don't dance good;
+and when they flog the legs till they all cut up, them turn to the
+back and flog away; but if the person not able to dance yet, them
+stop the mill, and make him drop his shirt from one shoulder,
+so as to get at his bare back with the Cat. The boatswain
+<pb id="williams8" n="8"/>
+flog the people as hard as he can lay it on—man and woman all
+alike.
+One day while I was in, two young woman was sent in from
+Moneague side, to dance the mill, and put in dungeon, but not
+to work in penal gang; them don't know how to dance the mill,
+and driver flog, them very bad; they didn't tie up their clothes
+high enough, so their foot catch upon the clothes when them 
+tread the mill and tear them;—And then between the Cat and the
+Mill—them flog them so severe,—they cut away most of their
+clothes, and left them in a manner naked; and the driver was
+bragging afterwards that he see all their nakedness.</p>
+        <p>Dancing tread-mill is very hard work, it knock the people up—
+the sweat run all down from them—the steps all wash up with
+the sweat that drop from the people, just the same as if you
+throw water on the steps.</p>
+        <p>One boatswain have to regulate the pole<ref targOrder="U" id="ref2" n="2" rend="sc" target="note2">*</ref> of the mill, and make
+it go fast or slow, as him like; sometimes them make it go very
+fast, and then the people can't catch the step at all—then the
+other boatswain flogging away and cutting the people's legs and
+backs without mercy. The people bawl and cry so dreadful, you
+could hear them a mile off; the same going on every time the mill
+is about; driver keep the Cat always going while the people can't
+step.</p>
+        <p>When them come off the mill, you see all their foot cut up
+behind with the Cat, and all the skin bruise off the shin with
+the mill-steps, and them have to go down to the sea-side to
+wash away the blood.</p>
+        <p>After all done dance the mill, them put chain and collar on
+again, and chain two, three, and sometime four together, and
+turn we out to work penal gang—send us to different estate to
+work—to dig cane-hole, make fence, clean pasture, and dig up
+heavy roots, and sometimes to drag cart to bring big stone
+from mountain-side, about two or three miles from the bay;
+have to drag cart up steep hill. About ten o'clock they give
+we breakfast,—one quart of corn boiled up with a little
+<note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"><p>* The lever.</p></note>
+<pb id="williams9" n="9"/>
+salt; sometime they give we a shad between two or three of we.</p>
+        <p>They keep us at work till between four and five o'clock, then
+take us back to the workhouse—take the chains off we all, and make
+us go upon the mill again, same fashion as in the morning. After
+that them put us into the bar-room—put the chain and collar on
+again, and our foot in the shackle-bar, to sleep so till morning. All
+the woman put into one room, and all the man in another; them
+that have any of the breakfast left from morning, them eat it after
+lock up, but them that eat all the allowance at breakfast, must
+starve till morning.</p>
+        <p>We keep on so every day till Sunday. Sunday the women sent
+to Mr. Drake's yard,<ref targOrder="U" id="ref3" n="3" rend="sc" target="note3">*</ref> to clean it—and half the man go cut grass for
+his horses, and the other half carry water for the workhouse. After
+that they have to grind all the hoes, and the bills, and the axes,
+ready for Monday. Them work we all with the chains on, on
+Sunday, but they don't put us on tread-mill that day.</p>
+        <p>When the nine days done, them send me home; I so weak I
+hardly able to reach home; when I get there, Mr. Senior put me
+in the dungeon, and keep me there for four days and nights; he
+give me four little bananas and a piece of pumpkin
+with a little dry salt, and a pint of water. Magistrate didn't order
+me to be locked up in the day, only at night, but massa do it of
+his own will.</p>
+        <p>Then I begg'd massa to let me out, and I would do whatever I
+can to please him, and he do so, and order me to get bundle of
+wood and keep watch every night, instead of going to the
+dungeon.</p>
+        <p>After coming out of workhouse I never feel well, and about
+three weeks after, I got quite sick with fever and head-ache, and
+pain in the stomach; almost dead with the sickness. Massa told me
+one day, another punishment like that, and it will just do for me—it
+would kill me quite. Dr. Tucker pay good attention to me, and at
+last I get over it.</p>
+        <p>After this, it was long time before they punish me again,
+<note id="note3" n="3" rend="sc" place="foot" anchored="yes" target="ref3"><p>* Mr. 
+Drake is supervisor of the house of correction at St. Ann's Bay.</p></note>
+<pb id="williams10" n="10"/>
+but they make me pay off the fifty days; them give me no Sunday
+at all; every Wednesday they give me half a day to work my
+grounds, the other half them take to pay off the fifty days;—For
+one year and three months, them keep on take the half day from
+me every week, and never give me any feeding.</p>
+        <p>In November, about five or six weeks before this last Christmas,
+one Friday, massa blow shell at nine o'clock for the gang to go to
+breakfast; it was the time them begin to get half Friday;—Them say
+no, they would rather work the four hours and a half one time, and
+then get the rest of the day. Joseph Lawrence, the constable, go
+to massa, and said the people would not go to breakfast, they
+wanted to work out the time at once. Massa said no, he would
+make them go to breakfast, and then work them till one o'clock. He
+ordered Lawrence to go away from the gang, and sent head
+constable, William Dalling, to order the people to breakfast; they
+said no, they would not; then massa go and order them himself,
+but they refused to go—then there was a great row and noise, and
+massa make them take up Joseph Lawrence the constable, and
+Thomas Brown; he say it must be them advise the people not to go
+to breakfast, and he put them in the dungeon—and he take William
+Mills and put in, because he don't go to breakfast, and
+Miss Senior call out for them to put in Benjamin Higgins, the old
+mason, for the same thing.</p>
+        <p>While massa was putting the people in the dungeon, I was
+passing from the pantry to the kitchen; Miss Senior was
+cursing at me, but I did not give any hearing to what she
+saying. Massa was standing near the kitchen—he ask me
+what I got to say about it; I say, Sir, I have nothing to do
+with it, I don't interfere; he say, You do interfere; I tell him
+no—he raise up his stick three times to lick me down. I said,
+you can't lick me down, sir, the law does not allow that, and
+I will go complain to magistrate if you strike me. He answer,
+he don't care for magistrate, he will lick the five pounds out
+of me that the magistrate will fine him:—Then he order me to
+be lock up along with the rest.</p>
+        <p>While they was putting me in, I said, 
+<hi rend="italics">“It wasn't a man made</hi>
+<pb id="williams11" n="11"/>
+<hi rend="italics">this world, and man can't command it: the one that make the world
+will come again to receive it, and that is Jesus Christ!”</hi> Massa
+called to William Dalling the constable, to bear witness what I was
+saying; he said he heard it, then they lock me up, and keep
+us there for twenty-four hours.</p>
+        <p>That same time massa sent for Mr. Rawlinson, he come Monday
+morning: four of us was tried, but he let off one and punish the other
+three. Massa tell the magistrate about the words I use—him tell the
+very words; magistrate ask me if I use them words? I tell him yes, but I
+wasn't mean any thing harm. Then he put constable on his oath,
+and he repeat the words I said; then Mr. Rawlinson told me I had no
+business to say so, and he sentence me to get twenty lashes in the
+workhouse, and to dance the treadmill morning and evening, and
+work in penal gang for seven days.</p>
+        <p>At same time him try Joseph Lawrence and his sister Amelia
+Lawrence. Massa said that on the Friday morning when he
+ordered Joseph Lawrence to go away from the gang, he disobeyed
+his order, and stopped at the gate. Mr. Rawlinson sentence him to
+get twenty lashes, and seven days in the workhouse, treadmill, and
+penal gang same as me, and he broke him from being constable,
+though he only swear him in for constable the Wednesday before.</p>
+        <p>When Amelia Lawrence was tried, massa said that every time he
+go to the field, he always find she at the first row,
+and he want to know what let she always take the first row—
+being her brother was the driver, she seem as if she want to take the
+lead. Amelia said massa ought to glad to see apprentice working
+at the first row, and doing good work. This was all the word that
+massa have to say against Amelia Lawrence, and Mr. Rawlinson
+sentence her to seven days in the workhouse, penal gang, and
+treadmill.</p>
+        <p>Amelia have four pickninys, two free and two apprentice, she left
+them with her family to take care of while she in the
+workhouse. Them put us all three together into dungeon after the
+court done, and send for police to carry we to workhouse. We
+kept in dungeon till next morning. Them don't give we a morsel
+to eat, and not a so so drop of water; but
+<pb id="williams12" n="12"/>
+one of our friends, unknowing to massa, put a little victuals
+through a small hole.</p>
+        <p>In the morning three police take us out, and carry us down
+to the workhouse; them handcuff me and Joseph Lawrence
+together, and when we get there them take the handcuff off
+and tie we up one after the other, and give we twenty lashes
+apiece: both of we very much cut up with the flogging.
+When the penal gang come back in the evening, them put us
+all on treadmill—after my back cut up that fashion, all over
+blood, it hurt me dreadful to dance the mill.</p>
+        <p>The workhouse was quite full this time, they hardly have
+enough collar and chain to put on all the people, they obliged
+to take off the collar and chain from some of the life people,<ref targOrder="U" id="ref4" n="4" rend="sc" target="note4">*</ref>
+to put on the apprentice; and at night there wasn't enough,
+shackle to fasten all the people, and hardly room enough for
+us all to lie down. There was a great many woman in the
+workhouse, and several have sucking child; and there was
+one woman quite big with child, and them make her dance
+the mill too morning and evening: she not able to dance good,
+and them flog her; she complain about her stomach hurt her,
+and I see her several time go and beg the overseer not to
+work her on the mill, but him say, not him send her there,
+and he must do his duty.</p>
+        <p>All the woman that not able to dance was flog most dreadful,
+in particular all the woman from Hiattsfield. There was
+twenty-one woman from Hiattsfield, and one man—several of
+them have young children; I think they was in for fourteen
+days. I found them in when I go there, and they was let
+out on Saturday night; I was present when they let out, and
+I hear the list call, and counted the people, and it was
+twenty-one woman from Hiattsfield.</p>
+        <p>When I go to the workhouse on the Tuesday, there was only
+three of these woman able to work in the field, all the rest was in
+the hospital, from being cut up with the mill and the flogging;
+them all look quite shocking when them let out,
+some hardly able to walk to go home, the most lively
+<note id="note4" n="4" rend="sc" place="foot" anchored="yes" target="ref4"><p>* <hi rend="italics"> Convicts</hi> for life.</p></note>
+<pb id="williams13" n="13"/>
+among them was all mashed up with the mill, all the skin bruised
+off her shin; she had a young child too: she tell me that she was
+put in workhouse three weeks before, and now them send her
+back again.</p>
+        <p>There was more than a hundred people in the workhouse this
+time—I reckon the life people and all; there was about seventeen
+or eighteen of them, and when penal gang turn out, them send ten
+or twelve of the life people along with apprentice, and all have to
+work together. The life people better treated more than
+apprentice; them get better feeding, them have quart of flour every
+second day instead of corn, and always get shad or salt fish every
+day; they don't put life people on treadmill, and I never see them
+put a lick upon one of the life people.</p>
+        <p>Almost every apprentice that sent to workhouse by magistrate,
+have to dance treadmill, except the sick in the hospital. It was
+miserable to see when the mill going, the people bawling and
+crying most dreadful—so they can't dance, so the driver keep on
+flogging; them holla out, “massa me no able! my 'tomach, oh! Me
+da dead, oh!”—but no use, the driver never stop—the bawling make
+it rather worse, them make the mill go faster—the more you holla the
+more the mill go, and the driver keep on flogging away at all them
+not able to keep up; them flog the people as if them was flogging
+Cow.</p>
+        <p>One day one of the woman from Hiattsfield fainted on the
+mill; they been flogging at her, and the mill bruise all her shins; when
+she faint she drop off the mill, and look as if she dead; all her
+fellow apprentice set up crying, and ask if she going to dead left
+them; she not able to speak—two men carry her out into the yard,
+and lay her out upon the ground, and throw water upon her to
+bring her to; but for a long time them think she dead already; she
+didn't come to till next morning.</p>
+        <p>There was one old woman, name Sally, from Mr. Cohen's at
+Cool Shade, was in workhouse when I go there, and she stop in
+there long time; she was in shocking condition—they had been
+putting her on the mill, and she don't able to dance at all, and
+them been flog her most terrible, but still she not
+<pb id="williams14" n="14"/>
+able to dance, and at last them obliged to leave off putting
+her on the mill; but them keep on make her go out to work in penal
+gang, and chain her to one of the strong woman; She was badly
+treated more than any body I ever see in the workhouse; every day
+them flog her, she hardly able to stand. Two of the drivers, James
+Thomas, and Robert Lyne, make constant practice to flog this old
+woman and Mr. Drake sometimes he beat her himself with
+supple jack.</p>
+        <p>One day we was working at Banks's negro-houses, cutting
+Penguin to plant at Springfield—old Sally was chained to a
+young girl name Mary Murray; it was heavy rain time; driver was
+pushing the people on to run fast—was flogging them on, the
+young girl was trying to get on, and was hauling and dragging
+the chain that was on him and Sally neck, as Sally don't able to
+keep up; at last, the old woman fall down, right in a place where
+a stream of water was running through the negro-house street,
+and she don't able to get up again, then the driver stand over her
+with the cat, and flog her, but she not able to get up with the
+chain on, so he take off the chain, and make the young girl tie it
+round her body, and go along with the rest; then he stand over
+the old woman, and flog her with the cat till he make her get up,
+and keep on flogging at her till she get to the cook's fireside; the
+old creature stand there trembling, all wet up—for two or three hours
+she not able to move away, she look quite stupid; all the other
+people in the workhouse quite pity this poor old woman, it would
+make any body heart grieve to see her. The under-driver tell the
+head-driver one day, that if him keep on beat her so, some of
+these days she will dead under it, and then he will get into trouble;
+every day I was in the workhouse, except to Sunday, I see them
+beat this old woman, and I left her still in.</p>
+        <p>All the drivers and the boatswains in the yard, is people that
+sentence to the workhouse for life, two of them was very bad,
+them don't care how much them punish the apprentice.</p>
+        <p>Them woman that have young sucking child, have to tie them
+on their back, and go to the field chain two together; when it rain
+ever so hard they have to keep on work with the
+<pb id="williams15" n="15"/>
+children tied on their backs, but when the weather dry, them
+put down the child at the fire-side; when Mr. Drake there,
+he don't allow them to suckle the child at all, if it cry ever
+so much; him say the children free, and the law don't allow
+no time to take care of them; it is only the good will of the
+driver that ever let woman suckle the children.</p>
+        <p>The drivers constant try to get after the young women that put
+into the workhouse,—even them that married, no matter; Before
+day in the morning, when the driver open the door to take the
+people out of the shackles, he call for any one he want, to come to
+his room, and many of them worthless ones do it; Amelia
+Lawrence complain to her brother and me, that never one morning
+pass without the driver after her—she don't know what to do, she
+quite hurt and dishearted about it—but she did not give way; I
+heard him myself one morning calling her to come.</p>
+        <p>One day, Mr. Hilton, who is clerk in the Court-House,<ref targOrder="U" id="ref5" n="5" rend="sc" target="note5">*</ref> come to
+the workhouse soon in the morning, while the tread-mill
+was going. I been on already, but another spell was on, and
+Mr. Hilton take off one of the weights from the pole, and the
+mill go faster; after him gone, some of the people tell me that in
+the afternoon he often come half-drunk, while  the mill is going,
+then him take off the weight, and take the man from the pole,
+and let the mill go flying round: When the pole let loose so, no
+person can step the mill—them all throw off, and hang by them
+two wrist, then him take the Cat in his own hand, and flog all
+the people with all his strength.</p>
+        <p>Them say that sometimes he drive out with his wife, and come
+round by the workhouse, and if the mill going, he will leave his
+wife in the gig, and go in to punish the people, and all the call his
+wife can call to him to leave off, no use.</p>
+        <p>On the Wednesday next week, they let us out,—we been
+sent for seven days, but they don't reckon the Sunday for one day;
+we reach home Thursday—I was quite weak with the flogging and the
+tread-mill, and the hard work in the penal gang; had a terrible pain
+in my stomach—hardly able
+<note id="note5" n="5" rend="sc" place="foot" anchored="yes" target="ref5"><p>* Deputy Clerk of the Peace, perhaps.</p></note>
+<pb id="williams16" n="16"/>
+to walk up hill; all the people that been flogged always complain
+of pain in the stomach.</p>
+        <p>The day after I come out of the workhouse, massa order me to
+get bread-nut food for the horses. I said I was not able to climb
+tree; I was sick, and my shoulders was quite sore, and I could
+hardly use it, and I tell massa that this make six time that they
+flog me. He answer, he will make it ten times too, and if I sick, I
+must die. Every day he keep on order me to go for the bread-nut,
+but I was not able, and massa threaten me sorely—him tell me, that if
+I don't make an end of him, he will make an end of me.</p>
+        <p>On the Thursday next week, he told me he would take me
+to magistrate next day, and he swear very vengeance against me.
+I get frightened, and on Friday morning I go away to complain
+to the governor. When I get to Byndloss late at night, the
+overseer, Mr. Allen, meet me, and take me up, and put me in
+confinement till next morning, then he put me in charge of
+two constables, who carry me to police station, and the
+captain, Mr. Mackaw, put handcuffs on me, and sent me to the
+special magistrate at Linstead, and he put me in the workhouse
+till massa should send for me; them chain me to
+another man, and make me work with the penal gang.</p>
+        <p>On Thursday, William Dalling, the constable, came for
+me, and them deliver me up to him. We set out, and walk
+most of the night—get to Walton school, and slept there; in
+the morning we start again, and reach home about twelve
+o'clock at night. On Saturday morning, William Dalling
+take me down to massa, and he send me on to Brown's Town;
+when the magistrate come, he shook his head at me, and
+said, Are you here again? Then they hold court. Massa said
+he ordered me to cut bread-nut, and I would not do it: me
+disobeyed his order, and on the Friday went away; and he
+did not see me again till this morning. I told magistrate that
+I did not cut bread-nut, because I was quite sick with my
+stomach, and massa threaten my life so hard, that make me
+go away to complain to the governor. Then the magistrate
+called the sergeant of police, and tell him, Lay hold of that
+fellow, and give him five-and-twenty good lashes—and after
+<pb id="williams17" n="17"/>
+the flogging, I must be sent to workhouse again for <hi rend="italics">seven</hi> days,
+and after I come out of the workhouse. I might go to the governor
+or whoever I like to complain. I told him the old flogging
+is not well yet, but he would not listen to me; They take
+me into the market-place, and tie me up to a tree, and give me the
+twenty-five lashes; all the people surprise to see them flogging me
+again, when the old one not well. The flogging was very severe;
+after it was done, I lay down before the door of the court-house,
+rain came on, and the police came and told me to go inside. I went
+in to where the court was sitting, and I said to Mr. Rawlinson, You
+don't do justice betwixt I and master. He tell me, that constable
+swear that I run away without a cause. I ask the constable and he
+declare he never say any further than he took me out of Rodney
+Hall workhouse. Then Mr. Rawlinson say, I have been before
+him eight or nine times already; I say, If I have been twenty times
+before you, you ought to do justice 'twixt I and massa. He said,
+He do justice. I told him, You don't do justice. Then he said, If you say
+another word, I will put you out in the rain; then he made police
+take and handcuff me, to carry to workhouse. While I was
+standing outside the door, I hear massa say to Mr. Rawlinson, he
+had better let me stop in the workhouse for fourteen days;
+magistrate answer, That will make it till after new-year's-day; and
+then he said, Yes.</p>
+        <p>The policeman carry me to St. Ann's Bay, but night catch me in
+the pass, and police take me into Cardiff Hall, and we sleep there
+that night; next morning, Sunday, he take me on to workhouse, and
+I had to dance tread-mill and work penal gang like before.</p>
+        <p>The workhouse was nearly full like the last time, but most of
+them was different people—some that I left in I find still there;
+there was plenty of woman there, but only one have young child,
+that was Elizabeth Mason, from Mount Campbell, she was in for
+seven days to dance the tread-mill; she not able to dance good;
+after she been on little time, she miss step and drop, and hang by
+her two wrists, then the boatswain flog her with the Cat, as hard
+as he could put it,—then
+<pb id="williams18" n="18"/>
+she try to fetch up and catch the step, but fall again, and them
+keep on flog, and when they tire of flogging then they let her
+alone, and let the mill go on mashing her legs; all the skin was
+bruise off her shins, and her legs cut up with the Cat.</p>
+        <p>There was one young mulatto girl in for about ten days;
+she was name Margaret, and belong to Mr. Chrystie, the
+saddler, on the Bay; she complain of her stomach, and not
+able to dance the mill well; they flog her severe, and all her
+leg bruise with the mill; one evening her master come to the
+workhouse, when she was on the mill—he beg the boatswain
+to let the mill go fast, and flog Margaret well, and make her
+feel it, to that she will keep away from it after.</p>
+        <p>There was another woman from Drax Hall on the mill—
+she didn't dance good, and they flog her very much, and when
+she find the flogging come too hard, she call out, “Massa,
+me no one flesh, me two flesh;” she was in family way, but
+the overseer said he didn't care, it wasn't him give her belly,
+and after that they was harder upon her.</p>
+        <p>On Christmas day them make me and five other men go cut
+grass for Mr. Drake's horses, and some of the women go clean
+his yard and carry water.</p>
+        <p>As magistrate been sentence me only for seven day, I ask
+the overseer on the Sunday if my time no up? He look at the
+book and say it was put down for fourteen day, so them keep
+me in till Tuesday night after New Year's day, that make
+two weeks and a half, for they don't count the Sunday.</p>
+        <p>There was one girl, named Mary Murray, in the workhouse
+same time as me, from Seville; she tell me not the magistrate
+write the paper for she to come to the workhouse—the busha
+write it, and shew it to magistrate, and him say it was all
+right; she tell we all, that what make them send her to workhouse
+was, that busha say the gang didn't turn out soon in the morning,
+and when the magistrate, Major Light, come, he send for the gang
+from the field, but them all frighten and run and hide—only she
+Mary Murray didn't run, and them take she before the magistrate,
+and send her straight off to the workhouse. All the people that speak
+to me, complain
+<pb id="williams19" n="19"/>
+very bad about Major Light; them say him always drunk;—I see
+him drunk myself many times, going about the properties,— 
+sometimes I see his servant obliged to hold him in the chaise,
+he was so drunk; him name is quite common for drunkard
+through the parish; them tell me that where him sleep, him put the
+room in such condition that they were obliged to clean it all out
+next morning.</p>
+        <p>When he go upon the estate he call to the overseer, Have you
+got any thing for me to do,—any person to flog? and if they tell
+him yes, then him stop, and if they give him rum to drink, he will do
+whatever thing them want him.</p>
+        <p>One day when I was working in penal gang, I saw six or seven
+of the Windsor apprentices, was going to the workhouse to be
+flogged—it was Major Light send them.</p>
+        <p>Another day I meet Major Light and the New Ground book-keeper
+coming down to the bay, and six men, handcuffed, and
+tied with rope, was following after, with two constable in charge
+of them; they was carried down to workhouse and flogged,
+and then sent back. Every body say them never see crueller man
+than Major Light—him in a manner begging the overseer to let him
+punish the people. Mr. Sowley was a king to Major Light.</p>
+        <p>The tread-mill at St. Ann's Bay, mash the people up quite
+dreadful; I see two woman at Knapdale, one named
+Nancy, married to Jarvis Webb, the other name Bessy, married to
+Philip Osborne; them been sent to dance tread-mill, and when
+them come back, all their legs bruise up, and make bad sore. I
+see them with bandage round their legs, and obliged to walk with
+stick; but the overseer and master no care for the work, or the time
+them lose, if them can only get the people well punish. Massa tell
+me to my face that he could do without me very well, if he could
+get me in the workhouse for six months.</p>
+        <p>One day Miss Senior say to me and some other apprentices, that
+Mr. Clarke, the busha at Knapdale, tell her that him send two
+woman to the tread-mill, and them come back so well hackled, that
+them not able to do nothing for three or four months, and she
+don't know what the devil in we, that
+<pb id="williams20" n="20"/>
+we not well mashed up, when we come back from the tread-mill.</p>
+        <p>Mary Ann Bell, a mulatto girl, one of Miss Senior's house servants
+was quite large in the family way; Mr. Rawlinson sent
+her to dance the tread-mill, and when she come back she quite
+sick, and them strap her hand so tight upon the mill that she
+partly lost the use of her right hand ever since; she can't
+hold nothing heavy in that hand.</p>
+        <p>One day when I was at home in the pastures, close the public
+road, I see policeman carrying down an old man and a woman
+handcuffed together; the man was very old, he look more than sixty
+years old—he was all trembling, and hardly able to walk. I beg the
+police to stop and let me give them some orange; he do so, and
+the woman tell me that them sending her to the  workhouse about
+her not delivering her free child to the overseer to let it work. I
+hear that many people begin to talk that the free child no have no
+right to stop on the property, and they will turn them off if the
+mothers don't consent let them work; this woman come
+from Orange Valley, but I don't know anything more about
+her story.</p>
+        <p>The old man tell me that Mr. Rawlinson send him down to gaol,
+but him don't say what for; but about two months after I see him
+coming back from St. Ann's Bay. It was between Penshurst and
+Hinton Hill: him hardly able to crawl, his legs and back hackle
+most dreadful, and all his shirt and trowsers soak up with blood;
+I look at his right shoulder, and it was all in one sore, in a
+manner rotten up, with the flogging; I don't think him could live
+to reach home; he tell me he was two weeks coming from St.
+Ann's Bay (16 miles), obliged to beg victuals and shelter any place
+he come to. It was Mr. Rawlinson send him to gaol, and after
+he been there for a little time, them take him out and carry him before
+Mr. Sowley, and him put the old man in the workhouse.</p>
+        <p>Some of them magistrate don't care what them do to apprentice, as
+long as them can get good eating and drinking with the massa and
+busha, and sometimes them set the massa on to do worse than them
+want. All the apprentice say that
+<pb id="williams21" n="21"/>
+Major Light make it constant rule to do so, and myself see
+Mr. Rawlinson do so one time—it was the very morning them
+flog me with the lancewood switches; after  the court over,
+Mr. Rawlinson order his mule ready to go away, and him and
+massa and Miss Senior was standing at the door; Misses was
+wanting something, and she call Nanny Dalling, when Nanny
+come, her face “tie up” (<hi rend="italics">i. e. looked sour or displeased</hi>)—I
+believe she been have some dispute with her fellow servant
+outside; Mr. Rawlinson say she look sulky and insolent, and him
+lay hold of her with him own hand, and haul her along to the
+dungeon, and push her in and lock the door; he left her child,
+a sucking baby, outside.</p>
+        <p>I was standing by the gate and see it all, and when Mr.
+Rawlinson mount his mule to go to Hinton Hill, I hear him
+say to massa, You must try to get up some good charge
+against that woman, and let me send her to the workhouse for
+about a fortnight; but massa answer that she have young
+child. The magistrate answer, That's no consequence; but
+massa didn't like to send her there. Mr. Rawlinson call
+again at Penshurst same day, as he coming back from Hinton
+Hill, and he make them bring Nanny Dalling out of the
+dungeon, and then he sentence her to be locked up in the dungeon
+for fourteen nights; and them did lock her up every night
+along with her young pickniny.</p>
+        <p>As I tell about other things, I want to tell about one time I do
+something bad; it was when massa get up a barrel of pork,
+last year, in April; John Lawrence tell me he know where the pork
+was put, and he would help them with a part of it: two or three
+nights after they open the barrel, John Lawrence get a long stick,
+and tie a fork at the end of it, and then he go to the store window
+and stick the fork into the pork barrel, and get a piece of the meat
+and draw it to the window, but it couldn't come through the
+bars, so he come to the kitchen where I was sleeping, and he call
+me to come and help him; I go with him, and I hold the piece of
+pork while him cut it in two, and take and boil one half and give
+me some, and I eat it.</p>
+        <p>Misses and massa found out that the pork gone, and make
+<pb id="williams22" n="22"/>
+noise about it, and accuse all the house servant about it; I
+can't bear to hear them accuse for wrongful, and I know who
+did it, so I tell William Dalling the constable that I know all
+about the pork. Then him tell massa, and they call me up and
+I tell the truth, that John Lawrence tief the pork and I help
+him to cut it and I eat some of it: them carry we before
+magistrate about it, and I tell Mr. Rawlinson the same thing,
+and John Lawrence confess it, and magistrate sentence
+John Lawrence and me to pay ten shillings a piece to massa
+for the pork: I borrow the money from my father and another
+man, and pay it to misses. This one bad action I do, them
+don't punish me for it.</p>
+        <p>It was the Tuesday evening after new year's day that they
+let me out of the workhouse, and I reach home next day.
+Miss Senior say them been looking out for me since last
+week, as I only sentence for seven days, and she think say,
+that I run away and go back to Rodney Hall again. She
+make pretence she don't know, that magistrate alter it to
+fourteen days, and massa pretend the same for him send William
+Dalling the constable to the magistrate the week before to say
+I don't come home yet, and him suppose me run away, but
+massa know very well that I was in the workhouse all the time.</p>
+        <p>Mr. Rawlinson self pretend him don't know I was in the
+workhouse so long, him say so to make William Dalling fool,
+because him was present when Mr. Rawlinson try me, and hear
+him sentence me to no more than seven days in the workhouse.
+Them don't know that I hear them make the bargain to keep me in
+all Christmas week.</p>
+        <p>Next time Mr. Rawlinson come to Penshurst massa try to get me
+punish again. Him say me didn't come home same day them let me
+out of the workhouse—he would have it me no come home till
+Thursday, but it was Wednesday, and I offer to call constable to
+prove it, and, at last, magistrate put an ending to it, and told
+massa he must accuse me wrongfully.</p>
+        <p>This was the last time they carry me before Mr. Rawlinson, and
+that was last January.</p>
+        <p>One Saturday afternoon, about the end of February, Philip
+Osborn of Knapdale came to me and say that James Finlayson
+<pb id="williams23" n="23"/>
+want to see me at Brown's Town that night. James Finlayson
+was my fellow apprentice before time, but been buy himself
+free, and he was a leader in the church. He send tell me
+that two gentlemen was there that want to ask how apprentice
+treated, and him know me been treated very badly, so him send
+for me.</p>
+        <p>At night I go to the chapel, and see Mr. Sturge and Mr.
+Harvey, and I tell them all about my bad living; Mr. Sturge
+tell me, me mustn't discourage, that it only to last seventeen
+months; I tell him, I don't know if I can live to see the
+seventeen months out; I was quite maugre and hungry that
+time, quite different to what I stand now, I hardly able to get
+anything to eat then, my ground all gone to pieces, the time
+them put in workhouse, and if my father and other people no
+been give me something, I would have starve. Mr. Sturge
+give me a shilling, and then I go back home.</p>
+        <p>On Monday night, Finlayson send for me again, I go
+Tuesday night, and he send me to Mr. Clarke, the minister.
+Him ask me if me would like to be free, I tell him, Yes, and him ask
+me if I would pay him back when me free? I said, Yes, I
+would do all in my power, and try my best endeavour to work hard
+and pay him back. Then Mr. Clarke tell me I must go to magistrate,
+to give warning to have me valued; I was quite happy and joyful,
+when I hear this; and on Saturday, I go to Mr. Rawlinson, at
+Brown's Town, and ask him to value me, but him say massa entitle
+to fourteen days' warning; he give me paper to serve massa, about
+it, and said he would very glad if I could buy myself, as he have
+more trouble with me and massa than any body else. I give the paper
+to misses, as massa was in Spanish Town, and second Saturday after,
+I go to Brown's Town, to be valued; but when I get there, Mr.
+Rawlinson tell me, as massa don't come, he couldn't
+value me, and all I can say no use, he keep on refuse to value me;
+then I go to Mr. Clarke, the minister, and he come to the Court House,
+and speak to Mr. Rawlinson, and at last he agree to go on with the
+valuation.</p>
+        <p>Him and Mr. Abraham Isaacs and Mr. Fairweather value
+<pb id="williams24" n="24"/>
+me; Mr. Joseph Isaacs, that keep a store at Brown's Town, give
+evidence. He say he want a boy like me, to mind his horse, and
+follow him to town, and when me free, he would be willing to give
+me two dollars a week, and feeding and clothes besides; so
+them fix the price upon me for eight doubloons, ten dollars and a
+half, and two bitts.<ref targOrder="U" id="ref6" n="6" rend="sc" target="note6">*</ref></p>
+        <p>After it done, Mr. Clarke take me to his house, and give me the
+money, and I carry it straight to Mr. Rawlinson, and then he give
+me my free paper, and when I come out of the Court House, I call
+out, quite loud, “Bless God Almighty—thank the Lord, I get out of
+devil's hands.” Mr. Clarke, the Busha at Knapdale, was present— 
+he look quite black at me, but him don't speak.</p>
+        <p>Then I go straight to Mr. Joseph Isaacs' store, and I tell him, I
+going to come to him Monday, as he say him would give me two
+dollars a week, and feeding and clothes; he tell me he get a boy
+already, but he don't get any—he only take swear he would give
+that, to make them put high value upon me.</p>
+        <p>Then Mr. Clarke, the minister, told me, it was Mr. Sturge
+that pay the money for me, and I must go to him at Spanish
+Town, as he want to carry me to England.</p>
+        <p>I feel so happy, I don't know what to do with myself hardly; I
+bless the Lord; and I bless Mr. Sturge for him goodness. If he no
+been take me away, I couldn't have live long.</p>
+        <p>On Tuesday I start off, and get to Spanish Town next day,
+after that we go to Kingston; and two weeks after, Mr. Sturge
+take me with him on board the ship, and we go to New York,
+and then sail to Liverpool, and so here I am in England.</p>
+        <note id="note6" n="6" rend="sc" place="foot" anchored="yes" target="ref6">
+          <p>* That is £46. 4<hi rend="italics">s</hi>. 7<hi rend="italics">d</hi>. Jamaica currency, for one year and five months'
+service!</p>
+          <p>The ordinary wages of a good <hi rend="italics">house</hi> domestic in Jamaica, is a dollar and
+half per week, out of which the servant is allowed half a dollar for his own
+support. A valuation according to this standard, together with the usual
+deduction of one-third for contingencies, would have brought the true value
+of James Williams's services to about the sum of £15, for the unexpired term
+of the apprenticeship!</p>
+        </note>
+      </div1>
+    </body>
+    <back>
+      <div1 type="narrative">
+        <pb id="williams25" n="25"/>
+        <p>The foregoing narrative has been carefully taken down from the
+lips of the narrator—his own peculiar style being faithfully
+adhered to.</p>
+        <p>Joseph Sturge has in his possession a document, signed by six
+members of a Christian church, who had all known James
+Williams for several years, and in that document they bear
+testimony to his character for veracity.</p>
+        <p>Horrible and afflicting as is this picture of negro-suffering,
+since the pretended Abolition of Slavery; it bears the strong
+impress of self-evident truth and fidelity; additional and
+corroborative evidence, however, will not be wanting in proper
+season, shewing that this is but a sample of the general
+system—that cruelties and atrocities in various forms and
+modifications are now being perpetrated throughout several of
+our larger colonies.</p>
+        <p>Let it not be forgotten, that the people of England have
+paid twenty millions for the abolition of slavery, and that a
+large amount is still being annually drawn from the public
+revenue, for the support of more than one hundred
+stipendiary magistrates!</p>
+        <p>Yet, notwithstanding this costly—this monstrous sacrifice of
+British treasure, the object for which that sacrifice was made, has
+never been attained—<hi rend="italics">slavery has not been 
+abolished</hi>—it exists with
+unmitigated rigour, in its most ferocious, revolting, and loathsome
+aspect.</p>
+        <p>Cruelties unheard of—unthought of in the worst days of slavery,
+are now being “heaped like burning coals” on the heads of the
+long suffering, and patiently enduring sons and daughters of
+Africa.</p>
+        <p>And will the people of England look tamely on, and accede to
+this as the fruition of their benevolent desires? Will they calmly
+brook the glaring insult offered—the treacherous fraud practised, by
+the open and flagitious violation of a solemn compact? And will the
+people of England permit the deeply injured, the helpless, the
+unoffending negro, still to remain the victim of such accumulated
+misery and brutal outrage?</p>
+        <pb id="williams26" n="26"/>
+        <p>No! It must not—the voice of justice, humanity and religion
+sternly demands that effectual steps be taken to secure full and
+immediate retribution;—we ask not the disgorgement of the
+misapplied twenty millions, but we demand the fulfillment of
+the bond—the ransom has been paid, but the captive is still
+retained in his galling fetters!</p>
+        <p>There is but one remedy—half measures are worse than 
+useless—it requires but a single, brief, simultaneous and
+energetic movement, and the struggle is over. Immediately
+re-organize your Anti-Slavery Societies—let the country be
+aroused—and let the people, with one voice, instruct their
+representatives peremptorily to demand the instant, the
+unconditional, and the everlasting annihilation of the accursed
+system.</p>
+        <closer>
+          <dateline>
+            <date><hi rend="italics">June</hi> 1<hi rend="italics">st</hi>, 1837.</date>
+          </dateline>
+        </closer>
+        <trailer>J. Rider, Printer, 14, Bartholomew Close, London.</trailer>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

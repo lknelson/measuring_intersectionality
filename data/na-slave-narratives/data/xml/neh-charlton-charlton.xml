@@ -1,0 +1,274 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY charltp SYSTEM "charltp.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph> Sketch of the Life of Mr. Lewis Charlton, and
+Reminiscences of Slavery:</emph>
+Electronic Edition.</title>
+        <author>Charlton, Lewis </author>
+        <editor role="editor">Ed. by Edward  Everett Brown</editor>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Lee Ann Morawski and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca.     35K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal 
+use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> Sketch of the Life of Mr. Lewis Charlton, and Reminiscences of Slavery.</title>
+            <editor role="editor">Edward Everett Brown</editor>
+          </titleStmt>
+          <extent>   10   p., ill.</extent>
+          <publicationStmt>
+            <pubPlace>Daily Press Print, Portland, Me.</pubPlace>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Call number   326.92 C481b (Wilson Annex, University of North Carolina at 
+Chapel Hill)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>This electronic edition has been created by Optical
+Character Recognition (OCR). OCR-ed text has been compared against the
+original document and corrected.  The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) 
+and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Charlton, Lewis.</item>
+            <item>African Americans -- Maryland -- Biography.</item>
+            <item>Slaves -- Maryland -- Biography.</item>
+            <item>Slaves -- Maryland -- Social conditions -- 19th
+century.</item>
+            <item>Slavery -- Maryland -- History -- 19th century.</item>
+            <item>Plantation life -- Maryland -- History -- 19th
+century.</item>
+            <item>African Americans -- Education -- Maryland -- Westminster --
+History
+-- 19th century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-07-18, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-06-26, </date>
+        <respStmt>
+          <name>Natalia Smith,</name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-06-21, </date>
+        <respStmt>
+          <name>Lee Ann Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-06-19, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="charltp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">SKETCH OF THE LIFE
+<lb/>
+OF
+<lb/>
+MR. LEWIS CHARLTON,</titlePart>
+          <titlePart type="main">AND
+<lb/>
+Reminiscences of Slavery.</titlePart>
+        </docTitle>
+        <byline>BY</byline>
+        <docAuthor> EDWARD EVERETT BROWN.</docAuthor>
+        <docImprint>
+          <pubPlace>Daily Press Print, Portland, Me.</pubPlace>
+        </docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div1 type="text">
+        <pb id="char1" n="1"/>
+        <head>SKETCH OF THE LIFE 
+<lb/>
+OF
+<lb/>
+MR. LEWIS CHARLTON,
+<lb/>
+AND
+<lb/>
+REMINISCENCES OF SLAVERY.
+<lb/>
+BY EDWARD EVERETT BROWN.</head>
+        <p>I was born in Frederick County, Maryland, between Frederick City and Point of Rocks, very near the 
+town of Buckiston, in the year 1814. My father and mother were both born slaves, my father was sold 
+in Georgia when I was but a babe; my mother lived on a plantation belonging to Mr. Ignatius Davis, 
+who was a large slave owner.</p>
+        <p>He was a well meaning man, had a kind heart and many noble qualities, and professed to be a devout Methodist. His wife was a harsh, cruel, hardhearted, tyrannical woman, her whole being was filled with hatred of the blackest and bitterest kind against the poor down-trodden, crushed, despised and trampled slave; she seemed possessed with some Satanic influence, and never was in her glory unless she could have her slaves tied up to the whipping post, stripped naked, with a pair of flat irons fastened to their feet, then she would stand by, drawing the lash like an infuriated demon, all the nicer sensibilities of her womanly nature seemed to be crushed out of existence. She would ply the lash until the poor victim would faint dead away, and when the rope was cut they would fall weltering in their own gore, then she would order them to be dragged like dogs back to their little huts, and after they had been washed in salt and water, would send them into the field to work as before under the burning, scorching rays of the sun.</p>
+        <p>This was the woman that my mother had for a mistress; this was the woman that caused me, even when a babe, to be kept in a quarter house from four o'clock in the morning to nine o'clock in the evening, without anything to eat or drink, or any fire to keep
+<pb id="char2" n="2"/>
+me warm, or any kind and warm hearted friends to care for me
+in my helplessness, and thus it was that I passed fourteen months
+of my life. One very cold, stinging, bitter, frosty day, as I lay on
+my little ragged couch with scarcely any covering over me to
+keep me comfortable, child like, I kicked the covering from my
+feet, and when my mother returned late that cold winter night,
+she found her child with both feet frozen, and when she doctored
+my feet, having placed a poultice upon them, and when next
+morning she removed the poultice my toes came off with it as
+though they had been cut off with a sharp, keen knife.</p>
+        <p>Imagine if you can, reader, what the feelings of that poor slave mother's heart must have been; the agony of mind, her terrible bodily distress with her own back cut and mangled by the lash, then to return to her little hut and find her babe almost frozen to death. Yet I was obliged to stay with this cruel mistress until I was seven years of age, then my master died and I was sold far from my mother, to a man who intended to learn me to be a cooper. He was a very kind master and treated me well, but before I was large enough to work at the trade, his wife died; he sold his place, and I was again sold to a man, by name Mr. Fornistock, to learn the tanner's trade.</p>
+        <p>He was a disagreeable, tyrannical wretch, and imbibed freely in the intoxicating cup, and when under its fascinating influence, he was a demon and a fiend, ready and willing to commit almost any crime, and the cruel, inhuman, barbarous treatment that I passed through while with him, I shall never forget as long as memory lasts. My imagination carries me back again, to the horrors and heart-rending bloody scenes of slavery. I see again a down-trodden race, whips, chains, tears; I hear the groans, shrieks and wails of broken hearted wives; I see infants torn from their mother's arms, overseers and masters; I see men, women and children covered with blood, gashed and hacked to pieces, whole families sink in shame, crime and degradation, mothers applying the lash to the
+back of the slaves, and daughters following in the footsteps of their mothers, fathers brutalizing themselves, and sons following in their train.</p>
+        <p>I hear the father curse the wife, son curse the father, and wife curse the husband. I see whole families fall by murder and suicide. I see again, the poor slaves chased by the terrible bloodhounds in the swamps, with the fiendish slave hunters at their
+<pb id="char3" n="3"/>
+heels, like hungry wolves in pursuit of their prey, ready to pounce upon them and tear them in pieces.</p>
+        <p>During this time my master imposed many laborious duties upon me, such as no child could possibly do; he would make me spread heavy hides, so heavy that men could hardly handle them, and a great many times I have been pulled into the vats, waist deep in water and ice, then I would crawl up out of the water and
+shivering and suffering in my wet clothes I was driven by my cruel master to resume my work again. Then because I could not do a man's work, I had to be tied up to a whipping post and my flesh was lacerated so badly I could not lay down for weeks; still there was no sympathy or charity for me; my master's heart was as hard as iron. He feared neither God, man, nor Satan.</p>
+        <p>There is not room enough on the broad expanse of the blue heavens to begin to paint and portray the horrors, the iniquity and enormity of that black, accursed, and damning system of slavery. Again and again I was subjected to severe and painful whippings, even before my wounds were healed; and thus it was that I suffered as long as I remained with him, until his property was sold at sheriff's sale, then I thought I should escape from torment but instead of that my torment had just commenced, and to a great extent I suffered more than I did before.</p>
+        <p>I was again sold to a man by name of Getinger, who was an unfeeling tyrant; he knew no night or Sunday. He kept me working both night and day, and the only time I had to sleep was what I stole, between his sleeping hours. Often I had hardly anything to eat, and many times when I had anything to eat I had no
+chance to eat it. So keen were my sufferings that I cried out in the anguish of my soul, Lord, Lord, wilt thou never deliver me from this galling state of bondage, I who have neither father, mother, brother, sister, nor friend, to protect me in the hour of peril and danger?</p>
+        <p>For three long, weary years I endured all that mortal could endure, suffering every hardship which he saw fit to impose upon me. The last winter that I staid with him he kept me in the woods, cutting and sawing logs, in the deep snow up to my knees. I who had not a toe upon my feet, a hot blazing fire a short distance away; my master would remain by the fire warm and comfortable while I was freezing, and forbidden to come near the fire to warm myself, and when late at night I returned to my hut my <sic corr="feet">eet</sic> and legs were again frozen.</p>
+        <pb id="char4" n="4"/>
+        <p>For nine months I was unable to walk a step. I was obliged to crawl upon my hands and knees for anything I desired. I suffered the most excruciating pain that can be imagined by mortal man.</p>
+        <p>I had no rest night or day; I was nearly driven to insanity. I often wondered why God suffered such things to be, that I should suffer so terribly from wicked, unprincipled and unjust men. As soon as I could walk I was again sold, at the age of fifteen, to Mr. James Davis, who was not quite so cruel a man as my old master. For three years I had to labor hard ploughing and hoeing in the field, with no flesh on the bones in the centre of my legs, and when the clothes were removed from my legs, the white bones could be plainly seen; it was a ghastly sight and makes my blood run cold as I relate it.</p>
+        <p>Often while at my work I would strike my legs against the plough handles, filling my shoes with blood, and it was in this painful state that I was obliged to continue ploughing. Many times I was called to my master, stripped and terribly beaten, my flesh was cut all to pieces, the blood would run down my back like water, and to this day I could not tell why I was so fearfully and cruelly beaten.</p>
+        <p>I was sold again to Mr. Richardson; he was almost an angel compared to my other masters; and it was about this time that I lost sight of my mother, and to this day my eyes have not rested upon her. I know not whether she is living or dead; my sister was sold at the same time, and thus the whole family were separated, and if we never meet again in this world we shall meet after the storms of life are over, in that beautiful home on high, to part no more forever.</p>
+        <p>I staid with Mr. Richardson until I was twenty-eight years of age; he treated me quite well. Notwithstanding his good treatment I froze my feet twice, the skin peeling off, and I could not walk for a number of months; he was very kind to me in the midst of my afflictions, and learned me to knit stockings. It was about this time, when I was all alone in the world, when I had no kind and loving mother to teach me lessons of truth, purity, and wisdom, no sympathetic father to take me by the hand and guide me in the right path, no loving sister to embrace me, and speak words of comfort and cheer.</p>
+        <p>But while fastened with the chains of slavery, like Daniel in the lion's den, while suffering terrible afflictions, greater than Job,
+<pb id="char5" n="5"/>
+bowed down with sorrow and grief, while tortured in mind, body and soul, that I resolved to seek aid from God on high, that he might save my soul from torment, and I came to Christ and asked him in mercy to take my feet from the miry clay and plant them upon the rock of eternal ages; and to this day I am looking up to him as my only hope and support while battling with the stern realities of life.</p>
+        <p>I recall to mind, right here, a terrible scene that I witnessed on a plantation belonging to Mr. Bris, who owned about nine hundred slaves. At this time the slaves did not know how to run away; they would run to the woods, remain there and then come back. One day three men ran away from the plantation and remained a number of months; when they came back he ordered them to be tied up to the whipping post. He used the lash himself; he lashed them until he no longer had strength to do it, then he ordered them taken down and sent to the next overseer, and ordered them to be again whipped, and for the second time they
+were beaten, and after he had whipped them as long as could, they were taken down and sent to another overseer. He refused to whip them and ordered them back again to their master, but they tried to escape. The master chased them on horseback, one gave himself up, the other two still running, the slave owner said he would have them, but sooner than be taken, they ran and jumped into a red hot furnace and put an end to their lives.</p>
+        <p>I call to mind another sad and terrible scene which took place in Frederick City, Md. The slave owners bought up all the slaves they could, fathers, mothers, brothers, sisters, friends, babes and gray haired old men, had them all brought to the jail and handcuffed together with an iron collar around their necks, with iron bolts riveted to the collars, then fastened to the chains on the handcuffs, then in this condition they were obliged to walk one hundred and fifty miles to the vessel where they were shipped to South Carolina, to be sold and suffer the pangs of slavery.</p>
+        <p>It was while witnessing such cold blooded scenes as this that caused me to cry out in the agony of my heart,—hear me, O ye heavens, bear witness ye murmuring streams, hear me ye hosts of heaven, bear witness thou inspirer of eternal truth, thou maker and upholder of all things, that America has sealed her doom. This guilty nation must fall; God will utterly forsake the American Union in its guilt; he has heard the wails of millions who have gone
+<pb id="char6" n="6"/>
+up before me, as witness to the <sic corr="nation's hypocrisy">nations's hypocricy</sic> and oppression. I feel an inspiration in my soul. How dare ye, O ye freeman, crucify the Goddess of Liberty. How dare ye follow in the footsteps of the ancient despotisms which, forgetting their God, were utterly overthrown. Did not God destroy them? Did he not sweep them away with the breath of destruction? Can thou, boasted land of exact justice, equal rights and freedom to all, sustain thy crimes against a holy and just God when he pronounces thy doom? Woe to them who convert the image of God into a thing causing agony and desolation, sorrow and death to millions!</p>
+        <p>When I became twenty-eight years of age I obtained my freedom and went to live with a man by name of Mr. George Burroughs, who was a stone cutter by trade. I remained with him one year, then I went to live with Mr. Isaac Rogers, who was a large iron manufacturer. I remained with him sixteen years, this was in Harford, County, Maryland; most of the time I was employed in doing chores around the house, chopping wood for twenty-five cents a cord, and many other menial tasks were imposed on me. Although I had obtained my freedom, in many respects I was treated worse than a slave. I was kicked, cuffed, abused and spit upon by mean, low, contemptible, dastardly scoundrels, and dare not raise a finger to help myself, all law being in their favor, and against the poor down-trodden sons and daughters of slavery.</p>
+        <p>I was forty-six years of age when I left Mr. Rogers, then I went to live with a man by name of William Gladding. I was married when I lived at Mr. Rogers. He was an unmarried man and my wife was employed to keep house for him. He owned a large farm, and I worked on the farm three years.</p>
+        <p>He agreed to pay me sixteen dollars a month, give me house rent free, he was to board with me and pay me six dollars a month for his board. During this time he built a large barn, employing a number of carpenters and masons, and they boarded with me, he agreeing to pay me ten dollars a month, for board, for each man.</p>
+        <p>I remained with him until he was married and went to housekeeping himself. When time came for settlement with him he owed me two hundred and thirty-five dollars; he had cheated me out of my money from time to time, and when the final settlement arrived, he refused to pay me two hundred and thirty-five dollars, but said he would compromise by giving me three cents and calling it square; of course I refused. I went to law with him, and fought
+<pb id="char7" n="7"/>
+him for seven years, but what did I gain? The judge, lawyers, jurymen, and my own lawyer, worked against me, notwithstanding I had a great many witnesses. But the court was a mockery; there was no such thing as justice; the only difference was that he was white and I was black, the law protected white men and trampled upon black men; black men could be murdered by wholesale, shot down, stabbed, hacked to pieces, hung in broad daylight, and yet there was no redress. And I am to-day a living monument, and can testify and prove that I have seen these things with my own eyes. About this time I bought seven acres of land and built
+a small house upon it, supposing to have money to pay for it if Mr. Gladding would pay me what he owed me. I lived there three years, and worked hard to pay for my house. I was cheated out of my house again by a man named Thomas.</p>
+        <p>It was during this time that I, with five others, resolved to collect funds to build a church, but the church was never built, because there was not money enough collected.</p>
+        <p>Then I moved to Westminster, in 1862; the civil war was then raging, and the black flag of treason and rebellion was still waving, our fair land was devastated with blood, from one end to the other, and the noble, heroic, devoted sons of the North were going forth with their hearts filled with love and patriotism, to protect the glorious stars and stripes from dishonor, to preserve their country, to defend their homes, their mothers and their sisters, to wipe out the foul stain of treason, and to liberate and strike off the shackles from four millions of persecuted downtrodden human beings. Nobly did they fight, bravely did they suffer the hardships of war, onward did they move, from the battlefield of Bull Run to the downfall of Richmond, where the black flag of rebellion was hauled down, and the star spangled banner waved again in triumph and slavery,</p>
+        <lg type="verse">
+          <l>O, thou great wrong that, through the slow paced years,</l>
+          <l>Did'st hold thy millions fettered, and didst wield</l>
+          <l>The scourge that drove the laborer to the field,</l>
+          <l>And look with stony eye on human tears,</l>
+          <l>Thy cruel reign is o'er;</l>
+          <l>Thy bondmen crouch no more</l>
+          <l>In terror at the menace of thine eye,</l>
+          <l>For he who marks the bounds of guilty power,</l>
+          <l>Long suffering hath heard the captive's cry,</l>
+          <l>And touched his shackles at the appointed hour,</l>
+          <l>And lo! they fall, and he whose limbs they galled,</l>
+          <l>Stands in his native manhood, free and disenthralled.</l>
+        </lg>
+        <pb id="char8" n="8"/>
+        <p>After I was settled in Westminister, I worked at the mason's trade, and continued working at this trade, when I became convinced that something must be done to educate the colored youths of my own town, who were growing up in idleness and ignorance, with no definite object in view to start out in life. There was no churches for them to attend divine worship, no ministers to preach to them the word of God and teach them lessons of truth and wisdom, no schools where they could be educated; all religious services were held in barns or in the woods.</p>
+        <p>I came to the conclusion that something must be done, and conversed with others interested in the work, to see what plan could be formed to accomplish this object. We decided to try and raise money to build a church; we hired the white Methodist minister to organize us into a body, and give us credentials to start out on our mission; five of us were sent out, four of them failed in their own town, while I, firm in my resolution, determined to go north. I started out, laboring under great difficulties, without any education, except that which was taught me by faith. I first went to Baltimore, but met with a cold reception on account of prejudice, then came to Boston in 1866, there I met with a warm reception, and obtained a school teacher by name, Mr. Whitmore, to go to Westminister to instruct colored youth. I obtained nearly a thousand dollars in Boston, sent it to Westminister, and built the first colored church and school house in Westminister; the school prospered for four years, two years under Mr. Whitmore and two under Miss Mary Cleveland, then run down for want of money to support teachers. I was again sent out; by my perseverance, the school was again started, but the hatred toward them was so great, that the schools had to be abolished, and to this day, in this enlightened age of literature, learning and refinement, there is no chance for the colored youth to obtain an education.</p>
+        <p>But I am still toiling, although my pathway is strewn with thorns, and not flowers, the black cloud of prejudice hangs over me, men try to blacken and defame my character, and crush me, because they have the power in their hands, but I will fight my way through till I die, striving to raise means to educate and make christian men and women out of the now raw material. And I call upon all noble, honest, christian men and women, who are interested in every work of moral and christian reform, to aid me in my honest efforts to benefit a race that has been trampled upon worse than any that the sun ever shone upon.</p>
+        <pb id="char9" n="9"/>
+        <p>We sustain relations to the whole human family; we are children of one common parent, we are the heirs of one common inheritance; go to the wildest spot on earth, and find the blackest character which exists within the limits of the race, and will you not find that in that dark character a relative, and brother, Ethiopia's son, as he lifts his hands to God. </p>
+        <p>The wild Karen, as he rushes from his dark jungle, ready for blood, the child of Erin as he comes in rags and poverty to our shores, are all brethren; we cannot divest ourselves of this relationship if we would. God has formed it for us, and whether we are willing to acknowledge the fact or not, the race is one wide and indissoluble fraternity. The black faced negro, the hunted Indian, and the proudest child of civilization, are of one blood, hence we find that God has given us mutual sympathy, one with another. He has created us with a feeling of relationship, and given us a disposition to assist and save the fallen, and relieve the wants of the needy, he has designed that we should be mutual helpers and assistants, and he has placed us in a position of mutual dependence so that our relations may ever be recognized.</p>
+        <p>It is when man is displaying himself for the good of others that he seems most God-like, and if there is a time when he appears to have but little of the influence of depravity in his heart, it is when ministering like an angel of mercy to the wants and woes of life. Thanks be to God, that we occupy a spot on which intelligence, morality and religion have shed their mildest beams, and exerted their most happy influences, consequently we can look around and behold everywhere the objects of pity and commiseration, ignorance and heathenish degradation, arrest the attention everywhere; and pathetic appeals are made from every quarter. The object for which we live, is not to secure our own gratification, and minister to our own increasing desires. The good of others should be one of the most prominent objects of our lives, an object never to be forgotten. He who has never felt his bosom thrill with pity at the recital of scenes which are transpiring upon the earth; he who has not gazed with feelings of deep commiseration upon the millions who sit in darkness, and in the shadow of death, and has never made an effort to send them the means of civilization, and the religion of the cross, must be a stranger to the emotions which will crowd upon the human mind. He who understands his relations to his fellow creatures should be willing to acknowledge them.
+<pb id="char10" n="10"/>
+Any man who casts his influence against a noble missionary enterprise, casts it not only against the salvation of the heathens, but against the advancement and progress of civilization, he is an enemy of his race, and forfeits his claim to the name of man. There are a great many good men who seem to feel that they are under no obligation to aid in the elevation of the colored race; they think that because the slave is free, and that his fetters have been burst asunder that the work is all completed, and have an absurd idea that they are able to build themselves up to a higher state of civilization culture, refinement, morality and religion, build churches, school-houses, and educate the colored race, by their own unaided efforts. They say that they have done their part, they have given their freedom, now let them shift for themselves.</p>
+        <p>But is it so? God and suffering millions give a negative reply. Men have no right to rest until want is driven from our borders; until virtue is respected and vice hated; until labor receives its due reward; until honest, intelligent, worthy colored men are respected whatever may be their pecuniary circumstances; until general intelligence shall be a characteristic of the people. </p>
+        <p>Men have no right to rest from toil until the millions of liberated freemen, who to-day groan upon southern soil, are free in mind and thought; until the spirit of prejudice is eradicated from the breasts of men; until bloodshed and cruel oppression are done away; they have no right to cease from toil until the thrones of tyrants are demolished, until aristocracies of birth, blood and wealth, are buried in one common grave; they have no right to rest from toil, until all over this land of ours, the gospel has been preached and christianity embraced.  Every act done in the great work of human progress will ever live, every act which tends to the annihilation of error is a little rock started from the mountain top, which gathers force on its way downward, and starts others at every bound. Let me then start a little pebble, if nothing more; every act which tends to the establishment of the reign of truth, is a germ set in the soil which in time will become a mighty tree. Let me then plant a little acorn, that it may shoot up, and by the richness of its foliage, and the stateliness of its form, add to the beauty and grandeur of <sic corr="millennial">millenial</sic> plains.</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

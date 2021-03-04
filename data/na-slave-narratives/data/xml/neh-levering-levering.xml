@@ -1,0 +1,1176 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY levtp SYSTEM "levtp.jpg" NDATA jpeg>
+<!ENTITY levvs SYSTEM "levvs.jpg" NDATA jpeg>
+<!ENTITY levcv SYSTEM "levcv.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Memoirs of Margaret Jane Blake of Baltimore, Md.,  
+and Selections in Prose and Verse:</emph>
+Electronic Edition.</title>
+        <author>Sarah R. Levering</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Chris Hill</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns"> Sarah Reuning and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.  100  K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of availability 
+is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number  E 444 .B63       
+(Langsdale Library, University of Baltimore)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl><title>MEMOIRS OF MARGARET JANE BLAKE OF BALTIMORE, MD.,
+ AND SELECTIONS IN PROSE AND VERSE</title>
+<author>Sarah R. Levering</author><imprint><pubPlace>200 South 10th Street, Philadelphia</pubPlace><publisher>Press of Innes &amp; Son</publisher><date>1897</date></imprint></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>This electronic edition has been transcribed from the original provided by 
+Langsdale Library, University of Baltimore.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ 
+respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been 
+preserved.</p>
+        <p>Running titles have not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor 
+(SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl><title>Library of Congress Subject Headings, </title>
+<edition>21st edition, 1998</edition></bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Blake, Margaret Jane, 1811-1880.</item>
+            <item>African Americans -- Maryland -- Baltimore -- Biography.</item>
+            <item>Freedmen -- Maryland -- Baltimore -- Biography.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-02-16, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-08-31, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-08-19, </date>
+        <respStmt>
+          <name>Sarah Reuning</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-07-29, </date>
+        <respStmt>
+          <name>Chris Hill</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="cover image">
+        <p>
+          <figure id="cover" entity="levcv">
+            <p>[Cover Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="levtp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="title page verso image">
+        <p>
+          <figure id="verso" entity="levvs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><hi rend="bold">Memoirs</hi><lb/>
+OF<lb/>
+<hi rend="bold">Margaret Jane Blake</hi><lb/>
+OF<lb/>
+<hi rend="bold">Baltimore, Md.,</hi></titlePart>
+          <titlePart type="main">AND<lb/>
+<hi rend="bold">Selections in Prose and Verse</hi></titlePart>
+        </docTitle>
+        <lb/>
+        <byline>BY
+</byline>
+        <docAuthor>
+          <hi rend="bold">Sarah R. Levering.</hi>
+        </docAuthor>
+        <pb id="levverso" n="verso"/>
+        <docImprint>
+          <docDate>COPYRIGHT, 1897<lb/>
+BY SARAH R. LEVERING.</docDate>
+          <publisher>PRESS OF INNES&amp; SON<lb/>
+200 SOUTH 10TH STREET, PHILADELPHIA</publisher>
+        </docImprint>
+      </titlePage>
+      <div1>
+        <pb id="leviii" n="iii"/>
+        <p>To my Mother<lb/>
+of blessed memory<lb/>
+is this little volume inscribed.</p>
+      </div1>
+      <div1>
+        <pb id="levv" n="v"/>
+        <head>PREFACE</head>
+        <p>THE negro enslaved of yore is now a free man, and as a
+citizen of an enlightened nation is fully entitled to an
+education to enable him to enjoy the blessings of
+freedom.</p>
+        <p>The Presbytery of Baltimore hold in possession the deed
+for a pretty little farm located in Harford county, Maryland,
+on the Little Gunpowder River. It is hilly ground, far above
+the river, the foot of the hills only washed by the stream. It
+is impossible for the water to rise high enough to damage
+crops or buildings on the land. The land is good, with
+abundant sweet, cold spring water to be had in all seasons;
+the spring has never been known to fail. One farmer
+occupied the premises twelve years and had a large family of
+children who were the healthiest of the healthy in all the
+region around. The proceeds from the sale of this booklet
+will be appropriated to the improvement of “Dingley Dell,”
+the farm upon which the Presbytery of Baltimore proposes
+to establish a manual labor school for the benefit of the
+<pb id="levvi" n="vi"/>
+Afro-American citizens, as they prefer being called. Said
+school is to be established as soon as there are funds
+enough to erect suitable buildings. A large sum of money
+will be required to establish this enterprise, and the sooner
+the money is collected the sooner it will be an accomplished
+fact. Now, if every Afro-American will pay the price of this
+little book a good sum will be realized, and perhaps some
+other friend or friends of education may be moved to write
+another book for the same cause and help along the much-desired 
+object. The Presbytery will be encouraged to move
+forward, to the joy of all who feel any interest in this matter.</p>
+        <p>Some may wish to know why the selection of pieces was
+added to the memoir of Margaret Jane Blake. All of them
+were written by persons with whom she was acquainted and
+some were composed on persons in whom she felt great
+interest. The “Unwelcome Guest” is a partial description of a
+beautiful house in which she served as a housemaid. A
+careful examination of the lines called “The Bride” will show
+the maiden name of the lady in whose service she died.</p>
+        <closer>
+          <signed>THE AUTHORESS.</signed>
+        </closer>
+      </div1>
+    </front>
+    <body>
+      <div1>
+        <pb id="lev7" n="7"/>
+        <head>MARGARET JANE BLAKE.<lb/>
+A MEMOIR.</head>
+        <docAuthor>BY SARAH R. LEVERING.</docAuthor>
+        <epigraph>
+          <p>“A good name is rather to be chosen than great riches.” <bibl>— <hi rend="italics">Proverbs</hi>.</bibl></p>
+        </epigraph>
+        <p>THE subject of this memoir, though born a slave, was of
+illustrious parentage, inasmuch as her father and mother
+were virtuous and patriotic, this combination having always
+been esteemed the foundation of noble character. Her father,
+Perry Blake, was a marine in the United States navy, and
+Commodore Porter himself informed my father that Perry
+Blake fought bravely under his command. He was a
+powerfully built man, and no doubt he rendered willing and
+efficient service to his country in the War of 1812-15 against
+Great Britain. Perry Blake was married to Charlotte, a slave
+belonging to my father. Charlotte was as patriotic as her free
+husband, and took long walks to bear provisions to the
+young men of her master's household who were under arms
+during the attack of the British on the city of Baltimore. Her
+unremitting and cheerful service during this anxious
+<pb id="lev8" n="8"/>
+time in comforting the soldiers with home news and
+dainties won the gratitude of her master, Mr. Jesse Levering,
+and he manumitted Charlotte, thus making her equal to her
+husband. But it was strange that she looked back to her old
+home with infinite longing and desired to return to her
+bonds. This could not be granted her, and, failing in that
+petition, she begged that none of her children should be set
+free. That was agreed upon, and during my parents' lifetime
+the children of these free parents remained slaves. Perry and
+Charlotte Blake had several children. Margaret Jane was
+born in 1811, in my father's house on Lombard street, in the
+city of Baltimore, Maryland, and throve with the children of
+the family until the measles broke out among the young
+folks, and several of them were left in a weak condition after
+the scourge had passed through the household. Margaret
+was one of the weaklings, and was indulged over-much,
+perhaps, and became somewhat self-willed, but only to an
+amusing degree. One day she was seated on the front steps,
+getting the fresh air, when a woman belonging to the
+neighborhood addressed her with numerous questions
+about the family and as to the treatment she received from
+her mistress. I
+<pb id="lev9" n="9"/>
+presume the strange voice among the childish group drew
+my mother to the window over their heads in time to witness
+the interview. Margy listened patiently and politely to all the
+lady had to say, then lifting one hand to an ear she replied:
+“Woman, all you have said goes in at this ear, and goes out at
+the other one.” After such a rebuke the gossiper did not
+waste further time at that portal. Many a hearty laugh has
+been enjoyed at the child's answer to her mischievous
+interrogator. Time passed on. Margaret grew to be a large
+girl, and I was born in 1825, and when the baby was big
+enough it fell largely to Margaret's charge. Well do I
+remember one delightful race I enjoyed in Margy's arms,
+though only four years old at the time. It was in 1828, on the
+4th of July. The corner-stone of the Baltimore and Ohio
+Railroad was to be laid—the pioneer railroad of the country!
+Being a great enterprise, it was duly celebrated with
+distinguished guests to participate in the ceremonies. The
+venerable Charles Carroll, of Carrollton, aged ninety-one
+years, was to lay the cornerstone with a silver trowel. A
+grand procession, with flags flying and floats displaying
+various trades, all richly adorned, and the whole animated by
+martial
+<pb id="lev10" n="10"/>
+music, went up Baltimore street. The servant girls from our
+neighborhood went with the host of sightseers, taking along
+with them the children under their care, I among them. When
+our vantage ground was gained, corner of Eutaw street,
+Margy lifted me up in her arms to behold what has never
+faded from my memory—the magnificent civic demonstration
+in honor of the first railroad that was built on the Western
+Continent. The printing-press float pleased me best of all,
+with its attendant imps dressed as mercuries, who scattered
+sheets that were being printed as the procession moved
+along. The last division passed, the blare of the trumpets
+grew faint from a distance. Then the girls turned down Eutaw
+street, full of fun, and singing a popular song of the day,
+“The Blue Bonnets are over the Border,” “Hurrah for the
+Bonnets of Blue,” raced to the top of their speed back home.
+It was a ride full of peril as well as fun, but Margy was
+sure-footed and she landed me on terra firma unharmed. She loved
+children, and all children that ever were placed under her care
+loved her. Our family grew larger and we moved into a larger
+house, Margy going along with us. Charlotte was off with
+her husband, and Margy was installed as housemaid.
+<pb id="lev11" n="11"/>
+One day she was occupied near the front door in some sort
+of cleaning, when a little boy drew her attention. He was
+trying to reach the bell-knob, but, failing in his efforts,
+Margy hastened to his assistance. Alas! for her kind heart
+caused her to move too quickly from her elevated position.
+She fell and was badly injured. The injury sustained by her
+on this occasion caused an internal tumor from which she
+suffered great pain at intervals during the rest of her life.</p>
+        <p>Another servant had been added to the household by
+purchase. My father attended a sale of household goods
+and chattels; a sickly-looking girl, emaciated to a painful
+degree to sensitive perceptions, moved his compassion, and
+Ann Dutton was sent home to my mother's fostering care.</p>
+        <p>Ann's first act on reaching her new home was to attack
+the <hi id="italics">slop barrel</hi>, from which she extracted food to comfort her
+famished system.</p>
+        <p>Margy and Ann never became very warm friends,
+although associated in the same family for so many years.
+According to the rules of the peculiar institution, the
+bought slave was always looked down upon by those “to
+the manner born.” And Margy was a dark woman, Ann of
+mixed blood; the mixture
+<pb id="lev12" n="12"/>
+she claimed to have was Indian; the unmixed nature held
+herself purer than the mongrel. Ann was a woman of
+fashion, as far as she possibly could go; Margy was plain in
+her tastes and always clean and neat in her attire. Thus
+there were three good and sufficient reasons, according to
+them, for their frequent disagreements.</p>
+        <p>Both were good servants, well-mannered, industrious,
+truthful, faithful in the discharge of every duty in their
+sphere. Neither pampered the whims of the children within
+the range of their influence, but were quick to reprove
+whatever fault they deemed it proper to correct, and the
+children knew it was right for them to yield respectful
+attention without giving back any impertinence when
+reproved. My mother of blessed memory taught her children
+to request service of her slaves, never to command or exact
+service from them. “If they are slaves,” she would say,
+“they are God's creatures, and you must treat them politely.”</p>
+        <p>Ann took the name of Duncan, in honor of the Rev. John
+M. Duncan, a popular minister of Baltimore in the days of
+which I write, and it being allowable for slaves to assume
+any name they preferred she was known from thence always
+by that name while
+<pb id="lev13" n="13"/>
+she lived with us. Both of these young women had offers of
+marriage, but neither of them chose to marry, because their
+children would be held in bondage, and they were unwilling
+to breed slaves for any master. If all the bondwomen had
+been of the same mind, how soon the institution would have
+vanished from the earth, and all the misery belonging to it
+been lifted from the hearts of the holders and the slaves!
+Glorious in the estimation of all true patriots is the memory of
+Abraham Lincoln for having signed the Emancipation Act.
+Our country was forced, while colonies of Great Britain, to
+take the slaves brought to our shores in Dutch ships by the
+mother country. I have yet to learn that any of the unhappy
+creatures were landed on British soil proper. Very many of
+them tilled the soil and picked the cotton and gathered the
+coffee berries on the West India islands under British rule,
+and terribly they suffered on the island of Jamaica, notably
+not many years ago by a general massacre, reminding the
+reader of history of the massacre of the Helots in Greece
+while Greece was still a heathen country. But Great Britain
+had the grace to investigate and condemn the massacre in
+Jamaica, while no voice ever was raised in censure of the
+flow
+<pb id="lev14" n="14"/>
+of blood that stained the soil of classic Greece that I ever
+read of. There the master had the life and death of his slave
+under absolute control. Slavery, as we knew it here, was a
+mitigated evil, really more harmful to the masters and their
+families than to the slaves, and now that it is banished from
+our soil, even the heaviest owners are prepared to say it is a
+good riddance.</p>
+        <p>After a few years, death and reverse of fortune caused
+changes in our family which were displeasing to Margaret,
+and she was allowed to choose a home for herself, and the
+wages paid for her services went to pay for her clothes and
+her physician's bills. She had much suffering from the tumor
+and often was obliged to return to her old home for rest and
+to be nursed back to ordinary health. The first place where
+she hired was in the family of Mr. J. B., and her record there
+was one of obedience and faithfulness. She claimed some
+indulgence and it was granted her, for they knew she had
+been allowed many privileges. The second place where she
+hired was in the family of Mr. H. G. Here, too, she claimed
+her privileges, and they were granted her, for she was liked
+and the family desired to retain her. During this time with
+<pb id="lev15" n="15"/>
+Mrs. G., Blake was much annoyed by the abolitionists. She
+complained very much of them. They tormented her. She
+would say: “I want my freedom, but I do not want to <hi rend="italics">steal</hi>
+it.” Mrs. G. went one summer to the North to visit her
+husband's relatives and gained the consent of Margaret and
+her mistress that she could attend her as lady's maid. Mother
+consented to the trip being taken, hoping the change of
+scene and climate might benefit Margaret's health, knowing
+that the moment she set foot on that soil she was free, and if
+she pleased to do so she might stay there. But Margaret was
+of a different mind. Upon the arrival of the party in the city of
+New York lodgings were taken in a hotel, and the Irish
+waiters belonging to the establishment immediately bothered
+the lady's maid with attentions, inviting her to walk out with
+them to view the city. Icily she repelled them. “No,” she
+replied, “I will not walk out with you in the streets of New
+York. I shall not do in New York what I would be ashamed to
+do in Baltimore. Colored women are disgraced in Baltimore if
+they are seen in the company of white men on the streets.”
+“Are you free?” asked the waiters. “I am as free as you
+are,” she rejoined; “I come
+<pb id="lev16" n="16"/>
+and go as I please.” Thus the free slave rebuffed her white
+suitors. She was afraid of them.</p>
+        <p>When night came on she begged Mrs. G. to have a bed
+laid on her bedroom floor, that she might be safe from the
+impudent Irish waiters. She was afraid they might steal her
+off and sell her to Georgia. That arrangement was made to
+Blake's satisfaction. She was safe from the much-dreaded
+Irish waiters. The party she was traveling with proceeded on
+their way and soon reached one of the New England States
+to spend the summer among relatives who were permanent
+residents there.</p>
+        <p>The pleasant visit ended, and Mrs. G. prepared to turn
+Southward. And Margaret? How was it with her? She, too,
+was ready to return to Baltimore. The free slave? Yes; the
+free slave returned to face her mistress and her young
+ladies, not ashamed to show her face to her people!</p>
+        <p>Ann Dutton, or Duncan, as she preferred to be called,
+was of a different mind. One day she informed her mistress
+that she was desirous of attending a funeral to take place
+that afternoon. Permission was given her to attend the
+funeral, and she was much helped in her work that she might
+be there in proper
+<pb id="lev17" n="17"/>
+time. When she was ready to leave the house it was noticed
+that she wore a wadded merino cloak, a long cloak with a
+large cape to it. Her mistress said to her: “Ann, why do you
+wear that heavy cloak this warm afternoon ?” “Oh!” she
+replied, “the evenings are cool, and I shall need it before I get
+back.”</p>
+        <p>So she departed. Night fell, and Ann still out! The family
+became anxious about her and feared she might be ill-treated
+by rough crowds on the streets. It was the night of the day
+of General William H. Harrison's election to the Presidency,
+and much excitement prevailed. Wait! wait! and no Ann
+Duncan in sight yet! At last it occurred to one of the family,
+in consideration of the strange freak of the donning of her
+heavy cloak, to go to her room and examine her bureau. Her
+room was looked over and not a garment was to be seen that
+belonged to her. All gone! We never saw her more. It was a
+cleverly-managed escape.</p>
+        <p>The election day was chosen by a large party of fugitives
+to make for Canada.</p>
+        <p>Margaret often told us of Ann's movements. She married
+up there, and, after many years, desired to return to her
+former owners, but we were not willing
+<pb id="lev18" n="18"/>
+to receive her. She had to abide by her choice. To Ann's
+credit it must be said she took nothing away with her but
+what belonged to her. She had a good supply of clothes for
+the approaching winter, and a sheet from her bed (one was
+missed) must have been used to tie her garments in and then
+dropped from her window to the yard below to be carried off
+for her to the place of departure.</p>
+        <p>Not long after this occurrence we left Baltimore and went
+to Ellicotts Mills, ten miles from the city. Blake did not wish
+to leave Baltimore and was allowed to remain there. From
+that time she went and came as suited her, and never was
+with us but as an invalid to be nursed or as a visitor to be
+entertained. It was concluded after we moved to Harford
+county, Md., to allow Blake to buy herself. The family with
+whom she hired named the price, and she was granted her
+wages to pay for herself. The price agreed upon was not
+large, and before Blake was old she had her free papers. It
+was a happy day for me when I accompanied my dear nurse
+to Bel-air to obtain her free papers. Three of us went with
+her, and a joyous party it was—glad in her happiness.</p>
+        <p>After the slaveholders' rebellion she showed me
+<pb id="lev19" n="19"/>
+her free papers; she was spending the summer with us in
+Harford county, Md., while her employers were in Europe,
+and had brought her papers with her.</p>
+        <p>“Oh!” she said, “there was not a drop of blood shed for
+my freedom.” It gave her the utmost satisfaction to consider
+that she was free before that war. She inquired if it was
+necessary for her to keep the free papers. I told her it was
+not necessary, but she had better keep them; it might be
+pleasant to look at her papers.</p>
+        <p>The last change Blake made in service was to enter the
+family of Mr. Walter B. B. She remained in that family many
+years, helping Mrs. B. to rear her children from their infancy.
+Among them she was called Mammy Blake, and is never
+spoken of except as <hi rend="italics">Mammy</hi> Blake.</p>
+        <p>Baby Eleanor grew to womanhood, was wooed and won
+to wifehood, and, loving old Mammy Blake, and devotedly
+loved by her in return, she attended her young lady up to
+the pulpit railing where the gallant groom waited for his
+promised bride, in Brown Memorial Church. To see the gayly
+turbaned negress bearing the wraps of the dainty bride was
+a rare sight as she entered the church, dispensing odors
+from the
+<pb id="lev20" n="20"/>
+orange blossoms that adorned her spotless bridal robes, as
+leaning on her father's arm he led her up the aisle to bestow
+her upon Mr. McC., of Chicago, Mammy Blake bringing up
+the rear of the bridal procession. It was the crowning
+indulgence of the life of the affectionate servant.</p>
+        <p>After Mrs. McC. was established in Chicago Mammy
+Blake was taken out there to help her to raise the infants her
+home was blessed with.</p>
+        <p>While Blake was still living with Mrs. Walter B. B., her
+little son Walter was present when a little girl from the North
+was visiting them, and was kissed by Mammy Blake. The
+little girl was terrified, and immediately wiped off the kiss,
+saying she did not want to be made black, like her. The little
+Walter resented the indignity done to his dear old mammy,
+and threw his arms around her neck, kissing her fondly,
+exclaiming: “My old mammy will never make anybody
+black.”</p>
+        <p>In the winter of 1879 Mrs. McC. came on from Chicago to
+Baltimore with her infant daughter, Mary G. McC., and her
+nurse, Mammy Blake, to spend the Christmas holidays with
+her mother's family.</p>
+        <p>In a letter to me Mrs. McC. says: “I brought her
+<pb id="lev21" n="21"/>
+from Chicago for the Christmas holidays, and she took cold
+soon after we reached Baltimore, which developed into
+erysipelas, and I was obliged to return to Chicago without
+her, with the understanding that she would follow as soon
+as she was well enough. She grew worse, and because
+mother was very ill at the time and worried very much over
+her, father and the doctor thought it best for her to go to the
+hospital (Baltimore Infirmary), where she died March 10
+1880. She was buried in Laurel Cemetery, and I have just
+now ordered a stone with her name on it and the date of her
+birth, if you know it. Mother wants on it, ‘Faithful unto
+Death.’ ”</p>
+        <p>No word more fitting to be placed on her tombstone.
+Fidelity was the keynote of her life. She served her earthly
+masters well, and when her heart was turned by the grace of
+God to the Lord Jesus Christ she held her faith to the end, in
+childlike simplicity, growing more and more like her Divine
+Master until the close of her life, and to all who were
+acquainted with her there is an assurance given that she has
+realized the promise of, “Be thou faithful unto death, and I
+will give thee a crown of life.”</p>
+        <closer>
+          <signed>S. R. L.</signed>
+        </closer>
+      </div1>
+      <div1>
+        <pb id="lev22" n="22"/>
+        <head>MORNING PRAYER.</head>
+        <argument>
+          <p>[Designed for young children, as a companion to the evening prayer<lb/>
+of “Now I Lay Me Down to Sleep.”]</p>
+        </argument>
+        <lg type="stanza">
+          <l>Now I wake to see the light,</l>
+          <l>I pray the Lord who gives me sight</l>
+          <l>To keep me through the live-long day,</l>
+          <l>And help me put all sin away.</l>
+        </lg>
+        <closer>
+          <signed>
+            <name>S. R. L.</name>
+          </signed>
+        </closer>
+      </div1>
+      <div1>
+        <pb id="lev23" n="23"/>
+        <head>HAPPINESS.</head>
+        <docAuthor>S. R. L. </docAuthor>
+        <epigraph>
+          <p>“Where grows? where grows it not? if vain our toil<lb/>
+We ought to blame the culture, not the soil;<lb/>
+Fixed to no spot is happiness sincere;<lb/>
+'Tis nowhere to be found, or everywhere.”</p>
+        </epigraph>
+        <p>THE universal desire for happiness is a proof that all were
+created to be happy; but few with sincerity can declare
+themselves as happy people, and if the acknowledgment is
+made it is accompanied with a sigh for some unattained
+good. When Adam, our great federal head, made in the
+image of his Creator, was placed in Eden, he was perfectly
+happy, but with his innocence his happiness fled, and we
+his children inherit misery from our great progenitor, and
+miserable we remain until restored to purity by the second
+Adam. None need hope for other than a fitful, fleeting joy
+before he yields his heart to heavenly influences; not until
+then can he expect to have a solid, lasting joy, a continued
+happiness that will flow on like a mighty river, deepening as
+it flows to the end
+<pb id="lev24" n="24"/>
+of life. Sin is the great cause of misery; but many fail of
+finding happiness, even after the oppressive burden of sin is
+removed, because they are not content to find it in small
+things, but are continually looking for great occasions that
+never come. To the great majority of the human race it is a
+negative rather than a positive state, and so some are happy
+but do not know it. Each individual may increase his stock of
+happiness by cultivating the soil of the heart a little deeper—in
+forgetting self and remembering his companions on the road
+of life a little more than is usually the case. By a pleasant
+word to the depressed, a kindly act to the necessitous,
+giving sympathy to the afflicted, and smiles to the
+prosperous, our interest is made known to our fellow-
+voyagers and we are ultimately gainers by a reflex happiness
+in witnessing the pleasure we give to others by our
+ministrations. Education is the most fruitful source of
+happiness, considered apart from religion; it subdues what is
+gross in our nature, elevates our tastes and prepares us for a
+full enjoyment of the beauties of nature, which are so
+lavishly spread over the broad earth for the joy of all. The
+poor as well as the rich man, the invalid and those who are in
+robust health, can alike study the
+<pb id="lev25" n="25"/>
+varying landscape, the cloud-capped mountain with its
+leaping cascades, and the magnificent arch of heaven with
+its midnight stars, or gorgeous canopy of clouds at sunset.
+Every child should have its attention directed to objects of
+beauty in nature at an early period, especially to flowers,
+trees and insects, which are so abundant everywhere. The
+habit of noticing small things will grow as years increase and
+will be a life-long benefit, giving a love for Nature and
+yielding a pleasure that calls for no repentance and that
+necessarily leads the mind from Nature up to Nature's
+God.</p>
+      </div1>
+      <pb id="lev26" n="26"/>
+      <div1>
+        <head>AURORA BOREALIS OF APRIL 15, 1869.</head>
+        <byline>SEEN BY </byline>
+        <docAuthor>S. R. L.</docAuthor>
+        <p>THIS latitude (Harford county, Maryland) was
+favored with an Aurora of unusual magnificence.
+It brought vividly to mind the Esquimaux
+name for this celestial phenomenon, “The
+dance of the Spirits.” I shall endeavor to depict
+in words a scene which I hope to retain in
+“memory's halls” to the latest day of my life,
+as it will be to me “a joy forever.” The light
+was noticed at sunset, and as the shades of evening
+fell it took the distinct form of the Aurora Borealis.
+A lovely arch of silvery rays formed close on
+the line of the horizon. From this sprung other rays
+higher up toward the zenith. About nine o'clock I
+saw from the coruscations that something more brilliant
+yet might be expected and determined to watch
+for it. At this time, detached from the double arch
+and higher up, was a peculiar figure in shape like an
+immense boomerang. In a few minutes it had flashed
+away, to reappear in other forms. After ten o'clock,
+<pb id="lev27" n="27"/>
+upon taking another observation, I found that the arch had
+moved higher. It was now about forty-five degrees from the
+horizon. At the east was a large space of steady silver light,
+tinged with crimson. On a line with this at the west was a
+similar field of steady glowing silver light. From the edges of
+these two fountains of light brilliant coruscations emanated,
+and the whole northern heavens were gorgeously
+illuminated. All the coruscations were advancing by long
+and rapid waves to the zenith, where were already to be seen
+a great number of forms like angels' wings. Gradually these
+flashed around and settled in clouds as the center of a dark,
+vivid, immense crimson star, from which extended in every
+direction long, brilliant, silvery-white rays. Awe-struck, I
+stood gazing up into the heavens, my heart being filled to its
+utmost capacity with adoring love to the great Creator of
+such ineffable beauty and gave utterance to a fervid “Glory
+to God! ” If an angel had darted down to earth from the
+center of that resplendent star it would have been just what I
+hoped for. But no angel <sic corr="descended">desceeded</sic>. It flashed away in long
+waves of silver, to dance about in other shapes. At one
+period of greatest activity I fancied a sound was produced
+from the
+<pb id="lev28" n="28"/>
+aurora of a slight crackling, scarcely discernible in the still
+night air. After eleven o'clock, being fully satisfied, I
+re-entered the house in profound meditation as to what must be
+the glories of our heavenly home, as the earth is so full of
+such perfect beauty. I turned to the Holy Book and read:
+“And I saw no temple therein, for the Lord God Almighty
+and the Lamb are the temple of it. And the city had no need
+of the sun, neither of the moon to shine in it: for the Glory of
+God did lighten it, and the Lamb is the light thereof.”</p>
+      </div1>
+      <div1>
+        <pb id="lev29" n="29"/>
+        <head>“THIS DO YE AS OFT AS YE DRINK IT IN<lb/>
+REMEMBRANCE OF ME.”</head>
+        <lg>
+          <l>Not 'mid pleasure's thoughtless throng,</l>
+          <l>Not in halls of festive mirth,</l>
+          <l>Where witty jest and mellow song</l>
+          <l>Ring through the air, may I drink wine.</l>
+        </lg>
+        <lg>
+          <l>Not around the social board,</l>
+          <l>Where friend meets friend in happy mood,</l>
+          <l>And health to health is freely poured,</l>
+          <l>And laughter sounds, may I drink wine.</l>
+        </lg>
+        <lg>
+          <l>In the house of God, where waiting,</l>
+          <l>With the favored ones of Heaven</l>
+          <l>For the coming of the blessing</l>
+          <l>Of His sacred presence dear.</l>
+        </lg>
+        <lg>
+          <l>When a sense of sin oppresses,</l>
+          <l>And my heart with grief is bowed</l>
+          <l>For the cruel gibes and lashes</l>
+          <l>Which my Saviour meekly bore.</l>
+        </lg>
+        <lg>
+          <l>When I recollect the death-pang</l>
+          <l>Of the blessed Son of God,</l>
+          <l>Who on the cruel cross did hang,</l>
+          <l>Only then must I drink wine.</l>
+        </lg>
+        <closer>
+          <signed>S.  R.  L.</signed>
+        </closer>
+      </div1>
+      <div1>
+        <pb id="lev30" n="30"/>
+        <head>A HAPPY LIFE.</head>
+        <head>[Inscribed to Mrs. W. B. B.]</head>
+        <lg>
+          <l>Gracefully thy girlhood glided</l>
+          <l>'Mid a most delightful home,</l>
+          <l>Where, by loving parents guided,</l>
+          <l>Thou and sisters fair didst roam.</l>
+        </lg>
+        <lg>
+          <l>When thy wedded troth was plighted</l>
+          <l>To a husband noble, fond,</l>
+          <l>All thy happy life was lighted</l>
+          <l>By the rosy nuptial bond.</l>
+        </lg>
+        <lg>
+          <l>Then were added sons and daughters,</l>
+          <l>And thy cup of bliss was full,</l>
+          <l>And thy loving heart ne'er falters</l>
+          <l>Till to God thou bringst them all.</l>
+        </lg>
+        <lg>
+          <l>In the mother's heart God wakened</l>
+          <l>Hopes for an eternal joy,</l>
+          <l>For the band of children wakened</l>
+          <l>All thy love without alloy.</l>
+        </lg>
+        <pb id="lev31" n="31"/>
+        <lg>
+          <l>Now thou standest by confession</l>
+          <l>With the saints of God arrayed,</l>
+          <l>In the garments of Salvation,</l>
+          <l>Washed in Jesus' precious blood.</l>
+        </lg>
+        <lg>
+          <l>May God's Holy Spirit guide thee</l>
+          <l>Into scenes divinely fair,</l>
+          <l>Where thy raptured soul may see</l>
+          <l>joys that need not fear despair.</l>
+        </lg>
+        <closer>
+          <signed>S. R. L.</signed>
+        </closer>
+      </div1>
+      <div1>
+        <pb id="lev32" n="32"/>
+        <head>THE UNWELCOME GUEST.</head>
+        <p>THERE is a feeling, an earnest desire, in every
+human breast, to know more than is allowed
+us weak mortals to know of the Mysteries
+of the Spirit Land. To me there is an
+inexpressible charm in any story that savors of the
+supernatural, and next to hearing about spiritual
+manifestations to others has been a fervent wish to
+be myself favored with the sight of a ghost. But
+when mortals are favored by a visit from an
+inhabitant of the Spirit Land terror is so immediately
+the result as to prevent our growing any wiser than
+we already are through the Scripture revelation
+pertaining to eternity. After waiting long years to see
+a ghost my unholy curiosity was gratified, and, like
+others on similar occasions, I also was too glad to see
+the phantom depart to question him on the important
+subjects of eternity, concerning eternal life, and
+misery. Not very many years ago my circle of friends
+in a not distant city lost by death, after a lingering
+illness, one of its most valued members, a man of
+<pb id="lev33" n="33"/>
+great talents and kindly home virtues; a lover of his fireside,
+and perfectly devoted to those who shared it with him.
+Feeling deeply the loss his family had sustained, in the
+earnestness of my sympathy I made them a visit of
+condolence, and, as was to be expected, found the once-
+happy home shrouded in gloom. Their place of residence
+was a chateau-like building, being several stories in height,
+each story containing suites of apartments opening into
+each other and connected by immense halls and dim
+corridors. Upon the day of my arrival (the season was early
+spring, the air being still keen with frost) we assembled at
+four o'clock, the usual hour for dinner, in the large dining-room,
+which was the last apartment in the suite containing
+the elegant drawing-room and the well-filled library.
+Opposite a door opening into the library was one which led
+out into a corridor communicating with the kitchen, and
+through which the servants were passing back and forth in
+arranging the dinner upon the table. Two great windows
+lighted this room on the east, and opposite them was a third
+door which opened upon one of the grand lofty halls. As we
+seated ourselves at table an unwonted silence fell upon us.
+Wondering at this, and not caring to
+<pb id="lev34" n="34"/>
+break the stillness, which continued after we were seated, I
+ate the delicacies provided and glanced around at the familiar
+adornments of the place. Each article occupied the same
+position as upon the occasion of my last visit under happier
+auspices. There stood the massive mahogany sideboard with
+its wealth of rich china and sparkling glass. The lovely marble
+vases I had so often admired, as usual, graced the
+mantelpiece, but upon a picture familiar enough in other days
+my gaze dwelt the longest. It was a picture illustrating that
+passage of Scripture history which describes David as a
+minstrel youth excelling upon the harp and called into the
+presence of the lordly King Saul to charm away by his
+soothing strains the evil spirit which tormented the king. The
+figures in it were nearly of life size, and as the silence around
+the table continued unbroken I enjoyed my dinner, and as I
+did so still studied the picture. There was the minstrel, clad in
+his simple garments, with exquisite grace grasping the
+instrument from which so much was expected. Michal, in all
+the redundancy and fresh charm of early womanhood, is
+endeavoring with all the solicitude of a daughter depicted in
+her face to attract the attention of her father
+<pb id="lev35" n="35"/>
+to his favorite harp; but the stern old king, half crouching in
+ his royal robes upon his throne, has not yet yielded to its
+sweet influence—the demon still lashes his soul into frenzy,
+and was looking through his lurid eyes directly into mine.
+Half frightened already by the Satanic look out of Saul's
+eyes, hearing the corridor door open, I gladly turned my
+attention to it, fully expecting to see a friendly, beaming sable
+face, but, instead, beheld advancing directly toward the
+table the whilom master of the house. His formerly stately
+figure was now enlarged until it very nearly reached the
+ceiling, which was sixteen or eighteen feet high, and was clad
+in the moldy habiliments of the grave. His cold, piercing eyes
+were fixed on mine, as in almost breathless amazement and
+terror I watched his slow progress across the room. Hastily,
+fearfully, I peered at each face around the board. Every head
+was bent close over his or her plate; not a creature lifted a
+hand toward the once-loved father and friend as he paced by
+each of us. One daughter, trembling by my side, in a hoarse
+whisper informed me it was always so: he made his
+appearance in these horrid garments regularly every day at
+that hour. Thus was the fearful silence accounted
+<pb id="lev36" n="36"/>
+for. The dread of the specter sealed their lips, and
+hoping that I, not being a member of the family, might not
+see the fearful vision, they did not inform me of the
+unwelcome visitor; but to see it was also granted to me, and
+truly it <sic>may said</sic> one ghost is enough to see in a lifetime.
+When the awful object reached the hall-door he held it, half
+closed, in his hand, the husband of one of his daughters
+inquired in an exceedingly timid tone of voice: “Are you
+coming back again?” “No! ” shouted the ghost in a voice of
+thunder, at the same time opening the door wide and closing
+it after him with great violence, admitting a furious blast of
+icy cold wind which blew over me with full force and startled
+me out of a deep and awful dream. Oh! the joy of waking to
+find myself in my own snug chamber, in a retired farmhouse,
+in dear old Harford county, and not a visitor in a magnificent
+chateau frequented by shadows from the spirit land, and
+entirely satisfied to remain unenlightened as to the
+mysteries of the future state beyond the veil of Death.</p>
+      </div1>
+      <div1>
+        <pb id="lev37" n="37"/>
+        <head>IMPROMPTU.</head>
+        <head>[Naming a little <sic corr="cousin">couisin</sic> in Ohio.]</head>
+        <lg>
+          <l>Eugenia Howard I select</l>
+          <l>Out of my teeming brain</l>
+          <l>By which to call our little pet</l>
+          <l>From mischief, harm or rain.</l>
+        </lg>
+        <lg>
+          <l>When childhood's years have flown apace,</l>
+          <l>A merry maiden she,</l>
+          <l>Eugenia still will have a grace</l>
+          <l>With lover, maid and me.</l>
+        </lg>
+        <lg>
+          <l>My task is done; I can no more</l>
+          <l>Than wish the child may seem</l>
+          <l>To father's pride and mother's love</l>
+          <l>A pearl of rarest gleam.</l>
+        </lg>
+        <closer>
+          <signed>S. R. L.</signed>
+        </closer>
+      </div1>
+      <div1>
+        <pb id="lev38" n="38"/>
+        <head>THE BRIDE</head>
+        <head>[Blake waited on in Brown Memorial Church]</head>
+        <lg>
+          <l>Ne'er saw I a blither maiden,</l>
+          <l>Ever smiling, ever gay,</l>
+          <l>Living thus with pleasure laden,</l>
+          <l>Living on from day to day,</l>
+          <l>In a whirl of sportive measure</l>
+          <l>Ever casting joy around,</l>
+          <l>Binding all our hearts at leisure,</l>
+          <l>Rifling us of senses sound.</l>
+          <l>On thy life may ne'er a shadow</l>
+          <l>Of affliction's presence drear</l>
+          <l>Kill thy liveliest hopes below.</l>
+          <l>Step thou on from sorrow clear.</l>
+        </lg>
+        <closer>
+          <signed>S. R. L.</signed>
+        </closer>
+      </div1>
+      <div1>
+        <pb id="lev39" n="39"/>
+        <head>SONG.</head>
+        <docAuthor>By  R. E. H. LEVERING, Lancaster, Ohio</docAuthor>
+        <lg>
+          <l>Gaze, dearest one, at evening time,</l>
+          <l>On brightest star above,</l>
+          <l>And know that in the female train</l>
+          <l>Thus shines the one I love!</l>
+        </lg>
+        <lg>
+          <l>Cull from the garden, love, its pride,</l>
+          <l>With perfum'd beauty rife,</l>
+          <l>And know that, like its charms, thou art</l>
+          <l>The sweetest flower of life!</l>
+        </lg>
+        <lg>
+          <l>Oh, take the gem from coronet,</l>
+          <l>More precious than the rest,</l>
+          <l>A type to be of virtue, thine,</l>
+          <l>Most pure in woman's breast!</l>
+        </lg>
+        <lg>
+          <l>Then take the glories of this world</l>
+          <l>And weigh thy charms with them;</l>
+          <l>For thee I'd spurn them all away,</l>
+          <l>My flower, my star, my gem!</l>
+        </lg>
+        <pb id="lev40" n="40"/>
+        <lg>
+          <l>Then to thy bosom bind with care</l>
+          <l>The fadeless evergreen,</l>
+          <l>To note that like thy spotless love</l>
+          <l>Unchangeable is mine!</l>
+        </lg>
+      </div1>
+      <div1>
+        <pb id="lev41" n="41"/>
+        <head>ACROSTIC.</head>
+        <docAuthor>BY ORIGINALIAD.</docAuthor>
+        <head>[Exhibiting the name of a little girl twelve years old.]</head>
+        <lg>
+          <l>Should I extol thy wit refined,</l>
+          <l>A tribute pay to thy young mind,</l>
+          <l>Rob'd in the charms of native sense,</l>
+          <l>A promise of much excellence?</l>
+          <l>Has not thy soul a brighter worth?</l>
+          <l>Read in the book of God its birth!</l>
+          <l>E'en from His hand who framed the sky,</l>
+          <l>Brought forth the glorious orbs on high,</l>
+          <l>Enrich'd the earth with every good,</l>
+          <l>Crown'd all with Jesus' precious blood—</l>
+          <l>Consider from His hand it came,</l>
+          <l>A God forevermore the same!</l>
+          <l>Love, then, thy Father—be his child—</l>
+          <l>Enjoy His government so mild.</l>
+          <l>Vain is the wish elsewhere to find</l>
+          <l>Enlight'ning pleasure for the mind.</l>
+          <l>Rich is the joy he can bestow;</l>
+          <l>In life, the antidote of woe!</l>
+          <l>No bliss does He refuse to give!</l>
+          <l>Go to thy God, and ever live!</l>
+        </lg>
+      </div1>
+      <div1>
+        <pb id="lev42" n="42"/>
+        <head>LINES ON MISS C., OF BALTIMORE.</head>
+        <docAuthor>By R. E. H. LEVERING, Lancaster, Ohio.</docAuthor>
+        <lg>
+          <l>Moved by some heathen God of ancient time,</l>
+          <l>Italia's sons performed their deeds sublime;</l>
+          <l>Struck sweet their harp in praise of beauty rare,</l>
+          <l>Shrined in their hearts as loveliest of the fair!</l>
+          <l>Roused by an inspiration still more sweet,</l>
+          <l>A holier love a kindred love to meet,</l>
+          <l>Come forth the first affections of my heart,</l>
+          <l>Held in soft bonds by Love's superior art!</l>
+          <l>Each charm more lasting than mere Beauty's ray,</l>
+          <l>Loud speak her merit and extend her sway—</l>
+          <l>Golconda's gold in Hymen's path unsought,</l>
+          <l>Cold, calculating artifice is not</l>
+          <l>On her bright fame a warning and a blot!</l>
+          <l>Long may enduring charms like Rachel's prove</l>
+          <l>Examples high to foster holiest love!</l>
+        </lg>
+      </div1>
+      <div1>
+        <pb id="lev43" n="43"/>
+        <head>THE BUTTERFLY.</head>
+        <lg>
+          <l>The lovely Sarah thought, quite sly,</l>
+          <l>To catch, one day, a butterfly;</l>
+          <l>She threw her apron to enclose</l>
+          <l>The longed-for prize, as in a noose;</l>
+          <l>The beauteous insect, watchful still,</l>
+          <l>The snare avoided with much skill,</l>
+          <l>And fled, a most rejoicing one,</l>
+          <l>With added wisdom snares to shun,</l>
+          <l>A lesson leaving for the maid</l>
+          <l>In noble practice just displayed,</l>
+          <l>To wit: that loveliest females are,</l>
+          <l>Like butterflies, exposed to snare,</l>
+          <l>And should combine, in things of love,</l>
+          <l>The wily serpent with the dove,</l>
+          <l>And, always watching, never find</l>
+          <l>In confidence misplaced or blind,</l>
+          <l>A loss which time cannot repair—</l>
+          <l>The loss of virtue in a snare!</l>
+        </lg>
+        <closer>OLD HONESTY, Lancaster, Ohio.</closer>
+      </div1>
+      <div1>
+        <pb id="lev44" n="44"/>
+        <head>“LITTLE CHILDREN, LOVE ONE ANOTHER.”</head>
+        <p>A FEW words for the children who may read this
+booklet, and my full intention will be carried out.</p>
+        <p>For ten years my life was among children as a teacher
+in the public school near my home in Harford county. I
+loved the children. My Master loved little children and
+blessed them. As His disciple, it was my duty to bring the
+children to Him that He might bless them. I encouraged them
+to read and study the Scriptures of truth that testified of His
+birth, His life and His death. The result of this teaching will
+only be known when the books recording the deeds done in
+the body shall be opened and the dead, both small and
+great, be judged. Now, all children who read the Scriptures
+of truth know that there are two places mentioned for the
+souls of human beings to live in—Heaven for the obedient
+children of God, and Hell for the disobedient children of God—
+and they know the way to Heaven is Christ. Whoever
+accepts Him as a personal Saviour is sure of reaching the
+abode of the
+<pb id="lev45" n="45"/>
+saints of the Lord, the Heaven of which we read in the Holy
+Bible. There God dwells in light and love and joy abounds;
+happiness pure and unalloyed is found. No fancy can
+imagine the joys of Heaven. It is vain to try; we cannot do it.
+The disobedient children of God, who love sin too well to
+reject it, and who will not accept salvation as the gift of God
+through the blood of Christ, will surely be cast into Hell, to
+live forever and ever in the blackness of darkness and where
+the devil and his evil angels are never to be released from
+torment.</p>
+        <p>It is growing more and more the custom to draw the
+attention of sinners away from dread of everlasting woe and
+fix their minds on the blessed abode of the righteous; but
+they must be told of the choice they are called upon to make—
+to enter the service of the God of love and light, or to serve
+the Prince of Darkness; to live for God and Heaven, or to
+continue in sin and go to Hell. Some say God is too merciful
+to punish his erring children. Rewards and punishments
+regulate domestic life, the schools, commonwealths, the
+whole world, all creation that we have any knowledge of.
+You children know full well when you break your mother's
+rules and do as you please
+<pb id="lev46" n="46"/>
+you have a dread of that slipper or that rod, or the short
+rations of good things in her cupboard, or the dark closet,
+where in extreme cases you may be shut up until repentance
+and promises of good behavior cause her to release you.
+Your mothers love you, but if you do naughty deeds the
+mothers, because of their love for you, must punish you to
+secure good behavior. The earthly parent punishes only for
+a short time. The Heavenly Father punishes evil-doers with
+everlasting woe.</p>
+        <p>If you will turn to your Bibles and read the first chapter of
+Proverbs you will find in the seventh verse these words:
+“The fear of the Lord is the beginning of knowledge: but
+<hi rend="italics">fools despise wisdom and instruction</hi>.” Now turn the leaves
+of the written Word of God and find the fourteenth Psalm,
+and you will read in the first verse : “The fool hath said in his
+heart, There is no God.”</p>
+        <p>Now, children, I beg of you to fear the Lord. Do not rank
+yourselves among the fools who say in their hearts, “There
+is no God,” or if they give any credence of His existence
+they will say we do not know Him, we cannot understand
+Him. If He does exist, He is too full of love to punish His
+poor, weak creatures
+<pb id="lev47" n="47"/>
+with everlasting destruction in Hell, if they do not obey
+the Holy Scriptures and follow after the blessed Lord Jesus
+who came to earth from Heaven to seek and to save such
+poor weak sinners as we are. The serpent who tempted Eve
+to disobey God while she was innocent in the Garden of
+Eden and had no fear of death except as she was warned not
+to eat of the tree that was in the midst of the garden, “Lest
+ye die,” told her, “Ye shall not surely die.” So he continues
+to contradict all the teaching of our Heavenly Father. In
+various ways he continues to lure us into all sorts of evil
+doings, which will surely end in the loss of the precious soul
+unless we repent and believe in the Lord Jesus Christ. Avoid
+all places where you will be sure to meet the enemy of souls.
+The saloons, the gaming places (and they are many), the
+theaters, so attractive from their music and dancing and
+falseness in general, especially the false view they give of
+amusement. The poison cup, the dagger of the assassin, the
+death agonies of the victims of both these fearful agents
+should never be shown to the public as a fund of
+amusement; rather of horror, to be kept away from all human
+beings. Such teachings can only end in producing such
+fearful fruit as Wilkes
+<pb id="lev48" n="48"/>
+Booth bore when he ended the life of our venerated
+President Abraham Lincoln. Many very good people regard
+the theater as a place of innocent amusement. But behind all
+the glare of the pretty lights and bright scenes depicted on
+the stage, it is well known much misery exists among the
+actors and actresses, many sad histories of private life
+hidden behind the mimic life portrayed upon the stage,
+painful mysteries and secrets which can never be penetrated
+by mortal man, and will only be revealed at the last day
+when the three books will be opened on the throne of
+judgment—the Lamb's Book of Life and the two books, one
+of evil deeds and the other of good deeds, out of which all of
+us are to be rewarded for good or evil, as we have acted on
+this earth.</p>
+      </div1>
+      <trailer>THE END.</trailer>
+    </body>
+  </text>
+</TEI.2>

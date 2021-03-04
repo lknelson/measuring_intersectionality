@@ -1,0 +1,413 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY cugoantp SYSTEM "cugoantp.jpg" NDATA jpeg>
+<!ENTITY cugoanvs SYSTEM "cugoanvs.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>Narrative of the Enslavement of Ottobah Cugoano, a
+Native of Africa; Published by Himself, in the Year  1787:</emph>
+Electronic Edition.</title>
+        <author>Cugoano, Ottobah</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Images scanned by</resp>
+          <name>Bethany Ronnberg</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns"> Sarah Reuning and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     50K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, 
+teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="text"> Narrative of the Enslavement of Ottobah Cugoano, a
+Native of Africa; published by himself, in the Year  1787</title>
+            <title type="title page"> The Negro's Memorial, or, Abolitionist's 
+Catechism</title>
+            <author>by an Abolitionist</author>
+          </titleStmt>
+          <extent>8      p.</extent>
+          <publicationStmt>
+            <pubPlace>London</pubPlace>
+            <publisher>Hatchard and Co., and J. and A. Arch</publisher>
+            <date>1825</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">Electronic edition has been transcribed from pages 120-127 of the Appendix to 
+"The Negro's Memorial; or, Abolitionist's catechism; by an Abolitionist" </note>
+            <note anchored="yes">Call number  DOSS 326.4 F536N  (Rare Book, Manuscript, and Special 
+Collections Library, Duke University Libraries)</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Electronic edition has been transcribed from pages 120-127 of the Appendix to 
+"The Negro's Memorial; or, Abolitionist's catechism; by an Abolitionist" </p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor 
+(SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Cugoano, Ottobah.</item>
+            <item>Blacks -- Africa -- Biography.</item>
+            <item>Slavery.</item>
+            <item>Slavery -- Grenada.</item>
+            <item>Slave-trade -- Africa.</item>
+            <item>Slaves' writings.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>1999-12-02, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-11-29, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-11-22, </date>
+        <respStmt>
+          <name>Sarah Reuning</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-11-20, </date>
+        <respStmt>
+          <name>Bethany Ronnberg</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page">
+        <p>
+          <figure id="title" entity="cugoantp">
+            <p>[Title Page Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso">
+        <p>
+          <figure id="verso" entity="cugoanvs">
+            <p>[Title Page Verso Image]</p>
+          </figure>
+        </p>
+      </div1>
+    </front>
+    <pb id="fish120" n="120"/>
+    <body>
+      <div1 type="text">
+        <head>
+          <hi>APPENDIX.</hi>
+        </head>
+        <head>NARRATIVE <hi rend="italics">of the Enslavement of</hi> OTTOBAH CUGOANO, <hi rend="italics"> a
+Native of Africa; published by himself, in the Year </hi>1787.</head>
+        <argument>
+          <p>[<hi rend="italics">The following artless narrative, as given to the public by the
+subject of it, in </hi>1787,<hi rend="italics">fell into the hands of the author 
+of the foregoing pages when they were nearly 
+completed, and after that portion of his work to which it more particularly belonged 
+had been printed off. It is, nevertheless, a narrative of such high interest, and 
+exhibits the Slave-trade and Slavery in such striking colors, throwing light upon 
+not a few of the most important facts which form the argument of this work, 
+that he could not resist the temptation to give it in an appendix, leaving 
+it to operate unassisted upon the minds of his readers, and to inspire them, 
+according to their respective mental constitutions, either with admiration or 
+detestation of the</hi> SLAVE-TRADE <hi rend="italics">and</hi> NEGRO SLAVERY.]</p>
+        </argument>
+        <p>I WAS early snatched away from my native country, with
+about eighteen or twenty more boys and girls, as we were
+playing in a field. We lived but a few days' journey from the
+coast where we were kidnapped, and as we were decoyed and
+drove along, we were soon conducted to a factory, and from
+thence, in the fashionable way of traffic,
+<pb id="fish121" n="121"/>
+consigned to Grenada. Perhaps it may not be amiss to give a
+few remarks, as some account of myself, in this
+transposition of captivity.</p>
+        <p>I was born in the city of Agimaque, on the coast of
+Fantyn; my father was a companion to the chief in that part
+of the country of Fantee, and when the old king died I was
+left in his house with his family; soon after I was sent for by
+his nephew, Ambro Accasa, who succeeded the old king in
+the chiefdom of that part of Fantee, known by the name of
+Agimaque and Assince. I lived with his children, enjoying
+peace and tranquillity, about twenty moons, which,
+according to their way of reckoning time, is two years. I was
+sent for to visit an uncle, who lived at a considerable
+distance from Agimaque. The first day after we set out we
+arrived at Assinee, and the third day at my uncle's habitation,
+where I lived about three months, and was then thinking of
+returning to my father and young companion at Agimaque;
+but by this time I had got well acquainted with some of the
+children of my uncle's hundreds of relations, and we were
+some days too venturesome in going into the woods to gather
+fruit and catch birds, and such amusements as pleased us.
+One day I refused to go with the rest, being rather
+apprehensive that something might happen to us; till one of
+my playfellows said to me, “Because you belong to the great men,
+you are afraid to <sic>“</sic>venture your carcase, or else of the <hi rend="italics">bounsam</hi>,” 
+which is the devil. This enraged me so much, that I set a resolution to
+join the rest, and we went into the woods, as usual but we
+had not been above two hours, before our troubles began,
+when several great ruffians came upon us suddenly, and said
+we had committed a fault against their lord, and we must go
+and answer for it ourselves before him.</p>
+        <p>Some of us attempted, in vain, to run away, but pistols
+and cutlasses were soon introduced, threatening, that if we
+<pb id="fish122" n="122"/>
+offered to stir, we should all lie dead on the spot. One of them
+pretended to be more friendly than the rest, and said that he
+would speak to their lord to get us clear, and desired that we
+should follow him; we were then immediately divided into
+different parties, and drove after him. We were soon led out of
+the way which we knew, and towards evening, as we came in
+sight of a town, they told us that this great man of theirs lived
+there, but pretended it was too late to go and see him that
+night. Next morning there came three other men, whose
+language differed from ours, and spoke to some of those who
+watched us all the night; but he that pretended to be our friend
+with the great man, and some others, were gone away. We
+asked our keeper what these men had been saying to them, and
+they answered, that they had been asking them and us together
+to go and feast with them that day, and that we must put off
+seeing the great man till after, little thinking that our doom was
+so nigh, or that these villains meant to feast on us as their
+prey. We went with them again about half a day's journey, and
+came to a great multitude of people, having different music
+playing; and all the day after we got there, we were very
+merry with the music, dancing, and singing. Towards the
+evening, we were again persuaded that we could not get back
+to where the great man lived till next day; and when bed-time 
+came, we were separated into different houses with different 
+people. When the next morning came, I asked for the men 
+that brought me there, and for the rest of my companions; and 
+I was told that they were gone to the sea-side, to bring 
+home some rum, guns, and powder, and that some of my companions 
+were gone with them, and that some were gone to the fields to do
+something or other. This gave me strong suspicion that there
+was some treachery in the case, and I began to think that my
+hopes of returning home
+<pb id="fish123" n="123"/>
+again were all over. I soon became very uneasy, not knowing
+what to do, and refused to eat or drink, for whole days
+together, till the man of the house told me that he would do all
+in his power to get me back to my uncle; then I eat a little
+fruit with him, and had some thoughts that I should be sought
+after, as I would be then missing at home about five or six
+days. I inquired every day if the men had come back, and for
+the rest of my companions, but could get no answer of any
+satisfaction. I was kept about six days at this man's house,
+and in the evening there was another man came, and talked
+with him a good while and I heard the one say to the other he
+must go, and the other said, the sooner the better; that man
+came out and told me that he knew my relations at Agimaque,
+and that we must set out to-morrow morning, and he would
+convey me there. Accordingly we set out next day, and
+travelled till dark, when we came to a place where we had
+some supper and slept. He carried a large bag, with some gold
+dust, which he said he had to buy some goods at the sea-side
+to take with him to Agimaque. Next day we travelled on, and
+in the evening came to a town, where I saw several white
+people, which made me afraid that they would eat me,
+according to our notion, as children, in the inland parts of the
+country. This made me rest very uneasy all the night, and
+next morning I had some victuals brought, desiring me to eat
+and make haste, as my guide and kidnapper told me that he
+had to go to the castle with some company that were going
+there, as he had told me before, to get some goods. After I
+was ordered out, the horrors I soon saw and felt, cannot be
+well described; I saw many of my miserable countrymen
+chained two and two, some handcuffed, and some with their
+hands tied behind. We were conducted along by a guard, and
+when we arrived at the castle, I asked my
+<pb id="fish124" n="124"/>
+guide what I was brought there for, he told me to learn the
+ways of the <hi>browfow</hi>, that is, the white-faced people. I saw
+him take a gun, a piece of cloth, and some lead for me, and then
+he told me that he must now leave me there, and went off. This
+made me cry bitterly, but I was soon conducted to a prison, for
+three days, where I heard the groans and cries of many, and saw
+some of my fellow-captives. But when a vessel arrived to
+conduct us away to the ship, it was a most horrible scene; there
+was nothing to be heard but the rattling of chains, smacking of
+whips, and the groans and cries of our fellow-men. Some would
+not stir from the ground, when they were lashed and beat in the
+most horrible manner. I have forgot the name of this infernal
+fort; but we were taken in the ship that came for us, to another
+that was ready to sail from Cape Coast. When we were put into
+the ship, we saw several black merchants coming on board, but
+we were all drove into our holes, and not suffered to speak to
+any of them. In this situation we continued several days in
+sight of our native land; but I could find no good person to give
+any information of my situation to Accasa at Agimaque. And
+when we found ourselves at last taken away, death was more
+preferable than life; and a plan was concerted amongst us, that
+we might burn and blow up the ship, and to perish all together
+in the flames: but we were betrayed by one of our own
+countrywomen, who slept with some of the headmen of the
+ship, for it was common for the dirty filthy sailors to take the
+African women and lie upon their bodies; but the men were
+chained and pent up in holes. It was the women and boys which
+were to burn the ship, with the approbation and groans of the
+rest; though that was prevented, the discovery was likewise a
+cruel bloody scene.</p>
+        <p>But it would be needless to give a description of all the
+<pb id="fish125" n="125"/>
+horrible scenes which we saw, and the base treatment
+which we met with in this dreadful captive situation, as
+the similar cases of thousands, which suffer by this infernal
+traffic, are well known. Let it suffice to say that I was
+thus lost to my dear indulgent parents and relations, and
+they to me. All my help was cries and tears, and these
+could not avail, nor suffered long, till one succeeding woe
+and dread swelled up another. Brought from a state of
+innocence and freedom, and, in a barbarous and cruel 
+manner, conveyed to a state of horror and slavery, this 
+abandoned situation may be easier conceived than described.
+From the time that I was kidnapped, and conducted to a
+factory, and from thence in the brutish, base, but fashionable 
+way of traffic, consigned to Grenada, the grievous
+thoughts which I then felt, still pant in my heart; though
+my fears and tears have long since subsided. And yet it
+is still grievous to think that thousands more have suffered
+in similar and greater distress, Under the hands of 
+barbarous robbers, and merciless task-masters; and that many,
+even now, are suffering in all the extreme bitterness of
+grief and woe, that no language can describe. The cries
+of some, and the sight of their misery, may be seen and
+heard afar; but the deep-sounding groans of thousands,
+and the great sadness of their misery and woe, under the
+heavy load of oppressions and calamities inflicted upon
+them, are such as can only be distinctly known to the ears
+of Jehovah Sabaoth.</p>
+        <p>This Lord of Hosts, in his great providence, and in great
+mercy to me, made a way for my deliverance from Grenada.
+Being in this dreadful captivity and horrible slavery, without
+any hope of deliverance, for about eight or nine months,
+beholding the most dreadful scenes of misery and cruelty, and
+seeing my miserable companions often cruelly lashed, and, 
+as it were, cut to pieces, for the most trifling
+<pb id="fish126" n="126"/>
+faults; this made me often tremble and weep, but I escaped
+better than many of them. For eating a piece of sugar-cane,
+some were cruelly lashed, or struck over the face, to knock their
+teeth out. Some of the stouter ones, I suppose, often reproved,
+and grown hardened and stupid with many cruel beatings and
+lashings, or perhaps faint and pressed with hunger and hard
+labour, were often committing trespasses of this kind, and
+when detected, they met with exemplary punishment. Some
+told me they had their teeth pulled out, to deter others, 
+and to prevent them from eating any cane in future. Thus 
+seeing my miserable companions and countrymen in this pitiful, 
+distressed, and horrible situation, with all the brutish baseness
+and barbarity attending it, could not but fill my little mind
+horror and indignation. But I must own, to the shame of my own 
+countrymen, that I was first kidnapped and betrayed by some
+of my own complexion, who were the first cause of my exile,
+and slavery; but if there were no buyers there would be no
+sellers. So far as I can remember, some of the Africans in my
+country keep slaves, which they take in war, or for debt; but
+those which they keep are well fed, and good care taken of
+them, and treated well; and as to their clothing, they differ
+according to the custom of the country. But I may safely say,
+that all the poverty and misery that any of the inhabitants of
+Africa meet with among themselves, is far inferior to those 
+inhospitable regions of misery which they meet with in the 
+West-Indies, where their hard-hearted overseers have neither
+Regard to the laws of God, nor the life of their fellow-men.</p>
+        <p>Thanks be to God, I was delivered from Grenada, and that
+horrid brutal slavery. A gentleman coming to England took me
+for his servant, and brought me away, where I soon found my
+situation become more agreeable.  After coming to England,
+and seeing others write and read, I
+<pb id="fish127" n="127"/>
+had a strong desire to learn, and getting what assistance I
+could, I applied myself to learn reading and writing, which
+soon became my recreation, pleasure, and delight; and when
+my master perceived that I could write some, he sent me to a
+proper school for that purpose to learn. Since, I have
+endeavoured to improve my mind in reading, and have sought
+to get all the intelligence I could, in my situation of life,
+towards the state of my brethren and countrymen in
+complexion, and of the miserable situation of those who are
+barbarously sold into captivity, and unlawfully held in
+slavery</p>
+      </div1>
+      <trailer>FINIS.</trailer>
+      <trailer>PRINTED BY JAMES BULLOCK, WHITEFRIARS, FLEET-STREET.</trailer>
+    </body>
+  </text>
+</TEI.2>

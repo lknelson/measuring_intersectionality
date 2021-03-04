@@ -1,0 +1,1864 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd" [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+<!ENTITY grandytp SYSTEM "grandytp.jpg" NDATA jpeg>
+<!ENTITY grandyvs SYSTEM "grandyvs.jpg" NDATA jpeg>
+]>
+<TEI.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Narrative of the Life of Moses Grandy; 
+Late a Slave in the United States of America: electronic edition.</title>
+        <respStmt>
+          <resp>Text scanned and corrected by </resp>
+          <name>Christopher Gwyn.</name>
+          <resp>Text encoded by</resp>
+          <name id="ns">Natalia Smith.</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, 1996</edition>
+      </editionStmt>
+      <extent>File size: ca. 150K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH.</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill </pubPlace>
+        <date>1996.</date>
+        <availability status="unknown">
+          <p>This work is the property of the University of North Carolina at 
+Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note anchored="yes">Call number C326.92 G75 (North 
+Carolina Collection)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl><title>Narrative of the Life of Moses Grandy; Late a Slave
+in the United States of America.</title>
+<imprint><pubPlace>London</pubPlace><publisher>C. Gilpin, 5, Bishopsgate-street</publisher><date>1843</date></imprint></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the pilot 
+digitization project of 19th century narratives on slavery.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Running titles on each page of the text have not been preserved.</p>
+        <p>Any hyphens occurring in line breaks have been removed.</p>
+        <p>All quotation marks, ampersand, pound and dollar signs have been transcribed as entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “ respectively.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st
+edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Grandy, Moses, b. 1786?</item>
+            <item>Slavery -- North Carolina.</item>
+            <item>Slaves -- North Carolina -- Biography.</item>
+            <item>Slaves' writings, American -- North Carolina.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1 type="title page image">
+        <p>
+          <figure id="title" entity="grandytp">
+            <p>[Title Page 
+Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <div1 type="verso image">
+        <p>
+          <figure id="verso" entity="grandyvs">
+            <p>[Title Page Verso
+Image]</p>
+          </figure>
+        </p>
+      </div1>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">NARRATIVE OF THE LIFE 0F  <emph rend="bold">MOSES  GRANDY;</emph>
+LATE A SLAVE IN THE UNITED STATES OF AMERICA.</titlePart>
+        </docTitle>
+        <epigraph>
+          <p>“Slavery is a mass, a system of enormities, which incontrovertably bids
+defiance to every regulation which ingenuity can devise, or power effect,
+but a Total Extinction. Why ought slavery be abolished?  Because it is
+incurable injustice. Why is injustice to remain for a single hour?”</p>
+          <p>
+            <hi rend="italics">William Pitt.</hi>
+          </p>
+        </epigraph>
+        <docEdition>
+          <note anchored="yes">PUBLISHED AND SOLD FOR THE BENEFIT OF HIS RELATIONS
+ STILL IN SLAVERY.</note>
+        </docEdition>
+        <docImprint><pubPlace>LONDON:</pubPlace><publisher>C. GILPIN, 5, BISHOPS GATE-STREET.</publisher>
+<date>1843.</date></docImprint>
+        <titlePart type="verso"><note anchored="yes">It is not improbable that some of the proper
+names in the following pages are incorrectly spelled.
+M. G., owing to the laws of the slave states, being
+perfectly illiterate, his pronunciation is the only guide.</note>
+<address><addrLine>DUBLIN:
+PRINTED BY WEBB AND CHAPMAN, GREAT BRUNSWICK -ST.</addrLine></address></titlePart>
+      </titlePage>
+      <pb id="grandy3" n="iii"/>
+      <div1 type="introduction">
+        <head>INTRODUCTION.</head>
+        <p>ABOUT a fortnight ago, the subject of the
+following brief Memoir came to me, bearing 
+with him a letter from a dear friend
+and distinguished abolitionist in the United
+States, from which  the following, is an
+extract: -- “I seize my pen in haste to
+gratify a most worthy <sic corr="colored" resp="NS">coloured</sic> friend of
+mine, by giving him a letter of introduction 
+to you, as he intends sailing this
+week (August 8th, 1842,) for Liverpool
+and London, <hi rend="italics">via</hi> New Orleans. His name
+is Moses Grandy. He knows what it is
+to have been a slave, and what are the
+tender mercies of the southern slave-
+drivers. His history is not only authentic,
+but most extraordinary, and full of thrilling
+<pb id="grandy4" n="iv"/>
+interest. Could it published, it would
+make a deep sensation in every quarter.
+He was compelled to buy his freedom
+<hi rend="italics">three times over!</hi> He paid for it 1850
+dollars (nearly £400 sterling). He has
+since bought his wife, and one or two of his
+children; and before going, to England will
+first go to New Orleans, to purchase some
+of his other children if he can find them,
+who are still held in captivity. His benevolence, 
+affection, kindness of heart, and
+elasticity of spirit are truly remarkable.
+He has a good head, a fine countenance,
+and a great spirit, notwithstanding his
+education has been obtained in the horrible 
+school of slavery. Just get him to
+tell you his narrative, and if you happen
+to have an Anti-slavery Meeting, let him
+tell his tale to a British audience.”  In the
+letter of another highly esteemed friend,
+he is spoken of as “unsurpassed for faithfulness 
+and perseverance.” In the letter
+<pb id="grandy5" n="v"/>
+of a third, as “a worthy and respectable
+man.”  On examining a book containing a
+list of the donations made him by American 
+friends, in aid of his noble design to
+rescue from the miseries of slavery his relations, 
+I found the names and certificates
+of persons of the highest respectability. It
+ will be amply sufficient with those who are
+acquainted with the abolitionists of the
+United States, for me to name General
+Fessenden, and Nathan Winslow, Esq., of
+Portland, Maine; the Rev. A. A. Phelps,
+Ellis Gray Loring, and Samuel E. Sewall,
+Esqs., of Boston, Massachusetts. Being,
+satisfied, by these indubitable vouchers, of
+Moses Grandy's title to credit, I listened to
+his artless tale with entire confidence, and
+with a feeling of interest which all will participate, 
+who peruse the following pages.
+Considering, his Narrative calculated to promote 
+a more extensive knowledge of the
+workings of American slavery, and that its
+<pb id="grandy6" n="vi"/>
+sale might contribute to the object which
+engages so entirely the mind of Moses,
+namely, the redemption of those who are
+in bonds, belonging to his family, I resolved
+to commit it to the press, as nearly as possible 
+in the language of Moses himself. I
+have carefully abstained from casting in a
+single reflection or animadversion of my
+own. I leave the touching story of the self-
+liberated captive to speak for itself; and
+the wish of my heart will be gratified, and
+my humble effort on his behalf be richly
+rewarded, if this little book be the means of
+obtaining for my <sic corr="colored" resp="NS">coloured</sic> brother the assistance 
+which he seeks, or of increasing the
+zeal of those who are associated for the
+purpose of “breaking every yoke, and setting 
+the oppressed free.”</p>
+        <closer><signed>GEORGE THOMPSON.</signed>
+<address><addrLine><hi rend="italics">9, Blandford-place, Regent's park,</hi></addrLine></address>
+<date><hi rend="italics">October</hi>  18<hi rend="italics">th,</hi> 1842.</date></closer>
+      </div1>
+    </front>
+    <pb id="grandy7" n="7"/>
+    <body>
+      <div1>
+        <head>LIFE OF <emph rend="bold">MOSES  GRANDY.</emph></head>
+        <p>MY name is Moses Grandy: I was born in
+Camden County, North Carolina. I believe I
+am fifty-six years old. Slaves seldom know
+exactly how old they are: neither they nor
+their masters set down the time of a birth;
+the slaves, because they are not allowed to
+write or read; and the masters, because they
+only care to know what slaves belong to them.</p>
+        <p>The master, Billy Grandy, whose slave I was
+born, was a hard-drinking man: he sold away
+many slaves. I remember four sisters and four
+brothers; my mother had more children, but
+they were dead or sold away before I can
+remember. I was the youngest. I remember 
+<pb id="grandy8" n="8"/>
+well my mother often hid us all in the woods,
+to prevent master selling us. When we wanted
+water, she sought for it in any hole or puddle
+formed by falling trees or otherwise: it was
+often full of tadpoles and insects: she strained
+it, and gave it round to each of us in the hollow
+of her hand. For food, she gathered berries in
+the woods, got potatoes, raw corn, &amp;c.  After
+a time the master would send word to her to
+come in, promising, he would not sell us. But
+at length persons came who agreed to give the
+prices he set on us. His wife, with much to be
+done, prevailed on him not to sell me; but he
+sold my brother, who was a little boy. My
+mother, frantic with grief, resisted their taking
+her child away: she was beaten and held down :
+she fainted; and when she came to herself, her
+boy was gone. She made much outcry, for
+which the master tied her up to a peach tree in
+the yard, and flogged her.</p>
+        <p>Another of my brothers was sold to Mr.
+Tyler, Dewan's Neck, Pasquotank County;
+this man very much ill-treated many <sic corr="colored" resp="NS">coloured</sic>
+boys. One very cold day he sent my brother
+<pb id="grandy9" n="9"/>
+out, naked and hungry, to find a yoke of steers:
+the boy returned without finding them, when
+his master flogged him, and sent him out again;
+a white lady who lived near, gave him food, and
+advised him to try again: he did so, but it
+seems again without success. He piled up a
+heap of leaves, and laid himself down in them,
+and died there. He was found through a flock
+of turkey buzzards hovering over him; these
+birds had pulled his eyes out.</p>
+        <p>My young master and I used to play together; 
+there was but two days' difference in
+our ages. My old master always said he would
+give me to him. When he died, all the <sic corr="colored" resp="NS">coloured</sic>
+people were divided amongst his children, and
+I fell to young master; his name was James
+Grandy. I was then about eight years old. When
+I became old enough to be taken away from
+my mother and put to field-work, I was hired
+out for the year, by auction, at the Court
+House, every January; this is the common practice 
+with respect to slaves belonging to persons
+who are under age. This continued till my
+master and myself were twenty-one years old.</p>
+        <pb id="grandy10" n="10"/>
+        <p>The first who hired me was Mr. Kemp,
+who used me pretty Well; he gave me plenty
+to eat and sufficient clothing.</p>
+        <p>The next was old Jemmy Coates, a severe
+man. Because I could not learn his way of
+hilling corn, he flogged me naked with a severe
+whip made of a very tough sapling; this lapped
+round me at each stroke, the point of it at last
+entered my belly and broke off; leaving an inch
+and a-half outside. I was not aware of it until
+on going to work again it hurt my side very
+much, when on looking down I saw it sticking,
+out of my body: I pulled it out and the blood
+spouted after it. The wound festered, and discharged 
+very much at the time, and hurt me
+for years after.</p>
+        <p>In being hired out, sometimes the slave gets
+a good home, and sometimes a bad one: when
+he gets a good one, he dreads to see January
+come; when he has a bad one, the year seems
+five times as long as it is.</p>
+        <p>I was next with Mr. Enoch Sawyer of
+Camden county: my business was to keep
+ferry, and do other odd work. It was cruel
+<pb id="grandy11" n="11"/>
+living; we had not near enough of either victuals 
+or clothes; I was half-starved for half
+my time. I have often ground the husks of
+Indian corn over again in a hand-mill, for the
+chance of getting something to eat out of it,
+which the former grinding had left. In severe
+frosts, I was compelled to go into the fields
+and woods to work, with my naked feet
+cracked and bleeding from extreme cold: to
+warm them, I used to rouse an ox or hog, and
+stand on the place where it had lain. I was
+at that place three years, and very long years
+they seemed to me. The trick by which he
+kept me so long was this: -- the Court House
+was but a mile off; on hiring day, he prevented
+me from going till he went himself and bid for
+me. On the last occasion, he was detained for
+a little while by other business, so I ran as
+quickly as I could, and got hired before he
+came up.</p>
+        <p>Mr. George Furley was my next master;  he
+employed me as a car-boy in the Dismal
+swamp; I had to drive lumber, &amp;.  I had
+plenty to eat and plenty of clothes. I was so
+<pb id="grandy12" n="12"/>
+overjoyed at the change, that I then thought
+I would not have left the place to go to heaven.</p>
+        <p>Next year I was hired by Mr. John Micheau
+of the same county, who married my young
+mistress, one of the daughters of Mr. Grandy,
+and sister to my present owner. This master
+gave us very few clothes, and but little to eat;
+I was almost naked. One day he came into
+the field, and asked why no more work was
+done. The older people were afraid of him;
+so I said that the reason was, we were so
+hungry, we could not work. He went home
+and told the mistress to give us plenty to eat,
+and at dinner time we had plenty. We came
+out shouting for joy, and went to work with
+delight. From that time, we had food enough,
+and he soon found that he had a great deal
+more work done. The field was quite alive
+with the people striving who should do most.</p>
+        <p>He hired me for another year. He was a
+great gambler; He kept me up five nights
+together, without sleep night or day, to wait
+on the gambling table. I was standing in the
+corner of the room, nodding for want of sleep,
+<pb id="grandy13" n="13"/>
+ when he took up the shovel, and beat me with
+it: he dislocated my shoulder, and sprained
+my wrist, and broke the shovel over me. I
+ran away, and got another person to hire me.</p>
+        <p>This person was Mr. Richard Furley, who
+after that hired me at the Court House every
+year, till my master came of age. He gave me
+a pass to work for myself, <sic>;</sic> so I obtained work
+by the piece where I could, and paid him out
+of my earnings what we had agreed on; I maintained 
+myself on the rest, and saved what I
+could. In this way I was not liable to be
+flogged and ill-used. He paid seventy, eighty,
+or ninety dollars a year for me, and I paid him
+twenty or thirty dollars a year more than that.</p>
+        <p>When my master came of age, he took all
+his <sic corr="colored" resp="NS">coloured</sic> people to himself. Seeing that I
+was industrious and persevering, and had
+obtained plenty of work, he made me pay him
+almost twice as much as I had paid Mr.
+Furley. At that time, the English blockaded
+the Chesapeake, which made it necessary to
+send merchandize from Norfolk to Elizabeth
+city by the Grand Canal, so that it might get
+<pb id="grandy14" n="14"/>
+to sea by Pamlico Sound and Ocracock Inlet,
+I took some canal boats on shares; Mr. Grice,
+who married my other young mistress, was the
+owner of them. I gave him one-half of all
+I received for freight: out of the other half, I
+had to victual and man the boats, and all over
+that expense was my own profit.</p>
+        <p>Some time before this, my brother Benjamin
+returned from the West Indies, where he had
+been two years with his master's vessel. I
+was very glad to hear of it, and got leave to
+go see him. While I was sitting with his
+wife and him, his wife's master came and asked
+him to fetch a can of water: he did so, and
+carried it into the store. While I was waiting
+for him and wondering at his being so long
+away, I heard the heavy blows of a hammer:
+after a little while I was alarmed, and went to
+see what was going on. I looked into the
+store, and saw my brother lying on his back
+on the floor, and Mr. Williams, who had
+bought him, driving staples over his wrists and
+ankles; an iron bar was afterwards put across
+his breast, which was also held down by staples.
+<pb id="grandy15" n="15"/>
+I asked what he had been doing, and was told
+that he had done nothing amiss, but that his
+master had failed, and he was sold towards
+paying the debts. He lay in that state all
+that night; next day he was taken to jail, and
+I never saw him again. This is the usual
+treatment under such circumstances. I had to
+go by my mother's next morning, but I feared
+to tell her what had happened to my brother:
+I got a boy to go and tell her. She was blind
+and very old, and was living in a little hut, in
+the woods, after the usual manner of old worn-
+out slaves: she was unable to go to my brother
+before he was taken away, and grieved after
+him greatly.</p>
+        <p>It was some time after this, that I married a
+slave belonging to Mr. Enoch Sawyer, who
+had been so hard a master to me. I left her
+at home, (that is, at his house,) one Thursday
+morning, when we had been married about
+eight months. She was well, and seemed
+likely to be so: we were nicely getting
+together our little necessaries. On the Friday,
+as I was at work as usual with the boats, I
+<pb id="grandy16" n="16"/>
+heard a noise behind me, on the road which
+ran by the side of the canal: I turned to look,
+and saw a gang of slaves coming. When they
+came up to me, one of them cried out,  “Moses,
+my dear!” I wondered who among them should
+know me, and found it was my wife. She
+cried out to me, “I am gone.” I was struck
+with consternation. Mr. Rogerson was with
+them, on his horse, armed with pistols. I said
+to him, “for God's sake, have you bought
+my wife?” He said he had; when I asked
+him what she had done;  he said she had done
+nothing, but that her master wanted money.
+He drew out a pistol, and said that if I went
+near the <sic corr="wagon" resp="NS">waggon</sic> on which she was, he would
+shoot me. I asked for leave to shake hands
+with her, which he refused, but said I might
+stand at a distance and talk with her. My
+heart was so full, that I could say very little.
+I asked leave to give her a dram: he told Mr.
+Burgess, the man who was with him, to get
+down and carry it to her. I gave her the
+little money I had in my pocket, and bid her
+farewell. I have never seen or heard of her
+<pb id="grandy17" n="17"/>
+from that day to this. I loved her as I loved
+my life.</p>
+        <p>Mr. Grice found that I served him faithfully. 
+He and my young mistress, his wife,
+advised me as I was getting money fast, to try to
+buy myself. By their advice, I asked my  master
+what he would take for me. He wanted 800
+dollars, and when I said that was too much,
+he replied, he could get 1000 for me any
+minute. Mr. Grice afterwards went with me
+to him: he said to him, that I had already
+been more profitable to him than any five
+others of his negroes, and reminded him that
+we had been playfellows; in this way he got
+him to consent to take 600 dollars for me. I
+then went heartily to work, and whenever I
+paid him for my time, I paid him something
+also towards my freedom, for which he gave
+me receipts. When I made him the last payment 
+of the 600 dollars for my freedom, he
+tore up all the receipts: I told him he ought
+not to have done so; he replied it did not
+signify, for as soon as court-day came, he
+should give me my free papers. On Monday,
+<pb id="grandy18" n="18"/>
+in court week, I went to him; he was playing
+at billiards, and would not go with me, but told
+me to come again the next day: the next day
+he did the same, and so on daily. I went to
+his sister, Mrs. Grice, and told her I feared that
+he did not mean to give them to me; she said
+she feared so too, and sent for him. He was a
+very wicked young man; he came, and cursed
+her, and went out of the house. Mr. Grice
+was from home; on his return, he went to my
+master and told him he ought to give me my
+free papers; that I had paid for myself, and it
+was court week, so that there was no excuse.
+He promised he would, instead of which he
+rode away, and kept away till court was over.
+Before the next court came, he sold me to Mr.
+Trewitt for 600 dollars.</p>
+        <p>The way in which Mr. Trewitt came to
+buy me, was this. I had left the boats, and
+had gone with a schooner collecting lumber in
+Albemarle Sound for the merchants. Coming
+to Elizabeth City, I found a new store had
+been opened by Mr. Grice, which Mr. Sutton
+was keeping: the latter gentleman was glad
+<pb id="grandy19" n="19"/>
+to see me, and was desirous that I should
+return to my old employment with the canal
+boats, as lumber was in great demand at Norfolk. 
+I did so, and sold some cargoes to Mr.
+Moses Myers of Norfolk. As I was waiting,
+at the door of his store for settlement, he came
+up with Mr. Trewitt, whom I did not then
+know. Mr. Myers said to Mr. Trewitt, “here
+is a captain doing business for you.” Mr.
+Trewitt then asked me who had chartered the
+boats, and to whom I belonged. I told him
+Mr. Sutton had chartered me, and that I had
+belonged to Mr. James Grandy, but had bought
+myself. He said he would buy me; on which
+Mr. Myers told him he could not, as I had
+already bought myself, and further said, I was
+one of their old war captains, and had never
+lost a single thing of the property entrusted to
+me. Mr. Trewitt said, he would buy me,
+and would see about it as soon as he got to
+Elizabeth City. I thought no more about it.
+On my return voyage, I delivered a cargo at
+Elizabeth City for Mr. Trewitt. I had been
+at Mr. Grice's, the owner of the boats, and on
+<pb id="grandy20" n="20"/>
+my going away from him to meet Mr. Trewitt
+for settlement, he said he would go with me,
+as he wanted money. Opposite the Custom
+House we met Mr. Trewitt, who said, “Well,
+captain, I have bought you.” Mr. Grice said,
+“Let us have no nonsense; go and settle with
+ him.” Angry words passed between them,
+one saying he had bought me and the other
+denying that he had, or could, as I had bought
+myself already. We all went to Mr. Grice's
+dwelling house; there Mr. Trewitt settled
+with me about the freight, and then, jumping
+up, said, “Now I will show you, Mr. Grice,
+whether I am a liar or not.” He fetched the
+bill of sale; on reading it, Mr. Grice's <sic corr="color" resp="NS">colour</sic>
+changed, and he sent for Mrs. Grice. When
+she read it, she began to cry; seeing that, I
+began to cry too. She sent me to her brother,
+who was at Mr. Wood's boarding house.
+He was playing at billiards. I said to him,
+“Master James, have you sold me?” He said
+“No.” I said, he had; when he turned
+round and went into another room, crying; I
+followed him. All the gentlemen followed
+<pb id="grandy21" n="21"/>
+us, saying, “Captain Grandy, what is the
+matter?” I told them Master James had sold
+me again. They asked him why he had done
+it: he said it was because people had jeered
+him, by saying I had more sense than he had.
+They would not suffer him to remain in the
+boarding house, but turned him out, there and
+then, with all his trunks and boxes. Mrs.
+Grice, his sister, sued him in my name for my
+liberty, but he gained the cause: the court
+maintained that I, and all I could do, belonged
+to him, and that he had a right to do as he
+pleased with me and all my earnings, as his
+own property, until he had taken me to the
+Court House, and given me my free papers,
+and until, besides that, I had been a year and
+a day in the Northern States to gain my residence.</p>
+        <p>So I was forced to go to Mr. Trewitt. He
+agreed that, if I would pay him the same
+wages as I paid my late master, and the 600
+dollars he gave for me, he would give me my
+free papers. He bought two canal boats; and
+taking me out of Mr. Grice's employment, set
+<pb id="grandy22" n="22"/>
+me to work them on the same terms as I did
+for my former master. I was two years and a
+half in earning the 600 dollars to pay for myself
+the second time. Just when I had completed
+the payment, he failed. Oh Christmas eve he
+gave me a letter to take to Mr. Mews, at Newbegun 
+Creek. I was rather unwilling to take
+it, wishing to go to my wife; I told him, too,
+I was going to his office to settle with him.
+He offered to give me two dollars to take the
+letter, and said he would settle when I came
+back: then Mr. Shaw came from another
+room, and said his vessel was ready loaded,
+but he had nobody he could trust with his
+goods; he offered me five dollars to take the
+vessel down, and deliver the goods to Mr. Knox,
+who also was at Newbegun Creek. The wind
+was fair, and the hands on board, so I agreed:
+it being Christmas eve, I was glad of something 
+to carry to my wife. I ran the vessel
+down to the mouth of the Creek, and anchored:
+when the moon rose, I went up the river. I
+reached the wharf, and commenced taking out
+the goods that night, and delivered them all
+<pb id="grandy23" n="23"/>
+safely to Mr. Knox next morning. I then 
+took the letter to Mr. Mews, who read it, and
+looking up at me said, “Well, you  belong to
+me.” I thought he was joking, and said, “How?
+What way?” He said, “Don't you recollect
+when Trewitt chartered Wilson Sawyer's brig
+to the West Indies?” I said, I did. He
+told me Trewitt then came to him to borrow
+600 dollars, which he would not lend except
+he had a mortgage on me: Trewitt was to
+take it up at a certain time, but never did. I
+asked him, whether he really took the mortgage 
+on me? He replied that “he certainly
+thought Trewitt would have taken up the
+mortgage, but he had failed, and was not worth
+a cent, and he, Mews, must have his money.”
+I asked him whether he had not helped me
+and my young mistress in the Court House,
+when Master James fooled me before? He
+said he did help me all he could, and that
+he should not have taken a mortgage on me,
+but that he thought Trewitt would take it up.
+Trewitt must have received some of the last
+payments from me, after he had given the
+<pb id="grandy24" n="24"/>
+mortgage, and knew he should fail; for the
+mortgage was given two months before this
+time.</p>
+        <p>My head seemed to turn round and round; I
+was quite out of my senses; I went away
+towards the woods; Mr. Mews sent his waiter
+after me, to persuade me to go back: at first I
+refused, but afterwards went. He told me he
+would give me another chance to buy myself,
+and I certainly should have my freedom this
+time. He said Mr. Enoch Sawyer wanted to
+buy me to be his overseer in the Swamp. I
+replied, I would never try again to buy myself, 
+and that they had already got 1200 dollars 
+from me. <ref targOrder="U" id="ref1" n="1" resp="NS" target="note1">My wife,</ref> (this was my second
+<note id="note1" n="1" rend="sc" resp="author" place="foot" anchored="yes" target="ref1">It will be observed that the narrator married
+a second wife, without having heard of the decease
+of the first. To explain this fact, it is necessary to
+state, that the frequent occurrence of cases where
+husbands and wives, members of Christian societies,
+were finally separated by sale, led the ministers,
+some years ago, to deliberate on the subject: they
+decided that such a separation might be considered
+as the death of the parties to each other, and they
+therefore agreed to consider subsequent marriages
+not immoral. The practice is general. It is scarcely 
+necessary to remark that a more unequivocal and
+impressive proof of the heinous nature of the system
+could hardly exist. It breaks up the fondest <sic resp="NS">connexions,</sic> it tears up the holiest attachments, and
+induces the ministers of religion, as much as in them
+lies, to garble the divine law to suit its own infernal
+exigencies.</note>
+<pb id="grandy25" n="25"/>
+wife) belonged to Mr. Sawyer: he told me
+that her master would not allow me to go to
+see her, if I would not consent to what he now
+<sic resp="NS">preposed</sic>: for any <sic corr="colored" resp="NS">coloured</sic>  person going on
+the grounds of a white man after being warned
+of, is liable to be flogged or even shot. I thus
+found myself forced to go, although no <sic corr="colored" resp="NS">coloured</sic>
+man wishes to live at the house where his wife
+lives, for he has to endure the continual misery
+of seeing her flogged and abused, without
+daring to say a word in her defence.</p>
+        <p>In the service of Mr. Sawyer, I got into a
+fair way of buying myself again; for I undertook 
+the <sic resp="NS">lightering</sic> of the shingles or boards
+out of the Dismal Swamp, and hired hands to
+assist me. But my master had become security 
+for his two sons-in-law at Norfolk, who
+failed; in consequence of which, he sold
+<pb id="grandy26" n="26"/>
+eighteen <sic corr="colored" resp="NS">coloured</sic> people, his share of the
+Swamp, and two plantations. I was one of
+the slaves he kept, and after that had to work
+in the corn-field the same as the rest. The
+overseer was a bad one, his name was Brooks.
+The horn was blown at sunrise; the <sic corr="colored" resp="NS">coloured</sic>
+people had then to march before the overseer
+to the field, He on horseback. We had to
+work, even in long, summer days, till twelve
+o'clock, before we tasted a morsel; men, women,
+and children all being served alike. At noon
+the cart appeared with our breakfast. It was
+in large trays, and was set on the ground.
+There was bread, of which a piece was cut off
+for each person; then there was small hominy 
+boiled, (that is, Indian corn, ground in the
+hand-mill) and besides this, two herrings for
+each of the men and women, and one for each
+of the children. Our drink was the water in
+the ditches, whatever might be its state; if the
+ditches were dry, water was brought to us by
+boys. The salt fish made us always thirsty,
+but no other drink than water was ever
+allowed. However thirsty a slave may be,
+<pb id="grandy27" n="27"/>
+he is not allowed to leave his employment
+for a moment to get water; he can only
+have it when the hands in working have
+reached the ditch at the end of the rows.
+The overseer stood with his watch in his
+hand, to give us just an hour; when he
+said “rise,” we had to rise and go to work
+again. The women who had children laid
+them down by the hedge-row, and gave them
+straws and other trifles to play with: here
+they were in danger from snakes. I have seen
+a large snake found coiled round the neck and
+face of a child, when its mother went to suckle
+it at dinner time. The hands work in a line,
+by the side of each other; the overseer puts
+the swiftest hands in the fore row, and all must
+keep up with them. One black man is kept
+on purpose to whip the others in the field; if
+he does not flog with sufficient severity, he is
+flogged himself: he whips severely, to keep
+the whip from his own back. If a man has
+a wife in the same field with himself; he chooses
+a row by the side of hers, that with extreme
+<sic corr="labor" resp="NS">labour</sic> he may, if possible, help her. But he
+<pb id="grandy28" n="28"/>
+will not be in the same field if he can help it;
+for with his hardest <sic corr="labor" resp="NS">labour</sic>, he often cannot
+save her from being flogged, and he is obliged
+to stand by and see it; he is always liable to
+see her taken home at night, stripped naked,
+and whipped before all the men. On the estate
+I am speaking of, those women who had sucking 
+children suffered much from their breasts
+becoming full of milk, the infants being left
+at home; they therefore could not keep up with
+the other hands: I seen the overseer beat
+them with raw hide, so that blood and milk
+flew mingled from their breasts. A woman
+who gives offence in the field, and is large in
+the family way, is compelled to lie down over
+a hole made to receive her, and is then flogged
+with the whip, or beaten with a paddle,
+which has holes in it; at every hole comes a
+blister. One of my sisters was so severely
+punished in this way, that <sic corr="labor" resp="NS">labour</sic> was brought
+on, and the child was born in the field. This
+very overseer, Mr. Brooks, killed in this
+manner a girl named Mary: her father and
+mother were in the field at the time. He
+<pb id="grandy29" n="29"/>
+also killed a boy about twelve years old. He
+had no punishment, or even trial, for either.</p>
+        <p>There was no dinner till dark, when he gave
+the order to knock off and go home. The meal
+then was the same as in the morning) except
+that we had meat twice a-week.</p>
+        <p>On very few estates are the <sic corr="colored" resp="NS">coloured</sic> people
+provided with any bedding; the best masters
+give only a blanket; this master gave none.
+A board, which the slave might pick up anywhere 
+on the estate, was all he had to lie on.
+If he wished to procure bedding, he could only
+do so by working at nights. For warmth,
+therefore, the negroes generally sleep near a
+large fire, whether in the kitchen, or in their
+log, huts; their legs are often in this way
+blistered and greatly swelled, and sometimes
+badly burnt: they suffer severely from this 
+cause.</p>
+        <p>When the water-mill did not supply meal
+enough, we had to grind with the hand-mill.
+The night was employed in this work, without
+any thing being taken from the <sic corr="labor" resp="NS">labour</sic> of the
+day. We had to take turn at it, women as
+<pb id="grandy30" n="30"/>
+well as men; enough was to be ground to
+serve for the following day.</p>
+        <p>I was eight months in the field. My
+master, Mr. Sawyer, agreed to allow me eight
+dollars a month, while so employed, towards
+buying myself: it will be seen he did not give
+me even that. When I first went to work in
+the corn field, I had paid him 230 dollars
+towards this third buying of my freedom. I
+told him one night, I could not stand his field
+work any longer; he asked, why; I said I
+was almost starved to death, and had long
+been unaccustomed to this severe <sic corr="labor" resp="NS">labour</sic>. He
+wanted to know why I could not stand it as
+well as the rest. I told him, he knew well
+I had not been used to it for a long time;
+that his overseer was the worst that had ever
+been on the plantation, and that I could not
+stand it. He said he would direct Mr. Brooks
+to give each of us a pint of meal or corn every
+evening, which we might bake, and which
+would serve us next morning, till our breakfast 
+came at noon. The black people were
+much rejoiced that I got this additional allowance 
+<pb id="grandy31" n="31"/>
+for them. But I was not satisfied; I
+wanted liberty.</p>
+        <p>One Sunday morning, as Master was sitting
+in his porch, I went to him and offered to give
+him the 230 dollars I had already paid him, if,
+beside them, he would take for my freedom the
+600 dollars he had given for me. He drove
+me away, saying, I had no way to get the
+money. I sat down for a time, and went to
+him again: I repeated my offer to procure the
+600 dollars, and he again said, I could not.
+He called his wife out of the room to the porch,
+and said to her, “Don't you think Moses has
+taken to getting drunk?” She asked me if it
+was so; I denied it, when she inquired what
+was the matter. Master replied, “Don't you
+think he wants me to sell him?” She said,
+“Moses, we would not take any money for
+you. Captain Cormack put a thousand dollars
+for you on the supper table last Friday night,
+and Mr. Sawyer would not touch it: he wants
+you to be overseer in the Dismal Swamp.” I
+replied,  “Captain Cormack never said anything
+to me about buying me: I would cut my throat
+<pb id="grandy32" n="32"/>
+from ear to ear rather than go to him. I know
+what made him say so;  he is courting Miss
+Patsey, and he did it to make himself look
+big”. Mistress laughed and turned away, and
+slammed to the door: Master shook himself
+with laughing, and put the paper he was reading 
+before his face, knowing that I spoke the
+truth.  Captain Cormack was an old man who
+went on crutches: Miss Patsey was the finest
+of master's daughters. Master drove me away
+from him again. </p>
+        <p>On Monday morning, Mr. Brooks, the overseer, 
+blew the horn as usual for all to go to the
+field. I refused to go. I went to master and
+told him that if he would give me a paper, I
+would go and fetch the 600 dollars; he then
+gave me a paper, stating that he was willing
+to take that sum for my freedom; so I hired
+an old horse and started for Norfolk; fifty
+miles off.</p>
+        <p>When I reached Deep Creek, I went to the
+house of Captain Edward Minner. He was
+very glad to see me, for in former days I had
+done much business for him: he said how
+<pb id="grandy33" n="33"/>
+sorry he had been to hear that I was at field-
+work. He inquired where I was going. I
+said to Norfolk, to get some of the merchants
+to let me have money to buy myself. He
+replied, “What did I always say to you? Was
+it not, that I would let you have the money at
+any time, if you would only tell me when you
+could be sold?” He called Mrs. Minner into
+the room, and told her I could be sold for my
+freedom: she was rejoiced to hear it. He said,
+“Put up your horse at Mr. Western's Tavern,
+for you need go no farther; I have plenty of
+old rusty dollars, and no man shall put his
+hand on your collar  again to say you are a
+slave. Come and stay with me to-night, and
+in the morning I will get Mr. Garrett's horse,
+and go with you.”</p>
+        <p>Next morning we set off, and found master
+at Major Farrance's, at the cross canal, where
+I knew he was to be that day, to sell his share
+of the canal. When I saw him he told me to
+go forward home, for he would not sell me. I
+felt sick and sadly disappointed. Captain Minner
+stepped up to him and <sic corr="showed" resp="NS">shewed</sic> him
+<pb id="grandy34" n="34"/>
+the paper he had given me, saying, “Mr.
+Sawyer, is not this your handwriting?” He
+replied, “Mistress said, the last word when I
+came away, I was not to sell him, but send
+him home again.” Captain Minner said,
+“Mind, gentlemen, I do not want him for a
+slave; I want to buy him for freedom. He
+will repay me the money, and I shall not
+charge him a cent of interest for it. I would
+not have a <sic corr="colored" resp="NS">coloured</sic> person to drag me down
+to hell, for all the money in the world.”  A
+gentleman who was by said it was a shame
+I should be so treated; I had bought myself
+so often that Mr. Sawyer ought to let me go.
+The very worst man as an overseer over the
+persons employed in digging the canal, Mr.
+Wiley M'Pherson, was there: he was never
+known to speak in <sic corr="favor" resp="NS">favour</sic> of a <sic corr="colored" resp="NS">coloured</sic> person;
+even he said that Mr. Sawyer ought to let me
+go, as I had been sold so often. At length Mr.
+Sawyer consented I should go for 650 dollars
+and would take no less. I wished Captain
+Minner to give the extra 50 dollars, and not
+to stand about it. I believe it was what
+<pb id="grandy35" n="35"/>
+M'Pherson said that induced my master to let
+me go: for he was well known for his great
+severity to <sic corr="colored" resp="NS">coloured</sic> people, so that after even he
+had said so, master could not stand out. The
+Lord must have opened M'Pherson's heart
+to say it.</p>
+        <p>I have said this M'Pherson was an overseer
+where slaves were employed in cutting canals.
+The <sic corr="labor" resp="NS">labour</sic> there is very severe. The ground is
+often very boggy: the negroes are up to the
+middle or much deeper in mud and water, cutting 
+away roots and baling out mud: if they
+can keep their heads above water, they work
+on. They lodge in huts, or as they are called
+camps, made of shingles or boards. They lie
+down in the mud which has adhered to them,
+making a great fire to dry themselves, and
+keep off the cold. No bedding whatever is
+ allowed them; it is only by work done over
+his task, that any of them can get a blanket.
+They are paid nothing except for this overwork. 
+Their masters come once a month to
+receive the money for their <sic corr="labor" resp="NS">labour</sic>: then perhaps 
+some few very good masters will give
+<pb id="grandy36" n="36"/>
+them two dollars each, some others one dollar,
+some a pound of tobacco, and some nothing at
+all. The food is more abundant than that of
+field slaves; indeed it is the best allowance in
+America: it consists of a peck of meal, and six
+pounds of pork per week; the pork is commonly 
+not good, it is damaged, and is bought
+as cheap as possible at auctions.</p>
+        <p>M'Pherson gave the same task to each
+slave; of course the weak ones often failed to
+do it. I have often seen him tie up persons
+and flog them in the morning, only because
+they were unable to get the previous day's
+task done: after they were flogged, pork or
+beef brine was put on their bleeding backs, to
+increase the pain; he sitting by resting himself, 
+and seeing it done. After being thus
+flogged and pickled, the sufferers often remained 
+tied up all day, the feet just touching
+the ground, the legs tied, and pieces of wood
+put between the legs. All the motion allowed
+was a slight turn of the neck. Thus exposed
+and helpless, the yellow flies and <sic corr="mosquitoes" resp="NS">musquitoes</sic>
+in great numbers would settle on the bleeding
+<pb id="grandy37" n="37"/>
+and smarting back, and put the sufferer to
+extreme torture. This continued all day, for
+they were not taken down till night. In flogging, 
+he would sometimes tie the slave's shirt
+over his head, that he might not flinch when
+the blow was coming: sometimes he would
+increase his misery, by blustering and calling
+out that he was coming to flog again, which
+he did or did not, as happened. I have seen
+him flog slaves with his own hands, till their
+entrails were visible; and I have seen the sufferers 
+dead when they were taken down. He
+never was called to account in any way for it.</p>
+        <p>It is not uncommon for flies to blow the
+sores made by flogging. In that case, we get a
+strong weed growing in those parts, called the
+Oak of Jerusalem; we boil it at night, and
+wash the sores with the liquor, which is extremely 
+bitter: on this, the creepers or maggots
+come out. To relieve them in some degree
+after severe flogging, their fellow-slaves rub
+their backs with part of their little allowance
+of fat meat.</p>
+        <p>For fear the slaves should run away, while
+<pb id="grandy38" n="38"/>
+unable to work from flogging, He kept them
+chained till they could work again. This
+man had from 500 to 700 men under his
+control. When out of other employment, I
+sometimes worked under him, and saw his
+doings. I believe it was the word of this man
+which gained my freedom. He is dead, but
+there are yet others like him on public works.</p>
+        <p>When the great kindness of Captain Minner
+had set me clear of Mr. Enoch Sawyer, I went
+to my old occupation of working the canal
+boats. These I took on shares as before.
+After a time, I was disabled for a year from
+following this employment by a severe attack
+of rheumatism, caught by frequent exposure to
+severe weather. I was anxious however to be
+earning something towards the repayment of
+Captain Minner, lest any accident unforeseen
+by him or me, should even yet deprive me of
+the liberty for which I so longed, and for which
+I had suffered so much. I therefore had myself 
+carried in a lighter up a cross canal in the
+Dismal Swamp, and to the other side of Drummond's 
+Lake. I was left on the shore and
+<pb id="grandy39" n="39"/>
+there I built myself a little hut, and had provisions 
+brought to me as opportunity served.
+Here, among, snakes, bears, and panthers, whenever 
+my strength was sufficient, I cut down a
+juniper tree, and converted it into cooper's
+timber. The camp, like those commonly set
+up for negroes, was entirely open on one side;
+on that side a fire is lighted at night, and the
+person sleeping puts his feet towards it. One
+night I was awoke by some large animal smelling 
+my face, and snuffing strongly; I felt its
+cold muzzle. I suddenly thrust out my arms,
+and shouted with all my might; it was frightened 
+and made off. I do not know whether
+it was a bear or a panther, but it seemed as
+tall as a large calf. I slept of course no more
+that night. I put my trust in the Lord, and
+continued on the spot; I was never attacked
+again.</p>
+        <p>I recovered, and went to the canal boats again.
+By the end of three years from the time he laid
+down the money, I entirely repaid my very
+kind and excellent friend. During this time he
+made no claim whatever on my services; I was
+<pb id="grandy40" n="40"/>
+altogether on the footing of a free man, as far
+as a <sic corr="colored" resp="NS">coloured</sic> man can there be free.</p>
+        <p>When, at length, I had repaid Captain
+Minner, and had got my free papers, so that my
+freedom was quite secure, my feelings were
+greatly excited. I felt to myself so light, that
+I almost thought I could fly, and in my sleep
+I was always dreaming of flying over woods
+and rivers. My gait was so altered by my
+gladness, that people often stopped me, saying,
+“Grandy, what is the matter?” I excused
+myself as well as I could; but many perceived
+the reason, and said, “Oh ! he is so pleased
+with having got his freedom.” Slavery will
+teach any man to be glad when he gets
+freedom.</p>
+        <p>My good master, Captain Minner, sent me
+to Providence, in Rhode Island, to stay a year
+and a day in order to gain my residence. But
+I stayed only two months. Mr. Howard's vessel 
+came there laden with corn. I longed much
+to see my master and mistress for the kindness
+they had done me, and so went home in the
+schooner. On my arrival, I did not stop at
+<pb id="grandy41" n="41"/>
+my own house, except to ask my wife at the
+door how she and the children were in health,
+but went up the town to see Captain and
+Mrs. Minner. They were very glad to see me,
+and consulted with me about my way of getting
+a living. I wished to go on board the New
+York and Philadelphia Packets, but feared I
+should be troubled for my freedom. Captain
+Minner thought I might venture, and I therefore 
+engaged myself. I continued in that employment 
+till his death, which happened about
+a year after my return from Providence. Then
+I returned to Boston; for, while he lived, I
+knew I could rely on his protection; but when
+I lost my friend, I thought it best to go wholly
+to the Northern States.</p>
+        <p>At Boston I went to work at sawing wood,
+sawing with the whip-saw, <sic corr="laboring" resp="NS">labouring</sic> in the
+coal yards, loading and unloading vessels, &amp;c. 
+After <sic corr="laboring" resp="NS">labouring</sic> in this way for a few months,
+I went a voyage to St. John's in Porto Rico,
+with Captain Cobb, in the schooner, <hi rend="italics">New
+Packet. </hi>On the return voyage, the vessel got
+ashore on Cape Cod: we left her, after doing in
+<pb id="grandy42" n="42"/>
+vain what we could to right her; she was
+afterwards recovered. I went several other
+voyages, and particularly two to the Mediterranean. 
+The last was to the East Indies, in
+the ship <hi rend="italics">James Murray,</hi> Captain Woodbury;
+owner, Mr. Gray. My entire savings up to the
+period of my return from this voyage amounted
+to 300 dollars; I sent it to Virginia, and bought
+my wife. She came to me at Boston. I dared
+not go myself to fetch her, lest I should be
+again deprived of my liberty, as often happens
+to free <sic corr="colored" resp="NS">coloured</sic> people.</p>
+        <p>At the time called the time of the Insurrection, 
+about eight years ago, when the whites
+said the <sic corr="colored" resp="NS">coloured</sic> people were going to rise,
+and shot, hanged, and otherwise destroyed
+many of them, Mrs. Minner thought she
+saw me in the street, and fainted there. The
+soldiers were seizing all the blacks they could
+find, and she knew if I were there, I should be
+sure to suffer with the rest. She was mistaken; 
+I was not there.</p>
+        <p>My son's master at Norfolk sent a letter to
+me at Boston to say, that if I could raise 450
+<pb id="grandy43" n="43"/>
+dollars, I might have his freedom; he was
+then fifteen years old. I had again saved 300
+dollars. I knew the master was a drinking
+man, and I was therefore very anxious to get
+my son out of his hands. I went to Norfolk
+running the risk of my liberty, and took my
+300 dollars with me, to make the best bargain
+I could. Many gentlemen, my friends, in
+Boston, advised me not to go myself: but I
+was anxious to get my boy's freedom, and I
+knew that nobody in Virginia had any cause of
+complaint against me; so, notwithstanding
+their advice, I determined to go.</p>
+        <p>When the vessel arrived there, they said it
+was against the law for me to go ashore. The
+mayor of the city said, I had been among the
+cursed Yankees too long. He asked me whether
+I did not know, that it was unlawful for me
+to land; to which I replied, that I did not
+know it, for I could neither read nor write.
+The merchants for whom I had formerly done
+business came on board, and said they cared
+for neither the mare (mayor) nor the horse,
+and insisted that I should go ashore. I told
+<pb id="grandy44" n="44"/>
+the mayor the business on which I came, and
+he gave me leave to stay nine days, telling me
+that if I were not gone in that time, he would
+sell me for the good of the State.</p>
+        <p>I offered my boy's master the 300 dollars:
+he counted the money, but put it back to me,
+refusing to take less than 450 dollars. I went
+on board, to return to Boston. We met with
+head winds, and put back three times to
+Norfolk, anchoring each time Just opposite the
+jail. The nine days had expired, and I feared
+the mayor would find me on board and sell me.
+I could see the jail full of <sic corr="colored" resp="NS">coloured</sic> people, and
+even the whipping post, at which they were
+constantly enduring the lash. While we were
+lying there by the jail, two vessels came from
+Eastern Shore, Virginia, laden with cattle and
+<sic corr="colored" resp="NS">coloured</sic> people. The cattle were lowing for
+their calves, and the men and women were
+crying for their husbands, wives, or children.
+The cries and groans were terrible, notwithstanding 
+there was a whipper on board each
+vessel, trying to compel the poor creatures to
+keep silence. These vessels lay close to ours.
+<pb id="grandy45" n="45"/>
+I had been a long time away from such scenes;
+the sight affected me very much, and added
+greatly to my fears.</p>
+        <p>One day, I saw a boat coming from the
+shore with white men in it. I thought they
+were officers coming to take me; and such was
+my horror of slavery, that I twice ran to the
+ship's waist, to jump overboard into the strong
+ebb-tide then running, to drown myself: but
+a strong impression on my mind restrained me
+each time.</p>
+        <p>Once more we got under way for New York;
+but meeting again with head winds, we ran
+into Maurice's River, in Delaware Bay. New
+Jersey, in which that place lies, is not a slave
+state. So I said to the captain, “Let me have
+a boat, and set me on the free land once-more,
+then I will travel home overland; for I will
+not run the risk of going back to Virginia any
+more.” The captain said there was no danger,
+but I exclaimed, “No! no! captain, I will
+not try it; put my feet on free land once again,
+and I shall be safe.” When I once more
+touched the free land, the <sic resp="NS">burthen</sic> of my mind
+<pb id="grandy46" n="46"/>
+was removed: if two ton weight had been
+taken of me, the relief would not have seemed
+so great.</p>
+        <p>From Maurice's Creek I traveled to Philadelphia,
+and at that place had a letter written
+to my wife at Boston, thanking God that I
+was on free land again. On arriving at Boston,
+I borrowed 160 dollars of a friend, and going
+to New York I obtained the help of Mr.
+John Williams to send the 450 dollars to
+Norfolk: thus, at length, I bought my son's
+freedom. I met him at New York, and
+brought him on to Boston.</p>
+        <p>Six others of my children, three boys and
+three girls, were sold to New Orleans. Two of
+these daughters have bought their own freedom. 
+The eldest of them, Catherine, was sold
+three times after she was taken away from
+Virginia: the first time was by auction. Her
+last master but one was a Frenchman: she
+worked in his sugar-cane and cotton fields.
+Another Frenchman inquired for a girl on
+whom he could depend, to wait on his wife,
+who was in a consumption. Her master
+<pb id="grandy47" n="47"/>
+offered him my daughter; they went into the
+field to see her, and the bargain was struck.
+Her new master gave her up to his sick wife,
+on whom she waited till her death. As she
+had waited exceedingly well on his wife, her
+master offered her a chance of buying her
+freedom. She objected to his terms as too
+high; for he required her to pay him four
+dollars a week out of her earnings, and 1200
+dollars for her freedom. He said he could get
+more for her, and told her she might get plenty
+of washing at a dollar a dozen; at last she
+agreed. She lived near the river side, and
+obtained plenty of work. So anxious was she
+to obtain her freedom, that she worked nearly
+all her time, days and nights, and Sundays.
+She found, however, she gained nothing by
+working on Sundays, and therefore left it off.
+She paid her master punctually her weekly
+hire and also something towards her freedom,
+for which he gave her receipts. A good
+stewardess was wanted for a steam boat on the
+Mississippi; she was hired for the place at
+thirty dollars a-month, which is the usual
+<pb id="grandy48" n="48"/>
+salary: she also had liberty to sell apples and
+oranges on board; and commonly, the passengers 
+give from twenty-five cents to a dollar, to a
+stewardess who attends them Well. Her entire
+incoming, wages and all, amounted to about
+sixty dollars a-month. She remained at this
+employment till she had paid the entire sum of
+1200 dollars for her freedom.</p>
+        <p>As soon as she obtained her free papers, she
+left the steam-boat, thinking she could find her
+sister Charlotte. Her two first trials were
+unsuccessful: but On the third attempt she
+found her at work in the cane-field. She
+<sic corr="showed" resp="NS">shewed</sic> her sister's master her own free papers,
+and told him how she had bought herself: he
+said, that if her sister would pay him as much
+as she paid her master, she might go too. They
+agreed, and he gave her a pass. The two
+sisters went on board a steam-boat, and worked
+together for the wages of one, till they had
+saved the entire 1200 dollars for the freedom 
+of the second sister. The husband of
+Charlotte was dead: her children were left
+behind in the cotton and cane-fields; their
+<pb id="grandy49" n="49"/>
+master refuses to take less than 2400 dollars
+for them: their names and ages are as follows:
+Zeno, about fifteen; Antoinette, about thirteen;
+Joseph, about eleven; and Josephine about ten
+years old.</p>
+        <p>Of my other children, I only know that
+one, a girl named Betsy, is a little way from
+Norfolk in Virginia. Her master, Mr. William
+Dixon, is willing to sell her for 500 dollars.</p>
+        <p>I do not know where any of my other four
+children are, nor whether they be dead or alive.
+It will be very difficult to find them out; for the
+names of slaves are commonly changed with
+every change of master: they usually bear the
+name of the master to whom they belong at
+the time. They have no family name of their
+own by which they can be traced. Owing to
+this circumstance, and their ignorance of reading 
+and writing, to which they are compelled
+by law, all trace between parents and their
+children who are separated from them in childhood, 
+is lost in a few years. When, therefore,
+a child is sold away from its mother, she feels
+that she is parting from it for ever: there is
+<pb id="grandy50" n="50"/>
+little likelihood of her ever knowing what of
+good or evil <sic resp="NS">befals</sic> it. The way of finding
+out a friend or relative, who has been sold away
+for any length of time, or to any great distance, 
+is to trace him, if possible, to one master
+after another; or if that cannot be done, to
+inquire about the <sic corr="neighborhood" resp="NS">neighbourhood</sic> where he is
+supposed to be, until some one is found who
+can tell that such a person belonged to
+such or such a master: and the person supposed 
+to be the one sought for, may perhaps
+remember the names of the persons to whom
+his father and mother belonged. There is little
+to be <sic resp="NS">learnt</sic> from his appearance, for so many
+years may have passed away, that he may have
+grown out of the memory of his parents, or
+his nearest relations. There are thus no lasting
+family ties to bind relations together, not even
+the nearest, and this aggravates their distress
+when they are sold from each other. I have
+little hope of finding my four children again.</p>
+        <p>I have lived at Boston ever since I bought
+my freedom, except during the last year, which
+I have spent at Portland, in the state of Maine.</p>
+        <pb id="grandy51" n="51"/>
+        <p>I have yet said nothing of my father. He
+was often sold through the failure of his successive 
+owners. When I was a little boy, he
+was sold away from us to a distance: he was
+then so far off, that he could not come to see us
+<sic resp="NS">oftener</sic> than once a year. After that, he was
+sold to go still further away, and then he
+could not come at all. I do not know what
+has become of him.</p>
+        <p>When my mother became old, she was sent
+to live in a little lonely log-hut in the woods.
+Aged and worn out slaves, whether men or
+women, are commonly so treated. No care is
+taken of them, except, perhaps, that a little
+ground is cleared about the hut, on which the
+old slave, if able, may raise a little corn. As
+far as the owner is concerned, they live or die
+as it happens; is is just the same thing as
+turning out an old horse. Their children or
+other near relations, if living in the <sic corr="neighborhood" resp="NS">neighbourhood</sic>, 
+take it by turns to go at night, with a
+supply saved out of their own scanty allowance 
+of food, as well as to cut wood and fetch
+water for them: this is done entirely through
+<pb id="grandy52" n="52"/>
+the good feelings of the slaves, and not through
+the masters' taking care that it is done. On
+these night-visits, the aged inmate of the hut is
+often found crying, on account of sufferings
+from disease or extreme weakness, or from
+want of food and water in the course of the
+day: many a time, when I have drawn near
+to my mother's hut, I have heard her grieving
+and crying on these accounts: she was old
+and blind too, and so unable to help herself.
+She was not treated worse than others: it
+is the general practice. Some few good
+masters do not treat their old slaves so: they
+employ them in doing light jobs about the
+house and garden.</p>
+        <p>My eldest sister is in Elizabeth City. She
+has five children, who, of course, are slaves.
+Her master is willing to sell her for 100 dollars: 
+she is growing old. One of her children,
+a young man, cannot be bought under 900
+dollars.</p>
+        <p>My sister Tamar, who belonged to the same
+master with myself, had children very fast.
+Her husband had hard owners, and lived at a
+<pb id="grandy53" n="53"/>
+distance. When a woman who has many children 
+belongs to an owner who is under age, as
+ours was, it is customary to put her and the
+children out yearly to the person who will
+maintain them for the least money, the person
+taking them having the benefit of whatever
+work the woman can do. But my sister was
+put to herself in the woods. She had a bit of
+ground cleared, and was left to hire herself out
+to <sic corr="labor" resp="NS">labour</sic>. On the ground she raised corn and
+flax; and obtained a peck of corn, some herrings, 
+or a piece of meat for a day's work
+among the <sic corr="neighboring" resp="NS">neighbouring</sic> owners. In this way
+she brought up her children. Her husband
+could help her but little. As soon as each of
+the children became big enough, it was sold
+away from her.</p>
+        <p>After parting thus with five, she was sold
+along with the sixth, (about a year and a half
+old,) to the speculators; these are persons who
+buy slaves in Carolina and Virginia, to sell
+them in Georgia and New Orleans. After
+travelling with them more than 100 miles, she
+made her escape, but could not obtain her
+<pb id="grandy54" n="54"/>
+child to take it with her. On her journey
+homeward, she traveled by night, and hid herself 
+in thick woods by day. She was in great
+danger on the road, but in three weeks reached
+the woods near us. There she had to keep herself 
+concealed; I, my mother, and her husband
+knew where she was: she lived in a den she
+made for herself. She sometimes ventured
+down to my mother's hut, where she was hid
+in a hollow under the floor. Her husband
+lived twenty-five miles off: he would sometimes 
+set off after his day's work was done,
+spend part of the night with her, and get back
+to work before next sunrise: sometimes he
+would spend Sunday with her. We all supplied 
+her with such provisions as we could
+save. It was necessary to be very careful in
+visiting her; we tied pieces of wood or bundles
+of rags to our feet that no track might be made.</p>
+        <p>In the wood she had three children born;
+one of them died. She had not recovered
+from the birth of the youngest, when she was
+discovered and taken to the house of her old
+master.</p>
+        <pb id="grandy55" n="55"/>
+        <p>She was afterwards sold to Culpepper, who
+used her very cruelly. He was beating her
+dreadfully, and the blood was streaming from
+her head and back, one day when I happened
+to go to his house. I was greatly grieved, and 
+asked his leave to find a person to buy her:
+instead of answering me, he struck at me with
+an axe, and I was obliged to get away as fast
+as I could. Soon after, he failed, and she was
+offered for sale in Norfolk; there Mr. Johnson
+bought her and her two children, out of friendship 
+for me: he treated her exceedingly well,
+and she served him faithfully: but it was not
+long before she was claimed by a person, to
+whom Culpepper had mortgaged her before he
+sold her to Johnson. This person sold her to
+Long, of Elizabeth City, where again she was
+very badly treated. After a time, Long
+sold her to go to Georgia: she was very in at
+the time, and was taken away in a cart. I
+hear from her sometimes, and am very anxious
+to purchase her freedom, if ever I should be
+able. Two of her children are now in North
+Carolina, and are longing to obtain their freedom.
+<pb id="grandy56" n="56"/>
+I know nothing of the others, nor am I
+likely ever to hear of them again.</p>
+        <p>The treatment of slaves is mildest near the
+borders, where the free and slave states join:
+it becomes more severe, the further we go from
+the free states. It is more severe in the west
+and south than where I lived. The sale of
+slaves most frequently takes place from the
+milder to the severer parts: in that <sic corr="direction" resp="NS">directtion</sic>, 
+there is great traffic in slaves, which is
+carried on by the speculators. On the frontier
+between the slave and free states there is a
+guard; no <sic corr="colored" resp="NS">coloured</sic> person can go over a ferry
+without a pass. By these regulations, and the
+great numbers of patrols, escape is made very
+difficult.</p>
+        <p>Formerly slaves were allowed to have religious 
+meetings of their own; but after the
+insurrection which I spoke of before, they were
+forbidden to meet even for worship. Often
+they are flogged, if they are found singing or
+praying at home. They may go to the places of
+worship used by the whites; but they like their
+own meetings better. My wife's brother Isaac
+<pb id="grandy57" n="57"/>
+was a <sic corr="colored" resp="NS">coloured</sic> preacher. A number of slaves
+went privately into the wood to hold meetings;
+when they were found out, they were flogged,
+and each was forced to tell who else was there.
+Three were shot, two of whom were killed,
+and the other was badly wounded. For
+preaching to them, Isaac was flogged, and his
+back pickled; when he was nearly well, he
+was flogged and pickled again, and so on for
+some months; then his back was suffered to
+get well, and he was sold. A little while
+before this, his wife was sold away with an
+infant at her breast; and of his six children, 
+four had been sold away by one at a time.
+On the way with his buyers he dropped down
+dead; his heart was broken.</p>
+        <p>Having thus narrated what has happened to
+myself, my relatives, and near friends, I will
+add a few matters about slaves and <sic corr="colored" resp="NS">coloured</sic>
+persons in general.</p>
+        <p>Slaves are under fear in every word they
+speak. If in their master's kitchen they let
+slip an expression of discontent, or a wish for
+freedom, it is often reported to the master or
+mistress by the children of the family, who may
+<pb id="grandy58" n="58"/>
+be playing about: severe flogging is often the
+consequence.</p>
+        <p>I have already said that it is forbidden by
+law to teach <sic corr="colored" resp="NS">coloured</sic> persons to read or write.
+A few well disposed white young persons, of
+the families to which the slaves belonged, have
+ventured to teach them, but they dare not let
+it be known they have done so.</p>
+        <p>The proprietors get new land cleared in this
+way. They first “dead” a piece of ground in
+the woods adjoining the plantation. By  “deading” 
+is meant killing the trees, by cutting a
+nick all round each, quite through the bark.
+Out of this ground each <sic corr="colored" resp="NS">coloured</sic> person has a
+piece as large as he can tend after his other
+work is done: the women have pieces in like
+manner. The slave works at night, cutting
+down the timber and clearing the ground;
+after it is cleared, he has it for his own use for
+two or three years, as may be agreed on. As
+these new clearings lie between the woods and
+the old cultivated land, the squirrels and <sic corr="raccoons" resp="NS">racoons</sic> first come at the crops on them, and thus
+those on the planters' land are saved from
+much waste. When the negro has had the
+<pb id="grandy59" n="59"/>
+land for the specified time, and it has become
+fit for the plough, the master takes it, and he
+is removed to another new piece. It is no
+uncommon thing for the land to be taken from
+him before the time is out, if it has sooner become 
+fit for the plough. When the crop is
+gathered, the master comes to see how much
+there is of it; he then gives the negro an order
+to sell that quantity; without that order, no
+storekeeper dare buy it. The slave lays out
+the money in something tidy, to go to meeting
+in, and something to take to his wife.</p>
+        <p>The evidence of a black man, or of ever so
+many black men, stands for nothing against that
+of one white; in consequence of this, the free
+negroes are liable to great cruelties. They have
+had their dwellings entered, their bedding and
+furniture destroyed, themselves, their wives,
+and children beaten; some have even been
+taken, with their wives, into the woods, and
+tied up, flogged, and left there. There is
+nothing which a white man may not do
+against a black one, if he only takes care that
+no other white man can give evidence against
+him.</p>
+        <pb id="grandy60" n="60"/>
+        <p>A law has lately been passed in New Orleans,
+prohibiting any free <sic corr="colored" resp="NS">coloured</sic> person from
+going there.</p>
+        <p>The coasting packets of the ports on the
+Atlantic, commonly have <sic corr="colored" resp="NS">coloured</sic> cooks. When
+a vessel goes from New York or Boston to a
+port in the slave-holding estates, the black cook
+is usually put in jail till the vessel sails again.</p>
+        <p>No <sic corr="colored" resp="NS">coloured</sic> person can travel without a pass.
+If he cannot show it, he may be flogged by
+any body; in such a case, he often is seized and
+flogged by the patrols. all through the slave
+states there are patrols; they are so numerous
+that they cannot easily be escaped.</p>
+        <p>The only time when a man can visit his
+wife, when they are on different estates, is
+Saturday evening and Sunday. If they be
+very near to each other, he may sometimes see
+her on Wednesday evening. He must always
+return to his work by sunrise; if he fail to do
+so, he is flogged. When he has got together all
+the little things he can for his wife and children,
+and has walked many miles to see them, he
+may find that they have all been sold away,
+some in one direction, and some in another.
+<pb id="grandy61" n="61"/>
+He gives up all hope of seeing them again,
+but he dare not utter a word of complaint.</p>
+        <p>It often happens that when a slave wishes
+to visit his wife on another plantation, his own
+master is busy or from home, and therefore he
+cannot get a pass. He ventures without it.
+If there be any little spite against his wife, or
+himself, he maybe asked for it when he arrives;
+and not having it, he may be beaten with
+thirty-nine stripes, and sent away. On his
+return he may be seized by the patrol, and
+flogged again for the same reason, and he will
+not wonder if he is again seized and beaten for
+the third time.</p>
+        <p>If a negro has given offence to the patrol,
+even by so innocent a matter as dressing tidily
+to go to a place of worship, he will be seized
+by one of them, and another will tear up his
+pass: while one is flogging him, the others
+will look another way; so when he or his
+master make complaint of his having been
+beaten without cause, and he points out the
+person who did it, the others will swear they
+saw no one beat him. His oath, being that of
+a black man, would stand for nothing, but he
+<pb id="grandy62" n="62"/>
+may not even be sworn; and in such a case
+his tormentors are safe, for they were the
+only whites present.</p>
+        <p>In all the slave states there are men who
+make a trade of whipping negroes: they ride
+about inquiring for jobs of persons who keep
+no overseer; if there is a negro to be whipped,
+whether man or woman, this man is employed
+when he calls, and does it immediately; his
+fee is half a dollar. Widows and other females
+having negroes, get them whipped in this
+way. Many mistresses will insist on the slave
+who has been flogged, begging pardon for her
+fault on her knees, and thanking her for the
+correction.</p>
+        <p>A white man who lived near me in Camden
+county, Thomas Evidge, followed this business.
+He was also sworn-whipper at the Court
+House. A law was passed that any white man
+detected in stealing should be whipped. Mr.
+Dozier frequently missed hogs, and flogged
+many of his negroes on suspicion of stealing
+them: when he could not in his suspicions fix
+on any one in particular, he flogged them all
+round, saying that he was sure of having
+<pb id="grandy63" n="63"/>
+punished the right one. Being one day shooting 
+in his woods, he heard the report of another
+gun, and shortly after met David Evidge, the
+nephew of the whipper, with one of his hogs on
+his back which had just been shot: David was
+sent to prison, convicted of the theft, and sentenced 
+to be flogged. His uncle, who vapoured
+about greatly in flogging slaves, and taunted
+them with unfeeling speeches while he did it,
+could not bear the thought of flogging his
+nephew, and hired a man to do it. The person
+pitched on, chanced to be a sailor; he laid it
+well on the thief: pleased enough were the
+<sic corr="colored" resp="NS">coloured</sic> people to see a white back for the first
+time subjected to the lash.</p>
+        <p>Another man of the same business, George
+Wilkins, did no greater credit to the trade.
+Mr. Carnie, on Western Branch, Virginia,
+often missed corn from his barn. Wilkins,
+the whipper, was very officious in pointing
+out this slave and that, as very likely to be
+the thief: with nothing against them but his
+insinuations, some were severely punished,
+being flogged by this very Wilkins; and others,
+at his instigation, were sold away. One night
+<pb id="grandy64" n="64"/>
+Mr. Carnie, unknown to his <sic corr="colored" resp="NS">coloured</sic> people,
+set a steel trap in the barn. Some of the
+negroes, passing the barn before morning, saw
+Wilkins standing there, but were not aware he
+was caught. They called the master, that he
+might seize the thief before he could escape:
+he came and teased Wilkins during the night;
+in the morning he exposed him to the view of
+the <sic corr="neighbors" resp="NS">neighbours</sic>, and then set him at liberty
+without further punishment.</p>
+        <p>The very severe punishments to which slaves
+are subjected for trifling offences or none at all,
+their continued liability to all kinds of in usage
+without a chance of redress, and the agonizing
+feelings they endure at being separated from
+the dearest <sic corr="connections" resp="NS">connexions</sic>, drive many of them to
+desperation, and they abscond. They hide
+themselves in the woods, where they remain
+for months, and in some cases for years. When
+caught, they are flogged with extreme severity,
+their backs are pickled and the flogging repeated 
+as before described. After months of  this
+torture the back is allowed to heal, and the slave
+is sold away. Especially is this done when
+the slave has attempted to reach a free state.</p>
+        <pb id="grandy65" n="65"/>
+        <p>In violent thunder-storms, when the whites
+have got between feather beds to be safe from
+the lightning, I have often seen negroes, the
+aged as well as others, go out, and lifting up
+their hands, thank God that judgment was
+coming at last. So cruelly are many of them
+used, that judgment, they think, would be a
+happy release from their horrible slavery.</p>
+        <p>The proprietors, though they live in luxury,
+generally die in debt: their negroes are so
+hardly treated, that no profit is made by their
+<sic corr="labor" resp="NS">labour</sic>. Many of them are great gamblers.
+At the death of a proprietor, it commonly
+happens that his <sic corr="colored" resp="NS">coloured</sic> people are sold
+towards paying his debts. So it must and
+will be with the masters, while slavery continues: 
+when freedom is established, I believe
+they will begin to prosper greatly.</p>
+        <p>Before I close this Narrative, I ought to
+express my grateful thanks to the many friends
+in the Northern States, who have encouraged
+and assisted me: I shall never forget to speak
+of their kindness, and to pray for their prosperity. 
+I am delighted to say, that not only
+to myself, but to very many other <sic corr="colored" resp="NS">coloured</sic>
+<pb id="grandy66" n="66"/>
+persons, they have lent a benevolent helping
+hand. Last year, gentlemen whom I know
+bought no less than ten families from slavery,
+and this year they are pursuing the same good
+work. But for these numerous and heavy
+claims on their means and their kindness, I
+should have had no need to appeal to the
+generosity of the British public; they would
+gladly have helped me to redeem all my children 
+and relations.</p>
+        <p>When I first went to the Northern States,
+which is about ten years ago, although I was
+free as to the law, I was made to feel severely
+the difference between persons of different
+<sic corr="colors" resp="NS">colours</sic>. No black man was admitted to the
+same seats in churches with the whites, nor to
+the inside of public conveyances, nor into street
+coaches or cabs: we had to be content with
+the decks of steam-boats in all weathers, night
+and day, -- not even our wives or children being
+allowed to go below, however it might rain, or
+snow, or freeze; in various other ways, we
+were treated as though we were of a race of
+men below the whites. But the abolitionists
+boldly stood up for us, and through them things
+<pb id="grandy67" n="67"/>are much changed for the better. Now, we
+may sit in any part of many places of worship,
+and are even asked into the pews of respectable
+white families; many public conveyances now
+make no distinction between white and black.
+We begin to feel that we are really on the
+same footing as our fellow citizens. They see
+we can and do conduct ourselves with propriety, 
+and they are now admitting us in
+many cases to the same standing with themselves.</p>
+        <p>During the struggles which have procured
+for us this justice from our fellow-citizens, we
+have been in the habit of looking in public
+places for some well-known abolitionists, and
+if none that we knew were there, we addressed
+any person dressed as a Quaker; these classes
+always took our part against ill usage, and we
+have to thank them for many a contest in our
+behalf.</p>
+        <p>We were greatly delighted by the zealous
+efforts and powerful eloquence in our cause of
+ Mr. George Thompson, who came from our
+English friends to aid our suffering brethren.
+He was hated and mobbed by bad men amongst
+<pb id="grandy68" n="68"/>
+the whites; they put his life in great danger,
+and threatened destruction to all who sheltered
+him. We prayed for him, and did all we
+could to defend him. The Lord preserved him,
+and thankful were we when he escaped from our
+country with his life. At that time, and ever
+since, we have had a host of American friends,
+who have <sic corr="labored" resp="NS">laboured</sic> for the cause night and
+day; they have nobly stood up for the rights
+and <sic corr="honor" resp="NS">honour</sic> of the <sic corr="colored" resp="NS">coloured</sic> man; but they did
+so at first in the midst of scorn and danger.
+Now, thank God, the case is very different
+Mr. William Lloyd Garrison, who was hunted
+for his life by a mob in the streets of Boston
+has lately been chairman of a large meeting
+in <sic corr="favor" resp="NS">favour</sic> of abolition, held in Fanueil Hall,
+the celebrated public hall of Boston, called
+“the Cradle of Liberty.”</p>
+        <p>I am glad to say also, that numbers of my
+<sic corr="colored" resp="NS">coloured</sic> brethren now escape from slavery;
+some by purchasing their freedom, others by
+quitting, through many dangers and hardships,
+the land of bondage. The latter suffer many
+privations in their attempts to reach the free
+states. They hide themselves during the day
+<pb id="grandy69" n="69"/>in the woods and swamps; at night they travel,
+crossing rivers by swimming, or by boats they
+may chance to meet with, and passing over
+hills and meadows which they do not know;
+in these dangerous journeys they are guided by
+the north-star, for they only know that the
+land of freedom is in the north. They subsist
+on such wild fruit as they can gather, and
+as they are often very long on their way, they
+reach the free states almost like skeletons. On
+their arrival, they have no friends but such as
+pity those who have been in bondage, the number 
+of which, I am happy to say, is increasing;
+but if they can meet with a man in a broadbrimmed 
+hat and Quaker coat, they speak to
+him without fear-relying on him as a friend.
+At each place the escaped slave inquires for an
+abolitionist or a Quaker, and these friends of the
+<sic corr="colored" resp="NS">coloured</sic> man help them on their journey northwards, 
+until they are out of the reach of 
+danger.</p>
+        <p>Our untiring friends, the abolitionists, once
+obtained a law that no <sic corr="colored" resp="NS">coloured</sic> person should
+be seized as a slave within the free states; this
+law would have been of great service to us, by
+<pb id="grandy70" n="70"/>
+ridding us of all anxiety about our freedom
+while we remained there; but I am sorry to
+say, that it has lately been repealed, and that
+now, as before, any <sic corr="colored" resp="NS">coloured</sic> person who is
+said to be a slave, may be seized in the free
+states and carried away, no matter how long he
+may have resided there, as also may his children
+and their children, although they all may have
+been born there. I hope this law will soon be
+altered again. At present, many escaped slaves
+are forwarded by their friends to Canada
+where, under British rule, they are quite safe.
+There is a body of ten thousand of them in
+Upper Canada; they are known for their good
+order, and loyalty to the British government;
+during the late troubles, they could always be
+relied on for the defence of the British possessions, 
+against the lawless Americans who
+attempted to invade them.</p>
+        <p>As to the settlement of Liberia on the coast
+of Africa, the free <sic corr="colored" resp="NS">coloured</sic> people of America
+do not willingly go to it. America is their
+home: if their forefathers lived in Africa, they
+themselves know nothing of that country
+None but free <sic corr="colored" resp="NS">coloured</sic> people are taken there:
+<pb id="grandy71" n="71"/>if they would take slaves, they might have
+plenty of colonists. Slaves will go any where
+for freedom.</p>
+        <p>We look very much to Great Britain and
+Ireland for help. Whenever we hear of the
+British or Irish people doing good to black
+men, we are delighted, and run to tell each
+other the news. Our kind friends, the abolitionists, 
+are very much encouraged when they
+hear of meetings and speeches in England in our
+cause. The first of August, the day when the
+slaves in the West Indies were made free, is
+always kept as a day of rejoicing by the
+American <sic corr="colored" resp="NS">coloured</sic> free people.</p>
+        <p>I do hope and believe that the cause of freedom 
+to the blacks is becoming stronger and
+stronger every day. I pray for the time to
+come when freedom shall be established all
+over the world. Then will men love as brethren; 
+they will delight to do good to one
+another; and they will thankfully worship the
+Father of all.</p>
+        <p>And now I have only to repeat my hearty
+thanks to all who have done any thing towards
+obtaining liberty for my <sic corr="colored" resp="NS">coloured</sic> brethren, and
+<pb id="grandy72" n="72"/>
+especially to express my gratitude to those
+who have helped me to procure for myself, my
+wife, and some of my children, the blessing
+of freedom, -- a blessing of which none can
+know the value but he who has been a slave.
+Whatever profit may be obtained by the sale
+of this book, and all donations with which I
+may be <sic corr="favored" resp="NS">favoured</sic>, will be faithfully employed
+in redeeming my remaining children and relatives 
+from the dreadful condition of slavery.
+Mr. Scoble, the Secretary of the British and
+Foreign Anti-slavery Society, has kindly
+agreed to take charge of whatever money I
+may be able to raise; and any reference may
+be made to Mr. Rouse at the office of the
+above Society, 27, New Broad Street, London;
+or to Mr. R. D. Webb, 160, Great Brunswick
+Street, Dublin.</p>
+        <trailer>DUBLIN,
+PRINTED BY WEBB AND CHAPMAN, GREAT BRUNSWICK-ST. </trailer>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

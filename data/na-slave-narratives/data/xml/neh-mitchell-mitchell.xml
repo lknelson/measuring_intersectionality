@@ -1,0 +1,2656 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd">
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>The Missionary Pioneer, or A Brief Memoir of the Life, 
+Labours, and Death
+ of John Stewart, (Man of Colour,) Founder, under God of the Mission 
+among the Wyandotts at Upper Sandusky, Ohio:</emph>
+Electronic Edition.</title>
+        <author>Mitchell, Joseph</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text scanned (OCR) by</resp>
+          <name id="cg">Fiona Mills</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Kevin O'Kelly  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>1999</date></edition>
+      </editionStmt>
+      <extent>ca.     100K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>1999.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> The Missionary Pioneer, or 
+A Brief Memoir of the Life, Labours, and Death of John 
+Stewart, (Man of Colour,) Founder, under God of the Mission 
+among the Wyandotts at Upper Sandusky, Ohio.</title>
+            <author>Joseph Mitchell</author>
+          </titleStmt>
+          <editionStmt>
+            <edition/>
+          </editionStmt>
+          <extent>96      p.</extent>
+          <publicationStmt>
+            <pubPlace>New-York</pubPlace>
+            <publisher>Printed by J. C. Totten</publisher>
+            <date>1827</date>
+            <authority/>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>This electronic edition has been transcribed from a photocopy supplied by the Library of Congress.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1999</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+        <language id="nai">North American Indian</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Stewart, John, 1786?-1823.</item>
+            <item>African Americans -- Virginia -- Biography.</item>
+            <item>African Americans -- Ohio -- Biography.</item>
+            <item>African American missionaries -- Ohio -- Biography.</item>
+            <item>Wyandot Indians -- Missions -- Ohio.</item>
+            <item>Indians of North America -- Missions -- Ohio.</item>
+            <item>Methodist Church -- Missions -- Ohio.</item>
+            <item>Missions -- Ohio.</item>
+            <item>United States -- Church history.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-04-05, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>1999-10-21, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>1999-10-19, </date>
+        <respStmt>
+          <name>Kevin O'Kelly</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>1999-09-29, </date>
+        <respStmt>
+          <name>Fiona Mills</name>
+          <resp/>
+        </respStmt>
+        <item> finished scanning (OCR) and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">The<lb/>
+MISSIONARY PIONEER,<lb/>
+OR<lb/>
+A BRIEF MEMOIR<lb/>
+OF THE<lb/>
+LIFE, LABOURS, AND DEATH<lb/>
+OF<lb/>
+JOHN STEWART, (MAN OF COLOUR,)<lb/>
+FOUNDER, UNDER GOD<lb/>
+OF<lb/>
+THE MISSION AMONG THE WYANDOTTS AT UPPER<lb/>
+SANDUSKY, OHIO.</titlePart>
+        </docTitle>
+        <docImprint><publisher>PUBLISHED BY JOSEPH MITCHELL.</publisher>
+<pubPlace>NEW YORK</pubPlace><publisher>PRINTED BY J. C. TOTTEN,<lb/>
+<hi>No. 9 Bowery.</hi></publisher>
+<docDate>1827.</docDate></docImprint>
+      </titlePage>
+      <div1 type="copyright">
+        <pb id="mitchellii" n="ii"/>
+        <opener>
+          <hi rend="italics">Southern District of New. Mark, ss.</hi>
+        </opener>
+        <p>BE IT REMEMBERED, That on the twenty-first day of June, A. D. 1827, in the
+fifty-first year of the Independence of the United States of America, John
+C. Totten, of the said District, hath deposited in this office the title of
+a book, the right whereof he claims as proprietor, in the words following
+to, wit:</p>
+        <p>
+          <hi rend="italics">‘The Missionary Pioneer, Brief Memoir of the Life, Labours, and Death of
+John Stewart, (man of colour,) Founder, under God, of the Mission among
+the Wyandotts at Upper Sandusky, Ohio. Published by Joseph Mitchell.’</hi>
+        </p>
+        <p>In conformity to the Act of Congress of the United States, entitled “An Act
+for the encouragement of Learning, by securing the copies of Maps, Charts
+and Books, to the authors and proprietors of such copies, during the time
+therein mentioned.” And also to an Act, entitled “An Act, supplementary to
+an Act, entitled an Act for the encouragement of Learning, by securing the
+copies of Maps, Charts and Books, to the authors and proprietors of such
+copies, during the times therein mentioned, and extending the benefits thereof
+to the arts of designing, engraving, and etching <sic corr="historical">hiistorical</sic> and other
+prints.”</p>
+        <closer>
+          <signed>FREDERICK I. BETTS,<lb/>
+<hi rend="italics">Clerk of the southern District of New York,</hi></signed>
+        </closer>
+      </div1>
+      <div1 type="introduction">
+        <pb id="mitchelliii" n="iii"/>
+        <opener><dateline><date><hi rend="italics"> Springfield, (O.) May 28, 1827.</hi></date></dateline>
+<salute>REVEREND SIR—</salute></opener>
+        <p>Agreeably to your request, I offer you my opinion of the brief memoir of the
+life and labours of John Stewart, which you are about to publish. Having myself
+been the first to assist Stewart in Missionary labours among the Wyandotts,
+I became acquainted with him, and with the concerns of the then <hi rend="italics">infant</hi> and
+<hi rend="italics">unorganised</hi> mission, early in February, 1819; and my acquaintance with Stewart
+was uninterrupted, nearly to the period of his death. I have consequently
+had a tolerable opportunity of being acquainted with the circumstances detailed
+in your little work, and from personal knowledge and authentic information,
+I consider the memoir of Stewart, in all particulars, as entitled to full
+Credit.</p>
+        <p>In my opinion it is due to the Christian public, to give them some account of
+the life and labours of this faithful Missionary <hi rend="italics">Pioneer,</hi> and I am gratified
+to find you are about to
+<pb id="mitchelliv" n="iv"/>
+publish something on the subject. I have also received letters from Messrs
+Isaac and Walker, expressing their entire approbation of your undertaking,
+and informing me that the <hi rend="italics">Chiefs, John Hicks</hi> and <hi rend="italics">Thomas Manoncue</hi> wish to be
+known as decidedly approving your publication, the object and contents of
+which were made known them by Mr. Walker.</p>
+        <closer>I am, &amp;c.<signed>MOSES M. HENKLE.</signed>REV. JOSEPH MITCHELL.</closer>
+      </div1>
+      <div1 type="preface">
+        <pb id="mitchellv" n="v"/>
+        <head>PREFACE.</head>
+        <p>As the preface of a book is very seldom read, especially if it be of any
+considerable length, it shall be an object to make this is brief as can
+be justified by the nature of the incidents detailed in this narrative.</p>
+        <p>In the striking circumstances of John Stewart's missionary call,
+and in the success of his labours, there is evident the hand of a <hi rend="italics">special
+Providence,</hi> which must be interesting to the Christian commonwealth;
+and those circumstances belong to them of right. Whereever
+it is known that this humble African, has been, under God,
+the founder of what is now, perhaps, the most prosperous missionary
+establishment on this continent; a more particular account of his
+history and labours has been demanded. And since he has been
+taken from<hi rend="italics"> labour</hi> to <hi rend="italics">reward,</hi> this call has become more general
+and pressing. For several years past, some of the most distinguished
+<pb id="mitchellvi" n="vi"/>
+Christians and Christian Ministers in the
+United States, have earnestly requested those,
+whose former connexion with the mission,
+gave them the best means of information, to
+furnish the public with the early history of the Wyandott Mission,
+and of Stewart its founder.  This, for several reasons has never been done. And one cause of its delay
+has been an expectation, fairly authorised, that such a history would,
+long since, have been given to the public from <hi rend="italics">another quarter.</hi>
+But as reasonable expectation has been so long disappointed, as the facts
+of this narrative have only lived in the recollection of
+a few individuals, thus far, and as delay must soon
+have consigned those interesting facts
+to <hi rend="italics">oblivion,</hi> it is deemed a duty now to rescue
+those which yet remain, from that fate, by
+giving them to the world in a more permanent
+form. The Editor has however to regret the existence of several
+circumstances which must prevent this work from being
+either as full or as interesting as could be
+wished. Among these are the following:
+several persons from whom doubtless much
+<pb id="mitchellvii" n="vii"/>
+information might have been obtained, have
+already exchanged this life for eternal realities,
+and the time allowed for collecting and
+arranging the materials for this little work
+has been so very limited as to render it
+impossible to collect all the <hi rend="italics">facts</hi> and <hi rend="italics">anecdotes</hi>
+of interest, which are yet attainable, relative
+to the subject of this brief memoir. It is
+confidently believed, that should another edition
+of this narrative be called for, it will be
+in the power of the Editor to render it more
+acceptable than this, by the addition of much
+valuable matter, which he will he enabled to collect.</p>
+        <p>The incidents recorded in this memoir
+may be relied on as substantially correct, as
+they were collected and arranged by William
+Walker, who resided in the Wyandott Nation
+at the time of Stewart's first visiting them, and
+does to the present. His opportunities consequently
+have been peculiarly favourable to
+the purposes of acquiring correct information,
+and therefore most of what he records
+is from personal knowledge. And as his
+character for veracity is entirely unimpeachable,
+<pb id="mitchellviii" n="viii"/>
+his narrative is entitled to the fullest credit. What he has gathered from
+others has been collected from those who were most intimately acquainted
+with Stewart, and with the concerns of the mission in its infancy, and who
+only detailed to him such facts as had fallen under their own observation,
+or were certainly known to them.</p>
+        <p>It will be readily seen by the reader, that this little memoir is not
+intended as the <hi rend="italics">panegyric</hi> of its pious subject; but merely as a record of
+interesting incidents, in which he had a prominent agency. Eulogy on his
+virtues is not needed; for Heaven has awarded him a more substantial and
+enduring inheritance. And though on earth his lot was one of <hi rend="italics">poverty,
+persecution,</hi>and extreme <hi rend="italics">adversity,</hi> the patience and resignation of
+christianity bore him above the waves. And though unmarked by a <hi rend="italics">stone,</hi>
+his ashes obscurely repose in the wilderness, we doubt not, his virtues
+and his name stands registered in the Lamb's Book of everlasting life.</p>
+        <closer><signed>JOSEPH MITCHELL.</signed>
+<dateline><date><hi rend="italics">May</hi> 28<hi rend="italics">th,</hi> 1827.</date></dateline></closer>
+      </div1>
+    </front>
+    <body>
+      <div1 rend="italics">
+        <pb id="mitchell9" n="9"/>
+        <head>MISSIONARY PIONEER.</head>
+        <p>The subject of the following Memoir, was
+born and lived in Powhatan County, State of
+Virginia, until he arrived at the age of about
+twenty-one years. His parents were free, and members of
+the Baptist Church; but
+John was a careless sinner. In this situation
+he was, when about four years afterwards, he
+was robbed of all his property while on his
+way from Virginia to Marietta, in the State of Ohio.
+This circumstance brought him to
+reflect seriously on the state of his soul; but
+grief and vexation prevailed over hope and patience.
+The loss of his property, the distance from his friends,
+the idea of poverty and disgrace, together with the
+wretched situation of his mind on account of his soul's affairs,
+brought him to the shocking determination that
+he would immediately take measures to hasten his
+dissolution. And for this purpose
+<pb id="mitchell10" n="10"/>
+he forthwith commenced a course of excessive
+drinking at a public house, which was
+continued until his nerves became mulch affected,
+his hands trembling so, that it was with difficulty
+he could feed himself. In this practice and condition
+he remained for a considerable length of time,
+still fixed in the determination to destroy his life,
+and precipitate himself into ruin. His mischievous design
+was at length frustrated by his landlord, who discovered
+his intention and withheld spirituous liquors from him.
+This measure brought him more deliberately to reflect on
+his miserable condition, when a view of the awful state
+of his soul compelled him to cry out,“Oh! wretched man
+that I am, who shall deliver me,”&amp; It was
+at this time that he passed in his mind the inquiry,
+which would give the least pain to his father's family,
+to hear that without property he was honestly striving
+to make his way through life, or that by intemperance
+he had hurried himself to an untimely grave. The result
+was, he resolved to abandon the service of“the wicked one,”
+and cast himself upon the mercy of God, for
+<pb id="mitchell11" n="11"/>
+support and salvation. He then“joined
+himself to a citizen of the place,”(Marietta,
+Ohio, where he then was,) to assist in making
+sugar, a distance from town, in the woods.
+This situation afforded him a good opportunity for
+reading, meditation, prayer, and
+seeking the Lord in private. Soon, however,
+be had to quit his sequestered state and return
+to town, where, contrary to the most
+solemn vows and promises, which he had
+previously made to forsake sin and seek the
+Lord, he united with others in shameful acts
+of night revellings, which instead of affording
+relief to his“wounded spirit,”only produced
+(in the moment of retirement and reflection)
+greater grief and distress. An occurrence here
+took place which much alarmed him: an intimate
+companion of his, was suddenly called by death
+from time to eternity. With this individual he
+had made an appointment to spend one more night
+in sin; but death interfered and disappointed them both.
+Stewart's convictions of mind were thereupon
+greatly increased, and he began to despair of
+ever obtaining mercy at the hand of the Lord.
+<pb id="mitchell12" n="12"/>
+One day while wandering along the banks of
+the Ohio, bewailing his wretched and undone
+condition, the arch enemy of souls suggested
+to him a remedy; which was to terminate
+the miseries he endured, by leaping into the
+deep, and thereby putting an end to his existence.
+To this suggestion, he at first felt a
+disposition to yield; but his attention was arrested
+by a voice, which as he thought, called
+him by name, when on looking around he
+could see no person, whereupon he desisted
+from the further prosecution of the desperate
+project. He then resolved to make another
+effort to seek mercy and pardon at the hand
+of God. Having hired a house for the purpose
+of carrying on his trade, (the blue dying
+business,) he had another opportunity of
+being much alone, which privilege he improved
+in seeking the Lord“carefully with tears.”
+The more he exercised himself in meditation and
+prayer, the more was he impressed
+with a sense of his guilt. He now saw no
+way for him to escape the wrath to
+come—he felt that he deserved to
+be driven from the presence of the
+Most High into“outer darkness.”
+<pb id="mitchell13" n="13"/>
+It was then that he was enabled to
+cast himself at the foot of the cross, and to
+lay hold by faith on the Saviour of sinners as
+his last and only refuge, crying“Lord save
+or I perish!”Then it was that the Lord
+was pleased to reveal his mercy and pardonning
+love to his fainting soul, causing him to
+burst forth from his closet in raptures of
+unspeakable joy, declaring what the Lord had done
+for his poor soul. He now could truly say,
+<q direct="unspecified"><lg type="verse"><l>“Jesus all the day long,</l><l>Is my joy and my song.”</l></lg></q>
+He could then rejoice in the Lord from a
+sense of the“love of God being shed abroad
+in his heart by the Holy Ghost,”&amp;c. There
+being no Baptist church near, he did not join
+himself to any religious Society.—In his
+youth he had imbibed strong prejudices
+against other denominations, particularly the
+Methodists, of whom he had a contemptible
+opinion. Thus, slighting and neglecting the
+duties of the temple, it will not be surprising
+to hear that he soon neglected those of the
+<pb id="mitchell14" n="14"/>
+closet also, which soon resulted in a dead
+and barren state of soul. He now began to
+feel the pains and miseries from
+which the Lord had so recently delivered
+him. Whereupon he began to doubt the
+reality or genuineness of his conversion, and
+this appears to have resulted from his belief
+of a doctrine in which he had been educated,
+namely“once in grace always in grace.“
+In this situation he remained for some
+time, bewailing his wretched case, when, as
+he walked out one evening he heard the
+sound of singing and praying proceed from a
+house at no great distance. It proved to be
+a Methodist prayer meeting. His prejudice
+first forbade his going in; but curiosity
+prompted him to venture a little nearer, and
+at length he resolved to enter and make known
+his case, which he did to the few who were
+in attendance. Here he was encouraged to
+seek with all his heart the last blessing. Soon
+after this he attended a Camp-Meeting, where
+he remained for sometime with a heavy heart,
+and disconsolate mind. He at length resolved
+to distinguish himself by taking a place
+<pb id="mitchell15" n="15"/>
+among the mourners of the assembly, where
+he lay deploring his case all night, even until
+the break of day, at which time“the sun of
+righteousness”broke into his dark bewildered
+soul. Peace, and“joy in the Holy Ghost”
+now succeeded, and he could shout“glory
+to God in the highest,”with“the morning
+stars”that witnessed his deliverance. Not
+until then were the deep rooted prejudices
+against the people called Methodists removed
+from his mind. It was then that he united himself
+to the people whom he had formerly held
+in the greatest contempt—took <hi rend="italics">their</hi> people
+to be <hi rend="italics">his</hi> people, and their God to be his God.
+For the space of three months he went on
+his way rejoicing, prosperously labouring for
+body and soul. About this time, being one
+evening at private devotion, suddenly he
+heard a sound which much alarmed him: and
+a voice (as he thought) said to him—
+“Thou shalt declare my counsel faithfully;”
+at this same time a view appeared to open to
+him in a Northwest direction, and a strong
+impression was made on his mind, that he
+must go out that course into the world to
+<pb id="mitchell16" n="16"/>
+declare the counsel of God. This singular
+event gave him much uneasiness and exercise
+of mind, and having mentioned the matter
+to a friend, he received an explanation
+which greatly increased his concern; for it
+was intimated that he might expect to be
+called upon to go abroad and preach the
+gospel which to him was an afflicting
+consideration, having never before entertained a
+thought of such an undertaking. Judging
+himself entirely unqualified for such a work,
+he determined to avoid it if possible, and
+accordingly made ready to follow his friends to
+to the State of Tennessee. He was, however,
+prevented from taking this step by a severe
+illness, in which his life was despaired of. He
+still fancied he heard sounding in his ears the
+voice above mentioned, and the same
+impression continued with respect to his travelling
+to the Northwest. At length he resolved,
+that if it should please the Lord to spare his
+life, and restore him to health again, he would
+go out that course and see where he should
+be conducted, although he feared he should
+be killed by the first Indians he should meet
+<pb id="mitchell17" n="17"/>
+with. He was restored to health, and
+according to the determination he had entered
+into before his God, he set out without
+credentials, directions of the way, money or
+bread, crossed the Muskingum River for the
+first time, and travelled a northwest course,
+“not knowing whither he went.”As he
+proceeded, he was met by sundry persons,
+who, having learned something of the nature
+of his undertaking, strove in vain to dissuade
+him from the pursuit. He urged on his way,
+keeping about the same course, which he
+was frequently informed would lead him into the
+Indian country on the Sandusky river, sometimes
+with, and sometimes without a road,
+without a pilot, without fireworks, sometimes
+wading the waters and breaking the ice.—
+Meeting with some Indians who appeared
+friendly, he was by them conducted and
+introduced to the tribe of Delawares at Pipe-Town,
+on the Sandusky river. On entering
+the village, he was conducted to one of the
+Indian cabins and seated. Here he endeavoured
+to enter into conversation, but found
+they understood but little of his language.</p>
+        <pb id="mitchell18" n="18"/>
+        <p>As they contemplated having a dance that
+day, and were not to be diverted from it by
+the arrival of the stranger, they commenced
+their exercise by one singing and the rest
+dancing, which actions produced some fears
+in him that they were about to kill him. In
+this however, his fears were groundless: they
+soon desisted from their exercise; he then
+took out his hymn book and sung a hymn,
+during which time there was a profound
+silence. When he had ceased singing, one
+spoke in English and said,“Sing more,”he
+then sung again, and asked for an interpreter;
+in a short time one was produced (an old
+Delaware, named Lyons,) the Indians placed
+themselves in a position to hear, and he
+delivered to them a speech. On this occasion
+the Indians appeared attentive, and at the
+close a kind of entertainment was provided
+and he reposed, fully believing that he had
+now accomplished the design of his little and
+singular mission, intending on the next day
+to return towards Marietta, from thence to
+prosecute his journey after his friends to the
+State of Tennessee. But to his great surprise,
+<pb id="mitchell19" n="19"/>
+on the next morning he still felt strong
+impressions of mind to pursue his journey
+to the Northwest.</p>
+        <p>Under the influence of this impression he
+prepared to depart from the village; but was
+requested to continue that day with them; to
+this he objected, saying that his business was
+urgent and did not admit of his staying
+longer with them, whereupon with tears he bid them
+adieu and departed.. Having found amongst
+these people so much friendship and hospitality,
+“he thanked God and took courage.”
+And having received directions concerning
+the way, he proceeded towards Upper Sandusky,
+where he soon arrived, and called at
+the house of Mr. William Walker, who at
+that time was sub-agent amongst the Indians.
+Mr. Walker, suspecting him to be a runaway
+slave, interrogated him closely. Stewart related
+his experience and the singular impression
+of mind under which he was conducted
+thither. Mr. Walker being fully satisfied,
+gave him encouragement, and directed
+him to the house of Jonathan Pointer, a black
+man, who in his youth had been taken
+<pb id="mitchell20" n="20"/>
+prisoner by the Wyandotts, and had learned to
+speak the tongue of the nation fluently. He
+soon arrived at Jonathan's house, and obtained
+an interview with him.—With his company
+and conversation, Jonathan was not very well
+pleased, and consequently gave evasive and
+unsatisfactory answers to the inquiries made
+respecting the Wyandotts. Stewart asked
+whether it would be convenient to have
+the Indians collected together for the purpose
+of preaching to them. To which Jonathan
+replied, that it would be of no use for him to
+attempt to make Christians of them; because
+many great and learned men of different
+denominations had attempted it in vain, and
+that it certainly would answer no good purpose
+for him to attempt any thing of the kind.
+Our Missionary, however, was not to be
+diverted from his purpose without making the
+attempt: believing as he did that the Great
+Head of the Church had entrusted him with
+a special message to this people. Jonathan
+was at the same preparing to go to a
+feast which was to be held in the neighbourhood
+on that day. Stewart asked leave to
+<pb id="mitchell21" n="21"/>
+accompany him: to this Jonathan reluctantly
+consented. When they arrived at the place
+appointed for the feast, they found a large
+number of Indians collected and dancing.—
+The feast and dance were conducted with the
+usual mirth and hilarity. At the close of
+the ceremonies he asked permission to make
+a speech to them on the occasion, which was
+granted. He then for the first time addressed
+a Wyandott assembly, through Jonathan, who
+officiated in the capacity of interpreter, and
+valued himself highly on account of his eloquence
+in the Wyandott tongue. During the
+time of the discourse, a profound silence
+prevailed in the whole assembly. At the close,
+Stewart told them he had one request to make
+of them, which was, that if they entertained
+feelings of friendship towards him, they would
+signify it by giving him their hands. Whereupon
+an old Chief, named <hi rend="italics">Two Logs,</hi> or
+<hi rend="italics">Bloody Eyes,</hi> rose up and addressing the assembly
+said, it would be perfectly correct for
+them to manifest friendship to him, especially
+as he was a stranger, it would but be in conformity
+to their established rules of hospitality.
+<pb id="mitchell22" n="22"/>
+They all then gave the proposed mark of
+friendship; and after making an appointment
+to preach at Jonathan's house, they dispersed.
+Pursuant to appointment, a goodly number
+met, and Stewart addressed them on the
+subject of striving“to flee from the wrath to
+come.”This was in the month of November,
+1816. The doctrine of repentance
+was not well received by Jonathan, (who
+at this time and afterwards acted as Stewart's
+interpreter,) and supposing as he did, that
+the congregation would be of the same mind,
+he would sometimes, whilst interpreting,
+after stating the substance of Stewart's discourse,
+add and say,“so he says, I do not know
+whether it is so or not, nor do I care; all I
+care about is to interpret faithfully what he
+says to you; you must not think that I care
+whether you believe it or not.”From these
+and such like expressions, it was ascertained
+that Jonathan, so far from embracing the doctrines
+taught by Stewart, would not have the
+Wyandotts even suspect that he took any
+interest in the matter. Notwithstanding the
+doubtful manner in which Jonathan spake of
+<pb id="mitchell23" n="23"/>
+the doctrines, the word was not without its
+good effects amongst the Wyandotts; for
+many were soon convinced of their lost and
+undone condition, and began earnestly to
+inquire the way of salvation, calling upon God
+for mercy. Stewart then directed his attention
+more particularly to the situation of his
+interpreter, (who was ignorant, wicked and
+proud,) but without much apparent success
+for the present.</p>
+        <p>It was not long however, before Jonathan
+became a hopeful subject of the gracious
+work, so that, what was at first done by him
+partly from a principle of pride and vain
+glory, now became a pleasant work, from a
+principle of love and good will towards his
+fellow beings.</p>
+        <p>It is true, some of Jonathan's subsequent
+conduct has been such as to cause some of
+his acquaintances to doubt the reality of his
+conversion; yet perhaps it is but justly due to
+him, to suppose that he has been at least in
+some degree under gracious influence. It
+was not long before some difficulties occurred;
+yet no serious injury was done to the
+<pb id="mitchell24" n="24"/>
+good work. A few white traders who had
+been permitted by the Officers of the Indian
+department to settle amongst and trade with
+the Indians, having heard Stewart preach,
+either from a real suspicion which they entertained
+that he was a runaway slave and an
+imposter, or from malicious principles,
+advised the Indians to drive him out the country;
+stating that he was not a licensed preacher;
+but a runaway slave, a villain, &amp;c. and that
+he had only come among them for protection.
+This was readily believed by many, and produced
+some dissatisfaction amongst the Wyandotts.
+His usefulness amongst them was
+now in a fair way to be much abridged; for
+although the advice of the traders was not
+actually carried into effect by the Chiefs; yet
+their disposition towards him was visibly
+changed. Finding himself thus situated, he
+appeared before Mr. Walker, the sub-agent,
+and informed him of the dissatisfaction of the
+Indians with regard to him, occasioned by
+the misrepresentations of those traders,
+and that he feared the Chiefs would, under their
+advice, drive him out of their country. Mr.
+<pb id="mitchell25" n="25"/>
+Walker informed him, that that was his
+prerogative, and that he need give himself no
+uneasiness from that quarter; and moreover,
+advised him to pay no attention to what those
+traders might say, but to go on and preach
+the Gospel faithfully, and that if the Indians
+should in future, manifest any dissatisfaction
+on account of his continuance amongst them,
+to refer them to him, and he would satisfy
+them, and stand between him and all harm,
+whilst he should continue to demean himself
+in a christian-like manner.</p>
+        <p>Having received such assurances of patronage
+and protection from a competent source,
+he departed much encouraged, and
+resolved through grace, to be more than ever
+devoted to the good work, to which he had
+been called. During this time of trial,
+Jonathan remained faithful to his friend. A
+principal part of those people, having been members
+of the Roman Catholic Church, and
+partially instructed in those doctrines, Stewart
+had many difficulties to encounter whilst
+endeavouring to convince them of the impropriety
+of worshipping the Virgin Mary, Saints
+<pb id="mitchell26" n="26"/>
+and Angels. Many being under a deep
+concern on account of their souls, would come
+to the place of worship with their long
+neglected Rosaries suspended around their
+necks, and in time of public prayer, would
+repeat their almost forgotten Romish forms
+with much apparent sincerity and engagedness.
+They also began to re-learn their old
+Romish hymns, many of which had been neglected
+and forgotten. Finding that Stewart
+taught doctrines so different from those which
+they had learned from the Romish Priest,
+they concluded that he did not preach from a
+genuine Bible, or at least that there must be
+a discrepancy between his Bible and that used
+by the Priests, and that consequently it must
+be wrong for them to bear or encourage him,
+as the doctrines taught by him was heresy.—
+These and such like notions were put into
+circulation by those of the Wyandotts, who
+were then regular members of the Roman
+Catholic Church, which had considerable
+influence on the minds of many, who at this
+time were under awakenings. A difference
+of opinion however, prevailed amongst them;
+<pb id="mitchell27" n="27"/>
+while some said he was a good man, others
+said nay, he teacheth a new and false
+doctrine, and therefore cannot be a good man.</p>
+        <p>Some of the principal men went to Mr.
+Walker, the sub-agent, for the purpose of
+hearing his opinion concerning this man and
+his doctrines, and whether his Bible was really
+the word of God. He without hesitancy
+gave them his opinion, and endeavoured to
+remove from their minds their groundless
+fears. In order the more effectually to
+accomplish this, he appointed a day when he
+would summon Stewart to appear before him,
+for the purpose of examining his books in
+their presence. Accordingly on the day
+appointed Stewart appeared before Mr. Walker
+and the Chiefs, bringing with him his books.
+Many also who had embraced the new religion
+attended, feeling a deep interest in the
+decision of the Agent. While he was examining
+Stewart's Bible and Hymn book, a
+profound silence prevailed. The poor Christian
+<sic corr="proselyte">prosolytes</sic> gazed with deep anxiety on
+the examiner, to whom it was referred to
+decide the important question, whilst the
+<pb id="mitchell28" n="28"/>
+enemies of the cause were not less anxious. At
+length, Mr. Walker having closed the
+examination called the attention of the assembly:
+all was attention. He informed them that he
+had carefully examined Stewart's Bible, and
+found it to be, as he believed the <hi rend="italics">word</hi> of
+<hi rend="italics">God,</hi> and that it most certainly was, the same
+kind of those used by the Roman Priests,
+with only this difference, that those were in
+Latin, and Stewart's was English. And as
+For Stewart's Hymn book, he said the hymns
+and spiritual songs it contained were certainly
+good, that the subjects were taken from the
+Bible and breathed the Spirit of religion.—
+He therefore pronounced the Bible and Hymn
+book to be genuine and good. A visible
+change appeared in the very countenances of
+the Christian part of the assembly. New
+spirits appeared to enliven their hearts, and
+joy to spring up in their souls on account of
+the decision in favour of the books. All this
+time our sable Missionary set calm and
+tranquil, eyeing the assembly most affectionately.
+The next objection raised against him, was,
+that he had no written permission to preach.
+<pb id="mitchell29" n="29"/>
+This difficulty was obviated by Mr. Walker,
+by asking them whether they knew of his
+having performed the rite of matrimony or
+baptism; they answered that they did not.
+He then informed them that he thought there
+was no violation of law; and until it could
+be proven that he had performed the
+marriage ceremony, or baptized, no valid objection
+could be brought against him for endeavouring
+to persuade sinners to serve God and
+save their souls; for, said he,“any man has
+a right to talk about religion, and try to get
+others to embrace it.”He then dismissed
+the assembly, and when they departed, like
+the Jews of Rome,“they had great reasoning
+amongst themselves.”</p>
+        <p>We shall here take occasion to notice some
+of the dialogues which took place during the
+first winter of this mission, as well as bring
+into view some of the leading characters, who
+were active, either for or against the cause;
+as the arguments on different subjects, used
+on both sides of the question, will, it is
+believed, be somewhat interesting to the reader.
+We shall, however, first state that after the
+<pb id="mitchell30" n="30"/>
+decision above mentioned, nothing worthy of
+notice took place for some time, except that
+Stewart continued, without interruption, to
+teach the way of eternal life, to a quite serious
+and attentive congregation. All this time,
+however, he had left untouched their absurd
+notions respecting the powers of magicians,
+witches, feasts, dances, and many other ridiculous
+ceremonies, which had been handed
+down to them by their ancestors, from generation
+to generation. Many, although awakened
+to a sense of their lost estate, were so
+attached to their old customs and modes of
+worship, that they found it hard to renounce
+them, although they were seriously told that
+if they wished to become the followers of the
+Lord Jesus Christ, they must abandon them
+all, and cast themselves on him as their only
+and last refuge.</p>
+        <p>At a certain meeting, Stewart, in the course
+of his sermon, made some pointed remarks
+against their old system of heathenism, and
+added, that instead of their mode of worship
+being pleasing to the Lord, it was on the contrary,
+displeasing to him, and that although
+<pb id="mitchell31" n="31"/>
+in the time of their ignorance, God winked
+at their conduct; yet now, the gospel having
+reached them, and in such a manner as to be
+understood, by them, they were all required
+to repent. At the close of this discourse, he
+informed the congregation that if any one
+present had any objection to his doctrines,
+they were then at liberty to speak. Whereupon,
+John Hicks, one of the chiefs, arose
+and spoke as follows,“My friend, as you
+have given liberty to any one who had objections
+to the doctrines you teach and endeavour
+to maintain, to speak on the subject, and
+state their objections; I, for one, feel myself
+called upon to rise in defence of the religion
+of my fathers;—a system of religion the
+Great Spirit has given his red children, as
+their guide and the rule of their faith, and we
+are not going to abandon it so soon as you
+might wish; we are contented with it, because
+it suits our conditions and is adapted to our
+capacities. Cast your eyes abroad over the
+world, and see how many different systems
+of religion there are in it—there are almost
+as many different systems as there are nations
+<pb id="mitchell32" n="32"/>
+—say this is not the work of the Lord. No, my
+friend, your declaiming so violently against
+our modes of worshipping the Great Spirit,
+is, in my opinion, not calculated to benefit
+us as a nation; we are willing to receive good
+advice from you, but we are not willing to
+have the customs and institutions which have
+been kept sacred by our Fathers, thus assailed
+and abused.”</p>
+        <p>Whereupon, Manoncue, another chief, arose
+and said,“I also have a few words to say in
+addition to what my friend has said, who has
+just taken his seat. I do not doubt but what
+you state faithfully what your book says; but
+let me correct an error into which you appear
+to have run, and that is, your belief that the
+Great Spirit designed that his red children
+should be instructed out of it. This is a
+mistake, the Great Spirit never designed this
+to be the case; he never intended that they
+should be instructed out of a book, a thing
+which properly belongs to those who made
+it and can understand what it says; it is a
+plant that cannot grow and flourish among red
+people. Let me call your attention to another
+<pb id="mitchell33" n="33"/>
+important fact.—Where did the Son of God
+first make his appearance? According to your
+book he first made his appearance away in
+the East, among the white people, and we
+never heard of his name until white people
+themselves told us. And what if we had
+never seen a white man? we never would
+have heard of this new doctrine. The Son
+of God came among the white people and
+preached to them, and left his words written
+in a book, that they when he was gone,
+might read and learn his will concerning them;
+but he left no book for Indians, and why should
+he, seeing we red people know nothing
+about books? If it had been the will of the Great
+Spirit that we should be instructed out of this
+book he would have provided some way for
+us to understand the art of making and reading
+the books that contain his words. Ours is a
+religion that suits us red people, and we intend
+to keep and preserve it sacred among us,
+believing that the Great Spirit gave it to our
+grand-fathers in ancient days.”Stewart
+replied that it was stated in this book, that the Son
+of God, before he ascended into Heaven
+<pb id="beard34" n="34"/>
+commanded his disciples, to“go into all the
+world, and preach the gospel unto every creature;”
+saying at the same time, that <corr>“</corr>he that
+believeth and is baptized shall be saved, and
+he that believeth not, shall be damned.”And
+in another place it is said,“and this gospel
+of the kingdom shall be preached in all the
+world, for a witness unto all nations, and then
+shall the end come.”He added, further, that
+this did not mean to all nations of white people
+only, but to all nations composed of human
+beings, including whites, Indians and Africans,
+that all had share in the salvation which was
+purchased by the Son of God. Addressing
+himself particularly to the Wyandotts, he said
+“you certainly consider yourselves a nation composed
+of human beings; if so, then you
+may rest assured that this gospel will be
+preached not only to you, but to all nations of
+Indians; and not only Indians, but to all
+nations under the Heavens, before the end of
+the world shall come. And now my dear
+friends, only consider what an awful curse is
+pronounced upon those who reject this peaceful
+gospel—who will not hear and believe it,
+<pb id="mitchell35" n="35"/>
+but coldly turn from the loving offers of the
+Son of God.  You have heard that he has
+said,“whosoever believeth not shall be damned.”
+Awful curse! O my friends, think well
+before you determine to reject this gospel, for
+if you do reject it, rest assured the curse will
+fall upon you, especially upon you chiefs, who
+have so great an influence ever your people;
+lead them not to destruction, I entreat you!”
+Having concluded his reply, the assembly
+was dismissed.—Manoncue came to Hicks
+privately and said,“my friend, I begin to
+feel somewhat inclined to abandon a good
+many of our Indian customs, but I cannot
+agree to give up painting my face; this I
+think would be wrong, inasmuch as ceasing
+to paint will be jeopardizing my health.”
+(it being a received opinion among them
+that painting the face had a magic power
+in keeping off diseases.) Hicks replied,“you
+can do as you please, my friend, in this matter;
+for my own part, I have strange feelings
+about this business, I hardly know what to
+do.”These two chiefs were not Roman
+Catholics, but entirely untutored Indians, and
+<pb id="mitchell36" n="36"/>
+indeed those who were members of that
+church were little better in point of religious
+information. At almost every meeting there
+was less or more disputing between Stewart
+and some of the principal men of the nation;
+especially after he commenced speaking
+against their feasts, dances, &amp;c. as being sinful
+in the sight of God. Notwithstanding their
+disputings, many of the awakened persons
+still continued to walk orderly, and to seek
+the pearl of great price. A part of those
+awakened persons were members of the
+Roman Catholic church, and had strong
+predilections in favour of her doctrines and
+ceremonies; it is not, therefore, wonderful that
+it was with some difficulty they were brought
+fully to acquiesce in all the doctrines taught by
+Stewart. While under the influence of their
+former principles, they as often in their
+devotions, prayed to the Virgin Mary as to God;
+they also used prayers for the deliverance of
+their departed friends from purgatory, crossing
+themselves when at prayer, keeping a multiplicity
+of holy days, and performing pilgrimages
+once a year to St. Ann's Church, in
+<pb id="mitchell37" n="37"/>
+Sandwich, in the province of Upper Canada,
+for the purpose of obtaining from the priest
+the pardon of their sins. These and many
+other absurd notions which many believed in,
+were hard to remove. On a certain occasion,
+while preaching to them and endeavouring to
+convince the Romish part of his congregation
+of the many errors in which they believed,
+he said,“as for your worshipping the Virgin
+Mary, let me tell you that it is contrary to God's
+commandments, for he hath commanded his
+people, that they should ‘have none other
+gods before him;’ now all who worship the
+Virgin Mary, saints and angels, violate this
+commandment; and there is nothing in the
+New Testament, commanding us to worship
+the Virgin, or any other saint or angel: the
+Virgin ought no more to be worshipped than
+any other good person who has found favour
+with God, and died and gone to Heaven.”
+This was like an electric shock to many of
+them; they looked with amazement on each
+other, considering the conclusion as nothing
+less than blasphemy. After the congregation
+was dismissed, many of them were seen
+<pb id="mitchell38" n="38"/>
+standing about in groups, talking very earnestly,
+while others,“gallio-like, cared for none of
+these things;”being neither Romans nor
+any thing else, but sons of folly and dissipation,
+and cared not whether their people worshipped
+God, the Virgin, or the devil, taking
+no further interest in the meetings than, as they
+said, to“hear the preacher sing, and to see
+and be seen.”Stewart possessed a very fine
+shrill and melodious voice for singing, and
+delighted much in that part of worship, and
+Indians being naturally fond of music and
+company, it will not appear strange that the
+council-house (the place of preaching) should
+be filled every Sabbath day.</p>
+        <p>One thing is here worthy of remark, and
+that is, that not a single instance occurred
+during the time Stewart laboured among them,
+of their treating his person with any indignity
+or violence. Notwithstanding his doctrine
+was so offensive to many of them, yet in his
+intercourse with them, he was always treated
+in a friendly and decorous manner. He was
+hospitably entertained among them, until he
+returned to Marietta. No such scenes of
+<pb id="mitchell39" n="39"/>
+abuse, persecution, cruelty and barbarity
+were witnessed, as took place at the time of
+the rise of Methodism in England, it being a
+maxim among the Indians, never to treat a
+stranger who comes among them with disrespect
+of indignity. Truly, a good maxim!</p>
+        <p>As yet there did not appear to be any who
+evidenced a genuine conversion, though many
+appeared to be really hopeful penitents, and
+mourning  for“errors past.”There being
+no preacher among them, who was authorised
+to form them into Society, and thereby, in
+some degree, cause them“to come out
+from among the wicked,”it will not be
+surprising to the reader, when he is informed
+that many grew weary in well doing, fainted
+by the way, and relapsed into a cold, careless,
+and indifferent state of mind.</p>
+        <p>At a meeting which took place, it is believed,
+on the third Wednesday in February,
+1817, he preached a sermon, in the concluding
+part of which he entered into a description of
+the day of Judgment, and in a most alarming
+manner warned them that they as well as all
+the rest of mankind, must be assembled before
+<pb id="mitchell40" n="40"/>
+the Great Judge, to give an account of their
+conduct.“And there, my friends,”said he,
+”I shall meet you, and will have to answer for
+my manner of preaching to you, &amp;c.” The
+whole assembly appeared to be absorbed in
+serious thought. Alarm appeared evidently to
+be depicted in every countenance. Another
+meeting was appointed to be held at the same
+place, at early candle-light, and the congregation
+was then dismissed. Accordingly at the
+appointed hour, Stewart came and found a
+few assembled. He then began to sing, and
+in a short time the people began to assemble,
+and in a few minutes the house was pretty
+well filled; he then rose up and began to
+exhort, and in the most pathetic manner,
+entreated them to seek the Lord Jesus as the
+Saviour of sinners, and escape the impending
+wrath of an offended God; that now was the
+day of salvation, and not to neglect the present
+opportunity. When he concluded, he informed
+them that it was his intention to
+endeavour to hold a prayer-meeting, and
+exhorted those who had resolved to forsake
+their sins, to come forward and take an active
+<pb id="mitchell41" n="41"/>
+part in calling upon God for the forgiveness
+of their sins. A few came forward,
+principally women, and the exercise commenced;
+it was not long before some of the idle spectators
+were struck to the ground, to all appearance
+dead, and in a few minutes there
+were many slain, some lay crying for mercy,
+while others appeared to have no life in them.
+This extraordinary occurrence spread a general
+alarm in the congregation: some said he
+used some powerful medicine, which, when
+inhaled, would take the senses away, others
+said, not so; some ran after water for the
+purpose of resuscitating the apparently dead
+people; some cried out to Jonathan, the
+interpreter, to desist from singing those new
+songs, and to sing the Roman Catholic hymns,
+or they would all die. Thereupon, an old
+woman (aged about sixty years,) sprang up,
+having found the pearl of great price, began
+to clap her hands and rejoice with great joy,
+and went through all the crowd, proclaiming
+that God, for Jesus' sake, had forgiven all
+her sins, and added, that what the preacher
+said, was all true. Seeing her act and hearing
+<pb id="mitchell42" n="42"/>
+her talk in a manner she never before had
+been known to do, they concluded, she
+undoubtedly was in a state of mental derangement.
+Stewart perceiving the consternation
+of the people, advised them to give themselves
+no uneasiness about the lives of those persons
+who were, as they supposed, dying or insane;
+he added further,“they are not dying,
+neither are they insane, as you suppose;
+though some of them, I trust, are dying to sin
+and struggling into a life of righteousness,
+peace and joy in the Holy Ghost;”and added,
+yet further, that he, would be accountable
+for all the lives that should be lost, or any
+harm done to their persons. None, however,
+were converted at this meeting, except the
+old woman above-mentioned, who is yet a
+living witness of the power of God to save
+from sin; but many went away under a deep
+concern of soul. Although this meeting was
+continued until nearly midnight, John Hicks
+and Manoncue sat all the time as silent
+spectators, looking on with amazement, not
+uttering a word for or against this apparently
+disorderly meeting. In a few days a great dance
+<pb id="mitchell43" n="43"/>
+was to be held at the council-house, for the
+purpose, as they said, of shewing the preacher
+the way and manner they worshipped the
+Great Spirit:—time rolled on, and the day
+arrived when the great festival was to take
+place; during this time the young men had
+been out hunting for deer, bear, &amp;c. to be
+served up at the grand entertainment; they
+returned with horse-loads of venison and
+bear-meat. Suitable persons were appointed
+to manage the preparations, &amp;c. On the day
+appointed a large number of people, young
+and old, male and female, were assembled;
+a formal invitation was sent to Stewart,
+requiring his presence on the occasion. He
+came, accompanied by Jonathan, his constant
+interpreter; a chief then arose and informed
+the assembly of the manner and order in
+which the feast and dance were to be conducted.
+Stewart sat witnessing this singular
+worship or thanksgiving; the preparatory
+ceremonies being finished, the music was
+struck up, and the person appointed to lead
+the dance proceeded to the ring formed in
+the great council-house, and raised three
+<pb id="mitchell44" n="44"/>
+tremendous yells, (which at first startled Stewart)
+and commenced dancing; then another arose
+and joined in, then another, until quite a
+lengthy column was formed, they kept moving
+around following the ring; in a few minutes
+the women began to file in, old and young;
+but what was Stewart's astonishment, when
+he beheld some mingling the dance, who,
+as he supposed, were true <hi rend="italics">mourners</hi> in Zion,
+who had renounced the vanities of the world;
+alas! thought he, unpromising converts indeed.
+Although thus joining in the dance, did not
+seem to comport with the profession of religion,
+yet, in the mind of one acquainted with
+those people, it would not militate so much
+against their sincerity, knowing how difficult
+it was to convince them that there was evil in
+the customs, which amongst them had from
+time out of mind been held sacred. While
+this dance was going on, many of the young
+men, as they were passing around opposite
+where Stewart sat, would endeavour to display
+their superior activity and agility in dancing,
+cutting the most ludicrous figures imaginable;
+sometimes with the head thrown on one
+<pb id="mitchell45" n="45"/>
+shoulder and the eyes shut—sometimes the
+head thrown back so that there appeared to
+be some danger of a dislocation of the neck
+bone; all this time the feet were in motion,
+keeping time with the music. Sometimes
+they would bend so far forward that the
+forehead would almost touch the ground, with the
+hands placed on the hips, the arms a-kimbo,
+and the body in a perfect shiver, and all this
+accompanied with the most horrid yells imaginable.
+In short, of all the twistings, writhings
+and contortions, of which a human body is
+capable, none were left untried; so antic were
+their motions and gesticulations, that they
+were enough, in despite of gravity, to draw
+forth a burst of laughter from the spectator.
+At three o'clock, P. M. the dancing ceased;
+the next was a distribution of the food
+prepared for the occasion: persons had been
+previously appointed to attend to this business,
+so that it was not long before each person had
+as much food place before him as he could
+well dispose of. The repast went on with
+much mirth and good feeling, and in a short
+time the chiefs dismissed the assembly, and
+<pb id="mitchell46" n="46"/>
+they parted much gratified with the pleasure
+they had experienced on that occasion. Not
+withstanding the willingness which Manoncue
+had sometime before expressed, to forsake
+and abandon all his Indian customs except
+that of painting his face, yet he could not
+refrain from joining in the dance; it was too
+fascinating for so great a lover of pleasure to
+resist.</p>
+        <p>No certain information can now be obtained
+respecting what was said or done on the next
+Sabbath day, except that Stewart preached
+to them as usual. The next thing worthy of
+remark is, his taking leave of them; it appears
+he had not given up his intention of following
+his connexions to the state of Tennessee; he
+accordingly prepared to return to Marietta,
+from thence intending to proceed as above.
+On Sabbath day he delivered his farewell
+discourse, it is believed, from Acts, xx ch.
+and 32 verse; a large and serious congregation
+was assembled. In the course of his
+sermon, he began again to enforce the
+necessity of a total abandonment of their heathenish
+customs and notions, as destructive to the spirit
+<pb id="mitchell47" n="47"/>
+of that religion which could qualify them for
+a happy life and triumphant death.“For”
+said he,“I have faithfully warned you that
+your feasts, dances, sacrifices, &amp;c. will never
+save you from your sins, and if you are never
+saved from your sins, where God is, you never
+can come; your mode of worship is not
+pleasing to God, but displeasing, especially
+since you have become better informed; God
+will never hear your petitions while you
+harbour an attachment to those customs; for it
+is said in the word of God, ‘if I regard
+iniquity in my heart, the Lord will not hear
+me.’ My friends, I have spent nearly three
+months with endeavouring, in my feeble and
+imperfect manner, to teach you the way of
+eternal life—I have been instant, in season
+and out of season—I have prayed and wept
+for you—have preached and exhorted you to
+escape from the dreadful tempest that is
+coming, when the wrath And indignation of
+the Majesty of Heaven, will be revealed in
+the punishment and destruction of all who
+will not obey the gospel; and O my God! is
+this all to be in vain? Must I depart and leave
+<pb id="mitchell48" n="48"/>
+you as I found you, careless, wicked and
+ungodly? God forbid it! Ye know, from the
+first day I came into Sandusky, after what
+manner I have been with you in all seasons,
+serving the Lord with all humility of mind,
+with many tears and temptations which befel
+me; and how I kept back nothing that was as
+profitable unto you, but have shewed you and have
+taught you publicly, and from house to house,
+testifying both to you Wyandotts and also to
+the whites, repentance towards God and faith
+in the Lord Jesus Christ.—Wherefore I take
+you to record this day, that I am pure from
+your blood; I feel now that I have discharged
+my duty to you; God sent me here to warn
+you to flee the wrath to come, and I have
+done so; but, Lord, who hath believed the
+report? He then directed his discourse to
+the believing part of the congregation, and in a
+feeling and pathetic manner exhorted them to
+faithfulness. In conclusion, he said,“now
+my friends, I expect you will see my face no
+more, for I must go; I shall meet you all at
+the flaming bar of God; and my friends, for
+your kindness to me since I came among you,
+<pb id="mitchell49" n="49"/>
+I take this opportunity of expressing my gratitude
+to you; God will reward you; for he
+hath said,“whosoever shall give to drink unto
+one of these little ones, a  cup of cold water in the
+name of a disciple, shall not lose his reward.”
+He then addressed himself to the chiefs and
+principal men of the nation in a few words,
+and concluded. During the sermon, a dead
+silence reigned, except the weeping and
+sobbing which was heard in all directions of the
+house. He then began to sing,—
+<q direct="unspecified"><lg type="verse"><l>“Farewell, dear friends, I must be gone,</l><l>“I have no home, or stay with you;”</l></lg></q>
+And as he sung, proceeded around among the
+people, taking each by the hand; many
+understanding some English, it had so great an
+effect upon them, that fortitude completely
+forsook them: even his most violent opposers
+were constrained to drop a tear, on his bidding
+them adieu; it was a sore trial to Stewart
+himself. Having gone through the congregation
+and come to the door, he stopped, paused,
+and cast an affectionate and compassionate look
+upon them and went out. Some followed him
+and requested that he would stay until the
+<pb id="mitchell50" n="50"/>
+next day, as they wished to have an interview
+with him before he departed; to this he
+consented. The people dispersed, and at the
+proposed interview, some, indeed all his
+friends insisted upon his abandoning the idea
+of going away, but to remain among them.
+He informed them that he was under the
+necessity of going, if he had to return again;
+they then insisted on his returning; to this he
+at length agreed, but said he was poor and
+would be obliged to stop at the first town he
+should come to, and work for some money
+to bear his expenses to Marietta, and of course
+he could not promise to return sooner than
+the last week in June or the first of July.—
+With this promise they were satisfied. At
+the suggestion of Mrs. Warpole, (of whom
+we shall have occasion to speak hereafter,)
+a collection was made in the village amounting
+to ten dollars, for the purpose of bearing
+his expenses and hastening his return: he
+then departed. The Indians all made preparations
+and went to their sugar camps, as the
+sugar making season had come on. Situated
+as they were, it was difficult to determine who
+<pb id="mitchell51" n="51"/>
+were Christians and who were not, for the
+righteous and unrighteous were all mixed
+together. Deprived as they were of the
+ordinances of God's house, such as baptism,
+the Lord's supper, marriage, &amp;c. and not
+having the advantages of class-meetings,
+discipline, &amp;c. were causes of the work not
+appearing so flattering as it otherwise might.
+Many, no doubt, were under deep convictions, and
+groaning for deliverance from their burden
+of guilt, who, for the want of proper care and
+nursing in the bosom of the church, afterwards
+became discouraged, grew cold, and finally
+gave it up.</p>
+        <p>They were a very intemperate people, so
+much so, that on actual investigation, not
+twenty really sober men could be found in
+the whole nation, which consisted of about
+seven hundred, young and old. Stewart's
+preaching produced a reformation in regard
+to this particular vice; drunkenness seemed
+to have flown from their borders, and many
+other vicious practices were abandoned: in
+short, a degree of amendment was visible in
+the whole neighbourhood—their feasts, dances,
+<pb id="mitchell52" n="52"/>
+sacrifices, &amp;c. they could not yet consent to
+abandon, so completely were they established
+in the belief that they were instituted by their
+Creator as their mode of worship; (this was
+not, however, the case with all Wyandotts,
+some did not believe so, having been better
+informed from infancy.) Nothing worthy of
+remark took place, until their return from
+their sugar camps to the village; some wicked
+and designing white men informed some of
+them that Stewart's master had come out from
+the state of Virginia to Ohio in pursuit of him,
+had found and taken him, and carried him
+back to Virginia in irons. This piece of
+information was credited by some and by
+others it was not; however, it created
+considerable uneasiness among his friends.—
+Nothing was heard from him until about the
+second week in June, when a letter was
+received from him by Mr. Walker, enclosing a
+written sermon or address, which he requested
+Mr. Walker should cause to be read to the
+Wyandotts on a Sabbath day in their own
+tongue. This was done on the Sabbath following,
+to a large congregation, many of whom
+<pb id="mitchell53" n="53"/>
+were truly glad to hear from him, and
+particularly to learn that the above report was false.
+The letter to Mr. Walker above-mentioned,
+was in the words following, to wit:</p>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <opener><dateline><date>“<hi rend="italics">Marietta, (O.) May</hi> 25<hi rend="italics">th, </hi>1817.</date></dateline>
+<name>WILLIAM WALKER, Esq.</name></opener>
+                <p>Sir, I have taken the liberty of enclosing to
+your care the within written address, directed
+to the Wyandott nation, for their information
+and edification, hoping that it will (through
+the blessing of God,) impress on their minds,
+religious and moral sentiments. I have taken
+the liberty to address it to you, hoping that
+you will have the goodness to read it, or
+cause it to be read in their hearing, and in
+their own language, that they may understand
+its true meaning; and moreover, that you
+will try to impress on their minds the necessity
+of adhering strictly to the laws of God—
+that their hearts should be constantly set upon
+the Supreme Being who created them; and
+that it is their duty to raise their voices in
+praising, adoring, and loving that <hi rend="italics">Jesus,</hi> who
+has suffered and died for them, as well as for
+<pb id="mitchell54" n="54"/>
+those who are more enlightened. Inform
+them that although their brother is far from
+them in body, yet his anxiety for their safety
+and future happiness is very great; in doing
+this you will confer a favour upon me which I
+shall ever remember with gratitude. My
+engagements you no doubt recollect, were, that
+I should return about the last week in June,
+but owing to misfortunes and disappointments
+to which we are all liable, together with a
+wound I accidentally received on my leg, will
+prevent my having the pleasure of seeing or
+being with you until the middle of July; at
+which time I hope, by the grace of God, to
+have the pleasure of seeing you and the Wyandott
+people generally. At that time I shall
+not fail to offer verbally, my gratitude to you
+and your dear family, for the services you and
+they have rendered me.</p>
+                <p>May I ask you to have the goodness to
+write to me? and please inform me of the
+general state of those persons that have
+reformed since I first went among them, and
+how many have evidenced a change since I
+came away, and whether they continue to
+<pb id="mitchell55" n="55"/>
+conduct themselves with that sincerity of heart,
+that would be acceptable in the eyes of God;
+finally, whether they appear as anxious for my
+return, as they appeared to be for my stay when
+I was coming away. In attending to these
+requests of mine, you will confer an obligation
+which will be ever remembered, with every
+mark of gratitude and respect.</p>
+                <p>I remain your humble servant, and in every
+instance sincerely hope, not only to meet
+with your approbation, but that also of my
+God.</p>
+                <closer>
+                  <signed>JOHN STEWART.”</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <q direct="unspecified">
+          <text>
+            <body>
+              <div1>
+                <head>THE ADDRESS.</head>
+                <opener>
+                  <salute>
+                    <hi rend="italics">“My dear and beloved Friends:</hi>
+                  </salute>
+                </opener>
+                <p>I, your brother traveller to eternity, by
+the grace and mercy of God, am blessed with
+this opportunity of writing to you; although
+I be far distant from you in body, yet my
+mind is oft times upon you. I pray you to
+be watchful that the enemy of souls do not
+ensnare you; pray to the Lord both day and
+night with a sincere heart, and he will uphold
+<pb id="mitchell56" n="56"/>
+you in all your trials and troubles. The words
+that I shall take as a standard to try to encourage
+you from, may be found in the 5th
+chapter of Matthew, 6th verse, ‘Blessed are
+they who hunger and thirst after righteousness,
+for they shall be filled.’These words were
+spoken by our Saviour Jesus Christ, and they
+are firm and sure; for his words are more
+firm than the heavens or the earth. Likewise
+the promise appears to be permanent; it does
+not say it may be, or perhaps, so as to leave
+it doubtful; but, ‘they <hi rend="italics">shall</hi> be filled.’ This
+man, Jesus Christ, spake like one who
+possessed power to fill and satisfy the hungering
+soul, and we have no reason to dispute his
+ability to do so; knowing that he made all
+things that are made, and made man for his
+service, then we are bound to believe that he
+is a Being of all power, able to fulfil all his
+promises to all mankind. Though he made
+us for his service we have all gone astray into
+the forbidden paths of sin and folly; therefore
+the promise appears to be held out to a
+particular class of people, who, happy are they,
+if they and themselves in this hungering and
+<pb id="mitchell57" n="57"/>
+thirsting after the righteousness of the Lord
+Jesus Christ. In the first place, my friends,
+I shall endeavour to shew you who it is that
+this gracious promise is made to, or how it is
+that we have a right to this promise; according
+to the light the Lord has given me, it is
+not him that is living in open rebellion against
+God, and going contrary to his commands—
+that closes his eyes against the light—that is
+barring the door of his heart against the striving
+of the blessed Spirit, that is continually
+admonishing him to forsake the ways of sin,
+and turn and seek the salvation of his soul;
+it is that man or woman who has called upon
+that God that hears sinners pray, and who
+will have mercy upon such as will call upon him
+with sincerity of heart, really desiring to
+receive and believing that he is able to give you.
+The Lord by his goodness will begin to take
+off the veil that the enemy has veiled you
+with, then you begin to see how thou hast
+strayed from the right way, this causes the
+sinner to be more and more engaged: this
+good and great Saviour, who sees and knows
+the secrets of every heart, seeing the poor
+<pb id="mitchell58" n="58"/>
+soul willing to forsake the service of the devil,
+moves nearer and. nearer to the sinner, his
+glorious light shines into his heart, he gives
+him to see the pool of crime that he has committed
+against the Blessed Saviour who hung
+on the tree for the sins of the world; this
+makes him mourn and grieve over his sins,
+and calling on the mighty Saviour, as his last,
+his best refuge, for help; finding that there
+is no help in and of himself, seeing that all
+he has done is nothing, this causes the soul
+to try to make his last prayer, crying‘Lord
+save, or I perish;’ thou wouldst be just in
+sending me to destruction, but Lord save, for
+Christ's sake; Lord, I have done all I can
+do, take me, do thy will with me, for thou
+knowest better what to do with me than I can
+desire. This blessed Saviour shews his face
+with ten thousand smiles—lays his hand to
+the work—breaks the snares of sin—unlooses
+him from the fetters and chains of unbelief—
+sets the soul at liberty—puts a new song in
+his mouth—makes the soul rejoice with joy
+unspeakable and full of glory; it is then he
+desires to go to his friend who has done so
+<pb id="mitchell59" n="59"/>
+much for him, and leave this troublesome
+world; but the soul has to stay until it has
+done its duty on earth, which will not be long.
+After a few more rolling suns of this life, the
+tempter begins to tempt him; the world, the
+flesh and the devil all unite, the poor soul
+begins to mourn and grieve, because he cannot
+do as he would wish; when he would do
+good, evil is present; then it is the soul begins
+to hunger and thirst after righteousness. My
+friends, be glad and rejoice in the Lord, for
+this promise is to you and to all mankind;
+yes, they shall be filled with water issuing
+from the throne of God. O, my friends, pray
+to God to give you a hungering and thirsting
+after righteousness! seek for it and you shall
+find it, for you shall reap in due season if you
+faint not. If you persevere in the way of
+well doing, you will find in your path clusters
+of sweet fruits, that will satisfy your hungering
+souls, and being faithful to your Lord's
+commands, when you have made your way
+through much tribulation, and lie down on
+your dying bed, you will be filled with the
+glorious prospect of the reward that awaits
+<pb id="mitchell60" n="60"/>
+you; guardian angels wait around your bed,
+to bear your soul away to those bright worlds
+of everlasting day, where the friend of poor
+sinners reigns. This fills the soul with the
+sweets of love divine, this methinks, will make
+the dying bed of the man or woman,‘soft
+as downy pillows are.” Therefore, my
+friends, if you hold out faithful, you will have
+part in the first resurrection; then it will be
+that you will see your Lord and master face
+to face; then it will be that you will hear that
+blessed sentence‘Come ye blessed of my
+Father, inherit the kingdom prepared for you
+from the foundation of the world.’Then
+shall you sit down with the people of God in
+that kingdom, where your Saviour with his
+soft hand will wipe all tears from your eyes.
+There you shall see and be with him, and
+praise him to all eternity. Having, after a
+broken and imperfect manner, my friends,
+shewn you the characters of those who hunger
+and thirst after righteousness, I shall endeavour
+to say a few words to that class of people, who
+I, in the foregoing part of my discourse said,
+had no part in the promise. A few words of
+<pb id="mitchell61" n="61"/>
+consolation to the sinner; that is, the Lord is
+willing to save all who will call upon him
+with a sincere heart, at the same time having
+determined to forsake all sin, and to seek the
+salvation of their souls. Now, my friends,
+you who have been at war against this great
+friend of sinners, now turn, for behold now is
+the accepted time, now is the day of salvation.
+Take into consideration, realize how long the
+Lord has spared your lives, and all this time
+you have been resisting his holy and blessed
+Spirit—this Spirit the Lord has sent to warn
+you, and entreat you to turn to the Lord;
+But oh! my friends, how often have you
+thrusted that good spirit away, and forced it
+to depart from you! Let me inform you, if
+you continue to resist this good spirit, it will
+after a while leave you, never more to return;
+for God hath said,‘my spirit shall not always
+strive with man.’Therefore, my friends,
+though you have caused the spirit to go away
+grieved, now begin to encourage and attend
+to its admonitions; he that receives it and
+obeys its directions, receives <hi rend="italics">Christ,</hi> and at
+the same time receives God the Father. My
+<pb id="mitchell62" n="62"/>
+friends, if you will not adhere to the Lord's
+Spirit, neither to the entreaties of your friend,
+the time draws on when you will wish you
+had spent this glorious opportunity the Lord
+has given you, in preparing to meet Him who
+is to judge the world. Then it will be you
+will have to hear and abide by that dreadful
+sentence‘Depart ye cursed—ye workers of
+iniquity, for I never knew you.’Oh! My
+friends, consider you must go into fire
+prepared for the devil and his angels, where the
+worm dieth not and the fire is not quenched.
+Some of you may put off this and think it is
+a long time yet before it comes to pass; but
+consider, if the Lord does not call you by
+judgment, death is always near, and he taking
+off our friends both on our right and on our
+left hands. Ah! we must all, sooner or later,
+be called to lie on a sick bed, when no
+physician can effect a cure, when death—cold
+and dreary death will lay hold on us; then
+will we have a view of awful eternity, and if
+unprepared, horror will seize upon the soul,
+while our friends wait around our bed, to see
+us bid the world adieu. Oh! what anguish
+<pb id="mitchell63" n="63"/>
+will tear the soul of the sinner! What bitter
+lamentations will then be made for mis-spent
+opportunities, slighted mercies! O! that I
+had spent my time more to the Lord! Then
+you will say, farewell my friends, I have got
+to go, for devils are waiting round my bed, to
+drag my soul away to hell. Then will you
+remember how often you grieved the good
+Spirit of the Lord, how often you drove it
+from you, but too late, you must go to endure
+the horrors of everlasting burnings. Then,
+my friends, accept of my feeble advice; bear
+constantly in mind the necessity of obtaining
+this blessed promise, and ever let your hearts
+and conduct be guided by the directions of
+that blessed Saviour who died for you, that
+you might live. You who have set out in the
+way of well doing, be faithful unto death, and
+you will be conveyed by angels to Abraham's
+bosom, and there meet the sweet salutation,
+of‘well done good and faithful servant, enter
+thou into the joy of thy Lord.’And may
+God bless you and keep you in the path of
+righteousness, until he shall see fit to close your
+eyes in death. Now may the blessing, &amp;c.</p>
+                <closer>
+                  <signed>JOHN STEWART.”</signed>
+                </closer>
+              </div1>
+            </body>
+          </text>
+        </q>
+        <pb id="mitchell64" n="64"/>
+        <p>At the time set by him for his return, he
+arrived at Sandusky. On his arrival, he
+learned with much sorrow and regret, that a
+young man of an amiable disposition, whom
+he sincerely loved, and who once bid fair to
+become a pious and useful man, (for when
+Stewart left Sandusky, he appeared to be
+much engaged in seeking the salvation of his
+soul) had been murdered in a drunken frolic.
+Poor young man, lost all his good desires and
+fell into the snare of the devil. Stewart now
+without delay, went about seeking those he
+left in the service of the Lord. Some had
+turned back to the beggarly elements of the
+world—some remained faithful. He immediately
+commenced preaching as he had formerly
+done. He now found many Wyandotts
+whom he had not seen when he was first
+among them, (they having been out hunting,)
+and of course his preaching was a new thing
+to them. It was not long before a violent
+opposition was raised by some of the principal
+men of the nation against the progress of
+this new religion. Many arguments were
+used by those in the opposition, to prevent
+<pb id="mitchell65" n="65"/>
+the success of Stewart's ministry. The principal
+leaders of this opposition were <hi rend="italics">Manoncue,</hi>
+and <hi rend="italics">Two Logs, </hi>or<hi rend="italics"> Bloody Eyes,</hi> both
+Chiefs in the nation. They represented in
+glowing colours, the great and many evils and
+calamities that would befal them as a people
+or nation, if they abandoned the sacred
+institutions which the God of the red people had
+given them as their mode of worshipping him:
+institutions also designed for their
+amusement—that they would justly incur the
+displeasure of the great Spirit by such a step—
+that the great Spirit designed those institutions
+to be held sacred among them and kept
+up forever. They exhorted the people never
+to entertain the idea of abandoning them,
+assuring them that while they continued to
+adhere to the religion of their fathers, they would
+be on the safe side.</p>
+        <p>Summer was with them, a season of
+amusement and great happiness. Feasts, dances,
+ball-plays, foot-races, horse-races, &amp;c.  were
+their chief delight, and it will not be wondered
+at, that they should with great reluctance give
+up the things which afforded them so much
+<pb id="mitchell66" n="66"/>
+pleasure. Through the course of the summer,
+dance succeeded dance, and feast succeeded
+feast, until Autumn admonished them
+to resume the chase.</p>
+        <p>Sometime in the month of August, a large
+number of Wyandotts were collected at a
+house-raising, and Stewart being present,
+<hi rend="italics">Two Logs</hi> began in a very violent and boisterous
+manner to declaim against Stewart and
+his doctrine; a friend of Stewart's replied in
+a very spirited manner. This brought on a
+considerable controversy, in which several
+took part. Two Logs objected particularly
+to his preaching against their dancing, feasting,
+&amp;c. At length Stewart was called upon
+to defend his doctrines against the formidable
+attack made by Two Logs. Stewart in a
+mild and plain manner endeavoured to
+convince him of the evil tendency of the
+practices he so warmly advocated, and among other
+things he stated that a poet had represented
+a dancing and frolicking part out of the damned,
+as crying out in their distress and agony, and
+saying,</p>
+        <pb id="mitchell67" n="67"/>
+        <lg type="verse">
+          <l>“Now Hail! all hail! ye frightful ghosts,</l>
+          <l>With whom I once did dwell,</l>
+          <l>And spent my days in frantic mirth,</l>
+          <l>And danced my soul to hell.”</l>
+        </lg>
+        <p>At this Two Logs raised a great hoarse laugh,
+and inquired whether the persons who made
+those bitter lamentations were Indians, and
+added,“I do not believe the Great Spirit
+will punish his red children for dancing,
+feasting, &amp;c. Yet I cannot say that he will
+not punish white people for doing these
+things; for to me it looks quite probable the
+Great Spirit has forbidden these things among
+the whites, because they are naturally wicked,
+quarrelsome and contentious; for it is a truth
+they cannot deny, that they cannot have a
+dance, a feast, or any public amusement, but
+some will get drunk, quarrel, fight, or do
+something wrong. Now, my friend, you
+have been present at several of our dances
+and feasts, and did you see any of these bad
+things going on? No, we have our public
+amusements in peace and good will to each
+other, and part in the same manner. Now,
+<pb id="mitchell68" n="68"/>
+where is the great evil you see?”It is not
+known what Stewart's reply was. </p>
+        <p>Two Logs would sometimes tell the people,
+it was really derogatory to their character, to
+have it said, <hi rend="italics">that they had a Negro for their
+preacher,</hi> as that race of people was always
+considered inferior to Indians.“The Great Spirit,”
+said he,“never created Negroes, they
+were created by the Evil Spirit.”When
+assembled at the place“where prayer was wont
+to be made”and a sermon preached, either
+Mononcue or Two Logs were sure to rise
+up, and refute (as they thought) the sermon.
+A great stir took place in consequence of
+some person, who, it is said, had seen a vision.
+This person related it to several of the
+principal men. It was as follows: On a
+certain day while Stewart was preaching in the
+Council-House, she rose up, went out and
+proceeded to a vacant house a short distance
+off, and when she came near, she found a
+man standing by the corner of the house,
+looking-towards the Council House. He
+spoke to her and requested her to stop, which
+she did. He then informed her that he was
+<pb id="mitchell69" n="69"/>
+the God of the red people; that he had come
+to warn his people personally against embracing
+the religion of the white people, which,
+if they did receive, would bring on them and
+their children dreadful calamities: it would
+be the means of destroying them as a nation.
+That man (meaning Stewart) though here
+under the specious pretence of trying to make
+the red people religious, according to the
+white man's religion, is here in reality for
+the purpose of doing you a great injury,
+which you cannot and will not see, until the
+evil itself comes upon you; and added that
+the only way to avoid the impending destruction
+was, not to listen to his preaching; but
+to go on and live as they had lived; and then
+vanished. It appears this Deity did not see
+proper to inform her what the evil was which
+Stewart really intended to bring upon the nation.
+This report soon noised abroad: some
+believed; but many did not. Stewart being
+informed of it, he immediately went to visit
+this woman, for the express purpose of hearing
+her relate her vision. She very readily
+complied, and stated what she had seen and
+heard. He informed her that he did not
+<pb id="mitchell70" n="70"/>
+believe her, as there was no such being as a
+distinct God for Indians—that there was but
+one God, and he created <hi rend="italics">White, Red</hi> and
+<hi rend="italics">Black</hi> people. He then made some inquiry
+concerning the woman's character for truth
+and veracity, and found that it was not very
+good. Notwithstanding her character for
+truth was doubtful, yet those persons who
+were opposed to Stewart's preaching made
+use of her vision to further their purposes.</p>
+        <p>Many were the visions, revelations prophecies,
+&amp;c. which were sounded about the
+whole neighbourhood: all appearing to aim at
+the destruction of Stewart's preaching. A
+report was raised by some of the opposition,
+and industriously circulated among the people,
+that many years before the white people
+discovered this continent, one of the old
+Wyandott Prophets prophesied that it would come
+to pass, when an entire new race of people
+should come across the great water and overspread
+the whole continent, the red people
+should not be able to oppose them—that by
+degrees the Indians would disappear, their
+territorial bounds become very much
+<pb id="mitchell71" n="71"/>
+circumscribed—each nation would be confined to
+small spots of land; but this would not be the
+end; the next thing would be, a man of a
+black skin would come among them, who,
+though under the semblance of friendship,
+would effect, ultimately, their entire overthrow
+and destruction; and that the only way
+for them to escape was, not to countenance
+him or give him any encouragement, nor
+listen to any thing he might say, &amp;c. Jonathan's
+influence in the nation was but little, in
+consequence of his former bad character; for
+all knew him to have been too much given to
+telling of falsehoods; this circumstance placed
+Stewart in an unpleasant situation, and was
+much against his success in his work. Some
+said that Jonathan while interpreting would
+say more than Stewart said, and would narrow
+down his discourses to suit his own views and
+feelings.</p>
+        <p>Nothing remarkable transpired during this
+summer. Stewart continued preaching.—
+Those who professed to believe in the <sic corr="Christian">Christain</sic>
+religion still appeared to manifest good
+desires, but took no active part either way.</p>
+        <pb id="mitchell72" n="72"/>
+        <p>In the month of August, A. D. 1817, a
+treaty was called by the Commissioners on
+part of the general Government, to be held at
+Fort Meigs with the Wyandotts and other
+nations of Indians, for the purpose of
+purchasing their lands. A general attendance was
+requested. While preparations were making
+to attend the treaty, Stewart deemed it
+advisable to return to Marietta, and remain there
+until winter. Nearly the whole nation went,
+leaving but a few individuals to take charge of
+their houses, cornfields, &amp;c. As the most
+of the facts related in this little work have
+been hastily collected from the recollection
+of individuals, it has so happened that no
+information has been furnished relative to
+Stewart, or his labour among the Wyandotts,
+from the time of his leaving the nation to go
+to Marietta, as above stated, until the latter
+part of the year 1818. At that time he
+had to encounter difficulties, which, although
+they were not altogether of a new character,
+yet as they proceeded from a new and
+unexpected source, they were of a truly
+disagreeable and painful nature. Certain Missionaries
+<pb id="mitchell73" n="73"/>
+in travelling to the North called with the
+Wyandotts, among whom Stewart was labouring,
+and spent a short time in preaching to
+them. On ascertaining how remarkably
+useful Stewart's labours had been in bringing
+the Indians to the knowledge of the truth, and
+how highly he was esteemed by most of them;
+they proposed to him to receive him as a
+member of their church, and to employ him
+as one of their Missionaries on that station, at
+a very comfortable salary; but as from a
+difference in religious opinions from them, he
+could not accept their offer, he refused;
+whereupon they demanded the authority by
+which he was acting as a gospel minister and
+as a Methodist Missionary. As he possessed
+no regular authority of this kind, he confessed
+to them the fact. Through their means, this
+became known; and was employed by the
+white traders and the opposing Indians as certain
+evidence that he was an impostor. This
+circumstance operated, for awhile, considerably
+to his disadvantage. He thereupon communicated
+a knowledge of his truly disagreeable
+situation to the Quarterly-Meeting
+<pb id="mitchell74" n="74"/>
+Conference of Mad river circuit, who advised him
+by letter to continue his labours until measures
+could be taken to procure for him a
+regular license as a Preacher of the Gospel,
+and at the same time gave him assurances of
+their decided approbation of the course he
+had pursued. Until now it was unknown in
+the white settlements that any religious
+excitement existed among the Indians, or that
+Stewart was among them, or even that such a man
+existed. The Quarterly Conference thought
+it advisable that some person should visit the
+Indians, to aid the good work which had so
+prosperously commenced among them;
+accordingly Moses M. Henkle, a young man of
+Mad river circuit, who had just entered the
+ministry, volunteered in this novel and important
+work. Early in the month of February,
+A.D<corr sic="missing period">.</corr>, 1819, he set out on this missionary tour,
+and spent some length of time in labouring
+among the Wyandotts. At this time there
+was a mighty out-pouring of the good spirit
+among them. Many professed to have found
+the pearl of great price, and many others were
+inquiring the way to Zion, deeply mourning
+<pb id="mitchell75" n="75"/>
+their past sins. In short it was believed that
+the labours of this young man at this time
+were of great and signal benefit; as his preaching
+served completely to confirm what Stewart
+had before taught. Having during the
+time of his stay at Sandusky had a good
+opportunity of witnessing Stewart's deportment,
+and being fully satisfied of his piety and usefulness,
+brought away with him a certificate of
+membership which Stewart had obtained at
+Marietta, a certificate of his having been there
+recommended by his class for license to exhort,
+and also certificates of his character and usefulness,
+from the time of his first appearing
+at Sandusky, from several of the chiefs,
+Mr. Walker, the sub-agent, and from several
+other persons, at the same time directing
+Stewart to attend the next Quarterly meeting
+for Mad river circuit, to be held at Urbana, in
+the month of March, 1819. At which time
+and place Stewart attended. He was introduced
+to the Quarterly Conference, and the
+papers above mentioned being submitted and
+examined in open Conference, by Bishop
+George and the Presiding Elder, Moses
+<pb id="mitchell76" n="76"/>
+Crume; and the case being fully understood
+by the Conference, he was regularly licensed
+to preach the Gospel. The information given
+by Stewart and M. M. Henkle to this
+Conference, induced a full conviction in their
+minds, that the condition of the Wyandotts
+loudly called for aid. But as it was near six
+months until the sitting of the Annual Conference,
+the question was, what could be done
+(in addition to Stewart's regular labours) to
+supply them until the time of Conference?
+Finally, volunteers were called for. Whereupon,
+Moses Henkle, senior, Joseph Mitchell,
+Robert Miller, Samuel Hitt, James Montgomery
+and Saul Henkle, Local Preachers
+of Mad river circuit, agreed to supply them
+with preaching once a month during the
+time aforesaid; which was done; although
+one or two of those men could not make it
+convenient within the time to take their turn.
+Stewart still continued his regular labours,
+and was much esteemed, not only by those
+of the nation to whom he bad been peculiarly
+useful, but by those brethren above named,
+who visited Sandusky and were witnesses of
+<pb id="mitchell77" n="77"/>
+his work of faith and labour of love. It is
+said, however, that he effected more real
+good among those people, by visiting from
+house to house and holding private conferences
+with them on the subject of religion, than
+by his more public labours. The difficulties
+which he had to encounter, while striving to
+build up the walls of Zion in this once howling
+wilderness, being almost innumerable,
+required much Christian fortitude and patience.
+Under all his trials he gave satisfactory
+evidence that he had, in a good degree,
+learned of <hi rend="italics">Jesus</hi> to be <hi rend="italics">meek</hi> and <hi rend="italics">lowly</hi> in
+heart. Scarcely a week at a time passed, but
+some report or other calculated and intended
+to injure his usefulness among those people
+was put in circulation, and principally by
+wicked and designing white men.
+Notwithstanding all these things, he still retained his
+deserved share of the confidence and esteem
+of many of the Wyandotts. As a proof of
+this, sometime after the Treaty at Fort Meigs,
+a number of the Wyandott people made
+application to the chiefs, for liberty to settle
+Stewart permanently on the section of land,
+<pb id="mitchell78" n="78"/>
+in the centre of their reservation, which was,
+by the provisions of the treaty, set apart for
+the support of a Missionary. To this the
+chiefs did not feel themselves at liberty to
+consent; but said they were willing he should
+stay on it until the Missionary provided for in
+the treaty should come and enter upon his
+duties, and thereupon adopted him into the
+nation, and divided with him their annuities.
+About the time, or soon after the visit of
+young M. Henkle, an aged woman and one
+of Stewart's constant hearers, died a witness
+of the reality of the religion which he was
+constantly striving to promote among them.
+She was of a family of Wyandotts who were
+very much attached to their heathenish customs,
+and violently opposed to the“white
+man's religion,”as they called it. She
+attentively listened to Stewart's preaching, and
+for some time was in great doubts how to
+decide or what step to take. Being an
+earnest inquirer after truth, she for some
+time“halted between two opinions.”At
+length, having consulted some of the Christian
+Wyandotts, who gave her great <sic corr="encouragement">encouragment,</sic>
+<pb id="mitchell79" n="79"/>
+she openly renounced all her heathenish
+customs, and sought diligently the pearl of great
+price. Her younger brother, Frost, who
+pretended to be a necromancer, was greatly
+enraged when he learned that his sister had
+embraced the religion taught by the<foreign lang="nai">“Hesent
+see”</foreign><ref id="ref1" n="1" rend="sc" target="note1" targOrder="U">*</ref> preacher, and in a most furious manner,
+threatened to take the preacher's life by means
+of the supernatural power which he possessed.
+He used many means to prevail on her to
+abjure Christianity, but all in vain; he pursued
+her with his arguments and his threats,
+but she was inflexible; she defended her religion
+by solid arguments which he was unable
+to answer; he then left her house, declaring
+that he would never again enter it. It is
+believed he kept his word, for sometime afterwards,
+while out on a hunting tour, he was
+killed in a drunken frolic by one of his own
+party. This woman continued faithful to
+the good cause of religion until she was called
+home to her reward.</p>
+        <p>Since we have given place to biography,
+<note id="note1" n="1" rend="sc" place="foot" anchored="yes" target="ref1">* The Wyandott word for Negro.</note>
+<pb id="mitchell80" n="80"/>
+we cannot forbear giving a sketch of one who
+was the first fruits of Stewart's ministry, to
+wit: Catharine Warpole, the woman who
+proposed making a collection for Stewart,
+mentioned in the former part of this work.—
+She was the wife of <hi rend="italics">Warpole,</hi> a war Chief of
+the nation, who was much given to habits of
+intemperance. When Stewart first came to
+Sandusky, he was out hunting, and did not
+return until the next summer. During his
+absence Mrs. Warpole attended Stewart's
+preaching, and in a short time was deeply
+convinced of sin, (although she had been all
+her life, a remarkably exemplary and moral
+woman,) began to inquire what she should do
+to be saved, and determined to forsake every
+thing sinful and seek the salvation of her
+soul, let the present consequences be what
+they might. When her husband came home,
+he soon learned what had been going on in
+his absence, and among other things, that his
+wife had embraced this new religion. He
+immediately gave her to understand that he
+was not pleased with the step she had taken,
+and that he would never give his consent to
+<pb id="mitchell81" n="81"/>
+having any new system of religion introduced
+into his house. She endeavoured in vain
+to convince him of his error. He commenced
+a course of persecution and cruelty towards
+her. She hoped that after a season
+he would relax his severity and they would
+live more agreeably; but in this she was
+disappointed. She continued to seek the Lord,
+and to call upon him for strength to support
+her in her trying hours. After a considerable
+length of time had elapsed, and there
+appearing to be no prospect of peace and
+tranquility being restored unless she would
+renounce and abandon her religious pursuits;
+with the advice of some friends, she concluded
+to leave all and make her way to
+Canada, where she had some connexions.—
+Accordingly she took an opportunity and
+started. She had not been long gone, before
+Warpole suspecting the step she had taken,
+pursued and overtook her at a Wyandott
+settlement, called the <hi rend="italics">Big Springs.</hi> As soon as
+he came into the house at which she had
+stopped, he immediately began beating her
+with his tomahawk handle, in a most furious
+<pb id="mitchell82" n="82"/>
+and violent manner. She submitted patiently
+to these insults and returned with him. He
+blamed Stewart with being the cause of her
+becoming deranged in mind, and was much
+opposed to his preaching to the Wyandotts
+at all. So she remained until Mr. Henkle
+came and entered upon his missionary labours,
+still receiving insults and abuses at
+his hands until her situation became quite
+intolerable. In this situation, through Stewart,
+she made application to Mr. Henkle for
+liberty to take refuge from those excessive
+abuses, at his house, to which he consented,
+and thereupon by a friend, she was in the
+night season, conveyed some miles distant from
+the village, and then she proceeded to the
+house of Mr. Henkle, a distance from Sandusky
+of seventy-five or eighty miles, where,
+and at Mr. Armstrong's at the head of Mad
+river, she remained for several months, and
+then returned to Sandusky. Some time after
+this, her husband professing an anxiety to
+have her return to and live with him;
+promising most solemnly that in future he would
+treat her in a better manner: she having
+<pb id="mitchell83" n="83"/>
+strong doubts whether it were her duty to do
+so or not, sought for counsel and aid from
+others, in regard to this important affair. In
+order to this, she pursued the following
+method, to wit: to have the case laid before
+the preachers and some of the principal
+members of the Church at a camp-meeting
+which was to be held on Mad river circuit.
+This was attended to, her husband himself
+attending, gave assurances to the meeting that
+he was sensible of his former wrong in this
+behalf, and that in future he would amend.
+It was judged best that she should once more
+make an attempt to live with him, and accordingly
+she was so advised. She made the
+attempt, and although he kept good his vows
+for a short time, he soon began again to treat
+her cruelly, and then left her and took another
+woman. She has since been married to
+John Hicks, a respectable Christian Chief of
+the nation, and is to the present day, as is
+believed by her acquaintances, walking and
+living as a follower of Christ.</p>
+        <p>About this time another formidable opposer
+of religion arose, threatening its total
+<pb id="mitchell84" n="84"/>
+annihilation among the Wyandotts. This was
+the head Chief of the nation <hi rend="italics">Duon-quot;</hi> a
+man warmly attached to their heathenish
+customs, and violently opposed to the
+introduction of the Gospel among his people;
+especially as he discovered that a reception of
+the Gospel as taught by Stewart, would
+necessarily result in the entire overthrow of the
+customs and religion of their ancestors. He
+soon found a number of adherents who were
+glad of the opportunity of arraying themselves
+under so powerful a leader. These
+things did not damp the ardour of the zeal of
+those who had embraced the“glad tidings
+of great joy.”Duon-Quot used every intrigue
+and artifice he could invent, to overthrow
+the faith of Christian professors. In
+this conduct of this Chief, there appeared a
+strange inconsistency, he having lately
+consented to the article in the Treaty, which
+made provision for the settlement of a
+Missionary and establishment of a school among
+the Wyandotts. In a subsequent revival of
+the work of religion, when a large number of
+his adherents withdrew from his party, and
+<pb id="mitchell85" n="85"/>
+became professors of religion, he was heard
+to say,“Well, the white man's religion may
+go on from house to house, until the whole
+nation embraces it, but when it comes to my
+house, it must there stop.”Unhappy man!
+little did he think when he uttered these words,
+so fraught with hostility to the best of causes,
+that in a few days his soul would be required
+of him; for in a short time he was most
+violently attacked with the billious fever, and
+death seemed to be his inevitable fate; but
+the merciful Lord against whom he had
+raised the puny arm of rebellion, who delighteth
+not in the death of a sinner, as if willing to
+give him another of fleeing for refuge, &amp;c. rebuked his disease and restored him to a
+good degree of health. But alas! no sign of
+reformation—his returning strength was again
+employed in the destruction of his own soul,
+by resisting the work of the Lord. He was
+again thrown upon a sick bed, and his disease
+raged violently; he sent for one of the
+conjurers or necromancers, hoping that he could
+remove the disease. The conjurer<hi rend="italics"> pow,
+wowed</hi> over him, but could effect no cure.—
+<pb id="mitchell86" n="86"/>
+He then sent for James B. Finley, (who
+at this time was missionary at Sandusky,)
+wishing to try the efficacy of the white man's
+medicine; Mr. Finley went and administered
+such medicines to him as he judged most
+suitable, but all in vain; the iron hand of
+death—stern death had laid hold of him, he
+must submit to the inflexible decree. During
+this time Stewart visited him, but it is not
+now known what conversation he had with
+him. He was surrounded by a large concourse
+of his friends and adherents during his illness,
+whom he amused occasionally with his sallies
+of wit and obscene jests; thus he continued
+to manifest a perfect indifference with regard
+to the affairs of his soul which was then
+hovering about the shores of eternity. Once,
+sometime before he expired, when in great
+agony, he was heard to say“If I should be
+permitted to live a little longer, I would go
+to meeting.”No further signs of repentance
+appeared; the closing scene came on,“death
+with all the sad variety of pain,”extinguished
+the vital spark, and he died, it is believed
+without once calling on the name of Jesus for
+mercy.</p>
+        <pb id="mitchell87" n="87"/>
+        <p>About the time Duon-quot rose up in
+opposition to the progress of religion, an
+influential person arose in defence of it; this was
+<hi rend="italics">Between-the-Logs,</hi> one of the principal counsellors
+of the nation, a man well known as an orator
+and a man of brilliant talents; he had
+heretofore remained neutral, although an
+attentive hearer of Stewart's. By his activity,
+he succeeded in a great degree in counteracting
+the hostile and mischievous plans of Duon-quot.
+It should here be understood, that a
+Wyandott Chief by the name of Matthew
+Peacock, was the first Chief that was added
+as a seal to Stewart's ministry. It was in the
+latter part of the year 1819, that Moses Henkle,
+Sen. having been appointed missionary
+to aid the work among the Wyandotts, by
+visiting them once a month, and preach to
+and otherwise advise them in matters of interest
+to them, as well for the present life as that
+which is to come. His missionary labours
+continued for two years to the great satisfaction
+of the Christian part of the Wyandott
+people, during which time much good appeared
+to be done. Although the principal charge
+<pb id="mitchell88" n="88"/>
+and care of this flock was now committed to
+Mr. Henkle, he appeared to consider himself
+only in the light of an assistant to that good
+man who under God, had commenced this
+good work. After Mr. Henkle began to
+labour in concert with Stewart, <hi rend="italics">Between-the-Logs,
+Peacock, John Hicks</hi> and <hi rend="italics">Manoncue,</hi>
+that once violent enemy and opposer of
+religion, united themselves with those who
+were striving to serve the Lord and save their
+souls. <hi rend="italics">Two-Logs,</hi> during the life-time of
+<hi rend="italics">Duon-quot,</hi> continued hostile to the good
+cause; he was much exasperated on hearing
+that his younger brother, Between-the-Logs,
+had embraced religion; he proceeded immediately
+to his house and made a most violent
+attack upon, abusing him for abandoning the
+religion and customs of their forefathers.</p>
+        <p>It is perhaps worthy of remark, that sometime
+during the mission of Mr. Henkle, a
+certain woman who was inimical to Stewart
+and his doctrines, and a relation to the chief
+Duon-quot, (who was then yet living) was
+accused of the crime of witchcraft; this occasioned
+considerable excitement among the people.
+<pb id="mitchell89" n="89"/>
+Mr. Henkle and Stewart laboured to convince
+them of the absurdity of their suspicions, this,
+however, was not easily accomplished, those
+suspicions became stronger and stronger,
+notwithstanding singular plans appear to have
+been resorted to by the accused to divert the
+public attention from the subject, which it is
+not deemed important to lay before the reader.
+Some of the Chiefs, and especially her relative
+Duon-quot, and Warpole, became fully
+satisfied of her guilt, and determined that she
+ought to die. When Stewart was informed
+of this, although he knew her to be his enemy,
+he lost no time, but hastened to place himself
+before those Chiefs to plead for her life.—
+However, at a time when no other Chiefs
+were present, Duon-quot ordered two young
+men to execute her, which was promptly
+attended to. From that time to the present,
+there have been no disturbances among them
+of the same nature.</p>
+        <p>In the fall of the year 1821, the Ohio Annual
+Conference appointed James B. Finley,
+missionary, to proceed to Upper Sandusky,
+with his family, work-hands, &amp;c. to erect
+<pb id="mitchell90" n="90"/>
+suitable buildings for the school, &amp;c. Pursuant
+to his appointment, he without delay
+repaired to the place assigned him, and entered
+upon the discharge of his duties. Here,
+Stewart's labours appear, after this arrangement,
+to be less conspicuous; he continued
+to labour, inviting sinners to the Gospel feast.
+Mr. Finley had not many difficulties to
+encounter in his labours among the Wyandotts;
+the great stone of opposition to religion was
+less formidable; much good seed had been
+sown by the preaching of Stewart, and by the
+labours of several of the local preachers that
+visited them before the mission was established;
+at this time much of the seed began
+to discover signs of successful vegetation.—
+All that was now wanting was the doors of
+the visible church to be thrown open, and the
+invitation given; a large number was ready
+and willing to come in, some sound converts
+ready to come and shout glory to God in the
+highest, and some true penitents ready to come
+in and fall at the altar and cry,“God be merciful
+to me a sinner.”From this time, the work
+went on in a most prosperous manner; classes
+<pb id="mitchell91" n="91"/>
+were formed in <sic corr="different">diffirent</sic> directions, composed
+entirely of Wyandott converts. In the fall of
+1823, Stewart enjoyed but poor health;
+notwithstanding this he ceased not to labour for
+the salvation of his poor fellow men,“in
+season and out of season.”It was in the month
+of August that his indisposition commenced,
+but had some intermissions, so that he was
+enabled occasionally to preach. In September
+his disease grew worse; he suffered much,
+but not a murmur or complaint escaped him.
+His complaint continued but with little intermission,
+until the second Sabbath in December,
+when he began to suspect his time of
+sojourning below was but short. A day or
+two previous, Mr. Finley, Manoncue, and
+Jonathan, (the latter for Interpreter,) set out
+to visit a Wyandott settlement in the province
+of Upper Canada; Manoncue and Jonathan
+called to see him before they set out on their
+journey, suspecting they should see his face
+no more in this world; after some conversation,
+Manoncue proposed prayer, which was
+readily agreed to; Manoncue then kneeled
+down by the bed-side, and poured out his
+<pb id="mitchell92" n="92"/>
+soul to God on behalf of his afflicted friend.
+After some further conversation, they took an
+affectionate farewell of him, when he said to
+Jonathan,“tell Mr. Finley for me, to be
+faithful and meet me in glory.”On the 14th
+he found a great change in his complaint.—
+On Monday the 15th, he was perfectly speechless,
+and remained in that condition until
+Tuesday. All this time his soul appeared
+to be engaged with God. On Tuesday morning
+he informed his wife that the time of his
+departure was at hand; he rose up in his bed
+and informed those present that he was going
+to die, and exhorted them to seek the Lord
+for mercy and salvation; he told them that
+his peace was made, and he was going to
+enjoy that rest which remaineth for the people
+of God. Through the day he was as before,
+speechless; that night he was quite restless,
+and seemed to suffer much with pains in his
+back. Wednesday morning he was in the
+same situation, still unable to speak. While
+his wife was busied in attending on him, he
+appeared to manifest a wish to speak to her,
+she asked him what he wanted to say? He
+<pb id="mitchell93" n="93"/>
+then took her by the hand and faintly articulated,
+<hi rend="italics">“wife, be faithful;”</hi>these were his
+last words; he died at twelve o'clock on that
+day, being in the thirty-seventh year of his
+age, and the seventh year of his ministry.</p>
+        <p>It is to be observed, that although Stewart's
+wife, when he married her in the winter of
+1818, was quite an intelligent young woman,
+yet she was not religious; through the
+instrumentality, however, of her pious husband, it
+is believed she became a subject of saving
+grace.</p>
+        <p>It may here be noticed, as it has not been
+done sooner, that <hi rend="italics">Two-Logs,</hi>a Chief mentioned
+in the former part of this narrative, as
+being a great opposer, in the midst of his
+opposition was arrested by the hand of
+affliction and brought to languish on a sick bed;
+this brought him to serious reflection; he
+found that his fathers' religion would not
+sustain him in a dying hour; he then resolved
+that if the Lord would spare his life, he would
+turn and seek salvation. He was restored to
+health, and became an humble, docile, and
+devout Christian, and died in peace.</p>
+        <div2 type="poems">
+          <pb id="mitchell94" n="94"/>
+          <lg type="verse">
+            <head>MISSIONARY.</head>
+            <lg type="verse">
+              <l>Rise, ye heralds of salvation,</l>
+              <l>Now the Gospel-trumpet, blow;</l>
+              <l>Go to ev'ry tribe and nation,</l>
+              <l>Hear! your Master bids you go.</l>
+              <l>Hark! his word, his Spirit urges,</l>
+              <l>Count no enterprise too hard,</l>
+              <l>Dauntless cross the mountain surges,</l>
+              <l>Christ himself will be your <sic corr="guard">gaurd.</sic></l>
+            </lg>
+            <lg type="verse">
+              <l>God protects, what pow'r can harm you?</l>
+              <l>Winds and seas obey his power;</l>
+              <l>What threat'ning evil shall alarm you,</l>
+              <l>Or what furious foe devour?</l>
+              <l>Quit no duty, fear no danger,</l>
+              <l>Go to all the fallen race,</l>
+              <l>Say to every outcast stranger,</l>
+              <l>Ye may now be saved by grace.</l>
+            </lg>
+            <lg type="verse">
+              <l>Go, with heav'nly ardour burning,</l>
+              <l>Bright with Christ's transmitted rays,</l>
+              <l>Comfort those in darkness mourning,</l>
+              <l>Turn their sighs to songs of praise.</l>
+              <l>Bear his cross, which is your glory,</l>
+              <l>Spread your Master's glorious fame;</l>
+              <l>Tell his crucifixion story,</l>
+              <l>Tell the world his wond'rous name.</l>
+            </lg>
+            <lg type="verse">
+              <l>Idols then shall fall like Dagon,</l>
+              <l>Heathen darkness flee away;</l>
+              <l>Every poor benighted pagan,</l>
+              <l>See the light of glorious day.</l>
+              <l>Deserts shall rejoice with singing,</l>
+              <l>Lonely wastes shall lift their voice,</l>
+              <pb id="mitchell95" n="95"/>
+              <l>Barren wilds with verdure springing,</l>
+              <l>Bloom a fruitful paradise.</l>
+            </lg>
+            <lg type="verse">
+              <l>Sing, ye saints, a day of gladness</l>
+              <l>Dawns already from on high,</l>
+              <l>Put on joy for sable sadness,</l>
+              <l>Wipe the tear, repress the sigh.</l>
+              <l>Soon will Zion's King descending,</l>
+              <l>Cloth'd in regal robes appear,</l>
+              <l>Earth shall, to his sceptre bending,</l>
+              <l>Hail the great millenial year.</l>
+            </lg>
+          </lg>
+          <lg type="verse">
+            <head>ON ETERNITY.</head>
+            <lg type="verse">
+              <l>MOURNING and drooping here I lie,</l>
+              <l>Upon this earthly clod;</l>
+              <l>While heavenly things invite my eyes,</l>
+              <l>And bring me to my God.</l>
+            </lg>
+            <lg type="verse">
+              <l>Transported with a joyful view,</l>
+              <l>Of God's eternal love,</l>
+              <l>Unto this world I bid adieu,</l>
+              <l>And long to be above.</l>
+            </lg>
+            <lg type="verse">
+              <l>Where all the saints in harmony,</l>
+              <l>Their Saviour's praise declare,</l>
+              <l>In that bright realm of endless day,</l>
+              <l>There's not one mourner there.</l>
+            </lg>
+            <lg type="verse">
+              <l>When they've been there ten thousand years,</l>
+              <l>Bright shining as the sun,</l>
+              <l>There's no less days to sing God's praise,</l>
+              <l>Than when they first began.</l>
+            </lg>
+            <lg type="verse">
+              <l>And then as many years should pass,</l>
+              <l>As sands upon the shore,</l>
+              <pb id="mitchell96" n="96"/>
+              <l>The saints above would have no fear,</l>
+              <l>That the blest space is o'er.</l>
+            </lg>
+            <lg type="verse">
+              <l>If all the drops in ocean's wide,</l>
+              <l>Were to be number'd o'er,</l>
+              <l>And then by millions multiplied,</l>
+              <l>And twice as many more.</l>
+            </lg>
+            <lg type="verse">
+              <l>And then as many years should pass,</l>
+              <l>As water drops in all,</l>
+              <l>Or grains of sand, or spires of grass,</l>
+              <l>Upon this earthly ball.</l>
+            </lg>
+            <lg type="verse">
+              <l>And then as many millions more,</l>
+              <l>As stars that fill the sky;</l>
+              <l>Then all that number doubled o'er,</l>
+              <l>Can't meet ETERNITY.</l>
+            </lg>
+            <lg type="verse">
+              <l>Eternity will still remain,</l>
+              <l>'Twill be Eternity;</l>
+              <l>The song to Christ, who once was slain,</l>
+              <l>Will last eternally.</l>
+            </lg>
+            <lg type="verse">
+              <l>Amen! they cry, Amen, Amen,</l>
+              <l>Thy ways, O God! are true;</l>
+              <l>Honour and power and glory then,</l>
+              <l>Thanksgiving is thy due.</l>
+            </lg>
+            <lg type="verse">
+              <l>Honour and power and endless might,</l>
+              <l>Be given to the Lord;</l>
+              <l>In this sweet song they'll all unite,</l>
+              <l>And sing with one accord.</l>
+            </lg>
+            <lg type="verse">
+              <l>Who can describe that blessedness,</l>
+              <l>Of pleasures ever new;</l>
+              <l>I long that glory to possess,</l>
+              <l>And bid all sin adieu.</l>
+            </lg>
+          </lg>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

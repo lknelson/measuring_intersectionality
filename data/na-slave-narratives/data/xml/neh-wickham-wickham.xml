@@ -1,0 +1,266 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd">
+<TEI.2>
+  <teiHeader type="North American Slave Narratives" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>A Lost Family Found; An Authentic Narrative of Cyrus Branch and His Family, Alias John White:</emph>
+Electronic Edition.</title>
+        <author>E. M. W. (Elizabeth Merwin Wickham), 1810-1901</author>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text entered  by Apex Data Services, Inc.</resp>
+          <name/>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name>LeeAnn Morawski  and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2000</date></edition>
+      </editionStmt>
+      <extent>ca.     55K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2000.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> A Lost Family Found; An Authentic Narrative of Cyrus Branch and His Family, Alias John White</title>
+            <title type="cover"> A LOST FAMILY FOUND.</title>
+            <author/>
+          </titleStmt>
+          <extent>  26    p.</extent>
+          <publicationStmt>
+            <pubPlace/>
+            <publisher/>
+            <date/>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">This electronic edition has been transcribed from a photocopy supplied by the Library of Congress.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The text has been encoded using the
+recommendations for Level 4 of the TEI in Libraries Guidelines.</p>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved.</p>
+        <p>This electronic edition has been transcribed from a photocopy supplied by the Library of Congress.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>Branch, Cyrus, b. 1793 or 4.</item>
+            <item>African Americans -- Vermont -- Biography.</item>
+            <item>Slaves -- Virginia -- Biography.</item>
+            <item>Fugitive slaves -- Vermont -- Biography.</item>
+            <item>Slavery -- Virginia -- History -- 19th century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2000-10-23, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2000-07-29, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2000-07-28, </date>
+        <respStmt>
+          <name>LeeAnn Morawski</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2000-07-21, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished  entering data  and proofing.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">
+            <emph rend="bold">A LOST FAMILY FOUND; <lb/>An Authentic Narrative <lb/>OF <lb/>CYRUS BRANCH AND HIS FAMILY, <lb/><hi rend="italics">Alias</hi> <lb/>JOHN WHITE, <lb/>OF <lb/>MANCHESTER, VERMONT.</emph>
+          </titlePart>
+        </docTitle>
+      </titlePage>
+      <div1 type="preface">
+        <pb n="i"/>
+        <head>PREFACE.</head>
+        <p>The story of Cyrus Branch and his family appeared in the MANCHESTER JOURNAL of January 12th, 1869.</p>
+        <p>The friends of Mr. White in this vicinity, thus learning of his renewed intercourse with his long-lost family, widely congratulated him on the event, and as often propounded the inquiry, “Why don't you go and see your daughters, and their children?” His reply, that he would of all things like to visit them, after Grant was President, when he should be able to earn the money to do so, caused the suggestion to be made to him, to have his narrative printed in a form to be disposed of for his own benefit. This pleased him much, and he seemed to feel that the way might thus be opened for the coveted trip to Virginia—although 75 years of age.</p>
+        <p>At his request, other facts of his life and adventures are appended to the narrative, and in connection with them statements are incidentally interwoven, that our people may the better know <hi rend="italics">what</hi> that emancipation <hi rend="italics">is,</hi> which our <pb id="pii" n="ii"/>
+sad four year's war secured to the race in bondage at the South. An appreciation of this may be <sic corr="emollient">emolluient</sic> to mourning wives, sisters, and parents, whose hearts were riven by the death and sufferings of many dear to them.</p>
+        <closer><signed>E. M. W.</signed>
+<dateline>Manchester, Vt., Feb. 12, 1869.</dateline></closer>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p1" n="1"/>
+        <head>AN AUTHENTIC NARRATIVE.</head>
+        <p>Who among us does not know our fellow-townsman, Mr. John White, a resident of Manchester now nearly thirty years? His name betokens not his hue, though he is not the less respected and honored for his deportment and correct habits. He has long been sexton of the Congregational Church in this village, and when superseded for a time because he did not appear to understand the principles of ventilation, he was, much to his satisfaction, restored to the position within a year or two, with the approbation of all. In wood-yards, and in gardens, at house-cleanings, in stove-fixings, carpet shakings, and white-washings, he has been a ready helper. And when a while ago, impaired health rendered him less efficient than formerly, it seemed difficult to supply his place. But after the Emancipation Proclamation, John's years were fairly renewed—his vigor returned and his straightened form and cheerful, sparkling face, bespoke <hi rend="italics">freedom</hi> and might, in a sense never by him understood before. Yes, he was a runway slave when he reached the North in 1840, and the odious breath of oppression never ceased to weigh him down until the memorable event of 1863, which forever released the bondman from the hard grasp of his master.</p>
+        <pb id="p2" n="2"/>
+        <p>For many years John said little about his early circumstances, and special whereabouts. That he had seen four years of swamp life near the James River, in Virginia, sustaining himself by selling fish to the boatmen and sailors on the river, before he could get safely on board of a vessel for the North, elicited our earnest sympathy, with strong desires that his present retreat might prove a secure one. But when the “Fugitive Slave Law” was passed, the “long agony” in John's breast was renewed. He provided himself with a revolver which he kept loaded, and he was suspicious of new-comers around if they showed special interest in him. His eager step became one of lassitude, and his strong frame was bowed before its time.</p>
+        <p>With the first flags raised here in 1861 to indicate the purpose of the people “to stand by the Union,” after the secession of the Southern States, and the fall of Sumpter, John raised a flag staff on his own house, and the stars and stripes floated there on the breeze, the flag retaining its position till worn out by the winds and storms; contrasting strikingly with that of the country it at first represented.</p>
+        <p>John of course was from the first a staunch Republican, and used his privilege of voting as soon as he was legally entitled to do so. For several years past, at our semi-annual town elections in March and September, he has performed the office of distributer of the Republican tickets, a double significance in this case seeming to attach itself to  the act.</p>
+        <p>When barrels containing articles of clothing, <sic corr="conveniences">conveniencies</sic> and books, were sent to the Freedmen from this place, at the call of the Freedmen's Association, John was always ready with his contribution for the purpose, though at the cost of self-denial.</p>
+        <pb id="p3" n="3"/>
+        <p>After these events John was free to speak of his condition while in bondage. And when <sic corr="Petersburg,">Petersbug,</sic> and Bermuda Hundred, and City Point became common nouns, he could describe them all, Bermuda Hundred being his birthplace, his home chiefly in Petersburg, and his escape made from City Point. He was no worse off than the majority of the slaves, and did not change owners till after he was thirty years of age. Then, in consequence of deaths and the division of property in the families to which he successively belonged, he was sold four times. His last owner was a cruel and tyrannical man, of whom he would have freed himself by purchase, but this he was not allowed to do, his services as a carpenter being too highly valued.—Thence forward he determined to be free, and the Lord helped him, as “thro' fire and water.” He was pursue and shot at, and again came near being caught, but <sic corr="escaped">escapde</sic> into a stream of water, <sic corr="thrusting">thursting</sic> his head into the rushes that lined the bank, the dogs in pursuit of him thereby losing the scent. At length some friendly sailors hid him, doubled up, in the forecastle of a vessel leaving City Point. He was fed from time to time with soaked hard tack, that the noise of crushing it might not lead to a search for rats during the voyage, or otherwise excite suspicion. Arrived in New York, the passengers were all landed before dark, and the captain gone ashore; when at the message of the colored cook, a number of persons came on board to visit him, and John was borne to the shore in their kind arms, across several vessels lying at the dock; for his cramped position so many days in his place of concealment had deprived him of the use of his limbs. The cook's home sheltered him till he could walk, and he was advised to call on the Rev. Mr. J——, who found him a boarding place for a fortnight, and then sent him up the Hudson river, paying
+<pb id="p4" n="4"/>
+his passage in the steamboat. He also gave him a letter of introduction to Rev. M. S——, of Troy, formerly known in this vicinity. Mr. S. soon forwarded him to Mr. G——, of Hoosick Falls, and Mr. G. directed him to Mr. L. B——, of Shaftsbury. After an interval of two months, Mr. B. sent a letter to our venerable Judge Pettibone by his hands. Good Deacon Hawkins, some time since gone to his rest, gave him employment at his trade in this village, and from that time he took up his abode here.</p>
+        <p>When the climax of the war came, the day on which the telegraphic wires announced the “Surrender of Lee,” the intense joy of the land uttered itself, now in praise, and now in shouts. Our bells rang out their loudest peals, banners were held up amid processions formed in haste, and the echoes and re-echoes of the cannon's roar from our stable mountains, was as a voice proclaiming the fulfillment of our hopes, the end of our fears. John had leave to ring his bell all day, and his ordinary's wages trebled by patriot friends to permit him to continue an exertion in which he then truly delighted.</p>
+        <p>Last spring John learned that Mr. P. of our town, was designing to visit Virginia and would probably go to Petersburg.</p>
+        <p>Said John to him, I will tell you my former name, and would you please to make some inquiries, if possible, about my former dear family, my wife and the four children that I left there in bondage. My oldest daughter was sold before I came away from them all, thirty-two years ago. The ready and sympathetic response was given by Mr. P., and the life burden of a wronged heart was suddenly lifted, as a glimmer of the long-desired tidings dawned on the weary soul.</p>
+        <p>Mr. P., after many fruitless inquiries, in the neighborhood 
+<pb id="p5" n="5"/>
+of Petersburg for some one remembering <hi rend="italics">Cyrus Branch,</hi> met at length an elderly colored couple at work in a field, who said they belonged to the Guildfield Baptist church. John had told him that he was formerly a member of this church, and Mr. P. deemed it his best course to send a note to its pastor by their hands.</p>
+        <p>On the following Sabbath, towards the close of the services in the Guildfield church, Rev. Mr. Williams, the pastor, said: I have information concerning one Cyrus Branch, formerly a member of this church—his name being on the records. He was at that time a slave. Escaping from his master, after a while he made his way to the Northern States, nearly thirty years since. Is there any one present who owns relationship to him, or can give any account of the family he left behind?</p>
+        <p>As he ceased to speak there was a profound silence in the congregation of three hundred or four hundred devout worshippers. The elderly people were gathering up their recollections of the past, which included thirty years, <sic corr="dimmed">dimned</sic> as they were by privation, affliction and various sorrows. One looked at another, when there arose a woman in the prime of life, who answered audibly but tenderly, “Cyrus Branch was my father. He went away from us when I was five years old, as my mother told me, and we have not heard of him since.” “What is your age now, Mrs. Smith?” inquired the good man. “I am thirty-seven years old,” she replied. “Many here knew my mother, who died last summer.” “Praised be the Lord,” exclaimed the feeling pastor, “who delivered him from bondage, and has now released him from all fear of being returned to it again, so that he dares to send us word about himself, and look for the kindred of his earlier years.” To which was responded a hearty “Amen.”</p>
+        <pb id="p6" n="6"/>
+        <p>Many were the congratulations this long-fatherless daughter received, as friends and neighbors gathered about her; with hope renewed in some desolated hearts, that they also might yet hear something of their own dear ones long separated from themselves.</p>
+        <p>Mrs. Smith immediately obtained of Mr. Williams, the address of her father, and wrote to him a letter under date of June 6th, 1868. She said:<q direct="unspecified"><text><body><div1><p>“MY DEAR FATHER:—I was much pleased to hear from you, through the letter sent to the church, and to know that you are still alive. I am sorry to say that my mother is dead. She died the 28th of last August, in the triumph of faith, after a long and tedious illness, which she bore with much patience. She left two children, Mary and Elizabeth. Mary is the oldest, and I am the youngest.—Mary was married and has six children, but is now a widow. I am married and have two children. I am glad to hear from you and hope you will write shortly. Direct your letter in care of Rev. Henry Williams, Pastor of the Guildfield church. My sister Mary and my husband join me in love to you. Nothing more, but I remain,</p><closer><salute>Your daughter,</salute><signed>ELIZABETH SMITH.”</signed></closer></div1></body></text></q></p>
+        <p>June 27th, another letter says: “It gives me much pleasure to hear from you, and to find that you are in the enjoyment of health, and that you are so comfortably situated in your old age. I hope it will not prevent your making us a visit, as soon as you can make it convenient. You wished to know about your people. Your sister Maria has been dead about eleven years, your sister Lucy is well.—All the old Deacons that you left here are dead; brothers Holloway, Walker, Wilcox, Lewey, Cox and Guivens.</p>
+        <p>The times are very hard here, as rent is very high. Enclosed you will find the photographs of my two daughters; the eldest is named Lucinda, and the youngest Mary Ann, after my mother. As I am not acquainted with your daughter, I cannot say much to her, but will you please to 
+<pb id="p7" n="7"/>
+give my love to her, and tell her, although we are at present strangers, I hope we may become acquainted, as I am anxious to see her. Will you please to write me her name, as I may write her.”</p>
+        <p>July 28th.—“This leaves me and mine well, and I hope it may find you and yours well. Your mother has been dead about fourteen years. I have nothing new to tell, as news is dull, and it looks gloomy—prospects not very bright, as everything is dear.”</p>
+        <p>August 24th.—“It gave me much pleasure to hear from you again, and I hope that at the reception of this it may find you all well. You wished to know about Martha and Lucinda (former daughters). They have been sold away for over twenty years. The Guildfield church is in a prosperous condition. The Lord has blessed as this summer with a large revival. I have been converted fifteen years, and my oldest daughter has been a professor six years.”—(The letter concludes with messages of love from various friends to himself and his Northern daughter, Mary, with a desire to hear from him soon.</p>
+        <p>Two years after Mr. White commenced living in Manchester, he married a widow of noted capability. She died in 1860, and a neat marble slab erected by her husband, commemorates the spot where her remains repose in our tasteful cemetery. Their daughter, then near maturity, has followed her mother's example in rendering him in in every way comfortable, and aiding him to secure a pleasant home of their own.</p>
+        <p>He was asked a few days since, whether he would go to Virginia and visit his remaining children there. He replied, “Perhaps so, but not yet—would wait for the copperheads to get cooler.”</p>
+        <p>The story of Frederic Douglass, in Mrs. Stowe's new book, was read to him, to which he listened with intense 
+<pb id="p8" n="8"/>
+interest, remarking, he could confirm from his own experience all the statements there made regarding the food of the young slave children at the plantation, and the manner in which they are fed, from troughs, &amp;c.</p>
+        <p>John's father's name was Neptune Branch, being in his earlier years the body servant of Col. Benjamin Branch when an officer in the Revolutionary war. Col. B. had promised Neptune his liberty, for his faithfulness, when the war should end, but when this event took place, the state of his finances canceled, in his view, the obligation, because he affirmed he had lost so much property by the war, that he could not afford to do it. Col. B. met his death by an accident when in a drunken condition, being thrown by his gay young horse, against a tree lying in the road, on his return from Chesterfield Court House.—Neptune was then sold, but being a stevedore and having now a family of seven children, he bought his time of his new master, Mr. Eppes, for fifty dollars a year, earning, of course, much more than that. He carefully saved all that he could of his wages, with a view to his freedom, and was permitted to pay his master the $700 required, in installments. But this purchase of himself not being duly registered, he was attached and sold again on Mr. E's. death for a debt due the estate of $600. But by his untiring industry he again earned the means of extricating himself from the yoke of slavery, at an aggregate cost of $1,300.—These facts concerning his father, together with the disappearance or his eldest daughter, Joanna, eighteen years of age, who, it had been promised John, should never be sold to a trader, wrought in his breast such an abhorrence of slavery, and such a sense of its utter injustice in every form, that life to him as a slave was <hi rend="italics">not</hi> life, whatever other dear ties would have held him on his native soil. He 
+<pb id="p9" n="9"/>
+was diligently sought for two whole years after he had made his escape, his owner sending once to New York to ascertain if had fled there, and spending a sum equal to his estimated value to secure, if possible, possession of him again. But he was held “in the hollow of Jehovah's hand,” as if it had been said to him “I am with thee, and no man shall set on thee to hurt thee.”</p>
+        <p><hi rend="italics">Appendix.</hi>—Col. B. was an unsympathizing master of the faithful Neptune who, during the Revolutionary war had braved his hardships and deprivations to lessen himself—for when informed that he was allured by the gentle face and winning ways of Mary Urby, of their neighborhood, whose owner was the widow Betsey Wooshman, he preemptorily forbade his visits to her. With the genuine ardor of true love, Neptune's regard for her increased. The call on her was repeated, and the consequence was that he received a severe whipping from the hands of the overseer, at Col. B's direction, with the threat that, on another similar occasion, he would scarcely leave breath in him. Did this threat have the effect designed on the dusky swain of a nearly white lass? As well try to stop the mountain torrent with a handful of dirt thrown in, as this outgushing of affection which had now become the whole world to this solitary man. Neptune was never seen again by Col. Branch, secreting himself at a distance, for a month afterward he had added another interview with his dear Mary to the list of his offences. A rumor reached him there of the death of Col. B. by a fall from his horse, but not until, screened by the darkness, he had explored the grave-yard in Petersburg, and found a new made grave in the family lot, did he venture into his old premises. He was sold soon after, and he was also married to the object of his 
+<pb id="p10" n="10"/>
+choice, and thus, to the poor slave, began that new life esteemed so precious in the land of liberty.</p>
+        <p>Henceforth Neptune's family were the property of Mr. Wooshman, the ties of a purchaser transcending those of blood. Mary and her successive children, of whom Cyrus was the 9th among 12, remained in the possession of Mr. W., with over 80 other slaves, for many years. At her death they were transferred to her grand-daughter, Mrs. Boisseau, and most of them were still kept in the family, but owing to Mr. B's misfortunes and then his death, part, after a while, fell into new hands, and Cyrus was among those sold.</p>
+        <p>Neptune took advantage of  the sale to release his wife, now over 70 years of age, from bondage, but as a slave was not allowed to bid on another slave, he empowered a poor white man to bid at the auction for him, giving the money for her purchase into his hands; and he also was to receive the deed of sale and transfer it to Neptune. This was all well accomplished, except the transfer of the deed, Mrs. Whittemore boasting she should “now have aunt Polly to cook for her, and not be tied herself to the kitchen fire any more.” This coming to the ears of Mrs. Neptune Branch, in the neat little home of her husband's provision in Bermuda Hundred, the sheriff of the place passing her door, she accosted him with the facts, and asked redress at his hands. “Certainly,” he replied, “I witnessed the whole transaction, and you shall have the deed.” Going to Whittemore's house, Mr. Watkins asked him for the deed of sale of Neptune's wife. “Can't say where 'tis,  don't know.”—“Well, look for it.” Whittemore tumbled out a pile of papers, but it was not found among them, and his wife could not tell anything about it any better than he could. Said the sheriff, “I saw Neptune count out the money to you, 
+<pb id="p11" n="11"/>
+which was the amount of your bid on aunt Polly Branch, and the deed of sale I saw you take, and I'll give you an hour to find it, and then take you to jail, if you fail.” In less than an hour the deed was produced, and the transfer made, which gave to the still loving Neptune the right, even by the laws of that stern land, to keep his wife of his young years, ever beside him. John's wife, Mary Ann Twyne, and her children were owned in Petersburg by Mr. Archie, while John had to go with Mr. Richie, his third master, to a plantation seven miles west of Petersburg on Coxes' Road. Mr. Richard B. was a severe man with his servants, and told John he should not go to Petersburg, though he had lived with his wife 20 years. He would fain have him take another wife, (one of his slaves,) which offer was rejected. He built for his master a new carriage house, and his brother-in-law, Mr. Thomas F. B., being pleased with it, a bargain was made between the men that John should build one for him, so he accompanied him to his home seven miles north. After the timbers were prepared, and Ben was to start for Coxes' Road to obtain John's chest of tools, John asked leave to go with him, as he was to pass through Petersburg, and see his family there. The surly denial of Mr. T. B., quoting his authority for it, sent daggers through John's heart, and the manhood of the slave recoiled at the usurper of his rights. He “had work enough for him all day,”  Mr. T. B. added; he “might go to making a plough.” So Ben drove off for the chest of tools that Saturday morning, and John hewed out the wood for a plough, and at noon when the master went into the house for his dinner, John left for Petersburg. In the loving embraces of wife and children, from whom he had for months been separated, John's previous misery was forgotten. On the Sabbath afternoon, while in the streets 
+<pb id="p12" n="12"/>
+of Petersburg, John observed, suddenly turning a corner, the establishment of T. B., with his red and angry face peering around; but he instantly retreated into an alley between two houses, and so escaped notice, while he could perceive that the horses took the Coxes' Road to his master's. Ben, the teamster of the tool chest, on his return from Mr. B's, called on John's wife to acquaint her with the result of the conference of the brothers, which was that, John was not to continue work on the building commenced. His master intended to wreak vengeance on him, on his return, for disobeying his orders by his supposed visit to Petersburg, which John was not previously to know that he had been acquainted with. But John, hearing of his threatened cruelty, shaped his plans accordingly. The first step in the path toward freedom had now been taken; onward should be his course, the Lord assisting him. O, the mighty conflict in that husband's and that father's heart, as he stole away from his dear family so quietly that night, and wended his way, he scarcely knew whither.—But what were they to him, what could he be to them?—He was forbidden to be with them, he could never protect them, and his heart might be torn again with anguish at their fate, as it had been when for three dreary weeks he beheld the face of his darling Joanna at the <sic corr="iron bars">ironbars</sic> of the jail windows, tearfully, mutely, vainly pleading for release from the brutal buyer who was to convey her far away. The heart's <hi rend="italics">adieu</hi> was with them, as the weary man went out, not knowing what should befall him, whether chains and scourging, or, through much danger, in the end—freedom.</p>
+        <p>He turned his face to Bermuda Hundred, 15 miles northeast, but with his mind so disturbed, and a new road having been made through the woods, that he lost his way, and sheltered himself inside of a hollow tree for the remainder 
+<pb id="p13" n="13"/>
+of the night. Emerging from it he perceived a spotted snake of the most poisonous kind coiled up there, which, even in his crouching posture, he had been preserved from touching; and this deliverance added to his faith in God, that he should yet realize his liberty 'Twas night again before he ventured on much progress, having no pass with him. The law required all slaves on what errand soever to be ready to exhibit passes indicating their ownership, destination and business, so fearful were their owners of their running away; and failing to show a pass they were liable to be seized by any white man who might meet them, and demand it.</p>
+        <p>A mother's love and kindness greeted him in Bermuda Hundred, and supplied his wants. He could not long be hidden here with safety to himself or his parents, the law being strictly enforced, that free negroes harboring runaways should themselves be sold again into slavery. In the summer he mostly secreted himself in Martyr's Swamp, occasionally visiting his mother and obtaining food from her. One day as a man was hunting ducks and wild turkeys in the swamp, which abounded there, he caught a glimpse of John, and not recognizing him as belonging to the neighborhood aimed his gun at him, expecting to obtain the reward of fifty dollars, always paid for capturing a slave off his owner's premises. Thompson shot three times and hit him twice, but on searching could not find him, he having crawled under the protecting branches of a prostrate evergreen tree, and T. doubtless supposing he had fled unharmed. The forlorn man was sorely wounded. A shot entered his face at that point of the eye close to his nose, nearly costing him his sight, and one shot still remains there.—The other discharge, a very heavy one, entered the calf of his leg. At night he crawled, sore and faint, on his left 
+<pb id="p14" n="14"/>
+side to his father's house in Bermuda Hundred, where, for about a month his mother tenderly nursed him, drawing out many of the shots from his leg, by plasters of tar spread on canvass. She had to manage adroitly to obtain the tar and not excite suspicion, for her aged husband was now unable to use it in stevedore's work as formerly, which was well known. She covered her son in a heap of old canvass in a corner of her little loft, saying, “You are my child, and the Lord has sent you to me, and I must take care of you, whatever the risk.” Some years since, as John affirmed, there were shot in his leg still. Daniel Roberts, Esq., then a resident here, now of Burlington, at John's request, cut one with his pen knife out of the deep flesh, leaving seven which no operator has seen fit to extract.</p>
+        <p>Neptune advised his son to go from Chesterfield County down into Charles City County and into a swamp called Coxe's Island. It was formed by a bend in the James River, and a creek flowing into it also curved. There it was nearly enclosed by the water, Charles City lying on the north and City Point on the south of it Hogs roamed and fattened on the roots with some acorns in the swamp in the summer, and hence no hunting was allowed there.—The joint owners of this Island, Messrs. Carter &amp; Coxe, had their respective farms on the north and south of it, and it was guarded and cared for by a slave of each planter, both friendly to John, and one of whom, Talbot Gracie, had for his wife Mary Washington, the cousin of John. In this swamp, three miles from Bermuda Hundred, John made his home for nearly four years, taking fish at night from the river, and selling them to the boatmen who frequented its shores, or exchanging them on the vessels for bread and meat, sometimes being very liberally dealt with, and sometimes repulsed. Fish were abundant in the James, such 
+<pb id="p15" n="15"/>
+as shad, pickerel, carp, mullets, sturgeon, perch and eels; and John, on the whole, fared better than he did part of the time when in servitude. Talbot was always on the alert that no danger should surprise him, furnished him with tools and comforts, and once in a while he made brief visits to his parents who could tell him of the welfare of his own family, who must know nothing of him, however, and they supposed him dead. Leaving his mother one night with a basket of food in his hands, he hastened to a grave-yard not far distant, intending there to take his much needed repast. Close by <sic corr="the">tho</sic> grave-yard fence stood a large stack of corn, and the full moon shone so brilliantly that he pulled open this stack of corn and hid himself within it. His solitary meal just commenced, he suddenly heard voices, one saying to another, “I saw him go over this grave-yard fence.” So over the fence close by him leaped the two men in hasty search of the fugitive slave.—They examined the flowery-laden bushes, looked carefully under all the tablet memorials of the departed, in the shadows of the tall marble slabs, and peered up into the beautiful locust trees whose slender leaves afford no screen. All in vain was their impatient tread, and their eager glances on every side, as with angry exclamations to each other, they turned in a road in the opposite direction of John's retreat. When an hour had passed and all sounds of footsteps had died away, John left his hiding place and jumped a ditch, the boundary of a farm which bordered on James River. The river reached, a friendly skiff at hand, which he knew well how to use enabled him soon to cross it. Then, taking his own boat he crossed again to return the skiff, and a row of another mile was made to gain his old home in the swamp; but his heart was raised in thankfulness to the Lord above for the perils he had escaped.—
+<pb id="p16" n="16"/>
+When John again saw his mother it was to mourn with her the departure of his excellent father, at ninety years of age. John's home in this swamp was a shelter of boards, fixed up with stakes, similar to a tent. It was on a knoll, hidden among ash and black gum trees and bushes of dense foliage, and was not perceived till one was close to it.—When the river rose to its highest mark the land was mostly overflowed, and John could near it with his boat.—John so closely resembled a man bearing the name of John White, on a plantation ten miles distant, that Talbot thus called him, and after a couple of years, when the search for him was abandoned, as he heard from his brother and others, he felt more secure, though he was subject to the suspicions attaching to all negroes, and he was constantly watching for an opportunity to escape to the free States. He had much companionship in Talbot Gracie when he was busy on the inland in the summer season, looking after his charge there. Talbot was a true Christian man, and a preacher could read well, and had eagerly grasped all opportunities for improving himself. He married and buried his brethren and sisters, and was a “son of consolation” to all when in distress. All the darkies of the vicinity were true helps to John in his retreat, being very closemouthed always to their oppressors, and even the little children acquired a prudence beyond their years. These characteristics showed themselves during the recent war, as many a poor soldier testified when he had lost his way and was in imminent danger of falling into rebel hands.—Cobbling was one of the accomplishments which necessity had taught our subject, and John patched and pegged anew the failing shoes of all the neighborhood. In returning the mended shoes of one of his friends one Saturday 
+<pb id="p17" n="17"/>
+night, he was <sic corr="persuaded">pursuaded</sic> to pass the Sabbath in his cabin, which he was glad to do if it was safe.</p>
+        <p>At early morning John chanced to see a young colored girl coming from the overseer's house, with a shovel in her hand for coals, and, being alone just then, he sprung up the ladder to the loft above. The floor boards rattling, brought her up, calling “Uncle Frederick,” and seeing a strange face, she inconsiderately mentioned at her home that Uncle Frederick had company, which was overheard by the overseer. Her seeing him had not alarmed John in the least, but just at dark the overseer walked in. Frederick was out at a meeting, and he said roughly to John, “Who are you?” “John White.” “Where do you work?” “I work around some, and on the docks in Bermuda Hundred for Mr. Elijah Fowle;” which he had often done.—“Let's go to Bermuda Hundred,” replied Turney, “and see him.” They proceeded a few paces in the opening, usual between the planter's house and the cabins, two large dogs following, and as John moved towards the woods at the left in the direction of the place named, Turney angrily called out, “We'll go to the house.” “No,” said John, “to Bermuda Hundred,” and as he strode the fence, bounding the woods, the man struck John on the shoulder.—Striking a second time, John caught the strong club away from him and sprang into the woods. This infuriated his pursuer, who immediately clapped to his dogs, and called, “Catch him! catch him!” John, running on, clapped his hands and called, “Catch him! catch him!” pointing ahead, and so the dogs went by him. John soon turned off the way he wished to go, and safely reached the swamp without further molestation. To aid his fishing operations John constructed a wear of lath and wire to put a few rods above the mouth of the creek where he fished always in 
+<pb id="p18" n="18"/>
+the day time just before the fall of the tide, so as to obstruct the return of the fish, which had been thus thrown up, leaving them in the mud when the water receded. A fine stock one night he found there, and, gathering them into his great basket, a heavy “gah,” an excellent rough skinned fish, escaped from his grasp in the darkness, although he had hold of it several times. After the moon was up, and John was at the place again, he discovered there a water snake eight feet long, so glutted with the fish it had eaten as now to be harmless. His preservation from its terrible bite was marvelous to him, handling it so unsuspiciously as he had done. He then cut a stick with two long prongs, pinned the snake fast into the ground, and cut it in two. In a few days, the numerous turkey buzzards that were flying over the island, the carrion attracting them, caused him to bury it, lest the spot should be visited to ascertain the cause.</p>
+        <p>One day, mending his clothes beneath a tree, a bright object in one opposite caught his notice, and he discovered the eyes of a snake intently watching him. He moved off, and the long snake, gracefully unwinding from the beautiful ash branch around which it was coiled, descended to the ground. John was ready with his fork, and, securing the cow-sucker, he was freed from its embraces till he could dispatch it. These reptiles were provoking pests to the farmers, winding themselves around cows sometimes and draining them dry,</p>
+        <p>John mentions “Nat Turner's insurrection” as fresh in his mind, because the slaves after that were more strictly watched than ever, their usual privileges denied them, and their hardships greatly increased.</p>
+        <p>Nat Turner was a slave who secreted himself from his master 30 years, living in a habitation he had constructed 
+<pb id="p19" n="19"/>
+under the ground in Southampton County. He was an exhorter early, and had acquired great influence over the slaves, and this he used to incite them, to combine and to murder their masters and their families, and thus free themselves from slavery. Several whole families were sacrificed to this horrid and cruel infatuation 'ere its leaders were discovered, and severe retribution was dealt to all supposed to have knowledge of the plot. John was seized by the city guard, being out after eight o'clock, and thrown into prison, but being recognized by the captain, to whom he was taken, and his good faith proved, he was returned unharmed to his master's domains.</p>
+        <p>The State Government soon after enacted a law prohibiting colored men entirely from preaching and exhorting, or even gathering for prayer meetings, except at the leaves of their respective owners. These were hard laws to submit to, their situation as slaves being made bearable to some only by the soothing counsels and influence of their christian brethren. But the moral courage of a few of the preachers rose superior to the laws of the land, when they were in violation of the laws of God as revealed in the Scriptures. Among such men was one Pleasant Randall, the property of Mr. Harrison, of Charles City, who deemed his commission to make the Gospel known to sinners, to be from the Lord, and not from man.</p>
+        <p>When gone into Prince George County, one Saturday, to preach for a couple of days, the planters in the vicinity visited his master, Mr. Harrison, urging him to restrain Randall, or shut him up, saying, that his preaching so affected their people that they would bear beating and beating, and then hear him again at the first opportunity—they could not thus spare their time, and the man ought, by the laws, to be hung—and <hi rend="italics">they</hi> should do something to 
+<pb id="p20" n="20"/>
+stop him, if he did not. Mr. Harrison was personally attached to the good man, and told them, that no <hi rend="italics">mob</hi> should touch him; they must proceed according to law if they meant to hinder his preaching. So Randall was arrested, imprisoned, and tried, and convicted, and condemned to be hung, for making eternal salvation known to his fellows, and an early day was fixed for his execution.</p>
+        <p>At this conclusion of the matter, Mr. H. went to Richmond to obtain from the Governor, if possible, his reprieve.</p>
+        <p>The Governor said it was a trying case, truly, but he must see, he supposed, to the execution of the laws of the State of which he was governor.</p>
+        <p>Mr. Harrison continued to plead for him, extolling his true piety, and many noble qualities. Finally, the Governor said, “Bring him to me, I want to see him,” and he forthwith prepared the document for summoning him.—The doors of the Richmond jail opened at the command of the Governor, and a guard attending the devoted culprit, was brought into Magisterial presence.</p>
+        <p>“So you are the man that won't stop preaching,” said the Governor to Randall. “Yes, massa,” he replied, “I mean to preach as long as the Lord God gives me breath.” “Can you preach,” the Governor again interrogated. “Yes, massa, I can, the Lord sent me to preach, and helps me.” “Well, let us hear you, then,” said he, thinking, perhaps, to have some merriment. He took for his text, “The earth is the Lord's,” and preached an hour before his Excellency, who was in no light mood when the discourse was ended, and a fervent prayer had been offered in his behalf to the Lord of Heaven and earth. Gov. C. sent him out of the room, and said to Mr. H—“It is a shame to hang such a man. It would be a scandal to Virginia. I cannot do it, 
+<pb id="p21" n="21"/>
+or consent to it. But condemned by the laws of the State in which he lives, you know he is <hi rend="italics">yours</hi> no longer, and pardoning him as I now do, he is a free man, indeed.” After this the colored people built him a church in Blandford, and thus the Lord increased his usefulness by the very means intended to end it, and he was there ministering when John came away.</p>
+        <p>It may be said to the credit of Virginia's statesmen that this iniquitous law did not continue long in force.</p>
+        <p>John speaks of a Mr. Bradley, in Chesterfield County, whom he knew in his youth as a notedly brutal master.—When angry, he would heat a poker in the fire, and lay it himself on the naked backs of his poor slaves, but his good wife mourned his cruelty, and did all in her power to alleviate their sorrows and their sufferings.</p>
+        <p>This man one time, at the solicitation of his wife, attended her to a camp meeting. By the words there heard, he was so wrought upon in view of his sins, that John, with others, had to carry him to his home, where, for three days, his terror was so great that no one ventured near him.—Then he opened his mouth in praises to God for sparing a wretch like him. He called his slaves together, and asked their forgiveness for his barbarity—said Satan had moved him hitherto, but Christ now was in his soul. His kindness and christian character ever after proved the change to be genuine, and from being hated and feared, he was beloved and truly lamented when his death took place, and to John and to many persons his conversion was blessed, attesting to them the nature of that religion which could convert a lion into a lamb.</p>
+        <p>The Guilfield church alluded to heretofore, is just out of Petersburg, and was erected by the labors and the contributions of the colored people of Petersburg. John's own hands 
+<pb id="p22" n="22"/>
+aided in its construction. There were several hundred free colored people in that town, carrying on various handicrafts, and many of them gained considerable property. One man, Boyd, a carriage trimmer gave $500 towards it, though indifferent about religious services. When this church was near its completion, a grasping slave-holder, whose men had participated in the effort, attempted to wrest the building from them, affirming that slaves could hold no property apart from their masters. But Boyd, and Warner who was one of the ministers, and other intelligent freemen, of whom there were nearly fifty, were too strong for him. They had purchased the land on which it was built, and had the deed, and henceforth, being appointed Trustees of the church, no further difficulty was experienced in retaining it.</p>
+      </div1>
+      <div1 type="section">
+        <pb id="p23" n="23"/>
+        <p>By what a struggle was every <sic corr="privilege">privi ege</sic> enjoyed, obtained? Truth,“ it is said, “is stranger than fiction,” and</p>
+        <lg type="verse">
+          <l>“To point a moral, And adorn the tale,”</l>
+        </lg>
+        <p>what happier event could transpire, or imagination devise, than that Cyrus Branch, <hi rend="italics">alias</hi> John White, after 33 years of absence from kindred, and in ignorance concerning them, and amid the most depressing circumstances on both sides, should meet a sister, and sister's children, his own children, and the grand-children unknown to him, and they, together be permitted to recount the mercies of the Lord, in their thus beholding each other's faces in the land of the living; and in the very State where they were in bondage, but in which, through the wonderful Providence of God, ALL now are free.</p>
+        <p>That the aged man who proffers you this little book may realize this blissful result, the consummation of his earthly hopes, your aid and sympathy in its disposal are earnestly solicited.</p>
+      </div1>
+    </body>
+    <back>
+      <div1 type="section">
+        <pb id="p24" n="24"/>
+        <list type="simple">
+          <head>ERRATA.</head>
+          <item>In Preface, for “<sic corr="emollient">emolliuent,</sic>” read <hi rend="italics">an emollient.</hi></item>
+          <item>Page 9, for the third line in Appendix, read: Braved hardships and deprivations himself to lesson those of his master. On same page, for pre-emptorily, read <hi rend="italics">peremptorily.</hi> For “afterward,” read <hi rend="italics">after.</hi></item>
+          <item>Page 10, lines three and six, for “Mr.” read <hi rend="italics">Mrs.</hi></item>
+          <item>Page 11, line eight, for “Richie,” read <hi rend="italics">Richard B.</hi></item>
+        </list>
+      </div1>
+    </back>
+  </text>
+</TEI.2>

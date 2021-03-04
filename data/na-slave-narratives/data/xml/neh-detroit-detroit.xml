@@ -1,0 +1,527 @@
+<!DOCTYPE TEI.2 SYSTEM "http://docsouth.unc.edu/dtds/teixlite.dtd">
+<TEI.2>
+  <teiHeader type="" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title><emph>A Thrilling Narrative From the Lips of the Sufferers of the Late Detroit Riot, March 6, 1863, with the Hair Breadth Escapes of Men, Women and Children, and Destruction of Colored Men's Property, Not Less Than $15,000.:</emph>
+Electronic Edition.</title>
+        <funder>Funding from the National Endowment for the Humanities
+ supported the electronic publication of this title.</funder>
+        <respStmt>
+          <resp>Text transcribed by</resp>
+          <name>Apex Data Services, Inc.</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text encoded by </resp>
+          <name id="ns">Apex Data Services, Inc., Elizabeth S. Wright and Natalia Smith</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>First edition, <date>2001</date></edition>
+      </editionStmt>
+      <extent>ca.   95K</extent>
+      <publicationStmt>
+        <publisher>Academic Affairs Library, UNC-CH</publisher>
+        <pubPlace>University of North Carolina at Chapel Hill, </pubPlace>
+        <date>2001.</date>
+        <availability status="unknown">
+          <p>© This work is the property of the University of North Carolina 
+at Chapel Hill. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="title page"> A Thrilling Narrative From the Lips of the Sufferers of the Late Detroit Riot, March 6, 1863, with the Hair breadth Escapes of Men, Women and Children, and Destruction of Colored Men's Property, Not Less Than $15,000.</title>
+          </titleStmt>
+          <extent> 24 p.</extent>
+          <publicationStmt>
+            <pubPlace>Detroit, Mich.</pubPlace>
+            <publisher>Published by the Author.</publisher>
+            <date>1863</date>
+            <authority/>
+          </publicationStmt>
+          <notesStmt>
+            <note anchored="yes">This electronic edition has been transcribed from a photocopy supplied by  William L. Clements Library, University of Michigan.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The electronic edition is a part of the UNC-CH
+digitization project, <hi rend="italics">Documenting the American South.</hi></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Original grammar, punctuation, and spelling have been preserved.  Encountered
+typographical errors have been preserved, and appear in red type.</p>
+        <p>Any hyphens occurring in line breaks have been 
+removed, and the trailing part of a word has been joined to 
+the preceding line.</p>
+        <p>All quotation marks, em dashes  and ampersand have been transcribed as
+entity references.</p>
+        <p>All double right and left quotation marks are encoded as ” and “
+respectively.</p>
+        <p>All single right and left quotation marks are encoded as ’ and ‘ respectively.</p>
+        <p>All em dashes are encoded as —</p>
+        <p>Indentation in lines has not been preserved.</p>
+        <p>Spell-check and verification made against printed text using Author/Editor (SoftQuad) and Microsoft Word spell check programs.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings, </title>
+            <edition>21st edition, 1998</edition>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list type="simple">
+            <item>African Americans -- Michigan -- Detroit -- History -- 19th century.</item>
+            <item>Detroit (Mich.) -- History -- 19th century.</item>
+            <item>Detroit (Mich.) -- Race relations.</item>
+            <item>Riots -- Michigan -- Detroit -- History -- 19th century.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2001-10-25, </date>
+        <respStmt>
+          <name>Celine Noel and Wanda Gunther </name>
+          <resp/>
+        </respStmt>
+        <item> revised TEIHeader and created catalog 
+record for the electronic edition.</item>
+      </change>
+      <change>
+        <date>2001-05-03, </date>
+        <respStmt>
+          <name>Natalia Smith, </name>
+          <resp>project manager, </resp>
+        </respStmt>
+        <item>finished TEI-conformant encoding and final proofing.</item>
+      </change>
+      <change>
+        <date>2001-03-30, </date>
+        <respStmt>
+          <name>Elizabeth S. Wright</name>
+          <resp/>
+        </respStmt>
+        <item> finished TEI/SGML encoding</item>
+      </change>
+      <change>
+        <date>2001-03-22, </date>
+        <respStmt>
+          <name>Apex Data Services, Inc.</name>
+          <resp/>
+        </respStmt>
+        <item> finished transcribing text.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">A THRILLING NARRATIVE <lb/> FROM THE <lb/> LIPS OF THE SUFFERERS <lb/> OF <lb/> THE LATE DETROIT RIOT, <lb/> MARCH 6, 1863, <lb/> WITH THE <lb/> HAIR BREADTH ESCAPES OF MEN, WOMEN AND CHILDREN, <lb/> AND <lb/> DESTRUCTION OF COLORED MEN'S PROPERTY, <lb/> NOT LESS THAN $15,000.</titlePart>
+        </docTitle>
+        <docImprint><pubPlace>DETROIT, MICH.</pubPlace>
+<publisher>PUBLISHED BY THE AUTHOR.</publisher>
+<docDate>1863.</docDate></docImprint>
+      </titlePage>
+      <div1 type="preface">
+        <pb id="p1" n="1"/>
+        <head>PREFACE.</head>
+        <p>The present state of affairs in relation to the colored people is one of great perplexity; and is not only so on account of the South, but also in the North.</p>
+        <p>There certainly is something mysterious about them. On the one hand they are being mobbed, and everything that is sacred to a people to make a country or home dear are denied them, in many of the large Northern cities. And on the other hand they are marching off to the call of the Government as if they were sharing all the blessings of the most favored citizens!</p>
+        <p>And it is equally mysterious to see the bitter opposition that a class of men, professing loyalty to the Government of the United States, should have against the colored soldier going out and facing the canon's mouth in defence of a Government that appears to be unable to give them any protection from the rage of the rebels in the South, or their enemies in the North.</p>
+        <p>But one thing the colored man knows, that the class of men of the same politics as those South are doing the mobbing North; so they are not only ready to suffer, but to die in the cause that promises over three millions of their race liberty.</p>
+        <p>Whatever, therefore, our treatment may be, so far as the rage of the enemies of freedom may be! Whatever, through cowardice, a ruthless mob of such men may inflict upon our people, they will not be deterred from the duty they owe to their God, themselves and posterity, to do all they possibly can to undo the heavy burdens and let the oppressed go free! At the first blast the clarion of emancipation may give to call them forth in the irrepressible conflict, though their houses be sacked, their wives and children turned out of doors naked and destitute, they too well know that the way to glory is the way of suffering; therefore they desire rather to bear a good part in the battle-field rather than to be always exposed to such outrages as slavery entails, on any class it has in its dominion.</p>
+        <closer>
+          <signed>AUTHOR.</signed>
+        </closer>
+      </div1>
+    </front>
+    <body>
+      <div1 type="section">
+        <pb id="p2" n="2"/>
+        <head>THE CAUSE OF THE RIOT.</head>
+        <div2 type="an account">
+          <p>Thomas Faulkner, charged of committing the outrages upon Ellen Hover, a colored girl and also a white girl, was to all intents a white man. This is beyond doubt, for he was a regular voter, and the journals of the city that understood his politics state that he voted the Democratic ticket. And an old veteran of over one hundred years of age declares, that in conversing with F. he said: “If he thought he had one drop of colored blood in his veins, if he could, he would let it out.” And this was the man that caused the mob on colored men!</p>
+          <p>On the 6th of March an organized mob made their way from the jail down Beaubien street. They were yelling like demons, and crying “kill all the d—d niggers.” In the cooper shop, just below Lafayette street, were five men working, namely: ROBERT BENNETTE, JOSHUA BOYD, SOLOMON HOUSTON, LEWIS HOUSTON, MARCUS DALE. These men were busy at work in the shop until the mob made an attack upon the shop. The windows were soon broken and the doors forced open. The men in the cooper shop were determined to resist any that might attempt to come in. The mob discovered this, and did not attempt to come in, but stood off and threw stones and bricks into the windows, a perfect shower. There happened to be one old shot gun in the shop, a couple of discharges from which drove the mob back from the shop. The dwelling house was attached to the shop, in which were three women and four children, namely: Mrs. REYNOLDS, Mrs. BONN and one child, Mrs. DALE and three children.</p>
+          <p>Some ten minutes after the mob had fallen back from the shop, they made a rush upon the house in which were the women and children. The men in the shop seeing this, rushed out of the shop into the house to protect the women and children. The windows of the houses were soon all broken in; stones and bricks came into the house like hail. The women and children were dodging from one room to another to escape the stones. The men frequently stood before the women and children to shield them from the stones. Very soon after the men went from the shop into the house, the shop was set on fire by the mob. There were plenty of shavings in the shop, which facilitated the burning. The flames soon reached the house in which were the women and children. The mob by this time had completely surrounded the building. Mrs. Reynold attempted to go out at the back door but could not get out, for hundreds of stones were flying at that part of the building. Mr. Dale, in shielding his wife, got a blow in the face with a stone, which his wife might have gotten had he not stood before her. Some person outside was heard to say “the women will be protected—no protection for the men.” Hearing this, Mr. Dale told the women to go out at the front door. Mrs. Dale seeing the blood running
+<pb id="p3" n="3"/>
+from her husband's face, said my dear you are bleeding—you will be killed. Said he to her, go out with your children; they say there is protection for the women, but none for the men. I will look out for myself. Mrs. Bonn started for the door, with her child in her arms, followed by <sic corr="Mrs.">Mrs</sic> Dale, with one child in her arms and two children hanging to her. Mrs. Reynolds next followed. When the women approached the door, some fiend in human shape drew back a large club to strike them, but some spectators, having within them a spark of humanity, rushed to the women and rescued them—drawn probably by the screams of Mrs. Bonn. After the women had got out, the men, one by one, made their way out—were knocked down with stones when they came out, and beaten Father Clark happened to be in the house, was beaten after he came out. The last one who came out was Mr. Dale. When he came out into the back yard the heat was so intense that he came near being overcome by it—he had his face badly burned When he came out of the door some twenty dirty-looking Irishmen rushed at him with clubs, crying “kill the nager.” But being thoughtful enough to come out with something in his hands, and having a good deal of physical strength he made them get back, and he got out without receiving further injuries. Three families living in the building near the cooper shop, lost all they had; namely, Mr. REYNOLDS, Mr. DALE and Mr. BONN.</p>
+          <p>The mob, not satisfied with burning the cooper shop, and building adjacent, proceeded up Fort and Lafayette streets, robbing and burning some fifteen houses belonging to colored people.</p>
+          <p>Of the men who were in the cooper shop one has died from wounds received; namely, JOSHUA BOYD.</p>
+          <closer>
+            <signed>M. DALE.</signed>
+          </closer>
+        </div2>
+        <div2 type="an account">
+          <p>The mob, in its first appearance to me, was a parcel of fellows <sic corr="running">runing</sic> up Lafayette street after two or three colored men. They then returned back, and in a short time I saw a tremendous crowd coming up Croghan street on drays, wagons, and foot, with kegs of beer on their wagons, and rushed for the prison. Here they crowded thick and heavy. After this, while I was standing on the corner, with half a dozen other gentlemen, a rifle ball came whistling over our heads. After which we heard several shots, but only one ball passing us. In a short time after this there came one fellow down, saying, “I am shot in the thigh” And another came with his finger partly shot off. A few minutes after that another ruffian came down, saying: “If we are got to be killed up for niggers then we will kill every nigger in this town” A very little while after this we could hear them speaking up near the jail, and appeared to be drinking, but I was unable to hear what they said. This done, they gave a most fiendish yell and started down Beaubien street On reaching Croghan street, a couple of houses west on Beaubien street, they commenced throwing, and before they reached my residence clubs, brick, and missiles of every description flew like hail. Myself and several others were standing on the side-walk, but were compelled to hasten in and close our doors, while the mob passed my house with their clubs and bricks flying into my windows and doors, sweeping out light and sash!</p>
+          <pb id="p4" n="4"/>
+          <p>They then approached my door in large numbers, where I stood with my gun, and another friend with an axe, but on seeing us, they fell back. They approached four times determined to enter my door, but I raised my gun at each time and they fell back In the mean time part of the mob passed on down Beaubien street. After the principal part had passed, I rushed up my stairs looking to see what they were doing, and heard the shattering of windows and slashing of boards In a few moments I saw them at Whitney Reynolds, a few doors below Lafayette street Mr. R. is a cooper; had his shop and residence on the same lot, and was the largest colored coopering establishment in the city—employing a number of hands regular.</p>
+          <p>I could see from the windows men striking with axe, spade, clubs, &amp;c, just as  you could see men thrashing wheat A sight the most revolting, to see innocent men, women and children, all without respect to age or sex, being pounded in the most brutal manner.</p>
+          <p>Sickened with the sight, I sat down in deep solicitude in relation to what the night would bring forth; for to human appearance it seemed as if Satan was loose, and his children were free to do whatever he might direct without fear of the city authority.”</p>
+          <closer>
+            <signed>THOMAS BUCKNER.</signed>
+          </closer>
+        </div2>
+        <div2 type="an account">
+          <p>LOUISA BONN—I had gotten home from a funeral of a young woman, and, after changing my apparel, commenced to get supper. I heard a yelling up Beaubien street, and looking out saw a crowd of men and boys throwing at <sic corr="Mr.">Mr</sic> Buckner's house My husband told me I had better go into my mother's, and he would shut up the house so that they would not think any one was home. I went in, and in a few moments they were down to my father's house.</p>
+          <p>They then commenced breaking in the front room windows, and the doors and windows of the cooper shop.</p>
+          <p>Myself and child, mother, and Mrs. Dale, and her three children and brother, kept in the back part of the house while they were throwing stones, and then some one broke the front door open with an axe. Then the dining room caught fire. I started to go out the front door with my babe in my arms, thinking that, as I had not done anything at all to those fiends in human form, they would let me pass. On going to the door, a man met me with a large boulder in his hand, and would have knocked me in the head, had his hand not been caught by another man! I then returned in the house, the sheets of flames approaching me and my babe. I then went to the front door and found it locked, but the top <sic corr="panel">pannel</sic> of the door was all knocked out. Finding I could not get out. I commenced screaming! At this a crowd rushed across the street to me And I feared it was some of the mob, and ran back into the house again. Two gentlemen ran to me and kicked the lower part of the door open—one taking hold of me and the other caught my child, and told me I should not be hurt. I could not then tell whether mother was burned up or not So I commenced screaming for my mother. Dr. Calhoun told the gentlemen to take me on up street, and he would go in and get my mother out. A Dutchman went in with the Doctor and got Mrs. Dale out, and took her to Mr. McCutchens, and I went on up the street.</p>
+          <pb id="p5" n="5"/>
+          <p>Before the house was fired, heard them say: “Let us surround the house and burn the niggers up.” So I thought my mother was burned up! No tongue can describe the feelings of my mind on that occasion; everything that we had were in burning sheets of flame! My husband, mother and other friends were all exposed to murderous assaults from those fiends; and to all human appearance there was not a friend in all the thousands that thronged and gazed upon our ruins. Who can form an idea of a female's distress, under such circumstances?</p>
+          <p>After I escaped the mob, I went up to Mrs. R. Clark's, Lafayette street. I thought, of course, my mother was dead, and was gazing intensely to see if I could discover any one coming up from there, and while thus watching, I saw my dear mother coming up the street all wet, with a trunk in her hands. I ran out to meet her. I then took the trunk from her and went into Mr. C.'s, and told her to come after me. When we got in, I told her she had better break the trunk open and get out father's money. Mrs. Clark handed her a hammer, and just at that moment a rush of the mob approached, and hailed in a shower of bricks and other missiles, smashing in the doors and window. Mrs Clark and all of us were frightened to desperation. She attempted to run up stairs, but Ma told her not to do that, but go out of the house. At this Ma opened the back door, and went down the yard, and jumped the fence, leaving the trunk and all its contents sitting behind the stove. My mother knew that the trunk had all my father's money in it; that he was then just preparing to lay in a large stock of cooper stuff. She had dragged it several squares from our dwelling, that the mob had destroyed, to be compelled to leave it in the house of Mrs. Clark to be seized by those vile fiends. The amount of money in the trunk was twelve hundred dollars, besides a large lot of valuable clothes. We then proceeded from there up the alley to St Antoine street, and from thence on to Clinton street—as poor wanderers, not knowing where to go to seek an asylum from the coldness of the approaching night. My babe was entirely naked, with the exception of a little dress and skirt, having lost all his clothes, even to his bonnet, in the fire and trying to escape the mob.</p>
+          <p>Wandering up and down about eight o'clock at night, we got on Mullett street and found Mr. E. Harberd was not burned out. We went there and found a shelter from the mob and cold.</p>
+          <p>During all this time, myself and mother was out of doors without bonnet or shawl. My distress was indescribable, on account of the absence of my husband and father. The former I saw last when the dining room fell in. He advised me to stand aside as much as possible out of the flames, as he heard the bell ringing, and thought the guards would soon come, and I could get out. From this time I never saw him any more till three o'clock on Saturday morning, when he and Mr. Dale came to father Harberd's. Mr. Dale was much wounded in the flames</p>
+          <p>My father had gone to the country to see about lumber, and told us that if he was not back by five o'clock, we need not feel uneasy about him, as he would not be back till morning. But still I had the grief and burden of mind for him; for we did not know but what he had come in
+<pb id="p6" n="6"/>
+and fallen into the hands of the mob; and this suspense of mind we had till about 9 o'clock the next morning, when he came home.</p>
+        </div2>
+        <div2 type="an account">
+          <p>MRS. REYNOLDS—I found, on my daughter going to the front door, she had to hasten back to save her life from the mob; so I returned into the room and gave up to be burned up; for I saw from all appearances that if I went out in such a shower of stones, I should be certainly killed, and I just gave myself up to the mercy of God.</p>
+          <p>I remained in this position and heard my daughter scream again, and then soon it was over. I could not tell whether herself and babe had fallen speechless at the foot of the bloody assassin, or fell in the flames!</p>
+          <p>Not long after this, a couple of gentlemen came in and helped me and Mrs. Dale and children out of the flames.</p>
+          <p>I had taken care of the trunk.</p>
+        </div2>
+        <div2 type="an account">
+          <p>WHITNEY REYNOLDS—I was out at Oakland that day, and on coming heard that my wife, daughter and her husband and child were all burned up, with all my property. This struck me with such force, that when I came home and found my family all safe it filled me with such satisfaction that I did not feel the loss of the property scarcely at all.</p>
+          <p>I have lost in cash $1,200, and in property over four thousand, and all swept away in an hour for no cause, only the wickedness of a class of men who hate the colored man.”</p>
+        </div2>
+        <div2 type="an account">
+          <p>LOUIS HOUSTON AND SOLOMON HOUSTON—We were working in Mr. Reynold's cooper shop, between Fort and Lafayette streets. An immense crowd came to the shop, and the first thing we knew they smashed in the front window and door, and said: “Come out ye sons of b—h.” They came around in the alley and smashed in the back windows. We did not go out, but they seemed too cowardly to come in, and they continued to smash and break up Mr. R.'s house. Finding the mob directing their fury on the dwelling house where there were none but the wife of Mr. Reynolds, Mrs. Bonn and child, and Mrs. Dale and four children, all exposed to all kinds of missiles that could be thrown through the doors and windows, we all went to the house to try to defend the women. Then the mob set the shop on fire. During our stay in the shop, none of them dared to come in; but after we left it they then put the torch to it, and soon it was in flames! The mob then surrounded the house in every direction, as if determined to burn up the property and all the men, women and children that were therein; during which time they were throwing brickbats and missiles from every direction. I came to the front door of the house, and it was then partly consumed. A gentleman that I knew called me to come to him, and I made my way to him, and he forbade the mob interfering with me He knew me well, and I was a peaceable man. Several laid hold of me and said they were intent on taking my life; that they saw me shoot. A German man rushed on me with a spade, and struck me twice with it over the head, inflicting a severe wound at each blow. A person who stood by him, as he raised the spade the third time, asked him what he intended to do? Said he, “I intend to kill him!”</p>
+          <pb id="p7" n="7"/>
+          <p>The man said to him: “You ought to be ashamed to strike a man with such a weapon, whom you have never seen, nor has done you any harm!” At this, the assassin threw the spade down.</p>
+          <p>A gentleman, who I did not know at that time, being much excited, but I very well knew him afterwards, came to me and took me down Lafayette street to Mr. Thairs', and the mob surrounded me again, and prevented the friend from taking me on. Here they knocked me down again. Mr. T. then came out and bade them not to interfere with me any more, and came and took me in. He sent for a doctor to examine my wounds, and washed me and took care of me kindly, till the next day.</p>
+          <p>I suffered for a couple of weeks severely; but, thank the Lord, I am now recovering, but have not been able to do a stroke of work since the 6th of March, five weeks, with a helpless family depending on me for protection!</p>
+          <closer>
+            <signed>SOLOMON HOUSTON.</signed>
+          </closer>
+        </div2>
+        <div2 type="an account">
+          <p>LOUIS HOUSTON—Finding the house about being entirely consumed, as before stated, as I was one of the last that came out, I went to the back part of the lot to go through a hole in the fence. The stones and bats were flying so that life was in danger at every step that I took; but on reaching the spot, I found one of our hands who, a few moments before that, worked right at  my side, sitting on the railing of the fence, knocked in the head with an axe. He appeared entirely lifeless, but was being held up by the fence.</p>
+          <p>I then went back to the house, but saw my only chance was to get through that place. I returned and found my friend had fallen from his position, entirely lifeless. I made my way out to get through the fence, and was knocked down with a stone or brick, I don't know which. Here we both lay side by side; I suppose it was ten or fifteen minutes before I made an attempt to get up.</p>
+          <p>By this time a barn, or some building, took fire, and the flames became very intense. Mr. Boyd lay perfectly unconscious, nearest the fire; and two white men came up to us and dragged us up from the flames on a cabbage hole, and there we lay.</p>
+          <p>After some time I came to myself, enough to get up, and I then went up the alley to St. Antoine street; here the mob overtook me again. They commenced on me again, and with all kinds of weapons they beat me in the most cruel manner over the head till I heard some one say, “he is dead!” then they left me alone. I can't say how long I lay in the position they left me, but after some time, near night, I came to enough to rise from the place and try to get home. As I was coming on, a young white man overtook and asked me if would not rather go to jail? He advised me to go to <sic corr="jail">jall</sic>, and I concluded it would be best, as I feared the mob might follow me home. The young man hurried on, and by the time I got there he had the door open; but I don't think the keeper was there. When the jailor came I found myself sadly disappointed, as he ordered me out, and told me to go over to Mr. Steward's, and asked me “what I came in there for.” Humanity sickens at such cruelty! Here I had lived and paid my taxes for the last ten or twelve years, and it was the first time I had ever been in prison; and then when a most brutal mob was raging
+<pb id="p8" n="8"/>
+through the city, the civil authorities doing not one thing to defend me; and when I went to the prison for protection of my life, was turned out to the exposure of the mob! “Publish it not in Gath, tell it not in the streets of Askelon.”</p>
+          <p>I than started away from there, not knowing but I would be again set upon by the most barbarous of the age. My wife went out to seek after me—not knowing what had become of me, whether I was consumed in the flames or slain by the mob. Between seven and eight o'clock she came to Dr. Steward's and found me, having become almost frantic with grief from the rumors she had of my condition.</p>
+          <p>No one could tell the state of their friends, that were out from each other. The mob went like a volcano, sweeping along the dwellings of colored people, and if escaping at one point, perhaps the next turn would bring you right in the hands of your persecutors.</p>
+          <p>I can not describe my horrors in being forced by the expulsion of the jailor to go to Dr. Steward's, for I thought his house would soon be attacked, and the same sad scenes renewed as I had already twice passed through! My head was beaten almost to a pummel from the blows I received. I received three bad burns, which, with the wounds on my head, have caused me indescribable sufferings And, although five weeks are passed, I have not been able to do anything for myself nor family, and am yet under the physician's hands.</p>
+        </div2>
+        <div2 type="an account">
+          <p>RICHARD EVANS—Aged 79 years; lived on Fort street; was set upon by the mob in a most brutal manner. His aged wife and himself were all that were at home. Some entered, and others fired the house. A villain drew a pistol and directed it at his head, and discharged the contents in his face. The ball took effect, tearing the <sic corr="flesh">fiesh</sic> to the bone and the old gentleman fell to the floor exclaiming, “you are now satisfied—you have done the deed, and shot me!’ The conclusion was that he was dead and they left him, after plundering the house of something over a thousand dollars, from the different members of that distressed family.</p>
+        </div2>
+        <div2 type="an account">
+          <p>FATHER CLARK—Eighty odd years of age, was at the cooper shop of Mr. Reynolds, and was badly beaten. His head was cut in several places, and his body so bruised up, that the marks will follow him to his grave.</p>
+          <p>All this affliction fell upon the people without the slightest pretext whatever. If Faulkner had been colored, and really had <hi rend="italics">seduced</hi> the girls, we have no apology to offer for crime, but he was sentenced for life to the Penitentiary; so that there was no cause for the mob.</p>
+          <p>Mr. Bloss, officer Sullivan and others really exposed their own lives in their efforts to save the distressed, for which they will be blessed.</p>
+        </div2>
+        <div2 type="an account">
+          <p>LEWIS PEARCE—I was at the cooper shop and when the mob attacked us, and while we stayed in there the mob did not dare to come in, but commenced with great fury on the dwelling-house. We then went there to defend the women and children. As soon as we left the shop they set it on fire.</p>
+          <p>All the while they were throwing stones and other missiles. I was knocked down by a stone in the yard while the house was burning, and when I came to myself enough to know anything, I found the flames so intense that I would soon be burned to death, unless I had
+<pb id="p9" n="9"/>
+some shelter; so I drew a wheelbarrow over me, that fortunately was just there. I was unable to walk, and there I lay till a couple of policemen came to me and dragged me out, and took me outside of the lot, and turned me loose. I then staggered over to Mrs. Jones', being weak from the blows and loss of blood. I had not been there but a few moments before they came and said to me: “Get out of there.” It was, as I suppose, the same two men who took me out from under the wheelbarrow. I found it impossible to get away; so I got out into the privy to conceal myself, and soon a couple of fellows—one a man in soldier's clothes, and the other a man who sold in the market, named Dollar—came to me and brought me out on St. Antoine street, beating me all the way along, the mob behind me throwing at me, and some pelting me with stones and sticks till they got me to Croghan street; and there they fell on me, and with kicks and clubs, beat me till they thought life was extinct, and then went off and left me for dead! My head was bruised so that for weeks my head and ears run with corruption. My knee cap was broke right in two by a stroke from some weapon. My body was so bruised that for two days I vomited nothing but pure blood; but, through the mercy of the Lord, I am now getting better, but never shall overcome the effects of the injuries I have received.</p>
+        </div2>
+        <div2 type="an account">
+          <p>STATEMENT OF FREDERICK WILSON—I reside on the corner of Fort and Beaubien streets, and about half-past four or five o'clock on Friday, March the 6th, 1863, I was aroused by the cry of “A mob! a mob!” On hastening to the door, I saw thousands of men and boys coming down Beaubien street, yelling in a most hideous manner, as if all Pandemonium were turned loose. They let loose a perfect volley of all kinds of missiles at Mr. Buckner's dwelling, on the corner of Beaubien and Croghan streets.</p>
+          <p>From this they came on down to Mr. W. Reynolds' residence and cooper shop. Here they made a general halt, as if determined to make a total destruction of every thing.</p>
+          <p>The several parts of the house and shop were attacked with indescribable fury! Doors, windows, and every part were under a shower of missiles. Axes, spades, clubs and stones, and whatever they could lay hands on to do mischief with, were freely used. It was heart appalling to see the fury with which they made their attack. No warning was given to the men engaged in their lawful avocations in the shop, till they were set upon in that murderous assault.</p>
+          <p>The workmen in the shop seemed to defend it from within; as I could see the mob falling back from the door, when they rushed as if they were going to enter. A single shot from a gun seemed to make all retreat. A short time after, I saw the flames rising from the shop. Some wretch had set it on fire!</p>
+          <p>Here I was compelled to pause, in wild astonishment, and ask myself the question: “What is the meaning of all this? What nation of barbarians do those families live in?”</p>
+          <p>But it was but a few moments, and I was called from my vision of the wrongs of my friends to witness my own outrages.</p>
+          <p>Having completed the work of destruction at the last named place,
+<pb id="p10" n="10"/>
+they came on to Mr. Morton's, who was a huckster in the market. It seemed as if they took great pleasure in doing all they could to such men as were about there doing business for themselves. And soon his house was in flames. They then let loose on my residence, and smashed in some windows and passed on.</p>
+          <p>I gathered up my family and part of my things, and a friend of mine went with them to go over to Canada. When the two draymen got down to the ferry, they made my friend pay them; and when I came down they demanded of me full pay again. It is plain to any honest man that the great purpose of the mob was to rob and plunder; so I had to give it or subject myself to the cruel treatment of many others who were suffering as innocently as I could possible be! I hope never to see another such a scene.</p>
+        </div2>
+        <div2 type="an account">
+          <p>STATEMENT OF THOMAS HOLTON—I reside on Fort street, between Beaubien and St. Antoine streets, and have a wife and one small child. We were aroused by the yells of the mob, and, on going to the street, heard windows smashing and hammering against doors, with dreadful curses of “Kill the Nigger.”</p>
+          <p>A crowd rushed up to my residence, and commenced their work of destruction in every possible way, with bricks, stones and other destructive missiles, and the torch was soon set to our house. Myself and wife, with one child, now had to make the best of our efforts to escape with our lives.</p>
+          <p>They rushed after us with demoniac rage, and their curses and yells were terrifying. We would, most certainly, have fallen a prey to them, had not the hands in the Morocco Factory, just in the rear of our lot, called to us to run through there. We took it as a great favor, for no one could tell in what direction to go—all the streets seemed to be filled with the mob.</p>
+          <p>Without a moment's time, to even put on cloak, bonnet, or shawl, we started and wandered out to find a friend's house in the suburbs of the city, but losing our way, we found, on inquiry, way in the night, that we had been three miles and a half from the city. Being now at Cork Town, I feared to let them know who we were, for they might be a part of the number who had driven us from our homes.</p>
+          <p>We wandered all that night in the woods, with nothing to eat, nor covering from the cold, till morning light. With frosted feet and all our property destroyed, did the morning sun rise upon us, as destitute as when we came into the world, with the exception of what we had on, and without a friend to offer us protection, so far as we could learn. Oh, Detroit! Detroit, how hast thou fallen! No power in noonday to defend the helpless women and children from outlaws, till they have fully glutted their hellish appetites on the weak and defenseless. Humanity, where is thy blush!</p>
+        </div2>
+        <div2 type="an account">
+          <p>STATEMENT OF BENJAMIN SINGLETON—I lived at the corner of Fort and Beaubien streets, and have been sick for the last two years. I am so afflicted with <sic corr="blindness">blindess</sic>, that while I stand right up to you I can't discern the eyes in your head. All I could hear or understand were the
+<pb id="p11" n="11"/>
+yells and curses of, “Kill the Niggers,” &amp;c. A shower of stones, &amp;c.’ made me understand that I was not to escape. They set fire to my house, and I was not able to get out; but some white ladies came to my relief. They broke a board off my fence, and came through the back way and dragged me out, or I should have been burned up with my house and all that I had.</p>
+          <p>I had a horse hitched at my door, and some of the mob came to cut his threat, because he belonged to a “nigger.” And it was only by a white man coming up and declaring the horse was his, that they were deterred from their brutal act.</p>
+          <p>Here I was, blind, sick and helpless in the midst, as I had always supposed, of a civilized, yea, christianized people; and to find my property destroyed in broad day light seemed almost impossible. But it was a dread reality.</p>
+        </div2>
+        <div2 type="an account">
+          <p>MARY MATHEWS, whose husband is <sic rend="insane?">ineane</sic> and in the Lunatic Asylum; her house was fired, and all its contents destroyed. But before the destruction, they took the pains to go through all parts of the house and first carried off what they saw fit, and the balance they brought out and burned in the streets.</p>
+        </div2>
+        <div2 type="an account">
+          <p>JOSEPH BOYD, a young man, and an excellent mechanic, was knocked in the head with an axe. After this he was unconscious, and was dragged out of the way of being destroyed by the flames. Officer Sullivan, who appeared the only authorized officer of peace that discharged his duty in the face of the mob, as was known as such. He gave poor Boyd some aid, and after having him taked to a saloon, the mob found out that the innocent victim was there, and they made a rush and dragged him out, though he was unconscious! His head gaping wide from the wounds by the axe, which were sufficient to kill him; and enough was the affliction inflicted upon him to have satisfied the most savage of a heathen tribe, even had he been guilty of some crime! But astonishing to tell, Dutch and Irish fell on him with hellish fury, and with all kinds of missiles; they beat and dragged him back as if determined to end his suffering in the flames, but came to a halt, as if their rage was abated, when they saw no stroke moved him. They considered him dead.</p>
+          <p>He lived unconscious some thirty odd hours, and died a mangled child of sorrow to appear in the judgement against the inhabitants of this city, whose blood will be required at their hands. And though no Court or Council here may do justice to the sufferers, that Council and tribunal to which we all shall appear, will give to all their due reward!</p>
+          <p>The wonder to us all is, that no more of us were murdered; and as fully shows the hand of God over us, as the case of Israel when pursued by <sic corr="Pharoah">Phareah</sic>.</p>
+          <p>Oppressors should take warning from the past, for in the history of the world it always has been, and ever will be, for the mouth of God hath spoken it—“As you do to others shall it be done to you. And he that leadeth into captivity shall go into captivity.” And already do we see in this giant rebellion, of which this mob was an offspring, (first trying its hand upon the unfortunate blacks, and if the could see their way clear, to fall, in i<gap reason="illegible" extent="one character"/>s weighty influence, on all the black man's friends); and it may be
+<pb id="p12" n="12"/>
+well for the Republicans to bear in mind, as well as the Abolitionist, that they are all placed on the same category in the estimation of the party that mobs the “nigger” North, and is killing the Union soldiers South. Don't stand with hands in pocket and say, ye men for the Union, “it is only the unfortunate blacks that are to suffer.” Joseph's brethren looked on his tears unmoved when he cried “why they sold him to the Ishmaelites;” but poor Joseph was a long time after that, by Divine arrangements; permitted to look on his brethren in as deep distress as ever they saw him in.</p>
+        </div2>
+        <div2 type="an account">
+          <p>MARY JONES—Resided on Fort street, and her house was set on fire, but she rushed in through the mob several times, and they throwing at her even to her own “smoothing irons,” with as much venom as if she was a rattlesnake approaching their dwellings, for her attempting to take her wearing apparel out of the flames.</p>
+          <p>It was taking something from them that some of those villains anticipated having to sell and buy whisky with, to prepare them for another day's work of destruction. Wonderful to say, she escaped unhurt, except some severe bruises.</p>
+          <p>And indeed we have to defer till the final day of settlement, for an entire disclosure of what our people suffered on that occasion.</p>
+        </div2>
+        <div2 type="an account">
+          <p>ROBERT BURLEY—The mob approached my residence, No. 37 Lafayette street, and before night they commenced breaking in the doors and windows. I left the house for personal safety with my family.</p>
+          <p>At night they returned and robbed the house of all the valuables, and the balance they broke up, leaving me entirely destitute of everything but what we had on our backs.</p>
+        </div2>
+        <div2 type="an account">
+          <p>MR. HORACE BROWN—Resided in the same building, and he shared the same fate.</p>
+        </div2>
+        <div2 type="an account">
+          <p>C. FLETCHER'S house was burned with all its contents, and the mob, on entering, plundered, ravaged and knocked him down, and threw him out of the second story window—as they supposed dead! but he escaped with far less injury than could have been expected.</p>
+        </div2>
+        <div2 type="an account">
+          <p>WILLIAM JONES—I reside in Canada, and just had entered into the city of Detroit. In passing Mr. Reynold's house I was spoken to by Mrs. Dale. I then went in; and when I went in, I saw nor heard anything to cause me any fear of danger.</p>
+          <p>The people were then at the jail as I heard. A few minutes after I got in, I was sitting in the room, and the first intimations I had, was some one yelled out: “Here is the coopershop”; and at that moment a shower of clubs and stones came through the windows.</p>
+          <p>The attack seemed to be general on all the house and shop in rapid succession.</p>
+          <p>After the assault was made on the shop, the men left the shop and came into the dwelling where the women and children of the three families were.</p>
+          <p>While we were in the house, a white man came and pointed a pistol in the window and fired in our midst, but, astonishing to relate, no one was shot.</p>
+          <pb id="p13" n="13"/>
+          <p>In a short time, we saw the shop was on fire, and the flames soon extended to the dwelling. The women screaming and almost distracted to get out of the house; the flames rolling in sheets nearer and nearer, and the mob all around the entire premises, with every kind of missiles, knocking and throwing to keep them in and burn up; the women crying for mercy's sake to let them out, for already a part of the roof of the house had fallen; but no entreaty, no appeal for sympathy, moved the mob. They seemed to be as deaf as the adder, and vile as the rattlesnake, determined to burn them all up.</p>
+          <p>We then made an attempt to force our way out of the house, from the back door, but was met by United States soldiers and others, with stones, bricks and billets of wood! I then rushed to the front door, and was met in a similar manner. With all the fury of demons did they fall on me, but through it all, I made my way through them, several times being knocked down upon my knees, inflicting severe wounds on my head, shoulder and side, and one stab in the neck.</p>
+          <p>I was still pursued by the mob, till I got to Ingersoll's Machine shop, crying: “Kill the nigger;” “kill the nigger.” On arriving at the back part of the shop, Mr. Ingersoll, told me to go into his shop in the upper story, where two others were.</p>
+          <p>It was to the humanity of Mr. and Mrs. Ingersoll, through the mercy of God, that my life was spared. She rushed into the mob saying: “You scoundrels are you going to kill that man!”</p>
+          <p>I heard one fellow say: “She ought to be shot for protecting the nigger.” Finding a shelter, stayed there till dark before I could get to the dwelling house, where he sent after Dr. Gorton, who dressed my wounds: and in the morning they gave me breakfast, and desired me to stay longer, but I came over home. May the blessing of heaven rest upon those generous hearted persons who protected us.</p>
+        </div2>
+      </div1>
+      <div1 type="section">
+        <head>THE ROBBERIES AGGRAVATING.</head>
+        <p>Another feature of this mob was, the robbing that was perpetrated during its progress. It has been stated in Mr. Reynolds' case of his wife having dragged the trunk, with his most valuable clothes and twelve hundred dollars in it, up to Mrs. Clark's, where they all had to escape for their lives, and leave it to the mob.</p>
+        <p>The mob entered the house and broke open the trunk, and took its contents, with all such valuable things as they could find. At other places they went in and took out the best of the things and carried them off; and to make a cloak for their villainy, they would bring out the rough things and set them on fire. Well might they bring out such things as they could not conceal in carrying off, when they would, by that means, secure themselves from the charge of robbing of all they might take.</p>
+        <p>The loss to the colored people, in this outrage, will not fall short of from fifteen to twenty thousand dollars—saying nothing of the physical sufferings, and loss of time, from the support of their wives and children, occasioned by the same.</p>
+      </div1>
+      <div1 type="section">
+        <pb id="p14" n="14"/>
+        <head>HOW ARE THE COLORED PEOPLE THE CAUSE OF <lb/> THE WAR.</head>
+        <p>It is an inconceivable logic by which a class of men and women have wandered into a path in which they find the unfortunate race, who are deprived of all the rights of mankind, with but few exceptions, and yet on them, those of the more fortunate race, have placed the enormity of this gigantic rebellion.</p>
+        <p>To hear an ignorant rabble making such assertions, is not at all strange, but when it is found that the ignorant have received from a higher source their instructions, it is wonderful.</p>
+        <p>That the black man, without civil, political, religious, or social rights, could inaugurate a rebellion, the most terrific the world has ever beheld! A rebellion that has covered hundreds of acres of land with men's bones, and brought mourning to the hearth stones of millions! A rebellion that has caused the expenditure of millions of dollars, more than all the slaves that have been found in the land would have cost, at an enormous price, if the Government had been moved with sympathy for this race, to have purchased them! And yet, these same slaves and their helpless free brethren have caused the war!</p>
+        <p>There is neither reason nor truth in such hypothesis, for if the haters of the colored race in the North, and the slave-holders in the South, were to be interrogated this day, to show what word or deed, in what time or place, the colored race done anything that produced the rebellion, they would be speechless!</p>
+        <p>No more are the colored people the cause of it, than were the Israelites the cause of the overthrow of the proud host of Egypt. And to make them the cause of the rebellion, we must place the effect in this case before or in the place of the cause.</p>
+        <p>In this way the blind leading the blind, may say: “That, as we have always had the entire control of the blacks, and we never intend they shall be in any other position, and as we see they are bound to come out of their oppression, we will kill all of their white friends that would love to see them free, and kill all them before they shall have their rights.”</p>
+        <p>The fact is here stated, and we defy any of the parties to successfully deny it.</p>
+        <p>But we say again, their hypothesis is wrong, and their conclusions are also wrong. But as the heathen Philosopher says, “whom the Gods would destroy they first make mad.” But one Apostle says: “Because they took pleasure in unrighteousness, and desired not the knowledge of the truth, God shall send upon them strong delusion that they may believe a lie rather than the truth—that they might be damned.”</p>
+        <p>Never was truth more visibly demonstrated than in this case. And while the enemies of the black race may adopt the same course, and walk in the same path of the ancient oppressors, the same God of the oppressed is in Heaven, and has His armies yet to call forth, and in despite of all their rage and mighty army they will sink in the deep. God is on the
+<pb id="p15" n="15"/>
+side of His oppressed ones; and as well might tyrants attempt to blot out the sun from the heavens as to blot out a race of men whom God hath said, “they shall soon stretch out their hand to Him,” and “He will deliver them—He will send them a strong one, and deliver them.”</p>
+        <p>Colored men stand up to the work, the day of deliverance is at hand. Don't be alarmed. The tramping of God's horses are heard! the sound of His chariots coming forth in the distance, but they are drawing near. Let who will inaugurate the rebellion, the battle now belongs to God—“He is making the wrath of man praise Him, and the remainder He will restrain.”</p>
+        <p>It is a good place to go where Jehovah is the leader; and He says: “Break every yoke, undo the heavy burdens, and let the oppressed go free.”</p>
+        <p>Who can withstand Him?</p>
+        <p>Egypt and Babylon tried to fight against Him, but their mighty ones were lost when they withstood the Almighty.</p>
+        <p>Colored men, again, we say, go down and see how your brethren do! Go by thousands and tens of thousands and deliver, by the help of the mighty God of Jacob, all the slaves of the ten States proclaimed free, and what few are left in the loyal States, we are sure it wont be long till they will come forth with shouts of triumph.</p>
+        <p>Don't be alarmed at the false position of your enemies. Slavery and prejudice—win relics of barbarism—will die hard, but, as said the late Parker, “they shall die,” and they will try and kill all they can; but live by your actions in the field of battle in behalf of your more unfortunate race; in the history of this nation, when the memory of those that now mob and curse you will  only be remembered as traitors and rebels to the Government that afforded them every blessing that they were worthy of.</p>
+      </div1>
+      <div1 type="section">
+        <head>WHY THE MOB WAS NOT PUT DOWN SOONER.</head>
+        <p>It appears strange to some persons that such atrocities could be perpetrated in the city, and in the light of day, and not put down till the soldiers came.</p>
+        <p>But it must be borne in mind that Detroit is a Democratic city, and being in the majority, of course, it was in harmony with their feelings. And not only is it proven, by their permitting the mob to go on with all fury till the soldiers came into the city, but more fully does it exhibit their approval, after the Legislature encourages the compensation of the sufferers, the City Council decides against it.</p>
+        <p>Can anything be more plain? Actions speak more clear than words. Then we have the reason that it was in harmony with the Democratic feeling for those innocent men, women and children, over forty families, some to be crippled for life, others killed, their earthly all of living stolen, broken up or burned, and they turned out of house and home, after paying their taxes, and receive no remuneration! How can it be? What age or country do they live in?</p>
+      </div1>
+      <div1 type="section">
+        <pb id="p16" n="16"/>
+        <byline>[From the Detroit Advertiser and Tribune.]</byline>
+        <head>A SERMON FOR THE TIMES—THE VICTIMS OF THE LATE <lb/> RIOT.</head>
+        <p>Rev. S. S. Hunting, of the Lafayette Street Unitarian Church, preached a sermon on Sunday evening, which was eminently appropriate to the times. We have not room to give more than an extract or two, embracing some statistics, relating more particularly to the unfortunate victims of the late riot. Mr. Hunting had taken the pains to procure a number of interesting facts concerning the occupation and character of the sufferers, and has embodied them in a definite statement, which we think may be regarded as authentic. We copy as follows:</p>
+        <p>Mr. Charles Fletcher had been sawing wood for a widow on Miami avenue, though a carpenter by trade His house was burned on Lafayette street. Returning home, and not understanding the nature of the excitement, he was immediately driven from his house, was chased out the back alley as by a herd of tigers—by persons carrying poles and every kind of weapon which could be seized. He sought protection in a tannery, was driven into a vat, into water up to his waist and then was protected by the occupant, and went up stairs. Two of the blood-thirsty mob found an entrance and attacked him there, when he escaped down the stairs and fell directly into the midst of a dozen or more brutal persons, who knocked him down and left him senseless. After a while he was taken away by two white men.</p>
+        <p>This industrious, inoffensive citizen was thus beset as if he were a wolf, and brutally beaten. He has a wife and one child.</p>
+        <p>Mr Lewis Houston was a laborer in the cooper shop, and when it was attacked he made his escape through the back alley behind the fence; but was discovered when he  came out upon St. Antoine street, and was immediately beset, knocked down, and terribly beaten.</p>
+        <p>He arose, was helped along the sidewalk by two white men, and the mob seeing it, rushed up and some one gave him a blow on his head that he fell to the ground. Almost senseless, he was helped to the jail, and was there turned over to Dr. Stewart, (a colored physician,) who dressed his wounds. His wife was sent for, and finally succeeded in getting him home, though constantly beset by the boys, crying out, “kill the d—d nigger.” His recovery seems to be doubtful. He is injured for life. He has a wife and family.</p>
+        <p>Mr. Boyd, who has died, escaped from slavery in Western Virginia since the war began. He was a industrious man, earning his daily bread, and saving money to liberate his family.</p>
+        <p>Mr. Robert H. Bennett was at the cooper's shop, and barely escaped alive. He rushed through the crowd, was shot at, was stoned and clubbed, struck on his legs, fell down five times from the effect of the blows upon him, and at length reached the Biddle House, and was heartlessly ordered not to enter by the Clerk, which order he summarily disobeyed, and forced his way in, bleeding as if he had been butchered, and entered the dining-room, where he met the proprietor of the house, who nobly protected him.</p>
+        <p>A lady seeing the wounded man, hastened into an apothecary shop and
+<pb id="p17" n="17"/>
+said to one of the proprietors, “A man is bleeding to death in the street!”—and he very coolly answered, “How can I do anything for him?” To which the lady replied, “I beg your pardon, sir, you cannot do anything for him, he is a negro.” Even after Mr. Bennett had reached Jefferson avenue, a well-dressed man called out to a drayman, “Why don't you hit that nigger with your whip?” whereupon the drayman raised the bottom of his whip stock and gave the man a blow.</p>
+        <p>Who were the abettors of this mob? Mr. Ephraim Clark—“Father Clark” as he is called—sexton of the A. M. E. Church, hearing the noise up the street, proceeded out to the cooper's shop, and was caught by the coming mob. Having on a thick overcoat, the missiles thrown against him did not wound him on his body. Attempts were made to break his legs, but the old man who had seen eighty years, kept upright till a ruffian got a blow at his head, which brought him to the ground; but he was saved from death by the interference of citizens. If anything could rouse the indignation of the good people of the city, against the abettors and perpetrators of the mob, it does seem that the attack upon that inoffending Christian old man ought to. He said to me, “After I got into the house, and sat down here, I thought, why does the Lord permit them to beat me, who have never hurt anybody the fifty years I have been in this city. The righteous must suffer with the wicked <hi rend="italics">here,</hi> but <hi rend="italics">up there,</hi> where I shall soon go, I shall be out of their harm. The good Lord will soon take me home. They can bruise and kill this body, but they can't hurt me.” The old man is an Uncle Tom in his way, and is respected by all who know him. He told me of his life as a slave in South Carolina, where he would do his task and have leisure hours. He never found a man to beat him splitting rails. He was sold into Kentucky; he went with his master and was at the battle of New Orleans. If he was not one of the negroes commended by Gen. Jackson for their bravery and patriotism, he was as worthy as any others. He was with his master at the battle of Tippecanoe, who was there killed, and he became free to go, and followed the soldiers to Detroit. All these fifty years he has faithfully served the people of this town, and never was accused of a crime, and to-day, in the sight of all these churches, in broad daylight, an attempt is made to take his life because he is a negro—a Nazarene. Negro hatred, which is fostered by demagogues, set the unthinking mob upon him.</p>
+        <p>And this is the man who, some nights previously, prepared the church for a meeting of colored citizens, who desired to enact some measures to assist in crushing the rebellion. He also refused to accept any remuneration for his services.</p>
+      </div1>
+      <div1 type="section">
+        <byline>[Communicated to the Detroit Advertiser and Tribune.]</byline>
+        <head>AN EXPRESSION BY THE COLORED PEOPLE OF DETROIT <lb/> CONCERNING THE LATE RIOT.</head>
+        <opener>
+          <dateline>DETROIT, Mich., <date>March 11th, 1863.</date></dateline>
+        </opener>
+        <p>According to notice, a number of the citizens assembled at the A. M. E. Church, on Lafayette street, near Beaubien; whereupon, on motion of
+<pb id="p18" n="18"/>
+Mr. G. Hodge, the Rev. J. A. Warren was called to the Chair, and J. J. Byrd appointed Secretary.</p>
+        <p>On motion of Mr. Hodge, the Chairman stated the object of the meeting; and in brief, but appropriate remarks, said that we were assembled together to give an expression of our sympathy toward those of our fellow men upon whom the horrible outrages of Friday, the 6th instant, were committed; that as citizens of this Republic, such acts of injustice, crime and murder should not be passed by without a demonstration of our abhorrence and indignation at such infamous cruelties, especially when committed on an innocent and unoffending people.</p>
+        <p>Mr. Hodge next took the floor, and in a demonstrative manner expressed his opinion in relation to the subject, upon which he dwelt at considerable length. He spoke of the present rebellion and war, and his people's willingness to do service for their country and their race, when a favorable opportunity was presented.</p>
+        <p>On motion, the Chairman appointed a committee of five to draft resolutions suitable to the occasion.</p>
+        <p>Messrs. J. A. D. Green, G. Hodge, J. W. Lee, H. Bowler and J. J. Byrd were appointed as said committee.</p>
+        <p>The committee withdrew, and on their return reported the following:</p>
+        <p><hi rend="italics">Whereas,</hi> In consequence of the destructive and disastrous riot and mob which transpired in this city, on Friday, the 6th instant, which has proved the decisive instrument of separating husband and wife, parent and child, with the loss of the property of some of our most influential citizens, also many others, who were in destitute circumstances; therefore,</p>
+        <p><hi rend="italics">Resolved,</hi> That the unfortunate victims of these horrible and murderous cruelties have our undivided and unceasing sympathies in their bereaved condition, individually and collectively.</p>
+        <p><hi rend="italics">Resolved,</hi> That in the nature of this inhuman and unlawful mob, we find no equal in the history of nations or communities, civilized or uncivilized, for the acts of violence and outrage committed on helpless fersales and infants, when endeavoring to make their escape from the burning flames and infuriated mob; especially in one instance, where a helpless babe was torn from the arms of its unprotected mother, and in her presence kicked and buffed until life was almost extinct.</p>
+        <p><hi rend="italics">Resolved,</hi> That we return our grateful thanks to those patriotic and liberty-loving citizens who <sic corr="valiently">valiently</sic> aided in suppressing the riot, and in contributing to relieve the sufferers.</p>
+        <p><hi rend="italics">Resolved,</hi> That we cannot refrain from mentioning the brave and humane act of officer Sullivan, who, with undaunted courage and energy, stood in front of the reckless rioters, and prevented them from applying the torch to the A. M. E. Church, which they had indignantly sworn to fire, and in rescuing several colored men from the hands of the mob; also J. &amp; A. B. Taber, proprietors of the Biddle House, who kindly opened their hearts and their doors, to rescue one of the mangled flying victims from the fanatic and blood thirsty mob.</p>
+        <p><hi rend="italics">Resolved,</hi> That as citizens we do not consider that we have laid ourselves liable to be censured as the instigators of these disturbances
+<pb id="p19" n="19"/>
+in this community, but on the contrary, have proved ourselves to be law-abiding and peaceable citizens.</p>
+        <p>On motion, the resolutions were received and adopted.</p>
+        <p>It was moved that the proceedings of the meetings be published in the <hi rend="italics">Advertiser and Tribune,</hi> which was carried unanimously.</p>
+        <p>No further business being necessary, the meeting adjourned.</p>
+        <closer><signed><name>REV. J. A. WARREN,</name> Chairman.</signed>
+<signed><name>J. J. BYRD,</name> Secretary.</signed></closer>
+      </div1>
+      <div1 type="section">
+        <byline>[Extract from the Detroit Advertiser and Tribune.]</byline>
+        <head>THE LATE RIOT—CORONERS INQUEST OVER THE COLORED <lb/> MAN, BOYD—THE FURY AND BRUTALITY OF <lb/> THE MOB—THEIR CRY WAS—HANG HIM, <lb/> BURN HIM, KILL HIM!!!</head>
+        <p>On Wednesday morning, Coroner Daly <sic corr="empanelled">empannelled</sic> a jury to hold an inquest over the dead body of Joshua Boyd, the colored man who died at St. Mary's Hospital on Tuesday night in consequence of injuries inflicted on him during the riot of Friday. The following is a list of the jurymen: James J. Cicott. Boliver Freeman, Charles T. Allen, Solomon D. Weaver, Francis Coon, Lyman B. Smith.</p>
+        <div2 type="section">
+          <head>EXAMINATION OF FRIDAY MORNING.</head>
+          <p>The jury assembled at Justice McCarthy's office at 10 o'clock, Friday forenoon.</p>
+          <p>DENNIS K SULLIVAN, sworn—Is an officer; saw deceased at St. Mary's Hospital on Monday; an oldish man; was the same man which witness sent up to the Hospital on Friday afternoon; witness' attention was called to deceased by groans coming from an old barn near the rear of the <sic corr="cooper">coper</sic>'s shop on Beaubien street; his head was cut open, and was badly wounded in the arm and in the back; asked a man to help him to get the deceased out of the barn; carried him across the road to a saloon on East Fort street. The crowd followed and hooted, and said he was the nigger who shot the boy passing by the cooper's shop; it was the first shot fired from the cooper's shop. The crowd cried “Kill him,” “Hang him,” &amp;c. There was much excitement. Witness recognized several persons in the crowd take active part in the disturbance—among them a German named Griffer, whom the witness afterwards arrested, and who is now in jail. Did not see the cooper shop fired; saw Edward Crosby when he was shot; Crosby had thrown two stones into the windows of the shop on the alley, and then ran around and kicked the front door open. He then went around on the vacant lot east of the shop, and, picking up two stones, he was fired at from the shop, and was hit in the face, on the left cheek—apparently by a discharge from a shot gun. Dont know who hit the colored man; he was badly hurt before witness found him. While at the saloon referred to, an attempt was made to get the man away from witness; the man Griffer entered in spite of witness' efforts, and got a glass of lager, and then went out and said the d—d nigger was in there;
+<pb id="p20" n="20"/>
+it had cost him ten cents to get a glass of beer, to get a look at him; exhorted the crowd to get him out; kill him; hang him; was very much excited; witness, by aid of two men, got deceased out to back shed, with the view of <sic corr="getting">geting</sic> him away safely; the crowd got a clothes line and desired that witness should give them the privilege of putting it around his neck; witness remonstrated, and finally, after expostulating, the crowd consented that deceased should be taken away; witness asked Bishop Le-Fevre to accompany the deceased to St. Mary's Hospital, which he did; witness was assisted throughout the affair by Jhon Gnow.</p>
+          <p>DAVID M. FREEMAN, sworn—Is an officer of the city; saw the shop on fire, and assisted three women in getting out of the burning house next to the cooper's shop, also an old colored man; saw a negro escape from the burning building and run down Beaubien street; he was struck with a brick, and knocked down. There were two other men in the building when it was burning; don't know what became of them. He then saw an old negro man crawling away from the flames; was trying to get under a wheelbarrow to avoid the fire. Witness took him away to the house of a colored man on Lafayette street, where the witness left him. Witness then returned to cooper shop, and saw two colored men who had been badly beaten lying down on the ground, and boys were throwing stones at them; witness caught hold of one of the boys and a bystander told the witness to let the boy alone; a colored man with long straight hair fell down, and witness saw him go into the barn; believes him to have been the deceased; he was badly beaten. Another colored man went up the alley to Beaubien street, and escaped. Boys and young men were the chief operators in the scene. No persons were on the ground to aid the officers or remonstrate against the riotous proceedings.</p>
+          <p>JOHN J. BAGLEY was sworn—Was near the scene when the disturbance took place; saw the cooper shop in flames; was on Croghan street and saw a negro prostrate and apparently badly hurt. Boys, some apparently not over ten years of age, were kicking the prostrate negro in the face and head. Witness tried to find authorities, but was unable to find a single officer. He succeeded in calling a few citizens to his aid, and the man was taken to Dr. Stewart's on Clinton street. Cannot identify any of the persons, participators in the riot, by name, knows several of them by sight.</p>
+          <p>DR. J. C. GORDON was sworn and said: Is acting Chief of Police. Went over to Canada on Sunday afternoon to see deceased, who was badly hurt and in a dying condition; went over to bring to the hospital. Mr. Durfee had anticipated witness, and deceased was brought over in a hack and taken again to St. Mary's Hospital. There appeared to be scarcely a chance for his recovery; didn't see deceased again until he was called by the Coroner to make a post mortem examination. Upon examination, he found the head badly bruised just below the crown, a little to the left. The upper part of his face was beaten all to a jelly; his nose was broken; he was burnt from the right <sic corr="buttocks">buttox</sic> above the hip to the knee; burnt about half an inch into the muscles. The burn of itself would have
+<pb id="p21" n="21"/>
+caused death; either of the injuries would have proved fatal. The skull was not fractured. Witness is a practical Physician and Surgeon.</p>
+          <p>The jury adjourned to 10 o'clock on Monday morning, to meet at Justice McCarthy's office.</p>
+        </div2>
+      </div1>
+      <div1 type="section">
+        <byline>[From the Detroit Advertiser and <sic corr="Tribune">Trribune</sic>.]</byline>
+        <head>THE PROTECTION OF ALL IS THE ONLY SECURITY FOR <lb/> ANY.</head>
+        <p>The principle that all peaceable and industrious members of society, however poor and humble, must be protected in their legal and natural rights, in order that any of us may be secure, is strongly presented in the following extracts from Rev. S. S. Hunting's sermon, in this city, last Sunday evening;</p>
+        <p>But the threat is made, that “if the course of things,” which I would do my utmost to help on; viz.: the elevation of the negro in moral, intellectual and social endowments, “shall not be arrested,” the recent riot “is but premonitory of an uprising which will leave no resting place for the negro in the States of the Northwest.”</p>
+        <p>Now, let it be distinctly understood, that the attempt to exterminate the negro, will bring extermination to certain classes of their enemies, who are not yet prepared to die; indeed, that the persistent attempt to drive the <sic corr="negroes">negres</sic> from this city, would lead to the utter destruction of it. It is not easy to root out a body of loyal, peaceful citizens from a community, who have their firm minds, without revolutionizing society and producing chaos. There are people here who would deem it as honorable to die defending the homes of the humblest citizen, as they would to die at the head of the army, in defense of the Government.</p>
+        <p>And what is defending the Government, but protecting the property of persons who are a legitimate part of the nation? That Government is of little value which does not hold the rights of its poorest subject as sacred as those of the richest. Indeed, who will show us the distinction to be made between the homes of the white and black, the rich and the poor? Is not your house protected from the fire by extinguishing the flames on that of your poor neighbor? If the houses of one class of citizens are not safe from the torch of the incendiary, is any body's safe? If we resort to mobs, where shall we stop?</p>
+        <p>The colored man is not wanting in muscular strength, nor in shrewdness; and does any one dare to encourage this plan of extermination? Do journalists know what fire-brands they are handling when they use such language, or make such threats? There is not the least possibility that an oppressed race, having caught the inspiration of a progressive age, will sink back into their former degradation, or stop in their progress. The negro may claim this as his native land; he is susceptible to social and political influences, and he must rise with the general progress of society and the advancement of civilization, and whoever lifts the brickbat or cudgel to beat him down,—or, which is the same thing, slanders him and talks of his extermination—is putting a torch to his own house, is fighting
+<pb id="p22" n="22"/>
+against the will of God, and will sooner or later be defeated. He who falls upon the “rejected stone, shall be broken,” but “he upon whom it falls shall be ground to powder.” Let all beware how they countenance this prejudice against a race, or give their sanction to it in the least. This negro hatred is what blinded the eyes of the nation, and threatens future calamity if it is not checked and overcome.</p>
+        <p>The destruction of the property of the poor man, all the goods he has, and taking from him every earthly comfort, is a sad and serious loss; but the attacks upon the rights of life and liberty of this people, by the mob and their abettors, is a much more alarming fact. The protection of property is one of the “social and relative” rights, and secondary to the absolute right of the protection of one's person; and it is upon this point that we witness a sad confusion of mind.</p>
+        <p>After so many families had been burnt out of their homes and brutally treated—men escaping murder only by their physical endurance, and women outraged,—we could hear people on the street saying: “What a pity it was to destroy so much property;” “Too bad to burn up so much property—too bad, indeed!” But these very exclamations show how we habitually lose sight of natural rights by our absorption in what ministers to cupidity or animal want. The “Almighty Dollar” is good in its place, but when it fills a larger place in the hearts of the people than mankind, the rights of property will be defended when personal rights will be forgotten Then a suicidal policy may be adopted by the Government, for only  by protecting the poorest and weakest members of the community in their rights, can we have any assurance of protection for the richest and the strongest.</p>
+        <p>Tax-payers open their eyes when they pay for the property which the mob destroyed; but to refuse to pay for the homes of the virtuous poor thus destroyed, is a kind of thieving which honorable men will not be guilty of. But this is not all the compensation which justice demands. She demands pay for the days and weeks of suffering which those poor men must endure as the result of the attack upon their natural rights. Who pays for the attempt to kill the old Sexton who has been a peaceful citizen for fifty years? Who pays for the blow which laid him upon the sidewalk? Will the ruffian? Will the policemen who coldly looked on, not offering to protect him, nor to arrest the criminal when reminded of their duty? Justice requires that the city pay a fine for every blow inflicted by the mob upon industrious and sober citizens. Every person in the community, who is in any sense a citizen, is a member of the body-politic; and when, by the negligence, carelessness, imbecility, or complicity of the Government, through any of its agents, a single member of a society is injured in his person or property,—even the weakest member, himself not a criminal,—the corporation should pay all damages,—for every wound inflicted, every limb maimed;—and not until there is some such protection to natural rights will our liberties be secured. Individuals can give aid and comfort to the sufferers, but the whole city should be bled in the pocket for every drop of blood shed by that mob.</p>
+        <p>And let no one think of the distinction of races, but deal justly and mercifully with the German, the Irish and the Negro. All the innocent
+<pb id="p23" n="23"/>
+should be remembered. If it can be proved that any person injured in his property was using the house illegally—for instance, was keeping a house of ill-fame—we give him no sympathy for his losses, and only pity him for his depravity. But, yet, there is a legal way to break up these social hells. Let the wicked be punished and the virtuous be protected.</p>
+      </div1>
+      <div1 type="section">
+        <head>THE RIOT.</head>
+        <docAuthor>BY B. CLARK, SEN., A COLORED MAN.</docAuthor>
+        <lg type="verse">
+          <lg type="poem">
+            <l>'Twas in Detroit city, the State of Michigan,</l>
+            <l>Where mob law reigned rampant, disgraceful to man,</l>
+            <l>In killing and beating both women and men,</l>
+            <l>And sacking and burning beyond human ken.</l>
+          </lg>
+          <lg type="poem">
+            <l>The crowd ran collected and beat every one,</l>
+            <l>Whose skin were not colored exact like their own,</l>
+            <l>And swore they'd have “Falkner,” and hang him that day,</l>
+            <l>Or kill every “nigger” that came in their way.</l>
+          </lg>
+          <lg type="poem">
+            <l>The only pretext for this outbreak in fact,</l>
+            <l>Was “Falkner” committed an now nameless act,</l>
+            <l>Although given up to the law right away,</l>
+            <l>The mob sought to lynch him in broad open day.</l>
+          </lg>
+          <lg type="poem">
+            <l>Now be it remember'd that Falkner at right,</l>
+            <l>Although call'd a “nigger,” had always been white,</l>
+            <l>Had voted, and always declared in his shop,</l>
+            <l>He never would sell colored people a drop.</l>
+          </lg>
+          <lg type="poem">
+            <l>He's what is call'd white, though I must confess,</l>
+            <l>So mixed are the folks now, we oft have to guess,</l>
+            <l>Their hair is <sic corr="?">co</sic> curl'd and their skins are so brown,</l>
+            <l>If they're white in the country, they're niggers in town.</l>
+          </lg>
+          <lg type="poem">
+            <l>To keep from a rescue, and take him to jail,</l>
+            <l>The soldiers were ordered to come without fail,</l>
+            <l>But they were insulted and stoned at—pell mell—</l>
+            <l>Till some of them fired and down a man fell.</l>
+          </lg>
+          <lg type="poem">
+            <l>The mob, disappointed, now hied to a place</l>
+            <l>Where some humble coopers, of the sable race,</l>
+            <l>Were honestly working to earn their own bread,</l>
+            <l>By rowdies were set on and left almost dead.</l>
+          </lg>
+          <pb id="p24" n="24"/>
+          <lg type="poem">
+            <l>They enter'd, and beat them with billets of wood,</l>
+            <l>Then fired the cooper shop just as it stood,</l>
+            <l>And as they attempted to rush from the flames,</l>
+            <l>They met them with bludgeons to dash out their brains.</l>
+          </lg>
+          <lg type="poem">
+            <l>Then they took the city without more delay,</l>
+            <l>And fired each building that stood in their way,</l>
+            <l>Until the red glare had ascended on high,</l>
+            <l>And lit up the great azure vault of the sky.</l>
+          </lg>
+          <lg type="poem">
+            <l>The sight was most awful indeed to behold,</l>
+            <l>See women and babes driven out in the cold,</l>
+            <l>And old aged sires, that fought for the land,</l>
+            <l>Beat almost to death by a desperate band.</l>
+          </lg>
+          <lg type="poem">
+            <l>Whilst females were heard crying, “kill them”—Oh; shame,</l>
+            <l>They urged on the mob, yet there's no one to blame,</l>
+            <l>'Twas got up to please our friends of the South,</l>
+            <l>Now don't say a word—nay, don't open your mouth.</l>
+          </lg>
+          <lg type="poem">
+            <l>We go in for the Union just as it was.</l>
+            <l>And slavery also, and all the slave laws;</l>
+            <l>Now do not think hard if we do behave rash,</l>
+            <l>By burning those houses we pocket some cash.</l>
+          </lg>
+          <lg type="poem">
+            <l>'Tis said that those houses and inmates were bad,</l>
+            <l>And hence the excuse that the outragers had,</l>
+            <l>Yet was it the true love of virtue alone,</l>
+            <l>That made the mob anxious to pull a church down?</l>
+          </lg>
+          <lg type="poem">
+            <l>Strange as it may be, yet 'tis true without doubt,</l>
+            <l>Mobs do not discriminate if once let out;</l>
+            <l>So when they had fired the huts of the poor,</l>
+            <l>They ran with the torch to their rich neighbor's door.</l>
+          </lg>
+          <lg type="poem">
+            <l>This brought the community plainly to see</l>
+            <l>The danger in which all were likely to be;</l>
+            <l>The rich and the poor, the black and the white,</l>
+            <l>Stood a chance to be mobbed and burned out that night.</l>
+          </lg>
+          <lg type="poem">
+            <l>I blush when I think that such deeds should take place,</l>
+            <l>Not heathens or Turks, a civilized race,</l>
+            <l>Not where savage nations alone have the rule,</l>
+            <l>But here amidst churches, the Bible and school.</l>
+          </lg>
+          <lg type="poem">
+            <l>Humanity wept, she lamented the sight,</l>
+            <l>The groans, blood and tears of that terrible night;</l>
+            <l>Yet, oh, may the town of Detroit never see</l>
+            <l>Such a day as the sixth of March, sixty-three.</l>
+          </lg>
+        </lg>
+      </div1>
+    </body>
+  </text>
+</TEI.2>
