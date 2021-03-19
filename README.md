@@ -1,5 +1,5 @@
 # Measuring Intersectionality
-Code to reproduce the models and analysis in the paper "Leveraging the Alignment between Machine Learning and Intersectionality:  Using Word Embeddings to Measure Intersectional Experiences of the Nineteenth Century U.S. South", authored by Laura K. Nelson and forthcoming in *Poetics*.
+Code to reproduce the models and analysis in the paper ["Leveraging the Alignment between Machine Learning and Intersectionality:  Using Word Embeddings to Measure Intersectional Experiences of the Nineteenth Century U.S. South"](https://www.sciencedirect.com/science/article/abs/pii/S0304422X21000115?dgcid=author), authored by Laura K. Nelson and forthcoming in *Poetics*.
 
 ## Data
 
